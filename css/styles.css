@@ -278,6 +278,14 @@ main {
   background: #fbfcfd;
   white-space: nowrap;
 }
+.muted-chip {
+  color: var(--muted);
+}
+.chip-link {
+  color: var(--green);
+  font-weight: 750;
+  text-decoration: none;
+}
 .officials-intro {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;

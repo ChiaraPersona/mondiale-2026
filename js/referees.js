@@ -17,58 +17,58 @@ const confedLabels = {
 };
 
 const referees = [
-  { name: "Adham Makhadmeh", country: "Giordania", confed: "AFC" },
-  { name: "Ma Ning", country: "Cina", confed: "AFC" },
-  { name: "Alireza Faghani", country: "Australia", confed: "AFC" },
-  { name: "Yusuke Araki", country: "Giappone", confed: "AFC" },
-  { name: "Abdulrahman Al Jassim", country: "Qatar", confed: "AFC" },
-  { name: "Khalid Al Turais", country: "Arabia Saudita", confed: "AFC" },
-  { name: "Omar Al Ali", country: "Emirati Arabi Uniti", confed: "AFC" },
-  { name: "Ilgiz Tantashev", country: "Uzbekistan", confed: "AFC" },
-  { name: "Mustapha Ghorbal", country: "Algeria", confed: "CAF" },
-  { name: "Pierre Atcho", country: "Gabon", confed: "CAF" },
-  { name: "Amin Mohamed", country: "Egitto", confed: "CAF" },
-  { name: "Jalal Jayed", country: "Marocco", confed: "CAF" },
-  { name: "Dahane Beida", country: "Mauritania", confed: "CAF" },
-  { name: "Omar Abdulkadir Artan", country: "Somalia", confed: "CAF" },
-  { name: "Abongile Tom", country: "Sudafrica", confed: "CAF" },
-  { name: "Drew Fischer", country: "Canada", confed: "CONCACAF" },
-  { name: "Juan Calderón", country: "Costa Rica", confed: "CONCACAF" },
-  { name: "Héctor Said Martínez", country: "Honduras", confed: "CONCACAF" },
-  { name: "Oshane Nation", country: "Giamaica", confed: "CONCACAF" },
-  { name: "César Ramos", country: "Messico", confed: "CONCACAF" },
-  { name: "Katia García", country: "Messico", confed: "CONCACAF" },
-  { name: "Iván Barton", country: "El Salvador", confed: "CONCACAF" },
-  { name: "Ismail Elfath", country: "Stati Uniti", confed: "CONCACAF" },
-  { name: "Tori Penso", country: "Stati Uniti", confed: "CONCACAF" },
-  { name: "Yael Falcón Pérez", country: "Argentina", confed: "CONMEBOL" },
-  { name: "Darío Herrera", country: "Argentina", confed: "CONMEBOL" },
-  { name: "Facundo Tello", country: "Argentina", confed: "CONMEBOL" },
-  { name: "Ramon Abatti", country: "Brasile", confed: "CONMEBOL" },
-  { name: "Raphael Claus", country: "Brasile", confed: "CONMEBOL" },
-  { name: "Wilton Sampaio", country: "Brasile", confed: "CONMEBOL" },
-  { name: "Cristian Garay", country: "Cile", confed: "CONMEBOL" },
-  { name: "Andrés Rojas", country: "Colombia", confed: "CONMEBOL" },
-  { name: "Juan Gabriel Benítez", country: "Paraguay", confed: "CONMEBOL" },
-  { name: "Kevin Ortega", country: "Perù", confed: "CONMEBOL" },
-  { name: "Gustavo Tejera", country: "Uruguay", confed: "CONMEBOL" },
-  { name: "Jesús Valenzuela", country: "Venezuela", confed: "CONMEBOL" },
-  { name: "Campbell-Kirk Kawana-Waugh", country: "Nuova Zelanda", confed: "OFC" },
-  { name: "Michael Oliver", country: "Inghilterra", confed: "UEFA" },
-  { name: "Anthony Taylor", country: "Inghilterra", confed: "UEFA" },
-  { name: "François Letexier", country: "Francia", confed: "UEFA" },
-  { name: "Clément Turpin", country: "Francia", confed: "UEFA" },
-  { name: "Felix Zwayer", country: "Germania", confed: "UEFA" },
-  { name: "Maurizio Mariani", country: "Italia", confed: "UEFA" },
-  { name: "Danny Makkelie", country: "Olanda", confed: "UEFA" },
-  { name: "Espen Eskås", country: "Norvegia", confed: "UEFA" },
-  { name: "Szymon Marciniak", country: "Polonia", confed: "UEFA" },
-  { name: "João Pinheiro", country: "Portogallo", confed: "UEFA" },
-  { name: "István Kovács", country: "Romania", confed: "UEFA" },
-  { name: "Slavko Vinčić", country: "Slovenia", confed: "UEFA" },
-  { name: "Alejandro Hernández", country: "Spagna", confed: "UEFA" },
-  { name: "Glenn Nyberg", country: "Svezia", confed: "UEFA" },
-  { name: "Sandro Schärer", country: "Svizzera", confed: "UEFA" },
+  { name: "Adham Makhadmeh", country: "Giordania", confed: "AFC", stats: { fixtures: 111, yellowCards: 337, redCards: 6, yellowPerGame: 3.04, source: "https://playerstats.football/referee/783" } },
+  { name: "Ma Ning", country: "Cina", confed: "AFC", stats: { fixtures: 308, yellowCards: 1040, redCards: 44, yellowPerGame: 3.38, source: "https://playerstats.football/referee/779" } },
+  { name: "Alireza Faghani", country: "Australia", confed: "AFC", stats: { fixtures: 437, yellowCards: 1579, redCards: 37, yellowPerGame: 3.61, source: "https://playerstats.football/referee/661" } },
+  { name: "Yusuke Araki", country: "Giappone", confed: "AFC", stats: { fixtures: 287, yellowCards: 731, redCards: 18, yellowPerGame: 2.55, source: "https://playerstats.football/referee/808" } },
+  { name: "Abdulrahman Al Jassim", country: "Qatar", confed: "AFC", stats: { fixtures: 274, yellowCards: 1045, redCards: 21, yellowPerGame: 3.81, source: "https://playerstats.football/referee/550" } },
+  { name: "Khalid Al Turais", country: "Arabia Saudita", confed: "AFC", stats: null },
+  { name: "Omar Al Ali", country: "Emirati Arabi Uniti", confed: "AFC", stats: { fixtures: 209, yellowCards: 792, redCards: 38, yellowPerGame: 3.79, source: "https://playerstats.football/referee/1297" } },
+  { name: "Ilgiz Tantashev", country: "Uzbekistan", confed: "AFC", stats: { fixtures: 270, yellowCards: 940, redCards: 24, yellowPerGame: 3.48, source: "https://playerstats.football/referee/780" } },
+  { name: "Mustapha Ghorbal", country: "Algeria", confed: "CAF", stats: { fixtures: 182, yellowCards: 704, redCards: 21, yellowPerGame: 3.87, source: "https://playerstats.football/referee/569" } },
+  { name: "Pierre Atcho", country: "Gabon", confed: "CAF", stats: null },
+  { name: "Amin Mohamed", country: "Egitto", confed: "CAF", stats: { fixtures: 152, yellowCards: 607, redCards: 16, yellowPerGame: 3.99, source: "https://playerstats.football/referee/812" } },
+  { name: "Jalal Jayed", country: "Marocco", confed: "CAF", stats: { fixtures: 100, yellowCards: 388, redCards: 10, yellowPerGame: 3.88, source: "https://playerstats.football/referee/551" } },
+  { name: "Dahane Beida", country: "Mauritania", confed: "CAF", stats: { fixtures: 46, yellowCards: 174, redCards: 5, yellowPerGame: 3.78, source: "https://playerstats.football/referee/815" } },
+  { name: "Omar Abdulkadir Artan", country: "Somalia", confed: "CAF", stats: null },
+  { name: "Abongile Tom", country: "Sudafrica", confed: "CAF", stats: { fixtures: 218, yellowCards: 915, redCards: 21, yellowPerGame: 4.20, source: "https://playerstats.football/referee/578" } },
+  { name: "Drew Fischer", country: "Canada", confed: "CONCACAF", stats: { fixtures: 253, yellowCards: 847, redCards: 27, yellowPerGame: 3.35, source: "https://playerstats.football/referee/490" } },
+  { name: "Juan Calderón", country: "Costa Rica", confed: "CONCACAF", stats: { fixtures: 174, yellowCards: 651, redCards: 29, yellowPerGame: 3.74, source: "https://playerstats.football/referee/1068" } },
+  { name: "Héctor Said Martínez", country: "Honduras", confed: "CONCACAF", stats: { fixtures: 165, yellowCards: 688, redCards: 30, yellowPerGame: 4.17, source: "https://playerstats.football/referee/1071" } },
+  { name: "Oshane Nation", country: "Giamaica", confed: "CONCACAF", stats: { fixtures: 175, yellowCards: 661, redCards: 25, yellowPerGame: 3.78, source: "https://playerstats.football/referee/1059" } },
+  { name: "César Ramos", country: "Messico", confed: "CONCACAF", stats: { fixtures: 393, yellowCards: 1643, redCards: 97, yellowPerGame: 4.18, source: "https://playerstats.football/referee/837" } },
+  { name: "Katia García", country: "Messico", confed: "CONCACAF", stats: { fixtures: 79, yellowCards: 256, redCards: 7, yellowPerGame: 3.24, source: "https://playerstats.football/referee/47" } },
+  { name: "Iván Barton", country: "El Salvador", confed: "CONCACAF", stats: { fixtures: 185, yellowCards: 932, redCards: 38, yellowPerGame: 5.04, source: "https://playerstats.football/referee/1101" } },
+  { name: "Ismail Elfath", country: "Stati Uniti", confed: "CONCACAF", stats: { fixtures: 293, yellowCards: 1048, redCards: 31, yellowPerGame: 3.58, source: "https://playerstats.football/referee/473" } },
+  { name: "Tori Penso", country: "Stati Uniti", confed: "CONCACAF", stats: { fixtures: 127, yellowCards: 437, redCards: 6, yellowPerGame: 3.44, source: "https://playerstats.football/referee/42" } },
+  { name: "Yael Falcón Pérez", country: "Argentina", confed: "CONMEBOL", stats: { fixtures: 303, yellowCards: 1570, redCards: 45, yellowPerGame: 5.18, source: "https://playerstats.football/referee/859" } },
+  { name: "Darío Herrera", country: "Argentina", confed: "CONMEBOL", stats: { fixtures: 469, yellowCards: 2296, redCards: 85, yellowPerGame: 4.90, source: "https://playerstats.football/referee/656" } },
+  { name: "Facundo Tello", country: "Argentina", confed: "CONMEBOL", stats: { fixtures: 393, yellowCards: 1804, redCards: 80, yellowPerGame: 4.59, source: "https://playerstats.football/referee/915" } },
+  { name: "Ramon Abatti", country: "Brasile", confed: "CONMEBOL", stats: { fixtures: 312, yellowCards: 1490, redCards: 63, yellowPerGame: 4.78, source: "https://playerstats.football/referee/43" } },
+  { name: "Raphael Claus", country: "Brasile", confed: "CONMEBOL", stats: { fixtures: 595, yellowCards: 2251, redCards: 93, yellowPerGame: 3.78, source: "https://playerstats.football/referee/426" } },
+  { name: "Wilton Sampaio", country: "Brasile", confed: "CONMEBOL", stats: { fixtures: 541, yellowCards: 2378, redCards: 77, yellowPerGame: 4.40, source: "https://playerstats.football/referee/511" } },
+  { name: "Cristian Garay", country: "Cile", confed: "CONMEBOL", stats: { fixtures: 245, yellowCards: 1076, redCards: 62, yellowPerGame: 4.39, source: "https://playerstats.football/referee/33" } },
+  { name: "Andrés Rojas", country: "Colombia", confed: "CONMEBOL", stats: { fixtures: 385, yellowCards: 1835, redCards: 70, yellowPerGame: 4.77, source: "https://playerstats.football/referee/1112" } },
+  { name: "Juan Gabriel Benítez", country: "Paraguay", confed: "CONMEBOL", stats: { fixtures: 272, yellowCards: 1254, redCards: 55, yellowPerGame: 4.61, source: "https://playerstats.football/referee/725" } },
+  { name: "Kevin Ortega", country: "Perù", confed: "CONMEBOL", stats: { fixtures: 294, yellowCards: 1450, redCards: 64, yellowPerGame: 4.93, source: "https://playerstats.football/referee/727" } },
+  { name: "Gustavo Tejera", country: "Uruguay", confed: "CONMEBOL", stats: { fixtures: 322, yellowCards: 1641, redCards: 37, yellowPerGame: 5.10, source: "https://playerstats.football/referee/1102" } },
+  { name: "Jesús Valenzuela", country: "Venezuela", confed: "CONMEBOL", stats: { fixtures: 355, yellowCards: 1777, redCards: 50, yellowPerGame: 5.01, source: "https://playerstats.football/referee/726" } },
+  { name: "Campbell-Kirk Kawana-Waugh", country: "Nuova Zelanda", confed: "OFC", stats: null },
+  { name: "Michael Oliver", country: "Inghilterra", confed: "UEFA", stats: { fixtures: 713, yellowCards: 2359, redCards: 56, yellowPerGame: 3.31, source: "https://playerstats.football/referee/223" } },
+  { name: "Anthony Taylor", country: "Inghilterra", confed: "UEFA", stats: { fixtures: 726, yellowCards: 2603, redCards: 69, yellowPerGame: 3.59, source: "https://playerstats.football/referee/226" } },
+  { name: "François Letexier", country: "Francia", confed: "UEFA", stats: { fixtures: 408, yellowCards: 1449, redCards: 62, yellowPerGame: 3.55, source: "https://playerstats.football/referee/217" } },
+  { name: "Clément Turpin", country: "Francia", confed: "UEFA", stats: { fixtures: 568, yellowCards: 1845, redCards: 103, yellowPerGame: 3.25, source: "https://playerstats.football/referee/208" } },
+  { name: "Felix Zwayer", country: "Germania", confed: "UEFA", stats: { fixtures: 557, yellowCards: 2266, redCards: 46, yellowPerGame: 4.07, source: "https://playerstats.football/referee/411" } },
+  { name: "Maurizio Mariani", country: "Italia", confed: "UEFA", stats: { fixtures: 377, yellowCards: 1421, redCards: 48, yellowPerGame: 3.77, source: "https://playerstats.football/referee/333" } },
+  { name: "Danny Makkelie", country: "Olanda", confed: "UEFA", stats: { fixtures: 686, yellowCards: 2272, redCards: 72, yellowPerGame: 3.31, source: "https://playerstats.football/referee/207" } },
+  { name: "Espen Eskås", country: "Norvegia", confed: "UEFA", stats: { fixtures: 366, yellowCards: 1058, redCards: 16, yellowPerGame: 2.89, source: "https://playerstats.football/referee/23" } },
+  { name: "Szymon Marciniak", country: "Polonia", confed: "UEFA", stats: { fixtures: 677, yellowCards: 2769, redCards: 70, yellowPerGame: 4.09, source: "https://playerstats.football/referee/513" } },
+  { name: "João Pinheiro", country: "Portogallo", confed: "UEFA", stats: { fixtures: 390, yellowCards: 1721, redCards: 39, yellowPerGame: 4.41, source: "https://playerstats.football/referee/332" } },
+  { name: "István Kovács", country: "Romania", confed: "UEFA", stats: { fixtures: 465, yellowCards: 2078, redCards: 48, yellowPerGame: 4.47, source: "https://playerstats.football/referee/159" } },
+  { name: "Slavko Vinčić", country: "Slovenia", confed: "UEFA", stats: { fixtures: 444, yellowCards: 1819, redCards: 39, yellowPerGame: 4.10, source: "https://playerstats.football/referee/512" } },
+  { name: "Alejandro Hernández", country: "Spagna", confed: "UEFA", stats: { fixtures: 22, yellowCards: 118, redCards: 6, yellowPerGame: 5.36, source: "https://playerstats.football/referee/1804" } },
+  { name: "Glenn Nyberg", country: "Svezia", confed: "UEFA", stats: { fixtures: 441, yellowCards: 1315, redCards: 23, yellowPerGame: 2.98, source: "https://playerstats.football/referee/206" } },
+  { name: "Sandro Schärer", country: "Svizzera", confed: "UEFA", stats: { fixtures: 382, yellowCards: 1560, redCards: 36, yellowPerGame: 4.08, source: "https://playerstats.football/referee/173" } },
 ];
 
 let activeConfed = "Tutte";
@@ -110,6 +110,21 @@ function visibleReferees() {
   });
 }
 
+
+function renderRefereeStats(referee) {
+  if (!referee.stats) {
+    return '<span class="chip muted-chip">Statistiche n.d.</span>';
+  }
+
+  return [
+    '<span class="chip">Partite: ' + referee.stats.fixtures + '</span>',
+    '<span class="chip">Gialli: ' + referee.stats.yellowCards + '</span>',
+    '<span class="chip">Rossi: ' + referee.stats.redCards + '</span>',
+    '<span class="chip">Gialli/partita: ' + referee.stats.yellowPerGame.toFixed(2) + '</span>',
+    '<a class="chip chip-link" href="' + referee.stats.source + '" target="_blank" rel="noreferrer">Fonte stats</a>',
+  ].join('');
+}
+
 function renderReferees() {
   const filtered = visibleReferees();
   refereeContent.innerHTML = "";
@@ -134,6 +149,7 @@ function renderReferees() {
         '<h3 class="official-name">' + referee.name + '</h3>' +
         '<div class="official-meta">' +
           '<span class="chip">' + referee.country + '</span>' +
+          renderRefereeStats(referee) +
         '</div>' +
       '</article>'
     )).join("");

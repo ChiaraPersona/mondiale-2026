@@ -6,8 +6,10 @@
  *
  * Colonne consigliate:
  * team,player,role,age,career_worldCupEditions,career_worldCupAppearances,career_clubAppearances,
- * career_nationalAppearances,career_goals,career_assists,career_yellowCards,career_redCards,
+ * career_nationalAppearances,career_goals,career_assists,career_goalsConceded,career_goalsConcededPerGame,
+ * career_yellowCards,career_redCards,
  * season2025_26_appearances,season2025_26_goals,season2025_26_assists,
+ * season2025_26_goalsConceded,season2025_26_goalsConcededPerGame,
  * season2025_26_yellowCards,season2025_26_redCards,sources
  */
 const fs = require('fs');
@@ -69,11 +71,15 @@ for (const row of readCsv(input)) {
   for (const [csvKey, target] of [
     ['career_worldCupEditions', 'worldCupEditions'], ['career_worldCupAppearances', 'worldCupAppearances'],
     ['career_clubAppearances', 'clubAppearances'], ['career_nationalAppearances', 'nationalAppearances'],
-    ['career_goals', 'goals'], ['career_assists', 'assists'], ['career_yellowCards', 'yellowCards'], ['career_redCards', 'redCards'],
+    ['career_goals', 'goals'], ['career_assists', 'assists'],
+    ['career_goalsConceded', 'goalsConceded'], ['career_goalsConcededPerGame', 'goalsConcededPerGame'],
+    ['career_yellowCards', 'yellowCards'], ['career_redCards', 'redCards'],
   ]) item.career[target] = row[csvKey] || item.career[target] || '';
   for (const [csvKey, target] of [
     ['season2025_26_appearances', 'appearances'], ['season2025_26_goals', 'goals'],
-    ['season2025_26_assists', 'assists'], ['season2025_26_yellowCards', 'yellowCards'], ['season2025_26_redCards', 'redCards'],
+    ['season2025_26_assists', 'assists'],
+    ['season2025_26_goalsConceded', 'goalsConceded'], ['season2025_26_goalsConcededPerGame', 'goalsConcededPerGame'],
+    ['season2025_26_yellowCards', 'yellowCards'], ['season2025_26_redCards', 'redCards'],
   ]) item.season2025_26[target] = row[csvKey] || item.season2025_26[target] || '';
   item.sources = row.sources ? row.sources.split('|').map(s => s.trim()).filter(Boolean) : item.sources || [];
 }

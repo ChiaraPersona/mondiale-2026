@@ -6,6 +6,7 @@ const content = document.getElementById("content");
 const search = document.getElementById("search");
 const empty = document.getElementById("empty");
 const statsStore = typeof playerStats !== "undefined" ? playerStats : {};
+const insightsStore = typeof teamInsights !== "undefined" ? teamInsights : {};
 
 function fold(value) {
   return String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -29,6 +30,8 @@ function getStats(row) {
       nationalAppearances: career.nationalAppearances || row.nationalTeamMatches || row.caps || "",
       goals: career.goals || row.goals || "",
       assists: career.assists || row.assists || "",
+      goalsConceded: career.goalsConceded || row.goalsConceded || "",
+      goalsConcededPerGame: career.goalsConcededPerGame || row.goalsConcededPerGame || "",
       yellowCards: career.yellowCards || row.yellowCards || "",
       redCards: career.redCards || row.redCards || "",
     },
@@ -36,11 +39,42 @@ function getStats(row) {
       appearances: season.appearances || "",
       goals: season.goals || "",
       assists: season.assists || "",
+      goalsConceded: season.goalsConceded || "",
+      goalsConcededPerGame: season.goalsConcededPerGame || "",
       yellowCards: season.yellowCards || "",
       redCards: season.redCards || "",
     },
     sources: stats.sources || [],
   };
+}
+
+function teamInsight(team) {
+  return insightsStore[team] || {};
+}
+
+function cleanNameTokens(value) {
+  return fold(value).replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter(Boolean);
+}
+
+function starterMatchesPlayer(starter, player) {
+  const starterName = fold(starter);
+  const playerName = fold(player);
+  if (!starterName || !playerName) return false;
+  if (starterName.length > 2 && (playerName.includes(starterName) || starterName.includes(playerName))) return true;
+
+  const starterTokens = cleanNameTokens(starter).filter((token) => token.length > 1);
+  const playerTokens = cleanNameTokens(player).filter((token) => token.length > 1);
+  if (!starterTokens.length || !playerTokens.length) return false;
+  if (starterTokens.length === 1) {
+    const token = starterTokens[0];
+    return playerTokens.includes(token) || playerTokens[playerTokens.length - 1] === token;
+  }
+  return starterTokens.every((token) => playerTokens.includes(token));
+}
+
+function isProbableStarter(row) {
+  const starters = teamInsight(row.team).starters || [];
+  return starters.some((starter) => starterMatchesPlayer(starter, row.player));
 }
 
 function stat(value) {
@@ -93,11 +127,26 @@ function statChip(label, value) {
   return '<span class="stat-chip"><b>' + label + '</b>' + stat(value) + '</span>';
 }
 
+function goalsConcededAverage(goalsConceded, appearances) {
+  const goals = Number(goalsConceded);
+  const games = Number(appearances);
+  if (!Number.isFinite(goals) || !Number.isFinite(games) || games <= 0) return "";
+  return (goals / games).toFixed(2);
+}
+
+function goalkeeperConcededAverage(stats) {
+  return stats.season2025_26.goalsConcededPerGame
+    || goalsConcededAverage(stats.season2025_26.goalsConceded, stats.season2025_26.appearances)
+    || stats.career.goalsConcededPerGame
+    || goalsConcededAverage(stats.career.goalsConceded, stats.career.clubAppearances);
+}
+
 function playerStatsHtml(row) {
   const stats = getStats(row);
   const c = stats.career;
   const s = stats.season2025_26;
   const sourceLabel = stats.sources.length ? stats.sources.length + ' fonti' : 'fonti da aggiungere';
+  const isGoalkeeper = row.role === "Portieri";
 
   return '<div class="player-stats-panel">'
     + '<div class="stats-row stats-row-top">'
@@ -111,8 +160,7 @@ function playerStatsHtml(row) {
     + statChip('Pres. Mondiali', c.worldCupAppearances)
     + statChip('Partite club', c.clubAppearances)
     + statChip('Pres. Nazionale', c.nationalAppearances)
-    + statChip('Goal', c.goals)
-    + statChip('Assist', c.assists)
+    + (isGoalkeeper ? statChip('Media gol subiti', goalkeeperConcededAverage(stats)) : statChip('Goal', c.goals) + statChip('Assist', c.assists))
     + statChip('Gialli', c.yellowCards)
     + statChip('Rossi', c.redCards)
     + '</div></details>'
@@ -120,8 +168,7 @@ function playerStatsHtml(row) {
     + '<summary>Stagione 2025/26</summary>'
     + '<div class="stats-row">'
     + statChip('Presenze', s.appearances)
-    + statChip('Goal', s.goals)
-    + statChip('Assist', s.assists)
+    + (isGoalkeeper ? statChip('Media gol subiti', goalkeeperConcededAverage(stats)) : statChip('Goal', s.goals) + statChip('Assist', s.assists))
     + statChip('Gialli', s.yellowCards)
     + statChip('Rossi', s.redCards)
     + '</div></details>'
@@ -130,6 +177,7 @@ function playerStatsHtml(row) {
 
 function render() {
   const filtered = visibleRows();
+  const hasSearch = Boolean(search.value.trim());
   content.innerHTML = "";
   empty.style.display = filtered.length ? "none" : "block";
 
@@ -148,10 +196,15 @@ function render() {
       const teamRows = groupRows.filter((row) => row.team === team);
       if (!teamRows.length) continue;
       const status = teamRows.some((row) => row.status !== "Ufficiale") ? teamRows.find((row) => row.status !== "Ufficiale").status : "Ufficiale";
-      const card = document.createElement("article");
+      const insight = teamInsight(team);
+      const coach = insight.coach ? '<div class="team-coach">Allenatore: <strong>' + insight.coach + '</strong></div>' : "";
+      const card = document.createElement("details");
       card.className = "team";
+      card.open = hasSearch;
       card.style.setProperty("--group-color", groupColors[group] || "#1f7a5b");
-      card.innerHTML = '<div class="team-head"><div><div class="team-name-row">' + flagImg(team, "flag") + '<h3>' + team + '</h3></div><div class="sub">Girone ' + group + '</div></div><span class="badge ' + (status === "Ufficiale" ? "" : "warn") + '">' + status + ' &middot; ' + teamRows.length + '</span></div>';
+      card.innerHTML = '<summary class="team-head"><div><div class="team-name-row">' + flagImg(team, "flag") + '<h3>' + team + '</h3></div><div class="sub">Girone ' + group + '</div>' + coach + '</div><span class="team-head-meta"><span class="badge ' + (status === "Ufficiale" ? "" : "warn") + '">' + status + ' &middot; ' + teamRows.length + '</span><span class="team-toggle" aria-hidden="true"></span></span></summary>';
+      const teamBody = document.createElement("div");
+      teamBody.className = "team-body";
 
       for (const role of roleOrder) {
         const roleRows = teamRows.filter((row) => row.role === role).sort((a, b) => a.player.localeCompare(b.player));
@@ -163,13 +216,15 @@ function render() {
           const club = row.club ? row.club : "Club non indicato";
           const country = row.clubCountry ? row.clubCountry : "Non indicato";
           const league = row.league ? row.league : "Non indicata";
-          return '<div class="player player-expanded">'
-            + '<div class="player-main"><div class="name">' + row.player + '</div><div class="club">' + club + ' <span class="country">(' + country + ' &middot; ' + league + ')</span></div></div>'
+          const probableStarter = isProbableStarter(row);
+          return '<div class="player player-expanded ' + (probableStarter ? 'is-probable-starter' : '') + '">'
+            + '<div class="player-main"><div class="name">' + row.player + (probableStarter ? '<span class="starter-pill">Probabile titolare</span>' : '') + '</div><div class="club">' + club + ' <span class="country">(' + country + ' &middot; ' + league + ')</span></div></div>'
             + playerStatsHtml(row)
             + '</div>';
         }).join("") + '</div>';
-        card.appendChild(roleBlock);
+        teamBody.appendChild(roleBlock);
       }
+      card.appendChild(teamBody);
       grid.appendChild(card);
     }
     section.appendChild(grid);

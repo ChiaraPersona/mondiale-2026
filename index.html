@@ -1,53 +1,64 @@
 <!doctype html>
 <html lang="it">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Convocati Mondiali 2026</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Convocati Mondiali 2026</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<body>
-  <header>
-    <div class="topbar">
-      <div>
-        <h1>Convocati Mondiali 2026</h1>
-        <p class="sub">Rose ordinate per girone, ruolo, club e nazione del club</p>
-        <div class="page-links" aria-label="Sezioni">
-          <a class="page-link active" href="index.html">Convocati</a>
-          <a class="page-link" href="pronostico.html">Pronostico</a>
-          <a class="page-link" href="arbitri.html">Arbitri</a>
+  <body>
+    <header>
+      <div class="topbar">
+        <div>
+          <h1>Convocati Mondiali 2026</h1>
+          <p class="sub">
+            Rose ordinate per girone, ruolo, club e nazione del club
+          </p>
+          <div class="page-links" aria-label="Sezioni">
+            <a class="page-link active" href="index.html">Convocati</a>
+            <a class="page-link" href="pronostico.html">Pronostico</a>
+            <a class="page-link" href="arbitri.html">Arbitri</a>
+          </div>
         </div>
+
+        <label class="search" aria-label="Cerca">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+          >
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="m20 20-3.5-3.5"></path>
+          </svg>
+          <input
+            id="search"
+            type="search"
+            placeholder="Cerca calciatore, nazionale, club o paese club"
+          />
+        </label>
       </div>
 
-      <label class="search" aria-label="Cerca">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <circle cx="11" cy="11" r="7"></circle>
-          <path d="m20 20-3.5-3.5"></path>
-        </svg>
-        <input
-          id="search"
-          type="search"
-          placeholder="Cerca calciatore, nazionale, club o paese club"
-        >
-      </label>
-    </div>
+      <nav class="tabs" id="tabs"></nav>
+    </header>
 
-    <nav class="tabs" id="tabs"></nav>
-  </header>
+    <main>
+      <section id="content"></section>
+      <div class="empty" id="empty">
+        Nessun convocato trovato con questi filtri.
+      </div>
+    </main>
 
-  <main>
-    <section id="content"></section>
-    <div class="empty" id="empty">Nessun convocato trovato con questi filtri.</div>
-  </main>
+    <footer>
+      I casi marcati come probabili o preconvocati restano liste allargate o non
+      definitive. La voce "Da verificare" indica club da ricontrollare prima di
+      usare il dato come definitivo.
+    </footer>
 
-  <footer>
-    I casi marcati come probabili o preconvocati restano liste allargate o non definitive.
-    La voce "Da verificare" indica club da ricontrollare prima di usare il dato come definitivo.
-  </footer>
-
-  <script src="js/data.js"></script>
-  <script src="js/stats.js"></script>
-  <script src="js/app.js"></script>
-</body>
+    <script src="js/data.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>

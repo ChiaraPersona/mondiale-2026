@@ -40,6 +40,50 @@ function getTeamSlug(team) {
   return fold(team).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+function groupLetterFromSeed(seed) {
+  const match = String(seed || "").match(/[A-L]/);
+  return match ? match[0] : "";
+}
+
+function eligibleTeamsForLabel(label) {
+  if (!label) return [];
+  const clean = String(label).replace(/\s+/g, " ").trim();
+  if (/^[12][A-L]$/.test(clean)) {
+    const group = clean.slice(1);
+    return groupTeams[group] || [];
+  }
+  if (/^3\s/.test(clean)) {
+    const letters = clean.replace(/^3\s*/, "").replace(/[^A-L]/g, "").split("");
+    return letters.flatMap((group) => groupTeams[group] || []);
+  }
+  return Object.values(groupTeams).flat();
+}
+
+function eligibilityText(label) {
+  const teams = eligibleTeamsForLabel(label);
+  if (!label) return "Slot libero: puoi trascinare una vincente dalla fase precedente.";
+  if (!teams.length) return "Nessuna squadra trovata per questo incastro.";
+  return "Puoi scegliere: " + teams.join(", ");
+}
+
+function makeSlotHints(label) {
+  const hint = document.createElement("div");
+  hint.className = "slot-hint";
+  hint.textContent = eligibilityText(label);
+  return hint;
+}
+
+function showSlotHint(slot) {
+  document.querySelectorAll(".drop-slot.show-hint").forEach((item) => {
+    if (item !== slot) item.classList.remove("show-hint");
+  });
+  slot.classList.add("show-hint");
+}
+
+function hideSlotHint(slot) {
+  if (!slot.matches(":hover") && document.activeElement !== slot) slot.classList.remove("show-hint");
+}
+
 function makeTeamToken(team, source) {
   const token = document.createElement("button");
   token.className = "team-token";
@@ -123,7 +167,11 @@ function makeDropSlot(id, label = "") {
   const slot = document.createElement("div");
   slot.className = "drop-slot";
   slot.dataset.slot = id;
-  slot.innerHTML = label ? '<span class="seed-label">' + label + '</span>' : "";
+  slot.tabIndex = 0;
+  slot.dataset.seed = label;
+  slot.title = eligibilityText(label);
+  if (label) slot.innerHTML = '<span class="seed-label">' + label + '</span>';
+  slot.appendChild(makeSlotHints(label));
   enableDropSlot(slot);
 
   return slot;
@@ -136,6 +184,10 @@ function enableDropSlot(slot) {
   });
 
   slot.addEventListener("dragleave", () => slot.classList.remove("is-over"));
+  slot.addEventListener("mouseenter", () => showSlotHint(slot));
+  slot.addEventListener("mouseleave", () => hideSlotHint(slot));
+  slot.addEventListener("focus", () => showSlotHint(slot));
+  slot.addEventListener("blur", () => slot.classList.remove("show-hint"));
 
   slot.addEventListener("drop", (event) => {
     event.preventDefault();
@@ -145,6 +197,7 @@ function enableDropSlot(slot) {
   });
 
   slot.addEventListener("click", () => {
+    showSlotHint(slot);
     if (selectedTeam) {
       placeTeam(slot, selectedTeam);
     }
@@ -195,7 +248,12 @@ function bootPredictor() {
   renderPalette();
   renderBracketSide(leftBracket, bracketMatches.left, "left");
   renderBracketSide(rightBracket, bracketMatches.right, "right");
-  document.querySelectorAll(".final-stage .drop-slot").forEach(enableDropSlot);
+  document.querySelectorAll(".final-stage .drop-slot").forEach((slot) => {
+    slot.tabIndex = 0;
+    slot.title = eligibilityText("");
+    if (!slot.querySelector(".slot-hint")) slot.appendChild(makeSlotHints(""));
+    enableDropSlot(slot);
+  });
   loadPrediction();
 }
 

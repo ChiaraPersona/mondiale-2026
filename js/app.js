@@ -54,7 +54,7 @@ function flagImg(team, className) {
 function makeTabs() {
   ["Tutti", ...Object.keys(groupTeams)].forEach((group) => {
     const button = document.createElement("button");
-    button.className = "tab" + (group === activeGroup ? " active" : "");
+    button.className = "tab" + (group === activeGroup ? " active" : "") + (group === "Tutti" ? " tab-all-groups" : "");
     button.style.setProperty("--group-color", groupColors[group] || "#1d2329");
     if (group === "Tutti") {
       button.innerHTML = '<div class="tab-title">Tutti i gironi</div><div class="tab-all">48 nazionali e ' + rows.length + ' calciatori</div>';

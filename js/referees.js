@@ -113,16 +113,16 @@ function visibleReferees() {
 
 function renderRefereeStats(referee) {
   if (!referee.stats) {
-    return '<span class="chip muted-chip">Statistiche n.d.</span>';
+    return '<div class="official-stats official-stats-empty"><span>Statistiche non disponibili</span></div>';
   }
 
-  return [
-    '<span class="chip">Partite: ' + referee.stats.fixtures + '</span>',
-    '<span class="chip">Gialli: ' + referee.stats.yellowCards + '</span>',
-    '<span class="chip">Rossi: ' + referee.stats.redCards + '</span>',
-    '<span class="chip">Gialli/partita: ' + referee.stats.yellowPerGame.toFixed(2) + '</span>',
-    '<a class="chip chip-link" href="' + referee.stats.source + '" target="_blank" rel="noreferrer">Fonte stats</a>',
-  ].join('');
+  return '<div class="official-stats">' + [
+    '<div class="stat-box"><span>Partite</span><strong>' + referee.stats.fixtures + '</strong></div>',
+    '<div class="stat-box"><span>Gialli</span><strong>' + referee.stats.yellowCards + '</strong></div>',
+    '<div class="stat-box"><span>Rossi</span><strong>' + referee.stats.redCards + '</strong></div>',
+    '<div class="stat-box"><span>Gialli/partita</span><strong>' + referee.stats.yellowPerGame.toFixed(2) + '</strong></div>',
+  ].join('') + '</div>' +
+  '<a class="official-stat-source" href="' + referee.stats.source + '" target="_blank" rel="noreferrer">Fonte statistiche</a>';
 }
 
 function renderReferees() {
@@ -146,11 +146,14 @@ function renderReferees() {
     grid.className = "official-grid";
     grid.innerHTML = group.map((referee) => (
       '<article class="official" style="--group-color: ' + confedColors[referee.confed] + '">' +
-        '<h3 class="official-name">' + referee.name + '</h3>' +
-        '<div class="official-meta">' +
-          '<span class="chip">' + referee.country + '</span>' +
-          renderRefereeStats(referee) +
+        '<div class="official-card-head">' +
+          '<div>' +
+            '<h3 class="official-name">' + referee.name + '</h3>' +
+            '<p class="official-country">' + referee.country + '</p>' +
+          '</div>' +
+          '<span class="official-confed">' + confedLabels[referee.confed] + '</span>' +
         '</div>' +
+        renderRefereeStats(referee) +
       '</article>'
     )).join("");
 

@@ -5,7 +5,7 @@
  *   node scripts/update-stats-from-csv.js data/stats.csv
  *
  * Colonne consigliate:
- * team,player,age,career_worldCupEditions,career_worldCupAppearances,career_clubAppearances,
+ * team,player,role,age,career_worldCupEditions,career_worldCupAppearances,career_clubAppearances,
  * career_nationalAppearances,career_goals,career_assists,career_yellowCards,career_redCards,
  * season2025_26_appearances,season2025_26_goals,season2025_26_assists,
  * season2025_26_yellowCards,season2025_26_redCards,sources
@@ -46,10 +46,18 @@ function readCsv(file) {
 }
 const root = path.resolve(__dirname, '..');
 const statsPath = path.join(root, 'stats.json');
-const stats = JSON.parse(fs.readFileSync(statsPath, 'utf8'));
+const dataStatsPath = path.join(root, 'data', 'stats.json');
+
+function normalizeStatsKeys(stats) {
+  return Object.fromEntries(Object.entries(stats).map(([key, value]) => [fold(key), value]));
+}
+
+const stats = normalizeStatsKeys(JSON.parse(fs.readFileSync(statsPath, 'utf8')));
 
 for (const row of readCsv(input)) {
-  const key = fold(`${row.team}::${row.player}`);
+  const baseKey = fold(`${row.team}::${row.player}`);
+  const roleKey = row.role ? fold(`${row.team}::${row.player}::${row.role}`) : "";
+  const key = roleKey && stats[roleKey] ? roleKey : baseKey;
   if (!stats[key]) {
     console.warn(`Giocatore non trovato nel database: ${row.team} - ${row.player}`);
     continue;
@@ -72,5 +80,6 @@ for (const row of readCsv(input)) {
 
 const output = JSON.stringify(stats, null, 2);
 fs.writeFileSync(statsPath, output + '\n');
+fs.writeFileSync(dataStatsPath, output + '\n');
 fs.writeFileSync(path.join(root, 'js', 'stats.js'), 'const playerStats = ' + output + ';\n');
 console.log('Statistiche aggiornate.');

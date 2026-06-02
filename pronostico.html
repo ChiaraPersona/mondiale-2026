@@ -7,89 +7,48 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="predictor-page">
+<body class="prediction-reset-page">
   <header>
-    <div class="topbar">
-      <div>
-        <h1>Pronostico Mondiali 2026</h1>
-        <p class="sub">Tabellone personale con le 48 nazionali del torneo.</p>
-        <div class="page-links" aria-label="Sezioni">
-          <a class="page-link" href="index.html">Convocati</a>
-          <a class="page-link active" href="pronostico.html">Pronostico</a>
-          <a class="page-link" href="arbitri.html">Arbitri</a>
-        </div>
-      </div>
-
-      <div class="predictor-actions" aria-label="Azioni pronostico">
-        <button class="filter-button" id="clear-prediction" type="button">Svuota</button>
-        <button class="filter-button" id="restore-prediction" type="button">Ripristina salvato</button>
-      </div>
-    </div>
+    <nav class="page-links" aria-label="Sezioni">
+      <a class="page-link" href="index.html">Convocati</a>
+      <a class="page-link active" href="pronostico.html">Pronostico</a>
+      <a class="page-link" href="arbitri.html">Arbitri</a>
+    </nav>
   </header>
 
-  <main class="predictor-shell">
-    <section class="team-drawer" aria-label="Squadre disponibili">
-      <div class="drawer-head">
-        <h2>Squadre</h2>
-        <p>48 nazionali ordinate per girone.</p>
-      </div>
-      <div id="team-palette" class="team-palette"></div>
-    </section>
-
-    <section class="bracket-board" aria-label="Tabellone pronostico">
-      <div class="board-title">
-        <span>World Champions</span>
-        <strong>2026</strong>
-      </div>
-
-      <div class="bracket-layout">
-        <div class="bracket-side bracket-left" id="left-bracket"></div>
-
-        <div class="final-stage" aria-label="Fasi finali">
-          <div class="final-slot">
-            <span class="round-label">Campione</span>
-            <div class="drop-slot trophy-slot" data-slot="champion"></div>
-          </div>
-          <div class="trophy-mark">26</div>
-          <div class="final-grid">
-            <div class="final-slot">
-              <span class="round-label">Finalista</span>
-              <div class="drop-slot" data-slot="runner-up"></div>
-            </div>
-            <div class="final-slot">
-              <span class="round-label">Terzo posto</span>
-              <div class="drop-slot" data-slot="third-place"></div>
-            </div>
-          </div>
+  <main class="prediction-reset-shell" aria-label="Nuovo pronostico">
+    <section class="prediction-standings-layout" aria-label="Classifiche pronostico">
+      <div class="prediction-groups-section" aria-label="Classifiche gironi modificabili">
+        <div class="prediction-section-head">
+          <span>Fase a gironi</span>
+          <h2>12 gironi</h2>
         </div>
-
-        <div class="bracket-side bracket-right" id="right-bracket"></div>
+        <div id="prediction-groups-grid" class="prediction-groups-grid"></div>
       </div>
+
+      <aside class="prediction-thirds-section" aria-label="Classifica terzi posti">
+        <div class="prediction-section-head">
+          <span>Ripescaggi</span>
+          <h2>Terzi posti</h2>
+        </div>
+        <div id="prediction-thirds-table" class="prediction-thirds-table"></div>
+      </aside>
     </section>
 
-    <section class="calendar-panel" aria-label="Calendario Mondiali 2026">
-      <h2>Calendario ufficiale</h2>
-      <p>Riepilogo rapido delle date chiave. Per il dettaglio completo partita per partita resta il collegamento FIFA.</p>
-      <div class="calendar-grid">
-        <article class="calendar-card"><div class="calendar-date">11 giugno 2026</div><strong>Partita inaugurale</strong><span>Messico · apertura del torneo</span></article>
-        <article class="calendar-card"><div class="calendar-date">11–27 giugno 2026</div><strong>Fase a gironi</strong><span>12 gironi da 4 squadre</span></article>
-        <article class="calendar-card"><div class="calendar-date">28 giugno–3 luglio 2026</div><strong>Sedicesimi</strong><span>Nuovo tabellone a 32 squadre</span></article>
-        <article class="calendar-card"><div class="calendar-date">4–7 luglio 2026</div><strong>Ottavi di finale</strong><span>Ingresso nella fase più calda</span></article>
-        <article class="calendar-card"><div class="calendar-date">9–11 luglio 2026</div><strong>Quarti di finale</strong><span>8 squadre rimaste</span></article>
-        <article class="calendar-card"><div class="calendar-date">14–15 luglio 2026</div><strong>Semifinali</strong><span>Le due sfide per la finale</span></article>
-        <article class="calendar-card"><div class="calendar-date">18 luglio 2026</div><strong>Finale 3° posto</strong><span>Ultimo podio disponibile</span></article>
-        <article class="calendar-card"><div class="calendar-date">19 luglio 2026</div><strong>Finale</strong><span>MetLife Stadium, New York/New Jersey</span></article>
+    <section class="prediction-bracket-section" aria-label="Tabellone pronostico">
+      <div class="prediction-section-head prediction-bracket-head">
+        <span>Tabellone</span>
+        <h2>World Champions</h2>
       </div>
-      <a class="calendar-link" href="https://www.fifa.com/it/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=IT&wtw-filter=ALL" target="_blank" rel="noreferrer">Apri calendario completo FIFA</a>
+      <div id="prediction-bracket" class="prediction-bracket"></div>
     </section>
-
   </main>
 
   <footer>
-    Il pronostico viene salvato nel browser su questo dispositivo.
+    Mondiali 2026
   </footer>
 
   <script src="js/data.js"></script>
-  <script src="js/predictor.js"></script>
+  <script src="js/pronostico.js"></script>
 </body>
 </html>

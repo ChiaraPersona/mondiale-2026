@@ -647,7 +647,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::armando gonzález": {
+  "messico::armando gonzalez": {
     "player": "Armando González",
     "team": "Messico",
     "club": "Chivas",
@@ -671,7 +671,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::césar huerta": {
+  "messico::cesar huerta": {
     "player": "César Huerta",
     "team": "Messico",
     "club": "Anderlecht",
@@ -695,7 +695,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::guillermo martínez": {
+  "messico::guillermo martinez": {
     "player": "Guillermo Martínez",
     "team": "Messico",
     "club": "Pumas",
@@ -719,7 +719,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::julián quiñones": {
+  "messico::julian quinones": {
     "player": "Julián Quiñones",
     "team": "Messico",
     "club": "Al Qadsiah",
@@ -743,7 +743,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::raúl jiménez": {
+  "messico::raul jimenez": {
     "player": "Raúl Jiménez",
     "team": "Messico",
     "club": "Fulham",
@@ -791,7 +791,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::santiago giménez": {
+  "messico::santiago gimenez": {
     "player": "Santiago Giménez",
     "team": "Messico",
     "club": "Milan",
@@ -815,7 +815,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::álvaro fidalgo": {
+  "messico::alvaro fidalgo": {
     "player": "Álvaro Fidalgo",
     "team": "Messico",
     "club": "Betis",
@@ -839,7 +839,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::brian gutiérrez": {
+  "messico::brian gutierrez": {
     "player": "Brian Gutiérrez",
     "team": "Messico",
     "club": "Chivas",
@@ -911,7 +911,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::luis chávez": {
+  "messico::luis chavez": {
     "player": "Luis Chávez",
     "team": "Messico",
     "club": "Dinamo Moscú",
@@ -983,7 +983,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::orbelín pineda": {
+  "messico::orbelin pineda": {
     "player": "Orbelín Pineda",
     "team": "Messico",
     "club": "AEK Atenas",
@@ -1007,7 +1007,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::césar montes": {
+  "messico::cesar montes": {
     "player": "César Montes",
     "team": "Messico",
     "club": "Lokomotiv Moscú",
@@ -1031,7 +1031,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::edsol álvarez": {
+  "messico::edsol alvarez": {
     "player": "Edsol Álvarez",
     "team": "Messico",
     "club": "West Ham",
@@ -1079,7 +1079,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::jesús gallardo": {
+  "messico::jesus gallardo": {
     "player": "Jesús Gallardo",
     "team": "Messico",
     "club": "Toluca",
@@ -1103,7 +1103,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::johan vásquez": {
+  "messico::johan vasquez": {
     "player": "Johan Vásquez",
     "team": "Messico",
     "club": "Genoa",
@@ -1127,7 +1127,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::jorge sánchez": {
+  "messico::jorge sanchez": {
     "player": "Jorge Sánchez",
     "team": "Messico",
     "club": "Cruz Azul",
@@ -1151,7 +1151,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::mateo chávez": {
+  "messico::mateo chavez": {
     "player": "Mateo Chávez",
     "team": "Messico",
     "club": "AZ Alkmaar",
@@ -1223,7 +1223,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "messico::raúl rangel": {
+  "messico::raul rangel": {
     "player": "Raúl Rangel",
     "team": "Messico",
     "club": "Chivas",
@@ -3239,7 +3239,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "canada::ismäel koné": {
+  "canada::ismael kone": {
     "player": "Ismäel Koné",
     "team": "Canada",
     "club": "Sassuolo",
@@ -3359,7 +3359,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "canada::mathieu chounière": {
+  "canada::mathieu chouniere": {
     "player": "Mathieu Chounière",
     "team": "Canada",
     "club": "LAFC",
@@ -3407,7 +3407,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "canada::stephen eustáquio": {
+  "canada::stephen eustaquio": {
     "player": "Stephen Eustáquio",
     "team": "Canada",
     "club": "Oporto",
@@ -3599,7 +3599,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "canada::moïse bombito": {
+  "canada::moise bombito": {
     "player": "Moïse Bombito",
     "team": "Canada",
     "club": "Nice",
@@ -3695,7 +3695,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "canada::maxime crépau": {
+  "canada::maxime crepau": {
     "player": "Maxime Crépau",
     "team": "Canada",
     "club": "Orlando City",
@@ -4727,7 +4727,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "svizzera::aurèle amenda": {
+  "svizzera::aurele amenda": {
     "player": "Aurèle Amenda",
     "team": "Svizzera",
     "club": "Eintracht",
@@ -4751,7 +4751,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "svizzera::eray cömert": {
+  "svizzera::eray comert": {
     "player": "Eray Cömert",
     "team": "Svizzera",
     "club": "Valencia",
@@ -5207,7 +5207,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "brasile::bruno guimarães": {
+  "brasile::bruno guimaraes": {
     "player": "Bruno Guimarães",
     "team": "Brasile",
     "club": "Newcastle",
@@ -5303,7 +5303,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "brasile::lucas paquetá": {
+  "brasile::lucas paqueta": {
     "player": "Lucas Paquetá",
     "team": "Brasile",
     "club": "Flamengo",
@@ -5399,7 +5399,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "brasile::gabriel magalhães": {
+  "brasile::gabriel magalhaes": {
     "player": "Gabriel Magalhães",
     "team": "Brasile",
     "club": "Arsenal",
@@ -5423,7 +5423,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "brasile::ibáñez": {
+  "brasile::ibanez": {
     "player": "Ibáñez",
     "team": "Brasile",
     "club": "Al Ahli",
@@ -5447,7 +5447,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "brasile::léo pereira": {
+  "brasile::leo pereira": {
     "player": "Léo Pereira",
     "team": "Brasile",
     "club": "Flamengo",
@@ -5663,7 +5663,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "haiti::josué casimir": {
+  "haiti::josue casimir": {
     "player": "Josué Casimir",
     "team": "Haiti",
     "club": "AJ Auxerre",
@@ -6095,7 +6095,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "haiti::ricardo adé": {
+  "haiti::ricardo ade": {
     "player": "Ricardo Adé",
     "team": "Haiti",
     "club": "LDU Quito",
@@ -6191,7 +6191,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "haiti::josué duverger": {
+  "haiti::josue duverger": {
     "player": "Josué Duverger",
     "team": "Haiti",
     "club": "FC Cosmos Koblenz",
@@ -6287,7 +6287,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "marocco::brahim díaz": {
+  "marocco::brahim diaz": {
     "player": "Brahim Díaz",
     "team": "Marocco",
     "club": "Real Madrid",
@@ -6839,7 +6839,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "scozia::ché adams": {
+  "scozia::che adams": {
     "player": "Ché Adams",
     "team": "Scozia",
     "club": "Torino",
@@ -7535,7 +7535,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "australia::mohamed touré": {
+  "australia::mohamed toure": {
     "player": "Mohamed Touré",
     "team": "Australia",
     "club": "Norwich",
@@ -8135,7 +8135,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::gabriel ávalos": {
+  "paraguay::gabriel avalos": {
     "player": "Gabriel Ávalos",
     "team": "Paraguay",
     "club": "Independiente",
@@ -8207,7 +8207,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::miguel almirón": {
+  "paraguay::miguel almiron": {
     "player": "Miguel Almirón",
     "team": "Paraguay",
     "club": "Atlanta United",
@@ -8255,7 +8255,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::andrés cubas": {
+  "paraguay::andres cubas": {
     "player": "Andrés Cubas",
     "team": "Paraguay",
     "club": "Vancouver Whitecaps",
@@ -8303,7 +8303,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::damián bobadilla": {
+  "paraguay::damian bobadilla": {
     "player": "Damián Bobadilla",
     "team": "Paraguay",
     "club": "São Paulo",
@@ -8327,7 +8327,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::diego gómez": {
+  "paraguay::diego gomez": {
     "player": "Diego Gómez",
     "team": "Paraguay",
     "club": "Brighton",
@@ -8375,7 +8375,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::matías galarza": {
+  "paraguay::matias galarza": {
     "player": "Matías Galarza",
     "team": "Paraguay",
     "club": "Talleres de Córdoba",
@@ -8399,7 +8399,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::ramón sosa": {
+  "paraguay::ramon sosa": {
     "player": "Ramón Sosa",
     "team": "Paraguay",
     "club": "Palmeiras",
@@ -8447,7 +8447,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::fabián balbuena": {
+  "paraguay::fabian balbuena": {
     "player": "Fabián Balbuena",
     "team": "Paraguay",
     "club": "Dinamo Moscú",
@@ -8471,7 +8471,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::gustavo gómez": {
+  "paraguay::gustavo gomez": {
     "player": "Gustavo Gómez",
     "team": "Paraguay",
     "club": "Palmeiras",
@@ -8495,7 +8495,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::gustavo velázquez": {
+  "paraguay::gustavo velazquez": {
     "player": "Gustavo Velázquez",
     "team": "Paraguay",
     "club": "Cerro Porteño",
@@ -8519,7 +8519,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::josé canale": {
+  "paraguay::jose canale": {
     "player": "José Canale",
     "team": "Paraguay",
     "club": "Lanús",
@@ -8543,7 +8543,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::juan cáceres": {
+  "paraguay::juan caceres": {
     "player": "Juan Cáceres",
     "team": "Paraguay",
     "club": "Dynamo Moscú",
@@ -8591,7 +8591,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::mauricio magalhães": {
+  "paraguay::mauricio magalhaes": {
     "player": "Mauricio Magalhães",
     "team": "Paraguay",
     "club": "Libertad",
@@ -8639,7 +8639,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::gastón olveira": {
+  "paraguay::gaston olveira": {
     "player": "Gastón Olveira",
     "team": "Paraguay",
     "club": "Olimpia",
@@ -8687,7 +8687,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "paraguay::roberto fernández": {
+  "paraguay::roberto fernandez": {
     "player": "Roberto Fernández",
     "team": "Paraguay",
     "club": "Cerro Porteño",
@@ -8855,7 +8855,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "stati uniti::cristian roldán": {
+  "stati uniti::cristian roldan": {
     "player": "Cristian Roldán",
     "team": "Stati Uniti",
     "club": "Seattle Sounders",
@@ -9215,7 +9215,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "stati uniti::sergiño dest": {
+  "stati uniti::sergino dest": {
     "player": "Sergiño Dest",
     "team": "Stati Uniti",
     "club": "PSV",
@@ -10127,7 +10127,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "costa d'avorio::simón adingra": {
+  "costa d'avorio::simon adingra": {
     "player": "Simón Adingra",
     "team": "Costa d'Avorio",
     "club": "Mónaco",
@@ -10199,7 +10199,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "costa d'avorio::franck kessié": {
+  "costa d'avorio::franck kessie": {
     "player": "Franck Kessié",
     "team": "Costa d'Avorio",
     "club": "Al Ahli",
@@ -10223,7 +10223,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "costa d'avorio::ibrahim sangaré": {
+  "costa d'avorio::ibrahim sangare": {
     "player": "Ibrahim Sangaré",
     "team": "Costa d'Avorio",
     "club": "Notts. Forest",
@@ -10247,7 +10247,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "costa d'avorio::jean michaël seri": {
+  "costa d'avorio::jean michael seri": {
     "player": "Jean Michaël Seri",
     "team": "Costa d'Avorio",
     "club": "Maribor",
@@ -10319,7 +10319,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "costa d'avorio::clément akpa": {
+  "costa d'avorio::clement akpa": {
     "player": "Clément Akpa",
     "team": "Costa d'Avorio",
     "club": "Auxerre",
@@ -10415,7 +10415,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "costa d'avorio::guéla doué": {
+  "costa d'avorio::guela doue": {
     "player": "Guéla Doué",
     "team": "Costa d'Avorio",
     "club": "Estrasburgo",
@@ -10679,7 +10679,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "curacao::jürgen locadia": {
+  "curacao::jurgen locadia": {
     "player": "Jürgen Locadia",
     "team": "Curacao",
     "club": "Miami FC",
@@ -10703,7 +10703,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "curacao::kenji gorré": {
+  "curacao::kenji gorre": {
     "player": "Kenji Gorré",
     "team": "Curacao",
     "club": "Maccabi Haifa",
@@ -11015,7 +11015,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "curacao::jurïen gaari": {
+  "curacao::jurien gaari": {
     "player": "Jurïen Gaari",
     "team": "Curacao",
     "club": "Abha",
@@ -11303,7 +11303,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::jeremy arévalo": {
+  "ecuador::jeremy arevalo": {
     "player": "Jeremy Arévalo",
     "team": "Ecuador",
     "club": "Stuttgart",
@@ -11375,7 +11375,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::kevin rodríguez": {
+  "ecuador::kevin rodriguez": {
     "player": "Kevin Rodríguez",
     "team": "Ecuador",
     "club": "Unión Saint-Gilloise",
@@ -11447,7 +11447,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::jordi alcívar": {
+  "ecuador::jordi alcivar": {
     "player": "Jordi Alcívar",
     "team": "Ecuador",
     "club": "Independiente del Valle",
@@ -11471,7 +11471,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::kendry páez": {
+  "ecuador::kendry paez": {
     "player": "Kendry Páez",
     "team": "Ecuador",
     "club": "River Plate",
@@ -11495,7 +11495,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::moisés caicedo": {
+  "ecuador::moises caicedo": {
     "player": "Moisés Caicedo",
     "team": "Ecuador",
     "club": "Chelsea",
@@ -11567,7 +11567,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::ángelo preciado": {
+  "ecuador::angelo preciado": {
     "player": "Ángelo Preciado",
     "team": "Ecuador",
     "club": "Atlético Mineiro",
@@ -11591,7 +11591,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::félix torres": {
+  "ecuador::felix torres": {
     "player": "Félix Torres",
     "team": "Ecuador",
     "club": "Internacional",
@@ -11639,7 +11639,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::joel ordóñez": {
+  "ecuador::joel ordonez": {
     "player": "Joel Ordóñez",
     "team": "Ecuador",
     "club": "Brujas",
@@ -11663,7 +11663,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::pervis estupiñán": {
+  "ecuador::pervis estupinan": {
     "player": "Pervis Estupiñán",
     "team": "Ecuador",
     "club": "Milan",
@@ -11687,7 +11687,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::piero hincapié": {
+  "ecuador::piero hincapie": {
     "player": "Piero Hincapié",
     "team": "Ecuador",
     "club": "Arsenal",
@@ -11783,7 +11783,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::hernán galíndez": {
+  "ecuador::hernan galindez": {
     "player": "Hernán Galíndez",
     "team": "Ecuador",
     "club": "Huracán",
@@ -11807,7 +11807,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "ecuador::moisés ramírez": {
+  "ecuador::moises ramirez": {
     "player": "Moisés Ramírez",
     "team": "Ecuador",
     "club": "AE Kifisias",
@@ -11879,7 +11879,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "germania::leroy sané": {
+  "germania::leroy sane": {
     "player": "Leroy Sané",
     "team": "Germania",
     "club": "Istanbul",
@@ -12167,7 +12167,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "germania::antonio rüdiger": {
+  "germania::antonio rudiger": {
     "player": "Antonio Rüdiger",
     "team": "Germania",
     "club": "Real Madrid",
@@ -12383,7 +12383,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "germania::alexander nübel": {
+  "germania::alexander nubel": {
     "player": "Alexander Nübel",
     "team": "Germania",
     "club": "Stuttgart",
@@ -13535,7 +13535,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "olanda::jurriën timber": {
+  "olanda::jurrien timber": {
     "player": "Jurriën Timber",
     "team": "Olanda",
     "club": "Arsenal",
@@ -13583,7 +13583,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "olanda::nathan aké": {
+  "olanda::nathan ake": {
     "player": "Nathan Aké",
     "team": "Olanda",
     "club": "Manchester City",
@@ -13847,7 +13847,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "svezia::viktor gyökeres": {
+  "svezia::viktor gyokeres": {
     "player": "Viktor Gyökeres",
     "team": "Svezia",
     "club": "Arsenal",
@@ -13895,7 +13895,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "svezia::jesper kalström": {
+  "svezia::jesper kalstrom": {
     "player": "Jesper Kalström",
     "team": "Svezia",
     "club": "Udinese",
@@ -14231,7 +14231,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "svezia::viktor lindelöf": {
+  "svezia::viktor lindelof": {
     "player": "Viktor Lindelöf",
     "team": "Svezia",
     "club": "Aston Villa",
@@ -14255,7 +14255,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "svezia::jacob zetterström": {
+  "svezia::jacob zetterstrom": {
     "player": "Jacob Zetterström",
     "team": "Svezia",
     "club": "Derby County",
@@ -14567,7 +14567,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "tunisia::ismaël gharbi": {
+  "tunisia::ismael gharbi": {
     "player": "Ismaël Gharbi",
     "team": "Tunisia",
     "club": "Augsburgo",
@@ -15047,7 +15047,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "belgio::jérémy doku": {
+  "belgio::jeremy doku": {
     "player": "Jérémy Doku",
     "team": "Belgio",
     "club": "Manchester City",
@@ -15095,7 +15095,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "belgio::matias fernández-pardo": {
+  "belgio::matias fernandez-pardo": {
     "player": "Matias Fernández-Pardo",
     "team": "Belgio",
     "club": "Lille",
@@ -17135,7 +17135,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "nuova zelanda::marko stamenić": {
+  "nuova zelanda::marko stamenic": {
     "player": "Marko Stamenić",
     "team": "Nuova Zelanda",
     "club": "Swansea",
@@ -18167,7 +18167,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "capo verde::hélio varela": {
+  "capo verde::helio varela": {
     "player": "Hélio Varela",
     "team": "Capo Verde",
     "club": "Maccabi Tel Aviv",
@@ -18479,7 +18479,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "capo verde::joão paulo fernandes": {
+  "capo verde::joao paulo fernandes": {
     "player": "João Paulo Fernandes",
     "team": "Capo Verde",
     "club": "FCSB",
@@ -18695,7 +18695,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "capo verde::márcio da rosa": {
+  "capo verde::marcio da rosa": {
     "player": "Márcio da Rosa",
     "team": "Capo Verde",
     "club": "Montana",
@@ -18839,7 +18839,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "spagna::victor muñoz": {
+  "spagna::victor munoz": {
     "player": "Victor Muñoz",
     "team": "Spagna",
     "club": "Osasuna",
@@ -18935,7 +18935,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "spagna::fabián ruiz": {
+  "spagna::fabian ruiz": {
     "player": "Fabián Ruiz",
     "team": "Spagna",
     "club": "PSG",
@@ -18983,7 +18983,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "spagna::martín zubimendi": {
+  "spagna::martin zubimendi": {
     "player": "Martín Zubimendi",
     "team": "Spagna",
     "club": "Arsenal",
@@ -19127,7 +19127,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "spagna::eric garcía": {
+  "spagna::eric garcia": {
     "player": "Eric García",
     "team": "Spagna",
     "club": "FC Barcelona",
@@ -19223,7 +19223,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "spagna::pau cubarsí": {
+  "spagna::pau cubarsi": {
     "player": "Pau Cubarsí",
     "team": "Spagna",
     "club": "FC Barcelona",
@@ -19295,7 +19295,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "spagna::joan garcía": {
+  "spagna::joan garcia": {
     "player": "Joan García",
     "team": "Spagna",
     "club": "FC Barcelona",
@@ -19319,7 +19319,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "spagna::unai simón": {
+  "spagna::unai simon": {
     "player": "Unai Simón",
     "team": "Spagna",
     "club": "Athletic Club",
@@ -19343,7 +19343,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::darwin núñez": {
+  "uruguay::darwin nunez": {
     "player": "Darwin Núñez",
     "team": "Uruguay",
     "club": "Al-Hilal",
@@ -19367,7 +19367,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::federico viñas": {
+  "uruguay::federico vinas": {
     "player": "Federico Viñas",
     "team": "Uruguay",
     "club": "Real Oviedo",
@@ -19415,7 +19415,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::agustín canobbio": {
+  "uruguay::agustin canobbio": {
     "player": "Agustín Canobbio",
     "team": "Uruguay",
     "club": "Fluminense",
@@ -19439,7 +19439,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::brian rodríguez": {
+  "uruguay::brian rodriguez": {
     "player": "Brian Rodríguez",
     "team": "Uruguay",
     "club": "Club América",
@@ -19463,7 +19463,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::emiliano martínez": {
+  "uruguay::emiliano martinez": {
     "player": "Emiliano Martínez",
     "team": "Uruguay",
     "club": "Palmeiras",
@@ -19607,7 +19607,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::maximiliano araújo": {
+  "uruguay::maximiliano araujo": {
     "player": "Maximiliano Araújo",
     "team": "Uruguay",
     "club": "Sporting CP",
@@ -19631,7 +19631,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::nicolás de la cruz": {
+  "uruguay::nicolas de la cruz": {
     "player": "Nicolás de la Cruz",
     "team": "Uruguay",
     "club": "Flamengo",
@@ -19727,7 +19727,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::joaquín piquerez": {
+  "uruguay::joaquin piquerez": {
     "player": "Joaquín Piquerez",
     "team": "Uruguay",
     "club": "Palmeiras",
@@ -19751,7 +19751,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::josé maría giménez": {
+  "uruguay::jose maria gimenez": {
     "player": "José María Giménez",
     "team": "Uruguay",
     "club": "Atlético de Madrid",
@@ -19775,7 +19775,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::mathías olivera": {
+  "uruguay::mathias olivera": {
     "player": "Mathías Olivera",
     "team": "Uruguay",
     "club": "Napoli",
@@ -19799,7 +19799,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::matías viña": {
+  "uruguay::matias vina": {
     "player": "Matías Viña",
     "team": "Uruguay",
     "club": "Flamengo",
@@ -19823,7 +19823,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::ronald araújo": {
+  "uruguay::ronald araujo": {
     "player": "Ronald Araújo",
     "team": "Uruguay",
     "club": "FC Barcelona",
@@ -19871,7 +19871,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "uruguay::sebastián cáceres": {
+  "uruguay::sebastian caceres": {
     "player": "Sebastián Cáceres",
     "team": "Uruguay",
     "club": "Club América",
@@ -19991,7 +19991,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "francia::désiré doué": {
+  "francia::desire doue": {
     "player": "Désiré Doué",
     "team": "Francia",
     "club": "PSG",
@@ -20039,7 +20039,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "francia::kylian mbappé": {
+  "francia::kylian mbappe": {
     "player": "Kylian Mbappé",
     "team": "Francia",
     "club": "Real Madrid",
@@ -20135,7 +20135,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "francia::ousmane dembélé": {
+  "francia::ousmane dembele": {
     "player": "Ousmane Dembélé",
     "team": "Francia",
     "club": "PSG",
@@ -20207,7 +20207,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "francia::aurélien tchouaméni": {
+  "francia::aurelien tchouameni": {
     "player": "Aurélien Tchouaméni",
     "team": "Francia",
     "club": "Real Madrid",
@@ -20231,7 +20231,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "francia::manu koné": {
+  "francia::manu kone": {
     "player": "Manu Koné",
     "team": "Francia",
     "club": "AS Roma",
@@ -20255,7 +20255,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "francia::n’golo kanté": {
+  "francia::n’golo kante": {
     "player": "N’Golo Kanté",
     "team": "Francia",
     "club": "Fenerbache",
@@ -20279,7 +20279,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "francia::warren zaïre-emery": {
+  "francia::warren zaire-emery": {
     "player": "Warren Zaïre-Emery",
     "team": "Francia",
     "club": "PSG",
@@ -20327,7 +20327,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "francia::ibrahima konaté": {
+  "francia::ibrahima konate": {
     "player": "Ibrahima Konaté",
     "team": "Francia",
     "club": "Liverpool",
@@ -20399,7 +20399,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "francia::lucas hernández": {
+  "francia::lucas hernandez": {
     "player": "Lucas Hernández",
     "team": "Francia",
     "club": "PSG",
@@ -20471,7 +20471,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "francia::theo hernández": {
+  "francia::theo hernandez": {
     "player": "Theo Hernández",
     "team": "Francia",
     "club": "Al Hilal",
@@ -21959,7 +21959,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "senegal::ismaïla sarr": {
+  "senegal::ismaila sarr": {
     "player": "Ismaïla Sarr",
     "team": "Senegal",
     "club": "Crystal Palace",
@@ -22007,7 +22007,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "senegal::sadio mané": {
+  "senegal::sadio mane": {
     "player": "Sadio Mané",
     "team": "Senegal",
     "club": "Al Nassr",
@@ -22175,7 +22175,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "senegal::pathé ciss": {
+  "senegal::pathe ciss": {
     "player": "Pathé Ciss",
     "team": "Senegal",
     "club": "Rayo Vallecano",
@@ -22295,7 +22295,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "senegal::ismaïl jakobs": {
+  "senegal::ismail jakobs": {
     "player": "Ismaïl Jakobs",
     "team": "Senegal",
     "club": "Galatasaray",
@@ -22343,7 +22343,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "senegal::krépin diatta": {
+  "senegal::krepin diatta": {
     "player": "Krépin Diatta",
     "team": "Senegal",
     "club": "Mónaco",
@@ -22391,7 +22391,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "senegal::moussa niakhaté": {
+  "senegal::moussa niakhate": {
     "player": "Moussa Niakhaté",
     "team": "Senegal",
     "club": "O. Lyon",
@@ -22583,7 +22583,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "algeria::farès ghedjemis": {
+  "algeria::fares ghedjemis": {
     "player": "Farès Ghedjemis",
     "team": "Algeria",
     "club": "FC Vizela",
@@ -22679,7 +22679,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "algeria::farès chaïbi": {
+  "algeria::fares chaibi": {
     "player": "Farès Chaïbi",
     "team": "Algeria",
     "club": "Eintracht Frankfurt",
@@ -22871,7 +22871,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "algeria::aïssa mandi": {
+  "algeria::aissa mandi": {
     "player": "Aïssa Mandi",
     "team": "Algeria",
     "club": "LOSC Lille",
@@ -22919,7 +22919,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "algeria::mohamed amine tougaï": {
+  "algeria::mohamed amine tougai": {
     "player": "Mohamed Amine Tougaï",
     "team": "Algeria",
     "club": "Espérance de Tunis",
@@ -22967,7 +22967,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "algeria::ramy bensebaïni": {
+  "algeria::ramy bensebaini": {
     "player": "Ramy Bensebaïni",
     "team": "Algeria",
     "club": "Borussia Dortmund",
@@ -22991,7 +22991,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "algeria::rayan aït-nouri": {
+  "algeria::rayan ait-nouri": {
     "player": "Rayan Aït-Nouri",
     "team": "Algeria",
     "club": "Manchester City",
@@ -23039,7 +23039,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "algeria::zineddine belaïd": {
+  "algeria::zineddine belaid": {
     "player": "Zineddine Belaïd",
     "team": "Algeria",
     "club": "Saint-Trond VV",
@@ -23183,7 +23183,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "argentina::josé manuel lópez": {
+  "argentina::jose manuel lopez": {
     "player": "José Manuel López",
     "team": "Argentina",
     "club": "Palmeiras",
@@ -23207,7 +23207,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "argentina::julián álvarez": {
+  "argentina::julian alvarez": {
     "player": "Julián Álvarez",
     "team": "Argentina",
     "club": "Atlético Madrid",
@@ -23231,7 +23231,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "argentina::lautaro martínez": {
+  "argentina::lautaro martinez": {
     "player": "Lautaro Martínez",
     "team": "Argentina",
     "club": "Inter",
@@ -23279,7 +23279,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "argentina::nico gonzález": {
+  "argentina::nico gonzalez": {
     "player": "Nico González",
     "team": "Argentina",
     "club": "Atlético Madrid",
@@ -23375,7 +23375,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "argentina::enzo fernández": {
+  "argentina::enzo fernandez": {
     "player": "Enzo Fernández",
     "team": "Argentina",
     "club": "Chelsea",
@@ -23495,7 +23495,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "argentina::valentín barco": {
+  "argentina::valentin barco": {
     "player": "Valentín Barco",
     "team": "Argentina",
     "club": "Estrasburgo",
@@ -23615,7 +23615,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "argentina::lisandro martínez": {
+  "argentina::lisandro martinez": {
     "player": "Lisandro Martínez",
     "team": "Argentina",
     "club": "Manchester United",
@@ -23663,7 +23663,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "argentina::nicolás tagliafico": {
+  "argentina::nicolas tagliafico": {
     "player": "Nicolás Tagliafico",
     "team": "Argentina",
     "club": "Ajax",
@@ -23711,7 +23711,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "argentina::dibu martínez": {
+  "argentina::dibu martinez": {
     "player": "Dibu Martínez",
     "team": "Argentina",
     "club": "Aston Villa",
@@ -23735,7 +23735,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "argentina::gerónimo rulli": {
+  "argentina::geronimo rulli": {
     "player": "Gerónimo Rulli",
     "team": "Argentina",
     "club": "Olympique Marsella",
@@ -23855,7 +23855,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "austria::alessandro schöph": {
+  "austria::alessandro schoph": {
     "player": "Alessandro Schöph",
     "team": "Austria",
     "club": "RZ Pellets",
@@ -25127,7 +25127,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::carlos gómez": {
+  "colombia::carlos gomez": {
     "player": "Carlos Gómez",
     "team": "Colombia",
     "club": "Vasco da Gama",
@@ -25151,7 +25151,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::jhon córdoba": {
+  "colombia::jhon cordoba": {
     "player": "Jhon Córdoba",
     "team": "Colombia",
     "club": "Krasnodar",
@@ -25175,7 +25175,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::juan camilo hernández": {
+  "colombia::juan camilo hernandez": {
     "player": "Juan Camilo Hernández",
     "team": "Colombia",
     "club": "Real Betis",
@@ -25223,7 +25223,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::luis suárez": {
+  "colombia::luis suarez": {
     "player": "Luis Suárez",
     "team": "Colombia",
     "club": "Sporting",
@@ -25271,7 +25271,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::james rodríguez": {
+  "colombia::james rodriguez": {
     "player": "James Rodríguez",
     "team": "Colombia",
     "club": "Minnesota United",
@@ -25439,7 +25439,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::kevin castaño": {
+  "colombia::kevin castano": {
     "player": "Kevin Castaño",
     "team": "Colombia",
     "club": "River Plate",
@@ -25463,7 +25463,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::richard ríos": {
+  "colombia::richard rios": {
     "player": "Richard Ríos",
     "team": "Colombia",
     "club": "Benfica",
@@ -25487,7 +25487,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::daniel muñoz": {
+  "colombia::daniel munoz": {
     "player": "Daniel Muñoz",
     "team": "Colombia",
     "club": "Crystal Palace",
@@ -25511,7 +25511,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::dávinson sánchez": {
+  "colombia::davinson sanchez": {
     "player": "Dávinson Sánchez",
     "team": "Colombia",
     "club": "Galatasaray",
@@ -25535,7 +25535,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::déiver machado": {
+  "colombia::deiver machado": {
     "player": "Déiver Machado",
     "team": "Colombia",
     "club": "FC Nantes",
@@ -25559,7 +25559,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::jhon lucumí": {
+  "colombia::jhon lucumi": {
     "player": "Jhon Lucumí",
     "team": "Colombia",
     "club": "Bologna",
@@ -25679,7 +25679,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "colombia::álvaro montero": {
+  "colombia::alvaro montero": {
     "player": "Álvaro Montero",
     "team": "Colombia",
     "club": "Vélez Sarsfield",
@@ -25775,7 +25775,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::francisco conceição": {
+  "portogallo::francisco conceicao": {
     "player": "Francisco Conceição",
     "team": "Portogallo",
     "club": "Juventus",
@@ -25799,7 +25799,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::francisco trincão": {
+  "portogallo::francisco trincao": {
     "player": "Francisco Trincão",
     "team": "Portogallo",
     "club": "Sporting CP",
@@ -25823,7 +25823,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::gonçalo guedes": {
+  "portogallo::goncalo guedes": {
     "player": "Gonçalo Guedes",
     "team": "Portogallo",
     "club": "Real Sociedad",
@@ -25847,7 +25847,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::gonçalo ramos": {
+  "portogallo::goncalo ramos": {
     "player": "Gonçalo Ramos",
     "team": "Portogallo",
     "club": "PSG",
@@ -25871,7 +25871,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::joão félix": {
+  "portogallo::joao felix": {
     "player": "João Félix",
     "team": "Portogallo",
     "club": "Al Nassr",
@@ -25919,7 +25919,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::rafael leão": {
+  "portogallo::rafael leao": {
     "player": "Rafael Leão",
     "team": "Portogallo",
     "club": "Milan",
@@ -25991,7 +25991,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::joão neves": {
+  "portogallo::joao neves": {
     "player": "João Neves",
     "team": "Portogallo",
     "club": "PSG",
@@ -26015,7 +26015,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::rúben neves": {
+  "portogallo::ruben neves": {
     "player": "Rúben Neves",
     "team": "Portogallo",
     "club": "Al Hilal",
@@ -26111,7 +26111,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::gonçalo inácio": {
+  "portogallo::goncalo inacio": {
     "player": "Gonçalo Inácio",
     "team": "Portogallo",
     "club": "Sporting CP",
@@ -26135,7 +26135,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::joão cancelo": {
+  "portogallo::joao cancelo": {
     "player": "João Cancelo",
     "team": "Portogallo",
     "club": "Barcelona",
@@ -26183,7 +26183,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::nélson semedo": {
+  "portogallo::nelson semedo": {
     "player": "Nélson Semedo",
     "team": "Portogallo",
     "club": "Fenerbahçe",
@@ -26255,7 +26255,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::rúben dias": {
+  "portogallo::ruben dias": {
     "player": "Rúben Dias",
     "team": "Portogallo",
     "club": "Manchester City",
@@ -26279,7 +26279,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::tomás araújo": {
+  "portogallo::tomas araujo": {
     "player": "Tomás Araújo",
     "team": "Portogallo",
     "club": "Benfica",
@@ -26327,7 +26327,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "portogallo::josé sá": {
+  "portogallo::jose sa": {
     "player": "José Sá",
     "team": "Portogallo",
     "club": "Wolverhampton",
@@ -26423,7 +26423,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "rd congo::cédric bakambu": {
+  "rd congo::cedric bakambu": {
     "player": "Cédric Bakambu",
     "team": "RD Congo",
     "club": "Betis",
@@ -26543,7 +26543,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "rd congo::théo bongonda": {
+  "rd congo::theo bongonda": {
     "player": "Théo Bongonda",
     "team": "RD Congo",
     "club": "Spartak Moscú",
@@ -29495,7 +29495,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "inghilterra::marc guéhi": {
+  "inghilterra::marc guehi": {
     "player": "Marc Guéhi",
     "team": "Inghilterra",
     "club": "Manchester City",
@@ -29687,7 +29687,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::ismael díaz": {
+  "panama::ismael diaz": {
     "player": "Ismael Díaz",
     "team": "Panama",
     "club": "Club León FC",
@@ -29711,7 +29711,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::josé fajardo": {
+  "panama::jose fajardo": {
     "player": "José Fajardo",
     "team": "Panama",
     "club": "CD Universidad Católica",
@@ -29735,7 +29735,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::tomás rodríguez": {
+  "panama::tomas rodriguez": {
     "player": "Tomás Rodríguez",
     "team": "Panama",
     "club": "Deportivo Saprissa",
@@ -29807,7 +29807,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::aníbal godoy": {
+  "panama::anibal godoy": {
     "player": "Aníbal Godoy",
     "team": "Panama",
     "club": "San Diego FC",
@@ -29831,7 +29831,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::azarías londoño": {
+  "panama::azarias londono": {
     "player": "Azarías Londoño",
     "team": "Panama",
     "club": "CD Universidad Católica",
@@ -29879,7 +29879,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::césar yanis": {
+  "panama::cesar yanis": {
     "player": "César Yanis",
     "team": "Panama",
     "club": "Cobresal",
@@ -29903,7 +29903,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::cristian martínez": {
+  "panama::cristian martinez": {
     "player": "Cristian Martínez",
     "team": "Panama",
     "club": "Ironi Kiryat Shmona",
@@ -29927,7 +29927,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::josé luis rodríguez": {
+  "panama::jose luis rodriguez": {
     "player": "José Luis Rodríguez",
     "team": "Panama",
     "club": "Juárez",
@@ -29951,7 +29951,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::yoel bárcenas": {
+  "panama::yoel barcenas": {
     "player": "Yoel Bárcenas",
     "team": "Panama",
     "club": "Mazatlán FC",
@@ -29999,7 +29999,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::andrés andrade": {
+  "panama::andres andrade": {
     "player": "Andrés Andrade",
     "team": "Panama",
     "club": "LASK",
@@ -30023,7 +30023,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::césar blackman": {
+  "panama::cesar blackman": {
     "player": "César Blackman",
     "team": "Panama",
     "club": "Slovan Bratislava",
@@ -30047,7 +30047,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::edgardo fariña": {
+  "panama::edgardo farina": {
     "player": "Edgardo Fariña",
     "team": "Panama",
     "club": "FC Pari Nizhniy Novgorod",
@@ -30143,7 +30143,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::jorge gutiérrez": {
+  "panama::jorge gutierrez": {
     "player": "Jorge Gutiérrez",
     "team": "Panama",
     "club": "Deportivo La Guaira",
@@ -30167,7 +30167,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::josé córdoba": {
+  "panama::jose cordoba": {
     "player": "José Córdoba",
     "team": "Panama",
     "club": "Norwich City",
@@ -30215,7 +30215,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::césar samudio": {
+  "panama::cesar samudio": {
     "player": "César Samudio",
     "team": "Panama",
     "club": "CD Marathón",
@@ -30239,7 +30239,7 @@ const playerStats = {
     },
     "sources": []
   },
-  "panama::luis mejía": {
+  "panama::luis mejia": {
     "player": "Luis Mejía",
     "team": "Panama",
     "club": "Club Nacional",
@@ -30268,6 +30268,54 @@ const playerStats = {
     "team": "Panama",
     "club": "Al Fayha FC",
     "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::danilo::centrocampisti": {
+    "player": "Danilo",
+    "team": "Brasile",
+    "club": "Botafogo",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::danilo::difensori": {
+    "player": "Danilo",
+    "team": "Brasile",
+    "club": "Flamengo",
+    "age": 35,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",

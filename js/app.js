@@ -16,7 +16,8 @@ function statKey(row) {
 }
 
 function getStats(row) {
-  const stats = statsStore[statKey(row)] || {};
+  const roleKey = statKey(row) + "::" + fold(row.role);
+  const stats = statsStore[roleKey] || statsStore[statKey(row)] || {};
   const career = stats.career || {};
   const season = stats.season2025_26 || {};
   return {
@@ -54,7 +55,7 @@ function flagImg(team, className) {
 function makeTabs() {
   ["Tutti", ...Object.keys(groupTeams)].forEach((group) => {
     const button = document.createElement("button");
-    button.className = "tab" + (group === activeGroup ? " active" : "") + (group === "Tutti" ? " tab-all-groups" : "");
+    button.className = "tab" + (group === "Tutti" ? " tab-all-groups" : "") + (group === activeGroup ? " active" : "");
     button.style.setProperty("--group-color", groupColors[group] || "#1d2329");
     if (group === "Tutti") {
       button.innerHTML = '<div class="tab-title">Tutti i gironi</div><div class="tab-all">48 nazionali e ' + rows.length + ' calciatori</div>';

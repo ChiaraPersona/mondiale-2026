@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arbitri Mondiali 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <div>
+        <h1>Arbitri Mondiali 2026</h1>
+        <p class="sub">I 52 arbitri principali selezionati dalla FIFA per il torneo.</p>
+        <div class="page-links" aria-label="Sezioni">
+          <a class="page-link" href="index.html">Convocati</a>
+          <a class="page-link active" href="arbitri.html">Arbitri</a>
+        </div>
+      </div>
+
+      <label class="search" aria-label="Cerca">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5"></path>
+        </svg>
+        <input
+          id="referee-search"
+          type="search"
+          placeholder="Cerca arbitro, paese o confederazione"
+        >
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="officials-intro">
+      <div>
+        <h2>Direttori di gara</h2>
+        <p>Elenco ordinato per confederazione, con ricerca e filtro rapido.</p>
+      </div>
+      <a class="official-source" href="https://vod.fifa.com/refereeing/media-releases/fifa-world-cup-2026-match-referees-appointed" target="_blank" rel="noreferrer">
+        Fonte FIFA
+      </a>
+    </section>
+
+    <div class="filters" id="referee-filters"></div>
+    <section id="referee-content"></section>
+    <div class="empty" id="referee-empty">Nessun arbitro trovato con questi filtri.</div>
+  </main>
+
+  <footer>
+    Dati basati sulla lista FIFA pubblicata il 9 aprile 2026: 52 arbitri principali, 88 assistenti e 30 ufficiali VAR.
+  </footer>
+
+  <script src="js/referees.js"></script>
+</body>
+</html>

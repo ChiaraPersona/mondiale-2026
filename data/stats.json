@@ -24407,34 +24407,10 @@
     },
     "sources": []
   },
-  "giordania::abdallah al-shuaybat": {
-    "player": "Abdallah Al-Shuaybat",
-    "team": "Giordania",
-    "club": "Al-Ahli",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
   "giordania::ali al-azaizeh": {
     "player": "Ali Al-Azaizeh",
     "team": "Giordania",
-    "club": "Kazma",
+    "club": "Al-Shabab",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -24443,6 +24419,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24450,15 +24428,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::ali olwan": {
     "player": "Ali Olwan",
     "team": "Giordania",
-    "club": "Al-Karma",
+    "club": "Al-Sailiya",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -24467,6 +24449,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24474,15 +24458,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::ibrahim sabra": {
     "player": "Ibrahim Sabra",
     "team": "Giordania",
-    "club": "Goztepe",
+    "club": "Lokomotiva Zagabria",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -24491,6 +24479,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24498,15 +24488,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::mahmoud al-mardi": {
     "player": "Mahmoud Al-Mardi",
     "team": "Giordania",
-    "club": "Dibba Al-Fujairah",
+    "club": "Al-Hussein",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -24515,6 +24509,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24522,34 +24518,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "giordania::mohammad abu zrayq": {
-    "player": "Mohammad Abu Zrayq",
-    "team": "Giordania",
-    "club": "Al-Ramtha",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::musa al-taamari": {
     "player": "Musa Al-Taamari",
@@ -24563,6 +24539,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24570,15 +24548,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::odeh al-fakhouri": {
     "player": "Odeh Al-Fakhouri",
     "team": "Giordania",
-    "club": "Al-Hussein",
+    "club": "Pyramids FC",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -24587,6 +24569,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24594,134 +24578,18 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "giordania::reziq bani hani": {
-    "player": "Reziq Bani Hani",
-    "team": "Giordania",
-    "club": "Al-Zawraa",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "giordania::yazan al-naimat": {
-    "player": "Yazan Al-Naimat",
-    "team": "Giordania",
-    "club": "Al-Arabi",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "giordania::ahmad al-salman": {
-    "player": "Ahmad Al-Salman",
-    "team": "Giordania",
-    "club": "Al-Ramtha",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::amer jamous": {
     "player": "Amer Jamous",
     "team": "Giordania",
-    "club": "Al-Wehdat",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "giordania::ibrahim sadeh": {
-    "player": "Ibrahim Sadeh",
-    "team": "Giordania",
-    "club": "Al-Karma",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "giordania::nizar al-rashdan": {
-    "player": "Nizar Al-Rashdan",
-    "team": "Giordania",
     "club": "Al-Zawraa",
     "age": "",
     "career": {
@@ -24731,6 +24599,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24738,10 +24608,44 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
+  },
+  "giordania::nizar al-rashdan": {
+    "player": "Nizar Al-Rashdan",
+    "team": "Giordania",
+    "club": "Qatar SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::noor al-rawabdeh": {
     "player": "Noor Al-Rawabdeh",
@@ -24755,6 +24659,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24762,10 +24668,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::abdallah nasib": {
     "player": "Abdallah Nasib",
@@ -24779,6 +24689,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24786,106 +24698,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "giordania::adham al-quraishi": {
-    "player": "Adham Al-Quraishi",
-    "team": "Giordania",
-    "club": "Al-Hussein",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "giordania::ali hajabi": {
-    "player": "Ali Hajabi",
-    "team": "Giordania",
-    "club": "Al-Hussein",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "giordania::hadi al-hourani": {
-    "player": "Hadi Al-Hourani",
-    "team": "Giordania",
-    "club": "Al-Faisaly",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "giordania::issam smeeri": {
-    "player": "Issam Smeeri",
-    "team": "Giordania",
-    "club": "Al-Salt",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::mohammad abu hasheesh": {
     "player": "Mohammad Abu Hasheesh",
@@ -24899,6 +24719,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24906,10 +24728,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::mohammad abualnadi": {
     "player": "Mohammad Abualnadi",
@@ -24923,6 +24749,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24930,10 +24758,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::mohannad abu taha": {
     "player": "Mohannad Abu Taha",
@@ -24947,6 +24779,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24954,10 +24788,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::saed al-rosan": {
     "player": "Saed Al-Rosan",
@@ -24971,6 +24809,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -24978,106 +24818,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "giordania::salim obaid": {
-    "player": "Salim Obaid",
-    "team": "Giordania",
-    "club": "Al-Hussein",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "giordania::yazan abu arab": {
-    "player": "Yazan Abu Arab",
-    "team": "Giordania",
-    "club": "Seoul",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "giordania::yousef abu al-jazar": {
-    "player": "Yousef Abu Al-Jazar",
-    "team": "Giordania",
-    "club": "Kazma",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "giordania::malek shalabiya": {
-    "player": "Malek Shalabiya",
-    "team": "Giordania",
-    "club": "Al-Ramtha",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::nour bani attiah": {
     "player": "Nour Bani Attiah",
@@ -25091,6 +24839,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -25098,10 +24848,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "giordania::yazeed abulaila": {
     "player": "Yazeed Abulaila",
@@ -25115,6 +24869,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -25122,10 +24878,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
   },
   "colombia::carlos gomez": {
     "player": "Carlos Gómez",
@@ -27023,30 +26783,6 @@
     },
     "sources": []
   },
-  "uzbekistan::abbosbek fayzullaev": {
-    "player": "Abbosbek Fayzullaev",
-    "team": "Uzbekistan",
-    "club": "Istanbul Basaksehir",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
   "uzbekistan::azizbek amonov": {
     "player": "Azizbek Amonov",
     "team": "Uzbekistan",
@@ -27059,6 +26795,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27066,10 +26804,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::eldor shomurodov": {
     "player": "Eldor Shomurodov",
@@ -27083,6 +26825,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27090,34 +26834,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "uzbekistan::igor sergeev": {
-    "player": "Igor Sergeev",
-    "team": "Uzbekistan",
-    "club": "Persepolis",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::jaloliddin masharipov": {
     "player": "Jaloliddin Masharipov",
@@ -27131,6 +26855,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27138,10 +26864,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::oston urunov": {
     "player": "Oston Urunov",
@@ -27155,6 +26885,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27162,34 +26894,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "uzbekistan::sherzod temirov": {
-    "player": "Sherzod Temirov",
-    "team": "Uzbekistan",
-    "club": "Erbil",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::akmal mozgovoy": {
     "player": "Akmal Mozgovoy",
@@ -27203,6 +26915,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27210,10 +26924,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::azizjon ganiev": {
     "player": "Azizjon Ganiev",
@@ -27227,6 +26945,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27234,10 +26954,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::dostonbek hamdamov": {
     "player": "Dostonbek Hamdamov",
@@ -27251,6 +26975,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27258,10 +26984,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::jamshid iskanderov": {
     "player": "Jamshid Iskanderov",
@@ -27275,6 +27005,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27282,34 +27014,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "uzbekistan::jasurbek jaloliddinov": {
-    "player": "Jasurbek Jaloliddinov",
-    "team": "Uzbekistan",
-    "club": "Sogdiana",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::odiljon hamrobekov": {
     "player": "Odiljon Hamrobekov",
@@ -27323,6 +27035,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27330,10 +27044,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::otabek shukurov": {
     "player": "Otabek Shukurov",
@@ -27347,6 +27065,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27354,10 +27074,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::sherzod esanov": {
     "player": "Sherzod Esanov",
@@ -27371,6 +27095,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27378,10 +27104,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::abdukodir khusanov": {
     "player": "Abdukodir Khusanov",
@@ -27395,6 +27125,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27402,63 +27134,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "uzbekistan::abdulla abdullaev": {
-    "player": "Abdulla Abdullaev",
-    "team": "Uzbekistan",
-    "club": "Dibba",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "uzbekistan::avazbek ulmasaliev": {
-    "player": "Avazbek Ulmasaliev",
-    "team": "Uzbekistan",
-    "club": "AGMK",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::bekhruz karimov": {
     "player": "Bekhruz Karimov",
     "team": "Uzbekistan",
-    "club": "Surkhan",
+    "club": "Surkhon",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -27467,6 +27155,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27474,58 +27164,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "uzbekistan::farrukh sayfiev": {
-    "player": "Farrukh Sayfiev",
-    "team": "Uzbekistan",
-    "club": "Neftchi",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "uzbekistan::jakhongir urozov": {
-    "player": "Jakhongir Urozov",
-    "team": "Uzbekistan",
-    "club": "Dinamo",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::khojiakbar alijonov": {
     "player": "Khojiakbar Alijonov",
@@ -27539,6 +27185,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27546,39 +27194,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "uzbekistan::ruslanbek jiyanov": {
-    "player": "Ruslanbek Jiyanov",
-    "team": "Uzbekistan",
-    "club": "Navbahor",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::rustamjon ashurmatov": {
     "player": "Rustamjon Ashurmatov",
     "team": "Uzbekistan",
-    "club": "Istiklol",
+    "club": "Esteghlal",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -27587,6 +27215,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27594,58 +27224,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "uzbekistan::sherzod nasrullaev": {
-    "player": "Sherzod Nasrullaev",
-    "team": "Uzbekistan",
-    "club": "Pakhtakor",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "uzbekistan::umarali rakhmonaliev": {
-    "player": "Umarali Rakhmonaliev",
-    "team": "Uzbekistan",
-    "club": "Sabah",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::umarbek eshmurodov": {
     "player": "Umarbek Eshmurodov",
@@ -27659,6 +27245,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27666,10 +27254,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::abduvokhid nematov": {
     "player": "Abduvokhid Nematov",
@@ -27683,6 +27275,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27690,10 +27284,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::botirali ergashev": {
     "player": "Botirali Ergashev",
@@ -27707,6 +27305,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27714,10 +27314,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "uzbekistan::utkir yusupov": {
     "player": "Utkir Yusupov",
@@ -27731,6 +27335,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -27738,10 +27344,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   },
   "croazia::andrej kramaric": {
     "player": "Andrej Kramaric",
@@ -28379,6 +27989,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28386,15 +27998,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::brandon thomas-asante": {
     "player": "Brandon Thomas-Asante",
     "team": "Ghana",
-    "club": "Coventry City",
+    "club": "Coventry",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -28403,6 +28019,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28410,10 +28028,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::ernest nuamah": {
     "player": "Ernest Nuamah",
@@ -28427,6 +28049,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28434,10 +28058,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::inaki williams": {
     "player": "Inaki Williams",
@@ -28451,6 +28079,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28458,15 +28088,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::jordan ayew": {
     "player": "Jordan Ayew",
     "team": "Ghana",
-    "club": "Leicester City",
+    "club": "Leicester",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -28475,6 +28109,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28482,63 +28118,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "ghana::prince kwabena adu": {
-    "player": "Prince Kwabena Adu",
-    "team": "Ghana",
-    "club": "Viktoria Plzen",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "ghana::abdul fatawu issahaku": {
-    "player": "Abdul Fatawu Issahaku",
-    "team": "Ghana",
-    "club": "Leicester City",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::augustine boakye": {
     "player": "Augustine Boakye",
     "team": "Ghana",
-    "club": "AS St. Etienne",
+    "club": "Saint-Etienne",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -28547,6 +28139,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28554,15 +28148,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::caleb yirenkyi": {
     "player": "Caleb Yirenkyi",
     "team": "Ghana",
-    "club": "FC Nordsjaelland",
+    "club": "Nordsjaelland",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -28571,6 +28169,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28578,10 +28178,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::christopher bonsu baah": {
     "player": "Christopher Bonsu Baah",
@@ -28595,6 +28199,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28602,10 +28208,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::elisha owusu": {
     "player": "Elisha Owusu",
@@ -28619,6 +28229,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28626,34 +28238,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "ghana::kamal deen sulemana": {
-    "player": "Kamal Deen Sulemana",
-    "team": "Ghana",
-    "club": "Atlanta",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::kwasi sibo": {
     "player": "Kwasi Sibo",
@@ -28667,6 +28259,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28674,10 +28268,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::thomas partey": {
     "player": "Thomas Partey",
@@ -28691,6 +28289,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28698,10 +28298,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::abdul mumin": {
     "player": "Abdul Mumin",
@@ -28715,6 +28319,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28722,34 +28328,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "ghana::alexander djiku": {
-    "player": "Alexander Djiku",
-    "team": "Ghana",
-    "club": "Spartak Moscow",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::alidu seidu": {
     "player": "Alidu Seidu",
@@ -28763,6 +28349,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28770,10 +28358,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::baba abdul rahman": {
     "player": "Baba Abdul Rahman",
@@ -28787,6 +28379,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28794,10 +28388,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::gideon mensah": {
     "player": "Gideon Mensah",
@@ -28811,6 +28409,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28818,15 +28418,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::jerome opoku": {
     "player": "Jerome Opoku",
     "team": "Ghana",
-    "club": "Istanbul Basaksehir",
+    "club": "Basaksehir",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -28835,6 +28439,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28842,10 +28448,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::jonas adjetey": {
     "player": "Jonas Adjetey",
@@ -28859,6 +28469,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28866,10 +28478,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::kojo oppong peprah": {
     "player": "Kojo Oppong Peprah",
@@ -28883,6 +28499,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28890,10 +28508,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::marvin senaya": {
     "player": "Marvin Senaya",
@@ -28907,6 +28529,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28914,15 +28538,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::benjamin asare": {
     "player": "Benjamin Asare",
     "team": "Ghana",
-    "club": "Accra Hearts of Oak SC",
+    "club": "Hearts of Oak",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -28931,6 +28559,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28938,15 +28568,19 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::joseph anang": {
     "player": "Joseph Anang",
     "team": "Ghana",
-    "club": "St. Patrick's Athletic",
+    "club": "St. Patrick's",
     "age": "",
     "career": {
       "worldCupEditions": "",
@@ -28955,6 +28589,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28962,10 +28598,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "ghana::lawrence ati-zigi": {
     "player": "Lawrence Ati-Zigi",
@@ -28979,6 +28619,8 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -28986,58 +28628,14 @@
       "appearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
-  },
-  "ghana::paul reverson": {
-    "player": "Paul Reverson",
-    "team": "Ghana",
-    "club": "Ajax",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "ghana::solomon agbasi": {
-    "player": "Solomon Agbasi",
-    "team": "Ghana",
-    "club": "Accra Hearts of Oak SC",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
   },
   "inghilterra::anthony gordon": {
     "player": "Anthony Gordon",
@@ -30334,5 +29932,635 @@
       "redCards": ""
     },
     "sources": []
+  },
+  "giordania::mohammad shararh": {
+    "player": "Mohammad Shararh",
+    "team": "Giordania",
+    "club": "Raja Club Athletic",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
+  },
+  "giordania::ibrahim saadeh": {
+    "player": "Ibrahim Saadeh",
+    "team": "Giordania",
+    "club": "Al-Karma",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
+  },
+  "giordania::rajaei ayed": {
+    "player": "Rajaei Ayed",
+    "team": "Giordania",
+    "club": "Al-Hussein",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
+  },
+  "giordania::fadi al-dawoud": {
+    "player": "Fadi Al-Dawoud",
+    "team": "Giordania",
+    "club": "Al-Wehdat",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
+  },
+  "giordania::yazan al-arab": {
+    "player": "Yazan Al-Arab",
+    "team": "Giordania",
+    "club": "Seoul FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
+  },
+  "giordania::husam abu dahab": {
+    "player": "Husam Abu Dahab",
+    "team": "Giordania",
+    "club": "Al-Faisaly",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
+  },
+  "giordania::saleem obaid": {
+    "player": "Saleem Obaid",
+    "team": "Giordania",
+    "club": "Al-Hussein",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
+  },
+  "giordania::ehsan haddad": {
+    "player": "Ehsan Haddad",
+    "team": "Giordania",
+    "club": "Al-Hussein",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
+  },
+  "giordania::anas badawi": {
+    "player": "Anas Badawi",
+    "team": "Giordania",
+    "club": "Al-Faisaly",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
+  },
+  "giordania::abdallah al-fakhouri": {
+    "player": "Abdallah Al-Fakhouri",
+    "team": "Giordania",
+    "club": "Al-Wehdat",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/giordania-all-esordio-mondiale-i-convocati-del-ct-sellami-solo-due-giocano-in-europa-2240492"
+    ]
+  },
+  "uzbekistan::abbosbek fayzullayev": {
+    "player": "Abbosbek Fayzullayev",
+    "team": "Uzbekistan",
+    "club": "Istanbul Basaksehir",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
+  },
+  "uzbekistan::igor sergeyev": {
+    "player": "Igor Sergeyev",
+    "team": "Uzbekistan",
+    "club": "Persepolis",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
+  },
+  "uzbekistan::abdulla abdullayev": {
+    "player": "Abdulla Abdullayev",
+    "team": "Uzbekistan",
+    "club": "Dibba",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
+  },
+  "uzbekistan::farrukh sayfiyev": {
+    "player": "Farrukh Sayfiyev",
+    "team": "Uzbekistan",
+    "club": "Neftchi",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
+  },
+  "uzbekistan::sherzod nasrullayev": {
+    "player": "Sherzod Nasrullayev",
+    "team": "Uzbekistan",
+    "club": "Pakhtakor",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
+  },
+  "ghana::prince adu": {
+    "player": "Prince Adu",
+    "team": "Ghana",
+    "club": "Viktoria Plzen",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
+  },
+  "ghana::abdul fatawu": {
+    "player": "Abdul Fatawu",
+    "team": "Ghana",
+    "club": "Leicester",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
+  },
+  "ghana::kamaldeen sulemana": {
+    "player": "Kamaldeen Sulemana",
+    "team": "Ghana",
+    "club": "Atalanta",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
+  },
+  "ghana::derrick luckassen": {
+    "player": "Derrick Luckassen",
+    "team": "Ghana",
+    "club": "Pafos",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/02/mondiali-sulemana-dellatalanta-tra-i-26-convocati-del-ghana_b9a9a1f1-4401-4371-89d0-633a6acade4a.html"
+    ]
+  },
+  "uzbekistan::avazbek olmasaliyev": {
+    "player": "Avazbek Olmasaliyev",
+    "team": "Uzbekistan",
+    "club": "OKMK",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
+  },
+  "uzbekistan::jakhongir orozov": {
+    "player": "Jakhongir Orozov",
+    "team": "Uzbekistan",
+    "club": "Dinamo",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": [
+      "https://www.tuttomercatoweb.com/mondiali-2026/kushanov-fayzullayev-e-shomurodov-le-stelle-di-cannavaro-i-convocati-dell-uzbekistan-2240499"
+    ]
   }
 }

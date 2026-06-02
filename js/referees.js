@@ -66,7 +66,7 @@ const referees = [
   { name: "João Pinheiro", country: "Portogallo", confed: "UEFA", stats: { fixtures: 390, yellowCards: 1721, redCards: 39, yellowPerGame: 4.41, source: "https://playerstats.football/referee/332" } },
   { name: "István Kovács", country: "Romania", confed: "UEFA", stats: { fixtures: 465, yellowCards: 2078, redCards: 48, yellowPerGame: 4.47, source: "https://playerstats.football/referee/159" } },
   { name: "Slavko Vinčić", country: "Slovenia", confed: "UEFA", stats: { fixtures: 444, yellowCards: 1819, redCards: 39, yellowPerGame: 4.10, source: "https://playerstats.football/referee/512" } },
-  { name: "Alejandro Hernández", country: "Spagna", confed: "UEFA", stats: { fixtures: 22, yellowCards: 118, redCards: 6, yellowPerGame: 5.36, source: "https://playerstats.football/referee/1804" } },
+  { name: "Alejandro Hernández", country: "Spagna", confed: "UEFA", stats: { fixtures: 298, yellowCards: 1545, redCards: 86, yellowPerGame: 5.18, source: "https://it.whoscored.com/referees/229/show/alejandro-jos%C3%A9-hern%C3%A1ndez-hern%C3%A1ndez" } },
   { name: "Glenn Nyberg", country: "Svezia", confed: "UEFA", stats: { fixtures: 441, yellowCards: 1315, redCards: 23, yellowPerGame: 2.98, source: "https://playerstats.football/referee/206" } },
   { name: "Sandro Schärer", country: "Svizzera", confed: "UEFA", stats: { fixtures: 382, yellowCards: 1560, redCards: 36, yellowPerGame: 4.08, source: "https://playerstats.football/referee/173" } },
 ];
@@ -86,6 +86,12 @@ function fold(value) {
 function matchesReferee(referee, query) {
   if (!query) return true;
   return fold([referee.name, referee.country, referee.confed].join(" ")).includes(query);
+}
+
+function refereeId(referee) {
+  return "referee-" + fold(referee.name + "-" + referee.country)
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 function makeFilters() {
@@ -116,11 +122,15 @@ function renderRefereeStats(referee) {
   if (!referee.stats) {
     return '<span class="chip muted-chip">Statistiche n.d.</span>';
   }
+  const totalCards = referee.stats.yellowCards + referee.stats.redCards;
+  const cardsPerGame = totalCards / referee.stats.fixtures;
 
   return [
     '<span class="chip">Partite: ' + referee.stats.fixtures + '</span>',
     '<span class="chip">Gialli: ' + referee.stats.yellowCards + '</span>',
     '<span class="chip">Rossi: ' + referee.stats.redCards + '</span>',
+    '<span class="chip">Cartellini totali: ' + totalCards + '</span>',
+    '<span class="chip">Cartellini/partita: ' + cardsPerGame.toFixed(2) + '</span>',
     '<span class="chip">Gialli/partita: ' + referee.stats.yellowPerGame.toFixed(2) + '</span>',
     '<a class="chip chip-link" href="' + referee.stats.source + '" target="_blank" rel="noreferrer">Fonte stats</a>',
   ].join('');
@@ -138,8 +148,8 @@ function renderCardRanking(refereeList) {
     .filter((item) => item.average !== null)
     .sort((a, b) => b.average - a.average || a.referee.name.localeCompare(b.referee.name));
 
-  refereeCardRanking.innerHTML = ranked.length ? ranked.slice(0, 12).map(({ referee, average }, index) => (
-    '<article class="card-ranking-item">' +
+  refereeCardRanking.innerHTML = ranked.length ? ranked.map(({ referee, average }, index) => (
+    '<button class="card-ranking-item" type="button" data-referee-target="' + refereeId(referee) + '">' +
       '<span class="ranking-position">' + (index + 1) + '</span>' +
       '<div class="ranking-referee">' +
         '<strong>' + referee.name + '</strong>' +
@@ -149,8 +159,19 @@ function renderCardRanking(refereeList) {
         '<strong>' + average.toFixed(2) + '</strong>' +
         '<span>cartellini/partita</span>' +
       '</div>' +
-    '</article>'
+    '</button>'
   )).join("") : '<div class="empty-inline">Nessuna statistica cartellini disponibile.</div>';
+}
+
+function focusRefereeCard(refereeIdValue) {
+  const card = document.getElementById(refereeIdValue);
+  if (!card) return;
+  card.scrollIntoView({ behavior: "smooth", block: "center" });
+  card.classList.remove("is-highlighted");
+  window.setTimeout(() => {
+    card.classList.add("is-highlighted");
+    window.setTimeout(() => card.classList.remove("is-highlighted"), 2600);
+  }, 250);
 }
 
 function renderReferees() {
@@ -174,7 +195,7 @@ function renderReferees() {
     const grid = document.createElement("div");
     grid.className = "official-grid";
     grid.innerHTML = group.map((referee) => (
-      '<article class="official" style="--group-color: ' + confedColors[referee.confed] + '">' +
+      '<article class="official" id="' + refereeId(referee) + '" style="--group-color: ' + confedColors[referee.confed] + '">' +
         '<h3 class="official-name">' + referee.name + ' <span class="official-country-inline">- ' + referee.country + '</span></h3>' +
         '<div class="official-meta">' +
           renderRefereeStats(referee) +
@@ -188,5 +209,10 @@ function renderReferees() {
 }
 
 refereeSearch.addEventListener("input", renderReferees);
+refereeCardRanking.addEventListener("click", (event) => {
+  const item = event.target.closest("[data-referee-target]");
+  if (!item) return;
+  focusRefereeCard(item.dataset.refereeTarget);
+});
 makeFilters();
 renderReferees();

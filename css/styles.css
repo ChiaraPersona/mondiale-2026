@@ -161,6 +161,7 @@ main {
 .team-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
   gap: 16px;
 }
 .team {
@@ -1547,6 +1548,10 @@ footer { color: var(--muted); }
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 10px;
+  max-height: 460px;
+  overflow-y: auto;
+  padding-right: 6px;
+  scroll-behavior: smooth;
 }
 
 .card-ranking-item {
@@ -1555,9 +1560,23 @@ footer { color: var(--muted); }
   gap: 10px;
   align-items: center;
   padding: 10px;
+  width: 100%;
   border: 1px solid rgba(255,255,255,.09);
   border-radius: 12px;
   background: rgba(7,10,15,.34);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color .16s ease, background .16s ease, transform .16s ease;
+}
+
+.card-ranking-item:hover,
+.card-ranking-item:focus-visible {
+  border-color: rgba(255, 209, 102, .48);
+  background: rgba(255, 183, 3, .09);
+  transform: translateY(-1px);
+  outline: none;
 }
 
 .ranking-position {
@@ -1596,6 +1615,25 @@ footer { color: var(--muted); }
 .ranking-average strong {
   color: #ffd166;
   font-size: 18px;
+}
+
+.official.is-highlighted {
+  border-color: #ffd166;
+  box-shadow: 0 0 0 2px rgba(255, 209, 102, .56), 0 22px 52px rgba(0, 0, 0, .44);
+  animation: refereeHighlight 1.3s ease-in-out 2;
+}
+
+@keyframes refereeHighlight {
+  0%, 100% {
+    background:
+      radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--group-color, var(--green)) 30%, transparent), transparent 42%),
+      linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.025));
+  }
+  50% {
+    background:
+      radial-gradient(circle at 100% 0%, rgba(255, 209, 102, .38), transparent 46%),
+      linear-gradient(180deg, rgba(255, 209, 102, .18), rgba(255,255,255,.035));
+  }
 }
 
 @media (max-width: 1280px) {

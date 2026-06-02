@@ -37,6 +37,7 @@ function getStats(row) {
     },
     season2025_26: {
       appearances: season.appearances || "",
+      minutes: season.minutes || "",
       goals: season.goals || "",
       assists: season.assists || "",
       goalsConceded: season.goalsConceded || "",
@@ -145,7 +146,9 @@ function playerStatsHtml(row) {
   const stats = getStats(row);
   const c = stats.career;
   const s = stats.season2025_26;
-  const sourceLabel = stats.sources.length ? stats.sources.length + ' fonti' : 'fonti da aggiungere';
+  const hasDirettaSource = stats.sources.some((source) => fold(source).includes("diretta.it"));
+  const sourceLabel = hasDirettaSource ? "Diretta" : (stats.sources.length ? stats.sources.length + ' fonti' : 'fonti da aggiungere');
+  const seasonLabel = hasDirettaSource ? "Nazionale Diretta" : "Stagione 2025/26";
   const isGoalkeeper = row.role === "Portieri";
 
   return '<div class="player-stats-panel">'
@@ -165,9 +168,10 @@ function playerStatsHtml(row) {
     + statChip('Rossi', c.redCards)
     + '</div></details>'
     + '<details class="stats-details">'
-    + '<summary>Stagione 2025/26</summary>'
+    + '<summary>' + seasonLabel + '</summary>'
     + '<div class="stats-row">'
     + statChip('Presenze', s.appearances)
+    + statChip('Minuti', s.minutes)
     + (isGoalkeeper ? statChip('Media gol subiti', goalkeeperConcededAverage(stats)) : statChip('Goal', s.goals) + statChip('Assist', s.assists))
     + statChip('Gialli', s.yellowCards)
     + statChip('Rossi', s.redCards)

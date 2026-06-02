@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Statistiche Squadre Mondiali 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <div>
+        <h1>Statistiche Squadre</h1>
+        <p class="sub">Statistiche squadra calcolate solo dalle partite verificate su Diretta.it.</p>
+      </div>
+
+      <label class="search" aria-label="Cerca squadra">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5"></path>
+        </svg>
+        <input
+          id="team-stats-search"
+          type="search"
+          placeholder="Cerca nazionale"
+        >
+      </label>
+    </div>
+
+    <nav class="page-links" aria-label="Sezioni">
+      <a class="page-link" href="index.html">Convocati</a>
+      <a class="page-link" href="pronostico.html">Pronostico</a>
+      <a class="page-link" href="arbitri.html">Arbitri</a>
+      <a class="page-link active" href="statistiche-squadre.html">Statistiche squadre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="team-stats-intro">
+      <div>
+        <span>Dati squadra</span>
+        <h2>48 nazionali, gironi compatti</h2>
+        <p>Apri un girone per confrontare le medie fino alle ultime 15 partite da Diretta: xG, disciplina, tiri, corner, possesso, fuorigioco e falli quando disponibili.</p>
+      </div>
+      <div class="team-stats-source-list">
+        <a href="https://www.diretta.it/" target="_blank" rel="noreferrer">Diretta.it</a>
+      </div>
+    </section>
+
+    <section id="team-stats-content" class="team-stats-grid"></section>
+    <div class="empty" id="team-stats-empty">Nessuna squadra trovata.</div>
+  </main>
+
+  <footer>
+    Fonte unica: Diretta.it. Le medie vengono calcolate sulle partite verificate inserite per ogni nazionale, fino a un massimo di 15.
+  </footer>
+
+  <script src="js/team-stats-data.js"></script>
+  <script src="js/team-stats.js"></script>
+</body>
+</html>

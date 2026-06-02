@@ -4995,7 +4995,7 @@
     "player": "Endrick",
     "team": "Brasile",
     "club": "Lyon/Real Madrid",
-    "age": 20,
+    "age": 19,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -5003,23 +5003,30 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 6,
+      "minutes": 142,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 1,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::igor thiago": {
     "player": "Igor Thiago",
     "team": "Brasile",
     "club": "Brentford",
-    "age": 25,
+    "age": 24,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -5027,17 +5034,24 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::luiz henrique": {
     "player": "Luiz Henrique",
@@ -5051,23 +5065,30 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 8,
+      "minutes": 289,
+      "goals": 2,
+      "assists": 2,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::martinelli": {
     "player": "Martinelli",
     "team": "Brasile",
     "club": "Arsenal",
-    "age": "",
+    "age": 24,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -5075,17 +5096,24 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 9,
+      "minutes": 405,
+      "goals": 1,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 1,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::matheus cunha": {
     "player": "Matheus Cunha",
@@ -5099,17 +5127,24 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 7,
+      "minutes": 240,
+      "goals": 1,
+      "assists": 1,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 1,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::neymar": {
     "player": "Neymar",
@@ -5123,94 +5158,29 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 4,
+      "minutes": 313,
+      "goals": 2,
+      "assists": 3,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 1,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::raphinha": {
     "player": "Raphinha",
     "team": "Brasile",
     "club": "Barcelona",
-    "age": 30,
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "brasile::rayan": {
-    "player": "Rayan",
-    "team": "Brasile",
-    "club": "Bournemouth",
-    "age": 20,
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "brasile::vinicius jr.": {
-    "player": "Vinicius Jr.",
-    "team": "Brasile",
-    "club": "Real Madrid",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "brasile::bruno guimaraes": {
-    "player": "Bruno Guimarães",
-    "team": "Brasile",
-    "club": "Newcastle",
     "age": 29,
     "career": {
       "worldCupEditions": "",
@@ -5219,17 +5189,117 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
+      "appearances": 13,
+      "minutes": 1055,
+      "goals": 5,
+      "assists": 2,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 4,
+      "redCards": 0
+    },
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
+  },
+  "brasile::rayan": {
+    "player": "Rayan",
+    "team": "Brasile",
+    "club": "Bournemouth",
+    "age": 19,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "season2025_26": {
+      "appearances": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
+  },
+  "brasile::vinicius jr.": {
+    "player": "Vinicius Jr.",
+    "team": "Brasile",
+    "club": "Real Madrid",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": 11,
+      "minutes": 897,
+      "goals": 2,
+      "assists": 1,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 2,
+      "redCards": 0
+    },
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
+  },
+  "brasile::bruno guimaraes": {
+    "player": "Bruno Guimarães",
+    "team": "Brasile",
+    "club": "Newcastle",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": 17,
+      "minutes": 1323,
+      "goals": 1,
+      "assists": 2,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 4,
+      "redCards": 0
+    },
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::casemiro": {
     "player": "Casemiro",
@@ -5243,17 +5313,24 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 7,
+      "minutes": 595,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 2,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::danilo": {
     "player": "Danilo",
@@ -5267,13 +5344,18 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
       "appearances": "",
+      "minutes": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
@@ -5283,7 +5365,7 @@
     "player": "Fabinho",
     "team": "Brasile",
     "club": "Al Ittihad",
-    "age": 33,
+    "age": 32,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -5291,23 +5373,30 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::lucas paqueta": {
     "player": "Lucas Paquetá",
     "team": "Brasile",
     "club": "Flamengo",
-    "age": 29,
+    "age": 28,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -5315,17 +5404,24 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 7,
+      "minutes": 333,
+      "goals": 1,
+      "assists": 1,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 3,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::alex sandro": {
     "player": "Alex Sandro",
@@ -5339,23 +5435,30 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 2,
+      "minutes": 164,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::bremer": {
     "player": "Bremer",
     "team": "Brasile",
     "club": "Juventus",
-    "age": "",
+    "age": 29,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -5363,17 +5466,24 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::douglas santos": {
     "player": "Douglas Santos",
@@ -5387,23 +5497,30 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 1,
+      "minutes": 90,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::gabriel magalhaes": {
     "player": "Gabriel Magalhães",
     "team": "Brasile",
     "club": "Arsenal",
-    "age": 29,
+    "age": 28,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -5411,23 +5528,30 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 14,
+      "minutes": 1228,
+      "goals": 1,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 2,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::ibanez": {
     "player": "Ibáñez",
     "team": "Brasile",
     "club": "Al Ahli",
-    "age": "",
+    "age": 27,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -5435,17 +5559,24 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 1,
+      "minutes": 6,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::leo pereira": {
     "player": "Léo Pereira",
@@ -5459,17 +5590,24 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::marquinhos": {
     "player": "Marquinhos",
@@ -5483,23 +5621,30 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 18,
+      "minutes": 1514,
+      "goals": 1,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::wesley": {
     "player": "Wesley",
     "team": "Brasile",
     "club": "Roma",
-    "age": 23,
+    "age": 22,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -5507,46 +5652,29 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 3,
+      "minutes": 191,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::alisson": {
     "player": "Alisson",
     "team": "Brasile",
     "club": "Liverpool",
-    "age": "",
-    "career": {
-      "worldCupEditions": "",
-      "worldCupAppearances": "",
-      "clubAppearances": "",
-      "nationalAppearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
-    },
-    "sources": []
-  },
-  "brasile::ederson": {
-    "player": "Ederson",
-    "team": "Brasile",
-    "club": "Fenerbahce",
     "age": 33,
     "career": {
       "worldCupEditions": "",
@@ -5555,23 +5683,30 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 9,
+      "minutes": 798,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
-  "brasile::weverton": {
-    "player": "Weverton",
+  "brasile::ederson": {
+    "player": "Ederson",
     "team": "Brasile",
-    "club": "Grêmio",
-    "age": 39,
+    "club": "Fenerbahce",
+    "age": 32,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -5579,17 +5714,55 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
+      "appearances": 8,
+      "minutes": 720,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 1,
+      "redCards": 0
+    },
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
+  },
+  "brasile::weverton": {
+    "player": "Weverton",
+    "team": "Brasile",
+    "club": "Grêmio",
+    "age": 38,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
-    "sources": []
+    "season2025_26": {
+      "appearances": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "haiti::derrick etienne": {
     "player": "Derrick Etienne",
@@ -29889,7 +30062,7 @@
     "player": "Danilo",
     "team": "Brasile",
     "club": "Botafogo",
-    "age": 35,
+    "age": 25,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -29897,23 +30070,30 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 0,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "brasile::danilo::difensori": {
     "player": "Danilo",
     "team": "Brasile",
     "club": "Flamengo",
-    "age": 35,
+    "age": 34,
     "career": {
       "worldCupEditions": "",
       "worldCupAppearances": "",
@@ -29921,17 +30101,24 @@
       "nationalAppearances": "",
       "goals": "",
       "assists": "",
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
       "yellowCards": "",
       "redCards": ""
     },
     "season2025_26": {
-      "appearances": "",
-      "goals": "",
-      "assists": "",
-      "yellowCards": "",
-      "redCards": ""
+      "appearances": 8,
+      "minutes": 578,
+      "goals": 0,
+      "assists": 0,
+      "goalsConceded": "",
+      "goalsConcededPerGame": "",
+      "yellowCards": 1,
+      "redCards": 0
     },
-    "sources": []
+    "sources": [
+      "https://www.diretta.it/squadra/brasile/I9l9aqLq/"
+    ]
   },
   "giordania::mohammad shararh": {
     "player": "Mohammad Shararh",

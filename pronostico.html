@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pronostico Mondiali 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="predictor-page">
+  <header>
+    <div class="topbar">
+      <div>
+        <h1>Pronostico Mondiali 2026</h1>
+        <p class="sub">Tabellone personale con le 48 nazionali del torneo.</p>
+        <div class="page-links" aria-label="Sezioni">
+          <a class="page-link" href="index.html">Convocati</a>
+          <a class="page-link active" href="pronostico.html">Pronostico</a>
+          <a class="page-link" href="arbitri.html">Arbitri</a>
+        </div>
+      </div>
+
+      <div class="predictor-actions" aria-label="Azioni pronostico">
+        <button class="filter-button" id="clear-prediction" type="button">Svuota</button>
+        <button class="filter-button" id="restore-prediction" type="button">Ripristina salvato</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="predictor-shell">
+    <section class="team-drawer" aria-label="Squadre disponibili">
+      <div class="drawer-head">
+        <h2>Squadre</h2>
+        <p>48 nazionali ordinate per girone.</p>
+      </div>
+      <div id="team-palette" class="team-palette"></div>
+    </section>
+
+    <section class="bracket-board" aria-label="Tabellone pronostico">
+      <div class="board-title">
+        <span>World Champions</span>
+        <strong>2026</strong>
+      </div>
+
+      <div class="bracket-layout">
+        <div class="bracket-side bracket-left" id="left-bracket"></div>
+
+        <div class="final-stage" aria-label="Fasi finali">
+          <div class="final-slot">
+            <span class="round-label">Campione</span>
+            <div class="drop-slot trophy-slot" data-slot="champion"></div>
+          </div>
+          <div class="trophy-mark">26</div>
+          <div class="final-grid">
+            <div class="final-slot">
+              <span class="round-label">Finalista</span>
+              <div class="drop-slot" data-slot="runner-up"></div>
+            </div>
+            <div class="final-slot">
+              <span class="round-label">Terzo posto</span>
+              <div class="drop-slot" data-slot="third-place"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bracket-side bracket-right" id="right-bracket"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Il pronostico viene salvato nel browser su questo dispositivo.
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/predictor.js"></script>
+</body>
+</html>

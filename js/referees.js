@@ -77,6 +77,7 @@ const refereeContent = document.getElementById("referee-content");
 const refereeEmpty = document.getElementById("referee-empty");
 const refereeFilters = document.getElementById("referee-filters");
 const refereeSearch = document.getElementById("referee-search");
+const refereeCardRanking = document.getElementById("referee-card-ranking");
 
 function fold(value) {
   return String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -125,10 +126,38 @@ function renderRefereeStats(referee) {
   ].join('');
 }
 
+function cardAverage(referee) {
+  if (!referee.stats || !referee.stats.fixtures) return null;
+  return (referee.stats.yellowCards + referee.stats.redCards) / referee.stats.fixtures;
+}
+
+function renderCardRanking(refereeList) {
+  if (!refereeCardRanking) return;
+  const ranked = refereeList
+    .map((referee) => ({ referee, average: cardAverage(referee) }))
+    .filter((item) => item.average !== null)
+    .sort((a, b) => b.average - a.average || a.referee.name.localeCompare(b.referee.name));
+
+  refereeCardRanking.innerHTML = ranked.length ? ranked.slice(0, 12).map(({ referee, average }, index) => (
+    '<article class="card-ranking-item">' +
+      '<span class="ranking-position">' + (index + 1) + '</span>' +
+      '<div class="ranking-referee">' +
+        '<strong>' + referee.name + '</strong>' +
+        '<small>' + referee.country + '</small>' +
+      '</div>' +
+      '<div class="ranking-average">' +
+        '<strong>' + average.toFixed(2) + '</strong>' +
+        '<span>cartellini/partita</span>' +
+      '</div>' +
+    '</article>'
+  )).join("") : '<div class="empty-inline">Nessuna statistica cartellini disponibile.</div>';
+}
+
 function renderReferees() {
   const filtered = visibleReferees();
   refereeContent.innerHTML = "";
   refereeEmpty.style.display = filtered.length ? "none" : "block";
+  renderCardRanking(filtered);
 
   const confeds = activeConfed === "Tutte" ? Object.keys(confedLabels) : [activeConfed];
   for (const confed of confeds) {
@@ -146,9 +175,8 @@ function renderReferees() {
     grid.className = "official-grid";
     grid.innerHTML = group.map((referee) => (
       '<article class="official" style="--group-color: ' + confedColors[referee.confed] + '">' +
-        '<h3 class="official-name">' + referee.name + '</h3>' +
+        '<h3 class="official-name">' + referee.name + ' <span class="official-country-inline">- ' + referee.country + '</span></h3>' +
         '<div class="official-meta">' +
-          '<span class="chip">' + referee.country + '</span>' +
           renderRefereeStats(referee) +
         '</div>' +
       '</article>'

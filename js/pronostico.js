@@ -15,6 +15,7 @@ const bracketRounds = {
   qf: { size: 4, previous: "r16" },
   sf: { size: 2, previous: "qf" },
   final: { size: 1, previous: "sf" },
+  bronze: { size: 1, previous: "sf" },
 };
 
 let predictionGroups = {};
@@ -99,6 +100,13 @@ function roundParticipants(round, index) {
     return roundOf32Seeds[index].map((seed) => ({ seed, team: teamFromSeed(seed) }));
   }
 
+  if (round === "bronze") {
+    return [
+      { seed: "", team: roundLoser("sf", 0) },
+      { seed: "", team: roundLoser("sf", 1) },
+    ];
+  }
+
   const previous = bracketRounds[round].previous;
   const firstTeam = roundWinner(previous, index * 2);
   const secondTeam = roundWinner(previous, index * 2 + 1);
@@ -112,6 +120,13 @@ function roundWinner(round, index) {
   const teams = roundParticipants(round, index).map(({ team }) => team).filter(Boolean);
   const selected = predictionBracket[bracketKey(round, index)] || "";
   return teams.includes(selected) ? selected : "";
+}
+
+function roundLoser(round, index) {
+  const teams = roundParticipants(round, index).map(({ team }) => team).filter(Boolean);
+  const winner = roundWinner(round, index);
+  if (!winner || teams.length < 2) return "";
+  return teams.find((team) => team !== winner) || "";
 }
 
 function pruneInvalidBracket() {
@@ -239,9 +254,10 @@ function renderPredictionThirds() {
 function bracketTeamButton(round, index, seed, team) {
   const selected = roundWinner(round, index) === team;
   const disabled = !team;
+  const seedMarkup = seed ? `<span class="prediction-bracket-seed">${seed}</span>` : "";
   return `
-    <button class="prediction-bracket-team ${selected ? "is-selected" : ""} ${disabled ? "is-empty" : ""}" type="button" data-round="${round}" data-index="${index}" data-team="${team}" ${disabled ? "disabled" : ""}>
-      <span class="prediction-bracket-seed">${seed || "Vincente"}</span>
+    <button class="prediction-bracket-team ${seed ? "" : "no-seed"} ${selected ? "is-selected" : ""} ${disabled ? "is-empty" : ""}" type="button" data-round="${round}" data-index="${index}" data-team="${team}" ${disabled ? "disabled" : ""}>
+      ${seedMarkup}
       <span class="prediction-bracket-team-name">${team ? `${flagMarkup(team)}${team}` : "Da definire"}</span>
     </button>`;
 }
@@ -267,6 +283,7 @@ function renderPredictionBracket() {
   if (!root) return;
   pruneInvalidBracket();
   const champion = roundWinner("final", 0);
+  const bronzeWinner = roundWinner("bronze", 0);
 
   root.innerHTML = `
     <div class="prediction-bracket-board">
@@ -291,7 +308,11 @@ function renderPredictionBracket() {
             <strong>${champion ? `${flagMarkup(champion)}${champion}` : "Da scegliere"}</strong>
           </div>
           <span>Bronze winner</span>
-          ${bracketPlaceholder("Terzo posto")}
+          ${renderBracketMatch("bronze", 0)}
+          <div class="prediction-champion-box prediction-bronze-box ${bronzeWinner ? "has-champion" : ""}">
+            <span>Bronzo</span>
+            <strong>${bronzeWinner ? `${flagMarkup(bronzeWinner)}${bronzeWinner}` : "Da scegliere"}</strong>
+          </div>
         </div>
 
         <div class="prediction-bracket-side prediction-bracket-right">

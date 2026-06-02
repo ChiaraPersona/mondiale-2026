@@ -23,8 +23,7 @@ const bracketMatches = {
   ],
 };
 
-const teamPaletteLeft = document.getElementById("team-palette-left");
-const teamPaletteRight = document.getElementById("team-palette-right");
+const teamPalette = document.getElementById("team-palette");
 const leftBracket = document.getElementById("left-bracket");
 const rightBracket = document.getElementById("right-bracket");
 const clearButton = document.getElementById("clear-prediction");
@@ -69,33 +68,20 @@ function makeTeamToken(team, source) {
   return token;
 }
 
-function makePaletteGroup(group, teams) {
-  const card = document.createElement("article");
-  card.className = "predictor-group";
-  card.style.setProperty("--group-color", groupColors[group] || "#1f7a5b");
-  card.innerHTML = '<h3>Girone ' + group + '</h3>';
-
-  const list = document.createElement("div");
-  list.className = "predictor-team-list";
-  teams.forEach((team) => list.appendChild(makeTeamToken(team, "palette")));
-
-  card.appendChild(list);
-  return card;
-}
-
 function renderPalette() {
-  teamPaletteLeft.innerHTML = "";
-  teamPaletteRight.innerHTML = "";
+  teamPalette.innerHTML = "";
+  Object.entries(groupTeams).forEach(([group, teams]) => {
+    const card = document.createElement("article");
+    card.className = "predictor-group";
+    card.style.setProperty("--group-color", groupColors[group] || "#1f7a5b");
+    card.innerHTML = '<h3>Girone ' + group + '</h3>';
 
-  const groups = Object.entries(groupTeams);
-  const splitIndex = Math.ceil(groups.length / 2);
+    const list = document.createElement("div");
+    list.className = "predictor-team-list";
+    teams.forEach((team) => list.appendChild(makeTeamToken(team, "palette")));
 
-  groups.slice(0, splitIndex).forEach(([group, teams]) => {
-    teamPaletteLeft.appendChild(makePaletteGroup(group, teams));
-  });
-
-  groups.slice(splitIndex).forEach(([group, teams]) => {
-    teamPaletteRight.appendChild(makePaletteGroup(group, teams));
+    card.appendChild(list);
+    teamPalette.appendChild(card);
   });
 }
 

@@ -1,0 +1,30290 @@
+const playerStats = {
+  "corea del sud::cho gue-sung": {
+    "player": "Cho Gue-Sung",
+    "team": "Corea del Sud",
+    "club": "Midtjylland",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::oh hyeon-gyu": {
+    "player": "Oh Hyeon-Gyu",
+    "team": "Corea del Sud",
+    "club": "Besiktas",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::song heung-min": {
+    "player": "Song Heung-Min",
+    "team": "Corea del Sud",
+    "club": "LA FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::bae jun-ho": {
+    "player": "Bae Jun-Ho",
+    "team": "Corea del Sud",
+    "club": "Stoke City",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::eom ji-sung": {
+    "player": "Eom Ji-Sung",
+    "team": "Corea del Sud",
+    "club": "Swansea City",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::hwang hee-chan": {
+    "player": "Hwang Hee-Chan",
+    "team": "Corea del Sud",
+    "club": "Wolverhampton",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::hwang in-beom": {
+    "player": "Hwang In-Beom",
+    "team": "Corea del Sud",
+    "club": "Feyenoord",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::kim jin-gyu": {
+    "player": "Kim Jin-Gyu",
+    "team": "Corea del Sud",
+    "club": "Jeonbuk Hyundai",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::lee dong-gyeong": {
+    "player": "Lee Dong-Gyeong",
+    "team": "Corea del Sud",
+    "club": "Ulsan HD",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::lee jjae-sung )mainz 05)": {
+    "player": "Lee Jjae-Sung )Mainz 05)",
+    "team": "Corea del Sud",
+    "club": "",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::lee kang-in": {
+    "player": "Lee Kang-In",
+    "team": "Corea del Sud",
+    "club": "PSG",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::paik seung-ho": {
+    "player": "Paik Seung-Ho",
+    "team": "Corea del Sud",
+    "club": "Brimingham City",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::yang hyun-jun": {
+    "player": "Yang Hyun-Jun",
+    "team": "Corea del Sud",
+    "club": "Celtic",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::cho yumin": {
+    "player": "Cho Yumin",
+    "team": "Corea del Sud",
+    "club": "Sharjah FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::jens castrop": {
+    "player": "Jens Castrop",
+    "team": "Corea del Sud",
+    "club": "Borussia Mönchengladbach",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::kim min-jae": {
+    "player": "Kim Min-Jae",
+    "team": "Corea del Sud",
+    "club": "Bayern de Múnich",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::kim moon-hwan": {
+    "player": "Kim Moon-Hwan",
+    "team": "Corea del Sud",
+    "club": "Daejon Hana",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::kim tae-hwan": {
+    "player": "Kim Tae-Hwan",
+    "team": "Corea del Sud",
+    "club": "Kashima Antlers",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::lee han-beom": {
+    "player": "Lee Han-Beom",
+    "team": "Corea del Sud",
+    "club": "Midtjylland",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::lee ki-hyuk": {
+    "player": "Lee Ki-Hyuk",
+    "team": "Corea del Sud",
+    "club": "Gangwon FC",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::lee tae-seok": {
+    "player": "Lee Tae-Seok",
+    "team": "Corea del Sud",
+    "club": "Austria de Viena",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::park jin-seob": {
+    "player": "Park Jin-Seob",
+    "team": "Corea del Sud",
+    "club": "Jeonbuk Hyundai",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::seol young-woo": {
+    "player": "Seol Young-Woo",
+    "team": "Corea del Sud",
+    "club": "Estrella Roja",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::jo hyeon-woo": {
+    "player": "Jo Hyeon-Woo",
+    "team": "Corea del Sud",
+    "club": "Ulsan HD",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::kim seung-gyu": {
+    "player": "Kim Seung-Gyu",
+    "team": "Corea del Sud",
+    "club": "FC Tokyo",
+    "age": 36,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "corea del sud::song bum keun": {
+    "player": "Song Bum Keun",
+    "team": "Corea del Sud",
+    "club": "Jeonbuk Hyundai",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::alexis vega": {
+    "player": "Alexis Vega",
+    "team": "Messico",
+    "club": "Toluca",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::armando gonzález": {
+    "player": "Armando González",
+    "team": "Messico",
+    "club": "Chivas",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::césar huerta": {
+    "player": "César Huerta",
+    "team": "Messico",
+    "club": "Anderlecht",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::guillermo martínez": {
+    "player": "Guillermo Martínez",
+    "team": "Messico",
+    "club": "Pumas",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::julián quiñones": {
+    "player": "Julián Quiñones",
+    "team": "Messico",
+    "club": "Al Qadsiah",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::raúl jiménez": {
+    "player": "Raúl Jiménez",
+    "team": "Messico",
+    "club": "Fulham",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::roberto alvarado": {
+    "player": "Roberto Alvarado",
+    "team": "Messico",
+    "club": "Chivas",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::santiago giménez": {
+    "player": "Santiago Giménez",
+    "team": "Messico",
+    "club": "Milan",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::álvaro fidalgo": {
+    "player": "Álvaro Fidalgo",
+    "team": "Messico",
+    "club": "Betis",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::brian gutiérrez": {
+    "player": "Brian Gutiérrez",
+    "team": "Messico",
+    "club": "Chivas",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::erik lira": {
+    "player": "Erik Lira",
+    "team": "Messico",
+    "club": "Cruz Azul",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::gilberto mora": {
+    "player": "Gilberto Mora",
+    "team": "Messico",
+    "club": "Tijuana",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::luis chávez": {
+    "player": "Luis Chávez",
+    "team": "Messico",
+    "club": "Dinamo Moscú",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::luis romo": {
+    "player": "Luis Romo",
+    "team": "Messico",
+    "club": "Chivas",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::obed vargas": {
+    "player": "Obed Vargas",
+    "team": "Messico",
+    "club": "Atlético de Madrid",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::orbelín pineda": {
+    "player": "Orbelín Pineda",
+    "team": "Messico",
+    "club": "AEK Atenas",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::césar montes": {
+    "player": "César Montes",
+    "team": "Messico",
+    "club": "Lokomotiv Moscú",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::edsol álvarez": {
+    "player": "Edsol Álvarez",
+    "team": "Messico",
+    "club": "West Ham",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::israel reyes": {
+    "player": "Israel Reyes",
+    "team": "Messico",
+    "club": "América",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::jesús gallardo": {
+    "player": "Jesús Gallardo",
+    "team": "Messico",
+    "club": "Toluca",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::johan vásquez": {
+    "player": "Johan Vásquez",
+    "team": "Messico",
+    "club": "Genoa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::jorge sánchez": {
+    "player": "Jorge Sánchez",
+    "team": "Messico",
+    "club": "Cruz Azul",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::mateo chávez": {
+    "player": "Mateo Chávez",
+    "team": "Messico",
+    "club": "AZ Alkmaar",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::carlos acevedo": {
+    "player": "Carlos Acevedo",
+    "team": "Messico",
+    "club": "Santos Laguna",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::guillermo ochoa": {
+    "player": "Guillermo Ochoa",
+    "team": "Messico",
+    "club": "AEL Limassol",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "messico::raúl rangel": {
+    "player": "Raúl Rangel",
+    "team": "Messico",
+    "club": "Chivas",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::adam hlozek": {
+    "player": "Adam Hlozek",
+    "team": "Repubblica Ceca",
+    "club": "Hoffenheim",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::jan kuchta": {
+    "player": "Jan Kuchta",
+    "team": "Repubblica Ceca",
+    "club": "Sparta Praga",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::lukas provod": {
+    "player": "Lukas Provod",
+    "team": "Repubblica Ceca",
+    "club": "Slavia Praga",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::mojmir chytil": {
+    "player": "Mojmir Chytil",
+    "team": "Repubblica Ceca",
+    "club": "Slavia Praga",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::patrick schick": {
+    "player": "Patrick Schick",
+    "team": "Repubblica Ceca",
+    "club": "Bayer Leverkusen",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::tomas chory": {
+    "player": "Tomas Chory",
+    "team": "Repubblica Ceca",
+    "club": "Slavia Praga",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::alexander sojka": {
+    "player": "Alexander Sojka",
+    "team": "Repubblica Ceca",
+    "club": "Viktoria Plzen",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::david doudera": {
+    "player": "David Doudera",
+    "team": "Repubblica Ceca",
+    "club": "Slavia Praga",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::denis visinsky": {
+    "player": "Denis Visinsky",
+    "team": "Repubblica Ceca",
+    "club": "Viktoria Plzen",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::hugo sochurek": {
+    "player": "Hugo Sochurek",
+    "team": "Repubblica Ceca",
+    "club": "Sparta Praga",
+    "age": 18,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::lukas cerv": {
+    "player": "Lukas Cerv",
+    "team": "Repubblica Ceca",
+    "club": "Viktoria Plzen",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::michal sadilek": {
+    "player": "Michal Sadilek",
+    "team": "Repubblica Ceca",
+    "club": "Slavia Praga",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::pavel sulc": {
+    "player": "Pavel Sulc",
+    "team": "Repubblica Ceca",
+    "club": "Olympique Lyon",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::tomas soucek": {
+    "player": "Tomas Soucek",
+    "team": "Repubblica Ceca",
+    "club": "West Ham",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::vladimir darida": {
+    "player": "Vladimir Darida",
+    "team": "Repubblica Ceca",
+    "club": "Hraed Kralove",
+    "age": 36,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::david jurasek": {
+    "player": "David Jurasek",
+    "team": "Repubblica Ceca",
+    "club": "Slavia Praga",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::david zima 8slavia praga)": {
+    "player": "David Zima 8Slavia Praga)",
+    "team": "Repubblica Ceca",
+    "club": "",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::jaroslav zeleny": {
+    "player": "Jaroslav Zeleny",
+    "team": "Repubblica Ceca",
+    "club": "Sparta Praga",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::ladislav krejci": {
+    "player": "Ladislav Krejci",
+    "team": "Repubblica Ceca",
+    "club": "Wolverhampton",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::robin hranac": {
+    "player": "Robin Hranac",
+    "team": "Repubblica Ceca",
+    "club": "Hoffenheim",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::stepan chaloupek": {
+    "player": "Stepan Chaloupek",
+    "team": "Repubblica Ceca",
+    "club": "Slavia Praga",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::tomas holes": {
+    "player": "Tomas Holes",
+    "team": "Repubblica Ceca",
+    "club": "Slavia Praga",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::vladimir coufal": {
+    "player": "Vladimir Coufal",
+    "team": "Repubblica Ceca",
+    "club": "Hoffenheim",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::jindrich stanek": {
+    "player": "Jindrich Stanek",
+    "team": "Repubblica Ceca",
+    "club": "Slavia Praga",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::lukas hornicek": {
+    "player": "Lukas Hornicek",
+    "team": "Repubblica Ceca",
+    "club": "SC Braga",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "repubblica ceca::matej kovar": {
+    "player": "Matej Kovar",
+    "team": "Repubblica Ceca",
+    "club": "PSV",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::evidence makgopa": {
+    "player": "Evidence Makgopa",
+    "team": "Sudafrica",
+    "club": "Orlando Pirates",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::iqraam rayners": {
+    "player": "Iqraam Rayners",
+    "team": "Sudafrica",
+    "club": "Mamelodi Sundowns",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::lyle foster": {
+    "player": "Lyle Foster",
+    "team": "Sudafrica",
+    "club": "Burnley",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::oswin appollis": {
+    "player": "Oswin Appollis",
+    "team": "Sudafrica",
+    "club": "Orlando Pirates",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::relebohile mofokeng": {
+    "player": "Relebohile Mofokeng",
+    "team": "Sudafrica",
+    "club": "Orlando Pirates",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::thapelo maseko": {
+    "player": "Thapelo Maseko",
+    "team": "Sudafrica",
+    "club": "AEL Limassol",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::themba zwane": {
+    "player": "Themba Zwane",
+    "team": "Sudafrica",
+    "club": "Mamelodi Sundowns",
+    "age": 37,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::tshepang moremi": {
+    "player": "Tshepang Moremi",
+    "team": "Sudafrica",
+    "club": "Orlando Pirates",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::jayden adams": {
+    "player": "Jayden Adams",
+    "team": "Sudafrica",
+    "club": "Mamelodi Sundowns",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::sphephelo sithole": {
+    "player": "Sphephelo Sithole",
+    "team": "Sudafrica",
+    "club": "CD Tondela",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::teboho mokoena": {
+    "player": "Teboho Mokoena",
+    "team": "Sudafrica",
+    "club": "Mamelodi Sundowns",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::thalente mbatha": {
+    "player": "Thalente Mbatha",
+    "team": "Sudafrica",
+    "club": "Orlando Pirates",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::aubrey modiba": {
+    "player": "Aubrey Modiba",
+    "team": "Sudafrica",
+    "club": "Mamelodi Sundowns",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::bradley cross": {
+    "player": "Bradley Cross",
+    "team": "Sudafrica",
+    "club": "Kaizer Chiefs",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::ime okon": {
+    "player": "Ime Okon",
+    "team": "Sudafrica",
+    "club": "Hannover 96",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::kamogelo sebelebele": {
+    "player": "Kamogelo Sebelebele",
+    "team": "Sudafrica",
+    "club": "Orlando Pirates",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::khuliso mudau": {
+    "player": "Khuliso Mudau",
+    "team": "Sudafrica",
+    "club": "Mamelodi Sundowns",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::khulumani ndamane": {
+    "player": "Khulumani Ndamane",
+    "team": "Sudafrica",
+    "club": "Mamelodi Sundowns",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::mbekezeli mbokazi": {
+    "player": "Mbekezeli Mbokazi",
+    "team": "Sudafrica",
+    "club": "Chicago Fire",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::nkosinathi sibisi": {
+    "player": "Nkosinathi Sibisi",
+    "team": "Sudafrica",
+    "club": "Orlando Pirates",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::olwethu makhanya": {
+    "player": "Olwethu Makhanya",
+    "team": "Sudafrica",
+    "club": "Philadelphia Union",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::samukelo kabini": {
+    "player": "Samukelo Kabini",
+    "team": "Sudafrica",
+    "club": "Molde FK",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::thabang matuludi": {
+    "player": "Thabang Matuludi",
+    "team": "Sudafrica",
+    "club": "Polokwane City",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::ricardo goss": {
+    "player": "Ricardo Goss",
+    "team": "Sudafrica",
+    "club": "Siwelele FC",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::ronwen williams": {
+    "player": "Ronwen Williams",
+    "team": "Sudafrica",
+    "club": "Mamelodi Sundowns",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "sudafrica::sipho chaine": {
+    "player": "Sipho Chaine",
+    "team": "Sudafrica",
+    "club": "Orlando Pirates",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::edin dzeko": {
+    "player": "Edin Dzeko",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Schalke 04",
+    "age": 40,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::ermedin demirovic": {
+    "player": "Ermedin Demirovic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "VfB Stuttgart",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::haris tabakovic": {
+    "player": "Haris Tabakovic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Borussia Moenchengladbach",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::jovo lukic": {
+    "player": "Jovo Lukic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Universitatea Cluj",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::samed bazdar": {
+    "player": "Samed Bazdar",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Jagiellonia Bialystok",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::amar memic": {
+    "player": "Amar Memic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Viktoria Plzen",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::amir hadziahmetovic": {
+    "player": "Amir Hadziahmetovic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Hull City",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::armin gigovic": {
+    "player": "Armin Gigovic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Young Boys",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::benjamin tahirovic": {
+    "player": "Benjamin Tahirovic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Brondby",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::dzenis burnic": {
+    "player": "Dzenis Burnic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Karlsruher SC",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::ermin mahmic": {
+    "player": "Ermin Mahmic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Slovan Liberec",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::esmir bajraktarevic": {
+    "player": "Esmir Bajraktarevic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "PSV Eindhoven",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::ivan basic": {
+    "player": "Ivan Basic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Astana",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::ivan sunjic": {
+    "player": "Ivan Sunjic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Pafos",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::kerim alajbegovic": {
+    "player": "Kerim Alajbegovic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "RB Salzburg",
+    "age": 19,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::amar dedic": {
+    "player": "Amar Dedic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Benfica",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::dennis hadzikadunic": {
+    "player": "Dennis Hadzikadunic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Sampdoria",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::nidal celik": {
+    "player": "Nidal Celik",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Lens",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::nihad mujakic": {
+    "player": "Nihad Mujakic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Gaziantep",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::nikola katic": {
+    "player": "Nikola Katic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Schalke 04",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::sead kolasinac": {
+    "player": "Sead Kolasinac",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Atalanta",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::stjepan radeljic": {
+    "player": "Stjepan Radeljic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Rijeka",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::tarik muharemovic": {
+    "player": "Tarik Muharemovic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Sassuolo",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::martin zlomislic": {
+    "player": "Martin Zlomislic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Rijeka",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::nikola vasilj": {
+    "player": "Nikola Vasilj",
+    "team": "Bosnia ed Erzegovina",
+    "club": "St Pauli",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "bosnia ed erzegovina::osman hadzikic": {
+    "player": "Osman Hadzikic",
+    "team": "Bosnia ed Erzegovina",
+    "club": "Slaven Belupo",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::cyle larin": {
+    "player": "Cyle Larin",
+    "team": "Canada",
+    "club": "Southampton",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::jonathan david": {
+    "player": "Jonathan David",
+    "team": "Canada",
+    "club": "Juventus",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::promise david": {
+    "player": "Promise David",
+    "team": "Canada",
+    "club": "Unión Saint-Gilloise",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::tani oluwaseyi": {
+    "player": "Tani Oluwaseyi",
+    "team": "Canada",
+    "club": "Villarreal",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::ali ahmed": {
+    "player": "Ali Ahmed",
+    "team": "Canada",
+    "club": "Norwich",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::ismäel koné": {
+    "player": "Ismäel Koné",
+    "team": "Canada",
+    "club": "Sassuolo",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::jacob shaffelburg": {
+    "player": "Jacob Shaffelburg",
+    "team": "Canada",
+    "club": "LAFC",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::jonathan osorio": {
+    "player": "Jonathan Osorio",
+    "team": "Canada",
+    "club": "Toronto",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::liam millar": {
+    "player": "Liam Millar",
+    "team": "Canada",
+    "club": "Hull City",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::marcelo flores": {
+    "player": "Marcelo Flores",
+    "team": "Canada",
+    "club": "lesionado/Tigres",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::mathieu chounière": {
+    "player": "Mathieu Chounière",
+    "team": "Canada",
+    "club": "LAFC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::nathan saliba": {
+    "player": "Nathan Saliba",
+    "team": "Canada",
+    "club": "Anderlecht",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::stephen eustáquio": {
+    "player": "Stephen Eustáquio",
+    "team": "Canada",
+    "club": "Oporto",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::tajon buchanan": {
+    "player": "Tajon Buchanan",
+    "team": "Canada",
+    "club": "Villarreal",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::alfie jones": {
+    "player": "Alfie Jones",
+    "team": "Canada",
+    "club": "Middlesbrough",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::alistair johnston": {
+    "player": "Alistair Johnston",
+    "team": "Canada",
+    "club": "Celtic",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::alphonso davies": {
+    "player": "Alphonso Davies",
+    "team": "Canada",
+    "club": "Bayern de Múnich",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::derek cornelius": {
+    "player": "Derek Cornelius",
+    "team": "Canada",
+    "club": "Olympique Marsella",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::joel waterman": {
+    "player": "Joel Waterman",
+    "team": "Canada",
+    "club": "Chicago Fire",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::luc de fougerolles": {
+    "player": "Luc de Fougerolles",
+    "team": "Canada",
+    "club": "Fulham",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::moïse bombito": {
+    "player": "Moïse Bombito",
+    "team": "Canada",
+    "club": "Nice",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::niko sigur": {
+    "player": "Niko Sigur",
+    "team": "Canada",
+    "club": "Hajduk Split",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::richie laryea": {
+    "player": "Richie Laryea",
+    "team": "Canada",
+    "club": "Toronto",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::dayne st. clair": {
+    "player": "Dayne St. Clair",
+    "team": "Canada",
+    "club": "Inter Miami",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::maxime crépau": {
+    "player": "Maxime Crépau",
+    "team": "Canada",
+    "club": "Orlando City",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "canada::owen goodman": {
+    "player": "Owen Goodman",
+    "team": "Canada",
+    "club": "Barnsley",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::ahmed al janhi": {
+    "player": "Ahmed Al Janhi",
+    "team": "Qatar",
+    "club": "Al-Gharafa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::ahmed alaa": {
+    "player": "Ahmed Alaa",
+    "team": "Qatar",
+    "club": "Al-Rayyan",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::akram afif": {
+    "player": "Akram Afif",
+    "team": "Qatar",
+    "club": "Al-Sadd",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::almoez ali": {
+    "player": "Almoez Ali",
+    "team": "Qatar",
+    "club": "Al-Duhail",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::edmilson junior": {
+    "player": "Edmilson Junior",
+    "team": "Qatar",
+    "club": "Al-Duhail",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::hassan al haydos": {
+    "player": "Hassan Al Haydos",
+    "team": "Qatar",
+    "club": "Al-Sadd",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::mohammed muntari": {
+    "player": "Mohammed Muntari",
+    "team": "Qatar",
+    "club": "Al-Gharafa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::tahsin mohammed": {
+    "player": "Tahsin Mohammed",
+    "team": "Qatar",
+    "club": "Al-Duhail",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::yusuf abdurisag": {
+    "player": "Yusuf Abdurisag",
+    "team": "Qatar",
+    "club": "Al-Wakrah",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::abdulaziz hatem": {
+    "player": "Abdulaziz Hatem",
+    "team": "Qatar",
+    "club": "Al-Rayyan",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::ahmed fathy": {
+    "player": "Ahmed Fathy",
+    "team": "Qatar",
+    "club": "Al-Arabi",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::assim madibo": {
+    "player": "Assim Madibo",
+    "team": "Qatar",
+    "club": "Al-Wakrah",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::jassim gaber": {
+    "player": "Jassim Gaber",
+    "team": "Qatar",
+    "club": "Al-Arabi",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::karim boudiaf": {
+    "player": "Karim Boudiaf",
+    "team": "Qatar",
+    "club": "Al-Duhail",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::mohamed manai": {
+    "player": "Mohamed Manai",
+    "team": "Qatar",
+    "club": "Al-Shamal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::alhashmi alhussain": {
+    "player": "Alhashmi Alhussain",
+    "team": "Qatar",
+    "club": "Al-Arabi",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::ayoub al alawi": {
+    "player": "Ayoub Al Alawi",
+    "team": "Qatar",
+    "club": "Al-Gharafa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::boualem khoukhi": {
+    "player": "Boualem Khoukhi",
+    "team": "Qatar",
+    "club": "Al-Sadd",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::homam al amin": {
+    "player": "Homam Al Amin",
+    "team": "Qatar",
+    "club": "Cultural Leonesa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::issa laye": {
+    "player": "Issa Laye",
+    "team": "Qatar",
+    "club": "Al-Arabi",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::lucas mendes": {
+    "player": "Lucas Mendes",
+    "team": "Qatar",
+    "club": "Al-Wakrah",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::pedro miguel": {
+    "player": "Pedro Miguel",
+    "team": "Qatar",
+    "club": "Al-Sadd",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::sultan al brake": {
+    "player": "Sultan Al Brake",
+    "team": "Qatar",
+    "club": "Al-Duhail",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::mahmoud abunada": {
+    "player": "Mahmoud Abunada",
+    "team": "Qatar",
+    "club": "Al-Rayyan",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::meshaal barsham": {
+    "player": "Meshaal Barsham",
+    "team": "Qatar",
+    "club": "Al-Sadd",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "qatar::salah zakaria": {
+    "player": "Salah Zakaria",
+    "team": "Qatar",
+    "club": "Al-Duhail",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::breel embolo": {
+    "player": "Breel Embolo",
+    "team": "Svizzera",
+    "club": "Stade Rennes",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::cedric itten": {
+    "player": "Cedric Itten",
+    "team": "Svizzera",
+    "club": "Fortuna Düsseldorf",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::dan ndoye": {
+    "player": "Dan Ndoye",
+    "team": "Svizzera",
+    "club": "Nottingham Forest",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::noah okafor": {
+    "player": "Noah Okafor",
+    "team": "Svizzera",
+    "club": "Leeds",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::ruben vargas": {
+    "player": "Ruben Vargas",
+    "team": "Svizzera",
+    "club": "Sevilla",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::zeki amdouni": {
+    "player": "Zeki Amdouni",
+    "team": "Svizzera",
+    "club": "Burnley",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::ardon jashari": {
+    "player": "Ardon Jashari",
+    "team": "Svizzera",
+    "club": "Milan",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::christian fassnacht": {
+    "player": "Christian Fassnacht",
+    "team": "Svizzera",
+    "club": "Young Boys",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::denis zakaria": {
+    "player": "Denis Zakaria",
+    "team": "Svizzera",
+    "club": "Mónaco",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::djibril sow": {
+    "player": "Djibril Sow",
+    "team": "Svizzera",
+    "club": "Sevilla",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::fabian rieder": {
+    "player": "Fabian Rieder",
+    "team": "Svizzera",
+    "club": "Augsburgo",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::gran xhaka": {
+    "player": "Gran Xhaka",
+    "team": "Svizzera",
+    "club": "Sunderland",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::johan manzambi": {
+    "player": "Johan Manzambi",
+    "team": "Svizzera",
+    "club": "Friburgo",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::michel aebischer": {
+    "player": "Michel Aebischer",
+    "team": "Svizzera",
+    "club": "Pisa",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::remo freuler": {
+    "player": "Remo Freuler",
+    "team": "Svizzera",
+    "club": "Bologna",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::aurèle amenda": {
+    "player": "Aurèle Amenda",
+    "team": "Svizzera",
+    "club": "Eintracht",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::eray cömert": {
+    "player": "Eray Cömert",
+    "team": "Svizzera",
+    "club": "Valencia",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::luca jaquez": {
+    "player": "Luca Jaquez",
+    "team": "Svizzera",
+    "club": "Stuttgart",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::manuel akanji": {
+    "player": "Manuel Akanji",
+    "team": "Svizzera",
+    "club": "Inter",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::miro muheim": {
+    "player": "Miro Muheim",
+    "team": "Svizzera",
+    "club": "Hamburgo",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::nico elvedi": {
+    "player": "Nico Elvedi",
+    "team": "Svizzera",
+    "club": "Borussia Mönchengladbach",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::ricardo rodriguez": {
+    "player": "Ricardo Rodriguez",
+    "team": "Svizzera",
+    "club": "Betis",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::silvan widmer": {
+    "player": "Silvan Widmer",
+    "team": "Svizzera",
+    "club": "Mainz 05",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::gregor kobel": {
+    "player": "Gregor Kobel",
+    "team": "Svizzera",
+    "club": "Borussia Dortmund",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::marvin keller": {
+    "player": "Marvin Keller",
+    "team": "Svizzera",
+    "club": "Young Boys",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svizzera::yvon mvogo": {
+    "player": "Yvon Mvogo",
+    "team": "Svizzera",
+    "club": "Lorient",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::endrick": {
+    "player": "Endrick",
+    "team": "Brasile",
+    "club": "Lyon/Real Madrid",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::igor thiago": {
+    "player": "Igor Thiago",
+    "team": "Brasile",
+    "club": "Brentford",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::luiz henrique": {
+    "player": "Luiz Henrique",
+    "team": "Brasile",
+    "club": "Zenit",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::martinelli": {
+    "player": "Martinelli",
+    "team": "Brasile",
+    "club": "Arsenal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::matheus cunha": {
+    "player": "Matheus Cunha",
+    "team": "Brasile",
+    "club": "Manchester United",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::neymar": {
+    "player": "Neymar",
+    "team": "Brasile",
+    "club": "Santos",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::raphinha": {
+    "player": "Raphinha",
+    "team": "Brasile",
+    "club": "Barcelona",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::rayan": {
+    "player": "Rayan",
+    "team": "Brasile",
+    "club": "Bournemouth",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::vinicius jr.": {
+    "player": "Vinicius Jr.",
+    "team": "Brasile",
+    "club": "Real Madrid",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::bruno guimarães": {
+    "player": "Bruno Guimarães",
+    "team": "Brasile",
+    "club": "Newcastle",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::casemiro": {
+    "player": "Casemiro",
+    "team": "Brasile",
+    "club": "Manchester United",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::danilo": {
+    "player": "Danilo",
+    "team": "Brasile",
+    "club": "Flamengo",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::fabinho": {
+    "player": "Fabinho",
+    "team": "Brasile",
+    "club": "Al Ittihad",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::lucas paquetá": {
+    "player": "Lucas Paquetá",
+    "team": "Brasile",
+    "club": "Flamengo",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::alex sandro": {
+    "player": "Alex Sandro",
+    "team": "Brasile",
+    "club": "Flamengo",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::bremer": {
+    "player": "Bremer",
+    "team": "Brasile",
+    "club": "Juventus",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::douglas santos": {
+    "player": "Douglas Santos",
+    "team": "Brasile",
+    "club": "Zenit",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::gabriel magalhães": {
+    "player": "Gabriel Magalhães",
+    "team": "Brasile",
+    "club": "Arsenal",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::ibáñez": {
+    "player": "Ibáñez",
+    "team": "Brasile",
+    "club": "Al Ahli",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::léo pereira": {
+    "player": "Léo Pereira",
+    "team": "Brasile",
+    "club": "Flamengo",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::marquinhos": {
+    "player": "Marquinhos",
+    "team": "Brasile",
+    "club": "PSG",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::wesley": {
+    "player": "Wesley",
+    "team": "Brasile",
+    "club": "Roma",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::alisson": {
+    "player": "Alisson",
+    "team": "Brasile",
+    "club": "Liverpool",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::ederson": {
+    "player": "Ederson",
+    "team": "Brasile",
+    "club": "Fenerbahce",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "brasile::weverton": {
+    "player": "Weverton",
+    "team": "Brasile",
+    "club": "Grêmio",
+    "age": 39,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::derrick etienne": {
+    "player": "Derrick Etienne",
+    "team": "Haiti",
+    "club": "Toronto FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::duckens nazon": {
+    "player": "Duckens Nazon",
+    "team": "Haiti",
+    "club": "Esteghlal FC",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::frantzdy pierrot": {
+    "player": "Frantzdy Pierrot",
+    "team": "Haiti",
+    "club": "Çaykur Rizespor",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::josué casimir": {
+    "player": "Josué Casimir",
+    "team": "Haiti",
+    "club": "AJ Auxerre",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::lenny joseph": {
+    "player": "Lenny Joseph",
+    "team": "Haiti",
+    "club": "Ferencváros TC",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::louicius deedson": {
+    "player": "Louicius Deedson",
+    "team": "Haiti",
+    "club": "FC Dallas",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::ruben providence": {
+    "player": "Ruben Providence",
+    "team": "Haiti",
+    "club": "Almere City FC",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::wilson isidor": {
+    "player": "Wilson Isidor",
+    "team": "Haiti",
+    "club": "Sunderland AFC",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::yassin fortune": {
+    "player": "Yassin Fortune",
+    "team": "Haiti",
+    "club": "FC Vizela",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::carl-fred sainthe": {
+    "player": "Carl-Fred Sainthe",
+    "team": "Haiti",
+    "club": "El Paso Locomotive FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::dominique simon": {
+    "player": "Dominique Simon",
+    "team": "Haiti",
+    "club": "FC Tatran Prešov",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::jean-jacques danley": {
+    "player": "Jean-Jacques Danley",
+    "team": "Haiti",
+    "club": "Philadelphia Union",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::jeanricner bellegarde": {
+    "player": "Jeanricner Bellegarde",
+    "team": "Haiti",
+    "club": "Wolverhampton",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::leverton pierre": {
+    "player": "Leverton Pierre",
+    "team": "Haiti",
+    "club": "FC Vizela",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::pierre woodenski": {
+    "player": "Pierre Woodenski",
+    "team": "Haiti",
+    "club": "Violette AC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::carlens arcus": {
+    "player": "Carlens Arcus",
+    "team": "Haiti",
+    "club": "Angers SCO",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::duke lacroix": {
+    "player": "Duke Lacroix",
+    "team": "Haiti",
+    "club": "Colorado Springs",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::hannes delcroix": {
+    "player": "Hannes Delcroix",
+    "team": "Haiti",
+    "club": "FC Lugano",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::jk duverne": {
+    "player": "JK Duverne",
+    "team": "Haiti",
+    "club": "KAA Gent",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::keeto thermoncy": {
+    "player": "Keeto Thermoncy",
+    "team": "Haiti",
+    "club": "BSC Young Boys II",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::martin experience": {
+    "player": "Martin Experience",
+    "team": "Haiti",
+    "club": "AS Nancy-Lorraine",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::ricardo adé": {
+    "player": "Ricardo Adé",
+    "team": "Haiti",
+    "club": "LDU Quito",
+    "age": 36,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::wilguens paugain": {
+    "player": "Wilguens Paugain",
+    "team": "Haiti",
+    "club": "SV Zulte Waregem",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::alexandre pierre": {
+    "player": "Alexandre Pierre",
+    "team": "Haiti",
+    "club": "FC Sochaux",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::johnny placide": {
+    "player": "Johnny Placide",
+    "team": "Haiti",
+    "club": "SC Bastia",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "haiti::josué duverger": {
+    "player": "Josué Duverger",
+    "team": "Haiti",
+    "club": "FC Cosmos Koblenz",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::abde ezzalzouli": {
+    "player": "Abde Ezzalzouli",
+    "team": "Marocco",
+    "club": "Real Betis",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::ayoub el kaabi": {
+    "player": "Ayoub El Kaabi",
+    "team": "Marocco",
+    "club": "Olympiacos FC",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::ayoube amaimouni": {
+    "player": "Ayoube Amaimouni",
+    "team": "Marocco",
+    "club": "Eintracht Frankfurt",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::brahim díaz": {
+    "player": "Brahim Díaz",
+    "team": "Marocco",
+    "club": "Real Madrid",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::chemsdine talbi": {
+    "player": "Chemsdine Talbi",
+    "team": "Marocco",
+    "club": "Sunderland",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::soufiane rahimi": {
+    "player": "Soufiane Rahimi",
+    "team": "Marocco",
+    "club": "Al-Ain FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::yassine gessime": {
+    "player": "Yassine Gessime",
+    "team": "Marocco",
+    "club": "Estrasburgo",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::azzedine ounahi": {
+    "player": "Azzedine Ounahi",
+    "team": "Marocco",
+    "club": "Girona",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::bilal el khannouss": {
+    "player": "Bilal El Khannouss",
+    "team": "Marocco",
+    "club": "Stuttgart",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::bouaddi": {
+    "player": "Bouaddi",
+    "team": "Marocco",
+    "club": "Lille",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::ismael saibari": {
+    "player": "Ismael Saibari",
+    "team": "Marocco",
+    "club": "PSV Eindhoven",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::neil el aynaoui": {
+    "player": "Neil El Aynaoui",
+    "team": "Marocco",
+    "club": "Roma",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::samir el mourabet": {
+    "player": "Samir El Mourabet",
+    "team": "Marocco",
+    "club": "Estrasburgo",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::sofyan amrabat": {
+    "player": "Sofyan Amrabat",
+    "team": "Marocco",
+    "club": "Fenerbahçe SK/Betis",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::achraf hakimi": {
+    "player": "Achraf Hakimi",
+    "team": "Marocco",
+    "club": "Paris Saint-Germain",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::anass salah-eddine": {
+    "player": "Anass Salah-Eddine",
+    "team": "Marocco",
+    "club": "FC Twente",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::chadi riad": {
+    "player": "Chadi Riad",
+    "team": "Marocco",
+    "club": "Crystal Palace",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::issa diop": {
+    "player": "Issa Diop",
+    "team": "Marocco",
+    "club": "Fulham",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::nayef aguerd": {
+    "player": "Nayef Aguerd",
+    "team": "Marocco",
+    "club": "West Ham United/Marsella",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::noussair mazraoui": {
+    "player": "Noussair Mazraoui",
+    "team": "Marocco",
+    "club": "Manchester United",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::redouane hahlal": {
+    "player": "Redouane Hahlal",
+    "team": "Marocco",
+    "club": "Mechelen",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::youssef belammari": {
+    "player": "Youssef Belammari",
+    "team": "Marocco",
+    "club": "Al Ahly",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::zakaria el ouahdi": {
+    "player": "Zakaria El Ouahdi",
+    "team": "Marocco",
+    "club": "Genk",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::ajmed reda tagnaouti": {
+    "player": "Ajmed Reda Tagnaouti",
+    "team": "Marocco",
+    "club": "Raja Casablanca",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::munir el kajoui": {
+    "player": "Munir El Kajoui",
+    "team": "Marocco",
+    "club": "RS Berkane",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "marocco::yassine bounou": {
+    "player": "Yassine Bounou",
+    "team": "Marocco",
+    "club": "Al Hilal SFC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::ché adams": {
+    "player": "Ché Adams",
+    "team": "Scozia",
+    "club": "Torino",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::george hirst": {
+    "player": "George Hirst",
+    "team": "Scozia",
+    "club": "Ipswich Town",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::lawrence shankland": {
+    "player": "Lawrence Shankland",
+    "team": "Scozia",
+    "club": "Hearts",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::lyndon dykes": {
+    "player": "Lyndon Dykes",
+    "team": "Scozia",
+    "club": "Charlton",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::ross stewart": {
+    "player": "Ross Stewart",
+    "team": "Scozia",
+    "club": "Southampton",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::ben gannon-doak": {
+    "player": "Ben Gannon-Doak",
+    "team": "Scozia",
+    "club": "Bournemouth",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::findlay curtis": {
+    "player": "Findlay Curtis",
+    "team": "Scozia",
+    "club": "Rangers",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::john mcginn": {
+    "player": "John McGinn",
+    "team": "Scozia",
+    "club": "Aston Villa",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::kenny mclean": {
+    "player": "Kenny McLean",
+    "team": "Scozia",
+    "club": "Norwich City",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::lewis ferguson": {
+    "player": "Lewis Ferguson",
+    "team": "Scozia",
+    "club": "Bologna",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::ryan christie": {
+    "player": "Ryan Christie",
+    "team": "Scozia",
+    "club": "Bournemouth",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::scott mctominay": {
+    "player": "Scott McTominay",
+    "team": "Scozia",
+    "club": "Nápoles",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::tyler fletcher": {
+    "player": "Tyler Fletcher",
+    "team": "Scozia",
+    "club": "Manchester United",
+    "age": 19,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::aaron hickey": {
+    "player": "Aaron Hickey",
+    "team": "Scozia",
+    "club": "Brentford",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::andy robertson": {
+    "player": "Andy Robertson",
+    "team": "Scozia",
+    "club": "Liverpool",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::anthony ralston": {
+    "player": "Anthony Ralston",
+    "team": "Scozia",
+    "club": "Celtic",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::dom hyam": {
+    "player": "Dom Hyam",
+    "team": "Scozia",
+    "club": "Wrexham",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::grant hanley": {
+    "player": "Grant Hanley",
+    "team": "Scozia",
+    "club": "Hibernian",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::jack hendry": {
+    "player": "Jack Hendry",
+    "team": "Scozia",
+    "club": "Al Ettifaq",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::john souttar": {
+    "player": "John Souttar",
+    "team": "Scozia",
+    "club": "Hearts",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::kieran tierney": {
+    "player": "Kieran Tierney",
+    "team": "Scozia",
+    "club": "Celtic",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::nathan patterson": {
+    "player": "Nathan Patterson",
+    "team": "Scozia",
+    "club": "Everton",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::scott mckenna": {
+    "player": "Scott McKenna",
+    "team": "Scozia",
+    "club": "Dinamo Zagreb",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::angus gunn": {
+    "player": "Angus Gunn",
+    "team": "Scozia",
+    "club": "Nottingham Forest",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::craig gordon": {
+    "player": "Craig Gordon",
+    "team": "Scozia",
+    "club": "Hearts",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "scozia::liam kelly": {
+    "player": "Liam Kelly",
+    "team": "Scozia",
+    "club": "Rangers",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::awer mabil": {
+    "player": "Awer Mabil",
+    "team": "Australia",
+    "club": "Castellón",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::cristian volpato": {
+    "player": "Cristian Volpato",
+    "team": "Australia",
+    "club": "Sassuolo",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::mathew leckie": {
+    "player": "Mathew Leckie",
+    "team": "Australia",
+    "club": "Melbourne City",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::mohamed touré": {
+    "player": "Mohamed Touré",
+    "team": "Australia",
+    "club": "Norwich",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::nestoy irakunda": {
+    "player": "Nestoy Irakunda",
+    "team": "Australia",
+    "club": "Watford",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::nishan velupillay": {
+    "player": "Nishan Velupillay",
+    "team": "Australia",
+    "club": "Melbourne City",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::tete yengi": {
+    "player": "Tete Yengi",
+    "team": "Australia",
+    "club": "Machida Zelvia",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::aiden o’neill": {
+    "player": "Aiden O’Neill",
+    "team": "Australia",
+    "club": "New York City",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::ajdin hrustic": {
+    "player": "Ajdin Hrustic",
+    "team": "Australia",
+    "club": "Heracles",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::cameron devlin": {
+    "player": "Cameron Devlin",
+    "team": "Australia",
+    "club": "Hearts",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::connor metcalfe": {
+    "player": "Connor Metcalfe",
+    "team": "Australia",
+    "club": "St. Pauli",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::jackson irvine": {
+    "player": "Jackson Irvine",
+    "team": "Australia",
+    "club": "St. Pauli",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::paul okon-engstler": {
+    "player": "Paul Okon-Engstler",
+    "team": "Australia",
+    "club": "Sydney FC",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::alessandro circati": {
+    "player": "Alessandro Circati",
+    "team": "Australia",
+    "club": "Parma",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::aziz behich": {
+    "player": "Aziz Behich",
+    "team": "Australia",
+    "club": "Melbourne City",
+    "age": 36,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::cameron burgess": {
+    "player": "Cameron Burgess",
+    "team": "Australia",
+    "club": "Swansea",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::harry souttar": {
+    "player": "Harry Souttar",
+    "team": "Australia",
+    "club": "Leicester",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::jacob italiano": {
+    "player": "Jacob Italiano",
+    "team": "Australia",
+    "club": "Grazer AK 1902",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::jason geria": {
+    "player": "Jason Geria",
+    "team": "Australia",
+    "club": "Albirex Niigata",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::jordan bos": {
+    "player": "Jordan Bos",
+    "team": "Australia",
+    "club": "Feyenoord",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::kai trewin": {
+    "player": "Kai Trewin",
+    "team": "Australia",
+    "club": "New York City",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::lucas herrington": {
+    "player": "Lucas Herrington",
+    "team": "Australia",
+    "club": "Colorado Rapids",
+    "age": 19,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::milos degenek": {
+    "player": "Milos Degenek",
+    "team": "Australia",
+    "club": "APOEL",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::matthew ryan": {
+    "player": "Matthew Ryan",
+    "team": "Australia",
+    "club": "Levante",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::patrick beach": {
+    "player": "Patrick Beach",
+    "team": "Australia",
+    "club": "Melbourne City",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "australia::paul izzo": {
+    "player": "Paul Izzo",
+    "team": "Australia",
+    "club": "Randers",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::alex arce": {
+    "player": "Alex Arce",
+    "team": "Paraguay",
+    "club": "Liga de Quito",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::antonio sanabria": {
+    "player": "Antonio Sanabria",
+    "team": "Paraguay",
+    "club": "Torino",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::gabriel ávalos": {
+    "player": "Gabriel Ávalos",
+    "team": "Paraguay",
+    "club": "Independiente",
+    "age": 36,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::isidro pitta": {
+    "player": "Isidro Pitta",
+    "team": "Paraguay",
+    "club": "Red Bull Bragantino",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::julio enciso": {
+    "player": "Julio Enciso",
+    "team": "Paraguay",
+    "club": "Estrasburgo",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::miguel almirón": {
+    "player": "Miguel Almirón",
+    "team": "Paraguay",
+    "club": "Atlanta United",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::alejandro romero gamarra": {
+    "player": "Alejandro Romero Gamarra",
+    "team": "Paraguay",
+    "club": "Al-Ain",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::andrés cubas": {
+    "player": "Andrés Cubas",
+    "team": "Paraguay",
+    "club": "Vancouver Whitecaps",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::braian ojeda": {
+    "player": "Braian Ojeda",
+    "team": "Paraguay",
+    "club": "Real Salt Lake",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::damián bobadilla": {
+    "player": "Damián Bobadilla",
+    "team": "Paraguay",
+    "club": "São Paulo",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::diego gómez": {
+    "player": "Diego Gómez",
+    "team": "Paraguay",
+    "club": "Brighton",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::gustavo caballero": {
+    "player": "Gustavo Caballero",
+    "team": "Paraguay",
+    "club": "Nacional",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::matías galarza": {
+    "player": "Matías Galarza",
+    "team": "Paraguay",
+    "club": "Talleres de Córdoba",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::ramón sosa": {
+    "player": "Ramón Sosa",
+    "team": "Paraguay",
+    "club": "Palmeiras",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::alessandro maidana": {
+    "player": "Alessandro Maidana",
+    "team": "Paraguay",
+    "club": "Olimpia",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::fabián balbuena": {
+    "player": "Fabián Balbuena",
+    "team": "Paraguay",
+    "club": "Dinamo Moscú",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::gustavo gómez": {
+    "player": "Gustavo Gómez",
+    "team": "Paraguay",
+    "club": "Palmeiras",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::gustavo velázquez": {
+    "player": "Gustavo Velázquez",
+    "team": "Paraguay",
+    "club": "Cerro Porteño",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::josé canale": {
+    "player": "José Canale",
+    "team": "Paraguay",
+    "club": "Lanús",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::juan cáceres": {
+    "player": "Juan Cáceres",
+    "team": "Paraguay",
+    "club": "Dynamo Moscú",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::junior alonso": {
+    "player": "Junior Alonso",
+    "team": "Paraguay",
+    "club": "Atlético Mineiro",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::mauricio magalhães": {
+    "player": "Mauricio Magalhães",
+    "team": "Paraguay",
+    "club": "Libertad",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::omar alderete": {
+    "player": "Omar Alderete",
+    "team": "Paraguay",
+    "club": "Getafe",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::gastón olveira": {
+    "player": "Gastón Olveira",
+    "team": "Paraguay",
+    "club": "Olimpia",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::orlando gill": {
+    "player": "Orlando Gill",
+    "team": "Paraguay",
+    "club": "San Lorenzo",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "paraguay::roberto fernández": {
+    "player": "Roberto Fernández",
+    "team": "Paraguay",
+    "club": "Cerro Porteño",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::folarin balogun": {
+    "player": "Folarin Balogun",
+    "team": "Stati Uniti",
+    "club": "Monaco",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::haji wright": {
+    "player": "Haji Wright",
+    "team": "Stati Uniti",
+    "club": "Coventry City",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::ricardo pepi": {
+    "player": "Ricardo Pepi",
+    "team": "Stati Uniti",
+    "club": "PSV",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::alejandro zendejas": {
+    "player": "Alejandro Zendejas",
+    "team": "Stati Uniti",
+    "club": "Club América",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::brenden aaronson": {
+    "player": "Brenden Aaronson",
+    "team": "Stati Uniti",
+    "club": "Leeds United",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::christian pulisic": {
+    "player": "Christian Pulisic",
+    "team": "Stati Uniti",
+    "club": "Milan",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::cristian roldán": {
+    "player": "Cristian Roldán",
+    "team": "Stati Uniti",
+    "club": "Seattle Sounders",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::gio reyna": {
+    "player": "Gio Reyna",
+    "team": "Stati Uniti",
+    "club": "Borussia Mönchengladbach",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::malik tillman": {
+    "player": "Malik Tillman",
+    "team": "Stati Uniti",
+    "club": "Bayer Leverkusen",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::sebastian berhalter": {
+    "player": "Sebastian Berhalter",
+    "team": "Stati Uniti",
+    "club": "Vancouver Whitecaps",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::tim weah": {
+    "player": "Tim Weah",
+    "team": "Stati Uniti",
+    "club": "Olympique Marseille",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::tyler adams": {
+    "player": "Tyler Adams",
+    "team": "Stati Uniti",
+    "club": "AFC Bournemouth",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::weston mckennie": {
+    "player": "Weston McKennie",
+    "team": "Stati Uniti",
+    "club": "Vancouver Whitecaps",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::alex freeman": {
+    "player": "Alex Freeman",
+    "team": "Stati Uniti",
+    "club": "Villarreal",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::antonee robinson": {
+    "player": "Antonee Robinson",
+    "team": "Stati Uniti",
+    "club": "Fulham",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::auston trusty": {
+    "player": "Auston Trusty",
+    "team": "Stati Uniti",
+    "club": "Celtic",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::chris richards": {
+    "player": "Chris Richards",
+    "team": "Stati Uniti",
+    "club": "Crystal Palace",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::joe scally": {
+    "player": "Joe Scally",
+    "team": "Stati Uniti",
+    "club": "Borussia Mönchengladbach",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::mark mckenzie": {
+    "player": "Mark McKenzie",
+    "team": "Stati Uniti",
+    "club": "Toulouse",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::max arfsten": {
+    "player": "Max Arfsten",
+    "team": "Stati Uniti",
+    "club": "Columbus Crew",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::miles robinson": {
+    "player": "Miles Robinson",
+    "team": "Stati Uniti",
+    "club": "FC Cincinnati",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::sergiño dest": {
+    "player": "Sergiño Dest",
+    "team": "Stati Uniti",
+    "club": "PSV",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::tim ream": {
+    "player": "Tim Ream",
+    "team": "Stati Uniti",
+    "club": "Charlotte FC",
+    "age": 39,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::chris brady": {
+    "player": "Chris Brady",
+    "team": "Stati Uniti",
+    "club": "Chicago Fire",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::matt freese": {
+    "player": "Matt Freese",
+    "team": "Stati Uniti",
+    "club": "New York City",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "stati uniti::matt turner": {
+    "player": "Matt Turner",
+    "team": "Stati Uniti",
+    "club": "New England Revolution",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::baris yilmaz": {
+    "player": "Baris Yilmaz",
+    "team": "Turchia",
+    "club": "Galatasaray",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::deniz gul": {
+    "player": "Deniz Gul",
+    "team": "Turchia",
+    "club": "Porto",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::irfan can kahveci": {
+    "player": "Irfan Can Kahveci",
+    "team": "Turchia",
+    "club": "Fenerbahce",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::kenan yildiz": {
+    "player": "Kenan Yildiz",
+    "team": "Turchia",
+    "club": "Juventus",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::kerem akturkoglu": {
+    "player": "Kerem Akturkoglu",
+    "team": "Turchia",
+    "club": "Fenerbahce",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::oguz aydin": {
+    "player": "Oguz Aydin",
+    "team": "Turchia",
+    "club": "Fenerbahce",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::yunus akgun": {
+    "player": "Yunus Akgun",
+    "team": "Turchia",
+    "club": "Galatasaray",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::arda guler": {
+    "player": "Arda Guler",
+    "team": "Turchia",
+    "club": "Real Madrid",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::can uzun": {
+    "player": "Can Uzun",
+    "team": "Turchia",
+    "club": "Eintracht Frankfurt",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::hakan calhanoglu": {
+    "player": "Hakan Calhanoglu",
+    "team": "Turchia",
+    "club": "Inter de Milán",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::ismail yuksek": {
+    "player": "Ismail Yuksek",
+    "team": "Turchia",
+    "club": "Fenerbahce",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::kaan ayhan": {
+    "player": "Kaan Ayhan",
+    "team": "Turchia",
+    "club": "Galatasaray",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::orkun kokcu": {
+    "player": "Orkun Kokcu",
+    "team": "Turchia",
+    "club": "Besiktas",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::salih ozcan": {
+    "player": "Salih Ozcan",
+    "team": "Turchia",
+    "club": "Borussia Dortmund",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::abdulkerim bardakci": {
+    "player": "Abdulkerim Bardakci",
+    "team": "Turchia",
+    "club": "Galatasaray",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::caglar soyuncu": {
+    "player": "Caglar Soyuncu",
+    "team": "Turchia",
+    "club": "Fenerbahce",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::celik": {
+    "player": "Celik",
+    "team": "Turchia",
+    "club": "Roma",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::demiral": {
+    "player": "Demiral",
+    "team": "Turchia",
+    "club": "Al Ahli",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::eren elmali": {
+    "player": "Eren Elmali",
+    "team": "Turchia",
+    "club": "Galatasaray",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::kadioglu": {
+    "player": "Kadioglu",
+    "team": "Turchia",
+    "club": "Brighton",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::mert muldur": {
+    "player": "Mert Muldur",
+    "team": "Turchia",
+    "club": "Fenerbahce",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::ozan kabak": {
+    "player": "Ozan Kabak",
+    "team": "Turchia",
+    "club": "Hoffenheim",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::samet akaydin": {
+    "player": "Samet Akaydin",
+    "team": "Turchia",
+    "club": "Rizespor",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::bayindir": {
+    "player": "Bayindir",
+    "team": "Turchia",
+    "club": "Manchester United",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::cakir": {
+    "player": "Cakir",
+    "team": "Turchia",
+    "club": "Galatasaray",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "turchia::gunok": {
+    "player": "Gunok",
+    "team": "Turchia",
+    "club": "Besiktas",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::amad diallo": {
+    "player": "Amad Diallo",
+    "team": "Costa d'Avorio",
+    "club": "Manchester United",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::ange-yoan bonny": {
+    "player": "Ange-Yoan Bonny",
+    "team": "Costa d'Avorio",
+    "club": "Inter",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::bazoumana toure": {
+    "player": "Bazoumana Toure",
+    "team": "Costa d'Avorio",
+    "club": "Hoffenheim",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::elye wahi": {
+    "player": "Elye Wahi",
+    "team": "Costa d'Avorio",
+    "club": "Niza",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::evann guessand": {
+    "player": "Evann Guessand",
+    "team": "Costa d'Avorio",
+    "club": "Crystal Palace",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::nicolas pepe": {
+    "player": "Nicolas Pepe",
+    "team": "Costa d'Avorio",
+    "club": "Villarreal",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::oumar diakite": {
+    "player": "Oumar Diakite",
+    "team": "Costa d'Avorio",
+    "club": "Círculo Brujas",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::simón adingra": {
+    "player": "Simón Adingra",
+    "team": "Costa d'Avorio",
+    "club": "Mónaco",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::yan diomande": {
+    "player": "Yan Diomande",
+    "team": "Costa d'Avorio",
+    "club": "Leipzig",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::christ inao oulai": {
+    "player": "Christ Inao Oulai",
+    "team": "Costa d'Avorio",
+    "club": "Trabzonspor",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::franck kessié": {
+    "player": "Franck Kessié",
+    "team": "Costa d'Avorio",
+    "club": "Al Ahli",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::ibrahim sangaré": {
+    "player": "Ibrahim Sangaré",
+    "team": "Costa d'Avorio",
+    "club": "Notts. Forest",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::jean michaël seri": {
+    "player": "Jean Michaël Seri",
+    "team": "Costa d'Avorio",
+    "club": "Maribor",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::parfait guiagon": {
+    "player": "Parfait Guiagon",
+    "team": "Costa d'Avorio",
+    "club": "Charleroi",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::seko fofana": {
+    "player": "Seko Fofana",
+    "team": "Costa d'Avorio",
+    "club": "Oporto",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::clément akpa": {
+    "player": "Clément Akpa",
+    "team": "Costa d'Avorio",
+    "club": "Auxerre",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::emmanuel agbadou": {
+    "player": "Emmanuel Agbadou",
+    "team": "Costa d'Avorio",
+    "club": "Besiktas",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::evan n’dicka": {
+    "player": "Evan N’Dicka",
+    "team": "Costa d'Avorio",
+    "club": "Roma",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::ghislain konan": {
+    "player": "Ghislain Konan",
+    "team": "Costa d'Avorio",
+    "club": "Gil Vicente",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::guéla doué": {
+    "player": "Guéla Doué",
+    "team": "Costa d'Avorio",
+    "club": "Estrasburgo",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::odilon kossounou": {
+    "player": "Odilon Kossounou",
+    "team": "Costa d'Avorio",
+    "club": "Atalanta",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::ousmane diomande": {
+    "player": "Ousmane Diomande",
+    "team": "Costa d'Avorio",
+    "club": "Sporting",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::wilfried singo": {
+    "player": "Wilfried Singo",
+    "team": "Costa d'Avorio",
+    "club": "Mónaco",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::alban lafont": {
+    "player": "Alban Lafont",
+    "team": "Costa d'Avorio",
+    "club": "Panathinaikos",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::mohamed kone": {
+    "player": "Mohamed Kone",
+    "team": "Costa d'Avorio",
+    "club": "Charleroi",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "costa d'avorio::yahia fofana": {
+    "player": "Yahia Fofana",
+    "team": "Costa d'Avorio",
+    "club": "Çaykur Rizespor",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::brandley kuwas": {
+    "player": "Brandley Kuwas",
+    "team": "Curacao",
+    "club": "FC Volendam",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::gervane kastaneer": {
+    "player": "Gervane Kastaneer",
+    "team": "Curacao",
+    "club": "Terengganu",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::jearl margaritha": {
+    "player": "Jearl Margaritha",
+    "team": "Curacao",
+    "club": "SK Beveren",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::jeremy antonisse": {
+    "player": "Jeremy Antonisse",
+    "team": "Curacao",
+    "club": "Kifisia",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::jürgen locadia": {
+    "player": "Jürgen Locadia",
+    "team": "Curacao",
+    "club": "Miami FC",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::kenji gorré": {
+    "player": "Kenji Gorré",
+    "team": "Curacao",
+    "club": "Maccabi Haifa",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::sontje hansen": {
+    "player": "Sontje Hansen",
+    "team": "Curacao",
+    "club": "Middlesbrough",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::tahith chong": {
+    "player": "Tahith Chong",
+    "team": "Curacao",
+    "club": "Sheffield United",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::arjany martha": {
+    "player": "Arjany Martha",
+    "team": "Curacao",
+    "club": "Rotherham",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::godfried roemeratoe": {
+    "player": "Godfried Roemeratoe",
+    "team": "Curacao",
+    "club": "Waalwijk",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::juninho bacuna": {
+    "player": "Juninho Bacuna",
+    "team": "Curacao",
+    "club": "FC Volendam",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::kevin felida": {
+    "player": "Kevin Felida",
+    "team": "Curacao",
+    "club": "Den Bosch",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::leandro bacuna": {
+    "player": "Leandro Bacuna",
+    "team": "Curacao",
+    "club": "Igdir FK",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::livano comenencia": {
+    "player": "Livano Comenencia",
+    "team": "Curacao",
+    "club": "Zurich",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::tyrese noslin": {
+    "player": "Tyrese Noslin",
+    "team": "Curacao",
+    "club": "Telsar",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::armando obispo": {
+    "player": "Armando Obispo",
+    "team": "Curacao",
+    "club": "PSV",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::deveron fonville": {
+    "player": "Deveron Fonville",
+    "team": "Curacao",
+    "club": "Nijmegen",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::joshua brenet": {
+    "player": "Joshua Brenet",
+    "team": "Curacao",
+    "club": "Kayserispor",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::jurïen gaari": {
+    "player": "Jurïen Gaari",
+    "team": "Curacao",
+    "club": "Abha",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::riechedly bazoer": {
+    "player": "Riechedly Bazoer",
+    "team": "Curacao",
+    "club": "Konyaspor",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::roshon van eijma": {
+    "player": "Roshon Van Eijma",
+    "team": "Curacao",
+    "club": "Waalwijk",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::sherel floranus": {
+    "player": "Sherel Floranus",
+    "team": "Curacao",
+    "club": "PEC Zwolle",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::shurandy sambo": {
+    "player": "Shurandy Sambo",
+    "team": "Curacao",
+    "club": "Sparta Rotterdam",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::eloy room": {
+    "player": "Eloy Room",
+    "team": "Curacao",
+    "club": "Miami FC",
+    "age": 37,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::trevor doornbusch": {
+    "player": "Trevor Doornbusch",
+    "team": "Curacao",
+    "club": "VVV Venlo",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "curacao::tyrick bodak": {
+    "player": "Tyrick Bodak",
+    "team": "Curacao",
+    "club": "Telsar",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::alan minda": {
+    "player": "Alan Minda",
+    "team": "Ecuador",
+    "club": "Atlético Mineiro",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::anthony valencia": {
+    "player": "Anthony Valencia",
+    "team": "Ecuador",
+    "club": "Royal Antwerp",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::enner valencia": {
+    "player": "Enner Valencia",
+    "team": "Ecuador",
+    "club": "Pachuca",
+    "age": 37,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::gonzalo plata": {
+    "player": "Gonzalo Plata",
+    "team": "Ecuador",
+    "club": "Flamengo",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::jeremy arévalo": {
+    "player": "Jeremy Arévalo",
+    "team": "Ecuador",
+    "club": "Stuttgart",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::john yeboah": {
+    "player": "John Yeboah",
+    "team": "Ecuador",
+    "club": "Venezia",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::jordy caicedo": {
+    "player": "Jordy Caicedo",
+    "team": "Ecuador",
+    "club": "Huracán",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::kevin rodríguez": {
+    "player": "Kevin Rodríguez",
+    "team": "Ecuador",
+    "club": "Unión Saint-Gilloise",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::alan franco": {
+    "player": "Alan Franco",
+    "team": "Ecuador",
+    "club": "Atlético Mineiro",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::denil castillo": {
+    "player": "Denil Castillo",
+    "team": "Ecuador",
+    "club": "Midtjylland",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::jordi alcívar": {
+    "player": "Jordi Alcívar",
+    "team": "Ecuador",
+    "club": "Independiente del Valle",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::kendry páez": {
+    "player": "Kendry Páez",
+    "team": "Ecuador",
+    "club": "River Plate",
+    "age": 19,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::moisés caicedo": {
+    "player": "Moisés Caicedo",
+    "team": "Ecuador",
+    "club": "Chelsea",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::nilson angulo": {
+    "player": "Nilson Angulo",
+    "team": "Ecuador",
+    "club": "Sunderland",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::pedro vite": {
+    "player": "Pedro Vite",
+    "team": "Ecuador",
+    "club": "UNAM Pumas",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::ángelo preciado": {
+    "player": "Ángelo Preciado",
+    "team": "Ecuador",
+    "club": "Atlético Mineiro",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::félix torres": {
+    "player": "Félix Torres",
+    "team": "Ecuador",
+    "club": "Internacional",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::jackson porozo": {
+    "player": "Jackson Porozo",
+    "team": "Ecuador",
+    "club": "Club Tijuana",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::joel ordóñez": {
+    "player": "Joel Ordóñez",
+    "team": "Ecuador",
+    "club": "Brujas",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::pervis estupiñán": {
+    "player": "Pervis Estupiñán",
+    "team": "Ecuador",
+    "club": "Milan",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::piero hincapié": {
+    "player": "Piero Hincapié",
+    "team": "Ecuador",
+    "club": "Arsenal",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::willian pacho": {
+    "player": "Willian Pacho",
+    "team": "Ecuador",
+    "club": "PSG",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::yaimar medina": {
+    "player": "Yaimar Medina",
+    "team": "Ecuador",
+    "club": "KRC Genk",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::gonzalo valle": {
+    "player": "Gonzalo Valle",
+    "team": "Ecuador",
+    "club": "Liga de Quito",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::hernán galíndez": {
+    "player": "Hernán Galíndez",
+    "team": "Ecuador",
+    "club": "Huracán",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ecuador::moisés ramírez": {
+    "player": "Moisés Ramírez",
+    "team": "Ecuador",
+    "club": "AE Kifisias",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::deniz undav": {
+    "player": "Deniz Undav",
+    "team": "Germania",
+    "club": "Stuttgart",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::kai havertz": {
+    "player": "Kai Havertz",
+    "team": "Germania",
+    "club": "Arsenal",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::leroy sané": {
+    "player": "Leroy Sané",
+    "team": "Germania",
+    "club": "Istanbul",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::maximilian beier": {
+    "player": "Maximilian Beier",
+    "team": "Germania",
+    "club": "Dortmund",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::nick woltemade": {
+    "player": "Nick Woltemade",
+    "team": "Germania",
+    "club": "Newcastle",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::aleksandar pavlovic": {
+    "player": "Aleksandar Pavlovic",
+    "team": "Germania",
+    "club": "Bayern",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::angelo stiller": {
+    "player": "Angelo Stiller",
+    "team": "Germania",
+    "club": "Stuttgart",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::felix nmecha": {
+    "player": "Felix Nmecha",
+    "team": "Germania",
+    "club": "Dortmund",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::florian wirtz": {
+    "player": "Florian Wirtz",
+    "team": "Germania",
+    "club": "Liverpool",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::jamal musiala": {
+    "player": "Jamal Musiala",
+    "team": "Germania",
+    "club": "Bayern",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::jamie leweling": {
+    "player": "Jamie Leweling",
+    "team": "Germania",
+    "club": "Stuttgart",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::lennart karl": {
+    "player": "Lennart Karl",
+    "team": "Germania",
+    "club": "Bayern",
+    "age": 18,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::leon goretzka": {
+    "player": "Leon Goretzka",
+    "team": "Germania",
+    "club": "Bayern",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::nadiem amiri": {
+    "player": "Nadiem Amiri",
+    "team": "Germania",
+    "club": "Mainz",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::antonio rüdiger": {
+    "player": "Antonio Rüdiger",
+    "team": "Germania",
+    "club": "Real Madrid",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::david raum": {
+    "player": "David Raum",
+    "team": "Germania",
+    "club": "Leipzig",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::jonathan tah": {
+    "player": "Jonathan Tah",
+    "team": "Germania",
+    "club": "Bayern",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::joshua kimmich": {
+    "player": "Joshua Kimmich",
+    "team": "Germania",
+    "club": "Bayern",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::malick thiaw": {
+    "player": "Malick Thiaw",
+    "team": "Germania",
+    "club": "Newcastle",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::nathaniel brown": {
+    "player": "Nathaniel Brown",
+    "team": "Germania",
+    "club": "Frankfurt",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::nico schlotterbeck": {
+    "player": "Nico Schlotterbeck",
+    "team": "Germania",
+    "club": "Dortmund",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::pascal groß": {
+    "player": "Pascal Groß",
+    "team": "Germania",
+    "club": "Brighton & Hove Albion",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::waldemar anton": {
+    "player": "Waldemar Anton",
+    "team": "Germania",
+    "club": "Dortmund",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::alexander nübel": {
+    "player": "Alexander Nübel",
+    "team": "Germania",
+    "club": "Stuttgart",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::manuel neuer": {
+    "player": "Manuel Neuer",
+    "team": "Germania",
+    "club": "Bayern",
+    "age": 40,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "germania::oliver baumann": {
+    "player": "Oliver Baumann",
+    "team": "Germania",
+    "club": "Hoffenheim",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::ayase ueda": {
+    "player": "Ayase Ueda",
+    "team": "Giappone",
+    "club": "Feyenoord",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::daizen maeda": {
+    "player": "Daizen Maeda",
+    "team": "Giappone",
+    "club": "Celtic",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::kaito nakamura": {
+    "player": "Kaito Nakamura",
+    "team": "Giappone",
+    "club": "Stade Reims",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::keisuke goto": {
+    "player": "Keisuke Goto",
+    "team": "Giappone",
+    "club": "Sint-Truiden",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::kento shiogai": {
+    "player": "Kento Shiogai",
+    "team": "Giappone",
+    "club": "Wolfsburgo",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::koki ogawa": {
+    "player": "Koki Ogawa",
+    "team": "Giappone",
+    "club": "NEC",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::ritsu doan": {
+    "player": "Ritsu Doan",
+    "team": "Giappone",
+    "club": "Eintracht",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::takefusa kubo": {
+    "player": "Takefusa Kubo",
+    "team": "Giappone",
+    "club": "Real Sociedad",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::yuito suzuki": {
+    "player": "Yuito Suzuki",
+    "team": "Giappone",
+    "club": "Friburgo",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::ao tanaka": {
+    "player": "Ao Tanaka",
+    "team": "Giappone",
+    "club": "Leeds",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::daichi kamada": {
+    "player": "Daichi Kamada",
+    "team": "Giappone",
+    "club": "Crystal Palace",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::junya ito": {
+    "player": "Junya Ito",
+    "team": "Giappone",
+    "club": "Genk",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::kaishu sano": {
+    "player": "Kaishu Sano",
+    "team": "Giappone",
+    "club": "Mainz",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::wataru endo": {
+    "player": "Wataru Endo",
+    "team": "Giappone",
+    "club": "Liverpool",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::ayumu seko": {
+    "player": "Ayumu Seko",
+    "team": "Giappone",
+    "club": "Le Havre",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::hiroki ito": {
+    "player": "Hiroki Ito",
+    "team": "Giappone",
+    "club": "Bayern de Múnich",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::junnosuke suzuki": {
+    "player": "Junnosuke Suzuki",
+    "team": "Giappone",
+    "club": "Copenhague",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::ko itakura": {
+    "player": "Ko Itakura",
+    "team": "Giappone",
+    "club": "Ajax",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::shogo taniguchi": {
+    "player": "Shogo Taniguchi",
+    "team": "Giappone",
+    "club": "Sint-Truiden",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::takehiro tomisayu": {
+    "player": "Takehiro Tomisayu",
+    "team": "Giappone",
+    "club": "Ajax",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::tsuyoshi watanabe": {
+    "player": "Tsuyoshi Watanabe",
+    "team": "Giappone",
+    "club": "Feyenoord",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::yukinari sugawara": {
+    "player": "Yukinari Sugawara",
+    "team": "Giappone",
+    "club": "Werder Bremen",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::yuto nagamoto": {
+    "player": "Yuto Nagamoto",
+    "team": "Giappone",
+    "club": "FC Tokyo",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::keisuke osako": {
+    "player": "Keisuke Osako",
+    "team": "Giappone",
+    "club": "Sanfrecce Hiroshima",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::tomoki hayakawa": {
+    "player": "Tomoki Hayakawa",
+    "team": "Giappone",
+    "club": "Kashima",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giappone::zion suzuki": {
+    "player": "Zion Suzuki",
+    "team": "Giappone",
+    "club": "Parma",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::brian brobbey": {
+    "player": "Brian Brobbey",
+    "team": "Olanda",
+    "club": "Sunderland",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::cody gakpo": {
+    "player": "Cody Gakpo",
+    "team": "Olanda",
+    "club": "Liverpool",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::donyell malen": {
+    "player": "Donyell Malen",
+    "team": "Olanda",
+    "club": "AS Roma",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::justin kluivert": {
+    "player": "Justin Kluivert",
+    "team": "Olanda",
+    "club": "Bournemouth",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::memphis depay": {
+    "player": "Memphis Depay",
+    "team": "Olanda",
+    "club": "Corinthians",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::wout weghorst": {
+    "player": "Wout Weghorst",
+    "team": "Olanda",
+    "club": "Ajax",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::crysencio summerville": {
+    "player": "Crysencio Summerville",
+    "team": "Olanda",
+    "club": "West Ham United",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::frenkie de jong": {
+    "player": "Frenkie de Jong",
+    "team": "Olanda",
+    "club": "Barcelona",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::guus til": {
+    "player": "Guus Til",
+    "team": "Olanda",
+    "club": "PSV",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::marten de roon": {
+    "player": "Marten de Roon",
+    "team": "Olanda",
+    "club": "Atalanta",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::mats wieffer": {
+    "player": "Mats Wieffer",
+    "team": "Olanda",
+    "club": "Brighton & Hove Albion",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::noa lang": {
+    "player": "Noa Lang",
+    "team": "Olanda",
+    "club": "Galatasaray",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::quinten timber": {
+    "player": "Quinten Timber",
+    "team": "Olanda",
+    "club": "Olympique de Marseille",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::ryan gravenberch": {
+    "player": "Ryan Gravenberch",
+    "team": "Olanda",
+    "club": "Liverpool",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::teun koopmeiners": {
+    "player": "Teun Koopmeiners",
+    "team": "Olanda",
+    "club": "Juventus",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::tijjani reijnders": {
+    "player": "Tijjani Reijnders",
+    "team": "Olanda",
+    "club": "Manchester City",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::denzel dumfries": {
+    "player": "Denzel Dumfries",
+    "team": "Olanda",
+    "club": "Inter",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::jan paul van hecke": {
+    "player": "Jan Paul van Hecke",
+    "team": "Olanda",
+    "club": "Brighton & Hove Albion",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::jorrel hato": {
+    "player": "Jorrel Hato",
+    "team": "Olanda",
+    "club": "Chelsea",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::jurriën timber": {
+    "player": "Jurriën Timber",
+    "team": "Olanda",
+    "club": "Arsenal",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::micky van de ven": {
+    "player": "Micky van de Ven",
+    "team": "Olanda",
+    "club": "Tottenham Hotspur",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::nathan aké": {
+    "player": "Nathan Aké",
+    "team": "Olanda",
+    "club": "Manchester City",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::virgil van dijk": {
+    "player": "Virgil van Dijk",
+    "team": "Olanda",
+    "club": "Liverpool",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::bart verbruggen": {
+    "player": "Bart Verbruggen",
+    "team": "Olanda",
+    "club": "Brighton & Hove Albion",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::mark flekken": {
+    "player": "Mark Flekken",
+    "team": "Olanda",
+    "club": "Bayer 04 Leverkusen",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "olanda::robin roefs": {
+    "player": "Robin Roefs",
+    "team": "Olanda",
+    "club": "Sunderland",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::alexander bernhardsson": {
+    "player": "Alexander Bernhardsson",
+    "team": "Svezia",
+    "club": "Holstein Kiel",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::alexander isak": {
+    "player": "Alexander Isak",
+    "team": "Svezia",
+    "club": "Liverpool",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::anthony elanga": {
+    "player": "Anthony Elanga",
+    "team": "Svezia",
+    "club": "Newcastle",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::benjamin nygren": {
+    "player": "Benjamin Nygren",
+    "team": "Svezia",
+    "club": "Celtic",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::gustaf nilsson": {
+    "player": "Gustaf Nilsson",
+    "team": "Svezia",
+    "club": "Brujas",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::taha ali": {
+    "player": "Taha Ali",
+    "team": "Svezia",
+    "club": "Malmö",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::viktor gyökeres": {
+    "player": "Viktor Gyökeres",
+    "team": "Svezia",
+    "club": "Arsenal",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::besfort zeneli": {
+    "player": "Besfort Zeneli",
+    "team": "Svezia",
+    "club": "Unión Saint-Gilloise",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::jesper kalström": {
+    "player": "Jesper Kalström",
+    "team": "Svezia",
+    "club": "Udinese",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::ken sema": {
+    "player": "Ken Sema",
+    "team": "Svezia",
+    "club": "Pafos",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::lucas begvall": {
+    "player": "Lucas Begvall",
+    "team": "Svezia",
+    "club": "Tottenham",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::mattias svanberg": {
+    "player": "Mattias Svanberg",
+    "team": "Svezia",
+    "club": "Wolfsburgo",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::yasin ayari": {
+    "player": "Yasin Ayari",
+    "team": "Svezia",
+    "club": "Brighton",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::carl starfelt": {
+    "player": "Carl Starfelt",
+    "team": "Svezia",
+    "club": "Celta",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::daniel svensson": {
+    "player": "Daniel Svensson",
+    "team": "Svezia",
+    "club": "Borussia Dortmund",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::elliot stroud": {
+    "player": "Elliot Stroud",
+    "team": "Svezia",
+    "club": "Mjällby",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::eric smith": {
+    "player": "Eric Smith",
+    "team": "Svezia",
+    "club": "St. Pauli",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::gabriel gudmundsson": {
+    "player": "Gabriel Gudmundsson",
+    "team": "Svezia",
+    "club": "Leeds",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::gustav lagerbielke": {
+    "player": "Gustav Lagerbielke",
+    "team": "Svezia",
+    "club": "SC Braga",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::herman johansson": {
+    "player": "Herman Johansson",
+    "team": "Svezia",
+    "club": "FC Dallas",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::hjalmar ekdal": {
+    "player": "Hjalmar Ekdal",
+    "team": "Svezia",
+    "club": "Burnley",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::isak hien": {
+    "player": "Isak Hien",
+    "team": "Svezia",
+    "club": "Atalanta",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::viktor lindelöf": {
+    "player": "Viktor Lindelöf",
+    "team": "Svezia",
+    "club": "Aston Villa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::jacob zetterström": {
+    "player": "Jacob Zetterström",
+    "team": "Svezia",
+    "club": "Derby County",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::kristoffer nordfeldt": {
+    "player": "Kristoffer Nordfeldt",
+    "team": "Svezia",
+    "club": "AIK",
+    "age": 37,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "svezia::viktor johansson": {
+    "player": "Viktor Johansson",
+    "team": "Svezia",
+    "club": "Stoke City",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::elias achouri": {
+    "player": "Elias Achouri",
+    "team": "Tunisia",
+    "club": "Copenhague",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::elias saad": {
+    "player": "Elias Saad",
+    "team": "Tunisia",
+    "club": "Hannover 96",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::firas chaouat": {
+    "player": "Firas Chaouat",
+    "team": "Tunisia",
+    "club": "Club Africain",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::hazem mastouri": {
+    "player": "Hazem Mastouri",
+    "team": "Tunisia",
+    "club": "Dynamo Makhachkala",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::khalil ayari": {
+    "player": "Khalil Ayari",
+    "team": "Tunisia",
+    "club": "PSG",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::rayan elloumi": {
+    "player": "Rayan Elloumi",
+    "team": "Tunisia",
+    "club": "Vancouver Whitecaps",
+    "age": 19,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::sebastian tounekti": {
+    "player": "Sebastian Tounekti",
+    "team": "Tunisia",
+    "club": "Celtic",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::anis ben slimane": {
+    "player": "Anis Ben Slimane",
+    "team": "Tunisia",
+    "club": "Norwich",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::ellyes skhiri": {
+    "player": "Ellyes Skhiri",
+    "team": "Tunisia",
+    "club": "Eintracht de Frankfurt",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::hannibal mejbri": {
+    "player": "Hannibal Mejbri",
+    "team": "Tunisia",
+    "club": "Burnley",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::ismaël gharbi": {
+    "player": "Ismaël Gharbi",
+    "team": "Tunisia",
+    "club": "Augsburgo",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::m. hadj mahmoud": {
+    "player": "M. Hadj Mahmoud",
+    "team": "Tunisia",
+    "club": "Lugano",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::mortadha ben ouanes": {
+    "player": "Mortadha Ben Ouanes",
+    "team": "Tunisia",
+    "club": "Kasimpasa",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::rani khedira": {
+    "player": "Rani Khedira",
+    "team": "Tunisia",
+    "club": "Union Berlin",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::adem arous": {
+    "player": "Adem Arous",
+    "team": "Tunisia",
+    "club": "Kasimpasa",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::ali abdi": {
+    "player": "Ali Abdi",
+    "team": "Tunisia",
+    "club": "Niza",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::dylan bronn": {
+    "player": "Dylan Bronn",
+    "team": "Tunisia",
+    "club": "Servette",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::m.a ben hmida": {
+    "player": "M.A Ben Hmida",
+    "team": "Tunisia",
+    "club": "Espérance de Tunis",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::montassar talbi": {
+    "player": "Montassar Talbi",
+    "team": "Tunisia",
+    "club": "Lorient",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::moutaz neffati": {
+    "player": "Moutaz Neffati",
+    "team": "Tunisia",
+    "club": "Norrköping",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::omar rekik": {
+    "player": "Omar Rekik",
+    "team": "Tunisia",
+    "club": "Maribor",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::raed chikhaoui": {
+    "player": "Raed Chikhaoui",
+    "team": "Tunisia",
+    "club": "Monastir",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::van valery": {
+    "player": "Van Valery",
+    "team": "Tunisia",
+    "club": "Young Boys",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::a. chamakh": {
+    "player": "A. Chamakh",
+    "team": "Tunisia",
+    "club": "Club Africain",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::aymen dahmen": {
+    "player": "Aymen Dahmen",
+    "team": "Tunisia",
+    "club": "CS Sfaxien",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "tunisia::sabri ben hassen": {
+    "player": "Sabri Ben Hassen",
+    "team": "Tunisia",
+    "club": "Etoile du Sahel",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::alexis saelemaekers": {
+    "player": "Alexis Saelemaekers",
+    "team": "Belgio",
+    "club": "Milan",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::charles de ketelaere": {
+    "player": "Charles de Ketelaere",
+    "team": "Belgio",
+    "club": "Atalanta",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::diego moreira": {
+    "player": "Diego Moreira",
+    "team": "Belgio",
+    "club": "Estrasburgo",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::dodi lukebakio": {
+    "player": "Dodi Lukebakio",
+    "team": "Belgio",
+    "club": "Benfica",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::jérémy doku": {
+    "player": "Jérémy Doku",
+    "team": "Belgio",
+    "club": "Manchester City",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::leandro trossard": {
+    "player": "Leandro Trossard",
+    "team": "Belgio",
+    "club": "Arsenal",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::matias fernández-pardo": {
+    "player": "Matias Fernández-Pardo",
+    "team": "Belgio",
+    "club": "Lille",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::romelu lukaku": {
+    "player": "Romelu Lukaku",
+    "team": "Belgio",
+    "club": "Nápoles",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::amadou onana": {
+    "player": "Amadou Onana",
+    "team": "Belgio",
+    "club": "Aston Villa",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::axel witsel": {
+    "player": "Axel Witsel",
+    "team": "Belgio",
+    "club": "Girona",
+    "age": 37,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::hans vanaken": {
+    "player": "Hans Vanaken",
+    "team": "Belgio",
+    "club": "Brujas",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::kevin de bruyne": {
+    "player": "Kevin de Bruyne",
+    "team": "Belgio",
+    "club": "Nápoles",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::nicolas raskin": {
+    "player": "Nicolas Raskin",
+    "team": "Belgio",
+    "club": "Rangers",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::youri tielemans": {
+    "player": "Youri Tielemans",
+    "team": "Belgio",
+    "club": "Aston Villa",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::arthur theate": {
+    "player": "Arthur Theate",
+    "team": "Belgio",
+    "club": "Eintracht",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::brandon mechele": {
+    "player": "Brandon Mechele",
+    "team": "Belgio",
+    "club": "Brujas",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::joaquin seys": {
+    "player": "Joaquin Seys",
+    "team": "Belgio",
+    "club": "Brujas",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::koni de winter": {
+    "player": "Koni de Winter",
+    "team": "Belgio",
+    "club": "Milan",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::maxim de cuyper": {
+    "player": "Maxim de Cuyper",
+    "team": "Belgio",
+    "club": "Brighton",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::nathan ngoy": {
+    "player": "Nathan Ngoy",
+    "team": "Belgio",
+    "club": "Lille",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::thomas meunir": {
+    "player": "Thomas Meunir",
+    "team": "Belgio",
+    "club": "Lille",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::timothy castagne": {
+    "player": "Timothy Castagne",
+    "team": "Belgio",
+    "club": "Fulham",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::zeno debast": {
+    "player": "Zeno Debast",
+    "team": "Belgio",
+    "club": "Sporting",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::mike penders": {
+    "player": "Mike Penders",
+    "team": "Belgio",
+    "club": "Estrasburgo",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::senne lammens": {
+    "player": "Senne Lammens",
+    "team": "Belgio",
+    "club": "Manchester United",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "belgio::thibaut courtois": {
+    "player": "Thibaut Courtois",
+    "team": "Belgio",
+    "club": "Real Madrid",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::aktai abdullah": {
+    "player": "Aktai Abdullah",
+    "team": "Egitto",
+    "club": "ZED FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::hamza abdelkarim": {
+    "player": "Hamza Abdelkarim",
+    "team": "Egitto",
+    "club": "FC Barcelona Atlètic/Al Ahly",
+    "age": 18,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::mohamed salah": {
+    "player": "Mohamed Salah",
+    "team": "Egitto",
+    "club": "Liverpool FC",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::omar marmoush": {
+    "player": "Omar Marmoush",
+    "team": "Egitto",
+    "club": "Manchester City",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::ahmed sayed zizo": {
+    "player": "Ahmed Sayed Zizo",
+    "team": "Egitto",
+    "club": "Zamalek SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::haithem hassan": {
+    "player": "Haithem Hassan",
+    "team": "Egitto",
+    "club": "Real Oviedo",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::ibrahim ade (pyramids fc)l": {
+    "player": "Ibrahim Ade (Pyramids FC)l",
+    "team": "Egitto",
+    "club": "",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::imam ashour": {
+    "player": "Imam Ashour",
+    "team": "Egitto",
+    "club": "Al-Ahly SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::mahmoud saber": {
+    "player": "Mahmoud Saber",
+    "team": "Egitto",
+    "club": "Pyramids FC / Smouha SC",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::mahmoud trezeguet": {
+    "player": "Mahmoud Trezeguet",
+    "team": "Egitto",
+    "club": "Al-Rayyan SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::marwan attia": {
+    "player": "Marwan Attia",
+    "team": "Egitto",
+    "club": "Al-Ahly SC",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::mohand lashin": {
+    "player": "Mohand Lashin",
+    "team": "Egitto",
+    "club": "Pyramids FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::mostafa abdel-raouf ziko": {
+    "player": "Mostafa Abdel-Raouf Ziko",
+    "team": "Egitto",
+    "club": "ZED FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::nabil emad dunga": {
+    "player": "Nabil Emad Dunga",
+    "team": "Egitto",
+    "club": "Zamalek SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::ahmed fotouh": {
+    "player": "Ahmed Fotouh",
+    "team": "Egitto",
+    "club": "Zamalek SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::hamdi fathy": {
+    "player": "Hamdi Fathy",
+    "team": "Egitto",
+    "club": "Al-Wakrah SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::hossam abdel-maguid": {
+    "player": "Hossam Abdel-Maguid",
+    "team": "Egitto",
+    "club": "Zamalek SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::karim hafez": {
+    "player": "Karim Hafez",
+    "team": "Egitto",
+    "club": "Pyramids FC",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::mohamed abdelmonem": {
+    "player": "Mohamed Abdelmonem",
+    "team": "Egitto",
+    "club": "OGC Niza",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::mohamed hany": {
+    "player": "Mohamed Hany",
+    "team": "Egitto",
+    "club": "Al-Ahly SC",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::ramy rabia": {
+    "player": "Ramy Rabia",
+    "team": "Egitto",
+    "club": "Al-Ahly SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::tarek el ala": {
+    "player": "Tarek El Ala",
+    "team": "Egitto",
+    "club": "Al-Nasr",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::yasser ibrahim": {
+    "player": "Yasser Ibrahim",
+    "team": "Egitto",
+    "club": "Al-Ahly SC",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::al-mahdy soliman": {
+    "player": "Al-Mahdy Soliman",
+    "team": "Egitto",
+    "club": "Al-Ittihad Alexandria",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::mohamed alaa": {
+    "player": "Mohamed Alaa",
+    "team": "Egitto",
+    "club": "ZED FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::mohamed el shenawy": {
+    "player": "Mohamed El Shenawy",
+    "team": "Egitto",
+    "club": "Al-Ahly SC",
+    "age": 38,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "egitto::mostafa shobeir": {
+    "player": "Mostafa Shobeir",
+    "team": "Egitto",
+    "club": "Al-Ahly SC",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::ali alipour": {
+    "player": "Ali Alipour",
+    "team": "Iran",
+    "club": "Persepolis",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::amirhossein hosseinzadeh": {
+    "player": "Amirhossein Hosseinzadeh",
+    "team": "Iran",
+    "club": "Tractor FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::denis dargahi": {
+    "player": "Denis Dargahi",
+    "team": "Iran",
+    "club": "Standard de Lieja",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::mehdi taremi": {
+    "player": "Mehdi Taremi",
+    "team": "Iran",
+    "club": "Olympiacos",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::shahriyar moghanloo": {
+    "player": "Shahriyar Moghanloo",
+    "team": "Iran",
+    "club": "Kalba",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::alireza jahanbakhsh": {
+    "player": "Alireza Jahanbakhsh",
+    "team": "Iran",
+    "club": "FCV Dender EH",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::amir mohammad razagh niya": {
+    "player": "Amir Mohammad Razagh Niya",
+    "team": "Iran",
+    "club": "Esteghlal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::ariya yousefi": {
+    "player": "Ariya Yousefi",
+    "team": "Iran",
+    "club": "Sepahan",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::mehdi ghayedi": {
+    "player": "Mehdi Ghayedi",
+    "team": "Iran",
+    "club": "Al-Nasr",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::mehdi torabi": {
+    "player": "Mehdi Torabi",
+    "team": "Iran",
+    "club": "Tractor FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::mohammad ghorbani": {
+    "player": "Mohammad Ghorbani",
+    "team": "Iran",
+    "club": "Al-Wahda",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::mohammad mohebbi": {
+    "player": "Mohammad Mohebbi",
+    "team": "Iran",
+    "club": "FK Rostov",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::rouzbeh cheshmi": {
+    "player": "Rouzbeh Cheshmi",
+    "team": "Iran",
+    "club": "Esteghlal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::saeid ezatollahi": {
+    "player": "Saeid Ezatollahi",
+    "team": "Iran",
+    "club": "Shabab Al-Ahli Club",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::saman ghodoos": {
+    "player": "Saman Ghodoos",
+    "team": "Iran",
+    "club": "Kalba",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::ali nemati": {
+    "player": "Ali Nemati",
+    "team": "Iran",
+    "club": "Foolad FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::danial eiri": {
+    "player": "Danial Eiri",
+    "team": "Iran",
+    "club": "Malavan Bandar Anzali",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::ehsan hajisafi": {
+    "player": "Ehsan Hajisafi",
+    "team": "Iran",
+    "club": "Sepahan",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::hosein kanaani": {
+    "player": "Hosein Kanaani",
+    "team": "Iran",
+    "club": "Persepolis",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::milad mohammadi": {
+    "player": "Milad Mohammadi",
+    "team": "Iran",
+    "club": "Persepolis",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::ramin rezaeiyan": {
+    "player": "Ramin Rezaeiyan",
+    "team": "Iran",
+    "club": "Foolad",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::saleh hardani": {
+    "player": "Saleh Hardani",
+    "team": "Iran",
+    "club": "Esteghlal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::shoja khalilzadeh": {
+    "player": "Shoja Khalilzadeh",
+    "team": "Iran",
+    "club": "Tractor FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::alireza beyranvand": {
+    "player": "Alireza Beyranvand",
+    "team": "Iran",
+    "club": "Tractor FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::hosein hoseini": {
+    "player": "Hosein Hoseini",
+    "team": "Iran",
+    "club": "Sepahan",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iran::payam niazmand": {
+    "player": "Payam Niazmand",
+    "team": "Iran",
+    "club": "Persepolis",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::ben old": {
+    "player": "Ben Old",
+    "team": "Nuova Zelanda",
+    "club": "Saint-Étienne",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::ben waine": {
+    "player": "Ben Waine",
+    "team": "Nuova Zelanda",
+    "club": "Port Vale",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::callum mccowatt": {
+    "player": "Callum McCowatt",
+    "team": "Nuova Zelanda",
+    "club": "Silkeborg",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::chris wood": {
+    "player": "Chris Wood",
+    "team": "Nuova Zelanda",
+    "club": "Nottingham Forest",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::eli just": {
+    "player": "Eli Just",
+    "team": "Nuova Zelanda",
+    "club": "Motherwell",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::jesse randall": {
+    "player": "Jesse Randall",
+    "team": "Nuova Zelanda",
+    "club": "Auckland FC",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::kosta barbarouses": {
+    "player": "Kosta Barbarouses",
+    "team": "Nuova Zelanda",
+    "club": "Western Sydney Wanderers",
+    "age": 36,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::matt garbett": {
+    "player": "Matt Garbett",
+    "team": "Nuova Zelanda",
+    "club": "Peterborough",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::sarpreet singh": {
+    "player": "Sarpreet Singh",
+    "team": "Nuova Zelanda",
+    "club": "Wellington",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::alex rufer": {
+    "player": "Alex Rufer",
+    "team": "Nuova Zelanda",
+    "club": "Wellington",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::joe bell": {
+    "player": "Joe Bell",
+    "team": "Nuova Zelanda",
+    "club": "Viking",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::lachlan bayliss": {
+    "player": "Lachlan Bayliss",
+    "team": "Nuova Zelanda",
+    "club": "Newcastle",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::marko stamenić": {
+    "player": "Marko Stamenić",
+    "team": "Nuova Zelanda",
+    "club": "Swansea",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::ryan thomas": {
+    "player": "Ryan Thomas",
+    "team": "Nuova Zelanda",
+    "club": "PEC Zwolle",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::callan elliot": {
+    "player": "Callan Elliot",
+    "team": "Nuova Zelanda",
+    "club": "Auckland FC",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::finn surman": {
+    "player": "Finn Surman",
+    "team": "Nuova Zelanda",
+    "club": "Portland Timbers",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::francis de vries": {
+    "player": "Francis De Vries",
+    "team": "Nuova Zelanda",
+    "club": "Auckland FC",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::liberato cacace": {
+    "player": "Liberato Cacace",
+    "team": "Nuova Zelanda",
+    "club": "Wrexham",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::michael boxall": {
+    "player": "Michael Boxall",
+    "team": "Nuova Zelanda",
+    "club": "Minnesota United",
+    "age": 38,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::nando pijnaker": {
+    "player": "Nando Pijnaker",
+    "team": "Nuova Zelanda",
+    "club": "Auckland FC",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::tim payne": {
+    "player": "Tim Payne",
+    "team": "Nuova Zelanda",
+    "club": "Wellington",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::tommy smith": {
+    "player": "Tommy Smith",
+    "team": "Nuova Zelanda",
+    "club": "Braintree",
+    "age": 36,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::tyler bindon": {
+    "player": "Tyler Bindon",
+    "team": "Nuova Zelanda",
+    "club": "Sheffield United",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::alex paulsen": {
+    "player": "Alex Paulsen",
+    "team": "Nuova Zelanda",
+    "club": "Lechia",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::max crocombe": {
+    "player": "Max Crocombe",
+    "team": "Nuova Zelanda",
+    "club": "Millwall",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "nuova zelanda::michael woud": {
+    "player": "Michael Woud",
+    "team": "Nuova Zelanda",
+    "club": "Auckland FC",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::abdullah alhamddan": {
+    "player": "Abdullah Alhamddan",
+    "team": "Arabia Saudita",
+    "club": "Al Nassr",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::feras albrikan": {
+    "player": "Feras Albrikan",
+    "team": "Arabia Saudita",
+    "club": "Al Ahli",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::saleh alshehri": {
+    "player": "Saleh Alshehri",
+    "team": "Arabia Saudita",
+    "club": "Al Ittihad",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::abdullah alkhaibari": {
+    "player": "Abdullah Alkhaibari",
+    "team": "Arabia Saudita",
+    "club": "Al Nassr",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::aiman yahya": {
+    "player": "Aiman Yahya",
+    "team": "Arabia Saudita",
+    "club": "Al Nassr",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::alaa al-hejji": {
+    "player": "Alaa Al-Hejji",
+    "team": "Arabia Saudita",
+    "club": "Neom",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::khalid alghannam": {
+    "player": "Khalid Alghannam",
+    "team": "Arabia Saudita",
+    "club": "Al Ettifaq",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::mohamed kanno": {
+    "player": "Mohamed Kanno",
+    "team": "Arabia Saudita",
+    "club": "Al Hilal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::musab aljuwayr": {
+    "player": "Musab Aljuwayr",
+    "team": "Arabia Saudita",
+    "club": "Al Qadsiah",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::nasser aldawsari": {
+    "player": "Nasser Aldawsari",
+    "team": "Arabia Saudita",
+    "club": "Al Hilal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::salem aldawsari": {
+    "player": "Salem Aldawsari",
+    "team": "Arabia Saudita",
+    "club": "Al Hilal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::sultan mandash": {
+    "player": "Sultan Mandash",
+    "team": "Arabia Saudita",
+    "club": "Al Hilal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::ziyad aljohani": {
+    "player": "Ziyad Aljohani",
+    "team": "Arabia Saudita",
+    "club": "Al Ahli",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::abdulelah alamri": {
+    "player": "Abdulelah Alamri",
+    "team": "Arabia Saudita",
+    "club": "Al Nassr",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::ali lajami": {
+    "player": "Ali Lajami",
+    "team": "Arabia Saudita",
+    "club": "Al Hilal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::ali majrashi": {
+    "player": "Ali Majrashi",
+    "team": "Arabia Saudita",
+    "club": "Al Ahli",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::hassan altambakti": {
+    "player": "Hassan Altambakti",
+    "team": "Arabia Saudita",
+    "club": "Al Hilal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::hassan kadish": {
+    "player": "Hassan Kadish",
+    "team": "Arabia Saudita",
+    "club": "Al Ittihad",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::jehad thikri": {
+    "player": "Jehad Thikri",
+    "team": "Arabia Saudita",
+    "club": "Al Qadsiah",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::mohammed abualshamat": {
+    "player": "Mohammed Abualshamat",
+    "team": "Arabia Saudita",
+    "club": "Al Qadsiah",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::moteb alharbi": {
+    "player": "Moteb Alharbi",
+    "team": "Arabia Saudita",
+    "club": "Al Hilal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::nawaf buwashl": {
+    "player": "Nawaf Buwashl",
+    "team": "Arabia Saudita",
+    "club": "Al Nassr",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::saud abdulhamid": {
+    "player": "Saud Abdulhamid",
+    "team": "Arabia Saudita",
+    "club": "Lens",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::ahmed alkassar": {
+    "player": "Ahmed Alkassar",
+    "team": "Arabia Saudita",
+    "club": "Al Qadsiah",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::mohammed alowais": {
+    "player": "Mohammed Alowais",
+    "team": "Arabia Saudita",
+    "club": "Al Ula",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "arabia saudita::nawaf alaqidi": {
+    "player": "Nawaf Alaqidi",
+    "team": "Arabia Saudita",
+    "club": "Al Nassr",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::dailon livramento": {
+    "player": "Dailon Livramento",
+    "team": "Capo Verde",
+    "club": "Casa Pia",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::garry rodrigues": {
+    "player": "Garry Rodrigues",
+    "team": "Capo Verde",
+    "club": "Apollon Limassol",
+    "age": 36,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::gilson benchimol": {
+    "player": "Gilson Benchimol",
+    "team": "Capo Verde",
+    "club": "Akron Togliatti",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::hélio varela": {
+    "player": "Hélio Varela",
+    "team": "Capo Verde",
+    "club": "Maccabi Tel Aviv",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::jovane cabral": {
+    "player": "Jovane Cabral",
+    "team": "Capo Verde",
+    "club": "Estrela Amadora",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::nuno da costa": {
+    "player": "Nuno da Costa",
+    "team": "Capo Verde",
+    "club": "Basaksehir FK",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::ryan mendes": {
+    "player": "Ryan Mendes",
+    "team": "Capo Verde",
+    "club": "Igdir FK",
+    "age": 36,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::willy semedo": {
+    "player": "Willy Semedo",
+    "team": "Capo Verde",
+    "club": "Omonia Nicosia",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::deroy duarte": {
+    "player": "Deroy Duarte",
+    "team": "Capo Verde",
+    "club": "Ludogorets",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::jamiro monteiro": {
+    "player": "Jamiro Monteiro",
+    "team": "Capo Verde",
+    "club": "Zwolle",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::kevin pina": {
+    "player": "Kevin Pina",
+    "team": "Capo Verde",
+    "club": "Krasnodar",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::laros duarte": {
+    "player": "Laros Duarte",
+    "team": "Capo Verde",
+    "club": "Puskas AFC",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::telmo arcanjo": {
+    "player": "Telmo Arcanjo",
+    "team": "Capo Verde",
+    "club": "Vitoria Guimarães",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::yannick semedo": {
+    "player": "Yannick Semedo",
+    "team": "Capo Verde",
+    "club": "Farense",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::edilson borges": {
+    "player": "Edilson Borges",
+    "team": "Capo Verde",
+    "club": "Al-Bataeh CSC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::ianique tavares": {
+    "player": "Ianique Tavares",
+    "team": "Capo Verde",
+    "club": "Torreense",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::joão paulo fernandes": {
+    "player": "João Paulo Fernandes",
+    "team": "Capo Verde",
+    "club": "FCSB",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::kelvin pires": {
+    "player": "Kelvin Pires",
+    "team": "Capo Verde",
+    "club": "SJK Seinäjoki",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::logan costa": {
+    "player": "Logan Costa",
+    "team": "Capo Verde",
+    "club": "Villarreal",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::roberto lopes": {
+    "player": "Roberto Lopes",
+    "team": "Capo Verde",
+    "club": "Shamrock Rovers",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::sidny lopes cabral": {
+    "player": "Sidny Lopes Cabral",
+    "team": "Capo Verde",
+    "club": "Benfica",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::steven moreira": {
+    "player": "Steven Moreira",
+    "team": "Capo Verde",
+    "club": "Columbus Crew",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::wagner pina": {
+    "player": "Wagner Pina",
+    "team": "Capo Verde",
+    "club": "Trabzonspor",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::carlos santos": {
+    "player": "Carlos Santos",
+    "team": "Capo Verde",
+    "club": "San Diego",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::josimar dias": {
+    "player": "Josimar Dias",
+    "team": "Capo Verde",
+    "club": "Chaves",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "capo verde::márcio da rosa": {
+    "player": "Márcio da Rosa",
+    "team": "Capo Verde",
+    "club": "Montana",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::borja iglesias": {
+    "player": "Borja Iglesias",
+    "team": "Spagna",
+    "club": "Celta",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::ferran torres": {
+    "player": "Ferran Torres",
+    "team": "Spagna",
+    "club": "FC Barcelona",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::lamine yamal": {
+    "player": "Lamine Yamal",
+    "team": "Spagna",
+    "club": "FC Barcelona",
+    "age": 19,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::mikel oyarzabal": {
+    "player": "Mikel Oyarzabal",
+    "team": "Spagna",
+    "club": "Real Sociedad",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::nico williams": {
+    "player": "Nico Williams",
+    "team": "Spagna",
+    "club": "Athletic Club",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::victor muñoz": {
+    "player": "Victor Muñoz",
+    "team": "Spagna",
+    "club": "Osasuna",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::yeremi pino": {
+    "player": "Yeremi Pino",
+    "team": "Spagna",
+    "club": "Crystal Palace",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::alex baena": {
+    "player": "Alex Baena",
+    "team": "Spagna",
+    "club": "Atlético de Madrid",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::dani olmo": {
+    "player": "Dani Olmo",
+    "team": "Spagna",
+    "club": "FC Barcelona",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::fabián ruiz": {
+    "player": "Fabián Ruiz",
+    "team": "Spagna",
+    "club": "PSG",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::gavi": {
+    "player": "Gavi",
+    "team": "Spagna",
+    "club": "FC Barcelona",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::martín zubimendi": {
+    "player": "Martín Zubimendi",
+    "team": "Spagna",
+    "club": "Arsenal",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::mikel merino": {
+    "player": "Mikel Merino",
+    "team": "Spagna",
+    "club": "Arsenal",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::pedri": {
+    "player": "Pedri",
+    "team": "Spagna",
+    "club": "FC Barcelona",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::rodri": {
+    "player": "Rodri",
+    "team": "Spagna",
+    "club": "Manchester City",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::alex grimaldo": {
+    "player": "Alex Grimaldo",
+    "team": "Spagna",
+    "club": "Bayer Leverkusen",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::aymeric laporte": {
+    "player": "Aymeric Laporte",
+    "team": "Spagna",
+    "club": "Athletic Club",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::eric garcía": {
+    "player": "Eric García",
+    "team": "Spagna",
+    "club": "FC Barcelona",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::marc cucurella": {
+    "player": "Marc Cucurella",
+    "team": "Spagna",
+    "club": "Chelsea",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::marc pubill": {
+    "player": "Marc Pubill",
+    "team": "Spagna",
+    "club": "Atlético de Madrid",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::marcos llorente": {
+    "player": "Marcos Llorente",
+    "team": "Spagna",
+    "club": "Atlético de Madrid",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::pau cubarsí": {
+    "player": "Pau Cubarsí",
+    "team": "Spagna",
+    "club": "FC Barcelona",
+    "age": 19,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::pedro porro": {
+    "player": "Pedro Porro",
+    "team": "Spagna",
+    "club": "Tottenham",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::david raya": {
+    "player": "David Raya",
+    "team": "Spagna",
+    "club": "Arsenal",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::joan garcía": {
+    "player": "Joan García",
+    "team": "Spagna",
+    "club": "FC Barcelona",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "spagna::unai simón": {
+    "player": "Unai Simón",
+    "team": "Spagna",
+    "club": "Athletic Club",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::darwin núñez": {
+    "player": "Darwin Núñez",
+    "team": "Uruguay",
+    "club": "Al-Hilal",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::federico viñas": {
+    "player": "Federico Viñas",
+    "team": "Uruguay",
+    "club": "Real Oviedo",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::rodrigo aguirre": {
+    "player": "Rodrigo Aguirre",
+    "team": "Uruguay",
+    "club": "Club América",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::agustín canobbio": {
+    "player": "Agustín Canobbio",
+    "team": "Uruguay",
+    "club": "Fluminense",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::brian rodríguez": {
+    "player": "Brian Rodríguez",
+    "team": "Uruguay",
+    "club": "Club América",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::emiliano martínez": {
+    "player": "Emiliano Martínez",
+    "team": "Uruguay",
+    "club": "Palmeiras",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::facundo pellistri": {
+    "player": "Facundo Pellistri",
+    "team": "Uruguay",
+    "club": "Panathinaikos",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::federico valverde": {
+    "player": "Federico Valverde",
+    "team": "Uruguay",
+    "club": "Real Madrid",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::giorgian de arrascaeta": {
+    "player": "Giorgian De Arrascaeta",
+    "team": "Uruguay",
+    "club": "Flamengo",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::juan manuel sanabria": {
+    "player": "Juan Manuel Sanabria",
+    "team": "Uruguay",
+    "club": "Atlético de San Luis",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::manuel ugarte": {
+    "player": "Manuel Ugarte",
+    "team": "Uruguay",
+    "club": "Manchester United",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::maximiliano araújo": {
+    "player": "Maximiliano Araújo",
+    "team": "Uruguay",
+    "club": "Sporting CP",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::nicolás de la cruz": {
+    "player": "Nicolás de la Cruz",
+    "team": "Uruguay",
+    "club": "Flamengo",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::rodrigo bentancur": {
+    "player": "Rodrigo Bentancur",
+    "team": "Uruguay",
+    "club": "Tottenham Hotspur",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::rodrigo zalazar": {
+    "player": "Rodrigo Zalazar",
+    "team": "Uruguay",
+    "club": "SC Braga",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::guillermo varela": {
+    "player": "Guillermo Varela",
+    "team": "Uruguay",
+    "club": "Flamengo",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::joaquín piquerez": {
+    "player": "Joaquín Piquerez",
+    "team": "Uruguay",
+    "club": "Palmeiras",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::josé maría giménez": {
+    "player": "José María Giménez",
+    "team": "Uruguay",
+    "club": "Atlético de Madrid",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::mathías olivera": {
+    "player": "Mathías Olivera",
+    "team": "Uruguay",
+    "club": "Napoli",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::matías viña": {
+    "player": "Matías Viña",
+    "team": "Uruguay",
+    "club": "Flamengo",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::ronald araújo": {
+    "player": "Ronald Araújo",
+    "team": "Uruguay",
+    "club": "FC Barcelona",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::santiago bueno": {
+    "player": "Santiago Bueno",
+    "team": "Uruguay",
+    "club": "Wolverhampton Wanderers",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::sebastián cáceres": {
+    "player": "Sebastián Cáceres",
+    "team": "Uruguay",
+    "club": "Club América",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::fernando muslera": {
+    "player": "Fernando Muslera",
+    "team": "Uruguay",
+    "club": "Estudiantes de La Plata",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::santiago mele": {
+    "player": "Santiago Mele",
+    "team": "Uruguay",
+    "club": "Monterrey",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uruguay::sergio rochet": {
+    "player": "Sergio Rochet",
+    "team": "Uruguay",
+    "club": "Internacional",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::bradley barcola": {
+    "player": "Bradley Barcola",
+    "team": "Francia",
+    "club": "PSG",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::désiré doué": {
+    "player": "Désiré Doué",
+    "team": "Francia",
+    "club": "PSG",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::jean-philippe mateta": {
+    "player": "Jean-Philippe Mateta",
+    "team": "Francia",
+    "club": "Crystal Palace",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::kylian mbappé": {
+    "player": "Kylian Mbappé",
+    "team": "Francia",
+    "club": "Real Madrid",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::maghnes akliouche": {
+    "player": "Maghnes Akliouche",
+    "team": "Francia",
+    "club": "Mónaco",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::marcus thuram": {
+    "player": "Marcus Thuram",
+    "team": "Francia",
+    "club": "Inter",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::michael olise": {
+    "player": "Michael Olise",
+    "team": "Francia",
+    "club": "FC Bayern",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::ousmane dembélé": {
+    "player": "Ousmane Dembélé",
+    "team": "Francia",
+    "club": "PSG",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::rayan cherki": {
+    "player": "Rayan Cherki",
+    "team": "Francia",
+    "club": "Manchester City",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::adrien rabiot": {
+    "player": "Adrien Rabiot",
+    "team": "Francia",
+    "club": "AC Milan",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::aurélien tchouaméni": {
+    "player": "Aurélien Tchouaméni",
+    "team": "Francia",
+    "club": "Real Madrid",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::manu koné": {
+    "player": "Manu Koné",
+    "team": "Francia",
+    "club": "AS Roma",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::n’golo kanté": {
+    "player": "N’Golo Kanté",
+    "team": "Francia",
+    "club": "Fenerbache",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::warren zaïre-emery": {
+    "player": "Warren Zaïre-Emery",
+    "team": "Francia",
+    "club": "PSG",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::dayot upamecano": {
+    "player": "Dayot Upamecano",
+    "team": "Francia",
+    "club": "FC Bayern",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::ibrahima konaté": {
+    "player": "Ibrahima Konaté",
+    "team": "Francia",
+    "club": "Liverpool",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::jules kounde": {
+    "player": "Jules Kounde",
+    "team": "Francia",
+    "club": "FC Barcelona",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::lucas digne": {
+    "player": "Lucas Digne",
+    "team": "Francia",
+    "club": "Aston Villa",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::lucas hernández": {
+    "player": "Lucas Hernández",
+    "team": "Francia",
+    "club": "PSG",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::malo gusto": {
+    "player": "Malo Gusto",
+    "team": "Francia",
+    "club": "Chelsea",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::maxence lacroix": {
+    "player": "Maxence Lacroix",
+    "team": "Francia",
+    "club": "Crystal Palace",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::theo hernández": {
+    "player": "Theo Hernández",
+    "team": "Francia",
+    "club": "Al Hilal",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::william saliba": {
+    "player": "William Saliba",
+    "team": "Francia",
+    "club": "Arsenal",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::brice samba": {
+    "player": "Brice Samba",
+    "team": "Francia",
+    "club": "Rennes",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::mike maignan": {
+    "player": "Mike Maignan",
+    "team": "Francia",
+    "club": "AC Milan",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "francia::robin risser": {
+    "player": "Robin Risser",
+    "team": "Francia",
+    "club": "Lens",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::ahmed qasem": {
+    "player": "Ahmed Qasem",
+    "team": "Iraq",
+    "club": "Nashville SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::ali al hamadi": {
+    "player": "Ali Al Hamadi",
+    "team": "Iraq",
+    "club": "Luton Town",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::ali jasim": {
+    "player": "Ali Jasim",
+    "team": "Iraq",
+    "club": "Al-Najma",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::ali yousif": {
+    "player": "Ali Yousif",
+    "team": "Iraq",
+    "club": "Al-Talaba",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::aymen hussein": {
+    "player": "Aymen Hussein",
+    "team": "Iraq",
+    "club": "Al-Karma",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::marko farji": {
+    "player": "Marko Farji",
+    "team": "Iraq",
+    "club": "Venezia",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::mohanad ali": {
+    "player": "Mohanad Ali",
+    "team": "Iraq",
+    "club": "Dibba SCC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::aimar sher": {
+    "player": "Aimar Sher",
+    "team": "Iraq",
+    "club": "Sarpsborg 08 FF",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::amir al ammari": {
+    "player": "Amir Al Ammari",
+    "team": "Iraq",
+    "club": "Cracovia",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::ibrahim bayesh": {
+    "player": "Ibrahim Bayesh",
+    "team": "Iraq",
+    "club": "Al-Dhafra",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::kevin yakob": {
+    "player": "Kevin Yakob",
+    "team": "Iraq",
+    "club": "Aarhus GF",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::youssef amyn": {
+    "player": "Youssef Amyn",
+    "team": "Iraq",
+    "club": "AEK Larnaca",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::zaid ismail": {
+    "player": "Zaid Ismail",
+    "team": "Iraq",
+    "club": "Al-Talaba",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::zidane iqbal": {
+    "player": "Zidane Iqbal",
+    "team": "Iraq",
+    "club": "Utrecht",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::ahmed yahya": {
+    "player": "Ahmed Yahya",
+    "team": "Iraq",
+    "club": "Al-Shorta",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::akam hashem": {
+    "player": "Akam Hashem",
+    "team": "Iraq",
+    "club": "Al-Zawraa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::frans putros": {
+    "player": "Frans Putros",
+    "team": "Iraq",
+    "club": "PERSIB Bandung",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::hussein ali": {
+    "player": "Hussein Ali",
+    "team": "Iraq",
+    "club": "Pogon Szczecin",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::manaf younis": {
+    "player": "Manaf Younis",
+    "team": "Iraq",
+    "club": "Al-Shorta",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::merchas doski": {
+    "player": "Merchas Doski",
+    "team": "Iraq",
+    "club": "Viktoria Plzen",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::mustafa saadoon": {
+    "player": "Mustafa Saadoon",
+    "team": "Iraq",
+    "club": "Al-Shorta",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::rebin sulaka": {
+    "player": "Rebin Sulaka",
+    "team": "Iraq",
+    "club": "Port FC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::zaid tahseen": {
+    "player": "Zaid Tahseen",
+    "team": "Iraq",
+    "club": "Pakhtakor Tashkent",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::ahmed basil": {
+    "player": "Ahmed Basil",
+    "team": "Iraq",
+    "club": "Al-Shorta",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::fahad talib": {
+    "player": "Fahad Talib",
+    "team": "Iraq",
+    "club": "Al-Talaba",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "iraq::jalal hassan": {
+    "player": "Jalal Hassan",
+    "team": "Iraq",
+    "club": "Al-Zawraa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::alexander sorloth": {
+    "player": "Alexander Sorloth",
+    "team": "Norvegia",
+    "club": "Atlético de Madrid",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::erling haaland": {
+    "player": "Erling Haaland",
+    "team": "Norvegia",
+    "club": "Manchester City",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::jorgen strand larsen": {
+    "player": "Jorgen Strand Larsen",
+    "team": "Norvegia",
+    "club": "Crystal Palace",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::andreas schjelderup": {
+    "player": "Andreas Schjelderup",
+    "team": "Norvegia",
+    "club": "Benfica",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::antonio nusa": {
+    "player": "Antonio Nusa",
+    "team": "Norvegia",
+    "club": "RB Leipzig",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::fredrik aursnes": {
+    "player": "Fredrik Aursnes",
+    "team": "Norvegia",
+    "club": "Benfica",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::jens petter hauge": {
+    "player": "Jens Petter Hauge",
+    "team": "Norvegia",
+    "club": "Bodo-Glimt",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::kristian thorstvedt": {
+    "player": "Kristian Thorstvedt",
+    "team": "Norvegia",
+    "club": "Sassuolo",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::martin odegaard": {
+    "player": "Martin Odegaard",
+    "team": "Norvegia",
+    "club": "Arsenal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::morter thorsby": {
+    "player": "Morter Thorsby",
+    "team": "Norvegia",
+    "club": "Cremonese",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::oscar bob": {
+    "player": "Oscar Bob",
+    "team": "Norvegia",
+    "club": "Fulham",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::patrick berg": {
+    "player": "Patrick Berg",
+    "team": "Norvegia",
+    "club": "Bodo-Glimt",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::sander berge": {
+    "player": "Sander Berge",
+    "team": "Norvegia",
+    "club": "Fulham",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::thelonious aasgaard": {
+    "player": "Thelonious Aasgaard",
+    "team": "Norvegia",
+    "club": "Rangers",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::david moller wolfe": {
+    "player": "David Moller Wolfe",
+    "team": "Norvegia",
+    "club": "Wolverhampton",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::fredrik bjorkan": {
+    "player": "Fredrik Bjorkan",
+    "team": "Norvegia",
+    "club": "Bodo-Glimt",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::henrik falchener": {
+    "player": "Henrik Falchener",
+    "team": "Norvegia",
+    "club": "Viking FK",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::julian ryerson": {
+    "player": "Julian Ryerson",
+    "team": "Norvegia",
+    "club": "Borussia Dortmund",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::kristoffer ajer": {
+    "player": "Kristoffer Ajer",
+    "team": "Norvegia",
+    "club": "Brentford",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::leo ostigard": {
+    "player": "Leo Ostigard",
+    "team": "Norvegia",
+    "club": "Génova",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::marcus pedersen": {
+    "player": "Marcus Pedersen",
+    "team": "Norvegia",
+    "club": "Torino",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::sondre langas": {
+    "player": "Sondre Langas",
+    "team": "Norvegia",
+    "club": "Derby County",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::torbjorn heggem": {
+    "player": "Torbjorn Heggem",
+    "team": "Norvegia",
+    "club": "Bologna",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::egil selvik": {
+    "player": "Egil Selvik",
+    "team": "Norvegia",
+    "club": "Watford",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::orjan haskjold nyland": {
+    "player": "Orjan Haskjold Nyland",
+    "team": "Norvegia",
+    "club": "Sevilla",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "norvegia::sander tangvik": {
+    "player": "Sander Tangvik",
+    "team": "Norvegia",
+    "club": "Hamburgo",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::assane diao": {
+    "player": "Assane Diao",
+    "team": "Senegal",
+    "club": "Como",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::bamba dieng": {
+    "player": "Bamba Dieng",
+    "team": "Senegal",
+    "club": "Lorient",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::cherif ndiaye": {
+    "player": "Cherif Ndiaye",
+    "team": "Senegal",
+    "club": "Samsunspor",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::ibrahim mbaye": {
+    "player": "Ibrahim Mbaye",
+    "team": "Senegal",
+    "club": "PSG",
+    "age": 18,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::iliman ndiaye": {
+    "player": "Iliman Ndiaye",
+    "team": "Senegal",
+    "club": "Everton",
+    "age": 20,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::ismaïla sarr": {
+    "player": "Ismaïla Sarr",
+    "team": "Senegal",
+    "club": "Crystal Palace",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::nicolas jackson": {
+    "player": "Nicolas Jackson",
+    "team": "Senegal",
+    "club": "Bayern",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::sadio mané": {
+    "player": "Sadio Mané",
+    "team": "Senegal",
+    "club": "Al Nassr",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::bara sapoko ndiaye": {
+    "player": "Bara Sapoko Ndiaye",
+    "team": "Senegal",
+    "club": "Bayern",
+    "age": 19,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::habib diarra": {
+    "player": "Habib Diarra",
+    "team": "Senegal",
+    "club": "Sunderland",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::idrissa gana gueye": {
+    "player": "Idrissa Gana Gueye",
+    "team": "Senegal",
+    "club": "Everton",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::lamine camara": {
+    "player": "Lamine Camara",
+    "team": "Senegal",
+    "club": "Mónaco",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::pape gueye": {
+    "player": "Pape Gueye",
+    "team": "Senegal",
+    "club": "Villarreal",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::pape matar sarr": {
+    "player": "Pape Matar Sarr",
+    "team": "Senegal",
+    "club": "Tottenham",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::pathé ciss": {
+    "player": "Pathé Ciss",
+    "team": "Senegal",
+    "club": "Rayo Vallecano",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::abdoulaye seck": {
+    "player": "Abdoulaye Seck",
+    "team": "Senegal",
+    "club": "Maccabi Haifa",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::antoine mendy": {
+    "player": "Antoine Mendy",
+    "team": "Senegal",
+    "club": "Niza",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::el hadji malick diouf": {
+    "player": "El Hadji Malick Diouf",
+    "team": "Senegal",
+    "club": "West Ham",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::ilay camara": {
+    "player": "Ilay Camara",
+    "team": "Senegal",
+    "club": "Anderlecht",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::ismaïl jakobs": {
+    "player": "Ismaïl Jakobs",
+    "team": "Senegal",
+    "club": "Galatasaray",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::kalidou koulibaly": {
+    "player": "Kalidou Koulibaly",
+    "team": "Senegal",
+    "club": "Al Ahli",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::krépin diatta": {
+    "player": "Krépin Diatta",
+    "team": "Senegal",
+    "club": "Mónaco",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::mamadou sarr": {
+    "player": "Mamadou Sarr",
+    "team": "Senegal",
+    "club": "Estrasburgo",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::moussa niakhaté": {
+    "player": "Moussa Niakhaté",
+    "team": "Senegal",
+    "club": "O. Lyon",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::moustapha mbow": {
+    "player": "Moustapha Mbow",
+    "team": "Senegal",
+    "club": "Paris",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::edouard mendy": {
+    "player": "Edouard Mendy",
+    "team": "Senegal",
+    "club": "Al Ahli",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::mory diaw": {
+    "player": "Mory Diaw",
+    "team": "Senegal",
+    "club": "Le Havre",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "senegal::yehvann diouf": {
+    "player": "Yehvann Diouf",
+    "team": "Senegal",
+    "club": "Niza",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::adil boulbina": {
+    "player": "Adil Boulbina",
+    "team": "Algeria",
+    "club": "Paradou AC",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::amine gouiri": {
+    "player": "Amine Gouiri",
+    "team": "Algeria",
+    "club": "Olympique de Marseille",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::anis hadj moussa": {
+    "player": "Anis Hadj Moussa",
+    "team": "Algeria",
+    "club": "Feyenoord",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::farès ghedjemis": {
+    "player": "Farès Ghedjemis",
+    "team": "Algeria",
+    "club": "FC Vizela",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::mohamed amine amoura": {
+    "player": "Mohamed Amine Amoura",
+    "team": "Algeria",
+    "club": "VfL Wolfsburg",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::nadhir benbouali": {
+    "player": "Nadhir Benbouali",
+    "team": "Algeria",
+    "club": "Charleroi SC",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::riyad mahrez": {
+    "player": "Riyad Mahrez",
+    "team": "Algeria",
+    "club": "Al-Ahli",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::farès chaïbi": {
+    "player": "Farès Chaïbi",
+    "team": "Algeria",
+    "club": "Eintracht Frankfurt",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::hicham boudaoui": {
+    "player": "Hicham Boudaoui",
+    "team": "Algeria",
+    "club": "OGC Nice",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::houssem aouar": {
+    "player": "Houssem Aouar",
+    "team": "Algeria",
+    "club": "Al-Ittihad",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::ibrahim maza": {
+    "player": "Ibrahim Maza",
+    "team": "Algeria",
+    "club": "Bayer Leverkusen",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::nabil bentaleb": {
+    "player": "Nabil Bentaleb",
+    "team": "Algeria",
+    "club": "LOSC Lille",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::ramiz zerrouki": {
+    "player": "Ramiz Zerrouki",
+    "team": "Algeria",
+    "club": "Feyenoord",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::yacine titraoui": {
+    "player": "Yacine Titraoui",
+    "team": "Algeria",
+    "club": "Charleroi SC",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::achref abada": {
+    "player": "Achref Abada",
+    "team": "Algeria",
+    "club": "MC Alger",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::aïssa mandi": {
+    "player": "Aïssa Mandi",
+    "team": "Algeria",
+    "club": "LOSC Lille",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::jaouen hadjam": {
+    "player": "Jaouen Hadjam",
+    "team": "Algeria",
+    "club": "BSC Young Boys",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::mohamed amine tougaï": {
+    "player": "Mohamed Amine Tougaï",
+    "team": "Algeria",
+    "club": "Espérance de Tunis",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::rafik belghali": {
+    "player": "Rafik Belghali",
+    "team": "Algeria",
+    "club": "KV Mechelen",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::ramy bensebaïni": {
+    "player": "Ramy Bensebaïni",
+    "team": "Algeria",
+    "club": "Borussia Dortmund",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::rayan aït-nouri": {
+    "player": "Rayan Aït-Nouri",
+    "team": "Algeria",
+    "club": "Manchester City",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::samir chergui": {
+    "player": "Samir Chergui",
+    "team": "Algeria",
+    "club": "USM Alger",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::zineddine belaïd": {
+    "player": "Zineddine Belaïd",
+    "team": "Algeria",
+    "club": "Saint-Trond VV",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::abdelatif ramdane": {
+    "player": "Abdelatif Ramdane",
+    "team": "Algeria",
+    "club": "MC Alger",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::luca zidane": {
+    "player": "Luca Zidane",
+    "team": "Algeria",
+    "club": "Granada CF",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::melvin mastil": {
+    "player": "Melvin Mastil",
+    "team": "Algeria",
+    "club": "KVC Westerlo",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "algeria::oussama benbot": {
+    "player": "Oussama Benbot",
+    "team": "Algeria",
+    "club": "USM Alger",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::giuliano simeone": {
+    "player": "Giuliano Simeone",
+    "team": "Argentina",
+    "club": "Atlético Madrid",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::josé manuel lópez": {
+    "player": "José Manuel López",
+    "team": "Argentina",
+    "club": "Palmeiras",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::julián álvarez": {
+    "player": "Julián Álvarez",
+    "team": "Argentina",
+    "club": "Atlético Madrid",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::lautaro martínez": {
+    "player": "Lautaro Martínez",
+    "team": "Argentina",
+    "club": "Inter",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::lionel messi": {
+    "player": "Lionel Messi",
+    "team": "Argentina",
+    "club": "Inter Miami",
+    "age": 39,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::nico gonzález": {
+    "player": "Nico González",
+    "team": "Argentina",
+    "club": "Atlético Madrid",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::nico paz": {
+    "player": "Nico Paz",
+    "team": "Argentina",
+    "club": "Como",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::thiago almada": {
+    "player": "Thiago Almada",
+    "team": "Argentina",
+    "club": "Atlético Madrid",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::alexis mac allister": {
+    "player": "Alexis Mac Allister",
+    "team": "Argentina",
+    "club": "Liverpool",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::enzo fernández": {
+    "player": "Enzo Fernández",
+    "team": "Argentina",
+    "club": "Chelsea",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::exequiel palacios": {
+    "player": "Exequiel Palacios",
+    "team": "Argentina",
+    "club": "Bayer Leverkusen",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::giovani lo celso": {
+    "player": "Giovani Lo Celso",
+    "team": "Argentina",
+    "club": "Real Betis",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::leandro paredes": {
+    "player": "Leandro Paredes",
+    "team": "Argentina",
+    "club": "Boca",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::rodrigo de paul": {
+    "player": "Rodrigo de Paul",
+    "team": "Argentina",
+    "club": "Inter Miami",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::valentín barco": {
+    "player": "Valentín Barco",
+    "team": "Argentina",
+    "club": "Estrasburgo",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::cristian romero": {
+    "player": "Cristian Romero",
+    "team": "Argentina",
+    "club": "Tottenham",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::facundo medina": {
+    "player": "Facundo Medina",
+    "team": "Argentina",
+    "club": "Olympique Marsella",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::gonzalo montiel": {
+    "player": "Gonzalo Montiel",
+    "team": "Argentina",
+    "club": "River",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::leonardo balerdi": {
+    "player": "Leonardo Balerdi",
+    "team": "Argentina",
+    "club": "Olympique Marsella",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::lisandro martínez": {
+    "player": "Lisandro Martínez",
+    "team": "Argentina",
+    "club": "Manchester United",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::nahuel molina": {
+    "player": "Nahuel Molina",
+    "team": "Argentina",
+    "club": "Atlético Madrid",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::nicolás tagliafico": {
+    "player": "Nicolás Tagliafico",
+    "team": "Argentina",
+    "club": "Ajax",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::otamendi": {
+    "player": "Otamendi",
+    "team": "Argentina",
+    "club": "Benfica",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::dibu martínez": {
+    "player": "Dibu Martínez",
+    "team": "Argentina",
+    "club": "Aston Villa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::gerónimo rulli": {
+    "player": "Gerónimo Rulli",
+    "team": "Argentina",
+    "club": "Olympique Marsella",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "argentina::juan musso": {
+    "player": "Juan Musso",
+    "team": "Argentina",
+    "club": "Atlético Madrid",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::marko arnautovic": {
+    "player": "Marko Arnautovic",
+    "team": "Austria",
+    "club": "Estrella Roja",
+    "age": 37,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::michael gregoritsch": {
+    "player": "Michael Gregoritsch",
+    "team": "Austria",
+    "club": "Augsburgo",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::sasa kalajdzic": {
+    "player": "Sasa Kalajdzic",
+    "team": "Austria",
+    "club": "LASK Linz",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::alessandro schöph": {
+    "player": "Alessandro Schöph",
+    "team": "Austria",
+    "club": "RZ Pellets",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::carney chukwuemeka": {
+    "player": "Carney Chukwuemeka",
+    "team": "Austria",
+    "club": "Borussia Dortmund",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::christoph baumgartner": {
+    "player": "Christoph Baumgartner",
+    "team": "Austria",
+    "club": "Red Bull Leipzig",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::florian grillitsch": {
+    "player": "Florian Grillitsch",
+    "team": "Austria",
+    "club": "Sporting Braga",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::konrad laimer": {
+    "player": "Konrad Laimer",
+    "team": "Austria",
+    "club": "Bayern de Múnich",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::marcel sabitzer": {
+    "player": "Marcel Sabitzer",
+    "team": "Austria",
+    "club": "Borussia Dortmund",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::nicolas seiwald": {
+    "player": "Nicolas Seiwald",
+    "team": "Austria",
+    "club": "Red Bull Leipzig",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::patrick wimmer": {
+    "player": "Patrick Wimmer",
+    "team": "Austria",
+    "club": "Wolfsburgo",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::paul wanner": {
+    "player": "Paul Wanner",
+    "team": "Austria",
+    "club": "PSV",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::romano schimid": {
+    "player": "Romano Schimid",
+    "team": "Austria",
+    "club": "Werder Bremen",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::xavier schlager": {
+    "player": "Xavier Schlager",
+    "team": "Austria",
+    "club": "Red Bull Leipzig",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::alexander prass": {
+    "player": "Alexander Prass",
+    "team": "Austria",
+    "club": "Hoffenheim",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::david affengruber": {
+    "player": "David Affengruber",
+    "team": "Austria",
+    "club": "Elche",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::david alaba": {
+    "player": "David Alaba",
+    "team": "Austria",
+    "club": "Real Madrid",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::kevin danso": {
+    "player": "Kevin Danso",
+    "team": "Austria",
+    "club": "Tottenham",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::marco friedl": {
+    "player": "Marco Friedl",
+    "team": "Austria",
+    "club": "Werder Bremen",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::michael svoboda": {
+    "player": "Michael Svoboda",
+    "team": "Austria",
+    "club": "Venezia",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::philipp lienhart": {
+    "player": "Philipp Lienhart",
+    "team": "Austria",
+    "club": "Friburgo",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::phillipp mwene": {
+    "player": "Phillipp Mwene",
+    "team": "Austria",
+    "club": "Mainz 05",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::stefan posch": {
+    "player": "Stefan Posch",
+    "team": "Austria",
+    "club": "Mainz 05",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::alexander schlager": {
+    "player": "Alexander Schlager",
+    "team": "Austria",
+    "club": "Red Bull Salzburgo",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::florian wiegele": {
+    "player": "Florian Wiegele",
+    "team": "Austria",
+    "club": "Viktoria Pilsen",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "austria::patrick pentz": {
+    "player": "Patrick Pentz",
+    "team": "Austria",
+    "club": "Brondy IF",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::abdallah al-shuaybat": {
+    "player": "Abdallah Al-Shuaybat",
+    "team": "Giordania",
+    "club": "Al-Ahli",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::ali al-azaizeh": {
+    "player": "Ali Al-Azaizeh",
+    "team": "Giordania",
+    "club": "Kazma",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::ali olwan": {
+    "player": "Ali Olwan",
+    "team": "Giordania",
+    "club": "Al-Karma",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::ibrahim sabra": {
+    "player": "Ibrahim Sabra",
+    "team": "Giordania",
+    "club": "Goztepe",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::mahmoud al-mardi": {
+    "player": "Mahmoud Al-Mardi",
+    "team": "Giordania",
+    "club": "Dibba Al-Fujairah",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::mohammad abu zrayq": {
+    "player": "Mohammad Abu Zrayq",
+    "team": "Giordania",
+    "club": "Al-Ramtha",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::musa al-taamari": {
+    "player": "Musa Al-Taamari",
+    "team": "Giordania",
+    "club": "Rennes",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::odeh al-fakhouri": {
+    "player": "Odeh Al-Fakhouri",
+    "team": "Giordania",
+    "club": "Al-Hussein",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::reziq bani hani": {
+    "player": "Reziq Bani Hani",
+    "team": "Giordania",
+    "club": "Al-Zawraa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::yazan al-naimat": {
+    "player": "Yazan Al-Naimat",
+    "team": "Giordania",
+    "club": "Al-Arabi",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::ahmad al-salman": {
+    "player": "Ahmad Al-Salman",
+    "team": "Giordania",
+    "club": "Al-Ramtha",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::amer jamous": {
+    "player": "Amer Jamous",
+    "team": "Giordania",
+    "club": "Al-Wehdat",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::ibrahim sadeh": {
+    "player": "Ibrahim Sadeh",
+    "team": "Giordania",
+    "club": "Al-Karma",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::nizar al-rashdan": {
+    "player": "Nizar Al-Rashdan",
+    "team": "Giordania",
+    "club": "Al-Zawraa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::noor al-rawabdeh": {
+    "player": "Noor Al-Rawabdeh",
+    "team": "Giordania",
+    "club": "Selangor",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::abdallah nasib": {
+    "player": "Abdallah Nasib",
+    "team": "Giordania",
+    "club": "Al-Zawraa",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::adham al-quraishi": {
+    "player": "Adham Al-Quraishi",
+    "team": "Giordania",
+    "club": "Al-Hussein",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::ali hajabi": {
+    "player": "Ali Hajabi",
+    "team": "Giordania",
+    "club": "Al-Hussein",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::hadi al-hourani": {
+    "player": "Hadi Al-Hourani",
+    "team": "Giordania",
+    "club": "Al-Faisaly",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::issam smeeri": {
+    "player": "Issam Smeeri",
+    "team": "Giordania",
+    "club": "Al-Salt",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::mohammad abu hasheesh": {
+    "player": "Mohammad Abu Hasheesh",
+    "team": "Giordania",
+    "club": "Al-Karma",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::mohammad abualnadi": {
+    "player": "Mohammad Abualnadi",
+    "team": "Giordania",
+    "club": "Selangor",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::mohannad abu taha": {
+    "player": "Mohannad Abu Taha",
+    "team": "Giordania",
+    "club": "Al-Quwa Al-Jawiya",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::saed al-rosan": {
+    "player": "Saed Al-Rosan",
+    "team": "Giordania",
+    "club": "Al-Hussein",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::salim obaid": {
+    "player": "Salim Obaid",
+    "team": "Giordania",
+    "club": "Al-Hussein",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::yazan abu arab": {
+    "player": "Yazan Abu Arab",
+    "team": "Giordania",
+    "club": "Seoul",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::yousef abu al-jazar": {
+    "player": "Yousef Abu Al-Jazar",
+    "team": "Giordania",
+    "club": "Kazma",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::malek shalabiya": {
+    "player": "Malek Shalabiya",
+    "team": "Giordania",
+    "club": "Al-Ramtha",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::nour bani attiah": {
+    "player": "Nour Bani Attiah",
+    "team": "Giordania",
+    "club": "Al-Faisaly",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "giordania::yazeed abulaila": {
+    "player": "Yazeed Abulaila",
+    "team": "Giordania",
+    "club": "Al-Hussein",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::carlos gómez": {
+    "player": "Carlos Gómez",
+    "team": "Colombia",
+    "club": "Vasco da Gama",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::jhon córdoba": {
+    "player": "Jhon Córdoba",
+    "team": "Colombia",
+    "club": "Krasnodar",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::juan camilo hernández": {
+    "player": "Juan Camilo Hernández",
+    "team": "Colombia",
+    "club": "Real Betis",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::luis diaz": {
+    "player": "Luis Diaz",
+    "team": "Colombia",
+    "club": "Bayern Múnich",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::luis suárez": {
+    "player": "Luis Suárez",
+    "team": "Colombia",
+    "club": "Sporting",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::gustavo puerta": {
+    "player": "Gustavo Puerta",
+    "team": "Colombia",
+    "club": "Racing de Santander",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::james rodríguez": {
+    "player": "James Rodríguez",
+    "team": "Colombia",
+    "club": "Minnesota United",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::jaminton campaz": {
+    "player": "Jaminton Campaz",
+    "team": "Colombia",
+    "club": "Rosario Central",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::jefferson lerma": {
+    "player": "Jefferson Lerma",
+    "team": "Colombia",
+    "club": "Crystal Palace",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::jhon arias": {
+    "player": "Jhon Arias",
+    "team": "Colombia",
+    "club": "Palmeiras",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::jorge carrascal": {
+    "player": "Jorge Carrascal",
+    "team": "Colombia",
+    "club": "Flamengo",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::juan fernando quintero": {
+    "player": "Juan Fernando Quintero",
+    "team": "Colombia",
+    "club": "River Plate",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::juan portilla": {
+    "player": "Juan Portilla",
+    "team": "Colombia",
+    "club": "Paranaense",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::kevin castaño": {
+    "player": "Kevin Castaño",
+    "team": "Colombia",
+    "club": "River Plate",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::richard ríos": {
+    "player": "Richard Ríos",
+    "team": "Colombia",
+    "club": "Benfica",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::daniel muñoz": {
+    "player": "Daniel Muñoz",
+    "team": "Colombia",
+    "club": "Crystal Palace",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::dávinson sánchez": {
+    "player": "Dávinson Sánchez",
+    "team": "Colombia",
+    "club": "Galatasaray",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::déiver machado": {
+    "player": "Déiver Machado",
+    "team": "Colombia",
+    "club": "FC Nantes",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::jhon lucumí": {
+    "player": "Jhon Lucumí",
+    "team": "Colombia",
+    "club": "Bologna",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::johan mojica": {
+    "player": "Johan Mojica",
+    "team": "Colombia",
+    "club": "Mallorca",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::santiago arias": {
+    "player": "Santiago Arias",
+    "team": "Colombia",
+    "club": "Independiente",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::willer ditta": {
+    "player": "Willer Ditta",
+    "team": "Colombia",
+    "club": "Cruz Azul",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::yerry mina": {
+    "player": "Yerry Mina",
+    "team": "Colombia",
+    "club": "Cagliari",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::álvaro montero": {
+    "player": "Álvaro Montero",
+    "team": "Colombia",
+    "club": "Vélez Sarsfield",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::camilo vargas": {
+    "player": "Camilo Vargas",
+    "team": "Colombia",
+    "club": "Atlas",
+    "age": 37,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "colombia::david ospina": {
+    "player": "David Ospina",
+    "team": "Colombia",
+    "club": "Atlético Nacional",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::cristiano ronaldo": {
+    "player": "Cristiano Ronaldo",
+    "team": "Portogallo",
+    "club": "Al Nassr",
+    "age": 41,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::francisco conceição": {
+    "player": "Francisco Conceição",
+    "team": "Portogallo",
+    "club": "Juventus",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::francisco trincão": {
+    "player": "Francisco Trincão",
+    "team": "Portogallo",
+    "club": "Sporting CP",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::gonçalo guedes": {
+    "player": "Gonçalo Guedes",
+    "team": "Portogallo",
+    "club": "Real Sociedad",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::gonçalo ramos": {
+    "player": "Gonçalo Ramos",
+    "team": "Portogallo",
+    "club": "PSG",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::joão félix": {
+    "player": "João Félix",
+    "team": "Portogallo",
+    "club": "Al Nassr",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::pedro neto": {
+    "player": "Pedro Neto",
+    "team": "Portogallo",
+    "club": "Chelsea",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::rafael leão": {
+    "player": "Rafael Leão",
+    "team": "Portogallo",
+    "club": "Milan",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::bernardo silva": {
+    "player": "Bernardo Silva",
+    "team": "Portogallo",
+    "club": "Manchester City",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::bruno fernandes": {
+    "player": "Bruno Fernandes",
+    "team": "Portogallo",
+    "club": "Manchester United",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::joão neves": {
+    "player": "João Neves",
+    "team": "Portogallo",
+    "club": "PSG",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::rúben neves": {
+    "player": "Rúben Neves",
+    "team": "Portogallo",
+    "club": "Al Hilal",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::samu costa": {
+    "player": "Samu Costa",
+    "team": "Portogallo",
+    "club": "Mallorca",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::vitinha": {
+    "player": "Vitinha",
+    "team": "Portogallo",
+    "club": "PSG",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::diogo dalot": {
+    "player": "Diogo Dalot",
+    "team": "Portogallo",
+    "club": "Manchester United",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::gonçalo inácio": {
+    "player": "Gonçalo Inácio",
+    "team": "Portogallo",
+    "club": "Sporting CP",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::joão cancelo": {
+    "player": "João Cancelo",
+    "team": "Portogallo",
+    "club": "Barcelona",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::matheus nunes": {
+    "player": "Matheus Nunes",
+    "team": "Portogallo",
+    "club": "Manchester City",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::nélson semedo": {
+    "player": "Nélson Semedo",
+    "team": "Portogallo",
+    "club": "Fenerbahçe",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::nuno mendes": {
+    "player": "Nuno Mendes",
+    "team": "Portogallo",
+    "club": "PSG",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::renato veiga": {
+    "player": "Renato Veiga",
+    "team": "Portogallo",
+    "club": "Villarreal",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::rúben dias": {
+    "player": "Rúben Dias",
+    "team": "Portogallo",
+    "club": "Manchester City",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::tomás araújo": {
+    "player": "Tomás Araújo",
+    "team": "Portogallo",
+    "club": "Benfica",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::diogo costa": {
+    "player": "Diogo Costa",
+    "team": "Portogallo",
+    "club": "Oporto",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::josé sá": {
+    "player": "José Sá",
+    "team": "Portogallo",
+    "club": "Wolverhampton",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::ricardo velho": {
+    "player": "Ricardo Velho",
+    "team": "Portogallo",
+    "club": "Farense",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "portogallo::rui silva": {
+    "player": "Rui Silva",
+    "team": "Portogallo",
+    "club": "Sporting CP",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::brian cipenga": {
+    "player": "Brian Cipenga",
+    "team": "RD Congo",
+    "club": "Castellón",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::cédric bakambu": {
+    "player": "Cédric Bakambu",
+    "team": "RD Congo",
+    "club": "Betis",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::fiston mayele": {
+    "player": "Fiston Mayele",
+    "team": "RD Congo",
+    "club": "Pyramids",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::meschack elia": {
+    "player": "Meschack Elia",
+    "team": "RD Congo",
+    "club": "Alanyaspor",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::nathanael mbuku": {
+    "player": "Nathanael Mbuku",
+    "team": "RD Congo",
+    "club": "Montpellier",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::simon banza": {
+    "player": "Simon Banza",
+    "team": "RD Congo",
+    "club": "Al-Jazira",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::théo bongonda": {
+    "player": "Théo Bongonda",
+    "team": "RD Congo",
+    "club": "Spartak Moscú",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::yoane wissa": {
+    "player": "Yoane Wissa",
+    "team": "RD Congo",
+    "club": "Newcastle",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::charles pickel": {
+    "player": "Charles Pickel",
+    "team": "RD Congo",
+    "club": "Espanyol",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::edo kayembe": {
+    "player": "Edo Kayembe",
+    "team": "RD Congo",
+    "club": "Watford",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::gael kakuta": {
+    "player": "Gael Kakuta",
+    "team": "RD Congo",
+    "club": "Larissa",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::ngal’ayel mukau": {
+    "player": "Ngal’Ayel Mukau",
+    "team": "RD Congo",
+    "club": "LOSC Lille",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::noah sadiki": {
+    "player": "Noah Sadiki",
+    "team": "RD Congo",
+    "club": "Sunderland",
+    "age": 22,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::samuel moutoussamy": {
+    "player": "Samuel Moutoussamy",
+    "team": "RD Congo",
+    "club": "Atromitos",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::aaron wan-bissaka": {
+    "player": "Aaron Wan-Bissaka",
+    "team": "RD Congo",
+    "club": "West Ham",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::arthur masuku": {
+    "player": "Arthur Masuku",
+    "team": "RD Congo",
+    "club": "Lens",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::axel tuanzebe": {
+    "player": "Axel Tuanzebe",
+    "team": "RD Congo",
+    "club": "Burnley",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::chancel mbemba": {
+    "player": "Chancel Mbemba",
+    "team": "RD Congo",
+    "club": "LOSC Lille",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::dylan batubinsika": {
+    "player": "Dylan Batubinsika",
+    "team": "RD Congo",
+    "club": "Larissa",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::gedeon kalulu": {
+    "player": "Gedeon Kalulu",
+    "team": "RD Congo",
+    "club": "Aris",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::joris kayembe": {
+    "player": "Joris Kayembe",
+    "team": "RD Congo",
+    "club": "KRC Genk",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::rocky bushiri": {
+    "player": "Rocky Bushiri",
+    "team": "RD Congo",
+    "club": "Hibernian",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::steve kapuadi": {
+    "player": "Steve Kapuadi",
+    "team": "RD Congo",
+    "club": "Widzeu Lodz",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::lionel mpasi": {
+    "player": "Lionel Mpasi",
+    "team": "RD Congo",
+    "club": "Le Havre",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::mattieu epolo": {
+    "player": "Mattieu Epolo",
+    "team": "RD Congo",
+    "club": "Standard Lieja",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "rd congo::timothy fayulu": {
+    "player": "Timothy Fayulu",
+    "team": "RD Congo",
+    "club": "FC Noah",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::abbosbek fayzullaev": {
+    "player": "Abbosbek Fayzullaev",
+    "team": "Uzbekistan",
+    "club": "Istanbul Basaksehir",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::azizbek amonov": {
+    "player": "Azizbek Amonov",
+    "team": "Uzbekistan",
+    "club": "Dinamo",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::eldor shomurodov": {
+    "player": "Eldor Shomurodov",
+    "team": "Uzbekistan",
+    "club": "Istanbul Basaksehir",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::igor sergeev": {
+    "player": "Igor Sergeev",
+    "team": "Uzbekistan",
+    "club": "Persepolis",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::jaloliddin masharipov": {
+    "player": "Jaloliddin Masharipov",
+    "team": "Uzbekistan",
+    "club": "Esteghlal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::oston urunov": {
+    "player": "Oston Urunov",
+    "team": "Uzbekistan",
+    "club": "Persepolis",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::sherzod temirov": {
+    "player": "Sherzod Temirov",
+    "team": "Uzbekistan",
+    "club": "Erbil",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::akmal mozgovoy": {
+    "player": "Akmal Mozgovoy",
+    "team": "Uzbekistan",
+    "club": "Pakhtakor",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::azizjon ganiev": {
+    "player": "Azizjon Ganiev",
+    "team": "Uzbekistan",
+    "club": "Al Bataeh",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::dostonbek hamdamov": {
+    "player": "Dostonbek Hamdamov",
+    "team": "Uzbekistan",
+    "club": "Pakhtakor",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::jamshid iskanderov": {
+    "player": "Jamshid Iskanderov",
+    "team": "Uzbekistan",
+    "club": "Neftchi",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::jasurbek jaloliddinov": {
+    "player": "Jasurbek Jaloliddinov",
+    "team": "Uzbekistan",
+    "club": "Sogdiana",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::odiljon hamrobekov": {
+    "player": "Odiljon Hamrobekov",
+    "team": "Uzbekistan",
+    "club": "Tractor",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::otabek shukurov": {
+    "player": "Otabek Shukurov",
+    "team": "Uzbekistan",
+    "club": "Baniyas",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::sherzod esanov": {
+    "player": "Sherzod Esanov",
+    "team": "Uzbekistan",
+    "club": "Bukhara",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::abdukodir khusanov": {
+    "player": "Abdukodir Khusanov",
+    "team": "Uzbekistan",
+    "club": "Manchester City",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::abdulla abdullaev": {
+    "player": "Abdulla Abdullaev",
+    "team": "Uzbekistan",
+    "club": "Dibba",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::avazbek ulmasaliev": {
+    "player": "Avazbek Ulmasaliev",
+    "team": "Uzbekistan",
+    "club": "AGMK",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::bekhruz karimov": {
+    "player": "Bekhruz Karimov",
+    "team": "Uzbekistan",
+    "club": "Surkhan",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::farrukh sayfiev": {
+    "player": "Farrukh Sayfiev",
+    "team": "Uzbekistan",
+    "club": "Neftchi",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::jakhongir urozov": {
+    "player": "Jakhongir Urozov",
+    "team": "Uzbekistan",
+    "club": "Dinamo",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::khojiakbar alijonov": {
+    "player": "Khojiakbar Alijonov",
+    "team": "Uzbekistan",
+    "club": "Pakhtakor",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::ruslanbek jiyanov": {
+    "player": "Ruslanbek Jiyanov",
+    "team": "Uzbekistan",
+    "club": "Navbahor",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::rustamjon ashurmatov": {
+    "player": "Rustamjon Ashurmatov",
+    "team": "Uzbekistan",
+    "club": "Istiklol",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::sherzod nasrullaev": {
+    "player": "Sherzod Nasrullaev",
+    "team": "Uzbekistan",
+    "club": "Pakhtakor",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::umarali rakhmonaliev": {
+    "player": "Umarali Rakhmonaliev",
+    "team": "Uzbekistan",
+    "club": "Sabah",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::umarbek eshmurodov": {
+    "player": "Umarbek Eshmurodov",
+    "team": "Uzbekistan",
+    "club": "Nasaf",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::abduvokhid nematov": {
+    "player": "Abduvokhid Nematov",
+    "team": "Uzbekistan",
+    "club": "Nasaf",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::botirali ergashev": {
+    "player": "Botirali Ergashev",
+    "team": "Uzbekistan",
+    "club": "Neftchi",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "uzbekistan::utkir yusupov": {
+    "player": "Utkir Yusupov",
+    "team": "Uzbekistan",
+    "club": "Navbahor",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::andrej kramaric": {
+    "player": "Andrej Kramaric",
+    "team": "Croazia",
+    "club": "Hoffenheim",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::ante budimir": {
+    "player": "Ante Budimir",
+    "team": "Croazia",
+    "club": "Osasuna",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::igor matanovic": {
+    "player": "Igor Matanovic",
+    "team": "Croazia",
+    "club": "Friburgo",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::ivan perisic": {
+    "player": "Ivan Perisic",
+    "team": "Croazia",
+    "club": "PSV",
+    "age": 37,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::marco pasalic": {
+    "player": "Marco Pasalic",
+    "team": "Croazia",
+    "club": "Orlando City",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::petar musa": {
+    "player": "Petar Musa",
+    "team": "Croazia",
+    "club": "Dallas",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::kristijan jakic": {
+    "player": "Kristijan Jakic",
+    "team": "Croazia",
+    "club": "Augsburg",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::luka modric": {
+    "player": "Luka Modric",
+    "team": "Croazia",
+    "club": "Milan",
+    "age": 41,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::luka sucic": {
+    "player": "Luka Sucic",
+    "team": "Croazia",
+    "club": "Real Sociedad",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::mario pasalic": {
+    "player": "Mario Pasalic",
+    "team": "Croazia",
+    "club": "Atalanta",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::martin baturina": {
+    "player": "Martin Baturina",
+    "team": "Croazia",
+    "club": "Como",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::mateo kovacic": {
+    "player": "Mateo Kovacic",
+    "team": "Croazia",
+    "club": "Man. City",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::nikola moro": {
+    "player": "Nikola Moro",
+    "team": "Croazia",
+    "club": "Bologna",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::nikola vlasic": {
+    "player": "Nikola Vlasic",
+    "team": "Croazia",
+    "club": "Torino",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::petar sucic": {
+    "player": "Petar Sucic",
+    "team": "Croazia",
+    "club": "Inter",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::toni fruk": {
+    "player": "Toni Fruk",
+    "team": "Croazia",
+    "club": "Rijeka",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::duje caleta-car": {
+    "player": "Duje Caleta-Car",
+    "team": "Croazia",
+    "club": "Real Sociedad",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::josip stanisic": {
+    "player": "Josip Stanisic",
+    "team": "Croazia",
+    "club": "Bayern de Múnich",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::josip sutalo": {
+    "player": "Josip Sutalo",
+    "team": "Croazia",
+    "club": "Ajax",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::josko gvardiol": {
+    "player": "Josko Gvardiol",
+    "team": "Croazia",
+    "club": "Man. City",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::luka vuskovic": {
+    "player": "Luka Vuskovic",
+    "team": "Croazia",
+    "club": "HSV",
+    "age": 19,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::marin pongracic": {
+    "player": "Marin Pongracic",
+    "team": "Croazia",
+    "club": "Fiorentina",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::martin erlic": {
+    "player": "Martin Erlic",
+    "team": "Croazia",
+    "club": "Midtjylland",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::dominic livakovic": {
+    "player": "Dominic Livakovic",
+    "team": "Croazia",
+    "club": "Dinamo",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::dominik kotarski": {
+    "player": "Dominik Kotarski",
+    "team": "Croazia",
+    "club": "Kabenhavn",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "croazia::ivor pandur": {
+    "player": "Ivor Pandur",
+    "team": "Croazia",
+    "club": "Hull City",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::antoine semenyo": {
+    "player": "Antoine Semenyo",
+    "team": "Ghana",
+    "club": "Manchester City",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::brandon thomas-asante": {
+    "player": "Brandon Thomas-Asante",
+    "team": "Ghana",
+    "club": "Coventry City",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::ernest nuamah": {
+    "player": "Ernest Nuamah",
+    "team": "Ghana",
+    "club": "Lyon",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::inaki williams": {
+    "player": "Inaki Williams",
+    "team": "Ghana",
+    "club": "Athletic Bilbao",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::jordan ayew": {
+    "player": "Jordan Ayew",
+    "team": "Ghana",
+    "club": "Leicester City",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::prince kwabena adu": {
+    "player": "Prince Kwabena Adu",
+    "team": "Ghana",
+    "club": "Viktoria Plzen",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::abdul fatawu issahaku": {
+    "player": "Abdul Fatawu Issahaku",
+    "team": "Ghana",
+    "club": "Leicester City",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::augustine boakye": {
+    "player": "Augustine Boakye",
+    "team": "Ghana",
+    "club": "AS St. Etienne",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::caleb yirenkyi": {
+    "player": "Caleb Yirenkyi",
+    "team": "Ghana",
+    "club": "FC Nordsjaelland",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::christopher bonsu baah": {
+    "player": "Christopher Bonsu Baah",
+    "team": "Ghana",
+    "club": "Al Qadsiah",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::elisha owusu": {
+    "player": "Elisha Owusu",
+    "team": "Ghana",
+    "club": "Auxerre",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::kamal deen sulemana": {
+    "player": "Kamal Deen Sulemana",
+    "team": "Ghana",
+    "club": "Atlanta",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::kwasi sibo": {
+    "player": "Kwasi Sibo",
+    "team": "Ghana",
+    "club": "Real Oviedo",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::thomas partey": {
+    "player": "Thomas Partey",
+    "team": "Ghana",
+    "club": "Villarreal",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::abdul mumin": {
+    "player": "Abdul Mumin",
+    "team": "Ghana",
+    "club": "Rayo Vallecano",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::alexander djiku": {
+    "player": "Alexander Djiku",
+    "team": "Ghana",
+    "club": "Spartak Moscow",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::alidu seidu": {
+    "player": "Alidu Seidu",
+    "team": "Ghana",
+    "club": "Rennes",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::baba abdul rahman": {
+    "player": "Baba Abdul Rahman",
+    "team": "Ghana",
+    "club": "PAOK",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::gideon mensah": {
+    "player": "Gideon Mensah",
+    "team": "Ghana",
+    "club": "Auxerre",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::jerome opoku": {
+    "player": "Jerome Opoku",
+    "team": "Ghana",
+    "club": "Istanbul Basaksehir",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::jonas adjetey": {
+    "player": "Jonas Adjetey",
+    "team": "Ghana",
+    "club": "Wolfsburg",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::kojo oppong peprah": {
+    "player": "Kojo Oppong Peprah",
+    "team": "Ghana",
+    "club": "Nice",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::marvin senaya": {
+    "player": "Marvin Senaya",
+    "team": "Ghana",
+    "club": "Auxerre",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::benjamin asare": {
+    "player": "Benjamin Asare",
+    "team": "Ghana",
+    "club": "Accra Hearts of Oak SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::joseph anang": {
+    "player": "Joseph Anang",
+    "team": "Ghana",
+    "club": "St. Patrick's Athletic",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::lawrence ati-zigi": {
+    "player": "Lawrence Ati-Zigi",
+    "team": "Ghana",
+    "club": "St. Gallen",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::paul reverson": {
+    "player": "Paul Reverson",
+    "team": "Ghana",
+    "club": "Ajax",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "ghana::solomon agbasi": {
+    "player": "Solomon Agbasi",
+    "team": "Ghana",
+    "club": "Accra Hearts of Oak SC",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::anthony gordon": {
+    "player": "Anthony Gordon",
+    "team": "Inghilterra",
+    "club": "Newcastle",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::bukayo saka": {
+    "player": "Bukayo Saka",
+    "team": "Inghilterra",
+    "club": "Arsenal",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::harry kane": {
+    "player": "Harry Kane",
+    "team": "Inghilterra",
+    "club": "Bayern Múnich",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::ivan toney": {
+    "player": "Ivan Toney",
+    "team": "Inghilterra",
+    "club": "Al-Ahli",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::marcus rashford": {
+    "player": "Marcus Rashford",
+    "team": "Inghilterra",
+    "club": "Barcelona",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::noni madueke": {
+    "player": "Noni Madueke",
+    "team": "Inghilterra",
+    "club": "Arsenal",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::ollie watkins": {
+    "player": "Ollie Watkins",
+    "team": "Inghilterra",
+    "club": "Aston Villa",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::declan rice": {
+    "player": "Declan Rice",
+    "team": "Inghilterra",
+    "club": "Arsenal",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::eberechi eze": {
+    "player": "Eberechi Eze",
+    "team": "Inghilterra",
+    "club": "Arsenal",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::elliot anderson": {
+    "player": "Elliot Anderson",
+    "team": "Inghilterra",
+    "club": "Nottingham Forest",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::jordan henderson": {
+    "player": "Jordan Henderson",
+    "team": "Inghilterra",
+    "club": "Brentford",
+    "age": 36,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::jude bellingham": {
+    "player": "Jude Bellingham",
+    "team": "Inghilterra",
+    "club": "Real Madrid",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::kobbie mainoo": {
+    "player": "Kobbie Mainoo",
+    "team": "Inghilterra",
+    "club": "Manchester United",
+    "age": 21,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::morgan rogers": {
+    "player": "Morgan Rogers",
+    "team": "Inghilterra",
+    "club": "Aston Villa",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::dan burn": {
+    "player": "Dan Burn",
+    "team": "Inghilterra",
+    "club": "Newcastle",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::djed spence": {
+    "player": "Djed Spence",
+    "team": "Inghilterra",
+    "club": "Tottenham",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::ezri konsa": {
+    "player": "Ezri Konsa",
+    "team": "Inghilterra",
+    "club": "Aston Villa",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::jarell quansah": {
+    "player": "Jarell Quansah",
+    "team": "Inghilterra",
+    "club": "Bayer Leverkusen",
+    "age": 23,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::john stones": {
+    "player": "John Stones",
+    "team": "Inghilterra",
+    "club": "Manchester City",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::marc guéhi": {
+    "player": "Marc Guéhi",
+    "team": "Inghilterra",
+    "club": "Manchester City",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::nico o’reilly": {
+    "player": "Nico O’Reilly",
+    "team": "Inghilterra",
+    "club": "Manchester City",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::reece james": {
+    "player": "Reece James",
+    "team": "Inghilterra",
+    "club": "Chelsea",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::tino livramento": {
+    "player": "Tino Livramento",
+    "team": "Inghilterra",
+    "club": "Newcastle",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::dean henderson": {
+    "player": "Dean Henderson",
+    "team": "Inghilterra",
+    "club": "Crystal Palace",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::james trafford": {
+    "player": "James Trafford",
+    "team": "Inghilterra",
+    "club": "Manchester City",
+    "age": 24,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "inghilterra::jordan pickford": {
+    "player": "Jordan Pickford",
+    "team": "Inghilterra",
+    "club": "Everton",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::cecilio waterman": {
+    "player": "Cecilio Waterman",
+    "team": "Panama",
+    "club": "Universidad de Concepción",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::ismael díaz": {
+    "player": "Ismael Díaz",
+    "team": "Panama",
+    "club": "Club León FC",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::josé fajardo": {
+    "player": "José Fajardo",
+    "team": "Panama",
+    "club": "CD Universidad Católica",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::tomás rodríguez": {
+    "player": "Tomás Rodríguez",
+    "team": "Panama",
+    "club": "Deportivo Saprissa",
+    "age": 27,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::adalberto carrasquilla": {
+    "player": "Adalberto Carrasquilla",
+    "team": "Panama",
+    "club": "UNAM",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::alberto quintero": {
+    "player": "Alberto Quintero",
+    "team": "Panama",
+    "club": "CD Plaza Amador",
+    "age": 39,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::aníbal godoy": {
+    "player": "Aníbal Godoy",
+    "team": "Panama",
+    "club": "San Diego FC",
+    "age": 36,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::azarías londoño": {
+    "player": "Azarías Londoño",
+    "team": "Panama",
+    "club": "CD Universidad Católica",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::carlos harvey": {
+    "player": "Carlos Harvey",
+    "team": "Panama",
+    "club": "Minnesota United",
+    "age": 26,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::césar yanis": {
+    "player": "César Yanis",
+    "team": "Panama",
+    "club": "Cobresal",
+    "age": 30,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::cristian martínez": {
+    "player": "Cristian Martínez",
+    "team": "Panama",
+    "club": "Ironi Kiryat Shmona",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::josé luis rodríguez": {
+    "player": "José Luis Rodríguez",
+    "team": "Panama",
+    "club": "Juárez",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::yoel bárcenas": {
+    "player": "Yoel Bárcenas",
+    "team": "Panama",
+    "club": "Mazatlán FC",
+    "age": 33,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::amir murillo": {
+    "player": "Amir Murillo",
+    "team": "Panama",
+    "club": "Beşiktaş",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::andrés andrade": {
+    "player": "Andrés Andrade",
+    "team": "Panama",
+    "club": "LASK",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::césar blackman": {
+    "player": "César Blackman",
+    "team": "Panama",
+    "club": "Slovan Bratislava",
+    "age": 28,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::edgardo fariña": {
+    "player": "Edgardo Fariña",
+    "team": "Panama",
+    "club": "FC Pari Nizhniy Novgorod",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::eric davis": {
+    "player": "Eric Davis",
+    "team": "Panama",
+    "club": "Plaza Amador",
+    "age": 35,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::fidel escobar": {
+    "player": "Fidel Escobar",
+    "team": "Panama",
+    "club": "Deportivo Saprissa",
+    "age": 31,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::jiovany ramos": {
+    "player": "Jiovany Ramos",
+    "team": "Panama",
+    "club": "Puerto Cabello",
+    "age": 29,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::jorge gutiérrez": {
+    "player": "Jorge Gutiérrez",
+    "team": "Panama",
+    "club": "Deportivo La Guaira",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::josé córdoba": {
+    "player": "José Córdoba",
+    "team": "Panama",
+    "club": "Norwich City",
+    "age": 25,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::roderick miller": {
+    "player": "Roderick Miller",
+    "team": "Panama",
+    "club": "Turan Tovuz",
+    "age": 34,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::césar samudio": {
+    "player": "César Samudio",
+    "team": "Panama",
+    "club": "CD Marathón",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::luis mejía": {
+    "player": "Luis Mejía",
+    "team": "Panama",
+    "club": "Club Nacional",
+    "age": "",
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  },
+  "panama::orlando mosquera": {
+    "player": "Orlando Mosquera",
+    "team": "Panama",
+    "club": "Al Fayha FC",
+    "age": 32,
+    "career": {
+      "worldCupEditions": "",
+      "worldCupAppearances": "",
+      "clubAppearances": "",
+      "nationalAppearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "season2025_26": {
+      "appearances": "",
+      "goals": "",
+      "assists": "",
+      "yellowCards": "",
+      "redCards": ""
+    },
+    "sources": []
+  }
+};

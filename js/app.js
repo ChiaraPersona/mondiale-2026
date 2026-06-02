@@ -5,9 +5,45 @@ const tabs = document.getElementById("tabs");
 const content = document.getElementById("content");
 const search = document.getElementById("search");
 const empty = document.getElementById("empty");
+const statsStore = typeof playerStats !== "undefined" ? playerStats : {};
 
 function fold(value) {
   return String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+function statKey(row) {
+  return fold(row.team + "::" + row.player);
+}
+
+function getStats(row) {
+  const stats = statsStore[statKey(row)] || {};
+  const career = stats.career || {};
+  const season = stats.season2025_26 || {};
+  return {
+    age: stats.age || row.age || "",
+    career: {
+      worldCupEditions: career.worldCupEditions || row.worldCupsPlayed || row.worldCupAppearances || "",
+      worldCupAppearances: career.worldCupAppearances || row.worldCupMatches || "",
+      clubAppearances: career.clubAppearances || row.clubMatches || "",
+      nationalAppearances: career.nationalAppearances || row.nationalTeamMatches || row.caps || "",
+      goals: career.goals || row.goals || "",
+      assists: career.assists || row.assists || "",
+      yellowCards: career.yellowCards || row.yellowCards || "",
+      redCards: career.redCards || row.redCards || "",
+    },
+    season2025_26: {
+      appearances: season.appearances || "",
+      goals: season.goals || "",
+      assists: season.assists || "",
+      yellowCards: season.yellowCards || "",
+      redCards: season.redCards || "",
+    },
+    sources: stats.sources || [],
+  };
+}
+
+function stat(value) {
+  return value === 0 || value ? value : "n.d.";
 }
 
 function flagImg(team, className) {
@@ -37,13 +73,58 @@ function makeTabs() {
 
 function matches(row, query) {
   if (!query) return true;
-  const haystack = fold([row.group, row.team, row.role, row.player, row.club, row.clubCountry, row.league, row.status].join(" "));
+  const stats = getStats(row);
+  const haystack = fold([
+    row.group, row.team, row.role, row.player, row.club, row.clubCountry, row.league, row.status,
+    stats.age,
+    ...Object.values(stats.career),
+    ...Object.values(stats.season2025_26)
+  ].join(" "));
   return haystack.includes(query);
 }
 
 function visibleRows() {
   const query = fold(search.value.trim());
   return rows.filter((row) => (activeGroup === "Tutti" || row.group === activeGroup) && matches(row, query));
+}
+
+function statChip(label, value) {
+  return '<span class="stat-chip"><b>' + label + '</b>' + stat(value) + '</span>';
+}
+
+function playerStatsHtml(row) {
+  const stats = getStats(row);
+  const c = stats.career;
+  const s = stats.season2025_26;
+  const sourceLabel = stats.sources.length ? stats.sources.length + ' fonti' : 'fonti da aggiungere';
+
+  return '<div class="player-stats-panel">'
+    + '<div class="stats-row stats-row-top">'
+    + statChip('Et&agrave;', stats.age)
+    + statChip('Fonti', sourceLabel)
+    + '</div>'
+    + '<details class="stats-details">'
+    + '<summary>Statistiche carriera</summary>'
+    + '<div class="stats-row">'
+    + statChip('Mondiali', c.worldCupEditions)
+    + statChip('Pres. Mondiali', c.worldCupAppearances)
+    + statChip('Partite club', c.clubAppearances)
+    + statChip('Pres. Nazionale', c.nationalAppearances)
+    + statChip('Goal', c.goals)
+    + statChip('Assist', c.assists)
+    + statChip('Gialli', c.yellowCards)
+    + statChip('Rossi', c.redCards)
+    + '</div></details>'
+    + '<details class="stats-details">'
+    + '<summary>Stagione 2025/26</summary>'
+    + '<div class="stats-row">'
+    + statChip('Presenze', s.appearances)
+    + statChip('Goal', s.goals)
+    + statChip('Assist', s.assists)
+    + statChip('Gialli', s.yellowCards)
+    + statChip('Rossi', s.redCards)
+    + '</div></details>'
+    + '</div>';
 }
 
 function render() {
@@ -81,10 +162,10 @@ function render() {
           const club = row.club ? row.club : "Club non indicato";
           const country = row.clubCountry ? row.clubCountry : "Non indicato";
           const league = row.league ? row.league : "Non indicata";
-          const age = row.age || "n.d.";
-          const caps = row.caps || "n.d.";
-          const worldCups = row.worldCupsPlayed || "n.d.";
-          return '<div class="player"><div class="name">' + row.player + '</div><div class="club">' + club + ' <span class="country">(' + country + ' &middot; ' + league + ')</span></div><div class="bio"><span class="chip">Et&agrave;: ' + age + '</span><span class="chip">Presenze: ' + caps + '</span><span class="chip">Mondiali: ' + worldCups + '</span></div></div>';
+          return '<div class="player player-expanded">'
+            + '<div class="player-main"><div class="name">' + row.player + '</div><div class="club">' + club + ' <span class="country">(' + country + ' &middot; ' + league + ')</span></div></div>'
+            + playerStatsHtml(row)
+            + '</div>';
         }).join("") + '</div>';
         card.appendChild(roleBlock);
       }

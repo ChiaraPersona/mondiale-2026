@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Convocati Mondiali 2026</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <div>
+        <h1>Convocati Mondiali 2026</h1>
+        <div class="sub">Rose ordinate per girone, ruolo, club e nazione del club</div>
+      </div>
+      <label class="search" aria-label="Cerca">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+        <input id="search" type="search" placeholder="Cerca calciatore, nazionale, club o paese club">
+      </label>
+    </div>
+    <nav class="tabs" id="tabs"></nav>
+  </header>
+  <main>
+    <section class="summary" id="summary"></section>
+    <section id="content"></section>
+    <div class="empty" id="empty">Nessun convocato trovato con questi filtri.</div>
+  </main>
+  <footer>
+    I casi marcati come probabili o preconvocati restano liste allargate o non definitive. La voce "Da verificare" indica club da ricontrollare prima di usare il dato come definitivo.
+  </footer>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

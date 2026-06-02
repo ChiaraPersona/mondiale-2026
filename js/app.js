@@ -3,7 +3,6 @@ let activeGroup = "Tutti";
 
 const tabs = document.getElementById("tabs");
 const content = document.getElementById("content");
-const summary = document.getElementById("summary");
 const search = document.getElementById("search");
 const empty = document.getElementById("empty");
 
@@ -47,25 +46,8 @@ function visibleRows() {
   return rows.filter((row) => (activeGroup === "Tutti" || row.group === activeGroup) && matches(row, query));
 }
 
-function renderSummary(filtered) {
-  const teams = new Set(filtered.map((row) => row.team));
-  const clubs = new Set(filtered.filter((row) => row.club).map((row) => row.club));
-  const countries = new Set(filtered.filter((row) => row.clubCountry && row.clubCountry !== "Da verificare").map((row) => row.clubCountry));
-  const uncertain = filtered.filter((row) => row.status !== "Ufficiale").length;
-  summary.innerHTML = [
-    ["Calciatori", filtered.length],
-    ["Nazionali", teams.size],
-    ["Club", clubs.size],
-    ["Paesi club", countries.size],
-  ].map(([label, value]) => '<div class="metric"><strong>' + value + '</strong><span>' + label + '</span></div>').join("");
-  if (uncertain) {
-    summary.innerHTML += '<div class="metric"><strong>' + uncertain + '</strong><span>Da liste probabili o preconvocati</span></div>';
-  }
-}
-
 function render() {
   const filtered = visibleRows();
-  renderSummary(filtered);
   content.innerHTML = "";
   empty.style.display = filtered.length ? "none" : "block";
 

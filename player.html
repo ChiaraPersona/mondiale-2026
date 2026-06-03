@@ -42,12 +42,17 @@
       <div>
         <span>Classifiche giocatori</span>
         <h2>Top 15 per statistica</h2>
-        <p>Le classifiche usano le ultime 15 partite generali quando disponibili. Gol, assist, minuti e rating arrivano da Diretta; tiri e falli da SofaScore.</p>
+        <p>Le classifiche usano le ultime 15 partite generali quando disponibili. La vista Top Five ricalcola i valori solo sulle partite di Premier League, Liga, Ligue 1, Serie A e Bundesliga.</p>
       </div>
       <div class="team-stats-source-list">
         <a href="https://www.diretta.it/" target="_blank" rel="noreferrer">Diretta</a>
         <a href="https://www.sofascore.com/it" target="_blank" rel="noreferrer">SofaScore</a>
       </div>
+    </section>
+
+    <section class="player-ranking-modes" aria-label="Tipo classifica">
+      <button class="player-ranking-mode active" type="button" data-player-ranking-mode="all">Tutte le competizioni</button>
+      <button class="player-ranking-mode" type="button" data-player-ranking-mode="top-five">Top five</button>
     </section>
 
     <section id="player-rankings-content" class="player-rankings-grid"></section>

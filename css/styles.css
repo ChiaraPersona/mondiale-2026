@@ -3949,6 +3949,36 @@ body {
   font-size: 13px;
 }
 
+.player-ranking-modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 16px;
+}
+
+.player-ranking-mode {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 9px 14px;
+  color: var(--muted);
+  background: rgba(16, 23, 34, .72);
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.player-ranking-mode:hover {
+  border-color: rgba(0, 208, 132, .5);
+  color: var(--ink);
+}
+
+.player-ranking-mode.active {
+  border-color: rgba(0, 208, 132, .76);
+  color: #04130e;
+  background: var(--green);
+}
+
 .player-rankings-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

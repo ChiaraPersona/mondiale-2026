@@ -7,6 +7,7 @@ const search = document.getElementById("search");
 const empty = document.getElementById("empty");
 const statsStore = typeof playerStats !== "undefined" ? playerStats : {};
 const insightsStore = typeof teamInsights !== "undefined" ? teamInsights : {};
+const captainsStore = typeof teamCaptains !== "undefined" ? teamCaptains : {};
 
 function fold(value) {
   return String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -16,48 +17,59 @@ function statKey(row) {
   return fold(row.team + "::" + row.player);
 }
 
+function valueOrBlank(value) {
+  return value === 0 || value ? value : "";
+}
+
 function getStats(row) {
   const roleKey = statKey(row) + "::" + fold(row.role);
   const stats = statsStore[roleKey] || statsStore[statKey(row)] || {};
   const career = stats.career || {};
   const season = stats.season2025_26 || {};
   const recent = stats.recent15 || {};
+  const advanced = recent.advanced || {};
   return {
-    age: stats.age || row.age || "",
+    age: valueOrBlank(stats.age) || valueOrBlank(row.age),
     career: {
-      worldCupEditions: career.worldCupEditions || row.worldCupsPlayed || row.worldCupAppearances || "",
-      worldCupAppearances: career.worldCupAppearances || row.worldCupMatches || "",
-      clubAppearances: career.clubAppearances || row.clubMatches || "",
-      nationalAppearances: career.nationalAppearances || row.nationalTeamMatches || row.caps || "",
-      goals: career.goals || row.goals || "",
-      assists: career.assists || row.assists || "",
-      goalsConceded: career.goalsConceded || row.goalsConceded || "",
-      goalsConcededPerGame: career.goalsConcededPerGame || row.goalsConcededPerGame || "",
-      yellowCards: career.yellowCards || row.yellowCards || "",
-      redCards: career.redCards || row.redCards || "",
+      worldCupEditions: valueOrBlank(career.worldCupEditions) || valueOrBlank(row.worldCupsPlayed) || valueOrBlank(row.worldCupAppearances),
+      worldCupAppearances: valueOrBlank(career.worldCupAppearances) || valueOrBlank(row.worldCupMatches),
+      clubAppearances: valueOrBlank(career.clubAppearances) || valueOrBlank(row.clubMatches),
+      nationalAppearances: valueOrBlank(career.nationalAppearances) || valueOrBlank(row.nationalTeamMatches) || valueOrBlank(row.caps),
+      goals: valueOrBlank(career.goals) || valueOrBlank(row.goals),
+      assists: valueOrBlank(career.assists) || valueOrBlank(row.assists),
+      goalsConceded: valueOrBlank(career.goalsConceded) || valueOrBlank(row.goalsConceded),
+      goalsConcededPerGame: valueOrBlank(career.goalsConcededPerGame) || valueOrBlank(row.goalsConcededPerGame),
+      yellowCards: valueOrBlank(career.yellowCards) || valueOrBlank(row.yellowCards),
+      redCards: valueOrBlank(career.redCards) || valueOrBlank(row.redCards),
     },
     season2025_26: {
-      appearances: season.appearances || "",
-      starts: season.starts || "",
-      subIns: season.subIns || "",
-      minutes: season.minutes || "",
-      goals: season.goals || "",
-      assists: season.assists || "",
-      goalsConceded: season.goalsConceded || "",
-      goalsConcededPerGame: season.goalsConcededPerGame || "",
-      yellowCards: season.yellowCards || "",
-      redCards: season.redCards || "",
-      matchesSample: season.matchesSample || "",
+      appearances: valueOrBlank(season.appearances),
+      starts: valueOrBlank(season.starts),
+      subIns: valueOrBlank(season.subIns),
+      minutes: valueOrBlank(season.minutes),
+      goals: valueOrBlank(season.goals),
+      assists: valueOrBlank(season.assists),
+      goalsConceded: valueOrBlank(season.goalsConceded),
+      goalsConcededPerGame: valueOrBlank(season.goalsConcededPerGame),
+      yellowCards: valueOrBlank(season.yellowCards),
+      redCards: valueOrBlank(season.redCards),
+      matchesSample: valueOrBlank(season.matchesSample),
     },
     recent15: {
-      appearances: recent.appearances || "",
-      minutes: recent.minutes || "",
-      goals: recent.goals || "",
-      assists: recent.assists || "",
-      yellowCards: recent.yellowCards || "",
-      redCards: recent.redCards || "",
-      averageRating: recent.averageRating || "",
-      scope: recent.scope || "",
+      appearances: valueOrBlank(recent.appearances),
+      minutes: valueOrBlank(recent.minutes),
+      goals: valueOrBlank(recent.goals),
+      assists: valueOrBlank(recent.assists),
+      yellowCards: valueOrBlank(recent.yellowCards),
+      redCards: valueOrBlank(recent.redCards),
+      averageRating: valueOrBlank(recent.averageRating),
+      scope: valueOrBlank(recent.scope),
+      advanced: {
+        shotsPerGame: valueOrBlank(advanced.shotsPerGame),
+        shotsOnTargetPerGame: valueOrBlank(advanced.shotsOnTargetPerGame),
+        foulsCommittedPerGame: valueOrBlank(advanced.foulsCommittedPerGame),
+        foulsSufferedPerGame: valueOrBlank(advanced.foulsSufferedPerGame),
+      },
     },
     sources: stats.sources || [],
   };
@@ -90,6 +102,11 @@ function starterMatchesPlayer(starter, player) {
 function isProbableStarter(row) {
   const starters = teamInsight(row.team).starters || [];
   return starters.some((starter) => starterMatchesPlayer(starter, row.player));
+}
+
+function isCaptain(row) {
+  const captains = captainsStore[row.team] || [];
+  return captains.some((captain) => starterMatchesPlayer(captain, row.player));
 }
 
 function stat(value) {
@@ -126,6 +143,7 @@ function matches(row, query) {
   const stats = getStats(row);
   const haystack = fold([
     row.group, row.team, row.role, row.player, row.club, row.clubCountry, row.league, row.status,
+    isCaptain(row) ? "capitano" : "",
     stats.age,
     ...Object.values(stats.career),
     ...Object.values(stats.season2025_26),
@@ -161,6 +179,7 @@ function playerStatsHtml(row) {
   const stats = getStats(row);
   const s = stats.season2025_26;
   const recent = stats.recent15;
+  const advanced = recent.advanced || {};
   const hasRecent = Object.values(recent).some(Boolean);
   const hasDirettaSource = stats.sources.some((source) => fold(source).includes("diretta.it"));
   const sourceLabel = hasDirettaSource ? "Diretta" : (stats.sources.length ? stats.sources.length + ' fonti' : 'fonti da aggiungere');
@@ -192,6 +211,10 @@ function playerStatsHtml(row) {
       + statChip('Gialli', recent.yellowCards)
       + statChip('Rossi', recent.redCards)
       + (isGoalkeeper ? '' : statChip('Rating medio', recent.averageRating))
+      + statChip('Tiri medi', advanced.shotsPerGame)
+      + statChip('Tiri in porta medi', advanced.shotsOnTargetPerGame)
+      + statChip('Falli commessi medi', advanced.foulsCommittedPerGame)
+      + statChip('Falli subiti medi', advanced.foulsSufferedPerGame)
       + '</div></details>' : '')
     + '</div>';
 }
@@ -238,8 +261,9 @@ function render() {
           const country = row.clubCountry ? row.clubCountry : "Non indicato";
           const league = row.league ? row.league : "Non indicata";
           const probableStarter = isProbableStarter(row);
-          return '<div class="player player-expanded ' + (probableStarter ? 'is-probable-starter' : '') + '">'
-            + '<div class="player-main"><div class="name">' + row.player + (probableStarter ? '<span class="starter-pill">Probabile titolare</span>' : '') + '</div><div class="club">' + club + ' <span class="country">(' + country + ' &middot; ' + league + ')</span></div></div>'
+          const captain = isCaptain(row);
+          return '<div class="player player-expanded ' + (probableStarter ? 'is-probable-starter' : '') + (captain ? ' is-captain' : '') + '">'
+            + '<div class="player-main"><div class="name">' + row.player + (captain ? '<span class="captain-pill">Capitano</span>' : '') + (probableStarter ? '<span class="starter-pill">Probabile titolare</span>' : '') + '</div><div class="club">' + club + ' <span class="country">(' + country + ' &middot; ' + league + ')</span></div></div>'
             + playerStatsHtml(row)
             + '</div>';
         }).join("") + '</div>';

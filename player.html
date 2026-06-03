@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Player Mondiali 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <div>
+        <h1>Player</h1>
+        <p class="sub">Top 15 dei calciatori per rendimento e statistiche recenti.</p>
+      </div>
+
+      <label class="search" aria-label="Cerca calciatore">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5"></path>
+        </svg>
+        <input
+          id="player-ranking-search"
+          type="search"
+          placeholder="Cerca calciatore, nazionale o club"
+        >
+      </label>
+    </div>
+
+    <nav class="page-links" aria-label="Sezioni">
+      <a class="page-link" href="index.html">Convocati</a>
+      <a class="page-link active" href="player.html">Player</a>
+      <a class="page-link" href="pronostico.html">Pronostico</a>
+      <a class="page-link" href="arbitri.html">Arbitri</a>
+      <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="player-rankings-intro">
+      <div>
+        <span>Classifiche giocatori</span>
+        <h2>Top 15 per statistica</h2>
+        <p>Le classifiche usano le ultime 15 partite generali quando disponibili. Gol, assist, minuti e rating arrivano da Diretta; tiri e falli da SofaScore.</p>
+      </div>
+      <div class="team-stats-source-list">
+        <a href="https://www.diretta.it/" target="_blank" rel="noreferrer">Diretta</a>
+        <a href="https://www.sofascore.com/it" target="_blank" rel="noreferrer">SofaScore</a>
+      </div>
+    </section>
+
+    <section id="player-rankings-content" class="player-rankings-grid"></section>
+    <div class="empty" id="player-rankings-empty">Nessun calciatore trovato.</div>
+  </main>
+
+  <footer>
+    Le medie sono calcolate sui dati disponibili delle ultime 15 partite generali del calciatore.
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/player.js"></script>
+</body>
+</html>

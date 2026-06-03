@@ -1,0 +1,81 @@
+import importlib.util
+import json
+import re
+import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+STATS_PATH = ROOT / "stats.json"
+DATA_PATH = ROOT / "data" / "stats.json"
+JS_PATH = ROOT / "js" / "stats.js"
+BULK_PATH = ROOT / "scripts" / "bulk-player-stats.py"
+
+
+def load_bulk_module():
+    spec = importlib.util.spec_from_file_location("bulk_player_stats", BULK_PATH)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def fold(value):
+    return re.sub(r"\s+", " ", str(value or "").lower()).strip()
+
+
+def load_rows():
+    text = (ROOT / "js" / "data.js").read_text(encoding="utf-8-sig")
+    start = text.find("const rows = ")
+    if start < 0:
+        return []
+    start = text.find("[", start)
+    end = text.find("];", start)
+    return json.loads(text[start:end + 1])
+
+
+def save_stats(data):
+    serialized = json.dumps(data, ensure_ascii=False, indent=2)
+    STATS_PATH.write_text(serialized + "\n", encoding="utf-8")
+    DATA_PATH.write_text(serialized + "\n", encoding="utf-8")
+    JS_PATH.write_text("const playerStats = " + serialized + ";\n", encoding="utf-8")
+
+
+def main():
+    bulk = load_bulk_module()
+    data = json.loads(STATS_PATH.read_text(encoding="utf-8"))
+    rows = load_rows()
+    goalkeeper_keys = {
+        f"{fold(row.get('team'))}::{fold(row.get('player'))}"
+        for row in rows
+        if row.get("role") == "Portieri"
+    }
+    targets = [(key, data[key]) for key in goalkeeper_keys if key in data and data[key].get("direttaPlayerId")]
+    updated = 0
+    failed = []
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = {executor.submit(bulk.profile_recent15, record): key for key, record in targets}
+        for future in as_completed(futures):
+            key = futures[future]
+            try:
+                result = future.result()
+            except Exception as exc:
+                failed.append((key, str(exc)))
+                continue
+            if result:
+                previous = data[key].get("recent15") or {}
+                if previous.get("advanced"):
+                    result["advanced"] = previous["advanced"]
+                result["scope"] = previous.get("scope") or "Club + nazionale"
+                data[key]["recent15"] = result
+                updated += 1
+            else:
+                failed.append((key, "no recent data"))
+
+    save_stats(data)
+    print(json.dumps({"targets": len(targets), "updated": updated, "failed": len(failed), "failedSample": failed[:30]}, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()

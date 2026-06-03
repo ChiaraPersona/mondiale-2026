@@ -60,6 +60,9 @@ function getStats(row) {
       minutes: valueOrBlank(recent.minutes),
       goals: valueOrBlank(recent.goals),
       assists: valueOrBlank(recent.assists),
+      goalsConceded: valueOrBlank(recent.goalsConceded),
+      goalsConcededMatches: valueOrBlank(recent.goalsConcededMatches),
+      goalsConcededPerGame: valueOrBlank(recent.goalsConcededPerGame),
       yellowCards: valueOrBlank(recent.yellowCards),
       redCards: valueOrBlank(recent.redCards),
       averageRating: valueOrBlank(recent.averageRating),
@@ -207,14 +210,14 @@ function playerStatsHtml(row) {
       + statChip('Ambito', recent.scope || 'Club + nazionale')
       + statChip('Presenze', recent.appearances)
       + statChip('Minuti', recent.minutes)
-      + (isGoalkeeper ? statChip('Rating medio', recent.averageRating) : statChip('Goal', recent.goals) + statChip('Assist', recent.assists))
+      + (isGoalkeeper ? statChip('Media gol subiti', recent.goalsConcededPerGame) + statChip('Rating medio', recent.averageRating) : statChip('Goal', recent.goals) + statChip('Assist', recent.assists))
       + statChip('Gialli', recent.yellowCards)
       + statChip('Rossi', recent.redCards)
       + (isGoalkeeper ? '' : statChip('Rating medio', recent.averageRating))
-      + statChip('Tiri medi', advanced.shotsPerGame)
-      + statChip('Tiri in porta medi', advanced.shotsOnTargetPerGame)
-      + statChip('Falli commessi medi', advanced.foulsCommittedPerGame)
-      + statChip('Falli subiti medi', advanced.foulsSufferedPerGame)
+      + (isGoalkeeper ? '' : statChip('Tiri medi', advanced.shotsPerGame)
+        + statChip('Tiri in porta medi', advanced.shotsOnTargetPerGame)
+        + statChip('Falli commessi medi', advanced.foulsCommittedPerGame)
+        + statChip('Falli subiti medi', advanced.foulsSufferedPerGame))
       + '</div></details>' : '')
     + '</div>';
 }

@@ -5,6 +5,7 @@ const teamStatsEmpty = document.getElementById("team-stats-empty");
 const teamStatsSections = [
   {
     title: "Disciplina",
+    tone: "discipline",
     metrics: [
       ["yellowCards", "Cartellini gialli totali"],
       ["redCards", "Cartellini rossi totali"],
@@ -14,6 +15,7 @@ const teamStatsSections = [
   },
   {
     title: "Attacco",
+    tone: "attack",
     metrics: [
       ["xgFor", "xG per partita"],
       ["cornersFor", "Corner per partita"],
@@ -24,6 +26,7 @@ const teamStatsSections = [
   },
   {
     title: "Concessi",
+    tone: "against",
     metrics: [
       ["xgAgainst", "xGA per partita"],
       ["cornersAgainst", "Corner concessi per partita"],
@@ -34,6 +37,7 @@ const teamStatsSections = [
   },
   {
     title: "Controllo",
+    tone: "control",
     metrics: [
       ["possession", "Possesso medio"],
       ["foulsFor", "Falli per partita"],
@@ -122,7 +126,7 @@ function renderTeamMetric(metrics, key, label) {
 function renderTeamStatsSection(metrics, section) {
   const rows = section.metrics.map(([key, label]) => renderTeamMetric(metrics, key, label)).join("");
   if (!rows) return "";
-  return '<section class="team-stats-section">' +
+  return '<section class="team-stats-section team-stats-tone-' + section.tone + '">' +
     '<h4>' + section.title + '</h4>' +
     '<div class="team-stats-table">' + rows + '</div>' +
   '</section>';

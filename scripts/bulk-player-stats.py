@@ -136,11 +136,16 @@ def parse_match_row(match):
     if not minutes:
         return None
     rating = stat_value(stats, "rating")
+    home_score = match.get("homeScore")
+    away_score = match.get("awayScore")
     return {
         "date": match.get("date") or match.get("eventStartTime"),
         "competition": match.get("competitionName") or match.get("tournamentTitle") or match.get("competition") or "",
         "homeTeam": match.get("homeParticipantName") or match.get("home") or "",
         "awayTeam": match.get("awayParticipantName") or match.get("away") or "",
+        "homeScore": home_score,
+        "awayScore": away_score,
+        "score": f"{home_score}-{away_score}" if home_score is not None and away_score is not None else "",
         "minutes": int(minutes),
         "rating": normalize_number(match.get("rating")) if rating is None else rating,
         "goals": int(stat_value(stats, "goal") or 0),

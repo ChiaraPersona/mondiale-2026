@@ -26,9 +26,23 @@ header {
   margin: 0 auto;
   padding: 18px 24px 16px;
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) minmax(280px, 520px);
+  grid-template-columns: 72px minmax(220px, 1fr) minmax(280px, 520px);
   gap: 18px;
   align-items: center;
+}
+.site-emblem {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 6px 12px rgba(26, 38, 48, .16));
+}
+.site-emblem-nav {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+  align-self: center;
+  margin-right: 4px;
 }
 h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
 .sub { color: var(--muted); font-size: 14px; margin: 6px 0 0; }
@@ -699,7 +713,9 @@ footer {
   background: rgba(213, 169, 78, .12);
 }
 @media (max-width: 980px) {
-  .topbar { grid-template-columns: 1fr; }
+  .topbar { grid-template-columns: 56px minmax(0, 1fr); }
+  .topbar .search { grid-column: 1 / -1; }
+  .site-emblem { width: 52px; height: 52px; }
   .officials-intro { grid-template-columns: 1fr; }
   .official-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .team-grid { grid-template-columns: 1fr; }
@@ -3765,17 +3781,42 @@ body {
 }
 
 .team-stats-section {
+  --section-color: var(--green);
+  --section-rgb: 0, 208, 132;
   border: 1px solid rgba(255, 255, 255, .09);
+  border-top: 3px solid var(--section-color);
   border-radius: 14px;
   overflow: hidden;
-  background: rgba(7, 10, 15, .24);
+  background:
+    radial-gradient(circle at 100% 0%, rgba(var(--section-rgb), .14), transparent 36%),
+    rgba(7, 10, 15, .24);
+}
+
+.team-stats-tone-discipline {
+  --section-color: #f5c84b;
+  --section-rgb: 245, 200, 75;
+}
+
+.team-stats-tone-attack {
+  --section-color: #39d98a;
+  --section-rgb: 57, 217, 138;
+}
+
+.team-stats-tone-against {
+  --section-color: #ff6b6b;
+  --section-rgb: 255, 107, 107;
+}
+
+.team-stats-tone-control {
+  --section-color: #6cb7ff;
+  --section-rgb: 108, 183, 255;
 }
 
 .team-stats-section h4 {
   margin: 0;
   padding: 11px 14px;
   border-bottom: 1px solid rgba(255, 255, 255, .08);
-  color: var(--green);
+  color: var(--section-color);
   font-size: 12px;
   font-weight: 950;
   letter-spacing: .08em;
@@ -3806,7 +3847,7 @@ body {
 }
 
 .team-stats-row strong {
-  color: var(--ink);
+  color: var(--section-color);
   font-size: 18px;
   text-align: right;
 }
@@ -3979,6 +4020,142 @@ body {
   background: var(--green);
 }
 
+.world-champions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0 0 18px;
+}
+
+.world-champion-card {
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-top: 4px solid #f5c84b;
+  border-radius: 18px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(245, 200, 75, .16), transparent 38%),
+    rgba(16, 23, 34, .86);
+  box-shadow: var(--shadow);
+}
+
+.world-champion-card summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 15px 16px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.world-champion-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.world-champion-card summary span {
+  color: #f5c84b;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.world-champion-card summary h3 {
+  margin: 4px 0 0;
+  font-size: 19px;
+}
+
+.world-champion-card summary i {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 999px;
+  background: rgba(7, 10, 15, .24);
+}
+
+.world-champion-card summary i::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin: 9px auto 0;
+  border-right: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+  transform: rotate(45deg);
+  transition: transform .18s ease;
+}
+
+.world-champion-card[open] summary i::before {
+  margin-top: 12px;
+  transform: rotate(225deg);
+}
+
+.world-champion-list {
+  display: grid;
+  gap: 1px;
+  border-top: 1px solid rgba(255, 255, 255, .08);
+  background: rgba(255, 255, 255, .08);
+}
+
+.world-champion-row {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  min-height: 50px;
+  padding: 9px 13px;
+  background: rgba(16, 23, 34, .96);
+}
+
+.world-champion-row > span {
+  display: inline-grid;
+  place-items: center;
+  height: 26px;
+  border-radius: 999px;
+  color: #191203;
+  background: #f5c84b;
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.world-champion-row strong,
+.world-champion-row small {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.world-champion-row strong {
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.world-champion-row small {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.world-champion-row.is-missing {
+  opacity: .58;
+}
+
+.world-champion-mini {
+  display: inline-block;
+  margin-left: 7px;
+  border: 1px solid rgba(245, 200, 75, .45);
+  border-radius: 999px;
+  padding: 2px 6px;
+  color: #f5c84b;
+  font-size: 10px;
+  font-weight: 950;
+  vertical-align: 1px;
+}
+
 .player-rankings-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -3986,14 +4163,56 @@ body {
 }
 
 .player-ranking-card {
+  --ranking-color: var(--green);
+  --ranking-rgb: 0, 208, 132;
   border: 1px solid var(--line);
-  border-top: 4px solid var(--green);
+  border-top: 4px solid var(--ranking-color);
   border-radius: 18px;
   overflow: hidden;
   background:
-    radial-gradient(circle at 100% 0%, rgba(0, 208, 132, .13), transparent 36%),
+    radial-gradient(circle at 100% 0%, rgba(var(--ranking-rgb), .16), transparent 36%),
     rgba(16, 23, 34, .86);
   box-shadow: var(--shadow);
+}
+
+.player-ranking-tone-rating {
+  --ranking-color: #6cb7ff;
+  --ranking-rgb: 108, 183, 255;
+}
+
+.player-ranking-tone-goals {
+  --ranking-color: #39d98a;
+  --ranking-rgb: 57, 217, 138;
+}
+
+.player-ranking-tone-assists {
+  --ranking-color: #35d0ff;
+  --ranking-rgb: 53, 208, 255;
+}
+
+.player-ranking-tone-shots {
+  --ranking-color: #ff9f43;
+  --ranking-rgb: 255, 159, 67;
+}
+
+.player-ranking-tone-fouls {
+  --ranking-color: #c58cff;
+  --ranking-rgb: 197, 140, 255;
+}
+
+.player-ranking-tone-keepers {
+  --ranking-color: #8dd7cf;
+  --ranking-rgb: 141, 215, 207;
+}
+
+.player-ranking-tone-yellow-cards {
+  --ranking-color: #f5c84b;
+  --ranking-rgb: 245, 200, 75;
+}
+
+.player-ranking-tone-red-cards {
+  --ranking-color: #ff6b6b;
+  --ranking-rgb: 255, 107, 107;
 }
 
 .player-ranking-head {
@@ -4003,10 +4222,16 @@ body {
   gap: 12px;
   padding: 15px 16px;
   border-bottom: 1px solid var(--line);
+  cursor: pointer;
+  list-style: none;
 }
 
-.player-ranking-head span {
-  color: var(--green);
+.player-ranking-head::-webkit-details-marker {
+  display: none;
+}
+
+.player-ranking-head > div > span {
+  color: var(--ranking-color);
   font-size: 11px;
   font-weight: 950;
   letter-spacing: .08em;
@@ -4018,14 +4243,44 @@ body {
   font-size: 19px;
 }
 
-.player-ranking-head > strong {
+.player-ranking-head-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
   flex: 0 0 auto;
+}
+
+.player-ranking-head-actions strong {
   border: 1px solid rgba(255, 255, 255, .12);
   border-radius: 999px;
   padding: 7px 10px;
   color: var(--ink);
   background: rgba(7, 10, 15, .28);
   font-size: 12px;
+}
+
+.player-ranking-head-actions i {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 999px;
+  background: rgba(7, 10, 15, .24);
+}
+
+.player-ranking-head-actions i::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+  transform: rotate(45deg) translate(-1px, -1px);
+  transition: transform .18s ease;
+}
+
+.player-ranking-card[open] .player-ranking-head-actions i::before {
+  transform: rotate(225deg) translate(-1px, -1px);
 }
 
 .player-ranking-list {
@@ -4050,8 +4305,8 @@ body {
   width: 26px;
   height: 26px;
   border-radius: 999px;
-  color: var(--green);
-  background: rgba(0, 208, 132, .12);
+  color: var(--ranking-color);
+  background: rgba(var(--ranking-rgb), .14);
   font-size: 12px;
   font-weight: 950;
 }
@@ -4082,13 +4337,17 @@ body {
 }
 
 .player-ranking-value {
-  color: var(--ink);
+  color: var(--ranking-color);
   font-size: 18px;
   font-weight: 950;
   text-align: right;
 }
 
 @media (max-width: 900px) {
+  .world-champions-grid {
+    grid-template-columns: 1fr;
+  }
+
   .player-rankings-grid {
     grid-template-columns: 1fr;
   }

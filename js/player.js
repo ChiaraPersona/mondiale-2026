@@ -4,19 +4,59 @@ const playerRankingsEmpty = document.getElementById("player-rankings-empty");
 const playerRankingModeButtons = Array.from(document.querySelectorAll("[data-player-ranking-mode]"));
 
 const playerRankingStats = typeof playerStats !== "undefined" ? playerStats : {};
+const playerRankingDataRows = typeof rows !== "undefined" ? rows : [];
 let activePlayerRankingMode = "all";
 
 const playerRankingSections = [
-  { key: "averageRating", label: "Rating medio", source: "Diretta", decimals: 2, topFive: true },
-  { key: "goals", label: "Gol", source: "Diretta", decimals: 0, topFive: true },
-  { key: "assists", label: "Assist", source: "Diretta", decimals: 0, topFive: true },
-  { key: "minutes", label: "Minuti", source: "Diretta", decimals: 0, topFive: true },
-  { key: "shotsPerGame", label: "Tiri medi", source: "SofaScore", decimals: 2, topFive: false },
-  { key: "shotsOnTargetPerGame", label: "Tiri in porta medi", source: "SofaScore", decimals: 2, topFive: false },
-  { key: "foulsCommittedPerGame", label: "Falli commessi medi", source: "SofaScore", decimals: 2, topFive: false },
-  { key: "foulsSufferedPerGame", label: "Falli subiti medi", source: "SofaScore", decimals: 2, topFive: false },
-  { key: "yellowCards", label: "Cartellini gialli", source: "Diretta", decimals: 0, topFive: true },
-  { key: "redCards", label: "Cartellini rossi", source: "Diretta", decimals: 0, topFive: true },
+  { key: "averageRating", label: "Rating medio", source: "Diretta", decimals: 2, topFive: true, tone: "rating" },
+  { key: "goals", label: "Gol", source: "Diretta", decimals: 0, topFive: true, tone: "goals" },
+  { key: "assists", label: "Assist", source: "Diretta", decimals: 0, topFive: true, tone: "assists" },
+  { key: "shotsPerGame", label: "Tiri medi", source: "SofaScore", decimals: 2, topFive: false, tone: "shots", excludeGoalkeepers: true },
+  { key: "shotsOnTargetPerGame", label: "Tiri in porta medi", source: "SofaScore", decimals: 2, topFive: false, tone: "shots", excludeGoalkeepers: true },
+  { key: "foulsCommittedPerGame", label: "Falli commessi medi", source: "SofaScore", decimals: 2, topFive: false, tone: "fouls", excludeGoalkeepers: true },
+  { key: "foulsSufferedPerGame", label: "Falli subiti medi", source: "SofaScore", decimals: 2, topFive: false, tone: "fouls", excludeGoalkeepers: true },
+  { key: "goalsConcededPerGame", label: "Media gol subiti", source: "Diretta", decimals: 2, topFive: false, tone: "keepers", goalkeepersOnly: true, sort: "asc" },
+  { key: "yellowCards", label: "Cartellini gialli", source: "Diretta", decimals: 0, topFive: true, tone: "yellow-cards" },
+  { key: "redCards", label: "Cartellini rossi", source: "Diretta", decimals: 0, topFive: true, tone: "red-cards" },
+];
+
+const worldChampionGroups = [
+  {
+    team: "Argentina",
+    year: "2022",
+    players: [
+      ["Lionel Messi"],
+      ["Emiliano Martínez", "Dibu Martínez"],
+      ["Cristian Romero"],
+      ["Nicolás Otamendi", "Otamendi"],
+      ["Nahuel Molina"],
+      ["Rodrigo De Paul"],
+      ["Leandro Paredes"],
+      ["Enzo Fernández"],
+      ["Alexis Mac Allister"],
+      ["Julián Álvarez"],
+      ["Lautaro Martínez"],
+    ],
+  },
+  {
+    team: "Francia",
+    year: "2018",
+    players: [
+      ["Kylian Mbappé"],
+      ["Ousmane Dembélé"],
+      ["Lucas Hernández"],
+      ["Benjamin Pavard"],
+      ["Presnel Kimpembe"],
+    ],
+  },
+  {
+    team: "Germania",
+    year: "2014",
+    players: [
+      ["Manuel Neuer"],
+      ["Joshua Kimmich"],
+    ],
+  },
 ];
 
 function foldPlayerRanking(value) {
@@ -26,6 +66,36 @@ function foldPlayerRanking(value) {
 function numberValue(value) {
   const number = Number(value);
   return Number.isFinite(number) ? number : null;
+}
+
+function championKey(team, player) {
+  return foldPlayerRanking(team + "::" + player);
+}
+
+const worldChampionIndex = worldChampionGroups.reduce((index, group) => {
+  group.players.forEach((names) => {
+    names.forEach((name) => {
+      index[championKey(group.team, name)] = { team: group.team, year: group.year, label: names[0] };
+    });
+  });
+  return index;
+}, {});
+
+function championFor(record) {
+  return worldChampionIndex[championKey(record.team, record.player)] || null;
+}
+
+function playerRoleKey(team, player) {
+  return foldPlayerRanking(team + "::" + player);
+}
+
+const playerRoleIndex = playerRankingDataRows.reduce((index, row) => {
+  index[playerRoleKey(row.team, row.player)] = row.role;
+  return index;
+}, {});
+
+function roleFor(record) {
+  return playerRoleIndex[playerRoleKey(record.team, record.player)] || "";
 }
 
 function isTopFiveCompetition(competition) {
@@ -62,7 +132,8 @@ function topFiveStatsFor(record) {
 function statValueFor(record, key, mode) {
   if (mode === "top-five") {
     const topFiveStats = topFiveStatsFor(record);
-    return topFiveStats ? numberValue(topFiveStats[key]) : null;
+    if (!topFiveStats) return null;
+    if (Object.prototype.hasOwnProperty.call(topFiveStats, key)) return numberValue(topFiveStats[key]);
   }
   const recent = record.recent15 || {};
   const advanced = recent.advanced || {};
@@ -86,6 +157,8 @@ function playerRankingRows() {
       age: record.age || "",
       appearances: Number(record.recent15.appearances) || 0,
       topFiveAppearances: topFiveStatsFor(record)?.appearances || 0,
+      champion: championFor(record),
+      isGoalkeeper: roleFor(record) === "Portieri",
       record,
     }));
 }
@@ -97,21 +170,28 @@ function matchesPlayerRanking(row, query) {
 
 function rankingForMetric(rows, metric) {
   return rows
+    .filter((row) => !metric.goalkeepersOnly || row.isGoalkeeper)
+    .filter((row) => !metric.excludeGoalkeepers || !row.isGoalkeeper)
     .map((row) => ({
       ...row,
       appearances: activePlayerRankingMode === "top-five" ? row.topFiveAppearances : row.appearances,
       value: statValueFor(row.record, metric.key, activePlayerRankingMode),
     }))
+    .filter((row) => activePlayerRankingMode !== "top-five" || row.appearances > 0)
     .filter((row) => row.value !== null)
-    .sort((a, b) => b.value - a.value || b.appearances - a.appearances || a.player.localeCompare(b.player))
+    .sort((a, b) => {
+      const direction = metric.sort === "asc" ? a.value - b.value : b.value - a.value;
+      return direction || b.appearances - a.appearances || a.player.localeCompare(b.player);
+    })
     .slice(0, 15);
 }
 
 function renderRankingItem(row, index, metric) {
+  const championBadge = row.champion ? '<span class="world-champion-mini">Campione ' + row.champion.year + '</span>' : '';
   return '<div class="player-ranking-row">' +
     '<span class="player-ranking-pos">' + (index + 1) + '</span>' +
     '<div class="player-ranking-name">' +
-      '<strong>' + row.player + '</strong>' +
+      '<strong>' + row.player + championBadge + '</strong>' +
       '<small>' + row.team + (row.club ? ' &middot; ' + row.club : '') + (row.appearances ? ' &middot; ' + row.appearances + ' pres.' : '') + '</small>' +
     '</div>' +
     '<span class="player-ranking-value">' + formatPlayerRankingValue(row.value, metric.decimals) + '</span>' +
@@ -119,18 +199,17 @@ function renderRankingItem(row, index, metric) {
 }
 
 function renderRankingCard(rows, metric) {
-  if (activePlayerRankingMode === "top-five" && !metric.topFive) return "";
   const ranking = rankingForMetric(rows, metric);
   if (!ranking.length) return "";
-  return '<article class="player-ranking-card">' +
-    '<div class="player-ranking-head">' +
+  return '<details class="player-ranking-card player-ranking-tone-' + metric.tone + '">' +
+    '<summary class="player-ranking-head">' +
       '<div><span>' + metric.source + '</span><h3>' + metric.label + '</h3></div>' +
-      '<strong>Top 15</strong>' +
-    '</div>' +
+      '<span class="player-ranking-head-actions"><strong>Top 15</strong><i aria-hidden="true"></i></span>' +
+    '</summary>' +
     '<div class="player-ranking-list">' +
       ranking.map((row, index) => renderRankingItem(row, index, metric)).join("") +
     '</div>' +
-  '</article>';
+  '</details>';
 }
 
 function renderPlayerRankings() {

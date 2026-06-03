@@ -1,1 +1,3 @@
 .tmp-pydeps/
+__pycache__/
+scripts/__pycache__/

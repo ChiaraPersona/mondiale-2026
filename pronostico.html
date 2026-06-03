@@ -21,10 +21,27 @@
   </header>
 
   <main class="prediction-reset-shell" aria-label="Nuovo pronostico">
+    <section class="prediction-calendar-section calendar-panel-full" aria-label="Pronostici fase a gironi">
+      <div class="prediction-section-head">
+        <span>Pronostici</span>
+        <h2>Fase a gironi</h2>
+      </div>
+      <div class="calendar-tools" aria-label="Filtri calendario">
+        <input id="fixture-search" type="search" placeholder="Cerca squadra, citt&agrave; o fase">
+        <select id="fixture-filter" aria-label="Filtra calendario">
+          <option value="all">Tutte le partite</option>
+          <option value="group">Fase a gironi</option>
+          <option value="knockout">Eliminazione diretta</option>
+        </select>
+      </div>
+      <aside id="fixture-top-scorers" class="fixture-top-scorers" aria-label="Classifica marcatori pronosticati"></aside>
+      <div id="group-calendar" class="full-calendar"></div>
+    </section>
+
     <section class="prediction-standings-layout" aria-label="Classifiche pronostico">
-      <div class="prediction-groups-section" aria-label="Classifiche gironi modificabili">
+      <div class="prediction-groups-section" aria-label="Classifiche gironi">
         <div class="prediction-section-head">
-          <span>Fase a gironi</span>
+          <span>Classifiche</span>
           <h2>12 gironi</h2>
         </div>
         <div id="prediction-groups-grid" class="prediction-groups-grid"></div>
@@ -37,6 +54,14 @@
         </div>
         <div id="prediction-thirds-table" class="prediction-thirds-table"></div>
       </aside>
+    </section>
+
+    <section class="prediction-calendar-section calendar-panel-full" aria-label="Pronostici eliminazione diretta">
+      <div class="prediction-section-head">
+        <span>Pronostici</span>
+        <h2>Eliminazione diretta</h2>
+      </div>
+      <div id="knockout-calendar" class="full-calendar"></div>
     </section>
 
     <section class="prediction-bracket-section" aria-label="Tabellone pronostico">
@@ -53,6 +78,9 @@
   </footer>
 
   <script src="js/data.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/team-insights.js"></script>
+  <script src="js/worldcup-fixtures.js"></script>
   <script src="js/pronostico.js"></script>
 </body>
 </html>

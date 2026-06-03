@@ -1472,6 +1472,48 @@ footer { color: var(--muted); }
 .fixture-card b { display: block; color: var(--green); font-size: 11px; text-transform: uppercase; }
 .fixture-card strong { display: block; margin-top: 2px; font-size: 13px; line-height: 1.25; }
 .fixture-card small { display: block; margin-top: 5px; color: var(--muted); font-size: 11px; line-height: 1.25; }
+.fixture-score-box {
+  display: grid;
+  grid-template-columns: 46px 12px 46px;
+  gap: 6px;
+  align-items: end;
+  justify-content: start;
+  margin-top: 10px;
+}
+.fixture-score-box > span {
+  display: grid;
+  place-items: center;
+  min-height: 32px;
+  color: rgba(244, 247, 251, .68);
+  font-size: 13px;
+  font-weight: 950;
+}
+.fixture-score-field {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+.fixture-score-field span {
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.fixture-score-field input {
+  width: 46px;
+  height: 38px;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 9px;
+  background: rgba(7, 10, 15, .52);
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 950;
+  text-align: center;
+}
+.fixture-score-field input:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px rgba(0, 208, 132, .16);
+}
 .empty-inline {
   padding: 28px;
   color: var(--muted);
@@ -2897,7 +2939,7 @@ body {
 
 .prediction-groups-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
   gap: 14px;
 }
 
@@ -2934,7 +2976,7 @@ body {
 .prediction-group-table {
   width: 100%;
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: auto;
 }
 
 .prediction-group-table th,
@@ -2955,13 +2997,28 @@ body {
 
 .prediction-group-table th:first-child,
 .prediction-group-table td:first-child {
-  width: 44px;
+  width: 38px;
   text-align: center;
 }
 
 .prediction-group-table th:last-child,
 .prediction-group-table td:last-child {
-  width: 98px;
+  width: 46px;
+  text-align: center;
+}
+
+.prediction-group-table th:not(:nth-child(2)),
+.prediction-group-table td:not(:nth-child(2)) {
+  text-align: center;
+}
+
+.prediction-group-table td:nth-child(2) {
+  min-width: 150px;
+}
+
+.prediction-group-table td strong {
+  color: var(--green);
+  font-weight: 950;
 }
 
 .prediction-team-name {
@@ -3007,6 +3064,21 @@ body {
   opacity: .35;
 }
 
+.prediction-table-stat {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 58px;
+  min-height: 26px;
+  border: 1px solid rgba(255, 255, 255, .11);
+  border-radius: 999px;
+  color: var(--ink);
+  background: rgba(255, 255, 255, .06);
+  font-size: 11px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
 .prediction-thirds-table {
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, .12);
@@ -3034,6 +3106,299 @@ body {
   color: var(--muted);
   font-size: 11px;
   font-weight: 750;
+}
+
+.prediction-calendar-section {
+  display: grid;
+  gap: 16px;
+  margin-top: 28px !important;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, .055), rgba(255, 255, 255, .025)),
+    rgba(16, 23, 34, .72);
+  box-shadow: var(--shadow);
+}
+
+.prediction-calendar-section .calendar-tools {
+  margin: 0;
+}
+
+.prediction-calendar-section .full-calendar {
+  max-height: 1100px !important;
+  overflow: auto !important;
+  padding-right: 6px;
+}
+
+.prediction-calendar-section .fixture-number {
+  font-size: 13px;
+}
+
+.prediction-calendar-section .fixture-list {
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)) !important;
+  gap: 16px !important;
+}
+
+.prediction-calendar-section .fixture-card {
+  position: relative;
+  display: grid !important;
+  grid-template-columns: 48px minmax(0, 1fr) !important;
+  gap: 14px !important;
+  min-height: 210px;
+  padding: 15px !important;
+  border-color: rgba(255, 255, 255, .13);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(0, 208, 132, .14), transparent 40%),
+    linear-gradient(180deg, rgba(255, 255, 255, .075), rgba(255, 255, 255, .032)),
+    rgba(10, 15, 23, .84);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, .24);
+}
+
+.prediction-calendar-section .fixture-card.knockout {
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255, 183, 3, .2), transparent 42%),
+    linear-gradient(180deg, rgba(255, 255, 255, .075), rgba(255, 255, 255, .032)),
+    rgba(10, 15, 23, .86);
+}
+
+.prediction-calendar-section .fixture-number {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #00d084, #2d9cff);
+  box-shadow: 0 8px 20px rgba(0, 208, 132, .18);
+}
+
+.prediction-calendar-section .fixture-card-body {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.prediction-calendar-section .fixture-card-meta b {
+  color: #6cb7ff;
+  letter-spacing: .06em;
+}
+
+.prediction-calendar-section .fixture-card-meta strong {
+  margin-top: 5px;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.25;
+}
+
+.prediction-calendar-section .fixture-card-meta small {
+  color: rgba(244, 247, 251, .62);
+  font-size: 12px;
+}
+
+.prediction-calendar-section .fixture-score-box {
+  margin-top: 0;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 14px;
+  background: rgba(7, 10, 15, .34);
+}
+
+.prediction-calendar-section .fixture-score-box > span {
+  min-height: 36px;
+  color: #f5c84b;
+}
+
+.prediction-calendar-section .fixture-score-field input {
+  width: 44px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, .07);
+  font-size: 17px;
+}
+
+.fixture-scorers-field {
+  display: grid;
+  gap: 6px;
+}
+
+.fixture-scorers-field > span {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 950;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.fixture-scorer-picker {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 38px;
+  gap: 8px;
+}
+
+.fixture-scorer-picker select,
+.fixture-scorer-picker button {
+  border: 1px solid rgba(255, 255, 255, .13);
+  border-radius: 13px;
+  background: rgba(7, 10, 15, .48);
+  color: var(--ink);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 850;
+  outline: 0;
+}
+
+.fixture-scorer-picker select {
+  min-width: 0;
+  height: 38px;
+  padding: 0 10px;
+}
+
+.fixture-scorer-picker option.is-probable-starter {
+  color: #f5c84b;
+  font-weight: 900;
+}
+
+.fixture-scorer-picker button {
+  display: grid;
+  place-items: center;
+  height: 38px;
+  padding: 0;
+  color: #061016;
+  background: var(--green);
+  font-size: 18px;
+  font-weight: 950;
+  cursor: pointer;
+}
+
+.fixture-scorer-picker button:disabled,
+.fixture-scorer-picker select:disabled {
+  cursor: default;
+  opacity: .48;
+}
+
+.fixture-scorer-picker select:focus {
+  border-color: #6cb7ff;
+  box-shadow: 0 0 0 3px rgba(108, 183, 255, .14);
+}
+
+.fixture-scorer-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.fixture-scorer-chips button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 28px;
+  border: 1px solid rgba(245, 200, 75, .28);
+  border-radius: 999px;
+  padding: 5px 8px;
+  color: #f5c84b;
+  background: rgba(245, 200, 75, .08);
+  font-size: 11px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.fixture-scorer-chips button.is-probable-starter {
+  border-color: rgba(245, 200, 75, .62);
+  color: #f5c84b;
+  background: rgba(245, 200, 75, .14);
+  box-shadow: 0 0 0 1px rgba(245, 200, 75, .08) inset;
+}
+
+.fixture-scorer-chips small {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.fixture-top-scorers {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+  padding: 14px;
+  border: 1px solid rgba(245, 200, 75, .18);
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at 0% 0%, rgba(245, 200, 75, .13), transparent 34%),
+    rgba(7, 10, 15, .34);
+}
+
+.fixture-top-scorers > div:first-child span {
+  color: #f5c84b;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.fixture-top-scorers h3 {
+  margin: 5px 0 0;
+  font-size: 18px;
+}
+
+.fixture-top-scorers-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 8px;
+}
+
+.fixture-top-scorers-list p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 750;
+}
+
+.fixture-top-scorer-row {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  column-gap: 8px;
+  row-gap: 2px;
+  align-items: center;
+  padding: 9px;
+  border: 1px solid rgba(255, 255, 255, .09);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .045);
+}
+
+.fixture-top-scorer-row span {
+  grid-row: span 2;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 9px;
+  color: #191203;
+  background: #f5c84b;
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.fixture-top-scorer-row strong,
+.fixture-top-scorer-row small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fixture-top-scorer-row strong {
+  font-size: 13px;
+}
+
+.fixture-top-scorer-row small {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+@media (max-width: 760px) {
+  .prediction-calendar-section .fixture-list,
+  .fixture-top-scorers {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 @media (max-width: 720px) {

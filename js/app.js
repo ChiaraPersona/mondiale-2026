@@ -21,6 +21,7 @@ function getStats(row) {
   const stats = statsStore[roleKey] || statsStore[statKey(row)] || {};
   const career = stats.career || {};
   const season = stats.season2025_26 || {};
+  const recent = stats.recent15 || {};
   return {
     age: stats.age || row.age || "",
     career: {
@@ -37,6 +38,8 @@ function getStats(row) {
     },
     season2025_26: {
       appearances: season.appearances || "",
+      starts: season.starts || "",
+      subIns: season.subIns || "",
       minutes: season.minutes || "",
       goals: season.goals || "",
       assists: season.assists || "",
@@ -44,6 +47,17 @@ function getStats(row) {
       goalsConcededPerGame: season.goalsConcededPerGame || "",
       yellowCards: season.yellowCards || "",
       redCards: season.redCards || "",
+      matchesSample: season.matchesSample || "",
+    },
+    recent15: {
+      appearances: recent.appearances || "",
+      minutes: recent.minutes || "",
+      goals: recent.goals || "",
+      assists: recent.assists || "",
+      yellowCards: recent.yellowCards || "",
+      redCards: recent.redCards || "",
+      averageRating: recent.averageRating || "",
+      scope: recent.scope || "",
     },
     sources: stats.sources || [],
   };
@@ -114,14 +128,15 @@ function matches(row, query) {
     row.group, row.team, row.role, row.player, row.club, row.clubCountry, row.league, row.status,
     stats.age,
     ...Object.values(stats.career),
-    ...Object.values(stats.season2025_26)
+    ...Object.values(stats.season2025_26),
+    ...Object.values(stats.recent15)
   ].join(" "));
   return haystack.includes(query);
 }
 
 function visibleRows() {
   const query = fold(search.value.trim());
-  return rows.filter((row) => (activeGroup === "Tutti" || row.group === activeGroup) && matches(row, query));
+  return rows.filter((row) => (query || activeGroup === "Tutti" || row.group === activeGroup) && matches(row, query));
 }
 
 function statChip(label, value) {
@@ -144,11 +159,12 @@ function goalkeeperConcededAverage(stats) {
 
 function playerStatsHtml(row) {
   const stats = getStats(row);
-  const c = stats.career;
   const s = stats.season2025_26;
+  const recent = stats.recent15;
+  const hasRecent = Object.values(recent).some(Boolean);
   const hasDirettaSource = stats.sources.some((source) => fold(source).includes("diretta.it"));
   const sourceLabel = hasDirettaSource ? "Diretta" : (stats.sources.length ? stats.sources.length + ' fonti' : 'fonti da aggiungere');
-  const seasonLabel = hasDirettaSource ? "Nazionale Diretta" : "Stagione 2025/26";
+  const seasonLabel = hasDirettaSource ? "Ultime 15 partite in nazionale" : "Stagione 2025/26";
   const isGoalkeeper = row.role === "Portieri";
 
   return '<div class="player-stats-panel">'
@@ -157,25 +173,26 @@ function playerStatsHtml(row) {
     + statChip('Fonti', sourceLabel)
     + '</div>'
     + '<details class="stats-details">'
-    + '<summary>Statistiche carriera</summary>'
-    + '<div class="stats-row">'
-    + statChip('Mondiali', c.worldCupEditions)
-    + statChip('Pres. Mondiali', c.worldCupAppearances)
-    + statChip('Partite club', c.clubAppearances)
-    + statChip('Pres. Nazionale', c.nationalAppearances)
-    + (isGoalkeeper ? statChip('Media gol subiti', goalkeeperConcededAverage(stats)) : statChip('Goal', c.goals) + statChip('Assist', c.assists))
-    + statChip('Gialli', c.yellowCards)
-    + statChip('Rossi', c.redCards)
-    + '</div></details>'
-    + '<details class="stats-details">'
     + '<summary>' + seasonLabel + '</summary>'
     + '<div class="stats-row">'
     + statChip('Presenze', s.appearances)
-    + statChip('Minuti', s.minutes)
+    + statChip('Titolare', s.starts)
+    + statChip('Subentra', s.subIns)
     + (isGoalkeeper ? statChip('Media gol subiti', goalkeeperConcededAverage(stats)) : statChip('Goal', s.goals) + statChip('Assist', s.assists))
     + statChip('Gialli', s.yellowCards)
     + statChip('Rossi', s.redCards)
     + '</div></details>'
+    + (hasRecent ? '<details class="stats-details">'
+      + '<summary>Ultime 15 partite generali</summary>'
+      + '<div class="stats-row">'
+      + statChip('Ambito', recent.scope || 'Club + nazionale')
+      + statChip('Presenze', recent.appearances)
+      + statChip('Minuti', recent.minutes)
+      + (isGoalkeeper ? statChip('Rating medio', recent.averageRating) : statChip('Goal', recent.goals) + statChip('Assist', recent.assists))
+      + statChip('Gialli', recent.yellowCards)
+      + statChip('Rossi', recent.redCards)
+      + (isGoalkeeper ? '' : statChip('Rating medio', recent.averageRating))
+      + '</div></details>' : '')
     + '</div>';
 }
 

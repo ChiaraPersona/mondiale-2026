@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pronostico Codex Mondiali 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <img class="site-emblem" src="assets/world-cup-2026-logo.png" alt="FIFA World Cup 2026">
+      <div>
+        <h1>Pronostico Codex</h1>
+        <p class="sub">Simulazione automatica da statistiche squadra e calciatori di movimento.</p>
+      </div>
+    </div>
+
+    <nav class="page-links" aria-label="Sezioni">
+      <a class="page-link" href="index.html">Convocati</a>
+      <a class="page-link" href="player.html">Player</a>
+      <a class="page-link" href="pronostico.html">Pronostico</a>
+      <a class="page-link active" href="pronostico-codex.html">Pronostico Codex</a>
+      <a class="page-link" href="arbitri.html">Arbitri</a>
+      <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
+      <a class="page-link" href="storia.html">Storia</a>
+    </nav>
+  </header>
+
+  <main class="codex-prediction-page">
+    <section class="codex-prediction-hero">
+      <div>
+        <span>Modello automatico</span>
+        <h2>Risultati previsti da Codex</h2>
+        <p>Il calcolo combina statistiche squadra e rendimento recente dei calciatori, escludendo i portieri dal contributo individuale.</p>
+      </div>
+      <div id="codex-method" class="codex-method"></div>
+    </section>
+
+    <section class="codex-section">
+      <div class="prediction-section-head">
+        <span>Ranking</span>
+        <h2>Forza stimata</h2>
+      </div>
+      <div id="codex-team-ranking" class="codex-team-ranking"></div>
+    </section>
+
+    <section class="codex-section">
+      <div class="prediction-section-head">
+        <span>Marcatori</span>
+        <h2>Top 10 capocannonieri previsti</h2>
+      </div>
+      <div id="codex-top-scorers" class="codex-top-scorers"></div>
+    </section>
+
+    <section class="codex-section">
+      <div class="prediction-section-head">
+        <span>Gironi</span>
+        <h2>Partite previste</h2>
+      </div>
+      <div id="codex-group-fixtures" class="codex-fixture-days"></div>
+    </section>
+
+    <section class="codex-section">
+      <div class="prediction-section-head">
+        <span>Classifiche</span>
+        <h2>Standings automatiche</h2>
+      </div>
+      <div id="codex-standings" class="prediction-groups-grid codex-standings-grid"></div>
+    </section>
+
+    <section class="codex-section codex-thirds-section">
+      <div class="prediction-section-head">
+        <span>Ripescaggi</span>
+        <h2>Migliori terze</h2>
+      </div>
+      <div id="codex-thirds" class="prediction-thirds-table"></div>
+    </section>
+
+    <section class="codex-section">
+      <div class="prediction-section-head">
+        <span>Tabellone</span>
+        <h2>Eliminazione diretta</h2>
+      </div>
+      <div id="codex-knockout" class="codex-knockout-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    Pronostico automatico indicativo: non usa statistiche dei portieri nel punteggio individuale.
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/team-insights.js"></script>
+  <script src="js/team-stats-data.js"></script>
+  <script src="js/worldcup-fixtures.js"></script>
+  <script src="js/pronostico-codex.js"></script>
+</body>
+</html>

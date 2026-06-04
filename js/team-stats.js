@@ -181,9 +181,12 @@ function renderTeamCard(team) {
 function renderTeamGroup(group, teams, isOpen) {
   const complete = teams.reduce((sum, team) => sum + aggregateTeamStats(team).completeStats, 0);
   const total = teams.reduce((sum, team) => sum + Math.min((team.matches || []).length, team.sampleSize || 15), 0);
+  const flags = teams.map((team) => (
+    '<img class="team-stats-group-flag" src="' + team.flag + '" alt="Bandiera ' + team.team + '" title="' + team.team + '" loading="lazy">'
+  )).join("");
   return '<details class="team-stats-group"' + (isOpen ? ' open' : '') + '>' +
     '<summary class="team-stats-group-title">' +
-      '<span>Girone ' + group + '</span>' +
+      '<span class="team-stats-group-label"><span>Girone ' + group + '</span><span class="team-stats-group-flags">' + flags + '</span></span>' +
       '<small>' + teams.length + ' squadre &middot; ' + complete + '/' + total + ' complete</small>' +
     '</summary>' +
     '<div class="team-stats-group-body">' + teams.map(renderTeamCard).join("") + '</div>' +

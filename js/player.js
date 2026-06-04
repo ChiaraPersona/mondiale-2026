@@ -137,6 +137,9 @@ function statValueFor(record, key, mode) {
   }
   const recent = record.recent15 || {};
   const advanced = recent.advanced || {};
+  if (key === "goalsConcededPerGame" && activePlayerRankingMode !== "top-five") {
+    return numberValue(recent.nationalGoalkeeper?.goalsConcededPerGame) ?? numberValue(recent.goalsConcededPerGame);
+  }
   if (Object.prototype.hasOwnProperty.call(advanced, key)) return numberValue(advanced[key]);
   return numberValue(recent[key]);
 }

@@ -164,6 +164,24 @@ function statChip(label, value) {
   return '<span class="stat-chip"><b>' + label + '</b>' + stat(value) + '</span>';
 }
 
+function hasStatValue(value) {
+  return value === 0 || (value !== undefined && value !== null && value !== "");
+}
+
+function optionalStatChip(label, value) {
+  return hasStatValue(value) ? statChip(label, value) : "";
+}
+
+function statLine(label, value) {
+  return '<div class="player-stat-line"><span>' + label + '</span><strong>' + stat(value) + '</strong></div>';
+}
+
+function statLineList(items) {
+  const available = items.filter(([, value]) => hasStatValue(value));
+  if (!available.length) return '<div class="player-stat-list"><div class="player-stat-empty">Statistiche non disponibili</div></div>';
+  return '<div class="player-stat-list">' + available.map(([label, value]) => statLine(label, value)).join("") + '</div>';
+}
+
 function goalsConcededAverage(goalsConceded, appearances) {
   const goals = Number(goalsConceded);
   const games = Number(appearances);
@@ -172,7 +190,8 @@ function goalsConcededAverage(goalsConceded, appearances) {
 }
 
 function goalkeeperConcededAverage(stats) {
-  return stats.season2025_26.goalsConcededPerGame
+  return stats.recent15.nationalGoalkeeper?.goalsConcededPerGame
+    || stats.season2025_26.goalsConcededPerGame
     || goalsConcededAverage(stats.season2025_26.goalsConceded, stats.season2025_26.appearances)
     || stats.career.goalsConcededPerGame
     || goalsConcededAverage(stats.career.goalsConceded, stats.career.clubAppearances);
@@ -183,42 +202,59 @@ function playerStatsHtml(row) {
   const s = stats.season2025_26;
   const recent = stats.recent15;
   const advanced = recent.advanced || {};
+  const nationalGoalkeeper = recent.nationalGoalkeeper || {};
   const hasRecent = Object.values(recent).some(Boolean);
+  const hasNationalGoalkeeper = Object.values(nationalGoalkeeper).some(Boolean);
   const hasDirettaSource = stats.sources.some((source) => fold(source).includes("diretta.it"));
   const sourceLabel = hasDirettaSource ? "Diretta" : (stats.sources.length ? stats.sources.length + ' fonti' : 'fonti da aggiungere');
   const seasonLabel = hasDirettaSource ? "Ultime 15 partite in nazionale" : "Stagione 2025/26";
   const isGoalkeeper = row.role === "Portieri";
+  const seasonItems = [
+    ['Presenze', s.appearances],
+    ['Titolare', s.starts],
+    ['Subentra', s.subIns],
+    ...(isGoalkeeper ? [['Media gol subiti', goalkeeperConcededAverage(stats)]] : [['Goal', s.goals], ['Assist', s.assists]]),
+    ['Gialli', s.yellowCards],
+    ['Rossi', s.redCards],
+  ];
+  const nationalGoalkeeperItems = [
+    ['Presenze', nationalGoalkeeper.appearances],
+    ['Gol subiti', nationalGoalkeeper.goalsConceded],
+    ['Media gol subiti', nationalGoalkeeper.goalsConcededPerGame],
+    ['Rating medio', nationalGoalkeeper.averageRating],
+  ];
+  const recentItems = [
+    ['Ambito', recent.scope || 'Club + nazionale'],
+    ['Presenze', recent.appearances],
+    ...(isGoalkeeper ? [['Media gol subiti', recent.goalsConcededPerGame], ['Rating medio', recent.averageRating]] : [['Goal', recent.goals], ['Assist', recent.assists]]),
+    ['Gialli', recent.yellowCards],
+    ['Rossi', recent.redCards],
+    ...(isGoalkeeper ? [] : [
+      ['Rating medio', recent.averageRating],
+      ['Tiri medi', advanced.shotsPerGame],
+      ['Tiri in porta medi', advanced.shotsOnTargetPerGame],
+      ['Falli commessi medi', advanced.foulsCommittedPerGame],
+      ['Falli subiti medi', advanced.foulsSufferedPerGame],
+    ]),
+  ];
 
   return '<div class="player-stats-panel">'
     + '<div class="stats-row stats-row-top">'
-    + statChip('Et&agrave;', stats.age)
+    + optionalStatChip('Et&agrave;', stats.age)
     + statChip('Fonti', sourceLabel)
     + '</div>'
     + '<details class="stats-details">'
     + '<summary>' + seasonLabel + '</summary>'
-    + '<div class="stats-row">'
-    + statChip('Presenze', s.appearances)
-    + statChip('Titolare', s.starts)
-    + statChip('Subentra', s.subIns)
-    + (isGoalkeeper ? statChip('Media gol subiti', goalkeeperConcededAverage(stats)) : statChip('Goal', s.goals) + statChip('Assist', s.assists))
-    + statChip('Gialli', s.yellowCards)
-    + statChip('Rossi', s.redCards)
-    + '</div></details>'
+    + statLineList(seasonItems)
+    + '</details>'
+    + (isGoalkeeper && hasNationalGoalkeeper ? '<details class="stats-details" open>'
+      + '<summary>Ultime 15 partite in nazionale</summary>'
+      + statLineList(nationalGoalkeeperItems)
+      + '</details>' : '')
     + (hasRecent ? '<details class="stats-details">'
       + '<summary>Ultime 15 partite generali</summary>'
-      + '<div class="stats-row">'
-      + statChip('Ambito', recent.scope || 'Club + nazionale')
-      + statChip('Presenze', recent.appearances)
-      + statChip('Minuti', recent.minutes)
-      + (isGoalkeeper ? statChip('Media gol subiti', recent.goalsConcededPerGame) + statChip('Rating medio', recent.averageRating) : statChip('Goal', recent.goals) + statChip('Assist', recent.assists))
-      + statChip('Gialli', recent.yellowCards)
-      + statChip('Rossi', recent.redCards)
-      + (isGoalkeeper ? '' : statChip('Rating medio', recent.averageRating))
-      + (isGoalkeeper ? '' : statChip('Tiri medi', advanced.shotsPerGame)
-        + statChip('Tiri in porta medi', advanced.shotsOnTargetPerGame)
-        + statChip('Falli commessi medi', advanced.foulsCommittedPerGame)
-        + statChip('Falli subiti medi', advanced.foulsSufferedPerGame))
-      + '</div></details>' : '')
+      + statLineList(recentItems)
+      + '</details>' : '')
     + '</div>';
 }
 

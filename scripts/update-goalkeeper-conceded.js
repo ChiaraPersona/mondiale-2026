@@ -35,7 +35,27 @@ function nameTokens(value) {
 }
 
 function keyFor(row) {
-  return `${fold(row.team)}::${fold(row.player)}`;
+  return `${String(row.team || "").toLowerCase()}::${String(row.player || "").toLowerCase()}`;
+}
+
+function flexKey(value) {
+  return fold(value).replace(/\s+/g, " ");
+}
+
+function buildStatsIndex(stats) {
+  const index = new Map();
+  for (const key of Object.keys(stats)) {
+    const [team, player] = key.split("::");
+    index.set(`${flexKey(team)}::${flexKey(player)}`, key);
+  }
+  return index;
+}
+
+function findRecord(stats, index, row) {
+  const directKey = keyFor(row);
+  if (stats[directKey]) return stats[directKey];
+  const indexedKey = index.get(`${flexKey(row.team)}::${flexKey(row.player)}`);
+  return indexedKey ? stats[indexedKey] : null;
 }
 
 function scoreParts(match) {
@@ -109,12 +129,12 @@ function sideFor(match, row, record, extraAliases = []) {
 function addConcededStats() {
   const rows = loadRows();
   const stats = JSON.parse(fs.readFileSync(statsPath, "utf8"));
+  const statsIndex = buildStatsIndex(stats);
   let updated = 0;
   const unresolved = [];
 
   for (const row of rows.filter((item) => item.role === "Portieri")) {
-    const key = keyFor(row);
-    const record = stats[key];
+    const record = findRecord(stats, statsIndex, row);
     const sample = record?.recent15?.sample || [];
     if (!record || !sample.length) {
       unresolved.push({ team: row.team, player: row.player, reason: "nessun campione partita" });

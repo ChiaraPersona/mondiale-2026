@@ -2,6 +2,7 @@ import importlib.util
 import json
 import re
 import sys
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -22,6 +23,14 @@ def load_bulk_module():
 
 def fold(value):
     return re.sub(r"\s+", " ", str(value or "").lower()).strip()
+
+
+def flex(value):
+    text = unicodedata.normalize("NFD", str(value or ""))
+    text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
+    text = text.lower().replace("&", " and ")
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def load_rows():
@@ -45,12 +54,19 @@ def main():
     bulk = load_bulk_module()
     data = json.loads(STATS_PATH.read_text(encoding="utf-8"))
     rows = load_rows()
-    goalkeeper_keys = {
-        f"{fold(row.get('team'))}::{fold(row.get('player'))}"
-        for row in rows
-        if row.get("role") == "Portieri"
-    }
-    targets = [(key, data[key]) for key in goalkeeper_keys if key in data and data[key].get("direttaPlayerId")]
+    stats_index = {}
+    for key in data:
+        team, player = key.split("::", 1)
+        stats_index[f"{flex(team)}::{flex(player)}"] = key
+    goalkeeper_keys = []
+    for row in rows:
+        if row.get("role") != "Portieri":
+            continue
+        direct_key = f"{fold(row.get('team'))}::{fold(row.get('player'))}"
+        key = direct_key if direct_key in data else stats_index.get(f"{flex(row.get('team'))}::{flex(row.get('player'))}")
+        if key:
+            goalkeeper_keys.append(key)
+    targets = [(key, data[key]) for key in sorted(set(goalkeeper_keys)) if data[key].get("direttaPlayerId")]
     updated = 0
     failed = []
 

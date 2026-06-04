@@ -9,8 +9,23 @@
 
 <body class="prediction-reset-page">
   <header>
+    <div class="topbar">
+      <img class="site-emblem" src="assets/world-cup-2026-logo.png" alt="FIFA World Cup 2026">
+      <div>
+        <h1>Pronostico</h1>
+        <p class="sub">Calendario completo, risultati esatti, marcatori e tabellone automatico.</p>
+      </div>
+
+      <label class="search" aria-label="Cerca partita">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5"></path>
+        </svg>
+        <input id="fixture-search" type="search" placeholder="Cerca squadra, citt&agrave; o fase">
+      </label>
+    </div>
+
     <nav class="page-links" aria-label="Sezioni">
-      <img class="site-emblem site-emblem-nav" src="assets/world-cup-2026-logo.png" alt="FIFA World Cup 2026">
       <a class="page-link" href="index.html">Home</a>
       <a class="page-link" href="convocati.html">Convocati</a>
       <a class="page-link" href="probabili-formazioni.html">Probabili formazioni</a>
@@ -24,13 +39,12 @@
   </header>
 
   <main class="prediction-reset-shell" aria-label="Nuovo pronostico">
-    <section class="prediction-calendar-section calendar-panel-full" aria-label="Pronostici fase a gironi">
+    <section id="group-predictions" class="prediction-calendar-section calendar-panel-full" aria-label="Pronostici fase a gironi">
       <div class="prediction-section-head">
         <span>Pronostici</span>
         <h2>Fase a gironi</h2>
       </div>
       <div class="calendar-tools" aria-label="Filtri calendario">
-        <input id="fixture-search" type="search" placeholder="Cerca squadra, citt&agrave; o fase">
         <select id="fixture-filter" aria-label="Filtra calendario">
           <option value="all">Tutte le partite</option>
           <option value="group">Fase a gironi</option>
@@ -41,7 +55,7 @@
       <div id="group-calendar" class="full-calendar"></div>
     </section>
 
-    <section class="prediction-standings-layout" aria-label="Classifiche pronostico">
+    <section id="prediction-standings" class="prediction-standings-layout" aria-label="Classifiche pronostico">
       <div class="prediction-groups-section" aria-label="Classifiche gironi">
         <div class="prediction-section-head">
           <span>Classifiche</span>
@@ -59,7 +73,7 @@
       </aside>
     </section>
 
-    <section class="prediction-calendar-section calendar-panel-full" aria-label="Pronostici eliminazione diretta">
+    <section id="knockout-predictions" class="prediction-calendar-section calendar-panel-full" aria-label="Pronostici eliminazione diretta">
       <div class="prediction-section-head">
         <span>Pronostici</span>
         <h2>Eliminazione diretta</h2>
@@ -67,7 +81,7 @@
       <div id="knockout-calendar" class="full-calendar"></div>
     </section>
 
-    <section class="prediction-bracket-section" aria-label="Tabellone pronostico">
+    <section id="world-champions-board" class="prediction-bracket-section" aria-label="Tabellone pronostico">
       <div class="prediction-section-head prediction-bracket-head">
         <span>Tabellone</span>
         <h2>World Champions</h2>

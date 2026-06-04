@@ -3438,6 +3438,21 @@ body {
   backdrop-filter: blur(18px);
 }
 
+.prediction-reset-page .page-links .page-link:first-child {
+  margin-right: auto;
+}
+
+.prediction-reset-page .page-links .page-link:last-child {
+  margin-left: auto;
+}
+
+#group-predictions,
+#prediction-standings,
+#knockout-predictions,
+#world-champions-board {
+  scroll-margin-top: 78px;
+}
+
 .prediction-reset-page .topbar {
   max-width: 1280px;
   padding: 28px clamp(16px, 4vw, 36px) 18px;
@@ -4043,15 +4058,23 @@ body {
   }
 }
 
+.prediction-reset-page .topbar {
+  max-width: 1480px;
+  padding: 24px clamp(18px, 3vw, 36px) 18px;
+}
+
+.prediction-reset-page .topbar .search {
+  align-self: center;
+}
+
 /* Pronostico compatto */
-.prediction-reset-page .topbar,
 .prediction-intro {
   display: none !important;
 }
 
 .prediction-reset-shell {
   max-width: 1540px;
-  padding: 18px clamp(10px, 2vw, 20px) 42px;
+  padding: 22px clamp(10px, 2vw, 20px) 42px;
 }
 
 .prediction-standings-layout {
@@ -6573,7 +6596,7 @@ body {
 
 .data-confidence-note,
 .source-confidence-note {
-  margin: 14px 0 0;
+  margin: 14px 0 20px;
   border: 1px solid rgba(245, 200, 75, .22);
   border-radius: 14px;
   padding: 12px 14px;
@@ -6584,6 +6607,18 @@ body {
   font-size: 12px;
   font-weight: 800;
   line-height: 1.45;
+}
+
+.source-confidence-note + .player-ranking-modes,
+.source-confidence-note + .team-stats-grid,
+.source-confidence-note + .formations-content {
+  margin-top: 4px;
+}
+
+.player-rankings-intro,
+.team-stats-intro,
+.formations-intro {
+  margin-bottom: 14px;
 }
 
 .source-pill,

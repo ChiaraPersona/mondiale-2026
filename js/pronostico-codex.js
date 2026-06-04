@@ -682,7 +682,7 @@ function codexScorerWeight(row) {
   const starterBonus = codexIsProbableStarter(row) ? 1.18 : 0.9;
   const formationWeight = codexFormationRoleWeight(row);
   const penaltyRank = codexPenaltyRank(row);
-  const penaltyBonus = penaltyRank === 1 ? 1.34 : penaltyRank === 2 ? 1.16 : penaltyRank === 3 ? 1.08 : 1;
+  const penaltyBonus = penaltyRank === 1 ? 1.16 : penaltyRank === 2 ? 1.08 : penaltyRank === 3 ? 1.04 : 1;
   const goalRate = goals / Math.max(apps, 5);
   const assistSupport = assists / Math.max(apps, 6);
   const ratingLift = codexClamp((rating - 6.15) / 1.25, 0, 1.25);
@@ -702,8 +702,6 @@ function codexPickScorer(team, goalIndex, matchNumber) {
   if (!pool.length) return null;
   const totalWeight = pool.reduce((total, item) => total + item.weight, 0);
   const hash = Math.abs(codexHashNumber(`${team}-${matchNumber}-${goalIndex}`));
-  const firstChoiceShare = pool[0].weight / totalWeight;
-  if (goalIndex === 0 || ((hash % 100) / 100) < Math.min(0.72, firstChoiceShare + 0.18)) return pool[0].row;
   let cursor = (hash % 10000) / 10000 * totalWeight;
   for (const item of pool) {
     cursor -= item.weight;

@@ -140,6 +140,7 @@ const codexState = {
   strengths: {},
   groupTables: {},
   thirds: [],
+  thirdAssignments: {},
   results: {},
 };
 
@@ -149,6 +150,38 @@ function codexFold(value) {
 
 function codexCompact(value) {
   return codexFold(value).replace(/&/g, " and ").replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function codexRankingKey(value) {
+  const aliases = {
+    "stati uniti": "usa",
+    "united states": "usa",
+    "usa": "usa",
+    "repubblica ceca": "cechia",
+    "czech republic": "cechia",
+    "cechia": "cechia",
+    "rd congo": "rd del congo",
+    "dr congo": "rd del congo",
+    "democratic republic of congo": "rd del congo",
+    "bosnia herzegovina": "bosnia ed erzegovina",
+    "bosnia erzegovina": "bosnia ed erzegovina",
+    "bosnia and herzegovina": "bosnia ed erzegovina",
+    "curaçao": "curacao",
+    "curacao": "curacao",
+    "olanda": "olanda",
+    "netherlands": "olanda",
+    "emirati arabi uniti": "emirati arabi uniti",
+    "uae": "emirati arabi uniti",
+    "comoros": "comore",
+    "rwanda": "ruanda",
+    "kenya": "kenia",
+    "central african rep": "repubblica centrafricana",
+    "faeroerne": "isole faroe",
+    "south sudan": "sud sudan",
+    "st lucia": "santa lucia",
+  };
+  const key = codexCompact(value);
+  return aliases[key] || key;
 }
 
 function codexNumber(value) {
@@ -164,6 +197,25 @@ function codexAverage(items, key) {
 
 function codexClamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
+}
+
+function codexRankingEntries() {
+  if (typeof fifaRankingData === "undefined") return [];
+  return fifaRankingData.rankings || [];
+}
+
+function codexRankingRecord(team) {
+  const key = codexRankingKey(team);
+  const found = codexRankingEntries().find(([name]) => codexRankingKey(name) === key);
+  if (!found) return null;
+  return { name: found[0], rank: found[1], points: codexNumber(found[2]) };
+}
+
+function codexRankingPoints(team) {
+  const record = codexRankingRecord(team);
+  if (!record) return null;
+  if (record.points !== null) return record.points;
+  return Math.max(720, 1465 - Math.max(0, record.rank - 50) * 4.5);
 }
 
 function codexFlag(team) {
@@ -258,6 +310,7 @@ function codexRecentTeamProfile(matches) {
     const score = String(match.score || "").match(/(\d+)\s*-\s*(\d+)/);
     return score ? Number(score[2]) : null;
   }) ?? 1.1;
+  const opponentRanking = codexWeightedAverage(matches, (match) => codexRankingPoints(match.opponent));
   return {
     form: codexRecentForm(matches),
     weightedForm: codexWeightedAverage(matches, pointsGetter) ?? codexRecentForm(matches),
@@ -271,6 +324,7 @@ function codexRecentTeamProfile(matches) {
     sotFor: codexWeightedAverage(matches, (match) => codexNumber(match.shotsOnTargetFor)) ?? codexAverage(matches, "shotsOnTargetFor") ?? 4,
     sotAgainst: codexWeightedAverage(matches, (match) => codexNumber(match.shotsOnTargetAgainst)) ?? codexAverage(matches, "shotsOnTargetAgainst") ?? 4,
     possession: codexWeightedAverage(matches, (match) => codexNumber(match.possession)) ?? codexAverage(matches, "possession") ?? 50,
+    opponentRanking,
   };
 }
 
@@ -320,10 +374,29 @@ function codexIsProbableStarter(row) {
   return starters.some((starter) => codexStarterMatchesPlayer(starter, row.player));
 }
 
+function codexExpectedMinutesShare(row) {
+  const starter = codexIsProbableStarter(row);
+  if (starter && row.role === "Attaccanti") return 0.82;
+  if (starter && row.role === "Centrocampisti") return 0.86;
+  if (starter) return 0.9;
+  if (row.role === "Attaccanti") return 0.32;
+  if (row.role === "Centrocampisti") return 0.26;
+  return 0.18;
+}
+
 function codexPenaltyRank(row) {
   const takers = typeof penaltyTakers !== "undefined" ? penaltyTakers[row.team] || [] : [];
   const index = takers.findIndex((taker) => codexStarterMatchesPlayer(taker, row.player));
   return index === -1 ? 0 : index + 1;
+}
+
+function codexHasTournamentPedigree(row) {
+  return ["Kylian Mbappe", "Harry Kane", "Lionel Messi", "Cristiano Ronaldo"]
+    .some((name) => codexStarterMatchesPlayer(name, row.player));
+}
+
+function codexIsScorerEligible(row) {
+  return (codexIsProbableStarter(row) && row.role !== "Difensori") || codexPenaltyRank(row) > 0;
 }
 
 function codexFormationRoleWeight(row) {
@@ -456,11 +529,14 @@ function codexTeamStrength(team) {
   const form = recent.weightedForm;
   const players = codexPlayerScore(team);
   const goalkeepers = codexGoalkeeperScore(team);
+  const rankingPoints = codexRankingPoints(team);
+  const rankingBoost = rankingPoints === null ? 0 : codexClamp((rankingPoints - 1450) / 18, -18, 24);
+  const scheduleBoost = recent.opponentRanking === null ? 0 : codexClamp((recent.opponentRanking - 1450) / 28, -14, 16);
   const recentAttack = recent.goalsFor * 4.8 + Math.max(0, recent.goalDiff) * 2.2;
   const recentDefence = -recent.goalsAgainst * 4.8 + Math.max(0, -recent.goalDiff) * -2.1;
-  const attack = 50 + xgFor * 10.5 + sotFor * 2.55 + shotsFor * 0.5 + recentAttack + (players - 50) * 0.48;
-  const control = possession * 0.32 + form * 26 + recent.goalDiff * 2.4;
-  const resistance = 54 - xgAgainst * 12.5 - sotAgainst * 3 - shotsAgainst * 0.72 + recentDefence + (goalkeepers - 50) * 0.5;
+  const attack = 50 + xgFor * 10.5 + sotFor * 2.55 + shotsFor * 0.5 + recentAttack + (players - 50) * 0.48 + rankingBoost * 0.18 + scheduleBoost * 0.18;
+  const control = possession * 0.32 + form * 26 + recent.goalDiff * 2.4 + rankingBoost * 0.28 + scheduleBoost * 0.44;
+  const resistance = 54 - xgAgainst * 12.5 - sotAgainst * 3 - shotsAgainst * 0.72 + recentDefence + (goalkeepers - 50) * 0.5 + rankingBoost * 0.24 + scheduleBoost * 0.16;
   const total = attack * 0.42 + control * 0.24 + resistance * 0.34;
   return {
     team,
@@ -474,6 +550,9 @@ function codexTeamStrength(team) {
     recentGoalDiff: recent.goalDiff,
     recentGoalsFor: recent.goalsFor,
     recentGoalsAgainst: recent.goalsAgainst,
+    rankingPoints,
+    opponentRanking: recent.opponentRanking,
+    scheduleBoost,
     xgFor,
     xgAgainst,
   };
@@ -488,11 +567,12 @@ function codexExpectedGoals(team, opponent, knockout = false) {
   const other = codexState.strengths[opponent];
   if (!own || !other) return 1;
   const strengthEdge = (own.total - other.total) / 34;
+  const rankingEdge = ((own.rankingPoints || 1450) - (other.rankingPoints || 1450)) / 360;
   const attackPressure = (own.attack - 62) / 80;
   const defensivePressure = (50 - other.resistance) / 90;
   const recentEdge = ((own.form - other.form) * 0.22) + ((own.recentGoalDiff - other.recentGoalDiff) * 0.035);
-  const raw = (knockout ? 0.74 : 0.91) + strengthEdge + attackPressure + defensivePressure + recentEdge - (knockout ? 0.24 : 0);
-  return codexClamp(raw, 0.05, 2.5);
+  const raw = (knockout ? 0.72 : 0.9) + strengthEdge + rankingEdge + attackPressure + defensivePressure + recentEdge - (knockout ? 0.24 : 0);
+  return codexClamp(raw, 0.03, 3.05);
 }
 
 function codexGoalsFromExpected(expected) {
@@ -511,8 +591,25 @@ function codexScoreMatch(teamA, teamB, knockout = false) {
   const matchupHash = Math.abs(codexHashNumber(`${teamA}-${teamB}-${knockout ? "ko" : "group"}`));
   const tempo = ((matchupHash % 9) - 4) * 0.045 - (knockout ? 0.04 : 0);
   const tilt = (((Math.floor(matchupHash / 9) % 7) - 3) * 0.035);
-  const expectedA = codexClamp(codexExpectedGoals(teamA, teamB, knockout) + tempo + tilt, 0.05, 2.7);
-  const expectedB = codexClamp(codexExpectedGoals(teamB, teamA, knockout) + tempo - tilt, 0.05, 2.7);
+  const rankGap = (codexRankingPoints(teamA) || 1450) - (codexRankingPoints(teamB) || 1450);
+  const mismatch = Math.abs(rankGap);
+  const favoriteIsAByRanking = rankGap >= 0;
+  const upsetHash = Math.floor(matchupHash / 63) % 17;
+  const exceptionChance = knockout ? 1 : 2;
+  const allowUnderdogException = upsetHash < exceptionChance;
+  let expectedA = codexClamp(codexExpectedGoals(teamA, teamB, knockout) + tempo + tilt, 0.03, 3.15);
+  let expectedB = codexClamp(codexExpectedGoals(teamB, teamA, knockout) + tempo - tilt, 0.03, 3.15);
+  if (mismatch > 300) {
+    const favoriteBoost = codexClamp((mismatch - 300) / 260, 0.12, 0.72);
+    const underdogPenalty = codexClamp((mismatch - 260) / 300, 0.16, 0.86);
+    if (favoriteIsAByRanking) {
+      expectedA += favoriteBoost;
+      expectedB = Math.max(0.03, expectedB - underdogPenalty);
+    } else {
+      expectedB += favoriteBoost;
+      expectedA = Math.max(0.03, expectedA - underdogPenalty);
+    }
+  }
   let goalsA = codexGoalsFromExpected(expectedA);
   let goalsB = codexGoalsFromExpected(expectedB);
   if (Math.abs(expectedA - expectedB) > 0.45 && goalsA === goalsB) {
@@ -521,12 +618,19 @@ function codexScoreMatch(teamA, teamB, knockout = false) {
   }
   const strengthGap = (codexState.strengths[teamA]?.total || 50) - (codexState.strengths[teamB]?.total || 50);
   const expectedGap = expectedA - expectedB;
-  if (Math.abs(strengthGap) > 24 && Math.abs(expectedGap) > 1.15) {
-    const favoriteIsA = strengthGap > 0;
+  if ((Math.abs(strengthGap) > 24 || mismatch > 320) && Math.abs(expectedGap) > 1.05) {
+    const favoriteIsA = Math.abs(rankGap) > 180 ? favoriteIsAByRanking : strengthGap > 0;
     const favoriteExpected = favoriteIsA ? expectedA : expectedB;
     const underdogExpected = favoriteIsA ? expectedB : expectedA;
-    const minimumFavoriteGoals = Math.abs(strengthGap) > 30 && favoriteExpected > 2.35 ? 4 : 3;
-    const maximumUnderdogGoals = underdogExpected < 0.75 ? 0 : underdogExpected < 1.05 ? 1 : 2;
+    const blowoutTier = Math.max(Math.abs(strengthGap), mismatch / 9.5);
+    const minimumFavoriteGoals = blowoutTier > 54 && favoriteExpected > 2.85 ? 5 : blowoutTier > 42 && favoriteExpected > 2.35 ? 4 : 3;
+    const maximumUnderdogGoals = !allowUnderdogException && (mismatch > 360 || underdogExpected < 0.62)
+      ? 0
+      : underdogExpected < 0.58
+        ? 0
+        : underdogExpected < 1.05
+          ? 1
+          : 2;
     if (favoriteIsA) {
       goalsA = Math.max(goalsA, minimumFavoriteGoals);
       goalsB = Math.min(goalsB, maximumUnderdogGoals);
@@ -620,20 +724,34 @@ function codexSimulateGroups() {
     ...table[2],
     group,
   })));
+  codexState.thirdAssignments = codexBuildThirdAssignments();
 }
 
 function codexSeedGroups(seed) {
   return seed.match(/[A-L]/g) || [];
 }
 
-function codexTeamFromSeed(seed) {
+function codexBuildThirdAssignments() {
+  const assignments = {};
+  const usedGroups = new Set();
+  codexRoundOf32Seeds.flat().forEach((seed, index) => {
+    if (seed.trim()[0] !== "3") return;
+    const allowed = new Set(codexSeedGroups(seed));
+    const third = codexState.thirds.find((row) => allowed.has(row.group) && !usedGroups.has(row.group));
+    if (!third) return;
+    assignments[`${index}:${seed}`] = third.team;
+    usedGroups.add(third.group);
+  });
+  return assignments;
+}
+
+function codexTeamFromSeed(seed, seedIndex = -1) {
   const place = seed.trim()[0];
   const groups = codexSeedGroups(seed);
   if (place === "1") return codexState.groupTables[groups[0]]?.[0]?.team || "";
   if (place === "2") return codexState.groupTables[groups[0]]?.[1]?.team || "";
   if (place === "3") {
-    const allowed = new Set(groups);
-    return codexState.thirds.find((row) => allowed.has(row.group))?.team || "";
+    return codexState.thirdAssignments?.[`${seedIndex}:${seed}`] || "";
   }
   return "";
 }
@@ -652,7 +770,9 @@ function codexParticipants(matchNumber) {
   if (directTeams.length === 2) return directTeams;
   if (matchNumber >= 73 && matchNumber <= 88) {
     const location = codexRoundForMatch(matchNumber);
-    return codexRoundOf32Seeds[location.index].map((seed) => codexTeamFromSeed(seed));
+    return codexRoundOf32Seeds[location.index].map((seed, seedOffset) => (
+      codexTeamFromSeed(seed, location.index * 2 + seedOffset)
+    ));
   }
   return (codexDependencies[matchNumber] || []).map((dependency) => {
     const previous = codexState.results[dependency.match];
@@ -673,32 +793,64 @@ function codexSimulateKnockout() {
 }
 
 function codexScorerWeight(row) {
+  if (!codexIsScorerEligible(row)) return 0;
   const recent = codexPlayerRecord(row).recent15 || {};
   const apps = codexNumber(recent.appearances) || 0;
   const goals = codexNumber(recent.goals) || 0;
   const assists = codexNumber(recent.assists) || 0;
   const rating = codexNumber(recent.averageRating) || 6.25;
   const roleBase = row.role === "Attaccanti" ? 1.35 : row.role === "Centrocampisti" ? 0.72 : 0.22;
-  const starterBonus = codexIsProbableStarter(row) ? 1.18 : 0.9;
+  const starterBonus = codexIsProbableStarter(row) ? 1.16 : 0.86;
   const formationWeight = codexFormationRoleWeight(row);
+  const minutesShare = codexExpectedMinutesShare(row);
   const penaltyRank = codexPenaltyRank(row);
   const penaltyBonus = penaltyRank === 1 ? 1.16 : penaltyRank === 2 ? 1.08 : penaltyRank === 3 ? 1.04 : 1;
+  const focalBonus = penaltyRank === 1 && row.role === "Attaccanti" ? 1.18 : 1;
+  const pedigreeBonus = codexHasTournamentPedigree(row) ? 1.1 : 1;
   const goalRate = goals / Math.max(apps, 5);
   const assistSupport = assists / Math.max(apps, 6);
   const ratingLift = codexClamp((rating - 6.15) / 1.25, 0, 1.25);
   const availability = codexClamp(apps / 15, 0.35, 1);
-  return Math.max(0.05, roleBase * starterBonus * formationWeight * penaltyBonus * availability * (0.82 + goalRate * 4.8 + assistSupport * 1.1 + ratingLift * 0.45));
+  return Math.max(0.05, roleBase * starterBonus * formationWeight * penaltyBonus * focalBonus * pedigreeBonus * minutesShare * availability * (0.82 + goalRate * 4.8 + assistSupport * 1.1 + ratingLift * 0.45));
 }
 
 function codexScorerPool(team) {
   return codexOutfieldRows(team)
+    .filter(codexIsScorerEligible)
     .map((row) => ({ row, weight: codexScorerWeight(row) }))
+    .filter((item) => item.weight > 0)
     .sort((a, b) => b.weight - a.weight || a.row.player.localeCompare(b.row.player))
     .slice(0, 12);
 }
 
-function codexPickScorer(team, goalIndex, matchNumber) {
-  const pool = codexScorerPool(team);
+function codexTournamentGoalPressure(row, totals) {
+  const key = `${row.team}::${row.player}`;
+  const currentGoals = totals[key]?.goals || 0;
+  if (!currentGoals) return 1;
+  const isFocalForward = codexPenaltyRank(row) === 1 && row.role === "Attaccanti";
+  const softCap = isFocalForward ? 8 : codexPenaltyRank(row) ? 7 : codexIsProbableStarter(row) && row.role === "Attaccanti" ? 6 : 4;
+  const pressureRate = isFocalForward ? 0.42 : 0.72;
+  const pressure = 1 / (1 + currentGoals * pressureRate);
+  if (currentGoals < softCap) return pressure;
+  return pressure * Math.max(0.08, 1 - (currentGoals - softCap + 1) * 0.28);
+}
+
+function codexMatchGoalPressure(row, matchScorers = []) {
+  const currentGoals = matchScorers.filter((player) => player === row.player).length;
+  if (!currentGoals) return 1;
+  if (row.role === "Attaccanti" && codexPenaltyRank(row) === 1 && currentGoals < 2) return 0.58;
+  if (row.role === "Attaccanti" && currentGoals < 2) return 0.36;
+  if (row.role === "Centrocampisti" && currentGoals < 1) return 0.18;
+  return 0;
+}
+
+function codexPickScorer(team, goalIndex, matchNumber, totals = {}, matchScorers = []) {
+  const pool = codexScorerPool(team)
+    .map((item) => ({
+      ...item,
+      weight: item.weight * codexTournamentGoalPressure(item.row, totals) * codexMatchGoalPressure(item.row, matchScorers),
+    }))
+    .filter((item) => item.weight > 0.01);
   if (!pool.length) return null;
   const totalWeight = pool.reduce((total, item) => total + item.weight, 0);
   const hash = Math.abs(codexHashNumber(`${team}-${matchNumber}-${goalIndex}`));
@@ -710,9 +862,15 @@ function codexPickScorer(team, goalIndex, matchNumber) {
   return pool[0].row;
 }
 
-function codexAddScorer(totals, team, matchNumber, goalIndex) {
-  const row = codexPickScorer(team, goalIndex, matchNumber);
-  if (!row) return;
+function codexAddScorer(totals, team, matchNumber, goalIndex, matchScorers = []) {
+  const row = codexPickScorer(team, goalIndex, matchNumber, totals, matchScorers);
+  if (!row) return null;
+  const total = codexEnsureScorerTotal(totals, row);
+  total.goals += 1;
+  return total;
+}
+
+function codexEnsureScorerTotal(totals, row) {
   const key = `${row.team}::${row.player}`;
   if (!totals[key]) {
     const recent = codexPlayerRecord(row).recent15 || {};
@@ -726,10 +884,30 @@ function codexAddScorer(totals, team, matchNumber, goalIndex) {
       recentApps: codexNumber(recent.appearances) || 0,
       rating: codexNumber(recent.averageRating),
       starter: codexIsProbableStarter(row),
+      expectedMinutes: Math.round(codexExpectedMinutesShare(row) * 90),
       penaltyRank: codexPenaltyRank(row),
     };
   }
-  totals[key].goals += 1;
+  return totals[key];
+}
+
+function codexApplyFocalScorerFloor(totals, teamMatches) {
+  Object.entries(teamMatches).forEach(([team, matches]) => {
+    if (matches < 5) return;
+    const focal = codexScorerPool(team)
+      .map((item) => item.row)
+      .find((row) => row.role === "Attaccanti" && codexPenaltyRank(row) === 1 && codexIsProbableStarter(row));
+    if (!focal) return;
+    const recent = codexPlayerRecord(focal).recent15 || {};
+    const goals = codexNumber(recent.goals) || 0;
+    const apps = codexNumber(recent.appearances) || 0;
+    const rating = codexNumber(recent.averageRating) || 6.2;
+    const goalRate = goals / Math.max(apps, 5);
+    if (goalRate < 0.28 && rating < 7) return;
+    const floor = Math.min(8, Math.round(matches * 0.82 + (rating >= 7.15 ? 0.45 : 0) + (codexHasTournamentPedigree(focal) ? 1.2 : 0)));
+    const total = codexEnsureScorerTotal(totals, focal);
+    total.goals = Math.max(total.goals, floor);
+  });
 }
 
 function codexProjectedScorers() {
@@ -738,20 +916,42 @@ function codexProjectedScorers() {
   Object.entries(codexState.results).forEach(([number, result]) => {
     const matchNumber = Number(number);
     if (!result?.teamA || !result?.teamB) return;
+    result.scorers = {
+      [result.teamA]: [],
+      [result.teamB]: [],
+    };
     teamMatches[result.teamA] = (teamMatches[result.teamA] || 0) + 1;
     teamMatches[result.teamB] = (teamMatches[result.teamB] || 0) + 1;
-    for (let goal = 0; goal < result.goalsA; goal += 1) codexAddScorer(totals, result.teamA, matchNumber, goal);
-    for (let goal = 0; goal < result.goalsB; goal += 1) codexAddScorer(totals, result.teamB, matchNumber, goal);
+    for (let goal = 0; goal < result.goalsA; goal += 1) {
+      const scorer = codexAddScorer(totals, result.teamA, matchNumber, goal, result.scorers[result.teamA]);
+      if (scorer) result.scorers[result.teamA].push(scorer.player);
+    }
+    for (let goal = 0; goal < result.goalsB; goal += 1) {
+      const scorer = codexAddScorer(totals, result.teamB, matchNumber, goal, result.scorers[result.teamB]);
+      if (scorer) result.scorers[result.teamB].push(scorer.player);
+    }
   });
   return Object.values(totals)
     .map((row) => ({ ...row, matches: teamMatches[row.team] || 0 }))
     .sort((a, b) =>
       b.goals - a.goals ||
-      b.matches - a.matches ||
+      (b.penaltyRank === 1 ? 1 : 0) - (a.penaltyRank === 1 ? 1 : 0) ||
+      (b.role === "Attaccanti" ? 1 : 0) - (a.role === "Attaccanti" ? 1 : 0) ||
       (b.rating || 0) - (a.rating || 0) ||
+      b.matches - a.matches ||
       a.player.localeCompare(b.player)
     )
     .slice(0, 10);
+}
+
+function codexScorerSummary(players) {
+  const counts = {};
+  (players || []).forEach((player) => {
+    counts[player] = (counts[player] || 0) + 1;
+  });
+  return Object.entries(counts)
+    .map(([player, goals]) => `${codexEscape(player)}${goals > 1 ? ` x${goals}` : ""}`)
+    .join(", ");
 }
 
 function codexPhaseLabel(phase) {
@@ -768,14 +968,27 @@ function codexPhaseLabel(phase) {
 function codexRenderResultCard(matchNumber) {
   const result = codexState.results[matchNumber];
   if (!result) return "";
+  if (!result.scorers) codexProjectedScorers();
   const phase = codexPhaseLabel(result.fixture?.[1]);
   const venue = result.fixture?.[4] || "";
+  const scorersA = codexScorerSummary(result.scorers?.[result.teamA]);
+  const scorersB = codexScorerSummary(result.scorers?.[result.teamB]);
+  const scorerBlock = (scorersA || scorersB) ? `
+        <div class="codex-match-scorers">
+          ${scorersA ? `<span><b>${codexEscape(result.teamA)}</b>${scorersA}</span>` : ""}
+          ${scorersB ? `<span><b>${codexEscape(result.teamB)}</b>${scorersB}</span>` : ""}
+        </div>` : "";
   return `
     <article class="codex-match-card ${matchNumber > 72 ? "is-knockout" : ""}">
       <span class="fixture-number">${matchNumber}</span>
       <div>
         <b>${phase}</b>
-        <strong>${codexFlag(result.teamA)}${codexEscape(result.teamA)} <span>${result.goalsA}-${result.goalsB}</span> ${codexFlag(result.teamB)}${codexEscape(result.teamB)}</strong>
+        <strong class="codex-match-scoreline">
+          <span class="codex-match-team">${codexFlag(result.teamA)}${codexEscape(result.teamA)}</span>
+          <span class="codex-match-score">${result.goalsA}-${result.goalsB}</span>
+          <span class="codex-match-team">${codexFlag(result.teamB)}${codexEscape(result.teamB)}</span>
+        </strong>
+        ${scorerBlock}
         <small>${codexEscape(venue)}${result.note ? ` &middot; ${result.note}` : ""}</small>
       </div>
     </article>`;
@@ -810,7 +1023,7 @@ function codexRenderTopScorers() {
         <span>${index + 1}</span>
         <div>
           <strong>${codexEscape(row.player)} ${row.starter ? '<em>Probabile titolare</em>' : ""}</strong>
-          <small>${codexFlag(row.team)}${codexEscape(row.team)} &middot; ${codexEscape(row.role)} &middot; ${row.matches} partite previste${row.penaltyRank ? ` &middot; rigorista #${row.penaltyRank}` : ""}</small>
+          <small>${codexFlag(row.team)}${codexEscape(row.team)} &middot; ${codexEscape(row.role)} &middot; ${row.matches} partite previste &middot; ${row.expectedMinutes || 25}' stimati${row.penaltyRank ? ` &middot; rigorista #${row.penaltyRank}` : ""}</small>
         </div>
         <div class="codex-scorer-goals">
           <strong>${row.goals}</strong>
@@ -879,6 +1092,81 @@ function codexRenderKnockout() {
     </section>`).join("");
 }
 
+function codexWorldMatchCard(matchNumber, compact = false) {
+  const result = codexState.results[matchNumber];
+  if (!result) return `<article class="codex-world-match is-empty"><span>Da definire</span></article>`;
+  if (!result.scorers) codexProjectedScorers();
+  const scorersA = codexScorerSummary(result.scorers?.[result.teamA]);
+  const scorersB = codexScorerSummary(result.scorers?.[result.teamB]);
+  return `
+    <article class="codex-world-match ${compact ? "is-compact" : ""}">
+      <div class="codex-world-scoreline">
+        <span class="codex-world-team ${result.winner === result.teamA ? "is-winner" : ""}" title="${codexEscape(result.teamA)}">${codexFlag(result.teamA)}</span>
+        <strong>${result.goalsA}-${result.goalsB}</strong>
+        <span class="codex-world-team ${result.winner === result.teamB ? "is-winner" : ""}" title="${codexEscape(result.teamB)}">${codexFlag(result.teamB)}</span>
+      </div>
+      ${(scorersA || scorersB) ? `
+        <div class="codex-world-scorers">
+          ${scorersA ? `<span title="${codexEscape(result.teamA)}">${codexFlag(result.teamA)}${scorersA}</span>` : ""}
+          ${scorersB ? `<span title="${codexEscape(result.teamB)}">${codexFlag(result.teamB)}${scorersB}</span>` : ""}
+        </div>` : ""}
+    </article>`;
+}
+
+function codexWorldRound(round, indexes) {
+  return indexes.map((index) => codexWorldMatchCard(codexBracketMatchNumbers[round][index], round === "r32")).join("");
+}
+
+function codexChampionTeam() {
+  return codexState.results[104]?.winner || "";
+}
+
+function codexRenderWorldBracket() {
+  const champion = codexChampionTeam();
+  const bronze = codexState.results[103]?.winner || "";
+  const root = document.getElementById("codex-world-bracket");
+  if (!root) return;
+  root.innerHTML = `
+    <div class="codex-world-scroll">
+      <div class="codex-world-board">
+        <div class="codex-world-title">
+          <strong>WORLD CHAMPIONS</strong>
+          <span>Pronostico Codex 2026</span>
+        </div>
+        <div class="codex-world-layout">
+          <div class="codex-world-side">
+            <div class="codex-world-round codex-world-r32">${codexWorldRound("r32", [0,1,2,3,4,5,6,7])}</div>
+            <div class="codex-world-round codex-world-r16">${codexWorldRound("r16", [0,1,2,3])}</div>
+            <div class="codex-world-round codex-world-qf">${codexWorldRound("qf", [0,1])}</div>
+            <div class="codex-world-round codex-world-sf">${codexWorldRound("sf", [0])}</div>
+          </div>
+          <div class="codex-world-center">
+            <div class="codex-world-champion">
+              <span>Campione</span>
+              <strong title="${codexEscape(champion)}">${champion ? codexFlag(champion) : "Da definire"}</strong>
+            </div>
+            <div class="codex-world-trophy">26</div>
+            <div class="codex-world-final">
+              <span>Finale</span>
+              ${codexWorldMatchCard(104)}
+            </div>
+            <div class="codex-world-final is-bronze">
+              <span>Bronzo</span>
+              <strong title="${codexEscape(bronze)}">${bronze ? codexFlag(bronze) : "Da definire"}</strong>
+              ${codexWorldMatchCard(103, true)}
+            </div>
+          </div>
+          <div class="codex-world-side codex-world-side-right">
+            <div class="codex-world-round codex-world-sf">${codexWorldRound("sf", [1])}</div>
+            <div class="codex-world-round codex-world-qf">${codexWorldRound("qf", [2,3])}</div>
+            <div class="codex-world-round codex-world-r16">${codexWorldRound("r16", [4,5,6,7])}</div>
+            <div class="codex-world-round codex-world-r32">${codexWorldRound("r32", [8,9,10,11,12,13,14,15])}</div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
 function codexBoot() {
   codexBuildStrengths();
   codexSimulateGroups();
@@ -890,6 +1178,7 @@ function codexBoot() {
   codexRenderStandings();
   codexRenderThirds();
   codexRenderKnockout();
+  codexRenderWorldBracket();
 }
 
 codexBoot();

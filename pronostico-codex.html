@@ -35,7 +35,7 @@
       <div>
         <span>Modello automatico</span>
         <h2>Risultati previsti da Codex</h2>
-        <p>Il calcolo combina ultime 15 partite delle nazionali, rendimento recente dei calciatori, portieri, probabili formazioni e gerarchie dei rigoristi.</p>
+        <p>Il calcolo combina ultime 15 partite delle nazionali, livello degli avversari da ranking FIFA/SofaScore, rendimento recente dei calciatori, portieri, probabili formazioni, minutaggio stimato e gerarchie dei rigoristi.</p>
       </div>
       <div id="codex-method" class="codex-method"></div>
     </section>
@@ -48,22 +48,38 @@
       <div class="codex-explain-grid">
         <article>
           <strong>Forma nazionale</strong>
-          <small>Le ultime 15 partite pesano molto, con maggiore attenzione alle gare più recenti.</small>
+          <small>Le ultime 15 partite pesano molto, con maggiore attenzione alle gare piu recenti e al valore degli avversari.</small>
         </article>
         <article>
           <strong>Forza squadra</strong>
           <small>xG, xGA, tiri, tiri concessi, possesso e differenza reti influenzano risultato e goleade.</small>
         </article>
         <article>
+          <strong>Ranking gap</strong>
+          <small>Quando il divario FIFA/SofaScore e ampio, aumenta la forbice del risultato e la sfavorita segna solo in casi eccezionali.</small>
+        </article>
+        <article>
           <strong>Gerarchie</strong>
-          <small>Titolari probabili, posizione nel modulo e rigoristi aiutano a distribuire i gol previsti.</small>
+          <small>I marcatori vengono scelti solo tra titolari probabili e rigoristi indicati, evitando riserve fuori gerarchia.</small>
+        </article>
+        <article>
+          <strong>Distribuzione gol</strong>
+          <small>Dopo piu reti il peso cala, ma i terminali principali restano protetti da una soglia realistica se la nazionale gioca molte partite.</small>
+        </article>
+        <article>
+          <strong>Pedigree</strong>
+          <small>Finalizzatori con storico internazionale molto forte ricevono un piccolo bonus nei pareggi di proiezione.</small>
+        </article>
+        <article>
+          <strong>Minutaggio</strong>
+          <small>I titolari vengono stimati su 70-80 minuti; i rigoristi non titolari pesano come subentranti da 20-30 minuti.</small>
         </article>
         <article>
           <strong>Portieri</strong>
-          <small>I dati in nazionale contano più dei club quando il campione è abbastanza affidabile.</small>
+          <small>I dati in nazionale contano piu dei club quando il campione e abbastanza affidabile.</small>
         </article>
       </div>
-      <p class="data-confidence-note">Nota: il pronostico resta indicativo. Le ufficialità, gli infortuni e le scelte dei CT possono cambiare rapidamente il peso dei dati.</p>
+      <p class="data-confidence-note">Nota: il pronostico resta indicativo. Ufficialita, infortuni, rotazioni e scelte dei CT possono cambiare rapidamente il peso dei dati.</p>
     </section>
 
     <section class="codex-section">
@@ -113,10 +129,18 @@
       </div>
       <div id="codex-knockout" class="codex-knockout-grid"></div>
     </section>
+
+    <section class="codex-section codex-world-board-section">
+      <div class="prediction-section-head">
+        <span>World Champions</span>
+        <h2>Tabellone completo con marcatori</h2>
+      </div>
+      <div id="codex-world-bracket" class="codex-world-bracket"></div>
+    </section>
   </main>
 
   <footer>
-    Pronostico automatico indicativo: usa ultime 15 partite delle nazionali, probabili formazioni, rigoristi e dati portieri quando affidabili.
+    Pronostico automatico indicativo: usa ultime 15 partite delle nazionali, ranking FIFA/SofaScore, probabili formazioni, minutaggio stimato, rigoristi e dati portieri quando affidabili.
   </footer>
 
   <script src="js/data.js"></script>
@@ -124,6 +148,7 @@
   <script src="js/formations.js"></script>
   <script src="js/penalty-takers.js"></script>
   <script src="js/team-insights.js"></script>
+  <script src="js/fifa-rankings.js"></script>
   <script src="js/team-stats-data.js"></script>
   <script src="js/worldcup-fixtures.js"></script>
   <script src="js/pronostico-codex.js"></script>

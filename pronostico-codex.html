@@ -18,7 +18,9 @@
     </div>
 
     <nav class="page-links" aria-label="Sezioni">
-      <a class="page-link" href="index.html">Convocati</a>
+      <a class="page-link" href="index.html">Home</a>
+      <a class="page-link" href="convocati.html">Convocati</a>
+      <a class="page-link" href="probabili-formazioni.html">Probabili formazioni</a>
       <a class="page-link" href="player.html">Player</a>
       <a class="page-link" href="pronostico.html">Pronostico</a>
       <a class="page-link active" href="pronostico-codex.html">Pronostico Codex</a>
@@ -33,9 +35,35 @@
       <div>
         <span>Modello automatico</span>
         <h2>Risultati previsti da Codex</h2>
-        <p>Il calcolo combina statistiche squadra e rendimento recente dei calciatori, escludendo i portieri dal contributo individuale.</p>
+        <p>Il calcolo combina ultime 15 partite delle nazionali, rendimento recente dei calciatori, portieri, probabili formazioni e gerarchie dei rigoristi.</p>
       </div>
       <div id="codex-method" class="codex-method"></div>
+    </section>
+
+    <section class="codex-section codex-explain-section">
+      <div class="prediction-section-head">
+        <span>Metodo</span>
+        <h2>Come legge le partite</h2>
+      </div>
+      <div class="codex-explain-grid">
+        <article>
+          <strong>Forma nazionale</strong>
+          <small>Le ultime 15 partite pesano molto, con maggiore attenzione alle gare più recenti.</small>
+        </article>
+        <article>
+          <strong>Forza squadra</strong>
+          <small>xG, xGA, tiri, tiri concessi, possesso e differenza reti influenzano risultato e goleade.</small>
+        </article>
+        <article>
+          <strong>Gerarchie</strong>
+          <small>Titolari probabili, posizione nel modulo e rigoristi aiutano a distribuire i gol previsti.</small>
+        </article>
+        <article>
+          <strong>Portieri</strong>
+          <small>I dati in nazionale contano più dei club quando il campione è abbastanza affidabile.</small>
+        </article>
+      </div>
+      <p class="data-confidence-note">Nota: il pronostico resta indicativo. Le ufficialità, gli infortuni e le scelte dei CT possono cambiare rapidamente il peso dei dati.</p>
     </section>
 
     <section class="codex-section">
@@ -88,11 +116,13 @@
   </main>
 
   <footer>
-    Pronostico automatico indicativo: non usa statistiche dei portieri nel punteggio individuale.
+    Pronostico automatico indicativo: usa ultime 15 partite delle nazionali, probabili formazioni, rigoristi e dati portieri quando affidabili.
   </footer>
 
   <script src="js/data.js"></script>
   <script src="js/stats.js"></script>
+  <script src="js/formations.js"></script>
+  <script src="js/penalty-takers.js"></script>
   <script src="js/team-insights.js"></script>
   <script src="js/team-stats-data.js"></script>
   <script src="js/worldcup-fixtures.js"></script>

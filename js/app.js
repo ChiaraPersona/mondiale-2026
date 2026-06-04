@@ -103,7 +103,9 @@ function starterMatchesPlayer(starter, player) {
 }
 
 function isProbableStarter(row) {
-  const starters = teamInsight(row.team).starters || [];
+  const formationStarters = typeof probableFormations !== "undefined" ? probableFormations[row.team]?.starters || [] : [];
+  const insightStarters = teamInsight(row.team).starters || [];
+  const starters = formationStarters.length ? formationStarters : insightStarters;
   return starters.some((starter) => starterMatchesPlayer(starter, row.player));
 }
 

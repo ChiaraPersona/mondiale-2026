@@ -144,6 +144,19 @@ const codexState = {
   results: {},
 };
 
+const codexRegulationProfiles = {
+  "Spagna": { press: 0.95, tempo: 0.8, dissent: 0.15, timeManagement: 0.05 },
+  "Germania": { press: 0.8, tempo: 0.75, dissent: 0.2, timeManagement: 0.08 },
+  "Francia": { press: 0.58, tempo: 0.82, dissent: 0.18, timeManagement: 0.12 },
+  "Brasile": { press: 0.62, tempo: 0.78, dissent: 0.26, timeManagement: 0.12 },
+  "Olanda": { press: 0.7, tempo: 0.68, dissent: 0.18, timeManagement: 0.08 },
+  "Croazia": { press: 0.3, tempo: 0.22, dissent: 0.28, timeManagement: 0.76 },
+  "Marocco": { press: 0.36, tempo: 0.24, dissent: 0.22, timeManagement: 0.7 },
+  "Portogallo": { press: 0.44, tempo: 0.42, dissent: 0.24, timeManagement: 0.62 },
+  "Argentina": { press: 0.54, tempo: 0.48, dissent: 0.62, timeManagement: 0.58 },
+  "Uruguay": { press: 0.42, tempo: 0.38, dissent: 0.66, timeManagement: 0.6 },
+};
+
 function codexFold(value) {
   return String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 }
@@ -197,6 +210,15 @@ function codexAverage(items, key) {
 
 function codexClamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
+}
+
+function codexRegulationProfile(team) {
+  return codexRegulationProfiles[team] || { press: 0.48, tempo: 0.48, dissent: 0.3, timeManagement: 0.32 };
+}
+
+function codexRegulationBoost(team) {
+  const profile = codexRegulationProfile(team);
+  return (profile.press * 1.15 + profile.tempo * 0.9) - (profile.timeManagement * 1.05 + profile.dissent * 0.38);
 }
 
 function codexRankingEntries() {
@@ -532,11 +554,12 @@ function codexTeamStrength(team) {
   const rankingPoints = codexRankingPoints(team);
   const rankingBoost = rankingPoints === null ? 0 : codexClamp((rankingPoints - 1450) / 18, -18, 24);
   const scheduleBoost = recent.opponentRanking === null ? 0 : codexClamp((recent.opponentRanking - 1450) / 28, -14, 16);
+  const regulationBoost = codexRegulationBoost(team);
   const recentAttack = recent.goalsFor * 4.8 + Math.max(0, recent.goalDiff) * 2.2;
   const recentDefence = -recent.goalsAgainst * 4.8 + Math.max(0, -recent.goalDiff) * -2.1;
-  const attack = 50 + xgFor * 10.5 + sotFor * 2.55 + shotsFor * 0.5 + recentAttack + (players - 50) * 0.48 + rankingBoost * 0.18 + scheduleBoost * 0.18;
-  const control = possession * 0.32 + form * 26 + recent.goalDiff * 2.4 + rankingBoost * 0.28 + scheduleBoost * 0.44;
-  const resistance = 54 - xgAgainst * 12.5 - sotAgainst * 3 - shotsAgainst * 0.72 + recentDefence + (goalkeepers - 50) * 0.5 + rankingBoost * 0.24 + scheduleBoost * 0.16;
+  const attack = 50 + xgFor * 10.5 + sotFor * 2.55 + shotsFor * 0.5 + recentAttack + (players - 50) * 0.48 + rankingBoost * 0.18 + scheduleBoost * 0.18 + regulationBoost * 1.2;
+  const control = possession * 0.32 + form * 26 + recent.goalDiff * 2.4 + rankingBoost * 0.28 + scheduleBoost * 0.44 + regulationBoost * 1.65;
+  const resistance = 54 - xgAgainst * 12.5 - sotAgainst * 3 - shotsAgainst * 0.72 + recentDefence + (goalkeepers - 50) * 0.5 + rankingBoost * 0.24 + scheduleBoost * 0.16 + regulationBoost * 0.45;
   const total = attack * 0.42 + control * 0.24 + resistance * 0.34;
   return {
     team,
@@ -555,6 +578,7 @@ function codexTeamStrength(team) {
     scheduleBoost,
     xgFor,
     xgAgainst,
+    regulationBoost,
   };
 }
 
@@ -944,6 +968,214 @@ function codexProjectedScorers() {
     .slice(0, 10);
 }
 
+function codexTeamStatAverage(team, key) {
+  const matches = codexTeamMatches(team);
+  const values = matches
+    .map((match) => codexNumber(match[key]))
+    .filter((value) => value !== null);
+  if (!values.length) return null;
+  return values.reduce((total, value) => total + value, 0) / values.length;
+}
+
+function codexTeamCardsAverage(team) {
+  const yellow = codexTeamStatAverage(team, "yellowCards") ?? 1.8;
+  const red = codexTeamStatAverage(team, "redCards") ?? 0.05;
+  return yellow + red * 2.4;
+}
+
+function codexTeamFoulsAverage(team) {
+  return codexTeamStatAverage(team, "foulsFor") ?? 12;
+}
+
+function codexTeamCornerAverage(team) {
+  const own = codexTeamStatAverage(team, "cornersFor");
+  const conceded = codexTeamStatAverage(team, "cornersAgainst");
+  if (own === null && conceded === null) return 4.6;
+  return (own ?? 4.6) * 0.62 + (conceded ?? 4.6) * 0.38;
+}
+
+function codexBestScorerName(team) {
+  const scorer = codexScorerPool(team)[0]?.row;
+  return scorer ? scorer.player : "";
+}
+
+function codexBettingConfidence(result) {
+  const strengthGap = Math.abs((codexState.strengths[result.teamA]?.total || 50) - (codexState.strengths[result.teamB]?.total || 50));
+  const expectedGap = Math.abs((result.expectedA || 1) - (result.expectedB || 1));
+  if (strengthGap > 24 || expectedGap > 1.05) return "Alta";
+  if (strengthGap > 12 || expectedGap > 0.55) return "Media";
+  return "Bassa";
+}
+
+function codexBettingRead(result) {
+  const totalGoals = result.goalsA + result.goalsB;
+  const expectedTotal = (result.expectedA || 1) + (result.expectedB || 1);
+  const winner = result.winner;
+  const loser = winner === result.teamA ? result.teamB : result.teamA;
+  const strengthGap = Math.abs((codexState.strengths[result.teamA]?.total || 50) - (codexState.strengths[result.teamB]?.total || 50));
+  const rankGap = Math.abs((codexRankingPoints(result.teamA) || 1450) - (codexRankingPoints(result.teamB) || 1450));
+  const drawish = !winner || Math.abs((result.expectedA || 1) - (result.expectedB || 1)) < 0.32;
+  const safe = drawish
+    ? "Under 3.5"
+    : `${winner} o pareggio`;
+  const balanced = drawish
+    ? "Pareggio/Under 3.5"
+    : `${winner} vincente`;
+  const risky = drawish
+    ? `Risultato esatto ${result.goalsA}-${result.goalsB}`
+    : strengthGap > 24 || rankGap > 300
+      ? `${winner} handicap -1`
+      : `Risultato esatto ${result.goalsA}-${result.goalsB}`;
+  const goalMarket = expectedTotal >= 2.8 || totalGoals >= 3
+    ? "Over 2.5"
+    : expectedTotal <= 1.85 || totalGoals <= 1
+      ? "Under 2.5"
+      : "Over 1.5";
+  const btts = result.goalsA > 0 && result.goalsB > 0 && Math.min(result.expectedA || 0, result.expectedB || 0) > 0.72
+    ? "Goal"
+    : "No Goal";
+  const scorerTeam = winner || (result.expectedA >= result.expectedB ? result.teamA : result.teamB);
+  const scorer = codexBestScorerName(scorerTeam);
+  const cardLine = codexBettingCardLine(result);
+  const cornerLine = codexBettingCornerLine(result);
+  return {
+    safe,
+    balanced,
+    risky,
+    goalMarket,
+    btts,
+    scorer: scorer ? `${scorer} marcatore` : "",
+    cardLine,
+    cornerLine,
+    confidence: codexBettingConfidence(result),
+    loser,
+  };
+}
+
+function codexBettingCardLine(result) {
+  const teamCards = codexTeamCardsAverage(result.teamA) + codexTeamCardsAverage(result.teamB);
+  const teamFouls = codexTeamFoulsAverage(result.teamA) + codexTeamFoulsAverage(result.teamB);
+  const tension = Math.abs((result.expectedA || 1) - (result.expectedB || 1)) < 0.45 ? 0.55 : 0;
+  const comebackPressure = Math.abs(result.goalsA - result.goalsB) <= 1 ? 0.28 : 0;
+  const profileA = codexRegulationProfile(result.teamA);
+  const profileB = codexRegulationProfile(result.teamB);
+  const dissentPressure = (profileA.dissent + profileB.dissent) * 0.72;
+  const timeManagementPressure = (profileA.timeManagement + profileB.timeManagement) * 0.42;
+  const captainOnlyPressure = teamFouls > 26 || tension || dissentPressure > 0.55 ? 0.35 : -0.18;
+  const refereePanelAverage = 4.05;
+  const scoreGapRelief = Math.abs(result.goalsA - result.goalsB) >= 3 ? -0.42 : 0;
+  const cardIndex = teamCards * 0.46 + (teamFouls / 8.4) + refereePanelAverage * 0.2 + tension + comebackPressure + captainOnlyPressure + dissentPressure + timeManagementPressure + scoreGapRelief;
+  const market = cardIndex >= 6.25
+    ? "Over 5.5 cartellini"
+    : cardIndex >= 5.25
+      ? "Over 4.5 cartellini"
+      : cardIndex >= 4.35
+        ? "Over 3.5 cartellini"
+        : cardIndex <= 3.35
+          ? "Under 3.5 cartellini"
+          : "Under 4.5 cartellini";
+  const note = captainOnlyPressure > 0
+    ? "solo capitano: proteste, accerchiamenti e gestione emotiva aumentano il rischio"
+    : "solo capitano: profilo disciplinare piu gestibile";
+  return { market, index: cardIndex, note };
+}
+
+function codexBettingCornerLine(result) {
+  const cornerA = codexTeamCornerAverage(result.teamA);
+  const cornerB = codexTeamCornerAverage(result.teamB);
+  const corners = cornerA + cornerB;
+  const mismatch = Math.abs((codexRankingPoints(result.teamA) || 1450) - (codexRankingPoints(result.teamB) || 1450));
+  const underdogTeam = (codexRankingPoints(result.teamA) || 1450) < (codexRankingPoints(result.teamB) || 1450) ? result.teamA : result.teamB;
+  const underdogExpected = underdogTeam === result.teamA ? result.expectedA : result.expectedB;
+  const profileA = codexRegulationProfile(result.teamA);
+  const profileB = codexRegulationProfile(result.teamB);
+  const pressPressure = (profileA.press + profileB.press) * 0.72;
+  const tempoPressure = (profileA.tempo + profileB.tempo) * 0.38;
+  const timeManagementRisk = (profileA.timeManagement + profileB.timeManagement) * 0.46;
+  const keeperEightSecondRisk = mismatch > 240 && underdogExpected < 0.88;
+  const favoriteCornerBoost = mismatch > 260 ? 0.42 : 0;
+  const lowTempoRelief = (profileA.tempo + profileB.tempo) < 0.75 ? -0.48 : 0;
+  const projectedCornerSide = cornerA + (codexState.strengths[result.teamA]?.attack || 50) / 95 >= cornerB + (codexState.strengths[result.teamB]?.attack || 50) / 95
+    ? result.teamA
+    : result.teamB;
+  const cornerIndex = corners * 0.82 + pressPressure + tempoPressure + timeManagementRisk + favoriteCornerBoost + (keeperEightSecondRisk ? 0.85 : 0) + (((result.expectedA || 1) + (result.expectedB || 1)) > 2.7 ? 0.28 : 0) + lowTempoRelief;
+  const market = cornerIndex >= 11.2
+    ? "Over 10.5 corner"
+    : cornerIndex >= 10
+      ? "Over 9.5 corner"
+      : cornerIndex >= 8.75
+        ? "Over 8.5 corner"
+        : cornerIndex <= 6.8
+          ? "Under 8.5 corner"
+          : cornerIndex <= 7.75
+            ? "Under 9.5 corner"
+            : "Corner live";
+  const note = keeperEightSecondRisk
+    ? `regola 8 secondi: possibile corner extra contro ${underdogTeam}`
+    : pressPressure > 0.8
+      ? "pressione alta: la nuova gestione anti-perdite di tempo puo alzare i corner"
+      : "regola 8 secondi da monitorare live";
+  return { market, index: cornerIndex, note, side: projectedCornerSide };
+}
+
+function codexBettingTag(label, value, tone = "") {
+  return `<span class="codex-bet-tag ${tone}"><b>${codexEscape(label)}</b>${codexEscape(value)}</span>`;
+}
+
+function codexBettingCard(matchNumber, compact = false) {
+  const result = codexState.results[matchNumber];
+  if (!result) return "";
+  const read = codexBettingRead(result);
+  const confidenceTone = read.confidence === "Alta" ? "is-high" : read.confidence === "Media" ? "is-medium" : "is-low";
+  return `
+    <article class="codex-bet-card ${compact ? "is-compact" : ""}">
+      <div class="codex-bet-head">
+        <span class="codex-bet-match">#${matchNumber}</span>
+        <strong>${codexFlag(result.teamA)}${codexEscape(result.teamA)} <span>${result.goalsA}-${result.goalsB}</span> ${codexFlag(result.teamB)}${codexEscape(result.teamB)}</strong>
+        <em class="${confidenceTone}">${read.confidence}</em>
+      </div>
+      <div class="codex-bet-tags">
+        ${codexBettingTag("Prudente", read.safe, "is-safe")}
+        ${codexBettingTag("Equilibrata", read.balanced, "is-balanced")}
+        ${codexBettingTag("Rischiosa", read.risky, "is-risky")}
+        ${codexBettingTag("Gol", `${read.goalMarket} / ${read.btts}`)}
+        ${read.scorer ? codexBettingTag("Marcatore", read.scorer) : ""}
+        ${codexBettingTag("Cartellini", `${read.cardLine.market} · indice ${read.cardLine.index.toFixed(1)}`)}
+        ${codexBettingTag("Corner", `${read.cornerLine.market} · indice ${read.cornerLine.index.toFixed(1)}`)}
+        ${codexBettingTag("Più corner", read.cornerLine.side)}
+      </div>
+      <small>${codexEscape(read.cardLine.note)} &middot; ${codexEscape(read.cornerLine.note)}</small>
+    </article>`;
+}
+
+function codexRenderBettingDraft() {
+  const picksRoot = document.getElementById("codex-betting-picks");
+  const fixturesRoot = document.getElementById("codex-betting-fixtures");
+  if (!picksRoot || !fixturesRoot) return;
+  const groupMatchNumbers = Object.keys(codexState.results)
+    .map(Number)
+    .filter((number) => number <= 72)
+    .sort((a, b) => a - b);
+  const ranked = groupMatchNumbers
+    .map((number) => ({ number, result: codexState.results[number], read: codexBettingRead(codexState.results[number]) }))
+    .sort((a, b) => {
+      const confidenceScore = { Alta: 3, Media: 2, Bassa: 1 };
+      const goalGapA = Math.abs(a.result.goalsA - a.result.goalsB);
+      const goalGapB = Math.abs(b.result.goalsA - b.result.goalsB);
+      return confidenceScore[b.read.confidence] - confidenceScore[a.read.confidence] || goalGapB - goalGapA || a.number - b.number;
+    });
+  const top = ranked.slice(0, 12).map((item) => codexBettingCard(item.number, true)).join("");
+  const all = Object.keys(groupTeams).map((group) => {
+    const cards = groupMatchNumbers
+      .filter((number) => codexState.results[number]?.fixture?.[1] === `Group ${group}`)
+      .map((number) => codexBettingCard(number))
+      .join("");
+    return `<section class="codex-bet-group"><h3>Girone ${group}</h3>${cards}</section>`;
+  }).join("");
+  picksRoot.innerHTML = top;
+  fixturesRoot.innerHTML = all;
+}
+
 function codexScorerSummary(players) {
   const counts = {};
   (players || []).forEach((player) => {
@@ -995,18 +1227,25 @@ function codexRenderResultCard(matchNumber) {
 }
 
 function codexRenderMethod() {
+  const root = document.getElementById("codex-method");
+  if (!root) return;
   const goalkeeperCount = (typeof rows !== "undefined" ? rows : [])
     .filter((row) => row.role === "Portieri" && codexPlayerRecord(row).recent15?.goalsConcededPerGame !== undefined)
     .length;
-  document.getElementById("codex-method").innerHTML = `
+  const recentResultUpdates = (typeof teamStatsData !== "undefined" ? teamStatsData : [])
+    .reduce((total, team) => total + (team.matches || []).filter((match) => /03\/06\/2026|04\/06\/2026|05\/06\/2026/.test(match.date || "")).length, 0);
+  root.innerHTML = `
     <div><strong>48</strong><span>Nazionali</span></div>
     <div><strong>104</strong><span>Partite simulate</span></div>
-    <div><strong>${goalkeeperCount}</strong><span>Portieri con media GS</span></div>`;
+    <div><strong>${goalkeeperCount}</strong><span>Portieri con media GS</span></div>
+    <div><strong>${recentResultUpdates}</strong><span>Amichevoli 3-5 giugno</span></div>`;
 }
 
 function codexRenderRanking() {
+  const root = document.getElementById("codex-team-ranking");
+  if (!root) return;
   const rows = Object.values(codexState.strengths).sort((a, b) => b.total - a.total).slice(0, 16);
-  document.getElementById("codex-team-ranking").innerHTML = rows.map((row, index) => `
+  root.innerHTML = rows.map((row, index) => `
     <article class="codex-ranking-row">
       <span>${index + 1}</span>
       <strong>${codexFlag(row.team)}${codexEscape(row.team)}</strong>
@@ -1015,8 +1254,10 @@ function codexRenderRanking() {
 }
 
 function codexRenderTopScorers() {
+  const root = document.getElementById("codex-top-scorers");
+  if (!root) return;
   const scorers = codexProjectedScorers();
-  document.getElementById("codex-top-scorers").innerHTML = scorers.map((row, index) => {
+  root.innerHTML = scorers.map((row, index) => {
     const rate = row.recentApps ? (row.recentGoals / row.recentApps).toFixed(2) : "n.d.";
     return `
       <article class="codex-scorer-row">
@@ -1036,6 +1277,7 @@ function codexRenderTopScorers() {
 
 function codexRenderGroupFixtures() {
   const root = document.getElementById("codex-group-fixtures");
+  if (!root) return;
   const byGroup = Object.keys(groupTeams).map((group) => {
     const cards = Object.entries(codexState.results)
       .filter(([number, result]) => Number(number) <= 72 && result.fixture?.[1] === `Group ${group}`)
@@ -1061,13 +1303,17 @@ function codexStandingTable(group, table) {
 }
 
 function codexRenderStandings() {
-  document.getElementById("codex-standings").innerHTML = Object.entries(codexState.groupTables)
+  const root = document.getElementById("codex-standings");
+  if (!root) return;
+  root.innerHTML = Object.entries(codexState.groupTables)
     .map(([group, table]) => codexStandingTable(group, table))
     .join("");
 }
 
 function codexRenderThirds() {
-  document.getElementById("codex-thirds").innerHTML = `
+  const root = document.getElementById("codex-thirds");
+  if (!root) return;
+  root.innerHTML = `
     <table class="prediction-group-table prediction-thirds-ranking">
       <thead><tr><th>Pos</th><th>Squadra</th><th>Gir</th><th>PG</th><th>DR</th><th>Pt</th></tr></thead>
       <tbody>${codexState.thirds.map((row, index) => {
@@ -1078,6 +1324,8 @@ function codexRenderThirds() {
 }
 
 function codexRenderKnockout() {
+  const root = document.getElementById("codex-knockout");
+  if (!root) return;
   const rounds = [
     ["Sedicesimi", codexBracketMatchNumbers.r32],
     ["Ottavi", codexBracketMatchNumbers.r16],
@@ -1085,7 +1333,7 @@ function codexRenderKnockout() {
     ["Semifinali", codexBracketMatchNumbers.sf],
     ["Finali", [...codexBracketMatchNumbers.bronze, ...codexBracketMatchNumbers.final]],
   ];
-  document.getElementById("codex-knockout").innerHTML = rounds.map(([title, matches]) => `
+  root.innerHTML = rounds.map(([title, matches]) => `
     <section class="codex-knockout-round">
       <h3>${title}</h3>
       <div>${matches.map((matchNumber) => codexRenderResultCard(matchNumber)).join("")}</div>
@@ -1174,6 +1422,7 @@ function codexBoot() {
   codexRenderMethod();
   codexRenderRanking();
   codexRenderTopScorers();
+  codexRenderBettingDraft();
   codexRenderGroupFixtures();
   codexRenderStandings();
   codexRenderThirds();

@@ -1,6 +1,6 @@
 # Aggiornamento statistiche gratis
 
-Il sito ora legge le statistiche da `js/stats.js` e mantiene una copia pulita in `stats.json` e `data/stats.json`.
+Il sito legge le statistiche da `js/stats.js` e mantiene la copia JSON pulita in `stats.json`.
 
 ## Flusso consigliato
 

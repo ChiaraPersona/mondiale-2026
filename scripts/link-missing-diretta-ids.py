@@ -12,7 +12,6 @@ from curl_cffi import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 STATS_PATH = ROOT / "stats.json"
-DATA_PATH = ROOT / "data" / "stats.json"
 JS_PATH = ROOT / "js" / "stats.js"
 
 COUNTRIES = {
@@ -80,9 +79,9 @@ def load_stats():
 
 def save_stats(data):
     serialized = json.dumps(data, ensure_ascii=False, indent=2)
+    bundled = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
     STATS_PATH.write_text(serialized + "\n", encoding="utf-8")
-    DATA_PATH.write_text(serialized + "\n", encoding="utf-8")
-    JS_PATH.write_text("const playerStats = " + serialized + ";\n", encoding="utf-8")
+    JS_PATH.write_text("const playerStats=" + bundled + ";\n", encoding="utf-8")
 
 
 def parse_jsonp(text):

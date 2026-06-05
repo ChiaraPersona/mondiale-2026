@@ -48,7 +48,6 @@ function readCsv(file) {
 }
 const root = path.resolve(__dirname, '..');
 const statsPath = path.join(root, 'stats.json');
-const dataStatsPath = path.join(root, 'data', 'stats.json');
 
 function normalizeStatsKeys(stats) {
   return Object.fromEntries(Object.entries(stats).map(([key, value]) => [fold(key), value]));
@@ -86,6 +85,5 @@ for (const row of readCsv(input)) {
 
 const output = JSON.stringify(stats, null, 2);
 fs.writeFileSync(statsPath, output + '\n');
-fs.writeFileSync(dataStatsPath, output + '\n');
-fs.writeFileSync(path.join(root, 'js', 'stats.js'), 'const playerStats = ' + output + ';\n');
+fs.writeFileSync(path.join(root, 'js', 'stats.js'), 'const playerStats=' + JSON.stringify(stats) + ';\n');
 console.log('Statistiche aggiornate.');

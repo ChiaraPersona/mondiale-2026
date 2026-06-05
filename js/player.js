@@ -15,7 +15,6 @@ const playerRankingSections = [
   { key: "shotsOnTargetPerGame", label: "Tiri in porta medi", source: "SofaScore", decimals: 2, topFive: false, tone: "shots", excludeGoalkeepers: true },
   { key: "foulsCommittedPerGame", label: "Falli commessi medi", source: "SofaScore", decimals: 2, topFive: false, tone: "fouls", excludeGoalkeepers: true },
   { key: "foulsSufferedPerGame", label: "Falli subiti medi", source: "SofaScore", decimals: 2, topFive: false, tone: "fouls", excludeGoalkeepers: true },
-  { key: "goalsConcededPerGame", label: "Media gol subiti", source: "Diretta", decimals: 2, topFive: false, tone: "keepers", goalkeepersOnly: true, sort: "asc" },
   { key: "yellowCards", label: "Cartellini gialli", source: "Diretta", decimals: 0, topFive: true, tone: "yellow-cards" },
   { key: "redCards", label: "Cartellini rossi", source: "Diretta", decimals: 0, topFive: true, tone: "red-cards" },
 ];
@@ -137,9 +136,6 @@ function statValueFor(record, key, mode) {
   }
   const recent = record.recent15 || {};
   const advanced = recent.advanced || {};
-  if (key === "goalsConcededPerGame" && activePlayerRankingMode !== "top-five") {
-    return numberValue(recent.nationalGoalkeeper?.goalsConcededPerGame) ?? numberValue(recent.goalsConcededPerGame);
-  }
   if (Object.prototype.hasOwnProperty.call(advanced, key)) return numberValue(advanced[key]);
   return numberValue(recent[key]);
 }

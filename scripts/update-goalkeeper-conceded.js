@@ -2,7 +2,6 @@ const fs = require("fs");
 const vm = require("vm");
 
 const statsPath = "stats.json";
-const dataStatsPath = "data/stats.json";
 const jsStatsPath = "js/stats.js";
 
 function loadRows() {
@@ -165,8 +164,7 @@ function addConcededStats() {
 
   const serialized = JSON.stringify(stats, null, 2);
   fs.writeFileSync(statsPath, serialized + "\n");
-  fs.writeFileSync(dataStatsPath, serialized + "\n");
-  fs.writeFileSync(jsStatsPath, "const playerStats = " + serialized + ";\n");
+  fs.writeFileSync(jsStatsPath, "const playerStats=" + JSON.stringify(stats) + ";\n");
   return { updated, unresolved };
 }
 

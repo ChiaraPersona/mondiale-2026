@@ -54,6 +54,10 @@ function sumMatches(matches, key) {
   return matches.reduce((sum, match) => Number.isFinite(Number(match[key])) ? sum + Number(match[key]) : sum, 0);
 }
 
+function countMatchesWithMetric(matches, keys) {
+  return matches.filter((match) => keys.some((key) => Number.isFinite(Number(match[key])))).length;
+}
+
 function averageMatches(matches, key) {
   const values = matches.map((match) => Number(match[key])).filter(Number.isFinite);
   if (!values.length) return "";
@@ -85,14 +89,16 @@ function aggregateTeamStats(team) {
   const opponentRedCards = sumMatches(matches, "opponentRedCards");
   const hasOwnCards = hasMetric(matches, "yellowCards") || hasMetric(matches, "redCards");
   const hasOpponentCards = hasMetric(matches, "opponentYellowCards") || hasMetric(matches, "opponentRedCards");
+  const ownCardMatches = countMatchesWithMetric(matches, ["yellowCards", "redCards"]);
+  const opponentCardMatches = countMatchesWithMetric(matches, ["opponentYellowCards", "opponentRedCards"]);
 
   return {
     matchesUsed: matches.length,
     completeStats: matches.filter(hasCompleteTeamStats).length,
     yellowCards: hasOwnCards ? yellowCards : teamTotals.yellowCards ?? "",
     redCards: hasOwnCards ? redCards : teamTotals.redCards ?? "",
-    cardsPerGame: hasOwnCards ? (yellowCards + redCards) / matches.length : "",
-    cardsAgainstPerGame: hasOpponentCards ? (opponentYellowCards + opponentRedCards) / matches.length : "",
+    cardsPerGame: hasOwnCards && ownCardMatches ? (yellowCards + redCards) / ownCardMatches : "",
+    cardsAgainstPerGame: hasOpponentCards && opponentCardMatches ? (opponentYellowCards + opponentRedCards) / opponentCardMatches : "",
     xgFor: averageMatches(matches, "xgFor"),
     xgAgainst: averageMatches(matches, "xgAgainst"),
     cornersFor: averageMatches(matches, "cornersFor"),

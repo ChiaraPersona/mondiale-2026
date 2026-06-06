@@ -27,7 +27,7 @@ const probableFormations = {
   "Egitto": { module: "3-4-1-2", coach: "Hossam Hassan", source: "Goal", starters: ["El Shenawy", "Ibrahim", "Abdelmaguif", "Rabia", "Hany", "Ateya", "Lasheen", "Fatouh", "Ashour", "Salah", "Marmoush"] },
   "Iran": { module: "4-2-3-1", coach: "Amir Ghalenoei", source: "Goal", starters: ["Beyranvand", "Yousefi", "Kanaani", "Khalilzadeh", "Mohammadi", "Ezatolahi", "Ghoddos", "Jahanbakhsh", "Ghayedi", "Mohebi", "Taremi"] },
   "Nuova Zelanda": { module: "4-2-3-1", coach: "Darren Bazeley", source: "Goal", starters: ["Crocombe", "Payne", "Bindon", "Boxall", "Cacace", "Samenic", "Bell", "McCowatt", "Singh", "Garbett", "Wood"] },
-  "Spagna": { module: "4-3-3", coach: "Luis de la Fuente", source: "Goal", starters: ["Simon", "Llorente", "Cubarsi", "Laporte", "Cucurella", "Pedri", "Rodri", "Fabian Ruiz", "Yamal", "Oyarzabal", "Nico Williams"] },
+  "Spagna": { module: "4-3-3", coach: "Luis de la Fuente", source: "Goal", starters: ["Simon", "Llorente", "Cubarsi", "Laporte", "Cucurella", "Pedri", "Rodri", "Fabian Ruiz", "Yamal", "Ferran Torres", "Nico Williams"] },
   "Capo Verde": { module: "4-2-3-1", coach: "Bubista", source: "Goal", starters: ["Vozinha", "Moreira", "Lopes", "Borges", "Lopes Cabral", "Lenini", "Duarte", "Rodrigues", "Monteiro", "Cabral", "Livramento"] },
   "Arabia Saudita": { module: "4-3-3", coach: "Nikos Donis", source: "Goal", starters: ["Al-Aqidi", "Boushal", "Tambakti", "Al-Amri", "Al-Harbi", "Kanno", "Al-Khaibari", "N. Al-Dawsari", "Mandash", "Al-Buraikan", "S. Al-Dawsari"] },
   "Uruguay": { module: "4-3-3", coach: "Marcelo Bielsa", source: "Goal", starters: ["Rochet", "Valera", "Gimenez", "Araujo", "Olivera", "Valverde", "Ugarte", "Bentancur", "Canobbio", "Nunez", "Rodriguez"] },

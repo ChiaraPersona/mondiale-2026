@@ -8,6 +8,7 @@ const empty = document.getElementById("empty");
 const statsStore = typeof playerStats !== "undefined" ? playerStats : {};
 const insightsStore = typeof teamInsights !== "undefined" ? teamInsights : {};
 const captainsStore = typeof teamCaptains !== "undefined" ? teamCaptains : {};
+const formationInsightsStore = typeof formationInsights !== "undefined" ? formationInsights : {};
 
 function fold(value) {
   return String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -110,8 +111,19 @@ function isProbableStarter(row) {
 }
 
 function isCaptain(row) {
-  const captains = captainsStore[row.team] || [];
+  const captainFromFormation = formationInsightsStore[row.team]?.captain ? [formationInsightsStore[row.team].captain] : [];
+  const captains = [...(captainsStore[row.team] || []), ...captainFromFormation];
   return captains.some((captain) => starterMatchesPlayer(captain, row.player));
+}
+
+function isFormationStar(row) {
+  const starPlayer = formationInsightsStore[row.team]?.starPlayer;
+  return starPlayer ? starterMatchesPlayer(starPlayer, row.player) : false;
+}
+
+function isFormationMainStriker(row) {
+  const mainStriker = formationInsightsStore[row.team]?.mainStriker;
+  return mainStriker ? starterMatchesPlayer(mainStriker, row.player) : false;
 }
 
 function stat(value) {
@@ -149,6 +161,8 @@ function matches(row, query) {
   const haystack = fold([
     row.group, row.team, row.role, row.player, row.club, row.clubCountry, row.league, row.status,
     isCaptain(row) ? "capitano" : "",
+    isFormationStar(row) ? "star player" : "",
+    isFormationMainStriker(row) ? "attaccante principale" : "",
     stats.age,
     ...Object.values(stats.career),
     ...Object.values(stats.season2025_26),
@@ -303,8 +317,10 @@ function render() {
           const league = row.league ? row.league : "Non indicata";
           const probableStarter = isProbableStarter(row);
           const captain = isCaptain(row);
-          return '<div class="player player-expanded ' + (probableStarter ? 'is-probable-starter' : '') + (captain ? ' is-captain' : '') + '">'
-            + '<div class="player-main"><div class="name">' + row.player + (captain ? '<span class="captain-pill">Capitano</span>' : '') + (probableStarter ? '<span class="starter-pill">Probabile titolare</span>' : '') + '</div><div class="club">' + club + ' <span class="country">(' + country + ' &middot; ' + league + ')</span></div></div>'
+          const star = isFormationStar(row);
+          const mainStriker = isFormationMainStriker(row);
+          return '<div class="player player-expanded ' + (probableStarter ? 'is-probable-starter' : '') + (captain ? ' is-captain' : '') + (star ? ' is-star-player' : '') + (mainStriker ? ' is-main-striker' : '') + '">'
+            + '<div class="player-main"><div class="name">' + row.player + (captain ? '<span class="captain-pill">Capitano</span>' : '') + (star ? '<span class="star-pill">Star player</span>' : '') + (mainStriker ? '<span class="striker-pill">Attaccante</span>' : '') + (probableStarter ? '<span class="starter-pill">Probabile titolare</span>' : '') + '</div><div class="club">' + club + ' <span class="country">(' + country + ' &middot; ' + league + ')</span></div></div>'
             + playerStatsHtml(row)
             + '</div>';
         }).join("") + '</div>';

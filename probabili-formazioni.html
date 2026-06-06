@@ -12,8 +12,8 @@
     <div class="topbar">
       <img class="site-emblem" src="assets/world-cup-2026-logo.png" alt="FIFA World Cup 2026">
       <div>
-        <h1>Probabili Formazioni</h1>
-        <p class="sub">Moduli e undici tipo delle 48 nazionali, organizzati per girone.</p>
+        <h1>Probabili Formazioni 2026</h1>
+        <p class="sub">Moduli, titolari, rigoristi, giocatori chiave e indice forza delle nazionali.</p>
       </div>
 
       <label class="search" aria-label="Cerca formazione">
@@ -50,8 +50,8 @@
     <section class="formations-intro">
       <div>
         <span>XI tipo</span>
-        <h2>Probabili titolari su campo</h2>
-        <p>Ogni card mostra modulo, allenatore e disposizione per linee. I dati sono indicativi e vanno aggiornati quando cambiano gerarchie o ufficialita.</p>
+        <h2>Probabili Formazioni Mondiale 2026</h2>
+        <p>Campo grafico, gerarchie dal dischetto, giocatori chiave e mercati collegati per leggere ogni nazionale in ottica torneo e pronostico.</p>
       </div>
       <div class="formations-source-links">
         <a href="https://www.fantamaster.it/probabili-formazioni-tipo-mondiali-2026-titolari-ballottaggi-48-squadre/" target="_blank" rel="noreferrer">FantaMaster</a>
@@ -60,6 +60,37 @@
       </div>
     </section>
     <p class="source-confidence-note"><span class="source-pill is-estimated">Stime pre-torneo</span> Titolari, moduli e rigoristi vanno letti come gerarchie probabili fino alle ufficialita dei CT.</p>
+
+    <section class="formation-controls" aria-label="Filtri formazioni">
+      <label>
+        <span>Tier</span>
+        <select id="formations-tier">
+          <option value="">Tutti i tier</option>
+        </select>
+      </label>
+      <label>
+        <span>Confederazione</span>
+        <select id="formations-confed">
+          <option value="">Tutte</option>
+        </select>
+      </label>
+      <label>
+        <span>Modulo</span>
+        <select id="formations-module">
+          <option value="">Tutti i moduli</option>
+        </select>
+      </label>
+      <label>
+        <span>Ordina</span>
+        <select id="formations-sort">
+          <option value="group">Girone</option>
+          <option value="index-desc">World Cup Index</option>
+          <option value="team">Squadra A-Z</option>
+        </select>
+      </label>
+    </section>
+
+    <section id="formations-highlights" class="formations-highlights"></section>
 
     <section id="formations-content" class="formations-content"></section>
   </main>
@@ -71,6 +102,7 @@
   <script src="js/data.js"></script>
   <script src="js/formations.js"></script>
   <script src="js/penalty-takers.js"></script>
+  <script src="js/formations-insights.js"></script>
   <script src="js/formations-page.js"></script>
 </body>
 </html>

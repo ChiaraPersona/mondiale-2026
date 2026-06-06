@@ -368,11 +368,17 @@ function codexGoalkeeperRows(team) {
 function codexTeamInsight(team) {
   const formation = typeof probableFormations !== "undefined" ? probableFormations[team] || {} : {};
   const insight = typeof teamInsights !== "undefined" ? teamInsights[team] || {} : {};
+  const formationMeta = typeof formationInsights !== "undefined" ? formationInsights[team] || {} : {};
   return {
     ...insight,
     ...formation,
+    ...formationMeta,
     starters: (formation.starters || []).length ? formation.starters : (insight.starters || []),
   };
+}
+
+function codexFormationMeta(team) {
+  return typeof formationInsights !== "undefined" ? formationInsights[team] || {} : {};
 }
 
 function codexCleanNameTokens(value) {
@@ -404,6 +410,16 @@ function codexExpectedMinutesShare(row) {
   if (row.role === "Attaccanti") return 0.32;
   if (row.role === "Centrocampisti") return 0.26;
   return 0.18;
+}
+
+function codexIsFormationStar(row) {
+  const starPlayer = codexFormationMeta(row.team).starPlayer;
+  return starPlayer ? codexStarterMatchesPlayer(starPlayer, row.player) : false;
+}
+
+function codexIsMainStriker(row) {
+  const mainStriker = codexFormationMeta(row.team).mainStriker;
+  return mainStriker ? codexStarterMatchesPlayer(mainStriker, row.player) : false;
 }
 
 function codexPenaltyRank(row) {
@@ -541,6 +557,7 @@ function codexGoalkeeperScore(team) {
 function codexTeamStrength(team) {
   const matches = codexTeamMatches(team);
   const recent = codexRecentTeamProfile(matches);
+  const formationMeta = codexFormationMeta(team);
   const xgFor = recent.xgFor;
   const xgAgainst = recent.xgAgainst;
   const shotsFor = recent.shotsFor;
@@ -555,11 +572,14 @@ function codexTeamStrength(team) {
   const rankingBoost = rankingPoints === null ? 0 : codexClamp((rankingPoints - 1450) / 18, -18, 24);
   const scheduleBoost = recent.opponentRanking === null ? 0 : codexClamp((recent.opponentRanking - 1450) / 28, -14, 16);
   const regulationBoost = codexRegulationBoost(team);
+  const indexBoost = formationMeta.worldCupIndex ? codexClamp((formationMeta.worldCupIndex - 78) / 1.6, -12, 14) : 0;
+  const tierBoosts = { favorite: 5.5, contender: 2.5, dark_horse: 0.6, mid_tier: -1.8, outsider: -4.2 };
+  const tierBoost = tierBoosts[formationMeta.tier] || 0;
   const recentAttack = recent.goalsFor * 4.8 + Math.max(0, recent.goalDiff) * 2.2;
   const recentDefence = -recent.goalsAgainst * 4.8 + Math.max(0, -recent.goalDiff) * -2.1;
-  const attack = 50 + xgFor * 10.5 + sotFor * 2.55 + shotsFor * 0.5 + recentAttack + (players - 50) * 0.48 + rankingBoost * 0.18 + scheduleBoost * 0.18 + regulationBoost * 1.2;
-  const control = possession * 0.32 + form * 26 + recent.goalDiff * 2.4 + rankingBoost * 0.28 + scheduleBoost * 0.44 + regulationBoost * 1.65;
-  const resistance = 54 - xgAgainst * 12.5 - sotAgainst * 3 - shotsAgainst * 0.72 + recentDefence + (goalkeepers - 50) * 0.5 + rankingBoost * 0.24 + scheduleBoost * 0.16 + regulationBoost * 0.45;
+  const attack = 50 + xgFor * 10.5 + sotFor * 2.55 + shotsFor * 0.5 + recentAttack + (players - 50) * 0.48 + rankingBoost * 0.18 + scheduleBoost * 0.18 + regulationBoost * 1.2 + indexBoost * 0.48 + tierBoost * 0.72;
+  const control = possession * 0.32 + form * 26 + recent.goalDiff * 2.4 + rankingBoost * 0.28 + scheduleBoost * 0.44 + regulationBoost * 1.65 + indexBoost * 0.36 + tierBoost * 0.42;
+  const resistance = 54 - xgAgainst * 12.5 - sotAgainst * 3 - shotsAgainst * 0.72 + recentDefence + (goalkeepers - 50) * 0.5 + rankingBoost * 0.24 + scheduleBoost * 0.16 + regulationBoost * 0.45 + indexBoost * 0.28 + tierBoost * 0.34;
   const total = attack * 0.42 + control * 0.24 + resistance * 0.34;
   return {
     team,
@@ -579,6 +599,8 @@ function codexTeamStrength(team) {
     xgFor,
     xgAgainst,
     regulationBoost,
+    worldCupIndex: formationMeta.worldCupIndex,
+    formationTier: formationMeta.tier,
   };
 }
 
@@ -830,12 +852,13 @@ function codexScorerWeight(row) {
   const penaltyRank = codexPenaltyRank(row);
   const penaltyBonus = penaltyRank === 1 ? 1.16 : penaltyRank === 2 ? 1.08 : penaltyRank === 3 ? 1.04 : 1;
   const focalBonus = penaltyRank === 1 && row.role === "Attaccanti" ? 1.18 : 1;
+  const formationFocalBonus = codexIsMainStriker(row) ? 1.2 : codexIsFormationStar(row) ? 1.12 : 1;
   const pedigreeBonus = codexHasTournamentPedigree(row) ? 1.1 : 1;
   const goalRate = goals / Math.max(apps, 5);
   const assistSupport = assists / Math.max(apps, 6);
   const ratingLift = codexClamp((rating - 6.15) / 1.25, 0, 1.25);
   const availability = codexClamp(apps / 15, 0.35, 1);
-  return Math.max(0.05, roleBase * starterBonus * formationWeight * penaltyBonus * focalBonus * pedigreeBonus * minutesShare * availability * (0.82 + goalRate * 4.8 + assistSupport * 1.1 + ratingLift * 0.45));
+  return Math.max(0.05, roleBase * starterBonus * formationWeight * penaltyBonus * focalBonus * formationFocalBonus * pedigreeBonus * minutesShare * availability * (0.82 + goalRate * 4.8 + assistSupport * 1.1 + ratingLift * 0.45));
 }
 
 function codexScorerPool(team) {
@@ -851,7 +874,7 @@ function codexTournamentGoalPressure(row, totals) {
   const key = `${row.team}::${row.player}`;
   const currentGoals = totals[key]?.goals || 0;
   if (!currentGoals) return 1;
-  const isFocalForward = codexPenaltyRank(row) === 1 && row.role === "Attaccanti";
+  const isFocalForward = (codexPenaltyRank(row) === 1 && row.role === "Attaccanti") || codexIsMainStriker(row);
   const softCap = isFocalForward ? 8 : codexPenaltyRank(row) ? 7 : codexIsProbableStarter(row) && row.role === "Attaccanti" ? 6 : 4;
   const pressureRate = isFocalForward ? 0.42 : 0.72;
   const pressure = 1 / (1 + currentGoals * pressureRate);
@@ -872,18 +895,22 @@ function codexPickScorer(team, goalIndex, matchNumber, totals = {}, matchScorers
   const pool = codexScorerPool(team)
     .map((item) => ({
       ...item,
-      weight: item.weight * codexTournamentGoalPressure(item.row, totals) * codexMatchGoalPressure(item.row, matchScorers),
+      weight: Math.pow(item.weight * codexTournamentGoalPressure(item.row, totals) * codexMatchGoalPressure(item.row, matchScorers), 1.18),
     }))
     .filter((item) => item.weight > 0.01);
   if (!pool.length) return null;
-  const totalWeight = pool.reduce((total, item) => total + item.weight, 0);
+  const primaryPool = goalIndex < 2
+    ? pool.filter((item) => item.row.role === "Attaccanti" || codexPenaltyRank(item.row) === 1 || codexIsMainStriker(item.row))
+    : pool;
+  const activePool = primaryPool.length ? primaryPool : pool;
+  const totalWeight = activePool.reduce((total, item) => total + item.weight, 0);
   const hash = Math.abs(codexHashNumber(`${team}-${matchNumber}-${goalIndex}`));
   let cursor = (hash % 10000) / 10000 * totalWeight;
-  for (const item of pool) {
+  for (const item of activePool) {
     cursor -= item.weight;
     if (cursor <= 0) return item.row;
   }
-  return pool[0].row;
+  return activePool[0].row;
 }
 
 function codexAddScorer(totals, team, matchNumber, goalIndex, matchScorers = []) {
@@ -920,7 +947,7 @@ function codexApplyFocalScorerFloor(totals, teamMatches) {
     if (matches < 5) return;
     const focal = codexScorerPool(team)
       .map((item) => item.row)
-      .find((row) => row.role === "Attaccanti" && codexPenaltyRank(row) === 1 && codexIsProbableStarter(row));
+      .find((row) => row.role === "Attaccanti" && codexIsProbableStarter(row) && (codexPenaltyRank(row) === 1 || codexIsMainStriker(row)));
     if (!focal) return;
     const recent = codexPlayerRecord(focal).recent15 || {};
     const goals = codexNumber(recent.goals) || 0;

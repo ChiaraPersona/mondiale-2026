@@ -38,7 +38,7 @@ const penaltyTakers = {
   "RD Congo": ["Wissa", "Kakuta", "Bakambu"],
   "Scozia": ["McTominay", "McGinn", "Christie"],
   "Senegal": ["Mane", "Jackson", "I. Sarr"],
-  "Spagna": ["Oyarzabal", "Rodri", "Yamal"],
+  "Spagna": ["Ferran Torres", "Rodri", "Yamal"],
   "Stati Uniti": ["Pulisic", "Balogun", "Pepi"],
   "Sudafrica": ["Foster", "Mokoena", "Appollis"],
   "Svezia": ["Gyokeres", "Isak", "Sema"],

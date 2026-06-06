@@ -491,6 +491,14 @@ function codexGoalsConcededInMatch(team, match) {
 }
 
 function codexNationalGoalkeeperSample(team, recent) {
+  if (recent.nationalGoalkeeper?.matches?.length) {
+    return recent.nationalGoalkeeper.matches
+      .map((match) => ({
+        conceded: codexNumber(match.conceded),
+        rating: codexNumber(match.rating),
+      }))
+      .filter((item) => item.conceded !== null);
+  }
   if (recent.nationalGoalkeeper?.sample?.length) {
     return recent.nationalGoalkeeper.sample
       .map((match) => ({

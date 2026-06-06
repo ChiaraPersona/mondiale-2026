@@ -11,7 +11,7 @@ function formationFold(value) {
 }
 
 function formationEscape(value) {
-  return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+  return String(value || "").replace(/[&<>"']/g, (char) => ({
     "&": "&amp;",
     "<": "&lt;",
     ">": "&gt;",
@@ -23,6 +23,15 @@ function formationEscape(value) {
 function formationFlag(team) {
   const src = teamFlags[team];
   return src ? '<img class="formation-flag" src="' + src + '" alt="Bandiera ' + formationEscape(team) + '" loading="lazy">' : "";
+}
+
+function formationSlug(value) {
+  return formationFold(value).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+function formationImage(team) {
+  const src = "assets/formations/" + formationSlug(team) + ".png";
+  return '<figure class="formation-image-wrap"><img src="' + src + '" alt="Probabile formazione ' + formationEscape(team) + '" loading="lazy"></figure>';
 }
 
 function formationMeta(team) {
@@ -123,27 +132,18 @@ function renderFormationCard(team, group, isOpen = false) {
   const data = probableFormations[team] || {};
   const meta = formationMeta(team);
   const starters = data.starters || [];
-  const lines = formationLines(data.module, starters);
   const reserves = formationReserves(team, starters);
   const tierLabel = formationTierLabels[meta.tier] || meta.tier;
   return '<details class="formation-card formation-tier-' + formationEscape(meta.tier) + '"' + (isOpen ? " open" : "") + ' style="--group-color:' + (groupColors[group] || "#00d084") + '">' +
     '<summary class="formation-card-head">' +
-      '<div class="formation-team-title">' + formationFlag(team) + '<div><h3>' + formationEscape(team) + '</h3><span>Girone ' + formationEscape(group) + ' · ' + formationEscape(meta.confed) + '</span></div></div>' +
+      '<div class="formation-team-title">' + formationFlag(team) + '<div><h3>' + formationEscape(team) + '</h3><span>Girone ' + formationEscape(group) + ' &middot; ' + formationEscape(meta.confed) + '</span></div></div>' +
       '<div class="formation-meta"><strong>' + formationEscape(data.module || "Modulo n.d.") + '</strong><span>' + formationEscape(data.coach || "Allenatore n.d.") + '</span></div>' +
       '<div class="formation-index"><strong>' + meta.worldCupIndex + '</strong><span>Index</span></div>' +
       '<span class="formation-tier-badge">' + formationEscape(tierLabel) + '</span>' +
       '<span class="formation-toggle" aria-hidden="true"></span>' +
     '</summary>' +
     '<div class="formation-card-body">' +
-      '<div class="formation-pitch">' +
-        lines.map((line, index) => '<div class="formation-line formation-line-' + index + '">' +
-          '<em>' + formationEscape(line.label) + '</em>' +
-          '<div>' + line.players.map((player) => {
-            const role = formationPlayerRole(team, player);
-            return '<span class="formation-player">' + (role ? '<b>' + role + '</b>' : "") + formationEscape(formationStarterLabel(team, player)) + '</span>';
-          }).join("") + '</div>' +
-        '</div>').join("") +
-      '</div>' +
+      formationImage(team) +
       '<aside class="formation-side-panel">' +
         '<div class="formation-coach-box"><span>Allenatore</span><strong>' + formationEscape(data.coach || "n.d.") + '</strong></div>' +
         '<div class="formation-facts">' +
@@ -162,7 +162,6 @@ function renderFormationCard(team, group, isOpen = false) {
     '</div>' +
   '</details>';
 }
-
 function getAllFormationTeams() {
   return Object.entries(groupTeams).flatMap(([group, teams]) => teams.map((team) => ({ team, group })));
 }

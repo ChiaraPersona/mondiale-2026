@@ -1,10 +1,10 @@
 # Aggiornamento statistiche gratis
 
-Il sito legge le statistiche da `js/stats.js` e mantiene la copia JSON pulita in `stats.json`.
+Il sito legge le statistiche da `js/stats.js`, in versione alleggerita: conserva medie, totali e riepiloghi utili, evitando lo storico completo delle singole partite quando non serve alla UI.
 
 ## Flusso consigliato
 
-1. Compila un CSV gratuito con i dati trovati da Wikidata/Wikipedia/FBref/Kaggle.
+1. Compila un CSV gratuito con i dati trovati dalle fonti che stai usando per il sito.
 2. Lancia:
 
 ```bash

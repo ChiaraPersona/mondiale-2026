@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
- * Aggiorna js/stats.js e stats.json da un CSV gratuito modificato a mano.
+ * Aggiorna js/stats.js da un CSV gratuito modificato a mano.
+ * Il bundle resta alleggerito: non richiede lo storico completo match-by-match.
  * Uso:
  *   node scripts/update-stats-from-csv.js data/stats.csv
  *
@@ -47,13 +48,21 @@ function readCsv(file) {
   });
 }
 const root = path.resolve(__dirname, '..');
-const statsPath = path.join(root, 'stats.json');
+const statsPath = path.join(root, 'js', 'stats.js');
 
 function normalizeStatsKeys(stats) {
   return Object.fromEntries(Object.entries(stats).map(([key, value]) => [fold(key), value]));
 }
 
-const stats = normalizeStatsKeys(JSON.parse(fs.readFileSync(statsPath, 'utf8')));
+function readStatsBundle(file) {
+  return JSON.parse(
+    fs.readFileSync(file, 'utf8')
+      .replace(/^\uFEFF?const playerStats\s*=\s*/, '')
+      .replace(/;\s*$/, '')
+  );
+}
+
+const stats = normalizeStatsKeys(readStatsBundle(statsPath));
 
 for (const row of readCsv(input)) {
   const baseKey = fold(`${row.team}::${row.player}`);
@@ -84,6 +93,5 @@ for (const row of readCsv(input)) {
 }
 
 const output = JSON.stringify(stats, null, 2);
-fs.writeFileSync(statsPath, output + '\n');
-fs.writeFileSync(path.join(root, 'js', 'stats.js'), 'const playerStats=' + JSON.stringify(stats) + ';\n');
+fs.writeFileSync(statsPath, 'const playerStats=' + JSON.stringify(stats) + ';\n');
 console.log('Statistiche aggiornate.');

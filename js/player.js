@@ -114,6 +114,7 @@ function isTopFiveCompetition(competition) {
 }
 
 function topFiveStatsFor(record) {
+  if ((record.recent15 || {}).topFive) return record.recent15.topFive;
   const sample = ((record.recent15 || {}).sample || []).filter((match) => isTopFiveCompetition(match.competition));
   if (!sample.length) return null;
   const ratings = sample.map((match) => numberValue(match.rating)).filter((rating) => rating !== null);

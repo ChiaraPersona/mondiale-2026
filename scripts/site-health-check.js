@@ -25,11 +25,10 @@ for (const file of htmls) {
 }
 
 const rows = loadRows();
-const stats = JSON.parse(fs.readFileSync("stats.json", "utf8"));
 const statsBundle = fs.readFileSync("js/stats.js", "utf8")
   .replace(/^\uFEFF?const playerStats\s*=\s*/, "")
   .replace(/;\s*$/, "");
-const bundledStats = JSON.parse(statsBundle);
+const stats = JSON.parse(statsBundle);
 const missingFlags = [...new Set(rows.map((row) => row.flag).filter(Boolean).filter((flag) => !fs.existsSync(flag)))];
 
 const fold = (value) => String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -45,7 +44,7 @@ console.log(JSON.stringify({
   teams: new Set(rows.map((row) => row.team)).size,
   groups: [...new Set(rows.map((row) => row.group))],
   statsRecords: Object.keys(stats).length,
-  statsBundleSynced: Object.keys(stats).length === Object.keys(bundledStats).length,
+  statsSource: "js/stats.js",
   missingAssets,
   missingFlags,
   missingStatsRows,

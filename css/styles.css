@@ -126,6 +126,28 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
   justify-content: flex-start;
   margin: 0 !important;
 }
+
+@media (max-width: 720px) {
+  .page-links.nav-menu-open {
+    overflow: visible !important;
+  }
+
+  .nav-dropdown.is-open .nav-dropdown-menu {
+    position: fixed;
+    top: var(--nav-menu-top, 96px);
+    left: 14px;
+    right: 14px;
+    width: auto;
+    min-width: 0;
+    max-height: min(360px, calc(100vh - var(--nav-menu-top, 96px) - 18px));
+    overflow-y: auto;
+  }
+
+  .nav-dropdown.is-open .nav-dropdown-menu .page-link {
+    min-height: 42px;
+    font-size: 14px;
+  }
+}
 .search {
   display: flex;
   align-items: center;

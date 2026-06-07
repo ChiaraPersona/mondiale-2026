@@ -1,5 +1,6 @@
 document.querySelectorAll(".nav-dropdown").forEach((dropdown) => {
   const toggle = dropdown.querySelector(".nav-dropdown-toggle");
+  const nav = dropdown.closest(".page-links");
   if (!toggle) return;
 
   toggle.setAttribute("tabindex", "0");
@@ -8,7 +9,13 @@ document.querySelectorAll(".nav-dropdown").forEach((dropdown) => {
 
   function setOpen(isOpen) {
     dropdown.classList.toggle("is-open", isOpen);
+    if (nav) nav.classList.toggle("nav-menu-open", isOpen);
     toggle.setAttribute("aria-expanded", String(isOpen));
+
+    if (isOpen && window.matchMedia("(max-width: 720px)").matches) {
+      const rect = toggle.getBoundingClientRect();
+      document.documentElement.style.setProperty("--nav-menu-top", Math.round(rect.bottom + 8) + "px");
+    }
   }
 
   toggle.addEventListener("click", (event) => {
@@ -24,7 +31,10 @@ document.querySelectorAll(".nav-dropdown").forEach((dropdown) => {
   });
 
   dropdown.querySelectorAll(".nav-dropdown-menu a").forEach((link) => {
-    link.addEventListener("click", () => setOpen(false));
+    link.addEventListener("click", (event) => {
+      event.stopPropagation();
+      setOpen(false);
+    });
   });
 
   document.addEventListener("click", (event) => {

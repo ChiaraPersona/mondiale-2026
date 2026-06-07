@@ -71,7 +71,7 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
 }
 
 .nav-dropdown-toggle {
-  cursor: default;
+  cursor: pointer;
   user-select: none;
 }
 
@@ -83,6 +83,10 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
 }
 
 .nav-dropdown:hover .nav-caret {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown.is-open .nav-caret {
   transform: rotate(180deg);
 }
 
@@ -111,7 +115,8 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
 }
 
 .nav-dropdown:hover .nav-dropdown-menu,
-.nav-dropdown:focus-within .nav-dropdown-menu {
+.nav-dropdown:focus-within .nav-dropdown-menu,
+.nav-dropdown.is-open .nav-dropdown-menu {
   display: grid;
   gap: 6px;
 }

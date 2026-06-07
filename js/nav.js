@@ -13,6 +13,7 @@ document.querySelectorAll(".nav-dropdown").forEach((dropdown) => {
 
   toggle.addEventListener("click", (event) => {
     event.preventDefault();
+    event.stopPropagation();
     setOpen(!dropdown.classList.contains("is-open"));
   });
 
@@ -22,7 +23,15 @@ document.querySelectorAll(".nav-dropdown").forEach((dropdown) => {
     setOpen(!dropdown.classList.contains("is-open"));
   });
 
+  dropdown.querySelectorAll(".nav-dropdown-menu a").forEach((link) => {
+    link.addEventListener("click", () => setOpen(false));
+  });
+
   document.addEventListener("click", (event) => {
     if (!dropdown.contains(event.target)) setOpen(false);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setOpen(false);
   });
 });

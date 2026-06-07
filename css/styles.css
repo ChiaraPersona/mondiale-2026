@@ -6050,7 +6050,8 @@ footer,
 }
 
 .page-links:has(.nav-dropdown:hover),
-.page-links:has(.nav-dropdown:focus-within) {
+.page-links:has(.nav-dropdown:focus-within),
+.page-links:has(.nav-dropdown.is-open) {
   overflow: visible !important;
 }
 

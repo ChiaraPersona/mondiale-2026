@@ -1,44 +1,32 @@
-document.querySelectorAll(".nav-dropdown").forEach((dropdown) => {
-  const toggle = dropdown.querySelector(".nav-dropdown-toggle");
-  const nav = dropdown.closest(".page-links");
-  if (!toggle) return;
-
-  toggle.setAttribute("tabindex", "0");
-  toggle.setAttribute("role", "button");
-  toggle.setAttribute("aria-expanded", "false");
+document.querySelectorAll(".page-links").forEach((nav, index) => {
+  const button = document.createElement("button");
+  const navId = nav.id || "site-nav-" + index;
+  nav.id = navId;
+  button.className = "mobile-nav-toggle";
+  button.type = "button";
+  button.setAttribute("aria-controls", navId);
+  button.setAttribute("aria-expanded", "false");
+  button.innerHTML = '<span class="mobile-nav-icon" aria-hidden="true"><i></i><i></i><i></i></span><span>Menu</span>';
+  nav.parentNode.insertBefore(button, nav);
+  document.body.classList.add("has-mobile-nav");
 
   function setOpen(isOpen) {
-    dropdown.classList.toggle("is-open", isOpen);
-    if (nav) nav.classList.toggle("nav-menu-open", isOpen);
-    toggle.setAttribute("aria-expanded", String(isOpen));
-
-    if (isOpen && window.matchMedia("(max-width: 720px)").matches) {
-      const rect = toggle.getBoundingClientRect();
-      document.documentElement.style.setProperty("--nav-menu-top", Math.round(rect.bottom + 8) + "px");
-    }
+    nav.classList.toggle("is-open", isOpen);
+    button.classList.toggle("is-open", isOpen);
+    button.setAttribute("aria-expanded", String(isOpen));
   }
 
-  toggle.addEventListener("click", (event) => {
-    event.preventDefault();
+  button.addEventListener("click", (event) => {
     event.stopPropagation();
-    setOpen(!dropdown.classList.contains("is-open"));
+    setOpen(!nav.classList.contains("is-open"));
   });
 
-  toggle.addEventListener("keydown", (event) => {
-    if (event.key !== "Enter" && event.key !== " ") return;
-    event.preventDefault();
-    setOpen(!dropdown.classList.contains("is-open"));
-  });
-
-  dropdown.querySelectorAll(".nav-dropdown-menu a").forEach((link) => {
-    link.addEventListener("click", (event) => {
-      event.stopPropagation();
-      setOpen(false);
-    });
+  nav.addEventListener("click", (event) => {
+    if (event.target.closest("a")) setOpen(false);
   });
 
   document.addEventListener("click", (event) => {
-    if (!dropdown.contains(event.target)) setOpen(false);
+    if (!nav.contains(event.target) && !button.contains(event.target)) setOpen(false);
   });
 
   document.addEventListener("keydown", (event) => {

@@ -4590,6 +4590,10 @@ body {
   margin-top: 14px;
 }
 
+.tipster-slips-section + .tipster-slips-section {
+  margin-top: 18px;
+}
+
 .tipster-slip-card {
   display: inline-block;
   width: 100%;

@@ -4585,13 +4585,16 @@ body {
 }
 
 .tipster-slips-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  gap: 14px;
+  column-count: 3;
+  column-gap: 14px;
   margin-top: 14px;
 }
 
 .tipster-slip-card {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 14px;
+  break-inside: avoid;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, .1);
   border-radius: 16px;
@@ -4669,13 +4672,35 @@ body {
   text-decoration: none;
 }
 
+.tipster-slip-body em {
+  display: inline-flex;
+  width: fit-content;
+  min-height: 34px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 999px;
+  padding: 8px 12px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, .045);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+}
+
 .tipster-slip-body a:hover {
   background: var(--green);
 }
 
 @media (max-width: 680px) {
   .tipster-slips-grid {
-    grid-template-columns: 1fr;
+    column-count: 1;
+  }
+}
+
+@media (min-width: 681px) and (max-width: 1080px) {
+  .tipster-slips-grid {
+    column-count: 2;
   }
 }
 

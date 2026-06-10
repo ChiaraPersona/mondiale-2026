@@ -439,6 +439,62 @@ const cardRiskPlayers = [
     media_falli_partita: 1.2,
     rischio_cartellino: 92,
   },
+  {
+    team: "Portogallo",
+    player: "Bernardo Silva",
+    yellowCards: 16,
+    redCards: 1,
+    foulsPerMatch: 1.0,
+  },
+  {
+    team: "RD del Congo",
+    player: "Noah Sadiki",
+    yellowCards: 11,
+    redCards: 0,
+    foulsPerMatch: 1.0,
+  },
+  {
+    team: "Uzbekistan",
+    player: "Rustam Ashurmatov",
+    yellowCards: 8,
+    redCards: 0,
+    foulsPerMatch: 1.0,
+  },
+  {
+    team: "Colombia",
+    player: "Richard Rios",
+    yellowCards: 16,
+    redCards: 0,
+    foulsPerMatch: 1.5,
+  },
+  {
+    team: "Inghilterra",
+    player: "Dan Burn",
+    yellowCards: 14,
+    redCards: 1,
+    foulsPerMatch: 1.2,
+  },
+  {
+    team: "Croazia",
+    player: "Marin Pongracic",
+    yellowCards: 18,
+    redCards: 0,
+    foulsPerMatch: 2.1,
+  },
+  {
+    team: "Ghana",
+    player: "Derrick Luckassen",
+    yellowCards: 16,
+    redCards: 2,
+    foulsPerMatch: 1.4,
+  },
+  {
+    team: "Panama",
+    player: "Anibal Godoy",
+    yellowCards: 12,
+    redCards: 0,
+    foulsPerMatch: 1.0,
+  },
 ];
 
 const cardRiskFormula = {

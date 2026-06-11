@@ -1242,8 +1242,8 @@ function codexRenderResultCard(matchNumber) {
   const scorersB = codexScorerSummary(result.scorers?.[result.teamB]);
   const scorerBlock = (scorersA || scorersB) ? `
         <div class="codex-match-scorers">
-          ${scorersA ? `<span><b>${codexEscape(result.teamA)}</b>${scorersA}</span>` : ""}
-          ${scorersB ? `<span><b>${codexEscape(result.teamB)}</b>${scorersB}</span>` : ""}
+          ${scorersA ? `<span>${codexFlag(result.teamA)}${scorersA}</span>` : ""}
+          ${scorersB ? `<span>${codexFlag(result.teamB)}${scorersB}</span>` : ""}
         </div>` : "";
   return `
     <article class="codex-match-card ${matchNumber > 72 ? "is-knockout" : ""}">

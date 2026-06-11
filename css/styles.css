@@ -4585,8 +4585,9 @@ body {
 }
 
 .tipster-slips-grid {
-  column-count: 3;
-  column-gap: 14px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
   margin-top: 14px;
 }
 
@@ -4595,16 +4596,17 @@ body {
 }
 
 .tipster-slip-card {
-  display: inline-block;
   width: 100%;
-  margin: 0 0 14px;
-  break-inside: avoid;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, .1);
   border-radius: 16px;
   background:
     linear-gradient(145deg, rgba(255, 255, 255, .07), rgba(255, 255, 255, .025)),
     rgba(7, 10, 15, .44);
+}
+
+.tipster-code-card {
+  border-color: rgba(245, 200, 75, .18);
 }
 
 .tipster-slip-media {
@@ -4639,7 +4641,7 @@ body {
 .tipster-slip-body {
   display: grid;
   gap: 8px;
-  padding: 14px;
+  padding: 12px;
 }
 
 .tipster-slip-body span {
@@ -4658,6 +4660,23 @@ body {
 .tipster-slip-body small {
   color: #f5c84b;
   font-size: 13px;
+  font-weight: 950;
+}
+
+.tipster-code-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.tipster-code-list b {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 10px;
+  padding: 9px 11px;
+  color: var(--text);
+  background: rgba(255, 255, 255, .055);
+  font-size: 14px;
   font-weight: 950;
 }
 
@@ -4696,15 +4715,15 @@ body {
   background: var(--green);
 }
 
-@media (max-width: 680px) {
+@media (max-width: 1080px) {
   .tipster-slips-grid {
-    column-count: 1;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-@media (min-width: 681px) and (max-width: 1080px) {
+@media (max-width: 680px) {
   .tipster-slips-grid {
-    column-count: 2;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -4997,15 +5016,15 @@ body {
 }
 
 .codex-match-scorers span {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
-.codex-match-scorers b {
-  display: inline;
-  margin-right: 6px;
-  color: #f5c84b;
-  font-size: inherit;
-  text-transform: none;
+.codex-match-scorers .prediction-team-flag {
+  width: 16px;
+  height: 12px;
+  flex: 0 0 auto;
 }
 
 .codex-match-card small {

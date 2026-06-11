@@ -407,6 +407,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "06/06/2026",
+        "opponent": "Giamaica",
+        "score": "1-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "29/05/2026",
         "opponent": "Nicaragua",
         "score": "0-0",
@@ -1548,6 +1555,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "06/06/2026",
+        "opponent": "Irlanda",
+        "score": "1-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "02/06/2026",
         "opponent": "Uzbekistan",
         "score": "2-0",
@@ -1936,6 +1950,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "06/06/2026",
+        "opponent": "Panama",
+        "score": "1-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "29/05/2026",
         "opponent": "Macedonia del Nord",
         "score": "0-0",
@@ -2318,6 +2339,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "06/06/2026",
+        "opponent": "El Salvador",
+        "score": "0-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "28/05/2026",
         "opponent": "Irlanda",
         "score": "0-1",
@@ -2629,6 +2657,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/switzerland/rHJ2vy1B/"
     },
     "matches": [
+      {
+        "date": "06/06/2026",
+        "opponent": "Australia",
+        "score": "1-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "31/05/2026",
         "opponent": "Giordania",
@@ -3014,6 +3049,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "06/06/2026",
+        "opponent": "Egitto",
+        "score": "2-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "31/05/2026",
         "opponent": "Panama",
         "score": "6-2",
@@ -3359,6 +3401,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/morocco/IDKYO3R8/"
     },
     "matches": [
+      {
+        "date": "07/06/2026",
+        "opponent": "Norvegia",
+        "score": "1-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-07",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "02/06/2026",
         "opponent": "Madagascar",
@@ -3747,6 +3796,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/haiti/nk4v10Z1/"
     },
     "matches": [
+      {
+        "date": "06/06/2026",
+        "opponent": "Peru",
+        "score": "1-2",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "team": "Haiti",
         "date": "03/06/2026",
@@ -4461,6 +4517,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/usa/fuitL4CF/"
     },
     "matches": [
+      {
+        "date": "06/06/2026",
+        "opponent": "Germania",
+        "score": "1-2",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "31/05/2026",
         "opponent": "Senegal",
@@ -5180,6 +5243,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "06/06/2026",
+        "opponent": "Svizzera",
+        "score": "1-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "31/05/2026",
         "opponent": "Messico",
         "score": "0-1",
@@ -5563,6 +5633,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/turkey/QeijuHo5/"
     },
     "matches": [
+      {
+        "date": "06/06/2026",
+        "opponent": "Venezuela",
+        "score": "2-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "01/06/2026",
         "opponent": "Macedonia del Nord",
@@ -5952,6 +6029,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "06/06/2026",
+        "opponent": "Stati Uniti",
+        "score": "2-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "31/05/2026",
         "opponent": "Finlandia",
         "score": "4-0",
@@ -6339,6 +6423,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/curacao/bLLGpOkQ/"
     },
     "matches": [
+      {
+        "date": "07/06/2026",
+        "opponent": "Aruba",
+        "score": "4-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-07",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "30/05/2026",
         "opponent": "Scozia",
@@ -7041,6 +7132,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "07/06/2026",
+        "opponent": "Guatemala",
+        "score": "3-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-07",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "31/05/2026",
         "opponent": "Arabia Saudita",
         "score": "2-1",
@@ -7386,6 +7484,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/netherlands/WYintcWb/"
     },
     "matches": [
+      {
+        "date": "08/06/2026",
+        "opponent": "Uzbekistan",
+        "score": "2-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-08",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "team": "Olanda",
         "date": "03/06/2026",
@@ -8553,6 +8658,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "06/06/2026",
+        "opponent": "Belgio",
+        "score": "0-5",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "01/06/2026",
         "opponent": "Austria",
         "score": "0-1",
@@ -8883,6 +8995,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/belgium/GbB957na/"
     },
     "matches": [
+      {
+        "date": "06/06/2026",
+        "opponent": "Tunisia",
+        "score": "5-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "02/06/2026",
         "opponent": "Croazia",
@@ -9271,6 +9390,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/egypt/bejDn7NN/"
     },
     "matches": [
+      {
+        "date": "06/06/2026",
+        "opponent": "Brasile",
+        "score": "1-2",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "28/05/2026",
         "opponent": "Russia",
@@ -9912,6 +10038,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "06/06/2026",
+        "opponent": "Inghilterra",
+        "score": "0-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "team": "Nuova Zelanda",
         "date": "03/06/2026",
         "opponent": "Haiti",
@@ -10226,6 +10359,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/spain/bLyo6mco/"
     },
     "matches": [
+      {
+        "date": "09/06/2026",
+        "opponent": "Peru",
+        "score": "3-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-09",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "team": "Spagna",
         "date": "04/06/2026",
@@ -10623,6 +10763,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "06/06/2026",
+        "opponent": "Bermuda",
+        "score": "3-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "31/05/2026",
         "opponent": "Serbia",
         "score": "3-0",
@@ -10925,6 +11072,20 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/saudi-arabia/biSY8ox4/"
     },
     "matches": [
+      {
+        "date": "10/06/2026",
+        "opponent": "Senegal",
+        "score": "0-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-10",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
+        "date": "06/06/2026",
+        "opponent": "Puerto Rico",
+        "score": "3-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "31/05/2026",
         "opponent": "Ecuador",
@@ -11642,6 +11803,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "08/06/2026",
+        "opponent": "Irlanda del Nord",
+        "score": "3-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-08",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "team": "Francia",
         "date": "04/06/2026",
         "opponent": "Costa d'Avorio",
@@ -12038,6 +12206,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "10/06/2026",
+        "opponent": "Arabia Saudita",
+        "score": "0-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-10",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "31/05/2026",
         "opponent": "USA",
         "score": "2-3",
@@ -12395,6 +12570,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/iraq/K8aAGt6r/"
     },
     "matches": [
+      {
+        "date": "10/06/2026",
+        "opponent": "Venezuela",
+        "score": "0-2",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-10",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "team": "Iraq",
         "date": "04/06/2026",
@@ -12757,6 +12939,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/norway/8rP6JO0H/"
     },
     "matches": [
+      {
+        "date": "07/06/2026",
+        "opponent": "Marocco",
+        "score": "1-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-07",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "01/06/2026",
         "opponent": "Svezia",
@@ -13146,6 +13335,20 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "10/06/2026",
+        "opponent": "Islanda",
+        "score": "3-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-10",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
+        "date": "07/06/2026",
+        "opponent": "Honduras",
+        "score": "2-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-07",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "01/04/2026",
         "opponent": "Zambia",
         "score": "5-0",
@@ -13458,6 +13661,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/algeria/nc87N1BR/"
     },
     "matches": [
+      {
+        "date": "11/06/2026",
+        "opponent": "Bolivia",
+        "score": "4-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-11",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "team": "Algeria",
         "date": "03/06/2026",
@@ -14212,6 +14422,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "08/06/2026",
+        "opponent": "Colombia",
+        "score": "0-2",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-08",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "31/05/2026",
         "opponent": "Svizzera",
         "score": "1-4",
@@ -14524,6 +14741,20 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/portugal/WvJrjFVN/"
     },
     "matches": [
+      {
+        "date": "10/06/2026",
+        "opponent": "Nigeria",
+        "score": "2-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-10",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
+        "date": "06/06/2026",
+        "opponent": "Cile",
+        "score": "2-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "01/04/2026",
         "opponent": "USA",
@@ -14913,6 +15144,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "09/06/2026",
+        "opponent": "Cile",
+        "score": "1-2",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-09",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "31/03/2026",
         "opponent": "Giamaica",
         "score": "1-0",
@@ -15262,6 +15500,13 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "date": "08/06/2026",
+        "opponent": "Olanda",
+        "score": "1-2",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-08",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
         "date": "30/07/2024",
         "opponent": "Repubblica Dominicana Ol.",
         "score": "1-1",
@@ -15355,6 +15600,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/colombia/G02s4PCS/"
     },
     "matches": [
+      {
+        "date": "08/06/2026",
+        "opponent": "Giordania",
+        "score": "2-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-08",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "02/06/2026",
         "opponent": "Costa Rica",
@@ -15701,6 +15953,20 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/england/j9N9ZNFA/"
     },
     "matches": [
+      {
+        "date": "10/06/2026",
+        "opponent": "Costa Rica",
+        "score": "3-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-10",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
+        "date": "06/06/2026",
+        "opponent": "Nuova Zelanda",
+        "score": "1-0",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "31/03/2026",
         "opponent": "Giappone",
@@ -16089,6 +16355,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/croatia/K8aznggo/"
     },
     "matches": [
+      {
+        "date": "07/06/2026",
+        "opponent": "Slovenia",
+        "score": "2-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-07",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "date": "02/06/2026",
         "opponent": "Belgio",
@@ -16804,6 +17077,13 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/panama/OWKqbCfi/"
     },
     "matches": [
+      {
+        "date": "06/06/2026",
+        "opponent": "Bosnia ed Erzegovina",
+        "score": "1-1",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-06",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
       {
         "team": "Panama",
         "date": "04/06/2026",

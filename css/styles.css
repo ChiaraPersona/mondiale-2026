@@ -4584,9 +4584,46 @@ body {
   line-height: 1.45;
 }
 
+.tipster-quick-nav {
+  position: sticky;
+  top: 10px;
+  z-index: 12;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 18px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 16px;
+  background: rgba(7, 10, 15, .84);
+  backdrop-filter: blur(14px);
+}
+
+.tipster-quick-nav a {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 999px;
+  padding: 7px 11px;
+  color: var(--text);
+  background: rgba(255, 255, 255, .05);
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.tipster-quick-nav a:hover {
+  border-color: rgba(245, 200, 75, .42);
+  color: #061016;
+  background: #f5c84b;
+}
+
 .tipster-slips-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
   gap: 14px;
   margin-top: 14px;
 }

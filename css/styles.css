@@ -2360,6 +2360,45 @@ body {
   font-size: 17px;
 }
 
+.fixture-card.has-real-result {
+  border-color: rgba(77, 224, 115, .35);
+  background: rgba(77, 224, 115, .06);
+}
+
+.fixture-real-result-badge,
+.codex-real-result-badge {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: 7px;
+  padding: 3px 7px;
+  border: 1px solid rgba(77, 224, 115, .34);
+  border-radius: 999px;
+  color: var(--green);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.fixture-score-field input.is-real-result {
+  border-color: rgba(77, 224, 115, .45);
+  color: var(--green);
+}
+
+.fixture-real-scorer {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 5px 8px;
+  border: 1px solid rgba(77, 224, 115, .32);
+  border-radius: 999px;
+  background: rgba(77, 224, 115, .08);
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 800;
+}
+
 .fixture-scorers-field {
   display: grid;
   gap: 6px;
@@ -4993,6 +5032,11 @@ body {
     linear-gradient(90deg, rgba(245, 200, 75, .09), rgba(16, 23, 34, .96));
 }
 
+.codex-match-card.is-real-result {
+  background:
+    linear-gradient(90deg, rgba(77, 224, 115, .12), rgba(16, 23, 34, .96));
+}
+
 .codex-match-card b {
   display: block;
   color: var(--green);
@@ -5179,6 +5223,11 @@ body {
 
 .codex-world-match.is-compact {
   min-height: 70px;
+}
+
+.codex-world-match.is-real-result {
+  border-color: rgba(77, 224, 115, .32);
+  background: rgba(77, 224, 115, .08);
 }
 
 .codex-world-r32 .codex-world-match:nth-child(1) { grid-row: 1; }

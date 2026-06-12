@@ -746,6 +746,30 @@ function codexApplyGroupResult(table, result) {
   }
 }
 
+function codexRealResult(matchNumber, fixture) {
+  const real = typeof worldCupResultFor === "function" ? worldCupResultFor(matchNumber) : null;
+  if (!real) return null;
+  const teams = codexFixtureTeams(fixture?.[2]);
+  if (teams.length !== 2) return null;
+  const goalsA = codexNumber(real.home);
+  const goalsB = codexNumber(real.away);
+  if (goalsA === null || goalsB === null) return null;
+  const [teamA, teamB] = teams;
+  return {
+    teamA,
+    teamB,
+    goalsA,
+    goalsB,
+    expectedA: goalsA,
+    expectedB: goalsB,
+    winner: goalsA > goalsB ? teamA : goalsB > goalsA ? teamB : "",
+    note: real.status || "Risultato reale",
+    fixture,
+    isReal: true,
+    real,
+  };
+}
+
 function codexSortTable(rows) {
   return rows.sort((a, b) =>
     b.points - a.points ||
@@ -765,7 +789,7 @@ function codexSimulateGroups() {
   fixtures.forEach((fixture, index) => {
     const teams = codexFixtureTeams(fixture[2]);
     if (teams.length !== 2) return;
-    const result = codexScoreMatch(teams[0], teams[1], false);
+    const result = codexRealResult(index + 1, fixture) || codexScoreMatch(teams[0], teams[1], false);
     codexState.results[index + 1] = { ...result, fixture };
     const group = fixture[1].replace("Group ", "");
     codexApplyGroupResult(tables[group], result);
@@ -981,6 +1005,21 @@ function codexProjectedScorers() {
     };
     teamMatches[result.teamA] = (teamMatches[result.teamA] || 0) + 1;
     teamMatches[result.teamB] = (teamMatches[result.teamB] || 0) + 1;
+    if (result.isReal && result.real?.scorers) {
+      [result.teamA, result.teamB].forEach((team) => {
+        (result.real.scorers[team] || []).forEach((name) => {
+          const player = codexScorerPool(team).find((item) => codexCompact(item.row.player) === codexCompact(name))?.row || {
+            player: name,
+            team,
+            role: "Dato reale",
+          };
+          const total = codexEnsureScorerTotal(totals, player);
+          total.goals += 1;
+          result.scorers[team].push(total.player);
+        });
+      });
+      return;
+    }
     for (let goal = 0; goal < result.goalsA; goal += 1) {
       const scorer = codexAddScorer(totals, result.teamA, matchNumber, goal, result.scorers[result.teamA]);
       if (scorer) result.scorers[result.teamA].push(scorer.player);
@@ -1246,7 +1285,7 @@ function codexRenderResultCard(matchNumber) {
           ${scorersB ? `<span>${codexFlag(result.teamB)}${scorersB}</span>` : ""}
         </div>` : "";
   return `
-    <article class="codex-match-card ${matchNumber > 72 ? "is-knockout" : ""}">
+    <article class="codex-match-card ${matchNumber > 72 ? "is-knockout" : ""} ${result.isReal ? "is-real-result" : ""}">
       <span class="fixture-number">${matchNumber}</span>
       <div>
         <b>${phase}</b>
@@ -1256,6 +1295,7 @@ function codexRenderResultCard(matchNumber) {
           <span class="codex-match-team">${codexFlag(result.teamB)}${codexEscape(result.teamB)}</span>
         </strong>
         ${scorerBlock}
+        ${result.isReal ? '<em class="codex-real-result-badge">Risultato reale</em>' : ""}
         <small>${codexEscape(venue)}${result.note ? ` &middot; ${result.note}` : ""}</small>
       </div>
     </article>`;
@@ -1269,11 +1309,12 @@ function codexRenderMethod() {
     .length;
   const recentResultUpdates = (typeof teamStatsData !== "undefined" ? teamStatsData : [])
     .reduce((total, team) => total + (team.matches || []).filter((match) => /03\/06\/2026|04\/06\/2026|05\/06\/2026/.test(match.date || "")).length, 0);
+  const realResultCount = Object.keys(typeof worldCupResults !== "undefined" ? worldCupResults : {}).length;
   root.innerHTML = `
     <div><strong>48</strong><span>Nazionali</span></div>
     <div><strong>104</strong><span>Partite simulate</span></div>
     <div><strong>${goalkeeperCount}</strong><span>Portieri con media GS</span></div>
-    <div><strong>${recentResultUpdates}</strong><span>Amichevoli 3-5 giugno</span></div>`;
+    <div><strong>${realResultCount || recentResultUpdates}</strong><span>${realResultCount ? "Risultati reali" : "Amichevoli 3-5 giugno"}</span></div>`;
 }
 
 function codexRenderRanking() {
@@ -1382,7 +1423,7 @@ function codexWorldMatchCard(matchNumber, compact = false) {
   const scorersA = codexScorerSummary(result.scorers?.[result.teamA]);
   const scorersB = codexScorerSummary(result.scorers?.[result.teamB]);
   return `
-    <article class="codex-world-match ${compact ? "is-compact" : ""}">
+    <article class="codex-world-match ${compact ? "is-compact" : ""} ${result.isReal ? "is-real-result" : ""}">
       <div class="codex-world-scoreline">
         <span class="codex-world-team ${result.winner === result.teamA ? "is-winner" : ""}" title="${codexEscape(result.teamA)}">${codexFlag(result.teamA)}</span>
         <strong>${result.goalsA}-${result.goalsB}</strong>

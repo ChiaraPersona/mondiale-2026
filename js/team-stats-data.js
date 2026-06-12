@@ -12,6 +12,16 @@ const teamStatsData = [
     "matches": [
       {
         "team": "Messico",
+        "date": "11/06/2026",
+        "opponent": "Sudafrica",
+        "score": "2-0",
+        "source": "https://www.diretta.it/partita/calcio/messico-O6iHcNkd/sudafrica-W2ijYvlr/?mid=h4EoUB7T",
+        "redCards": 1,
+        "opponentRedCards": 2,
+        "note": "Mondiale 2026: gol Julian Quinones e Raul Jimenez; tre espulsioni complessive"
+      },
+      {
+        "team": "Messico",
         "date": "05/06/2026",
         "opponent": "Serbia",
         "score": "5-1",
@@ -407,6 +417,16 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Sudafrica",
+        "date": "11/06/2026",
+        "opponent": "Messico",
+        "score": "0-2",
+        "source": "https://www.diretta.it/partita/calcio/messico-O6iHcNkd/sudafrica-W2ijYvlr/?mid=h4EoUB7T",
+        "redCards": 2,
+        "opponentRedCards": 1,
+        "note": "Mondiale 2026: espulsi Sphephelo Sithole e Themba Zwane"
+      },
+      {
         "date": "06/06/2026",
         "opponent": "Giamaica",
         "score": "1-1",
@@ -774,6 +794,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/south-korea/K6Gs7P6G/"
     },
     "matches": [
+      {
+        "team": "Corea del Sud",
+        "date": "12/06/2026",
+        "opponent": "Repubblica Ceca",
+        "score": "2-1",
+        "source": "https://www.diretta.it/partita/calcio/corea-del-sud-K6Gs7P6G/repubblica-ceca-6LHwBDGU/?mid=CGdvIm6K",
+        "note": "Mondiale 2026: rimonta con gol di Hwang In-Beom e Oh Hyeon-Gyu"
+      },
       {
         "team": "Corea del Sud",
         "date": "04/06/2026",
@@ -1171,6 +1199,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Repubblica Ceca",
+        "date": "12/06/2026",
+        "opponent": "Corea del Sud",
+        "score": "1-2",
+        "source": "https://www.diretta.it/partita/calcio/corea-del-sud-K6Gs7P6G/repubblica-ceca-6LHwBDGU/?mid=CGdvIm6K",
+        "note": "Mondiale 2026: vantaggio Ladislav Krejci, poi rimonta Corea del Sud"
+      },
+      {
         "date": "31/05/2026",
         "opponent": "Kosovo",
         "score": "2-1",
@@ -1554,6 +1590,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/canada/x4toKORL/"
     },
     "matches": [
+      {
+        "team": "Canada",
+        "date": "12/06/2026",
+        "opponent": "Bosnia ed Erzegovina",
+        "score": "1-1",
+        "source": "https://www.diretta.it/partita/calcio/bosnia-erzegovina-fqe7WYTr/canada-x4toKORL/?mid=OxkQ8qT6",
+        "note": "Mondiale 2026: Cyle Larin pareggia nel finale dopo il vantaggio Bosnia"
+      },
       {
         "date": "06/06/2026",
         "opponent": "Irlanda",
@@ -1949,6 +1993,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/bosnia-herzegovina/fqe7WYTr/"
     },
     "matches": [
+      {
+        "team": "Bosnia ed Erzegovina",
+        "date": "12/06/2026",
+        "opponent": "Canada",
+        "score": "1-1",
+        "source": "https://www.diretta.it/partita/calcio/bosnia-erzegovina-fqe7WYTr/canada-x4toKORL/?mid=OxkQ8qT6",
+        "note": "Mondiale 2026: Jovo Lukic apre, Cyle Larin pareggia al 79'"
+      },
       {
         "date": "06/06/2026",
         "opponent": "Panama",

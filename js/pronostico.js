@@ -103,6 +103,37 @@ function groupFixtures(group) {
     .filter(({ fixture }) => fixture[5] === "group" && fixture[1] === `Group ${group}`);
 }
 
+function fixtureRealResult(number) {
+  return typeof worldCupResultFor === "function" ? worldCupResultFor(number) : null;
+}
+
+function fixtureRealScorers(number) {
+  const real = fixtureRealResult(number);
+  if (!real?.scorers) return [];
+  return Object.values(real.scorers).flat().filter(Boolean);
+}
+
+function scoreForMatchNumber(number) {
+  const saved = predictionFixtureScores[number] || {};
+  const real = fixtureRealResult(number);
+  const realScorers = fixtureRealScorers(number);
+  const savedScorers = scorerParts(saved.scorers);
+  const seen = new Set();
+  const scorers = [...realScorers, ...savedScorers].filter((name) => {
+    const key = scorerKey(name);
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+  return {
+    ...saved,
+    home: saved.home !== undefined && saved.home !== "" ? saved.home : real?.home ?? saved.home ?? "",
+    away: saved.away !== undefined && saved.away !== "" ? saved.away : real?.away ?? saved.away ?? "",
+    scorers,
+    real,
+  };
+}
+
 function groupTable(group) {
   const teams = groupTeams[group] || [];
   const table = Object.fromEntries(teams.map((team, order) => [team, {
@@ -121,7 +152,7 @@ function groupTable(group) {
   groupFixtures(group).forEach(({ fixture, number }) => {
     const teamsInMatch = fixtureTeams(fixture[2]);
     if (teamsInMatch.length !== 2) return;
-    const score = predictionFixtureScores[number] || {};
+    const score = scoreForMatchNumber(number);
     const home = numericScore(score.home);
     const away = numericScore(score.away);
     if (home === null || away === null) return;
@@ -291,7 +322,7 @@ function participantsForMatchNumber(matchNumber) {
 
 function winnerForMatchNumber(matchNumber) {
   const teams = participantsForMatchNumber(matchNumber).map(({ team }) => team).filter(Boolean);
-  const score = predictionFixtureScores[matchNumber] || {};
+  const score = scoreForMatchNumber(matchNumber);
   const home = numericScore(score.home);
   const away = numericScore(score.away);
   if (teams.length === 2 && home !== null && away !== null && home !== away) {
@@ -632,11 +663,14 @@ function fixtureMatchLabel(match) {
 
 function fixtureScoreInput(number, side, label) {
   const saved = predictionFixtureScores[number] || {};
-  const value = saved[side] ?? "";
+  const score = scoreForMatchNumber(number);
+  const real = fixtureRealResult(number);
+  const value = score[side] ?? "";
   return `
     <label class="fixture-score-field">
       <span>${label}</span>
       <input
+        class="${real && (saved[side] === undefined || saved[side] === "") ? "is-real-result" : ""}"
         type="number"
         inputmode="numeric"
         min="0"
@@ -709,6 +743,7 @@ function playerRowForScorer(matchNumber, name) {
 
 function fixtureScorersField(number) {
   const saved = predictionFixtureScores[number] || {};
+  const realScorers = fixtureRealScorers(number);
   const selectedScorers = scorerParts(saved.scorers);
   const teams = participantsForMatchNumber(number).map(({ team }) => team).filter(Boolean);
   const options = teams.map((team) => {
@@ -718,7 +753,7 @@ function fixtureScorersField(number) {
   }).join("");
   return `
     <label class="fixture-scorers-field">
-      <span>Marcatori pronosticati</span>
+      <span>${realScorers.length ? "Marcatori reali/pronosticati" : "Marcatori pronosticati"}</span>
       <div class="fixture-scorer-picker">
         <select data-fixture-scorer-select="${number}" aria-label="Scegli marcatore partita ${number}" ${options ? "" : "disabled"}>
           <option value="">${options ? "Scegli un calciatore" : "Squadre da definire"}</option>
@@ -727,11 +762,17 @@ function fixtureScorersField(number) {
         <button type="button" data-add-scorer="${number}" ${options ? "" : "disabled"}>+</button>
       </div>
       <div class="fixture-scorer-chips">
+        ${realScorers.map((name) => `
+          <span class="fixture-real-scorer">
+            ${escapeFixture(playerRowForScorer(number, name) ? playerOptionLabel(playerRowForScorer(number, name)) : name)}
+          </span>
+        `).join("")}
         ${selectedScorers.length ? selectedScorers.map((name, index) => `
           <button type="button" class="${isPredictedStarter(playerRowForScorer(number, name) || {}) ? "is-probable-starter" : ""}" data-remove-scorer="${number}" data-scorer-index="${index}">
             ${escapeFixture(playerRowForScorer(number, name) ? playerOptionLabel(playerRowForScorer(number, name)) : name)} <span aria-hidden="true">&times;</span>
           </button>
-        `).join("") : '<small>Nessun marcatore scelto</small>'}
+        `).join("") : ""}
+        ${!realScorers.length && !selectedScorers.length ? '<small>Nessun marcatore scelto</small>' : ""}
       </div>
     </label>`;
 }
@@ -767,8 +808,13 @@ function renderPredictedTopScorers() {
   const root = document.getElementById("fixture-top-scorers");
   if (!root) return;
 
-  const scorers = Object.entries(predictionFixtureScores).reduce((table, [matchNumber, prediction]) => {
-    scorerParts(prediction.scorers).forEach((name) => {
+  const matchNumbers = new Set([
+    ...Object.keys(typeof worldCupResults !== "undefined" ? worldCupResults : {}),
+    ...Object.keys(predictionFixtureScores),
+  ]);
+
+  const scorers = Array.from(matchNumbers).reduce((table, matchNumber) => {
+    scorerParts(scoreForMatchNumber(matchNumber).scorers).forEach((name) => {
       const key = scorerKey(name);
       if (!key) return;
       table[key] = table[key] || { name, goals: 0, matches: new Set() };
@@ -831,14 +877,16 @@ function renderWorldCupCalendar() {
         <div class="fixture-list">
           ${items.map(({ fixture, number }) => {
             const [, phase, match, time, venue, fixtureKind] = fixture;
+            const real = fixtureRealResult(number);
             return `
-              <article class="fixture-card ${fixtureKind}">
+              <article class="fixture-card ${fixtureKind} ${real ? "has-real-result" : ""}">
                 <span class="fixture-number">${number}</span>
                 <div class="fixture-card-body">
                   <div class="fixture-card-meta">
                     <b>${escapeFixture(fixturePhaseLabel(phase))}</b>
                     <strong>${escapeFixture(fixtureMatchLabel(match))}</strong>
                     <small>${escapeFixture(fixtureKickoff(time))} &middot; ${escapeFixture(venue)}</small>
+                    ${real ? `<em class="fixture-real-result-badge">${escapeFixture(real.status || "Risultato reale")}: ${escapeFixture(real.home)}-${escapeFixture(real.away)}</em>` : ""}
                   </div>
                   <div class="fixture-score-box" aria-label="Risultato esatto pronosticato">
                     ${fixtureScoreInput(number, "home", "Casa")}

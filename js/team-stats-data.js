@@ -2391,14 +2391,6 @@ const teamStatsData = [
     },
     "matches": [
       {
-        "team": "Stati Uniti",
-        "date": "13/06/2026",
-        "opponent": "Paraguay",
-        "score": "4-1",
-        "source": "https://www.diretta.it/partita/calcio/paraguay-YaNlqp6j/usa-fuitL4CF/?mid=bo9vy2zK",
-        "note": "Mondiale 2026: autogol Paraguay, doppietta Balogun e gol di Gio Reyna"
-      },
-      {
         "date": "06/06/2026",
         "opponent": "El Salvador",
         "score": "0-0",
@@ -4577,6 +4569,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/usa/fuitL4CF/"
     },
     "matches": [
+      {
+        "team": "Stati Uniti",
+        "date": "13/06/2026",
+        "opponent": "Paraguay",
+        "score": "4-1",
+        "source": "https://www.diretta.it/partita/calcio/paraguay-YaNlqp6j/usa-fuitL4CF/?mid=bo9vy2zK",
+        "note": "Mondiale 2026: autogol Paraguay, doppietta Balogun e gol di Gio Reyna"
+      },
       {
         "date": "06/06/2026",
         "opponent": "Germania",

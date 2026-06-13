@@ -60,6 +60,31 @@ const worldCupResults = {
       "Bosnia avanti da corner, poi raggiunta nel finale.",
     ],
   },
+  4: {
+    status: "Finale",
+    home: 4,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/paraguay-YaNlqp6j/usa-fuitL4CF/?mid=bo9vy2zK",
+    sources: [
+      "https://www.diretta.it/partita/calcio/paraguay-YaNlqp6j/usa-fuitL4CF/?mid=bo9vy2zK",
+      "https://www.theguardian.com/football/live/2026/jun/12/usa-v-paraguay-world-cup-2026-live",
+      "https://www.timesunion.com/sports/article/usmnt-vs-paraguay-live-updates-fifa-world-cup-22297881.php",
+    ],
+    scorers: {
+      "Stati Uniti": ["Autogol Paraguay", "Folarin Balogun", "Folarin Balogun", "Gio Reyna"],
+      "Paraguay": ["Mauricio"],
+    },
+    cards: {
+      yellow: [
+        { team: "Paraguay", player: "Juan Caceres" },
+        { team: "Paraguay", player: "Miguel Almiron", note: "simulation after VAR review" },
+      ],
+    },
+    notes: [
+      "USA avanti 3-0 all'intervallo e poi in controllo fino al 4-1 finale.",
+      "Balogun migliore in campo con doppietta; Pulisic decisivo nel primo tempo.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

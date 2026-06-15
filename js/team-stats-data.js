@@ -2391,6 +2391,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Qatar",
+              "date": "13/06/2026",
+              "opponent": "Svizzera",
+              "score": "1-1",
+              "source": "https://www.diretta.it/partita/calcio/qatar-zqzHL77i/svizzera-rHJ2vy1B/?mid=C8oCpXiA",
+              "note": "Mondiale 2026: Khoukhi pareggia in pieno recupero dopo il rigore di Embolo"
+      },
+      {
         "date": "06/06/2026",
         "opponent": "El Salvador",
         "score": "0-0",
@@ -2709,6 +2717,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/switzerland/rHJ2vy1B/"
     },
     "matches": [
+      {
+              "team": "Svizzera",
+              "date": "13/06/2026",
+              "opponent": "Qatar",
+              "score": "1-1",
+              "source": "https://www.diretta.it/partita/calcio/qatar-zqzHL77i/svizzera-rHJ2vy1B/?mid=C8oCpXiA",
+              "note": "Mondiale 2026: Embolo segna su rigore, ma la Svizzera spreca e subisce il pari nel recupero"
+      },
       {
         "date": "06/06/2026",
         "opponent": "Australia",
@@ -3101,6 +3117,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Brasile",
+              "date": "13/06/2026",
+              "opponent": "Marocco",
+              "score": "1-1",
+              "source": "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/marocco-IDKYO3R8/?mid=b5JayTEd",
+              "note": "Mondiale 2026: Vinicius Junior pareggia dopo il vantaggio marocchino di Ismael Saibari"
+      },
+      {
         "date": "06/06/2026",
         "opponent": "Egitto",
         "score": "2-1",
@@ -3453,6 +3477,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/morocco/IDKYO3R8/"
     },
     "matches": [
+      {
+              "team": "Marocco",
+              "date": "13/06/2026",
+              "opponent": "Brasile",
+              "score": "1-1",
+              "source": "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/marocco-IDKYO3R8/?mid=b5JayTEd",
+              "note": "Mondiale 2026: Ismael Saibari apre, Vinicius Junior pareggia; grande prova di Bouaddi"
+      },
       {
         "date": "07/06/2026",
         "opponent": "Norvegia",
@@ -3849,6 +3881,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Haiti",
+              "date": "14/06/2026",
+              "opponent": "Scozia",
+              "score": "0-1",
+              "source": "https://www.diretta.it/partita/calcio/haiti-nk4v10Z1/scozia-fZRU25WH/?mid=QBBoaW63",
+              "note": "Mondiale 2026: sconfitta di misura, Pierrot vicino al pareggio"
+      },
+      {
         "date": "06/06/2026",
         "opponent": "Peru",
         "score": "1-2",
@@ -4183,6 +4223,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/scotland/fZRU25WH/"
     },
     "matches": [
+      {
+              "team": "Scozia",
+              "date": "14/06/2026",
+              "opponent": "Haiti",
+              "score": "1-0",
+              "source": "https://www.diretta.it/partita/calcio/haiti-nk4v10Z1/scozia-fZRU25WH/?mid=QBBoaW63",
+              "note": "Mondiale 2026: John McGinn decide la prima vittoria mondiale scozzese dal 1990"
+      },
       {
         "date": "30/05/2026",
         "opponent": "Curacao",
@@ -5311,6 +5359,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Australia",
+              "date": "14/06/2026",
+              "opponent": "Turchia",
+              "score": "2-0",
+              "source": "https://www.diretta.it/partita/calcio/australia-xSrf6qMM/turchia-QeijuHo5/?mid=nLNXPs35",
+              "note": "Mondiale 2026: Irankunda e Metcalfe firmano la sorpresa; Beach decisivo con otto parate"
+      },
+      {
         "date": "06/06/2026",
         "opponent": "Svizzera",
         "score": "1-1",
@@ -5701,6 +5757,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/turkey/QeijuHo5/"
     },
     "matches": [
+      {
+              "team": "Turchia",
+              "date": "14/06/2026",
+              "opponent": "Australia",
+              "score": "0-2",
+              "source": "https://www.diretta.it/partita/calcio/australia-xSrf6qMM/turchia-QeijuHo5/?mid=nLNXPs35",
+              "note": "Mondiale 2026: tanto volume con Guler, ma nessun gol e due reti subite in transizione/errore"
+      },
       {
         "date": "06/06/2026",
         "opponent": "Venezuela",
@@ -6097,6 +6161,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Germania",
+              "date": "14/06/2026",
+              "opponent": "Curacao",
+              "score": "7-1",
+              "source": "https://www.diretta.it/partita/calcio/curacao-bLLGpOkQ/germania-ptQide1O/?mid=dtiRRcc6",
+              "note": "Mondiale 2026: goleada con doppietta Havertz e reti di Nmecha, Schlotterbeck, Musiala, Brown e Undav"
+      },
+      {
         "date": "06/06/2026",
         "opponent": "Stati Uniti",
         "score": "2-1",
@@ -6492,6 +6564,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Curacao",
+              "date": "14/06/2026",
+              "opponent": "Germania",
+              "score": "1-7",
+              "source": "https://www.diretta.it/partita/calcio/curacao-bLLGpOkQ/germania-ptQide1O/?mid=dtiRRcc6",
+              "note": "Mondiale 2026: Comenencia segna il primo gol mondiale di Curacao, poi pesante sconfitta"
+      },
+      {
         "date": "07/06/2026",
         "opponent": "Aruba",
         "score": "4-0",
@@ -6839,6 +6919,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/ivory-coast/G2FRjBgn/"
     },
     "matches": [
+      {
+              "team": "Costa d'Avorio",
+              "date": "15/06/2026",
+              "opponent": "Ecuador",
+              "score": "1-0",
+              "source": "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/ecuador-8tbm8Tri/?mid=h8pzQySI",
+              "note": "Mondiale 2026: Amad Diallo decide al 90 minuto"
+      },
       {
         "team": "Costa d'Avorio",
         "date": "04/06/2026",
@@ -7200,6 +7288,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Ecuador",
+              "date": "15/06/2026",
+              "opponent": "Costa d'Avorio",
+              "score": "0-1",
+              "source": "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/ecuador-8tbm8Tri/?mid=h8pzQySI",
+              "note": "Mondiale 2026: sconfitta nel finale dopo una gara bloccata e diversi legni"
+      },
+      {
         "date": "07/06/2026",
         "opponent": "Guatemala",
         "score": "3-0",
@@ -7552,6 +7648,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/netherlands/WYintcWb/"
     },
     "matches": [
+      {
+              "team": "Olanda",
+              "date": "14/06/2026",
+              "opponent": "Giappone",
+              "score": "2-2",
+              "source": "https://www.diretta.it/partita/calcio/giappone-ULXPdOUj/olanda-WYintcWb/?mid=4SV9xFBO",
+              "note": "Mondiale 2026: Van Dijk e Summerville portano due volte avanti l?Olanda, ma il Giappone rimonta"
+      },
       {
         "date": "08/06/2026",
         "opponent": "Uzbekistan",
@@ -7956,6 +8060,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Giappone",
+              "date": "14/06/2026",
+              "opponent": "Olanda",
+              "score": "2-2",
+              "source": "https://www.diretta.it/partita/calcio/giappone-ULXPdOUj/olanda-WYintcWb/?mid=4SV9xFBO",
+              "note": "Mondiale 2026: Nakamura e Kamada rispondono ai vantaggi olandesi; pari all?88/89 minuto"
+      },
+      {
         "date": "31/05/2026",
         "opponent": "Islanda",
         "score": "1-0",
@@ -8344,6 +8456,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Svezia",
+              "date": "15/06/2026",
+              "opponent": "Tunisia",
+              "score": "5-1",
+              "source": "https://www.diretta.it/partita/calcio/svezia-OQyqbHWB/tunisia-QqZVYk95/?mid=UaJKzaHN",
+              "note": "Mondiale 2026: doppietta Ayari, gol Gyokeres, Isak e Svanberg"
+      },
+      {
         "date": "01/06/2026",
         "opponent": "Norvegia",
         "score": "1-3",
@@ -8725,6 +8845,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/tunisia/QqZVYk95/"
     },
     "matches": [
+      {
+              "team": "Tunisia",
+              "date": "15/06/2026",
+              "opponent": "Svezia",
+              "score": "1-5",
+              "source": "https://www.diretta.it/partita/calcio/svezia-OQyqbHWB/tunisia-QqZVYk95/?mid=UaJKzaHN",
+              "note": "Mondiale 2026: Omar Rekik segna il gol della bandiera in una pesante sconfitta"
+      },
       {
         "date": "06/06/2026",
         "opponent": "Belgio",

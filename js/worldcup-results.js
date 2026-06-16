@@ -233,6 +233,79 @@ const worldCupResults = {
       "Tunisia disordinata e punita da errori difensivi; Rekik segna il gol della bandiera.",
     ],
   },
+  13: {
+    status: "Finale",
+    home: 0,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/capo-verde-MocyWdm7/spagna-bLyo6mco/?mid=Iiqjm5Pq",
+    sources: [
+      "https://www.diretta.it/partita/calcio/capo-verde-MocyWdm7/spagna-bLyo6mco/?mid=Iiqjm5Pq",
+      "https://www.theguardian.com/football/live/2026/jun/15/spain-v-cape-verde-world-cup-2026-live",
+      "https://www.managingmadrid.com/real-madrid-cf-players/108084/marc-cucurella-impresses-despite-spains-0-0-draw-with-cape-verde",
+    ],
+    scorers: {
+      "Spagna": [],
+      "Capo Verde": [],
+    },
+    notes: [
+      "Capo Verde strappa uno storico 0-0 al debutto mondiale contro la Spagna.",
+      "Spagna dominante nel possesso ma poco incisiva; Vozinha e Pico Lopes protagonisti difensivi.",
+    ],
+  },
+  14: {
+    status: "Finale",
+    home: 1,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/belgio-GbB957na/egitto-bejDn7NN/?mid=dG7zgzd5",
+    sources: [
+      "https://www.diretta.it/partita/calcio/belgio-GbB957na/egitto-bejDn7NN/?mid=dG7zgzd5",
+      "https://www.theguardian.com/football/2026/jun/15/belgium-egypt-world-cup-2026-group-g-match-report",
+    ],
+    scorers: {
+      "Belgio": ["Autogol Mohamed Hany"],
+      "Egitto": ["Emam Ashour"],
+    },
+    notes: [
+      "Egitto avanti con Emam Ashour su assist di Salah.",
+      "Lukaku entra e forza l'autogol di Mohamed Hany che salva il Belgio.",
+    ],
+  },
+  15: {
+    status: "Finale",
+    home: 1,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/arabia-saudita-biSY8ox4/uruguay-xMk44orG/?mid=Olnboqfd",
+    sources: [
+      "https://www.diretta.it/partita/calcio/arabia-saudita-biSY8ox4/uruguay-xMk44orG/?mid=Olnboqfd",
+      "https://www.theguardian.com/football/live/2026/jun/15/saudi-arabia-v-uruguay-world-cup-2026-live",
+    ],
+    scorers: {
+      "Arabia Saudita": ["Abdulelah Al-Amri"],
+      "Uruguay": ["Maxi Araujo"],
+    },
+    notes: [
+      "Arabia Saudita avanti con Al-Amri dopo corner e respinta corta.",
+      "Uruguay pareggia all'80' con Maxi Araujo dopo una ripresa di maggiore pressione.",
+    ],
+  },
+  16: {
+    status: "Finale",
+    home: 2,
+    away: 2,
+    source: "https://www.diretta.it/partita/calcio/iran-xrRx85iA/nuova-zelanda-rLctHkpU/?mid=4tBriEQH",
+    sources: [
+      "https://www.diretta.it/partita/calcio/iran-xrRx85iA/nuova-zelanda-rLctHkpU/?mid=4tBriEQH",
+      "https://www.theguardian.com/football/live/2026/jun/16/fifa-world-cup-2026-live-iran-v-new-zealand-updates-irn-vs-nzl-group-f-match-score-latest",
+    ],
+    scorers: {
+      "Iran": ["Ramin Rezaeian", "Mohammad Mohebi"],
+      "Nuova Zelanda": ["Eli Just", "Eli Just"],
+    },
+    notes: [
+      "Nuova Zelanda due volte avanti con Eli Just, entrambe su servizio di Chris Wood.",
+      "Iran reagisce due volte con Rezaeian e Mohebi in una gara aperta e intensa.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

@@ -9192,6 +9192,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Belgio",
+              "date": "15/06/2026",
+              "opponent": "Egitto",
+              "score": "1-1",
+              "source": "https://www.diretta.it/partita/calcio/belgio-GbB957na/egitto-bejDn7NN/?mid=dG7zgzd5",
+              "note": "Mondiale 2026: Belgio salvato dall?autogol di Mohamed Hany dopo il vantaggio di Emam Ashour"
+      },
+      {
         "date": "06/06/2026",
         "opponent": "Tunisia",
         "score": "5-0",
@@ -9587,6 +9595,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Egitto",
+              "date": "15/06/2026",
+              "opponent": "Belgio",
+              "score": "1-1",
+              "source": "https://www.diretta.it/partita/calcio/belgio-GbB957na/egitto-bejDn7NN/?mid=dG7zgzd5",
+              "note": "Mondiale 2026: Emam Ashour segna su assist di Salah, poi autogol Hany per il pari belga"
+      },
+      {
         "date": "06/06/2026",
         "opponent": "Brasile",
         "score": "1-2",
@@ -9954,6 +9970,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Iran",
+              "date": "16/06/2026",
+              "opponent": "Nuova Zelanda",
+              "score": "2-2",
+              "source": "https://www.diretta.it/partita/calcio/iran-xrRx85iA/nuova-zelanda-rLctHkpU/?mid=4tBriEQH",
+              "note": "Mondiale 2026: Rezaeian e Mohebi rispondono alla doppietta di Eli Just"
+      },
+      {
         "team": "Iran",
         "date": "04/06/2026",
         "opponent": "Mali",
@@ -10233,6 +10257,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/new-zealand/rLctHkpU/"
     },
     "matches": [
+      {
+              "team": "Nuova Zelanda",
+              "date": "16/06/2026",
+              "opponent": "Iran",
+              "score": "2-2",
+              "source": "https://www.diretta.it/partita/calcio/iran-xrRx85iA/nuova-zelanda-rLctHkpU/?mid=4tBriEQH",
+              "note": "Mondiale 2026: doppietta di Eli Just, ma l?Iran rimonta due volte"
+      },
       {
         "date": "06/06/2026",
         "opponent": "Inghilterra",
@@ -10555,6 +10587,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/spain/bLyo6mco/"
     },
     "matches": [
+      {
+              "team": "Spagna",
+              "date": "15/06/2026",
+              "opponent": "Capo Verde",
+              "score": "0-0",
+              "source": "https://www.diretta.it/partita/calcio/capo-verde-MocyWdm7/spagna-bLyo6mco/?mid=Iiqjm5Pq",
+              "note": "Mondiale 2026: dominio territoriale senza gol, Capo Verde resiste con Vozinha e Pico Lopes protagonisti"
+      },
       {
         "date": "09/06/2026",
         "opponent": "Peru",
@@ -10959,6 +10999,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+              "team": "Capo Verde",
+              "date": "15/06/2026",
+              "opponent": "Spagna",
+              "score": "0-0",
+              "source": "https://www.diretta.it/partita/calcio/capo-verde-MocyWdm7/spagna-bLyo6mco/?mid=Iiqjm5Pq",
+              "note": "Mondiale 2026: storico punto al debutto contro la Spagna, con grande prova difensiva"
+      },
+      {
         "date": "06/06/2026",
         "opponent": "Bermuda",
         "score": "3-0",
@@ -11268,6 +11316,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/saudi-arabia/biSY8ox4/"
     },
     "matches": [
+      {
+              "team": "Arabia Saudita",
+              "date": "15/06/2026",
+              "opponent": "Uruguay",
+              "score": "1-1",
+              "source": "https://www.diretta.it/partita/calcio/arabia-saudita-biSY8ox4/uruguay-xMk44orG/?mid=Olnboqfd",
+              "note": "Mondiale 2026: Al-Amri porta avanti l?Arabia Saudita, poi pareggio di Maxi Araujo all?80 minuto"
+      },
       {
         "date": "10/06/2026",
         "opponent": "Senegal",
@@ -11666,6 +11722,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/uruguay/xMk44orG/"
     },
     "matches": [
+      {
+              "team": "Uruguay",
+              "date": "15/06/2026",
+              "opponent": "Arabia Saudita",
+              "score": "1-1",
+              "source": "https://www.diretta.it/partita/calcio/arabia-saudita-biSY8ox4/uruguay-xMk44orG/?mid=Olnboqfd",
+              "note": "Mondiale 2026: Maxi Araujo evita la sconfitta all?80 minuto dopo il vantaggio saudita di Al-Amri"
+      },
       {
         "date": "31/03/2026",
         "opponent": "Algeria",

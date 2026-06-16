@@ -1506,7 +1506,6 @@ function codexBoot() {
   codexRenderGroupFixtures();
   codexRenderStandings();
   codexRenderThirds();
-  codexRenderKnockout();
   codexRenderWorldBracket();
 }
 

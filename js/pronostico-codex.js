@@ -400,17 +400,25 @@ function codexGroupWinnerMarketBoost(team) {
   return codexClamp(Math.log(7.5 / odds) * 1.35, -4.5, 3.2);
 }
 
-function codexScorerMarketOdds(row) {
-  const item = codexTopScorerMarketOdds.find((entry) =>
+function codexScorerMarketEntry(row) {
+  return codexTopScorerMarketOdds.find((entry) =>
     entry.team === row.team && codexStarterMatchesPlayer(entry.player, row.player)
   );
+}
+
+function codexScorerMarketOdds(row) {
+  const item = codexScorerMarketEntry(row);
   return item?.odds || null;
+}
+
+function codexScorerDisplayName(row) {
+  return codexScorerMarketEntry(row)?.player || row.player;
 }
 
 function codexScorerMarketMultiplier(row) {
   const odds = codexScorerMarketOdds(row);
   if (!odds) return 1;
-  return codexClamp(1 + Math.log(80 / odds) * 0.11, 0.82, 1.36);
+  return codexClamp(1 + Math.log(120 / odds) * 0.13, 0.78, 1.48);
 }
 
 function codexRankingEntries() {
@@ -553,6 +561,30 @@ function codexOutfieldRows(team) {
   return (typeof rows !== "undefined" ? rows : []).filter((row) => row.team === team && row.role !== "Portieri");
 }
 
+function codexSyntheticScorerRows(team) {
+  const existingRows = codexOutfieldRows(team);
+  const existing = (name) => existingRows.some((row) => codexStarterMatchesPlayer(name, row.player));
+  const meta = codexFormationMeta(team);
+  const candidates = [
+    ...codexTopScorerMarketOdds.filter((entry) => entry.team === team).map((entry) => entry.player),
+    meta.penaltyTaker,
+    meta.mainStriker,
+    meta.starPlayer,
+  ].filter(Boolean);
+  return [...new Set(candidates)]
+    .filter((name) => !existing(name))
+    .map((name) => ({
+      group: codexGroupOfTeam(team),
+      team,
+      role: "Attaccanti",
+      player: name,
+      club: "",
+      status: "Sintesi pronostico",
+      source: "Quote capocannoniere / formazioni",
+      flag: "",
+    }));
+}
+
 function codexGoalkeeperRows(team) {
   return (typeof rows !== "undefined" ? rows : []).filter((row) => row.team === team && row.role === "Portieri");
 }
@@ -578,15 +610,27 @@ function codexCleanNameTokens(value) {
 }
 
 function codexStarterMatchesPlayer(starter, player) {
-  const starterName = codexFold(starter);
-  const playerName = codexFold(player);
+  const starterName = codexCompact(starter);
+  const playerName = codexCompact(player);
+  const trimFinalE = (value) => value.endsWith("e") ? value.slice(0, -1) : value;
   if (!starterName || !playerName) return false;
   if (starterName.length > 2 && (playerName.includes(starterName) || starterName.includes(playerName))) return true;
   const starterTokens = codexCleanNameTokens(starter).filter((token) => token.length > 1);
   const playerTokens = codexCleanNameTokens(player).filter((token) => token.length > 1);
   if (!starterTokens.length || !playerTokens.length) return false;
-  if (starterTokens.length === 1) return playerTokens.includes(starterTokens[0]);
-  return starterTokens.every((token) => playerTokens.includes(token));
+  if (starterTokens.length === 1) {
+    return playerTokens.includes(starterTokens[0]) ||
+      (starterTokens[0].length >= 5 && playerTokens.some((playerToken) => trimFinalE(starterTokens[0]) === trimFinalE(playerToken)));
+  }
+  if (starterTokens.every((token) => playerTokens.includes(token))) return true;
+  if (starterTokens.every((token) => playerTokens.some((playerToken) =>
+    token.length >= 5 && trimFinalE(token) === trimFinalE(playerToken)
+  ))) return true;
+  const starterLoose = starterName.replace(/[^a-z0-9]/g, "");
+  const playerLoose = playerName.replace(/[^a-z0-9]/g, "");
+  const shortLoose = trimFinalE(starterLoose.length <= playerLoose.length ? starterLoose : playerLoose);
+  const longLoose = trimFinalE(starterLoose.length > playerLoose.length ? starterLoose : playerLoose);
+  return shortLoose.length >= 5 && longLoose.includes(shortLoose);
 }
 
 function codexIsProbableStarter(row) {
@@ -1300,7 +1344,7 @@ function codexScorerWeight(row) {
 }
 
 function codexScorerPool(team) {
-  return codexOutfieldRows(team)
+  return [...codexOutfieldRows(team), ...codexSyntheticScorerRows(team)]
     .filter(codexIsScorerEligible)
     .map((row) => ({ row, weight: codexScorerWeight(row) }))
     .filter((item) => item.weight > 0)
@@ -1313,8 +1357,10 @@ function codexTournamentGoalPressure(row, totals) {
   const currentGoals = totals[key]?.goals || 0;
   if (!currentGoals) return 1;
   const isFocalForward = (codexPenaltyRank(row) === 1 && row.role === "Attaccanti") || codexIsMainStriker(row);
-  const softCap = isFocalForward ? 8 : codexPenaltyRank(row) ? 7 : codexIsProbableStarter(row) && row.role === "Attaccanti" ? 6 : 4;
-  const pressureRate = isFocalForward ? 0.42 : 0.72;
+  const marketOdds = codexScorerMarketOdds(row);
+  const isEliteMarket = marketOdds && marketOdds <= 25;
+  const softCap = isEliteMarket ? 7 : isFocalForward ? 6 : codexPenaltyRank(row) ? 5 : codexIsProbableStarter(row) && row.role === "Attaccanti" ? 4 : 3;
+  const pressureRate = isEliteMarket ? 0.5 : isFocalForward ? 0.64 : 0.88;
   const pressure = 1 / (1 + currentGoals * pressureRate);
   if (currentGoals < softCap) return pressure;
   return pressure * Math.max(0.08, 1 - (currentGoals - softCap + 1) * 0.28);
@@ -1323,8 +1369,8 @@ function codexTournamentGoalPressure(row, totals) {
 function codexMatchGoalPressure(row, matchScorers = []) {
   const currentGoals = matchScorers.filter((player) => player === row.player).length;
   if (!currentGoals) return 1;
-  if (row.role === "Attaccanti" && codexPenaltyRank(row) === 1 && currentGoals < 2) return 0.58;
-  if (row.role === "Attaccanti" && currentGoals < 2) return 0.36;
+  if (row.role === "Attaccanti" && codexPenaltyRank(row) === 1 && currentGoals < 2) return 0.42;
+  if (row.role === "Attaccanti" && currentGoals < 2) return 0.24;
   if (row.role === "Centrocampisti" && currentGoals < 1) return 0.18;
   return 0;
 }
@@ -1364,7 +1410,7 @@ function codexEnsureScorerTotal(totals, row) {
   if (!totals[key]) {
     const recent = codexPlayerRecord(row).recent15 || {};
     totals[key] = {
-      player: row.player,
+      player: codexScorerDisplayName(row),
       team: row.team,
       role: row.role,
       goals: 0,
@@ -1397,6 +1443,44 @@ function codexApplyFocalScorerFloor(totals, teamMatches) {
     const floor = Math.min(8, Math.round(matches * 0.82 + (rating >= 7.15 ? 0.45 : 0) + (codexHasTournamentPedigree(focal) ? 1.2 : 0)));
     const total = codexEnsureScorerTotal(totals, focal);
     total.goals = Math.max(total.goals, floor);
+  });
+}
+
+function codexApplyMarketScorerBalance(totals, teamMatches) {
+  codexTopScorerMarketOdds.forEach((entry) => {
+    const poolItem = codexScorerPool(entry.team).find((item) => codexStarterMatchesPlayer(entry.player, item.row.player));
+    if (!poolItem) return;
+    const matches = teamMatches[entry.team] || 0;
+    if (matches < 3) return;
+    const total = codexEnsureScorerTotal(totals, poolItem.row);
+    const floor = entry.odds <= 10
+      ? Math.min(8, Math.max(5, Math.round(matches * 0.9)))
+      : entry.odds <= 20
+        ? Math.min(6, Math.max(3, Math.round(matches * 0.55)))
+        : entry.odds <= 50
+          ? Math.min(5, Math.max(2, Math.round(matches * 0.38)))
+          : 0;
+    if (floor) total.goals = Math.max(total.goals, floor);
+  });
+
+  Object.values(totals).forEach((row) => {
+    const matches = teamMatches[row.team] || row.matches || 1;
+    const marketOdds = row.scorerOdds;
+    const absoluteCap = marketOdds && marketOdds <= 10
+      ? 8
+      : marketOdds && marketOdds <= 20
+        ? 7
+        : marketOdds && marketOdds <= 50
+          ? 6
+          : marketOdds && marketOdds <= 100
+            ? 5
+          : row.penaltyRank === 1
+            ? 5
+            : row.role === "Attaccanti"
+              ? 4
+              : 4;
+    const matchCap = Math.max(2, Math.ceil(matches * 0.9));
+    row.goals = Math.min(row.goals, Math.min(absoluteCap, matchCap));
   });
 }
 
@@ -1436,6 +1520,7 @@ function codexProjectedScorers() {
       if (scorer) result.scorers[result.teamB].push(scorer.player);
     }
   });
+  codexApplyMarketScorerBalance(totals, teamMatches);
   return Object.values(totals)
     .map((row) => ({ ...row, matches: teamMatches[row.team] || 0 }))
     .sort((a, b) =>

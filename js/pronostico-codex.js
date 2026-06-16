@@ -157,6 +157,168 @@ const codexRegulationProfiles = {
   "Uruguay": { press: 0.42, tempo: 0.38, dissent: 0.66, timeManagement: 0.6 },
 };
 
+const codexWinnerMarketOdds = {
+  "Francia": 5.5,
+  "Spagna": 7,
+  "Portogallo": 8,
+  "Inghilterra": 9,
+  "Argentina": 10,
+  "Brasile": 12,
+  "Germania": 15,
+  "Olanda": 18,
+  "Stati Uniti": 40,
+  "Marocco": 40,
+  "Norvegia": 40,
+  "Giappone": 50,
+  "Colombia": 50,
+  "Belgio": 50,
+  "Messico": 75,
+  "Svizzera": 100,
+  "Uruguay": 100,
+  "Croazia": 100,
+  "Svezia": 150,
+  "Senegal": 150,
+  "Costa d'Avorio": 150,
+  "Turchia": 200,
+  "Corea del Sud": 200,
+  "Austria": 200,
+  "Ecuador": 200,
+  "Australia": 250,
+  "Scozia": 300,
+  "Canada": 300,
+  "Iran": 500,
+  "Ghana": 500,
+  "Paraguay": 500,
+  "Bosnia ed Erzegovina": 500,
+  "Egitto": 500,
+  "Algeria": 500,
+  "Repubblica Ceca": 750,
+  "Tunisia": 1000,
+  "Sudafrica": 1000,
+  "Uzbekistan": 1000,
+  "Iraq": 1000,
+  "Haiti": 1000,
+  "Giordania": 1000,
+  "Qatar": 1000,
+};
+
+const codexGroupWinnerMarketOdds = {
+  "A": { "Messico": 1.5, "Corea del Sud": 3, "Repubblica Ceca": 12, "Sudafrica": 125 },
+  "B": { "Svizzera": 2, "Canada": 2.5, "Bosnia ed Erzegovina": 6, "Qatar": 33 },
+  "C": { "Brasile": 1.6, "Marocco": 2.75, "Scozia": 10, "Haiti": 200 },
+  "D": { "Stati Uniti": 1.4, "Australia": 4.5, "Turchia": 7.5, "Paraguay": 33 },
+  "E": { "Germania": 1.3, "Costa d'Avorio": 4.5, "Ecuador": 9, "Curacao": 500 },
+  "F": { "Olanda": 2.25, "Svezia": 3, "Giappone": 3.25, "Tunisia": 100 },
+  "G": { "Belgio": 1.57, "Egitto": 3.75, "Iran": 7.5, "Nuova Zelanda": 16 },
+  "H": { "Spagna": 1.25, "Uruguay": 4.5, "Capo Verde": 25, "Arabia Saudita": 33 },
+  "I": { "Francia": 1.36, "Norvegia": 4, "Senegal": 8, "Iraq": 100 },
+  "J": { "Argentina": 1.33, "Austria": 5, "Algeria": 9, "Giordania": 50 },
+  "K": { "Portogallo": 1.45, "Colombia": 3, "RD Congo": 16, "Uzbekistan": 30 },
+  "L": { "Inghilterra": 1.3, "Croazia": 4, "Ghana": 20, "Panama": 50 },
+};
+
+const codexTopScorerMarketOdds = [
+  { team: "Francia", player: "Kylian Mbappe", odds: 6 },
+  { team: "Inghilterra", player: "Harry Kane", odds: 7.5 },
+  { team: "Norvegia", player: "Erling Haaland", odds: 10 },
+  { team: "Argentina", player: "Lionel Messi", odds: 16 },
+  { team: "Francia", player: "Michael Olise", odds: 20 },
+  { team: "Argentina", player: "Julian Alvarez", odds: 20 },
+  { team: "Brasile", player: "Vinicius Jr", odds: 20 },
+  { team: "Portogallo", player: "Cristiano Ronaldo", odds: 20 },
+  { team: "Spagna", player: "Mikel Oyarzabal", odds: 25 },
+  { team: "Stati Uniti", player: "Folarin Balogun", odds: 25 },
+  { team: "Spagna", player: "Lamine Yamal", odds: 33 },
+  { team: "Francia", player: "Ousmane Dembele", odds: 40 },
+  { team: "Brasile", player: "Raphinha", odds: 50 },
+  { team: "Germania", player: "Jamal Musiala", odds: 50 },
+  { team: "Argentina", player: "Lautaro Martinez", odds: 50 },
+  { team: "Brasile", player: "Igor Thiago", odds: 66 },
+  { team: "Olanda", player: "Donyell Malen", odds: 66 },
+  { team: "Olanda", player: "Cody Gakpo", odds: 66 },
+  { team: "Messico", player: "Raul Jimenez", odds: 66 },
+  { team: "Germania", player: "Nick Woltemade", odds: 66 },
+  { team: "Canada", player: "Jonathan David", odds: 75 },
+  { team: "Colombia", player: "Luis Diaz", odds: 75 },
+  { team: "Belgio", player: "Romelu Lukaku", odds: 75 },
+  { team: "Spagna", player: "Ferran Torres", odds: 100 },
+  { team: "Germania", player: "Florian Wirtz", odds: 100 },
+  { team: "Inghilterra", player: "Bukayo Saka", odds: 100 },
+  { team: "Corea del Sud", player: "Son Heung-Min", odds: 100 },
+  { team: "Olanda", player: "Memphis Depay", odds: 100 },
+  { team: "Portogallo", player: "Bruno Fernandes", odds: 100 },
+  { team: "Colombia", player: "Luis Suarez", odds: 100 },
+  { team: "Francia", player: "Jean-Philippe Mateta", odds: 150 },
+  { team: "Uruguay", player: "Darwin Nunez", odds: 150 },
+  { team: "Portogallo", player: "Goncalo Ramos", odds: 150 },
+  { team: "Stati Uniti", player: "Christian Pulisic", odds: 150 },
+  { team: "Marocco", player: "Brahim Diaz", odds: 150 },
+  { team: "Spagna", player: "Nico Williams", odds: 200 },
+  { team: "Turchia", player: "Kenan Yildiz", odds: 200 },
+  { team: "Scozia", player: "Scott McTominay", odds: 200 },
+  { team: "Spagna", player: "Dani Olmo", odds: 200 },
+  { team: "Egitto", player: "Mohamed Salah", odds: 200 },
+  { team: "Norvegia", player: "Alexander Sorloth", odds: 200 },
+  { team: "Belgio", player: "Leandro Trossard", odds: 200 },
+];
+
+const STADIUM_INFO = {
+  "BC Place": { city: "Vancouver", country: "Canada", altitude: 2 },
+  "Lumen Field": { city: "Seattle", country: "USA", altitude: 6 },
+  "Levi's Stadium": { city: "Santa Clara", country: "USA", altitude: 3 },
+  "SoFi Stadium": { city: "Los Angeles", country: "USA", altitude: 38 },
+  "Estadio Akron": { city: "Guadalajara", country: "Messico", altitude: 1566 },
+  "Estadio Azteca": { city: "Città del Messico", country: "Messico", altitude: 2200 },
+  "Estadio BBVA": { city: "Monterrey", country: "Messico", altitude: 540 },
+  "NRG Stadium": { city: "Houston", country: "USA", altitude: 15 },
+  "AT&T Stadium": { city: "Dallas / Arlington", country: "USA", altitude: 180 },
+  "Arrowhead Stadium": { city: "Kansas City", country: "USA", altitude: 270 },
+  "Mercedes-Benz Stadium": { city: "Atlanta", country: "USA", altitude: 320 },
+  "Hard Rock Stadium": { city: "Miami", country: "USA", altitude: 2 },
+  "BMO Field": { city: "Toronto", country: "Canada", altitude: 76 },
+  "Gillette Stadium": { city: "Boston / Foxborough", country: "USA", altitude: 88 },
+  "Lincoln Financial Field": { city: "Philadelphia", country: "USA", altitude: 10 },
+  "MetLife Stadium": { city: "New York / New Jersey", country: "USA", altitude: 2 },
+};
+
+const CLIMATE_DATA = {
+  "Vancouver": { tempMin: 18, tempMax: 23, humidity: "Moderata", rainRisk: "Basso", difficulty: 10 },
+  "Seattle": { tempMin: 18, tempMax: 25, humidity: "Moderata", rainRisk: "Basso", difficulty: 15 },
+  "Santa Clara": { tempMin: 17, tempMax: 23, humidity: "Moderata", rainRisk: "Molto basso", difficulty: 15 },
+  "Los Angeles": { tempMin: 20, tempMax: 28, humidity: "Bassa", rainRisk: "Molto basso", difficulty: 25 },
+  "Toronto": { tempMin: 22, tempMax: 29, humidity: "Media", rainRisk: "Medio", difficulty: 35 },
+  "Boston": { tempMin: 22, tempMax: 30, humidity: "Media", rainRisk: "Medio", difficulty: 40 },
+  "Guadalajara": { tempMin: 22, tempMax: 31, humidity: "Moderata", rainRisk: "Medio", difficulty: 45 },
+  "Città del Messico": { tempMin: 18, tempMax: 27, humidity: "Moderata", rainRisk: "Medio", difficulty: 55 },
+  "Philadelphia": { tempMin: 24, tempMax: 32, humidity: "Alta", rainRisk: "Medio", difficulty: 60 },
+  "New York / New Jersey": { tempMin: 24, tempMax: 32, humidity: "Alta", rainRisk: "Medio", difficulty: 60 },
+  "Kansas City": { tempMin: 26, tempMax: 35, humidity: "Medio-alta", rainRisk: "Medio", difficulty: 70 },
+  "Atlanta": { tempMin: 27, tempMax: 35, humidity: "Alta", rainRisk: "Alto", difficulty: 80 },
+  "Dallas / Arlington": { tempMin: 30, tempMax: 39, humidity: "Medio-alta", rainRisk: "Basso", difficulty: 90 },
+  "Houston": { tempMin: 29, tempMax: 37, humidity: "Molto alta", rainRisk: "Alto", difficulty: 95 },
+  "Monterrey": { tempMin: 30, tempMax: 40, humidity: "Medio-alta", rainRisk: "Basso", difficulty: 95 },
+  "Miami": { tempMin: 29, tempMax: 35, humidity: "Estremamente alta", rainRisk: "Molto alto", difficulty: 100 },
+};
+
+const codexVenueStadiums = {
+  "Vancouver, Canada": "BC Place",
+  "Seattle, USA": "Lumen Field",
+  "Santa Clara, USA": "Levi's Stadium",
+  "Los Angeles, USA": "SoFi Stadium",
+  "Zapopan, Mexico": "Estadio Akron",
+  "Mexico City, Mexico": "Estadio Azteca",
+  "Guadalupe, Mexico": "Estadio BBVA",
+  "Houston, USA": "NRG Stadium",
+  "Arlington, USA": "AT&T Stadium",
+  "Kansas City, USA": "Arrowhead Stadium",
+  "Atlanta, USA": "Mercedes-Benz Stadium",
+  "Miami, USA": "Hard Rock Stadium",
+  "Toronto, Canada": "BMO Field",
+  "Foxborough, USA": "Gillette Stadium",
+  "Philadelphia, USA": "Lincoln Financial Field",
+  "New Jersey, USA": "MetLife Stadium",
+};
+
 function codexFold(value) {
   return String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 }
@@ -219,6 +381,36 @@ function codexRegulationProfile(team) {
 function codexRegulationBoost(team) {
   const profile = codexRegulationProfile(team);
   return (profile.press * 1.15 + profile.tempo * 0.9) - (profile.timeManagement * 1.05 + profile.dissent * 0.38);
+}
+
+function codexWinnerMarketBoost(team) {
+  const odds = codexWinnerMarketOdds[team];
+  if (!odds) return 0;
+  return codexClamp(Math.log(80 / odds) * 2.2, -5.2, 6.6);
+}
+
+function codexGroupOfTeam(team) {
+  return Object.entries(groupTeams || {}).find(([, teams]) => teams.includes(team))?.[0] || "";
+}
+
+function codexGroupWinnerMarketBoost(team) {
+  const group = codexGroupOfTeam(team);
+  const odds = codexGroupWinnerMarketOdds[group]?.[team];
+  if (!odds) return 0;
+  return codexClamp(Math.log(7.5 / odds) * 1.35, -4.5, 3.2);
+}
+
+function codexScorerMarketOdds(row) {
+  const item = codexTopScorerMarketOdds.find((entry) =>
+    entry.team === row.team && codexStarterMatchesPlayer(entry.player, row.player)
+  );
+  return item?.odds || null;
+}
+
+function codexScorerMarketMultiplier(row) {
+  const odds = codexScorerMarketOdds(row);
+  if (!odds) return 1;
+  return codexClamp(1 + Math.log(80 / odds) * 0.11, 0.82, 1.36);
 }
 
 function codexRankingEntries() {
@@ -583,11 +775,12 @@ function codexTeamStrength(team) {
   const indexBoost = formationMeta.worldCupIndex ? codexClamp((formationMeta.worldCupIndex - 78) / 1.6, -12, 14) : 0;
   const tierBoosts = { favorite: 5.5, contender: 2.5, dark_horse: 0.6, mid_tier: -1.8, outsider: -4.2 };
   const tierBoost = tierBoosts[formationMeta.tier] || 0;
+  const marketBoost = codexWinnerMarketBoost(team);
   const recentAttack = recent.goalsFor * 4.8 + Math.max(0, recent.goalDiff) * 2.2;
   const recentDefence = -recent.goalsAgainst * 4.8 + Math.max(0, -recent.goalDiff) * -2.1;
-  const attack = 50 + xgFor * 10.5 + sotFor * 2.55 + shotsFor * 0.5 + recentAttack + (players - 50) * 0.48 + rankingBoost * 0.18 + scheduleBoost * 0.18 + regulationBoost * 1.2 + indexBoost * 0.48 + tierBoost * 0.72;
-  const control = possession * 0.32 + form * 26 + recent.goalDiff * 2.4 + rankingBoost * 0.28 + scheduleBoost * 0.44 + regulationBoost * 1.65 + indexBoost * 0.36 + tierBoost * 0.42;
-  const resistance = 54 - xgAgainst * 12.5 - sotAgainst * 3 - shotsAgainst * 0.72 + recentDefence + (goalkeepers - 50) * 0.5 + rankingBoost * 0.24 + scheduleBoost * 0.16 + regulationBoost * 0.45 + indexBoost * 0.28 + tierBoost * 0.34;
+  const attack = 50 + xgFor * 10.5 + sotFor * 2.55 + shotsFor * 0.5 + recentAttack + (players - 50) * 0.48 + rankingBoost * 0.18 + scheduleBoost * 0.18 + regulationBoost * 1.2 + indexBoost * 0.48 + tierBoost * 0.72 + marketBoost * 0.34;
+  const control = possession * 0.32 + form * 26 + recent.goalDiff * 2.4 + rankingBoost * 0.28 + scheduleBoost * 0.44 + regulationBoost * 1.65 + indexBoost * 0.36 + tierBoost * 0.42 + marketBoost * 0.58;
+  const resistance = 54 - xgAgainst * 12.5 - sotAgainst * 3 - shotsAgainst * 0.72 + recentDefence + (goalkeepers - 50) * 0.5 + rankingBoost * 0.24 + scheduleBoost * 0.16 + regulationBoost * 0.45 + indexBoost * 0.28 + tierBoost * 0.34 + marketBoost * 0.28;
   const total = attack * 0.42 + control * 0.24 + resistance * 0.34;
   return {
     team,
@@ -607,6 +800,8 @@ function codexTeamStrength(team) {
     xgFor,
     xgAgainst,
     regulationBoost,
+    marketBoost,
+    winnerOdds: codexWinnerMarketOdds[team] || null,
     worldCupIndex: formationMeta.worldCupIndex,
     formationTier: formationMeta.tier,
   };
@@ -629,6 +824,211 @@ function codexExpectedGoals(team, opponent, knockout = false) {
   return codexClamp(raw, 0.03, 3.05);
 }
 
+function codexVenueCountry(fixture) {
+  const venue = fixture?.[4] || "";
+  if (/,\s*USA$/i.test(venue)) return "USA";
+  if (/,\s*Mexico$/i.test(venue)) return "Mexico";
+  if (/,\s*Canada$/i.test(venue)) return "Canada";
+  return "";
+}
+
+function codexVenueCity(fixture) {
+  return String(fixture?.[4] || "").split(",")[0].trim();
+}
+
+function getAltitudeClass(altitude) {
+  if (altitude >= 1500) return "altitude-high";
+  if (altitude >= 500) return "altitude-medium";
+  return "altitude-low";
+}
+
+function getClimateClass(difficulty) {
+  if (difficulty >= 80) return "climate-extreme";
+  if (difficulty >= 60) return "climate-hard";
+  if (difficulty >= 30) return "climate-medium";
+  return "climate-easy";
+}
+
+function codexClimateCityKey(city) {
+  if (city === "Boston / Foxborough") return "Boston";
+  return city;
+}
+
+function enrichClimate(match) {
+  const city = match?.city || codexVenueCity(match);
+  const climate = CLIMATE_DATA[codexClimateCityKey(city)] || null;
+  if (!climate) {
+    return {
+      ...match,
+      tempMin: null,
+      tempMax: null,
+      humidity: "",
+      rainRisk: "",
+      climateDifficulty: null,
+      climateClass: "",
+    };
+  }
+  return {
+    ...match,
+    tempMin: climate.tempMin,
+    tempMax: climate.tempMax,
+    humidity: climate.humidity,
+    rainRisk: climate.rainRisk,
+    climateDifficulty: climate.difficulty,
+    climateClass: getClimateClass(climate.difficulty),
+  };
+}
+
+function enrichMatch(match) {
+  const venue = Array.isArray(match) ? match[4] : match?.venue || "";
+  const stadium = codexVenueStadiums[venue] || "";
+  const stadiumInfo = STADIUM_INFO[stadium] || null;
+  const [rawCity = "", rawCountry = ""] = String(venue).split(",").map((part) => part.trim());
+  const enriched = {
+    fixture: match,
+    venue,
+    stadium,
+    city: stadiumInfo?.city || rawCity,
+    country: stadiumInfo?.country || rawCountry,
+    altitude: stadiumInfo?.altitude ?? null,
+    altitudeClass: stadiumInfo ? getAltitudeClass(stadiumInfo.altitude) : "",
+  };
+  return enrichClimate(enriched);
+}
+
+function codexAltitudeBadge(match) {
+  if (match.altitudeClass === "altitude-high") return { className: "altitude-high", label: "🔴 Alta quota" };
+  if (match.altitudeClass === "altitude-medium") return { className: "altitude-medium", label: "🟠 Media quota" };
+  return { className: "altitude-low", label: "🟢 Bassa quota" };
+}
+
+function codexClimateBadge(match) {
+  if (match.climateClass === "climate-extreme") return { className: "climate-extreme", label: "🔴 Condizioni estreme" };
+  if (match.climateClass === "climate-hard") return { className: "climate-hard", label: "🟠 Condizioni impegnative" };
+  if (match.climateClass === "climate-medium") return { className: "climate-medium", label: "🟡 Condizioni buone" };
+  return { className: "climate-easy", label: "🟢 Condizioni ideali" };
+}
+
+function codexSpecialVenueBadges(match) {
+  const badges = [];
+  if (match.stadium === "Estadio Azteca") badges.push({ className: "is-altitude-factor", label: "FATTORE ALTITUDINE" });
+  if (match.stadium === "Estadio Akron") badges.push({ className: "is-high-altitude", label: "ALTA QUOTA" });
+  if (match.stadium === "Estadio BBVA") badges.push({ className: "is-mid-altitude", label: "QUOTA INTERMEDIA" });
+  if (["Miami", "Houston", "Monterrey", "Dallas / Arlington"].includes(match.city) && match.climateDifficulty >= 90) {
+    badges.push({ className: "is-extreme-heat", label: "🔥 CALDO ESTREMO" });
+  } else if (["Atlanta", "Dallas / Arlington", "Houston", "Monterrey", "Miami"].includes(match.city) && match.climateDifficulty >= 80) {
+    badges.push({ className: "is-heat-stress", label: "☀️ STRESS TERMICO ELEVATO" });
+  }
+  return badges;
+}
+
+function codexBadgeMarkup(badge, extraClass = "") {
+  return `<span class="codex-env-badge ${extraClass} ${badge.className}">${codexEscape(badge.label)}</span>`;
+}
+
+function codexClimateTooltip() {
+  return "Valore basato sulle medie climatiche storiche di giugno-luglio della città ospitante. Non rappresenta una previsione meteo reale.";
+}
+
+function codexRenderEnvironmentPanel(match, compact = false) {
+  if (!match?.stadium) return "";
+  const altitudeBadge = codexAltitudeBadge(match);
+  const climateBadge = codexClimateBadge(match);
+  const specialBadges = codexSpecialVenueBadges(match);
+  const difficulty = codexClamp(match.climateDifficulty ?? 0, 0, 100);
+  if (compact) {
+    return `
+      <div class="codex-world-env" title="${codexEscape(codexClimateTooltip())}">
+        <span>🏟️ ${codexEscape(match.stadium)}</span>
+        <span>📍 ${codexEscape(match.city)}</span>
+        <span>⛰️ ${codexEscape(match.altitude)} m</span>
+        <span>🌡️ ${codexEscape(match.tempMin)}°-${codexEscape(match.tempMax)}°C</span>
+        ${codexBadgeMarkup(altitudeBadge)}
+        ${codexBadgeMarkup(climateBadge)}
+      </div>`;
+  }
+  return `
+    <div class="codex-env-panel" title="${codexEscape(codexClimateTooltip())}">
+      <div class="codex-env-lines">
+        <span>🏟️ ${codexEscape(match.stadium)}</span>
+        <span>📍 ${codexEscape(match.city)}, ${codexEscape(match.country)}</span>
+        <span>⛰️ ${codexEscape(match.altitude)} m</span>
+      </div>
+      <div class="codex-env-badges">
+        ${codexBadgeMarkup(altitudeBadge)}
+        ${codexBadgeMarkup(climateBadge)}
+        ${specialBadges.map((badge) => codexBadgeMarkup(badge, "is-special")).join("")}
+      </div>
+      <div class="codex-climate-grid">
+        <span><b>🌡️</b>${codexEscape(match.tempMin)}° - ${codexEscape(match.tempMax)}°C</span>
+        <span><b>💧 Umidità:</b>${codexEscape(match.humidity)}</span>
+        <span><b>🌧️ Pioggia:</b>${codexEscape(match.rainRisk)}</span>
+        <span><b>⚠️ Difficoltà climatica:</b>${difficulty}/100</span>
+      </div>
+      <div class="codex-climate-bar" aria-label="Difficoltà climatica ${difficulty} su 100">
+        <span style="width: ${difficulty}%"></span>
+      </div>
+    </div>`;
+}
+
+function codexHostAdvantage(team, fixture) {
+  const country = codexVenueCountry(fixture);
+  const directHosts = {
+    "Stati Uniti": "USA",
+    "Messico": "Mexico",
+    "Canada": "Canada",
+  };
+  if (directHosts[team] === country) return 0.24;
+  if (team === "Messico" && country === "USA") return 0.14;
+  if (team === "Stati Uniti" && country === "Mexico") return 0.08;
+  if (team === "Canada" && country === "USA") return 0.07;
+  if (team === "Stati Uniti" && country === "Canada") return 0.06;
+  if (team === "Canada" && country === "Mexico") return 0.04;
+  return 0;
+}
+
+const codexAltitudeAdaptedTeams = {
+  "Messico": 0.18,
+  "Ecuador": 0.16,
+  "Colombia": 0.11,
+  "Sudafrica": 0.08,
+};
+
+const codexHeatAdaptedTeams = {
+  "Brasile": 0.11,
+  "Colombia": 0.1,
+  "Panama": 0.1,
+  "Paraguay": 0.09,
+  "Ecuador": 0.08,
+  "Messico": 0.06,
+  "Costa d'Avorio": 0.05,
+  "Arabia Saudita": 0.05,
+};
+
+const codexHeatSensitiveTeams = {
+  "Norvegia": -0.07,
+  "Svezia": -0.06,
+  "Inghilterra": -0.04,
+  "Olanda": -0.04,
+  "Germania": -0.035,
+  "Svizzera": -0.035,
+};
+
+function codexEnvironmentalAdvantage(team, fixture) {
+  const city = codexVenueCity(fixture);
+  const country = codexVenueCountry(fixture);
+  let boost = 0;
+  if (/Mexico City|Guadalupe|Zapopan/i.test(city)) {
+    boost += codexAltitudeAdaptedTeams[team] || 0;
+    if (country === "Mexico" && team === "Messico") boost += 0.08;
+  }
+  if (/Miami|Houston|Arlington|Dallas|Kansas City|Atlanta|Philadelphia/i.test(city)) {
+    boost += codexHeatAdaptedTeams[team] || 0;
+    boost += codexHeatSensitiveTeams[team] || 0;
+  }
+  return codexClamp(boost, -0.08, 0.24);
+}
+
 function codexGoalsFromExpected(expected) {
   if (expected < 0.55) return 0;
   if (expected < 1.72) return 1;
@@ -641,7 +1041,7 @@ function codexHashNumber(value) {
   return String(value || "").split("").reduce((hash, char) => ((hash << 5) - hash + char.charCodeAt(0)) | 0, 0);
 }
 
-function codexScoreMatch(teamA, teamB, knockout = false) {
+function codexScoreMatch(teamA, teamB, knockout = false, fixture = null) {
   const matchupHash = Math.abs(codexHashNumber(`${teamA}-${teamB}-${knockout ? "ko" : "group"}`));
   const tempo = ((matchupHash % 9) - 4) * 0.045 - (knockout ? 0.04 : 0);
   const tilt = (((Math.floor(matchupHash / 9) % 7) - 3) * 0.035);
@@ -651,8 +1051,12 @@ function codexScoreMatch(teamA, teamB, knockout = false) {
   const upsetHash = Math.floor(matchupHash / 63) % 17;
   const exceptionChance = knockout ? 1 : 2;
   const allowUnderdogException = upsetHash < exceptionChance;
-  let expectedA = codexClamp(codexExpectedGoals(teamA, teamB, knockout) + tempo + tilt, 0.03, 3.15);
-  let expectedB = codexClamp(codexExpectedGoals(teamB, teamA, knockout) + tempo - tilt, 0.03, 3.15);
+  const venueA = codexHostAdvantage(teamA, fixture) + codexEnvironmentalAdvantage(teamA, fixture);
+  const venueB = codexHostAdvantage(teamB, fixture) + codexEnvironmentalAdvantage(teamB, fixture);
+  const groupMarketA = knockout ? 0 : codexGroupWinnerMarketBoost(teamA);
+  const groupMarketB = knockout ? 0 : codexGroupWinnerMarketBoost(teamB);
+  let expectedA = codexClamp(codexExpectedGoals(teamA, teamB, knockout) + tempo + tilt + venueA + groupMarketA * 0.06, 0.03, 3.3);
+  let expectedB = codexClamp(codexExpectedGoals(teamB, teamA, knockout) + tempo - tilt + venueB + groupMarketB * 0.06, 0.03, 3.3);
   if (mismatch > 300) {
     const favoriteBoost = codexClamp((mismatch - 300) / 260, 0.12, 0.72);
     const underdogPenalty = codexClamp((mismatch - 260) / 300, 0.16, 0.86);
@@ -703,7 +1107,7 @@ function codexScoreMatch(teamA, teamB, knockout = false) {
     winner = codexState.strengths[teamA].total >= codexState.strengths[teamB].total ? teamA : teamB;
     note = `${winner} vince dopo extra time`;
   }
-  return { teamA, teamB, goalsA, goalsB, winner, note, expectedA, expectedB };
+  return { teamA, teamB, goalsA, goalsB, winner, note, expectedA, expectedB, venueA, venueB, groupMarketA, groupMarketB };
 }
 
 function codexBlankRows(group) {
@@ -775,6 +1179,7 @@ function codexSortTable(rows) {
     b.points - a.points ||
     (b.gf - b.ga) - (a.gf - a.ga) ||
     b.gf - a.gf ||
+    codexGroupWinnerMarketBoost(b.team) - codexGroupWinnerMarketBoost(a.team) ||
     codexState.strengths[b.team].total - codexState.strengths[a.team].total ||
     a.order - b.order
   );
@@ -789,7 +1194,7 @@ function codexSimulateGroups() {
   fixtures.forEach((fixture, index) => {
     const teams = codexFixtureTeams(fixture[2]);
     if (teams.length !== 2) return;
-    const result = codexRealResult(index + 1, fixture) || codexScoreMatch(teams[0], teams[1], false);
+    const result = codexRealResult(index + 1, fixture) || codexScoreMatch(teams[0], teams[1], false, fixture);
     codexState.results[index + 1] = { ...result, fixture };
     const group = fixture[1].replace("Group ", "");
     codexApplyGroupResult(tables[group], result);
@@ -865,7 +1270,7 @@ function codexSimulateKnockout() {
     .forEach((matchNumber) => {
       const [teamA, teamB] = codexParticipants(matchNumber);
       if (!teamA || !teamB) return;
-      const result = codexScoreMatch(teamA, teamB, true);
+      const result = codexScoreMatch(teamA, teamB, true, worldCupFixtures[matchNumber - 1]);
       codexState.results[matchNumber] = { ...result, fixture: worldCupFixtures[matchNumber - 1] };
     });
 }
@@ -886,11 +1291,12 @@ function codexScorerWeight(row) {
   const focalBonus = penaltyRank === 1 && row.role === "Attaccanti" ? 1.18 : 1;
   const formationFocalBonus = codexIsMainStriker(row) ? 1.2 : codexIsFormationStar(row) ? 1.12 : 1;
   const pedigreeBonus = codexHasTournamentPedigree(row) ? 1.1 : 1;
+  const marketMultiplier = codexScorerMarketMultiplier(row);
   const goalRate = goals / Math.max(apps, 5);
   const assistSupport = assists / Math.max(apps, 6);
   const ratingLift = codexClamp((rating - 6.15) / 1.25, 0, 1.25);
   const availability = codexClamp(apps / 15, 0.35, 1);
-  return Math.max(0.05, roleBase * starterBonus * formationWeight * penaltyBonus * focalBonus * formationFocalBonus * pedigreeBonus * minutesShare * availability * (0.82 + goalRate * 4.8 + assistSupport * 1.1 + ratingLift * 0.45));
+  return Math.max(0.05, roleBase * starterBonus * formationWeight * penaltyBonus * focalBonus * formationFocalBonus * pedigreeBonus * marketMultiplier * minutesShare * availability * (0.82 + goalRate * 4.8 + assistSupport * 1.1 + ratingLift * 0.45));
 }
 
 function codexScorerPool(team) {
@@ -969,6 +1375,7 @@ function codexEnsureScorerTotal(totals, row) {
       starter: codexIsProbableStarter(row),
       expectedMinutes: Math.round(codexExpectedMinutesShare(row) * 90),
       penaltyRank: codexPenaltyRank(row),
+      scorerOdds: codexScorerMarketOdds(row),
     };
   }
   return totals[key];
@@ -1035,6 +1442,7 @@ function codexProjectedScorers() {
       b.goals - a.goals ||
       (b.penaltyRank === 1 ? 1 : 0) - (a.penaltyRank === 1 ? 1 : 0) ||
       (b.role === "Attaccanti" ? 1 : 0) - (a.role === "Attaccanti" ? 1 : 0) ||
+      ((b.scorerOdds ? 1 / b.scorerOdds : 0) - (a.scorerOdds ? 1 / a.scorerOdds : 0)) ||
       (b.rating || 0) - (a.rating || 0) ||
       b.matches - a.matches ||
       a.player.localeCompare(b.player)
@@ -1276,7 +1684,7 @@ function codexRenderResultCard(matchNumber) {
   if (!result) return "";
   if (!result.scorers) codexProjectedScorers();
   const phase = codexPhaseLabel(result.fixture?.[1]);
-  const venue = result.fixture?.[4] || "";
+  const matchEnvironment = enrichMatch(result.fixture);
   const scorersA = codexScorerSummary(result.scorers?.[result.teamA]);
   const scorersB = codexScorerSummary(result.scorers?.[result.teamB]);
   const scorerBlock = (scorersA || scorersB) ? `
@@ -1296,7 +1704,8 @@ function codexRenderResultCard(matchNumber) {
         </strong>
         ${scorerBlock}
         ${result.isReal ? '<em class="codex-real-result-badge">Risultato reale</em>' : ""}
-        <small>${codexEscape(venue)}${result.note ? ` &middot; ${result.note}` : ""}</small>
+        ${codexRenderEnvironmentPanel(matchEnvironment)}
+        ${result.note ? `<small>${codexEscape(result.note)}</small>` : ""}
       </div>
     </article>`;
 }
@@ -1420,6 +1829,7 @@ function codexWorldMatchCard(matchNumber, compact = false) {
   const result = codexState.results[matchNumber];
   if (!result) return `<article class="codex-world-match is-empty"><span>Da definire</span></article>`;
   if (!result.scorers) codexProjectedScorers();
+  const matchEnvironment = enrichMatch(result.fixture);
   const scorersA = codexScorerSummary(result.scorers?.[result.teamA]);
   const scorersB = codexScorerSummary(result.scorers?.[result.teamB]);
   return `
@@ -1434,6 +1844,7 @@ function codexWorldMatchCard(matchNumber, compact = false) {
           ${scorersA ? `<span title="${codexEscape(result.teamA)}">${codexFlag(result.teamA)}${scorersA}</span>` : ""}
           ${scorersB ? `<span title="${codexEscape(result.teamB)}">${codexFlag(result.teamB)}${scorersB}</span>` : ""}
         </div>` : ""}
+      ${codexRenderEnvironmentPanel(matchEnvironment, true)}
     </article>`;
 }
 

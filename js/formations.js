@@ -7,7 +7,7 @@ const probableFormations = {
   "Bosnia ed Erzegovina": { module: "4-4-2", coach: "Sergej Barbarez", source: "Goal", starters: ["Vasilj","Hadzikadunic","Muharemovic","Katic","Dedic","Memic","Tahirovic","Sunjic","Bajraktarevic","Demirovic","Dzeko"] },
   "Qatar": { module: "4-3-3", coach: "Julen Lopetegui", source: "Goal", starters: ["Barsham","El Amin","Mendes","Khoukhi","Miguel","Hatem","Boudiaf","Madibo","Afif","Ali","Edmilson"] },
   "Svizzera": { module: "4-3-3", coach: "Murat Yakin", source: "Goal", starters: ["Kobel","Ricardo Rodriguez","Akanji","Elvedi","Widmer","Rieder","Xhaka","Freuler","Ndoye","Embolo","Vargas"] },
-  "Brasile": { module: "4-2-3-1", coach: "Carlo Ancelotti", source: "Goal", starters: ["Alisson","Alex Sandro","Gabriel","Marquinhos","Wesley","Bruno Guimaraes","Casemiro","Neymar","Vinicius Jr","Matheus Cunha","Raphinha"] },
+  "Brasile": { module: "4-2-3-1", coach: "Carlo Ancelotti", source: "Diretta", starters: ["Alisson","Alex Sandro","Gabriel","Marquinhos","Ederson Silva","Bruno Guimaraes","Casemiro","Neymar","Vinicius Jr","Matheus Cunha","Raphinha"] },
   "Marocco": { module: "4-3-3", coach: "Walid Regragui", source: "Goal", starters: ["Bono","Mazraoui","Chadi Riad","Aguerd","Hakimi","Saibari","El Aynaoui","El Khannouss","Ezzalzouli","El Kaabi","Brahim Diaz"] },
   "Haiti": { module: "4-3-3", coach: "Sebastien Migne", source: "Goal", starters: ["Placide","Delcroix","Duverne","Ade","Arcus","Deedson","J. Jacques","Bellegarde","Isidor","Nazon","Etienne"] },
   "Scozia": { module: "4-3-3", coach: "Steve Clarke", source: "Goal", starters: ["Gunn","Robertson","McKenna","Souttar","Hickey","McGinn","McTominay","Ferguson","Gannon-Doak","Shankland","Christie"] },

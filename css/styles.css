@@ -5115,6 +5115,118 @@ body {
   font-size: 11px;
 }
 
+.codex-env-panel {
+  display: grid;
+  gap: 8px;
+  margin-top: 9px;
+  padding: 9px;
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, .045);
+}
+
+.codex-env-lines,
+.codex-climate-grid {
+  display: grid;
+  gap: 4px;
+  color: rgba(238, 244, 255, .86);
+  font-size: 10.5px;
+  line-height: 1.28;
+}
+
+.codex-env-lines span,
+.codex-climate-grid span {
+  min-width: 0;
+}
+
+.codex-climate-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.codex-climate-grid b {
+  display: inline;
+  margin-right: 4px;
+  color: rgba(238, 244, 255, .94);
+  font-size: inherit;
+  text-transform: none;
+}
+
+.codex-env-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.codex-env-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 20px;
+  padding: 3px 7px;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .08);
+  color: rgba(238, 244, 255, .92);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.codex-env-badge.altitude-high,
+.codex-env-badge.climate-extreme,
+.codex-env-badge.is-extreme-heat {
+  border-color: rgba(255, 92, 92, .35);
+  background: rgba(255, 92, 92, .14);
+  color: #ffd9d9;
+}
+
+.codex-env-badge.altitude-medium,
+.codex-env-badge.climate-hard,
+.codex-env-badge.is-mid-altitude,
+.codex-env-badge.is-heat-stress {
+  border-color: rgba(255, 181, 71, .36);
+  background: rgba(255, 181, 71, .14);
+  color: #ffe4ba;
+}
+
+.codex-env-badge.altitude-low,
+.codex-env-badge.climate-easy {
+  border-color: rgba(77, 224, 115, .3);
+  background: rgba(77, 224, 115, .12);
+  color: #c9ffd8;
+}
+
+.codex-env-badge.climate-medium,
+.codex-env-badge.is-high-altitude {
+  border-color: rgba(245, 200, 75, .34);
+  background: rgba(245, 200, 75, .13);
+  color: #ffedb5;
+}
+
+.codex-env-badge.is-altitude-factor {
+  border-color: rgba(108, 183, 255, .42);
+  background: rgba(108, 183, 255, .16);
+  color: #d7ecff;
+}
+
+.codex-env-badge.is-special {
+  text-transform: uppercase;
+}
+
+.codex-climate-bar {
+  overflow: hidden;
+  height: 7px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .1);
+}
+
+.codex-climate-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #4de073, #f5c84b 48%, #ff9f43 72%, #ff5c5c);
+}
+
 .codex-standings-grid {
   margin-top: 14px;
 }
@@ -5323,6 +5435,29 @@ body {
   height: 12px;
   align-self: flex-start;
   margin-top: 1px;
+}
+
+.codex-world-env {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  min-width: 0;
+  color: rgba(238, 244, 255, .68);
+  font-size: 8.5px;
+  line-height: 1.2;
+}
+
+.codex-world-env > span:not(.codex-env-badge) {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.codex-world-env .codex-env-badge {
+  min-height: 16px;
+  padding: 2px 5px;
+  font-size: 7.5px;
 }
 
 .codex-world-center {

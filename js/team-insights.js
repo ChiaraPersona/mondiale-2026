@@ -7,7 +7,7 @@ const teamInsights = {
   "Bosnia ed Erzegovina": { coach: "Sergej Barbarez", starters: ["Vasilj", "Dedic", "Katic", "Muharemovic", "Kolasinac", "Bajraktarevic", "Basic", "Sunjic", "Alajbegovic", "Demirovic", "Dzeko"] },
   "Qatar": { coach: "Julen Lopetegui", starters: [] },
   "Svizzera": { coach: "Murat Yakin", starters: ["Kobel", "Widmer", "Akanji", "Elvedi", "Rodriguez", "Freuler", "Xhaka", "Rieder", "Ndoye", "Embolo", "Vargas"] },
-  "Brasile": { coach: "Carlo Ancelotti", starters: ["Alisson", "Wesley", "Marquinhos", "Gabriel Magalhaes", "Douglas Santos", "Casemiro", "Bruno Guimaraes", "Raphinha", "Neymar", "Vinicius", "Cunha"] },
+  "Brasile": { coach: "Carlo Ancelotti", starters: ["Alisson", "Ederson Silva", "Marquinhos", "Gabriel Magalhaes", "Douglas Santos", "Casemiro", "Bruno Guimaraes", "Raphinha", "Neymar", "Vinicius", "Cunha"] },
   "Marocco": { coach: "Walid Regragui", starters: ["Bounou", "Hakimi", "Diop", "Aguerd", "Salah-Eddine", "Ounahi", "El Aynaoui", "Brahim Diaz", "Saibari", "Talbi", "El Kaabi"] },
   "Haiti": { coach: "Sébastien Migné", starters: ["Placide", "Arcus", "Ade", "Duverne", "Experience", "Deedson", "Bellegarde", "Pierre", "Isidor", "Nazon", "Providence"] },
   "Scozia": { coach: "Steve Clarke", starters: ["Gordon", "Hickey", "Hanley", "McKenna", "Robertson", "Ferguson", "Doak", "Christie", "McTominay", "McGinn", "Adams"] },

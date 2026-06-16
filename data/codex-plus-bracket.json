@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-16T15:26:05.732Z",
+  "generatedAt": "2026-06-16T16:02:29.251Z",
   "title": "Pronostico Codex+ Mondiale 2026",
-  "formula": "Codex 70% · Opta 12% · Klement 7% · Goldman Sachs 6% · IA varie 5%",
+  "formula": "Codex 60% - Motivation Index 10% - Opta 12% - Klement 7% - Goldman Sachs 6% - IA varie 5%",
   "champion": "Spagna",
   "final": {
     "number": 104,
@@ -12,10 +12,10 @@
     "goalsB": 1,
     "winner": "Spagna",
     "note": "",
-    "expectedA": 1.84,
-    "expectedB": 0.88,
-    "codexPlusA": 92.1,
-    "codexPlusB": 79.5,
+    "expectedA": 1.82,
+    "expectedB": 0.91,
+    "codexPlusA": 87.5,
+    "codexPlusB": 76.4,
     "badgesA": [
       "Klement",
       "Opta 16.1%",
@@ -35,10 +35,10 @@
     "goalsB": 1,
     "winner": "Francia",
     "note": "",
-    "expectedA": 2.22,
-    "expectedB": 1.11,
-    "codexPlusA": 77.9,
-    "codexPlusB": 72.2,
+    "expectedA": 2.15,
+    "expectedB": 1.17,
+    "codexPlusA": 72.9,
+    "codexPlusB": 72,
     "badgesA": [
       "Opta 13.0%",
       "Claude"
@@ -61,8 +61,8 @@
         "note": "",
         "expectedA": 3.43,
         "expectedB": 0.03,
-        "codexPlusA": 72.2,
-        "codexPlusB": 42.4,
+        "codexPlusA": 66.1,
+        "codexPlusB": 40.8,
         "badgesA": [
           "Opta 5.1%"
         ],
@@ -79,8 +79,8 @@
         "note": "",
         "expectedA": 3.3,
         "expectedB": 0.03,
-        "codexPlusA": 77.9,
-        "codexPlusB": 44.4,
+        "codexPlusA": 72.9,
+        "codexPlusB": 42.6,
         "badgesA": [
           "Opta 13.0%",
           "Claude"
@@ -96,10 +96,10 @@
         "goalsB": 1,
         "winner": "Corea del Sud",
         "note": "Corea del Sud vince dopo extra time",
-        "expectedA": 1.25,
-        "expectedB": 1.08,
-        "codexPlusA": 45,
-        "codexPlusB": 43.8,
+        "expectedA": 1.27,
+        "expectedB": 1.06,
+        "codexPlusA": 44.9,
+        "codexPlusB": 42.3,
         "badgesA": [],
         "badgesB": []
       },
@@ -112,10 +112,10 @@
         "goalsB": 0,
         "winner": "Brasile",
         "note": "",
-        "expectedA": 2.03,
-        "expectedB": 0.2,
-        "codexPlusA": 65.2,
-        "codexPlusB": 56,
+        "expectedA": 2,
+        "expectedB": 0.23,
+        "codexPlusA": 60.6,
+        "codexPlusB": 53.4,
         "badgesA": [
           "Opta 6.6%"
         ],
@@ -132,10 +132,10 @@
         "goalsB": 2,
         "winner": "Colombia",
         "note": "Colombia vince dopo extra time",
-        "expectedA": 0.91,
-        "expectedB": 1.42,
-        "codexPlusA": 52.4,
-        "codexPlusB": 53.7,
+        "expectedA": 0.9,
+        "expectedB": 1.43,
+        "codexPlusA": 51.4,
+        "codexPlusB": 53.6,
         "badgesA": [],
         "badgesB": []
       },
@@ -150,8 +150,8 @@
         "note": "",
         "expectedA": 3.3,
         "expectedB": 0.03,
-        "codexPlusA": 92.1,
-        "codexPlusB": 52.8,
+        "codexPlusA": 87.5,
+        "codexPlusB": 49.8,
         "badgesA": [
           "Klement",
           "Opta 16.1%",
@@ -168,10 +168,10 @@
         "goalsB": 1,
         "winner": "Stati Uniti",
         "note": "Stati Uniti vince dopo extra time",
-        "expectedA": 1.29,
-        "expectedB": 1.5,
-        "codexPlusA": 46.6,
-        "codexPlusB": 47.2,
+        "expectedA": 1.32,
+        "expectedB": 1.47,
+        "codexPlusA": 46.3,
+        "codexPlusB": 44.7,
         "badgesA": [],
         "badgesB": []
       },
@@ -184,10 +184,10 @@
         "goalsB": 0,
         "winner": "Belgio",
         "note": "",
-        "expectedA": 3.38,
+        "expectedA": 3.37,
         "expectedB": 0.03,
-        "codexPlusA": 59.6,
-        "codexPlusB": 32.8,
+        "codexPlusA": 58.4,
+        "codexPlusB": 32,
         "badgesA": [],
         "badgesB": []
       }
@@ -202,10 +202,10 @@
         "goalsB": 1,
         "winner": "Francia",
         "note": "Francia vince dopo extra time",
-        "expectedA": 1.41,
-        "expectedB": 1.61,
-        "codexPlusA": 72.2,
-        "codexPlusB": 77.9,
+        "expectedA": 1.4,
+        "expectedB": 1.63,
+        "codexPlusA": 66.1,
+        "codexPlusB": 72.9,
         "badgesA": [
           "Opta 5.1%"
         ],
@@ -224,9 +224,9 @@
         "winner": "Brasile",
         "note": "",
         "expectedA": 0.03,
-        "expectedB": 3.26,
-        "codexPlusA": 45,
-        "codexPlusB": 65.2,
+        "expectedB": 3.2,
+        "codexPlusA": 44.9,
+        "codexPlusB": 60.6,
         "badgesA": [],
         "badgesB": [
           "Opta 6.6%"
@@ -243,8 +243,8 @@
         "note": "",
         "expectedA": 0.03,
         "expectedB": 3.3,
-        "codexPlusA": 52.4,
-        "codexPlusB": 92.1,
+        "codexPlusA": 51.4,
+        "codexPlusB": 87.5,
         "badgesA": [],
         "badgesB": [
           "Klement",
@@ -261,10 +261,10 @@
         "goalsB": 3,
         "winner": "Belgio",
         "note": "",
-        "expectedA": 0.5,
-        "expectedB": 2.68,
-        "codexPlusA": 46.6,
-        "codexPlusB": 59.6,
+        "expectedA": 0.51,
+        "expectedB": 2.66,
+        "codexPlusA": 46.3,
+        "codexPlusB": 58.4,
         "badgesA": [],
         "badgesB": []
       }
@@ -280,9 +280,9 @@
         "winner": "Francia",
         "note": "",
         "expectedA": 1.99,
-        "expectedB": 0.65,
-        "codexPlusA": 77.9,
-        "codexPlusB": 65.2,
+        "expectedB": 0.66,
+        "codexPlusA": 72.9,
+        "codexPlusB": 60.6,
         "badgesA": [
           "Opta 13.0%",
           "Claude"
@@ -302,8 +302,8 @@
         "note": "",
         "expectedA": 3.02,
         "expectedB": 0.1,
-        "codexPlusA": 92.1,
-        "codexPlusB": 59.6,
+        "codexPlusA": 87.5,
+        "codexPlusB": 58.4,
         "badgesA": [
           "Klement",
           "Opta 16.1%",
@@ -322,10 +322,10 @@
         "goalsB": 2,
         "winner": "Spagna",
         "note": "",
-        "expectedA": 1.02,
+        "expectedA": 1.01,
         "expectedB": 2.24,
-        "codexPlusA": 77.9,
-        "codexPlusB": 92.1,
+        "codexPlusA": 72.9,
+        "codexPlusB": 87.5,
         "badgesA": [
           "Opta 13.0%",
           "Claude"
@@ -349,10 +349,10 @@
         "goalsB": 1,
         "winner": "Inghilterra",
         "note": "",
-        "expectedA": 1.81,
-        "expectedB": 0.76,
-        "codexPlusA": 79.5,
-        "codexPlusB": 72.2,
+        "expectedA": 1.77,
+        "expectedB": 0.8,
+        "codexPlusA": 76.4,
+        "codexPlusB": 72,
         "badgesA": [
           "Klement",
           "Opta 11.2%"
@@ -373,10 +373,10 @@
         "goalsB": 2,
         "winner": "Inghilterra",
         "note": "",
-        "expectedA": 0.3,
-        "expectedB": 2.44,
-        "codexPlusA": 70.5,
-        "codexPlusB": 79.5,
+        "expectedA": 0.34,
+        "expectedB": 2.4,
+        "codexPlusA": 70,
+        "codexPlusB": 76.4,
         "badgesA": [
           "Klement",
           "Opta 3.8%",
@@ -396,10 +396,10 @@
         "goalsB": 2,
         "winner": "Portogallo",
         "note": "Portogallo vince dopo extra time",
-        "expectedA": 1.91,
-        "expectedB": 1.11,
-        "codexPlusA": 75,
-        "codexPlusB": 72.2,
+        "expectedA": 1.87,
+        "expectedB": 1.15,
+        "codexPlusA": 72.1,
+        "codexPlusB": 72,
         "badgesA": [
           "Opta 10.4%",
           "ChatGPT"
@@ -420,10 +420,10 @@
         "goalsB": 1,
         "winner": "Olanda",
         "note": "",
-        "expectedA": 1.93,
-        "expectedB": 0.64,
-        "codexPlusA": 70.5,
-        "codexPlusB": 55.5,
+        "expectedA": 1.98,
+        "expectedB": 0.59,
+        "codexPlusA": 70,
+        "codexPlusB": 51.2,
         "badgesA": [
           "Klement",
           "Opta 3.8%",
@@ -441,9 +441,9 @@
         "winner": "Inghilterra",
         "note": "",
         "expectedA": 0.03,
-        "expectedB": 3.13,
+        "expectedB": 3.11,
         "codexPlusA": 47.8,
-        "codexPlusB": 79.5,
+        "codexPlusB": 76.4,
         "badgesA": [],
         "badgesB": [
           "Klement",
@@ -461,8 +461,8 @@
         "note": "",
         "expectedA": 3.3,
         "expectedB": 0.03,
-        "codexPlusA": 75,
-        "codexPlusB": 39.4,
+        "codexPlusA": 72.1,
+        "codexPlusB": 38.2,
         "badgesA": [
           "Opta 10.4%",
           "ChatGPT"
@@ -478,10 +478,10 @@
         "goalsB": 3,
         "winner": "Portogallo",
         "note": "",
-        "expectedA": 0.18,
-        "expectedB": 2.95,
-        "codexPlusA": 50.2,
-        "codexPlusB": 72.2,
+        "expectedA": 0.14,
+        "expectedB": 2.99,
+        "codexPlusA": 47.5,
+        "codexPlusB": 72,
         "badgesA": [],
         "badgesB": [
           "Klement",
@@ -499,10 +499,10 @@
         "goalsB": 1,
         "winner": "Olanda",
         "note": "Olanda vince dopo extra time",
-        "expectedA": 1.21,
-        "expectedB": 1.03,
-        "codexPlusA": 70.5,
-        "codexPlusB": 55.2,
+        "expectedA": 1.22,
+        "expectedB": 1.02,
+        "codexPlusA": 70,
+        "codexPlusB": 54.4,
         "badgesA": [
           "Klement",
           "Opta 3.8%",
@@ -519,10 +519,10 @@
         "goalsB": 2,
         "winner": "Norvegia",
         "note": "",
-        "expectedA": 0.45,
-        "expectedB": 1.95,
-        "codexPlusA": 47,
-        "codexPlusB": 55.5,
+        "expectedA": 0.49,
+        "expectedB": 1.92,
+        "codexPlusA": 44.9,
+        "codexPlusB": 51.2,
         "badgesA": [],
         "badgesB": []
       },
@@ -532,13 +532,13 @@
         "teamA": "Messico",
         "teamB": "Ecuador",
         "goalsA": 2,
-        "goalsB": 1,
+        "goalsB": 0,
         "winner": "Messico",
         "note": "",
-        "expectedA": 1.95,
-        "expectedB": 0.57,
+        "expectedA": 1.98,
+        "expectedB": 0.55,
         "codexPlusA": 47.8,
-        "codexPlusB": 45.8,
+        "codexPlusB": 44.3,
         "badgesA": [],
         "badgesB": []
       },
@@ -553,8 +553,8 @@
         "note": "",
         "expectedA": 3.24,
         "expectedB": 0.03,
-        "codexPlusA": 79.5,
-        "codexPlusB": 46.4,
+        "codexPlusA": 76.4,
+        "codexPlusB": 44.3,
         "badgesA": [
           "Klement",
           "Opta 11.2%"
@@ -572,8 +572,8 @@
         "note": "",
         "expectedA": 3.3,
         "expectedB": 0.03,
-        "codexPlusA": 75,
-        "codexPlusB": 42.7,
+        "codexPlusA": 72.1,
+        "codexPlusB": 40.3,
         "badgesA": [
           "Opta 10.4%",
           "ChatGPT"
@@ -589,9 +589,9 @@
         "goalsB": 1,
         "winner": "Australia",
         "note": "Australia vince dopo extra time",
-        "expectedA": 1.04,
-        "expectedB": 1.16,
-        "codexPlusA": 39.4,
+        "expectedA": 1.02,
+        "expectedB": 1.18,
+        "codexPlusA": 38.2,
         "codexPlusB": 41.6,
         "badgesA": [],
         "badgesB": []
@@ -605,10 +605,10 @@
         "goalsB": 0,
         "winner": "Svizzera",
         "note": "",
-        "expectedA": 2.7,
+        "expectedA": 2.67,
         "expectedB": 0.03,
-        "codexPlusA": 50.2,
-        "codexPlusB": 37.4,
+        "codexPlusA": 47.5,
+        "codexPlusB": 36.6,
         "badgesA": [],
         "badgesB": []
       },
@@ -621,10 +621,10 @@
         "goalsB": 0,
         "winner": "Portogallo",
         "note": "",
-        "expectedA": 2.83,
+        "expectedA": 2.87,
         "expectedB": 0.03,
-        "codexPlusA": 72.2,
-        "codexPlusB": 48.4,
+        "codexPlusA": 72,
+        "codexPlusB": 45.3,
         "badgesA": [
           "Klement",
           "Opta 7.0%"
@@ -657,6 +657,115 @@
     {
       "team": "Argentina",
       "points": 3
+    }
+  ],
+  "motivation": [
+    {
+      "team": "Portogallo",
+      "total": 85,
+      "reasons": [
+        "Non ha mai vinto il Mondiale.",
+        "Probabile ultimo Mondiale di Cristiano Ronaldo.",
+        "Generazione forte e nel pieno della maturita.",
+        "Grande tradizione recente, ma nessun Mondiale vinto.",
+        "Progetto tecnico stabile e identita tattica chiara."
+      ]
+    },
+    {
+      "team": "Croazia",
+      "total": 75,
+      "reasons": [
+        "Non ha mai vinto il Mondiale.",
+        "Ultima corsa mondiale del gruppo Modric.",
+        "Finale 2018 persa e semifinale 2022: conto aperto con il torneo.",
+        "Progetto tecnico stabile e identita tattica chiara."
+      ]
+    },
+    {
+      "team": "Olanda",
+      "total": 75,
+      "reasons": [
+        "Non ha mai vinto il Mondiale.",
+        "Leader maturi e gruppo nel pieno della carriera internazionale.",
+        "Generazione forte e nel pieno della maturita.",
+        "Tre finali mondiali perse: la rivincita storica e enorme.",
+        "Progetto tecnico stabile e identita tattica chiara."
+      ]
+    },
+    {
+      "team": "Belgio",
+      "total": 73,
+      "reasons": [
+        "Non ha mai vinto il Mondiale.",
+        "Ultima finestra reale per alcuni leader della generazione d'oro.",
+        "Rosa competitiva con diversi profili di alto livello.",
+        "Generazione molto forte mai premiata con un titolo.",
+        "Continuita tecnica discreta."
+      ]
+    },
+    {
+      "team": "Marocco",
+      "total": 70,
+      "reasons": [
+        "Non ha mai vinto il Mondiale.",
+        "Gruppo storico ancora spinto dal picco del 2022.",
+        "Rosa competitiva con diversi profili di alto livello.",
+        "Prima africana in semifinale: spinta a completare l'impresa.",
+        "Progetto tecnico stabile e identita tattica chiara."
+      ]
+    },
+    {
+      "team": "Messico",
+      "total": 69,
+      "reasons": [
+        "Non ha mai vinto il Mondiale.",
+        "Leader esperti e Mondiale casalingo aumentano la spinta emotiva.",
+        "Rosa competitiva con diversi profili di alto livello.",
+        "Mondiale in casa e lunga attesa di un salto storico.",
+        "Continuita tecnica discreta."
+      ]
+    },
+    {
+      "team": "Colombia",
+      "total": 65,
+      "reasons": [
+        "Non ha mai vinto il Mondiale.",
+        "Leader offensivi nel pieno della maturita.",
+        "Rosa competitiva con diversi profili di alto livello.",
+        "Talento generazionale e desiderio di superare il miglior percorso storico.",
+        "Continuita tecnica discreta."
+      ]
+    },
+    {
+      "team": "Inghilterra",
+      "total": 64,
+      "reasons": [
+        "Ha un solo titolo mondiale e forte pressione per riaprire il ciclo.",
+        "Leader offensivi nel pieno, pressione nazionale alta.",
+        "Generazione forte e nel pieno della maturita.",
+        "Un solo titolo nel 1966 e pressione storica costante.",
+        "Progetto tecnico stabile e identita tattica chiara."
+      ]
+    },
+    {
+      "team": "Stati Uniti",
+      "total": 64,
+      "reasons": [
+        "Non ha mai vinto il Mondiale.",
+        "Nucleo maturo davanti al pubblico di casa.",
+        "Rosa competitiva con diversi profili di alto livello.",
+        "Torneo casalingo e progetto costruito per alzare l'asticella.",
+        "Continuita tecnica discreta."
+      ]
+    },
+    {
+      "team": "Corea del Sud",
+      "total": 63,
+      "reasons": [
+        "Non ha mai vinto il Mondiale.",
+        "Son e la generazione esperta hanno una motivazione personale molto alta.",
+        "Generazione forte e nel pieno della maturita."
+      ]
     }
   ]
 }

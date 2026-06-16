@@ -318,6 +318,110 @@ const externalPredictionModels = [
   },
 ];
 
+const codexWorldTitles = {
+  "Brasile": 5,
+  "Germania": 4,
+  "Italia": 4,
+  "Argentina": 3,
+  "Francia": 2,
+  "Uruguay": 2,
+  "Inghilterra": 1,
+  "Spagna": 1,
+};
+
+const codexLegendMotivation = {
+  "Portogallo": { score: 20, reason: "Probabile ultimo Mondiale di Cristiano Ronaldo." },
+  "Argentina": { score: 18, reason: "Ultima grande finestra competitiva della generazione Messi." },
+  "Croazia": { score: 18, reason: "Ultima corsa mondiale del gruppo Modric." },
+  "Corea del Sud": { score: 16, reason: "Son e la generazione esperta hanno una motivazione personale molto alta." },
+  "Egitto": { score: 15, reason: "Salah e il nucleo storico cercano il grande risultato mondiale." },
+  "Belgio": { score: 13, reason: "Ultima finestra reale per alcuni leader della generazione d'oro." },
+  "Olanda": { score: 9, reason: "Leader maturi e gruppo nel pieno della carriera internazionale." },
+  "Uruguay": { score: 8, reason: "Generazione di transizione con riferimenti esperti ancora centrali." },
+  "Colombia": { score: 7, reason: "Leader offensivi nel pieno della maturita." },
+  "Marocco": { score: 7, reason: "Gruppo storico ancora spinto dal picco del 2022." },
+  "Messico": { score: 7, reason: "Leader esperti e Mondiale casalingo aumentano la spinta emotiva." },
+  "Stati Uniti": { score: 6, reason: "Nucleo maturo davanti al pubblico di casa." },
+  "Inghilterra": { score: 6, reason: "Leader offensivi nel pieno, pressione nazionale alta." },
+};
+
+const codexGoldenGeneration = {
+  "Spagna": 19,
+  "Francia": 18,
+  "Inghilterra": 19,
+  "Portogallo": 18,
+  "Argentina": 17,
+  "Brasile": 17,
+  "Olanda": 16,
+  "Germania": 16,
+  "Belgio": 15,
+  "Marocco": 15,
+  "Colombia": 14,
+  "Uruguay": 14,
+  "Stati Uniti": 14,
+  "Canada": 13,
+  "Giappone": 13,
+  "Messico": 12,
+  "Turchia": 12,
+  "Croazia": 11,
+  "Norvegia": 11,
+  "Senegal": 11,
+};
+
+const codexHistoricalRevenge = {
+  "Olanda": { score: 15, reason: "Tre finali mondiali perse: la rivincita storica e enorme." },
+  "Inghilterra": { score: 14, reason: "Un solo titolo nel 1966 e pressione storica costante." },
+  "Belgio": { score: 13, reason: "Generazione molto forte mai premiata con un titolo." },
+  "Croazia": { score: 12, reason: "Finale 2018 persa e semifinale 2022: conto aperto con il torneo." },
+  "Marocco": { score: 12, reason: "Prima africana in semifinale: spinta a completare l'impresa." },
+  "Portogallo": { score: 11, reason: "Grande tradizione recente, ma nessun Mondiale vinto." },
+  "Messico": { score: 10, reason: "Mondiale in casa e lunga attesa di un salto storico." },
+  "Stati Uniti": { score: 9, reason: "Torneo casalingo e progetto costruito per alzare l'asticella." },
+  "Colombia": { score: 8, reason: "Talento generazionale e desiderio di superare il miglior percorso storico." },
+  "Brasile": { score: 8, reason: "Pressione enorme dopo le delusioni recenti da favorita." },
+  "Argentina": { score: 7, reason: "Difesa del titolo e orgoglio del ciclo vincente." },
+  "Spagna": { score: 7, reason: "Rosa giovane e forte dopo anni senza tornare in finale." },
+  "Francia": { score: 7, reason: "Finale 2022 persa e gruppo ancora da titolo." },
+  "Germania": { score: 7, reason: "Necessita una risposta storica dopo tornei sotto standard." },
+};
+
+const codexTechnicalContinuity = {
+  "Argentina": 10,
+  "Francia": 9,
+  "Spagna": 9,
+  "Portogallo": 8,
+  "Olanda": 8,
+  "Inghilterra": 8,
+  "Brasile": 7,
+  "Germania": 7,
+  "Marocco": 8,
+  "Croazia": 8,
+  "Uruguay": 7,
+  "Colombia": 7,
+  "Giappone": 8,
+  "Messico": 7,
+  "Stati Uniti": 7,
+  "Canada": 7,
+  "Belgio": 6,
+  "Senegal": 6,
+};
+
+const codexEnvironmentalProfiles = {
+  "Messico": { altitude: 10, heat: 6, humidity: 5, home: 2.5 },
+  "Stati Uniti": { altitude: 3, heat: 7, humidity: 7, home: 2.5 },
+  "Canada": { altitude: 2, heat: 4, humidity: 4, home: 2.2 },
+  "Ecuador": { altitude: 10, heat: 8, humidity: 6, home: 0 },
+  "Colombia": { altitude: 8, heat: 8, humidity: 7, home: 0 },
+  "Brasile": { altitude: 3, heat: 9, humidity: 9, home: 0 },
+  "Paraguay": { altitude: 3, heat: 8, humidity: 7, home: 0 },
+  "Sudafrica": { altitude: 8, heat: 5, humidity: 4, home: 0 },
+  "Marocco": { altitude: 5, heat: 7, humidity: 4, home: 0 },
+  "Uruguay": { altitude: 2, heat: 6, humidity: 6, home: 0 },
+  "Argentina": { altitude: 3, heat: 6, humidity: 5, home: 0 },
+  "Portogallo": { altitude: 2, heat: 6, humidity: 5, home: 0 },
+  "Spagna": { altitude: 3, heat: 7, humidity: 4, home: 0 },
+};
+
 const STADIUM_INFO = {
   "BC Place": { city: "Vancouver", country: "Canada", altitude: 2 },
   "Lumen Field": { city: "Seattle", country: "USA", altitude: 6 },
@@ -552,13 +656,121 @@ function codexExternalConsensusRanking() {
     );
 }
 
+function codexRoundOf32TeamSet() {
+  if (!Object.keys(codexState.groupTables || {}).length) return new Set();
+  return new Set(codexRoundOf32Seeds
+    .flatMap((seeds, matchIndex) => seeds.map((seed, seedOffset) => codexTeamFromSeed(seed, matchIndex * 2 + seedOffset)))
+    .filter(Boolean));
+}
+
+function codexIsRoundOf32Team(team) {
+  return codexRoundOf32TeamSet().has(team);
+}
+
+function codexTitleHungerScore(team) {
+  const titles = codexWorldTitles[team] || 0;
+  if (titles === 0) return { score: 25, reason: "Non ha mai vinto il Mondiale." };
+  if (titles === 1) return { score: 15, reason: "Ha un solo titolo mondiale e forte pressione per riaprire il ciclo." };
+  return { score: 5, reason: "Ha gia una storia mondiale vincente, quindi la fame pesa meno." };
+}
+
+function codexTeamRouteEnvironments(team) {
+  return Object.values(codexState.results || {})
+    .filter((result) => result?.fixture && (result.teamA === team || result.teamB === team))
+    .map((result) => enrichMatch(result.fixture))
+    .filter((match) => match?.stadium);
+}
+
+function codexEnvironmentalMotivation(team) {
+  const profile = codexEnvironmentalProfiles[team] || { altitude: 2, heat: 4, humidity: 4, home: 0 };
+  const route = codexTeamRouteEnvironments(team);
+  const avgAltitude = route.length
+    ? route.reduce((total, match) => total + (match.altitude || 0), 0) / route.length
+    : 250;
+  const avgDifficulty = route.length
+    ? route.reduce((total, match) => total + (match.climateDifficulty || 0), 0) / route.length
+    : 45;
+  const altitudeDemand = avgAltitude >= 1500 ? 1 : avgAltitude >= 500 ? 0.58 : 0.18;
+  const climateDemand = codexClamp(avgDifficulty / 100, 0.1, 1);
+  const score = codexClamp(
+    profile.home + profile.altitude * altitudeDemand * 0.42 + profile.heat * climateDemand * 0.34 + profile.humidity * climateDemand * 0.18,
+    0,
+    10
+  );
+  const reasons = [];
+  if (profile.home >= 2) reasons.push("Vantaggio ambientale da paese ospitante.");
+  if (profile.altitude >= 8 && avgAltitude >= 500) reasons.push("Buona adattabilita ad altura e rarefazione dell'ossigeno.");
+  if (profile.heat >= 7 && avgDifficulty >= 60) reasons.push("Abitudine a caldo, umidita e stress climatico.");
+  if (!reasons.length && score >= 5.8) reasons.push("Condizioni del percorso abbastanza favorevoli.");
+  return { score, reasons, avgAltitude, avgDifficulty };
+}
+
+function codexGoldenGenerationScore(team) {
+  const manual = codexGoldenGeneration[team] ?? null;
+  if (manual !== null) return manual;
+  const strength = codexState.strengths[team]?.total || 50;
+  const formationIndex = codexState.strengths[team]?.worldCupIndex || 50;
+  return codexClamp(Math.round((strength - 42) * 0.32 + (formationIndex - 45) * 0.16 + 8), 0, 20);
+}
+
+function codexMotivationIndex(team) {
+  if (!codexIsRoundOf32Team(team)) return null;
+  const title = codexTitleHungerScore(team);
+  const legend = codexLegendMotivation[team] || { score: 0, reason: "" };
+  const generationScore = codexGoldenGenerationScore(team);
+  const revenge = codexHistoricalRevenge[team] || { score: 0, reason: "" };
+  const continuityScore = codexTechnicalContinuity[team] ?? codexClamp(Math.round(((codexState.strengths[team]?.form || 50) - 42) / 3), 0, 10);
+  const environment = codexEnvironmentalMotivation(team);
+  const total = codexClamp(Math.round(
+    title.score +
+    legend.score +
+    generationScore +
+    revenge.score +
+    continuityScore +
+    environment.score
+  ), 0, 100);
+  const reasons = [
+    title.reason,
+    legend.reason,
+    generationScore >= 16 ? "Generazione forte e nel pieno della maturita." : generationScore >= 12 ? "Rosa competitiva con diversi profili di alto livello." : "",
+    revenge.reason,
+    continuityScore >= 8 ? "Progetto tecnico stabile e identita tattica chiara." : continuityScore >= 6 ? "Continuita tecnica discreta." : "",
+    ...environment.reasons,
+  ].filter(Boolean).slice(0, 5);
+  return {
+    team,
+    total,
+    titleScore: title.score,
+    legendScore: legend.score,
+    generationScore,
+    revengeScore: revenge.score,
+    continuityScore,
+    environmentScore: Number(environment.score.toFixed(1)),
+    reasons,
+  };
+}
+
+function codexMotivationRanking() {
+  return Array.from(codexRoundOf32TeamSet())
+    .map(codexMotivationIndex)
+    .filter(Boolean)
+    .sort((a, b) =>
+      b.total - a.total ||
+      b.legendScore - a.legendScore ||
+      b.generationScore - a.generationScore ||
+      a.team.localeCompare(b.team)
+    );
+}
+
 function codexPlusScore(team) {
   const codexScore = codexState.strengths[team]?.total || 0;
+  const motivationScore = codexMotivationIndex(team)?.total ?? codexScore;
   const optaScore = codexExternalModelScore(team, "opta");
   const klementScore = codexExternalModelScore(team, "klement");
   const goldmanScore = codexExternalModelScore(team, "goldman");
   const aiScore = codexExternalModelScore(team, "ai");
-  return codexScore * 0.70 +
+  return codexScore * 0.60 +
+    motivationScore * 0.10 +
     optaScore * 0.12 +
     klementScore * 0.07 +
     goldmanScore * 0.06 +
@@ -2025,14 +2237,43 @@ function codexRenderExternalModels() {
   root.innerHTML = `
     <div class="codex-plus-note">
       <strong>Codex+</strong>
-      <span>scoreFinale = Codex 70% + Opta 12% + Klement 7% + Goldman 6% + IA 5%</span>
-      <small>Il pronostico principale del sito resta quello generato da Codex. I modelli esterni vengono utilizzati come correttivi statistici e strumenti di confronto.</small>
+      <span>scoreFinale = Codex 60% + Motivation Index 10% + Opta 12% + Klement 7% + Goldman 6% + IA 5%</span>
+      <small>Il pronostico principale resta Codex. Il Motivation Index entra solo sulle squadre arrivate ai sedicesimi e corregge la fase a eliminazione diretta.</small>
     </div>
     <div class="codex-external-grid">${modelCards}</div>
     <div class="codex-external-consensus">
       <strong>Consenso Esterno</strong>
       <ol>${consensusRows}</ol>
     </div>`;
+}
+
+function codexMotivationBadge(team) {
+  const motivation = codexMotivationIndex(team);
+  if (!motivation) return "";
+  return `<span class="codex-motivation-mini">&#128293; ${motivation.total}/100</span>`;
+}
+
+function codexRenderMotivationRanking() {
+  const root = document.getElementById("codex-motivation-ranking");
+  if (!root) return;
+  const rows = codexMotivationRanking().slice(0, 10);
+  root.innerHTML = rows.map((row, index) => `
+    <article class="codex-motivation-row">
+      <div class="codex-motivation-head">
+        <span>${index + 1}</span>
+        <strong>${codexFlag(row.team)}${codexEscape(row.team)}</strong>
+        <b>&#128293; ${row.total}/100</b>
+      </div>
+      <div class="codex-motivation-factors">
+        <span>Titolo ${row.titleScore}</span>
+        <span>Leggenda ${row.legendScore}</span>
+        <span>Generazione ${row.generationScore}</span>
+        <span>Rivincita ${row.revengeScore}</span>
+        <span>Progetto ${row.continuityScore}</span>
+        <span>Ambiente ${row.environmentScore}</span>
+      </div>
+      <ul>${row.reasons.map((reason) => `<li>${codexEscape(reason)}</li>`).join("")}</ul>
+    </article>`).join("");
 }
 
 function codexRenderRanking() {
@@ -2044,7 +2285,7 @@ function codexRenderRanking() {
   root.innerHTML = rows.map((row, index) => `
     <article class="codex-ranking-row">
       <span>${index + 1}</span>
-      <strong>${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 3)}</strong>
+      <strong>${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 3)}${codexMotivationBadge(row.team)}</strong>
       <small><b>Codex+ ${codexPlusScore(row.team).toFixed(1)}</b><em>Codex ${row.total.toFixed(1)}</em></small>
     </article>`).join("");
 }
@@ -2181,7 +2422,7 @@ function codexRenderWorldBracket() {
       <div class="codex-world-board">
         <div class="codex-world-title">
           <strong>WORLD CHAMPIONS</strong>
-          <span>Pronostico Codex+ 2026 · Codex 70% · Opta 12% · Klement 7% · Goldman 6% · IA 5%</span>
+          <span>Pronostico Codex+ 2026 · Codex 60% · Motivation Index 10% · Opta 12% · Klement 7% · Goldman 6% · IA 5%</span>
         </div>
         <div class="codex-world-layout">
           <div class="codex-world-side">
@@ -2223,6 +2464,7 @@ function codexBoot() {
   codexSimulateKnockout();
   codexRenderMethod();
   codexRenderExternalModels();
+  codexRenderMotivationRanking();
   codexRenderRanking();
   codexRenderTopScorers();
   codexRenderBettingDraft();

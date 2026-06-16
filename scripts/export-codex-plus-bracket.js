@@ -65,6 +65,7 @@ globalThis.__bracketExport = {
   generatedAt: new Date().toISOString(),
   title: "Pronostico Codex+ Mondiale 2026",
   formula: "Codex 70% · Opta 12% · Klement 7% · Goldman Sachs 6% · IA varie 5%",
+  formula: "Codex 60% - Motivation Index 10% - Opta 12% - Klement 7% - Goldman Sachs 6% - IA varie 5%",
   champion: codexState.results[104]?.winner || "",
   final: exportMatch(104),
   bronze: exportMatch(103),
@@ -83,6 +84,11 @@ globalThis.__bracketExport = {
   consensus: codexExternalConsensusRanking().slice(0, 6).map((row) => ({
     team: row.team,
     points: row.total,
+  })),
+  motivation: codexMotivationRanking().slice(0, 10).map((row) => ({
+    team: row.team,
+    total: row.total,
+    reasons: row.reasons,
   })),
 };
 `, ctx);

@@ -262,6 +262,62 @@ const codexTopScorerMarketOdds = [
   { team: "Belgio", player: "Leandro Trossard", odds: 200 },
 ];
 
+const externalPredictionModels = [
+  {
+    id: "klement",
+    name: "Joachim Klement",
+    weight: 0.07,
+    description: "Modello economico-statistico noto per aver indicato correttamente Germania 2014, Francia 2018 e Argentina 2022.",
+    badges: [
+      { team: "Olanda", label: "Klement", icon: "&#127942;", score: 100, consensus: 3 },
+      { team: "Portogallo", label: "Klement", icon: "&#129353;", score: 86, consensus: 2 },
+      { team: "Spagna", label: "Klement", icon: "&#127941;", score: 72, consensus: 1 },
+      { team: "Inghilterra", label: "Klement", icon: "&#127941;", score: 72, consensus: 1 },
+      { team: "Giappone", label: "Klement", icon: "&#9733;", score: 58, consensus: 0 },
+    ],
+    summary: "Campione Olanda, finalista Portogallo, semifinaliste Spagna e Inghilterra.",
+  },
+  {
+    id: "opta",
+    name: "Opta Supercomputer",
+    weight: 0.12,
+    description: "25.000 simulazioni statistiche del torneo.",
+    probabilities: {
+      "Spagna": 16.1,
+      "Francia": 13.0,
+      "Inghilterra": 11.2,
+      "Argentina": 10.4,
+      "Portogallo": 7.0,
+      "Brasile": 6.6,
+      "Germania": 5.1,
+      "Olanda": 3.8,
+    },
+    summary: "Spagna davanti a Francia, Inghilterra e Argentina nelle simulazioni.",
+  },
+  {
+    id: "goldman",
+    name: "Goldman Sachs",
+    weight: 0.06,
+    description: "Modello economico-finanziario applicato al torneo.",
+    badges: [
+      { team: "Spagna", label: "Goldman", icon: "&#127942;", score: 100, consensus: 2 },
+    ],
+    summary: "Campione Spagna con probabilita titolo 26%.",
+  },
+  {
+    id: "ai",
+    name: "Modelli IA",
+    weight: 0.05,
+    description: "Le IA utilizzano metodologie differenti e non rappresentano una previsione unificata.",
+    badges: [
+      { team: "Olanda", label: "Gemini", icon: "&#127942;", score: 100, consensus: 1 },
+      { team: "Argentina", label: "ChatGPT", icon: "&#127942;", score: 100, consensus: 1 },
+      { team: "Francia", label: "Claude", icon: "&#127942;", score: 100, consensus: 1 },
+    ],
+    summary: "Gemini indica Olanda, ChatGPT Argentina, Claude Francia.",
+  },
+];
+
 const STADIUM_INFO = {
   "BC Place": { city: "Vancouver", country: "Canada", altitude: 2 },
   "Lumen Field": { city: "Seattle", country: "USA", altitude: 6 },
@@ -413,6 +469,111 @@ function codexScorerMarketOdds(row) {
 
 function codexScorerDisplayName(row) {
   return codexScorerMarketEntry(row)?.player || row.player;
+}
+
+function codexExternalModelById(id) {
+  return externalPredictionModels.find((model) => model.id === id) || {};
+}
+
+function codexExternalModelBadgeItems(team) {
+  return externalPredictionModels.flatMap((model) => {
+    if (model.id === "opta") {
+      const probability = model.probabilities?.[team];
+      return probability ? [{
+        model: model.id,
+        label: "Opta",
+        icon: "",
+        value: `${probability.toFixed(1)}%`,
+        score: codexExternalModelScore(team, "opta"),
+        consensus: codexOptaConsensusPoints(probability),
+      }] : [];
+    }
+    return (model.badges || [])
+      .filter((badge) => badge.team === team)
+      .map((badge) => ({ model: model.id, ...badge }));
+  });
+}
+
+function codexOptaConsensusPoints(probability) {
+  if (probability >= 16) return 3;
+  if (probability >= 10) return 2;
+  if (probability >= 5) return 1;
+  return 0;
+}
+
+function codexExternalModelScore(team, modelId) {
+  const model = codexExternalModelById(modelId);
+  if (modelId === "opta") {
+    const probabilities = Object.values(model.probabilities || {});
+    const maxProbability = Math.max(...probabilities, 1);
+    return codexClamp(((model.probabilities?.[team] || 0) / maxProbability) * 100, 0, 100);
+  }
+  const matching = (model.badges || []).filter((badge) => badge.team === team);
+  if (!matching.length) return 0;
+  return Math.max(...matching.map((badge) => badge.score || 0));
+}
+
+function codexExternalConsensusDetail(team) {
+  const optaProbability = codexExternalModelById("opta").probabilities?.[team] || 0;
+  const klementPoints = (codexExternalModelById("klement").badges || [])
+    .filter((badge) => badge.team === team)
+    .reduce((total, badge) => total + (badge.consensus || 0), 0);
+  const goldmanPoints = (codexExternalModelById("goldman").badges || [])
+    .filter((badge) => badge.team === team)
+    .reduce((total, badge) => total + (badge.consensus || 0), 0);
+  const aiPoints = (codexExternalModelById("ai").badges || [])
+    .filter((badge) => badge.team === team)
+    .reduce((total, badge) => total + (badge.consensus || 0), 0);
+  const optaPoints = codexOptaConsensusPoints(optaProbability);
+  return {
+    team,
+    total: klementPoints + optaPoints + goldmanPoints + aiPoints,
+    klementPoints,
+    optaPoints,
+    goldmanPoints,
+    aiPoints,
+    optaProbability,
+  };
+}
+
+function codexExternalConsensusRanking() {
+  return Object.values(groupTeams).flat()
+    .map(codexExternalConsensusDetail)
+    .filter((row) => row.total > 0)
+    .sort((a, b) =>
+      b.total - a.total ||
+      (b.klementPoints >= 2 ? 1 : 0) - (a.klementPoints >= 2 ? 1 : 0) ||
+      b.optaProbability - a.optaProbability ||
+      b.klementPoints - a.klementPoints ||
+      b.optaPoints - a.optaPoints ||
+      b.goldmanPoints - a.goldmanPoints ||
+      b.aiPoints - a.aiPoints ||
+      a.team.localeCompare(b.team)
+    );
+}
+
+function codexPlusScore(team) {
+  const codexScore = codexState.strengths[team]?.total || 0;
+  const optaScore = codexExternalModelScore(team, "opta");
+  const klementScore = codexExternalModelScore(team, "klement");
+  const goldmanScore = codexExternalModelScore(team, "goldman");
+  const aiScore = codexExternalModelScore(team, "ai");
+  return codexScore * 0.70 +
+    optaScore * 0.12 +
+    klementScore * 0.07 +
+    goldmanScore * 0.06 +
+    aiScore * 0.05;
+}
+
+function codexExternalBadges(team, limit = 4) {
+  const badges = codexExternalModelBadgeItems(team)
+    .sort((a, b) => (b.consensus || 0) - (a.consensus || 0) || (b.score || 0) - (a.score || 0))
+    .slice(0, limit);
+  if (!badges.length) return "";
+  return `<span class="codex-external-badges">${badges.map((badge) => `
+    <span class="codex-external-badge is-${codexEscape(badge.model)}">
+      ${badge.icon || ""}${codexEscape(badge.label)}${badge.value ? ` ${codexEscape(badge.value)}` : ""}
+    </span>`).join("")}</span>`;
 }
 
 function codexScorerMarketMultiplier(row) {
@@ -1101,6 +1262,13 @@ function codexScoreMatch(teamA, teamB, knockout = false, fixture = null) {
   const groupMarketB = knockout ? 0 : codexGroupWinnerMarketBoost(teamB);
   let expectedA = codexClamp(codexExpectedGoals(teamA, teamB, knockout) + tempo + tilt + venueA + groupMarketA * 0.06, 0.03, 3.3);
   let expectedB = codexClamp(codexExpectedGoals(teamB, teamA, knockout) + tempo - tilt + venueB + groupMarketB * 0.06, 0.03, 3.3);
+  const codexPlusA = knockout ? codexPlusScore(teamA) : 0;
+  const codexPlusB = knockout ? codexPlusScore(teamB) : 0;
+  const codexPlusEdge = knockout ? codexClamp((codexPlusA - codexPlusB) / 70, -0.42, 0.42) : 0;
+  if (knockout) {
+    expectedA = codexClamp(expectedA + codexPlusEdge, 0.03, 3.3);
+    expectedB = codexClamp(expectedB - codexPlusEdge, 0.03, 3.3);
+  }
   if (mismatch > 300) {
     const favoriteBoost = codexClamp((mismatch - 300) / 260, 0.12, 0.72);
     const underdogPenalty = codexClamp((mismatch - 260) / 300, 0.16, 0.86);
@@ -1148,10 +1316,37 @@ function codexScoreMatch(teamA, teamB, knockout = false, fixture = null) {
   if (goalsA > goalsB) winner = teamA;
   if (goalsB > goalsA) winner = teamB;
   if (knockout && goalsA === goalsB) {
-    winner = codexState.strengths[teamA].total >= codexState.strengths[teamB].total ? teamA : teamB;
+    const tiebreakA = expectedA * 2.2 +
+      (codexState.strengths[teamA].total || 50) * 0.018 +
+      (codexRankingPoints(teamA) || 1450) / 1000 +
+      codexWinnerMarketBoost(teamA) * 0.12 +
+      codexPlusA * 0.018;
+    const tiebreakB = expectedB * 2.2 +
+      (codexState.strengths[teamB].total || 50) * 0.018 +
+      (codexRankingPoints(teamB) || 1450) / 1000 +
+      codexWinnerMarketBoost(teamB) * 0.12 +
+      codexPlusB * 0.018;
+    winner = tiebreakA >= tiebreakB ? teamA : teamB;
     note = `${winner} vince dopo extra time`;
   }
-  return { teamA, teamB, goalsA, goalsB, winner, note, expectedA, expectedB, venueA, venueB, groupMarketA, groupMarketB };
+  if (knockout) {
+    const oddsA = codexWinnerMarketOdds[teamA] || null;
+    const oddsB = codexWinnerMarketOdds[teamB] || null;
+    const marketFavorite = oddsA && oddsB && Math.min(oddsA, oddsB) / Math.max(oddsA, oddsB) <= 0.88
+      ? oddsA < oddsB ? teamA : teamB
+      : "";
+    const favoriteGap = marketFavorite === teamA ? goalsB - goalsA : marketFavorite === teamB ? goalsA - goalsB : 0;
+    const expectedGap = Math.abs(expectedA - expectedB);
+    if (marketFavorite && winner !== marketFavorite && favoriteGap >= 0 && favoriteGap <= 1 && expectedGap < 0.9) {
+      if (favoriteGap === 1) {
+        if (marketFavorite === teamA) goalsA += 1;
+        else goalsB += 1;
+      }
+      winner = marketFavorite;
+      note = `${winner} vince dopo extra time`;
+    }
+  }
+  return { teamA, teamB, goalsA, goalsB, winner, note, expectedA, expectedB, venueA, venueB, groupMarketA, groupMarketB, codexPlusA, codexPlusB };
 }
 
 function codexBlankRows(group) {
@@ -1783,9 +1978,9 @@ function codexRenderResultCard(matchNumber) {
       <div>
         <b>${phase}</b>
         <strong class="codex-match-scoreline">
-          <span class="codex-match-team">${codexFlag(result.teamA)}${codexEscape(result.teamA)}</span>
+          <span class="codex-match-team">${codexFlag(result.teamA)}${codexEscape(result.teamA)}${codexExternalBadges(result.teamA, 3)}</span>
           <span class="codex-match-score">${result.goalsA}-${result.goalsB}</span>
-          <span class="codex-match-team">${codexFlag(result.teamB)}${codexEscape(result.teamB)}</span>
+          <span class="codex-match-team">${codexFlag(result.teamB)}${codexEscape(result.teamB)}${codexExternalBadges(result.teamB, 3)}</span>
         </strong>
         ${scorerBlock}
         ${result.isReal ? '<em class="codex-real-result-badge">Risultato reale</em>' : ""}
@@ -1811,15 +2006,46 @@ function codexRenderMethod() {
     <div><strong>${realResultCount || recentResultUpdates}</strong><span>${realResultCount ? "Risultati reali" : "Amichevoli 3-5 giugno"}</span></div>`;
 }
 
+function codexRenderExternalModels() {
+  const root = document.getElementById("codex-external-models");
+  if (!root) return;
+  const consensus = codexExternalConsensusRanking().slice(0, 6);
+  const modelCards = externalPredictionModels.map((model) => `
+    <article class="codex-external-model-card is-${codexEscape(model.id)}">
+      <strong>${codexEscape(model.name)}</strong>
+      <span>${codexEscape(model.description)}</span>
+      <small>${codexEscape(model.summary)}</small>
+    </article>`).join("");
+  const consensusRows = consensus.map((row, index) => `
+    <li>
+      <span>${index + 1}</span>
+      <strong>${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 3)}</strong>
+      <em>${row.total} pt</em>
+    </li>`).join("");
+  root.innerHTML = `
+    <div class="codex-plus-note">
+      <strong>Codex+</strong>
+      <span>scoreFinale = Codex 70% + Opta 12% + Klement 7% + Goldman 6% + IA 5%</span>
+      <small>Il pronostico principale del sito resta quello generato da Codex. I modelli esterni vengono utilizzati come correttivi statistici e strumenti di confronto.</small>
+    </div>
+    <div class="codex-external-grid">${modelCards}</div>
+    <div class="codex-external-consensus">
+      <strong>Consenso Esterno</strong>
+      <ol>${consensusRows}</ol>
+    </div>`;
+}
+
 function codexRenderRanking() {
   const root = document.getElementById("codex-team-ranking");
   if (!root) return;
-  const rows = Object.values(codexState.strengths).sort((a, b) => b.total - a.total).slice(0, 16);
+  const rows = Object.values(codexState.strengths)
+    .sort((a, b) => b.total - a.total)
+    .slice(0, 16);
   root.innerHTML = rows.map((row, index) => `
     <article class="codex-ranking-row">
       <span>${index + 1}</span>
-      <strong>${codexFlag(row.team)}${codexEscape(row.team)}</strong>
-      <small>${row.total.toFixed(1)}</small>
+      <strong>${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 3)}</strong>
+      <small><b>Codex+ ${codexPlusScore(row.team).toFixed(1)}</b><em>Codex ${row.total.toFixed(1)}</em></small>
     </article>`).join("");
 }
 
@@ -1834,7 +2060,7 @@ function codexRenderTopScorers() {
         <span>${index + 1}</span>
         <div>
           <strong>${codexEscape(row.player)} ${row.starter ? '<em>Probabile titolare</em>' : ""}</strong>
-          <small>${codexFlag(row.team)}${codexEscape(row.team)} &middot; ${codexEscape(row.role)} &middot; ${row.matches} partite previste &middot; ${row.expectedMinutes || 25}' stimati${row.penaltyRank ? ` &middot; rigorista #${row.penaltyRank}` : ""}</small>
+          <small>${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 2)} &middot; ${codexEscape(row.role)} &middot; ${row.matches} partite previste &middot; ${row.expectedMinutes || 25}' stimati${row.penaltyRank ? ` &middot; rigorista #${row.penaltyRank}` : ""}</small>
         </div>
         <div class="codex-scorer-goals">
           <strong>${row.goals}</strong>
@@ -1866,7 +2092,7 @@ function codexStandingTable(group, table) {
         <thead><tr><th>Pos</th><th>Squadra</th><th>PG</th><th>V</th><th>N</th><th>P</th><th>GF</th><th>GS</th><th>DR</th><th>Pt</th></tr></thead>
         <tbody>${table.map((row, index) => {
           const diff = row.gf - row.ga;
-          return `<tr><td>${index + 1}</td><td><span class="prediction-team-name">${codexFlag(row.team)}${codexEscape(row.team)}</span></td><td>${row.played}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td><td>${row.gf}</td><td>${row.ga}</td><td>${diff > 0 ? "+" : ""}${diff}</td><td><strong>${row.points}</strong></td></tr>`;
+          return `<tr><td>${index + 1}</td><td><span class="prediction-team-name">${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 2)}</span></td><td>${row.played}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td><td>${row.gf}</td><td>${row.ga}</td><td>${diff > 0 ? "+" : ""}${diff}</td><td><strong>${row.points}</strong></td></tr>`;
         }).join("")}</tbody>
       </table>
     </article>`;
@@ -1888,7 +2114,7 @@ function codexRenderThirds() {
       <thead><tr><th>Pos</th><th>Squadra</th><th>Gir</th><th>PG</th><th>DR</th><th>Pt</th></tr></thead>
       <tbody>${codexState.thirds.map((row, index) => {
         const diff = row.gf - row.ga;
-        return `<tr class="${index < 8 ? "is-qualified-third" : "is-excluded-third"}"><td>${index + 1}</td><td><span class="prediction-team-name">${codexFlag(row.team)}${codexEscape(row.team)}</span></td><td>${row.group}</td><td>${row.played}</td><td>${diff > 0 ? "+" : ""}${diff}</td><td><strong>${row.points}</strong></td></tr>`;
+        return `<tr class="${index < 8 ? "is-qualified-third" : "is-excluded-third"}"><td>${index + 1}</td><td><span class="prediction-team-name">${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 2)}</span></td><td>${row.group}</td><td>${row.played}</td><td>${diff > 0 ? "+" : ""}${diff}</td><td><strong>${row.points}</strong></td></tr>`;
       }).join("")}</tbody>
     </table>`;
 }
@@ -1955,7 +2181,7 @@ function codexRenderWorldBracket() {
       <div class="codex-world-board">
         <div class="codex-world-title">
           <strong>WORLD CHAMPIONS</strong>
-          <span>Pronostico Codex 2026</span>
+          <span>Pronostico Codex+ 2026 · Codex 70% · Opta 12% · Klement 7% · Goldman 6% · IA 5%</span>
         </div>
         <div class="codex-world-layout">
           <div class="codex-world-side">
@@ -1996,6 +2222,7 @@ function codexBoot() {
   codexSimulateGroups();
   codexSimulateKnockout();
   codexRenderMethod();
+  codexRenderExternalModels();
   codexRenderRanking();
   codexRenderTopScorers();
   codexRenderBettingDraft();

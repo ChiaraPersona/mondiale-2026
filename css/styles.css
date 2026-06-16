@@ -4157,6 +4157,183 @@ body {
   padding: 18px;
 }
 
+.codex-external-models {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.codex-plus-note {
+  display: grid;
+  gap: 5px;
+  padding: 12px;
+  border: 1px solid rgba(245, 200, 75, .2);
+  border-radius: 12px;
+  background: rgba(245, 200, 75, .07);
+}
+
+.codex-plus-note strong {
+  color: #f5c84b;
+  font-size: 15px;
+}
+
+.codex-plus-note span,
+.codex-plus-note small {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.codex-external-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.codex-external-model-card {
+  display: grid;
+  gap: 6px;
+  min-height: 104px;
+  padding: 11px;
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 12px;
+  background: rgba(7, 10, 15, .32);
+}
+
+.codex-external-model-card strong {
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.codex-external-model-card span,
+.codex-external-model-card small {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.codex-external-consensus {
+  display: grid;
+  gap: 8px;
+}
+
+.codex-external-consensus > strong {
+  color: #f5c84b;
+  font-size: 13px;
+}
+
+.codex-external-consensus ol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.codex-external-consensus li {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, .09);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, .035);
+}
+
+.codex-external-consensus li > span {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 7px;
+  background: rgba(0, 208, 132, .18);
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 950;
+}
+
+.codex-external-consensus li strong {
+  display: flex;
+  min-width: 0;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.codex-external-consensus li em {
+  color: #f5c84b;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 950;
+}
+
+.codex-external-badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.codex-external-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  max-width: 132px;
+  min-height: 18px;
+  padding: 2px 6px;
+  border: 1px solid rgba(255, 255, 255, .11);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, .86);
+  background: rgba(255, 255, 255, .06);
+  font-size: 10px;
+  font-weight: 850;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.codex-match-team .codex-external-badges,
+.prediction-team-name .codex-external-badges,
+.codex-scorer-row .codex-external-badges {
+  margin-left: 0;
+}
+
+.codex-match-team .codex-external-badge,
+.prediction-team-name .codex-external-badge,
+.codex-scorer-row .codex-external-badge {
+  max-width: 92px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.codex-external-badge.is-opta {
+  color: #c8f7dc;
+  border-color: rgba(0, 208, 132, .28);
+  background: rgba(0, 208, 132, .1);
+}
+
+.codex-external-badge.is-klement {
+  color: #ffe8a3;
+  border-color: rgba(245, 200, 75, .32);
+  background: rgba(245, 200, 75, .1);
+}
+
+.codex-external-badge.is-goldman {
+  color: #ffd8a8;
+  border-color: rgba(255, 166, 77, .3);
+  background: rgba(255, 166, 77, .1);
+}
+
+.codex-external-badge.is-ai {
+  color: #d7ddff;
+  border-color: rgba(137, 154, 255, .3);
+  background: rgba(137, 154, 255, .1);
+}
+
 .codex-team-ranking {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
@@ -4196,8 +4373,17 @@ body {
 }
 
 .codex-ranking-row small {
+  display: grid;
+  gap: 2px;
+  justify-items: end;
   color: #f5c84b;
   font-weight: 950;
+}
+
+.codex-ranking-row small em {
+  color: var(--muted);
+  font-size: 10px;
+  font-style: normal;
 }
 
 .codex-top-scorers {
@@ -5549,6 +5735,11 @@ body {
 @media (max-width: 820px) {
   .codex-prediction-hero,
   .codex-method {
+    grid-template-columns: 1fr;
+  }
+
+  .codex-external-grid,
+  .codex-external-consensus ol {
     grid-template-columns: 1fr;
   }
 }

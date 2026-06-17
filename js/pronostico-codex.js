@@ -2173,7 +2173,9 @@ function codexRenderBettingDraft() {
     .map(Number)
     .filter((number) => number <= 72)
     .sort((a, b) => a - b);
-  const ranked = groupMatchNumbers
+  const openMatchNumbers = groupMatchNumbers
+    .filter((number) => !codexState.results[number]?.isReal);
+  const ranked = openMatchNumbers
     .map((number) => ({ number, result: codexState.results[number], read: codexBettingRead(codexState.results[number]) }))
     .sort((a, b) => {
       const confidenceScore = { Alta: 3, Media: 2, Bassa: 1 };
@@ -2181,7 +2183,9 @@ function codexRenderBettingDraft() {
       const goalGapB = Math.abs(b.result.goalsA - b.result.goalsB);
       return confidenceScore[b.read.confidence] - confidenceScore[a.read.confidence] || goalGapB - goalGapA || a.number - b.number;
     });
-  const top = ranked.slice(0, 12).map((item) => codexBettingCard(item.number, true)).join("");
+  const top = ranked.length
+    ? ranked.slice(0, 12).map((item) => codexBettingCard(item.number, true)).join("")
+    : `<p class="data-confidence-note">Tutte le partite dei gironi sono gia state giocate.</p>`;
   const byDate = groupMatchNumbers.reduce((days, number) => {
     const date = codexState.results[number]?.fixture?.[0] || "";
     days[date] = days[date] || [];

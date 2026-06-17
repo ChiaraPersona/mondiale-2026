@@ -306,6 +306,82 @@ const worldCupResults = {
       "Iran reagisce due volte con Rezaeian e Mohebi in una gara aperta e intensa.",
     ],
   },
+  17: {
+    status: "Finale",
+    home: 3,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/francia-QkGeVG1n/senegal-hOIsJLJr/?mid=ALxYcMw2",
+    sources: [
+      "https://www.diretta.it/partita/calcio/francia-QkGeVG1n/senegal-hOIsJLJr/?mid=ALxYcMw2",
+      "https://www.nytimes.com/athletic/6429568/2026/06/16/france-senegal-world-cup-2026-live-updates-result/",
+      "https://www.theguardian.com/football/2026/jun/16/kylian-mbappe-france-senegal-world-cup-football",
+    ],
+    scorers: {
+      "Francia": ["Kylian Mbappe", "Bradley Barcola", "Kylian Mbappe"],
+      "Senegal": ["Ibrahim Mbaye"],
+    },
+    notes: [
+      "Francia piu concreta negli ultimi metri: doppietta di Mbappe e gol di Barcola.",
+      "Senegal vivo fisicamente ma punito dalla qualita francese nelle transizioni.",
+    ],
+  },
+  18: {
+    status: "Finale",
+    home: 1,
+    away: 4,
+    source: "https://www.diretta.it/partita/calcio/iraq-K8aAGt6r/norvegia-8rP6JO0H/?mid=n9TEVLhA",
+    sources: [
+      "https://www.diretta.it/partita/calcio/iraq-K8aAGt6r/norvegia-8rP6JO0H/?mid=n9TEVLhA",
+      "https://www.theguardian.com/football/2026/jun/16/erling-haaland-iraq-norway-world-cup-football",
+      "https://www.nytimes.com/athletic/6429963/2026/06/16/iraq-norway-live-updates-world-cup-2026-result/",
+    ],
+    scorers: {
+      "Iraq": ["Aymen Hussein"],
+      "Norvegia": ["Erling Haaland", "Leo Ostigard", "Autogol Iraq", "Erling Haaland"],
+    },
+    notes: [
+      "Norvegia dominante con doppietta di Haaland e grande peso sui piazzati.",
+      "Iraq accorcia con Hussein ma non regge ritmo e fisicita norvegese.",
+    ],
+  },
+  19: {
+    status: "Finale",
+    home: 3,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/algeria-nc87N1BR/argentina-f9OppQjp/?mid=UP9bEsOr",
+    sources: [
+      "https://www.diretta.it/partita/calcio/algeria-nc87N1BR/argentina-f9OppQjp/?mid=UP9bEsOr",
+      "https://www.bbc.com/sport/football/live/c0qgylzndq0t",
+      "https://www.theguardian.com/football/2026/jun/17/lionel-messi-argentina-algeria-world-cup-football",
+    ],
+    scorers: {
+      "Argentina": ["Lionel Messi", "Lionel Messi", "Lionel Messi"],
+      "Algeria": [],
+    },
+    notes: [
+      "Argentina controlla il debutto nel Gruppo J con tripletta di Messi.",
+      "Algeria ordinata a tratti ma senza abbastanza uscita pulita sotto pressione.",
+    ],
+  },
+  20: {
+    status: "Finale",
+    home: 3,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/austria-naHiWdnt/giordania-vNcmJoU2/?mid=OO27CLhe",
+    sources: [
+      "https://www.diretta.it/partita/calcio/austria-naHiWdnt/giordania-vNcmJoU2/?mid=OO27CLhe",
+      "https://www.theguardian.com/football/2026/jun/17/austria-jordan-world-cup-football",
+      "https://www.bbc.com/sport/football/live/cn77yxzqynvt",
+    ],
+    scorers: {
+      "Austria": ["Romano Schmid", "Autogol Yazan Al-Arab", "Marko Arnautovic"],
+      "Giordania": ["Ali Olwan"],
+    },
+    notes: [
+      "Austria parte forte e indirizza la gara, poi la chiude con Arnautovic.",
+      "Giordania trova il gol con Olwan ma resta troppo fragile nelle palle sporche.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

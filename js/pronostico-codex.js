@@ -1645,7 +1645,9 @@ function codexSimulateGroups() {
   fixtures.forEach((fixture, index) => {
     const teams = codexFixtureTeams(fixture[2]);
     if (teams.length !== 2) return;
-    const result = codexRealResult(index + 1, fixture) || codexScoreMatch(teams[0], teams[1], false, fixture);
+    const forecast = codexScoreMatch(teams[0], teams[1], false, fixture);
+    const realResult = codexRealResult(index + 1, fixture);
+    const result = realResult ? { ...realResult, forecast } : forecast;
     codexState.results[index + 1] = { ...result, fixture };
     const group = fixture[1].replace("Group ", "");
     codexApplyGroupResult(tables[group], result);
@@ -2092,28 +2094,69 @@ function codexBettingCornerLine(result) {
   return { market, index: cornerIndex, note, side: projectedCornerSide };
 }
 
-function codexBettingTag(label, value, tone = "") {
-  return `<span class="codex-bet-tag ${tone}"><b>${codexEscape(label)}</b>${codexEscape(value)}</span>`;
+function codexRealScorerNames(result) {
+  if (!result?.real?.scorers) return [];
+  return Object.values(result.real.scorers).flat().filter(Boolean);
+}
+
+function codexBettingPickHit(value, realResult) {
+  if (!realResult?.isReal || !value) return null;
+  const totalGoals = realResult.goalsA + realResult.goalsB;
+  const realWinner = realResult.winner;
+  if (/^Over 2\.5$/i.test(value)) return totalGoals >= 3;
+  if (/^Under 2\.5$/i.test(value)) return totalGoals <= 2;
+  if (/^Over 1\.5$/i.test(value)) return totalGoals >= 2;
+  if (/^Under 3\.5$/i.test(value)) return totalGoals <= 3;
+  if (/^Goal$/i.test(value)) return realResult.goalsA > 0 && realResult.goalsB > 0;
+  if (/^No Goal$/i.test(value)) return realResult.goalsA === 0 || realResult.goalsB === 0;
+  const exact = value.match(/^Risultato esatto\s+(\d+)-(\d+)$/i);
+  if (exact) return realResult.goalsA === Number(exact[1]) && realResult.goalsB === Number(exact[2]);
+  const handicap = value.match(/^(.+)\s+handicap\s+-1$/i);
+  if (handicap) {
+    const team = handicap[1].trim();
+    const gap = team === realResult.teamA ? realResult.goalsA - realResult.goalsB : team === realResult.teamB ? realResult.goalsB - realResult.goalsA : 0;
+    return gap >= 2;
+  }
+  const winner = value.match(/^(.+)\s+vincente$/i);
+  if (winner) return realWinner === winner[1].trim();
+  const doubleChance = value.match(/^(.+)\s+o pareggio$/i);
+  if (doubleChance) return !realWinner || realWinner === doubleChance[1].trim();
+  if (/^Pareggio\/Under 3\.5$/i.test(value)) return !realWinner && totalGoals <= 3;
+  const scorer = value.match(/^(.+)\s+marcatore$/i);
+  if (scorer) {
+    const target = codexCompact(scorer[1]);
+    return codexRealScorerNames(realResult).some((name) => codexCompact(name) === target);
+  }
+  return null;
+}
+
+function codexBettingTag(label, value, tone = "", hit = null) {
+  const hitClass = hit === true ? "is-hit" : "";
+  return `<span class="codex-bet-tag ${tone} ${hitClass}"><b>${codexEscape(label)}</b>${codexEscape(value)}${hit === true ? "<i>PRESO</i>" : ""}</span>`;
 }
 
 function codexBettingCard(matchNumber, compact = false) {
   const result = codexState.results[matchNumber];
   if (!result) return "";
-  const read = codexBettingRead(result);
+  const bettingResult = result.isReal && result.forecast ? result.forecast : result;
+  const read = codexBettingRead(bettingResult);
   const confidenceTone = read.confidence === "Alta" ? "is-high" : read.confidence === "Media" ? "is-medium" : "is-low";
+  const goalHit = codexBettingPickHit(read.goalMarket, result);
+  const bttsHit = codexBettingPickHit(read.btts, result);
   return `
-    <article class="codex-bet-card ${compact ? "is-compact" : ""}">
+    <article class="codex-bet-card ${compact ? "is-compact" : ""} ${result.isReal ? "is-real-result" : ""}">
       <div class="codex-bet-head">
         <span class="codex-bet-match">#${matchNumber}</span>
         <strong>${codexFlag(result.teamA)}${codexEscape(result.teamA)} <span>${result.goalsA}-${result.goalsB}</span> ${codexFlag(result.teamB)}${codexEscape(result.teamB)}</strong>
         <em class="${confidenceTone}">${read.confidence}</em>
       </div>
+      ${result.isReal && result.forecast ? `<div class="codex-bet-forecast">Pronostico Codex: ${codexEscape(String(result.forecast.goalsA))}-${codexEscape(String(result.forecast.goalsB))}</div>` : ""}
       <div class="codex-bet-tags">
-        ${codexBettingTag("Prudente", read.safe, "is-safe")}
-        ${codexBettingTag("Equilibrata", read.balanced, "is-balanced")}
-        ${codexBettingTag("Rischiosa", read.risky, "is-risky")}
-        ${codexBettingTag("Gol", `${read.goalMarket} / ${read.btts}`)}
-        ${read.scorer ? codexBettingTag("Marcatore", read.scorer) : ""}
+        ${codexBettingTag("Prudente", read.safe, "is-safe", codexBettingPickHit(read.safe, result))}
+        ${codexBettingTag("Equilibrata", read.balanced, "is-balanced", codexBettingPickHit(read.balanced, result))}
+        ${codexBettingTag("Rischiosa", read.risky, "is-risky", codexBettingPickHit(read.risky, result))}
+        ${codexBettingTag("Gol", `${read.goalMarket} / ${read.btts}`, "", goalHit === true || bttsHit === true)}
+        ${read.scorer ? codexBettingTag("Marcatore", read.scorer, "", codexBettingPickHit(read.scorer, result)) : ""}
         ${codexBettingTag("Cartellini", `${read.cardLine.market} · indice ${read.cardLine.index.toFixed(1)}`)}
         ${codexBettingTag("Corner", `${read.cornerLine.market} · indice ${read.cornerLine.index.toFixed(1)}`)}
         ${codexBettingTag("Più corner", read.cornerLine.side)}
@@ -2139,12 +2182,23 @@ function codexRenderBettingDraft() {
       return confidenceScore[b.read.confidence] - confidenceScore[a.read.confidence] || goalGapB - goalGapA || a.number - b.number;
     });
   const top = ranked.slice(0, 12).map((item) => codexBettingCard(item.number, true)).join("");
-  const all = Object.keys(groupTeams).map((group) => {
+  const byDate = groupMatchNumbers.reduce((days, number) => {
+    const date = codexState.results[number]?.fixture?.[0] || "";
+    days[date] = days[date] || [];
+    days[date].push(number);
+    return days;
+  }, {});
+  const all = Object.entries(byDate).map(([date, numbers]) => {
     const cards = groupMatchNumbers
-      .filter((number) => codexState.results[number]?.fixture?.[1] === `Group ${group}`)
+      .filter((number) => numbers.includes(number))
       .map((number) => codexBettingCard(number))
       .join("");
-    return `<section class="codex-bet-group"><h3>Girone ${group}</h3>${cards}</section>`;
+    const label = new Date(`${date}T12:00:00`).toLocaleDateString("it-IT", {
+      weekday: "long",
+      day: "2-digit",
+      month: "long",
+    });
+    return `<section class="codex-bet-group"><h3>${codexEscape(label)}</h3>${cards}</section>`;
   }).join("");
   picksRoot.innerHTML = top;
   fixturesRoot.innerHTML = all;

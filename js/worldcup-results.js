@@ -382,6 +382,78 @@ const worldCupResults = {
       "Giordania trova il gol con Olwan ma resta troppo fragile nelle palle sporche.",
     ],
   },
+  21: {
+    status: "Finale",
+    home: 1,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/dr-congo-phn9mm8H/portogallo-WvJrjFVN/?mid=4zTHJLbM",
+    sources: [
+      "https://www.diretta.it/partita/calcio/dr-congo-phn9mm8H/portogallo-WvJrjFVN/?mid=4zTHJLbM",
+      "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report",
+    ],
+    scorers: {
+      "Portogallo": ["Joao Neves"],
+      "RD Congo": ["Yoane Wissa"],
+    },
+    notes: [
+      "Portogallo avanti al 6' con Joao Neves, poi raggiunto da Wissa nel recupero del primo tempo.",
+      "RD Congo compatta e pericolosa in transizione; il Portogallo domina il possesso ma produce un solo tiro in porta.",
+    ],
+  },
+  22: {
+    status: "Finale",
+    home: 4,
+    away: 2,
+    source: "https://www.diretta.it/partita/calcio/croazia-K8aznggo/inghilterra-j9N9ZNFA/?mid=b5qGuKMs",
+    sources: [
+      "https://www.diretta.it/partita/calcio/croazia-K8aznggo/inghilterra-j9N9ZNFA/?mid=b5qGuKMs",
+      "https://www.theguardian.com/football/2026/jun/17/england-4-2-croatia-world-cup-2026-group-l-player-ratings",
+    ],
+    scorers: {
+      "Inghilterra": ["Harry Kane", "Jude Bellingham", "Harry Kane", "Marcus Rashford"],
+      "Croazia": ["Martin Baturina", "Petar Musa"],
+    },
+    notes: [
+      "Inghilterra molto efficace in attacco: doppietta di Kane, gol di Bellingham e Rashford.",
+      "Croazia pericolosa con Baturina e Musa, ma la difesa non regge il ritmo e la profondita inglese.",
+    ],
+  },
+  23: {
+    status: "Finale",
+    home: 1,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/ghana-nNBjHale/panama-OWKqbCfi/?mid=jD1Nwbif",
+    sources: [
+      "https://www.diretta.it/partita/calcio/ghana-nNBjHale/panama-OWKqbCfi/?mid=jD1Nwbif",
+      "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/ghana-vs-panama-fifa-world-cup-match-result-yirenkyis-stoppage-time-strike-rescues-ghana-as-black-stars-break-panama-hearts/articleshow/131815764.cms",
+    ],
+    scorers: {
+      "Ghana": ["Caleb Yirenkyi"],
+      "Panama": [],
+    },
+    notes: [
+      "Gara bloccata e povera di occasioni, decisa da Yirenkyi nel recupero.",
+      "Ghana ottiene tre punti pesanti ma mostra ancora limiti nella produzione offensiva.",
+    ],
+  },
+  24: {
+    status: "Finale",
+    home: 1,
+    away: 3,
+    source: "https://www.diretta.it/partita/calcio/colombia-G02s4PCS/uzbekistan-EZYKKRMc/?mid=jaMlPbx1",
+    sources: [
+      "https://www.diretta.it/partita/calcio/colombia-G02s4PCS/uzbekistan-EZYKKRMc/?mid=jaMlPbx1",
+      "https://www.theguardian.com/football/live/2026/jun/18/fifa-world-cup-2026-live-uzbekistan-v-colombia-updates-uzb-vs-col-group-k-match-score-latest",
+    ],
+    scorers: {
+      "Uzbekistan": ["Abbosbek Fayzullaev"],
+      "Colombia": ["Daniel Munoz", "Luis Diaz", "Jaminton Campaz"],
+    },
+    notes: [
+      "Colombia concreta nei momenti decisivi con Munoz, Luis Diaz e Campaz.",
+      "Uzbekistan coraggioso nella ripresa e in gol con Fayzullaev, ma punito dagli errori individuali.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

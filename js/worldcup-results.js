@@ -454,6 +454,30 @@ const worldCupResults = {
       "Uzbekistan coraggioso nella ripresa e in gol con Fayzullaev, ma punito dagli errori individuali.",
     ],
   },
+  25: {
+    status: "Finale",
+    home: 1,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/repubblica-ceca-6LHwBDGU/sudafrica-W2ijYvlr/?mid=8nrACRTs",
+    sources: [
+      "https://www.diretta.it/partita/calcio/repubblica-ceca-6LHwBDGU/sudafrica-W2ijYvlr/?mid=8nrACRTs",
+      "https://www.theguardian.com/football/live/2026/jun/18/czechia-v-south-africa-world-cup-live",
+    ],
+    scorers: {
+      "Repubblica Ceca": ["Michal Sadilek"],
+      "Sudafrica": ["Teboho Mokoena"],
+    },
+    cards: {
+      yellow: [
+        { team: "Repubblica Ceca", player: "Ladislav Krejci" },
+        { team: "Sudafrica", player: "Teboho Mokoena" },
+      ],
+    },
+    notes: [
+      "Repubblica Ceca avanti al 5' con Sadilek, ma troppo passiva dopo il vantaggio.",
+      "Mokoena, migliore del Sudafrica, pareggia su rigore all'83'; entrambe restano obbligate a vincere l'ultima partita.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

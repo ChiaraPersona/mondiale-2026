@@ -2342,9 +2342,12 @@ function codexRenderRanking() {
     .slice(0, 16);
   root.innerHTML = rows.map((row, index) => `
     <article class="codex-ranking-row">
-      <span>${index + 1}</span>
-      <strong>${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 3)}${codexMotivationBadge(row.team)}</strong>
-      <small><b>Codex+ ${codexPlusScore(row.team).toFixed(1)}</b><em>Codex ${row.total.toFixed(1)}</em></small>
+      <span class="codex-ranking-position">${index + 1}</span>
+      <div class="codex-ranking-team">
+        <strong>${codexFlag(row.team)}<span>${codexEscape(row.team)}</span></strong>
+        <div class="codex-ranking-badges">${codexExternalBadges(row.team, 3)}${codexMotivationBadge(row.team)}</div>
+      </div>
+      <small class="codex-ranking-score"><b>Codex+ ${codexPlusScore(row.team).toFixed(1)}</b><em>Codex ${row.total.toFixed(1)}</em></small>
     </article>`).join("");
 }
 

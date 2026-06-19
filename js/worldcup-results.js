@@ -478,6 +478,86 @@ const worldCupResults = {
       "Mokoena, migliore del Sudafrica, pareggia su rigore all'83'; entrambe restano obbligate a vincere l'ultima partita.",
     ],
   },
+  26: {
+    status: "Finale",
+    home: 4,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/bosnia-erzegovina-fqe7WYTr/svizzera-rHJ2vy1B/?mid=djmY6NcJ",
+    sources: [
+      "https://www.diretta.it/partita/calcio/bosnia-erzegovina-fqe7WYTr/svizzera-rHJ2vy1B/?mid=djmY6NcJ",
+    ],
+    scorers: {
+      "Svizzera": ["Johan Manzambi", "Ruben Vargas", "Johan Manzambi", "Granit Xhaka"],
+      "Bosnia ed Erzegovina": ["Ermin Mahmic"],
+    },
+    cards: {
+      yellow: [
+        { team: "Svizzera", player: "Nico Elvedi" },
+        { team: "Bosnia ed Erzegovina", player: "Amar Dedic" },
+        { team: "Bosnia ed Erzegovina", player: "Edin Dzeko" },
+      ],
+      red: [
+        { team: "Bosnia ed Erzegovina", player: "Tarik Muharemovic" },
+      ],
+    },
+    notes: [
+      "Svizzera-Bosnia resta bloccata fino al 74', poi la Svizzera dilaga con la doppietta di Manzambi, Vargas e il rigore finale di Xhaka.",
+      "Il rosso a Muharemovic all'80' spezza definitivamente l'equilibrio; Mahmic segna il momentaneo 3-1 nel recupero.",
+      "Svizzera superiore: 13-5 nei tiri, 7-3 in porta, 2,06-0,23 negli xG e 62% di possesso.",
+    ],
+  },
+  27: {
+    status: "Finale",
+    home: 6,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/canada-x4toKORL/qatar-zqzHL77i/?mid=67vLrBMM",
+    sources: [
+      "https://www.diretta.it/partita/calcio/canada-x4toKORL/qatar-zqzHL77i/?mid=67vLrBMM",
+    ],
+    scorers: {
+      "Canada": ["Cyle Larin", "Jonathan David", "Jonathan David", "Nathan Saliba", "Autogol Mohammad Al Mannai", "Jonathan David"],
+      "Qatar": [],
+    },
+    cards: {
+      yellow: [
+        { team: "Canada", player: "Derek Cornelius" },
+        { team: "Qatar", player: "Ahmed Fathi" },
+      ],
+      red: [
+        { team: "Qatar", player: "Homam Ahmed Al-Amin" },
+        { team: "Qatar", player: "Assim Madibo" },
+      ],
+    },
+    notes: [
+      "Canada travolge il Qatar 6-0: tripletta di Jonathan David, reti di Larin e Saliba più l'autogol di Al Mannai.",
+      "Dominio canadese totale: 32-2 nei tiri, 10-0 in porta, 4,60-0,22 negli xG e 79% di possesso.",
+      "Qatar rimane in nove uomini dopo le espulsioni di Al-Amin al 33' e Madibo al 53'.",
+    ],
+  },
+  28: {
+    status: "Finale",
+    home: 1,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/corea-del-sud-K6Gs7P6G/messico-O6iHcNkd/?mid=On5HOkVj",
+    sources: [
+      "https://www.diretta.it/partita/calcio/corea-del-sud-K6Gs7P6G/messico-O6iHcNkd/?mid=On5HOkVj",
+    ],
+    scorers: {
+      "Messico": ["Luis Romo"],
+      "Corea del Sud": [],
+    },
+    cards: {
+      yellow: [
+        { team: "Corea del Sud", player: "Lee Kang-In" },
+        { team: "Corea del Sud", player: "Paik Seung-Ho" },
+      ],
+    },
+    notes: [
+      "Luis Romo decide al 50' una partita molto equilibrata e porta il Messico alla seconda vittoria consecutiva.",
+      "La Corea del Sud produce più possesso e più xG, ma il Messico è più preciso: 4-2 nei tiri in porta.",
+      "Statistiche complessive: tiri 8-9, xG 0,52-0,91 e possesso 42%-58%.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

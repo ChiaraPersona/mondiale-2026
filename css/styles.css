@@ -260,6 +260,34 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
   margin: 28px auto 64px;
 }
 
+.reading-article-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.reading-article-nav a {
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 7px;
+  padding: 0 13px;
+  color: var(--muted);
+  background: rgba(12, 17, 24, .82);
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.reading-article-nav a:hover,
+.reading-article-nav a.is-active {
+  border-color: rgba(0, 208, 132, .55);
+  color: #fff;
+  background: rgba(0, 208, 132, .12);
+}
+
 .reading-article {
   width: 100%;
   max-width: 100%;

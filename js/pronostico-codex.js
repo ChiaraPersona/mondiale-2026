@@ -1011,6 +1011,11 @@ function codexIsProbableStarter(row) {
   return starters.some((starter) => codexStarterMatchesPlayer(starter, row.player));
 }
 
+function codexIsUnavailable(row) {
+  const unavailable = codexTeamInsight(row.team).unavailable || [];
+  return unavailable.some((player) => codexStarterMatchesPlayer(player, row.player));
+}
+
 function codexExpectedMinutesShare(row) {
   const starter = codexIsProbableStarter(row);
   if (starter && row.role === "Attaccanti") return 0.82;
@@ -1043,6 +1048,7 @@ function codexHasTournamentPedigree(row) {
 }
 
 function codexIsScorerEligible(row) {
+  if (codexIsUnavailable(row)) return false;
   return (codexIsProbableStarter(row) && row.role !== "Difensori") || codexPenaltyRank(row) > 0;
 }
 

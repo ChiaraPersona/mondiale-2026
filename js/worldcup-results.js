@@ -558,6 +558,112 @@ const worldCupResults = {
       "Statistiche complessive: tiri 8-9, xG 0,52-0,91 e possesso 42%-58%.",
     ],
   },
+  29: {
+    status: "Finale",
+    home: 2,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/australia-xSrf6qMM/usa-fuitL4CF/?mid=S0aAVubs",
+    sources: [
+      "https://www.diretta.it/partita/calcio/australia-xSrf6qMM/usa-fuitL4CF/?mid=S0aAVubs",
+    ],
+    scorers: {
+      "Stati Uniti": ["Autogol Cameron Burgess", "Alex Freeman"],
+      "Australia": [],
+    },
+    cards: {
+      yellow: [
+        { team: "Stati Uniti", player: "Antonee Robinson" },
+        { team: "Stati Uniti", player: "Folarin Balogun" },
+        { team: "Stati Uniti", player: "Chris Richards" },
+        { team: "Australia", player: "Jordan Bos" },
+        { team: "Australia", player: "Alessandro Circati" },
+        { team: "Australia", player: "Harry Souttar" },
+        { team: "Australia", player: "Alessandro Italiano" },
+      ],
+    },
+    notes: [
+      "USA vincono 2-0 con l'autogol di Burgess e la rete di Alex Freeman.",
+      "Partita meno ricca di tiri del previsto: 10-5 complessivi e 2-2 nello specchio; xG 1,08-0,34.",
+      "USA superiori nei corner 7-4; Australia piu ammonita, quattro gialli contro tre.",
+    ],
+  },
+  30: {
+    status: "Finale",
+    home: 0,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/marocco-IDKYO3R8/scozia-fZRU25WH/?mid=nRafcAyG",
+    sources: [
+      "https://www.diretta.it/partita/calcio/marocco-IDKYO3R8/scozia-fZRU25WH/?mid=nRafcAyG",
+    ],
+    scorers: {
+      "Scozia": [],
+      "Marocco": ["Ismael Saibari"],
+    },
+    cards: {
+      yellow: [
+        { team: "Scozia", player: "Andy Robertson" },
+        { team: "Marocco", player: "Issa Diop" },
+      ],
+    },
+    notes: [
+      "Saibari segna al 2' e il Marocco gestisce fino allo 0-1 finale.",
+      "Scozia senza tiri in porta: 6-12 nei tentativi, 0-2 nello specchio e xG 0,52-1,00.",
+      "Marocco avanti anche nei corner 5-2 e nel possesso 59%-41%.",
+    ],
+  },
+  31: {
+    status: "Finale",
+    home: 3,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/haiti-nk4v10Z1/?mid=IRyRv2Ll",
+    sources: [
+      "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/haiti-nk4v10Z1/?mid=IRyRv2Ll",
+    ],
+    scorers: {
+      "Brasile": ["Matheus Cunha", "Matheus Cunha", "Vinicius Junior"],
+      "Haiti": [],
+    },
+    cards: {
+      yellow: [
+        { team: "Brasile", player: "Douglas Santos" },
+        { team: "Haiti", player: "Carlens Arcus" },
+        { team: "Haiti", player: "Frantzdy Pierrot" },
+        { team: "Haiti", player: "Danley Jean Jacques" },
+      ],
+    },
+    notes: [
+      "Brasile chiude la gara nel primo tempo: doppietta di Cunha e gol di Vinicius Junior.",
+      "Vittoria efficiente con 8-7 nei tiri, 5-3 nello specchio e xG 1,75-0,23.",
+      "Corner in parita 4-4; Haiti riceve tre dei quattro cartellini.",
+    ],
+  },
+  32: {
+    status: "Finale",
+    home: 0,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/paraguay-YaNlqp6j/turchia-QeijuHo5/?mid=KnyuOLXH",
+    sources: [
+      "https://www.diretta.it/partita/calcio/paraguay-YaNlqp6j/turchia-QeijuHo5/?mid=KnyuOLXH",
+    ],
+    scorers: {
+      "Turchia": [],
+      "Paraguay": ["Matias Galarza"],
+    },
+    cards: {
+      yellow: [
+        { team: "Turchia", player: "Eren Elmali" },
+        { team: "Paraguay", player: "Matias Galarza" },
+      ],
+      red: [
+        { team: "Paraguay", player: "Miguel Almiron" },
+      ],
+    },
+    notes: [
+      "Galarza segna al 2' e il Paraguay resiste fino allo 0-1 nonostante il rosso ad Almiron nel recupero del primo tempo.",
+      "Turchia dominante ma inefficace: 32-7 nei tiri, 5-2 in porta, 12-0 nei corner e xG 2,17-0,33.",
+      "Il risultato smentisce il pronostico sul segno, ma conferma nettamente Turchia piu corner e la lettura disciplinare su Barton.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

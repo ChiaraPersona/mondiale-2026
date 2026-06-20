@@ -3117,6 +3117,17 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Brasile",
+        "date": "20/06/2026",
+        "opponent": "Haiti",
+        "score": "3-0",
+        "source": "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/haiti-nk4v10Z1/?mid=IRyRv2Ll",
+        "xgFor": 1.75, "xgAgainst": 0.23, "possession": 57, "opponentPossession": 43,
+        "shotsFor": 8, "shotsAgainst": 7, "shotsOnTargetFor": 5, "shotsOnTargetAgainst": 3,
+        "cornersFor": 4, "cornersAgainst": 4, "yellowCards": 1, "opponentYellowCards": 3,
+        "redCards": 0, "opponentRedCards": 0
+      },
+      {
               "team": "Brasile",
               "date": "13/06/2026",
               "opponent": "Marocco",
@@ -3477,6 +3488,17 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/morocco/IDKYO3R8/"
     },
     "matches": [
+      {
+        "team": "Marocco",
+        "date": "20/06/2026",
+        "opponent": "Scozia",
+        "score": "1-0",
+        "source": "https://www.diretta.it/partita/calcio/marocco-IDKYO3R8/scozia-fZRU25WH/?mid=nRafcAyG",
+        "xgFor": 1.00, "xgAgainst": 0.52, "possession": 59, "opponentPossession": 41,
+        "shotsFor": 12, "shotsAgainst": 6, "shotsOnTargetFor": 2, "shotsOnTargetAgainst": 0,
+        "cornersFor": 5, "cornersAgainst": 2, "yellowCards": 1, "opponentYellowCards": 1,
+        "redCards": 0, "opponentRedCards": 0
+      },
       {
               "team": "Marocco",
               "date": "13/06/2026",
@@ -3881,6 +3903,17 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Haiti",
+        "date": "20/06/2026",
+        "opponent": "Brasile",
+        "score": "0-3",
+        "source": "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/haiti-nk4v10Z1/?mid=IRyRv2Ll",
+        "xgFor": 0.23, "xgAgainst": 1.75, "possession": 43, "opponentPossession": 57,
+        "shotsFor": 7, "shotsAgainst": 8, "shotsOnTargetFor": 3, "shotsOnTargetAgainst": 5,
+        "cornersFor": 4, "cornersAgainst": 4, "yellowCards": 3, "opponentYellowCards": 1,
+        "redCards": 0, "opponentRedCards": 0
+      },
+      {
               "team": "Haiti",
               "date": "14/06/2026",
               "opponent": "Scozia",
@@ -4223,6 +4256,17 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/scotland/fZRU25WH/"
     },
     "matches": [
+      {
+        "team": "Scozia",
+        "date": "20/06/2026",
+        "opponent": "Marocco",
+        "score": "0-1",
+        "source": "https://www.diretta.it/partita/calcio/marocco-IDKYO3R8/scozia-fZRU25WH/?mid=nRafcAyG",
+        "xgFor": 0.52, "xgAgainst": 1.00, "possession": 41, "opponentPossession": 59,
+        "shotsFor": 6, "shotsAgainst": 12, "shotsOnTargetFor": 0, "shotsOnTargetAgainst": 2,
+        "cornersFor": 2, "cornersAgainst": 5, "yellowCards": 1, "opponentYellowCards": 1,
+        "redCards": 0, "opponentRedCards": 0
+      },
       {
               "team": "Scozia",
               "date": "14/06/2026",
@@ -4617,6 +4661,17 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/usa/fuitL4CF/"
     },
     "matches": [
+      {
+        "team": "Stati Uniti",
+        "date": "20/06/2026",
+        "opponent": "Australia",
+        "score": "2-0",
+        "source": "https://www.diretta.it/partita/calcio/australia-xSrf6qMM/usa-fuitL4CF/?mid=S0aAVubs",
+        "xgFor": 1.08, "xgAgainst": 0.34, "possession": 62, "opponentPossession": 38,
+        "shotsFor": 10, "shotsAgainst": 5, "shotsOnTargetFor": 2, "shotsOnTargetAgainst": 2,
+        "cornersFor": 7, "cornersAgainst": 4, "yellowCards": 3, "opponentYellowCards": 4,
+        "redCards": 0, "opponentRedCards": 0
+      },
       {
         "team": "Stati Uniti",
         "date": "13/06/2026",
@@ -5022,6 +5077,17 @@ const teamStatsData = [
     "matches": [
       {
         "team": "Paraguay",
+        "date": "20/06/2026",
+        "opponent": "Turchia",
+        "score": "1-0",
+        "source": "https://www.diretta.it/partita/calcio/paraguay-YaNlqp6j/turchia-QeijuHo5/?mid=KnyuOLXH",
+        "xgFor": 0.33, "xgAgainst": 2.17, "possession": 21, "opponentPossession": 79,
+        "shotsFor": 7, "shotsAgainst": 32, "shotsOnTargetFor": 2, "shotsOnTargetAgainst": 5,
+        "cornersFor": 0, "cornersAgainst": 12, "yellowCards": 1, "opponentYellowCards": 1,
+        "redCards": 1, "opponentRedCards": 0
+      },
+      {
+        "team": "Paraguay",
         "date": "13/06/2026",
         "opponent": "Stati Uniti",
         "score": "1-4",
@@ -5358,6 +5424,17 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/australia/xSrf6qMM/"
     },
     "matches": [
+      {
+        "team": "Australia",
+        "date": "20/06/2026",
+        "opponent": "Stati Uniti",
+        "score": "0-2",
+        "source": "https://www.diretta.it/partita/calcio/australia-xSrf6qMM/usa-fuitL4CF/?mid=S0aAVubs",
+        "xgFor": 0.34, "xgAgainst": 1.08, "possession": 38, "opponentPossession": 62,
+        "shotsFor": 5, "shotsAgainst": 10, "shotsOnTargetFor": 2, "shotsOnTargetAgainst": 2,
+        "cornersFor": 4, "cornersAgainst": 7, "yellowCards": 4, "opponentYellowCards": 3,
+        "redCards": 0, "opponentRedCards": 0
+      },
       {
               "team": "Australia",
               "date": "14/06/2026",
@@ -5757,6 +5834,17 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/turkey/QeijuHo5/"
     },
     "matches": [
+      {
+        "team": "Turchia",
+        "date": "20/06/2026",
+        "opponent": "Paraguay",
+        "score": "0-1",
+        "source": "https://www.diretta.it/partita/calcio/paraguay-YaNlqp6j/turchia-QeijuHo5/?mid=KnyuOLXH",
+        "xgFor": 2.17, "xgAgainst": 0.33, "possession": 79, "opponentPossession": 21,
+        "shotsFor": 32, "shotsAgainst": 7, "shotsOnTargetFor": 5, "shotsOnTargetAgainst": 2,
+        "cornersFor": 12, "cornersAgainst": 0, "yellowCards": 1, "opponentYellowCards": 1,
+        "redCards": 0, "opponentRedCards": 1
+      },
       {
               "team": "Turchia",
               "date": "14/06/2026",

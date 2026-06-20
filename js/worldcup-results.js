@@ -664,6 +664,24 @@ const worldCupResults = {
       "Il risultato smentisce il pronostico sul segno, ma conferma nettamente Turchia piu corner e la lettura disciplinare su Barton.",
     ],
   },
+  33: {
+    status: "Finale",
+    home: 5,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/olanda-WYintcWb/svezia-OQyqbHWB/?mid=0rAjVxuo",
+    sources: [
+      "https://www.diretta.it/partita/calcio/olanda-WYintcWb/svezia-OQyqbHWB/?mid=0rAjVxuo",
+    ],
+    scorers: {
+      "Olanda": ["Brian Brobbey", "Brian Brobbey", "Cody Gakpo", "Cody Gakpo", "Crysencio Summerville"],
+      "Svezia": ["Anthony Elanga"],
+    },
+    notes: [
+      "Olanda travolgente nel punteggio: doppiette di Brobbey e Gakpo, poi il quinto gol di Summerville.",
+      "Elanga segna per la Svezia, che produce otto tiri in porta contro i sette olandesi ma paga una differenza enorme nella finalizzazione.",
+      "La Svezia ottiene anche piu corner: il 5-1 nasce soprattutto dall'efficienza offensiva olandese.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

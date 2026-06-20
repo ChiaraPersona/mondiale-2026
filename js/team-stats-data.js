@@ -7737,6 +7737,16 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Olanda",
+        "date": "20/06/2026",
+        "opponent": "Svezia",
+        "score": "5-1",
+        "source": "https://www.diretta.it/partita/calcio/olanda-WYintcWb/svezia-OQyqbHWB/?mid=0rAjVxuo",
+        "shotsOnTargetFor": 7,
+        "shotsOnTargetAgainst": 8,
+        "note": "Mondiale 2026: doppiette di Brobbey e Gakpo, gol di Summerville; Olanda molto piu efficace nonostante meno tiri in porta"
+      },
+      {
               "team": "Olanda",
               "date": "14/06/2026",
               "opponent": "Giappone",
@@ -8543,6 +8553,16 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/sweden/OQyqbHWB/"
     },
     "matches": [
+      {
+        "team": "Svezia",
+        "date": "20/06/2026",
+        "opponent": "Olanda",
+        "score": "1-5",
+        "source": "https://www.diretta.it/partita/calcio/olanda-WYintcWb/svezia-OQyqbHWB/?mid=0rAjVxuo",
+        "shotsOnTargetFor": 8,
+        "shotsOnTargetAgainst": 7,
+        "note": "Mondiale 2026: gol di Elanga; piu tiri in porta e piu corner dell'Olanda, ma pesante differenza nella finalizzazione"
+      },
       {
               "team": "Svezia",
               "date": "15/06/2026",

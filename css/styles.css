@@ -5323,6 +5323,24 @@ body {
   white-space: nowrap;
 }
 
+.codex-motivation-head b.is-positive,
+.codex-motivation-mini.is-positive,
+.codex-psychology-match .is-positive,
+.codex-world-psychology .is-positive {
+  color: #73e49b;
+}
+
+.codex-motivation-head b.is-negative,
+.codex-motivation-mini.is-negative,
+.codex-psychology-match .is-negative,
+.codex-world-psychology .is-negative {
+  color: #ff8c8c;
+}
+
+.codex-motivation-mini.is-neutral {
+  color: #f5c84b;
+}
+
 .codex-motivation-mini {
   display: inline-flex;
   align-items: center;
@@ -5347,6 +5365,17 @@ body {
   background: rgba(255, 255, 255, .06);
   font-size: 10px;
   font-weight: 850;
+}
+
+.codex-motivation-factors span b {
+  color: #fff;
+}
+
+.codex-motivation-row p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.45;
 }
 
 .codex-motivation-row ul {
@@ -6409,6 +6438,100 @@ body {
   margin-top: 4px;
   color: var(--muted);
   font-size: 11px;
+}
+
+.codex-psychology-match {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 8px;
+  border: 1px solid rgba(115, 228, 155, .16);
+  border-radius: 10px;
+  background: rgba(115, 228, 155, .045);
+}
+
+.codex-psychology-match > strong {
+  color: #73e49b;
+  font-size: 10px;
+  font-weight: 950;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.codex-psychology-match > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.codex-psychology-match article {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2px 8px;
+  align-items: center;
+  min-width: 0;
+  padding: 6px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .045);
+}
+
+.codex-psychology-match article > span {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  gap: 5px;
+  color: rgba(255, 255, 255, .9);
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.codex-psychology-match article > span .prediction-team-flag {
+  width: 16px;
+  height: 12px;
+}
+
+.codex-psychology-match article small {
+  grid-column: 1;
+  margin: 0;
+  font-size: 9px;
+}
+
+.codex-psychology-match article > b {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.codex-world-psychology {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.codex-world-psychology span {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 4px;
+  border: 1px solid rgba(255, 255, 255, .09);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .04);
+  font-size: 8px;
+  font-weight: 950;
+  white-space: nowrap;
+}
+
+.codex-world-psychology .prediction-team-flag {
+  width: 12px;
+  height: 9px;
+}
+
+@media (max-width: 720px) {
+  .codex-psychology-match > div {
+    grid-template-columns: 1fr;
+  }
 }
 
 .codex-env-panel {

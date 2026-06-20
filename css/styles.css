@@ -7912,6 +7912,22 @@ footer,
 }
 
 @media (max-width: 720px) {
+  .reading-page.has-mobile-nav .mobile-nav-toggle {
+    position: fixed;
+    top: 8px;
+    left: 14px;
+    right: 14px;
+    z-index: 2101;
+    width: auto;
+    margin: 0;
+  }
+
+  .reading-page.has-mobile-nav .page-links {
+    top: 62px !important;
+    max-height: calc(100vh - 76px);
+    overflow-y: auto !important;
+  }
+
   .topbar,
   main,
   footer,

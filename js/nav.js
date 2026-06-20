@@ -1,3 +1,33 @@
+const readingPage = document.body.classList.contains("reading-page");
+
+if (readingPage && !document.querySelector(".page-links")) {
+  const header = document.querySelector("body > header");
+
+  if (header) {
+    header.insertAdjacentHTML("beforeend", `
+      <nav class="page-links" aria-label="Sezioni">
+        <a class="page-link" href="index.html">Home</a>
+        <a class="page-link" href="convocati.html">Convocati</a>
+        <a class="page-link" href="probabili-formazioni.html">Probabili formazioni</a>
+        <a class="page-link" href="player.html">Player</a>
+        <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
+        <a class="page-link" href="arbitri.html">Arbitri</a>
+        <div class="nav-dropdown">
+          <span class="page-link nav-dropdown-toggle active">Pronostico <span class="nav-caret">&#9662;</span></span>
+          <div class="nav-dropdown-menu">
+            <a class="page-link" href="pronostico-codex.html">Pronostico Codex</a>
+            <a class="page-link" href="schedina.html">Schedina</a>
+            <a class="page-link" href="tipster.html">Tipster</a>
+            <a class="page-link active" href="lettura.html">Lettura</a>
+          </div>
+        </div>
+        <a class="page-link" href="storia.html">Storia</a>
+        <a class="page-link utility-link" href="metodo-fonti.html">Metodo e fonti</a>
+      </nav>
+    `);
+  }
+}
+
 document.querySelectorAll(".page-links").forEach((nav, index) => {
   const button = document.createElement("button");
   const navId = nav.id || "site-nav-" + index;

@@ -10816,6 +10816,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Spagna",
+        "date": "21/06/2026",
+        "opponent": "Arabia Saudita",
+        "score": "4-0",
+        "source": "https://www.diretta.it/partita/calcio/arabia-saudita-biSY8ox4/spagna-bLyo6mco/?mid=CASh7QGF",
+        "note": "Mondiale 2026: vittoria netta con gol di Pino e Zubimendi e doppietta di Lamine Yamal"
+      },
+      {
               "team": "Spagna",
               "date": "15/06/2026",
               "opponent": "Capo Verde",
@@ -11544,6 +11552,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/saudi-arabia/biSY8ox4/"
     },
     "matches": [
+      {
+        "team": "Arabia Saudita",
+        "date": "21/06/2026",
+        "opponent": "Spagna",
+        "score": "0-4",
+        "source": "https://www.diretta.it/partita/calcio/arabia-saudita-biSY8ox4/spagna-bLyo6mco/?mid=CASh7QGF",
+        "note": "Mondiale 2026: pesante sconfitta contro la Spagna dopo il buon pareggio ottenuto con l'Uruguay"
+      },
       {
               "team": "Arabia Saudita",
               "date": "15/06/2026",

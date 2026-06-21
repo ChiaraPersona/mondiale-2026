@@ -746,6 +746,25 @@ const worldCupResults = {
       "Confermati Giappone vincente, No Goal, Ueda in porta e Giappone piu corner; sbagliati Under 2,5 e Multigol 1-3.",
     ],
   },
+  37: {
+    status: "Finale",
+    home: 4,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/arabia-saudita-biSY8ox4/spagna-bLyo6mco/?mid=CASh7QGF",
+    sources: [
+      "https://www.diretta.it/partita/calcio/arabia-saudita-biSY8ox4/spagna-bLyo6mco/?mid=CASh7QGF",
+      "https://www.theguardian.com/football/2026/jun/21/spain-saudi-arabia-world-cup-match-report",
+    ],
+    scorers: {
+      "Spagna": ["Yeremy Pino", "Martin Zubimendi", "Lamine Yamal", "Lamine Yamal"],
+      "Arabia Saudita": [],
+    },
+    notes: [
+      "Spagna vince 4-0: Pino apre, Zubimendi raddoppia e Yamal chiude con una doppietta.",
+      "Dopo lo 0-0 con Capo Verde, la Spagna ritrova efficacia e sale a quattro punti nel Gruppo H.",
+      "Confermati Spagna vincente, No Goal, Multigol 2-4 e Spagna piu corner; l'Under 3,5 e il risultato esatto 2-0 saltano per il quarto gol.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

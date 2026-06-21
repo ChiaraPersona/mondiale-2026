@@ -26,8 +26,8 @@ const psychologicalFactors = {
   "Spagna": {
     motivazione: 89,
     pressione: 82,
-    momentoEmotivo: 1,
-    notaPsicologica: "Nuova generazione tecnica con pressione inferiore rispetto ad altre superpotenze.",
+    momentoEmotivo: 5,
+    notaPsicologica: "Il 4-0 sull'Arabia Saudita cancella parte delle scorie dello 0-0 iniziale e restituisce fiducia alla nuova generazione.",
   },
   "Portogallo": {
     motivazione: 92,
@@ -218,8 +218,8 @@ const psychologicalFactors = {
   "Arabia Saudita": {
     motivazione: 85,
     pressione: 70,
-    momentoEmotivo: -1,
-    notaPsicologica: "Le risorse e le aspettative sono cresciute, ma la squadra deve ritrovare continuita emotiva.",
+    momentoEmotivo: -5,
+    notaPsicologica: "Il 4-0 subito dalla Spagna pesa sulla fiducia e aumenta l'urgenza di reagire nell'ultima partita del girone.",
   },
   "Norvegia": {
     motivazione: 92,

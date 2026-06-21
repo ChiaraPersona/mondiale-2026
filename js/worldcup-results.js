@@ -682,6 +682,70 @@ const worldCupResults = {
       "La Svezia ottiene anche piu corner: il 5-1 nasce soprattutto dall'efficienza offensiva olandese.",
     ],
   },
+  34: {
+    status: "Finale",
+    home: 2,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/germania-ptQide1O/?mid=SMzorJsm",
+    sources: [
+      "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/germania-ptQide1O/?mid=SMzorJsm",
+    ],
+    scorers: {
+      "Germania": ["Deniz Undav", "Deniz Undav"],
+      "Costa d'Avorio": ["Franck Kessie"],
+    },
+    notes: [
+      "Kessie porta avanti la Costa d'Avorio, poi Undav ribalta la partita con una doppietta e il 2-1 al 90+4'.",
+      "Germania superiore per tiri 16-9, tiri in porta 7-2, corner 8-3 e xG 1,89-1,22.",
+      "Confermati Germania vincente, Under 3,5, Multigol 2-4 e Germania piu corner; il risultato centrale 2-0 non viene preso.",
+    ],
+  },
+  35: {
+    status: "Finale",
+    home: 0,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/curacao-bLLGpOkQ/ecuador-8tbm8Tri/?mid=p2XLmuKP",
+    sources: [
+      "https://www.diretta.it/partita/calcio/curacao-bLLGpOkQ/ecuador-8tbm8Tri/?mid=p2XLmuKP",
+    ],
+    scorers: {
+      "Ecuador": [],
+      "Curacao": [],
+    },
+    cards: {
+      yellow: [
+        { team: "Ecuador", player: "Jordy Alcivar" },
+        { team: "Curacao", player: "Leandro Bacuna" },
+        { team: "Curacao", player: "Juninho Bacuna" },
+        { team: "Curacao", player: "Livano Comenencia" },
+        { team: "Curacao", player: "Jurien Gaari" },
+        { team: "Curacao", player: "Gervane Kastaneer" },
+      ],
+    },
+    notes: [
+      "Room ferma l'Ecuador con 15 parate e consente a Curacao di conquistare uno 0-0 inatteso.",
+      "Dominio ecuadoriano senza gol: 27-10 nei tiri, 15-3 nello specchio, 9-0 nei corner, 75% di possesso e xG 2,84-0,50.",
+      "Sbagliati vincente Ecuador, Over 2,5 e risultato; confermati No Goal, Under 4,5, Ecuador piu corner e Curacao piu ammonita.",
+    ],
+  },
+  36: {
+    status: "Finale",
+    home: 0,
+    away: 4,
+    source: "https://www.diretta.it/partita/calcio/giappone-ULXPdOUj/tunisia-QqZVYk95/?mid=SzGJdIdt",
+    sources: [
+      "https://www.diretta.it/partita/calcio/giappone-ULXPdOUj/tunisia-QqZVYk95/?mid=SzGJdIdt",
+    ],
+    scorers: {
+      "Tunisia": [],
+      "Giappone": ["Daichi Kamada", "Ayase Ueda", "Junya Ito", "Ayase Ueda"],
+    },
+    notes: [
+      "Giappone in controllo dall'inizio: Kamada apre al 4', Ueda segna una doppietta e Junya Ito completa il 4-0.",
+      "Superiorita netta: 11-2 nei tiri, 5-0 nello specchio, 5-3 nei corner, 62% di possesso e xG 2,13-0,04.",
+      "Confermati Giappone vincente, No Goal, Ueda in porta e Giappone piu corner; sbagliati Under 2,5 e Multigol 1-3.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

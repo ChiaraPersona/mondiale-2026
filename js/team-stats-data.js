@@ -6249,6 +6249,26 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Germania",
+        "date": "20/06/2026",
+        "opponent": "Costa d'Avorio",
+        "score": "2-1",
+        "source": "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/germania-ptQide1O/?mid=SMzorJsm",
+        "xgFor": 1.89,
+        "xgAgainst": 1.22,
+        "possession": 59,
+        "opponentPossession": 41,
+        "shotsFor": 16,
+        "shotsAgainst": 9,
+        "shotsOnTargetFor": 7,
+        "shotsOnTargetAgainst": 2,
+        "cornersFor": 8,
+        "cornersAgainst": 3,
+        "yellowCards": 0,
+        "opponentYellowCards": 0,
+        "note": "Mondiale 2026: doppietta di Undav, con gol vittoria al 90+4'"
+      },
+      {
               "team": "Germania",
               "date": "14/06/2026",
               "opponent": "Curacao",
@@ -6652,6 +6672,26 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Curacao",
+        "date": "21/06/2026",
+        "opponent": "Ecuador",
+        "score": "0-0",
+        "source": "https://www.diretta.it/partita/calcio/curacao-bLLGpOkQ/ecuador-8tbm8Tri/?mid=p2XLmuKP",
+        "xgFor": 0.5,
+        "xgAgainst": 2.84,
+        "possession": 25,
+        "opponentPossession": 75,
+        "shotsFor": 10,
+        "shotsAgainst": 27,
+        "shotsOnTargetFor": 3,
+        "shotsOnTargetAgainst": 15,
+        "cornersFor": 0,
+        "cornersAgainst": 9,
+        "yellowCards": 5,
+        "opponentYellowCards": 1,
+        "note": "Mondiale 2026: Room para tutto e Curacao resiste nonostante il dominio ecuadoriano"
+      },
+      {
               "team": "Curacao",
               "date": "14/06/2026",
               "opponent": "Germania",
@@ -7007,6 +7047,26 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/ivory-coast/G2FRjBgn/"
     },
     "matches": [
+      {
+        "team": "Costa d'Avorio",
+        "date": "20/06/2026",
+        "opponent": "Germania",
+        "score": "1-2",
+        "source": "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/germania-ptQide1O/?mid=SMzorJsm",
+        "xgFor": 1.22,
+        "xgAgainst": 1.89,
+        "possession": 41,
+        "opponentPossession": 59,
+        "shotsFor": 9,
+        "shotsAgainst": 16,
+        "shotsOnTargetFor": 2,
+        "shotsOnTargetAgainst": 7,
+        "cornersFor": 3,
+        "cornersAgainst": 8,
+        "yellowCards": 0,
+        "opponentYellowCards": 0,
+        "note": "Mondiale 2026: Kessie segna, ma la doppietta di Undav completa la rimonta tedesca"
+      },
       {
               "team": "Costa d'Avorio",
               "date": "15/06/2026",
@@ -7375,6 +7435,26 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/ecuador/8tbm8Tri/"
     },
     "matches": [
+      {
+        "team": "Ecuador",
+        "date": "21/06/2026",
+        "opponent": "Curacao",
+        "score": "0-0",
+        "source": "https://www.diretta.it/partita/calcio/curacao-bLLGpOkQ/ecuador-8tbm8Tri/?mid=p2XLmuKP",
+        "xgFor": 2.84,
+        "xgAgainst": 0.5,
+        "possession": 75,
+        "opponentPossession": 25,
+        "shotsFor": 27,
+        "shotsAgainst": 10,
+        "shotsOnTargetFor": 15,
+        "shotsOnTargetAgainst": 3,
+        "cornersFor": 9,
+        "cornersAgainst": 0,
+        "yellowCards": 1,
+        "opponentYellowCards": 5,
+        "note": "Mondiale 2026: dominio totale senza gol, fermato dalle 15 parate di Room"
+      },
       {
               "team": "Ecuador",
               "date": "15/06/2026",
@@ -8157,6 +8237,26 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/japan/ULXPdOUj/"
     },
     "matches": [
+      {
+        "team": "Giappone",
+        "date": "21/06/2026",
+        "opponent": "Tunisia",
+        "score": "4-0",
+        "source": "https://www.diretta.it/partita/calcio/giappone-ULXPdOUj/tunisia-QqZVYk95/?mid=SzGJdIdt",
+        "xgFor": 2.13,
+        "xgAgainst": 0.04,
+        "possession": 62,
+        "opponentPossession": 38,
+        "shotsFor": 11,
+        "shotsAgainst": 2,
+        "shotsOnTargetFor": 5,
+        "shotsOnTargetAgainst": 0,
+        "cornersFor": 5,
+        "cornersAgainst": 3,
+        "yellowCards": 0,
+        "opponentYellowCards": 0,
+        "note": "Mondiale 2026: doppietta Ueda, gol Kamada e Junya Ito nella netta vittoria"
+      },
       {
               "team": "Giappone",
               "date": "14/06/2026",
@@ -8953,6 +9053,26 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/tunisia/QqZVYk95/"
     },
     "matches": [
+      {
+        "team": "Tunisia",
+        "date": "21/06/2026",
+        "opponent": "Giappone",
+        "score": "0-4",
+        "source": "https://www.diretta.it/partita/calcio/giappone-ULXPdOUj/tunisia-QqZVYk95/?mid=SzGJdIdt",
+        "xgFor": 0.04,
+        "xgAgainst": 2.13,
+        "possession": 38,
+        "opponentPossession": 62,
+        "shotsFor": 2,
+        "shotsAgainst": 11,
+        "shotsOnTargetFor": 0,
+        "shotsOnTargetAgainst": 5,
+        "cornersFor": 3,
+        "cornersAgainst": 5,
+        "yellowCards": 0,
+        "opponentYellowCards": 0,
+        "note": "Mondiale 2026: seconda pesante sconfitta, con appena 0,04 xG e nessun tiro in porta"
+      },
       {
               "team": "Tunisia",
               "date": "15/06/2026",

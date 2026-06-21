@@ -5279,6 +5279,40 @@ body {
   margin-top: 14px;
 }
 
+.codex-motivation-toggle {
+  position: relative;
+  padding-right: 42px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.codex-motivation-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.codex-motivation-toggle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #f5c84b;
+  border-bottom: 2px solid #f5c84b;
+  transform: translateY(-65%) rotate(45deg);
+  transition: transform .18s ease;
+}
+
+.codex-motivation-section[open] .codex-motivation-toggle::after {
+  transform: translateY(-35%) rotate(225deg);
+}
+
+.codex-motivation-toggle:focus-visible {
+  border-radius: 8px;
+  outline: 2px solid var(--green);
+  outline-offset: 5px;
+}
+
 .codex-motivation-row {
   display: grid;
   gap: 9px;

@@ -27,7 +27,7 @@ const referees = [
   { name: "Ilgiz Tantashev", country: "Uzbekistan", confed: "AFC", stats: { fixtures: 270, yellowCards: 940, redCards: 24, yellowPerGame: 3.48, source: "https://playerstats.football/referee/780" } },
   { name: "Mustapha Ghorbal", country: "Algeria", confed: "CAF", stats: { fixtures: 182, yellowCards: 704, redCards: 21, yellowPerGame: 3.87, source: "https://playerstats.football/referee/569" } },
   { name: "Pierre Atcho", country: "Gabon", confed: "CAF", stats: { fixtures: 4, yellowCards: 5, redCards: 0, yellowPerGame: 1.25, source: "https://www.transfermarkt.co.uk/pierre-atcho/profil/schiedsrichter/35863", scope: "Transfermarkt 2025/26 - CAF Champions League" } },
-  { name: "Amin Mohamed", country: "Egitto", confed: "CAF", stats: { fixtures: 152, yellowCards: 607, redCards: 16, yellowPerGame: 3.99, source: "https://playerstats.football/referee/812" } },
+  { name: "Amin Omar", country: "Egitto", confed: "CAF", stats: { fixtures: 152, yellowCards: 607, redCards: 16, yellowPerGame: 3.99, source: "https://playerstats.football/referee/812" } },
   { name: "Jalal Jayed", country: "Marocco", confed: "CAF", stats: { fixtures: 100, yellowCards: 388, redCards: 10, yellowPerGame: 3.88, source: "https://playerstats.football/referee/551" } },
   { name: "Dahane Beida", country: "Mauritania", confed: "CAF", stats: { fixtures: 46, yellowCards: 174, redCards: 5, yellowPerGame: 3.78, source: "https://playerstats.football/referee/815" } },
   { name: "Omar Abdulkadir Artan", country: "Somalia", confed: "CAF", stats: { fixtures: 3, yellowCards: 12, redCards: 0, yellowPerGame: 4.00, source: "https://www.transfermarkt.com/omar-abdulkadir-artan/bilanz/schiedsrichter/44909", scope: "Transfermarkt record by club - campione disponibile" } },

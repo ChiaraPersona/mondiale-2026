@@ -827,6 +827,25 @@ const worldCupResults = {
       "Confermati Egitto vincente, Goal e Multigol 2-4; il risultato 1-2 e l'Under 3,5 saltano per il terzo gol egiziano.",
     ],
   },
+  41: {
+    status: "Finale",
+    home: 2,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/argentina-f9OppQjp/austria-naHiWdnt/?mid=Cpq2Y2FE",
+    sources: [
+      "https://www.diretta.it/partita/calcio/argentina-f9OppQjp/austria-naHiWdnt/?mid=Cpq2Y2FE",
+      "https://www.theguardian.com/football/2026/jun/22/argentina-austria-world-cup-match-report",
+    ],
+    scorers: {
+      "Argentina": ["Lionel Messi", "Lionel Messi"],
+      "Austria": [],
+    },
+    notes: [
+      "Argentina vince 2-0 con una doppietta di Messi e si qualifica ai sedicesimi con una giornata d'anticipo.",
+      "Messi sbaglia un rigore sullo 0-0, poi segna entrambe le reti; l'Argentina controlla circa l'80% del possesso.",
+      "Pronostico pienamente centrato: risultato esatto 2-0, Argentina vincente, No Goal, Under 3,5, Multigol 2-4 e Messi 2+ tiri.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

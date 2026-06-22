@@ -2,8 +2,8 @@ const psychologicalFactors = {
   "Argentina": {
     motivazione: 92,
     pressione: 88,
-    momentoEmotivo: 8,
-    notaPsicologica: "La tripletta di Messi all'esordio rafforza fiducia e convinzione nell'ultimo ciclo di diversi veterani.",
+    momentoEmotivo: 10,
+    notaPsicologica: "Due vittorie, cinque gol di Messi e qualificazione anticipata: fiducia massima, pur con aspettative sempre molto elevate.",
   },
   "Francia": {
     motivazione: 90,
@@ -242,8 +242,8 @@ const psychologicalFactors = {
   "Austria": {
     motivazione: 86,
     pressione: 67,
-    momentoEmotivo: 6,
-    notaPsicologica: "La vittoria all'esordio conferma identita e fiducia, lasciando all'Austria la liberta mentale dell'outsider.",
+    momentoEmotivo: 2,
+    notaPsicologica: "La sconfitta con l'Argentina ridimensiona l'entusiasmo dell'esordio, ma qualificazione e identita restano pienamente nelle sue mani.",
   },
   "Algeria": {
     motivazione: 88,

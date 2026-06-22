@@ -9420,6 +9420,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Belgio",
+        "date": "21/06/2026",
+        "opponent": "Iran",
+        "score": "0-0",
+        "source": "https://www.diretta.it/partita/calcio/belgio-GbB957na/iran-xrRx85iA/?mid=fBZ09etn",
+        "note": "Mondiale 2026: secondo pareggio consecutivo; Beiranvand decisivo e Ngoy espulso nel recupero"
+      },
+      {
               "team": "Belgio",
               "date": "15/06/2026",
               "opponent": "Egitto",
@@ -9823,6 +9831,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Egitto",
+        "date": "22/06/2026",
+        "opponent": "Nuova Zelanda",
+        "score": "3-1",
+        "source": "https://www.diretta.it/partita/calcio/egitto-bejDn7NN/nuova-zelanda-rLctHkpU/?mid=QeaikheU",
+        "note": "Mondiale 2026: rimonta firmata Zizo, Salah e Trezeguet dopo il vantaggio neozelandese"
+      },
+      {
               "team": "Egitto",
               "date": "15/06/2026",
               "opponent": "Belgio",
@@ -10198,6 +10214,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Iran",
+        "date": "21/06/2026",
+        "opponent": "Belgio",
+        "score": "0-0",
+        "source": "https://www.diretta.it/partita/calcio/belgio-GbB957na/iran-xrRx85iA/?mid=fBZ09etn",
+        "note": "Mondiale 2026: prova difensiva solida e punto prezioso, con Beiranvand decisivo nel finale"
+      },
+      {
               "team": "Iran",
               "date": "16/06/2026",
               "opponent": "Nuova Zelanda",
@@ -10485,6 +10509,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/new-zealand/rLctHkpU/"
     },
     "matches": [
+      {
+        "team": "Nuova Zelanda",
+        "date": "22/06/2026",
+        "opponent": "Egitto",
+        "score": "1-3",
+        "source": "https://www.diretta.it/partita/calcio/egitto-bejDn7NN/nuova-zelanda-rLctHkpU/?mid=QeaikheU",
+        "note": "Mondiale 2026: Barbarouses segna il vantaggio, poi l'Egitto ribalta la partita"
+      },
       {
               "team": "Nuova Zelanda",
               "date": "16/06/2026",
@@ -11235,6 +11267,14 @@ const teamStatsData = [
     },
     "matches": [
       {
+        "team": "Capo Verde",
+        "date": "21/06/2026",
+        "opponent": "Uruguay",
+        "score": "2-2",
+        "source": "https://www.diretta.it/partita/calcio/capo-verde-MocyWdm7/uruguay-xMk44orG/?mid=4pPp9nn3",
+        "note": "Mondiale 2026: secondo pareggio storico, rimontando due volte con Nuno Moreira e Helio Varela"
+      },
+      {
               "team": "Capo Verde",
               "date": "15/06/2026",
               "opponent": "Spagna",
@@ -11966,6 +12006,14 @@ const teamStatsData = [
       "source": "https://www.diretta.it/squadra/uruguay/xMk44orG/"
     },
     "matches": [
+      {
+        "team": "Uruguay",
+        "date": "21/06/2026",
+        "opponent": "Capo Verde",
+        "score": "2-2",
+        "source": "https://www.diretta.it/partita/calcio/capo-verde-MocyWdm7/uruguay-xMk44orG/?mid=4pPp9nn3",
+        "note": "Mondiale 2026: vantaggio sprecato due volte nonostante i gol di Bentancur e Darwin Nunez"
+      },
       {
               "team": "Uruguay",
               "date": "15/06/2026",

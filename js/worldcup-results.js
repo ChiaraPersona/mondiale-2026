@@ -765,6 +765,68 @@ const worldCupResults = {
       "Confermati Spagna vincente, No Goal, Multigol 2-4 e Spagna piu corner; l'Under 3,5 e il risultato esatto 2-0 saltano per il quarto gol.",
     ],
   },
+  38: {
+    status: "Finale",
+    home: 0,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/belgio-GbB957na/iran-xrRx85iA/?mid=fBZ09etn",
+    sources: [
+      "https://www.diretta.it/partita/calcio/belgio-GbB957na/iran-xrRx85iA/?mid=fBZ09etn",
+      "https://www.theguardian.com/football/2026/jun/21/belgium-iran-world-cup-match-report",
+    ],
+    scorers: {
+      "Belgio": [],
+      "Iran": [],
+    },
+    cards: {
+      red: [
+        { team: "Belgio", player: "Nathan Ngoy" },
+      ],
+    },
+    notes: [
+      "Belgio fermato sullo 0-0 dall'Iran e ancora senza vittorie dopo due giornate.",
+      "Beiranvand decisivo nel finale; Ngoy espulso nel recupero dopo revisione VAR.",
+      "Confermati Under 3,5 e No Goal; sbagliati Belgio vincente, Multigol 2-4 e risultato 2-0.",
+    ],
+  },
+  39: {
+    status: "Finale",
+    home: 2,
+    away: 2,
+    source: "https://www.diretta.it/partita/calcio/capo-verde-MocyWdm7/uruguay-xMk44orG/?mid=4pPp9nn3",
+    sources: [
+      "https://www.diretta.it/partita/calcio/capo-verde-MocyWdm7/uruguay-xMk44orG/?mid=4pPp9nn3",
+      "https://www.theguardian.com/football/2026/jun/21/uruguay-cape-verde-world-cup-match-report",
+    ],
+    scorers: {
+      "Uruguay": ["Rodrigo Bentancur", "Darwin Nunez"],
+      "Capo Verde": ["Nuno Moreira", "Helio Varela"],
+    },
+    notes: [
+      "Capo Verde rimonta due volte l'Uruguay e conquista il secondo pareggio del torneo.",
+      "Bentancur e Darwin Nunez segnano per l'Uruguay; Nuno Moreira e Helio Varela rispondono per Capo Verde.",
+      "Smentiti Uruguay vincente, Under 2,5, No Goal e Multigol 1-3: la partita termina 2-2.",
+    ],
+  },
+  40: {
+    status: "Finale",
+    home: 1,
+    away: 3,
+    source: "https://www.diretta.it/partita/calcio/egitto-bejDn7NN/nuova-zelanda-rLctHkpU/?mid=QeaikheU",
+    sources: [
+      "https://www.diretta.it/partita/calcio/egitto-bejDn7NN/nuova-zelanda-rLctHkpU/?mid=QeaikheU",
+      "https://www.theguardian.com/football/2026/jun/21/new-zealand-egypt-world-cup-match-report",
+    ],
+    scorers: {
+      "Nuova Zelanda": ["Kosta Barbarouses"],
+      "Egitto": ["Ahmed Zizo", "Mohamed Salah", "Trezeguet"],
+    },
+    notes: [
+      "Nuova Zelanda avanti con Barbarouses, poi Egitto in rimonta con Zizo, Salah e Trezeguet.",
+      "L'Egitto sale a quattro punti e guida il Gruppo G dopo due giornate.",
+      "Confermati Egitto vincente, Goal e Multigol 2-4; il risultato 1-2 e l'Under 3,5 saltano per il terzo gol egiziano.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

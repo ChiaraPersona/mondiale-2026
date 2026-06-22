@@ -16,6 +16,7 @@ const playerRankingSections = [
   { key: "foulsCommittedPerGame", label: "Falli commessi medi", source: "SofaScore", decimals: 2, topFive: false, tone: "fouls", excludeGoalkeepers: true },
   { key: "foulsSufferedPerGame", label: "Falli subiti medi", source: "SofaScore", decimals: 2, topFive: false, tone: "fouls", excludeGoalkeepers: true },
   { key: "yellowCards", label: "Cartellini gialli", source: "Diretta", decimals: 0, topFive: true, tone: "yellow-cards" },
+  { key: "yellowCardsPerAppearance", label: "Gialli per presenza", source: "Diretta", decimals: 2, topFive: true, tone: "yellow-cards" },
   { key: "redCards", label: "Cartellini rossi", source: "Diretta", decimals: 0, topFive: true, tone: "red-cards" },
 ];
 
@@ -130,12 +131,33 @@ function topFiveStatsFor(record) {
 }
 
 function statValueFor(record, key, mode) {
+  if (mode === "national") {
+    const national = record.season2025_26 || {};
+    if (key === "yellowCardsPerAppearance") {
+      const appearances = numberValue(national.appearances);
+      const yellowCards = numberValue(national.yellowCards);
+      return appearances && yellowCards !== null ? yellowCards / appearances : null;
+    }
+    if (Object.prototype.hasOwnProperty.call(national, key)) return numberValue(national[key]);
+    return null;
+  }
+
   if (mode === "top-five") {
     const topFiveStats = topFiveStatsFor(record);
     if (!topFiveStats) return null;
+    if (key === "yellowCardsPerAppearance") {
+      const appearances = numberValue(topFiveStats.appearances);
+      const yellowCards = numberValue(topFiveStats.yellowCards);
+      return appearances && yellowCards !== null ? yellowCards / appearances : null;
+    }
     if (Object.prototype.hasOwnProperty.call(topFiveStats, key)) return numberValue(topFiveStats[key]);
   }
   const recent = record.recent15 || {};
+  if (key === "yellowCardsPerAppearance") {
+    const appearances = numberValue(recent.appearances);
+    const yellowCards = numberValue(recent.yellowCards);
+    return appearances && yellowCards !== null ? yellowCards / appearances : null;
+  }
   const advanced = recent.advanced || {};
   if (Object.prototype.hasOwnProperty.call(advanced, key)) return numberValue(advanced[key]);
   return numberValue(recent[key]);
@@ -174,10 +196,14 @@ function rankingForMetric(rows, metric) {
     .filter((row) => !metric.excludeGoalkeepers || !row.isGoalkeeper)
     .map((row) => ({
       ...row,
-      appearances: activePlayerRankingMode === "top-five" ? row.topFiveAppearances : row.appearances,
+      appearances: activePlayerRankingMode === "top-five"
+        ? row.topFiveAppearances
+        : activePlayerRankingMode === "national"
+          ? numberValue(row.record.season2025_26?.appearances) || 0
+          : row.appearances,
       value: statValueFor(row.record, metric.key, activePlayerRankingMode),
     }))
-    .filter((row) => activePlayerRankingMode !== "top-five" || row.appearances > 0)
+    .filter((row) => activePlayerRankingMode === "all" || row.appearances > 0)
     .filter((row) => row.value !== null)
     .sort((a, b) => {
       const direction = metric.sort === "asc" ? a.value - b.value : b.value - a.value;

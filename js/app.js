@@ -205,6 +205,13 @@ function goalsConcededAverage(goalsConceded, appearances) {
   return (goals / games).toFixed(2);
 }
 
+function cardsPerAppearance(cards, appearances) {
+  const total = Number(cards);
+  const games = Number(appearances);
+  if (!Number.isFinite(total) || !Number.isFinite(games) || games <= 0) return "";
+  return (total / games).toFixed(2);
+}
+
 function goalkeeperConcededAverage(stats) {
   return stats.recent15.nationalGoalkeeper?.goalsConcededPerGame
     || stats.season2025_26.goalsConcededPerGame
@@ -223,7 +230,7 @@ function playerStatsHtml(row) {
   const hasNationalGoalkeeper = Object.values(nationalGoalkeeper).some(Boolean);
   const hasDirettaSource = stats.sources.some((source) => fold(source).includes("diretta.it"));
   const sourceLabel = hasDirettaSource ? "Diretta" : (stats.sources.length ? stats.sources.length + ' fonti' : 'fonti da aggiungere');
-  const seasonLabel = hasDirettaSource ? "Ultime 15 partite in nazionale" : "Stagione 2025/26";
+  const seasonLabel = hasDirettaSource ? "Campione recente in nazionale" : "Stagione 2025/26";
   const isGoalkeeper = row.role === "Portieri";
   const seasonItems = [
     ['Presenze', s.appearances],
@@ -231,6 +238,7 @@ function playerStatsHtml(row) {
     ['Subentra', s.subIns],
     ...(isGoalkeeper ? [['Media gol subiti', goalkeeperConcededAverage(stats)]] : [['Goal', s.goals], ['Assist', s.assists]]),
     ['Gialli', s.yellowCards],
+    ['Gialli / presenza', cardsPerAppearance(s.yellowCards, s.appearances)],
     ['Rossi', s.redCards],
   ];
   const nationalGoalkeeperItems = [
@@ -244,6 +252,7 @@ function playerStatsHtml(row) {
     ['Presenze', recent.appearances],
     ...(isGoalkeeper ? [['Media gol subiti', recent.goalsConcededPerGame], ['Rating medio', recent.averageRating]] : [['Goal', recent.goals], ['Assist', recent.assists]]),
     ['Gialli', recent.yellowCards],
+    ['Gialli / presenza', cardsPerAppearance(recent.yellowCards, recent.appearances)],
     ['Rossi', recent.redCards],
     ...(isGoalkeeper ? [] : [
       ['Rating medio', recent.averageRating],

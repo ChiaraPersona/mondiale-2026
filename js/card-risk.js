@@ -7,6 +7,71 @@ function cardRiskNumber(value, fallback = 0) {
   return Number.isFinite(number) ? number : fallback;
 }
 
+function cardRiskFold(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function cardRiskPlayerStats(team, player) {
+  if (typeof playerStats === "undefined") return null;
+  const teamKey = cardRiskFold(team);
+  const playerKey = cardRiskFold(player);
+
+  return Object.values(playerStats).find((record) =>
+    cardRiskFold(record?.team) === teamKey &&
+    cardRiskFold(record?.player) === playerKey
+  ) || null;
+}
+
+function cardRiskClamp(value, minimum, maximum) {
+  return Math.max(minimum, Math.min(maximum, value));
+}
+
+function cardRiskNationalContext(team, player, baseScore) {
+  const stats = cardRiskPlayerStats(team, player);
+  const national = stats?.season2025_26 || {};
+  const general = stats?.recent15 || {};
+  const nationalApps = cardRiskNumber(national.appearances);
+  const generalApps = cardRiskNumber(general.appearances);
+  const nationalYellow = cardRiskNumber(national.yellowCards);
+  const generalYellow = cardRiskNumber(general.yellowCards);
+  const nationalRed = cardRiskNumber(national.redCards);
+  const generalRed = cardRiskNumber(general.redCards);
+
+  if (nationalApps < 3 || generalApps < 3) {
+    return {
+      score: baseScore,
+      nationalApps,
+      nationalYellow,
+      nationalRed,
+      adjusted: false,
+    };
+  }
+
+  const nationalRate = (nationalYellow + nationalRed * 2) / nationalApps;
+  const generalRate = (generalYellow + generalRed * 2) / generalApps;
+  const ratio = generalRate > 0 ? nationalRate / generalRate : 1;
+  // Il contesto nazionale corregge il profilo di club senza cancellarne
+  // completamente aggressivita, ruolo e frequenza dei falli.
+  const targetFactor = cardRiskClamp(ratio, 0.65, 1.15);
+  const reliability = Math.min(1, nationalApps / 10);
+  const factor = 1 + (targetFactor - 1) * reliability;
+
+  return {
+    score: Math.round(cardRiskClamp(baseScore * factor, 0, 100)),
+    nationalApps,
+    nationalYellow,
+    nationalRed,
+    nationalRate,
+    generalRate,
+    adjusted: true,
+  };
+}
+
 function cardRiskScore(player) {
   if (Number.isFinite(Number(player.rischio_cartellino))) {
     return cardRiskNumber(player.rischio_cartellino);
@@ -35,7 +100,13 @@ function normalizeCardRiskPlayer(player, index) {
     originalIndex: index,
   };
 
-  normalized.rischio_cartellino = cardRiskScore(normalized);
+  normalized.rischio_base = cardRiskScore(normalized);
+  normalized.contesto_nazionale = cardRiskNationalContext(
+    normalized.squadra,
+    normalized.giocatore,
+    normalized.rischio_base
+  );
+  normalized.rischio_cartellino = normalized.contesto_nazionale.score;
   return normalized;
 }
 
@@ -76,6 +147,13 @@ function cardRiskTone(value) {
 
 function cardRiskRow(player, index) {
   const clubLine = [player.club, player.lega].filter(Boolean).join(" - ");
+  const national = player.contesto_nazionale || {};
+  const nationalMetric = national.nationalApps
+    ? `<span title="Cartellini nelle presenze recenti con la nazionale"><b>${national.nationalYellow}/${national.nationalApps}</b> in nazionale</span>`
+    : "";
+  const adjustment = national.adjusted && player.rischio_cartellino !== player.rischio_base
+    ? `<small class="card-risk-context">Indice club ${player.rischio_base}, corretto sul rendimento in nazionale</small>`
+    : "";
 
   return `
     <article class="card-risk-row ${cardRiskTone(player.rischio_cartellino)}">
@@ -84,9 +162,11 @@ function cardRiskRow(player, index) {
         <strong>${player.giocatore}</strong>
         <small>Girone ${player.gruppo} - ${player.squadra}</small>
         <small class="card-risk-club">${clubLine}</small>
+        ${adjustment}
       </div>
       <div class="card-risk-metrics">
-        <span><b>${player.ammonizioni_stagionali}</b> gialli</span>
+        <span><b>${player.ammonizioni_stagionali}</b> gialli club</span>
+        ${nationalMetric}
         <span><b>${player.espulsioni_stagionali}</b> rossi</span>
         <span><b>${player.media_falli_partita}</b> falli</span>
       </div>
@@ -140,7 +220,9 @@ function renderCardRisk() {
     .join("");
 
   if (cardRiskFormulaRoot && typeof cardRiskFormula !== "undefined") {
-    cardRiskFormulaRoot.textContent = cardRiskFormula.description;
+    cardRiskFormulaRoot.textContent =
+      cardRiskFormula.description +
+      " Il valore viene poi corretto con la frequenza di cartellini nelle presenze recenti in nazionale, quando il campione e sufficiente.";
   }
 }
 

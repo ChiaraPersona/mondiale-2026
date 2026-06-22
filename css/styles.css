@@ -5908,6 +5908,11 @@ body {
   font-weight: 850;
 }
 
+.card-risk-player .card-risk-context {
+  color: #f5c84b;
+  font-weight: 800;
+}
+
 .card-risk-metrics {
   display: flex;
   flex-wrap: wrap;

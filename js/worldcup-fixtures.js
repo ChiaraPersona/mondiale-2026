@@ -41,7 +41,7 @@ const worldCupFixtures = [
 ["2026-06-22","Group G","New Zealand vs Egypt","2am","Vancouver, Canada","group"],
 ["2026-06-22","Group J","Argentina vs Austria","6pm","Arlington, USA","group"],
 ["2026-06-22","Group I","France vs Iraq","10pm","Philadelphia, USA","group"],
-["2026-06-23","Group I","Norway vs Senegal","1am","Toronto, Canada","group"],
+["2026-06-23","Group I","Norway vs Senegal","1am","New York / New Jersey, USA","group"],
 ["2026-06-23","Group J","Jordan vs Algeria","4am","Santa Clara, USA","group"],
 ["2026-06-23","Group K","Portugal vs Uzbekistan","6pm","Houston, USA","group"],
 ["2026-06-23","Group L","England vs Ghana","9pm","Foxborough, USA","group"],

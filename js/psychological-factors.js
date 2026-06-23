@@ -8,8 +8,8 @@ const psychologicalFactors = {
   "Francia": {
     motivazione: 90,
     pressione: 85,
-    momentoEmotivo: 7,
-    notaPsicologica: "Il 3-1 sul Senegal e la doppietta di Mbappe rafforzano la fiducia di una nazionale abituata ad arrivare in fondo.",
+    momentoEmotivo: 9,
+    notaPsicologica: "Due vittorie, sei gol segnati e qualificazione anticipata confermano profondita e mentalita vincente.",
   },
   "Brasile": {
     motivazione: 95,
@@ -224,20 +224,20 @@ const psychologicalFactors = {
   "Norvegia": {
     motivazione: 92,
     pressione: 74,
-    momentoEmotivo: 9,
-    notaPsicologica: "Il 4-1 all'esordio e la doppietta di Haaland alimentano entusiasmo e la convinzione di poter vincere il girone.",
+    momentoEmotivo: 10,
+    notaPsicologica: "Sei punti, sette gol segnati e qualificazione anticipata: entusiasmo massimo e crescente convinzione.",
   },
   "Senegal": {
     motivazione: 89,
     pressione: 79,
-    momentoEmotivo: -3,
-    notaPsicologica: "La sconfitta con la Francia aumenta l'urgenza, ma il gol e la buona tenuta fisica mantengono fiducia nel gruppo.",
+    momentoEmotivo: -7,
+    notaPsicologica: "Due sconfitte nonostante quattro gol segnati aumentano frustrazione e pressione; la qualificazione e ora molto complicata.",
   },
   "Iraq": {
     motivazione: 91,
     pressione: 57,
-    momentoEmotivo: -4,
-    notaPsicologica: "La partecipazione resta una spinta enorme, ma l'1-4 con la Norvegia ha evidenziato fragilita contro ritmo, fisicita e palle inattive.",
+    momentoEmotivo: -7,
+    notaPsicologica: "Due sconfitte e sette reti subite riducono fiducia e margine, pur lasciando intatta la spinta della partecipazione storica.",
   },
   "Austria": {
     motivazione: 86,
@@ -248,14 +248,14 @@ const psychologicalFactors = {
   "Algeria": {
     motivazione: 88,
     pressione: 76,
-    momentoEmotivo: -3,
-    notaPsicologica: "Il 3-0 subito dall'Argentina aumenta l'urgenza di reagire, ma il ritorno al Mondiale continua ad alimentare orgoglio e riscatto.",
+    momentoEmotivo: 4,
+    notaPsicologica: "La vittoria sulla Giordania cancella parte del peso dell'esordio e rimette qualificazione e fiducia nelle mani del gruppo.",
   },
   "Giordania": {
     motivazione: 97,
     pressione: 48,
-    momentoEmotivo: -2,
-    notaPsicologica: "La sconfitta con l'Austria riduce l'entusiasmo iniziale, ma il gol segnato e l'assenza di grandi aspettative mantengono liberta mentale.",
+    momentoEmotivo: -6,
+    notaPsicologica: "Due sconfitte consecutive pesano sulla fiducia, anche se i gol segnati confermano capacita di competere e attaccare.",
   },
   "Colombia": {
     motivazione: 91,

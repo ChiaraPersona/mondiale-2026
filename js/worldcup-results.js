@@ -846,6 +846,64 @@ const worldCupResults = {
       "Pronostico pienamente centrato: risultato esatto 2-0, Argentina vincente, No Goal, Under 3,5, Multigol 2-4 e Messi 2+ tiri.",
     ],
   },
+  42: {
+    status: "Finale",
+    home: 3,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/francia-QkGeVG1n/iraq-K8aAGt6r/?mid=KMRMTaNM",
+    sources: [
+      "https://www.diretta.it/partita/calcio/francia-QkGeVG1n/iraq-K8aAGt6r/?mid=KMRMTaNM",
+      "https://www.theguardian.com/football/2026/jun/23/france-iraq-world-cup-group-i-match-report",
+    ],
+    scorers: {
+      "Francia": ["Kylian Mbappe", "Kylian Mbappe", "Ousmane Dembele"],
+      "Iraq": [],
+    },
+    notes: [
+      "Francia vince 3-0 con una doppietta di Mbappe e il gol di Dembele, qualificandosi con una giornata d'anticipo.",
+      "Superiorita francese: 15-6 nei tiri, 8-3 nei corner e xG 2,03-0,35.",
+      "Pronostico quasi pieno: risultato esatto 3-0, Francia vincente, No Goal e Multigol 3-5.",
+    ],
+  },
+  43: {
+    status: "Finale",
+    home: 3,
+    away: 2,
+    source: "https://www.diretta.it/partita/calcio/norvegia-8rP6JO0H/senegal-hOIsJLJr/?mid=xSUJLPV8",
+    sources: [
+      "https://www.diretta.it/partita/calcio/norvegia-8rP6JO0H/senegal-hOIsJLJr/?mid=xSUJLPV8",
+      "https://www.theguardian.com/football/2026/jun/23/norway-senegal-world-cup-group-i-match-report",
+    ],
+    scorers: {
+      "Norvegia": ["Marcus Holmgren Pedersen", "Erling Haaland", "Erling Haaland"],
+      "Senegal": ["Ismaila Sarr", "Ismaila Sarr"],
+    },
+    notes: [
+      "Norvegia vince 3-2: Pedersen apre e Haaland firma una doppietta; Sarr segna entrambe le reti del Senegal.",
+      "La Norvegia sale a sei punti e si qualifica insieme alla Francia; il Senegal resta a zero.",
+      "Confermati Norvegia vincente, Goal e Over 2,5; il Multigol 2-4 e il risultato 2-1 saltano per il quinto gol.",
+      "Il primo ammonito non e indicato nelle cronache verificate: previsione Pape Gueye ancora da confrontare con il referto completo.",
+    ],
+  },
+  44: {
+    status: "Finale",
+    home: 1,
+    away: 2,
+    source: "https://www.diretta.it/partita/calcio/algeria-nc87N1BR/giordania-vNcmJoU2/?mid=dx1FAaN7",
+    sources: [
+      "https://www.diretta.it/partita/calcio/algeria-nc87N1BR/giordania-vNcmJoU2/?mid=dx1FAaN7",
+      "https://www.theguardian.com/football/live/2026/jun/22/jordan-v-algeria-world-cup-2026-live",
+    ],
+    scorers: {
+      "Giordania": ["Nizar Al-Rashdan"],
+      "Algeria": ["Nadhir Benbouali", "Amine Gouiri"],
+    },
+    notes: [
+      "Algeria rimonta e vince 2-1: Al-Rashdan porta avanti la Giordania, Benbouali e Gouiri ribaltano la partita.",
+      "La squadra di Petkovic reagisce alla sconfitta con l'Argentina e torna pienamente in corsa nel Gruppo J.",
+      "Pronostico esatto: Algeria vincente, Goal, Multigol 2-4 e risultato 1-2.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

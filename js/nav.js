@@ -8,7 +8,6 @@ if (readingPage && !document.querySelector(".page-links")) {
       <nav class="page-links" aria-label="Sezioni">
         <a class="page-link" href="index.html">Home</a>
         <a class="page-link" href="convocati.html">Convocati</a>
-        <a class="page-link" href="probabili-formazioni.html">Probabili formazioni</a>
         <a class="page-link" href="player.html">Player</a>
         <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
         <a class="page-link" href="arbitri.html">Arbitri</a>

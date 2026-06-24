@@ -1,8 +1,8 @@
 const probableFormations = {
-  "Messico": { module: "4-3-3", coach: "Javier Aguirre", source: "Goal", starters: ["Rangel","Gallardo","Vasquez","Montes","Reyes","Mora","Lira","Fidalgo","Alvarado","Raul Jimenez","Gutierrez"] },
+  "Messico": { module: "4-3-3", coach: "Javier Aguirre", source: "Formazione Repubblica Ceca-Messico", starters: ["Ochoa","Chavez","Vasquez","Edson Alvarez","Jorge Sanchez","Luis Romo","Erik Lira","Orbelin Pineda","Alexis Vega","Santiago Gimenez","Roberto Alvarado"] },
   "Sudafrica": { module: "4-3-3", coach: "Hugo Broos", source: "Goal", starters: ["Williams","Modiba","Mbokazi","Okon","Mudau","Sithole","Mofokeng","Mokoena","Appollis","Foster","Moremi"] },
   "Corea del Sud": { module: "4-4-2", coach: "Hong Myung-bo", source: "Goal", starters: ["H-W Jo","Y-M Cho","M-J Kim","H-B Lee","T-S Lee","J-S Lee","I-B Hwang","Y-W Seol","H-C Hwang","H-M Son","K-I Lee"] },
-  "Repubblica Ceca": { module: "4-3-3", coach: "Ivan Hasek", source: "Goal", starters: ["Kovar","Krejci","Hranac","Chaloupek","Jurasek","Soucek","Darida","Coufal","Provod","Schick","Sulc"] },
+  "Repubblica Ceca": { module: "3-4-2-1", coach: "Ivan Hasek", source: "Formazione Repubblica Ceca-Messico con Schick titolare", starters: ["Kovar","Krejci","Hranac","Holes","Coufal","Cerv","Sadilek","Doudera","Sulc","Visinsky","Schick"] },
   "Canada": { module: "4-4-2", coach: "Jesse Marsch", source: "Formazione Svizzera-Canada", starters: ["Crepeau","Laryea","Bombito","De Fougerolles","Johnston","Ahmed","Eustaquio","Saliba","Buchanan","Larin","David"] },
   "Bosnia ed Erzegovina": { module: "4-4-2", coach: "Sergej Barbarez", source: "Formazione Bosnia-Qatar", starters: ["Vasilj","Kolasinac","Hadzikadunic","Katic","Dedic","Alajbegovic","Sunjic","Tahirovic","Memic","Dzeko","Demirovic"] },
   "Qatar": { module: "4-3-3", coach: "Julen Lopetegui", source: "Formazione Bosnia-Qatar", starters: ["Abunada","Al Oui","Pedro Miguel","Khoukhi","Al Brake","Gaber","Boudiaf","Laye","Edmilson","Abdurisag","Afif"] },

@@ -904,6 +904,78 @@ const worldCupResults = {
       "Pronostico esatto: Algeria vincente, Goal, Multigol 2-4 e risultato 1-2.",
     ],
   },
+  45: {
+    status: "Finale",
+    home: 5,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/portogallo-WvJrjFVN/uzbekistan-EZYKKRMc/?mid=nRFcNx7D",
+    sources: [
+      "https://www.diretta.it/partita/calcio/portogallo-WvJrjFVN/uzbekistan-EZYKKRMc/?mid=nRFcNx7D",
+      "https://www.theguardian.com/football/2026/jun/23/portugal-uzbekistan-world-cup-2026-group-k-match-report",
+    ],
+    scorers: {
+      "Portogallo": ["Cristiano Ronaldo", "Cristiano Ronaldo", "Bruno Fernandes", "Pedro Neto", "Joao Felix"],
+      "Uzbekistan": [],
+    },
+    notes: [
+      "Portogallo dilaga 5-0 contro l'Uzbekistan, con Ronaldo decisivo e attacco finalmente molto piu verticale.",
+      "Confermati Portogallo vincente, No Goal, Ronaldo 2+ tiri e Portogallo piu corner; sbagliati Under 4,5, Multigol 2-4 e risultato 2-0.",
+    ],
+  },
+  46: {
+    status: "Finale",
+    home: 0,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/ghana-nNBjHale/inghilterra-j9N9ZNFA/?mid=KhgvzGjJ",
+    sources: [
+      "https://www.diretta.it/partita/calcio/ghana-nNBjHale/inghilterra-j9N9ZNFA/?mid=KhgvzGjJ",
+      "https://www.theguardian.com/football/2026/jun/23/england-ghana-world-cup-2026-group-l-match-report",
+    ],
+    scorers: {
+      "Inghilterra": [],
+      "Ghana": [],
+    },
+    notes: [
+      "Inghilterra e Ghana chiudono 0-0: la superiorita inglese non si traduce in gol.",
+      "Confermati No Goal e Under 4,5; sbagliati Inghilterra vincente, Multigol 2-4, Kane 2+ tiri se non confermato dal referto e risultato 2-0.",
+    ],
+  },
+  47: {
+    status: "Finale",
+    home: 0,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/croazia-K8aznggo/panama-OWKqbCfi/?mid=CSkWyxM6",
+    sources: [
+      "https://www.diretta.it/partita/calcio/croazia-K8aznggo/panama-OWKqbCfi/?mid=CSkWyxM6",
+      "https://www.theguardian.com/football/2026/jun/24/panama-croatia-world-cup-2026-group-l-match-report",
+    ],
+    scorers: {
+      "Panama": [],
+      "Croazia": ["Ante Budimir"],
+    },
+    notes: [
+      "Croazia batte Panama 1-0 con Budimir e torna in piena corsa nel Gruppo L.",
+      "Confermati Croazia vincente, Under 3,5, Multigol 1-3 e Budimir 2+ tiri se confermato dal referto; il 2-0 centrale non entra.",
+    ],
+  },
+  48: {
+    status: "Finale",
+    home: 1,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/colombia-G02s4PCS/dr-congo-phn9mm8H/?mid=K0YnEaMq",
+    sources: [
+      "https://www.diretta.it/partita/calcio/colombia-G02s4PCS/dr-congo-phn9mm8H/?mid=K0YnEaMq",
+      "https://www.theguardian.com/football/2026/jun/24/colombia-dr-congo-world-cup-2026-group-k-match-report",
+    ],
+    scorers: {
+      "Colombia": ["Daniel Munoz"],
+      "DR Congo": [],
+    },
+    notes: [
+      "Colombia batte DR Congo 1-0 con gol di Daniel Munoz.",
+      "Confermati Colombia vincente, No Goal, Under 3,5, Multigol 1-3 e Colombia piu corner; il 2-0 centrale non entra.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

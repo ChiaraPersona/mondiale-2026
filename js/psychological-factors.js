@@ -20,8 +20,8 @@ const psychologicalFactors = {
   "Inghilterra": {
     motivazione: 94,
     pressione: 98,
-    momentoEmotivo: 3,
-    notaPsicologica: "Generazione fortissima caricata dal peso storico del titolo che manca dal 1966.",
+    momentoEmotivo: 0,
+    notaPsicologica: "Il 0-0 con il Ghana non compromette il percorso, ma riporta addosso il peso delle aspettative e della pressione mediatica.",
   },
   "Spagna": {
     motivazione: 89,
@@ -32,8 +32,8 @@ const psychologicalFactors = {
   "Portogallo": {
     motivazione: 92,
     pressione: 92,
-    momentoEmotivo: -1,
-    notaPsicologica: "Probabile ultimo Mondiale di Cristiano Ronaldo: forte spinta emotiva, ma anche molte pressioni sulla sua gestione.",
+    momentoEmotivo: 6,
+    notaPsicologica: "Il 5-0 sull'Uzbekistan libera energia dopo il pari col Congo e rilancia la centralita emotiva di Cristiano Ronaldo.",
   },
   "Germania": {
     motivazione: 91,
@@ -68,8 +68,8 @@ const psychologicalFactors = {
   "Croazia": {
     motivazione: 87,
     pressione: 68,
-    momentoEmotivo: 2,
-    notaPsicologica: "Possibile fine ciclo di alcuni leader storici, ma con poca pressione rispetto ai risultati ottenuti.",
+    momentoEmotivo: 4,
+    notaPsicologica: "La vittoria corta con Panama riporta controllo emotivo dopo la sconfitta con l'Inghilterra, anche se la produzione resta da monitorare.",
   },
   "Messico": {
     motivazione: 93,
@@ -260,31 +260,31 @@ const psychologicalFactors = {
   "Colombia": {
     motivazione: 91,
     pressione: 74,
-    momentoEmotivo: 5,
-    notaPsicologica: "La crescita recente e una generazione offensiva matura hanno alzato fiducia e ambizione.",
+    momentoEmotivo: 8,
+    notaPsicologica: "Due vittorie consecutive, inclusa la gara sporca col Congo, rafforzano fiducia, maturita e gestione dei momenti stretti.",
   },
   "RD Congo": {
     motivazione: 93,
     pressione: 54,
-    momentoEmotivo: 6,
-    notaPsicologica: "Il ritorno al Mondiale ha un valore storico e unisce un gruppo che puo giocare senza paura.",
+    momentoEmotivo: 1,
+    notaPsicologica: "Il pari col Portogallo resta una spinta, ma la sconfitta corta con la Colombia frena l'entusiasmo senza svuotare il gruppo.",
   },
   "Uzbekistan": {
     motivazione: 96,
     pressione: 42,
-    momentoEmotivo: 7,
-    notaPsicologica: "Prima partecipazione mondiale: fame enorme, entusiasmo diffuso e pressione competitiva limitata.",
+    momentoEmotivo: -4,
+    notaPsicologica: "La prima partecipazione resta storica, ma il 5-0 subito dal Portogallo pesa su fiducia e tenuta mentale.",
   },
   "Ghana": {
     motivazione: 90,
     pressione: 65,
-    momentoEmotivo: 4,
-    notaPsicologica: "Tradizione mondiale e nuova energia generazionale alimentano una forte voglia di riscatto.",
+    momentoEmotivo: 7,
+    notaPsicologica: "Il punto contro l'Inghilterra aumenta fiducia e senso di solidita: il gruppo sente di poter reggere anche contro favorite vere.",
   },
   "Panama": {
     motivazione: 91,
     pressione: 58,
-    momentoEmotivo: 5,
-    notaPsicologica: "La crescita nella CONCACAF ha aumentato fiducia e ambizione, senza creare pressioni eccessive.",
+    momentoEmotivo: 0,
+    notaPsicologica: "La sconfitta di misura con la Croazia lascia rammarico ma non abbatte il gruppo: resta una nazionale competitiva se la gara resta corta.",
   },
 };

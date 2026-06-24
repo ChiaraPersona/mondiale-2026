@@ -1,7 +1,7 @@
 const probableFormations = {
   "Messico": { module: "4-3-3", coach: "Javier Aguirre", source: "Formazione Repubblica Ceca-Messico", starters: ["Ochoa","Chavez","Vasquez","Edson Alvarez","Jorge Sanchez","Luis Romo","Erik Lira","Orbelin Pineda","Alexis Vega","Santiago Gimenez","Roberto Alvarado"] },
-  "Sudafrica": { module: "4-3-3", coach: "Hugo Broos", source: "Goal", starters: ["Williams","Modiba","Mbokazi","Okon","Mudau","Sithole","Mofokeng","Mokoena","Appollis","Foster","Moremi"] },
-  "Corea del Sud": { module: "4-4-2", coach: "Hong Myung-bo", source: "Goal", starters: ["H-W Jo","Y-M Cho","M-J Kim","H-B Lee","T-S Lee","J-S Lee","I-B Hwang","Y-W Seol","H-C Hwang","H-M Son","K-I Lee"] },
+  "Sudafrica": { module: "4-3-3", coach: "Hugo Broos", source: "Formazione Sudafrica-Corea del Sud", starters: ["Williams","Mudau","Okon","Mbokazi","Modiba","Mbatha","Sithole","Adams","Maseko","Rayners","Appollis"] },
+  "Corea del Sud": { module: "3-4-2-1", coach: "Hong Myung-bo", source: "Formazione Sudafrica-Corea del Sud", starters: ["Kim Seung-Gyu","Lee Gi-Hyuk","Kim Min-Jae","Lee Han-Beom","Seol Young-Woo","Paik Seung-Ho","Hwang In-Beom","Kim Moon-Hwan","Lee Jae-Sung","Lee Kang-In","Son Heung-Min"] },
   "Repubblica Ceca": { module: "3-4-2-1", coach: "Ivan Hasek", source: "Formazione Repubblica Ceca-Messico con Schick titolare", starters: ["Kovar","Krejci","Hranac","Holes","Coufal","Cerv","Sadilek","Doudera","Sulc","Visinsky","Schick"] },
   "Canada": { module: "4-4-2", coach: "Jesse Marsch", source: "Formazione Svizzera-Canada", starters: ["Crepeau","Laryea","Bombito","De Fougerolles","Johnston","Ahmed","Eustaquio","Saliba","Buchanan","Larin","David"] },
   "Bosnia ed Erzegovina": { module: "4-4-2", coach: "Sergej Barbarez", source: "Formazione Bosnia-Qatar", starters: ["Vasilj","Kolasinac","Hadzikadunic","Katic","Dedic","Alajbegovic","Sunjic","Tahirovic","Memic","Dzeko","Demirovic"] },

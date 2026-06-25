@@ -37,7 +37,7 @@ const referees = [
   { name: "Héctor Said Martínez", country: "Honduras", confed: "CONCACAF", stats: { fixtures: 165, yellowCards: 688, redCards: 30, yellowPerGame: 4.17, source: "https://playerstats.football/referee/1071" } },
   { name: "Oshane Nation", country: "Giamaica", confed: "CONCACAF", stats: { fixtures: 175, yellowCards: 661, redCards: 25, yellowPerGame: 3.78, source: "https://playerstats.football/referee/1059" } },
   { name: "César Ramos", country: "Messico", confed: "CONCACAF", stats: { fixtures: 393, yellowCards: 1643, redCards: 97, yellowPerGame: 4.18, source: "https://playerstats.football/referee/837" } },
-  { name: "Katia García", country: "Messico", confed: "CONCACAF", stats: { fixtures: 79, yellowCards: 256, redCards: 7, yellowPerGame: 3.24, source: "https://playerstats.football/referee/47" } },
+  { name: "Katia Garcia Mendoza", country: "Messico", confed: "CONCACAF", stats: { fixtures: 16, yellowCards: 77, redCards: 2, penalties: 5, yellowPerGame: 4.81, source: "https://www.transfermarkt.it/katia-garcia-mendoza/profil/schiedsrichter/41340", scope: "Transfermarkt 2025/26 - tutte le competizioni" } },
   { name: "Iván Barton", country: "El Salvador", confed: "CONCACAF", stats: { fixtures: 185, yellowCards: 932, redCards: 38, yellowPerGame: 5.04, source: "https://playerstats.football/referee/1101" } },
   { name: "Ismail Elfath", country: "Stati Uniti", confed: "CONCACAF", stats: { fixtures: 293, yellowCards: 1048, redCards: 31, yellowPerGame: 3.58, source: "https://playerstats.football/referee/473" } },
   { name: "Tori Penso", country: "Stati Uniti", confed: "CONCACAF", stats: { fixtures: 127, yellowCards: 437, redCards: 6, yellowPerGame: 3.44, source: "https://playerstats.football/referee/42" } },
@@ -128,13 +128,21 @@ function renderRefereeStats(referee) {
   }
   const totalCards = referee.stats.yellowCards + referee.stats.redCards;
   const cardsPerGame = totalCards / referee.stats.fixtures;
+  const penaltyRow = Number.isFinite(referee.stats.penalties)
+    ? '<div class="official-stat-row"><span>Rigori</span><strong>' + referee.stats.penalties + '</strong></div>'
+    : "";
+  const scopeRow = referee.stats.scope
+    ? '<div class="official-stat-row"><span>Campione</span><strong>' + referee.stats.scope + '</strong></div>'
+    : "";
 
   return '<div class="official-stat-list">' +
     '<div class="official-stat-row"><span>Partite</span><strong>' + referee.stats.fixtures + '</strong></div>' +
     '<div class="official-stat-row"><span>Gialli</span><strong>' + referee.stats.yellowCards + '</strong></div>' +
     '<div class="official-stat-row"><span>Rossi</span><strong>' + referee.stats.redCards + '</strong></div>' +
+    penaltyRow +
     '<div class="official-stat-row"><span>Cartellini/partita</span><strong>' + cardsPerGame.toFixed(2) + '</strong></div>' +
     '<div class="official-stat-row"><span>Gialli/partita</span><strong>' + referee.stats.yellowPerGame.toFixed(2) + '</strong></div>' +
+    scopeRow +
     '<a class="official-stat-source" href="' + referee.stats.source + '" target="_blank" rel="noreferrer">Fonte stats</a>' +
   '</div>';
 }

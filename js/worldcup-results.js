@@ -976,6 +976,108 @@ const worldCupResults = {
       "Confermati Colombia vincente, No Goal, Under 3,5, Multigol 1-3 e Colombia piu corner; il 2-0 centrale non entra.",
     ],
   },
+  49: {
+    status: "Finale",
+    home: 2,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/canada-x4toKORL/svizzera-rHJ2vy1B/?mid=2wQjwkpp",
+    sources: [
+      "https://www.diretta.it/partita/calcio/canada-x4toKORL/svizzera-rHJ2vy1B/?mid=2wQjwkpp",
+    ],
+    scorers: {
+      "Svizzera": [],
+      "Canada": [],
+    },
+    notes: [
+      "Svizzera batte Canada 2-1 nella terza giornata del Gruppo B.",
+      "Per la lettura sono confermati Goal e Under 3,5; il pareggio centrale 1-1 non entra.",
+    ],
+  },
+  50: {
+    status: "Finale",
+    home: 3,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/bosnia-erzegovina-fqe7WYTr/qatar-zqzHL77i/?mid=jRyHEZGP",
+    sources: [
+      "https://www.diretta.it/partita/calcio/bosnia-erzegovina-fqe7WYTr/qatar-zqzHL77i/?mid=jRyHEZGP",
+    ],
+    scorers: {
+      "Bosnia ed Erzegovina": [],
+      "Qatar": [],
+    },
+    notes: [
+      "Bosnia-Erzegovina batte Qatar 3-1 e conferma la superiorita indicata dal pronostico.",
+      "Presi Bosnia vincente, Over 1,5 e Multigol 2-4; il 2-1 centrale diventa 3-1.",
+    ],
+  },
+  51: {
+    status: "Finale",
+    home: 4,
+    away: 2,
+    source: "https://www.diretta.it/partita/calcio/haiti-nk4v10Z1/marocco-IDKYO3R8/?mid=n7TsyKKD",
+    sources: [
+      "https://www.diretta.it/partita/calcio/haiti-nk4v10Z1/marocco-IDKYO3R8/?mid=n7TsyKKD",
+    ],
+    scorers: {
+      "Marocco": [],
+      "Haiti": [],
+    },
+    notes: [
+      "Marocco batte Haiti 4-2 in una gara molto piu aperta del previsto.",
+      "Preso il segno Marocco; sbagliati No Goal e risultato centrale 3-0.",
+    ],
+  },
+  52: {
+    status: "Finale",
+    home: 0,
+    away: 3,
+    source: "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/scozia-fZRU25WH/?mid=EgVZxtj1",
+    sources: [
+      "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/scozia-fZRU25WH/?mid=EgVZxtj1",
+    ],
+    scorers: {
+      "Scozia": [],
+      "Brasile": [],
+    },
+    notes: [
+      "Brasile batte Scozia 3-0 e chiude senza subire gol.",
+      "Presi Brasile vincente, No Goal, Under 4,5 e Multigol 2-4; il risultato centrale 0-2 resta stretto.",
+    ],
+  },
+  53: {
+    status: "Finale",
+    home: 1,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/corea-del-sud-K6Gs7P6G/sudafrica-W2ijYvlr/?mid=4rr4ngNc",
+    sources: [
+      "https://www.diretta.it/partita/calcio/corea-del-sud-K6Gs7P6G/sudafrica-W2ijYvlr/?mid=4rr4ngNc",
+    ],
+    scorers: {
+      "Sudafrica": [],
+      "Corea del Sud": [],
+    },
+    notes: [
+      "Sudafrica batte Corea del Sud 1-0 e smentisce la lettura favorevole alla Corea.",
+      "Sbagliati X2, Over 1,5, Goal e risultato centrale 1-2.",
+    ],
+  },
+  54: {
+    status: "Finale",
+    home: 0,
+    away: 3,
+    source: "https://www.diretta.it/partita/calcio/messico-O6iHcNkd/repubblica-ceca-6LHwBDGU/?mid=GCoIA5bf",
+    sources: [
+      "https://www.diretta.it/partita/calcio/messico-O6iHcNkd/repubblica-ceca-6LHwBDGU/?mid=GCoIA5bf",
+    ],
+    scorers: {
+      "Repubblica Ceca": [],
+      "Messico": [],
+    },
+    notes: [
+      "Messico batte Repubblica Ceca 3-0 e conferma la superiorita indicata dalle quote.",
+      "Presi X2, Messico vincente, Over 1,5 e Multigol 2-4; sbagliato il Goal previsto.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

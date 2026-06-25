@@ -5824,6 +5824,178 @@ body {
   line-height: 1.45;
 }
 
+.codex-discipline {
+  display: grid;
+  gap: 14px;
+}
+
+.codex-discipline-kpis {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.codex-discipline-kpis article {
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 14px;
+  padding: 14px;
+  background:
+    linear-gradient(145deg, rgba(245, 200, 75, .1), rgba(255, 255, 255, .025)),
+    rgba(7, 10, 15, .44);
+}
+
+.codex-discipline-kpis strong {
+  display: block;
+  color: #f5c84b;
+  font-size: 27px;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.codex-discipline-kpis span {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.codex-discipline-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(280px, .75fr);
+  gap: 12px;
+  align-items: start;
+}
+
+.codex-discipline-ranking {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.codex-discipline-team,
+.codex-discipline-recent {
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 14px;
+  padding: 11px;
+  background: rgba(255, 255, 255, .045);
+}
+
+.codex-discipline-team div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.codex-discipline-team strong {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  gap: 7px;
+  color: var(--text);
+  font-size: 12px;
+}
+
+.codex-discipline-team strong .prediction-team-flag {
+  width: 18px;
+  height: 13px;
+  flex: 0 0 auto;
+}
+
+.codex-discipline-team span {
+  flex: 0 0 auto;
+  color: #f5c84b;
+  font-size: 10px;
+  font-weight: 950;
+}
+
+.codex-discipline-team small {
+  display: block;
+  margin-top: 7px;
+  color: rgba(238, 244, 255, .78);
+  font-size: 10.5px;
+  line-height: 1.35;
+}
+
+.codex-discipline-team small b {
+  margin-right: 6px;
+  color: var(--muted);
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.codex-discipline-recent h3 {
+  margin: 0 0 10px;
+  color: var(--green);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.codex-discipline-recent ul {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.codex-discipline-recent li {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) auto;
+  gap: 7px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 7px;
+  background: rgba(255, 255, 255, .045);
+}
+
+.codex-discipline-recent li span {
+  color: #061016;
+  border-radius: 8px;
+  padding: 4px 5px;
+  background: #f5c84b;
+  font-size: 10px;
+  font-weight: 950;
+  text-align: center;
+}
+
+.codex-discipline-recent li strong {
+  min-width: 0;
+  color: rgba(238, 244, 255, .86);
+  font-size: 11px;
+  line-height: 1.25;
+}
+
+.codex-discipline-recent li em {
+  color: var(--muted);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+@media (max-width: 760px) {
+  .codex-discipline-kpis,
+  .codex-discipline-layout,
+  .codex-discipline-ranking {
+    grid-template-columns: 1fr;
+  }
+
+  .codex-discipline-team div {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .codex-discipline-recent li {
+    grid-template-columns: 34px minmax(0, 1fr);
+  }
+
+  .codex-discipline-recent li em {
+    grid-column: 2;
+  }
+}
+
 .card-risk-top,
 .card-risk-groups {
   display: grid;
@@ -6293,6 +6465,68 @@ body {
 .codex-match-scorers .prediction-team-flag {
   width: 16px;
   height: 12px;
+  flex: 0 0 auto;
+}
+
+.codex-match-discipline {
+  display: grid;
+  gap: 5px;
+  margin-top: 7px;
+  padding: 8px;
+  border: 1px solid rgba(255, 196, 87, .18);
+  border-radius: 10px;
+  background: rgba(255, 196, 87, .055);
+}
+
+.codex-match-discipline strong {
+  color: #f5c84b;
+  font-size: 10px;
+  font-weight: 950;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+.codex-match-discipline span {
+  color: rgba(238, 244, 255, .86);
+  font-size: 11px;
+  font-weight: 850;
+}
+
+.codex-match-discipline ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.codex-match-discipline li {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid rgba(255, 255, 255, .09);
+  border-radius: 999px;
+  padding: 4px 7px;
+  color: rgba(238, 244, 255, .84);
+  background: rgba(255, 255, 255, .055);
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.codex-match-discipline ul.is-yellow li {
+  border-color: rgba(245, 200, 75, .28);
+}
+
+.codex-match-discipline ul.is-red li {
+  border-color: rgba(255, 85, 85, .34);
+  background: rgba(255, 85, 85, .08);
+}
+
+.codex-match-discipline .prediction-team-flag {
+  width: 15px;
+  height: 11px;
   flex: 0 0 auto;
 }
 

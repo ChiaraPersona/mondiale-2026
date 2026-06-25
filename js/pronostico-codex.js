@@ -260,6 +260,83 @@ const codexTopScorerMarketOdds = [
   { team: "Egitto", player: "Mohamed Salah", odds: 200 },
   { team: "Norvegia", player: "Alexander Sorloth", odds: 200 },
   { team: "Belgio", player: "Leandro Trossard", odds: 200 },
+  { team: "Germania", player: "Deniz Undav", odds: 80 },
+  { team: "Giappone", player: "Ayase Ueda", odds: 90 },
+];
+
+const codexObservedScorerTrends = [
+  {
+    team: "Argentina",
+    player: "Lionel Messi",
+    multiplier: 1.38,
+    floorBoost: 2,
+    capBoost: 1,
+    note: "Argentina molto orientata a farlo segnare: rigori, rifinitura e ultimo ciclo emotivo.",
+  },
+  {
+    team: "Francia",
+    player: "Kylian Mbappe",
+    multiplier: 1.18,
+    floorBoost: 1,
+    capBoost: 1,
+    note: "Resta il riferimento principale della Francia nei gol pesanti.",
+  },
+  {
+    team: "Portogallo",
+    player: "Cristiano Ronaldo",
+    multiplier: 0.92,
+    floorBoost: 0,
+    capBoost: 0,
+    note: "Portogallo piu generoso e distribuito: Ronaldo centrale, ma meno monopolizzante.",
+  },
+  {
+    team: "Spagna",
+    player: "Lamine Yamal",
+    multiplier: 0.82,
+    floorBoost: -1,
+    capBoost: -1,
+    note: "Trascina il gioco, ma la Spagna divide molto le reti tra piu uomini.",
+  },
+  {
+    team: "Spagna",
+    player: "Mikel Oyarzabal",
+    multiplier: 0.88,
+    floorBoost: -1,
+    capBoost: -1,
+    note: "La produzione offensiva spagnola e molto distribuita.",
+  },
+  {
+    team: "Spagna",
+    player: "Ferran Torres",
+    multiplier: 0.9,
+    floorBoost: 0,
+    capBoost: -1,
+    note: "Rigorista possibile, ma non unico terminale della Spagna.",
+  },
+  {
+    team: "Germania",
+    player: "Deniz Undav",
+    multiplier: 1.42,
+    floorBoost: 2,
+    capBoost: 1,
+    note: "In forte salita: gol pesanti e candidatura concreta da titolare.",
+  },
+  {
+    team: "Giappone",
+    player: "Ayase Ueda",
+    multiplier: 1.48,
+    floorBoost: 2,
+    capBoost: 1,
+    note: "Sorpresa reale del Giappone: attacca l'area e sta convertendo molto.",
+  },
+  {
+    team: "Germania",
+    player: "Jamal Musiala",
+    multiplier: 0.9,
+    floorBoost: -1,
+    capBoost: 0,
+    note: "Resta centrale nel gioco, ma con Undav piu terminale il gol puo distribuirsi.",
+  },
 ];
 
 const externalPredictionModels = [
@@ -638,6 +715,16 @@ function codexScorerMarketMultiplier(row) {
   const odds = codexScorerMarketOdds(row);
   if (!odds) return 1;
   return codexClamp(1 + Math.log(120 / odds) * 0.13, 0.78, 1.48);
+}
+
+function codexObservedScorerTrend(row) {
+  return codexObservedScorerTrends.find((trend) =>
+    trend.team === row.team && codexStarterMatchesPlayer(trend.player, row.player)
+  ) || null;
+}
+
+function codexObservedScorerMultiplier(row) {
+  return codexObservedScorerTrend(row)?.multiplier || 1;
 }
 
 function codexRankingEntries() {
@@ -1622,7 +1709,8 @@ function codexScorerWeight(row) {
   const assistSupport = assists / Math.max(apps, 6);
   const ratingLift = codexClamp((rating - 6.15) / 1.25, 0, 1.25);
   const availability = codexClamp(apps / 15, 0.35, 1);
-  return Math.max(0.05, roleBase * starterBonus * formationWeight * penaltyBonus * focalBonus * formationFocalBonus * pedigreeBonus * marketMultiplier * minutesShare * availability * (0.82 + goalRate * 4.8 + assistSupport * 1.1 + ratingLift * 0.45));
+  const observedMultiplier = codexObservedScorerMultiplier(row);
+  return Math.max(0.05, roleBase * starterBonus * formationWeight * penaltyBonus * focalBonus * formationFocalBonus * pedigreeBonus * marketMultiplier * observedMultiplier * minutesShare * availability * (0.82 + goalRate * 4.8 + assistSupport * 1.1 + ratingLift * 0.45));
 }
 
 function codexScorerPool(team) {
@@ -1704,6 +1792,7 @@ function codexEnsureScorerTotal(totals, row) {
       expectedMinutes: Math.round(codexExpectedMinutesShare(row) * 90),
       penaltyRank: codexPenaltyRank(row),
       scorerOdds: codexScorerMarketOdds(row),
+      observedTrend: codexObservedScorerTrend(row)?.note || "",
     };
   }
   return totals[key];
@@ -1720,9 +1809,10 @@ function codexApplyFocalScorerFloor(totals, teamMatches) {
     const goals = codexNumber(recent.goals) || 0;
     const apps = codexNumber(recent.appearances) || 0;
     const rating = codexNumber(recent.averageRating) || 6.2;
+    const observed = codexObservedScorerTrend(focal);
     const goalRate = goals / Math.max(apps, 5);
     if (goalRate < 0.28 && rating < 7) return;
-    const floor = Math.min(8, Math.round(matches * 0.82 + (rating >= 7.15 ? 0.45 : 0) + (codexHasTournamentPedigree(focal) ? 1.2 : 0)));
+    const floor = Math.min(9, Math.round(matches * 0.82 + (rating >= 7.15 ? 0.45 : 0) + (codexHasTournamentPedigree(focal) ? 1.2 : 0) + (observed?.floorBoost || 0)));
     const total = codexEnsureScorerTotal(totals, focal);
     total.goals = Math.max(total.goals, floor);
   });
@@ -1735,6 +1825,7 @@ function codexApplyMarketScorerBalance(totals, teamMatches) {
     const matches = teamMatches[entry.team] || 0;
     if (matches < 3) return;
     const total = codexEnsureScorerTotal(totals, poolItem.row);
+    const observed = codexObservedScorerTrend(poolItem.row);
     const floor = entry.odds <= 10
       ? Math.min(8, Math.max(5, Math.round(matches * 0.9)))
       : entry.odds <= 20
@@ -1742,12 +1833,15 @@ function codexApplyMarketScorerBalance(totals, teamMatches) {
         : entry.odds <= 50
           ? Math.min(5, Math.max(2, Math.round(matches * 0.38)))
           : 0;
-    if (floor) total.goals = Math.max(total.goals, floor);
+    if (floor) total.goals = Math.max(total.goals, Math.max(1, floor + (observed?.floorBoost || 0)));
   });
 
   Object.values(totals).forEach((row) => {
     const matches = teamMatches[row.team] || row.matches || 1;
     const marketOdds = row.scorerOdds;
+    const observed = codexObservedScorerTrends.find((trend) =>
+      trend.team === row.team && codexStarterMatchesPlayer(trend.player, row.player)
+    );
     const absoluteCap = marketOdds && marketOdds <= 10
       ? 8
       : marketOdds && marketOdds <= 20
@@ -1761,8 +1855,9 @@ function codexApplyMarketScorerBalance(totals, teamMatches) {
             : row.role === "Attaccanti"
               ? 4
               : 4;
+    const adjustedCap = codexClamp(absoluteCap + (observed?.capBoost || 0), 3, 9);
     const matchCap = Math.max(2, Math.ceil(matches * 0.9));
-    row.goals = Math.min(row.goals, Math.min(absoluteCap, matchCap));
+    row.goals = Math.min(row.goals, Math.min(adjustedCap, matchCap + Math.max(0, observed?.capBoost || 0)));
   });
 }
 
@@ -2091,6 +2186,104 @@ function codexScorerSummary(players) {
     .join(", ");
 }
 
+function codexMatchCards(result) {
+  const yellow = result?.cards?.yellow || [];
+  const red = result?.cards?.red || [];
+  return { yellow, red, total: yellow.length + red.length };
+}
+
+function codexCardPlayerLabel(card) {
+  const note = card.note ? ` (${codexEscape(card.note)})` : "";
+  return `${codexFlag(card.team)}${codexEscape(card.player || "Nome da verificare")}${note}`;
+}
+
+function codexRenderCardsSummary(result) {
+  const cards = codexMatchCards(result);
+  if (!cards.total) return "";
+  const yellowList = cards.yellow.map(codexCardPlayerLabel).join("</li><li>");
+  const redList = cards.red.map(codexCardPlayerLabel).join("</li><li>");
+  return `
+        <div class="codex-match-discipline">
+          <strong>Cartellini</strong>
+          <span>${cards.yellow.length} gialli · ${cards.red.length} rossi</span>
+          ${cards.yellow.length ? `<ul class="is-yellow"><li>${yellowList}</li></ul>` : ""}
+          ${cards.red.length ? `<ul class="is-red"><li>${redList}</li></ul>` : ""}
+        </div>`;
+}
+
+function codexDisciplineRows() {
+  const teams = {};
+  const matches = [];
+  Object.entries(codexState.results).forEach(([matchNumber, result]) => {
+    if (!result?.isReal) return;
+    const cards = codexMatchCards(result);
+    if (!cards.total) return;
+    matches.push({ matchNumber: Number(matchNumber), result, ...cards });
+    [...cards.yellow, ...cards.red].forEach((card) => {
+      const team = card.team || "Da verificare";
+      teams[team] = teams[team] || { team, yellow: [], red: [] };
+    });
+    cards.yellow.forEach((card) => teams[card.team || "Da verificare"].yellow.push(card));
+    cards.red.forEach((card) => teams[card.team || "Da verificare"].red.push(card));
+  });
+  const teamRows = Object.values(teams).sort((a, b) => {
+    const totalA = a.yellow.length + a.red.length;
+    const totalB = b.yellow.length + b.red.length;
+    return totalB - totalA || b.yellow.length - a.yellow.length || a.team.localeCompare(b.team);
+  });
+  return { matches, teamRows };
+}
+
+function codexRenderDiscipline() {
+  const root = document.getElementById("codex-discipline");
+  if (!root) return;
+  const { matches, teamRows } = codexDisciplineRows();
+  const yellowTotal = teamRows.reduce((total, row) => total + row.yellow.length, 0);
+  const redTotal = teamRows.reduce((total, row) => total + row.red.length, 0);
+  const realMatches = Object.values(codexState.results).filter((result) => result?.isReal).length;
+  if (!yellowTotal && !redTotal) {
+    root.innerHTML = `<p class="data-confidence-note">Nessun cartellino nominale ancora registrato nei risultati.</p>`;
+    return;
+  }
+  const teamCards = teamRows.map((row) => {
+    const yellowNames = row.yellow.map((card) => codexEscape(card.player || "Nome da verificare")).join(", ");
+    const redNames = row.red.map((card) => codexEscape(card.player || "Nome da verificare")).join(", ");
+    return `
+      <article class="codex-discipline-team">
+        <div>
+          <strong>${codexFlag(row.team)}${codexEscape(row.team)}</strong>
+          <span>${row.yellow.length} gialli · ${row.red.length} rossi</span>
+        </div>
+        ${yellowNames ? `<small><b>Gialli</b>${yellowNames}</small>` : ""}
+        ${redNames ? `<small><b>Rossi</b>${redNames}</small>` : ""}
+      </article>`;
+  }).join("");
+  const recentMatches = matches
+    .sort((a, b) => b.matchNumber - a.matchNumber)
+    .slice(0, 8)
+    .map(({ matchNumber, result, yellow, red }) => `
+      <li>
+        <span>#${matchNumber}</span>
+        <strong>${codexEscape(result.teamA)} ${result.goalsA}-${result.goalsB} ${codexEscape(result.teamB)}</strong>
+        <em>${yellow.length} G · ${red.length} R</em>
+      </li>`)
+    .join("");
+  root.innerHTML = `
+    <div class="codex-discipline-kpis">
+      <article><strong>${yellowTotal}</strong><span>Gialli nominali</span></article>
+      <article><strong>${redTotal}</strong><span>Rossi nominali</span></article>
+      <article><strong>${matches.length}/${realMatches}</strong><span>Partite con nomi</span></article>
+    </div>
+    <div class="codex-discipline-layout">
+      <div class="codex-discipline-ranking">${teamCards}</div>
+      <div class="codex-discipline-recent">
+        <h3>Ultime partite con referto disciplinare</h3>
+        <ul>${recentMatches}</ul>
+      </div>
+    </div>
+    <p class="data-confidence-note">Mostro solo nomi gia presenti nei referti salvati nel progetto. Le partite senza elenco ammoniti restano escluse dal conteggio nominale.</p>`;
+}
+
 function codexPhaseLabel(phase) {
   return String(phase || "")
     .replace(/^Group ([A-L])$/, "Girone $1")
@@ -2127,6 +2320,7 @@ function codexRenderResultCard(matchNumber) {
         </strong>
         ${scorerBlock}
         ${result.isReal ? '<em class="codex-real-result-badge">Risultato reale</em>' : ""}
+        ${codexRenderCardsSummary(result)}
         ${codexPsychologyMatchPanel(result, matchNumber)}
         ${codexRenderEnvironmentPanel(matchEnvironment)}
         ${result.note ? `<small>${codexEscape(result.note)}</small>` : ""}
@@ -2274,6 +2468,7 @@ function codexRenderTopScorers() {
         <div>
           <strong>${codexEscape(row.player)} ${row.starter ? '<em>Probabile titolare</em>' : ""}</strong>
           <small>${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 2)} &middot; ${codexEscape(row.role)} &middot; ${row.matches} partite previste &middot; ${row.expectedMinutes || 25}' stimati${row.penaltyRank ? ` &middot; rigorista #${row.penaltyRank}` : ""}</small>
+          ${row.observedTrend ? `<small>${codexEscape(row.observedTrend)}</small>` : ""}
         </div>
         <div class="codex-scorer-goals">
           <strong>${row.goals}</strong>
@@ -2440,6 +2635,7 @@ function codexBoot() {
   codexRenderMotivationRanking();
   codexRenderRanking();
   codexRenderTopScorers();
+  codexRenderDiscipline();
   codexRenderBettingDraft();
   codexRenderGroupFixtures();
   codexRenderStandings();

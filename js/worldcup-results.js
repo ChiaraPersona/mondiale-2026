@@ -7,12 +7,18 @@ const worldCupResults = {
     sources: [
       "https://www.diretta.it/partita/calcio/messico-O6iHcNkd/sudafrica-W2ijYvlr/?mid=h4EoUB7T",
       "https://nypost.com/2026/06/11/sports/mexico-south-africa-2026-world-cup-saw-three-red-cards/",
+      "https://www.thetimes.com/sport/football/world-cup/article/mexico-south-africa-2026-world-cup-result-score-lmdj70rv2",
     ],
     scorers: {
       "Messico": ["Julian Quinones", "Raul Jimenez"],
       "Sudafrica": [],
     },
     cards: {
+      yellow: [
+        { team: "Messico", player: "Brian Gutierrez" },
+        { team: "Sudafrica", player: "Teboho Mokoena" },
+        { team: "Sudafrica", player: "Nkosinathi Sibisi" },
+      ],
       red: [
         { team: "Sudafrica", player: "Sphephelo Sithole" },
         { team: "Sudafrica", player: "Themba Zwane" },

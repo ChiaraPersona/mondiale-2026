@@ -1084,6 +1084,50 @@ const worldCupResults = {
       "Presi X2, Messico vincente, Over 1,5 e Multigol 2-4; sbagliato il Goal previsto.",
     ],
   },
+  55: {
+    status: "Finale",
+    home: 0,
+    away: 2,
+    source: "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/curacao-bLLGpOkQ/?mid=d2S1vysC",
+    sources: [
+      "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/curacao-bLLGpOkQ/?mid=d2S1vysC",
+    ],
+    scorers: {
+      "Curacao": [],
+      "Costa d'Avorio": ["Nicolas Pepe", "Nicolas Pepe"],
+    },
+    notes: [
+      "Costa d'Avorio batte Curacao 2-0 con una doppietta di Nicolas Pepe.",
+      "Pronostico centrato: risultato esatto 0-2, Costa d'Avorio vincente, No Goal e Multigol 1-3.",
+      "Confermata anche la lettura sul peso offensivo di Pepe nel 4-4-2 ivoriano.",
+    ],
+  },
+  56: {
+    status: "Finale",
+    home: 2,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/ecuador-8tbm8Tri/germania-ptQide1O/?mid=zmvgtcCa",
+    sources: [
+      "https://www.diretta.it/partita/calcio/ecuador-8tbm8Tri/germania-ptQide1O/?mid=zmvgtcCa",
+    ],
+    scorers: {
+      "Ecuador": ["Jose Angulo", "Gonzalo Plata"],
+      "Germania": ["Leroy Sane"],
+    },
+    cards: {
+      yellow: [
+        { team: "Ecuador", player: "Piero Hincapie" },
+        { team: "Ecuador", player: "Alan Franco" },
+        { team: "Ecuador", player: "Gonzalo Plata" },
+        { team: "Germania", player: "Aleksandar Pavlovic" },
+      ],
+    },
+    notes: [
+      "Ecuador batte Germania 2-1: Sane apre, poi Angulo e Plata ribaltano la partita.",
+      "Il turnover e la qualificazione gia acquisita della Germania pesano piu del previsto nella lettura finale.",
+      "Presi Goal e fascia Multigol 2-4; sbagliati Germania vincente, risultato centrale 1-2 e primo ammonito.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

@@ -452,6 +452,178 @@ const codexVenueStadiums = {
   "New Jersey, USA": "MetLife Stadium",
 };
 
+const codexSpecificClimateFactors = {
+  "Norvegia vs Francia": {
+    stadium: "Boston Stadium (Gillette Stadium)",
+    city: "Foxborough (Boston)",
+    country: "USA",
+    stadiumType: "Aperto",
+    altitude: 45,
+    tempMin: 28,
+    tempMax: 30,
+    feelsLike: "30-32°C",
+    humidity: "55-65%",
+    wind: "10-15 km/h",
+    rainRisk: "5-15%",
+    cloudCover: "Poco nuvoloso",
+    climateImpactScore: 28,
+    conditions: "Caldo moderato ma giocabile: possibile leggero calo fisico negli ultimi 25-30 minuti, senza criticita particolare.",
+    favored: "Francia leggermente favorita nella gestione del ritmo; Norvegia piu esposta al calo se deve rincorrere.",
+    teamModifiers: { "Norvegia": -0.018, "Francia": 0.012 },
+    effects: {
+      pressing: "Pressing alto sostenibile a ondate, meno continuo dopo il 60'.",
+      rhythm: "Ritmo medio-alto in avvio, piu gestione nella ripresa.",
+      fatigue: "Calo moderato per chi difende basso o rincorre.",
+      substitutions: "Probabili cambi offensivi/di gamba tra 60' e 75'.",
+      cramps: "Rischio basso-medio, soprattutto per esterni e mediani.",
+      cards: "Leggero aumento dei falli tattici nel finale.",
+      shots: "Tiri stabili, con piu conclusioni francesi se la Norvegia si allunga.",
+      corners: "Corner lievemente sopra media se la Francia spinge sulle corsie."
+    }
+  },
+  "Senegal vs Iraq": {
+    stadium: "Toronto Stadium (BMO Field)",
+    city: "Toronto",
+    country: "Canada",
+    stadiumType: "Aperto",
+    altitude: 75,
+    tempMin: 22,
+    tempMax: 24,
+    feelsLike: "22-24°C",
+    humidity: "50-60%",
+    wind: "10 km/h",
+    rainRisk: "<10%",
+    cloudCover: "Variabile",
+    climateImpactScore: 8,
+    conditions: "Condizioni praticamente perfette: il clima non altera in modo reale il valore tecnico.",
+    favored: "Nessun vantaggio climatico netto; piccolo beneficio per la squadra piu intensa.",
+    teamModifiers: { "Senegal": 0.004, "Iraq": 0 },
+    effects: {
+      pressing: "Pressing applicabile senza limitazioni climatiche.",
+      rhythm: "Ritmo naturale della gara, senza freno ambientale.",
+      fatigue: "Affaticamento ordinario.",
+      substitutions: "Cambi dettati piu da tattica e punteggio che dal clima.",
+      cramps: "Rischio basso.",
+      cards: "Cartellini legati ai duelli, non al clima.",
+      shots: "Volume tiri non penalizzato.",
+      corners: "Corner dipendenti dallo sviluppo sulle fasce, non dal meteo."
+    }
+  },
+  "Capo Verde vs Arabia Saudita": {
+    stadium: "Houston Stadium (NRG Stadium)",
+    city: "Houston",
+    country: "USA",
+    stadiumType: "Coperto e climatizzato",
+    altitude: 15,
+    tempMin: 21,
+    tempMax: 23,
+    externalTemperature: "33-34°C",
+    feelsLike: "21-23°C interni",
+    humidity: "45-50%",
+    wind: "Irrilevante",
+    rainRisk: "Irrilevante",
+    cloudCover: "Non rilevante",
+    climateImpactScore: 3,
+    conditions: "Il caldo esterno non influenza la partita grazie alla climatizzazione.",
+    favored: "Nessun vantaggio ambientale sostanziale.",
+    teamModifiers: { "Capo Verde": 0, "Arabia Saudita": 0 },
+    effects: {
+      pressing: "Pressing non condizionato dal clima esterno.",
+      rhythm: "Ritmo pulito, regolato soprattutto dal piano gara.",
+      fatigue: "Affaticamento standard.",
+      substitutions: "Cambi prevalentemente tattici.",
+      cramps: "Rischio molto basso.",
+      cards: "Nessun incremento climatico dei cartellini.",
+      shots: "Condizioni favorevoli alla precisione tecnica.",
+      corners: "Corner non alterati dal meteo."
+    }
+  },
+  "Uruguay vs Spagna": {
+    stadium: "Estadio Akron",
+    city: "Guadalajara",
+    country: "Messico",
+    stadiumType: "Aperto",
+    altitude: 1560,
+    tempMin: 22,
+    tempMax: 24,
+    feelsLike: "22°C",
+    humidity: "45-55%",
+    wind: "5-10 km/h",
+    rainRisk: "10%",
+    cloudCover: "Poco nuvoloso",
+    climateImpactScore: 46,
+    conditions: "Clima ottimo, ma l'altitudine e il fattore ambientale centrale: maggiore fatica nella ripresa per chi non e abituato.",
+    favored: "Uruguay leggermente favorito dall'adattamento sudamericano; Spagna penalizzata se mantiene possesso e pressione molto alti.",
+    teamModifiers: { "Uruguay": 0.032, "Spagna": -0.018 },
+    effects: {
+      pressing: "Pressing spagnolo da dosare; Uruguay piu comodo in gara intermittente.",
+      rhythm: "Ritmo tecnico alto, ma meno continuita dopo il 60'.",
+      fatigue: "Fatica da quota piu visibile nella squadra che corre all'indietro.",
+      substitutions: "Cambi importanti tra 55' e 70' per preservare intensita.",
+      cramps: "Rischio medio negli ultimi 20'.",
+      cards: "Possibile aumento di trattenute e falli tattici nel finale.",
+      shots: "Tiri spagnoli piu legati al controllo, Uruguay pericoloso nelle transizioni.",
+      corners: "Corner buoni per la Spagna se schiaccia l'Uruguay, ma meno assedio prolungato."
+    }
+  },
+  "Egitto vs Iran": {
+    stadium: "Seattle Stadium (Lumen Field)",
+    city: "Seattle",
+    country: "USA",
+    stadiumType: "Parzialmente coperto",
+    altitude: 50,
+    tempMin: 17,
+    tempMax: 19,
+    feelsLike: "17-18°C",
+    humidity: "60-70%",
+    wind: "8-12 km/h",
+    rainRisk: "15%",
+    cloudCover: "Variabile",
+    climateImpactScore: 12,
+    conditions: "Temperatura ideale: nessun impatto significativo sul rendimento.",
+    favored: "Nessun vantaggio climatico netto.",
+    teamModifiers: { "Egitto": 0, "Iran": 0 },
+    effects: {
+      pressing: "Pressing sostenibile per entrambe.",
+      rhythm: "Ritmo condizionato piu dalla prudenza tattica che dal clima.",
+      fatigue: "Bassa incidenza della fatica ambientale.",
+      substitutions: "Cambi da lettura tattica.",
+      cramps: "Rischio basso.",
+      cards: "Cartellini dipendenti dai duelli centrali.",
+      shots: "Condizioni buone per tiri puliti.",
+      corners: "Corner in linea con l'inerzia della partita."
+    }
+  },
+  "Nuova Zelanda vs Belgio": {
+    stadium: "BC Place",
+    city: "Vancouver",
+    country: "Canada",
+    stadiumType: "Tetto retrattile, configurazione coperta",
+    altitude: 70,
+    tempMin: 20,
+    tempMax: 22,
+    feelsLike: "20-22°C",
+    humidity: "50-55%",
+    wind: "Assente",
+    rainRisk: "Non rilevante",
+    cloudCover: "Non rilevante",
+    climateImpactScore: 5,
+    conditions: "Condizioni estremamente stabili: praticamente nessuna influenza climatica.",
+    favored: "Nessun vantaggio ambientale; decide quasi solo il divario tecnico.",
+    teamModifiers: { "Nuova Zelanda": 0, "Belgio": 0 },
+    effects: {
+      pressing: "Pressing senza limitazioni ambientali.",
+      rhythm: "Ritmo pulito e stabile.",
+      fatigue: "Affaticamento ordinario.",
+      substitutions: "Cambi tattici o di gestione risultato.",
+      cramps: "Rischio minimo.",
+      cards: "Nessun incremento climatico.",
+      shots: "Condizioni favorevoli alla qualita tecnica belga.",
+      corners: "Corner legati al predominio territoriale."
+    }
+  }
+};
+
 function codexFold(value) {
   return String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 }
@@ -1205,12 +1377,60 @@ function getClimateClass(difficulty) {
   return "climate-easy";
 }
 
+function codexFixtureClimateKey(fixture) {
+  const teams = codexFixtureTeams(fixture?.[2]);
+  return teams.length === 2 ? `${teams[0]} vs ${teams[1]}` : "";
+}
+
+function codexSpecificClimateForFixture(fixture) {
+  const key = codexFixtureClimateKey(fixture);
+  if (codexSpecificClimateFactors[key]) return codexSpecificClimateFactors[key];
+  const teams = codexFixtureTeams(fixture?.[2]);
+  if (teams.length !== 2) return null;
+  return codexSpecificClimateFactors[`${teams[1]} vs ${teams[0]}`] || null;
+}
+
+function codexClimatePredictionModifier(team, fixture) {
+  const factor = codexSpecificClimateForFixture(fixture);
+  if (!factor) return 0;
+  return codexClamp(factor.teamModifiers?.[team] || 0, -0.1, 0.1);
+}
+
 function codexClimateCityKey(city) {
+  if (city === "Foxborough (Boston)") return "Boston";
   if (city === "Boston / Foxborough") return "Boston";
   return city;
 }
 
 function enrichClimate(match) {
+  const specific = codexSpecificClimateForFixture(match?.fixture || match);
+  if (specific) {
+    const difficulty = codexClamp(specific.climateImpactScore ?? 0, 0, 100);
+    return {
+      ...match,
+      stadium: specific.stadium || match.stadium,
+      city: specific.city || match.city,
+      country: specific.country || match.country,
+      stadiumType: specific.stadiumType || "",
+      altitude: specific.altitude ?? match.altitude,
+      altitudeClass: getAltitudeClass(specific.altitude ?? match.altitude ?? 0),
+      tempMin: specific.tempMin,
+      tempMax: specific.tempMax,
+      externalTemperature: specific.externalTemperature || "",
+      feelsLike: specific.feelsLike || "",
+      humidity: specific.humidity || "",
+      wind: specific.wind || "",
+      rainRisk: specific.rainRisk || "",
+      cloudCover: specific.cloudCover || "",
+      climateDifficulty: difficulty,
+      climateClass: getClimateClass(difficulty),
+      climateConditions: specific.conditions || "",
+      climateFavored: specific.favored || "",
+      climateEffects: specific.effects || null,
+      climateTeamModifiers: specific.teamModifiers || {},
+      climateSpecific: true,
+    };
+  }
   const city = match?.city || codexVenueCity(match);
   const climate = CLIMATE_DATA[codexClimateCityKey(city)] || null;
   if (!climate) {
@@ -1220,6 +1440,14 @@ function enrichClimate(match) {
       tempMax: null,
       humidity: "",
       rainRisk: "",
+      wind: "",
+      feelsLike: "",
+      cloudCover: "",
+      climateConditions: "",
+      climateFavored: "",
+      climateEffects: null,
+      climateTeamModifiers: {},
+      climateSpecific: false,
       climateDifficulty: null,
       climateClass: "",
     };
@@ -1230,6 +1458,14 @@ function enrichClimate(match) {
     tempMax: climate.tempMax,
     humidity: climate.humidity,
     rainRisk: climate.rainRisk,
+    wind: "",
+    feelsLike: "",
+    cloudCover: "",
+    climateConditions: "",
+    climateFavored: "",
+    climateEffects: null,
+    climateTeamModifiers: {},
+    climateSpecific: false,
     climateDifficulty: climate.difficulty,
     climateClass: getClimateClass(climate.difficulty),
   };
@@ -1270,6 +1506,7 @@ function codexSpecialVenueBadges(match) {
   if (match.stadium === "Estadio Azteca") badges.push({ className: "is-altitude-factor", label: "FATTORE ALTITUDINE" });
   if (match.stadium === "Estadio Akron") badges.push({ className: "is-high-altitude", label: "ALTA QUOTA" });
   if (match.stadium === "Estadio BBVA") badges.push({ className: "is-mid-altitude", label: "QUOTA INTERMEDIA" });
+  if (match.climateSpecific) badges.push({ className: "is-climate-specific", label: "CLIMA SPECIFICO GARA" });
   if (["Miami", "Houston", "Monterrey", "Dallas / Arlington"].includes(match.city) && match.climateDifficulty >= 90) {
     badges.push({ className: "is-extreme-heat", label: "🔥 CALDO ESTREMO" });
   } else if (["Atlanta", "Dallas / Arlington", "Houston", "Monterrey", "Miami"].includes(match.city) && match.climateDifficulty >= 80) {
@@ -1284,6 +1521,40 @@ function codexBadgeMarkup(badge, extraClass = "") {
 
 function codexClimateTooltip() {
   return "Valore basato sulle medie climatiche storiche di giugno-luglio della città ospitante. Non rappresenta una previsione meteo reale.";
+}
+
+function codexRenderClimateModifierRows(match) {
+  const teams = codexFixtureTeams(match?.fixture?.[2]);
+  if (!match?.climateSpecific || teams.length !== 2) return "";
+  const rows = teams.map((team) => {
+    const modifier = codexClamp(match.climateTeamModifiers?.[team] || 0, -0.1, 0.1);
+    const tone = modifier > 0 ? "is-positive" : modifier < 0 ? "is-negative" : "is-neutral";
+    return `<span class="${tone}">${codexFlag(team)}${codexEscape(team)} <b>${codexSignedPercent(modifier)}</b></span>`;
+  }).join("");
+  return `<div class="codex-climate-modifiers">${rows}<small>Peso massimo clima: 10% del pronostico complessivo.</small></div>`;
+}
+
+function codexRenderClimateEffects(match) {
+  if (!match?.climateEffects) return "";
+  const labels = {
+    pressing: "Pressing",
+    rhythm: "Ritmo",
+    fatigue: "Fatica 2T",
+    substitutions: "Sostituzioni",
+    cramps: "Crampi",
+    cards: "Cartellini",
+    shots: "Tiri",
+    corners: "Corner",
+  };
+  const rows = Object.entries(labels).map(([key, label]) => {
+    const value = match.climateEffects?.[key];
+    return value ? `<span><b>${codexEscape(label)}:</b>${codexEscape(value)}</span>` : "";
+  }).join("");
+  return `
+      <details class="codex-climate-effects">
+        <summary>Impatto clima sul pronostico</summary>
+        <div>${rows}</div>
+      </details>`;
 }
 
 function codexRenderEnvironmentPanel(match, compact = false) {
@@ -1301,6 +1572,7 @@ function codexRenderEnvironmentPanel(match, compact = false) {
         <span>🌡️ ${codexEscape(match.tempMin)}°-${codexEscape(match.tempMax)}°C</span>
         ${codexBadgeMarkup(altitudeBadge)}
         ${codexBadgeMarkup(climateBadge)}
+        ${match.climateSpecific ? codexBadgeMarkup({ className: "is-climate-specific", label: "Clima gara" }) : ""}
       </div>`;
   }
   return `
@@ -1308,6 +1580,7 @@ function codexRenderEnvironmentPanel(match, compact = false) {
       <div class="codex-env-lines">
         <span>🏟️ ${codexEscape(match.stadium)}</span>
         <span>📍 ${codexEscape(match.city)}, ${codexEscape(match.country)}</span>
+        ${match.stadiumType ? `<span>🏗️ ${codexEscape(match.stadiumType)}</span>` : ""}
         <span>⛰️ ${codexEscape(match.altitude)} m</span>
       </div>
       <div class="codex-env-badges">
@@ -1317,13 +1590,21 @@ function codexRenderEnvironmentPanel(match, compact = false) {
       </div>
       <div class="codex-climate-grid">
         <span><b>🌡️</b>${codexEscape(match.tempMin)}° - ${codexEscape(match.tempMax)}°C</span>
+        ${match.externalTemperature ? `<span><b>Esterno:</b>${codexEscape(match.externalTemperature)}</span>` : ""}
+        ${match.feelsLike ? `<span><b>Percepita:</b>${codexEscape(match.feelsLike)}</span>` : ""}
         <span><b>💧 Umidità:</b>${codexEscape(match.humidity)}</span>
+        ${match.wind ? `<span><b>Vento:</b>${codexEscape(match.wind)}</span>` : ""}
         <span><b>🌧️ Pioggia:</b>${codexEscape(match.rainRisk)}</span>
+        ${match.cloudCover ? `<span><b>Nuvolosità:</b>${codexEscape(match.cloudCover)}</span>` : ""}
         <span><b>⚠️ Difficoltà climatica:</b>${difficulty}/100</span>
       </div>
       <div class="codex-climate-bar" aria-label="Difficoltà climatica ${difficulty} su 100">
         <span style="width: ${difficulty}%"></span>
       </div>
+      ${match.climateConditions ? `<p class="codex-climate-note">${codexEscape(match.climateConditions)}</p>` : ""}
+      ${match.climateFavored ? `<p class="codex-climate-note"><b>Vantaggio:</b> ${codexEscape(match.climateFavored)}</p>` : ""}
+      ${codexRenderClimateModifierRows(match)}
+      ${codexRenderClimateEffects(match)}
     </div>`;
 }
 
@@ -1371,6 +1652,7 @@ const codexHeatSensitiveTeams = {
 };
 
 function codexEnvironmentalAdvantage(team, fixture) {
+  if (codexSpecificClimateForFixture(fixture)) return 0;
   const city = codexVenueCity(fixture);
   const country = codexVenueCountry(fixture);
   let boost = 0;
@@ -1409,10 +1691,14 @@ function codexScoreMatch(teamA, teamB, knockout = false, fixture = null, matchNu
   const allowUnderdogException = upsetHash < exceptionChance;
   const venueA = codexHostAdvantage(teamA, fixture) + codexEnvironmentalAdvantage(teamA, fixture);
   const venueB = codexHostAdvantage(teamB, fixture) + codexEnvironmentalAdvantage(teamB, fixture);
+  const climateA = codexClimatePredictionModifier(teamA, fixture);
+  const climateB = codexClimatePredictionModifier(teamB, fixture);
   const groupMarketA = knockout ? 0 : codexGroupWinnerMarketBoost(teamA);
   const groupMarketB = knockout ? 0 : codexGroupWinnerMarketBoost(teamB);
   let expectedA = codexClamp(codexExpectedGoals(teamA, teamB, knockout) + tempo + tilt + venueA + groupMarketA * 0.06, 0.03, 3.3);
   let expectedB = codexClamp(codexExpectedGoals(teamB, teamA, knockout) + tempo - tilt + venueB + groupMarketB * 0.06, 0.03, 3.3);
+  expectedA = codexClamp(expectedA * (1 + climateA), 0.03, 3.3);
+  expectedB = codexClamp(expectedB * (1 + climateB), 0.03, 3.3);
   const codexPlusA = knockout ? codexPlusScore(teamA) : 0;
   const codexPlusB = knockout ? codexPlusScore(teamB) : 0;
   const codexPlusEdge = knockout ? codexClamp((codexPlusA - codexPlusB) / 70, -0.42, 0.42) : 0;
@@ -1514,6 +1800,8 @@ function codexScoreMatch(teamA, teamB, knockout = false, fixture = null, matchNu
     venueB,
     groupMarketA,
     groupMarketB,
+    climateA,
+    climateB,
     codexPlusA,
     codexPlusB,
     psychologyA,

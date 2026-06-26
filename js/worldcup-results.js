@@ -1128,6 +1128,24 @@ const worldCupResults = {
       "Presi Goal e fascia Multigol 2-4; sbagliati Germania vincente, risultato centrale 1-2 e primo ammonito.",
     ],
   },
+  59: {
+    status: "Finale",
+    home: 1,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/giappone-ULXPdOUj/svezia-OQyqbHWB/?mid=Sl2xgtXi",
+    sources: [
+      "https://www.diretta.it/partita/calcio/giappone-ULXPdOUj/svezia-OQyqbHWB/?mid=Sl2xgtXi",
+    ],
+    scorers: {
+      "Giappone": ["Daizen Maeda"],
+      "Svezia": ["Anthony Elanga"],
+    },
+    notes: [
+      "Giappone e Svezia chiudono 1-1: Maeda porta avanti il Giappone, Elanga pareggia per la Svezia.",
+      "Il risultato smentisce il segno Giappone vincente ma conferma Goal, Over 1,5 e lo scenario alternativo 1-1 indicato nella lettura.",
+      "Giappone secondo nel Gruppo F; Svezia qualificata tra le migliori terze.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

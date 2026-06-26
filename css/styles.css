@@ -5287,18 +5287,22 @@ body {
   margin-top: 14px;
 }
 
-.codex-motivation-toggle {
+.codex-motivation-toggle,
+.codex-collapsible-toggle {
   position: relative;
   padding-right: 42px;
   cursor: pointer;
+  list-style: none;
   user-select: none;
 }
 
-.codex-motivation-toggle::-webkit-details-marker {
+.codex-motivation-toggle::-webkit-details-marker,
+.codex-collapsible-toggle::-webkit-details-marker {
   display: none;
 }
 
-.codex-motivation-toggle::after {
+.codex-motivation-toggle::after,
+.codex-collapsible-toggle::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -5311,11 +5315,13 @@ body {
   transition: transform .18s ease;
 }
 
-.codex-motivation-section[open] .codex-motivation-toggle::after {
+.codex-motivation-section[open] .codex-motivation-toggle::after,
+.codex-collapsible-section[open] .codex-collapsible-toggle::after {
   transform: translateY(-35%) rotate(225deg);
 }
 
-.codex-motivation-toggle:focus-visible {
+.codex-motivation-toggle:focus-visible,
+.codex-collapsible-toggle:focus-visible {
   border-radius: 8px;
   outline: 2px solid var(--green);
   outline-offset: 5px;

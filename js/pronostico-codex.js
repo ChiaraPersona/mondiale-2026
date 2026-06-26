@@ -991,6 +991,19 @@ function codexRecentTeamProfile(matches) {
       sotFor: 4,
       sotAgainst: 4,
       possession: 50,
+      xgotFor: 1.25,
+      xgotAgainst: 1.15,
+      bigChancesFor: 1,
+      bigChancesAgainst: 1,
+      touchesInOppBoxFor: 18,
+      touchesInOppBoxAgainst: 18,
+      attackingPassAccuracyFor: 65,
+      attackingPassAccuracyAgainst: 65,
+      savesFor: 3,
+      errorsToShotFor: 0,
+      errorsToGoalFor: 0,
+      clearancesFor: 18,
+      interceptionsFor: 8,
     };
   }
   const pointsGetter = (match) => {
@@ -1024,6 +1037,19 @@ function codexRecentTeamProfile(matches) {
     sotFor: codexWeightedAverage(matches, (match) => codexNumber(match.shotsOnTargetFor)) ?? codexAverage(matches, "shotsOnTargetFor") ?? 4,
     sotAgainst: codexWeightedAverage(matches, (match) => codexNumber(match.shotsOnTargetAgainst)) ?? codexAverage(matches, "shotsOnTargetAgainst") ?? 4,
     possession: codexWeightedAverage(matches, (match) => codexNumber(match.possession)) ?? codexAverage(matches, "possession") ?? 50,
+    xgotFor: codexWeightedAverage(matches, (match) => codexNumber(match.xgotFor)) ?? codexAverage(matches, "xgotFor") ?? 1.25,
+    xgotAgainst: codexWeightedAverage(matches, (match) => codexNumber(match.xgotAgainst)) ?? codexAverage(matches, "xgotAgainst") ?? 1.15,
+    bigChancesFor: codexWeightedAverage(matches, (match) => codexNumber(match.bigChancesFor)) ?? codexAverage(matches, "bigChancesFor") ?? 1,
+    bigChancesAgainst: codexWeightedAverage(matches, (match) => codexNumber(match.bigChancesAgainst)) ?? codexAverage(matches, "bigChancesAgainst") ?? 1,
+    touchesInOppBoxFor: codexWeightedAverage(matches, (match) => codexNumber(match.touchesInOppBoxFor)) ?? codexAverage(matches, "touchesInOppBoxFor") ?? 18,
+    touchesInOppBoxAgainst: codexWeightedAverage(matches, (match) => codexNumber(match.touchesInOppBoxAgainst)) ?? codexAverage(matches, "touchesInOppBoxAgainst") ?? 18,
+    attackingPassAccuracyFor: codexWeightedAverage(matches, (match) => codexNumber(match.attackingPassAccuracyFor)) ?? codexAverage(matches, "attackingPassAccuracyFor") ?? 65,
+    attackingPassAccuracyAgainst: codexWeightedAverage(matches, (match) => codexNumber(match.attackingPassAccuracyAgainst)) ?? codexAverage(matches, "attackingPassAccuracyAgainst") ?? 65,
+    savesFor: codexWeightedAverage(matches, (match) => codexNumber(match.savesFor)) ?? codexAverage(matches, "savesFor") ?? 3,
+    errorsToShotFor: codexWeightedAverage(matches, (match) => codexNumber(match.errorsToShotFor)) ?? codexAverage(matches, "errorsToShotFor") ?? 0,
+    errorsToGoalFor: codexWeightedAverage(matches, (match) => codexNumber(match.errorsToGoalFor)) ?? codexAverage(matches, "errorsToGoalFor") ?? 0,
+    clearancesFor: codexWeightedAverage(matches, (match) => codexNumber(match.clearancesFor)) ?? codexAverage(matches, "clearancesFor") ?? 18,
+    interceptionsFor: codexWeightedAverage(matches, (match) => codexNumber(match.interceptionsFor)) ?? codexAverage(matches, "interceptionsFor") ?? 8,
     opponentRanking,
   };
 }
@@ -1294,6 +1320,10 @@ function codexTeamStrength(team) {
   const sotAgainst = recent.sotAgainst;
   const possession = recent.possession;
   const form = recent.weightedForm;
+  const chanceQuality = (recent.xgotFor - xgFor) * 3.2 + recent.bigChancesFor * 2.1 + recent.touchesInOppBoxFor * 0.18;
+  const territory = (recent.attackingPassAccuracyFor - 65) * 0.16 + (recent.touchesInOppBoxFor - recent.touchesInOppBoxAgainst) * 0.11;
+  const defensiveEvents = recent.savesFor * 0.55 + recent.clearancesFor * 0.06 + recent.interceptionsFor * 0.18 - recent.errorsToShotFor * 1.8 - recent.errorsToGoalFor * 3.4;
+  const defensivePressureExtra = recent.bigChancesAgainst * 1.65 + Math.max(0, recent.xgotAgainst - xgAgainst) * 2.2 + recent.touchesInOppBoxAgainst * 0.12;
   const players = codexPlayerScore(team);
   const goalkeepers = codexGoalkeeperScore(team);
   const rankingPoints = codexRankingPoints(team);
@@ -1306,9 +1336,9 @@ function codexTeamStrength(team) {
   const marketBoost = codexWinnerMarketBoost(team);
   const recentAttack = recent.goalsFor * 4.8 + Math.max(0, recent.goalDiff) * 2.2;
   const recentDefence = -recent.goalsAgainst * 4.8 + Math.max(0, -recent.goalDiff) * -2.1;
-  const attack = 50 + xgFor * 10.5 + sotFor * 2.55 + shotsFor * 0.5 + recentAttack + (players - 50) * 0.48 + rankingBoost * 0.18 + scheduleBoost * 0.18 + regulationBoost * 1.2 + indexBoost * 0.48 + tierBoost * 0.72 + marketBoost * 0.34;
-  const control = possession * 0.32 + form * 26 + recent.goalDiff * 2.4 + rankingBoost * 0.28 + scheduleBoost * 0.44 + regulationBoost * 1.65 + indexBoost * 0.36 + tierBoost * 0.42 + marketBoost * 0.58;
-  const resistance = 54 - xgAgainst * 12.5 - sotAgainst * 3 - shotsAgainst * 0.72 + recentDefence + (goalkeepers - 50) * 0.5 + rankingBoost * 0.24 + scheduleBoost * 0.16 + regulationBoost * 0.45 + indexBoost * 0.28 + tierBoost * 0.34 + marketBoost * 0.28;
+  const attack = 50 + xgFor * 10.5 + sotFor * 2.55 + shotsFor * 0.5 + chanceQuality + recentAttack + (players - 50) * 0.48 + rankingBoost * 0.18 + scheduleBoost * 0.18 + regulationBoost * 1.2 + indexBoost * 0.48 + tierBoost * 0.72 + marketBoost * 0.34;
+  const control = possession * 0.32 + form * 26 + territory + recent.goalDiff * 2.4 + rankingBoost * 0.28 + scheduleBoost * 0.44 + regulationBoost * 1.65 + indexBoost * 0.36 + tierBoost * 0.42 + marketBoost * 0.58;
+  const resistance = 54 - xgAgainst * 12.5 - sotAgainst * 3 - shotsAgainst * 0.72 - defensivePressureExtra + defensiveEvents + recentDefence + (goalkeepers - 50) * 0.5 + rankingBoost * 0.24 + scheduleBoost * 0.16 + regulationBoost * 0.45 + indexBoost * 0.28 + tierBoost * 0.34 + marketBoost * 0.28;
   const total = attack * 0.42 + control * 0.24 + resistance * 0.34;
   return {
     team,

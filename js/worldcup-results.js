@@ -1128,6 +1128,24 @@ const worldCupResults = {
       "Presi Goal e fascia Multigol 2-4; sbagliati Germania vincente, risultato centrale 1-2 e primo ammonito.",
     ],
   },
+  58: {
+    status: "Finale",
+    home: 1,
+    away: 3,
+    source: "https://www.diretta.it/",
+    sources: [
+      "https://www.diretta.it/",
+    ],
+    scorers: {
+      "Tunisia": [],
+      "Olanda": [],
+    },
+    notes: [
+      "Olanda batte Tunisia 3-1 con dominio territoriale netto: possesso 71%-29%, tiri 20-10 e tocchi in area 44-11.",
+      "xG 1,84-0,62 per l'Olanda, ma xGOT 2,22-0,94 per la Tunisia: partita vinta dagli olandesi nel volume e nella gestione.",
+      "Dati Diretta.it verificati e inseriti nello storico del modello.",
+    ],
+  },
   59: {
     status: "Finale",
     home: 1,
@@ -1144,6 +1162,42 @@ const worldCupResults = {
       "Giappone e Svezia chiudono 1-1: Maeda porta avanti il Giappone, Elanga pareggia per la Svezia.",
       "Il risultato smentisce il segno Giappone vincente ma conferma Goal, Over 1,5 e lo scenario alternativo 1-1 indicato nella lettura.",
       "Giappone secondo nel Gruppo F; Svezia qualificata tra le migliori terze.",
+    ],
+  },
+  60: {
+    status: "Finale",
+    home: 3,
+    away: 2,
+    source: "https://www.diretta.it/",
+    sources: [
+      "https://www.diretta.it/",
+    ],
+    scorers: {
+      "Turchia": [],
+      "Stati Uniti": [],
+    },
+    notes: [
+      "Turchia batte Stati Uniti 3-2 in una partita ad altissimo volume offensivo: xG 3,00-2,12 e grandi occasioni 5-4.",
+      "USA avanti per tiri, 18-9, tiri in porta, 7-3, corner, 9-2, e possesso 53%-47%, ma meno efficienti nel rapporto gol/xG.",
+      "Dati Diretta.it verificati e inseriti nello storico del modello.",
+    ],
+  },
+  61: {
+    status: "Finale",
+    home: 0,
+    away: 0,
+    source: "https://www.diretta.it/",
+    sources: [
+      "https://www.diretta.it/",
+    ],
+    scorers: {
+      "Paraguay": [],
+      "Australia": [],
+    },
+    notes: [
+      "Paraguay e Australia chiudono 0-0: gara povera di grandi occasioni, 0-0 anche nel dato Diretta.it.",
+      "Australia produce piu volume: xG 0,55-0,24, tiri 12-7, tiri in porta 5-2 e possesso 56%-44%.",
+      "Dati Diretta.it verificati e inseriti nello storico del modello.",
     ],
   },
 };

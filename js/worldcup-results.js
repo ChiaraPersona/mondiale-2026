@@ -1200,6 +1200,40 @@ const worldCupResults = {
       "Dati Diretta.it verificati e inseriti nello storico del modello.",
     ],
   },
+  62: {
+    status: "Finale",
+    home: 1,
+    away: 4,
+    source: "https://www.diretta.it/partita/calcio/francia-QkGeVG1n/norvegia-8rP6JO0H/?mid=bsJSJ30L",
+    sources: [
+      "https://www.diretta.it/partita/calcio/francia-QkGeVG1n/norvegia-8rP6JO0H/?mid=bsJSJ30L",
+    ],
+    scorers: {
+      "Norvegia": [],
+      "Francia": [],
+    },
+    notes: [
+      "Francia batte Norvegia 4-1 e conferma la lettura favorevole ai francesi.",
+      "Presi Francia vincente, Over 2,5, Francia segna e Goal; mancato soltanto il risultato esatto 1-3.",
+    ],
+  },
+  63: {
+    status: "Finale",
+    home: 5,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/iraq-K8aAGt6r/senegal-hOIsJLJr/?mid=j5IhOwop",
+    sources: [
+      "https://www.diretta.it/partita/calcio/iraq-K8aAGt6r/senegal-hOIsJLJr/?mid=j5IhOwop",
+    ],
+    scorers: {
+      "Senegal": [],
+      "Iraq": [],
+    },
+    notes: [
+      "Senegal batte Iraq 5-0 e conferma nettamente la lettura pre-partita.",
+      "Presi Senegal vincente, No Goal e Over 2,5; mancato soltanto il risultato esatto 3-0.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

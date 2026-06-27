@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T10:18:15.463Z",
+  "generatedAt": "2026-06-27T10:40:44.341Z",
   "title": "Pronostico Codex+ Mondiale 2026",
   "formula": "Codex 60% - Motivation Index 10% - Opta 12% - Klement 7% - Goldman Sachs 6% - IA varie 5%",
   "champion": "Spagna",
@@ -30,23 +30,21 @@
     "number": 103,
     "phase": "Finale 3&deg; posto - Partita 103",
     "teamA": "Francia",
-    "teamB": "Olanda",
+    "teamB": "Brasile",
     "goalsA": 2,
     "goalsB": 1,
     "winner": "Francia",
     "note": "",
-    "expectedA": 2.07,
-    "expectedB": 0.77,
+    "expectedA": 2.01,
+    "expectedB": 0.84,
     "codexPlusA": 78.5,
-    "codexPlusB": 74.1,
+    "codexPlusB": 66.3,
     "badgesA": [
       "Opta 13.0%",
       "Claude"
     ],
     "badgesB": [
-      "Klement",
-      "Opta 3.8%",
-      "Gemini"
+      "Opta 6.6%"
     ]
   },
   "left": {
@@ -222,18 +220,20 @@
         "number": 90,
         "phase": "Ottavi - Partita 89",
         "teamA": "Canada",
-        "teamB": "Brasile",
+        "teamB": "Olanda",
         "goalsA": 0,
-        "goalsB": 4,
-        "winner": "Brasile",
+        "goalsB": 3,
+        "winner": "Olanda",
         "note": "",
         "expectedA": 0.03,
-        "expectedB": 3.3,
+        "expectedB": 3.29,
         "codexPlusA": 45.3,
-        "codexPlusB": 66.3,
+        "codexPlusB": 74.1,
         "badgesA": [],
         "badgesB": [
-          "Opta 6.6%"
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
         ]
       },
       {
@@ -281,21 +281,23 @@
         "number": 97,
         "phase": "Quarti - Partita 97",
         "teamA": "Francia",
-        "teamB": "Brasile",
+        "teamB": "Olanda",
         "goalsA": 2,
         "goalsB": 1,
         "winner": "Francia",
         "note": "",
-        "expectedA": 2.01,
-        "expectedB": 0.72,
+        "expectedA": 2.07,
+        "expectedB": 0.81,
         "codexPlusA": 78.5,
-        "codexPlusB": 66.3,
+        "codexPlusB": 74.1,
         "badgesA": [
           "Opta 13.0%",
           "Claude"
         ],
         "badgesB": [
-          "Opta 6.6%"
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
         ]
       },
       {
@@ -350,20 +352,18 @@
       {
         "number": 102,
         "phase": "Semifinale - Partita 102",
-        "teamA": "Olanda",
+        "teamA": "Brasile",
         "teamB": "Argentina",
         "goalsA": 1,
         "goalsB": 2,
         "winner": "Argentina",
         "note": "",
-        "expectedA": 0.96,
-        "expectedB": 2.16,
-        "codexPlusA": 74.1,
+        "expectedA": 0.73,
+        "expectedB": 1.94,
+        "codexPlusA": 66.3,
         "codexPlusB": 76.1,
         "badgesA": [
-          "Klement",
-          "Opta 3.8%",
-          "Gemini"
+          "Opta 6.6%"
         ],
         "badgesB": [
           "Opta 10.4%",
@@ -375,20 +375,18 @@
       {
         "number": 99,
         "phase": "Quarti - Partita 99",
-        "teamA": "Olanda",
+        "teamA": "Brasile",
         "teamB": "Messico",
-        "goalsA": 3,
+        "goalsA": 2,
         "goalsB": 0,
-        "winner": "Olanda",
+        "winner": "Brasile",
         "note": "",
-        "expectedA": 2.69,
-        "expectedB": 0.53,
-        "codexPlusA": 74.1,
+        "expectedA": 2.5,
+        "expectedB": 0.28,
+        "codexPlusA": 66.3,
         "codexPlusB": 49.1,
         "badgesA": [
-          "Klement",
-          "Opta 3.8%",
-          "Gemini"
+          "Opta 6.6%"
         ],
         "badgesB": []
       },
@@ -419,20 +417,18 @@
       {
         "number": 91,
         "phase": "Ottavi - Partita 91",
-        "teamA": "Olanda",
+        "teamA": "Brasile",
         "teamB": "Norvegia",
         "goalsA": 2,
-        "goalsB": 1,
-        "winner": "Olanda",
+        "goalsB": 0,
+        "winner": "Brasile",
         "note": "",
-        "expectedA": 2.35,
-        "expectedB": 0.55,
-        "codexPlusA": 74.1,
+        "expectedA": 2.51,
+        "expectedB": 0.52,
+        "codexPlusA": 66.3,
         "codexPlusB": 55.9,
         "badgesA": [
-          "Klement",
-          "Opta 3.8%",
-          "Gemini"
+          "Opta 6.6%"
         ],
         "badgesB": []
       },

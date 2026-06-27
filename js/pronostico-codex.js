@@ -38,8 +38,8 @@ const codexBracketMatchNumbers = {
 
 const codexDependencies = {
   89: [{ match: 74, result: "winner" }, { match: 77, result: "winner" }],
-  90: [{ match: 73, result: "winner" }, { match: 75, result: "winner" }],
-  91: [{ match: 76, result: "winner" }, { match: 78, result: "winner" }],
+  90: [{ match: 73, result: "winner" }, { match: 76, result: "winner" }],
+  91: [{ match: 75, result: "winner" }, { match: 78, result: "winner" }],
   92: [{ match: 79, result: "winner" }, { match: 80, result: "winner" }],
   93: [{ match: 83, result: "winner" }, { match: 84, result: "winner" }],
   94: [{ match: 81, result: "winner" }, { match: 82, result: "winner" }],

@@ -6,6 +6,27 @@ const codexRoundOf32Seeds = [
   ["1J", "2H"], ["2D", "2G"], ["1B", "3 EFGIJ"], ["1K", "3 DEIJL"],
 ];
 
+// Accoppiamenti gia confermati nel tabellone ufficiale del 27 giugno.
+// I valori null restano legati alla classifica/proiezione del rispettivo seed.
+const codexRoundOf32FixedTeams = {
+  73: ["Sudafrica", "Canada"],
+  74: ["Germania", "Paraguay"],
+  75: ["Brasile", "Giappone"],
+  76: ["Olanda", "Marocco"],
+  77: ["Francia", "Svezia"],
+  78: ["Costa d'Avorio", "Norvegia"],
+  79: ["Messico", null],
+  80: [null, null],
+  81: ["Stati Uniti", "Bosnia ed Erzegovina"],
+  82: ["Belgio", null],
+  83: [null, null],
+  84: ["Spagna", null],
+  85: ["Svizzera", null],
+  86: ["Argentina", "Capo Verde"],
+  87: [null, null],
+  88: ["Australia", "Egitto"],
+};
+
 const codexBracketMatchNumbers = {
   r32: [74, 77, 73, 76, 83, 84, 81, 82, 75, 78, 79, 80, 86, 88, 85, 87],
   r16: [89, 90, 93, 94, 91, 92, 95, 96],
@@ -1984,9 +2005,11 @@ function codexParticipants(matchNumber) {
   if (directTeams.length === 2) return directTeams;
   if (matchNumber >= 73 && matchNumber <= 88) {
     const location = codexRoundForMatch(matchNumber);
-    return codexRoundOf32Seeds[location.index].map((seed, seedOffset) => (
+    const projected = codexRoundOf32Seeds[location.index].map((seed, seedOffset) => (
       codexTeamFromSeed(seed, location.index * 2 + seedOffset)
     ));
+    const fixed = codexRoundOf32FixedTeams[matchNumber] || [];
+    return projected.map((team, index) => fixed[index] || team);
   }
   return (codexDependencies[matchNumber] || []).map((dependency) => {
     const previous = codexState.results[dependency.match];
@@ -2912,7 +2935,7 @@ function codexRenderWorldBracket() {
         </div>
         <div class="codex-world-layout">
           <div class="codex-world-side">
-            <div class="codex-world-round codex-world-r32">${codexWorldMatches([74,77,73,75,83,84,81,82], true)}</div>
+            <div class="codex-world-round codex-world-r32">${codexWorldMatches([74,77,73,76,83,84,81,82], true)}</div>
             <div class="codex-world-round codex-world-r16">${codexWorldRound("r16", [0,1,2,3])}</div>
             <div class="codex-world-round codex-world-qf">${codexWorldRound("qf", [0,1])}</div>
             <div class="codex-world-round codex-world-sf">${codexWorldRound("sf", [0])}</div>
@@ -2937,7 +2960,7 @@ function codexRenderWorldBracket() {
             <div class="codex-world-round codex-world-sf">${codexWorldRound("sf", [1])}</div>
             <div class="codex-world-round codex-world-qf">${codexWorldRound("qf", [2,3])}</div>
             <div class="codex-world-round codex-world-r16">${codexWorldRound("r16", [4,5,6,7])}</div>
-            <div class="codex-world-round codex-world-r32">${codexWorldMatches([76,78,79,80,86,88,85,87], true)}</div>
+            <div class="codex-world-round codex-world-r32">${codexWorldMatches([75,78,79,80,86,88,85,87], true)}</div>
           </div>
         </div>
       </div>

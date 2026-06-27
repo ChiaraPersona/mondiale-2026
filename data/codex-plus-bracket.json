@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T19:56:45.124Z",
+  "generatedAt": "2026-06-27T10:13:39.711Z",
   "title": "Pronostico Codex+ Mondiale 2026",
   "formula": "Codex 60% - Motivation Index 10% - Opta 12% - Klement 7% - Goldman Sachs 6% - IA varie 5%",
   "champion": "Spagna",
@@ -12,10 +12,10 @@
     "goalsB": 1,
     "winner": "Spagna",
     "note": "",
-    "expectedA": 1.82,
-    "expectedB": 0.91,
-    "codexPlusA": 87.5,
-    "codexPlusB": 76.4,
+    "expectedA": 1.94,
+    "expectedB": 0.92,
+    "codexPlusA": 92.7,
+    "codexPlusB": 79.9,
     "badgesA": [
       "Klement",
       "Opta 16.1%",
@@ -30,22 +30,22 @@
     "number": 103,
     "phase": "Finale 3&deg; posto - Partita 103",
     "teamA": "Francia",
-    "teamB": "Portogallo",
-    "goalsA": 2,
+    "teamB": "Argentina",
+    "goalsA": 1,
     "goalsB": 1,
     "winner": "Francia",
-    "note": "",
-    "expectedA": 2.15,
-    "expectedB": 1.17,
-    "codexPlusA": 72.9,
-    "codexPlusB": 72,
+    "note": "Francia vince dopo extra time",
+    "expectedA": 1.26,
+    "expectedB": 1.45,
+    "codexPlusA": 78.5,
+    "codexPlusB": 76.1,
     "badgesA": [
       "Opta 13.0%",
       "Claude"
     ],
     "badgesB": [
-      "Klement",
-      "Opta 7.0%"
+      "Opta 10.4%",
+      "ChatGPT"
     ]
   },
   "left": {
@@ -54,15 +54,15 @@
         "number": 74,
         "phase": "Sedicesimi - Partita 76",
         "teamA": "Germania",
-        "teamB": "Bosnia ed Erzegovina",
+        "teamB": "Paraguay",
         "goalsA": 4,
         "goalsB": 0,
         "winner": "Germania",
         "note": "",
-        "expectedA": 3.43,
+        "expectedA": 3.3,
         "expectedB": 0.03,
-        "codexPlusA": 66.1,
-        "codexPlusB": 40.8,
+        "codexPlusA": 71.6,
+        "codexPlusB": 34.8,
         "badgesA": [
           "Opta 5.1%"
         ],
@@ -72,15 +72,15 @@
         "number": 77,
         "phase": "Sedicesimi - Partita 78",
         "teamA": "Francia",
-        "teamB": "Iran",
+        "teamB": "Svezia",
         "goalsA": 4,
         "goalsB": 0,
         "winner": "Francia",
         "note": "",
-        "expectedA": 3.3,
+        "expectedA": 3.54,
         "expectedB": 0.03,
-        "codexPlusA": 72.9,
-        "codexPlusB": 42.6,
+        "codexPlusA": 78.5,
+        "codexPlusB": 38.2,
         "badgesA": [
           "Opta 13.0%",
           "Claude"
@@ -90,38 +90,38 @@
       {
         "number": 73,
         "phase": "Sedicesimi - Partita 73",
-        "teamA": "Corea del Sud",
+        "teamA": "Sudafrica",
         "teamB": "Canada",
-        "goalsA": 1,
-        "goalsB": 1,
-        "winner": "Corea del Sud",
-        "note": "Corea del Sud vince dopo extra time",
-        "expectedA": 1.27,
-        "expectedB": 1.06,
-        "codexPlusA": 44.9,
-        "codexPlusB": 42.3,
+        "goalsA": 0,
+        "goalsB": 2,
+        "winner": "Canada",
+        "note": "",
+        "expectedA": 0.09,
+        "expectedB": 2.03,
+        "codexPlusA": 38.2,
+        "codexPlusB": 45.3,
         "badgesA": [],
         "badgesB": []
       },
       {
-        "number": 75,
-        "phase": "Sedicesimi - Partita 74",
-        "teamA": "Brasile",
-        "teamB": "Giappone",
+        "number": 76,
+        "phase": "Sedicesimi - Partita 75",
+        "teamA": "Olanda",
+        "teamB": "Marocco",
         "goalsA": 2,
-        "goalsB": 0,
-        "winner": "Brasile",
+        "goalsB": 1,
+        "winner": "Olanda",
         "note": "",
-        "expectedA": 2,
-        "expectedB": 0.23,
-        "codexPlusA": 60.6,
-        "codexPlusB": 53.4,
+        "expectedA": 1.58,
+        "expectedB": 0.95,
+        "codexPlusA": 74.1,
+        "codexPlusB": 55.9,
         "badgesA": [
-          "Opta 6.6%"
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
         ],
-        "badgesB": [
-          "Klement"
-        ]
+        "badgesB": []
       },
       {
         "number": 83,
@@ -132,10 +132,10 @@
         "goalsB": 2,
         "winner": "Colombia",
         "note": "Colombia vince dopo extra time",
-        "expectedA": 0.9,
-        "expectedB": 1.43,
-        "codexPlusA": 51.4,
-        "codexPlusB": 53.6,
+        "expectedA": 1.01,
+        "expectedB": 1.46,
+        "codexPlusA": 53.6,
+        "codexPlusB": 54.5,
         "badgesA": [],
         "badgesB": []
       },
@@ -150,8 +150,8 @@
         "note": "",
         "expectedA": 3.3,
         "expectedB": 0.03,
-        "codexPlusA": 87.5,
-        "codexPlusB": 49.8,
+        "codexPlusA": 92.7,
+        "codexPlusB": 53.6,
         "badgesA": [
           "Klement",
           "Opta 16.1%",
@@ -163,15 +163,15 @@
         "number": 81,
         "phase": "Sedicesimi - Partita 82",
         "teamA": "Stati Uniti",
-        "teamB": "Norvegia",
-        "goalsA": 1,
-        "goalsB": 2,
-        "winner": "Norvegia",
+        "teamB": "Bosnia ed Erzegovina",
+        "goalsA": 3,
+        "goalsB": 0,
+        "winner": "Stati Uniti",
         "note": "",
-        "expectedA": 1.18,
-        "expectedB": 1.88,
-        "codexPlusA": 46.3,
-        "codexPlusB": 51.2,
+        "expectedA": 2.92,
+        "expectedB": 0.51,
+        "codexPlusA": 49.8,
+        "codexPlusB": 43.6,
         "badgesA": [],
         "badgesB": []
       },
@@ -179,15 +179,15 @@
         "number": 82,
         "phase": "Sedicesimi - Partita 81",
         "teamA": "Belgio",
-        "teamB": "Arabia Saudita",
-        "goalsA": 4,
+        "teamB": "Corea del Sud",
+        "goalsA": 3,
         "goalsB": 0,
         "winner": "Belgio",
         "note": "",
-        "expectedA": 3.37,
+        "expectedA": 2.81,
         "expectedB": 0.03,
-        "codexPlusA": 58.4,
-        "codexPlusB": 32,
+        "codexPlusA": 59.4,
+        "codexPlusB": 46.4,
         "badgesA": [],
         "badgesB": []
       }
@@ -199,13 +199,13 @@
         "teamA": "Germania",
         "teamB": "Francia",
         "goalsA": 1,
-        "goalsB": 1,
+        "goalsB": 2,
         "winner": "Francia",
-        "note": "Francia vince dopo extra time",
-        "expectedA": 1.4,
-        "expectedB": 1.63,
-        "codexPlusA": 66.1,
-        "codexPlusB": 72.9,
+        "note": "",
+        "expectedA": 1.36,
+        "expectedB": 1.76,
+        "codexPlusA": 71.6,
+        "codexPlusB": 78.5,
         "badgesA": [
           "Opta 5.1%"
         ],
@@ -217,16 +217,16 @@
       {
         "number": 90,
         "phase": "Ottavi - Partita 89",
-        "teamA": "Corea del Sud",
+        "teamA": "Canada",
         "teamB": "Brasile",
         "goalsA": 0,
-        "goalsB": 3,
+        "goalsB": 4,
         "winner": "Brasile",
         "note": "",
         "expectedA": 0.03,
-        "expectedB": 3.2,
-        "codexPlusA": 44.9,
-        "codexPlusB": 60.6,
+        "expectedB": 3.3,
+        "codexPlusA": 45.3,
+        "codexPlusB": 66.3,
         "badgesA": [],
         "badgesB": [
           "Opta 6.6%"
@@ -243,8 +243,8 @@
         "note": "",
         "expectedA": 0.03,
         "expectedB": 3.3,
-        "codexPlusA": 51.4,
-        "codexPlusB": 87.5,
+        "codexPlusA": 53.6,
+        "codexPlusB": 92.7,
         "badgesA": [],
         "badgesB": [
           "Klement",
@@ -255,16 +255,16 @@
       {
         "number": 94,
         "phase": "Ottavi - Partita 94",
-        "teamA": "Norvegia",
+        "teamA": "Stati Uniti",
         "teamB": "Belgio",
-        "goalsA": 0,
-        "goalsB": 2,
+        "goalsA": 1,
+        "goalsB": 3,
         "winner": "Belgio",
         "note": "",
-        "expectedA": 0.46,
-        "expectedB": 2.19,
-        "codexPlusA": 51.2,
-        "codexPlusB": 58.4,
+        "expectedA": 0.94,
+        "expectedB": 2.66,
+        "codexPlusA": 49.8,
+        "codexPlusB": 59.4,
         "badgesA": [],
         "badgesB": []
       }
@@ -279,10 +279,10 @@
         "goalsB": 1,
         "winner": "Francia",
         "note": "",
-        "expectedA": 1.99,
-        "expectedB": 0.66,
-        "codexPlusA": 72.9,
-        "codexPlusB": 60.6,
+        "expectedA": 2.01,
+        "expectedB": 0.72,
+        "codexPlusA": 78.5,
+        "codexPlusB": 66.3,
         "badgesA": [
           "Opta 13.0%",
           "Claude"
@@ -300,10 +300,10 @@
         "goalsB": 0,
         "winner": "Spagna",
         "note": "",
-        "expectedA": 3.02,
-        "expectedB": 0.1,
-        "codexPlusA": 87.5,
-        "codexPlusB": 58.4,
+        "expectedA": 3.18,
+        "expectedB": 0.04,
+        "codexPlusA": 92.7,
+        "codexPlusB": 59.4,
         "badgesA": [
           "Klement",
           "Opta 16.1%",
@@ -322,10 +322,10 @@
         "goalsB": 2,
         "winner": "Spagna",
         "note": "",
-        "expectedA": 1.01,
-        "expectedB": 2.24,
-        "codexPlusA": 72.9,
-        "codexPlusB": 87.5,
+        "expectedA": 1.07,
+        "expectedB": 2.32,
+        "codexPlusA": 78.5,
+        "codexPlusB": 92.7,
         "badgesA": [
           "Opta 13.0%",
           "Claude"
@@ -344,22 +344,22 @@
         "number": 102,
         "phase": "Semifinale - Partita 102",
         "teamA": "Inghilterra",
-        "teamB": "Portogallo",
-        "goalsA": 2,
+        "teamB": "Argentina",
+        "goalsA": 1,
         "goalsB": 1,
         "winner": "Inghilterra",
-        "note": "",
-        "expectedA": 1.77,
-        "expectedB": 0.8,
-        "codexPlusA": 76.4,
-        "codexPlusB": 72,
+        "note": "Inghilterra vince dopo extra time",
+        "expectedA": 1.21,
+        "expectedB": 1.2,
+        "codexPlusA": 79.9,
+        "codexPlusB": 76.1,
         "badgesA": [
           "Klement",
           "Opta 11.2%"
         ],
         "badgesB": [
-          "Klement",
-          "Opta 7.0%"
+          "Opta 10.4%",
+          "ChatGPT"
         ]
       }
     ],
@@ -369,14 +369,14 @@
         "phase": "Quarti - Partita 99",
         "teamA": "Olanda",
         "teamB": "Inghilterra",
-        "goalsA": 0,
+        "goalsA": 1,
         "goalsB": 2,
         "winner": "Inghilterra",
         "note": "",
-        "expectedA": 0.34,
+        "expectedA": 0.69,
         "expectedB": 2.4,
-        "codexPlusA": 70,
-        "codexPlusB": 76.4,
+        "codexPlusA": 74.1,
+        "codexPlusB": 79.9,
         "badgesA": [
           "Klement",
           "Opta 3.8%",
@@ -393,13 +393,13 @@
         "teamA": "Argentina",
         "teamB": "Portogallo",
         "goalsA": 2,
-        "goalsB": 2,
-        "winner": "Portogallo",
-        "note": "Portogallo vince dopo extra time",
-        "expectedA": 1.87,
-        "expectedB": 1.15,
-        "codexPlusA": 72.1,
-        "codexPlusB": 72,
+        "goalsB": 1,
+        "winner": "Argentina",
+        "note": "",
+        "expectedA": 2.06,
+        "expectedB": 1.12,
+        "codexPlusA": 76.1,
+        "codexPlusB": 72.6,
         "badgesA": [
           "Opta 10.4%",
           "ChatGPT"
@@ -415,15 +415,15 @@
         "number": 91,
         "phase": "Ottavi - Partita 91",
         "teamA": "Olanda",
-        "teamB": "Senegal",
+        "teamB": "Norvegia",
         "goalsA": 2,
-        "goalsB": 0,
+        "goalsB": 1,
         "winner": "Olanda",
         "note": "",
-        "expectedA": 2.36,
-        "expectedB": 0.2,
-        "codexPlusA": 70,
-        "codexPlusB": 44.7,
+        "expectedA": 2.35,
+        "expectedB": 0.55,
+        "codexPlusA": 74.1,
+        "codexPlusB": 55.9,
         "badgesA": [
           "Klement",
           "Opta 3.8%",
@@ -441,9 +441,9 @@
         "winner": "Inghilterra",
         "note": "",
         "expectedA": 0.03,
-        "expectedB": 3.11,
-        "codexPlusA": 47.8,
-        "codexPlusB": 76.4,
+        "expectedB": 3.21,
+        "codexPlusA": 49.1,
+        "codexPlusB": 79.9,
         "badgesA": [],
         "badgesB": [
           "Klement",
@@ -461,8 +461,8 @@
         "note": "",
         "expectedA": 3.3,
         "expectedB": 0.03,
-        "codexPlusA": 72.1,
-        "codexPlusB": 38.2,
+        "codexPlusA": 76.1,
+        "codexPlusB": 39.7,
         "badgesA": [
           "Opta 10.4%",
           "ChatGPT"
@@ -478,10 +478,10 @@
         "goalsB": 3,
         "winner": "Portogallo",
         "note": "",
-        "expectedA": 0.14,
-        "expectedB": 2.99,
-        "codexPlusA": 47.5,
-        "codexPlusB": 72,
+        "expectedA": 0.28,
+        "expectedB": 3,
+        "codexPlusA": 51.4,
+        "codexPlusB": 72.6,
         "badgesA": [],
         "badgesB": [
           "Klement",
@@ -491,38 +491,38 @@
     ],
     "r32": [
       {
-        "number": 76,
-        "phase": "Sedicesimi - Partita 75",
-        "teamA": "Olanda",
-        "teamB": "Marocco",
-        "goalsA": 1,
-        "goalsB": 1,
-        "winner": "Olanda",
-        "note": "Olanda vince dopo extra time",
-        "expectedA": 1.22,
-        "expectedB": 1.02,
-        "codexPlusA": 70,
-        "codexPlusB": 54.4,
+        "number": 75,
+        "phase": "Sedicesimi - Partita 74",
+        "teamA": "Brasile",
+        "teamB": "Giappone",
+        "goalsA": 2,
+        "goalsB": 0,
+        "winner": "Brasile",
+        "note": "",
+        "expectedA": 1.94,
+        "expectedB": 0.4,
+        "codexPlusA": 66.3,
+        "codexPlusB": 59,
         "badgesA": [
-          "Klement",
-          "Opta 3.8%",
-          "Gemini"
+          "Opta 6.6%"
         ],
-        "badgesB": []
+        "badgesB": [
+          "Klement"
+        ]
       },
       {
         "number": 78,
         "phase": "Sedicesimi - Partita 77",
         "teamA": "Costa d'Avorio",
-        "teamB": "Senegal",
-        "goalsA": 1,
+        "teamB": "Norvegia",
+        "goalsA": 0,
         "goalsB": 2,
-        "winner": "Senegal",
+        "winner": "Norvegia",
         "note": "",
-        "expectedA": 0.83,
-        "expectedB": 1.57,
-        "codexPlusA": 44.9,
-        "codexPlusB": 44.7,
+        "expectedA": 0.32,
+        "expectedB": 2.23,
+        "codexPlusA": 45.2,
+        "codexPlusB": 55.9,
         "badgesA": [],
         "badgesB": []
       },
@@ -530,15 +530,15 @@
         "number": 79,
         "phase": "Sedicesimi - Partita 79",
         "teamA": "Messico",
-        "teamB": "Ecuador",
-        "goalsA": 2,
+        "teamB": "Iraq",
+        "goalsA": 4,
         "goalsB": 0,
         "winner": "Messico",
         "note": "",
-        "expectedA": 1.98,
-        "expectedB": 0.55,
-        "codexPlusA": 47.8,
-        "codexPlusB": 44.3,
+        "expectedA": 3.3,
+        "expectedB": 0.03,
+        "codexPlusA": 49.1,
+        "codexPlusB": 31.2,
         "badgesA": [],
         "badgesB": []
       },
@@ -551,10 +551,10 @@
         "goalsB": 0,
         "winner": "Inghilterra",
         "note": "",
-        "expectedA": 3.45,
+        "expectedA": 3.48,
         "expectedB": 0.03,
-        "codexPlusA": 76.4,
-        "codexPlusB": 41.3,
+        "codexPlusA": 79.9,
+        "codexPlusB": 43.9,
         "badgesA": [
           "Klement",
           "Opta 11.2%"
@@ -565,15 +565,15 @@
         "number": 86,
         "phase": "Sedicesimi - Partita 88",
         "teamA": "Argentina",
-        "teamB": "Uruguay",
+        "teamB": "Capo Verde",
         "goalsA": 4,
         "goalsB": 0,
         "winner": "Argentina",
         "note": "",
-        "expectedA": 3.3,
+        "expectedA": 4.02,
         "expectedB": 0.03,
-        "codexPlusA": 72.1,
-        "codexPlusB": 40.3,
+        "codexPlusA": 76.1,
+        "codexPlusB": 33.6,
         "badgesA": [
           "Opta 10.4%",
           "ChatGPT"
@@ -585,14 +585,14 @@
         "phase": "Sedicesimi - Partita 87",
         "teamA": "Australia",
         "teamB": "Egitto",
-        "goalsA": 1,
-        "goalsB": 1,
+        "goalsA": 2,
+        "goalsB": 2,
         "winner": "Australia",
         "note": "Australia vince dopo extra time",
-        "expectedA": 1.02,
-        "expectedB": 1.18,
-        "codexPlusA": 38.2,
-        "codexPlusB": 41.6,
+        "expectedA": 0.89,
+        "expectedB": 1.4,
+        "codexPlusA": 39.7,
+        "codexPlusB": 43.9,
         "badgesA": [],
         "badgesB": []
       },
@@ -605,10 +605,10 @@
         "goalsB": 1,
         "winner": "Svizzera",
         "note": "",
-        "expectedA": 1.7,
-        "expectedB": 0.95,
-        "codexPlusA": 47.5,
-        "codexPlusB": 44.3,
+        "expectedA": 1.78,
+        "expectedB": 1.05,
+        "codexPlusA": 51.4,
+        "codexPlusB": 47.9,
         "badgesA": [],
         "badgesB": []
       },
@@ -616,15 +616,15 @@
         "number": 87,
         "phase": "Sedicesimi - Partita 86",
         "teamA": "Portogallo",
-        "teamB": "Turchia",
-        "goalsA": 3,
+        "teamB": "Ghana",
+        "goalsA": 4,
         "goalsB": 0,
         "winner": "Portogallo",
         "note": "",
-        "expectedA": 2.87,
+        "expectedA": 3.71,
         "expectedB": 0.03,
-        "codexPlusA": 72,
-        "codexPlusB": 45.3,
+        "codexPlusA": 72.6,
+        "codexPlusB": 32,
         "badgesA": [
           "Klement",
           "Opta 7.0%"
@@ -661,111 +661,44 @@
   ],
   "motivation": [
     {
-      "team": "Portogallo",
-      "total": 85,
-      "reasons": [
-        "Non ha mai vinto il Mondiale.",
-        "Probabile ultimo Mondiale di Cristiano Ronaldo.",
-        "Generazione forte e nel pieno della maturita.",
-        "Grande tradizione recente, ma nessun Mondiale vinto.",
-        "Progetto tecnico stabile e identita tattica chiara."
-      ]
+      "team": "Algeria",
+      "total": 80
     },
     {
-      "team": "Croazia",
-      "total": 75,
-      "reasons": [
-        "Non ha mai vinto il Mondiale.",
-        "Ultima corsa mondiale del gruppo Modric.",
-        "Finale 2018 persa e semifinale 2022: conto aperto con il torneo.",
-        "Progetto tecnico stabile e identita tattica chiara."
-      ]
+      "team": "Arabia Saudita",
+      "total": 80
     },
     {
-      "team": "Olanda",
-      "total": 75,
-      "reasons": [
-        "Non ha mai vinto il Mondiale.",
-        "Leader maturi e gruppo nel pieno della carriera internazionale.",
-        "Generazione forte e nel pieno della maturita.",
-        "Tre finali mondiali perse: la rivincita storica e enorme.",
-        "Progetto tecnico stabile e identita tattica chiara."
-      ]
+      "team": "Argentina",
+      "total": 80
+    },
+    {
+      "team": "Australia",
+      "total": 80
+    },
+    {
+      "team": "Austria",
+      "total": 80
     },
     {
       "team": "Belgio",
-      "total": 73,
-      "reasons": [
-        "Non ha mai vinto il Mondiale.",
-        "Ultima finestra reale per alcuni leader della generazione d'oro.",
-        "Rosa competitiva con diversi profili di alto livello.",
-        "Generazione molto forte mai premiata con un titolo.",
-        "Continuita tecnica discreta."
-      ]
+      "total": 80
     },
     {
-      "team": "Marocco",
-      "total": 70,
-      "reasons": [
-        "Non ha mai vinto il Mondiale.",
-        "Gruppo storico ancora spinto dal picco del 2022.",
-        "Rosa competitiva con diversi profili di alto livello.",
-        "Prima africana in semifinale: spinta a completare l'impresa.",
-        "Progetto tecnico stabile e identita tattica chiara."
-      ]
+      "team": "Bosnia ed Erzegovina",
+      "total": 80
     },
     {
-      "team": "Messico",
-      "total": 69,
-      "reasons": [
-        "Non ha mai vinto il Mondiale.",
-        "Leader esperti e Mondiale casalingo aumentano la spinta emotiva.",
-        "Rosa competitiva con diversi profili di alto livello.",
-        "Mondiale in casa e lunga attesa di un salto storico.",
-        "Continuita tecnica discreta."
-      ]
+      "team": "Brasile",
+      "total": 80
     },
     {
-      "team": "Colombia",
-      "total": 65,
-      "reasons": [
-        "Non ha mai vinto il Mondiale.",
-        "Leader offensivi nel pieno della maturita.",
-        "Rosa competitiva con diversi profili di alto livello.",
-        "Talento generazionale e desiderio di superare il miglior percorso storico.",
-        "Continuita tecnica discreta."
-      ]
+      "team": "Canada",
+      "total": 80
     },
     {
-      "team": "Inghilterra",
-      "total": 64,
-      "reasons": [
-        "Ha un solo titolo mondiale e forte pressione per riaprire il ciclo.",
-        "Leader offensivi nel pieno, pressione nazionale alta.",
-        "Generazione forte e nel pieno della maturita.",
-        "Un solo titolo nel 1966 e pressione storica costante.",
-        "Progetto tecnico stabile e identita tattica chiara."
-      ]
-    },
-    {
-      "team": "Stati Uniti",
-      "total": 64,
-      "reasons": [
-        "Non ha mai vinto il Mondiale.",
-        "Nucleo maturo davanti al pubblico di casa.",
-        "Rosa competitiva con diversi profili di alto livello.",
-        "Torneo casalingo e progetto costruito per alzare l'asticella.",
-        "Continuita tecnica discreta."
-      ]
-    },
-    {
-      "team": "Corea del Sud",
-      "total": 63,
-      "reasons": [
-        "Non ha mai vinto il Mondiale.",
-        "Son e la generazione esperta hanno una motivazione personale molto alta.",
-        "Generazione forte e nel pieno della maturita."
-      ]
+      "team": "Capo Verde",
+      "total": 80
     }
   ]
 }

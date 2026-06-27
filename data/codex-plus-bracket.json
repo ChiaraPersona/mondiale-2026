@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T10:13:39.711Z",
+  "generatedAt": "2026-06-27T10:18:15.463Z",
   "title": "Pronostico Codex+ Mondiale 2026",
   "formula": "Codex 60% - Motivation Index 10% - Opta 12% - Klement 7% - Goldman Sachs 6% - IA varie 5%",
   "champion": "Spagna",
@@ -7,45 +7,46 @@
     "number": 104,
     "phase": "Finale - Partita 104",
     "teamA": "Spagna",
-    "teamB": "Inghilterra",
+    "teamB": "Argentina",
     "goalsA": 2,
     "goalsB": 1,
     "winner": "Spagna",
     "note": "",
-    "expectedA": 1.94,
-    "expectedB": 0.92,
+    "expectedA": 1.96,
+    "expectedB": 0.6,
     "codexPlusA": 92.7,
-    "codexPlusB": 79.9,
+    "codexPlusB": 76.1,
     "badgesA": [
       "Klement",
       "Opta 16.1%",
       "Goldman"
     ],
     "badgesB": [
-      "Klement",
-      "Opta 11.2%"
+      "Opta 10.4%",
+      "ChatGPT"
     ]
   },
   "bronze": {
     "number": 103,
     "phase": "Finale 3&deg; posto - Partita 103",
     "teamA": "Francia",
-    "teamB": "Argentina",
-    "goalsA": 1,
+    "teamB": "Olanda",
+    "goalsA": 2,
     "goalsB": 1,
     "winner": "Francia",
-    "note": "Francia vince dopo extra time",
-    "expectedA": 1.26,
-    "expectedB": 1.45,
+    "note": "",
+    "expectedA": 2.07,
+    "expectedB": 0.77,
     "codexPlusA": 78.5,
-    "codexPlusB": 76.1,
+    "codexPlusB": 74.1,
     "badgesA": [
       "Opta 13.0%",
       "Claude"
     ],
     "badgesB": [
-      "Opta 10.4%",
-      "ChatGPT"
+      "Klement",
+      "Opta 3.8%",
+      "Gemini"
     ]
   },
   "left": {
@@ -127,17 +128,20 @@
         "number": 83,
         "phase": "Sedicesimi - Partita 84",
         "teamA": "Colombia",
-        "teamB": "Croazia",
-        "goalsA": 2,
-        "goalsB": 2,
-        "winner": "Colombia",
-        "note": "Colombia vince dopo extra time",
-        "expectedA": 1.01,
-        "expectedB": 1.46,
+        "teamB": "Inghilterra",
+        "goalsA": 0,
+        "goalsB": 3,
+        "winner": "Inghilterra",
+        "note": "",
+        "expectedA": 0.03,
+        "expectedB": 3.15,
         "codexPlusA": 53.6,
-        "codexPlusB": 54.5,
+        "codexPlusB": 79.9,
         "badgesA": [],
-        "badgesB": []
+        "badgesB": [
+          "Klement",
+          "Opta 11.2%"
+        ]
       },
       {
         "number": 84,
@@ -179,15 +183,15 @@
         "number": 82,
         "phase": "Sedicesimi - Partita 81",
         "teamA": "Belgio",
-        "teamB": "Corea del Sud",
+        "teamB": "Uruguay",
         "goalsA": 3,
         "goalsB": 0,
         "winner": "Belgio",
         "note": "",
-        "expectedA": 2.81,
+        "expectedA": 2.99,
         "expectedB": 0.03,
         "codexPlusA": 59.4,
-        "codexPlusB": 46.4,
+        "codexPlusB": 44.4,
         "badgesA": [],
         "badgesB": []
       }
@@ -235,17 +239,20 @@
       {
         "number": 93,
         "phase": "Ottavi - Partita 93",
-        "teamA": "Colombia",
+        "teamA": "Inghilterra",
         "teamB": "Spagna",
-        "goalsA": 0,
-        "goalsB": 4,
+        "goalsA": 1,
+        "goalsB": 2,
         "winner": "Spagna",
         "note": "",
-        "expectedA": 0.03,
-        "expectedB": 3.3,
-        "codexPlusA": 53.6,
+        "expectedA": 0.92,
+        "expectedB": 1.9,
+        "codexPlusA": 79.9,
         "codexPlusB": 92.7,
-        "badgesA": [],
+        "badgesA": [
+          "Klement",
+          "Opta 11.2%"
+        ],
         "badgesB": [
           "Klement",
           "Opta 16.1%",
@@ -343,19 +350,20 @@
       {
         "number": 102,
         "phase": "Semifinale - Partita 102",
-        "teamA": "Inghilterra",
+        "teamA": "Olanda",
         "teamB": "Argentina",
         "goalsA": 1,
-        "goalsB": 1,
-        "winner": "Inghilterra",
-        "note": "Inghilterra vince dopo extra time",
-        "expectedA": 1.21,
-        "expectedB": 1.2,
-        "codexPlusA": 79.9,
+        "goalsB": 2,
+        "winner": "Argentina",
+        "note": "",
+        "expectedA": 0.96,
+        "expectedB": 2.16,
+        "codexPlusA": 74.1,
         "codexPlusB": 76.1,
         "badgesA": [
           "Klement",
-          "Opta 11.2%"
+          "Opta 3.8%",
+          "Gemini"
         ],
         "badgesB": [
           "Opta 10.4%",
@@ -368,24 +376,21 @@
         "number": 99,
         "phase": "Quarti - Partita 99",
         "teamA": "Olanda",
-        "teamB": "Inghilterra",
-        "goalsA": 1,
-        "goalsB": 2,
-        "winner": "Inghilterra",
+        "teamB": "Messico",
+        "goalsA": 3,
+        "goalsB": 0,
+        "winner": "Olanda",
         "note": "",
-        "expectedA": 0.69,
-        "expectedB": 2.4,
+        "expectedA": 2.69,
+        "expectedB": 0.53,
         "codexPlusA": 74.1,
-        "codexPlusB": 79.9,
+        "codexPlusB": 49.1,
         "badgesA": [
           "Klement",
           "Opta 3.8%",
           "Gemini"
         ],
-        "badgesB": [
-          "Klement",
-          "Opta 11.2%"
-        ]
+        "badgesB": []
       },
       {
         "number": 100,
@@ -435,20 +440,17 @@
         "number": 92,
         "phase": "Ottavi - Partita 92",
         "teamA": "Messico",
-        "teamB": "Inghilterra",
-        "goalsA": 0,
-        "goalsB": 3,
-        "winner": "Inghilterra",
-        "note": "",
-        "expectedA": 0.03,
-        "expectedB": 3.21,
+        "teamB": "Croazia",
+        "goalsA": 2,
+        "goalsB": 2,
+        "winner": "Messico",
+        "note": "Messico vince dopo extra time",
+        "expectedA": 1.4,
+        "expectedB": 1.73,
         "codexPlusA": 49.1,
-        "codexPlusB": 79.9,
+        "codexPlusB": 54.5,
         "badgesA": [],
-        "badgesB": [
-          "Klement",
-          "Opta 11.2%"
-        ]
+        "badgesB": []
       },
       {
         "number": 95,
@@ -545,20 +547,17 @@
       {
         "number": 80,
         "phase": "Sedicesimi - Partita 80",
-        "teamA": "Inghilterra",
+        "teamA": "Croazia",
         "teamB": "RD Congo",
-        "goalsA": 4,
+        "goalsA": 3,
         "goalsB": 0,
-        "winner": "Inghilterra",
+        "winner": "Croazia",
         "note": "",
-        "expectedA": 3.48,
+        "expectedA": 2.69,
         "expectedB": 0.03,
-        "codexPlusA": 79.9,
+        "codexPlusA": 54.5,
         "codexPlusB": 43.9,
-        "badgesA": [
-          "Klement",
-          "Opta 11.2%"
-        ],
+        "badgesA": [],
         "badgesB": []
       },
       {

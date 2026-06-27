@@ -1234,6 +1234,22 @@ const worldCupResults = {
       "Presi Senegal vincente, No Goal e Over 2,5; mancato soltanto il risultato esatto 3-0.",
     ],
   },
+  64: {
+    status: "Finale",
+    home: 0,
+    away: 0,
+    source: "https://www.diretta.it/partita/calcio/arabia-saudita-biSY8ox4/capo-verde-MocyWdm7/?mid=487Xar9k",
+    sources: [
+      "https://www.diretta.it/partita/calcio/arabia-saudita-biSY8ox4/capo-verde-MocyWdm7/?mid=487Xar9k",
+    ],
+    scorers: {
+      "Capo Verde": [],
+      "Arabia Saudita": [],
+    },
+    notes: [
+      "Capo Verde e Arabia Saudita chiudono 0-0 nell'ultima giornata del Gruppo H.",
+    ],
+  },
   65: {
     status: "Finale",
     home: 0,
@@ -1272,6 +1288,23 @@ const worldCupResults = {
     notes: [
       "Belgio batte Nuova Zelanda 5-1 e conquista il primo posto nel Gruppo G.",
       "Trossard firma una doppietta; segnano anche De Bruyne, Lukaku e Saelemaekers. Just realizza il gol neozelandese.",
+    ],
+  },
+  67: {
+    status: "Finale",
+    home: 1,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/egitto-bejDn7NN/iran-xrRx85iA/?mid=OjRH5DuB",
+    sources: [
+      "https://www.diretta.it/partita/calcio/egitto-bejDn7NN/iran-xrRx85iA/?mid=OjRH5DuB",
+    ],
+    scorers: {
+      "Egitto": ["Mahmoud Saber"],
+      "Iran": ["Ramin Rezaeian"],
+    },
+    notes: [
+      "Egitto e Iran pareggiano 1-1: Saber apre al 5', Rezaeian risponde al 14'.",
+      "L'Egitto si qualifica ai sedicesimi come secondo del Gruppo G.",
     ],
   },
 };

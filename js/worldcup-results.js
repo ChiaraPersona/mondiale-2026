@@ -1234,6 +1234,46 @@ const worldCupResults = {
       "Presi Senegal vincente, No Goal e Over 2,5; mancato soltanto il risultato esatto 3-0.",
     ],
   },
+  65: {
+    status: "Finale",
+    home: 0,
+    away: 1,
+    source: "https://www.diretta.it/partita/calcio/spagna-bLyo6mco/uruguay-xMk44orG/?mid=8xM154oS",
+    sources: [
+      "https://www.diretta.it/partita/calcio/spagna-bLyo6mco/uruguay-xMk44orG/?mid=8xM154oS",
+    ],
+    scorers: {
+      "Uruguay": [],
+      "Spagna": ["Alex Baena"],
+    },
+    notes: [
+      "Spagna batte Uruguay 1-0 con il gol di Alex Baena al 42'.",
+      "La Spagna chiude il Gruppo H con una vittoria; Uruguay eliminato.",
+    ],
+  },
+  66: {
+    status: "Finale",
+    home: 1,
+    away: 5,
+    source: "https://www.diretta.it/partita/calcio/belgio-GbB957na/nuova-zelanda-rLctHkpU/?mid=jwT97ZAb",
+    sources: [
+      "https://www.diretta.it/partita/calcio/belgio-GbB957na/nuova-zelanda-rLctHkpU/?mid=jwT97ZAb",
+    ],
+    scorers: {
+      "Nuova Zelanda": ["Eli Just"],
+      "Belgio": [
+        "Leandro Trossard",
+        "Leandro Trossard",
+        "Kevin De Bruyne",
+        "Romelu Lukaku",
+        "Alexis Saelemaekers",
+      ],
+    },
+    notes: [
+      "Belgio batte Nuova Zelanda 5-1 e conquista il primo posto nel Gruppo G.",
+      "Trossard firma una doppietta; segnano anche De Bruyne, Lukaku e Saelemaekers. Just realizza il gol neozelandese.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

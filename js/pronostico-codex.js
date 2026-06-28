@@ -27,7 +27,7 @@ const codexRoundOf32FixedTeams = {
 };
 
 const codexBracketMatchNumbers = {
-  r32: [74, 77, 73, 76, 83, 84, 81, 82, 75, 78, 79, 80, 86, 88, 85, 87],
+  r32: [74, 77, 73, 75, 83, 84, 81, 82, 76, 78, 79, 80, 86, 88, 85, 87],
   r16: [89, 90, 93, 94, 91, 92, 95, 96],
   qf: [97, 98, 99, 100],
   sf: [101, 102],
@@ -37,8 +37,8 @@ const codexBracketMatchNumbers = {
 
 const codexDependencies = {
   89: [{ match: 74, result: "winner" }, { match: 77, result: "winner" }],
-  90: [{ match: 73, result: "winner" }, { match: 76, result: "winner" }],
-  91: [{ match: 75, result: "winner" }, { match: 78, result: "winner" }],
+  90: [{ match: 73, result: "winner" }, { match: 75, result: "winner" }],
+  91: [{ match: 76, result: "winner" }, { match: 78, result: "winner" }],
   92: [{ match: 79, result: "winner" }, { match: 80, result: "winner" }],
   93: [{ match: 83, result: "winner" }, { match: 84, result: "winner" }],
   94: [{ match: 81, result: "winner" }, { match: 82, result: "winner" }],

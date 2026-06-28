@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T09:15:59.385Z",
+  "generatedAt": "2026-06-28T09:21:48.188Z",
   "title": "Pronostico Codex+ Mondiale 2026",
   "formula": "Codex 60% - Motivation Index 10% - Opta 12% - Klement 7% - Goldman Sachs 6% - IA varie 5%",
   "champion": "Spagna",
@@ -104,24 +104,24 @@
         "badgesB": []
       },
       {
-        "number": 76,
-        "phase": "Sedicesimi - Partita 76",
-        "teamA": "Brasile",
-        "teamB": "Giappone",
+        "number": 75,
+        "phase": "Sedicesimi - Partita 75",
+        "teamA": "Olanda",
+        "teamB": "Marocco",
         "goalsA": 2,
-        "goalsB": 0,
-        "winner": "Brasile",
+        "goalsB": 1,
+        "winner": "Olanda",
         "note": "",
-        "expectedA": 2.05,
-        "expectedB": 0.4,
-        "codexPlusA": 66.3,
-        "codexPlusB": 59,
+        "expectedA": 1.58,
+        "expectedB": 0.95,
+        "codexPlusA": 74.1,
+        "codexPlusB": 55.9,
         "badgesA": [
-          "Opta 6.6%"
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
         ],
-        "badgesB": [
-          "Klement"
-        ]
+        "badgesB": []
       },
       {
         "number": 83,
@@ -221,18 +221,20 @@
         "number": 90,
         "phase": "Ottavi - Partita 90",
         "teamA": "Canada",
-        "teamB": "Brasile",
+        "teamB": "Olanda",
         "goalsA": 0,
-        "goalsB": 4,
-        "winner": "Brasile",
+        "goalsB": 3,
+        "winner": "Olanda",
         "note": "",
         "expectedA": 0.03,
-        "expectedB": 3.3,
+        "expectedB": 3.29,
         "codexPlusA": 45.3,
-        "codexPlusB": 66.3,
+        "codexPlusB": 74.1,
         "badgesA": [],
         "badgesB": [
-          "Opta 6.6%"
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
         ]
       },
       {
@@ -280,21 +282,23 @@
         "number": 97,
         "phase": "Quarti - Partita 97",
         "teamA": "Francia",
-        "teamB": "Brasile",
+        "teamB": "Olanda",
         "goalsA": 2,
         "goalsB": 1,
         "winner": "Francia",
         "note": "",
-        "expectedA": 2.01,
-        "expectedB": 0.72,
+        "expectedA": 2.07,
+        "expectedB": 0.81,
         "codexPlusA": 78.5,
-        "codexPlusB": 66.3,
+        "codexPlusB": 74.1,
         "badgesA": [
           "Opta 13.0%",
           "Claude"
         ],
         "badgesB": [
-          "Opta 6.6%"
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
         ]
       },
       {
@@ -373,20 +377,18 @@
       {
         "number": 99,
         "phase": "Quarti - Partita 99",
-        "teamA": "Olanda",
+        "teamA": "Brasile",
         "teamB": "Inghilterra",
         "goalsA": 1,
         "goalsB": 2,
         "winner": "Inghilterra",
         "note": "",
-        "expectedA": 0.69,
-        "expectedB": 2.4,
-        "codexPlusA": 74.1,
+        "expectedA": 0.97,
+        "expectedB": 2.41,
+        "codexPlusA": 66.3,
         "codexPlusB": 79.9,
         "badgesA": [
-          "Klement",
-          "Opta 3.8%",
-          "Gemini"
+          "Opta 6.6%"
         ],
         "badgesB": [
           "Klement",
@@ -417,20 +419,18 @@
       {
         "number": 91,
         "phase": "Ottavi - Partita 91",
-        "teamA": "Olanda",
+        "teamA": "Brasile",
         "teamB": "Norvegia",
         "goalsA": 2,
-        "goalsB": 1,
-        "winner": "Olanda",
+        "goalsB": 0,
+        "winner": "Brasile",
         "note": "",
-        "expectedA": 2.35,
-        "expectedB": 0.55,
-        "codexPlusA": 74.1,
+        "expectedA": 2.51,
+        "expectedB": 0.52,
+        "codexPlusA": 66.3,
         "codexPlusB": 55.9,
         "badgesA": [
-          "Klement",
-          "Opta 3.8%",
-          "Gemini"
+          "Opta 6.6%"
         ],
         "badgesB": []
       },
@@ -491,24 +491,24 @@
     ],
     "r32": [
       {
-        "number": 75,
-        "phase": "Sedicesimi - Partita 75",
-        "teamA": "Olanda",
-        "teamB": "Marocco",
+        "number": 76,
+        "phase": "Sedicesimi - Partita 76",
+        "teamA": "Brasile",
+        "teamB": "Giappone",
         "goalsA": 2,
-        "goalsB": 1,
-        "winner": "Olanda",
+        "goalsB": 0,
+        "winner": "Brasile",
         "note": "",
-        "expectedA": 1.58,
-        "expectedB": 0.95,
-        "codexPlusA": 74.1,
-        "codexPlusB": 55.9,
+        "expectedA": 2.05,
+        "expectedB": 0.4,
+        "codexPlusA": 66.3,
+        "codexPlusB": 59,
         "badgesA": [
-          "Klement",
-          "Opta 3.8%",
-          "Gemini"
+          "Opta 6.6%"
         ],
-        "badgesB": []
+        "badgesB": [
+          "Klement"
+        ]
       },
       {
         "number": 78,

@@ -70,7 +70,7 @@ globalThis.__bracketExport = {
   final: exportMatch(104),
   bronze: exportMatch(103),
   left: {
-    r32: [74, 77, 73, 76, 83, 84, 81, 82].map(exportMatch),
+    r32: [74, 77, 73, 75, 83, 84, 81, 82].map(exportMatch),
     r16: [89, 90, 93, 94].map(exportMatch),
     qf: [97, 98].map(exportMatch),
     sf: [101].map(exportMatch),
@@ -79,7 +79,7 @@ globalThis.__bracketExport = {
     sf: [102].map(exportMatch),
     qf: [99, 100].map(exportMatch),
     r16: [91, 92, 95, 96].map(exportMatch),
-    r32: [75, 78, 79, 80, 86, 88, 85, 87].map(exportMatch),
+    r32: [76, 78, 79, 80, 86, 88, 85, 87].map(exportMatch),
   },
   consensus: codexExternalConsensusRanking().slice(0, 6).map((row) => ({
     team: row.team,

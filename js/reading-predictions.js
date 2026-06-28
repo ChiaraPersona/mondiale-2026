@@ -25,10 +25,28 @@ const readingPredictions = {
    * Possibili ottavi costruiti esclusivamente dalle qualificate previste
    * nelle Letture dei sedicesimi. Sono proiezioni editoriali preliminari.
    */
-  "Germania|Francia": { home: 1, away: 2, stage: "Ottavi", basis: "Letture dei sedicesimi" },
-  "Canada|Olanda": { home: 0, away: 2, stage: "Ottavi", basis: "Letture dei sedicesimi" },
-  "Brasile|Norvegia": { home: 2, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi" },
-  "Messico|Inghilterra": { home: 0, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi" },
+  /*
+   * Francia avanti in cinque degli ultimi otto confronti, compresi
+   * il 2-0 del giugno 2025 e le sfide ufficiali del 2021 e 2016.
+   */
+  "Germania|Francia": { home: 1, away: 2, stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti" },
+  /*
+   * Due precedenti e due vittorie olandesi: 4-0 nel 2024 e 3-0 nel 1994.
+   * Il dato recente sostiene il divario tecnico e lo scenario No Goal.
+   */
+  "Canada|Olanda": { home: 0, away: 2, stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti" },
+  /*
+   * Norvegia imbattuta nei quattro precedenti: due vittorie e due pareggi.
+   * La serie è datata (ultimo confronto nel 2006), quindi aumenta il rischio
+   * sorpresa senza superare forma e qualità attuali del Brasile.
+   */
+  "Brasile|Norvegia": { home: 2, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti (rischio sorpresa medio-alto)" },
+  /*
+   * Inghilterra vincente negli ultimi quattro confronti disponibili,
+   * con 12 gol segnati e uno subito. Precedenti datati ma coerenti
+   * con la maggiore solidità prevista della squadra inglese.
+   */
+  "Messico|Inghilterra": { home: 0, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti" },
   /*
    * Cinque degli ultimi sei precedenti sono finiti in parità nei 90 minuti.
    * Le finali 2025 e 2012 sono arrivate ai rigori: Spagna avanti soltanto

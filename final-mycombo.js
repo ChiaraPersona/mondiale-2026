@@ -90,6 +90,13 @@ function compatible(combo, candidate) {
   const candidatePlayer = playerKey(candidate);
   if (candidatePlayer && combo.some((item) => playerKey(item) === candidatePlayer)) return false;
 
+  if (upper(candidate.mercato) === "UNDER/OVER"
+    && combo.some((item) => upper(item.mercato) === "UNDER/OVER")) return false;
+  if (upper(candidate.mercato) === "U/O PUNTI CARTELLINI"
+    && combo.some((item) => upper(item.mercato).includes("PUNTI CARTELLINI"))) return false;
+  if (upper(candidate.mercato).includes("PUNTI CARTELLINI")
+    && combo.some((item) => upper(item.mercato) === "U/O PUNTI CARTELLINI")) return false;
+
   // Una selezione già combinata non può essere una gamba di un'altra MyCombo.
   if (isPrebuiltCombo(candidate)) return false;
   return true;

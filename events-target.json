@@ -2,12 +2,19 @@
   "match": "Sudafrica - Canada",
   "scenario": "Canada favorito, partita da eliminazione diretta, Sudafrica più difensivo, Canada più pericoloso in fase offensiva.",
   "events": [
+    { "id": "canada_vince_90", "label": "Canada vincente nei 90 minuti", "search": ["1X2 ESITO FINALE", "ESITO FINALE 1X2", "2"], "probability": 55, "maxOdd": 1.8 },
+    { "id": "under_2_5", "label": "Under 2.5 gol", "search": ["U/O 2.5", "UNDER"], "probability": 67, "maxOdd": 1.8 },
+    { "id": "no_goal", "label": "No Goal", "search": ["GOAL/NOGOAL", "NOGOAL"], "probability": 63, "maxOdd": 1.8 },
     { "id": "canada_passa", "label": "Canada passa il turno", "search": ["PASSAGGIO TURNO", "2"], "probability": 78, "maxOdd": 1.8 },
     { "id": "under_4_5", "label": "Under 4.5 gol", "search": ["U/O 4.5", "UNDER"], "probability": 82, "maxOdd": 1.45 },
+    { "id": "david_3_tiri", "label": "David almeno 3 tiri totali nella partita", "search": ["DAVID J.", "ALMENO 3", "TIRI TOT"], "probability": 68, "maxOdd": 1.85 },
     { "id": "david_1_tiro_porta", "label": "David almeno 1 tiro in porta nella partita", "search": ["DAVID J.", "ALMENO 1", "TIRI IN PORTA"], "probability": 68, "maxOdd": 2.2 },
     { "id": "david_2_tiri", "label": "David almeno 2 tiri totali nella partita", "search": ["DAVID J.", "ALMENO 2", "TIRI TOT"], "probability": 72, "maxOdd": 2.0 },
     { "id": "buchanan_1_tiro", "label": "Buchanan almeno 1 tiro totale nella partita", "search": ["BUCHANAN T.", "ALMENO 1", "TIRI"], "probability": 64, "maxOdd": 2.1 },
+    { "id": "makgopa_2_tiri", "label": "Makgopa almeno 2 tiri totali nella partita", "search": ["MAKGOPA E.", "ALMENO 2", "TIRI TOT"], "probability": 58, "maxOdd": 1.8 },
     { "id": "over_cartellini_sudafrica", "label": "Sudafrica over cartellini", "search": ["SQUADRA 1", "CARTELLINI", "OVER"], "probability": 70, "maxOdd": 1.8 },
-    { "id": "canada_prima_2_corner", "label": "Canada prima a 2 corner", "search": ["PRIMA A 2 CALCI D'ANGOLO", "TEAM 2"], "probability": 66, "maxOdd": 1.6 }
+    { "id": "over_3_5_cartellini", "label": "Over 3.5 punti cartellini", "search": ["U/O 3.5 PUNTI CARTELLINI", "OVER"], "probability": 58, "maxOdd": 1.9 },
+    { "id": "canada_prima_2_corner", "label": "Canada prima a 2 corner", "search": ["PRIMA A 2 CALCI D'ANGOLO", "TEAM 2"], "probability": 66, "maxOdd": 1.6 },
+    { "id": "over_7_5_corner", "label": "Over 7.5 corner totali", "search": ["U/O 7.5 CORNER", "OVER"], "probability": 68, "maxOdd": 1.6 }
   ]
 }

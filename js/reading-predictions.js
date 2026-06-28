@@ -18,4 +18,6 @@ const readingPredictions = {
   "Portogallo|Croazia": { home: 1, away: 0, source: "lettura-portogallo-croazia.html" },
   "Svizzera|Algeria": { home: 2, away: 1, source: "lettura-svizzera-algeria.html" },
   "Australia|Egitto": { home: 0, away: 1, source: "lettura-australia-egitto.html" },
+  "Argentina|Capo Verde": { home: 3, away: 0, source: "lettura-argentina-capo-verde.html" },
+  "Colombia|Ghana": { home: 2, away: 0, source: "lettura-colombia-ghana.html" },
 };

@@ -1239,6 +1239,8 @@ const codexReadingLinks = {
   "Portogallo|Croazia": "lettura-portogallo-croazia.html",
   "Svizzera|Algeria": "lettura-svizzera-algeria.html",
   "Australia|Egitto": "lettura-australia-egitto.html",
+  "Argentina|Capo Verde": "lettura-argentina-capo-verde.html",
+  "Colombia|Ghana": "lettura-colombia-ghana.html",
 };
 
 function codexReadingLink(teamA, teamB) {

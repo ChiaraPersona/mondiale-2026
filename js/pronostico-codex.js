@@ -6,24 +6,23 @@ const codexRoundOf32Seeds = [
   ["1J", "2H"], ["2D", "2G"], ["1B", "3 EFGIJ"], ["1K", "3 DEIJL"],
 ];
 
-// Accoppiamenti gia confermati nel tabellone ufficiale del 27 giugno.
-// I valori null restano legati alla classifica/proiezione del rispettivo seed.
+// Accoppiamenti del tabellone finale ufficiale.
 const codexRoundOf32FixedTeams = {
   73: ["Sudafrica", "Canada"],
   74: ["Germania", "Paraguay"],
-  75: ["Brasile", "Giappone"],
-  76: ["Olanda", "Marocco"],
+  75: ["Olanda", "Marocco"],
+  76: ["Brasile", "Giappone"],
   77: ["Francia", "Svezia"],
   78: ["Costa d'Avorio", "Norvegia"],
-  79: ["Messico", null],
-  80: [null, null],
+  79: ["Messico", "Ecuador"],
+  80: ["Inghilterra", "RD Congo"],
   81: ["Stati Uniti", "Bosnia ed Erzegovina"],
-  82: ["Belgio", null],
-  83: [null, null],
-  84: ["Spagna", null],
-  85: ["Svizzera", null],
+  82: ["Belgio", "Senegal"],
+  83: ["Portogallo", "Croazia"],
+  84: ["Spagna", "Austria"],
+  85: ["Svizzera", "Algeria"],
   86: ["Argentina", "Capo Verde"],
-  87: [null, null],
+  87: ["Colombia", "Ghana"],
   88: ["Australia", "Egitto"],
 };
 

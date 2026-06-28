@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T10:40:44.341Z",
+  "generatedAt": "2026-06-28T09:15:59.385Z",
   "title": "Pronostico Codex+ Mondiale 2026",
   "formula": "Codex 60% - Motivation Index 10% - Opta 12% - Klement 7% - Goldman Sachs 6% - IA varie 5%",
   "champion": "Spagna",
@@ -7,51 +7,52 @@
     "number": 104,
     "phase": "Finale - Partita 104",
     "teamA": "Spagna",
-    "teamB": "Argentina",
+    "teamB": "Inghilterra",
     "goalsA": 2,
     "goalsB": 1,
     "winner": "Spagna",
     "note": "",
-    "expectedA": 1.96,
-    "expectedB": 0.6,
+    "expectedA": 1.94,
+    "expectedB": 0.92,
     "codexPlusA": 92.7,
-    "codexPlusB": 76.1,
+    "codexPlusB": 79.9,
     "badgesA": [
       "Klement",
       "Opta 16.1%",
       "Goldman"
     ],
     "badgesB": [
-      "Opta 10.4%",
-      "ChatGPT"
+      "Klement",
+      "Opta 11.2%"
     ]
   },
   "bronze": {
     "number": 103,
     "phase": "Finale 3&deg; posto - Partita 103",
     "teamA": "Francia",
-    "teamB": "Brasile",
-    "goalsA": 2,
+    "teamB": "Argentina",
+    "goalsA": 1,
     "goalsB": 1,
     "winner": "Francia",
-    "note": "",
-    "expectedA": 2.01,
-    "expectedB": 0.84,
+    "note": "Francia vince dopo extra time",
+    "expectedA": 1.26,
+    "expectedB": 1.45,
     "codexPlusA": 78.5,
-    "codexPlusB": 66.3,
+    "codexPlusB": 76.1,
     "badgesA": [
       "Opta 13.0%",
       "Claude"
     ],
     "badgesB": [
-      "Opta 6.6%"
+      "Opta 10.4%",
+      "ChatGPT"
     ]
   },
   "left": {
     "r32": [
       {
         "number": 74,
-        "phase": "Sedicesimi - Partita 76",
+        "phase": "Sedicesimi - Partita 74",
         "teamA": "Germania",
         "teamB": "Paraguay",
         "goalsA": 4,
@@ -69,7 +70,7 @@
       },
       {
         "number": 77,
-        "phase": "Sedicesimi - Partita 78",
+        "phase": "Sedicesimi - Partita 77",
         "teamA": "Francia",
         "teamB": "Svezia",
         "goalsA": 4,
@@ -104,46 +105,46 @@
       },
       {
         "number": 76,
-        "phase": "Sedicesimi - Partita 75",
-        "teamA": "Olanda",
-        "teamB": "Marocco",
+        "phase": "Sedicesimi - Partita 76",
+        "teamA": "Brasile",
+        "teamB": "Giappone",
+        "goalsA": 2,
+        "goalsB": 0,
+        "winner": "Brasile",
+        "note": "",
+        "expectedA": 2.05,
+        "expectedB": 0.4,
+        "codexPlusA": 66.3,
+        "codexPlusB": 59,
+        "badgesA": [
+          "Opta 6.6%"
+        ],
+        "badgesB": [
+          "Klement"
+        ]
+      },
+      {
+        "number": 83,
+        "phase": "Sedicesimi - Partita 83",
+        "teamA": "Portogallo",
+        "teamB": "Croazia",
         "goalsA": 2,
         "goalsB": 1,
-        "winner": "Olanda",
+        "winner": "Portogallo",
         "note": "",
-        "expectedA": 1.58,
-        "expectedB": 0.95,
-        "codexPlusA": 74.1,
-        "codexPlusB": 55.9,
+        "expectedA": 2.45,
+        "expectedB": 0.64,
+        "codexPlusA": 72.6,
+        "codexPlusB": 54.5,
         "badgesA": [
           "Klement",
-          "Opta 3.8%",
-          "Gemini"
+          "Opta 7.0%"
         ],
         "badgesB": []
       },
       {
-        "number": 83,
-        "phase": "Sedicesimi - Partita 84",
-        "teamA": "Colombia",
-        "teamB": "Inghilterra",
-        "goalsA": 0,
-        "goalsB": 3,
-        "winner": "Inghilterra",
-        "note": "",
-        "expectedA": 0.03,
-        "expectedB": 3.15,
-        "codexPlusA": 53.6,
-        "codexPlusB": 79.9,
-        "badgesA": [],
-        "badgesB": [
-          "Klement",
-          "Opta 11.2%"
-        ]
-      },
-      {
         "number": 84,
-        "phase": "Sedicesimi - Partita 83",
+        "phase": "Sedicesimi - Partita 84",
         "teamA": "Spagna",
         "teamB": "Austria",
         "goalsA": 4,
@@ -163,7 +164,7 @@
       },
       {
         "number": 81,
-        "phase": "Sedicesimi - Partita 82",
+        "phase": "Sedicesimi - Partita 81",
         "teamA": "Stati Uniti",
         "teamB": "Bosnia ed Erzegovina",
         "goalsA": 3,
@@ -179,17 +180,17 @@
       },
       {
         "number": 82,
-        "phase": "Sedicesimi - Partita 81",
+        "phase": "Sedicesimi - Partita 82",
         "teamA": "Belgio",
-        "teamB": "Uruguay",
-        "goalsA": 3,
+        "teamB": "Senegal",
+        "goalsA": 2,
         "goalsB": 0,
         "winner": "Belgio",
         "note": "",
-        "expectedA": 2.99,
-        "expectedB": 0.03,
+        "expectedA": 2.59,
+        "expectedB": 0.33,
         "codexPlusA": 59.4,
-        "codexPlusB": 44.4,
+        "codexPlusB": 48.4,
         "badgesA": [],
         "badgesB": []
       }
@@ -197,7 +198,7 @@
     "r16": [
       {
         "number": 89,
-        "phase": "Ottavi - Partita 90",
+        "phase": "Ottavi - Partita 89",
         "teamA": "Germania",
         "teamB": "Francia",
         "goalsA": 1,
@@ -218,40 +219,38 @@
       },
       {
         "number": 90,
-        "phase": "Ottavi - Partita 89",
+        "phase": "Ottavi - Partita 90",
         "teamA": "Canada",
-        "teamB": "Olanda",
+        "teamB": "Brasile",
         "goalsA": 0,
-        "goalsB": 3,
-        "winner": "Olanda",
+        "goalsB": 4,
+        "winner": "Brasile",
         "note": "",
         "expectedA": 0.03,
-        "expectedB": 3.29,
+        "expectedB": 3.3,
         "codexPlusA": 45.3,
-        "codexPlusB": 74.1,
+        "codexPlusB": 66.3,
         "badgesA": [],
         "badgesB": [
-          "Klement",
-          "Opta 3.8%",
-          "Gemini"
+          "Opta 6.6%"
         ]
       },
       {
         "number": 93,
         "phase": "Ottavi - Partita 93",
-        "teamA": "Inghilterra",
+        "teamA": "Portogallo",
         "teamB": "Spagna",
         "goalsA": 1,
-        "goalsB": 2,
+        "goalsB": 3,
         "winner": "Spagna",
         "note": "",
-        "expectedA": 0.92,
-        "expectedB": 1.9,
-        "codexPlusA": 79.9,
+        "expectedA": 0.57,
+        "expectedB": 2.93,
+        "codexPlusA": 72.6,
         "codexPlusB": 92.7,
         "badgesA": [
           "Klement",
-          "Opta 11.2%"
+          "Opta 7.0%"
         ],
         "badgesB": [
           "Klement",
@@ -281,23 +280,21 @@
         "number": 97,
         "phase": "Quarti - Partita 97",
         "teamA": "Francia",
-        "teamB": "Olanda",
+        "teamB": "Brasile",
         "goalsA": 2,
         "goalsB": 1,
         "winner": "Francia",
         "note": "",
-        "expectedA": 2.07,
-        "expectedB": 0.81,
+        "expectedA": 2.01,
+        "expectedB": 0.72,
         "codexPlusA": 78.5,
-        "codexPlusB": 74.1,
+        "codexPlusB": 66.3,
         "badgesA": [
           "Opta 13.0%",
           "Claude"
         ],
         "badgesB": [
-          "Klement",
-          "Opta 3.8%",
-          "Gemini"
+          "Opta 6.6%"
         ]
       },
       {
@@ -352,18 +349,19 @@
       {
         "number": 102,
         "phase": "Semifinale - Partita 102",
-        "teamA": "Brasile",
+        "teamA": "Inghilterra",
         "teamB": "Argentina",
         "goalsA": 1,
-        "goalsB": 2,
-        "winner": "Argentina",
-        "note": "",
-        "expectedA": 0.73,
-        "expectedB": 1.94,
-        "codexPlusA": 66.3,
+        "goalsB": 1,
+        "winner": "Inghilterra",
+        "note": "Inghilterra vince dopo extra time",
+        "expectedA": 1.21,
+        "expectedB": 1.2,
+        "codexPlusA": 79.9,
         "codexPlusB": 76.1,
         "badgesA": [
-          "Opta 6.6%"
+          "Klement",
+          "Opta 11.2%"
         ],
         "badgesB": [
           "Opta 10.4%",
@@ -375,60 +373,64 @@
       {
         "number": 99,
         "phase": "Quarti - Partita 99",
-        "teamA": "Brasile",
-        "teamB": "Messico",
-        "goalsA": 2,
-        "goalsB": 0,
-        "winner": "Brasile",
+        "teamA": "Olanda",
+        "teamB": "Inghilterra",
+        "goalsA": 1,
+        "goalsB": 2,
+        "winner": "Inghilterra",
         "note": "",
-        "expectedA": 2.5,
-        "expectedB": 0.28,
-        "codexPlusA": 66.3,
-        "codexPlusB": 49.1,
+        "expectedA": 0.69,
+        "expectedB": 2.4,
+        "codexPlusA": 74.1,
+        "codexPlusB": 79.9,
         "badgesA": [
-          "Opta 6.6%"
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
         ],
-        "badgesB": []
+        "badgesB": [
+          "Klement",
+          "Opta 11.2%"
+        ]
       },
       {
         "number": 100,
         "phase": "Quarti - Partita 100",
         "teamA": "Argentina",
-        "teamB": "Portogallo",
-        "goalsA": 2,
-        "goalsB": 1,
+        "teamB": "Colombia",
+        "goalsA": 3,
+        "goalsB": 0,
         "winner": "Argentina",
         "note": "",
-        "expectedA": 2.06,
-        "expectedB": 1.12,
+        "expectedA": 2.77,
+        "expectedB": 0.03,
         "codexPlusA": 76.1,
-        "codexPlusB": 72.6,
+        "codexPlusB": 53.6,
         "badgesA": [
           "Opta 10.4%",
           "ChatGPT"
         ],
-        "badgesB": [
-          "Klement",
-          "Opta 7.0%"
-        ]
+        "badgesB": []
       }
     ],
     "r16": [
       {
         "number": 91,
         "phase": "Ottavi - Partita 91",
-        "teamA": "Brasile",
+        "teamA": "Olanda",
         "teamB": "Norvegia",
         "goalsA": 2,
-        "goalsB": 0,
-        "winner": "Brasile",
+        "goalsB": 1,
+        "winner": "Olanda",
         "note": "",
-        "expectedA": 2.51,
-        "expectedB": 0.52,
-        "codexPlusA": 66.3,
+        "expectedA": 2.35,
+        "expectedB": 0.55,
+        "codexPlusA": 74.1,
         "codexPlusB": 55.9,
         "badgesA": [
-          "Opta 6.6%"
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
         ],
         "badgesB": []
       },
@@ -436,17 +438,20 @@
         "number": 92,
         "phase": "Ottavi - Partita 92",
         "teamA": "Messico",
-        "teamB": "Croazia",
-        "goalsA": 2,
-        "goalsB": 2,
-        "winner": "Messico",
-        "note": "Messico vince dopo extra time",
-        "expectedA": 1.4,
-        "expectedB": 1.73,
+        "teamB": "Inghilterra",
+        "goalsA": 0,
+        "goalsB": 3,
+        "winner": "Inghilterra",
+        "note": "",
+        "expectedA": 0.03,
+        "expectedB": 3.21,
         "codexPlusA": 49.1,
-        "codexPlusB": 54.5,
+        "codexPlusB": 79.9,
         "badgesA": [],
-        "badgesB": []
+        "badgesB": [
+          "Klement",
+          "Opta 11.2%"
+        ]
       },
       {
         "number": 95,
@@ -471,54 +476,51 @@
         "number": 96,
         "phase": "Ottavi - Partita 96",
         "teamA": "Svizzera",
-        "teamB": "Portogallo",
-        "goalsA": 0,
-        "goalsB": 3,
-        "winner": "Portogallo",
-        "note": "",
-        "expectedA": 0.28,
-        "expectedB": 3,
+        "teamB": "Colombia",
+        "goalsA": 1,
+        "goalsB": 1,
+        "winner": "Colombia",
+        "note": "Colombia vince dopo extra time",
+        "expectedA": 1.14,
+        "expectedB": 1.51,
         "codexPlusA": 51.4,
-        "codexPlusB": 72.6,
+        "codexPlusB": 53.6,
         "badgesA": [],
-        "badgesB": [
-          "Klement",
-          "Opta 7.0%"
-        ]
+        "badgesB": []
       }
     ],
     "r32": [
       {
         "number": 75,
-        "phase": "Sedicesimi - Partita 74",
-        "teamA": "Brasile",
-        "teamB": "Giappone",
+        "phase": "Sedicesimi - Partita 75",
+        "teamA": "Olanda",
+        "teamB": "Marocco",
         "goalsA": 2,
-        "goalsB": 0,
-        "winner": "Brasile",
+        "goalsB": 1,
+        "winner": "Olanda",
         "note": "",
-        "expectedA": 1.94,
-        "expectedB": 0.4,
-        "codexPlusA": 66.3,
-        "codexPlusB": 59,
+        "expectedA": 1.58,
+        "expectedB": 0.95,
+        "codexPlusA": 74.1,
+        "codexPlusB": 55.9,
         "badgesA": [
-          "Opta 6.6%"
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
         ],
-        "badgesB": [
-          "Klement"
-        ]
+        "badgesB": []
       },
       {
         "number": 78,
-        "phase": "Sedicesimi - Partita 77",
+        "phase": "Sedicesimi - Partita 78",
         "teamA": "Costa d'Avorio",
         "teamB": "Norvegia",
         "goalsA": 0,
         "goalsB": 2,
         "winner": "Norvegia",
         "note": "",
-        "expectedA": 0.32,
-        "expectedB": 2.23,
+        "expectedA": 0.37,
+        "expectedB": 2.16,
         "codexPlusA": 45.2,
         "codexPlusB": 55.9,
         "badgesA": [],
@@ -528,37 +530,40 @@
         "number": 79,
         "phase": "Sedicesimi - Partita 79",
         "teamA": "Messico",
-        "teamB": "Iraq",
-        "goalsA": 4,
-        "goalsB": 0,
+        "teamB": "Ecuador",
+        "goalsA": 2,
+        "goalsB": 1,
         "winner": "Messico",
         "note": "",
-        "expectedA": 3.3,
-        "expectedB": 0.03,
+        "expectedA": 1.96,
+        "expectedB": 0.84,
         "codexPlusA": 49.1,
-        "codexPlusB": 31.2,
+        "codexPlusB": 49.1,
         "badgesA": [],
         "badgesB": []
       },
       {
         "number": 80,
         "phase": "Sedicesimi - Partita 80",
-        "teamA": "Croazia",
+        "teamA": "Inghilterra",
         "teamB": "RD Congo",
-        "goalsA": 3,
+        "goalsA": 4,
         "goalsB": 0,
-        "winner": "Croazia",
+        "winner": "Inghilterra",
         "note": "",
-        "expectedA": 2.69,
+        "expectedA": 3.48,
         "expectedB": 0.03,
-        "codexPlusA": 54.5,
+        "codexPlusA": 79.9,
         "codexPlusB": 43.9,
-        "badgesA": [],
+        "badgesA": [
+          "Klement",
+          "Opta 11.2%"
+        ],
         "badgesB": []
       },
       {
         "number": 86,
-        "phase": "Sedicesimi - Partita 88",
+        "phase": "Sedicesimi - Partita 86",
         "teamA": "Argentina",
         "teamB": "Capo Verde",
         "goalsA": 4,
@@ -577,7 +582,7 @@
       },
       {
         "number": 88,
-        "phase": "Sedicesimi - Partita 87",
+        "phase": "Sedicesimi - Partita 88",
         "teamA": "Australia",
         "teamB": "Egitto",
         "goalsA": 2,
@@ -609,21 +614,18 @@
       },
       {
         "number": 87,
-        "phase": "Sedicesimi - Partita 86",
-        "teamA": "Portogallo",
+        "phase": "Sedicesimi - Partita 87",
+        "teamA": "Colombia",
         "teamB": "Ghana",
         "goalsA": 4,
         "goalsB": 0,
-        "winner": "Portogallo",
+        "winner": "Colombia",
         "note": "",
-        "expectedA": 3.71,
+        "expectedA": 3.44,
         "expectedB": 0.03,
-        "codexPlusA": 72.6,
+        "codexPlusA": 53.6,
         "codexPlusB": 32,
-        "badgesA": [
-          "Klement",
-          "Opta 7.0%"
-        ],
+        "badgesA": [],
         "badgesB": []
       }
     ]

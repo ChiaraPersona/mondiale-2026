@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pronostico Codex Mondiali 2026</title>
+  <link rel="stylesheet" href="css/styles.css?v=20260628-6">
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <img class="site-emblem" src="assets/world-cup-2026-logo.png" alt="FIFA World Cup 2026">
+      <div>
+        <h1>Pronostico Codex</h1>
+        <p class="sub">Simulazione automatica da statistiche squadra e calciatori di movimento.</p>
+      </div>
+    </div>
+
+    <nav class="page-links" aria-label="Sezioni">
+      <a class="page-link" href="index.html">Home</a>
+      <a class="page-link" href="convocati.html">Convocati</a>
+      <a class="page-link" href="player.html">Player</a>
+      <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
+      <a class="page-link" href="arbitri.html">Arbitri</a>
+      <div class="nav-dropdown">
+        <span class="page-link nav-dropdown-toggle active">Pronostico <span class="nav-caret">&#9662;</span></span>
+        <div class="nav-dropdown-menu">
+      <a class="page-link active" href="pronostico-codex.html">Pronostico Codex</a>
+      <a class="page-link" href="lettura.html">Lettura</a>
+        </div>
+      </div>
+      <a class="page-link" href="storia.html">Storia</a>
+      <a class="page-link utility-link" href="metodo-fonti.html">Metodo e fonti</a>
+    </nav>
+  </header>
+
+  <main class="codex-prediction-page">
+    <section class="codex-prediction-hero">
+      <div>
+        <span>Modello automatico</span>
+        <h2>Risultati previsti da Codex</h2>
+        <p>Il calcolo combina ultime 15 partite, valore degli avversari, rendimento dei calciatori, portieri, formazioni, minutaggio, gerarchie dei rigoristi e fattore mentale.</p>
+      </div>
+      <div id="codex-method" class="codex-method"></div>
+    </section>
+
+    <section class="codex-section codex-external-section">
+      <div class="prediction-section-head">
+        <span>Codex+</span>
+        <h2>Confronto con modelli esterni</h2>
+      </div>
+      <div id="codex-external-models" class="codex-external-models"></div>
+    </section>
+
+    <details class="codex-section codex-motivation-section">
+      <summary class="prediction-section-head codex-motivation-toggle">
+        <span>Playoff</span>
+        <h2>Stato motivazionale playoff</h2>
+      </summary>
+      <p class="data-confidence-note">Indice dinamico: fascia di partenza più bonus/malus del girone (massimo ±5). Pesa il 6–8% nei gironi e cresce dal 10% al 15% nei playoff, senza sostituire l’analisi tecnica.</p>
+      <div id="codex-motivation-ranking" class="codex-motivation-ranking"></div>
+    </details>
+
+    <section class="codex-section codex-explain-section">
+      <div class="prediction-section-head">
+        <span>Metodo</span>
+        <h2>Come legge le partite</h2>
+      </div>
+      <div class="codex-explain-grid">
+        <article>
+          <strong>Forma nazionale</strong>
+          <small>Le ultime 15 partite pesano molto, con maggiore attenzione alle gare piu recenti e al valore degli avversari.</small>
+        </article>
+        <article>
+          <strong>Forza squadra</strong>
+          <small>xG, xGA, tiri, tiri concessi, possesso e differenza reti influenzano risultato e goleade.</small>
+        </article>
+        <article>
+          <strong>Ranking gap</strong>
+          <small>Quando il divario FIFA/SofaScore e ampio, aumenta la forbice del risultato e la sfavorita segna solo in casi eccezionali.</small>
+        </article>
+        <article>
+          <strong>Gerarchie</strong>
+          <small>I marcatori vengono scelti solo tra titolari probabili e rigoristi indicati, con bonus per star player e attaccante principale.</small>
+        </article>
+        <article>
+          <strong>World Cup Index</strong>
+          <small>Tier squadra e indice forza delle probabili formazioni correggono ranking, forma recente e profondita della rosa.</small>
+        </article>
+        <article>
+          <strong>Distribuzione gol</strong>
+          <small>Dopo piu reti il peso cala, ma i terminali principali restano protetti da una soglia realistica se la nazionale gioca molte partite.</small>
+        </article>
+        <article>
+          <strong>Pedigree</strong>
+          <small>Finalizzatori con storico internazionale molto forte ricevono un piccolo bonus nei pareggi di proiezione.</small>
+        </article>
+        <article>
+          <strong>Minutaggio</strong>
+          <small>I titolari vengono stimati su 70-80 minuti; i rigoristi non titolari pesano come subentranti da 20-30 minuti.</small>
+        </article>
+        <article>
+          <strong>Portieri</strong>
+          <small>I dati in nazionale contano piu dei club quando il campione e abbastanza affidabile.</small>
+        </article>
+        <article>
+          <strong>Aggiornamento recente</strong>
+          <small>Le amichevoli del 3-5 giugno sono entrate nel peso forma: i risultati verificati incidono subito, le statistiche complete solo quando disponibili.</small>
+        </article>
+        <article>
+          <strong>Fattore mentale</strong>
+          <small>Motivazione dinamica al 6–8% nei gironi e al 10–15% nei playoff. Imbattibilità, qualificazione, record, leader, fattore campo, infortuni e pressione producono bonus o malus fino a 5 punti.</small>
+        </article>
+        <article>
+          <strong>Fattore Sorpresa</strong>
+          <small>Indice 0–100 costruito su equilibrio, forma, motivazione, assenze, turnover, stile, pressione e arbitro. Bonus ambientali e da eliminazione diretta restano separati e spiegati.</small>
+        </article>
+      </div>
+      <p class="data-confidence-note">Nota: il pronostico resta indicativo. Ufficialita, infortuni, rotazioni e scelte dei CT possono cambiare rapidamente il peso dei dati.</p>
+    </section>
+
+    <section class="codex-section">
+      <div class="prediction-section-head">
+        <span>Ranking</span>
+        <h2>Forza stimata</h2>
+      </div>
+      <div id="codex-team-ranking" class="codex-team-ranking"></div>
+    </section>
+
+    <section class="codex-section">
+      <div class="prediction-section-head">
+        <span>Marcatori</span>
+        <h2>Top 10 capocannonieri previsti</h2>
+      </div>
+      <div id="codex-top-scorers" class="codex-top-scorers"></div>
+    </section>
+
+    <section class="codex-section">
+      <div class="prediction-section-head">
+        <span>Disciplina</span>
+        <h2>Cartellini registrati</h2>
+      </div>
+      <div id="codex-discipline" class="codex-discipline"></div>
+    </section>
+
+    <details class="codex-section codex-collapsible-section">
+      <summary class="prediction-section-head codex-collapsible-toggle">
+        <span>Gironi</span>
+        <h2>Partite previste</h2>
+      </summary>
+      <div id="codex-group-fixtures" class="codex-fixture-days"></div>
+    </details>
+
+    <details class="codex-section codex-collapsible-section">
+      <summary class="prediction-section-head codex-collapsible-toggle">
+        <span>Classifiche</span>
+        <h2>Standings automatiche</h2>
+      </summary>
+      <div id="codex-standings" class="prediction-groups-grid codex-standings-grid"></div>
+    </details>
+
+    <details class="codex-section codex-thirds-section codex-collapsible-section">
+      <summary class="prediction-section-head codex-collapsible-toggle">
+        <span>Ripescaggi</span>
+        <h2>Migliori terze</h2>
+      </summary>
+      <div id="codex-thirds" class="prediction-thirds-table"></div>
+    </details>
+
+    <section class="codex-section codex-world-board-section">
+      <div class="prediction-section-head">
+        <span>World Champions</span>
+        <h2>Tabellone completo con marcatori</h2>
+      </div>
+      <div id="codex-world-bracket" class="codex-world-bracket"></div>
+    </section>
+
+    <details class="codex-section codex-collapsible-section" open>
+      <summary class="prediction-section-head codex-collapsible-toggle">
+        <span>Playoff</span>
+        <h2>Pronostici e stato motivazionale</h2>
+      </summary>
+      <div id="codex-knockout" class="codex-knockout-grid"></div>
+    </details>
+  </main>
+
+  <footer>
+    Pronostico automatico indicativo: usa forma recente, ranking, formazioni, minutaggio, rigoristi, portieri e fattori psicologici con peso moderato.
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/formations.js?v=20260628-3"></script>
+  <script src="js/formations-insights.js"></script>
+  <script src="js/penalty-takers.js"></script>
+  <script src="js/team-insights.js"></script>
+  <script src="js/fifa-rankings.js"></script>
+  <script src="js/team-stats-data.js"></script>
+  <script src="js/worldcup-fixtures.js"></script>
+  <script src="js/worldcup-results.js?v=20260627-2"></script>
+  <script src="js/reading-predictions.js?v=20260628-17"></script>
+  <script src="js/psychological-factors.js?v=20260628-2"></script>
+  <script src="js/pronostico-codex.js?v=20260628-10"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>
+

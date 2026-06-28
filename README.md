@@ -1,22 +1,16 @@
-# Convocati Mondiali 2026
+# Aggiornamento statistiche gratis
 
-Sito statico con le rose delle nazionali qualificate al Mondiale 2026, ordinate per girone.
+Il sito legge le statistiche da `js/stats.js`, in versione alleggerita: conserva medie, totali e riepiloghi utili, evitando lo storico completo delle singole partite quando non serve alla UI.
 
-## Struttura
+## Flusso consigliato
 
-- `index.html`: struttura della pagina.
-- `assets/css/styles.css`: colori, layout e stile.
-- `assets/js/data.js`: dati dei convocati, gironi, colori e bandiere.
-- `assets/js/app.js`: funzioni interattive della pagina.
-- `assets/flags/`: bandiere delle nazionali.
-- `scripts/`: script usati per rigenerare i dati.
-- `outputs/`: dati esportati in JSON/XLSX.
-- `fonti_scaricate/`: pagine sorgente salvate in locale.
+1. Compila un CSV gratuito con i dati trovati dalle fonti che stai usando per il sito.
+2. Lancia:
 
-## Come aprirlo
+```bash
+node scripts/update-stats-from-csv.js data/stats.csv
+```
 
-Apri `index.html` nel browser.
+3. Pubblica di nuovo il sito su GitHub Pages.
 
-## Pubblicazione su GitHub Pages
-
-Il sito e' statico: per pubblicarlo basta caricare questa cartella su GitHub e attivare GitHub Pages dalla branch principale.
+Nessuna API a pagamento e nessuna chiave esposta nel sito.

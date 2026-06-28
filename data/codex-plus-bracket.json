@@ -1,0 +1,693 @@
+{
+  "generatedAt": "2026-06-28T14:45:27.161Z",
+  "title": "Pronostico Codex+ Mondiale 2026",
+  "formula": "Codex 60% - Motivation Index 10% - Opta 12% - Klement 7% - Goldman Sachs 6% - IA varie 5%",
+  "champion": "Spagna",
+  "final": {
+    "number": 104,
+    "phase": "Finale - Partita 104",
+    "teamA": "Spagna",
+    "teamB": "Brasile",
+    "goalsA": 2,
+    "goalsB": 1,
+    "winner": "Spagna",
+    "note": "Possibile finale · Intero percorso previsto + precedente diretto del 2024",
+    "expectedA": 2.96,
+    "expectedB": 0.13,
+    "codexPlusA": 92.7,
+    "codexPlusB": 66.3,
+    "badgesA": [
+      "Klement",
+      "Opta 16.1%",
+      "Goldman"
+    ],
+    "badgesB": [
+      "Opta 6.6%"
+    ]
+  },
+  "bronze": {
+    "number": 103,
+    "phase": "Finale 3&deg; posto - Partita 103",
+    "teamA": "Francia",
+    "teamB": "Colombia",
+    "goalsA": 3,
+    "goalsB": 0,
+    "winner": "Francia",
+    "note": "",
+    "expectedA": 3.26,
+    "expectedB": 0.03,
+    "codexPlusA": 78.5,
+    "codexPlusB": 53.6,
+    "badgesA": [
+      "Opta 13.0%",
+      "Claude"
+    ],
+    "badgesB": []
+  },
+  "left": {
+    "r32": [
+      {
+        "number": 74,
+        "phase": "Sedicesimi - Partita 74",
+        "teamA": "Germania",
+        "teamB": "Paraguay",
+        "goalsA": 3,
+        "goalsB": 0,
+        "winner": "Germania",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 3.3,
+        "expectedB": 0.03,
+        "codexPlusA": 71.6,
+        "codexPlusB": 34.8,
+        "badgesA": [
+          "Opta 5.1%"
+        ],
+        "badgesB": []
+      },
+      {
+        "number": 77,
+        "phase": "Sedicesimi - Partita 77",
+        "teamA": "Francia",
+        "teamB": "Svezia",
+        "goalsA": 3,
+        "goalsB": 0,
+        "winner": "Francia",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 3.54,
+        "expectedB": 0.03,
+        "codexPlusA": 78.5,
+        "codexPlusB": 38.2,
+        "badgesA": [
+          "Opta 13.0%",
+          "Claude"
+        ],
+        "badgesB": []
+      },
+      {
+        "number": 73,
+        "phase": "Sedicesimi - Partita 73",
+        "teamA": "Sudafrica",
+        "teamB": "Canada",
+        "goalsA": 0,
+        "goalsB": 1,
+        "winner": "Canada",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 0.1,
+        "expectedB": 2.09,
+        "codexPlusA": 38.2,
+        "codexPlusB": 45.3,
+        "badgesA": [],
+        "badgesB": []
+      },
+      {
+        "number": 75,
+        "phase": "Sedicesimi - Partita 75",
+        "teamA": "Olanda",
+        "teamB": "Marocco",
+        "goalsA": 1,
+        "goalsB": 1,
+        "winner": "Olanda",
+        "note": "Olanda indicata per il passaggio del turno · fonte: Lettura",
+        "expectedA": 1.68,
+        "expectedB": 0.99,
+        "codexPlusA": 74.1,
+        "codexPlusB": 55.9,
+        "badgesA": [
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
+        ],
+        "badgesB": []
+      },
+      {
+        "number": 83,
+        "phase": "Sedicesimi - Partita 83",
+        "teamA": "Portogallo",
+        "teamB": "Croazia",
+        "goalsA": 1,
+        "goalsB": 0,
+        "winner": "Portogallo",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 2.59,
+        "expectedB": 0.67,
+        "codexPlusA": 72.6,
+        "codexPlusB": 54.5,
+        "badgesA": [
+          "Klement",
+          "Opta 7.0%"
+        ],
+        "badgesB": []
+      },
+      {
+        "number": 84,
+        "phase": "Sedicesimi - Partita 84",
+        "teamA": "Spagna",
+        "teamB": "Austria",
+        "goalsA": 2,
+        "goalsB": 0,
+        "winner": "Spagna",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 3.3,
+        "expectedB": 0.03,
+        "codexPlusA": 92.7,
+        "codexPlusB": 53.6,
+        "badgesA": [
+          "Klement",
+          "Opta 16.1%",
+          "Goldman"
+        ],
+        "badgesB": []
+      },
+      {
+        "number": 81,
+        "phase": "Sedicesimi - Partita 81",
+        "teamA": "Stati Uniti",
+        "teamB": "Bosnia ed Erzegovina",
+        "goalsA": 2,
+        "goalsB": 0,
+        "winner": "Stati Uniti",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 3,
+        "expectedB": 0.51,
+        "codexPlusA": 49.8,
+        "codexPlusB": 43.6,
+        "badgesA": [],
+        "badgesB": []
+      },
+      {
+        "number": 82,
+        "phase": "Sedicesimi - Partita 82",
+        "teamA": "Belgio",
+        "teamB": "Senegal",
+        "goalsA": 1,
+        "goalsB": 0,
+        "winner": "Belgio",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 2.68,
+        "expectedB": 0.33,
+        "codexPlusA": 59.4,
+        "codexPlusB": 48.4,
+        "badgesA": [],
+        "badgesB": []
+      }
+    ],
+    "r16": [
+      {
+        "number": 89,
+        "phase": "Ottavi - Partita 89",
+        "teamA": "Germania",
+        "teamB": "Francia",
+        "goalsA": 1,
+        "goalsB": 2,
+        "winner": "Francia",
+        "note": "Possibile ottavi · Letture dei sedicesimi + precedenti diretti",
+        "expectedA": 1.41,
+        "expectedB": 1.91,
+        "codexPlusA": 71.6,
+        "codexPlusB": 78.5,
+        "badgesA": [
+          "Opta 5.1%"
+        ],
+        "badgesB": [
+          "Opta 13.0%",
+          "Claude"
+        ]
+      },
+      {
+        "number": 90,
+        "phase": "Ottavi - Partita 90",
+        "teamA": "Canada",
+        "teamB": "Olanda",
+        "goalsA": 0,
+        "goalsB": 2,
+        "winner": "Olanda",
+        "note": "Possibile ottavi · Letture dei sedicesimi + precedenti diretti",
+        "expectedA": 0.03,
+        "expectedB": 3.3,
+        "codexPlusA": 45.3,
+        "codexPlusB": 74.1,
+        "badgesA": [],
+        "badgesB": [
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
+        ]
+      },
+      {
+        "number": 93,
+        "phase": "Ottavi - Partita 93",
+        "teamA": "Portogallo",
+        "teamB": "Spagna",
+        "goalsA": 1,
+        "goalsB": 1,
+        "winner": "Spagna",
+        "note": "Spagna indicata per il passaggio del turno · Letture dei sedicesimi + precedenti diretti",
+        "expectedA": 0.6,
+        "expectedB": 3.16,
+        "codexPlusA": 72.6,
+        "codexPlusB": 92.7,
+        "badgesA": [
+          "Klement",
+          "Opta 7.0%"
+        ],
+        "badgesB": [
+          "Klement",
+          "Opta 16.1%",
+          "Goldman"
+        ]
+      },
+      {
+        "number": 94,
+        "phase": "Ottavi - Partita 94",
+        "teamA": "Stati Uniti",
+        "teamB": "Belgio",
+        "goalsA": 1,
+        "goalsB": 2,
+        "winner": "Belgio",
+        "note": "Possibile ottavi · Letture dei sedicesimi + precedenti diretti (5-2 Belgio nel 2026)",
+        "expectedA": 0.97,
+        "expectedB": 2.75,
+        "codexPlusA": 49.8,
+        "codexPlusB": 59.4,
+        "badgesA": [],
+        "badgesB": []
+      }
+    ],
+    "qf": [
+      {
+        "number": 97,
+        "phase": "Quarti - Partita 97",
+        "teamA": "Francia",
+        "teamB": "Olanda",
+        "goalsA": 2,
+        "goalsB": 1,
+        "winner": "Francia",
+        "note": "Possibile quarti · Proiezioni precedenti + precedenti diretti",
+        "expectedA": 2.26,
+        "expectedB": 0.87,
+        "codexPlusA": 78.5,
+        "codexPlusB": 74.1,
+        "badgesA": [
+          "Opta 13.0%",
+          "Claude"
+        ],
+        "badgesB": [
+          "Klement",
+          "Opta 3.8%",
+          "Gemini"
+        ]
+      },
+      {
+        "number": 98,
+        "phase": "Quarti - Partita 98",
+        "teamA": "Spagna",
+        "teamB": "Belgio",
+        "goalsA": 2,
+        "goalsB": 0,
+        "winner": "Spagna",
+        "note": "Possibile quarti · Proiezioni precedenti + precedenti diretti",
+        "expectedA": 3.3,
+        "expectedB": 0.04,
+        "codexPlusA": 92.7,
+        "codexPlusB": 59.4,
+        "badgesA": [
+          "Klement",
+          "Opta 16.1%",
+          "Goldman"
+        ],
+        "badgesB": []
+      }
+    ],
+    "sf": [
+      {
+        "number": 101,
+        "phase": "Semifinale - Partita 101",
+        "teamA": "Francia",
+        "teamB": "Spagna",
+        "goalsA": 1,
+        "goalsB": 2,
+        "winner": "Spagna",
+        "note": "Possibile semifinale · Proiezioni precedenti + precedenti ufficiali recenti",
+        "expectedA": 1.18,
+        "expectedB": 2.57,
+        "codexPlusA": 78.5,
+        "codexPlusB": 92.7,
+        "badgesA": [
+          "Opta 13.0%",
+          "Claude"
+        ],
+        "badgesB": [
+          "Klement",
+          "Opta 16.1%",
+          "Goldman"
+        ]
+      }
+    ]
+  },
+  "right": {
+    "sf": [
+      {
+        "number": 102,
+        "phase": "Semifinale - Partita 102",
+        "teamA": "Brasile",
+        "teamB": "Colombia",
+        "goalsA": 1,
+        "goalsB": 1,
+        "winner": "Brasile",
+        "note": "Brasile indicata per il passaggio del turno · Proiezioni precedenti + precedenti diretti recenti",
+        "expectedA": 2.43,
+        "expectedB": 0.8,
+        "codexPlusA": 66.3,
+        "codexPlusB": 53.6,
+        "badgesA": [
+          "Opta 6.6%"
+        ],
+        "badgesB": []
+      }
+    ],
+    "qf": [
+      {
+        "number": 99,
+        "phase": "Quarti - Partita 99",
+        "teamA": "Brasile",
+        "teamB": "Inghilterra",
+        "goalsA": 1,
+        "goalsB": 0,
+        "winner": "Brasile",
+        "note": "Possibile quarti · Proiezioni precedenti + precedenti diretti",
+        "expectedA": 1.03,
+        "expectedB": 2.54,
+        "codexPlusA": 66.3,
+        "codexPlusB": 79.9,
+        "badgesA": [
+          "Opta 6.6%"
+        ],
+        "badgesB": [
+          "Klement",
+          "Opta 11.2%"
+        ]
+      },
+      {
+        "number": 100,
+        "phase": "Quarti - Partita 100",
+        "teamA": "Argentina",
+        "teamB": "Colombia",
+        "goalsA": 1,
+        "goalsB": 1,
+        "winner": "Colombia",
+        "note": "Colombia indicata per il passaggio del turno · Letture + precedenti recenti + fattore rivalsa Colombia",
+        "expectedA": 3.04,
+        "expectedB": 0.03,
+        "codexPlusA": 76.1,
+        "codexPlusB": 53.6,
+        "badgesA": [
+          "Opta 10.4%",
+          "ChatGPT"
+        ],
+        "badgesB": []
+      }
+    ],
+    "r16": [
+      {
+        "number": 91,
+        "phase": "Ottavi - Partita 91",
+        "teamA": "Brasile",
+        "teamB": "Norvegia",
+        "goalsA": 2,
+        "goalsB": 1,
+        "winner": "Brasile",
+        "note": "Possibile ottavi · Letture dei sedicesimi + precedenti diretti (rischio sorpresa medio-alto)",
+        "expectedA": 2.64,
+        "expectedB": 0.55,
+        "codexPlusA": 66.3,
+        "codexPlusB": 55.9,
+        "badgesA": [
+          "Opta 6.6%"
+        ],
+        "badgesB": []
+      },
+      {
+        "number": 92,
+        "phase": "Ottavi - Partita 92",
+        "teamA": "Messico",
+        "teamB": "Inghilterra",
+        "goalsA": 0,
+        "goalsB": 1,
+        "winner": "Inghilterra",
+        "note": "Possibile ottavi · Letture dei sedicesimi + precedenti diretti",
+        "expectedA": 0.03,
+        "expectedB": 3.3,
+        "codexPlusA": 49.1,
+        "codexPlusB": 79.9,
+        "badgesA": [],
+        "badgesB": [
+          "Klement",
+          "Opta 11.2%"
+        ]
+      },
+      {
+        "number": 95,
+        "phase": "Ottavi - Partita 95",
+        "teamA": "Argentina",
+        "teamB": "Egitto",
+        "goalsA": 2,
+        "goalsB": 0,
+        "winner": "Argentina",
+        "note": "Possibile ottavi · Letture dei sedicesimi",
+        "expectedA": 3.42,
+        "expectedB": 0.03,
+        "codexPlusA": 76.1,
+        "codexPlusB": 43.9,
+        "badgesA": [
+          "Opta 10.4%",
+          "ChatGPT"
+        ],
+        "badgesB": []
+      },
+      {
+        "number": 96,
+        "phase": "Ottavi - Partita 96",
+        "teamA": "Svizzera",
+        "teamB": "Colombia",
+        "goalsA": 1,
+        "goalsB": 1,
+        "winner": "Colombia",
+        "note": "Colombia indicata per il passaggio del turno · Letture dei sedicesimi + precedenti diretti",
+        "expectedA": 1.18,
+        "expectedB": 1.64,
+        "codexPlusA": 51.4,
+        "codexPlusB": 53.6,
+        "badgesA": [],
+        "badgesB": []
+      }
+    ],
+    "r32": [
+      {
+        "number": 76,
+        "phase": "Sedicesimi - Partita 76",
+        "teamA": "Brasile",
+        "teamB": "Giappone",
+        "goalsA": 2,
+        "goalsB": 1,
+        "winner": "Brasile",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 2.16,
+        "expectedB": 0.41,
+        "codexPlusA": 66.3,
+        "codexPlusB": 59,
+        "badgesA": [
+          "Opta 6.6%"
+        ],
+        "badgesB": [
+          "Klement"
+        ]
+      },
+      {
+        "number": 78,
+        "phase": "Sedicesimi - Partita 78",
+        "teamA": "Costa d'Avorio",
+        "teamB": "Norvegia",
+        "goalsA": 1,
+        "goalsB": 2,
+        "winner": "Norvegia",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 0.38,
+        "expectedB": 2.26,
+        "codexPlusA": 45.2,
+        "codexPlusB": 55.9,
+        "badgesA": [],
+        "badgesB": []
+      },
+      {
+        "number": 79,
+        "phase": "Sedicesimi - Partita 79",
+        "teamA": "Messico",
+        "teamB": "Ecuador",
+        "goalsA": 1,
+        "goalsB": 0,
+        "winner": "Messico",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 2.07,
+        "expectedB": 0.85,
+        "codexPlusA": 49.1,
+        "codexPlusB": 49.1,
+        "badgesA": [],
+        "badgesB": []
+      },
+      {
+        "number": 80,
+        "phase": "Sedicesimi - Partita 80",
+        "teamA": "Inghilterra",
+        "teamB": "RD Congo",
+        "goalsA": 3,
+        "goalsB": 0,
+        "winner": "Inghilterra",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 3.48,
+        "expectedB": 0.03,
+        "codexPlusA": 79.9,
+        "codexPlusB": 43.9,
+        "badgesA": [
+          "Klement",
+          "Opta 11.2%"
+        ],
+        "badgesB": []
+      },
+      {
+        "number": 86,
+        "phase": "Sedicesimi - Partita 86",
+        "teamA": "Argentina",
+        "teamB": "Capo Verde",
+        "goalsA": 3,
+        "goalsB": 0,
+        "winner": "Argentina",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 4.02,
+        "expectedB": 0.03,
+        "codexPlusA": 76.1,
+        "codexPlusB": 33.6,
+        "badgesA": [
+          "Opta 10.4%",
+          "ChatGPT"
+        ],
+        "badgesB": []
+      },
+      {
+        "number": 88,
+        "phase": "Sedicesimi - Partita 88",
+        "teamA": "Australia",
+        "teamB": "Egitto",
+        "goalsA": 0,
+        "goalsB": 1,
+        "winner": "Egitto",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 0.88,
+        "expectedB": 1.43,
+        "codexPlusA": 39.7,
+        "codexPlusB": 43.9,
+        "badgesA": [],
+        "badgesB": []
+      },
+      {
+        "number": 85,
+        "phase": "Sedicesimi - Partita 85",
+        "teamA": "Svizzera",
+        "teamB": "Algeria",
+        "goalsA": 2,
+        "goalsB": 1,
+        "winner": "Svizzera",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 1.85,
+        "expectedB": 1.09,
+        "codexPlusA": 51.4,
+        "codexPlusB": 47.9,
+        "badgesA": [],
+        "badgesB": []
+      },
+      {
+        "number": 87,
+        "phase": "Sedicesimi - Partita 87",
+        "teamA": "Colombia",
+        "teamB": "Ghana",
+        "goalsA": 2,
+        "goalsB": 0,
+        "winner": "Colombia",
+        "note": "Pronostico allineato alla Lettura",
+        "expectedA": 3.44,
+        "expectedB": 0.03,
+        "codexPlusA": 53.6,
+        "codexPlusB": 32,
+        "badgesA": [],
+        "badgesB": []
+      }
+    ]
+  },
+  "consensus": [
+    {
+      "team": "Spagna",
+      "points": 6
+    },
+    {
+      "team": "Olanda",
+      "points": 4
+    },
+    {
+      "team": "Portogallo",
+      "points": 3
+    },
+    {
+      "team": "Francia",
+      "points": 3
+    },
+    {
+      "team": "Inghilterra",
+      "points": 3
+    },
+    {
+      "team": "Argentina",
+      "points": 3
+    }
+  ],
+  "motivation": [
+    {
+      "team": "Argentina",
+      "total": 100
+    },
+    {
+      "team": "Colombia",
+      "total": 99
+    },
+    {
+      "team": "Francia",
+      "total": 98
+    },
+    {
+      "team": "Spagna",
+      "total": 98
+    },
+    {
+      "team": "Olanda",
+      "total": 95
+    },
+    {
+      "team": "Messico",
+      "total": 97
+    },
+    {
+      "team": "Portogallo",
+      "total": 96
+    },
+    {
+      "team": "Brasile",
+      "total": 97
+    },
+    {
+      "team": "Marocco",
+      "total": 90
+    },
+    {
+      "team": "Norvegia",
+      "total": 89
+    }
+  ]
+}

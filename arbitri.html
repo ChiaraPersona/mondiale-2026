@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arbitri Mondiali 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <img class="site-emblem" src="assets/world-cup-2026-logo.png" alt="FIFA World Cup 2026">
+      <div>
+        <h1>Arbitri Mondiali 2026</h1>
+        <p class="sub">I 52 arbitri principali selezionati dalla FIFA per il torneo.</p>
+      </div>
+
+      <label class="search" aria-label="Cerca">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5"></path>
+        </svg>
+        <input
+          id="referee-search"
+          type="search"
+          placeholder="Cerca arbitro, paese o confederazione"
+        >
+      </label>
+    </div>
+  
+        <nav class="page-links" aria-label="Sezioni">
+      <a class="page-link" href="index.html">Home</a>
+      <a class="page-link" href="convocati.html">Convocati</a>
+      <a class="page-link" href="player.html">Player</a>
+      <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
+      <a class="page-link active" href="arbitri.html">Arbitri</a>
+      <div class="nav-dropdown">
+        <span class="page-link nav-dropdown-toggle">Pronostico <span class="nav-caret">&#9662;</span></span>
+        <div class="nav-dropdown-menu">
+      <a class="page-link" href="pronostico-codex.html">Pronostico Codex</a>
+      <a class="page-link" href="lettura.html">Lettura</a>
+        </div>
+      </div>
+      <a class="page-link" href="storia.html">Storia</a>
+      <a class="page-link utility-link" href="metodo-fonti.html">Metodo e fonti</a>
+    </nav>
+
+      </header>
+
+  <main>
+    <section class="officials-intro">
+      <div>
+        <h2>Direttori di gara</h2>
+        <p>Elenco ordinato per confederazione, con ricerca e filtro rapido.</p>
+      </div>
+      <a class="official-source" href="https://vod.fifa.com/refereeing/media-releases/fifa-world-cup-2026-match-referees-appointed" target="_blank" rel="noreferrer">
+        Fonte FIFA
+      </a>
+    </section>
+
+    <div class="filters" id="referee-filters"></div>
+    <section class="card-ranking-panel" aria-label="Classifica media cartellini">
+      <div class="ranking-head">
+        <span>Disciplina</span>
+        <h2>Classifica media cartellini</h2>
+      </div>
+      <div id="referee-card-ranking" class="card-ranking-list"></div>
+    </section>
+    <section id="referee-content"></section>
+    <div class="empty" id="referee-empty">Nessun arbitro trovato con questi filtri.</div>
+  </main>
+
+  <footer>
+    Lista arbitri basata sulla pubblicazione FIFA del 9 aprile 2026.
+    Statistiche arbitrali dai profili PlayerStats, quando disponibili.
+  </footer>
+
+  <script src="js/referees.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>
+

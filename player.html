@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Player Mondiali 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <img class="site-emblem" src="assets/world-cup-2026-logo.png" alt="FIFA World Cup 2026">
+      <div>
+        <h1>Player</h1>
+        <p class="sub">Top 15 dei calciatori per rendimento e statistiche recenti.</p>
+      </div>
+
+      <label class="search" aria-label="Cerca calciatore">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5"></path>
+        </svg>
+        <input
+          id="player-ranking-search"
+          type="search"
+          placeholder="Cerca calciatore, nazionale o club"
+        >
+      </label>
+    </div>
+
+    <nav class="page-links" aria-label="Sezioni">
+      <a class="page-link" href="index.html">Home</a>
+      <a class="page-link" href="convocati.html">Convocati</a>
+      <a class="page-link active" href="player.html">Player</a>
+      <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
+      <a class="page-link" href="arbitri.html">Arbitri</a>
+      <div class="nav-dropdown">
+        <span class="page-link nav-dropdown-toggle">Pronostico <span class="nav-caret">&#9662;</span></span>
+        <div class="nav-dropdown-menu">
+      <a class="page-link" href="pronostico-codex.html">Pronostico Codex</a>
+      <a class="page-link" href="lettura.html">Lettura</a>
+        </div>
+      </div>
+      <a class="page-link" href="storia.html">Storia</a>
+      <a class="page-link utility-link" href="metodo-fonti.html">Metodo e fonti</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="player-rankings-intro">
+      <div>
+        <span>Classifiche giocatori</span>
+        <h2>Top 15 per statistica</h2>
+        <p>Le classifiche usano le ultime 15 partite generali quando disponibili. La vista Top Five ricalcola i valori solo sulle partite di Premier League, Liga, Ligue 1, Serie A e Bundesliga.</p>
+      </div>
+      <div class="team-stats-source-list">
+        <a href="https://www.diretta.it/" target="_blank" rel="noreferrer">Diretta</a>
+        <a href="https://www.sofascore.com/it" target="_blank" rel="noreferrer">SofaScore</a>
+      </div>
+    </section>
+    <p class="source-confidence-note"><span class="source-pill is-estimated">Dati stimati</span> Le classifiche usano solo campioni disponibili: quando una statistica manca, il giocatore resta fuori da quella specifica classifica.</p>
+
+    <section class="codex-section card-risk-section">
+      <div class="prediction-section-head">
+        <span>I CATTIVONI</span>
+        <h2>Giocatori da cartellino</h2>
+      </div>
+      <p class="data-confidence-note">Indice da 0 a 100 basato su dati di club e corretto, quando disponibile, con la frequenza di cartellini nelle presenze recenti in nazionale.</p>
+      <div id="card-risk-top" class="card-risk-top"></div>
+      <details class="codex-betting-all">
+        <summary>Tutti i cattivoni per girone</summary>
+        <div id="card-risk-content" class="card-risk-groups"></div>
+      </details>
+      <small id="card-risk-formula" class="card-risk-formula"></small>
+    </section>
+
+    <section class="player-ranking-modes" aria-label="Tipo classifica">
+      <button class="player-ranking-mode active" type="button" data-player-ranking-mode="all">Tutte le competizioni</button>
+      <button class="player-ranking-mode" type="button" data-player-ranking-mode="top-five">Top five</button>
+      <button class="player-ranking-mode" type="button" data-player-ranking-mode="national">Nazionale</button>
+    </section>
+
+    <section id="player-rankings-content" class="player-rankings-grid"></section>
+    <div class="empty" id="player-rankings-empty">Nessun calciatore trovato.</div>
+  </main>
+
+  <footer>
+    Le medie sono calcolate sui dati disponibili delle ultime 15 partite generali del calciatore.
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/card-risk-data.js"></script>
+  <script src="js/card-risk.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>
+

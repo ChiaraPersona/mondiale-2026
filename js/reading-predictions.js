@@ -66,4 +66,27 @@ const readingPredictions = {
    * ma la distanza temporale non giustifica un vantaggio netto nei 90 minuti.
    */
   "Svizzera|Colombia": { home: 1, away: 1, winner: "Colombia", stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti" },
+
+  /*
+   * Possibili quarti derivati dalle qualificate previste negli ottavi.
+   * Francia avanti nei confronti recenti con l'Olanda: sette vittorie
+   * negli ultimi nove precedenti, oltre allo 0-0 di Euro 2024.
+   */
+  "Francia|Olanda": { home: 2, away: 1, stage: "Quarti", basis: "Proiezioni precedenti + precedenti diretti" },
+  /*
+   * La Spagna ha vinto tutti i cinque precedenti mostrati con il Belgio,
+   * segnando 13 reti e subendone soltanto una.
+   */
+  "Spagna|Belgio": { home: 2, away: 0, stage: "Quarti", basis: "Proiezioni precedenti + precedenti diretti" },
+  /*
+   * Brasile favorito dalla serie storica e vincente 1-0 nel confronto
+   * più recente del marzo 2024. L'Inghilterra mantiene il punteggio basso.
+   */
+  "Brasile|Inghilterra": { home: 1, away: 0, stage: "Quarti", basis: "Proiezioni precedenti + precedenti diretti" },
+  /*
+   * I precedenti recenti sono equilibrati: 1-1 nel 2025 e 2-1 Colombia
+   * nel settembre 2024. La controversia arbitrale percepita nella finale
+   * di Copa America 2024 aggiunge un forte fattore rivalsa alla Colombia.
+   */
+  "Argentina|Colombia": { home: 1, away: 1, winner: "Colombia", stage: "Quarti", basis: "Letture + precedenti recenti + fattore rivalsa Colombia" },
 };

@@ -302,7 +302,7 @@ const playoffMotivationProfiles = {
   "Germania": { base: 91, tier: "very-high", reason: "grande bisogno di riscatto e ambizione da titolo" },
   "Olanda": { base: 91, tier: "very-high", reason: "talento, storia e desiderio di conquistare il primo Mondiale" },
   "Belgio": { base: 90, tier: "very-high", reason: "ultima finestra utile per una generazione di grande talento" },
-  "Colombia": { base: 91, tier: "very-high", reason: "squadra ambiziosa e convinta di poter arrivare nelle fasi decisive" },
+  "Colombia": { base: 94, tier: "very-high", reason: "squadra ambiziosa, precedenti recenti equilibrati con l'Argentina e forte desiderio di rivalsa dopo la finale di Copa America 2024" },
   "Croazia": { base: 90, tier: "very-high", reason: "esperienza nelle gare a eliminazione e forte identita competitiva" },
   "Messico": { base: 92, tier: "very-high", reason: "Mondiale in casa e enorme bisogno di superare il proprio limite storico" },
 
@@ -334,4 +334,5 @@ const playoffMotivationEvents = {
   "Stati Uniti": [{ value: 2, label: "paese ospitante ancora in corsa" }],
   "Canada": [{ value: 2, label: "paese ospitante ancora in corsa" }],
   "Capo Verde": [{ value: 3, label: "prima qualificazione alla fase playoff" }],
+  "Colombia": [{ value: 3, label: "rivalsa emotiva dopo la controversa finale di Copa America 2024" }],
 };

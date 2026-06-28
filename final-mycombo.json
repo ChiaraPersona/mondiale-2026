@@ -104,22 +104,232 @@
   ],
   "combos": {
     "quota5": {
-      "quotaTotale": null,
+      "quotaTotale": 2.65,
       "targetReached": false,
-      "reason": "Eventi compatibili e con value non negativo insufficienti",
-      "selections": []
+      "selections": [
+        {
+          "eventId": "over_cartellini_sudafrica",
+          "label": "Sudafrica over cartellini",
+          "probability": 70,
+          "quota": 1.48,
+          "mercato": "U/O PUNTI CARTELLINI SQUADRA",
+          "info": "SQUADRA 1: U/O 1.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "esito": "OVER",
+          "selectionId": 5193406581,
+          "marketId": 788623683,
+          "codiceMercato": 31401,
+          "impliedProbability": 67.6,
+          "value": 2.4
+        },
+        {
+          "eventId": "canada_prima_2_corner",
+          "label": "Canada prima a 2 corner",
+          "probability": 66,
+          "quota": 1.3,
+          "mercato": "PRIMA A X CORNER",
+          "info": "PRIMA A 2 CALCI D'ANGOLO",
+          "esito": "TEAM 2",
+          "selectionId": 5193603568,
+          "marketId": 788652151,
+          "codiceMercato": 13585,
+          "impliedProbability": 76.9,
+          "value": -10.9
+        },
+        {
+          "eventId": "david_1_tiro_porta",
+          "label": "David almeno 1 tiro in porta nella partita",
+          "probability": 68,
+          "quota": 1.25,
+          "mercato": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "DAVID J. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "esito": "OVER",
+          "selectionId": 5193120014,
+          "marketId": 788570452,
+          "codiceMercato": 28506,
+          "impliedProbability": 80,
+          "value": -12
+        },
+        {
+          "eventId": "under_4_5",
+          "label": "Under 4.5 gol",
+          "probability": 82,
+          "quota": 1.05,
+          "mercato": "UNDER/OVER",
+          "info": "U/O 4.5",
+          "esito": "UNDER",
+          "selectionId": 5192624067,
+          "marketId": 788486855,
+          "codiceMercato": 7989,
+          "impliedProbability": 95.2,
+          "value": -13.2
+        },
+        {
+          "eventId": "buchanan_1_tiro",
+          "label": "Buchanan almeno 1 tiro totale nella partita",
+          "probability": 64,
+          "quota": 1.05,
+          "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "info": "BUCHANAN T. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "esito": "OVER",
+          "selectionId": 5193122754,
+          "marketId": 788571137,
+          "codiceMercato": 28507,
+          "impliedProbability": 95.2,
+          "value": -31.2
+        }
+      ]
     },
     "quota10": {
-      "quotaTotale": null,
+      "quotaTotale": 2.65,
       "targetReached": false,
-      "reason": "Eventi compatibili e con value non negativo insufficienti",
-      "selections": []
+      "selections": [
+        {
+          "eventId": "over_cartellini_sudafrica",
+          "label": "Sudafrica over cartellini",
+          "probability": 70,
+          "quota": 1.48,
+          "mercato": "U/O PUNTI CARTELLINI SQUADRA",
+          "info": "SQUADRA 1: U/O 1.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "esito": "OVER",
+          "selectionId": 5193406581,
+          "marketId": 788623683,
+          "codiceMercato": 31401,
+          "impliedProbability": 67.6,
+          "value": 2.4
+        },
+        {
+          "eventId": "canada_prima_2_corner",
+          "label": "Canada prima a 2 corner",
+          "probability": 66,
+          "quota": 1.3,
+          "mercato": "PRIMA A X CORNER",
+          "info": "PRIMA A 2 CALCI D'ANGOLO",
+          "esito": "TEAM 2",
+          "selectionId": 5193603568,
+          "marketId": 788652151,
+          "codiceMercato": 13585,
+          "impliedProbability": 76.9,
+          "value": -10.9
+        },
+        {
+          "eventId": "david_1_tiro_porta",
+          "label": "David almeno 1 tiro in porta nella partita",
+          "probability": 68,
+          "quota": 1.25,
+          "mercato": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "DAVID J. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "esito": "OVER",
+          "selectionId": 5193120014,
+          "marketId": 788570452,
+          "codiceMercato": 28506,
+          "impliedProbability": 80,
+          "value": -12
+        },
+        {
+          "eventId": "under_4_5",
+          "label": "Under 4.5 gol",
+          "probability": 82,
+          "quota": 1.05,
+          "mercato": "UNDER/OVER",
+          "info": "U/O 4.5",
+          "esito": "UNDER",
+          "selectionId": 5192624067,
+          "marketId": 788486855,
+          "codiceMercato": 7989,
+          "impliedProbability": 95.2,
+          "value": -13.2
+        },
+        {
+          "eventId": "buchanan_1_tiro",
+          "label": "Buchanan almeno 1 tiro totale nella partita",
+          "probability": 64,
+          "quota": 1.05,
+          "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "info": "BUCHANAN T. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "esito": "OVER",
+          "selectionId": 5193122754,
+          "marketId": 788571137,
+          "codiceMercato": 28507,
+          "impliedProbability": 95.2,
+          "value": -31.2
+        }
+      ]
     },
     "quota20": {
-      "quotaTotale": null,
+      "quotaTotale": 2.65,
       "targetReached": false,
-      "reason": "Eventi compatibili e con value non negativo insufficienti",
-      "selections": []
+      "selections": [
+        {
+          "eventId": "over_cartellini_sudafrica",
+          "label": "Sudafrica over cartellini",
+          "probability": 70,
+          "quota": 1.48,
+          "mercato": "U/O PUNTI CARTELLINI SQUADRA",
+          "info": "SQUADRA 1: U/O 1.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "esito": "OVER",
+          "selectionId": 5193406581,
+          "marketId": 788623683,
+          "codiceMercato": 31401,
+          "impliedProbability": 67.6,
+          "value": 2.4
+        },
+        {
+          "eventId": "canada_prima_2_corner",
+          "label": "Canada prima a 2 corner",
+          "probability": 66,
+          "quota": 1.3,
+          "mercato": "PRIMA A X CORNER",
+          "info": "PRIMA A 2 CALCI D'ANGOLO",
+          "esito": "TEAM 2",
+          "selectionId": 5193603568,
+          "marketId": 788652151,
+          "codiceMercato": 13585,
+          "impliedProbability": 76.9,
+          "value": -10.9
+        },
+        {
+          "eventId": "david_1_tiro_porta",
+          "label": "David almeno 1 tiro in porta nella partita",
+          "probability": 68,
+          "quota": 1.25,
+          "mercato": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "DAVID J. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "esito": "OVER",
+          "selectionId": 5193120014,
+          "marketId": 788570452,
+          "codiceMercato": 28506,
+          "impliedProbability": 80,
+          "value": -12
+        },
+        {
+          "eventId": "under_4_5",
+          "label": "Under 4.5 gol",
+          "probability": 82,
+          "quota": 1.05,
+          "mercato": "UNDER/OVER",
+          "info": "U/O 4.5",
+          "esito": "UNDER",
+          "selectionId": 5192624067,
+          "marketId": 788486855,
+          "codiceMercato": 7989,
+          "impliedProbability": 95.2,
+          "value": -13.2
+        },
+        {
+          "eventId": "buchanan_1_tiro",
+          "label": "Buchanan almeno 1 tiro totale nella partita",
+          "probability": 64,
+          "quota": 1.05,
+          "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "info": "BUCHANAN T. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "esito": "OVER",
+          "selectionId": 5193122754,
+          "marketId": 788571137,
+          "codiceMercato": 28507,
+          "impliedProbability": 95.2,
+          "value": -31.2
+        }
+      ]
     }
   }
 }

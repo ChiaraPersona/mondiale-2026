@@ -102,7 +102,6 @@ const candidates = targets.events
 
 function eligibleForMyCombo(candidate) {
   const market = upper(candidate.mercato);
-  if (candidate.value < 0) return false;
   if (market === "PASSAGGIO TURNO") return false;
   if (isPrebuiltCombo(candidate)) return false;
   return true;
@@ -143,7 +142,7 @@ function buildCombo(target) {
     return {
       quotaTotale: null,
       targetReached: false,
-      reason: "Eventi compatibili e con value non negativo insufficienti",
+      reason: "Eventi compatibili insufficienti",
       selections: [],
     };
   }

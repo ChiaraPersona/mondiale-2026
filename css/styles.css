@@ -6887,7 +6887,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 18px;
+  padding: 17px 22px;
   border-bottom-color: rgba(126, 194, 255, .12);
   background:
     radial-gradient(circle at 0 50%, rgba(108, 183, 255, .18), transparent 42%),
@@ -6910,8 +6910,8 @@ body {
 .codex-group-results > div,
 .codex-knockout-round > div {
   display: grid;
-  gap: 12px;
-  padding: 12px;
+  gap: 14px;
+  padding: 15px;
   background: transparent;
 }
 
@@ -6926,9 +6926,10 @@ body {
 
 .codex-knockout-round .codex-match-card {
   position: relative;
-  grid-template-columns: 38px minmax(0, 1fr);
+  grid-template-columns: 46px minmax(0, 1fr);
   align-items: start;
-  padding: 17px 14px 14px;
+  gap: 16px;
+  padding: 19px 22px 18px;
   border: 1px solid rgba(108, 183, 255, .26);
   border-radius: 16px;
   background:
@@ -6975,13 +6976,13 @@ body {
 .codex-knockout-round .fixture-number {
   display: grid;
   place-items: center;
-  width: 34px;
-  height: 34px;
+  width: 42px;
+  height: 42px;
   border: 1px solid rgba(245, 200, 75, .24);
   border-radius: 11px;
   color: #f5c84b;
   background: rgba(245, 200, 75, .08);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 950;
 }
 
@@ -7015,10 +7016,10 @@ body {
 
 .codex-knockout-round .codex-match-scoreline {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 48px minmax(0, 1fr);
-  gap: 10px;
-  margin-top: 7px;
-  font-size: 14px;
+  grid-template-columns: minmax(180px, 1fr) 62px minmax(180px, 1fr);
+  gap: 18px;
+  margin-top: 9px;
+  font-size: 16px;
 }
 
 .codex-knockout-round .codex-match-team:last-child {
@@ -7054,10 +7055,10 @@ body {
 }
 
 .codex-knockout-round .codex-match-score {
-  min-height: 32px;
+  min-height: 38px;
   border-radius: 10px;
   box-shadow: 0 5px 16px rgba(245, 200, 75, .12);
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .codex-match-scorers {
@@ -7498,14 +7499,14 @@ body {
 
 .codex-knockout-grid {
   display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 18px;
-  margin-top: 20px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 22px;
+  margin-top: 22px;
 }
 
 .codex-knockout-round {
   overflow: hidden;
-  grid-column: span 6;
+  grid-column: 1 / -1;
   border: 1px solid rgba(126, 194, 255, .16);
   border-radius: 20px;
   background: linear-gradient(145deg, rgba(18, 27, 40, .96), rgba(7, 11, 18, .92));
@@ -7513,7 +7514,7 @@ body {
 }
 
 .codex-knockout-round-5 {
-  grid-column: 4 / span 6;
+  grid-column: 1 / -1;
 }
 
 .codex-world-board-section {

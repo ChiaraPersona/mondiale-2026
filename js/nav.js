@@ -1,5 +1,12 @@
 const readingPage = document.body.classList.contains("reading-page");
 
+if (readingPage && !document.querySelector('script[data-mycombo-export]')) {
+  const myComboScript = document.createElement("script");
+  myComboScript.src = "js/mycombo-export.js";
+  myComboScript.dataset.mycomboExport = "true";
+  document.head.appendChild(myComboScript);
+}
+
 if (readingPage && !document.querySelector(".page-links")) {
   const header = document.querySelector("body > header");
 

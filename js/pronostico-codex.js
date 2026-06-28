@@ -973,6 +973,172 @@ function codexExpectedAttitude(team, matchNumber = 73) {
   return "prudente";
 }
 
+function codexSurpriseLabel(value) {
+  if (value <= 20) return "Partita molto prevedibile";
+  if (value <= 40) return "Sorpresa possibile ma poco probabile";
+  if (value <= 60) return "Gara aperta";
+  if (value <= 80) return "Alto rischio sorpresa";
+  return "Partita caotica e imprevedibile";
+}
+
+function codexSurpriseTone(value) {
+  if (value <= 20) return "is-low";
+  if (value <= 40) return "is-guarded";
+  if (value <= 60) return "is-open";
+  if (value <= 80) return "is-high";
+  return "is-chaotic";
+}
+
+function codexSurpriseBonusEvents(match, matchNumber, environment, probabilityGap) {
+  const configured = match?.surpriseBonuses || {};
+  const bonuses = [];
+  const add = (value, key, reason) => bonuses.push({ value, key, reason });
+  if (configured.derby) add(8, "derby", "derby cittadino o nazionale");
+  if (configured.historicalRivalry) add(6, "rivalry", "storica rivalità tra le due nazionali");
+  if (configured.culturalRivalry) add(4, "culture", "forte rivalità politica o culturale");
+  if ((environment?.climateDifficulty || 0) >= 80 || configured.extremeWeather) {
+    add(5, "weather", "condizioni meteo estreme");
+  }
+  if ((environment?.tempMax || 0) >= 35 || configured.extremeHeat) {
+    add(3, "heat", "caldo estremo");
+  }
+  if ((environment?.altitude || 0) >= 1500 || configured.highAltitude) {
+    add(5, "altitude", "altitudine elevata");
+  }
+  if (configured.longTravel) add(3, "travel", "viaggio molto lungo con poco recupero");
+  if (Number(matchNumber) >= 73 || configured.knockout) {
+    add(2, "knockout", "partita a eliminazione diretta");
+  }
+  if ((Number(matchNumber) >= 73 && probabilityGap <= 12) || configured.penaltiesLikely) {
+    add(2, "penalties", "alta probabilità di una gara in equilibrio fino ai rigori");
+  }
+  return bonuses;
+}
+
+/**
+ * Calcola quanto il risultato possa discostarsi dal pronostico principale.
+ * Tutti gli input sono normalizzati 0-100; assenze, turnover e bonus possono
+ * essere sovrascritti con match.surpriseInputs / match.surpriseBonuses.
+ */
+function calculateSurpriseFactor(match, matchNumber = 0) {
+  if (!match?.teamA || !match?.teamB) return null;
+  const probabilityA = Number(match.winProbabilityA ?? 50);
+  const probabilityB = Number(match.winProbabilityB ?? (100 - probabilityA));
+  const favorite = probabilityA >= probabilityB ? match.teamA : match.teamB;
+  const underdog = favorite === match.teamA ? match.teamB : match.teamA;
+  const favoriteProbability = Math.max(probabilityA, probabilityB);
+  const underdogProbability = Math.min(probabilityA, probabilityB);
+  const probabilityGap = favoriteProbability - underdogProbability;
+  const favoriteStrength = codexState.strengths[favorite] || {};
+  const underdogStrength = codexState.strengths[underdog] || {};
+  const favoriteMotivation = codexMotivationIndex(favorite, matchNumber);
+  const underdogMotivation = codexMotivationIndex(underdog, matchNumber);
+  const inputs = match.surpriseInputs || {};
+  const equilibrium = codexClamp(100 - probabilityGap, 0, 100);
+  const form = codexClamp(
+    50 + ((underdogStrength.form || 0) - (favoriteStrength.form || 0)) * 100,
+    0,
+    100
+  );
+  const motivation = codexClamp(
+    50 + (underdogMotivation.motivazione - favoriteMotivation.motivazione) * 2,
+    0,
+    100
+  );
+  const absences = codexClamp(Number(inputs.absences ?? match.absenceRisk ?? 15), 0, 100);
+  const turnover = codexClamp(Number(inputs.turnover ?? match.turnoverRisk ?? 15), 0, 100);
+  const style = codexClamp(
+    Number(inputs.style ?? (50 + ((underdogStrength.attack || 50) - (favoriteStrength.resistance || 50)) * 1.5)),
+    0,
+    100
+  );
+  const pressure = codexClamp(
+    Number(inputs.pressure ?? codexPsychologyProfile(favorite).pressione),
+    0,
+    100
+  );
+  const referee = codexClamp(Number(inputs.referee ?? match.refereeRisk ?? 25), 0, 100);
+  const factors = {
+    equilibrium,
+    form,
+    motivation,
+    absences,
+    turnover,
+    style,
+    pressure,
+    referee,
+  };
+  const base = equilibrium * 0.25 +
+    form * 0.20 +
+    motivation * 0.15 +
+    absences * 0.10 +
+    turnover * 0.10 +
+    style * 0.10 +
+    pressure * 0.05 +
+    referee * 0.05;
+  const environment = enrichMatch(match.fixture || []);
+  const bonuses = codexSurpriseBonusEvents(match, matchNumber, environment, probabilityGap);
+  const bonusTotal = bonuses.reduce((total, bonus) => total + bonus.value, 0);
+  const maluses = (Array.isArray(match.surpriseMaluses) ? match.surpriseMaluses : [])
+    .map((malus) => ({
+      value: -Math.abs(Number(malus.value || 0)),
+      reason: malus.reason || "elementi che rendono il pronostico più stabile",
+    }))
+    .filter((malus) => malus.value < 0);
+  const malusTotal = maluses.reduce((total, malus) => total + malus.value, 0);
+  const value = Math.round(codexClamp(base + bonusTotal + malusTotal, 0, 100));
+  const upsetPotential = Math.round(codexClamp(
+    underdogProbability * 1.25 + form * 0.25 + motivation * 0.20 + style * 0.15,
+    0,
+    100
+  ));
+  const chaosIndex = Math.round(codexClamp(
+    referee * 0.30 + pressure * 0.20 + absences * 0.15 + turnover * 0.15 +
+      (environment?.climateDifficulty || 20) * 0.20 + bonusTotal + malusTotal,
+    0,
+    100
+  ));
+  const factorLabels = {
+    equilibrium: "la gara è equilibrata",
+    form: "la sfavorita arriva in buona forma",
+    motivation: "il divario motivazionale è ridotto",
+    absences: "le assenze importanti aumentano l'incertezza",
+    turnover: "il turnover rende meno stabili le gerarchie",
+    style: "l'incrocio tattico può mettere in difficoltà la favorita",
+    pressure: "la pressione sulla favorita può pesare",
+    referee: "arbitro ed episodi possono incidere",
+  };
+  const strongest = Object.entries(factors)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([key]) => factorLabels[key]);
+  const explanation = `Il rischio sorpresa è ${value >= 61 ? "alto" : value >= 41 ? "concreto" : "contenuto"} perché ${strongest.join(", ")}.`;
+  const bonusExplanation = bonuses.length
+    ? `Il Fattore Sorpresa aumenta per ${bonuses.map((bonus) => bonus.reason).join(", ")}.`
+    : "";
+  const malusExplanation = maluses.length
+    ? `Il Fattore Sorpresa diminuisce per ${maluses.map((malus) => malus.reason).join(", ")}.`
+    : "";
+  return {
+    value,
+    base: Math.round(base),
+    label: codexSurpriseLabel(value),
+    tone: codexSurpriseTone(value),
+    factors,
+    bonuses,
+    bonusTotal,
+    maluses,
+    malusTotal,
+    explanation,
+    bonusExplanation,
+    malusExplanation,
+    upsetPotential,
+    chaosIndex,
+    favorite,
+    underdog,
+  };
+}
+
 function codexPlusScore(team) {
   const codexScore = codexState.strengths[team]?.total || 0;
   const optaScore = codexExternalModelScore(team, "opta");
@@ -2774,6 +2940,7 @@ function codexRenderResultCard(matchNumber) {
         ${result.isReal ? '<em class="codex-real-result-badge">Risultato reale</em>' : ""}
         ${codexRenderCardsSummary(result)}
         ${codexPsychologyMatchPanel(result, matchNumber)}
+        ${codexSurprisePanel(result, matchNumber)}
         ${codexRenderEnvironmentPanel(matchEnvironment)}
         ${result.note ? `<small>${codexEscape(result.note)}</small>` : ""}
       </div>
@@ -2864,6 +3031,57 @@ function codexRenderMotivationRanking() {
       <p>${codexEscape(row.reason)}</p>
       ${row.events?.length ? `<ul>${row.events.map((event) => `<li>${event.value > 0 ? "+" : ""}${event.value} ${codexEscape(event.label)}</li>`).join("")}</ul>` : ""}
     </article>`).join("");
+}
+
+function codexSurpriseMetric(label, value, hint) {
+  return `
+    <div class="codex-surprise-metric">
+      <span>${codexEscape(label)}</span>
+      <b>${value}/100</b>
+      <div class="codex-surprise-track" aria-hidden="true"><i style="width:${value}%"></i></div>
+      <small>${codexEscape(hint)}</small>
+    </div>`;
+}
+
+function codexSurprisePanel(result, matchNumber) {
+  if (Number(matchNumber) < 73) return "";
+  const source = result?.isReal && result.forecast ? { ...result.forecast, fixture: result.fixture } : result;
+  const surprise = calculateSurpriseFactor(source, matchNumber);
+  if (!surprise) return "";
+  const factorNames = {
+    equilibrium: "Equilibrio",
+    form: "Forma",
+    motivation: "Motivazione",
+    absences: "Assenze",
+    turnover: "Turnover",
+    style: "Stile",
+    pressure: "Pressione",
+    referee: "Arbitro",
+  };
+  return `
+    <section class="codex-surprise-panel ${surprise.tone}">
+      <div class="codex-surprise-head">
+        <div>
+          <span>Indicatore dinamico</span>
+          <strong>Fattore Sorpresa</strong>
+          <small>${codexEscape(surprise.label)}</small>
+        </div>
+        <b>${surprise.value}<small>/100</small></b>
+      </div>
+      <div class="codex-surprise-main-track" role="progressbar" aria-label="Fattore Sorpresa" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${surprise.value}">
+        <i style="width:${surprise.value}%"></i>
+      </div>
+      <div class="codex-surprise-submetrics">
+        ${codexSurpriseMetric("Potenziale Upset", surprise.upsetPotential, `Vittoria concreta di ${surprise.underdog}`)}
+        ${codexSurpriseMetric("Indice Caos", surprise.chaosIndex, "Episodi, pressione e condizioni")}
+      </div>
+      <p>${codexEscape(surprise.explanation)}</p>
+      ${surprise.bonusExplanation ? `<p class="codex-surprise-bonus">${codexEscape(surprise.bonusExplanation)} <b>+${surprise.bonusTotal}</b></p>` : ""}
+      ${surprise.malusExplanation ? `<p class="codex-surprise-malus">${codexEscape(surprise.malusExplanation)} <b>${surprise.malusTotal}</b></p>` : ""}
+      <div class="codex-surprise-factors">${Object.entries(surprise.factors).map(([key, value]) => `
+        <span title="${codexEscape(`${factorNames[key]}: ${Math.round(value)}/100`)}">${codexEscape(factorNames[key])} <b>${Math.round(value)}</b></span>
+      `).join("")}</div>
+    </section>`;
 }
 
 function codexPsychologyMatchPanel(result, matchNumber, compact = false) {

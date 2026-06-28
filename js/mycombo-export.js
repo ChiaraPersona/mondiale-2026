@@ -307,6 +307,12 @@
         <div><span>Output final-mycombo.json</span><h3>MYCOMBO GENERATE</h3></div>
         <p>Le combinazioni sono lette dal motore Node, senza elaborazioni nel frontend.</p>
       </header>
+      <aside class="mycombo-value-explanation">
+        <strong>Come leggere il Value</strong>
+        <p>Il Value confronta la probabilità stimata dallo studio con quella implicita nella quota Sisal: <code>probabilità stimata − probabilità implicita</code>.</p>
+        <p>Per esempio, un Value <b>−31,2</b> nasce da <b>64% − 95,2%</b>: l’evento non è impossibile, ma la quota è poco conveniente rispetto alla stima.</p>
+        <div><span class="is-positive">Verde: oltre +8</span><span class="is-neutral">Giallo: da 0 a +8</span><span class="is-negative">Rosso: sotto 0</span></div>
+      </aside>
       <div class="mycombo-final-grid"><p class="mycombo-loading">Caricamento MyCombo…</p></div>`;
     panel.insertAdjacentElement("afterend", generated);
     loadFinalCombos(generated.querySelector(".mycombo-final-grid"));

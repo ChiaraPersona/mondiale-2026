@@ -184,6 +184,52 @@ header {
   gap: 14px;
 }
 
+.mycombo-value-explanation {
+  margin-bottom: 14px;
+  border: 1px solid rgba(245, 200, 75, .2);
+  border-left: 3px solid #f5c84b;
+  border-radius: 7px;
+  padding: 14px 16px;
+  color: rgba(255, 255, 255, .76);
+  background: rgba(245, 200, 75, .045);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.mycombo-value-explanation > strong {
+  color: #f5c84b;
+  font-size: 11px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.mycombo-value-explanation p {
+  margin: 6px 0 0;
+}
+
+.mycombo-value-explanation code {
+  color: #fff;
+}
+
+.mycombo-value-explanation > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.mycombo-value-explanation > div span {
+  border-radius: 999px;
+  padding: 4px 8px;
+  color: #07110d;
+  font-size: 9px;
+  font-weight: 950;
+}
+
+.mycombo-value-explanation .is-positive { background: #00d084; }
+.mycombo-value-explanation .is-neutral { background: #f5c84b; }
+.mycombo-value-explanation .is-negative { color: #fff; background: #ff4d6d; }
+
 .mycombo-final-card {
   overflow: hidden;
   border: 1px solid rgba(0, 208, 132, .24);

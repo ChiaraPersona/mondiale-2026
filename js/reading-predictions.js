@@ -16,4 +16,6 @@ const readingPredictions = {
   "Stati Uniti|Bosnia ed Erzegovina": { home: 2, away: 0, source: "lettura-stati-uniti-bosnia-erzegovina.html" },
   "Spagna|Austria": { home: 2, away: 0, source: "lettura-spagna-austria.html" },
   "Portogallo|Croazia": { home: 1, away: 0, source: "lettura-portogallo-croazia.html" },
+  "Svizzera|Algeria": { home: 2, away: 1, source: "lettura-svizzera-algeria.html" },
+  "Australia|Egitto": { home: 0, away: 1, source: "lettura-australia-egitto.html" },
 };

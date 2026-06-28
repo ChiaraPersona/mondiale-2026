@@ -53,7 +53,17 @@ const readingPredictions = {
    * come qualificata prevista, non come vincente nei tempi regolamentari.
    */
   "Portogallo|Spagna": { home: 1, away: 1, winner: "Spagna", stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti" },
-  "Stati Uniti|Belgio": { home: 2, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi" },
+  /*
+   * Belgio vincente in tutti i cinque precedenti mostrati. Il 5-2
+   * del marzo 2026 rende la serie direttamente rilevante per forma,
+   * rose attuali e compatibilità tattica, superando il fattore campo USA.
+   */
+  "Stati Uniti|Belgio": { home: 1, away: 2, stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti (5-2 Belgio nel 2026)" },
   "Argentina|Egitto": { home: 2, away: 0, stage: "Ottavi", basis: "Letture dei sedicesimi" },
-  "Svizzera|Colombia": { home: 1, away: 1, winner: "Colombia", stage: "Ottavi", basis: "Letture dei sedicesimi" },
+  /*
+   * Colombia avanti 2-1 nelle vittorie, con un pareggio. Il 2-0
+   * colombiano ai Mondiali 1994 sostiene la qualificazione prevista,
+   * ma la distanza temporale non giustifica un vantaggio netto nei 90 minuti.
+   */
+  "Svizzera|Colombia": { home: 1, away: 1, winner: "Colombia", stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti" },
 };

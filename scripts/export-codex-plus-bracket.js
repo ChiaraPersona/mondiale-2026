@@ -12,6 +12,8 @@ const files = [
   "js/team-stats-data.js",
   "js/worldcup-fixtures.js",
   "js/worldcup-results.js",
+  "js/reading-predictions.js",
+  "js/psychological-factors.js",
   "js/pronostico-codex.js",
 ];
 

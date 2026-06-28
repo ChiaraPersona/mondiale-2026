@@ -1307,6 +1307,48 @@ const worldCupResults = {
       "L'Egitto si qualifica ai sedicesimi come secondo del Gruppo G.",
     ],
   },
+  68: {
+    status: "Finale", home: 0, away: 2,
+    source: "https://www.diretta.it/partita/calcio/inghilterra-j9N9ZNFA/panama-OWKqbCfi/?mid=YZajsXcn",
+    sources: ["https://www.diretta.it/partita/calcio/inghilterra-j9N9ZNFA/panama-OWKqbCfi/?mid=YZajsXcn"],
+    scorers: { "Panama": [], "Inghilterra": [] },
+    notes: ["Inghilterra batte Panama 2-0.", "Confermati Inghilterra vincente, No Goal e Inghilterra 2+ gol; saltano Over 2,5 e risultato esatto 0-3."],
+  },
+  69: {
+    status: "Finale", home: 2, away: 1,
+    source: "https://www.diretta.it/partita/calcio/croazia-K8aznggo/ghana-nNBjHale/?mid=6mbbuBSb",
+    sources: ["https://www.diretta.it/partita/calcio/croazia-K8aznggo/ghana-nNBjHale/?mid=6mbbuBSb"],
+    scorers: { "Croazia": [], "Ghana": [] },
+    notes: ["Croazia batte Ghana 2-1.", "Confermato il segno Croazia; saltano risultato esatto 1-0, Under 2,5 e No Goal."],
+  },
+  70: {
+    status: "Finale", home: 0, away: 0,
+    source: "https://www.diretta.it/partita/calcio/colombia-G02s4PCS/portogallo-WvJrjFVN/?mid=vL2qotaK",
+    sources: ["https://www.diretta.it/partita/calcio/colombia-G02s4PCS/portogallo-WvJrjFVN/?mid=vL2qotaK"],
+    scorers: { "Colombia": [], "Portogallo": [] },
+    notes: ["Colombia e Portogallo chiudono 0-0.", "Confermato X2; saltano Portogallo vincente, Goal, Over 2,5 e risultato esatto 1-2."],
+  },
+  71: {
+    status: "Finale", home: 3, away: 1,
+    source: "https://www.diretta.it/partita/calcio/dr-congo-phn9mm8H/uzbekistan-EZYKKRMc/?mid=hEWfCwid",
+    sources: ["https://www.diretta.it/partita/calcio/dr-congo-phn9mm8H/uzbekistan-EZYKKRMc/?mid=hEWfCwid"],
+    scorers: { "RD Congo": [], "Uzbekistan": ["Eldor Shomurodov"] },
+    notes: ["RD Congo rimonta l'Uzbekistan e vince 3-1 dopo il vantaggio di Shomurodov.", "Confermato il segno RD Congo; saltano Under 2,5, No Goal e risultato esatto 1-0."],
+  },
+  72: {
+    status: "Finale", home: 3, away: 3,
+    source: "https://www.diretta.it/partita/calcio/algeria-nc87N1BR/austria-naHiWdnt/?mid=4rOtRK7l",
+    sources: ["https://www.diretta.it/partita/calcio/algeria-nc87N1BR/austria-naHiWdnt/?mid=4rOtRK7l"],
+    scorers: { "Algeria": [], "Austria": [] },
+    notes: ["Algeria e Austria pareggiano 3-3.", "Confermato X2; saltano Under 2,5, No Goal e risultato esatto 0-1."],
+  },
+  73: {
+    status: "Finale", home: 1, away: 3,
+    source: "https://www.diretta.it/partita/calcio/argentina-f9OppQjp/giordania-vNcmJoU2/?mid=KAnAWtpR",
+    sources: ["https://www.diretta.it/partita/calcio/argentina-f9OppQjp/giordania-vNcmJoU2/?mid=KAnAWtpR"],
+    scorers: { "Giordania": [], "Argentina": [] },
+    notes: ["Argentina batte Giordania 3-1.", "Confermati Argentina vincente e X2; saltano Under 2,5, No Goal e risultato esatto 0-1."],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

@@ -212,6 +212,13 @@
           <p class="mycombo-combo-empty">Combinazione non presente nel file.</p>
         </article>`;
     }
+    if (!Array.isArray(combo.selections) || !combo.selections.length) {
+      return `
+        <article class="mycombo-final-card">
+          <header><div><span>Quota target ${target}</span><h4>${title}</h4></div><strong><small>Quota trovata</small>non disponibile</strong></header>
+          <p class="mycombo-target-note">${escapeHtml(combo.reason || "Nessuna combinazione compatibile disponibile.")}</p>
+        </article>`;
+    }
     const found = firstValue(combo, ["quotaTotale", "totalOdd", "quota"]);
     const foundNumber = Number(found);
     const missedTarget = Number.isFinite(foundNumber) && Math.abs(foundNumber - target) > 0.01;

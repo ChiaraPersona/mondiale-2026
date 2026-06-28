@@ -20,4 +20,17 @@ const readingPredictions = {
   "Australia|Egitto": { home: 0, away: 1, source: "lettura-australia-egitto.html" },
   "Argentina|Capo Verde": { home: 3, away: 0, source: "lettura-argentina-capo-verde.html" },
   "Colombia|Ghana": { home: 2, away: 0, source: "lettura-colombia-ghana.html" },
+
+  /*
+   * Possibili ottavi costruiti esclusivamente dalle qualificate previste
+   * nelle Letture dei sedicesimi. Sono proiezioni editoriali preliminari.
+   */
+  "Germania|Francia": { home: 1, away: 2, stage: "Ottavi", basis: "Letture dei sedicesimi" },
+  "Canada|Olanda": { home: 0, away: 2, stage: "Ottavi", basis: "Letture dei sedicesimi" },
+  "Brasile|Norvegia": { home: 2, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi" },
+  "Messico|Inghilterra": { home: 0, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi" },
+  "Portogallo|Spagna": { home: 1, away: 2, stage: "Ottavi", basis: "Letture dei sedicesimi" },
+  "Stati Uniti|Belgio": { home: 2, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi" },
+  "Argentina|Egitto": { home: 2, away: 0, stage: "Ottavi", basis: "Letture dei sedicesimi" },
+  "Svizzera|Colombia": { home: 1, away: 1, winner: "Colombia", stage: "Ottavi", basis: "Letture dei sedicesimi" },
 };

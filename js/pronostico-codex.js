@@ -1276,16 +1276,22 @@ function codexApplyReadingPrediction(result, teamA, teamB) {
   const goalsB = editorial.goalsB;
   const winner = editorial.winner ||
     (goalsA > goalsB ? teamA : goalsB > goalsA ? teamB : result.winner);
+  const isRoundProjection = editorial.stage === "Ottavi";
   return {
     ...result,
     goalsA,
     goalsB,
     winner,
-    note: goalsA === goalsB
-      ? `${winner} indicata per il passaggio del turno · fonte: Lettura`
-      : "Pronostico allineato alla Lettura",
+    note: isRoundProjection
+      ? goalsA === goalsB
+        ? `${winner} indicata per il passaggio del turno · proiezione basata sulle Letture`
+        : "Possibile ottavo · proiezione basata sulle Letture"
+      : goalsA === goalsB
+        ? `${winner} indicata per il passaggio del turno · fonte: Lettura`
+        : "Pronostico allineato alla Lettura",
     readingSource: editorial.source,
     isReadingPrediction: true,
+    isRoundProjection,
   };
 }
 

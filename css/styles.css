@@ -5436,6 +5436,94 @@ body {
   line-height: 1.35;
 }
 
+.codex-motivation-tier {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 3px 7px;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 999px;
+  font-size: 9px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.codex-motivation-tier.is-maximum { color: #ffb36b; background: rgba(255, 111, 60, .12); }
+.codex-motivation-tier.is-very-high { color: #73e49b; background: rgba(55, 200, 113, .11); }
+.codex-motivation-tier.is-high { color: #ffe07c; background: rgba(245, 200, 75, .11); }
+.codex-motivation-tier.is-nothing { color: #79c7ff; background: rgba(75, 164, 255, .11); }
+.codex-motivation-tier.is-pressure { color: #ff9696; background: rgba(255, 91, 91, .12); }
+
+.codex-playoff-motivation {
+  display: grid;
+  gap: 8px;
+  margin-top: 9px;
+  padding: 10px;
+  border: 1px solid rgba(245, 200, 75, .22);
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(245, 200, 75, .08), rgba(5, 12, 20, .56));
+}
+
+.codex-playoff-motivation-title,
+.codex-playoff-motivation-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.codex-playoff-motivation-title strong { color: #f5c84b; font-size: 11px; }
+.codex-playoff-motivation-title span,
+.codex-playoff-motivation-summary { color: var(--muted); font-size: 10px; }
+
+.codex-playoff-motivation-teams {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px;
+}
+
+.codex-playoff-motivation-teams article {
+  display: grid;
+  gap: 5px;
+  padding: 8px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, .045);
+}
+
+.codex-playoff-motivation-teams article > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.codex-playoff-motivation-teams strong {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  color: #fff;
+  font-size: 11px;
+}
+
+.codex-playoff-motivation-teams p {
+  margin: 0;
+  color: rgba(238, 244, 255, .7);
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.codex-playoff-motivation-teams small { color: #9fc7e8; font-size: 9.5px; }
+.codex-playoff-motivation-summary b { text-transform: uppercase; }
+.codex-playoff-motivation-summary .is-risk-alto { color: #ff8c8c; }
+.codex-playoff-motivation-summary .is-risk-medio { color: #ffe07c; }
+.codex-playoff-motivation-summary .is-risk-basso { color: #73e49b; }
+
+@media (max-width: 620px) {
+  .codex-playoff-motivation-teams { grid-template-columns: 1fr; }
+}
+
 .codex-team-ranking {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

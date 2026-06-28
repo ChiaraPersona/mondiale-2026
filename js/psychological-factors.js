@@ -288,3 +288,50 @@ const psychologicalFactors = {
     notaPsicologica: "La sconfitta di misura con la Croazia lascia rammarico ma non abbatte il gruppo: resta una nazionale competitiva se la gara resta corta.",
   },
 };
+
+// Valori di partenza per la fase a eliminazione diretta. Il punteggio mostrato
+// sul sito viene poi corretto (massimo +/- 5) dai risultati effettivi del girone.
+const playoffMotivationProfiles = {
+  "Argentina": { base: 95, tier: "maximum", reason: "campione in carica, ultima grande occasione per Messi" },
+  "Francia": { base: 95, tier: "maximum", reason: "rosa da titolo e grande abitudine alle fasi finali" },
+  "Brasile": { base: 95, tier: "maximum", reason: "pressione storica e obiettivo dichiarato: il titolo" },
+  "Spagna": { base: 95, tier: "maximum", reason: "qualita da favorita, con attenzione alla disponibilita dei titolari" },
+  "Portogallo": { base: 95, tier: "maximum", reason: "mai campione del mondo e possibile ultima occasione di Cristiano Ronaldo" },
+  "Inghilterra": { base: 95, tier: "maximum", reason: "rosa forte, pressione alta e obiettivo minimo semifinale" },
+
+  "Germania": { base: 91, tier: "very-high", reason: "grande bisogno di riscatto e ambizione da titolo" },
+  "Olanda": { base: 91, tier: "very-high", reason: "talento, storia e desiderio di conquistare il primo Mondiale" },
+  "Belgio": { base: 90, tier: "very-high", reason: "ultima finestra utile per una generazione di grande talento" },
+  "Colombia": { base: 91, tier: "very-high", reason: "squadra ambiziosa e convinta di poter arrivare nelle fasi decisive" },
+  "Croazia": { base: 90, tier: "very-high", reason: "esperienza nelle gare a eliminazione e forte identita competitiva" },
+  "Messico": { base: 92, tier: "very-high", reason: "Mondiale in casa e enorme bisogno di superare il proprio limite storico" },
+
+  "Marocco": { base: 86, tier: "high", reason: "semifinale 2022 da confermare e obiettivo quarti realistico" },
+  "Svizzera": { base: 84, tier: "high", reason: "squadra solida, obiettivo quarti realistico e pressione controllata" },
+  "Norvegia": { base: 86, tier: "high", reason: "generazione di talento che vede un percorso importante alla portata" },
+  "Stati Uniti": { base: 87, tier: "high", reason: "torneo in casa e occasione decisiva per il progetto tecnico" },
+  "Giappone": { base: 85, tier: "high", reason: "gruppo maturo che punta concretamente a superare gli ottavi" },
+  "Egitto": { base: 84, tier: "high", reason: "leadership di Salah e traguardo dei quarti percepito come possibile" },
+
+  "Sudafrica": { base: 80, tier: "nothing-to-lose", reason: "aspettative gia superate e liberta mentale da outsider" },
+  "Capo Verde": { base: 82, tier: "nothing-to-lose", reason: "percorso storico e nessuna pressione sul risultato" },
+  "Bosnia ed Erzegovina": { base: 80, tier: "nothing-to-lose", reason: "traguardo gia importante e possibilita di giocare senza paura" },
+  "RD Congo": { base: 82, tier: "nothing-to-lose", reason: "entusiasmo collettivo e pochissimo da perdere" },
+  "Ghana": { base: 81, tier: "nothing-to-lose", reason: "fiducia da outsider e capacita di alzare il livello contro le big" },
+  "Senegal": { base: 83, tier: "nothing-to-lose", reason: "forza fisica, orgoglio e pressione inferiore alle favorite" },
+  "Australia": { base: 79, tier: "nothing-to-lose", reason: "mentalita da torneo e aspettative gia superate" },
+  "Canada": { base: 84, tier: "nothing-to-lose", reason: "pubblico di casa, generazione ambiziosa e occasione storica" },
+  "Ecuador": { base: 82, tier: "nothing-to-lose", reason: "gioventu, intensita e prospettiva di un risultato storico" },
+  "Svezia": { base: 80, tier: "nothing-to-lose", reason: "ritorno sul grande palcoscenico e attacco capace di sorprendere" },
+};
+
+// Eventi non deducibili dal tabellone possono essere aggiornati qui senza
+// cambiare il motore. Ogni voce usa valori compresi fra -4 e +3.
+const playoffMotivationEvents = {
+  "Argentina": [{ value: 2, label: "ultima occasione per il leader simbolico Messi" }],
+  "Portogallo": [{ value: 2, label: "ultima occasione per il leader simbolico Cristiano Ronaldo" }],
+  "Messico": [{ value: 2, label: "paese ospitante ancora in corsa" }],
+  "Stati Uniti": [{ value: 2, label: "paese ospitante ancora in corsa" }],
+  "Canada": [{ value: 2, label: "paese ospitante ancora in corsa" }],
+  "Capo Verde": [{ value: 3, label: "prima qualificazione alla fase playoff" }],
+};

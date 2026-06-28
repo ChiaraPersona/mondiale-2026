@@ -834,49 +834,143 @@ function codexPsychologyProfile(team) {
   return { team, ...profile };
 }
 
-function codexPsychologyBaseModifier(team) {
+function codexPlayoffMotivationProfile(team) {
+  const fallbackProfile = codexPsychologyProfile(team);
+  const configured = typeof playoffMotivationProfiles !== "undefined"
+    ? playoffMotivationProfiles[team]
+    : null;
+  return configured || {
+    base: codexClamp(fallbackProfile.motivazione, 75, 88),
+    tier: fallbackProfile.motivazione >= 86 ? "high" : "nothing-to-lose",
+    reason: fallbackProfile.notaPsicologica,
+  };
+}
+
+function codexPlayoffDynamicEvents(team) {
+  const events = typeof playoffMotivationEvents !== "undefined"
+    ? [...(playoffMotivationEvents[team] || [])]
+    : [];
+  const tableRow = Object.values(codexState.groupTables || {})
+    .flat()
+    .find((row) => row.team === team);
+  if (tableRow?.played >= 3 && tableRow.losses === 0) {
+    events.push({ value: 3, label: "imbattuta nel girone" });
+  }
+  const thirdIndex = (codexState.thirds || []).findIndex((row) => row.team === team);
+  if (thirdIndex >= 0 && thirdIndex < 8) {
+    events.push({
+      value: thirdIndex >= 6 ? -2 : -1,
+      label: "qualificazione sofferta da migliore terza",
+    });
+  }
+  const teamGroupResults = Object.entries(codexState.results || {})
+    .filter(([number, result]) => Number(number) <= 72 && (result.teamA === team || result.teamB === team))
+    .sort((a, b) => Number(a[0]) - Number(b[0]));
+  const lastResult = teamGroupResults.at(-1)?.[1];
+  if (lastResult && lastResult.winner === team) {
+    events.push({ value: 1, label: "vittoria nell'ultima gara del girone" });
+  }
+  const pressure = codexPsychologyProfile(team).pressione;
+  if (pressure >= 94) {
+    events.push({ value: -2, label: "pressione esterna molto alta" });
+  } else if (pressure >= 90) {
+    events.push({ value: -1, label: "pressione esterna da gestire" });
+  }
+  return events;
+}
+
+function codexPlayoffMotivation(team) {
+  const profile = codexPlayoffMotivationProfile(team);
+  const events = codexPlayoffDynamicEvents(team);
+  const rawAdjustment = events.reduce((sum, event) => sum + Number(event.value || 0), 0);
+  const adjustment = codexClamp(rawAdjustment, -5, 5);
+  return {
+    ...profile,
+    events,
+    adjustment,
+    score: codexClamp(profile.base + adjustment, 0, 100),
+  };
+}
+
+function codexMotivationWeight(matchNumber = 0) {
+  const number = Number(matchNumber);
+  if (number >= 104) return 0.15;
+  if (number >= 101) return 0.14;
+  if (number >= 97) return 0.12;
+  if (number >= 89) return 0.11;
+  if (number >= 73) return 0.10;
+  return 0.07;
+}
+
+function codexPsychologyBaseModifier(team, matchNumber = 0) {
   const profile = codexPsychologyProfile(team);
+  const knockout = Number(matchNumber) >= 73;
+  const motivation = knockout ? codexPlayoffMotivation(team).score : profile.motivazione;
+  const motivationImpact = ((motivation - 75) / 25) * codexMotivationWeight(matchNumber);
+  const pressureImpact = -Math.max(0, profile.pressione - 85) * 0.0015;
+  const emotionImpact = profile.momentoEmotivo * (knockout ? 0.001 : 0.0015);
   return codexClamp(
-    (profile.motivazione - 70) * 0.002
-      - Math.max(0, profile.pressione - 80) * 0.0025
-      + profile.momentoEmotivo * 0.003,
-    -0.08,
-    0.08
+    motivationImpact + pressureImpact + emotionImpact,
+    knockout ? -0.15 : -0.08,
+    knockout ? 0.15 : 0.08
   );
 }
 
 function codexPsychologyStageMultiplier(matchNumber = 0) {
-  return Number(matchNumber) >= 89 ? 1.3 : 1;
+  return codexMotivationWeight(matchNumber) / 0.07;
 }
 
 function codexPsychologyModifier(team, matchNumber = 0) {
-  return codexClamp(
-    codexPsychologyBaseModifier(team) * codexPsychologyStageMultiplier(matchNumber),
-    -0.08,
-    0.08
-  );
+  return codexPsychologyBaseModifier(team, matchNumber);
 }
 
 function codexMotivationIndex(team, matchNumber = 0) {
   const profile = codexPsychologyProfile(team);
   const modifier = codexPsychologyModifier(team, matchNumber);
+  const playoff = Number(matchNumber) >= 73 ? codexPlayoffMotivation(team) : null;
   return {
     ...profile,
-    total: profile.motivazione,
+    ...(playoff || {}),
+    motivazione: playoff?.score ?? profile.motivazione,
+    total: playoff?.score ?? profile.motivazione,
     modifier,
     impactPercent: modifier * 100,
+    weight: codexMotivationWeight(matchNumber),
   };
 }
 
 function codexMotivationRanking() {
-  return Object.values(groupTeams).flat()
-    .map((team) => codexMotivationIndex(team))
+  const playoffTeams = [...new Set(Object.entries(codexState.results || {})
+    .filter(([number]) => Number(number) >= 73 && Number(number) <= 88)
+    .flatMap(([, result]) => [result.teamA, result.teamB])
+    .filter(Boolean))];
+  return (playoffTeams.length ? playoffTeams : Object.values(groupTeams).flat())
+    .map((team) => codexMotivationIndex(team, 73))
     .sort((a, b) =>
       b.modifier - a.modifier ||
       b.motivazione - a.motivazione ||
       a.pressione - b.pressione ||
       a.team.localeCompare(b.team)
     );
+}
+
+function codexMotivationTierMeta(tier, pressure = 0) {
+  if (pressure >= 94) return { label: "Pressione negativa", icon: "⚠️", className: "is-pressure" };
+  return {
+    "maximum": { label: "Motivazione massima", icon: "🔥", className: "is-maximum" },
+    "very-high": { label: "Molto alta", icon: "🟢", className: "is-very-high" },
+    "high": { label: "Alta", icon: "🟡", className: "is-high" },
+    "nothing-to-lose": { label: "Nulla da perdere", icon: "🔵", className: "is-nothing" },
+  }[tier] || { label: "Alta", icon: "🟡", className: "is-high" };
+}
+
+function codexExpectedAttitude(team, matchNumber = 73) {
+  const motivation = codexMotivationIndex(team, matchNumber);
+  if (motivation.tier === "nothing-to-lose") return "nulla da perdere";
+  if (motivation.pressione >= 94 && motivation.momentoEmotivo < 1) return "bloccato";
+  if (motivation.pressione >= 90) return "emotivo";
+  if (motivation.motivazione >= 94 || motivation.momentoEmotivo >= 6) return "aggressivo";
+  return "prudente";
 }
 
 function codexPlusScore(team) {
@@ -1837,6 +1931,18 @@ function codexScoreMatch(teamA, teamB, knockout = false, fixture = null, matchNu
       note = `${winner} vince dopo extra time`;
     }
   }
+  const winProbabilityA = knockout
+    ? codexClamp(100 / (1 + Math.exp(-(expectedA - expectedB) * 1.18)), 8, 92)
+    : null;
+  const motivationA = codexMotivationIndex(teamA, matchNumber);
+  const motivationB = codexMotivationIndex(teamB, matchNumber);
+  const technicalA = (codexState.strengths[teamA]?.total || 50) + codexPlusA * 0.35;
+  const technicalB = (codexState.strengths[teamB]?.total || 50) + codexPlusB * 0.35;
+  const technicalFavorite = technicalA >= technicalB ? teamA : teamB;
+  const favoriteMotivation = technicalFavorite === teamA ? motivationA.motivazione : motivationB.motivazione;
+  const outsiderMotivation = technicalFavorite === teamA ? motivationB.motivazione : motivationA.motivazione;
+  const surpriseDelta = outsiderMotivation - favoriteMotivation;
+  const upsetRisk = surpriseDelta >= 6 ? "alto" : surpriseDelta >= 2 ? "medio" : "basso";
   return {
     teamA,
     teamB,
@@ -1856,6 +1962,12 @@ function codexScoreMatch(teamA, teamB, knockout = false, fixture = null, matchNu
     codexPlusB,
     psychologyA,
     psychologyB,
+    winProbabilityA,
+    winProbabilityB: winProbabilityA === null ? null : 100 - winProbabilityA,
+    motivationDifference: motivationA.motivazione - motivationB.motivazione,
+    upsetRisk,
+    attitudeA: codexExpectedAttitude(teamA, matchNumber),
+    attitudeB: codexExpectedAttitude(teamB, matchNumber),
   };
 }
 
@@ -2704,7 +2816,7 @@ function codexRenderExternalModels() {
     <div class="codex-plus-note">
       <strong>Codex+</strong>
       <span>scoreFinale = Codex 70% + Opta 12% + Klement 7% + Goldman 6% + IA 5%</span>
-      <small>Il fattore mentale corregge separatamente il punteggio squadra: peso moderato in ogni gara e amplificazione 1,3x dagli ottavi.</small>
+      <small>Il fattore mentale corregge separatamente il punteggio squadra: 6-8% nei gironi, dal 10% al 15% durante i playoff.</small>
     </div>
     <div class="codex-external-grid">${modelCards}</div>
     <div class="codex-external-consensus">
@@ -2739,14 +2851,18 @@ function codexRenderMotivationRanking() {
       <div class="codex-motivation-head">
         <span>${index + 1}</span>
         <strong>${codexFlag(row.team)}${codexEscape(row.team)}</strong>
-        <b class="${row.modifier >= 0 ? "is-positive" : "is-negative"}">${codexSignedPercent(row.modifier)}</b>
+        <b class="${row.modifier >= 0 ? "is-positive" : "is-negative"}">${row.motivazione}/100</b>
       </div>
       <div class="codex-motivation-factors">
-        <span>Motivazione <b>${row.motivazione}</b></span>
-        <span>Pressione <b>${row.pressione}</b></span>
-        <span>Momento <b>${codexEmotionLabel(row.momentoEmotivo)}</b></span>
+        <span class="codex-motivation-tier ${codexMotivationTierMeta(row.tier, row.pressione).className}">
+          ${codexMotivationTierMeta(row.tier, row.pressione).icon} ${codexMotivationTierMeta(row.tier, row.pressione).label}
+        </span>
+        <span>Base <b>${row.base}</b></span>
+        <span>Bonus/malus <b>${row.adjustment > 0 ? "+" : ""}${row.adjustment}</b></span>
+        <span>Peso playoff <b>10-15%</b></span>
       </div>
-      <p>${codexEscape(row.notaPsicologica)}</p>
+      <p>${codexEscape(row.reason)}</p>
+      ${row.events?.length ? `<ul>${row.events.map((event) => `<li>${event.value > 0 ? "+" : ""}${event.value} ${codexEscape(event.label)}</li>`).join("")}</ul>` : ""}
     </article>`).join("");
 }
 
@@ -2766,6 +2882,39 @@ function codexPsychologyMatchPanel(result, matchNumber, compact = false) {
       <span class="${row.modifier >= 0 ? "is-positive" : "is-negative"}" title="${codexEscape(`${row.team}: ${row.notaPsicologica}`)}">
         ${codexFlag(row.team)}${codexSignedPercent(row.modifier)}
       </span>`).join("")}</div>`;
+  }
+  if (matchNumber >= 73) {
+    const difference = rows[0].motivazione - rows[1].motivazione;
+    const leader = difference > 0 ? rows[0].team : rows[1].team;
+    const probabilityA = Number(source.winProbabilityA ?? 50);
+    const probabilityB = Number(source.winProbabilityB ?? (100 - probabilityA));
+    return `
+      <div class="codex-playoff-motivation">
+        <div class="codex-playoff-motivation-title">
+          <strong>Stato motivazionale playoff</strong>
+          <span>Peso ${Math.round(codexMotivationWeight(matchNumber) * 100)}% · differenza ${Math.abs(difference)} pt${difference ? ` a favore di ${codexEscape(leader)}` : " · equilibrio"}</span>
+        </div>
+        <div class="codex-playoff-motivation-teams">${rows.map((row, index) => {
+          const meta = codexMotivationTierMeta(row.tier, row.pressione);
+          const probability = index === 0 ? probabilityA : probabilityB;
+          const attitude = index === 0
+            ? source.attitudeA || codexExpectedAttitude(row.team, matchNumber)
+            : source.attitudeB || codexExpectedAttitude(row.team, matchNumber);
+          return `
+            <article>
+              <div>
+                <strong>${codexFlag(row.team)}${codexEscape(row.team)} ${row.motivazione}/100</strong>
+                <span class="codex-motivation-tier ${meta.className}">${meta.icon} ${meta.label}</span>
+              </div>
+              <p>${codexEscape(row.reason)}${row.events?.length ? `; ${codexEscape(row.events.map((event) => event.label).join(", "))}` : ""}.</p>
+              <small>Vittoria ${probability.toFixed(0)}% · atteggiamento ${codexEscape(attitude)}</small>
+            </article>`;
+        }).join("")}</div>
+        <div class="codex-playoff-motivation-summary">
+          <span>Rischio sorpresa: <b class="is-risk-${codexEscape(source.upsetRisk || "basso")}">${codexEscape(source.upsetRisk || "basso")}</b></span>
+          <small>La motivazione corregge il pronostico tecnico; forza, forma, ranking e disponibilita dei giocatori restano centrali.</small>
+        </div>
+      </div>`;
   }
   return `
     <div class="codex-psychology-match">
@@ -2981,6 +3130,7 @@ function codexBoot() {
   codexRenderStandings();
   codexRenderThirds();
   codexRenderWorldBracket();
+  codexRenderKnockout();
 }
 
 codexBoot();

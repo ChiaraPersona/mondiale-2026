@@ -2934,7 +2934,7 @@ function codexRenderWorldBracket() {
         </div>
         <div class="codex-world-layout">
           <div class="codex-world-side">
-            <div class="codex-world-round codex-world-r32">${codexWorldMatches([74,77,73,76,83,84,81,82], true)}</div>
+            <div class="codex-world-round codex-world-r32">${codexWorldMatches([74,77,73,75,83,84,81,82], true)}</div>
             <div class="codex-world-round codex-world-r16">${codexWorldRound("r16", [0,1,2,3])}</div>
             <div class="codex-world-round codex-world-qf">${codexWorldRound("qf", [0,1])}</div>
             <div class="codex-world-round codex-world-sf">${codexWorldRound("sf", [0])}</div>
@@ -2959,7 +2959,7 @@ function codexRenderWorldBracket() {
             <div class="codex-world-round codex-world-sf">${codexWorldRound("sf", [1])}</div>
             <div class="codex-world-round codex-world-qf">${codexWorldRound("qf", [2,3])}</div>
             <div class="codex-world-round codex-world-r16">${codexWorldRound("r16", [4,5,6,7])}</div>
-            <div class="codex-world-round codex-world-r32">${codexWorldMatches([75,78,79,80,86,88,85,87], true)}</div>
+            <div class="codex-world-round codex-world-r32">${codexWorldMatches([76,78,79,80,86,88,85,87], true)}</div>
           </div>
         </div>
       </div>

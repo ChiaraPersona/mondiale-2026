@@ -1224,6 +1224,34 @@ function codexFixtureTeams(match) {
   return parts.map((team) => codexTeamFromFixtureName(team.trim()));
 }
 
+const codexReadingLinks = {
+  "Sudafrica|Canada": "lettura-sudafrica-canada.html",
+  "Brasile|Giappone": "lettura-brasile-giappone.html",
+  "Germania|Paraguay": "lettura-germania-paraguay.html",
+  "Olanda|Marocco": "lettura-olanda-marocco.html",
+  "Costa d'Avorio|Norvegia": "lettura-costa-avorio-norvegia.html",
+  "Francia|Svezia": "lettura-francia-svezia.html",
+  "Messico|Ecuador": "lettura-messico-ecuador.html",
+  "Inghilterra|RD Congo": "lettura-inghilterra-rd-congo.html",
+  "Belgio|Senegal": "lettura-belgio-senegal.html",
+  "Stati Uniti|Bosnia ed Erzegovina": "lettura-stati-uniti-bosnia-erzegovina.html",
+  "Spagna|Austria": "lettura-spagna-austria.html",
+  "Portogallo|Croazia": "lettura-portogallo-croazia.html",
+};
+
+function codexReadingLink(teamA, teamB) {
+  const direct = codexReadingLinks[`${teamA}|${teamB}`];
+  const reverse = codexReadingLinks[`${teamB}|${teamA}`];
+  const href = direct || reverse;
+  if (!href) return "";
+  return `
+    <a class="codex-reading-link" href="${codexEscape(href)}">
+      <span>📖</span>
+      <b>Leggi l'analisi completa</b>
+      <small>Formazioni, quote, motivazione e possibili ammoniti</small>
+    </a>`;
+}
+
 function codexTeamMatches(team) {
   const record = (typeof teamStatsData !== "undefined" ? teamStatsData : []).find((item) => item.team === team);
   return record?.matches || [];
@@ -2941,6 +2969,7 @@ function codexRenderResultCard(matchNumber) {
         ${codexRenderCardsSummary(result)}
         ${codexPsychologyMatchPanel(result, matchNumber)}
         ${codexSurprisePanel(result, matchNumber)}
+        ${codexReadingLink(result.teamA, result.teamB)}
         ${codexRenderEnvironmentPanel(matchEnvironment)}
         ${result.note ? `<small>${codexEscape(result.note)}</small>` : ""}
       </div>

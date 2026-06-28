@@ -1277,6 +1277,7 @@ function codexApplyReadingPrediction(result, teamA, teamB) {
   const winner = editorial.winner ||
     (goalsA > goalsB ? teamA : goalsB > goalsA ? teamB : result.winner);
   const isRoundProjection = editorial.stage === "Ottavi";
+  const projectionBasis = editorial.basis || "Letture dei sedicesimi";
   return {
     ...result,
     goalsA,
@@ -1284,8 +1285,8 @@ function codexApplyReadingPrediction(result, teamA, teamB) {
     winner,
     note: isRoundProjection
       ? goalsA === goalsB
-        ? `${winner} indicata per il passaggio del turno · proiezione basata sulle Letture`
-        : "Possibile ottavo · proiezione basata sulle Letture"
+        ? `${winner} indicata per il passaggio del turno · ${projectionBasis}`
+        : `Possibile ottavo · ${projectionBasis}`
       : goalsA === goalsB
         ? `${winner} indicata per il passaggio del turno · fonte: Lettura`
         : "Pronostico allineato alla Lettura",

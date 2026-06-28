@@ -29,7 +29,12 @@ const readingPredictions = {
   "Canada|Olanda": { home: 0, away: 2, stage: "Ottavi", basis: "Letture dei sedicesimi" },
   "Brasile|Norvegia": { home: 2, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi" },
   "Messico|Inghilterra": { home: 0, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi" },
-  "Portogallo|Spagna": { home: 1, away: 2, stage: "Ottavi", basis: "Letture dei sedicesimi" },
+  /*
+   * Cinque degli ultimi sei precedenti sono finiti in parità nei 90 minuti.
+   * Le finali 2025 e 2012 sono arrivate ai rigori: Spagna avanti soltanto
+   * come qualificata prevista, non come vincente nei tempi regolamentari.
+   */
+  "Portogallo|Spagna": { home: 1, away: 1, winner: "Spagna", stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti" },
   "Stati Uniti|Belgio": { home: 2, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi" },
   "Argentina|Egitto": { home: 2, away: 0, stage: "Ottavi", basis: "Letture dei sedicesimi" },
   "Svizzera|Colombia": { home: 1, away: 1, winner: "Colombia", stage: "Ottavi", basis: "Letture dei sedicesimi" },

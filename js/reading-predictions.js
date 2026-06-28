@@ -89,4 +89,24 @@ const readingPredictions = {
    * di Copa America 2024 aggiunge un forte fattore rivalsa alla Colombia.
    */
   "Argentina|Colombia": { home: 1, away: 1, winner: "Colombia", stage: "Quarti", basis: "Letture + precedenti recenti + fattore rivalsa Colombia" },
+
+  /*
+   * Possibile semifinale. La Spagna ha vinto le due sfide ufficiali
+   * più recenti: 5-4 nella Nations League 2025 e 2-1 a Euro 2024.
+   * Francia vincente 2-1 nella finale di Nations League 2021.
+   */
+  "Francia|Spagna": { home: 1, away: 2, stage: "Semifinale", basis: "Proiezioni precedenti + precedenti ufficiali recenti" },
+  /*
+   * Possibile semifinale molto equilibrata. Negli ultimi cinque:
+   * due vittorie Brasile, una Colombia e due pareggi; tutti gli scarti
+   * sono rimasti entro una rete. Brasile avanti soltanto oltre i 90 minuti.
+   */
+  "Brasile|Colombia": { home: 1, away: 1, winner: "Brasile", stage: "Semifinale", basis: "Proiezioni precedenti + precedenti diretti recenti" },
+
+  /*
+   * Possibile finale. Serie storica equilibrata e 3-3 nel confronto
+   * più recente del marzo 2024. La Spagna viene preferita per controllo
+   * collettivo e percorso previsto; il Brasile mantiene alta la linea Goal.
+   */
+  "Spagna|Brasile": { home: 2, away: 1, stage: "Finale", basis: "Intero percorso previsto + precedente diretto del 2024" },
 };

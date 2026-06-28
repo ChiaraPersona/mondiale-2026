@@ -328,6 +328,27 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
   gap: 14px;
 }
 
+/* Le letture ancora da disputare sono mostrate dalla gara più vicina alla più lontana. */
+.reading-preview-grid > .reading-order-0 { order: -60; }
+.reading-preview-grid > .reading-order-1 { order: -59; }
+.reading-preview-grid > .reading-order-2 { order: -58; }
+.reading-preview-grid > .reading-order-3 { order: -57; }
+.reading-preview-grid > .reading-order-4 { order: -56; }
+.reading-preview-grid > .reading-order-5 { order: -55; }
+.reading-preview-grid > .reading-order-6 { order: -54; }
+.reading-preview-grid > .reading-order-7 { order: -53; }
+.reading-preview-grid > .reading-order-8 { order: -52; }
+.reading-preview-grid > .reading-order-9 { order: -51; }
+.reading-preview-grid > .reading-order-10 { order: -50; }
+.reading-preview-grid > .reading-order-11 { order: -49; }
+.reading-preview-grid > .reading-order-12 { order: -48; }
+.reading-preview-grid > .reading-order-13 { order: -47; }
+.reading-preview-grid > .reading-order-14 { order: -46; }
+.reading-preview-grid > .reading-order-15 { order: -45; }
+.reading-preview-grid > .reading-order-16 { order: -44; }
+.reading-preview-grid > .reading-order-17 { order: -43; }
+.reading-preview-grid > .reading-order-18 { order: -42; }
+
 .reading-preview-group-title {
   grid-column: 1 / -1;
   margin: 14px 0 0;

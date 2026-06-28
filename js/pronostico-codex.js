@@ -1252,6 +1252,39 @@ function codexReadingLink(teamA, teamB) {
     </a>`;
 }
 
+function codexReadingPrediction(teamA, teamB) {
+  if (typeof readingPredictions === "undefined") return null;
+  const direct = readingPredictions[`${teamA}|${teamB}`];
+  if (direct) return { ...direct, goalsA: direct.home, goalsB: direct.away };
+  const reverse = readingPredictions[`${teamB}|${teamA}`];
+  if (!reverse) return null;
+  return {
+    ...reverse,
+    goalsA: reverse.away,
+    goalsB: reverse.home,
+  };
+}
+
+function codexApplyReadingPrediction(result, teamA, teamB) {
+  const editorial = codexReadingPrediction(teamA, teamB);
+  if (!editorial) return result;
+  const goalsA = editorial.goalsA;
+  const goalsB = editorial.goalsB;
+  const winner = editorial.winner ||
+    (goalsA > goalsB ? teamA : goalsB > goalsA ? teamB : result.winner);
+  return {
+    ...result,
+    goalsA,
+    goalsB,
+    winner,
+    note: goalsA === goalsB
+      ? `${winner} indicata per il passaggio del turno · fonte: Lettura`
+      : "Pronostico allineato alla Lettura",
+    readingSource: editorial.source,
+    isReadingPrediction: true,
+  };
+}
+
 function codexTeamMatches(team) {
   const record = (typeof teamStatsData !== "undefined" ? teamStatsData : []).find((item) => item.team === team);
   return record?.matches || [];
@@ -2329,7 +2362,8 @@ function codexSimulateKnockout() {
     .forEach((matchNumber) => {
       const [teamA, teamB] = codexParticipants(matchNumber);
       if (!teamA || !teamB) return;
-      const result = codexScoreMatch(teamA, teamB, true, worldCupFixtures[matchNumber - 1], matchNumber);
+      const simulated = codexScoreMatch(teamA, teamB, true, worldCupFixtures[matchNumber - 1], matchNumber);
+      const result = codexApplyReadingPrediction(simulated, teamA, teamB);
       codexState.results[matchNumber] = { ...result, fixture: worldCupFixtures[matchNumber - 1] };
     });
 }
@@ -3273,9 +3307,9 @@ function codexRenderKnockout() {
     ["Semifinali", codexBracketMatchNumbers.sf],
     ["Finali", [...codexBracketMatchNumbers.bronze, ...codexBracketMatchNumbers.final]],
   ];
-  root.innerHTML = rounds.map(([title, matches]) => `
-    <section class="codex-knockout-round">
-      <h3>${title}</h3>
+  root.innerHTML = rounds.map(([title, matches], roundIndex) => `
+    <section class="codex-knockout-round codex-knockout-round-${roundIndex + 1}">
+      <h3><span>${title}</span><small>${matches.length} ${matches.length === 1 ? "partita" : "partite"}</small></h3>
       <div>${matches.map((matchNumber) => codexRenderResultCard(matchNumber)).join("")}</div>
     </section>`).join("");
 }

@@ -170,7 +170,7 @@ renderReadingSurprise();
 
 if (!document.querySelector('script[data-mycombo-export]')) {
   const myComboScript = document.createElement("script");
-  myComboScript.src = "js/mycombo-export.js?v=20260629-1";
+  myComboScript.src = "js/mycombo-export.js?v=20260629-2";
   myComboScript.dataset.mycomboExport = "true";
   document.head.appendChild(myComboScript);
 }

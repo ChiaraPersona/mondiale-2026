@@ -55,12 +55,26 @@ function cosineSimilarity(a, b) {
 function isRedundant(eventA, eventB) {
   const firstThreshold = threshold(eventA);
   const secondThreshold = threshold(eventB);
+  const firstSelection = normalized(eventA.selezione);
+  const secondSelection = normalized(eventB.selezione);
+  const team1Outcomes = new Set(["1", "1X"]);
+  const team2Outcomes = new Set(["2", "X2"]);
+  const overlappingOutcome =
+    eventA.categoria === "esito" &&
+    eventB.categoria === "esito" &&
+    (
+      (team1Outcomes.has(firstSelection) && team1Outcomes.has(secondSelection)) ||
+      (team2Outcomes.has(firstSelection) && team2Outcomes.has(secondSelection))
+    );
   return (
-    firstThreshold !== null &&
-    secondThreshold !== null &&
-    firstThreshold !== secondThreshold &&
-    structuralKey(eventA) === structuralKey(eventB) &&
-    normalized(eventA.selezione) === normalized(eventB.selezione)
+    overlappingOutcome ||
+    (
+      firstThreshold !== null &&
+      secondThreshold !== null &&
+      firstThreshold !== secondThreshold &&
+      structuralKey(eventA) === structuralKey(eventB) &&
+      firstSelection === secondSelection
+    )
   );
 }
 

@@ -510,9 +510,9 @@
       "source": "event-01",
       "target": "event-02",
       "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Brasile, Vittoria controllata Brasile.",
-      "footballCause": "Motivazione Brasile: very_high; Forma Brasile: excellent; Partita a eliminazione diretta; Gestione del vantaggio",
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Brasile, Vittoria controllata Brasile.",
       "scenarios": [
         "Dominio Brasile",
         "Vittoria controllata Brasile"
@@ -533,9 +533,9 @@
       "source": "event-01",
       "target": "event-04",
       "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Brasile, Vittoria controllata Brasile.",
-      "footballCause": "Motivazione Brasile: very_high; Forma Brasile: excellent; Partita a eliminazione diretta; Gestione del vantaggio",
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Brasile, Vittoria controllata Brasile.",
       "scenarios": [
         "Dominio Brasile",
         "Vittoria controllata Brasile"
@@ -822,9 +822,9 @@
       "source": "event-02",
       "target": "event-04",
       "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Brasile, Vittoria controllata Brasile.",
-      "footballCause": "Motivazione Brasile: very_high; Forma Brasile: excellent; Partita a eliminazione diretta; Gestione del vantaggio",
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Brasile, Vittoria controllata Brasile.",
       "scenarios": [
         "Dominio Brasile",
         "Vittoria controllata Brasile"
@@ -5188,47 +5188,55 @@
     {
       "id": "redundant-1",
       "nodes": [
+        "event-01",
+        "event-02",
+        "event-04"
+      ]
+    },
+    {
+      "id": "redundant-2",
+      "nodes": [
         "event-03",
         "event-13"
       ]
     },
     {
-      "id": "redundant-2",
+      "id": "redundant-3",
       "nodes": [
         "event-05",
         "event-08"
       ]
     },
     {
-      "id": "redundant-3",
+      "id": "redundant-4",
       "nodes": [
         "event-11",
         "event-12"
       ]
     },
     {
-      "id": "redundant-4",
+      "id": "redundant-5",
       "nodes": [
         "event-18",
         "event-19"
       ]
     },
     {
-      "id": "redundant-5",
+      "id": "redundant-6",
       "nodes": [
         "event-20",
         "event-21"
       ]
     },
     {
-      "id": "redundant-6",
+      "id": "redundant-7",
       "nodes": [
         "event-22",
         "event-24"
       ]
     },
     {
-      "id": "redundant-7",
+      "id": "redundant-8",
       "nodes": [
         "event-23",
         "event-25"

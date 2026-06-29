@@ -510,9 +510,9 @@
       "source": "event-01",
       "target": "event-02",
       "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Vittoria controllata Germania.",
-      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Germania, Vittoria controllata Germania.",
       "scenarios": [
         "Dominio Germania",
         "Vittoria controllata Germania"
@@ -522,9 +522,9 @@
       "source": "event-01",
       "target": "event-03",
       "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Vittoria controllata Germania.",
-      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Germania, Vittoria controllata Germania.",
       "scenarios": [
         "Dominio Germania",
         "Vittoria controllata Germania"
@@ -815,9 +815,9 @@
       "source": "event-02",
       "target": "event-03",
       "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Vittoria controllata Germania.",
-      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Germania, Vittoria controllata Germania.",
       "scenarios": [
         "Dominio Germania",
         "Vittoria controllata Germania"
@@ -5164,47 +5164,55 @@
     {
       "id": "redundant-1",
       "nodes": [
+        "event-01",
+        "event-02",
+        "event-03"
+      ]
+    },
+    {
+      "id": "redundant-2",
+      "nodes": [
         "event-04",
         "event-08"
       ]
     },
     {
-      "id": "redundant-2",
+      "id": "redundant-3",
       "nodes": [
         "event-05",
         "event-13"
       ]
     },
     {
-      "id": "redundant-3",
+      "id": "redundant-4",
       "nodes": [
         "event-11",
         "event-16"
       ]
     },
     {
-      "id": "redundant-4",
+      "id": "redundant-5",
       "nodes": [
         "event-18",
         "event-22"
       ]
     },
     {
-      "id": "redundant-5",
+      "id": "redundant-6",
       "nodes": [
         "event-19",
         "event-26"
       ]
     },
     {
-      "id": "redundant-6",
+      "id": "redundant-7",
       "nodes": [
         "event-23",
         "event-28"
       ]
     },
     {
-      "id": "redundant-7",
+      "id": "redundant-8",
       "nodes": [
         "event-24",
         "event-25"

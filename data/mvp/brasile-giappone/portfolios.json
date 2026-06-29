@@ -26,21 +26,21 @@
           "class": "CORE"
         },
         {
-          "id": "event-12",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 14.5 TIRI TOTALI",
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 13.5 TIRI TOTALI",
           "selection": "OVER",
-          "odds": 1.95,
+          "odds": 1.65,
           "category": "tiri",
           "rankingScore": 88,
           "class": "CORE"
         },
         {
-          "id": "event-17",
-          "market": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
-          "selection": "TEAM 1",
-          "odds": 1.48,
-          "category": "corner",
-          "rankingScore": 84,
+          "id": "event-15",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.75,
+          "category": "tiri",
+          "rankingScore": 86,
           "class": "CORE"
         }
       ],
@@ -52,7 +52,7 @@
       "reason": "Selezione costruita interamente sullo scenario “Dominio Brasile”, privilegiando Score elevati, compatibilità e vicinanza alla quota 5.",
       "strengths": [
         "3 categorie rappresentate: esito, corner, tiri.",
-        "Score medio 88.25.",
+        "Score medio 88.75.",
         "6 relazioni positive e nessuna relazione negativa o ridondante.",
         "Motivazione Brasile: very_high",
         "Forma Brasile: excellent"
@@ -86,6 +86,15 @@
           "class": "CORE"
         },
         {
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 13.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.65,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE"
+        },
+        {
           "id": "event-14",
           "market": "GOAL/NOGOAL — GOAL/NO GOAL",
           "selection": "GOAL",
@@ -95,22 +104,13 @@
           "class": "CORE"
         },
         {
-          "id": "event-15",
-          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
+          "id": "event-18",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — VINICIUS JUNIOR U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.75,
+          "odds": 1.57,
           "category": "tiri",
-          "rankingScore": 86,
-          "class": "CORE"
-        },
-        {
-          "id": "event-17",
-          "market": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
-          "selection": "TEAM 1",
-          "odds": 1.48,
-          "category": "corner",
-          "rankingScore": 84,
-          "class": "CORE"
+          "rankingScore": 65,
+          "class": "VALUE"
         }
       ],
       "scenario": {
@@ -120,14 +120,15 @@
       },
       "reason": "Selezione costruita interamente sullo scenario “Dominio Brasile”, privilegiando Score elevati, compatibilità e vicinanza alla quota 10.",
       "strengths": [
-        "4 categorie rappresentate: esito, corner, goal, tiri.",
-        "Score medio 87.8.",
+        "4 categorie rappresentate: esito, corner, tiri, goal.",
+        "Score medio 84.4.",
         "9 relazioni positive e nessuna relazione negativa o ridondante.",
         "Motivazione Brasile: very_high",
         "Forma Brasile: excellent"
       ],
       "weaknesses": [
-        "1 relazioni sono neutrali: gli eventi condividono lo scenario ma non una dipendenza diretta."
+        "1 relazioni sono neutrali: gli eventi condividono lo scenario ma non una dipendenza diretta.",
+        "I mercati giocatore restano sensibili a minutaggio, ruolo e sostituzioni."
       ]
     },
     {

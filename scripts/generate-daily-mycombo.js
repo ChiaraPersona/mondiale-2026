@@ -51,6 +51,15 @@ function categoryFor(market) {
   return "esito";
 }
 
+function isMyComboEligible(selection) {
+  const market = String(selection?.mercato || selection?.market || "").toUpperCase();
+  const info = String(selection?.info || "").toUpperCase();
+  return !(
+    market.includes("PRIMA A X CORNER") ||
+    info.includes("PRIMA A 2 CALCI D'ANGOLO")
+  );
+}
+
 function archivedMatch(source) {
   const definitions = [
     ["Safe", source.combos.quota5],
@@ -63,10 +72,15 @@ function archivedMatch(source) {
     date: source.date,
     status: "completed",
     settlement: source.settlement,
-    portfolios: definitions.map(([name, combo]) => ({
+    portfolios: definitions.map(([name, combo]) => {
+      const selections = (combo.selections || []).filter(isMyComboEligible);
+      const finalOdds = Math.round(
+        selections.reduce((total, selection) => total * Number(selection.quota), 1) * 100
+      ) / 100;
+      return {
       name,
-      finalOdds: combo.quotaTotale,
-      events: (combo.selections || []).map(selection => ({
+      finalOdds,
+      events: selections.map(selection => ({
         id: selection.eventId,
         market: [selection.mercato, selection.info].filter(Boolean).join(" — "),
         selection: selection.esito || selection.label,
@@ -82,7 +96,8 @@ function archivedMatch(source) {
       },
       strengths: ["Eventi riferiti esclusivamente a Sudafrica - Canada.", "Esito verificato sul risultato finale."],
       weaknesses: ["Portfolio archiviato: non rappresenta una giocata ancora aperta."],
-    })),
+    };
+    }),
   };
 }
 

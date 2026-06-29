@@ -66,24 +66,14 @@
           "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 88) e quota compatibile."
         },
         {
-          "id": "event-12",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 14.5 TIRI TOTALI",
+          "id": "event-15",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
           "selection": "OVER",
-          "odds": 1.95,
+          "odds": 1.75,
           "category": "tiri",
-          "rankingScore": 88,
+          "rankingScore": 86,
           "class": "CORE",
-          "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
-        },
-        {
-          "id": "event-17",
-          "market": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
-          "selection": "TEAM 1",
-          "odds": 1.48,
-          "category": "corner",
-          "rankingScore": 84,
-          "class": "CORE",
-          "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 84) e quota compatibile."
+          "reason": "Sostituito da un evento della stessa categoria con Score più alto (88 contro 86) e quota compatibile."
         }
       ],
       "addedEvents": [
@@ -105,24 +95,14 @@
           "category": "corner",
           "rankingScore": 90,
           "class": "CORE",
-          "reason": "Inserito come alternativa più stabile a quota simile: Score 90 contro 88."
-        },
-        {
-          "id": "event-11",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 13.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.65,
-          "category": "tiri",
-          "rankingScore": 88,
-          "class": "CORE",
           "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
         }
       ],
-      "improvementEstimate": "alto",
+      "improvementEstimate": "medio",
       "qualityIndex": {
-        "initial": 96.35,
+        "initial": 97.15,
         "final": 102.97,
-        "delta": 6.62,
+        "delta": 5.82,
         "note": "Indice comparativo di qualità, non probabilità."
       },
       "reason": "La soluzione massimizza la qualità tra le combinazioni ammissibili nell'intervallo.",
@@ -201,24 +181,24 @@
           "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 88) e quota compatibile."
         },
         {
-          "id": "event-15",
-          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 13.5 TIRI TOTALI",
           "selection": "OVER",
-          "odds": 1.75,
+          "odds": 1.65,
           "category": "tiri",
-          "rankingScore": 86,
+          "rankingScore": 88,
           "class": "CORE",
-          "reason": "Sostituito da un evento della stessa categoria con Score più alto (88 contro 86) e quota compatibile."
+          "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
         },
         {
-          "id": "event-17",
-          "market": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
-          "selection": "TEAM 1",
-          "odds": 1.48,
-          "category": "corner",
-          "rankingScore": 84,
-          "class": "CORE",
-          "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 84) e quota compatibile."
+          "id": "event-18",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — VINICIUS JUNIOR U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.57,
+          "category": "tiri",
+          "rankingScore": 65,
+          "class": "VALUE",
+          "reason": "Sostituito da un evento della stessa categoria con Score più alto (88 contro 65) e quota compatibile."
         }
       ],
       "addedEvents": [
@@ -240,14 +220,14 @@
           "category": "tiri",
           "rankingScore": 88,
           "class": "CORE",
-          "reason": "Inserito come alternativa più stabile a quota simile: Score 88 contro 87."
+          "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
         }
       ],
       "improvementEstimate": "alto",
       "qualityIndex": {
-        "initial": 93.6,
+        "initial": 86.5,
         "final": 101.2,
-        "delta": 7.6,
+        "delta": 14.7,
         "note": "Indice comparativo di qualità, non probabilità."
       },
       "reason": "La soluzione massimizza la qualità tra le combinazioni ammissibili nell'intervallo.",

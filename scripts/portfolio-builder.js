@@ -42,6 +42,14 @@ function round2(value) {
   return Math.round((value + Number.EPSILON) * 100) / 100;
 }
 
+function isMyComboEligible(event) {
+  const market = String(event?.market || "").toUpperCase();
+  return !(
+    market.includes("PRIMA A X CORNER") ||
+    market.includes("PRIMA A 2 CALCI D'ANGOLO")
+  );
+}
+
 function edgeMap(graph) {
   return new Map(
     graph.edges.map(edge => [
@@ -201,6 +209,7 @@ function buildPortfolio(ranking, scenarios, graph, config) {
       .filter(Boolean)
       .filter(event =>
         !incompatible.has(event.id) &&
+        isMyComboEligible(event) &&
         event.score >= config.minScore &&
         config.classes.has(event.class) &&
         event.odds > 1.05

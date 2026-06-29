@@ -33,6 +33,14 @@ function round2(value) {
   return Math.round((value + Number.EPSILON) * 100) / 100;
 }
 
+function isMyComboEligible(event) {
+  const market = String(event?.market || "").toUpperCase();
+  return !(
+    market.includes("PRIMA A X CORNER") ||
+    market.includes("PRIMA A 2 CALCI D'ANGOLO")
+  );
+}
+
 function edgeMap(graph) {
   return new Map(
     graph.edges.map(edge => [[edge.source, edge.target].sort().join("|"), edge])
@@ -222,6 +230,7 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph) {
     .filter(Boolean)
     .filter(event =>
       !incompatible.has(event.id) &&
+      isMyComboEligible(event) &&
       event.score >= config.minScore &&
       config.classes.has(event.class) &&
       event.odds > 1.05
@@ -229,7 +238,10 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph) {
     .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
 
   const optimized = searchBest(candidates, config, edges);
-  const initialEvents = portfolio.events.map(event => rankingById.get(event.id)).filter(Boolean);
+  const initialEvents = portfolio.events
+    .map(event => rankingById.get(event.id))
+    .filter(Boolean)
+    .filter(isMyComboEligible);
   const initialStats = portfolioStats(initialEvents, edges);
 
   if (!optimized) {

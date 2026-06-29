@@ -248,6 +248,10 @@
         .filter(event => event?.id && event?.reason)
         .map(event => [event.id, event.reason])
     );
+    const eligibleEvents = (portfolio.events || []).filter(event => {
+      const market = fold(event?.market || event?.mercato);
+      return !market.includes("prima a x corner") && !market.includes("prima a 2 calci d'angolo");
+    });
     const strengths = Array.isArray(portfolio.strengths) ? portfolio.strengths.filter(Boolean) : [];
     const weaknesses = Array.isArray(portfolio.weaknesses) ? portfolio.weaknesses.filter(Boolean) : [];
     return `
@@ -260,7 +264,7 @@
           <strong><small>Quota finale</small>${escapeHtml(portfolio.finalOdds)}</strong>
         </header>
         ${portfolio.reason ? `<p class="mycombo-portfolio-reason">${escapeHtml(portfolio.reason)}</p>` : ""}
-        <ol class="mycombo-selections">${(portfolio.events || []).map(event => selectionCard(event, event.reason || reasonByEvent.get(event.id) || "")).join("") || '<li class="mycombo-combo-empty">Nessuna selezione presente.</li>'}</ol>
+        <ol class="mycombo-selections">${eligibleEvents.map(event => selectionCard(event, event.reason || reasonByEvent.get(event.id) || "")).join("") || '<li class="mycombo-combo-empty">Nessuna selezione combinabile presente.</li>'}</ol>
         ${(strengths.length || weaknesses.length) ? `
           <div class="mycombo-assessment">
             <section class="is-strength">

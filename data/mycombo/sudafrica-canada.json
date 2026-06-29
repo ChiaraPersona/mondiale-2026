@@ -204,7 +204,7 @@
     },
     {
       "name": "Aggressive",
-      "finalOdds": 19.95,
+      "finalOdds": 15.34,
       "events": [
         {
           "id": "under_2_5",
@@ -259,15 +259,6 @@
           "category": "tiri",
           "selectionId": 5193122006,
           "marketId": 788570950
-        },
-        {
-          "id": "canada_prima_2_corner",
-          "market": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
-          "selection": "TEAM 2",
-          "odds": 1.3,
-          "category": "corner",
-          "selectionId": 5193603568,
-          "marketId": 788652151
         },
         {
           "id": "buchanan_1_tiro",

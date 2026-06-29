@@ -1,0 +1,8 @@
+{
+  "match": "Germania - Paraguay",
+  "data": {
+    "mustWin": true,
+    "canSettle": true,
+    "knockout": true
+  }
+}

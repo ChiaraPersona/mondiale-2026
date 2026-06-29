@@ -1,5 +1,16 @@
 const readingPage = document.body.classList.contains("reading-page");
 
+document.querySelectorAll(".page-links").forEach((nav) => {
+  if (nav.querySelector('a[href="laboratorio-ai.html"]')) return;
+  const utilityLink = nav.querySelector(".utility-link");
+  const link = document.createElement("a");
+  link.className = "page-link";
+  link.href = "laboratorio-ai.html";
+  link.textContent = "Laboratorio AI";
+  if (document.body.classList.contains("lab-page")) link.classList.add("active");
+  nav.insertBefore(link, utilityLink || null);
+});
+
 if (readingPage && !document.querySelector('script[data-mycombo-export]')) {
   const myComboScript = document.createElement("script");
   myComboScript.src = "js/mycombo-export.js?v=20260628-2";
@@ -26,6 +37,7 @@ if (readingPage && !document.querySelector(".page-links")) {
           </div>
         </div>
         <a class="page-link" href="storia.html">Storia</a>
+        <a class="page-link" href="laboratorio-ai.html">Laboratorio AI</a>
         <a class="page-link utility-link" href="metodo-fonti.html">Metodo e fonti</a>
       </nav>
     `);

@@ -1,0 +1,53 @@
+{
+  "match": "Ecuador - Curacao",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": [
+      "Caicedo resta il profilo individuale con i numeri disciplinari piu forti, ma il copione della gara potrebbe ridurre i suoi interventi difensivi."
+    ]
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Ma Ning registra 3,38 gialli di media in 308 partite e 44 espulsioni complessive.",
+      "Non e un arbitro da over cartellini automatico: la proiezione scende a 3-4 ammonizioni, con Curacao piu esposta per il lungo lavoro senza palla."
+    ],
+    "manyCorners": null,
+    "manyGoals": [
+      "La lettura piu utile passa dal numero di gol, dalla porta inviolata e dal volume prodotto contro una Curacao che ha gia concesso molto alla Germania."
+    ]
+  },
+  "summary": [
+    "L'Ecuador deve trasformare il dominio territoriale in una vittoria larga."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "match": "Norvegia 3-2 Senegal",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": []
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Sampaio presenta 4,40 gialli di media in 541 partite, con 77 espulsioni.",
+      "La fascia attesa e 4-6 cartellini, con il Senegal leggermente piu esposto.",
+      "Il rischio nasce presto: se il Senegal perde palla mentre i terzini sono alti, Gueye e il primo uomo chiamato a interrompere la transizione."
+    ],
+    "manyCorners": null,
+    "manyGoals": [
+      "La partita si apre come previsto, ma arriva un gol in piu."
+    ]
+  },
+  "summary": [
+    "La partita si apre come previsto, ma arriva un gol in piu.",
+    "Pedersen apre e Haaland firma una doppietta; Sarr risponde due volte per il Senegal. Presi vincente, Goal e Over 2,5."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "match": "Tunisia - Olanda",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "Ben Hammida e Valery avranno una partita lunga: Dumfries, Gakpo, Malen e Ake possono attaccare entrambi i lati.",
+        "Per respirare servono conduzioni di Mejbri, Gharbi e Slimane, ma ogni palla persa centrale puo diventare un attacco immediato olandese."
+      ],
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": [
+        "Talbi e Abdi dovranno assorbire Brobbey, mentre Skhiri e Khedira devono proteggere la zona davanti all'area."
+      ],
+      "away": null
+    },
+    "expectedPossession": [
+      "La Tunisia puo segnare quasi solo su transizione, palla inattiva o errore in costruzione."
+    ],
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": [
+      "Il profilo Transfermarkt 2025/26 di Katia Garcia Mendoza registra 16 partite, 77 gialli, 2 rossi e 5 rigori: circa 4,81 gialli a gara e 4,94 cartellini totali a gara."
+    ]
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Il profilo Transfermarkt 2025/26 di Katia Garcia Mendoza registra 16 partite, 77 gialli, 2 rossi e 5 rigori: circa 4,81 gialli a gara e 4,94 cartellini totali a gara.",
+      "E un dato piuttosto alto, quindi la lettura cartellini sale rispetto alla prima versione.",
+      "Stimo 4-6 gialli totali, con Tunisia piu ammonita."
+    ],
+    "manyCorners": null,
+    "manyGoals": [
+      "Il dato recente va nella stessa direzione: Tunisia travolta da Svezia e Giappone, Olanda capace di segnare cinque gol alla Svezia pur concedendo parecchio volume."
+    ]
+  },
+  "summary": [
+    "L'Olanda ha troppa qualita e con Brobbey, Gakpo e Malen puo attaccare area e profondita."
+  ]
+}

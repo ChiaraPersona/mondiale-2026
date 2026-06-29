@@ -1,0 +1,65 @@
+{
+  "match": "Nuova Zelanda 1-3 Egitto",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "Eli Just e McCowatt devono dare ampiezza e accompagnare Chris Wood, che resta il riferimento per palloni diretti, seconde palle e gioco aereo.",
+        "Puo creare problemi attaccando lo spazio dietro Hany e Fatouh, soprattutto quando Marmoush e Zizo restano alti."
+      ],
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": [
+        "Il 4-2-3-1 si appoggia a Stamenic e Joe Bell per proteggere la difesa e trovare rapidamente Singh tra le linee.",
+        "Wood puo inoltre costringere Ibrahim e Fathy a difendere piu vicini alla propria area."
+      ],
+      "away": null
+    },
+    "expectedPossession": [
+      "La Nuova Zelanda non deve inseguire il possesso."
+    ],
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": [
+      "Il 4-2-3-1 egiziano dispone di molte rotazioni."
+    ]
+  },
+  "players": {
+    "key": [],
+    "watch": [
+      "Il profilo e medio: non impone un Over automatico, ma punisce falli tattici e interventi reiterati.",
+      "Per l'Egitto, Attia e Lasheen sono i profili piu esposti se Singh o Just superano la prima pressione."
+    ]
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Al Ali registra 3,79 gialli di media in 209 partite e 38 espulsioni complessive.",
+      "La fascia prevista e 4-5 cartellini."
+    ],
+    "manyCorners": null,
+    "manyGoals": [
+      "Presi Egitto vincente, Goal e Multigol 2-4; il 1-2 centrale e l'Under 3,5 saltano per il terzo gol egiziano."
+    ]
+  },
+  "summary": [
+    "L'Egitto reagisce al vantaggio neozelandese e prende il comando.",
+    "Barbarouses apre la partita, poi Zizo, Salah e Trezeguet completano la rimonta. Presi Egitto vincente, Goal e Multigol 2-4; il 1-2 centrale e l'Under 3,5 saltano per il terzo gol egiziano."
+  ]
+}

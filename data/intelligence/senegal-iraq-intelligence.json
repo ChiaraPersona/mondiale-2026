@@ -1,0 +1,53 @@
+{
+  "match": "Senegal 5-0 Iraq",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": [
+      "Per il Senegal, Gueye e l'outsider da fallo tattico su Iqbal o Bayesh."
+    ]
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "La fascia attesa e 4-6 cartellini, con l'Iraq piu esposto se deve rincorrere."
+    ],
+    "manyCorners": null,
+    "manyGoals": [
+      "Anche le combinazioni con vittoria e mercati gol sono risultate corrette; e mancato soltanto il 3-0 esatto."
+    ]
+  },
+  "summary": [
+    "Il Senegal domina 5-0 e conferma tutte le giocate principali.",
+    "Centrati Senegal vincente, No Goal e Over 2,5. Anche le combinazioni con vittoria e mercati gol sono risultate corrette; e mancato soltanto il 3-0 esatto."
+  ]
+}

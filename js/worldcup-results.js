@@ -1343,13 +1343,6 @@ const worldCupResults = {
     notes: ["Algeria e Austria pareggiano 3-3.", "Confermato X2; saltano Under 2,5, No Goal e risultato esatto 0-1."],
   },
   73: {
-    status: "Finale", home: 1, away: 3,
-    source: "https://www.diretta.it/partita/calcio/argentina-f9OppQjp/giordania-vNcmJoU2/?mid=KAnAWtpR",
-    sources: ["https://www.diretta.it/partita/calcio/argentina-f9OppQjp/giordania-vNcmJoU2/?mid=KAnAWtpR"],
-    scorers: { "Giordania": [], "Argentina": [] },
-    notes: ["Argentina batte Giordania 3-1.", "Confermati Argentina vincente e X2; saltano Under 2,5, No Goal e risultato esatto 0-1."],
-  },
-  74: {
     status: "Finale", home: 0, away: 1,
     source: "https://www.diretta.it/partita/calcio/canada-x4toKORL/sudafrica-W2ijYvlr/?mid=EZmXxG15",
     sources: ["https://www.diretta.it/partita/calcio/canada-x4toKORL/sudafrica-W2ijYvlr/?mid=EZmXxG15"],

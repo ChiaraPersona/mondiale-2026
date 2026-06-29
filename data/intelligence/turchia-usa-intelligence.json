@@ -1,0 +1,57 @@
+{
+  "match": "Turchia - USA",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "La Turchia deve attaccare, ma non puo trasformarsi in una squadra spezzata.",
+        "Kabak e Demiral dovranno difendere tanto campo se la pressione turca viene saltata."
+      ],
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": [
+        "Kabak e Demiral dovranno difendere tanto campo se la pressione turca viene saltata."
+      ],
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": [
+      "E un profilo piu severo della media europea, ma non estremo come Barton."
+    ]
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Mustapha Ghorbal nel database del sito ha 3.87 gialli medi e 21 rossi in 182 gare.",
+      "In una gara con Turchia obbligata e USA pericolosi in campo aperto, il rischio cartellini e medio-alto.",
+      "Stimo 4-6 gialli totali, con Turchia leggermente piu esposta."
+    ],
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "Gli USA hanno piu qualita e piu serenita. La Turchia ha urgenza, ma finora ha convertito pochissimo."
+  ]
+}

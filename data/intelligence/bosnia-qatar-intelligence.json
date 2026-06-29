@@ -1,0 +1,53 @@
+{
+  "match": "Bosnia-Erzegovina - Qatar",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": []
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Mi aspetto 4-6 cartellini totali, con Qatar leggermente piu esposto perche difendera piu tempo e dovra gestire Dzeko/Demirovic in area.",
+      "Il primo cartellino lo vedo piu su un difendente qatariota che su un bosniaco."
+    ],
+    "manyCorners": null,
+    "manyGoals": [
+      "La lettura migliore non e cercare una goleada: e Bosnia vincente con volume gol medio.",
+      "Il Goal a 1.80 mi piace piu del No Goal a 1.90, perche il Qatar ha abbastanza qualita per segnare anche senza dominare."
+    ]
+  },
+  "summary": [
+    "Bosnia avanti, ma non e una partita da sottovalutare.",
+    "La giocata base resta Bosnia vincente. A quota 1.36 da sola e bassa, quindi la combinazione piu interessante e Bosnia + Over 1,5 oppure Bosnia + Under 4,5. Il Multigol 2-4 e il contenitore piu pulito: copre 2-0, 2-1, 3-0 e 3-1."
+  ]
+}

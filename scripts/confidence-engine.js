@@ -3,23 +3,10 @@ const path = require("path");
 
 const projectRoot = path.resolve(__dirname, "..");
 const quoteDirectory = path.join(projectRoot, "data", "quote");
-const requestedFile = process.argv[2] || "brasile-giappone-quote.json";
-const inputFile = path.resolve(quoteDirectory, requestedFile);
-const outputFile = path.join(projectRoot, "confidence-events.json");
+const confidenceDirectory = path.join(projectRoot, "data", "confidence");
+const requestedFile = process.argv[2];
 
-if (!inputFile.startsWith(`${quoteDirectory}${path.sep}`)) {
-  throw new Error("Il file di input deve trovarsi in data/quote/.");
-}
-if (!fs.existsSync(inputFile)) {
-  throw new Error(`File quote non trovato: data/quote/${requestedFile}`);
-}
-
-const payload = JSON.parse(fs.readFileSync(inputFile, "utf8"));
-if (!payload || !Array.isArray(payload.markets)) {
-  throw new Error(`Struttura JSON non valida: data/quote/${requestedFile}`);
-}
-
-function normalized(value) {
+function normalizeText(value) {
   return String(value ?? "")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -27,8 +14,9 @@ function normalized(value) {
 }
 
 function categoryOf(event) {
-  const market = normalized(event.mercato);
-  const text = normalized(`${event.mercato} ${event.info}`);
+  const market = normalizeText(event.mercato);
+  const text = normalizeText(`${event.mercato} ${event.info}`);
+
   if (text.includes("COMBO")) return "combo";
   if (text.includes("RISULTATO ESATTO")) return "esatto";
   if (text.includes("CORNER") || text.includes("ANGOLO")) return "corner";
@@ -58,74 +46,69 @@ function categoryOf(event) {
   return "altro";
 }
 
-function isVeryComplex(event) {
-  const text = normalized(`${event.mercato} ${event.info} ${event.esito}`);
-  const comboLegs = (text.match(/\+/g) || []).length + 1;
-  return (
-    text.includes("RISULTATO ESATTO") ||
-    text.includes("DOPPIETTA") ||
-    text.includes("TRIPLETTA") ||
-    text.includes("MARCATORE MULTIPLO") ||
-    text.includes("MARCATORE PI") ||
-    (text.includes("COMBO") && comboLegs >= 3)
-  );
+function normalizeId(value) {
+  return value === undefined || value === null ? "" : String(value);
 }
 
-function isSpecial(event) {
-  const text = normalized(`${event.mercato} ${event.info}`);
-  return text.includes("RISULTATO ESATTO") || text.includes("MULTIGOL");
+function normalizeEvent(event) {
+  return {
+    category: categoryOf(event),
+    market: event.mercato ?? "",
+    selection: event.esito ?? "",
+    odds: Number(event.quota),
+    marketId: normalizeId(event.marketId),
+    selectionId: normalizeId(event.selectionId),
+    confidence: 0,
+    value: 0,
+    risk: 0,
+    status: "unknown",
+    reasons: [],
+  };
 }
 
-function isSimple(event, category) {
-  const market = normalized(event.mercato);
-  const info = normalized(event.info);
-  const selection = normalized(event.esito);
-  if (isVeryComplex(event) || isSpecial(event) || category === "combo") return false;
-
-  const basicOutcome =
-    market.includes("ESITO FINALE 1X2") ||
-    market === "1X2" ||
-    market.includes("DOPPIA CHANCE") ||
-    market.includes("PASSAGGIO TURNO");
-  const basicUnderOver =
-    market.includes("UNDER/OVER") ||
-    market.startsWith("U/O ") ||
-    info.startsWith("U/O ");
-  const overCorner =
-    category === "corner" &&
-    (selection === "OVER" || selection.startsWith("OVER "));
-
-  return basicOutcome || basicUnderOver || overCorner;
+function validatePayload(payload, filename) {
+  if (!payload || !Array.isArray(payload.markets)) {
+    throw new Error(`${filename}: struttura JSON non valida o markets mancante.`);
+  }
 }
 
-function scoreOf(event, category) {
-  const odd = Number(event.quota);
-  let score = 0;
-  if (isSimple(event, category)) score += 15;
-  if (Number.isFinite(odd) && odd >= 1.3 && odd <= 2.2) score += 10;
-  if (!isSpecial(event)) score += 8;
-  if (["corner", "cartellini", "tiri", "goal"].includes(category)) score += 5;
-  if (isVeryComplex(event)) score -= 15;
-  return score;
+function outputName(filename) {
+  return filename.replace(/-quote\.json$/i, "-confidence.json");
 }
 
-const ranking = payload.markets
-  .map((event, index) => {
-    const category = categoryOf(event);
-    return {
-      market: event.mercato ?? "",
-      selection: event.esito ?? "",
-      quota: Number(event.quota),
-      score: scoreOf(event, category),
-      category,
-      _index: index,
-    };
-  })
-  .sort((a, b) => b.score - a.score || a._index - b._index)
-  .map(({ _index, ...event }) => event);
+function processFile(filename) {
+  const inputPath = path.resolve(quoteDirectory, filename);
+  if (!inputPath.startsWith(`${quoteDirectory}${path.sep}`)) {
+    throw new Error("Il file di input deve trovarsi in data/quote/.");
+  }
+  if (!fs.existsSync(inputPath)) {
+    throw new Error(`File quote non trovato: data/quote/${filename}`);
+  }
 
-fs.writeFileSync(outputFile, `${JSON.stringify(ranking, null, 2)}\n`, "utf8");
+  const payload = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+  validatePayload(payload, filename);
 
-console.log(`Input: data/quote/${requestedFile}`);
-console.log(`Eventi classificati: ${ranking.length}`);
-console.log(`Output: confidence-events.json`);
+  const events = payload.markets.map(normalizeEvent);
+  const destination = path.join(confidenceDirectory, outputName(filename));
+  fs.writeFileSync(destination, `${JSON.stringify(events, null, 2)}\n`, "utf8");
+
+  console.log(`${filename}: ${events.length} eventi -> data/confidence/${path.basename(destination)}`);
+}
+
+if (!fs.existsSync(quoteDirectory)) {
+  throw new Error("Cartella data/quote/ non trovata.");
+}
+
+fs.mkdirSync(confidenceDirectory, { recursive: true });
+
+const files = requestedFile
+  ? [requestedFile]
+  : fs.readdirSync(quoteDirectory)
+      .filter(filename => filename.toLowerCase().endsWith("-quote.json"))
+      .sort((a, b) => a.localeCompare(b, "it"));
+
+if (!files.length) {
+  throw new Error("Nessun file *-quote.json presente in data/quote/.");
+}
+
+files.forEach(processFile);

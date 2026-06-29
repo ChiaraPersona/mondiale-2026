@@ -1,0 +1,77 @@
+{
+  "match": "Spagna - Austria",
+  "motivation": {
+    "home": "Spagna 97/100 — motivazione massima. Rosa da titolo, imbattibilità nel girone e pressione positiva dopo le vittorie su Arabia Saudita e Uruguay. Il bonus dinamico premia solidità e continuità.",
+    "away": "Austria 84/100 — motivazione alta. Ha meno pressione, ha reagito fino al 3-3 con l’Algeria e può giocare con lo status di sfavorita. La sconfitta netta con l’Argentina limita però la fiducia contro una big."
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "Rodri e Pedri possono fissare il possesso e attirare la pressione austriaca, liberando Dani Olmo tra le linee.",
+        "Yamal deve isolare il terzino sul lato debole; Cucurella e Pedro Porro possono dare ampiezza senza obbligare gli esterni a restare larghi."
+      ],
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": [
+        "Il pericolo principale è un possesso sterile contro un blocco molto compatto."
+      ],
+      "away": null
+    },
+    "expectedPossession": [
+      "Rodri e Pedri possono fissare il possesso e attirare la pressione austriaca, liberando Dani Olmo tra le linee.",
+      "Il pericolo principale è un possesso sterile contro un blocco molto compatto."
+    ],
+    "expectedIntensity": [
+      "Servono ritmo nelle rotazioni e riaggressione immediata per impedire a Sabitzer e Gregoritsch di trasformare una riconquista in campo aperto."
+    ]
+  },
+  "form": {
+    "home": "La Spagna è imbattuta nelle ultime cinque: 1-0 all’Uruguay, 4-0 all’Arabia Saudita, 0-0 con Capo Verde, 3-1 al Perù e 1-1 con l’Iraq. Nove gol fatti e due subiti, con quattro gare su cinque senza concedere più di una rete.",
+    "away": "L’Austria arriva dal 3-3 con l’Algeria, preceduto dallo 0-2 con l’Argentina, dal 3-1 alla Giordania e da due 1-0 contro Tunisia e Corea del Sud. Tre vittorie, un pareggio e una sconfitta, otto gol fatti e sei subiti: rendimento positivo, ma più fragile contro avversarie di vertice."
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": [
+      "Un’eventuale gestione dei minuti dopo il 3-3 austriaco del 28 giugno modificherebbe turnover, duelli individuali e Fattore Sorpresa.",
+      "Servono ritmo nelle rotazioni e riaggressione immediata per impedire a Sabitzer e Gregoritsch di trasformare una riconquista in campo aperto."
+    ]
+  },
+  "players": {
+    "key": [
+      "Il pericolo principale è un possesso sterile contro un blocco molto compatto.",
+      "Konrad Laimer è la scelta principale: 18 gialli, un rosso, 1,7 falli medi e indice rischio 90 nel database."
+    ],
+    "watch": [
+      "Spagna: 17-22 tiri, 6-9 nello specchio.",
+      "Austria: 6-9 tiri, 2-3 in porta.",
+      "Konrad Laimer è la scelta principale: 18 gialli, un rosso, 1,7 falli medi e indice rischio 90 nel database.",
+      "Seguono Xaver Schlager e Seiwald nella schermatura centrale, Posch sul lato e Danso quando deve uscire in ritardo su Oyarzabal."
+    ]
+  },
+  "risks": {
+    "upset": [
+      "Ha meno pressione, ha reagito fino al 3-3 con l’Algeria e può giocare con lo status di sfavorita.",
+      "Il No Goal è favorito, ma l’equilibrio perfetto sulla linea 2,5 invita a non confondere la superiorità spagnola con un risultato necessariamente largo."
+    ],
+    "cards": [
+      "Konrad Laimer è la scelta principale: 18 gialli, un rosso, 1,7 falli medi e indice rischio 90 nel database.",
+      "Senza arbitro non viene stimato un totale cartellini affidabile."
+    ],
+    "manyCorners": [
+      "Corner previsti: Spagna 6-9, Austria 2-4, totale 8-12.",
+      "Spagna più corner è coerente con possesso territoriale e probabile blocco basso austriaco."
+    ],
+    "manyGoals": null
+  },
+  "summary": [
+    "La Spagna ha controllo, qualità tra le linee e una difesa molto stabile; l’Austria deve trasformare intensità e duelli in una partita corta.",
+    "La Spagna dispone di più qualità, maggiore controllo e una fase difensiva nettamente più affidabile. L’Austria ha intensità sufficiente per sporcare la gara, ma deve sostenere troppi duelli senza commettere errori."
+  ]
+}

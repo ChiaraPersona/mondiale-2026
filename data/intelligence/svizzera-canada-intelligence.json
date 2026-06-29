@@ -1,0 +1,64 @@
+{
+  "match": "Svizzera - Canada",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": [
+      "Le quote non mentono: e una gara equilibrata, da 1-1 piu che da dominio netto."
+    ]
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "E una struttura pensata per controllare il centro e attaccare con appoggi rapidi, non per aprire continuamente il campo."
+      ],
+      "away": [
+        "La coppia offensiva e il motivo per cui non mi piace il No Goal: David puo ricevere tra le linee, Larin puo fissare Akanji ed Elvedi e aprire spazio agli inserimenti."
+      ]
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": [
+      "La Svizzera si presenta con un 4-3-1-2 stretto: Kobel, linea con Rodriguez-Akanji-Elvedi-Widmer, Xhaka e Freuler a governare il ritmo, Vargas tra le linee e coppia Ndoye-Embolo davanti.",
+      "Vancouver non e sede estrema per caldo o quota, quindi il Canada non ha un vantaggio climatico enorme, ma ha un vantaggio psicologico e di ritmo.",
+      "Svizzera leggermente superiore per struttura e gestione, Canada molto dentro la partita per ritmo, fattore casa e coppia David-Larin."
+    ]
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": [
+      "Per la Svizzera, Akanji ed Elvedi sono esposti quando David attacca lo spazio, mentre Xhaka resta sempre un candidato naturale se deve fermare una ripartenza."
+    ]
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Qui mi aspetto 3-5 cartellini: non una guerra, ma una gara con tanti duelli di transizione e falli per spezzare ritmo.",
+      "Il rischio Canada nasce soprattutto quando la Svizzera trova Vargas tra le linee: Saliba ed Eustaquio devono scegliere se accompagnare o spendere fallo."
+    ],
+    "manyCorners": null,
+    "manyGoals": [
+      "Partita da margini piccoli: la quota piu pulita e nei gol, non nel segno."
+    ]
+  },
+  "summary": [
+    "Partita da margini piccoli: la quota piu pulita e nei gol, non nel segno.",
+    "Il mio pronostico migliore e Under 3,5. Per alzare quota: Under 3,5 + Goal oppure Multigol 2-3. L'1X2 lo lascerei in secondo piano: Svizzera leggermente piu solida, ma Canada abbastanza vicino da rendere il pareggio molto vivo."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "match": "Croazia - Ghana",
+  "motivation": {
+    "home": "Il Ghana ha quattro punti dopo l'1-0 sul Panama e lo 0-0 con l'Inghilterra. Con un pareggio sale a cinque e si qualifica. La Croazia è a tre: ha perso 4-2 con l'Inghilterra e battuto 1-0 il Panama. Vincendo supera il Ghana e raggiunge certamente i sedicesimi.",
+    "away": "Il Ghana ha quattro punti dopo l'1-0 sul Panama e lo 0-0 con l'Inghilterra. Con un pareggio sale a cinque e si qualifica. La Croazia è a tre: ha perso 4-2 con l'Inghilterra e battuto 1-0 il Panama. Vincendo supera il Ghana e raggiunge certamente i sedicesimi."
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": [
+      "Il Ghana, ancora imbattuto difensivamente, può però tenere basso il ritmo e trascinare la sfida verso un finale sottile."
+    ]
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": [
+      "La proiezione è 3-5 cartellini complessivi, senza un profilo da over estremo.",
+      "Partey è il primo nome per un cartellino ghanese; Adjete e Sibo seguono.",
+      "Sul lato croato, Kovacic è il profilo più esposto alle transizioni di Semenyo."
+    ]
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Drew Fischer ha una media storica di 3,35 gialli a partita su 253 gare censite.",
+      "La proiezione è 3-5 cartellini complessivi, senza un profilo da over estremo.",
+      "Partey è il primo nome per un cartellino ghanese; Adjete e Sibo seguono."
+    ],
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "La Croazia deve prendersi la partita; al Ghana può bastare controllarla.",
+    "La qualità croata a centrocampo e il peso di Baturina tra le linee spostano il pronostico sull'1-0. Il Ghana, ancora imbattuto difensivamente, può però tenere basso il ritmo e trascinare la sfida verso un finale sottile."
+  ]
+}

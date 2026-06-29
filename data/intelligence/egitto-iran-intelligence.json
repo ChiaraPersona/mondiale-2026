@@ -1,0 +1,50 @@
+{
+  "match": "Egitto 1-1 Iran",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": []
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Marciniak registra 4,09 gialli di media in 677 partite, con 70 espulsioni complessive.",
+      "Il dato e gia da fascia medio-alta e la pressione della qualificazione mantiene la previsione a 4-6 cartellini.",
+      "Marciniak aumenta leggermente il valore di un ammonito rispetto agli arbitri sotto i 3,5 gialli di media."
+    ],
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "L'Egitto puo gestire il pareggio, l'Iran deve uscire dal blocco: partita chiusa ma non immobile."
+  ]
+}

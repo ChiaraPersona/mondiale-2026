@@ -1,0 +1,52 @@
+{
+  "match": "Turchia - Paraguay",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": [
+      "Turchia 15-19 tiri e 5-7 in porta; Paraguay 8-11 e 3-4.",
+      "Arda: 3-5 tiri, Yildiz 2-4, Enciso 2-3."
+    ]
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Iván Barton ha una media di 5,04 gialli: fascia attesa 5-7 cartellini."
+    ],
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "Arda crea, il Paraguay prova a trascinarla nei duelli.",
+    "La Turchia ha piu produzione e qualita tra le linee; il Paraguay ha fisicita, transizioni e un arbitro che tende a estrarre molti cartellini."
+  ]
+}

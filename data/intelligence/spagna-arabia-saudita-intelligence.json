@@ -1,0 +1,61 @@
+{
+  "match": "Spagna 4-0 Arabia Saudita",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "Rispetto alla formazione precedente, la Spagna perde parte della fisicita negli inserimenti di Fabian Ruiz ma guadagna rifinitura, tiro dal limite e ampiezza pura con Porro."
+      ],
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": [
+      "Porro spinge sul lato di Yamal e offre cross, Cucurella puo stringere per formare la prima costruzione a tre, mentre Rodri e Pedri governano ritmo e riaggressione."
+    ],
+    "expectedIntensity": [
+      "Porro spinge sul lato di Yamal e offre cross, Cucurella puo stringere per formare la prima costruzione a tre, mentre Rodri e Pedri governano ritmo e riaggressione."
+    ]
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": [
+      "Tambakti rischia sui movimenti di Oyarzabal; Porro e l'outsider spagnolo se Salem Al-Dawsari riesce a partire in transizione sul suo lato."
+    ]
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Claus registra 3,78 gialli di media in 595 partite, con 93 espulsioni complessive.",
+      "La previsione resta 3-5 cartellini, con l'Arabia Saudita favorita per riceverne di piu."
+    ],
+    "manyCorners": null,
+    "manyGoals": [
+      "La Spagna ritrova gol ed efficienza.",
+      "La lettura ha centrato Spagna vincente, No Goal, Multigol 2-4 e superiorita nei corner; il quarto gol fa saltare Under 3,5 e risultato esatto 2-0."
+    ]
+  },
+  "summary": [
+    "La Spagna ritrova gol ed efficienza.",
+    "Pino e Zubimendi indirizzano la gara, poi la doppietta di Yamal completa il 4-0. La lettura ha centrato Spagna vincente, No Goal, Multigol 2-4 e superiorita nei corner; il quarto gol fa saltare Under 3,5 e risultato esatto 2-0."
+  ]
+}

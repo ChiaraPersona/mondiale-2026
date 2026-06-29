@@ -1,0 +1,58 @@
+{
+  "match": "Olanda - Svezia",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": [
+        "Gyokeres puo attaccare Van Dijk fisicamente e aprire spazio per Isak, piu mobile tra Van Hecke e il lato di Dumfries.",
+        "La Svezia non deve necessariamente dominare il pallone: puo essere pericolosa anche con poche transizioni pulite.",
+        "Il problema sara uscire dalla pressione di De Jong e Gravenberch senza perdere palla centralmente, dove l'Olanda e pronta a creare una seconda occasione immediata."
+      ]
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": [
+      "Il suo profilo non spinge verso un over cartellini automatico: tende a lasciare continuita quando i contrasti restano regolari, intervenendo con maggiore decisione su falli tattici, proteste e interventi che interrompono transizioni promettenti.",
+      "De Jong e Karlstrom seguono per i possibili falli tattici in transizione."
+    ]
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Michael Oliver registra 3,31 gialli di media in 713 partite e 56 espulsioni complessive.",
+      "Il suo profilo non spinge verso un over cartellini automatico: tende a lasciare continuita quando i contrasti restano regolari, intervenendo con maggiore decisione su falli tattici, proteste e interventi che interrompono transizioni promettenti.",
+      "La previsione resta di 3-4 cartellini complessivi."
+    ],
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "Brobbey cambia il riferimento olandese. Isak e Gyokeres tengono aperta la partita.",
+    "L'ultimo undici ufficiale inserisce Brobbey da centravanti al posto di Summerville, con Gakpo e Malen larghi. L'Olanda guadagna peso in area e un bersaglio per i cross; la Svezia conferma la coppia Isak-Gyokeres."
+  ]
+}

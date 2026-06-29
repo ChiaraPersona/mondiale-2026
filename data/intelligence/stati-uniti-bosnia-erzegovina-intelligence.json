@@ -1,0 +1,77 @@
+{
+  "match": "Stati Uniti - Bosnia ed Erzegovina",
+  "motivation": {
+    "home": "Stati Uniti 94/100 — motivazione massima. Paese ospitante, progetto costruito per questo torneo e pressione elevata. L'assenza della stella principale può compattare il gruppo, ma riduce qualità offensiva.",
+    "away": "Bosnia 82/100 — nulla da perdere. Il playoff rappresenta già un traguardo importante e permette un approccio senza pressione da favorita. La vittoria sul Qatar ha migliorato il tono emotivo."
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": [
+      "Bosnia 82/100 — nulla da perdere."
+    ],
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": [
+      "Gli Stati Uniti hanno ritmo, fattore casa e più soluzioni; la Bosnia deve rallentare la gara e sfruttare fisicità e piazzati.",
+      "Gli Stati Uniti hanno più ritmo, profondità e volume."
+    ]
+  },
+  "form": {
+    "home": "Gli Stati Uniti hanno tre vittorie e due sconfitte: 3-2 al Senegal, 1-2 con la Germania, 4-1 al Paraguay, 2-0 all'Australia e 2-3 con la Turchia. Dodici gol fatti e otto subiti: grande produzione, ma vulnerabilità quando il ritmo diventa aperto.",
+    "away": "La Bosnia ha una vittoria, tre pareggi e una sconfitta: 0-0 con la Macedonia del Nord, 1-1 col Panama, 1-1 col Canada, 1-4 con la Svizzera e 3-1 al Qatar. Sei gol fatti e sette subiti; tende a restare dentro la partita finché non concede il primo gol."
+  },
+  "absences": {
+    "important": [
+      "Pulisic è indicato tra gli indisponibili nel dato salvato.",
+      "L'eventuale recupero di Pulisic cambierebbe sensibilmente assenze, stile e Fattore Sorpresa.",
+      "L'assenza della stella principale può compattare il gruppo, ma riduce qualità offensiva.",
+      "Rischio sorpresa basso-medio: il divario resta ampio, ma assenza e possibile gara bloccata aumentano l'incertezza."
+    ],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [
+      "Ivan Šunjić è la scelta principale: 15 gialli, due falli medi e indice rischio 72 nel database."
+    ],
+    "watch": [
+      "Stati Uniti: 16-21 tiri, 6-8 nello specchio.",
+      "Bosnia: 6-9 tiri, 2-3 in porta.",
+      "Ivan Šunjić è la scelta principale: 15 gialli, due falli medi e indice rischio 72 nel database.",
+      "Seguono Kolašinac contro Dest, Tahirović sulle seconde palle e Ream nel duello con Džeko."
+    ]
+  },
+  "risks": {
+    "upset": [
+      "Il playoff rappresenta già un traguardo importante e permette un approccio senza pressione da favorita.",
+      "Rischio sorpresa basso-medio: il divario resta ampio, ma assenza e possibile gara bloccata aumentano l'incertezza.",
+      "Le quote costruiscono una favorita netta e considerano poco probabile il gol bosniaco."
+    ],
+    "cards": [
+      "Ivan Šunjić è la scelta principale: 15 gialli, due falli medi e indice rischio 72 nel database.",
+      "Tyler Adams è il primo statunitense, con 10 gialli, 1,4 falli medi e indice 49.",
+      "Senza arbitro non viene fissato un totale cartellini."
+    ],
+    "manyCorners": [
+      "Corner previsti: USA 6-9, Bosnia 2-4, totale 8-12.",
+      "Stati Uniti più corner e over 5,5 corner squadra sono coerenti col vantaggio territoriale."
+    ],
+    "manyGoals": [
+      "Le quote costruiscono una favorita netta e considerano poco probabile il gol bosniaco."
+    ]
+  },
+  "summary": [
+    "Gli Stati Uniti hanno ritmo, fattore casa e più soluzioni; la Bosnia deve rallentare la gara e sfruttare fisicità e piazzati.",
+    "Gli Stati Uniti hanno più ritmo, profondità e volume. La Bosnia può abbassare il numero di occasioni, ma rischia di produrre troppo poco per ribaltare il pronostico."
+  ]
+}

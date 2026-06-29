@@ -1,0 +1,54 @@
+{
+  "match": "Belgio 0-0 Iran",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [
+      "Raskin e il principale rischio belga per i falli tattici su Taremi, mentre Kanaani puo essere ammonito se Lukaku riesce a girarsi frontalmente."
+    ],
+    "watch": []
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Herrera registra 4,90 gialli di media in 469 partite e 85 espulsioni complessive.",
+      "La fascia attesa resta 5-7 cartellini, con l'Iran favorito per riceverne di piu.",
+      "Raskin e il principale rischio belga per i falli tattici su Taremi, mentre Kanaani puo essere ammonito se Lukaku riesce a girarsi frontalmente."
+    ],
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "Il muro iraniano regge. Il Belgio resta senza vittorie.",
+    "Beiranvand protegge lo 0-0 fino alla fine e Ngoy viene espulso nel recupero. La lettura ha centrato Under 3,5 e No Goal, ma ha sovrastimato la capacita belga di trasformare il possesso in occasioni decisive.",
+    "Belgio vincente a 1.42 resta coerente, anche se non e una quota generosa. Under 3,5 a 1.36 e la protezione piu robusta: copre 1-0, 2-0, 2-1 e 3-0. Multigol 2-4 resta la fascia preferita, mentre Belgio vincente + Under 4,5 e la combinazione piu completa."
+  ]
+}

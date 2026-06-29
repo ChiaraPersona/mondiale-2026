@@ -1,0 +1,60 @@
+{
+  "match": "Sudafrica - Corea del Sud",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": [
+        "La superiorita coreana nasce dal lato tecnico: Son attacca la profondita, Lee Kang-In lega gioco e ultimo passaggio, Hwang aiuta a tenere ritmo.",
+        "Il rischio, pero, e perdere palloni centrali: li il Sudafrica puo ripartire con pochi tocchi."
+      ]
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": [
+      "La superiorita coreana nasce dal lato tecnico: Son attacca la profondita, Lee Kang-In lega gioco e ultimo passaggio, Hwang aiuta a tenere ritmo.",
+      "Corea superiore nella qualita, Sudafrica pericoloso se alza il ritmo fisico."
+    ]
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": []
+  },
+  "risks": {
+    "upset": [
+      "Corea favorita, ma non da 2 secco sereno."
+    ],
+    "cards": [
+      "Tello tende a non lasciar degenerare le partite fisiche: se vede ripartenze fermate o proteste ripetute, il cartellino arriva.",
+      "Qui mi aspetto 4-6 ammonizioni, con rischio piu alto nel Sudafrica per falli di contenimento su Son e Lee Kang-In."
+    ],
+    "manyCorners": null,
+    "manyGoals": [
+      "Il Sudafrica puo segnare, ma per vincerla deve alzare molto il livello realizzativo e reggere senza palla."
+    ]
+  },
+  "summary": [
+    "Corea superiore nella qualita, Sudafrica pericoloso se alza il ritmo fisico.",
+    "Corea favorita, ma non da 2 secco sereno. La protezione giusta e X2, meglio se combinata con Over 1,5. Il Sudafrica puo segnare, ma per vincerla deve alzare molto il livello realizzativo e reggere senza palla."
+  ]
+}

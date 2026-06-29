@@ -1,0 +1,57 @@
+{
+  "match": "Marocco - Haiti",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "La squadra ha superiorita tecnica in ogni zona offensiva e soprattutto due lati pericolosi: Hakimi/Diaz a destra e Mazraoui/El Khannouss a sinistra."
+      ],
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": [
+        "Haiti dovrebbe difendere con blocco basso e due linee strette; il Marocco deve muovere palla rapidamente da un lato all'altro, attirare il raddoppio e poi entrare con Saibari o Diaz tra terzino e centrale."
+      ],
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [
+      "La chiave e la pazienza.",
+      "Qui il rischio principale e Haiti: difendera tanto contro giocatori tecnici, rapidi e bravi a cambiare direzione."
+    ],
+    "watch": []
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Makkelie e abituato a partite fisiche e tende a usare il cartellino quando vede falli tattici ripetuti, proteste o entrate in ritardo su giocatori lanciati.",
+      "Qui il rischio principale e Haiti: difendera tanto contro giocatori tecnici, rapidi e bravi a cambiare direzione."
+    ],
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "Marocco nettamente avanti: il dubbio e solo sulla larghezza.",
+    "Il segno 1 e molto basso ma solido. Le combinazioni migliori sono Marocco + No Goal e Marocco + Under 4,5. Per un profilo piu aggressivo: Marocco multigol 2-4 oppure risultato 3-0."
+  ]
+}

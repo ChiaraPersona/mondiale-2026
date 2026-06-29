@@ -1,0 +1,47 @@
+{
+  "match": "USA - Australia",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": []
+  },
+  "risks": {
+    "upset": null,
+    "cards": null,
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "Pulisic out, Pepi dentro. Gli USA restano favoriti, ma la partita si stringe.",
+    "Le formazioni ufficiali cambiano il profilo della gara: Pulisic non gioca, Pepi parte titolare e l'Australia si chiude con un 5-4-1 senza Irankunda dal primo minuto. Il risultato centrale scende a 1-0, con Balogun ancora riferimento principale per i tiri."
+  ]
+}

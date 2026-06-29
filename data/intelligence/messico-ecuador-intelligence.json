@@ -1,0 +1,67 @@
+{
+  "match": "Messico - Ecuador",
+  "motivation": {
+    "home": "Messico 97/100 — motivazione massima. Cinque vittorie consecutive, torneo in casa e necessità storica di superare il proprio limite negli ottavi. La pressione positiva può diventare negativa se la gara resta bloccata.",
+    "away": "Ecuador 84/100 — nulla da perdere. La vittoria sulla Germania dà fiducia e il gruppo può giocare con meno aspettative esterne. Atteggiamento previsto: prudente, fisico e reattivo."
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": [
+      "Ecuador 84/100 — nulla da perdere."
+    ],
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "Pineda può ricevere fra le linee, Vega e Alvarado attaccare l'esterno dei terzini e Giménez occupare Pacho e Ordóñez.",
+        "Il fattore casa aumenta intensità e pressione."
+      ],
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": "Il Messico ha vinto tutte le ultime cinque: 1-0 all'Australia, 5-1 alla Serbia, 2-0 al Sudafrica, 1-0 alla Corea del Sud e 3-0 alla Repubblica Ceca. Dodici gol segnati, uno subito e quattro porte inviolate: è la sequenza più forte fra le due squadre.",
+    "away": "L'Ecuador ha tre vittorie, un pareggio e una sconfitta: 2-1 all'Arabia Saudita, 3-0 al Guatemala, 0-1 con la Costa d'Avorio, 0-0 con Curaçao e 2-1 alla Germania. Sette gol fatti e tre subiti; la vittoria sulla Germania alza nettamente la qualità del campione."
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [
+      "Moisés Caicedo è il nome principale: 22 gialli, due espulsioni, 1,8 falli medi e indice rischio 100 nel database."
+    ],
+    "watch": [
+      "Messico: 11-15 tiri, 4-6 nello specchio.",
+      "Ecuador: 8-11 tiri, 2-4 in porta.",
+      "Seguono Franco per i duelli centrali, Preciado contro Vega e Vásquez quando Valencia attacca la profondità."
+    ]
+  },
+  "risks": {
+    "upset": [
+      "Rischio sorpresa medio: il margine tecnico non è ampio quanto quello motivazionale e i precedenti recenti sono tutti equilibrati."
+    ],
+    "cards": [
+      "Moisés Caicedo è il nome principale: 22 gialli, due espulsioni, 1,8 falli medi e indice rischio 100 nel database.",
+      "Edson Álvarez è la prima alternativa messicana, con sette gialli e indice 38; il rischio cresce se gioca a centrocampo.",
+      "Senza arbitro non viene stimato un totale cartellini."
+    ],
+    "manyCorners": [
+      "Corner previsti: Messico 5-7, Ecuador 3-5, totale 8-11.",
+      "Messico più corner è coerente con fattore casa e probabile possesso, ma resta una scelta secondaria rispetto all'Under."
+    ],
+    "manyGoals": null
+  },
+  "summary": [
+    "Il Messico arriva con cinque vittorie e quattro clean sheet; l'Ecuador ha struttura sufficiente per trasformare il playoff in una gara di dettagli.",
+    "La forma e il fattore casa portano il Messico avanti, ma l'Ecuador ha già dimostrato di poter battere una big e i tre precedenti più recenti sono tutti da punteggio minimo."
+  ]
+}

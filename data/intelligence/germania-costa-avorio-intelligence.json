@@ -1,0 +1,53 @@
+{
+  "match": "Germania - Costa d'Avorio",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "Kimmich puo alzarsi o stringere accanto a Pavlovic, Brown accompagna sul lato opposto e Nmecha attacca la seconda palla.",
+        "Musiala e Wirtz hanno liberta di scambiarsi posizione, costringendo Sangare e Kessie a scegliere tra pressione e protezione dell'area."
+      ],
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": []
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Juan Gabriel Benitez presenta una media di 4,61 gialli per partita.",
+      "La previsione resta di 4-6 cartellini: Sangare e Kessie devono assorbire molte ricezioni tra le linee, mentre la Germania puo ricorrere al fallo tattico se Bonny protegge il primo passaggio della transizione."
+    ],
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "La Germania conferma tutta la qualita. Gli ivoriani rispondono con equilibrio e forza fisica.",
+    "Nagelsmann mantiene Musiala, Wirtz e Sane dietro Havertz. La Costa d'Avorio rinuncia a Wahi e inserisce Bonny, con Sangare e Kessie a protezione del centro: meno velocita pura, maggiore capacita di resistere e sporcare la partita."
+  ]
+}

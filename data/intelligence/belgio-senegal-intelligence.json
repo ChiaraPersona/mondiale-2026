@@ -1,0 +1,77 @@
+{
+  "match": "Belgio - Senegal",
+  "motivation": {
+    "home": "Belgio 91/100 — motivazione molto alta. Cinque gol nell'ultima partita e nuova solidità difensiva restituiscono fiducia. Resta la pressione di una generazione che non può permettersi un'altra eliminazione precoce.",
+    "away": "Senegal 84/100 — nulla da perdere. Il 5-0 all'Iraq ha cambiato il tono emotivo dopo due sconfitte nel girone. La squadra entra nel playoff con fisicità e minore pressione esterna."
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": [
+      "Senegal 84/100 — nulla da perdere."
+    ],
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "Il Belgio deve evitare perdite centrali: Sarr e Mané hanno velocità per attaccare una linea difensiva meno rapida."
+      ],
+      "away": [
+        "Camara collega i reparti, Mané e Sarr attaccano le corsie, Jackson prova a portare fuori i centrali."
+      ]
+    },
+    "defensiveApproach": {
+      "home": [
+        "Il Belgio deve evitare perdite centrali: Sarr e Mané hanno velocità per attaccare una linea difensiva meno rapida."
+      ],
+      "away": [
+        "Pape Gueye e Idrissa Gueye devono schermare la rifinitura senza schiacciarsi troppo."
+      ]
+    },
+    "expectedPossession": [
+      "Il controllo del ritmo vale più del possesso sterile."
+    ],
+    "expectedIntensity": [
+      "Il controllo del ritmo vale più del possesso sterile."
+    ]
+  },
+  "form": {
+    "home": "Il Belgio ha tre vittorie e due pareggi: 2-0 alla Croazia, 5-0 alla Tunisia, 1-1 con l'Egitto, 0-0 con l'Iran e 5-1 alla Nuova Zelanda. Tredici gol fatti, due subiti e tre clean sheet mostrano un rendimento difensivo migliore delle prime impressioni.",
+    "away": "Il Senegal ha una vittoria, un pareggio e tre sconfitte: 2-3 con gli Stati Uniti, 0-0 con l'Arabia Saudita, 1-3 con la Francia, 2-3 con la Norvegia e 5-0 all'Iraq. Dieci gol fatti e nove subiti: pericoloso davanti, vulnerabile quando la gara si apre."
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [
+      "Pape Gueye è il nome principale: 17 gialli stagionali, 1,7 falli medi e indice rischio 71 nel database."
+    ],
+    "watch": [
+      "Belgio: 11-15 tiri, 4-6 nello specchio.",
+      "Senegal: 9-13 tiri, 3-5 in porta.",
+      "Non emerge un vantaggio abbastanza ampio per rendere i corner squadra una scelta principale.",
+      "Seguono Diatta nei duelli con Trossard, Koulibaly contro Lukaku e Meunier sulle accelerazioni di Mané."
+    ]
+  },
+  "risks": {
+    "upset": [
+      "Rischio sorpresa medio-alto perché il divario tecnico è più piccolo di quello motivazionale.",
+      "Il Senegal resta abbastanza vicino da rendere vivo pareggio e rischio sorpresa."
+    ],
+    "cards": [
+      "Pape Gueye è il nome principale: 17 gialli stagionali, 1,7 falli medi e indice rischio 71 nel database.",
+      "Senza arbitro, non viene stimato un totale cartellini affidabile."
+    ],
+    "manyCorners": [
+      "Corner previsti: Belgio 5-6, Senegal 4-6, totale 9-11.",
+      "Non emerge un vantaggio abbastanza ampio per rendere i corner squadra una scelta principale."
+    ],
+    "manyGoals": null
+  },
+  "summary": [
+    "Il Belgio ha più rifinitura, il Senegal più forza nei duelli: una partita molto meno sbilanciata di altri sedicesimi.",
+    "Il Belgio ha più qualità per costruire la singola occasione decisiva e arriva con una difesa più stabile. Il Senegal resta abbastanza vicino da rendere vivo pareggio e rischio sorpresa."
+  ]
+}

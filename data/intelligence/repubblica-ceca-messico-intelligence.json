@@ -1,0 +1,68 @@
+{
+  "match": "Repubblica Ceca - Messico",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "La modifica chiave e proprio Schick: rispetto a Hlozek centrale, la squadra guadagna peso d'area, attacco del primo palo e capacita di trasformare pochi cross in occasioni vere."
+      ],
+      "away": [
+        "La struttura e piu fluida di quella ceca: Pineda puo alzarsi tra le linee, Vega attacca da sinistra verso dentro e Gimenez fissa i centrali.",
+        "Messico deve muovere Schick lontano dalla zona palla, attaccare alle spalle di Coufal/Doudera e cercare tiri rapidi da Pineda e Vega."
+      ]
+    },
+    "defensiveApproach": {
+      "home": [
+        "Se invece la Cechia riesce ad arrivare laterale con continuita, Schick puo obbligare Alvarez e Vasquez a difendere molti palloni sporchi."
+      ],
+      "away": [
+        "All'Azteca la Cechia puo calare nel secondo tempo se deve difendere tante corse all'indietro."
+      ]
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [
+      "La modifica chiave e proprio Schick: rispetto a Hlozek centrale, la squadra guadagna peso d'area, attacco del primo palo e capacita di trasformare pochi cross in occasioni vere."
+    ],
+    "watch": [
+      "Sul lato messicano, Lira e Alvarez sono i profili da cartellino: Lira per falli tattici in mezzo, Alvarez per duelli diretti con Schick."
+    ]
+  },
+  "risks": {
+    "upset": [
+      "Messico favorito, ma Schick rende la Cechia piu pericolosa del mercato secco.",
+      "Pero con Schick titolare la Repubblica Ceca ha un riferimento d'area vero, quindi il 2 secco resta favorito ma non pulitissimo.",
+      "Il Messico resta favorito."
+    ],
+    "cards": [
+      "Partita da 4-6 cartellini: la Cechia puo soffrire ritmo e altura, il Messico puo spendere falli se perde palla con tanti uomini sopra linea.",
+      "Sul lato messicano, Lira e Alvarez sono i profili da cartellino: Lira per falli tattici in mezzo, Alvarez per duelli diretti con Schick."
+    ],
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "Messico favorito, ma Schick rende la Cechia piu pericolosa del mercato secco.",
+    "Il fattore Azteca pesa: altitudine, pubblico e familiarita ambientale spingono il Messico. Pero con Schick titolare la Repubblica Ceca ha un riferimento d'area vero, quindi il 2 secco resta favorito ma non pulitissimo.",
+    "Il Messico resta favorito. La giocata piu pulita pero e X2 + Over 1,5, perche protegge l'1-1 e non si espone troppo alla presenza di Schick. Se vuoi restare piu prudente: Messico Draw No Bet o X2 semplice."
+  ]
+}

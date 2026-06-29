@@ -1,0 +1,55 @@
+{
+  "match": "Curacao - Costa d'Avorio",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": [
+        "Il 4-4-2 e piu verticale: Pepe puo venire incontro o calciare dal limite, Bonny attacca area e centrali, Diallo e Diomande allargano il campo."
+      ]
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": []
+  },
+  "risks": {
+    "upset": [
+      "La Costa d'Avorio resta nettamente favorita: Pepe e Bonny insieme alzano il peso offensivo."
+    ],
+    "cards": [
+      "Glenn Nyberg nel database arbitri del sito ha 2.98 gialli medi a partita.",
+      "Non e un arbitro da caos automatico, ma Curacao ha gia mostrato fragilita disciplinare: contro Ecuador ha preso 5 gialli.",
+      "Stimo 3-5 gialli totali, con Curacao piu ammonita."
+    ],
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "La Costa d'Avorio resta nettamente favorita: Pepe e Bonny insieme alzano il peso offensivo.",
+    "Curacao si presenta con un 5-4-1 molto basso, la Costa d'Avorio con un 4-4-2 piu diretto. Il 2 resta il segno piu logico; rispetto alla prima bozza cresce il valore di 2 + Over 1,5, mentre il risultato larghissimo resta meno automatico."
+  ]
+}

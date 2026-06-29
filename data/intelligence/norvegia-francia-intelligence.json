@@ -1,0 +1,51 @@
+{
+  "match": "Norvegia 1-4 Francia",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "expectedPossession": null,
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": []
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "La fascia attesa e 3-5 cartellini."
+    ],
+    "manyCorners": null,
+    "manyGoals": [
+      "Il risultato previsto di 1-3 e rimasto a un solo gol di distanza."
+    ]
+  },
+  "summary": [
+    "La Francia vince 4-1 e conferma la lettura offensiva.",
+    "Centrati Francia vincente, Over 2,5, Francia a segno e Goal. Il risultato previsto di 1-3 e rimasto a un solo gol di distanza."
+  ]
+}

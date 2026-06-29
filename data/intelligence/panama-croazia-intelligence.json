@@ -1,0 +1,61 @@
+{
+  "match": "Panama 0-1 Croazia",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": null
+    },
+    "defensiveApproach": {
+      "home": null,
+      "away": [
+        "Contro il 5-4-1, la Croazia deve muovere il blocco da un lato all'altro e servire Budimir prima che l'area si riempia di maglie panamensi.",
+        "Se Modric e Pasalic ricevono fronte alla porta, Panama rischia di difendere troppo bassa e concedere tiri dal limite."
+      ]
+    },
+    "expectedPossession": [
+      "La chiave non e soltanto il possesso."
+    ],
+    "expectedIntensity": null
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [
+      "Perisic resta la fonte principale di cross e ampiezza, mentre Budimir e il riferimento in area contro i tre centrali panamensi.",
+      "La chiave non e soltanto il possesso."
+    ],
+    "watch": []
+  },
+  "risks": {
+    "upset": null,
+    "cards": [
+      "Qui il rischio cartellini nasce soprattutto dai duelli laterali e dai falli tattici su Modric/Pasalic.",
+      "Mi aspetto 4-6 gialli, con Panama leggermente favorita per riceverne di piu."
+    ],
+    "manyCorners": null,
+    "manyGoals": [
+      "L'Over 2,5 a 1.65 non e brutto, ma dipende molto dal primo gol: se la Croazia sblocca presto, il 2-0/3-0 diventa naturale; se Panama regge, la partita puo scendere verso 1-0 o 2-0."
+    ]
+  },
+  "summary": [
+    "Budimir basta: Croazia vincente, gara piu stretta del previsto.",
+    "La partita si e sviluppata nella direzione immaginata: Panama bassa, Croazia in controllo, punteggio corto. Presi segno, Under, Multigol 1-3 e centralita di Budimir; il risultato centrale 0-2 resta appena alto.",
+    "Croazia vincente a 1.50 e coerente e resta la base migliore. L'Over 2,5 a 1.65 non e brutto, ma dipende molto dal primo gol: se la Croazia sblocca presto, il 2-0/3-0 diventa naturale; se Panama regge, la partita puo scendere verso 1-0 o 2-0."
+  ]
+}

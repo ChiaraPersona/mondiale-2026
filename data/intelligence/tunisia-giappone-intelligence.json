@@ -1,0 +1,68 @@
+{
+  "match": "Tunisia - Giappone",
+  "motivation": {
+    "home": null,
+    "away": null
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": [
+        "Se i due attaccanti restano isolati, il volume tunisino rischia di fermarsi sotto le dieci conclusioni."
+      ],
+      "away": [
+        "Sano deve garantire equilibrio, consentendo a Maeda di alzarsi e attaccare l'area sul lato debole.",
+        "La pressione dopo perdita puo impedire alla Tunisia di respirare."
+      ]
+    },
+    "defensiveApproach": {
+      "home": [
+        "Il 5-3-2 serve a proteggere l'area e a impedire a Kamada di ricevere frontalmente."
+      ],
+      "away": [
+        "Il rischio e una circolazione troppo lenta contro il blocco basso: per questo i tiri da fuori di Kamada e Doan e le combinazioni sul fondo diventano importanti quanto il servizio diretto per Ueda."
+      ]
+    },
+    "expectedPossession": [
+      "Il 3-4-2-1 giapponese puo diventare un 3-2-5 in possesso."
+    ],
+    "expectedIntensity": [
+      "Il Giappone ha piu ritmo e soluzioni.",
+      "Il Giappone resta favorito grazie alla qualita tra le linee e alla pressione coordinata, ma il mercato piu pulito combina vantaggio nipponico e punteggio contenuto."
+    ]
+  },
+  "form": {
+    "home": null,
+    "away": null
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [],
+    "watch": [
+      "Kovacs ha un profilo autorevole e poco tollerante verso proteste e falli reiterati.",
+      "Mejbri guida la gerarchia; Skhiri e Talbi seguono per ruolo e zone presidiate."
+    ]
+  },
+  "risks": {
+    "upset": [
+      "Il Giappone resta favorito grazie alla qualita tra le linee e alla pressione coordinata, ma il mercato piu pulito combina vantaggio nipponico e punteggio contenuto."
+    ],
+    "cards": [
+      "A Euro 2024 ha diretto Repubblica Ceca-Turchia, gara arrivata al record del torneo con sedici gialli e due rossi: e un precedente estremo, non una media da applicare automaticamente.",
+      "La previsione equilibrata e 4-6 cartellini."
+    ],
+    "manyCorners": null,
+    "manyGoals": null
+  },
+  "summary": [
+    "Il Giappone ha piu ritmo e soluzioni. La Tunisia prova a chiudere la partita."
+  ]
+}

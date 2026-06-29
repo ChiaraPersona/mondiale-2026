@@ -1,0 +1,71 @@
+{
+  "match": "Colombia - Ghana",
+  "motivation": {
+    "home": "Colombia 93/100 — motivazione molto alta. Imbattuta nelle ultime cinque, solida in difesa e sostenuta da una struttura offensiva ormai stabile.",
+    "away": "Ghana 84/100 — motivazione alta. Lo status di outsider riduce la pressione e lo 0-0 con l’Inghilterra alimenta fiducia, ma produzione e risultati restano discontinui."
+  },
+  "pressure": {
+    "mustWin": null,
+    "canSettle": null,
+    "knockout": null,
+    "balanced": null
+  },
+  "tactics": {
+    "offensiveApproach": {
+      "home": null,
+      "away": [
+        "Semenyo offre la transizione più diretta, Sulemana può attaccare lo spazio dietro Muñoz e Jordan Ayew deve dare un riferimento contro Sánchez e Lucumí."
+      ]
+    },
+    "defensiveApproach": {
+      "home": [
+        "Muñoz può sovrapporsi sul lato debole; Lerma e Castaño devono proteggere le transizioni quando i terzini salgono.",
+        "La priorità è non forzare il passaggio centrale contro il blocco: circolazione e cambi di lato devono muovere Partey e Yirenkyi prima dell’accelerazione."
+      ],
+      "away": [
+        "Partey e Yirenkyi devono schermare James e vincere le seconde palle."
+      ]
+    },
+    "expectedPossession": null,
+    "expectedIntensity": [
+      "Il Ghana può abbassare ritmo e occasioni, ma deve sostenere una partita quasi perfetta per compensare il divario creativo."
+    ]
+  },
+  "form": {
+    "home": "La Colombia arriva dallo 0-0 con il Portogallo, dopo l’1-0 alla RD Congo, il 3-1 all’Uzbekistan, il 2-0 alla Giordania e il 3-1 alla Costa Rica. Quattro vittorie e un pareggio, nove gol fatti e due subiti.",
+    "away": "Il Ghana ha perso 1-2 con la Croazia, pareggiato 0-0 con l’Inghilterra, battuto 1-0 Panama, pareggiato 1-1 con il Galles e perso 0-2 con il Messico. Una vittoria, due pareggi e due sconfitte, tre gol fatti e cinque subiti."
+  },
+  "absences": {
+    "important": [],
+    "probableTurnover": null
+  },
+  "players": {
+    "key": [
+      "Thomas Partey è la scelta principale: deve schermare James e coprire le accelerazioni di Luis Díaz quando il Ghana perde palla centralmente."
+    ],
+    "watch": [
+      "Colombia: 15-19 tiri, 5-8 nello specchio.",
+      "Ghana: 7-10 tiri, 2-3 in porta.",
+      "Luis Díaz e James guidano il volume colombiano; Semenyo è il candidato principale del Ghana.",
+      "Thomas Partey è la scelta principale: deve schermare James e coprire le accelerazioni di Luis Díaz quando il Ghana perde palla centralmente.",
+      "Seguono Alidu Seidu sul lato di Luis Díaz, Gideon Mensah nelle coperture e Davinson Sánchez contro Jordan Ayew."
+    ]
+  },
+  "risks": {
+    "upset": [
+      "Under e No Goal sono favoriti: il Ghana ha segnato soltanto tre reti nelle ultime cinque, mentre James e Luis Díaz danno alla favorita più strade per sbloccare una gara chiusa."
+    ],
+    "cards": [
+      "Senza arbitro non viene stimato un totale cartellini affidabile."
+    ],
+    "manyCorners": [
+      "Corner previsti: Colombia 6-8, Ghana 2-4, totale 8-11.",
+      "Colombia più corner è coerente con possesso territoriale e probabile blocco medio-basso ghanese."
+    ],
+    "manyGoals": null
+  },
+  "summary": [
+    "La Colombia ha più qualità tra le linee e arriva imbattuta; il Ghana deve difendere il centro senza spegnere Semenyo e Jordan Ayew.",
+    "La Colombia è più completa, crea da più zone e arriva con una difesa stabile. Il Ghana può abbassare ritmo e occasioni, ma deve sostenere una partita quasi perfetta per compensare il divario creativo."
+  ]
+}

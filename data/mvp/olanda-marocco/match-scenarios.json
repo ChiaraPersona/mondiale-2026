@@ -39,8 +39,8 @@
         },
         {
           "id": "event-17",
-          "market": "UNDER/OVER — U/O 2.5",
-          "selection": "OVER"
+          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+          "selection": "2-4"
         },
         {
           "id": "event-19",
@@ -126,8 +126,8 @@
         },
         {
           "id": "event-17",
-          "market": "UNDER/OVER — U/O 2.5",
-          "selection": "OVER"
+          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+          "selection": "2-4"
         }
       ],
       "rootCauses": [
@@ -249,8 +249,8 @@
         },
         {
           "id": "event-17",
-          "market": "UNDER/OVER — U/O 2.5",
-          "selection": "OVER"
+          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+          "selection": "2-4"
         },
         {
           "id": "event-19",

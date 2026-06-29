@@ -374,7 +374,25 @@
       "slug": "germania-paraguay",
       "match": "Germania - Paraguay",
       "date": "29/06/2026 ore 22:30",
-      "status": "prepared",
+      "status": "completed",
+      "settlement": {
+        "source": "https://www.diretta.it/partita/calcio/germania-ptQide1O/paraguay-YaNlqp6j/?mid=2y2UKhp1",
+        "result": "Germania 1-1 Paraguay; Paraguay 4-3 ai rigori",
+        "events": {
+          "event-01": {
+            "status": "lost",
+            "evidence": "Passaggio del turno: Paraguay qualificato ai rigori."
+          },
+          "event-03": {
+            "status": "lost",
+            "evidence": "Esito 1X2 nei tempi regolamentari: 1-1."
+          },
+          "event-04": {
+            "status": "won",
+            "evidence": "Due gol nei tempi regolamentari: Under 4,5 centrato."
+          }
+        }
+      },
       "portfolios": [
         {
           "name": "Safe",

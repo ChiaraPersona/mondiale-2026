@@ -18,7 +18,7 @@
       "name": "Portfolio Balanced",
       "targetOdds": 10,
       "status": "target_reached",
-      "totalOdds": 10.46,
+      "totalOdds": 9.83,
       "events": [
         {
           "id": "event-08",
@@ -43,12 +43,23 @@
           "class": "CORE"
         },
         {
-          "id": "event-17",
-          "market": "UNDER/OVER — U/O 2.5",
+          "id": "event-13",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 3.5 TIRI IN PORTA",
           "selection": "OVER",
-          "odds": 2,
-          "selectionId": 5194456893,
-          "marketId": 788826110,
+          "odds": 1.57,
+          "selectionId": 5195437294,
+          "marketId": 789015139,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE"
+        },
+        {
+          "id": "event-17",
+          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+          "selection": "2-4",
+          "odds": 1.52,
+          "selectionId": 5194436579,
+          "marketId": 788828923,
           "category": "goal",
           "rankingScore": 87,
           "class": "CORE"
@@ -63,17 +74,6 @@
           "category": "tiri",
           "rankingScore": 86,
           "class": "CORE"
-        },
-        {
-          "id": "event-20",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 8.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.27,
-          "selectionId": 5195436766,
-          "marketId": 789015007,
-          "category": "tiri",
-          "rankingScore": 86,
-          "class": "CORE"
         }
       ],
       "scenario": {
@@ -84,13 +84,12 @@
       "reason": "Selezione costruita interamente sullo scenario “Partita aperta”, privilegiando Score elevati, compatibilità e vicinanza alla quota 10.",
       "strengths": [
         "3 categorie rappresentate: goal, corner, tiri.",
-        "Score medio 87.4.",
-        "9 relazioni positive e nessuna relazione negativa o ridondante.",
+        "Score medio 87.8.",
+        "10 relazioni positive e nessuna relazione negativa o ridondante.",
         "Intensità offensiva",
         "Transizioni"
       ],
       "weaknesses": [
-        "1 relazioni sono neutrali: gli eventi condividono lo scenario ma non una dipendenza diretta.",
         "Lo scenario ha probabilità qualitativa media."
       ]
     },
@@ -98,7 +97,7 @@
       "name": "Portfolio Aggressive",
       "targetOdds": 20,
       "status": "target_reached",
-      "totalOdds": 20,
+      "totalOdds": 19.98,
       "events": [
         {
           "id": "event-08",
@@ -123,37 +122,37 @@
           "class": "CORE"
         },
         {
-          "id": "event-17",
-          "market": "UNDER/OVER — U/O 2.5",
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 11.5 TIRI TOTALI",
           "selection": "OVER",
-          "odds": 2,
-          "selectionId": 5194456893,
-          "marketId": 788826110,
-          "category": "goal",
-          "rankingScore": 87,
+          "odds": 1.57,
+          "selectionId": 5195432062,
+          "marketId": 789013831,
+          "category": "tiri",
+          "rankingScore": 88,
           "class": "CORE"
         },
         {
-          "id": "event-26",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MALEN D. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-13",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 3.5 TIRI IN PORTA",
           "selection": "OVER",
-          "odds": 1.25,
-          "selectionId": 5195435454,
-          "marketId": 789014679,
+          "odds": 1.57,
+          "selectionId": 5195437294,
+          "marketId": 789015139,
           "category": "tiri",
-          "rankingScore": 61,
-          "class": "VALUE"
+          "rankingScore": 88,
+          "class": "CORE"
         },
         {
-          "id": "event-27",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BRAHIM DIAZ U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.5,
-          "selectionId": 5195435170,
-          "marketId": 789014608,
-          "category": "tiri",
-          "rankingScore": 61,
-          "class": "VALUE"
+          "id": "event-17",
+          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+          "selection": "2-4",
+          "odds": 1.52,
+          "selectionId": 5194436579,
+          "marketId": 788828923,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
         }
       ],
       "scenario": {
@@ -164,13 +163,12 @@
       "reason": "Selezione costruita interamente sullo scenario “Partita aperta”, privilegiando Score elevati, compatibilità e vicinanza alla quota 20.",
       "strengths": [
         "3 categorie rappresentate: goal, corner, tiri.",
-        "Score medio 77.4.",
+        "Score medio 88.2.",
         "10 relazioni positive e nessuna relazione negativa o ridondante.",
         "Intensità offensiva",
         "Transizioni"
       ],
       "weaknesses": [
-        "I mercati giocatore restano sensibili a minutaggio, ruolo e sostituzioni.",
         "Lo scenario ha probabilità qualitativa media."
       ]
     }

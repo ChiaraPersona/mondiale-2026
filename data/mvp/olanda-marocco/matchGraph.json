@@ -282,13 +282,13 @@
     },
     {
       "id": "event-17",
-      "label": "UNDER/OVER — U/O 2.5 | OVER",
-      "market": "UNDER/OVER — U/O 2.5",
-      "selection": "OVER",
+      "label": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI | 2-4",
+      "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+      "selection": "2-4",
       "category": "goal",
       "rankingScore": 87,
       "class": "CORE",
-      "odds": 2,
+      "odds": 1.52,
       "scenarioVector": [
         1,
         -1,

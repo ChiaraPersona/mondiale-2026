@@ -122,13 +122,13 @@
       ]
     },
     {
-      "mercato": "UNDER/OVER — U/O 2.5",
-      "selezione": "OVER",
-      "quota": 2,
-      "selectionId": 5194456893,
-      "marketId": 788826110,
+      "mercato": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+      "selezione": "2-4",
+      "quota": 1.52,
+      "selectionId": 5194436579,
+      "marketId": 788828923,
       "categoria": "goal",
-      "motivo": "Variante opposta nel caso in cui il primo gol apra la partita.",
+      "motivo": "Il Multigol 2-4 concilia il risultato guida 1-1 con l'incertezza sulla soglia dei 2,5 gol.",
       "puntiDiForza": [
         "Il risultato guida 1-1 e la proiezione contenuta sostengono Under 3,5 e Under 2,5."
       ],

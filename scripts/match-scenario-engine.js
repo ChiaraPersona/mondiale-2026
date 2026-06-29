@@ -60,7 +60,7 @@ function eventAttributes(event, matchKey) {
 
   let metric = event.categoria;
   if (event.categoria === "tiri" && market.includes("TIRI IN PORTA")) metric = "tiri_in_porta";
-  const positive = ["OVER", "GOAL", "SI", "1", "1X", "TEAM 1"].includes(selection);
+  const positive = ["OVER", "GOAL", "SI", "1", "1X", "TEAM 1", "2-4"].includes(selection);
   const negative = ["UNDER", "NOGOAL", "NO", "2", "X2", "TEAM 2"].includes(selection);
   const threshold = Number(market.match(/\bU\/O\s+(\d+(?:\.\d+)?)/)?.[1] ?? NaN);
 

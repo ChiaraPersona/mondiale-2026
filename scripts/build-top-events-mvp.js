@@ -40,7 +40,7 @@ const plans = {
       ["PASSAGGIO TURNO", /PASSAGGIO TURNO/, "2", "esito", "Il Marocco conserva possibilità concrete di qualificazione in una gara equilibrata."],
       ["UNDER/OVER", /U\/O 3\.5$/, "UNDER", "goal", "Under 3,5 protegge gli scenari centrali 1-0, 1-1 e 1-2."],
       ["UNDER/OVER", /U\/O 2\.5$/, "UNDER", "goal", "Under 2,5 è la linea principale indicata dallo studio."],
-      ["UNDER/OVER", /U\/O 2\.5$/, "OVER", "goal", "Variante opposta nel caso in cui il primo gol apra la partita."],
+      ["MULTIGOAL", /MULTIGOAL MULTIESITI 16 ESITI/, "2-4", "goal", "Il Multigol 2-4 concilia il risultato guida 1-1 con l'incertezza sulla soglia dei 2,5 gol."],
       ["GOAL/NOGOAL", /GOAL\/NO GOAL/, "GOAL", "goal", "Il risultato guida 1-1 rende il Goal coerente pur in una gara contenuta."],
       ["U/O CORNER", /U\/O 8\.5 CORNER$/, "OVER", "corner", "La proiezione di 9-11 corner sostiene l'Over 8,5."],
       ["U/O CORNER", /U\/O 8\.5 CORNER$/, "UNDER", "corner", "Scenario prudente se la partita resta bloccata e con pochi attacchi completati."],

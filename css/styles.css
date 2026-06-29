@@ -893,6 +893,14 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
     linear-gradient(110deg, rgba(18, 29, 43, .96), rgba(10, 16, 25, .96));
 }
 
+.reading-status-divider.is-prepared {
+  order: -58.5;
+  border-color: rgba(244, 193, 74, .38);
+  background:
+    radial-gradient(circle at 0 50%, rgba(244, 193, 74, .18), transparent 34%),
+    linear-gradient(110deg, rgba(42, 32, 14, .96), rgba(10, 16, 25, .96));
+}
+
 .reading-status-icon {
   display: grid;
   place-items: center;
@@ -912,6 +920,12 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
   box-shadow: 0 8px 22px rgba(108, 183, 255, .2);
 }
 
+.reading-status-divider.is-prepared .reading-status-icon {
+  color: #1b1303;
+  background: #f4c14a;
+  box-shadow: 0 8px 22px rgba(244, 193, 74, .2);
+}
+
 .reading-status-divider > div {
   display: grid;
   gap: 2px;
@@ -927,6 +941,10 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
 
 .reading-status-divider.is-completed small {
   color: #86c7ff;
+}
+
+.reading-status-divider.is-prepared small {
+  color: #f4c14a;
 }
 
 .reading-status-divider h3 {

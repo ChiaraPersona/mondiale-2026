@@ -1,0 +1,296 @@
+{
+  "slug": "sudafrica-canada",
+  "match": "Sudafrica - Canada",
+  "date": "28/06/2026 ore 21.00",
+  "status": "completed",
+  "settlement": {
+    "status": "Finale",
+    "score": "Sudafrica 0-1 Canada",
+    "source": "https://sport.sky.it/calcio/mondiali/partite/2026/sedicesimi/sud-africa-canada/risultato-gol",
+    "events": {
+      "under_2_5": {
+        "status": "won",
+        "evidence": "1 gol totale"
+      },
+      "no_goal": {
+        "status": "won",
+        "evidence": "ha segnato solo il Canada"
+      },
+      "over_cartellini_sudafrica": {
+        "status": "lost",
+        "evidence": "nessun cartellino al Sudafrica"
+      },
+      "over_3_5_cartellini": {
+        "status": "lost",
+        "evidence": "2 ammonizioni totali"
+      },
+      "canada_passa": {
+        "status": "won",
+        "evidence": "Canada qualificato agli ottavi"
+      },
+      "makgopa_2_tiri": {
+        "status": "lost",
+        "evidence": "Makgopa e il suo sostituto senza tiri"
+      },
+      "canada_vince_90": {
+        "status": "won",
+        "evidence": "0-1 al termine dei 90 minuti"
+      },
+      "over_7_5_corner": {
+        "status": "lost",
+        "evidence": "6 corner totali"
+      },
+      "david_3_tiri": {
+        "status": "lost",
+        "evidence": "Jonathan David: 2 tiri totali"
+      },
+      "canada_prima_2_corner": {
+        "status": "won",
+        "evidence": "Canada primo a battere 2 corner"
+      },
+      "david_1_tiro_porta": {
+        "status": "won",
+        "evidence": "Jonathan David: 1 tiro in porta"
+      },
+      "under_4_5": {
+        "status": "won",
+        "evidence": "1 gol totale"
+      },
+      "david_2_tiri": {
+        "status": "won",
+        "evidence": "Jonathan David: 2 tiri totali"
+      },
+      "buchanan_1_tiro": {
+        "status": "won",
+        "evidence": "Buchanan: 1 tiro in porta"
+      }
+    }
+  },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 5,
+      "events": [
+        {
+          "id": "no_goal",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL",
+          "odds": 1.65,
+          "category": "goal",
+          "selectionId": 5192621928,
+          "marketId": 788486380
+        },
+        {
+          "id": "makgopa_2_tiri",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MAKGOPA E. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.65,
+          "category": "tiri",
+          "selectionId": 5193119350,
+          "marketId": 788570286
+        },
+        {
+          "id": "canada_vince_90",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "2",
+          "odds": 1.7,
+          "category": "esito",
+          "selectionId": 5192621001,
+          "marketId": 788486361
+        },
+        {
+          "id": "david_2_tiri",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DAVID J. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.08,
+          "category": "tiri",
+          "selectionId": 5193119190,
+          "marketId": 788570246
+        }
+      ],
+      "reason": "Portfolio storico della partita, mantenuto separato dagli output delle altre partite.",
+      "scenario": {
+        "name": "Canada favorito in una partita controllata",
+        "estimatedProbability": "storica"
+      },
+      "strengths": [
+        "Eventi riferiti esclusivamente a Sudafrica - Canada.",
+        "Esito verificato sul risultato finale."
+      ],
+      "weaknesses": [
+        "Portfolio archiviato: non rappresenta una giocata ancora aperta."
+      ]
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 10.04,
+      "events": [
+        {
+          "id": "no_goal",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL",
+          "odds": 1.65,
+          "category": "goal",
+          "selectionId": 5192621928,
+          "marketId": 788486380
+        },
+        {
+          "id": "over_cartellini_sudafrica",
+          "market": "U/O PUNTI CARTELLINI SQUADRA — SQUADRA 1: U/O 1.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "selection": "OVER",
+          "odds": 1.48,
+          "category": "cartellini",
+          "selectionId": 5193406581,
+          "marketId": 788623683
+        },
+        {
+          "id": "makgopa_2_tiri",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MAKGOPA E. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.65,
+          "category": "tiri",
+          "selectionId": 5193119350,
+          "marketId": 788570286
+        },
+        {
+          "id": "canada_vince_90",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "2",
+          "odds": 1.7,
+          "category": "esito",
+          "selectionId": 5192621001,
+          "marketId": 788486361
+        },
+        {
+          "id": "david_3_tiri",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DAVID J. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.33,
+          "category": "tiri",
+          "selectionId": 5193122006,
+          "marketId": 788570950
+        },
+        {
+          "id": "under_4_5",
+          "market": "UNDER/OVER — U/O 4.5",
+          "selection": "UNDER",
+          "odds": 1.05,
+          "category": "goal",
+          "selectionId": 5192624067,
+          "marketId": 788486855
+        },
+        {
+          "id": "buchanan_1_tiro",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BUCHANAN T. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.05,
+          "category": "tiri",
+          "selectionId": 5193122754,
+          "marketId": 788571137
+        }
+      ],
+      "reason": "Portfolio storico della partita, mantenuto separato dagli output delle altre partite.",
+      "scenario": {
+        "name": "Canada favorito in una partita controllata",
+        "estimatedProbability": "storica"
+      },
+      "strengths": [
+        "Eventi riferiti esclusivamente a Sudafrica - Canada.",
+        "Esito verificato sul risultato finale."
+      ],
+      "weaknesses": [
+        "Portfolio archiviato: non rappresenta una giocata ancora aperta."
+      ]
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 19.95,
+      "events": [
+        {
+          "id": "under_2_5",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER",
+          "odds": 1.6,
+          "category": "goal",
+          "selectionId": 5192624059,
+          "marketId": 788486853
+        },
+        {
+          "id": "no_goal",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL",
+          "odds": 1.65,
+          "category": "goal",
+          "selectionId": 5192621928,
+          "marketId": 788486380
+        },
+        {
+          "id": "over_3_5_cartellini",
+          "market": "U/O PUNTI CARTELLINI — U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "selection": "OVER",
+          "odds": 1.8,
+          "category": "cartellini",
+          "selectionId": 5193406551,
+          "marketId": 788623676
+        },
+        {
+          "id": "canada_vince_90",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "2",
+          "odds": 1.7,
+          "category": "esito",
+          "selectionId": 5192621001,
+          "marketId": 788486361
+        },
+        {
+          "id": "over_7_5_corner",
+          "market": "U/O CORNER — U/O 7.5 CORNER",
+          "selection": "OVER",
+          "odds": 1.36,
+          "category": "corner",
+          "selectionId": 5193603842,
+          "marketId": 788652208
+        },
+        {
+          "id": "david_3_tiri",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DAVID J. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.33,
+          "category": "tiri",
+          "selectionId": 5193122006,
+          "marketId": 788570950
+        },
+        {
+          "id": "canada_prima_2_corner",
+          "market": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
+          "selection": "TEAM 2",
+          "odds": 1.3,
+          "category": "corner",
+          "selectionId": 5193603568,
+          "marketId": 788652151
+        },
+        {
+          "id": "buchanan_1_tiro",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BUCHANAN T. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.05,
+          "category": "tiri",
+          "selectionId": 5193122754,
+          "marketId": 788571137
+        }
+      ],
+      "reason": "Portfolio storico della partita, mantenuto separato dagli output delle altre partite.",
+      "scenario": {
+        "name": "Canada favorito in una partita controllata",
+        "estimatedProbability": "storica"
+      },
+      "strengths": [
+        "Eventi riferiti esclusivamente a Sudafrica - Canada.",
+        "Esito verificato sul risultato finale."
+      ],
+      "weaknesses": [
+        "Portfolio archiviato: non rappresenta una giocata ancora aperta."
+      ]
+    }
+  ]
+}

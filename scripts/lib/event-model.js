@@ -15,6 +15,12 @@ const EVENT_FIELDS = Object.freeze([
   "confidence",
   "stability",
   "value",
+  "scenarioFit",
+  "marketReliability",
+  "volatilityPenalty",
+  "eqs",
+  "eqsBreakdown",
+  "class",
   "status",
   "needs",
   "breakdown",
@@ -93,6 +99,15 @@ function createEvent(source = {}) {
     confidence: source.confidence ?? null,
     stability: source.stability ?? null,
     value: source.value ?? null,
+    scenarioFit: source.scenarioFit ?? null,
+    marketReliability: source.marketReliability ?? null,
+    volatilityPenalty: source.volatilityPenalty ?? null,
+    eqs: source.eqs ?? null,
+    eqsBreakdown:
+      source.eqsBreakdown && typeof source.eqsBreakdown === "object"
+        ? source.eqsBreakdown
+        : {},
+    class: source.class ?? source.classe ?? "",
     status: source.status ?? "pending",
     needs: source.needs && typeof source.needs === "object" ? source.needs : {},
     breakdown:
@@ -120,7 +135,18 @@ function validateEvent(event, label = "evento") {
       event.expectedProbability < 0 ||
       event.expectedProbability > 1)
   ) throw new Error(`${label}: expectedProbability non valida.`);
-  for (const field of ["confidence", "stability"]) {
+  if (
+    event.value !== null &&
+    (!Number.isFinite(event.value) || event.value < -1 || event.value > 1)
+  ) throw new Error(`${label}: value non valido.`);
+  for (const field of [
+    "confidence",
+    "stability",
+    "scenarioFit",
+    "marketReliability",
+    "volatilityPenalty",
+    "eqs",
+  ]) {
     if (
       event[field] !== null &&
       (!Number.isFinite(event[field]) || event[field] < 0 || event[field] > 100)

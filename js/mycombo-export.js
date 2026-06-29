@@ -223,32 +223,39 @@
       </article>`;
   }
 
+  function portfolioCard(portfolio) {
+    const scenario = typeof portfolio.scenario === "object" ? portfolio.scenario?.name : portfolio.scenario;
+    return `
+      <article class="mycombo-final-card">
+        <header>
+          <div><span>${displayValue(scenario)}</span><h4>Portfolio ${displayValue(portfolio.name)}</h4></div>
+          <strong><small>Quota finale</small>${displayValue(portfolio.finalOdds)}</strong>
+        </header>
+        <p class="mycombo-target-note">${displayValue(portfolio.reason)}</p>
+        <ol class="mycombo-selections">${(portfolio.events || []).map(selectionCard).join("") || '<li class="mycombo-combo-empty">Nessuna selezione presente.</li>'}</ol>
+      </article>`;
+  }
+
   function renderFinalCombos(container, payload) {
-    const combos = payload?.combos;
-    if (!combos || typeof combos !== "object") throw new Error("Formato final-mycombo.json non valido");
+    if (!Array.isArray(payload?.portfolios) || !payload.portfolios.length) {
+      throw new Error("Formato MyCombo non valido");
+    }
     activeSettlement = payload?.settlement?.events || {};
-    container.innerHTML = [
-      comboCard("MyCombo Prudente", 5, combos.quota5),
-      comboCard("MyCombo Equilibrata", 10, combos.quota10),
-      comboCard("MyCombo Aggressiva", 20, combos.quota20),
-    ].join("");
+    container.innerHTML = payload.portfolios.map(portfolioCard).join("");
   }
 
   async function loadFinalCombos(container) {
+    const currentSlug = pageSlug();
+    if (!currentSlug) {
+      container.innerHTML = '<div class="mycombo-node-message"><strong>Dati MyCombo non ancora disponibili.</strong></div>';
+      return;
+    }
     try {
-      const response = await fetch("final-mycombo.json", { cache: "no-store" });
+      const response = await fetch(`data/mycombo/${encodeURIComponent(currentSlug)}.json`, { cache: "no-store" });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       renderFinalCombos(container, await response.json());
     } catch (error) {
-      if (window.FINAL_MYCOMBO_DATA) {
-        renderFinalCombos(container, window.FINAL_MYCOMBO_DATA);
-        return;
-      }
-      container.innerHTML = `
-        <div class="mycombo-node-message">
-          <strong>Genera prima le MyCombo con Node:</strong>
-          <code>node final-mycombo.js sudafrica-canada-quote.json events-target.json</code>
-        </div>`;
+      container.innerHTML = '<div class="mycombo-node-message"><strong>Dati MyCombo non ancora disponibili.</strong></div>';
     }
   }
 
@@ -278,7 +285,7 @@
     generated.className = "mycombo-generated";
     generated.innerHTML = `
       <header class="mycombo-generated-head">
-        <div><span>Output final-mycombo.json</span><h3>MYCOMBO GENERATE</h3></div>
+        <div><span>Portfolio ottimizzati</span><h3>MYCOMBO DEFINITIVE</h3></div>
         <p>Le combinazioni sono lette dal motore Node, senza elaborazioni nel frontend.</p>
       </header>
       <aside class="mycombo-value-explanation">

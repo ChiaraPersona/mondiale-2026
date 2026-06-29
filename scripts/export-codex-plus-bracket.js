@@ -92,6 +92,7 @@ globalThis.__bracketExport = {
     total: row.total,
     reasons: row.reasons,
   })),
+  scorers: codexProjectedScorers(),
 };
 `, ctx);
 

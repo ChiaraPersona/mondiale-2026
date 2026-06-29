@@ -2417,7 +2417,7 @@ function codexScorerPool(team) {
 }
 
 function codexTournamentGoalPressure(row, totals) {
-  const key = `${row.team}::${row.player}`;
+  const key = `${row.team}::${codexCompact(codexScorerDisplayName(row))}`;
   const currentGoals = totals[key]?.goals || 0;
   if (!currentGoals) return 1;
   const isFocalForward = (codexPenaltyRank(row) === 1 && row.role === "Attaccanti") || codexIsMainStriker(row);
@@ -2470,7 +2470,7 @@ function codexAddScorer(totals, team, matchNumber, goalIndex, matchScorers = [])
 }
 
 function codexEnsureScorerTotal(totals, row) {
-  const key = `${row.team}::${row.player}`;
+  const key = `${row.team}::${codexCompact(codexScorerDisplayName(row))}`;
   if (!totals[key]) {
     const recent = codexPlayerRecord(row).recent15 || {};
     totals[key] = {

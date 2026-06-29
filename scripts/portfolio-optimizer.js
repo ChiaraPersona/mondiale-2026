@@ -157,6 +157,8 @@ function eventOutput(event) {
     market: event.market,
     selection: event.selection,
     odds: event.odds,
+    selectionId: event.selectionId,
+    marketId: event.marketId,
     category: event.category,
     rankingScore: event.score,
     class: event.class,
@@ -202,6 +204,19 @@ function qualitativeImprovement(delta, removed, added) {
 function optimizePortfolio(portfolio, ranking, scenarios, graph) {
   const config = configs[portfolio.name];
   if (!config) throw new Error(`Configurazione mancante per ${portfolio.name}`);
+  if (!portfolio.scenario || !Array.isArray(portfolio.events) || !portfolio.events.length) {
+    return {
+      ...portfolio,
+      initialOdds: portfolio.totalOdds,
+      finalOdds: portfolio.totalOdds,
+      acceptedRange: config.range,
+      status: "unchanged_no_candidate",
+      removedEvents: [],
+      addedEvents: [],
+      improvementEstimate: "nessuno",
+      reason: portfolio.reason || "Nessun candidato disponibile da ottimizzare.",
+    };
+  }
   const scenario = scenarios.find(item => item.id === portfolio.scenario.id);
   if (!scenario) throw new Error(`Scenario non trovato: ${portfolio.scenario.id}`);
 
@@ -216,6 +231,8 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph) {
           market: event.mercato,
           selection: event.selezione,
           odds: Number(event.quota),
+          selectionId: event.selectionId,
+          marketId: event.marketId,
           category: event.categoria,
           score: event.score,
           class: event.classe,

@@ -1,0 +1,8 @@
+{
+  "match": "Olanda - Marocco",
+  "data": {
+    "mustWin": false,
+    "canSettle": false,
+    "knockout": true
+  }
+}

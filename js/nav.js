@@ -13,7 +13,7 @@ document.querySelectorAll(".page-links").forEach((nav) => {
 
 if (readingPage && !document.querySelector('script[data-mycombo-export]')) {
   const myComboScript = document.createElement("script");
-  myComboScript.src = "js/mycombo-export.js?v=20260629-4";
+  myComboScript.src = "js/mycombo-export.js?v=20260629-5";
   myComboScript.dataset.mycomboExport = "true";
   document.head.appendChild(myComboScript);
 }

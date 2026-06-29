@@ -277,6 +277,49 @@ header {
   gap: 14px;
 }
 
+.mycombo-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.mycombo-tabs button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 52px;
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: var(--muted);
+  background: rgba(7, 10, 15, .55);
+  font: inherit;
+  cursor: pointer;
+  transition: border-color .18s ease, background .18s ease, color .18s ease;
+}
+
+.mycombo-tabs button span {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.mycombo-tabs button strong {
+  color: #f5c84b;
+  font-size: 16px;
+}
+
+.mycombo-tabs button.active {
+  border-color: rgba(0, 208, 132, .65);
+  color: #fff;
+  background: rgba(0, 208, 132, .12);
+  box-shadow: inset 0 -2px 0 var(--green);
+}
+
+.mycombo-portfolio-panel[hidden] {
+  display: none;
+}
+
 .mycombo-value-explanation {
   margin-bottom: 14px;
   border: 1px solid rgba(245, 200, 75, .2);
@@ -374,6 +417,16 @@ header {
   font-weight: 800;
 }
 
+.mycombo-portfolio-reason {
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .08);
+  padding: 13px 18px;
+  color: rgba(255, 255, 255, .78);
+  background: rgba(255, 255, 255, .025);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
 .mycombo-selections {
   display: grid;
   gap: 10px;
@@ -402,11 +455,139 @@ header {
   font-size: 14px;
 }
 
+.mycombo-selection-title > div:first-child {
+  min-width: 0;
+}
+
+.mycombo-market-label,
+.mycombo-pick-line span,
+.mycombo-pick-reason span {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
 .mycombo-selection-badges {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 6px;
+}
+
+.mycombo-category-badge,
+.mycombo-class-badge {
+  border-radius: 999px;
+  padding: 5px 8px;
+  font-size: 9px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.mycombo-category-badge {
+  color: #b9c5cf;
+  background: rgba(255, 255, 255, .08);
+}
+
+.mycombo-class-badge.is-core {
+  color: #06150f;
+  background: #55d6a5;
+}
+
+.mycombo-class-badge.is-value {
+  color: #1b1303;
+  background: #f5c84b;
+}
+
+.mycombo-class-badge.is-speculative {
+  color: #fff;
+  background: #a56be8;
+}
+
+.mycombo-pick-line {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  margin-top: 13px;
+  border-top: 1px solid rgba(255, 255, 255, .07);
+  padding-top: 11px;
+}
+
+.mycombo-pick-line > div:last-child {
+  min-width: 72px;
+  text-align: right;
+}
+
+.mycombo-pick-line strong {
+  color: #fff;
+  font-size: 14px;
+}
+
+.mycombo-pick-line > div:last-child strong {
+  color: #f5c84b;
+  font-size: 17px;
+}
+
+.mycombo-pick-reason,
+.mycombo-settlement-note {
+  margin: 11px 0 0;
+  border-radius: 6px;
+  padding: 10px 11px;
+  color: rgba(255, 255, 255, .75);
+  background: rgba(0, 208, 132, .055);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.mycombo-pick-reason span {
+  color: var(--green);
+}
+
+.mycombo-settlement-note {
+  border-left: 2px solid #6cb7ff;
+  background: rgba(108, 183, 255, .07);
+}
+
+.mycombo-assessment {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  border-top: 1px solid rgba(255, 255, 255, .09);
+  padding: 14px;
+}
+
+.mycombo-assessment section {
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 7px;
+  padding: 13px 14px;
+  background: rgba(255, 255, 255, .025);
+}
+
+.mycombo-assessment .is-strength {
+  border-left: 3px solid #00d084;
+}
+
+.mycombo-assessment .is-weakness {
+  border-left: 3px solid #f5c84b;
+}
+
+.mycombo-assessment h5 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.mycombo-assessment ul {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding-left: 17px;
+  color: rgba(255, 255, 255, .68);
+  font-size: 11px;
+  line-height: 1.45;
 }
 
 .mycombo-result-badge {
@@ -525,6 +706,14 @@ header {
 
   .mycombo-selection dl {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mycombo-tabs {
+    grid-template-columns: 1fr;
+  }
+
+  .mycombo-assessment {
+    grid-template-columns: 1fr;
   }
 
   .mycombo-export-head {

@@ -165,44 +165,44 @@
     }
   }
 
-  function selectionCard(selection) {
+  function readableMarket(value) {
+    const parts = clean(value).split(/\s+—\s+/).filter(Boolean);
+    if (parts.length === 2 && fold(parts[0]) === fold(parts[1])) return parts[0];
+    return parts.join(" · ") || clean(value);
+  }
+
+  function selectionCard(selection, reason = "") {
     if (!selection || typeof selection !== "object") {
       return `<li class="mycombo-selection"><strong>${escapeHtml(selection || "Selezione non disponibile")}</strong></li>`;
     }
-    const value = selectionValue(selection);
-    const valueTone = Number.isFinite(value) ? value > 8 ? "is-positive" : value >= 0 ? "is-neutral" : "is-negative" : "is-unknown";
-    const label = firstValue(selection, ["selection", "label", "name", "descrizione"]);
     const market = firstValue(selection, ["mercato", "market", "marketName"]);
-    const info = firstValue(selection, ["info", "marketInfo", "detail"]);
     const outcome = firstValue(selection, ["esito", "outcome", "selection"]);
     const odd = firstValue(selection, ["odds", "quota", "odd", "price"]);
-    const probability = firstValue(selection, ["probability", "probabilitaStimata", "estimatedProbability"]);
-    const impliedProbability = firstValue(selection, ["impliedProbability", "probabilitaImplicita", "implicitProbability"]);
-    const selectionId = firstValue(selection, ["selectionId", "id"]);
-    const eventId = firstValue(selection, ["eventId"]);
+    const category = firstValue(selection, ["category", "categoria"]);
+    const eventClass = firstValue(selection, ["class", "classe"]);
+    const eventId = firstValue(selection, ["eventId", "id"]);
     const settled = activeSettlement[eventId] || {};
     const settledLabel = settled.status === "won" ? "PRESA" : settled.status === "lost" ? "ERRATA" : "DA VERIFICARE";
     const settledTone = settled.status === "won" ? "is-won" : settled.status === "lost" ? "is-lost" : "is-pending";
     return `
       <li class="mycombo-selection ${settledTone}">
         <div class="mycombo-selection-title">
-          <strong>${displayValue(label)}</strong>
+          <div>
+            <span class="mycombo-market-label">Mercato</span>
+            <strong>${escapeHtml(readableMarket(market))}</strong>
+          </div>
           <div class="mycombo-selection-badges">
-            <span class="mycombo-result-badge ${settledTone}">${settledLabel}</span>
-            <span class="mycombo-value-badge ${valueTone}">Value ${Number.isFinite(value) ? escapeHtml(value) : "n.d."}</span>
+            ${category ? `<span class="mycombo-category-badge">${escapeHtml(category)}</span>` : ""}
+            ${eventClass ? `<span class="mycombo-class-badge is-${escapeHtml(fold(eventClass))}">${escapeHtml(eventClass)}</span>` : ""}
+            ${settled.status === "won" || settled.status === "lost" ? `<span class="mycombo-result-badge ${settledTone}">${settledLabel}</span>` : ""}
           </div>
         </div>
-        <dl>
-          <div><dt>Riscontro</dt><dd>${displayValue(settled.evidence)}</dd></div>
-          <div><dt>Mercato</dt><dd>${displayValue(market)}</dd></div>
-          <div><dt>Info</dt><dd>${displayValue(info)}</dd></div>
-          <div><dt>Esito</dt><dd>${displayValue(outcome)}</dd></div>
-          <div><dt>Quota</dt><dd>${displayValue(odd)}</dd></div>
-          <div><dt>Probabilità stimata</dt><dd>${displayValue(probability, probability === undefined || probability === null || probability === "" || String(probability).includes("%") ? "" : "%")}</dd></div>
-          <div><dt>Probabilità implicita</dt><dd>${displayValue(impliedProbability, impliedProbability === undefined || impliedProbability === null || impliedProbability === "" || String(impliedProbability).includes("%") ? "" : "%")}</dd></div>
-          <div><dt>Value stimato</dt><dd>${Number.isFinite(value) ? escapeHtml(value) : "n.d."}</dd></div>
-          <div><dt>Selection ID</dt><dd class="mycombo-selection-id">${displayValue(selectionId)}</dd></div>
-        </dl>
+        <div class="mycombo-pick-line">
+          <div><span>Esito</span><strong>${escapeHtml(outcome)}</strong></div>
+          <div><span>Quota</span><strong>${escapeHtml(odd)}</strong></div>
+        </div>
+        ${reason ? `<p class="mycombo-pick-reason"><span>Perché è stata scelta</span>${escapeHtml(reason)}</p>` : ""}
+        ${settled.evidence ? `<p class="mycombo-settlement-note">${escapeHtml(settled.evidence)}</p>` : ""}
       </li>`;
   }
 
@@ -241,16 +241,37 @@
       </article>`;
   }
 
-  function portfolioCard(portfolio) {
+  function portfolioCard(portfolio, index) {
     const scenario = typeof portfolio.scenario === "object" ? portfolio.scenario?.name : portfolio.scenario;
+    const reasonByEvent = new Map(
+      (portfolio.optimization?.addedEvents || [])
+        .filter(event => event?.id && event?.reason)
+        .map(event => [event.id, event.reason])
+    );
+    const strengths = Array.isArray(portfolio.strengths) ? portfolio.strengths.filter(Boolean) : [];
+    const weaknesses = Array.isArray(portfolio.weaknesses) ? portfolio.weaknesses.filter(Boolean) : [];
     return `
-      <article class="mycombo-final-card">
+      <article class="mycombo-final-card mycombo-portfolio-panel" data-portfolio-panel="${index}" ${index ? "hidden" : ""}>
         <header>
-          <div><span>${displayValue(scenario)}</span><h4>Portfolio ${displayValue(portfolio.name)}</h4></div>
-          <strong><small>Quota finale</small>${displayValue(portfolio.finalOdds)}</strong>
+          <div>
+            <span>Scenario · ${escapeHtml(scenario || "Non specificato")}</span>
+            <h4>${escapeHtml(portfolio.name)}</h4>
+          </div>
+          <strong><small>Quota finale</small>${escapeHtml(portfolio.finalOdds)}</strong>
         </header>
-        <p class="mycombo-target-note">${displayValue(portfolio.reason)}</p>
-        <ol class="mycombo-selections">${(portfolio.events || []).map(selectionCard).join("") || '<li class="mycombo-combo-empty">Nessuna selezione presente.</li>'}</ol>
+        ${portfolio.reason ? `<p class="mycombo-portfolio-reason">${escapeHtml(portfolio.reason)}</p>` : ""}
+        <ol class="mycombo-selections">${(portfolio.events || []).map(event => selectionCard(event, event.reason || reasonByEvent.get(event.id) || "")).join("") || '<li class="mycombo-combo-empty">Nessuna selezione presente.</li>'}</ol>
+        ${(strengths.length || weaknesses.length) ? `
+          <div class="mycombo-assessment">
+            <section class="is-strength">
+              <h5>Punti di forza</h5>
+              <ul>${strengths.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+            </section>
+            <section class="is-weakness">
+              <h5>Criticità</h5>
+              <ul>${weaknesses.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+            </section>
+          </div>` : ""}
       </article>`;
   }
 
@@ -259,7 +280,30 @@
       throw new Error("Formato MyCombo non valido");
     }
     activeSettlement = payload?.settlement?.events || {};
-    container.innerHTML = payload.portfolios.map(portfolioCard).join("");
+    container.innerHTML = `
+      <div class="mycombo-tabs" role="tablist" aria-label="Scegli portfolio">
+        ${payload.portfolios.map((portfolio, index) => `
+          <button type="button" role="tab" aria-selected="${index === 0}" class="${index === 0 ? "active" : ""}" data-portfolio-tab="${index}">
+            <span>${escapeHtml(portfolio.name)}</span>
+            <strong>${escapeHtml(portfolio.finalOdds)}</strong>
+          </button>`).join("")}
+      </div>
+      <div class="mycombo-portfolio-content">
+        ${payload.portfolios.map(portfolioCard).join("")}
+      </div>`;
+    container.querySelectorAll("[data-portfolio-tab]").forEach(button => {
+      button.addEventListener("click", () => {
+        const selected = button.dataset.portfolioTab;
+        container.querySelectorAll("[data-portfolio-tab]").forEach(tab => {
+          const active = tab.dataset.portfolioTab === selected;
+          tab.classList.toggle("active", active);
+          tab.setAttribute("aria-selected", String(active));
+        });
+        container.querySelectorAll("[data-portfolio-panel]").forEach(panel => {
+          panel.hidden = panel.dataset.portfolioPanel !== selected;
+        });
+      });
+    });
     updateDebug({ rendered: true });
   }
 

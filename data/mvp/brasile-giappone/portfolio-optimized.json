@@ -1,0 +1,400 @@
+{
+  "match": "Brasile - Giappone",
+  "portfolios": [
+    {
+      "name": "Portfolio Safe",
+      "scenario": {
+        "id": "favorite_dominance",
+        "name": "Dominio Brasile",
+        "estimatedProbability": "alta"
+      },
+      "initialOdds": 5,
+      "finalOdds": 4.61,
+      "acceptedRange": [
+        4.5,
+        5.5
+      ],
+      "status": "optimized_inside_range",
+      "events": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1",
+          "odds": 1.33,
+          "category": "esito",
+          "rankingScore": 94,
+          "class": "CORE"
+        },
+        {
+          "id": "event-05",
+          "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 2.1,
+          "category": "corner",
+          "rankingScore": 90,
+          "class": "CORE"
+        },
+        {
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 13.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.65,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE"
+        }
+      ],
+      "removedEvents": [
+        {
+          "id": "event-02",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X",
+          "odds": 1.14,
+          "category": "esito",
+          "rankingScore": 93,
+          "class": "CORE",
+          "reason": "Sostituito da un evento della stessa categoria con Score più alto (94 contro 93) e quota compatibile."
+        },
+        {
+          "id": "event-08",
+          "market": "U/O CORNER SQUADRA X — U/O 4.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 1.52,
+          "category": "corner",
+          "rankingScore": 88,
+          "class": "CORE",
+          "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 88) e quota compatibile."
+        },
+        {
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 14.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.95,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE",
+          "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
+        },
+        {
+          "id": "event-17",
+          "market": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
+          "selection": "TEAM 1",
+          "odds": 1.48,
+          "category": "corner",
+          "rankingScore": 84,
+          "class": "CORE",
+          "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 84) e quota compatibile."
+        }
+      ],
+      "addedEvents": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1",
+          "odds": 1.33,
+          "category": "esito",
+          "rankingScore": 94,
+          "class": "CORE",
+          "reason": "Inserito come alternativa più stabile a quota simile: Score 94 contro 93."
+        },
+        {
+          "id": "event-05",
+          "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 2.1,
+          "category": "corner",
+          "rankingScore": 90,
+          "class": "CORE",
+          "reason": "Inserito come alternativa più stabile a quota simile: Score 90 contro 88."
+        },
+        {
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 13.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.65,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE",
+          "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
+        }
+      ],
+      "improvementEstimate": "alto",
+      "qualityIndex": {
+        "initial": 96.35,
+        "final": 102.97,
+        "delta": 6.62,
+        "note": "Indice comparativo di qualità, non probabilità."
+      },
+      "reason": "La soluzione massimizza la qualità tra le combinazioni ammissibili nell'intervallo.",
+      "strengths": [
+        "3 categorie rappresentate.",
+        "3 relazioni positive, nessuna negativa o ridondante.",
+        "Score medio corretto per classe: 90.67.",
+        "Numero di eventi ridotto da 4 a 3."
+      ],
+      "weaknesses": [
+        "Tutte le coppie hanno una relazione positiva nello scenario.",
+        "La qualità resta condizionata dal verificarsi dello scenario comune."
+      ]
+    },
+    {
+      "name": "Portfolio Balanced",
+      "scenario": {
+        "id": "favorite_dominance",
+        "name": "Dominio Brasile",
+        "estimatedProbability": "alta"
+      },
+      "initialOdds": 9.95,
+      "finalOdds": 10.35,
+      "acceptedRange": [
+        9,
+        11
+      ],
+      "status": "optimized_inside_range",
+      "events": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1",
+          "odds": 1.33,
+          "category": "esito",
+          "rankingScore": 94,
+          "class": "CORE"
+        },
+        {
+          "id": "event-05",
+          "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 2.1,
+          "category": "corner",
+          "rankingScore": 90,
+          "class": "CORE"
+        },
+        {
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 14.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.95,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE"
+        },
+        {
+          "id": "event-14",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.9,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
+        }
+      ],
+      "removedEvents": [
+        {
+          "id": "event-08",
+          "market": "U/O CORNER SQUADRA X — U/O 4.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 1.52,
+          "category": "corner",
+          "rankingScore": 88,
+          "class": "CORE",
+          "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 88) e quota compatibile."
+        },
+        {
+          "id": "event-15",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.75,
+          "category": "tiri",
+          "rankingScore": 86,
+          "class": "CORE",
+          "reason": "Sostituito da un evento della stessa categoria con Score più alto (88 contro 86) e quota compatibile."
+        },
+        {
+          "id": "event-17",
+          "market": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
+          "selection": "TEAM 1",
+          "odds": 1.48,
+          "category": "corner",
+          "rankingScore": 84,
+          "class": "CORE",
+          "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 84) e quota compatibile."
+        }
+      ],
+      "addedEvents": [
+        {
+          "id": "event-05",
+          "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 2.1,
+          "category": "corner",
+          "rankingScore": 90,
+          "class": "CORE",
+          "reason": "Inserito come alternativa più stabile a quota simile: Score 90 contro 87."
+        },
+        {
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 14.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.95,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE",
+          "reason": "Inserito come alternativa più stabile a quota simile: Score 88 contro 87."
+        }
+      ],
+      "improvementEstimate": "alto",
+      "qualityIndex": {
+        "initial": 93.6,
+        "final": 101.2,
+        "delta": 7.6,
+        "note": "Indice comparativo di qualità, non probabilità."
+      },
+      "reason": "La soluzione massimizza la qualità tra le combinazioni ammissibili nell'intervallo.",
+      "strengths": [
+        "4 categorie rappresentate.",
+        "5 relazioni positive, nessuna negativa o ridondante.",
+        "Score medio corretto per classe: 89.75.",
+        "Numero di eventi ridotto da 5 a 4."
+      ],
+      "weaknesses": [
+        "1 relazioni neutrali restano nel portfolio.",
+        "La qualità resta condizionata dal verificarsi dello scenario comune."
+      ]
+    },
+    {
+      "name": "Portfolio Aggressive",
+      "scenario": {
+        "id": "favorite_dominance",
+        "name": "Dominio Brasile",
+        "estimatedProbability": "alta"
+      },
+      "initialOdds": 19.96,
+      "finalOdds": 18.11,
+      "acceptedRange": [
+        18,
+        22
+      ],
+      "status": "optimized_inside_range",
+      "events": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1",
+          "odds": 1.33,
+          "category": "esito",
+          "rankingScore": 94,
+          "class": "CORE"
+        },
+        {
+          "id": "event-05",
+          "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 2.1,
+          "category": "corner",
+          "rankingScore": 90,
+          "class": "CORE"
+        },
+        {
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 14.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.95,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE"
+        },
+        {
+          "id": "event-14",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.9,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
+        },
+        {
+          "id": "event-15",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.75,
+          "category": "tiri",
+          "rankingScore": 86,
+          "class": "CORE"
+        }
+      ],
+      "removedEvents": [
+        {
+          "id": "event-02",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X",
+          "odds": 1.14,
+          "category": "esito",
+          "rankingScore": 93,
+          "class": "CORE",
+          "reason": "Sostituito da un evento della stessa categoria con Score più alto (94 contro 93) e quota compatibile."
+        },
+        {
+          "id": "event-10",
+          "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
+          "selection": "1",
+          "odds": 1.52,
+          "category": "corner",
+          "rankingScore": 88,
+          "class": "CORE",
+          "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 88) e quota compatibile."
+        },
+        {
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 13.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.65,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE",
+          "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
+        }
+      ],
+      "addedEvents": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1",
+          "odds": 1.33,
+          "category": "esito",
+          "rankingScore": 94,
+          "class": "CORE",
+          "reason": "Inserito come alternativa più stabile a quota simile: Score 94 contro 93."
+        },
+        {
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 14.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.95,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE",
+          "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
+        }
+      ],
+      "improvementEstimate": "medio",
+      "qualityIndex": {
+        "initial": 91.97,
+        "final": 96.7,
+        "delta": 4.73,
+        "note": "Indice comparativo di qualità, non probabilità."
+      },
+      "reason": "La soluzione massimizza la qualità tra le combinazioni ammissibili nell'intervallo.",
+      "strengths": [
+        "4 categorie rappresentate.",
+        "9 relazioni positive, nessuna negativa o ridondante.",
+        "Score medio corretto per classe: 89.",
+        "Numero di eventi ridotto da 6 a 5."
+      ],
+      "weaknesses": [
+        "1 relazioni neutrali restano nel portfolio.",
+        "La qualità resta condizionata dal verificarsi dello scenario comune."
+      ]
+    }
+  ]
+}

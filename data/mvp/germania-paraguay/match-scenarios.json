@@ -23,13 +23,8 @@
           "selection": "1"
         },
         {
-          "id": "event-04",
-          "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
-          "selection": "OVER"
-        },
-        {
           "id": "event-05",
-          "market": "UNDER/OVER — U/O 2.5",
+          "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
           "selection": "OVER"
         },
         {
@@ -43,11 +38,6 @@
           "selection": "1"
         },
         {
-          "id": "event-11",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
-          "selection": "OVER"
-        },
-        {
           "id": "event-12",
           "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
           "selection": "OVER"
@@ -56,6 +46,11 @@
           "id": "event-13",
           "market": "UNDER/OVER — U/O 1.5",
           "selection": "OVER"
+        },
+        {
+          "id": "event-15",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL"
         },
         {
           "id": "event-16",
@@ -68,17 +63,17 @@
           "selection": "TEAM 1"
         },
         {
-          "id": "event-18",
+          "id": "event-19",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
-          "id": "event-19",
+          "id": "event-20",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
-          "id": "event-20",
+          "id": "event-21",
           "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — HAVERTZ K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
@@ -89,7 +84,7 @@
         },
         {
           "id": "event-23",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — UNDAV D. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
@@ -109,11 +104,17 @@
         },
         {
           "id": "event-28",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — UNDAV D. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         }
       ],
-      "incompatibleEvents": [],
+      "incompatibleEvents": [
+        {
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
+          "selection": "UNDER"
+        }
+      ],
       "rootCauses": [
         "Motivazione Germania: very_high",
         "Forma Germania: excellent",
@@ -143,21 +144,21 @@
           "selection": "1"
         },
         {
-          "id": "event-14",
-          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-          "selection": "NOGOAL"
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 4.5",
+          "selection": "UNDER"
         },
         {
-          "id": "event-15",
-          "market": "UNDER/OVER — U/O 4.5",
+          "id": "event-14",
+          "market": "UNDER/OVER — U/O 2.5",
           "selection": "UNDER"
         }
       ],
       "incompatibleEvents": [
         {
-          "id": "event-05",
-          "market": "UNDER/OVER — U/O 2.5",
-          "selection": "OVER"
+          "id": "event-15",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL"
         }
       ],
       "rootCauses": [
@@ -175,30 +176,25 @@
       "estimatedProbability": "bassa",
       "compatibleEvents": [
         {
-          "id": "event-14",
-          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-          "selection": "NOGOAL"
-        },
-        {
-          "id": "event-15",
+          "id": "event-04",
           "market": "UNDER/OVER — U/O 4.5",
           "selection": "UNDER"
         },
         {
-          "id": "event-21",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ENCISO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-14",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-18",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — AVALOS G. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         }
       ],
       "incompatibleEvents": [
         {
-          "id": "event-04",
+          "id": "event-05",
           "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
-          "selection": "OVER"
-        },
-        {
-          "id": "event-11",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
           "selection": "OVER"
         },
         {
@@ -220,13 +216,8 @@
       "estimatedProbability": "media",
       "compatibleEvents": [
         {
-          "id": "event-04",
-          "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
-          "selection": "OVER"
-        },
-        {
           "id": "event-05",
-          "market": "UNDER/OVER — U/O 2.5",
+          "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
           "selection": "OVER"
         },
         {
@@ -245,11 +236,6 @@
           "selection": "1"
         },
         {
-          "id": "event-11",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
-          "selection": "OVER"
-        },
-        {
           "id": "event-12",
           "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
           "selection": "OVER"
@@ -258,6 +244,11 @@
           "id": "event-13",
           "market": "UNDER/OVER — U/O 1.5",
           "selection": "OVER"
+        },
+        {
+          "id": "event-15",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL"
         },
         {
           "id": "event-16",
@@ -271,22 +262,22 @@
         },
         {
           "id": "event-18",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — AVALOS G. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
           "id": "event-19",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
           "id": "event-20",
-          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — HAVERTZ K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
           "id": "event-21",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ENCISO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — HAVERTZ K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
@@ -296,7 +287,7 @@
         },
         {
           "id": "event-23",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — UNDAV D. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
@@ -316,19 +307,19 @@
         },
         {
           "id": "event-28",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — UNDAV D. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         }
       ],
       "incompatibleEvents": [
         {
-          "id": "event-14",
-          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-          "selection": "NOGOAL"
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 4.5",
+          "selection": "UNDER"
         },
         {
-          "id": "event-15",
-          "market": "UNDER/OVER — U/O 4.5",
+          "id": "event-14",
+          "market": "UNDER/OVER — U/O 2.5",
           "selection": "UNDER"
         }
       ],

@@ -74,6 +74,30 @@
       }
     },
     {
+      "mercato": "UNDER/OVER — U/O 4.5",
+      "selezione": "UNDER",
+      "quota": 1.14,
+      "categoria": "goal",
+      "motivo": "Under 4,5 è il mercato gol preferito dopo le formazioni ufficiali.",
+      "puntiDiForza": [
+        "Il 2-0 è lo scenario centrale; l'Under 4,5 protegge sia il 3-0 sia il 3-1."
+      ],
+      "possibiliCriticita": [
+        "Il 4-1-4-1 con Ávalos aumenta la probabilità di un gol paraguayano e riduce la solidità del No Goal."
+      ],
+      "score": 91,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 25,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
       "mercato": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
       "selezione": "OVER",
       "quota": 2.1,
@@ -91,30 +115,6 @@
       "fattoriScore": {
         "coerenzaAnalisi": 23,
         "stabilitaMercato": 22,
-        "indipendenzaSingoloGiocatore": 15,
-        "stabilitaMinutaggio": 10,
-        "stabilitaAndamentoPartita": 10,
-        "semplicitaMercato": 10
-      }
-    },
-    {
-      "mercato": "UNDER/OVER — U/O 2.5",
-      "selezione": "OVER",
-      "quota": 1.65,
-      "categoria": "goal",
-      "motivo": "Il 3-0 centrale sostiene l'Over 2,5.",
-      "puntiDiForza": [
-        "Germania proiettata a produrre quasi tutto il punteggio; 3-0 e 2-0 sono gli scenari principali."
-      ],
-      "possibiliCriticita": [
-        "Una transizione di Enciso o Almirón può compromettere i mercati No Goal."
-      ],
-      "score": 89,
-      "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
-      "fattoriScore": {
-        "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -243,12 +243,12 @@
     },
     {
       "mercato": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
-      "selezione": "OVER",
-      "quota": 1.6,
+      "selezione": "UNDER",
+      "quota": 1,
       "categoria": "tiri",
-      "motivo": "Linea interna alla proiezione tedesca, con rischio medio.",
+      "motivo": "L'assenza di Musiala abbassa il centro della proiezione tedesca a 16-21 tiri.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
@@ -270,9 +270,9 @@
       "selezione": "OVER",
       "quota": 1.5,
       "categoria": "tiri",
-      "motivo": "La proiezione tedesca è 6-9 tiri nello specchio.",
+      "motivo": "La proiezione tedesca è 6-8 tiri nello specchio.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
@@ -296,10 +296,34 @@
       "categoria": "goal",
       "motivo": "La Germania è ritenuta in grado di segnare almeno due reti.",
       "puntiDiForza": [
-        "Germania proiettata a produrre quasi tutto il punteggio; 3-0 e 2-0 sono gli scenari principali."
+        "Il 2-0 è lo scenario centrale; l'Under 4,5 protegge sia il 3-0 sia il 3-1."
       ],
       "possibiliCriticita": [
-        "Una transizione di Enciso o Almirón può compromettere i mercati No Goal."
+        "Il 4-1-4-1 con Ávalos aumenta la probabilità di un gol paraguayano e riduce la solidità del No Goal."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 2.5",
+      "selezione": "UNDER",
+      "quota": 2.1,
+      "categoria": "goal",
+      "motivo": "Il 2-0 centrale rende l'Under 2,5 una variante prudente sul punteggio.",
+      "puntiDiForza": [
+        "Il 2-0 è lo scenario centrale; l'Under 4,5 protegge sia il 3-0 sia il 3-1."
+      ],
+      "possibiliCriticita": [
+        "Il 4-1-4-1 con Ávalos aumenta la probabilità di un gol paraguayano e riduce la solidità del No Goal."
       ],
       "score": 87,
       "classe": "CORE",
@@ -315,39 +339,15 @@
     },
     {
       "mercato": "GOAL/NOGOAL — GOAL/NO GOAL",
-      "selezione": "NOGOAL",
-      "quota": 1.75,
+      "selezione": "GOAL",
+      "quota": 1.95,
       "categoria": "goal",
-      "motivo": "No Goal è una delle scelte principali dell'analisi.",
+      "motivo": "Ávalos e il 4-1-4-1 rendono il gol paraguayano più credibile rispetto alla formazione prevista.",
       "puntiDiForza": [
-        "Germania proiettata a produrre quasi tutto il punteggio; 3-0 e 2-0 sono gli scenari principali."
+        "Il 2-0 è lo scenario centrale; l'Under 4,5 protegge sia il 3-0 sia il 3-1."
       ],
       "possibiliCriticita": [
-        "Una transizione di Enciso o Almirón può compromettere i mercati No Goal."
-      ],
-      "score": 87,
-      "classe": "CORE",
-      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
-      "fattoriScore": {
-        "coerenzaAnalisi": 21,
-        "stabilitaMercato": 21,
-        "indipendenzaSingoloGiocatore": 15,
-        "stabilitaMinutaggio": 10,
-        "stabilitaAndamentoPartita": 10,
-        "semplicitaMercato": 10
-      }
-    },
-    {
-      "mercato": "UNDER/OVER — U/O 4.5",
-      "selezione": "UNDER",
-      "quota": 1.14,
-      "categoria": "goal",
-      "motivo": "Protezione contro una goleada oltre il range centrale 2-0/3-0/3-1.",
-      "puntiDiForza": [
-        "Germania proiettata a produrre quasi tutto il punteggio; 3-0 e 2-0 sono gli scenari principali."
-      ],
-      "possibiliCriticita": [
-        "Una transizione di Enciso o Almirón può compromettere i mercati No Goal."
+        "Il 4-1-4-1 con Ávalos aumenta la probabilità di un gol paraguayano e riduce la solidità del No Goal."
       ],
       "score": 87,
       "classe": "CORE",
@@ -366,9 +366,9 @@
       "selezione": "OVER",
       "quota": 1.45,
       "categoria": "tiri",
-      "motivo": "Germania proiettata a 17-22 tiri.",
+      "motivo": "Germania proiettata a 16-21 tiri: linea possibile ma non conservativa.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
@@ -410,13 +410,37 @@
       }
     },
     {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — AVALOS G. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.75,
+      "categoria": "tiri",
+      "motivo": "Ávalos titolare è il riferimento paraguayano indicato per 2+ tiri.",
+      "puntiDiForza": [
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 63,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
       "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selezione": "OVER",
       "quota": 1.75,
       "categoria": "tiri",
       "motivo": "Linea centrale della proiezione 3-5.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
@@ -440,7 +464,7 @@
       "categoria": "tiri",
       "motivo": "Soglia alta ma ancora compresa nella proiezione individuale.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
@@ -464,7 +488,7 @@
       "categoria": "tiri",
       "motivo": "Havertz è il terminale principale dell'attacco tedesco.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
@@ -482,37 +506,13 @@
       }
     },
     {
-      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ENCISO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-      "selezione": "OVER",
-      "quota": 1.5,
-      "categoria": "tiri",
-      "motivo": "Enciso è uno dei soli profili paraguayani indicati per 2+ tiri.",
-      "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
-      ],
-      "possibiliCriticita": [
-        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
-      ],
-      "score": 61,
-      "classe": "VALUE",
-      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
-      "fattoriScore": {
-        "coerenzaAnalisi": 21,
-        "stabilitaMercato": 15,
-        "indipendenzaSingoloGiocatore": 4,
-        "stabilitaMinutaggio": 5,
-        "stabilitaAndamentoPartita": 8,
-        "semplicitaMercato": 8
-      }
-    },
-    {
       "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selezione": "OVER",
       "quota": 1.25,
       "categoria": "tiri",
       "motivo": "Havertz è proiettato a 3-5 tiri.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
@@ -530,13 +530,13 @@
       }
     },
     {
-      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — UNDAV D. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selezione": "OVER",
-      "quota": 1.47,
+      "quota": 1.2,
       "categoria": "tiri",
-      "motivo": "Musiala è stimato nella fascia 2-4 tiri.",
+      "motivo": "Undav titolare è stimato nella fascia 2-4 tiri.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
@@ -560,7 +560,7 @@
       "categoria": "tiri",
       "motivo": "Sané è stimato nella fascia 2-4 conclusioni.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
@@ -584,7 +584,7 @@
       "categoria": "tiri",
       "motivo": "Linea centrale per un esterno chiamato ad attaccare il lato debole.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
@@ -608,7 +608,7 @@
       "categoria": "tiri",
       "motivo": "Wirtz è proiettato a 2-3 tiri.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
@@ -650,13 +650,13 @@
       }
     },
     {
-      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — UNDAV D. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selezione": "OVER",
-      "quota": 2,
+      "quota": 1.5,
       "categoria": "tiri",
-      "motivo": "Variante più aggressiva ma compatibile con il ruolo fra le linee.",
+      "motivo": "Variante più aggressiva sulla presenza aggiuntiva di Undav vicino a Havertz.",
       "puntiDiForza": [
-        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+        "Germania proiettata a 16-21 tiri; Havertz, Undav, Sané e Wirtz sono centrali, mentre Ávalos offre un riferimento al Paraguay."
       ],
       "possibiliCriticita": [
         "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."

@@ -5,24 +5,24 @@
       "name": "Portfolio Safe",
       "targetOdds": 5,
       "status": "target_reached",
-      "totalOdds": 4.98,
+      "totalOdds": 5.13,
       "events": [
         {
-          "id": "event-03",
-          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
           "selection": "1",
-          "odds": 1.33,
+          "odds": 1.15,
           "category": "esito",
-          "rankingScore": 92,
+          "rankingScore": 94,
           "class": "CORE"
         },
         {
-          "id": "event-08",
-          "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
+          "id": "event-05",
+          "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
           "selection": "OVER",
-          "odds": 1.6,
+          "odds": 2.1,
           "category": "corner",
-          "rankingScore": 88,
+          "rankingScore": 90,
           "class": "CORE"
         },
         {
@@ -35,21 +35,21 @@
           "class": "CORE"
         },
         {
-          "id": "event-11",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.6,
-          "category": "tiri",
-          "rankingScore": 88,
-          "class": "CORE"
-        },
-        {
           "id": "event-13",
           "market": "UNDER/OVER — U/O 1.5",
           "selection": "OVER",
           "odds": 1.2,
           "category": "goal",
           "rankingScore": 87,
+          "class": "CORE"
+        },
+        {
+          "id": "event-16",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.45,
+          "category": "tiri",
+          "rankingScore": 86,
           "class": "CORE"
         }
       ],
@@ -60,8 +60,8 @@
       },
       "reason": "Selezione costruita interamente sullo scenario “Dominio Germania”, privilegiando Score elevati, compatibilità e vicinanza alla quota 5.",
       "strengths": [
-        "4 categorie rappresentate: esito, corner, tiri, goal.",
-        "Score medio 88.6.",
+        "4 categorie rappresentate: esito, corner, goal, tiri.",
+        "Score medio 89.",
         "10 relazioni positive e nessuna relazione negativa o ridondante.",
         "Motivazione Germania: very_high",
         "Forma Germania: excellent"
@@ -74,19 +74,19 @@
       "name": "Portfolio Balanced",
       "targetOdds": 10,
       "status": "target_reached",
-      "totalOdds": 9.81,
+      "totalOdds": 10,
       "events": [
         {
-          "id": "event-03",
-          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
           "selection": "1",
-          "odds": 1.33,
+          "odds": 1.15,
           "category": "esito",
-          "rankingScore": 92,
+          "rankingScore": 94,
           "class": "CORE"
         },
         {
-          "id": "event-04",
+          "id": "event-05",
           "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
           "selection": "OVER",
           "odds": 2.1,
@@ -100,24 +100,6 @@
           "selection": "1",
           "odds": 1.22,
           "category": "corner",
-          "rankingScore": 88,
-          "class": "CORE"
-        },
-        {
-          "id": "event-11",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.6,
-          "category": "tiri",
-          "rankingScore": 88,
-          "class": "CORE"
-        },
-        {
-          "id": "event-12",
-          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
-          "selection": "OVER",
-          "odds": 1.5,
-          "category": "tiri",
           "rankingScore": 88,
           "class": "CORE"
         },
@@ -129,6 +111,24 @@
           "category": "goal",
           "rankingScore": 87,
           "class": "CORE"
+        },
+        {
+          "id": "event-15",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.95,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
+        },
+        {
+          "id": "event-16",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.45,
+          "category": "tiri",
+          "rankingScore": 86,
+          "class": "CORE"
         }
       ],
       "scenario": {
@@ -138,47 +138,38 @@
       },
       "reason": "Selezione costruita interamente sullo scenario “Dominio Germania”, privilegiando Score elevati, compatibilità e vicinanza alla quota 10.",
       "strengths": [
-        "4 categorie rappresentate: esito, corner, tiri, goal.",
-        "Score medio 88.83.",
-        "15 relazioni positive e nessuna relazione negativa o ridondante.",
+        "4 categorie rappresentate: esito, corner, goal, tiri.",
+        "Score medio 88.67.",
+        "14 relazioni positive e nessuna relazione negativa o ridondante.",
         "Motivazione Germania: very_high",
         "Forma Germania: excellent"
       ],
       "weaknesses": [
-        "Il portfolio resta sensibile al mancato verificarsi dello scenario comune."
+        "1 relazioni sono neutrali: gli eventi condividono lo scenario ma non una dipendenza diretta."
       ]
     },
     {
       "name": "Portfolio Aggressive",
       "targetOdds": 20,
       "status": "target_reached",
-      "totalOdds": 20.24,
+      "totalOdds": 19.99,
       "events": [
         {
-          "id": "event-03",
-          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
           "selection": "1",
-          "odds": 1.33,
+          "odds": 1.15,
           "category": "esito",
-          "rankingScore": 92,
+          "rankingScore": 94,
           "class": "CORE"
         },
         {
-          "id": "event-04",
+          "id": "event-05",
           "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
           "selection": "OVER",
           "odds": 2.1,
           "category": "corner",
           "rankingScore": 90,
-          "class": "CORE"
-        },
-        {
-          "id": "event-05",
-          "market": "UNDER/OVER — U/O 2.5",
-          "selection": "OVER",
-          "odds": 1.65,
-          "category": "goal",
-          "rankingScore": 89,
           "class": "CORE"
         },
         {
@@ -191,21 +182,39 @@
           "class": "CORE"
         },
         {
-          "id": "event-20",
+          "id": "event-13",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.2,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
+        },
+        {
+          "id": "event-15",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.95,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
+        },
+        {
+          "id": "event-16",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.45,
+          "category": "tiri",
+          "rankingScore": 86,
+          "class": "CORE"
+        },
+        {
+          "id": "event-21",
           "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — HAVERTZ K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
           "selection": "OVER",
           "odds": 2,
           "category": "tiri",
           "rankingScore": 62,
-          "class": "VALUE"
-        },
-        {
-          "id": "event-25",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.8,
-          "category": "tiri",
-          "rankingScore": 61,
           "class": "VALUE"
         }
       ],
@@ -217,8 +226,8 @@
       "reason": "Selezione costruita interamente sullo scenario “Dominio Germania”, privilegiando Score elevati, compatibilità e vicinanza alla quota 20.",
       "strengths": [
         "4 categorie rappresentate: esito, corner, goal, tiri.",
-        "Score medio 80.33.",
-        "14 relazioni positive e nessuna relazione negativa o ridondante.",
+        "Score medio 84.86.",
+        "20 relazioni positive e nessuna relazione negativa o ridondante.",
         "Motivazione Germania: very_high",
         "Forma Germania: excellent"
       ],

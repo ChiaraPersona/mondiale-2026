@@ -12,8 +12,8 @@ const teamPlayers = {
     team2: ["UEDA", "DOAN", "SANO"],
   },
   "germania-paraguay": {
-    team1: ["HAVERTZ", "MUSIALA", "SANE", "WIRTZ"],
-    team2: ["ENCISO", "ALMIRON", "CUBAS", "CACERES", "ALONSO"],
+    team1: ["HAVERTZ", "UNDAV", "SANE", "WIRTZ"],
+    team2: ["AVALOS", "ENCISO", "ALMIRON", "CUBAS", "CACERES", "ALONSO"],
   },
 };
 

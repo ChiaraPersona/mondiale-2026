@@ -10,7 +10,15 @@ function readJson(relativePath) {
 
 function writeJson(fileName, payload) {
   fs.mkdirSync(outputDirectory, { recursive: true });
-  fs.writeFileSync(path.join(outputDirectory, fileName), `${JSON.stringify(payload, null, 2)}\n`);
+  const destination = path.join(outputDirectory, fileName);
+  if (fs.existsSync(destination)) {
+    const existing = JSON.parse(fs.readFileSync(destination, "utf8"));
+    if (existing.status === "completed" && payload.status !== "completed") {
+      console.log(`${fileName}: archivio completato preservato.`);
+      return;
+    }
+  }
+  fs.writeFileSync(destination, `${JSON.stringify(payload, null, 2)}\n`);
 }
 
 function normalizePortfolio(portfolio) {

@@ -1349,6 +1349,13 @@ const worldCupResults = {
     scorers: { "Giordania": [], "Argentina": [] },
     notes: ["Argentina batte Giordania 3-1.", "Confermati Argentina vincente e X2; saltano Under 2,5, No Goal e risultato esatto 0-1."],
   },
+  74: {
+    status: "Finale", home: 0, away: 1,
+    source: "https://www.diretta.it/partita/calcio/canada-x4toKORL/sudafrica-W2ijYvlr/?mid=EZmXxG15",
+    sources: ["https://www.diretta.it/partita/calcio/canada-x4toKORL/sudafrica-W2ijYvlr/?mid=EZmXxG15"],
+    scorers: { "Sudafrica": [], "Canada": ["Stephen Eustáquio"] },
+    notes: ["Canada batte Sudafrica 1-0 e si qualifica agli ottavi di finale.", "Stephen Eustáquio decide la partita al 92'."],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

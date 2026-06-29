@@ -2259,6 +2259,7 @@ function codexRealResult(matchNumber, fixture) {
   const goalsB = codexNumber(real.away);
   if (goalsA === null || goalsB === null) return null;
   const [teamA, teamB] = teams;
+  const recordedWinner = [teamA, teamB].includes(real.winner) ? real.winner : "";
   return {
     teamA,
     teamB,
@@ -2266,7 +2267,7 @@ function codexRealResult(matchNumber, fixture) {
     goalsB,
     expectedA: goalsA,
     expectedB: goalsB,
-    winner: goalsA > goalsB ? teamA : goalsB > goalsA ? teamB : "",
+    winner: recordedWinner || (goalsA > goalsB ? teamA : goalsB > goalsA ? teamB : ""),
     note: real.status || "Risultato reale",
     fixture,
     isReal: true,
@@ -2375,7 +2376,8 @@ function codexSimulateKnockout() {
       const [teamA, teamB] = codexParticipants(matchNumber);
       if (!teamA || !teamB) return;
       const simulated = codexScoreMatch(teamA, teamB, true, worldCupFixtures[matchNumber - 1], matchNumber);
-      const result = codexApplyReadingPrediction(simulated, teamA, teamB);
+      const real = codexRealResult(matchNumber, worldCupFixtures[matchNumber - 1]);
+      const result = real || codexApplyReadingPrediction(simulated, teamA, teamB);
       codexState.results[matchNumber] = { ...result, fixture: worldCupFixtures[matchNumber - 1] };
     });
 }

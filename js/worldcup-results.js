@@ -1349,6 +1349,20 @@ const worldCupResults = {
     scorers: { "Sudafrica": [], "Canada": ["Stephen Eustáquio"] },
     notes: ["Canada batte Sudafrica 1-0 e si qualifica agli ottavi di finale.", "Stephen Eustáquio decide la partita al 92'."],
   },
+  74: {
+    status: "Finale dopo i rigori",
+    home: 1,
+    away: 1,
+    winner: "Paraguay",
+    penalties: { home: 3, away: 4 },
+    source: "https://www.diretta.it/partita/calcio/germania-ptQide1O/paraguay-YaNlqp6j/?mid=2y2UKhp1",
+    sources: ["https://www.diretta.it/partita/calcio/germania-ptQide1O/paraguay-YaNlqp6j/?mid=2y2UKhp1"],
+    scorers: { "Germania": ["Kai Havertz"], "Paraguay": ["Julio Enciso"] },
+    notes: [
+      "Germania e Paraguay chiudono 1-1 dopo i tempi supplementari.",
+      "Il Paraguay vince 4-3 ai rigori e si qualifica agli ottavi di finale.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

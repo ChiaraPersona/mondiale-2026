@@ -122,6 +122,30 @@
       }
     },
     {
+      "mercato": "GOAL/NOGOAL — GOAL/NO GOAL",
+      "selezione": "NOGOAL",
+      "quota": 1.75,
+      "categoria": "goal",
+      "motivo": "Il 2-0 centrale sostiene il No Goal, pur con rischio aumentato dalla presenza di Ávalos.",
+      "puntiDiForza": [
+        "Il 2-0 è lo scenario centrale; l'Under 4,5 protegge sia il 3-0 sia il 3-1."
+      ],
+      "possibiliCriticita": [
+        "Il 4-1-4-1 con Ávalos aumenta la probabilità di un gol paraguayano e riduce la solidità del No Goal."
+      ],
+      "score": 89,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
       "mercato": "U/O CORNER — U/O 8.5 CORNER",
       "selezione": "OVER",
       "quota": 1.62,
@@ -319,30 +343,6 @@
       "quota": 2.1,
       "categoria": "goal",
       "motivo": "Il 2-0 centrale rende l'Under 2,5 una variante prudente sul punteggio.",
-      "puntiDiForza": [
-        "Il 2-0 è lo scenario centrale; l'Under 4,5 protegge sia il 3-0 sia il 3-1."
-      ],
-      "possibiliCriticita": [
-        "Il 4-1-4-1 con Ávalos aumenta la probabilità di un gol paraguayano e riduce la solidità del No Goal."
-      ],
-      "score": 87,
-      "classe": "CORE",
-      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
-      "fattoriScore": {
-        "coerenzaAnalisi": 21,
-        "stabilitaMercato": 21,
-        "indipendenzaSingoloGiocatore": 15,
-        "stabilitaMinutaggio": 10,
-        "stabilitaAndamentoPartita": 10,
-        "semplicitaMercato": 10
-      }
-    },
-    {
-      "mercato": "GOAL/NOGOAL — GOAL/NO GOAL",
-      "selezione": "GOAL",
-      "quota": 1.95,
-      "categoria": "goal",
-      "motivo": "Ávalos e il 4-1-4-1 rendono il gol paraguayano più credibile rispetto alla formazione prevista.",
       "puntiDiForza": [
         "Il 2-0 è lo scenario centrale; l'Under 4,5 protegge sia il 3-0 sia il 3-1."
       ],

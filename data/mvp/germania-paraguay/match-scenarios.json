@@ -28,29 +28,24 @@
           "selection": "OVER"
         },
         {
-          "id": "event-08",
+          "id": "event-09",
           "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
           "selection": "OVER"
         },
         {
-          "id": "event-10",
+          "id": "event-11",
           "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
           "selection": "1"
         },
         {
-          "id": "event-12",
+          "id": "event-13",
           "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
           "selection": "OVER"
         },
         {
-          "id": "event-13",
+          "id": "event-14",
           "market": "UNDER/OVER — U/O 1.5",
           "selection": "OVER"
-        },
-        {
-          "id": "event-15",
-          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-          "selection": "GOAL"
         },
         {
           "id": "event-16",
@@ -110,7 +105,7 @@
       ],
       "incompatibleEvents": [
         {
-          "id": "event-11",
+          "id": "event-12",
           "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
           "selection": "UNDER"
         }
@@ -149,18 +144,17 @@
           "selection": "UNDER"
         },
         {
-          "id": "event-14",
+          "id": "event-06",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL"
+        },
+        {
+          "id": "event-15",
           "market": "UNDER/OVER — U/O 2.5",
           "selection": "UNDER"
         }
       ],
-      "incompatibleEvents": [
-        {
-          "id": "event-15",
-          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-          "selection": "GOAL"
-        }
-      ],
+      "incompatibleEvents": [],
       "rootCauses": [
         "Motivazione Germania: very_high",
         "Forma Germania: excellent",
@@ -181,7 +175,12 @@
           "selection": "UNDER"
         },
         {
-          "id": "event-14",
+          "id": "event-06",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL"
+        },
+        {
+          "id": "event-15",
           "market": "UNDER/OVER — U/O 2.5",
           "selection": "UNDER"
         },
@@ -221,34 +220,29 @@
           "selection": "OVER"
         },
         {
-          "id": "event-06",
+          "id": "event-07",
           "market": "U/O CORNER — U/O 8.5 CORNER",
           "selection": "OVER"
         },
         {
-          "id": "event-08",
+          "id": "event-09",
           "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
           "selection": "OVER"
         },
         {
-          "id": "event-10",
+          "id": "event-11",
           "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
           "selection": "1"
         },
         {
-          "id": "event-12",
+          "id": "event-13",
           "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
           "selection": "OVER"
         },
         {
-          "id": "event-13",
+          "id": "event-14",
           "market": "UNDER/OVER — U/O 1.5",
           "selection": "OVER"
-        },
-        {
-          "id": "event-15",
-          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-          "selection": "GOAL"
         },
         {
           "id": "event-16",
@@ -318,7 +312,12 @@
           "selection": "UNDER"
         },
         {
-          "id": "event-14",
+          "id": "event-06",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL"
+        },
+        {
+          "id": "event-15",
           "market": "UNDER/OVER — U/O 2.5",
           "selection": "UNDER"
         }

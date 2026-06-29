@@ -94,7 +94,7 @@ const plans = {
       ["PASSAGGIO TURNO", /PASSAGGIO TURNO/, "1", "esito", "Germania qualificata, in linea con il verdetto dell'analisi."],
       ["UNDER/OVER", /U\/O 1\.5$/, "OVER", "goal", "La Germania è ritenuta in grado di segnare almeno due reti."],
       ["UNDER/OVER", /U\/O 2\.5$/, "UNDER", "goal", "Il 2-0 centrale rende l'Under 2,5 una variante prudente sul punteggio."],
-      ["GOAL/NOGOAL", /GOAL\/NO GOAL/, "GOAL", "goal", "Ávalos e il 4-1-4-1 rendono il gol paraguayano più credibile rispetto alla formazione prevista."],
+      ["GOAL/NOGOAL", /GOAL\/NO GOAL/, "NOGOAL", "goal", "Il 2-0 centrale sostiene il No Goal, pur con rischio aumentato dalla presenza di Ávalos."],
       ["UNDER/OVER", /U\/O 4\.5$/, "UNDER", "goal", "Under 4,5 è il mercato gol preferito dopo le formazioni ufficiali."],
       ["U/O CORNER", /U\/O 8\.5 CORNER/, "OVER", "corner", "La proiezione totale 8-12 sostiene l'Over 8,5."],
       ["U/O CORNER", /U\/O 11\.5 CORNER/, "UNDER", "corner", "Il limite superiore della proiezione totale è 12."],

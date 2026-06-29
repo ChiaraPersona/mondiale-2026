@@ -6,108 +6,7 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 4.71,
-      "events": [
-        {
-          "id": "event-01",
-          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
-          "selection": "1",
-          "odds": 1.15,
-          "category": "esito",
-          "rankingScore": 94,
-          "class": "CORE"
-        },
-        {
-          "id": "event-05",
-          "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
-          "selection": "OVER",
-          "odds": 2.1,
-          "category": "corner",
-          "rankingScore": 90,
-          "class": "CORE"
-        },
-        {
-          "id": "event-15",
-          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-          "selection": "GOAL",
-          "odds": 1.95,
-          "category": "goal",
-          "rankingScore": 87,
-          "class": "CORE"
-        }
-      ],
-      "reason": "La soluzione massimizza la qualità tra le combinazioni ammissibili nell'intervallo.",
-      "scenario": {
-        "id": "favorite_dominance",
-        "name": "Dominio Germania",
-        "estimatedProbability": "alta"
-      },
-      "strengths": [
-        "3 categorie rappresentate.",
-        "2 relazioni positive, nessuna negativa o ridondante.",
-        "Score medio corretto per classe: 90.33.",
-        "Numero di eventi ridotto da 5 a 3."
-      ],
-      "weaknesses": [
-        "1 relazioni neutrali restano nel portfolio.",
-        "La qualità resta condizionata dal verificarsi dello scenario comune."
-      ],
-      "optimization": {
-        "initialOdds": 5.13,
-        "acceptedRange": [
-          4.5,
-          5.5
-        ],
-        "removedEvents": [
-          {
-            "id": "event-10",
-            "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
-            "selection": "1",
-            "odds": 1.22,
-            "category": "corner",
-            "rankingScore": 88,
-            "class": "CORE",
-            "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 88) e quota compatibile."
-          },
-          {
-            "id": "event-13",
-            "market": "UNDER/OVER — U/O 1.5",
-            "selection": "OVER",
-            "odds": 1.2,
-            "category": "goal",
-            "rankingScore": 87,
-            "class": "CORE",
-            "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
-          },
-          {
-            "id": "event-16",
-            "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
-            "selection": "OVER",
-            "odds": 1.45,
-            "category": "tiri",
-            "rankingScore": 86,
-            "class": "CORE",
-            "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
-          }
-        ],
-        "addedEvents": [
-          {
-            "id": "event-15",
-            "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-            "selection": "GOAL",
-            "odds": 1.95,
-            "category": "goal",
-            "rankingScore": 87,
-            "class": "CORE",
-            "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
-          }
-        ],
-        "improvementEstimate": "medio"
-      }
-    },
-    {
-      "name": "Balanced",
-      "finalOdds": 9.97,
+      "finalOdds": 5.03,
       "events": [
         {
           "id": "event-03",
@@ -128,16 +27,7 @@
           "class": "CORE"
         },
         {
-          "id": "event-10",
-          "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
-          "selection": "1",
-          "odds": 1.22,
-          "category": "corner",
-          "rankingScore": 88,
-          "class": "CORE"
-        },
-        {
-          "id": "event-12",
+          "id": "event-13",
           "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
           "selection": "OVER",
           "odds": 1.5,
@@ -146,10 +36,10 @@
           "class": "CORE"
         },
         {
-          "id": "event-15",
-          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-          "selection": "GOAL",
-          "odds": 1.95,
+          "id": "event-14",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.2,
           "category": "goal",
           "rankingScore": 87,
           "class": "CORE"
@@ -163,19 +53,19 @@
       },
       "strengths": [
         "4 categorie rappresentate.",
-        "9 relazioni positive, nessuna negativa o ridondante.",
-        "Score medio corretto per classe: 89.",
-        "Numero di eventi ridotto da 6 a 5."
+        "6 relazioni positive, nessuna negativa o ridondante.",
+        "Score medio corretto per classe: 89.25.",
+        "Numero di eventi ridotto da 5 a 4."
       ],
       "weaknesses": [
-        "1 relazioni neutrali restano nel portfolio.",
+        "Tutte le coppie hanno una relazione positiva nello scenario.",
         "La qualità resta condizionata dal verificarsi dello scenario comune."
       ],
       "optimization": {
-        "initialOdds": 10,
+        "initialOdds": 5.13,
         "acceptedRange": [
-          9,
-          11
+          4.5,
+          5.5
         ],
         "removedEvents": [
           {
@@ -189,14 +79,14 @@
             "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
           },
           {
-            "id": "event-13",
-            "market": "UNDER/OVER — U/O 1.5",
-            "selection": "OVER",
-            "odds": 1.2,
-            "category": "goal",
-            "rankingScore": 87,
+            "id": "event-11",
+            "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
+            "selection": "1",
+            "odds": 1.22,
+            "category": "corner",
+            "rankingScore": 88,
             "class": "CORE",
-            "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
+            "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 88) e quota compatibile."
           },
           {
             "id": "event-16",
@@ -221,7 +111,7 @@
             "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
           },
           {
-            "id": "event-12",
+            "id": "event-13",
             "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
             "selection": "OVER",
             "odds": 1.5,
@@ -235,8 +125,8 @@
       }
     },
     {
-      "name": "Aggressive",
-      "finalOdds": 14.45,
+      "name": "Balanced",
+      "finalOdds": 7.29,
       "events": [
         {
           "id": "event-03",
@@ -257,16 +147,7 @@
           "class": "CORE"
         },
         {
-          "id": "event-10",
-          "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
-          "selection": "1",
-          "odds": 1.22,
-          "category": "corner",
-          "rankingScore": 88,
-          "class": "CORE"
-        },
-        {
-          "id": "event-12",
+          "id": "event-13",
           "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
           "selection": "OVER",
           "odds": 1.5,
@@ -275,10 +156,10 @@
           "class": "CORE"
         },
         {
-          "id": "event-15",
-          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-          "selection": "GOAL",
-          "odds": 1.95,
+          "id": "event-14",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.2,
           "category": "goal",
           "rankingScore": 87,
           "class": "CORE"
@@ -301,75 +182,120 @@
       },
       "strengths": [
         "4 categorie rappresentate.",
-        "14 relazioni positive, nessuna negativa o ridondante.",
-        "Score medio corretto per classe: 88.5.",
-        "Numero di eventi ridotto da 7 a 6."
+        "10 relazioni positive, nessuna negativa o ridondante.",
+        "Score medio corretto per classe: 88.6.",
+        "Numero di eventi ridotto da 6 a 5."
       ],
       "weaknesses": [
-        "1 relazioni neutrali restano nel portfolio.",
+        "Tutte le coppie hanno una relazione positiva nello scenario.",
         "La qualità resta condizionata dal verificarsi dello scenario comune."
       ],
       "optimization": {
-        "initialOdds": 19.99,
+        "initialOdds": 8.89,
+        "acceptedRange": [
+          9,
+          11
+        ],
+        "removedEvents": [
+          {
+            "id": "event-11",
+            "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
+            "selection": "1",
+            "odds": 1.22,
+            "category": "corner",
+            "rankingScore": 88,
+            "class": "CORE",
+            "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 88) e quota compatibile."
+          }
+        ],
+        "addedEvents": [],
+        "improvementEstimate": "medio"
+      }
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 14.72,
+      "events": [
+        {
+          "id": "event-03",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1",
+          "odds": 1.33,
+          "category": "esito",
+          "rankingScore": 92,
+          "class": "CORE"
+        },
+        {
+          "id": "event-05",
+          "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 2.1,
+          "category": "corner",
+          "rankingScore": 90,
+          "class": "CORE"
+        },
+        {
+          "id": "event-11",
+          "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
+          "selection": "1",
+          "odds": 1.22,
+          "category": "corner",
+          "rankingScore": 88,
+          "class": "CORE"
+        },
+        {
+          "id": "event-14",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.2,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
+        },
+        {
+          "id": "event-21",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — HAVERTZ K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 2,
+          "category": "tiri",
+          "rankingScore": 62,
+          "class": "VALUE"
+        },
+        {
+          "id": "event-25",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.8,
+          "category": "tiri",
+          "rankingScore": 61,
+          "class": "VALUE"
+        }
+      ],
+      "reason": "La soluzione resta sotto l'intervallo: aumentare la quota avrebbe richiesto eventi meno stabili o più ridondanti.",
+      "scenario": {
+        "id": "favorite_dominance",
+        "name": "Dominio Germania",
+        "estimatedProbability": "alta"
+      },
+      "strengths": [
+        "4 categorie rappresentate.",
+        "15 relazioni positive, nessuna negativa o ridondante.",
+        "Score medio corretto per classe: 77.67.",
+        "Numero di eventi mantenuto senza aggiunte finalizzate soltanto alla quota."
+      ],
+      "weaknesses": [
+        "Tutte le coppie hanno una relazione positiva nello scenario.",
+        "La qualità resta condizionata dal verificarsi dello scenario comune."
+      ],
+      "optimization": {
+        "initialOdds": 14.72,
         "acceptedRange": [
           18,
           22
         ],
-        "removedEvents": [
-          {
-            "id": "event-01",
-            "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
-            "selection": "1",
-            "odds": 1.15,
-            "category": "esito",
-            "rankingScore": 94,
-            "class": "CORE",
-            "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
-          },
-          {
-            "id": "event-13",
-            "market": "UNDER/OVER — U/O 1.5",
-            "selection": "OVER",
-            "odds": 1.2,
-            "category": "goal",
-            "rankingScore": 87,
-            "class": "CORE",
-            "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
-          },
-          {
-            "id": "event-21",
-            "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — HAVERTZ K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
-            "selection": "OVER",
-            "odds": 2,
-            "category": "tiri",
-            "rankingScore": 62,
-            "class": "VALUE",
-            "reason": "Sostituito da un evento della stessa categoria con Score più alto (88 contro 62) e quota compatibile."
-          }
-        ],
-        "addedEvents": [
-          {
-            "id": "event-03",
-            "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
-            "selection": "1",
-            "odds": 1.33,
-            "category": "esito",
-            "rankingScore": 92,
-            "class": "CORE",
-            "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
-          },
-          {
-            "id": "event-12",
-            "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
-            "selection": "OVER",
-            "odds": 1.5,
-            "category": "tiri",
-            "rankingScore": 88,
-            "class": "CORE",
-            "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
-          }
-        ],
-        "improvementEstimate": "alto"
+        "removedEvents": [],
+        "addedEvents": [],
+        "improvementEstimate": "nessuno: la schedina candidata era già ottimale"
       }
     }
   ]

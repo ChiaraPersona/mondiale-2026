@@ -68,16 +68,16 @@ function scopedTeamData(section, side) {
 
 function motivationScore(data) {
   const text = joinedText(data);
-  if (/\b(motivazione massima|motivazione molto alta|molto motivat[oaie])\b/.test(text)) {
+  if (/\b(very_high|motivazione massima|motivazione molto alta|molto motivat[oaie])\b/.test(text)) {
     return { points: 15, reason: "Motivazione molto alta" };
   }
-  if (/\b(motivazione alta|alta motivazione|fortemente motivat[oaie])\b/.test(text)) {
+  if (/\b(high|motivazione alta|alta motivazione|fortemente motivat[oaie])\b/.test(text)) {
     return { points: 10, reason: "Motivazione alta" };
   }
-  if (/\b(motivazione media|mediamente motivat[oaie])\b/.test(text)) {
+  if (/\b(medium|motivazione media|mediamente motivat[oaie])\b/.test(text)) {
     return { points: 5, reason: "Motivazione media" };
   }
-  if (/\b(motivazione bassa|poco motivat[oaie])\b/.test(text)) {
+  if (/\b(low|motivazione bassa|poco motivat[oaie])\b/.test(text)) {
     return { points: 0, reason: null };
   }
   return { points: 0, reason: null };
@@ -85,16 +85,16 @@ function motivationScore(data) {
 
 function formScore(data) {
   const text = joinedText(data);
-  if (/\b(forma ottima|ottima forma)\b/.test(text)) {
+  if (/\b(excellent|forma ottima|ottima forma)\b/.test(text)) {
     return { points: 15, reason: "Forma classificata come ottima" };
   }
-  if (/\b(forma buona|buona forma)\b/.test(text)) {
+  if (/\b(good|forma buona|buona forma)\b/.test(text)) {
     return { points: 10, reason: "Forma classificata come buona" };
   }
-  if (/\b(forma media|forma recente nella media)\b/.test(text)) {
+  if (/\b(medium|forma media|forma recente nella media)\b/.test(text)) {
     return { points: 5, reason: "Forma classificata come media" };
   }
-  if (/\b(forma negativa|momento negativo|serie negativa)\b/.test(text)) {
+  if (/\b(negative|forma negativa|momento negativo|serie negativa)\b/.test(text)) {
     return { points: 0, reason: null };
   }
   return { points: 0, reason: null };
@@ -104,15 +104,15 @@ function pressureScore(data) {
   let points = 0;
   const reasons = [];
 
-  if (flattenText(data.mustWin).length) {
+  if (data.mustWin === true || flattenText(data.mustWin).length) {
     points += 10;
     reasons.push("La partita deve essere vinta");
   }
-  if (flattenText(data.knockout).length) {
+  if (data.knockout === true || flattenText(data.knockout).length) {
     points += 6;
     reasons.push("Partita a eliminazione diretta");
   }
-  if (flattenText(data.canSettle).length) {
+  if (data.canSettle === true || flattenText(data.canSettle).length) {
     points -= 5;
     reasons.push("Una squadra può giocare con pressione inferiore");
   }

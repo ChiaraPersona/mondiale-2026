@@ -10,6 +10,7 @@ const EVENT_FIELDS = Object.freeze([
   "selectionId",
   "marketId",
   "expectedProbability",
+  "probabilityBreakdown",
   "bookmakerProbability",
   "confidence",
   "stability",
@@ -84,6 +85,10 @@ function createEvent(source = {}) {
         ? ""
         : String(source.marketId),
     expectedProbability: source.expectedProbability ?? null,
+    probabilityBreakdown:
+      source.probabilityBreakdown && typeof source.probabilityBreakdown === "object"
+        ? source.probabilityBreakdown
+        : {},
     bookmakerProbability: source.bookmakerProbability ?? null,
     confidence: source.confidence ?? null,
     stability: source.stability ?? null,

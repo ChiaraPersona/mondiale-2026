@@ -3,7 +3,7 @@ const path = require("path");
 const { readEvents, round3, writeEvents } = require("./lib/event-model");
 
 const root = path.resolve(__dirname, "..");
-const inputDirectory = path.join(root, "data", "confidence");
+const inputDirectory = path.join(root, "data", "probability");
 const outputDirectory = path.join(root, "data", "value");
 const requestedFile = process.argv[2];
 
@@ -33,5 +33,5 @@ const files = requestedFile
       .filter(filename => filename.toLowerCase().endsWith("-events.json"))
       .sort((a, b) => a.localeCompare(b, "it"));
 
-if (!files.length) throw new Error("Nessun file Confidence *-events.json disponibile.");
+if (!files.length) throw new Error("Nessun file Probability *-events.json disponibile.");
 files.forEach(processFile);

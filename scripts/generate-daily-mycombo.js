@@ -179,6 +179,16 @@ const germany = diversifiedGermany(
   readJson("data/mvp/germania-paraguay/ranking-events.json")
 );
 const southAfrica = archivedMatch(readJson("final-mycombo.json"));
+const requestedSlug = process.argv[2];
+
+if (requestedSlug) {
+  const source = readJson(`data/mvp/${requestedSlug}/portfolio-optimized.json`);
+  const quote = readJson(`data/quote/${requestedSlug}-quote.json`);
+  const match = optimizedMatch(requestedSlug, source, quote.date);
+  writeJson(`${requestedSlug}.json`, match);
+  console.log(`MyCombo generata per ${source.match}.`);
+  return;
+}
 
 [brazil, germany, southAfrica].forEach(match => writeJson(`${match.slug}.json`, match));
 writeJson("mycombo-definitive-2026-06-29.json", {

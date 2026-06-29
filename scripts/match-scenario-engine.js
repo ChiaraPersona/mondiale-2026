@@ -7,6 +7,10 @@ const intelligenceDirectory = path.join(root, "data", "intelligence");
 const requestedMatch = process.argv[2];
 
 const teamPlayers = {
+  "olanda-marocco": {
+    team1: ["BROBBEY", "MALEN", "DE JONG"],
+    team2: ["SAIBARI", "BRAHIM DIAZ", "BOUADDI"],
+  },
   "brasile-giappone": {
     team1: ["VINICIUS", "MATHEUS CUNHA", "RAYAN", "CASEMIRO"],
     team2: ["UEDA", "DOAN", "SANO"],

@@ -3,8 +3,58 @@ const path = require("path");
 
 const root = path.resolve(__dirname, "..");
 const outputRoot = path.join(root, "data", "mvp");
+const requestedMatch = process.argv[2];
 
 const plans = {
+  "olanda-marocco": {
+    file: "olanda-marocco-quote.json",
+    match: "Olanda - Marocco",
+    context: {
+      esito: {
+        strength: "Partita equilibrata: l'Olanda ha un vantaggio contenuto, mentre il pareggio resta centrale nella lettura.",
+        risk: "Il Marocco ha struttura e qualità nelle transizioni sufficienti per impedire un esito netto.",
+      },
+      goal: {
+        strength: "Il risultato guida 1-1 e la proiezione contenuta sostengono Under 3,5 e Under 2,5.",
+        risk: "Il Goal resta plausibile: un gol precoce può rendere la partita più aperta.",
+      },
+      corner: {
+        strength: "La proiezione complessiva di 9-11 corner sostiene le linee centrali del mercato.",
+        risk: "Non emerge un vantaggio territoriale abbastanza ampio per forzare i corner di una singola squadra.",
+      },
+      tiri: {
+        strength: "Olanda 11-15 tiri e Marocco 9-13; Brobbey, Malen, Saibari e Brahim Diaz sono i riferimenti più coerenti.",
+        risk: "I mercati individuali dipendono da titolarità, ruolo, minutaggio e sostituzioni.",
+      },
+      cartellini: {
+        strength: "Bouaddi e De Jong sono esposti ai duelli centrali in una gara a eliminazione diretta.",
+        risk: "Il cartellino individuale resta un evento ad alta varianza, sensibile alle decisioni arbitrali.",
+      },
+    },
+    specs: [
+      ["1X2 ESITO FINALE", /ESITO FINALE 1X2/, "X", "esito", "Il pareggio è l'esito guida della lettura nei tempi regolamentari."],
+      ["DOPPIA CHANCE", /DOPPIA CHANCE MULTIESITI/, "1X", "esito", "Copertura prudente sull'Olanda in una partita molto equilibrata."],
+      ["PASSAGGIO TURNO", /PASSAGGIO TURNO/, "1", "esito", "L'Olanda conserva un vantaggio contenuto nella qualificazione."],
+      ["UNDER/OVER", /U\/O 3\.5$/, "UNDER", "goal", "Under 3,5 protegge gli scenari centrali 1-0, 1-1 e 1-2."],
+      ["UNDER/OVER", /U\/O 2\.5$/, "UNDER", "goal", "Under 2,5 è la linea principale indicata dallo studio."],
+      ["GOAL/NOGOAL", /GOAL\/NO GOAL/, "GOAL", "goal", "Il risultato guida 1-1 rende il Goal coerente pur in una gara contenuta."],
+      ["U/O CORNER", /U\/O 8\.5 CORNER$/, "OVER", "corner", "La proiezione di 9-11 corner sostiene l'Over 8,5."],
+      ["U/O CORNER", /U\/O 10\.5 CORNER$/, "UNDER", "corner", "La parte alta della proiezione sostiene l'Under 10,5."],
+      ["U/O TIRI TOTALI SQUADRA X", /SQUADRA 1: U\/O 10\.5 TIRI TOTALI/, "OVER", "tiri", "L'Olanda è proiettata a 11-15 tiri totali."],
+      ["U/O TIRI IN PORTA SQUADRA X", /SQUADRA 1: U\/O 3\.5 TIRI IN PORTA/, "OVER", "tiri", "La proiezione olandese di 4-6 tiri in porta sostiene la soglia."],
+      ["U/O TIRI TOTALI SQUADRA X", /SQUADRA 2: U\/O 8\.5 TIRI TOTALI/, "OVER", "tiri", "Il Marocco è proiettato a 9-13 tiri totali."],
+      ["U/O TIRI IN PORTA SQUADRA X", /SQUADRA 2: U\/O 3\.5 TIRI IN PORTA/, "OVER", "tiri", "La proiezione marocchina di 3-5 tiri in porta rende la linea plausibile."],
+      ["U/O TIRI TOTALI GIOCATORE (DUO) INC TS", /BROBBEY B\. U\/O 1\.5/, "OVER", "tiri", "Brobbey è indicato nella fascia 2-4 tiri."],
+      ["U/O TIRI TOTALI GIOCATORE (DUO) INC TS", /BROBBEY B\. U\/O 2\.5/, "OVER", "tiri", "Variante più aggressiva sul riferimento centrale olandese."],
+      ["U/O TIRI TOTALI GIOCATORE (DUO) INC TS", /MALEN D\. U\/O 1\.5/, "OVER", "tiri", "Malen è proiettato nella fascia 2-3 tiri."],
+      ["U/O TIRI TOTALI GIOCATORE (DUO) INC TS", /MALEN D\. U\/O 2\.5/, "OVER", "tiri", "Soglia alta ma ancora interna alla proiezione di Malen."],
+      ["U/O TIRI TOTALI GIOCATORE (DUO) INC TS", /SAIBARI I\. U\/O 1\.5/, "OVER", "tiri", "Saibari è il riferimento marocchino indicato per 2+ tiri."],
+      ["U/O TIRI TOTALI GIOCATORE (DUO) INC TS", /SAIBARI I\. U\/O 2\.5/, "OVER", "tiri", "Variante più ambiziosa sulla proiezione 2-4 di Saibari."],
+      ["U/O TIRI TOTALI GIOCATORE (DUO) INC TS", /BRAHIM DIAZ U\/O 1\.5/, "OVER", "tiri", "Brahim Diaz è proiettato nella fascia 2-3 tiri."],
+      ["CARTELLINO SI/NO (DUO) INC TS", /^BOUADDI A\. CARTELLINO/, "SI", "cartellini", "Bouaddi è la prima scelta ammoniti dello studio."],
+      ["CARTELLINO SI/NO (DUO) INC TS", /^DE JONG FRENKIE CARTELLINO/, "SI", "cartellini", "De Jong è la prima alternativa nei duelli centrali."],
+    ],
+  },
   "brasile-giappone": {
     file: "brasile-giappone-quote.json",
     match: "Brasile - Giappone",
@@ -163,4 +213,9 @@ function build(plan) {
   console.log(`${plan.match}: 30 eventi -> ${path.relative(root, destination)}`);
 }
 
-Object.values(plans).forEach(build);
+const selectedPlans = requestedMatch
+  ? [plans[requestedMatch]].filter(Boolean)
+  : Object.values(plans);
+
+if (!selectedPlans.length) throw new Error(`Piano top-events non trovato: ${requestedMatch}`);
+selectedPlans.forEach(build);

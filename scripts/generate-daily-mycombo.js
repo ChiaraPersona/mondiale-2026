@@ -50,6 +50,66 @@ function optimizedMatch(slug, source, date) {
   };
 }
 
+function diversifiedGermany(source, ranking) {
+  const match = optimizedMatch("germania-paraguay", source, "29/06/2026 ore 22:30");
+  const definitions = [
+    {
+      name: "Safe",
+      indexes: [3, 4, 5, 13],
+      reason: "Nucleo strutturale: esito Germania, limite gol e volumi collettivi.",
+      scenario: "Controllo Germania",
+    },
+    {
+      name: "Balanced",
+      indexes: [1, 7, 16, 18, 20, 23],
+      reason: "Portfolio alternativo costruito su qualificazione, volume partita e tiri di giocatori diversi.",
+      scenario: "Germania territoriale, Paraguay presente in transizione",
+    },
+    {
+      name: "Aggressive",
+      indexes: [1, 21, 25, 28, 29],
+      reason: "Portfolio ad alta quota concentrato su Havertz, Sané, Undav e Cáceres.",
+      scenario: "Pressione tedesca e duelli individuali",
+    },
+  ];
+  match.portfolios = definitions.map(definition => {
+    const events = definition.indexes.map(index => {
+      const event = ranking.events[index - 1];
+      return {
+        id: `event-${String(index).padStart(2, "0")}`,
+        market: event.mercato,
+        selection: event.selezione,
+        odds: event.quota,
+        category: event.categoria,
+        rankingScore: event.score,
+        class: event.classe,
+      };
+    });
+    const finalOdds = Math.round(events.reduce((total, event) => total * Number(event.odds), 1) * 100) / 100;
+    return {
+      name: definition.name,
+      finalOdds,
+      events,
+      reason: definition.reason,
+      scenario: {
+        id: definition.name.toLowerCase(),
+        name: definition.scenario,
+        estimatedProbability: definition.name === "Safe" ? "alta" : definition.name === "Balanced" ? "media" : "bassa",
+      },
+      strengths: ["Massimo due selezioni condivise con gli altri portfolio.", "Mercati coerenti con le formazioni ufficiali."],
+      weaknesses: [definition.name === "Aggressive" ? "Maggiore dipendenza dai singoli giocatori." : "La quota dipende dal copione territoriale previsto."],
+      optimization: {
+        initialOdds: finalOdds,
+        acceptedRange: definition.name === "Safe" ? [4.5, 5.5] : definition.name === "Balanced" ? [9, 11] : [18, 22],
+        removedEvents: [],
+        addedEvents: [],
+        improvementEstimate: "diversificazione controllata",
+      },
+    };
+  });
+  return match;
+}
+
 function categoryFor(market) {
   const value = String(market || "").toLowerCase();
   if (value.includes("corner") || value.includes("angolo")) return "corner";
@@ -114,10 +174,9 @@ const brazil = optimizedMatch(
   readJson("data/mvp/brasile-giappone/portfolio-optimized.json"),
   "29/06/2026 ore 19:00"
 );
-const germany = optimizedMatch(
-  "germania-paraguay",
+const germany = diversifiedGermany(
   readJson("data/mvp/germania-paraguay/portfolio-optimized.json"),
-  "29/06/2026 ore 22:30"
+  readJson("data/mvp/germania-paraguay/ranking-events.json")
 );
 const southAfrica = archivedMatch(readJson("final-mycombo.json"));
 

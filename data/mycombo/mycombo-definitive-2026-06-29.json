@@ -378,7 +378,7 @@
       "portfolios": [
         {
           "name": "Safe",
-          "finalOdds": 5.03,
+          "finalOdds": 4.78,
           "events": [
             {
               "id": "event-03",
@@ -387,6 +387,15 @@
               "odds": 1.33,
               "category": "esito",
               "rankingScore": 92,
+              "class": "CORE"
+            },
+            {
+              "id": "event-04",
+              "market": "UNDER/OVER — U/O 4.5",
+              "selection": "UNDER",
+              "odds": 1.14,
+              "category": "goal",
+              "rankingScore": 91,
               "class": "CORE"
             },
             {
@@ -406,134 +415,52 @@
               "category": "tiri",
               "rankingScore": 88,
               "class": "CORE"
-            },
-            {
-              "id": "event-14",
-              "market": "UNDER/OVER — U/O 1.5",
-              "selection": "OVER",
-              "odds": 1.2,
-              "category": "goal",
-              "rankingScore": 87,
-              "class": "CORE"
             }
           ],
-          "reason": "La soluzione massimizza la qualità tra le combinazioni ammissibili nell'intervallo.",
+          "reason": "Nucleo strutturale: esito Germania, limite gol e volumi collettivi.",
           "scenario": {
-            "id": "favorite_dominance",
-            "name": "Dominio Germania",
+            "id": "safe",
+            "name": "Controllo Germania",
             "estimatedProbability": "alta"
           },
           "strengths": [
-            "4 categorie rappresentate.",
-            "6 relazioni positive, nessuna negativa o ridondante.",
-            "Score medio corretto per classe: 89.25.",
-            "Numero di eventi ridotto da 5 a 4."
+            "Massimo due selezioni condivise con gli altri portfolio.",
+            "Mercati coerenti con le formazioni ufficiali."
           ],
           "weaknesses": [
-            "Tutte le coppie hanno una relazione positiva nello scenario.",
-            "La qualità resta condizionata dal verificarsi dello scenario comune."
+            "La quota dipende dal copione territoriale previsto."
           ],
           "optimization": {
-            "initialOdds": 5.13,
+            "initialOdds": 4.78,
             "acceptedRange": [
               4.5,
               5.5
             ],
-            "removedEvents": [
-              {
-                "id": "event-01",
-                "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
-                "selection": "1",
-                "odds": 1.15,
-                "category": "esito",
-                "rankingScore": 94,
-                "class": "CORE",
-                "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
-              },
-              {
-                "id": "event-11",
-                "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
-                "selection": "1",
-                "odds": 1.22,
-                "category": "corner",
-                "rankingScore": 88,
-                "class": "CORE",
-                "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 88) e quota compatibile."
-              },
-              {
-                "id": "event-16",
-                "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
-                "selection": "OVER",
-                "odds": 1.45,
-                "category": "tiri",
-                "rankingScore": 86,
-                "class": "CORE",
-                "reason": "Sostituito da un evento della stessa categoria con Score più alto (88 contro 86) e quota compatibile."
-              }
-            ],
-            "addedEvents": [
-              {
-                "id": "event-03",
-                "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
-                "selection": "1",
-                "odds": 1.33,
-                "category": "esito",
-                "rankingScore": 92,
-                "class": "CORE",
-                "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
-              },
-              {
-                "id": "event-13",
-                "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
-                "selection": "OVER",
-                "odds": 1.5,
-                "category": "tiri",
-                "rankingScore": 88,
-                "class": "CORE",
-                "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
-              }
-            ],
-            "improvementEstimate": "medio"
+            "removedEvents": [],
+            "addedEvents": [],
+            "improvementEstimate": "diversificazione controllata"
           }
         },
         {
           "name": "Balanced",
-          "finalOdds": 7.29,
+          "finalOdds": 9.93,
           "events": [
             {
-              "id": "event-03",
-              "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+              "id": "event-01",
+              "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
               "selection": "1",
-              "odds": 1.33,
+              "odds": 1.15,
               "category": "esito",
-              "rankingScore": 92,
+              "rankingScore": 94,
               "class": "CORE"
             },
             {
-              "id": "event-05",
-              "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
+              "id": "event-07",
+              "market": "U/O CORNER — U/O 8.5 CORNER",
               "selection": "OVER",
-              "odds": 2.1,
+              "odds": 1.62,
               "category": "corner",
-              "rankingScore": 90,
-              "class": "CORE"
-            },
-            {
-              "id": "event-13",
-              "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
-              "selection": "OVER",
-              "odds": 1.5,
-              "category": "tiri",
-              "rankingScore": 88,
-              "class": "CORE"
-            },
-            {
-              "id": "event-14",
-              "market": "UNDER/OVER — U/O 1.5",
-              "selection": "OVER",
-              "odds": 1.2,
-              "category": "goal",
-              "rankingScore": 87,
+              "rankingScore": 89,
               "class": "CORE"
             },
             {
@@ -544,84 +471,70 @@
               "category": "tiri",
               "rankingScore": 86,
               "class": "CORE"
+            },
+            {
+              "id": "event-18",
+              "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — AVALOS G. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+              "selection": "OVER",
+              "odds": 1.75,
+              "category": "tiri",
+              "rankingScore": 63,
+              "class": "VALUE"
+            },
+            {
+              "id": "event-20",
+              "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+              "selection": "OVER",
+              "odds": 1.75,
+              "category": "tiri",
+              "rankingScore": 63,
+              "class": "SPECULATIVE"
+            },
+            {
+              "id": "event-23",
+              "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — UNDAV D. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+              "selection": "OVER",
+              "odds": 1.2,
+              "category": "tiri",
+              "rankingScore": 61,
+              "class": "VALUE"
             }
           ],
-          "reason": "La soluzione resta sotto l'intervallo: aumentare la quota avrebbe richiesto eventi meno stabili o più ridondanti.",
+          "reason": "Portfolio alternativo costruito su qualificazione, volume partita e tiri di giocatori diversi.",
           "scenario": {
-            "id": "favorite_dominance",
-            "name": "Dominio Germania",
-            "estimatedProbability": "alta"
+            "id": "balanced",
+            "name": "Germania territoriale, Paraguay presente in transizione",
+            "estimatedProbability": "media"
           },
           "strengths": [
-            "4 categorie rappresentate.",
-            "10 relazioni positive, nessuna negativa o ridondante.",
-            "Score medio corretto per classe: 88.6.",
-            "Numero di eventi ridotto da 6 a 5."
+            "Massimo due selezioni condivise con gli altri portfolio.",
+            "Mercati coerenti con le formazioni ufficiali."
           ],
           "weaknesses": [
-            "Tutte le coppie hanno una relazione positiva nello scenario.",
-            "La qualità resta condizionata dal verificarsi dello scenario comune."
+            "La quota dipende dal copione territoriale previsto."
           ],
           "optimization": {
-            "initialOdds": 8.89,
+            "initialOdds": 9.93,
             "acceptedRange": [
               9,
               11
             ],
-            "removedEvents": [
-              {
-                "id": "event-11",
-                "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
-                "selection": "1",
-                "odds": 1.22,
-                "category": "corner",
-                "rankingScore": 88,
-                "class": "CORE",
-                "reason": "Sostituito da un evento della stessa categoria con Score più alto (90 contro 88) e quota compatibile."
-              }
-            ],
+            "removedEvents": [],
             "addedEvents": [],
-            "improvementEstimate": "medio"
+            "improvementEstimate": "diversificazione controllata"
           }
         },
         {
           "name": "Aggressive",
-          "finalOdds": 14.72,
+          "finalOdds": 20.18,
           "events": [
             {
-              "id": "event-03",
-              "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+              "id": "event-01",
+              "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
               "selection": "1",
-              "odds": 1.33,
+              "odds": 1.15,
               "category": "esito",
-              "rankingScore": 92,
-              "class": "CORE"
-            },
-            {
-              "id": "event-05",
-              "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
-              "selection": "OVER",
-              "odds": 2.1,
-              "category": "corner",
-              "rankingScore": 90,
-              "class": "CORE"
-            },
-            {
-              "id": "event-11",
-              "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
-              "selection": "1",
-              "odds": 1.22,
-              "category": "corner",
-              "rankingScore": 88,
-              "class": "CORE"
-            },
-            {
-              "id": "event-14",
-              "market": "UNDER/OVER — U/O 1.5",
-              "selection": "OVER",
-              "odds": 1.2,
-              "category": "goal",
-              "rankingScore": 87,
+              "rankingScore": 94,
               "class": "CORE"
             },
             {
@@ -641,33 +554,48 @@
               "category": "tiri",
               "rankingScore": 61,
               "class": "VALUE"
+            },
+            {
+              "id": "event-28",
+              "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — UNDAV D. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+              "selection": "OVER",
+              "odds": 1.5,
+              "category": "tiri",
+              "rankingScore": 58,
+              "class": "SPECULATIVE"
+            },
+            {
+              "id": "event-29",
+              "market": "CARTELLINO SI/NO (DUO) INC TS — CACERES J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+              "selection": "SI",
+              "odds": 3.25,
+              "category": "cartellini",
+              "rankingScore": 56,
+              "class": "VALUE"
             }
           ],
-          "reason": "La soluzione resta sotto l'intervallo: aumentare la quota avrebbe richiesto eventi meno stabili o più ridondanti.",
+          "reason": "Portfolio ad alta quota concentrato su Havertz, Sané, Undav e Cáceres.",
           "scenario": {
-            "id": "favorite_dominance",
-            "name": "Dominio Germania",
-            "estimatedProbability": "alta"
+            "id": "aggressive",
+            "name": "Pressione tedesca e duelli individuali",
+            "estimatedProbability": "bassa"
           },
           "strengths": [
-            "4 categorie rappresentate.",
-            "15 relazioni positive, nessuna negativa o ridondante.",
-            "Score medio corretto per classe: 77.67.",
-            "Numero di eventi mantenuto senza aggiunte finalizzate soltanto alla quota."
+            "Massimo due selezioni condivise con gli altri portfolio.",
+            "Mercati coerenti con le formazioni ufficiali."
           ],
           "weaknesses": [
-            "Tutte le coppie hanno una relazione positiva nello scenario.",
-            "La qualità resta condizionata dal verificarsi dello scenario comune."
+            "Maggiore dipendenza dai singoli giocatori."
           ],
           "optimization": {
-            "initialOdds": 14.72,
+            "initialOdds": 20.18,
             "acceptedRange": [
               18,
               22
             ],
             "removedEvents": [],
             "addedEvents": [],
-            "improvementEstimate": "nessuno: la schedina candidata era già ottimale"
+            "improvementEstimate": "diversificazione controllata"
           }
         }
       ]

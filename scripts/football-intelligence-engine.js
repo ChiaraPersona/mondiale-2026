@@ -1,9 +1,30 @@
 const fs = require("fs");
 const path = require("path");
+const { readEvents, writeEvents } = require("./lib/event-model");
 
 const root = path.resolve(__dirname, "..");
+const eventDirectory = path.join(root, "data", "events");
 const outputDirectory = path.join(root, "data", "intelligence");
 const requestedFile = process.argv[2];
+
+const needsByCategory = Object.freeze({
+  corner: { motivation: true, tactics: true, pressure: true, risks: true },
+  cartellini: { pressure: true, risks: true, tactics: true },
+  tiri: { players: true, tactics: true, form: true },
+  goal: { tactics: true, form: true, motivation: true },
+  esito: { motivation: true, form: true, tactics: true, absences: true },
+  giocatori: { players: true, form: true, tactics: true },
+});
+
+const needFields = Object.freeze([
+  "motivation",
+  "form",
+  "tactics",
+  "pressure",
+  "players",
+  "absences",
+  "risks",
+]);
 
 function decodeHtml(value) {
   return String(value ?? "")
@@ -244,31 +265,54 @@ function escapeRegex(value) {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-function outputFilename(inputFilename) {
-  return inputFilename
-    .replace(/^lettura-/, "")
-    .replace(/\.html$/i, "-intelligence.json");
+function needsFor(category) {
+  return Object.fromEntries(
+    needFields.map(field => [field, Boolean(needsByCategory[category]?.[field])])
+  );
+}
+
+function relevantBreakdown(intelligence, needs) {
+  return Object.fromEntries(
+    needFields
+      .filter(field => needs[field])
+      .map(field => [
+        field,
+        field === "risks"
+          ? {
+              ...(intelligence.risks || {}),
+              probableTurnover: intelligence.absences?.probableTurnover ?? null,
+            }
+          : intelligence[field] ?? null,
+      ])
+  );
 }
 
 const files = requestedFile
-  ? [requestedFile]
-  : fs.readdirSync(root)
-      .filter(filename => /^lettura-.+\.html$/i.test(filename))
+  ? [requestedFile.replace(/^lettura-/, "").replace(/\.html$/i, "-events.json")]
+  : fs.readdirSync(eventDirectory)
+      .filter(filename => filename.toLowerCase().endsWith("-events.json"))
       .sort((a, b) => a.localeCompare(b, "it"));
 
 if (!files.length) {
   throw new Error("Nessuna pagina lettura-*.html trovata.");
 }
 
-fs.mkdirSync(outputDirectory, { recursive: true });
-
 files.forEach(filename => {
-  const sourcePath = path.resolve(root, filename);
-  if (!sourcePath.startsWith(`${root}${path.sep}`) || !fs.existsSync(sourcePath)) {
-    throw new Error(`Pagina non trovata: ${filename}`);
-  }
-  const intelligence = extractIntelligence(filename);
-  const destination = path.join(outputDirectory, outputFilename(filename));
-  fs.writeFileSync(destination, `${JSON.stringify(intelligence, null, 2)}\n`, "utf8");
-  console.log(`${filename} -> data/intelligence/${path.basename(destination)}`);
+  const base = filename.replace(/-events\.json$/i, "");
+  const pageFilename = `lettura-${base}.html`;
+  const sourcePath = path.join(root, pageFilename);
+  if (!fs.existsSync(sourcePath)) throw new Error(`Pagina non trovata: ${pageFilename}`);
+
+  const intelligence = extractIntelligence(pageFilename);
+  const events = readEvents(path.join(eventDirectory, filename)).map(event => {
+    const needs = needsFor(event.category);
+    return {
+      ...event,
+      needs,
+      breakdown: relevantBreakdown(intelligence, needs),
+    };
+  });
+  const destination = path.join(outputDirectory, filename);
+  writeEvents(destination, events);
+  console.log(`${intelligence.match}: ${events.length} eventi -> data/intelligence/${filename}`);
 });

@@ -1,44 +1,6 @@
 (function () {
   "use strict";
 
-  const SOUTH_AFRICA_CANADA = {
-    match: "Sudafrica - Canada",
-    scenario: "Canada favorito, partita da eliminazione diretta, Sudafrica più difensivo, Canada più pericoloso in fase offensiva.",
-    events: [
-      { id: "canada_vince_90", label: "Canada vincente nei 90 minuti", search: ["1X2 ESITO FINALE", "ESITO FINALE 1X2", "2"], probability: 55, maxOdd: 1.8 },
-      { id: "under_2_5", label: "Under 2.5 gol", search: ["U/O 2.5", "UNDER"], probability: 67, maxOdd: 1.8 },
-      { id: "no_goal", label: "No Goal", search: ["GOAL/NOGOAL", "NOGOAL"], probability: 63, maxOdd: 1.8 },
-      { id: "canada_passa", label: "Canada passa il turno", search: ["PASSAGGIO TURNO", "2"], probability: 78, maxOdd: 1.8 },
-      { id: "under_4_5", label: "Under 4.5 gol", search: ["U/O 4.5", "UNDER"], probability: 82, maxOdd: 1.45 },
-      { id: "david_3_tiri", label: "David almeno 3 tiri totali nella partita", search: ["DAVID J.", "ALMENO 3", "TIRI TOT"], probability: 68, maxOdd: 1.85 },
-      { id: "david_1_tiro_porta", label: "David almeno 1 tiro in porta nella partita", search: ["DAVID J.", "ALMENO 1", "TIRI IN PORTA"], probability: 68, maxOdd: 2.2 },
-      { id: "david_2_tiri_totali", label: "David almeno 2 tiri totali nella partita", search: ["DAVID J.", "ALMENO 2", "TIRI TOT"], probability: 68, maxOdd: 1.85 },
-      { id: "buchanan_1_tiro", label: "Buchanan almeno 1 tiro", search: ["BUCHANAN T.", "ALMENO 1", "TIRI"], probability: 64, maxOdd: 2.1 },
-      { id: "makgopa_2_tiri", label: "Makgopa almeno 2 tiri totali nella partita", search: ["MAKGOPA E.", "ALMENO 2", "TIRI TOT"], probability: 58, maxOdd: 1.8 },
-      { id: "sudafrica_cartellini_over", label: "Sudafrica over punti cartellini", search: ["SQUADRA 1", "CARTELLINI", "OVER"], probability: 70, maxOdd: 1.8 },
-      { id: "over_3_5_cartellini", label: "Over 3.5 punti cartellini", search: ["U/O 3.5 PUNTI CARTELLINI", "OVER"], probability: 58, maxOdd: 1.9 },
-      { id: "canada_corner", label: "Canada prima a 2 corner", search: ["PRIMA A 2 CALCI D'ANGOLO", "TEAM 2"], probability: 62, maxOdd: 1.5 },
-      { id: "over_7_5_corner", label: "Over 7.5 corner totali", search: ["U/O 7.5 CORNER", "OVER"], probability: 68, maxOdd: 1.6 },
-    ],
-  };
-
-  const SOUTH_AFRICA_CANADA_META = [
-    ["Esito", "La stima sui 90 minuti assegna al Canada il vantaggio tecnico e offensivo."],
-    ["Gol", "L'Under 2,5 è il pronostico principale indicato dallo studio."],
-    ["Goal/No Goal", "No Goal è la seconda scelta esplicita nella lettura del mercato gol."],
-    ["Passaggio turno", "Qualità, volume offensivo e profondità della rosa favoriscono il Canada nella gara a eliminazione diretta."],
-    ["Gol", "Lo studio prevede una partita prudente e con margini stretti: quattro reti o meno coprono lo scenario centrale."],
-    ["Tiri giocatore", "David è indicato come principale candidato a tre o più conclusioni."],
-    ["Tiri in porta giocatore", "La proiezione assegna a David uno o due tiri nello specchio."],
-    ["Tiri giocatore", "David è il principale terminale canadese e la proiezione dello studio è di 3-5 conclusioni."],
-    ["Tiri giocatore", "Buchanan parte largo ma attacca l'uno contro uno e lo studio gli assegna 1-3 conclusioni."],
-    ["Tiri giocatore", "Makgopa è il riferimento offensivo sudafricano ed è proiettato a 1-3 conclusioni."],
-    ["Cartellini squadra", "Il centrocampo sudafricano è esposto ai falli tattici su David e alle accelerazioni del Canada."],
-    ["Cartellini", "La proiezione disciplinare complessiva dello studio è di 3-5 cartellini."],
-    ["Corner squadra", "Il Canada è proiettato a 5-7 corner grazie al vantaggio territoriale e al lavoro sulle fasce."],
-    ["Corner", "La proiezione totale dello studio è di 8-10 corner."],
-  ];
-
   const fold = (value) => String(value || "")
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
   const slug = (value) => fold(value).replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
@@ -51,6 +13,12 @@
 
   function matchName() {
     return clean(document.querySelector(".reading-versus b")?.textContent || document.title.replace(/^Lettura\s*-\s*/i, ""));
+  }
+
+  function pageSlug() {
+    const fileName = decodeURIComponent(window.location.pathname.split("/").pop() || "");
+    const match = fileName.match(/^lettura-(.+)\.html$/i);
+    return match ? match[1].toLowerCase() : "";
   }
 
   function scenarioText() {
@@ -143,16 +111,6 @@
 
   function generateStudy() {
     const match = matchName();
-    if (fold(match) === "sudafrica - canada") {
-      return {
-        ...SOUTH_AFRICA_CANADA,
-        events: SOUTH_AFRICA_CANADA.events.map((item, index) => ({
-          ...item,
-          category: SOUTH_AFRICA_CANADA_META[index][0],
-          reason: SOUTH_AFRICA_CANADA_META[index][1],
-        })),
-      };
-    }
     const teams = teamContext(match);
     const seen = new Set();
     const events = sourcePicks().map((pick) => parsePick(pick, teams)).filter((item) => {
@@ -195,11 +153,11 @@
     }
     const value = selectionValue(selection);
     const valueTone = Number.isFinite(value) ? value > 8 ? "is-positive" : value >= 0 ? "is-neutral" : "is-negative" : "is-unknown";
-    const label = firstValue(selection, ["label", "name", "descrizione"]);
+    const label = firstValue(selection, ["selection", "label", "name", "descrizione"]);
     const market = firstValue(selection, ["mercato", "market", "marketName"]);
     const info = firstValue(selection, ["info", "marketInfo", "detail"]);
     const outcome = firstValue(selection, ["esito", "outcome", "selection"]);
-    const odd = firstValue(selection, ["quota", "odd", "price"]);
+    const odd = firstValue(selection, ["odds", "quota", "odd", "price"]);
     const probability = firstValue(selection, ["probability", "probabilitaStimata", "estimatedProbability"]);
     const impliedProbability = firstValue(selection, ["impliedProbability", "probabilitaImplicita", "implicitProbability"]);
     const selectionId = firstValue(selection, ["selectionId", "id"]);

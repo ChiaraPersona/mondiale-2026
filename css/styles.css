@@ -309,6 +309,28 @@ header {
   font-size: 14px;
 }
 
+.mycombo-selection-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.mycombo-result-badge {
+  border-radius: 999px;
+  padding: 5px 8px;
+  font-size: 10px;
+  font-weight: 950;
+}
+
+.mycombo-result-badge.is-won { color: #07110d; background: #00d084; }
+.mycombo-result-badge.is-lost { color: #fff; background: #ff4d6d; }
+.mycombo-result-badge.is-pending { color: var(--muted); background: rgba(255, 255, 255, .1); }
+.mycombo-selection.is-won { border-left-color: #00d084; }
+.mycombo-selection.is-lost { border-left-color: #ff4d6d; }
+.mycombo-final-card.is-won { border-color: rgba(0, 208, 132, .55); }
+.mycombo-final-card.is-lost { border-color: rgba(255, 77, 109, .55); }
+
 .mycombo-value-badge {
   flex: 0 0 auto;
   border-radius: 999px;

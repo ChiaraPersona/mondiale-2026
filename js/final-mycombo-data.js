@@ -2,6 +2,27 @@
 window.FINAL_MYCOMBO_DATA = {
   "match": "Sudafrica - Canada",
   "date": "28/06/2026 ore 21.00",
+  "settlement": {
+    "status": "Finale",
+    "score": "Sudafrica 0-1 Canada",
+    "source": "https://sport.sky.it/calcio/mondiali/partite/2026/sedicesimi/sud-africa-canada/risultato-gol",
+    "events": {
+      "under_2_5": { "status": "won", "evidence": "1 gol totale" },
+      "no_goal": { "status": "won", "evidence": "ha segnato solo il Canada" },
+      "over_cartellini_sudafrica": { "status": "lost", "evidence": "nessun cartellino al Sudafrica" },
+      "over_3_5_cartellini": { "status": "lost", "evidence": "2 ammonizioni totali" },
+      "canada_passa": { "status": "won", "evidence": "Canada qualificato agli ottavi" },
+      "makgopa_2_tiri": { "status": "lost", "evidence": "Makgopa e il suo sostituto senza tiri" },
+      "canada_vince_90": { "status": "won", "evidence": "0-1 al termine dei 90 minuti" },
+      "over_7_5_corner": { "status": "lost", "evidence": "6 corner totali" },
+      "david_3_tiri": { "status": "lost", "evidence": "Jonathan David: 2 tiri totali" },
+      "canada_prima_2_corner": { "status": "won", "evidence": "Canada primo a battere 2 corner" },
+      "david_1_tiro_porta": { "status": "won", "evidence": "Jonathan David: 1 tiro in porta" },
+      "under_4_5": { "status": "won", "evidence": "1 gol totale" },
+      "david_2_tiri": { "status": "won", "evidence": "Jonathan David: 2 tiri totali" },
+      "buchanan_1_tiro": { "status": "won", "evidence": "Buchanan: 1 tiro in porta" }
+    }
+  },
   "compatibilityPolicy": "no-prebuilt-combos; exact-event-context; one-market-per-player; unique-marketId",
   "candidates": [
     {

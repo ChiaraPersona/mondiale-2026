@@ -187,6 +187,8 @@
     return Number(firstValue(selection, ["value", "valueStimato", "estimatedValue"]));
   }
 
+  let activeSettlement = {};
+
   function selectionCard(selection) {
     if (!selection || typeof selection !== "object") {
       return `<li class="mycombo-selection"><strong>${escapeHtml(selection || "Selezione non disponibile")}</strong></li>`;
@@ -201,13 +203,21 @@
     const probability = firstValue(selection, ["probability", "probabilitaStimata", "estimatedProbability"]);
     const impliedProbability = firstValue(selection, ["impliedProbability", "probabilitaImplicita", "implicitProbability"]);
     const selectionId = firstValue(selection, ["selectionId", "id"]);
+    const eventId = firstValue(selection, ["eventId"]);
+    const settled = activeSettlement[eventId] || {};
+    const settledLabel = settled.status === "won" ? "PRESA" : settled.status === "lost" ? "ERRATA" : "DA VERIFICARE";
+    const settledTone = settled.status === "won" ? "is-won" : settled.status === "lost" ? "is-lost" : "is-pending";
     return `
-      <li class="mycombo-selection">
+      <li class="mycombo-selection ${settledTone}">
         <div class="mycombo-selection-title">
           <strong>${displayValue(label)}</strong>
-          <span class="mycombo-value-badge ${valueTone}">Value ${Number.isFinite(value) ? escapeHtml(value) : "n.d."}</span>
+          <div class="mycombo-selection-badges">
+            <span class="mycombo-result-badge ${settledTone}">${settledLabel}</span>
+            <span class="mycombo-value-badge ${valueTone}">Value ${Number.isFinite(value) ? escapeHtml(value) : "n.d."}</span>
+          </div>
         </div>
         <dl>
+          <div><dt>Riscontro</dt><dd>${displayValue(settled.evidence)}</dd></div>
           <div><dt>Mercato</dt><dd>${displayValue(market)}</dd></div>
           <div><dt>Info</dt><dd>${displayValue(info)}</dd></div>
           <div><dt>Esito</dt><dd>${displayValue(outcome)}</dd></div>
@@ -239,11 +249,16 @@
     const foundNumber = Number(found);
     const missedTarget = Number.isFinite(foundNumber) && Math.abs(foundNumber - target) > 0.01;
     const selections = Array.isArray(combo.selections) ? combo.selections : [];
+    const settledSelections = selections.map(selection => activeSettlement[selection?.eventId]).filter(Boolean);
+    const comboLost = settledSelections.some(result => result.status === "lost");
+    const comboWon = settledSelections.length === selections.length && settledSelections.every(result => result.status === "won");
+    const comboResult = comboLost ? "PERSA" : comboWon ? "VINTA" : "DA VERIFICARE";
+    const comboTone = comboLost ? "is-lost" : comboWon ? "is-won" : "is-pending";
     return `
-      <article class="mycombo-final-card">
+      <article class="mycombo-final-card ${comboTone}">
         <header>
           <div><span>Quota target ${target}</span><h4>${title}</h4></div>
-          <strong><small>Quota trovata</small>${displayValue(found)}</strong>
+          <strong><small>${comboResult} · Quota trovata</small>${displayValue(found)}</strong>
         </header>
         ${missedTarget ? `<p class="mycombo-target-note">Quota target ${target}, quota trovata ${escapeHtml(found)}</p>` : ""}
         <ol class="mycombo-selections">${selections.map(selectionCard).join("") || '<li class="mycombo-combo-empty">Nessuna selezione presente.</li>'}</ol>
@@ -253,6 +268,7 @@
   function renderFinalCombos(container, payload) {
     const combos = payload?.combos;
     if (!combos || typeof combos !== "object") throw new Error("Formato final-mycombo.json non valido");
+    activeSettlement = payload?.settlement?.events || {};
     container.innerHTML = [
       comboCard("MyCombo Prudente", 5, combos.quota5),
       comboCard("MyCombo Equilibrata", 10, combos.quota10),

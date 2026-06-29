@@ -146,6 +146,24 @@
   }
 
   let activeSettlement = {};
+  const viewerDebug = {
+    slug: null,
+    url: null,
+    requested: false,
+    status: null,
+    parsed: false,
+    rendered: false,
+    error: null,
+  };
+
+  function updateDebug(values) {
+    Object.assign(viewerDebug, values);
+    window.MyComboViewerDebug = { ...viewerDebug };
+    document.documentElement.dataset.mycomboDebug = JSON.stringify(viewerDebug);
+    if (new URLSearchParams(window.location.search).has("debugMyCombo")) {
+      console.info("[MyCombo Viewer]", window.MyComboViewerDebug);
+    }
+  }
 
   function selectionCard(selection) {
     if (!selection || typeof selection !== "object") {
@@ -242,27 +260,78 @@
     }
     activeSettlement = payload?.settlement?.events || {};
     container.innerHTML = payload.portfolios.map(portfolioCard).join("");
+    updateDebug({ rendered: true });
   }
 
   async function loadFinalCombos(container) {
     const currentSlug = pageSlug();
+    const dataUrl = currentSlug
+      ? new URL(`data/mycombo/${encodeURIComponent(currentSlug)}.json`, document.baseURI).href
+      : null;
+    updateDebug({
+      slug: currentSlug || null,
+      url: dataUrl,
+      requested: false,
+      status: null,
+      parsed: false,
+      rendered: false,
+      error: null,
+    });
     if (!currentSlug) {
       container.innerHTML = '<div class="mycombo-node-message"><strong>Dati MyCombo non ancora disponibili.</strong></div>';
+      updateDebug({ error: "Slug della partita non ricavabile dal nome della pagina." });
       return;
     }
     try {
-      const response = await fetch(`data/mycombo/${encodeURIComponent(currentSlug)}.json`, { cache: "no-store" });
+      updateDebug({ requested: true });
+      const response = await fetch(dataUrl, { cache: "no-store" });
+      updateDebug({ status: response.status });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      renderFinalCombos(container, await response.json());
+      const payload = await response.json();
+      updateDebug({ parsed: true });
+      renderFinalCombos(container, payload);
     } catch (error) {
       container.innerHTML = '<div class="mycombo-node-message"><strong>Dati MyCombo non ancora disponibili.</strong></div>';
+      updateDebug({ error: error instanceof Error ? error.message : String(error) });
+      console.error(`[MyCombo Viewer] Impossibile caricare ${dataUrl}:`, error);
     }
+  }
+
+  function createViewer(article) {
+    const existing = document.querySelector("#mycombo-viewer");
+    if (existing) return existing;
+    const viewer = document.createElement("section");
+    viewer.id = "mycombo-viewer";
+    viewer.className = "mycombo-generated";
+    viewer.innerHTML = `
+      <header class="mycombo-generated-head">
+        <div><span>Portfolio ottimizzati</span><h3>MYCOMBO DEFINITIVE</h3></div>
+        <p>Safe, Balanced e Aggressive della partita.</p>
+      </header>
+      <div class="mycombo-final-grid"><p class="mycombo-loading">Caricamento MyCombo...</p></div>`;
+    article.querySelector(".reading-note")?.insertAdjacentElement("beforebegin", viewer) || article.appendChild(viewer);
+    return viewer;
   }
 
   function render() {
     const article = document.querySelector(".reading-article");
-    if (!article || document.querySelector(".mycombo-export")) return;
-    const study = generateStudy();
+    if (!article) {
+      updateDebug({ error: "Contenitore .reading-article non trovato." });
+      console.error("[MyCombo Viewer] Contenitore .reading-article non trovato.");
+      return;
+    }
+
+    const viewer = createViewer(article);
+    loadFinalCombos(viewer.querySelector(".mycombo-final-grid"));
+
+    if (document.querySelector(".mycombo-export")) return;
+    let study;
+    try {
+      study = generateStudy();
+    } catch (error) {
+      console.error("[MyCombo Viewer] Errore nella sezione Studio MyCombo:", error);
+      return;
+    }
     const panel = document.createElement("section");
     panel.className = "mycombo-export";
     panel.innerHTML = `
@@ -280,26 +349,18 @@
       </div>`;
     article.querySelector(".reading-note")?.insertAdjacentElement("beforebegin", panel) || article.appendChild(panel);
     panel.querySelector("button")?.addEventListener("click", () => downloadStudy(study));
-
-    const generated = document.createElement("section");
-    generated.className = "mycombo-generated";
-    generated.innerHTML = `
-      <header class="mycombo-generated-head">
-        <div><span>Portfolio ottimizzati</span><h3>MYCOMBO DEFINITIVE</h3></div>
-        <p>Le combinazioni sono lette dal motore Node, senza elaborazioni nel frontend.</p>
-      </header>
-      <aside class="mycombo-value-explanation">
-        <strong>Come leggere il Value</strong>
-        <p>Il Value confronta la probabilità stimata dallo studio con quella implicita nella quota Sisal: <code>probabilità stimata − probabilità implicita</code>.</p>
-        <p>Per esempio, un Value <b>−31,2</b> nasce da <b>64% − 95,2%</b>: l’evento non è impossibile, ma la quota è poco conveniente rispetto alla stima.</p>
-        <div><span class="is-positive">Verde: oltre +8</span><span class="is-neutral">Giallo: da 0 a +8</span><span class="is-negative">Rosso: sotto 0</span></div>
-      </aside>
-      <div class="mycombo-final-grid"><p class="mycombo-loading">Caricamento MyCombo…</p></div>`;
-    panel.insertAdjacentElement("afterend", generated);
-    loadFinalCombos(generated.querySelector(".mycombo-final-grid"));
   }
 
-  window.MyComboExport = { generateStudy, exportPayload, downloadStudy, render, renderFinalCombos };
+  window.MyComboExport = {
+    generateStudy,
+    exportPayload,
+    downloadStudy,
+    render,
+    renderFinalCombos,
+    loadFinalCombos,
+    pageSlug,
+    viewerDebug,
+  };
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", render);
   else render();
 }());

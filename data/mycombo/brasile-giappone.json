@@ -2,7 +2,38 @@
   "slug": "brasile-giappone",
   "match": "Brasile - Giappone",
   "date": "29/06/2026 ore 19:00",
-  "status": "prepared",
+  "status": "completed",
+  "settlement": {
+    "status": "Finale",
+    "score": "Brasile 2-1 Giappone",
+    "source": "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/giappone-ULXPdOUj/?mid=f7ENGzPc",
+    "events": {
+      "event-01": {
+        "status": "won",
+        "evidence": "Brasile qualificato agli ottavi"
+      },
+      "event-05": {
+        "status": "won",
+        "evidence": "Brasile: 6 corner"
+      },
+      "event-11": {
+        "status": "won",
+        "evidence": "Brasile: 19 tiri totali"
+      },
+      "event-12": {
+        "status": "won",
+        "evidence": "Brasile: 19 tiri totali"
+      },
+      "event-14": {
+        "status": "won",
+        "evidence": "Entrambe le squadre hanno segnato: 2-1"
+      },
+      "event-15": {
+        "status": "won",
+        "evidence": "Brasile: 7 tiri in porta"
+      }
+    }
+  },
   "portfolios": [
     {
       "name": "Safe",

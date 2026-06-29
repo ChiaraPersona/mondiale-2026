@@ -1,0 +1,725 @@
+{
+  "match": "Germania - Paraguay",
+  "events": [
+    {
+      "mercato": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+      "selezione": "1",
+      "quota": 1.15,
+      "categoria": "esito",
+      "motivo": "Germania qualificata, in linea con il verdetto dell'analisi.",
+      "puntiDiForza": [
+        "Il divario tecnico, territoriale e produttivo è nettamente favorevole alla Germania."
+      ],
+      "possibiliCriticita": [
+        "Se il Paraguay mantiene lo 0-0 a lungo, pressione e nervosismo possono crescere."
+      ],
+      "score": 94,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 25,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 12,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+      "selezione": "1X",
+      "quota": 1.05,
+      "categoria": "esito",
+      "motivo": "Copertura prudente sulla favorita tedesca.",
+      "puntiDiForza": [
+        "Il divario tecnico, territoriale e produttivo è nettamente favorevole alla Germania."
+      ],
+      "possibiliCriticita": [
+        "Se il Paraguay mantiene lo 0-0 a lungo, pressione e nervosismo possono crescere."
+      ],
+      "score": 93,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 25,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 12,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+      "selezione": "1",
+      "quota": 1.33,
+      "categoria": "esito",
+      "motivo": "Germania vincente, esito coerente con il divario indicato.",
+      "puntiDiForza": [
+        "Il divario tecnico, territoriale e produttivo è nettamente favorevole alla Germania."
+      ],
+      "possibiliCriticita": [
+        "Se il Paraguay mantiene lo 0-0 a lungo, pressione e nervosismo possono crescere."
+      ],
+      "score": 92,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 12,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
+      "selezione": "OVER",
+      "quota": 2.1,
+      "categoria": "corner",
+      "motivo": "La linea 6,5 è immediatamente sotto la proiezione tedesca.",
+      "puntiDiForza": [
+        "Proiezione Germania 7-10 corner e Paraguay 1-3."
+      ],
+      "possibiliCriticita": [
+        "Un vantaggio tedesco molto precoce può ridurre la pressione territoriale nel finale."
+      ],
+      "score": 90,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 2.5",
+      "selezione": "OVER",
+      "quota": 1.65,
+      "categoria": "goal",
+      "motivo": "Il 3-0 centrale sostiene l'Over 2,5.",
+      "puntiDiForza": [
+        "Germania proiettata a produrre quasi tutto il punteggio; 3-0 e 2-0 sono gli scenari principali."
+      ],
+      "possibiliCriticita": [
+        "Una transizione di Enciso o Almirón può compromettere i mercati No Goal."
+      ],
+      "score": 89,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER — U/O 8.5 CORNER",
+      "selezione": "OVER",
+      "quota": 1.62,
+      "categoria": "corner",
+      "motivo": "La proiezione totale 8-12 sostiene l'Over 8,5.",
+      "puntiDiForza": [
+        "Proiezione Germania 7-10 corner e Paraguay 1-3."
+      ],
+      "possibiliCriticita": [
+        "Un vantaggio tedesco molto precoce può ridurre la pressione territoriale nel finale."
+      ],
+      "score": 89,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER — U/O 11.5 CORNER",
+      "selezione": "UNDER",
+      "quota": 1.22,
+      "categoria": "corner",
+      "motivo": "Il limite superiore della proiezione totale è 12.",
+      "puntiDiForza": [
+        "Proiezione Germania 7-10 corner e Paraguay 1-3."
+      ],
+      "possibiliCriticita": [
+        "Un vantaggio tedesco molto precoce può ridurre la pressione territoriale nel finale."
+      ],
+      "score": 89,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
+      "selezione": "OVER",
+      "quota": 1.6,
+      "categoria": "corner",
+      "motivo": "Germania proiettata a 7-10 corner.",
+      "puntiDiForza": [
+        "Proiezione Germania 7-10 corner e Paraguay 1-3."
+      ],
+      "possibiliCriticita": [
+        "Un vantaggio tedesco molto precoce può ridurre la pressione territoriale nel finale."
+      ],
+      "score": 88,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2",
+      "selezione": "UNDER",
+      "quota": 1.42,
+      "categoria": "corner",
+      "motivo": "Paraguay proiettato a 1-3 corner.",
+      "puntiDiForza": [
+        "Proiezione Germania 7-10 corner e Paraguay 1-3."
+      ],
+      "possibiliCriticita": [
+        "Un vantaggio tedesco molto precoce può ridurre la pressione territoriale nel finale."
+      ],
+      "score": 88,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
+      "selezione": "1",
+      "quota": 1.22,
+      "categoria": "corner",
+      "motivo": "Il dominio territoriale favorisce la Germania nel confronto corner.",
+      "puntiDiForza": [
+        "Proiezione Germania 7-10 corner e Paraguay 1-3."
+      ],
+      "possibiliCriticita": [
+        "Un vantaggio tedesco molto precoce può ridurre la pressione territoriale nel finale."
+      ],
+      "score": 88,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
+      "selezione": "OVER",
+      "quota": 1.6,
+      "categoria": "tiri",
+      "motivo": "Linea interna alla proiezione tedesca, con rischio medio.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 88,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 20,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
+      "selezione": "OVER",
+      "quota": 1.5,
+      "categoria": "tiri",
+      "motivo": "La proiezione tedesca è 6-9 tiri nello specchio.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 88,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 20,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 1.5",
+      "selezione": "OVER",
+      "quota": 1.2,
+      "categoria": "goal",
+      "motivo": "La Germania è ritenuta in grado di segnare almeno due reti.",
+      "puntiDiForza": [
+        "Germania proiettata a produrre quasi tutto il punteggio; 3-0 e 2-0 sono gli scenari principali."
+      ],
+      "possibiliCriticita": [
+        "Una transizione di Enciso o Almirón può compromettere i mercati No Goal."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "GOAL/NOGOAL — GOAL/NO GOAL",
+      "selezione": "NOGOAL",
+      "quota": 1.75,
+      "categoria": "goal",
+      "motivo": "No Goal è una delle scelte principali dell'analisi.",
+      "puntiDiForza": [
+        "Germania proiettata a produrre quasi tutto il punteggio; 3-0 e 2-0 sono gli scenari principali."
+      ],
+      "possibiliCriticita": [
+        "Una transizione di Enciso o Almirón può compromettere i mercati No Goal."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 4.5",
+      "selezione": "UNDER",
+      "quota": 1.14,
+      "categoria": "goal",
+      "motivo": "Protezione contro una goleada oltre il range centrale 2-0/3-0/3-1.",
+      "puntiDiForza": [
+        "Germania proiettata a produrre quasi tutto il punteggio; 3-0 e 2-0 sono gli scenari principali."
+      ],
+      "possibiliCriticita": [
+        "Una transizione di Enciso o Almirón può compromettere i mercati No Goal."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+      "selezione": "OVER",
+      "quota": 1.45,
+      "categoria": "tiri",
+      "motivo": "Germania proiettata a 17-22 tiri.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 86,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 20,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
+      "selezione": "TEAM 1",
+      "quota": 1.25,
+      "categoria": "corner",
+      "motivo": "Pressione tedesca attesa fin dai primi minuti.",
+      "puntiDiForza": [
+        "Proiezione Germania 7-10 corner e Paraguay 1-3."
+      ],
+      "possibiliCriticita": [
+        "Un vantaggio tedesco molto precoce può ridurre la pressione territoriale nel finale."
+      ],
+      "score": 82,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 18,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.75,
+      "categoria": "tiri",
+      "motivo": "Linea centrale della proiezione 3-5.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 63,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.75,
+      "categoria": "tiri",
+      "motivo": "Soglia alta ma ancora compresa nella proiezione individuale.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 63,
+      "classe": "SPECULATIVE",
+      "motivoScore": "SPECULATIVE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — HAVERTZ K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 2,
+      "categoria": "tiri",
+      "motivo": "Havertz è il terminale principale dell'attacco tedesco.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 62,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 25,
+        "stabilitaMercato": 12,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ENCISO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.5,
+      "categoria": "tiri",
+      "motivo": "Enciso è uno dei soli profili paraguayani indicati per 2+ tiri.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 61,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.25,
+      "categoria": "tiri",
+      "motivo": "Havertz è proiettato a 3-5 tiri.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 61,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.47,
+      "categoria": "tiri",
+      "motivo": "Musiala è stimato nella fascia 2-4 tiri.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 61,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.25,
+      "categoria": "tiri",
+      "motivo": "Sané è stimato nella fascia 2-4 conclusioni.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 61,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.8,
+      "categoria": "tiri",
+      "motivo": "Linea centrale per un esterno chiamato ad attaccare il lato debole.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 61,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.25,
+      "categoria": "tiri",
+      "motivo": "Wirtz è proiettato a 2-3 tiri.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 61,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "CARTELLINO SI/NO (DUO) INC TS — CUBAS A. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selezione": "SI",
+      "quota": 3,
+      "categoria": "cartellini",
+      "motivo": "Cubas è la prima scelta ammoniti dell'analisi.",
+      "puntiDiForza": [
+        "Il Paraguay è esposto a molti duelli difensivi; Cubas, Cáceres e Alonso sono i nomi principali."
+      ],
+      "possibiliCriticita": [
+        "L'arbitro ha profilo medio e una partita poco combattuta può limitare le sanzioni."
+      ],
+      "score": 60,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 25,
+        "stabilitaMercato": 10,
+        "indipendenzaSingoloGiocatore": 3,
+        "stabilitaMinutaggio": 7,
+        "stabilitaAndamentoPartita": 7,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 2,
+      "categoria": "tiri",
+      "motivo": "Variante più aggressiva ma compatibile con il ruolo fra le linee.",
+      "puntiDiForza": [
+        "Germania proiettata a 17-22 tiri; Havertz, Musiala, Sané e Wirtz sono centrali, mentre Enciso è il principale sbocco paraguayano."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni offensive e punteggio già acquisito possono abbassare il minutaggio."
+      ],
+      "score": 58,
+      "classe": "SPECULATIVE",
+      "motivoScore": "SPECULATIVE: supporto sufficiente dell'analisi; penalizzato da linea più aggressiva rispetto allo scenario centrale e mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 18,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "CARTELLINO SI/NO (DUO) INC TS — CACERES J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selezione": "SI",
+      "quota": 3.25,
+      "categoria": "cartellini",
+      "motivo": "Cáceres è esposto ai duelli laterali con gli esterni tedeschi.",
+      "puntiDiForza": [
+        "Il Paraguay è esposto a molti duelli difensivi; Cubas, Cáceres e Alonso sono i nomi principali."
+      ],
+      "possibiliCriticita": [
+        "L'arbitro ha profilo medio e una partita poco combattuta può limitare le sanzioni."
+      ],
+      "score": 56,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 10,
+        "indipendenzaSingoloGiocatore": 3,
+        "stabilitaMinutaggio": 7,
+        "stabilitaAndamentoPartita": 7,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "CARTELLINO SI/NO (DUO) INC TS — ALONSO J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selezione": "SI",
+      "quota": 4,
+      "categoria": "cartellini",
+      "motivo": "Alonso deve coprire Havertz e gli inserimenti centrali.",
+      "puntiDiForza": [
+        "Il Paraguay è esposto a molti duelli difensivi; Cubas, Cáceres e Alonso sono i nomi principali."
+      ],
+      "possibiliCriticita": [
+        "L'arbitro ha profilo medio e una partita poco combattuta può limitare le sanzioni."
+      ],
+      "score": 53,
+      "classe": "SPECULATIVE",
+      "motivoScore": "SPECULATIVE: supporto sufficiente dell'analisi; penalizzato da linea più aggressiva rispetto allo scenario centrale e mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 18,
+        "stabilitaMercato": 10,
+        "indipendenzaSingoloGiocatore": 3,
+        "stabilitaMinutaggio": 7,
+        "stabilitaAndamentoPartita": 7,
+        "semplicitaMercato": 8
+      }
+    }
+  ]
+}

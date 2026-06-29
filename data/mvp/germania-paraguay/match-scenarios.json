@@ -1,0 +1,342 @@
+{
+  "match": "Germania - Paraguay",
+  "scenarios": [
+    {
+      "id": "favorite_dominance",
+      "name": "Dominio Germania",
+      "description": "Germania controlla territorio e volume offensivo, producendo più tiri e corner.",
+      "estimatedProbability": "alta",
+      "compatibleEvents": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1"
+        },
+        {
+          "id": "event-02",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X"
+        },
+        {
+          "id": "event-03",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1"
+        },
+        {
+          "id": "event-04",
+          "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-05",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-08",
+          "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-10",
+          "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
+          "selection": "1"
+        },
+        {
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-12",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-13",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-16",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-17",
+          "market": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
+          "selection": "TEAM 1"
+        },
+        {
+          "id": "event-18",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-20",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — HAVERTZ K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-22",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-23",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-24",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-25",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-26",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-28",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        }
+      ],
+      "incompatibleEvents": [],
+      "rootCauses": [
+        "Motivazione Germania: very_high",
+        "Forma Germania: excellent",
+        "Germania deve vincere",
+        "Partita a eliminazione diretta"
+      ]
+    },
+    {
+      "id": "controlled_favorite_win",
+      "name": "Vittoria controllata Germania",
+      "description": "Germania passa in vantaggio e gestisce la gara senza trasformarla in una partita aperta.",
+      "estimatedProbability": "media",
+      "compatibleEvents": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1"
+        },
+        {
+          "id": "event-02",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X"
+        },
+        {
+          "id": "event-03",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1"
+        },
+        {
+          "id": "event-14",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL"
+        },
+        {
+          "id": "event-15",
+          "market": "UNDER/OVER — U/O 4.5",
+          "selection": "UNDER"
+        }
+      ],
+      "incompatibleEvents": [
+        {
+          "id": "event-05",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER"
+        }
+      ],
+      "rootCauses": [
+        "Motivazione Germania: very_high",
+        "Forma Germania: excellent",
+        "Germania deve vincere",
+        "Partita a eliminazione diretta",
+        "Gestione del vantaggio"
+      ]
+    },
+    {
+      "id": "balanced_resistance",
+      "name": "Resistenza Paraguay",
+      "description": "Paraguay mantiene equilibrio, limita la favorita e conserva possibilità nelle transizioni.",
+      "estimatedProbability": "bassa",
+      "compatibleEvents": [
+        {
+          "id": "event-14",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL"
+        },
+        {
+          "id": "event-15",
+          "market": "UNDER/OVER — U/O 4.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-21",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ENCISO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        }
+      ],
+      "incompatibleEvents": [
+        {
+          "id": "event-04",
+          "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-16",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+          "selection": "OVER"
+        }
+      ],
+      "rootCauses": [
+        "Motivazione Paraguay: non disponibile",
+        "Forma Paraguay: medium",
+        "Differenza di 8 punti per la Germania. Rischio sorpresa medio-basso: esiste se il risultato resta bloccato, ma il divario tecnico rimane ampio."
+      ]
+    },
+    {
+      "id": "open_game",
+      "name": "Partita aperta",
+      "description": "Il ritmo cresce, aumentano conclusioni, corner e possibilità di gol da entrambe le parti.",
+      "estimatedProbability": "media",
+      "compatibleEvents": [
+        {
+          "id": "event-04",
+          "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-05",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-06",
+          "market": "U/O CORNER — U/O 8.5 CORNER",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-08",
+          "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-10",
+          "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
+          "selection": "1"
+        },
+        {
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-12",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-13",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-16",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-17",
+          "market": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
+          "selection": "TEAM 1"
+        },
+        {
+          "id": "event-18",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-20",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — HAVERTZ K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-21",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ENCISO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-22",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-23",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-24",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-25",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-26",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-28",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        }
+      ],
+      "incompatibleEvents": [
+        {
+          "id": "event-14",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL"
+        },
+        {
+          "id": "event-15",
+          "market": "UNDER/OVER — U/O 4.5",
+          "selection": "UNDER"
+        }
+      ],
+      "rootCauses": [
+        "Intensità offensiva",
+        "Transizioni",
+        "Partita sensibile al primo gol"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5214 @@
+{
+  "match": "Germania - Paraguay",
+  "directed": false,
+  "scenarioOrder": [
+    {
+      "id": "favorite_dominance",
+      "name": "Dominio Germania",
+      "estimatedProbability": "alta"
+    },
+    {
+      "id": "controlled_favorite_win",
+      "name": "Vittoria controllata Germania",
+      "estimatedProbability": "media"
+    },
+    {
+      "id": "balanced_resistance",
+      "name": "Resistenza Paraguay",
+      "estimatedProbability": "bassa"
+    },
+    {
+      "id": "open_game",
+      "name": "Partita aperta",
+      "estimatedProbability": "media"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "event-01",
+      "label": "PASSAGGIO TURNO — PASSAGGIO TURNO | 1",
+      "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+      "selection": "1",
+      "category": "esito",
+      "rankingScore": 94,
+      "class": "CORE",
+      "odds": 1.15,
+      "scenarioVector": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-02",
+      "label": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI | 1X",
+      "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+      "selection": "1X",
+      "category": "esito",
+      "rankingScore": 93,
+      "class": "CORE",
+      "odds": 1.05,
+      "scenarioVector": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-03",
+      "label": "1X2 ESITO FINALE — ESITO FINALE 1X2 | 1",
+      "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+      "selection": "1",
+      "category": "esito",
+      "rankingScore": 92,
+      "class": "CORE",
+      "odds": 1.33,
+      "scenarioVector": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-04",
+      "label": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1 | OVER",
+      "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
+      "selection": "OVER",
+      "category": "corner",
+      "rankingScore": 90,
+      "class": "CORE",
+      "odds": 2.1,
+      "scenarioVector": [
+        1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "id": "event-05",
+      "label": "UNDER/OVER — U/O 2.5 | OVER",
+      "market": "UNDER/OVER — U/O 2.5",
+      "selection": "OVER",
+      "category": "goal",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.65,
+      "scenarioVector": [
+        1,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-06",
+      "label": "U/O CORNER — U/O 8.5 CORNER | OVER",
+      "market": "U/O CORNER — U/O 8.5 CORNER",
+      "selection": "OVER",
+      "category": "corner",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.62,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-07",
+      "label": "U/O CORNER — U/O 11.5 CORNER | UNDER",
+      "market": "U/O CORNER — U/O 11.5 CORNER",
+      "selection": "UNDER",
+      "category": "corner",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.22,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-08",
+      "label": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1 | OVER",
+      "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
+      "selection": "OVER",
+      "category": "corner",
+      "rankingScore": 88,
+      "class": "CORE",
+      "odds": 1.6,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-09",
+      "label": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2 | UNDER",
+      "market": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2",
+      "selection": "UNDER",
+      "category": "corner",
+      "rankingScore": 88,
+      "class": "CORE",
+      "odds": 1.42,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-10",
+      "label": "1X2 CORNER — CALCI ANGOLO 1X2 T.R. | 1",
+      "market": "1X2 CORNER — CALCI ANGOLO 1X2 T.R.",
+      "selection": "1",
+      "category": "corner",
+      "rankingScore": 88,
+      "class": "CORE",
+      "odds": 1.22,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-11",
+      "label": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI | OVER",
+      "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 88,
+      "class": "CORE",
+      "odds": 1.6,
+      "scenarioVector": [
+        1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "id": "event-12",
+      "label": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA | OVER",
+      "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 88,
+      "class": "CORE",
+      "odds": 1.5,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-13",
+      "label": "UNDER/OVER — U/O 1.5 | OVER",
+      "market": "UNDER/OVER — U/O 1.5",
+      "selection": "OVER",
+      "category": "goal",
+      "rankingScore": 87,
+      "class": "CORE",
+      "odds": 1.2,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-14",
+      "label": "GOAL/NOGOAL — GOAL/NO GOAL | NOGOAL",
+      "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+      "selection": "NOGOAL",
+      "category": "goal",
+      "rankingScore": 87,
+      "class": "CORE",
+      "odds": 1.75,
+      "scenarioVector": [
+        0,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "id": "event-15",
+      "label": "UNDER/OVER — U/O 4.5 | UNDER",
+      "market": "UNDER/OVER — U/O 4.5",
+      "selection": "UNDER",
+      "category": "goal",
+      "rankingScore": 87,
+      "class": "CORE",
+      "odds": 1.14,
+      "scenarioVector": [
+        0,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "id": "event-16",
+      "label": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI | OVER",
+      "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 86,
+      "class": "CORE",
+      "odds": 1.45,
+      "scenarioVector": [
+        1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "id": "event-17",
+      "label": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO | TEAM 1",
+      "market": "PRIMA A X CORNER — PRIMA A 2 CALCI D'ANGOLO",
+      "selection": "TEAM 1",
+      "category": "corner",
+      "rankingScore": 82,
+      "class": "CORE",
+      "odds": 1.25,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-18",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 63,
+      "class": "VALUE",
+      "odds": 1.75,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-19",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 63,
+      "class": "SPECULATIVE",
+      "odds": 1.75,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-20",
+      "label": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — HAVERTZ K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — HAVERTZ K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 62,
+      "class": "VALUE",
+      "odds": 2,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-21",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ENCISO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ENCISO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 1.5,
+      "scenarioVector": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "event-22",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — HAVERTZ K. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 1.25,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-23",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 1.47,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-24",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 1.25,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-25",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SANE L. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 1.8,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-26",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WIRTZ F. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 1.25,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-27",
+      "label": "CARTELLINO SI/NO (DUO) INC TS — CUBAS A. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI | SI",
+      "market": "CARTELLINO SI/NO (DUO) INC TS — CUBAS A. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "category": "cartellini",
+      "rankingScore": 60,
+      "class": "VALUE",
+      "odds": 3,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-28",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MUSIALA J. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 58,
+      "class": "SPECULATIVE",
+      "odds": 2,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-29",
+      "label": "CARTELLINO SI/NO (DUO) INC TS — CACERES J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI | SI",
+      "market": "CARTELLINO SI/NO (DUO) INC TS — CACERES J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "category": "cartellini",
+      "rankingScore": 56,
+      "class": "VALUE",
+      "odds": 3.25,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-30",
+      "label": "CARTELLINO SI/NO (DUO) INC TS — ALONSO J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI | SI",
+      "market": "CARTELLINO SI/NO (DUO) INC TS — ALONSO J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "category": "cartellini",
+      "rankingScore": 53,
+      "class": "SPECULATIVE",
+      "odds": 4,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "event-01",
+      "target": "event-02",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Vittoria controllata Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Vittoria controllata Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-03",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Vittoria controllata Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Vittoria controllata Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-04",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-05",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-06",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-07",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-08",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-09",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-10",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-11",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-12",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-13",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-14",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Vittoria controllata Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-15",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Vittoria controllata Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-16",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-17",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-18",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-19",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-20",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-22",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-23",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-24",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-25",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-26",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-28",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-03",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Vittoria controllata Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Vittoria controllata Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-04",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-05",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-06",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-07",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-08",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-09",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-10",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-11",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-12",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-13",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-14",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Vittoria controllata Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-15",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Vittoria controllata Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-16",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-17",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-18",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-19",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-20",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-22",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-23",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-24",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-25",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-26",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-28",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-04",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-05",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-06",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-07",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-08",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-09",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-10",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-11",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-12",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-13",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-14",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Vittoria controllata Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-15",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Vittoria controllata Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-16",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-17",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-18",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-19",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-20",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-22",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-23",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-24",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-25",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-26",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-28",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania"
+      ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-05",
+      "correlationScore": 0.67,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-06",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-07",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-08",
+      "correlationScore": 0.9,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Germania, Partita aperta.",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-09",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-10",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-11",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-12",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-13",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-14",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Resistenza Paraguay, Partita aperta.",
+      "footballCause": "Motivazione Paraguay: non disponibile; Forma Paraguay: medium; Differenza di 8 punti per la Germania. Rischio sorpresa medio-basso: esiste se il risultato resta bloccato, ma il divario tecnico rimane ampio.; Intensità offensiva",
+      "scenarios": [
+        "Resistenza Paraguay",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-15",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Resistenza Paraguay, Partita aperta.",
+      "footballCause": "Motivazione Paraguay: non disponibile; Forma Paraguay: medium; Differenza di 8 punti per la Germania. Rischio sorpresa medio-basso: esiste se il risultato resta bloccato, ma il divario tecnico rimane ampio.; Intensità offensiva",
+      "scenarios": [
+        "Resistenza Paraguay",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-16",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-17",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-18",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-19",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-20",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-22",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-23",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-24",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-25",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-26",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-28",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-06",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-07",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-08",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-09",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-10",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-11",
+      "correlationScore": 0.67,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-12",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-13",
+      "correlationScore": 0.9,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Germania, Partita aperta.",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-14",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Vittoria controllata Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Vittoria controllata Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-15",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Vittoria controllata Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Vittoria controllata Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-16",
+      "correlationScore": 0.67,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-17",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-18",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-19",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-20",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-21",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-22",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-23",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-24",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-25",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-26",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-28",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-07",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-08",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-09",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-10",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-11",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-12",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-13",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-14",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-15",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-16",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-17",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-18",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-19",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-20",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-21",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-22",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-23",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-24",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-25",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-26",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-28",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-08",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-09",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-10",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-11",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-12",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-13",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-14",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-15",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-17",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-19",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-22",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-23",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-24",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-25",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-09",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-10",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-11",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-12",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-13",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-14",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-15",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-16",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-17",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-18",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-19",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-20",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-21",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-22",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-10",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-11",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-12",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-13",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-14",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-15",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-17",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-19",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-22",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-23",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-24",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-25",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-10",
+      "target": "event-11",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-12",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-13",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-14",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-15",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-16",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-17",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-18",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-19",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-20",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-21",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-22",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-10",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-10",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-11",
+      "target": "event-12",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-13",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-14",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Resistenza Paraguay, Partita aperta.",
+      "footballCause": "Motivazione Paraguay: non disponibile; Forma Paraguay: medium; Differenza di 8 punti per la Germania. Rischio sorpresa medio-basso: esiste se il risultato resta bloccato, ma il divario tecnico rimane ampio.; Intensità offensiva",
+      "scenarios": [
+        "Resistenza Paraguay",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-15",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Resistenza Paraguay, Partita aperta.",
+      "footballCause": "Motivazione Paraguay: non disponibile; Forma Paraguay: medium; Differenza di 8 punti per la Germania. Rischio sorpresa medio-basso: esiste se il risultato resta bloccato, ma il divario tecnico rimane ampio.; Intensità offensiva",
+      "scenarios": [
+        "Resistenza Paraguay",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-16",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Germania, Partita aperta.",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta",
+        "Resistenza Paraguay"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-17",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-18",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-19",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-20",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-11",
+      "target": "event-22",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-23",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-24",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-25",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-26",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-11",
+      "target": "event-28",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-11",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-12",
+      "target": "event-13",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-14",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-15",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-16",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-17",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-18",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-19",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-20",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-21",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-22",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-12",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-12",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-13",
+      "target": "event-14",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-15",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-16",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-17",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-18",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-19",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-20",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-21",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-22",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-13",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-13",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-14",
+      "target": "event-15",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Germania, Resistenza Paraguay.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Vittoria controllata Germania",
+        "Resistenza Paraguay"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-16",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Resistenza Paraguay, Partita aperta.",
+      "footballCause": "Motivazione Paraguay: non disponibile; Forma Paraguay: medium; Differenza di 8 punti per la Germania. Rischio sorpresa medio-basso: esiste se il risultato resta bloccato, ma il divario tecnico rimane ampio.; Intensità offensiva",
+      "scenarios": [
+        "Resistenza Paraguay",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-17",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-18",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-19",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-20",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-14",
+      "target": "event-22",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-23",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-24",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-25",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-26",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-14",
+      "target": "event-28",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-14",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-15",
+      "target": "event-16",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Resistenza Paraguay, Partita aperta.",
+      "footballCause": "Motivazione Paraguay: non disponibile; Forma Paraguay: medium; Differenza di 8 punti per la Germania. Rischio sorpresa medio-basso: esiste se il risultato resta bloccato, ma il divario tecnico rimane ampio.; Intensità offensiva",
+      "scenarios": [
+        "Resistenza Paraguay",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-17",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-18",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-19",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-20",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-15",
+      "target": "event-22",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-23",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-24",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-25",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-26",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-15",
+      "target": "event-28",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-15",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-17",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-16",
+      "target": "event-18",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-16",
+      "target": "event-19",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-16",
+      "target": "event-20",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-16",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-22",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-16",
+      "target": "event-23",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-16",
+      "target": "event-24",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-16",
+      "target": "event-25",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-16",
+      "target": "event-26",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-16",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-28",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-16",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-17",
+      "target": "event-18",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-19",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-20",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-21",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-22",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-17",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-17",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-18",
+      "target": "event-19",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-20",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-21",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-22",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Germania, Partita aperta.",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-18",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-18",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-19",
+      "target": "event-20",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-21",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-22",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Germania, Partita aperta.",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-19",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-19",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-20",
+      "target": "event-21",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-22",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-20",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-20",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-21",
+      "target": "event-22",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-23",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-24",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-25",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-26",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-21",
+      "target": "event-28",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-21",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-22",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-22",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-22",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-23",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-23",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Germania, Partita aperta.",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-23",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-24",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Germania, Partita aperta.",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-24",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-24",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-24",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-24",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-24",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-25",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-25",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-25",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-25",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-25",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-26",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-26",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Germania, Partita aperta.",
+      "footballCause": "Motivazione Germania: very_high; Forma Germania: excellent; Germania deve vincere; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Germania",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-26",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-26",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-27",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-27",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-27",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-28",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-28",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-29",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    }
+  ],
+  "redundantGroups": [
+    {
+      "id": "redundant-1",
+      "nodes": [
+        "event-04",
+        "event-08"
+      ]
+    },
+    {
+      "id": "redundant-2",
+      "nodes": [
+        "event-05",
+        "event-13"
+      ]
+    },
+    {
+      "id": "redundant-3",
+      "nodes": [
+        "event-11",
+        "event-16"
+      ]
+    },
+    {
+      "id": "redundant-4",
+      "nodes": [
+        "event-18",
+        "event-22"
+      ]
+    },
+    {
+      "id": "redundant-5",
+      "nodes": [
+        "event-19",
+        "event-26"
+      ]
+    },
+    {
+      "id": "redundant-6",
+      "nodes": [
+        "event-23",
+        "event-28"
+      ]
+    },
+    {
+      "id": "redundant-7",
+      "nodes": [
+        "event-24",
+        "event-25"
+      ]
+    }
+  ]
+}

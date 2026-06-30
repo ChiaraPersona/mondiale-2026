@@ -9,7 +9,7 @@ const readingPredictions = {
   "Germania|Paraguay": { home: 3, away: 0, source: "letture/lettura-germania-paraguay.html" },
   "Olanda|Marocco": { home: 1, away: 1, winner: "Olanda", source: "letture/lettura-olanda-marocco.html" },
   "Costa d'Avorio|Norvegia": { home: 1, away: 2, source: "letture/lettura-costa-avorio-norvegia.html" },
-  "Francia|Svezia": { home: 3, away: 0, source: "letture/lettura-francia-svezia.html" },
+  "Francia|Svezia": { home: 3, away: 1, source: "letture/lettura-francia-svezia.html" },
   "Messico|Ecuador": { home: 1, away: 0, source: "letture/lettura-messico-ecuador.html" },
   "Inghilterra|RD Congo": { home: 3, away: 0, source: "letture/lettura-inghilterra-rd-congo.html" },
   "Belgio|Senegal": { home: 1, away: 0, source: "letture/lettura-belgio-senegal.html" },

@@ -1,0 +1,121 @@
+{
+  "analyzedMatches": 2,
+  "profiles": {
+    "Safe": {
+      "generated": 2,
+      "won": 1,
+      "lost": 1,
+      "successRate": 50
+    },
+    "Balanced": {
+      "generated": 2,
+      "won": 1,
+      "lost": 1,
+      "successRate": 50
+    },
+    "Aggressive": {
+      "generated": 2,
+      "won": 1,
+      "lost": 1,
+      "successRate": 50
+    }
+  },
+  "markets": {
+    "goal": {
+      "events": 4,
+      "successes": 4,
+      "errors": 0,
+      "successRate": 100
+    },
+    "tiri": {
+      "events": 7,
+      "successes": 5,
+      "errors": 2,
+      "successRate": 71.43
+    },
+    "esito": {
+      "events": 2,
+      "successes": 2,
+      "errors": 0,
+      "successRate": 100
+    },
+    "cartellini": {
+      "events": 2,
+      "successes": 0,
+      "errors": 2,
+      "successRate": 0
+    },
+    "corner": {
+      "events": 2,
+      "successes": 1,
+      "errors": 1,
+      "successRate": 50
+    }
+  },
+  "bestMarkets": [
+    {
+      "market": "goal",
+      "events": 4,
+      "successes": 4,
+      "errors": 0,
+      "successRate": 100
+    },
+    {
+      "market": "esito",
+      "events": 2,
+      "successes": 2,
+      "errors": 0,
+      "successRate": 100
+    },
+    {
+      "market": "tiri",
+      "events": 7,
+      "successes": 5,
+      "errors": 2,
+      "successRate": 71.43
+    }
+  ],
+  "worstMarkets": [
+    {
+      "market": "cartellini",
+      "events": 2,
+      "successes": 0,
+      "errors": 2,
+      "successRate": 0
+    },
+    {
+      "market": "corner",
+      "events": 2,
+      "successes": 1,
+      "errors": 1,
+      "successRate": 50
+    },
+    {
+      "market": "tiri",
+      "events": 7,
+      "successes": 5,
+      "errors": 2,
+      "successRate": 71.43
+    }
+  ],
+  "last10Trend": [
+    {
+      "slug": "sudafrica-canada",
+      "date": "28/06/2026 ore 21.00",
+      "Safe": "lost",
+      "Balanced": "lost",
+      "Aggressive": "lost",
+      "correctEvents": 6,
+      "incorrectEvents": 5
+    },
+    {
+      "slug": "brasile-giappone",
+      "date": "29/06/2026 ore 19:00",
+      "Safe": "won",
+      "Balanced": "won",
+      "Aggressive": "won",
+      "correctEvents": 6,
+      "incorrectEvents": 0
+    }
+  ]
+}

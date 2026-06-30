@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "matches": [
+    {
+      "slug": "sudafrica-canada",
+      "date": "28/06/2026 ore 21.00",
+      "result": "Sudafrica 0-1 Canada",
+      "predictedScenario": [
+        {
+          "id": null,
+          "name": "Canada favorito in una partita controllata",
+          "estimatedProbability": "storica"
+        }
+      ],
+      "actualScenario": null,
+      "Safe": "lost",
+      "Balanced": "lost",
+      "Aggressive": "lost",
+      "correctEvents": 6,
+      "incorrectEvents": 5,
+      "finalOdds": {
+        "Safe": 5,
+        "Balanced": 10.04,
+        "Aggressive": 15.34
+      },
+      "riskProfile": {
+        "Safe": {
+          "generated": true,
+          "outcome": "lost",
+          "finalOdds": 5,
+          "eventIds": [
+            "no_goal",
+            "makgopa_2_tiri",
+            "canada_vince_90",
+            "david_2_tiri"
+          ]
+        },
+        "Balanced": {
+          "generated": true,
+          "outcome": "lost",
+          "finalOdds": 10.04,
+          "eventIds": [
+            "no_goal",
+            "over_cartellini_sudafrica",
+            "makgopa_2_tiri",
+            "canada_vince_90",
+            "david_3_tiri",
+            "under_4_5",
+            "buchanan_1_tiro"
+          ]
+        },
+        "Aggressive": {
+          "generated": true,
+          "outcome": "lost",
+          "finalOdds": 15.34,
+          "eventIds": [
+            "under_2_5",
+            "no_goal",
+            "over_3_5_cartellini",
+            "canada_vince_90",
+            "over_7_5_corner",
+            "david_3_tiri",
+            "buchanan_1_tiro"
+          ]
+        }
+      },
+      "averageEqs": null,
+      "notes": null,
+      "source": "https://sport.sky.it/calcio/mondiali/partite/2026/sedicesimi/sud-africa-canada/risultato-gol",
+      "events": [
+        {
+          "id": "no_goal",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "category": "goal",
+          "selection": "NOGOAL",
+          "odds": 1.65,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "ha segnato solo il Canada"
+        },
+        {
+          "id": "makgopa_2_tiri",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MAKGOPA E. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.65,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "Makgopa e il suo sostituto senza tiri"
+        },
+        {
+          "id": "canada_vince_90",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "category": "esito",
+          "selection": "2",
+          "odds": 1.7,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "0-1 al termine dei 90 minuti"
+        },
+        {
+          "id": "david_2_tiri",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DAVID J. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.08,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Jonathan David: 2 tiri totali"
+        },
+        {
+          "id": "over_cartellini_sudafrica",
+          "market": "U/O PUNTI CARTELLINI SQUADRA — SQUADRA 1: U/O 1.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "category": "cartellini",
+          "selection": "OVER",
+          "odds": 1.48,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "nessun cartellino al Sudafrica"
+        },
+        {
+          "id": "david_3_tiri",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DAVID J. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.33,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "Jonathan David: 2 tiri totali"
+        },
+        {
+          "id": "under_4_5",
+          "market": "UNDER/OVER — U/O 4.5",
+          "category": "goal",
+          "selection": "UNDER",
+          "odds": 1.05,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "1 gol totale"
+        },
+        {
+          "id": "buchanan_1_tiro",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BUCHANAN T. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.05,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Buchanan: 1 tiro in porta"
+        },
+        {
+          "id": "under_2_5",
+          "market": "UNDER/OVER — U/O 2.5",
+          "category": "goal",
+          "selection": "UNDER",
+          "odds": 1.6,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "1 gol totale"
+        },
+        {
+          "id": "over_3_5_cartellini",
+          "market": "U/O PUNTI CARTELLINI — U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "category": "cartellini",
+          "selection": "OVER",
+          "odds": 1.8,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "2 ammonizioni totali"
+        },
+        {
+          "id": "over_7_5_corner",
+          "market": "U/O CORNER — U/O 7.5 CORNER",
+          "category": "corner",
+          "selection": "OVER",
+          "odds": 1.36,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "6 corner totali"
+        }
+      ]
+    },
+    {
+      "slug": "brasile-giappone",
+      "date": "29/06/2026 ore 19:00",
+      "result": "Brasile 2-1 Giappone",
+      "predictedScenario": [
+        {
+          "id": "favorite_dominance",
+          "name": "Dominio Brasile",
+          "estimatedProbability": "alta"
+        }
+      ],
+      "actualScenario": null,
+      "Safe": "won",
+      "Balanced": "won",
+      "Aggressive": "won",
+      "correctEvents": 6,
+      "incorrectEvents": 0,
+      "finalOdds": {
+        "Safe": 4.61,
+        "Balanced": 10.35,
+        "Aggressive": 18.11
+      },
+      "riskProfile": {
+        "Safe": {
+          "generated": true,
+          "outcome": "won",
+          "finalOdds": 4.61,
+          "eventIds": [
+            "event-01",
+            "event-05",
+            "event-11"
+          ]
+        },
+        "Balanced": {
+          "generated": true,
+          "outcome": "won",
+          "finalOdds": 10.35,
+          "eventIds": [
+            "event-01",
+            "event-05",
+            "event-12",
+            "event-14"
+          ]
+        },
+        "Aggressive": {
+          "generated": true,
+          "outcome": "won",
+          "finalOdds": 18.11,
+          "eventIds": [
+            "event-01",
+            "event-05",
+            "event-12",
+            "event-14",
+            "event-15"
+          ]
+        }
+      },
+      "averageEqs": null,
+      "notes": null,
+      "source": "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/giappone-ULXPdOUj/?mid=f7ENGzPc",
+      "events": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "category": "esito",
+          "selection": "1",
+          "odds": 1.33,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Brasile qualificato agli ottavi"
+        },
+        {
+          "id": "event-05",
+          "market": "U/O CORNER SQUADRA X — U/O 5.5 CORNER SQUADRA 1",
+          "category": "corner",
+          "selection": "OVER",
+          "odds": 2.1,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Brasile: 6 corner"
+        },
+        {
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 13.5 TIRI TOTALI",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.65,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Brasile: 19 tiri totali"
+        },
+        {
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 14.5 TIRI TOTALI",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.95,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Brasile: 19 tiri totali"
+        },
+        {
+          "id": "event-14",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "category": "goal",
+          "selection": "GOAL",
+          "odds": 1.9,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Entrambe le squadre hanno segnato: 2-1"
+        },
+        {
+          "id": "event-15",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.75,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Brasile: 7 tiri in porta"
+        }
+      ]
+    }
+  ]
+}

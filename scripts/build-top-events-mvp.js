@@ -128,7 +128,7 @@ const plans = {
     context: {
       esito: {
         strength: "La Francia ha un vantaggio netto per qualità, profondità e produzione offensiva; il 3-1 è il risultato guida.",
-        risk: "Il 3-4-3 svedese conserva una minaccia concreta con Isak, Gyökeres ed Elanga.",
+        risk: "Il 3-4-2-1 svedese conserva una minaccia concreta con Isak, Gyökeres ed Elanga.",
       },
       goal: {
         strength: "Il risultato guida 3-1 e gli undici offensivi sostengono Over 2,5 e almeno una rete svedese.",
@@ -143,7 +143,7 @@ const plans = {
         risk: "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali.",
       },
       cartellini: {
-        strength: "Lagerbielke e Karlström sono esposti alle accelerazioni francesi e ai falli tattici.",
+        strength: "Lagerbielke e Bergvall sono esposti alle accelerazioni francesi e ai falli tattici.",
         risk: "Makkelie ha una media contenuta di 3,31 gialli, quindi i cartellini individuali restano selezioni prudenti.",
       },
     },
@@ -176,7 +176,7 @@ const plans = {
       ["U/O TIRI TOTALI GIOCATORE (DUO) INC TS", /ISAK A\. U\/O 1\.5/, "OVER", "tiri", "Isak è uno dei due terminali principali della Svezia."],
       ["U/O TIRI TOTALI GIOCATORE (DUO) INC TS", /GYOKERES V\. U\/O 1\.5/, "OVER", "tiri", "Gyökeres può produrre almeno due conclusioni anche con poco possesso."],
       ["CARTELLINO SI/NO (DUO) INC TS", /^LAGERBIELKE G\. CARTELLINO/, "SI", "cartellini", "Lagerbielke è la prima scelta ammoniti, pur con fiducia moderata da Makkelie."],
-      ["CARTELLINO SI/NO (DUO) INC TS", /^KARLSTROM J\. CARTELLINO/, "SI", "cartellini", "Karlström è esposto alle ricezioni centrali francesi."],
+      ["CARTELLINO SI/NO (DUO) INC TS", /^BERGVALL L\. CARTELLINO/, "SI", "cartellini", "Bergvall è esposto alle ricezioni centrali francesi."],
       ["CARTELLINO SI/NO (DUO) INC TS", /^LINDELOF V\. CARTELLINO/, "SI", "cartellini", "Lindelöf può essere costretto a coperture profonde su Mbappé."],
     ],
   },

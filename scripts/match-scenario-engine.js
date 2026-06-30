@@ -29,7 +29,7 @@ const teamPlayers = {
   },
   "francia-svezia": {
     team1: ["MBAPPE", "DEMBELE", "BARCOLA", "OLISE"],
-    team2: ["ISAK", "GYOKERES", "LAGERBIELKE", "KARLSTROM", "LINDELOF"],
+    team2: ["ISAK", "GYOKERES", "ELANGA", "LAGERBIELKE", "BERGVALL", "LINDELOF"],
   },
 };
 

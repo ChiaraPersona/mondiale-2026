@@ -474,13 +474,13 @@
     },
     {
       "id": "event-29",
-      "label": "CARTELLINO SI/NO (DUO) INC TS — KARLSTROM J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI | SI",
-      "market": "CARTELLINO SI/NO (DUO) INC TS — KARLSTROM J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "label": "CARTELLINO SI/NO (DUO) INC TS — BERGVALL L. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI | SI",
+      "market": "CARTELLINO SI/NO (DUO) INC TS — BERGVALL L. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
       "selection": "SI",
       "category": "cartellini",
-      "rankingScore": 56,
-      "class": "VALUE",
-      "odds": 3.75,
+      "rankingScore": 53,
+      "class": "SPECULATIVE",
+      "odds": 4.5,
       "scenarioVector": [
         0,
         0,

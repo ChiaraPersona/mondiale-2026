@@ -1,5 +1,5 @@
 {
-  "analyzedMatches": 2,
+  "analyzedMatches": 3,
   "profiles": {
     "Safe": {
       "generated": 2,
@@ -8,30 +8,30 @@
       "successRate": 50
     },
     "Balanced": {
-      "generated": 2,
+      "generated": 3,
       "won": 1,
-      "lost": 1,
-      "successRate": 50
+      "lost": 2,
+      "successRate": 33.33
     },
     "Aggressive": {
-      "generated": 2,
+      "generated": 3,
       "won": 1,
-      "lost": 1,
-      "successRate": 50
+      "lost": 2,
+      "successRate": 33.33
     }
   },
   "markets": {
     "goal": {
-      "events": 4,
-      "successes": 4,
+      "events": 6,
+      "successes": 6,
       "errors": 0,
       "successRate": 100
     },
     "tiri": {
-      "events": 7,
-      "successes": 5,
-      "errors": 2,
-      "successRate": 71.43
+      "events": 11,
+      "successes": 7,
+      "errors": 4,
+      "successRate": 63.64
     },
     "esito": {
       "events": 2,
@@ -46,17 +46,17 @@
       "successRate": 0
     },
     "corner": {
-      "events": 2,
-      "successes": 1,
+      "events": 3,
+      "successes": 2,
       "errors": 1,
-      "successRate": 50
+      "successRate": 66.67
     }
   },
   "bestMarkets": [
     {
       "market": "goal",
-      "events": 4,
-      "successes": 4,
+      "events": 6,
+      "successes": 6,
       "errors": 0,
       "successRate": 100
     },
@@ -68,11 +68,11 @@
       "successRate": 100
     },
     {
-      "market": "tiri",
-      "events": 7,
-      "successes": 5,
-      "errors": 2,
-      "successRate": 71.43
+      "market": "corner",
+      "events": 3,
+      "successes": 2,
+      "errors": 1,
+      "successRate": 66.67
     }
   ],
   "worstMarkets": [
@@ -84,18 +84,18 @@
       "successRate": 0
     },
     {
-      "market": "corner",
-      "events": 2,
-      "successes": 1,
-      "errors": 1,
-      "successRate": 50
+      "market": "tiri",
+      "events": 11,
+      "successes": 7,
+      "errors": 4,
+      "successRate": 63.64
     },
     {
-      "market": "tiri",
-      "events": 7,
-      "successes": 5,
-      "errors": 2,
-      "successRate": 71.43
+      "market": "corner",
+      "events": 3,
+      "successes": 2,
+      "errors": 1,
+      "successRate": 66.67
     }
   ],
   "last10Trend": [
@@ -116,6 +116,15 @@
       "Aggressive": "won",
       "correctEvents": 6,
       "incorrectEvents": 0
+    },
+    {
+      "slug": "costa-avorio-norvegia",
+      "date": "30/06/2026 ore 19.00",
+      "Safe": "not_generated",
+      "Balanced": "lost",
+      "Aggressive": "lost",
+      "correctEvents": 5,
+      "incorrectEvents": 2
     }
   ]
 }

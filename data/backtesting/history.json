@@ -302,6 +302,136 @@
           "evidence": "Brasile: 7 tiri in porta"
         }
       ]
+    },
+    {
+      "slug": "costa-avorio-norvegia",
+      "date": "30/06/2026 ore 19.00",
+      "result": "Costa d'Avorio 1-2 Norvegia",
+      "predictedScenario": [
+        {
+          "id": "open_game",
+          "name": "Partita aperta",
+          "estimatedProbability": "media"
+        }
+      ],
+      "actualScenario": "Partita aperta",
+      "Safe": "not_generated",
+      "Balanced": "lost",
+      "Aggressive": "lost",
+      "correctEvents": 5,
+      "incorrectEvents": 2,
+      "finalOdds": {
+        "Safe": null,
+        "Balanced": 10.53,
+        "Aggressive": 20.16
+      },
+      "riskProfile": {
+        "Safe": {
+          "generated": false,
+          "outcome": "not_generated",
+          "finalOdds": null,
+          "eventIds": []
+        },
+        "Balanced": {
+          "generated": true,
+          "outcome": "lost",
+          "finalOdds": 10.53,
+          "eventIds": [
+            "event-06",
+            "event-08",
+            "event-13",
+            "event-18",
+            "event-20"
+          ]
+        },
+        "Aggressive": {
+          "generated": true,
+          "outcome": "lost",
+          "finalOdds": 20.16,
+          "eventIds": [
+            "event-06",
+            "event-08",
+            "event-13",
+            "event-19",
+            "event-21"
+          ]
+        }
+      },
+      "averageEqs": null,
+      "notes": "Risultato esatto centrato. Balanced e Aggressive perse per una sola gamba: volume tiri della Norvegia sotto soglia.",
+      "source": "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/norvegia-8rP6JO0H/?mid=tx2IC6G7",
+      "events": [
+        {
+          "id": "event-06",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "category": "goal",
+          "selection": "GOAL",
+          "odds": 1.65,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Goal centrato: entrambe le squadre hanno segnato nel finale 1-2."
+        },
+        {
+          "id": "event-08",
+          "market": "U/O CORNER — U/O 8.5 CORNER",
+          "category": "corner",
+          "selection": "OVER",
+          "odds": 1.7,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "17 corner totali: Costa d'Avorio 14, Norvegia 3."
+        },
+        {
+          "id": "event-13",
+          "market": "UNDER/OVER — U/O 2.5",
+          "category": "goal",
+          "selection": "OVER",
+          "odds": 1.85,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Tre gol totali: Over 2,5 centrato."
+        },
+        {
+          "id": "event-18",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 9.5 TIRI TOTALI",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.4,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Costa d'Avorio: 14 tiri totali, sopra la soglia 9,5."
+        },
+        {
+          "id": "event-20",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 11.5 TIRI TOTALI",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.45,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "Norvegia: 9 tiri totali, sotto la soglia 11,5."
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 3.5 TIRI IN PORTA",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 2.1,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Costa d'Avorio: 5 tiri in porta, sopra la soglia 3,5."
+        },
+        {
+          "id": "event-21",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 4.5 TIRI IN PORTA",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.85,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "Norvegia: 4 tiri in porta, sotto la soglia 4,5."
+        }
+      ]
     }
   ]
 }

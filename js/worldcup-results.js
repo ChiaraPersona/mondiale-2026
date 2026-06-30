@@ -1378,6 +1378,26 @@ const worldCupResults = {
       "Centrati risultato esatto 1-1, Under 2,5 e Goal; non preso il passaggio del turno dell'Olanda.",
     ],
   },
+  78: {
+    status: "Finale",
+    home: 1,
+    away: 2,
+    winner: "Norvegia",
+    source: "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/norvegia-8rP6JO0H/?mid=tx2IC6G7",
+    sources: [
+      "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/norvegia-8rP6JO0H/?mid=tx2IC6G7",
+      "https://www.eurosport.it/calcio/mondiali/2026/live-costa-d-avorio-norvegia_mtc1579493/live-stats.shtml",
+    ],
+    scorers: {
+      "Costa d'Avorio": ["Amad Diallo"],
+      Norvegia: ["Antonio Nusa", "Erling Haaland"],
+    },
+    notes: [
+      "La Norvegia batte la Costa d'Avorio 2-1 e si qualifica agli ottavi di finale.",
+      "Centrati risultato esatto 1-2, Goal, Over 2,5 e Over 8,5 corner.",
+      "Balanced e Aggressive chiudono entrambe 4/5: decisivi gli errori sui volumi di tiro della Norvegia.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

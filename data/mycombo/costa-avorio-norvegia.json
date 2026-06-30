@@ -2,7 +2,44 @@
   "slug": "costa-avorio-norvegia",
   "match": "Costa D'Avorio - Norvegia",
   "date": "30/06/2026 ore 19.00",
-  "status": "prepared",
+  "status": "completed",
+  "settlement": {
+    "status": "Finale",
+    "score": "Costa d'Avorio 1-2 Norvegia",
+    "actualScenario": "Partita aperta",
+    "source": "https://www.diretta.it/partita/calcio/costa-d-avorio-G2FRjBgn/norvegia-8rP6JO0H/?mid=tx2IC6G7",
+    "notes": "Risultato esatto centrato. Balanced e Aggressive perse per una sola gamba: volume tiri della Norvegia sotto soglia.",
+    "events": {
+      "event-06": {
+        "status": "won",
+        "evidence": "Goal centrato: entrambe le squadre hanno segnato nel finale 1-2."
+      },
+      "event-08": {
+        "status": "won",
+        "evidence": "17 corner totali: Costa d'Avorio 14, Norvegia 3."
+      },
+      "event-13": {
+        "status": "won",
+        "evidence": "Tre gol totali: Over 2,5 centrato."
+      },
+      "event-18": {
+        "status": "won",
+        "evidence": "Costa d'Avorio: 14 tiri totali, sopra la soglia 9,5."
+      },
+      "event-19": {
+        "status": "won",
+        "evidence": "Costa d'Avorio: 5 tiri in porta, sopra la soglia 3,5."
+      },
+      "event-20": {
+        "status": "lost",
+        "evidence": "Norvegia: 9 tiri totali, sotto la soglia 11,5."
+      },
+      "event-21": {
+        "status": "lost",
+        "evidence": "Norvegia: 4 tiri in porta, sotto la soglia 4,5."
+      }
+    }
+  },
   "portfolios": [
     {
       "name": "Safe",

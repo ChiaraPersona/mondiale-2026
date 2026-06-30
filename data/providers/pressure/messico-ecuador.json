@@ -1,0 +1,8 @@
+{
+  "match": "Messico - Ecuador",
+  "data": {
+    "mustWin": false,
+    "canSettle": false,
+    "knockout": false
+  }
+}

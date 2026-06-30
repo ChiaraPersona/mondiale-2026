@@ -1,0 +1,303 @@
+{
+  "match": "Messico - Ecuador",
+  "scenarios": [
+    {
+      "id": "favorite_dominance",
+      "name": "Dominio Messico",
+      "description": "Messico controlla territorio e volume offensivo, producendo più tiri e corner.",
+      "estimatedProbability": "media",
+      "compatibleEvents": [
+        {
+          "id": "event-01",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X"
+        },
+        {
+          "id": "event-03",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1"
+        },
+        {
+          "id": "event-06",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1"
+        },
+        {
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 11.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-16",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL"
+        },
+        {
+          "id": "event-17",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-18",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-20",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 10.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-22",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 3.5 TIRI IN PORTA",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-25",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GIMENEZ S. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-26",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — QUINONES J. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-27",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ALVARADO R. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        }
+      ],
+      "incompatibleEvents": [
+        {
+          "id": "event-21",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 13.5 TIRI TOTALI",
+          "selection": "UNDER"
+        }
+      ],
+      "rootCauses": [
+        "Motivazione Messico: non disponibile",
+        "Forma Messico: non disponibile"
+      ]
+    },
+    {
+      "id": "controlled_favorite_win",
+      "name": "Vittoria controllata Messico",
+      "description": "Messico passa in vantaggio e gestisce la gara senza trasformarla in una partita aperta.",
+      "estimatedProbability": "alta",
+      "compatibleEvents": [
+        {
+          "id": "event-01",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X"
+        },
+        {
+          "id": "event-03",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1"
+        },
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-06",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1"
+        },
+        {
+          "id": "event-07",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-15",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL"
+        }
+      ],
+      "incompatibleEvents": [
+        {
+          "id": "event-16",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL"
+        },
+        {
+          "id": "event-17",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-18",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER"
+        }
+      ],
+      "rootCauses": [
+        "Motivazione Messico: non disponibile",
+        "Forma Messico: non disponibile",
+        "Gestione del vantaggio"
+      ]
+    },
+    {
+      "id": "balanced_resistance",
+      "name": "Resistenza Ecuador",
+      "description": "Ecuador mantiene equilibrio, limita la favorita e conserva possibilità nelle transizioni.",
+      "estimatedProbability": "media",
+      "compatibleEvents": [
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-07",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-13",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 9.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-15",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL"
+        },
+        {
+          "id": "event-23",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 7.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-24",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "selection": "OVER"
+        }
+      ],
+      "incompatibleEvents": [
+        {
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 11.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-20",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 10.5 TIRI TOTALI",
+          "selection": "OVER"
+        }
+      ],
+      "rootCauses": [
+        "Motivazione Ecuador: non disponibile",
+        "Forma Ecuador: non disponibile"
+      ]
+    },
+    {
+      "id": "open_game",
+      "name": "Partita aperta",
+      "description": "Il ritmo cresce, aumentano conclusioni, corner e possibilità di gol da entrambe le parti.",
+      "estimatedProbability": "bassa",
+      "compatibleEvents": [
+        {
+          "id": "event-08",
+          "market": "U/O CORNER — U/O 6.5 CORNER",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-09",
+          "market": "U/O CORNER — U/O 7.5 CORNER",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-11",
+          "market": "U/O CORNER — U/O 8.5 CORNER",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 11.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-13",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 9.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-16",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL"
+        },
+        {
+          "id": "event-17",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-18",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-20",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 10.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-22",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 3.5 TIRI IN PORTA",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-23",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 7.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-24",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-25",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GIMENEZ S. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-26",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — QUINONES J. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-27",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ALVARADO R. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        }
+      ],
+      "incompatibleEvents": [
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-07",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-15",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL"
+        }
+      ],
+      "rootCauses": [
+        "Intensità offensiva",
+        "Transizioni",
+        "Partita sensibile al primo gol"
+      ]
+    }
+  ]
+}

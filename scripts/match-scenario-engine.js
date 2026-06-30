@@ -7,6 +7,10 @@ const intelligenceDirectory = path.join(root, "data", "intelligence");
 const requestedMatch = process.argv[2];
 
 const teamPlayers = {
+  "messico-ecuador": {
+    team1: ["GIMENEZ", "QUINONES", "ALVARADO", "ALVAREZ EDSON"],
+    team2: ["YEBOAH", "VITE", "ANGULO", "MOISES CAICEDO", "ORDONEZ"],
+  },
   "olanda-marocco": {
     team1: ["BROBBEY", "GAKPO", "SUMMERVILLE", "DE JONG"],
     team2: ["SAIBARI", "BRAHIM DIAZ", "BOUADDI"],
@@ -147,6 +151,15 @@ function qualitativeLevels(context) {
   };
 }
 
+const matchLevelOverrides = {
+  "messico-ecuador": {
+    dominance: "media",
+    controlled: "alta",
+    balanced: "media",
+    open: "bassa",
+  },
+};
+
 function rootCauses(context, home, away) {
   const motivation = context.motivation || {};
   const form = context.form || {};
@@ -196,7 +209,10 @@ function processMatch(matchKey) {
   const intelligence = JSON.parse(fs.readFileSync(intelligencePath, "utf8"));
   const [home, away] = ranking.match.split(/\s+-\s+/);
   const context = intelligenceContext(intelligence);
-  const levels = qualitativeLevels(context);
+  const levels = {
+    ...qualitativeLevels(context),
+    ...(matchLevelOverrides[matchKey] || {}),
+  };
   const causes = rootCauses(context, home, away);
 
   const scenarios = [

@@ -19,7 +19,7 @@ const teamInsights = {
   "Curacao": { coach: "Dick Advocaat", starters: ["Room", "Floranus", "Gaari", "Obispo", "Fonville", "Bacuna", "Comenencia", "Chong", "Locadia", "Gorre"] },
   "Costa d'Avorio": { coach: "Emerse Faé", starters: ["Fofana", "Doue", "Kossounou", "Ndicka", "Konan", "Kessie", "Sangare", "Oulai", "Diallo", "Bonny", "Diomande"] },
   "Ecuador": { coach: "Sebastián Beccacece", starters: ["Valle", "Ordonez", "Hincapie", "Pacho", "Franco", "Vite", "Caicedo", "Estupinan", "Anthony", "Valencia", "Yeboah"] },
-  "Olanda": { coach: "Ronald Koeman", starters: ["Verbruggen", "Dumfries", "Van Dijk", "Ake", "Van de Ven", "De Jong", "Gravenberch", "Malen", "Reijnders", "Gakpo", "Depay"] },
+  "Olanda": { coach: "Ronald Koeman", starters: ["Verbruggen", "Van Hecke", "Van Dijk", "Ake", "Dumfries", "Gravenberch", "De Jong", "Van de Ven", "Summerville", "Gakpo", "Brobbey"] },
   "Giappone": { coach: "Hajime Moriyasu", starters: ["Suzuki", "Tomiyasu", "Taniguchi", "Itakura", "Doan", "Endo", "Tanaka", "Nakamura", "Kubo", "Ito", "Ueda"] },
   "Svezia": { coach: "Graham Potter", starters: ["Nordfeldt", "Starfelt", "Lagerbielke", "Lindelof", "Svensson", "Karlstrom", "Ayari", "Gudmundsson", "Nygren", "Elanga", "Gyokeres"] },
   "Tunisia": { coach: "Sabri Lamouchi", starters: ["Dahmen", "Valery", "Bronn", "Talbi", "Abdi", "Gharbi", "Skhiri", "Hannibal", "Achouri", "Mastouri", "Tounekti"] },

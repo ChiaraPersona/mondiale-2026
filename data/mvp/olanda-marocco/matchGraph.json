@@ -362,22 +362,6 @@
     },
     {
       "id": "event-22",
-      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MALEN D. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
-      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MALEN D. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-      "selection": "OVER",
-      "category": "tiri",
-      "rankingScore": 63,
-      "class": "SPECULATIVE",
-      "odds": 1.8,
-      "scenarioVector": [
-        1,
-        0,
-        0,
-        1
-      ]
-    },
-    {
-      "id": "event-23",
       "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAIBARI I. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
       "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAIBARI I. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selection": "OVER",
@@ -393,7 +377,7 @@
       ]
     },
     {
-      "id": "event-24",
+      "id": "event-23",
       "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAIBARI I. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
       "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAIBARI I. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selection": "OVER",
@@ -409,7 +393,7 @@
       ]
     },
     {
-      "id": "event-25",
+      "id": "event-24",
       "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BRAHIM DIAZ U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
       "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BRAHIM DIAZ U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selection": "OVER",
@@ -425,14 +409,14 @@
       ]
     },
     {
-      "id": "event-26",
-      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MALEN D. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
-      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MALEN D. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "id": "event-25",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GAKPO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GAKPO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selection": "OVER",
       "category": "tiri",
       "rankingScore": 61,
       "class": "VALUE",
-      "odds": 1.25,
+      "odds": 1.33,
       "scenarioVector": [
         1,
         0,
@@ -441,7 +425,7 @@
       ]
     },
     {
-      "id": "event-27",
+      "id": "event-26",
       "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BRAHIM DIAZ U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
       "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BRAHIM DIAZ U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selection": "OVER",
@@ -457,7 +441,7 @@
       ]
     },
     {
-      "id": "event-28",
+      "id": "event-27",
       "label": "CARTELLINO SI/NO (DUO) INC TS — BOUADDI A. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI | SI",
       "market": "CARTELLINO SI/NO (DUO) INC TS — BOUADDI A. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
       "selection": "SI",
@@ -473,7 +457,7 @@
       ]
     },
     {
-      "id": "event-29",
+      "id": "event-28",
       "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BROBBEY B. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
       "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BROBBEY B. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selection": "OVER",
@@ -481,6 +465,22 @@
       "rankingScore": 58,
       "class": "SPECULATIVE",
       "odds": 2.25,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-29",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GAKPO C. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GAKPO C. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 58,
+      "class": "SPECULATIVE",
+      "odds": 2,
       "scenarioVector": [
         1,
         0,
@@ -711,13 +711,11 @@
     {
       "source": "event-01",
       "target": "event-22",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta",
-      "scenarios": [
-        "Dominio Olanda"
-      ]
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-01",
@@ -740,15 +738,6 @@
     {
       "source": "event-01",
       "target": "event-25",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-01",
-      "target": "event-26",
       "correlationScore": 0.5,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda.",
@@ -756,6 +745,15 @@
       "scenarios": [
         "Dominio Olanda"
       ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-01",
@@ -769,11 +767,13 @@
     {
       "source": "event-01",
       "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Olanda"
+      ]
     },
     {
       "source": "event-01",
@@ -987,13 +987,11 @@
     {
       "source": "event-02",
       "target": "event-22",
-      "correlationScore": -0.71,
-      "type": "NEGATIVE",
-      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Olanda.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta",
-      "scenarios": [
-        "Dominio Olanda"
-      ]
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-02",
@@ -1016,15 +1014,6 @@
     {
       "source": "event-02",
       "target": "event-25",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-02",
-      "target": "event-26",
       "correlationScore": -0.71,
       "type": "NEGATIVE",
       "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Olanda.",
@@ -1032,6 +1021,15 @@
       "scenarios": [
         "Dominio Olanda"
       ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-02",
@@ -1045,11 +1043,13 @@
     {
       "source": "event-02",
       "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Olanda.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Olanda"
+      ]
     },
     {
       "source": "event-02",
@@ -1264,13 +1264,11 @@
     {
       "source": "event-03",
       "target": "event-22",
-      "correlationScore": -0.41,
-      "type": "NEGATIVE",
-      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-03",
@@ -1293,15 +1291,6 @@
     {
       "source": "event-03",
       "target": "event-25",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-03",
-      "target": "event-26",
       "correlationScore": -0.41,
       "type": "NEGATIVE",
       "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
@@ -1309,6 +1298,15 @@
       "scenarios": [
         "Partita aperta"
       ]
+    },
+    {
+      "source": "event-03",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-03",
@@ -1322,11 +1320,13 @@
     {
       "source": "event-03",
       "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
     },
     {
       "source": "event-03",
@@ -1744,13 +1744,11 @@
     {
       "source": "event-05",
       "target": "event-22",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta",
-      "scenarios": [
-        "Dominio Olanda"
-      ]
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-05",
@@ -1773,15 +1771,6 @@
     {
       "source": "event-05",
       "target": "event-25",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-05",
-      "target": "event-26",
       "correlationScore": 0.5,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda.",
@@ -1789,6 +1778,15 @@
       "scenarios": [
         "Dominio Olanda"
       ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-05",
@@ -1802,11 +1800,13 @@
     {
       "source": "event-05",
       "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Olanda"
+      ]
     },
     {
       "source": "event-05",
@@ -1978,13 +1978,11 @@
     {
       "source": "event-06",
       "target": "event-22",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta",
-      "scenarios": [
-        "Dominio Olanda"
-      ]
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-06",
@@ -2007,15 +2005,6 @@
     {
       "source": "event-06",
       "target": "event-25",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-06",
-      "target": "event-26",
       "correlationScore": 0.5,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda.",
@@ -2023,6 +2012,15 @@
       "scenarios": [
         "Dominio Olanda"
       ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-06",
@@ -2036,11 +2034,13 @@
     {
       "source": "event-06",
       "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Olanda"
+      ]
     },
     {
       "source": "event-06",
@@ -2203,13 +2203,11 @@
     {
       "source": "event-07",
       "target": "event-22",
-      "correlationScore": -0.71,
-      "type": "NEGATIVE",
-      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Olanda.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta",
-      "scenarios": [
-        "Dominio Olanda"
-      ]
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-07",
@@ -2232,15 +2230,6 @@
     {
       "source": "event-07",
       "target": "event-25",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-07",
-      "target": "event-26",
       "correlationScore": -0.71,
       "type": "NEGATIVE",
       "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Olanda.",
@@ -2248,6 +2237,15 @@
       "scenarios": [
         "Dominio Olanda"
       ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-07",
@@ -2261,11 +2259,13 @@
     {
       "source": "event-07",
       "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Olanda.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta",
+      "scenarios": [
+        "Dominio Olanda"
+      ]
     },
     {
       "source": "event-07",
@@ -2435,12 +2435,11 @@
     {
       "source": "event-08",
       "target": "event-22",
-      "correlationScore": 0.82,
+      "correlationScore": 0.41,
       "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
       "scenarios": [
-        "Dominio Olanda",
         "Partita aperta"
       ]
     },
@@ -2469,17 +2468,6 @@
     {
       "source": "event-08",
       "target": "event-25",
-      "correlationScore": 0.41,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-08",
-      "target": "event-26",
       "correlationScore": 0.82,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
@@ -2491,7 +2479,7 @@
     },
     {
       "source": "event-08",
-      "target": "event-27",
+      "target": "event-26",
       "correlationScore": 0.41,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
@@ -2502,12 +2490,24 @@
     },
     {
       "source": "event-08",
-      "target": "event-28",
+      "target": "event-27",
       "correlationScore": 0,
       "type": "NEUTRAL",
       "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
       "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
       "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-28",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "scenarios": [
+        "Dominio Olanda",
+        "Partita aperta"
+      ]
     },
     {
       "source": "event-08",
@@ -2716,6 +2716,15 @@
     {
       "source": "event-09",
       "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-28",
       "correlationScore": 0.71,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
@@ -2723,15 +2732,6 @@
       "scenarios": [
         "Partita aperta"
       ]
-    },
-    {
-      "source": "event-09",
-      "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
     },
     {
       "source": "event-09",
@@ -3099,6 +3099,15 @@
     {
       "source": "event-11",
       "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-11",
+      "target": "event-28",
       "correlationScore": 0.71,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
@@ -3106,15 +3115,6 @@
       "scenarios": [
         "Partita aperta"
       ]
-    },
-    {
-      "source": "event-11",
-      "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
     },
     {
       "source": "event-11",
@@ -3236,14 +3236,11 @@
     {
       "source": "event-12",
       "target": "event-22",
-      "correlationScore": 0.82,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
-      "scenarios": [
-        "Dominio Olanda",
-        "Partita aperta"
-      ]
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-12",
@@ -3266,15 +3263,6 @@
     {
       "source": "event-12",
       "target": "event-25",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-12",
-      "target": "event-26",
       "correlationScore": 0.82,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
@@ -3283,6 +3271,15 @@
         "Dominio Olanda",
         "Partita aperta"
       ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-12",
@@ -3296,11 +3293,14 @@
     {
       "source": "event-12",
       "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "scenarios": [
+        "Dominio Olanda",
+        "Partita aperta"
+      ]
     },
     {
       "source": "event-12",
@@ -3415,12 +3415,11 @@
     {
       "source": "event-13",
       "target": "event-22",
-      "correlationScore": 1,
+      "correlationScore": 0.5,
       "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
       "scenarios": [
-        "Dominio Olanda",
         "Partita aperta"
       ]
     },
@@ -3449,17 +3448,6 @@
     {
       "source": "event-13",
       "target": "event-25",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-13",
-      "target": "event-26",
       "correlationScore": 1,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
@@ -3471,7 +3459,7 @@
     },
     {
       "source": "event-13",
-      "target": "event-27",
+      "target": "event-26",
       "correlationScore": 0.5,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
@@ -3482,12 +3470,24 @@
     },
     {
       "source": "event-13",
-      "target": "event-28",
+      "target": "event-27",
       "correlationScore": 0,
       "type": "NEUTRAL",
       "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
       "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
       "scenarios": []
+    },
+    {
+      "source": "event-13",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "scenarios": [
+        "Dominio Olanda",
+        "Partita aperta"
+      ]
     },
     {
       "source": "event-13",
@@ -3586,11 +3586,12 @@
     {
       "source": "event-14",
       "target": "event-22",
-      "correlationScore": 0.5,
+      "correlationScore": 1,
       "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
+      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
       "scenarios": [
+        "Resistenza Marocco",
         "Partita aperta"
       ]
     },
@@ -3621,18 +3622,6 @@
     {
       "source": "event-14",
       "target": "event-25",
-      "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
-      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
-      "scenarios": [
-        "Resistenza Marocco",
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-14",
-      "target": "event-26",
       "correlationScore": 0.5,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
@@ -3643,7 +3632,7 @@
     },
     {
       "source": "event-14",
-      "target": "event-27",
+      "target": "event-26",
       "correlationScore": 1,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
@@ -3655,12 +3644,23 @@
     },
     {
       "source": "event-14",
-      "target": "event-28",
+      "target": "event-27",
       "correlationScore": 0,
       "type": "NEUTRAL",
       "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
       "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
       "scenarios": []
+    },
+    {
+      "source": "event-14",
+      "target": "event-28",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
     },
     {
       "source": "event-14",
@@ -3746,11 +3746,12 @@
     {
       "source": "event-15",
       "target": "event-22",
-      "correlationScore": 0.5,
+      "correlationScore": 1,
       "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
+      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
       "scenarios": [
+        "Resistenza Marocco",
         "Partita aperta"
       ]
     },
@@ -3781,18 +3782,6 @@
     {
       "source": "event-15",
       "target": "event-25",
-      "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
-      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
-      "scenarios": [
-        "Resistenza Marocco",
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-15",
-      "target": "event-26",
       "correlationScore": 0.5,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
@@ -3803,7 +3792,7 @@
     },
     {
       "source": "event-15",
-      "target": "event-27",
+      "target": "event-26",
       "correlationScore": 1,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
@@ -3815,12 +3804,23 @@
     },
     {
       "source": "event-15",
-      "target": "event-28",
+      "target": "event-27",
       "correlationScore": 0,
       "type": "NEUTRAL",
       "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
       "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
       "scenarios": []
+    },
+    {
+      "source": "event-15",
+      "target": "event-28",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
     },
     {
       "source": "event-15",
@@ -3898,13 +3898,11 @@
     {
       "source": "event-16",
       "target": "event-22",
-      "correlationScore": -0.41,
-      "type": "NEGATIVE",
-      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-16",
@@ -3927,15 +3925,6 @@
     {
       "source": "event-16",
       "target": "event-25",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-16",
-      "target": "event-26",
       "correlationScore": -0.41,
       "type": "NEGATIVE",
       "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
@@ -3943,6 +3932,15 @@
       "scenarios": [
         "Partita aperta"
       ]
+    },
+    {
+      "source": "event-16",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-16",
@@ -3956,11 +3954,13 @@
     {
       "source": "event-16",
       "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
     },
     {
       "source": "event-16",
@@ -4029,12 +4029,11 @@
     {
       "source": "event-17",
       "target": "event-22",
-      "correlationScore": 0.82,
+      "correlationScore": 0.41,
       "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
       "scenarios": [
-        "Dominio Olanda",
         "Partita aperta"
       ]
     },
@@ -4063,17 +4062,6 @@
     {
       "source": "event-17",
       "target": "event-25",
-      "correlationScore": 0.41,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-17",
-      "target": "event-26",
       "correlationScore": 0.82,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
@@ -4085,7 +4073,7 @@
     },
     {
       "source": "event-17",
-      "target": "event-27",
+      "target": "event-26",
       "correlationScore": 0.41,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
@@ -4096,12 +4084,24 @@
     },
     {
       "source": "event-17",
-      "target": "event-28",
+      "target": "event-27",
       "correlationScore": 0,
       "type": "NEUTRAL",
       "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
       "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
       "scenarios": []
+    },
+    {
+      "source": "event-17",
+      "target": "event-28",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "scenarios": [
+        "Dominio Olanda",
+        "Partita aperta"
+      ]
     },
     {
       "source": "event-17",
@@ -4256,14 +4256,11 @@
     {
       "source": "event-19",
       "target": "event-22",
-      "correlationScore": 0.82,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
-      "scenarios": [
-        "Dominio Olanda",
-        "Partita aperta"
-      ]
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-19",
@@ -4286,15 +4283,6 @@
     {
       "source": "event-19",
       "target": "event-25",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-19",
-      "target": "event-26",
       "correlationScore": 0.82,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
@@ -4303,6 +4291,15 @@
         "Dominio Olanda",
         "Partita aperta"
       ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-19",
@@ -4316,11 +4313,14 @@
     {
       "source": "event-19",
       "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "scenarios": [
+        "Dominio Olanda",
+        "Partita aperta"
+      ]
     },
     {
       "source": "event-19",
@@ -4357,11 +4357,12 @@
     {
       "source": "event-20",
       "target": "event-22",
-      "correlationScore": 0.5,
+      "correlationScore": 1,
       "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
+      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
       "scenarios": [
+        "Resistenza Marocco",
         "Partita aperta"
       ]
     },
@@ -4392,18 +4393,6 @@
     {
       "source": "event-20",
       "target": "event-25",
-      "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
-      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
-      "scenarios": [
-        "Resistenza Marocco",
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-20",
-      "target": "event-26",
       "correlationScore": 0.5,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
@@ -4414,7 +4403,7 @@
     },
     {
       "source": "event-20",
-      "target": "event-27",
+      "target": "event-26",
       "correlationScore": 1,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
@@ -4426,12 +4415,23 @@
     },
     {
       "source": "event-20",
-      "target": "event-28",
+      "target": "event-27",
       "correlationScore": 0,
       "type": "NEUTRAL",
       "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
       "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
       "scenarios": []
+    },
+    {
+      "source": "event-20",
+      "target": "event-28",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
     },
     {
       "source": "event-20",
@@ -4456,12 +4456,11 @@
     {
       "source": "event-21",
       "target": "event-22",
-      "correlationScore": 1,
+      "correlationScore": 0.5,
       "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
       "scenarios": [
-        "Dominio Olanda",
         "Partita aperta"
       ]
     },
@@ -4490,17 +4489,6 @@
     {
       "source": "event-21",
       "target": "event-25",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-21",
-      "target": "event-26",
       "correlationScore": 1,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
@@ -4512,7 +4500,7 @@
     },
     {
       "source": "event-21",
-      "target": "event-27",
+      "target": "event-26",
       "correlationScore": 0.5,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
@@ -4523,7 +4511,7 @@
     },
     {
       "source": "event-21",
-      "target": "event-28",
+      "target": "event-27",
       "correlationScore": 0,
       "type": "NEUTRAL",
       "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
@@ -4532,11 +4520,23 @@
     },
     {
       "source": "event-21",
-      "target": "event-29",
+      "target": "event-28",
       "correlationScore": 1,
       "type": "REDUNDANT",
       "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
       "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Olanda, Partita aperta.",
+      "scenarios": [
+        "Dominio Olanda",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-29",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
       "scenarios": [
         "Dominio Olanda",
         "Partita aperta"
@@ -4554,22 +4554,24 @@
     {
       "source": "event-22",
       "target": "event-23",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Resistenza Marocco, Partita aperta.",
       "scenarios": [
+        "Resistenza Marocco",
         "Partita aperta"
       ]
     },
     {
       "source": "event-22",
       "target": "event-24",
-      "correlationScore": 0.5,
+      "correlationScore": 1,
       "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
+      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
       "scenarios": [
+        "Resistenza Marocco",
         "Partita aperta"
       ]
     },
@@ -4587,6 +4589,228 @@
     {
       "source": "event-22",
       "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
+      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Resistenza Marocco",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-22",
+      "target": "event-28",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-29",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-23",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
+      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Resistenza Marocco",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-25",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
+      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Resistenza Marocco",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-23",
+      "target": "event-28",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-29",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-24",
+      "target": "event-25",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-24",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Resistenza Marocco, Partita aperta.",
+      "scenarios": [
+        "Resistenza Marocco",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-24",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-24",
+      "target": "event-28",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-24",
+      "target": "event-29",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-24",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-25",
+      "target": "event-26",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-25",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-25",
+      "target": "event-28",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "scenarios": [
+        "Dominio Olanda",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-25",
+      "target": "event-29",
       "correlationScore": 1,
       "type": "REDUNDANT",
       "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
@@ -4597,230 +4821,6 @@
       ]
     },
     {
-      "source": "event-22",
-      "target": "event-27",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-22",
-      "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-22",
-      "target": "event-29",
-      "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
-      "scenarios": [
-        "Dominio Olanda",
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-22",
-      "target": "event-30",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-23",
-      "target": "event-24",
-      "correlationScore": 1,
-      "type": "REDUNDANT",
-      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
-      "footballCause": "Entrambi sono sostenuti dagli scenari: Resistenza Marocco, Partita aperta.",
-      "scenarios": [
-        "Resistenza Marocco",
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-23",
-      "target": "event-25",
-      "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
-      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
-      "scenarios": [
-        "Resistenza Marocco",
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-23",
-      "target": "event-26",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-23",
-      "target": "event-27",
-      "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
-      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
-      "scenarios": [
-        "Resistenza Marocco",
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-23",
-      "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-23",
-      "target": "event-29",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-23",
-      "target": "event-30",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-24",
-      "target": "event-25",
-      "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
-      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
-      "scenarios": [
-        "Resistenza Marocco",
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-24",
-      "target": "event-26",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-24",
-      "target": "event-27",
-      "correlationScore": 1,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Marocco, Partita aperta.",
-      "footballCause": "Motivazione Marocco: non disponibile; Forma Marocco: non disponibile; Intensità offensiva; Transizioni",
-      "scenarios": [
-        "Resistenza Marocco",
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-24",
-      "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-24",
-      "target": "event-29",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-24",
-      "target": "event-30",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-25",
-      "target": "event-26",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-25",
-      "target": "event-27",
-      "correlationScore": 1,
-      "type": "REDUNDANT",
-      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
-      "footballCause": "Entrambi sono sostenuti dagli scenari: Resistenza Marocco, Partita aperta.",
-      "scenarios": [
-        "Resistenza Marocco",
-        "Partita aperta"
-      ]
-    },
-    {
-      "source": "event-25",
-      "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-25",
-      "target": "event-29",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
-    },
-    {
       "source": "event-25",
       "target": "event-30",
       "correlationScore": 0,
@@ -4832,6 +4832,15 @@
     {
       "source": "event-26",
       "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-26",
+      "target": "event-28",
       "correlationScore": 0.5,
       "type": "POSITIVE",
       "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
@@ -4842,22 +4851,12 @@
     },
     {
       "source": "event-26",
-      "target": "event-28",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
-    },
-    {
-      "source": "event-26",
       "target": "event-29",
-      "correlationScore": 1,
+      "correlationScore": 0.5,
       "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
-      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
       "scenarios": [
-        "Dominio Olanda",
         "Partita aperta"
       ]
     },
@@ -4882,13 +4881,11 @@
     {
       "source": "event-27",
       "target": "event-29",
-      "correlationScore": 0.5,
-      "type": "POSITIVE",
-      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
-      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
-      "scenarios": [
-        "Partita aperta"
-      ]
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
     },
     {
       "source": "event-27",
@@ -4902,11 +4899,14 @@
     {
       "source": "event-28",
       "target": "event-29",
-      "correlationScore": 0,
-      "type": "NEUTRAL",
-      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
-      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
-      "scenarios": []
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Olanda, Partita aperta.",
+      "footballCause": "Motivazione Olanda: non disponibile; Forma Olanda: good; Partita a eliminazione diretta; Intensità offensiva",
+      "scenarios": [
+        "Dominio Olanda",
+        "Partita aperta"
+      ]
     },
     {
       "source": "event-28",
@@ -4982,28 +4982,28 @@
       "id": "redundant-8",
       "nodes": [
         "event-21",
-        "event-29"
+        "event-28"
       ]
     },
     {
       "id": "redundant-9",
       "nodes": [
         "event-22",
-        "event-26"
+        "event-23"
       ]
     },
     {
       "id": "redundant-10",
       "nodes": [
-        "event-23",
-        "event-24"
+        "event-24",
+        "event-26"
       ]
     },
     {
       "id": "redundant-11",
       "nodes": [
         "event-25",
-        "event-27"
+        "event-29"
       ]
     }
   ]

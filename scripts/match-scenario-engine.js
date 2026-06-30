@@ -8,7 +8,7 @@ const requestedMatch = process.argv[2];
 
 const teamPlayers = {
   "olanda-marocco": {
-    team1: ["BROBBEY", "MALEN", "DE JONG"],
+    team1: ["BROBBEY", "GAKPO", "SUMMERVILLE", "DE JONG"],
     team2: ["SAIBARI", "BRAHIM DIAZ", "BOUADDI"],
   },
   "brasile-giappone": {

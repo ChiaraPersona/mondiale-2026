@@ -108,13 +108,15 @@ function portfolioStats(selected, edges) {
   };
 }
 
-function searchBest(candidates, config, edges) {
+function searchBest(candidates, config, edges, previouslySelected = new Set()) {
   let bestInside = null;
   let bestBelow = null;
   const [minimum, maximum] = config.range;
 
   function consider(selected) {
     if (selected.length < 2) return;
+    const sharedEvents = selected.filter(event => previouslySelected.has(event.id)).length;
+    if (sharedEvents > 1) return;
     const stats = portfolioStats(selected, edges);
     const result = { selected: [...selected], stats };
     if (stats.totalOdds >= minimum && stats.totalOdds <= maximum) {
@@ -201,7 +203,7 @@ function qualitativeImprovement(delta, removed, added) {
   return "strutturale: quota o numero di gambe migliorati senza aumento dell'indice";
 }
 
-function optimizePortfolio(portfolio, ranking, scenarios, graph) {
+function optimizePortfolio(portfolio, ranking, scenarios, graph, previouslySelected = new Set()) {
   const config = configs[portfolio.name];
   if (!config) throw new Error(`Configurazione mancante per ${portfolio.name}`);
   if (!portfolio.scenario || !Array.isArray(portfolio.events) || !portfolio.events.length) {
@@ -254,7 +256,7 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph) {
     )
     .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
 
-  const optimized = searchBest(candidates, config, edges);
+  const optimized = searchBest(candidates, config, edges, previouslySelected);
   const initialEvents = portfolio.events
     .map(event => rankingById.get(event.id))
     .filter(Boolean)
@@ -348,9 +350,19 @@ function processMatch(matchKey) {
   const scenarios = JSON.parse(fs.readFileSync(scenarioPath, "utf8"));
   const graph = JSON.parse(fs.readFileSync(graphPath, "utf8"));
 
-  const optimized = portfolios.portfolios.map(portfolio =>
-    optimizePortfolio(portfolio, ranking, scenarios.scenarios, graph)
-  );
+  const optimized = [];
+  const previouslySelected = new Set();
+  for (const portfolio of portfolios.portfolios) {
+    const result = optimizePortfolio(
+      portfolio,
+      ranking,
+      scenarios.scenarios,
+      graph,
+      previouslySelected
+    );
+    optimized.push(result);
+    (result.events || []).forEach(event => previouslySelected.add(event.id));
+  }
   const output = { match: portfolios.match, portfolios: optimized };
   const outputPath = path.join(directory, "portfolio-optimized.json");
   fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`, "utf8");

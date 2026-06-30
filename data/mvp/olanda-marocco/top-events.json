@@ -332,13 +332,13 @@
       ]
     },
     {
-      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MALEN D. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GAKPO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selezione": "OVER",
-      "quota": 1.25,
-      "selectionId": 5195435454,
-      "marketId": 789014679,
+      "quota": 1.33,
+      "selectionId": 5195435186,
+      "marketId": 789014612,
       "categoria": "tiri",
-      "motivo": "Malen è proiettato nella fascia 2-3 tiri.",
+      "motivo": "Gakpo è titolare alle spalle di Brobbey e può produrre almeno due tiri.",
       "puntiDiForza": [
         "Olanda 11-15 tiri e Marocco 9-13; Brobbey, Malen, Saibari e Brahim Diaz sono i riferimenti più coerenti."
       ],
@@ -347,13 +347,13 @@
       ]
     },
     {
-      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MALEN D. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GAKPO C. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
       "selezione": "OVER",
-      "quota": 1.8,
-      "selectionId": 5195434606,
-      "marketId": 789014467,
+      "quota": 2,
+      "selectionId": 5195434622,
+      "marketId": 789014471,
       "categoria": "tiri",
-      "motivo": "Soglia alta ma ancora interna alla proiezione di Malen.",
+      "motivo": "Variante più aggressiva sul volume di Gakpo nel 3-4-2-1 ufficiale.",
       "puntiDiForza": [
         "Olanda 11-15 tiri e Marocco 9-13; Brobbey, Malen, Saibari e Brahim Diaz sono i riferimenti più coerenti."
       ],

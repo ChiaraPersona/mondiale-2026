@@ -53,18 +53,18 @@
           "selection": "OVER"
         },
         {
-          "id": "event-22",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MALEN D. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-25",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GAKPO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
-          "id": "event-26",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MALEN D. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-28",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BROBBEY B. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
           "id": "event-29",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BROBBEY B. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GAKPO C. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         }
       ],
@@ -169,22 +169,22 @@
           "selection": "OVER"
         },
         {
-          "id": "event-23",
+          "id": "event-22",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAIBARI I. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
-          "id": "event-24",
+          "id": "event-23",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAIBARI I. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
-          "id": "event-25",
+          "id": "event-24",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BRAHIM DIAZ U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
-          "id": "event-27",
+          "id": "event-26",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BRAHIM DIAZ U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         }
@@ -269,37 +269,37 @@
         },
         {
           "id": "event-22",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MALEN D. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER"
-        },
-        {
-          "id": "event-23",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAIBARI I. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
-          "id": "event-24",
+          "id": "event-23",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAIBARI I. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
-          "id": "event-25",
+          "id": "event-24",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BRAHIM DIAZ U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
-          "id": "event-26",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MALEN D. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-25",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GAKPO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
-          "id": "event-27",
+          "id": "event-26",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BRAHIM DIAZ U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         },
         {
-          "id": "event-29",
+          "id": "event-28",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BROBBEY B. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-29",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GAKPO C. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         }
       ],

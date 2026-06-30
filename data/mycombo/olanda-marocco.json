@@ -166,7 +166,7 @@
     },
     {
       "name": "Aggressive",
-      "finalOdds": 17.58,
+      "finalOdds": 20.09,
       "events": [
         {
           "id": "event-08",
@@ -202,18 +202,18 @@
           "class": "CORE"
         },
         {
-          "id": "event-15",
-          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 3.5 TIRI IN PORTA",
+          "id": "event-23",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAIBARI I. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 2.1,
-          "selectionId": 5195437182,
-          "marketId": 789015111,
+          "odds": 2.4,
+          "selectionId": 5195434978,
+          "marketId": 789014560,
           "category": "tiri",
-          "rankingScore": 88,
-          "class": "CORE"
+          "rankingScore": 63,
+          "class": "SPECULATIVE"
         }
       ],
-      "reason": "La soluzione resta sotto l'intervallo: aumentare la quota avrebbe richiesto eventi meno stabili o più ridondanti.",
+      "reason": "La soluzione massimizza la qualità tra le combinazioni ammissibili nell'intervallo.",
       "scenario": {
         "id": "open_game",
         "name": "Partita aperta",
@@ -222,7 +222,7 @@
       "strengths": [
         "3 categorie rappresentate.",
         "6 relazioni positive, nessuna negativa o ridondante.",
-        "Score medio corretto per classe: 88.5.",
+        "Score medio corretto per classe: 78.75.",
         "Numero di eventi ridotto da 5 a 4."
       ],
       "weaknesses": [
@@ -263,19 +263,19 @@
         ],
         "addedEvents": [
           {
-            "id": "event-15",
-            "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 3.5 TIRI IN PORTA",
+            "id": "event-23",
+            "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAIBARI I. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
             "selection": "OVER",
-            "odds": 2.1,
-            "selectionId": 5195437182,
-            "marketId": 789015111,
+            "odds": 2.4,
+            "selectionId": 5195434978,
+            "marketId": 789014560,
             "category": "tiri",
-            "rankingScore": 88,
-            "class": "CORE",
-            "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
+            "rankingScore": 63,
+            "class": "SPECULATIVE",
+            "reason": "Inserito perché migliora diversità e qualità mantenendo la quota nell'intervallo accettabile."
           }
         ],
-        "improvementEstimate": "medio"
+        "improvementEstimate": "strutturale: quota o numero di gambe migliorati senza aumento dell'indice"
       }
     }
   ]

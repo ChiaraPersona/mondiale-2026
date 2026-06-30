@@ -1225,22 +1225,22 @@ function codexFixtureTeams(match) {
 }
 
 const codexReadingLinks = {
-  "Sudafrica|Canada": "lettura-sudafrica-canada.html",
-  "Brasile|Giappone": "lettura-brasile-giappone.html",
-  "Germania|Paraguay": "lettura-germania-paraguay.html",
-  "Olanda|Marocco": "lettura-olanda-marocco.html",
-  "Costa d'Avorio|Norvegia": "lettura-costa-avorio-norvegia.html",
-  "Francia|Svezia": "lettura-francia-svezia.html",
-  "Messico|Ecuador": "lettura-messico-ecuador.html",
-  "Inghilterra|RD Congo": "lettura-inghilterra-rd-congo.html",
-  "Belgio|Senegal": "lettura-belgio-senegal.html",
-  "Stati Uniti|Bosnia ed Erzegovina": "lettura-stati-uniti-bosnia-erzegovina.html",
-  "Spagna|Austria": "lettura-spagna-austria.html",
-  "Portogallo|Croazia": "lettura-portogallo-croazia.html",
-  "Svizzera|Algeria": "lettura-svizzera-algeria.html",
-  "Australia|Egitto": "lettura-australia-egitto.html",
-  "Argentina|Capo Verde": "lettura-argentina-capo-verde.html",
-  "Colombia|Ghana": "lettura-colombia-ghana.html",
+  "Sudafrica|Canada": "letture/lettura-sudafrica-canada.html",
+  "Brasile|Giappone": "letture/lettura-brasile-giappone.html",
+  "Germania|Paraguay": "letture/lettura-germania-paraguay.html",
+  "Olanda|Marocco": "letture/lettura-olanda-marocco.html",
+  "Costa d'Avorio|Norvegia": "letture/lettura-costa-avorio-norvegia.html",
+  "Francia|Svezia": "letture/lettura-francia-svezia.html",
+  "Messico|Ecuador": "letture/lettura-messico-ecuador.html",
+  "Inghilterra|RD Congo": "letture/lettura-inghilterra-rd-congo.html",
+  "Belgio|Senegal": "letture/lettura-belgio-senegal.html",
+  "Stati Uniti|Bosnia ed Erzegovina": "letture/lettura-stati-uniti-bosnia-erzegovina.html",
+  "Spagna|Austria": "letture/lettura-spagna-austria.html",
+  "Portogallo|Croazia": "letture/lettura-portogallo-croazia.html",
+  "Svizzera|Algeria": "letture/lettura-svizzera-algeria.html",
+  "Australia|Egitto": "letture/lettura-australia-egitto.html",
+  "Argentina|Capo Verde": "letture/lettura-argentina-capo-verde.html",
+  "Colombia|Ghana": "letture/lettura-colombia-ghana.html",
 };
 
 function codexReadingLink(teamA, teamB) {
@@ -2377,7 +2377,8 @@ function codexSimulateKnockout() {
       if (!teamA || !teamB) return;
       const simulated = codexScoreMatch(teamA, teamB, true, worldCupFixtures[matchNumber - 1], matchNumber);
       const real = codexRealResult(matchNumber, worldCupFixtures[matchNumber - 1]);
-      const result = real || codexApplyReadingPrediction(simulated, teamA, teamB);
+      const forecast = codexApplyReadingPrediction(simulated, teamA, teamB);
+      const result = real ? { ...real, forecast } : forecast;
       codexState.results[matchNumber] = { ...result, fixture: worldCupFixtures[matchNumber - 1] };
     });
 }
@@ -3002,6 +3003,25 @@ function codexRenderResultCard(matchNumber) {
           ${scorersA ? `<span>${codexFlag(result.teamA)}${scorersA}</span>` : ""}
           ${scorersB ? `<span>${codexFlag(result.teamB)}${scorersB}</span>` : ""}
         </div>` : "";
+  const forecastReview = result.isReal && result.forecast ? (() => {
+    const forecast = result.forecast;
+    const exact = forecast.goalsA === result.goalsA && forecast.goalsB === result.goalsB;
+    const total = result.goalsA + result.goalsB;
+    const goal = result.goalsA > 0 && result.goalsB > 0;
+    const forecastTotal = forecast.goalsA + forecast.goalsB;
+    const forecastGoal = forecast.goalsA > 0 && forecast.goalsB > 0;
+    const picks = [
+      exact ? `Risultato esatto ${result.goalsA}-${result.goalsB}` : "",
+      (forecastTotal < 2.5) === (total < 2.5) ? (total < 2.5 ? "Under 2,5" : "Over 2,5") : "",
+      forecastGoal === goal ? (goal ? "Goal" : "No Goal") : "",
+    ].filter(Boolean);
+    const qualified = forecast.winner === result.winner;
+    return `
+      <div class="codex-bet-forecast">
+        <b>Pronostici presi:</b> ${picks.length ? picks.map(codexEscape).join(" · ") : "nessuno tra risultato esatto, linea gol e Goal/No Goal"}
+        <small>${qualified ? "Passaggio del turno centrato" : `Passaggio del turno non preso: qualificata ${codexEscape(result.winner)}`}</small>
+      </div>`;
+  })() : "";
   return `
     <article class="codex-match-card ${matchNumber > 72 ? "is-knockout" : ""} ${result.isReal ? "is-real-result" : ""}">
       <span class="fixture-number">${matchNumber}</span>
@@ -3014,6 +3034,7 @@ function codexRenderResultCard(matchNumber) {
         </strong>
         ${scorerBlock}
         ${result.isReal ? '<em class="codex-real-result-badge">Risultato reale</em>' : ""}
+        ${forecastReview}
         ${codexRenderCardsSummary(result)}
         ${codexPsychologyMatchPanel(result, matchNumber)}
         ${codexSurprisePanel(result, matchNumber)}

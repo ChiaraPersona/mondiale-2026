@@ -1363,6 +1363,21 @@ const worldCupResults = {
       "Il Paraguay vince 4-3 ai rigori e si qualifica agli ottavi di finale.",
     ],
   },
+  75: {
+    status: "Finale dopo i rigori",
+    home: 1,
+    away: 1,
+    winner: "Marocco",
+    penalties: { home: 2, away: 3 },
+    source: "https://www.diretta.it/partita/calcio/marocco-IDKYO3R8/olanda-WYintcWb/?mid=S0MygXWj",
+    sources: ["https://www.diretta.it/partita/calcio/marocco-IDKYO3R8/olanda-WYintcWb/?mid=S0MygXWj"],
+    scorers: { "Olanda": [], "Marocco": [] },
+    notes: [
+      "Olanda e Marocco chiudono 1-1 dopo i tempi supplementari.",
+      "Il Marocco vince 3-2 ai rigori e si qualifica agli ottavi di finale.",
+      "Centrati risultato esatto 1-1, Under 2,5 e Goal; non preso il passaggio del turno dell'Olanda.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

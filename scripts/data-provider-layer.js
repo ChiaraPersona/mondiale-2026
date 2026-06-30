@@ -42,7 +42,7 @@ function writeProvider(name, base, value) {
 function processFile(filename) {
   const base = filename.replace(/-quote\.json$/i, "");
   const quoteData = QuoteProvider(path.join(quoteDirectory, filename));
-  const pagePath = path.join(root, `lettura-${base}.html`);
+  const pagePath = path.join(root, "letture", `lettura-${base}.html`);
   if (!fs.existsSync(pagePath)) throw new Error(`Pagina lettura non trovata: ${pagePath}`);
   const source = readPage(pagePath);
 

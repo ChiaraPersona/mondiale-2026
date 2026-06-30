@@ -309,6 +309,18 @@ header {
   font-size: 16px;
 }
 
+.mycombo-tab-values {
+  display: grid;
+  gap: 2px;
+  text-align: right;
+}
+
+.mycombo-tabs button .mycombo-tab-values small {
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 800;
+}
+
 .mycombo-tabs button.active {
   border-color: rgba(0, 208, 132, .65);
   color: #fff;
@@ -391,7 +403,8 @@ header {
   font-size: 17px;
 }
 
-.mycombo-final-card > header > strong {
+.mycombo-final-card > header > strong,
+.mycombo-portfolio-metrics > strong {
   display: grid;
   color: #f5c84b;
   font-size: 22px;
@@ -399,12 +412,25 @@ header {
   text-align: right;
 }
 
-.mycombo-final-card > header > strong small {
+.mycombo-final-card > header > strong small,
+.mycombo-portfolio-metrics > strong small {
   margin-bottom: 5px;
   color: var(--muted);
   font-size: 9px;
   letter-spacing: .06em;
   text-transform: uppercase;
+}
+
+.mycombo-portfolio-metrics {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.mycombo-portfolio-metrics .mycombo-success-probability {
+  border-left: 1px solid rgba(255, 255, 255, .12);
+  padding-left: 18px;
+  color: var(--green);
 }
 
 .mycombo-target-note {
@@ -738,6 +764,23 @@ header {
 
   .mycombo-final-card > header > strong {
     text-align: left;
+  }
+
+  .mycombo-portfolio-metrics {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .mycombo-portfolio-metrics > strong {
+    text-align: left;
+  }
+
+  .mycombo-portfolio-metrics .mycombo-success-probability {
+    border-top: 1px solid rgba(255, 255, 255, .12);
+    border-left: 0;
+    padding-top: 12px;
+    padding-left: 0;
   }
 
   .mycombo-selection-title {

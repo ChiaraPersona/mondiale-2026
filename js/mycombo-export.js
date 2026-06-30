@@ -10,6 +10,16 @@
   })[character]);
   const firstValue = (source, keys) => keys.map((key) => source?.[key]).find((value) => value !== undefined && value !== null && value !== "");
   const displayValue = (value, suffix = "") => value === undefined || value === null || value === "" ? "n.d." : `${escapeHtml(value)}${suffix}`;
+  const comboProbability = (odds) => {
+    const numericOdds = Number(odds);
+    return Number.isFinite(numericOdds) && numericOdds > 1
+      ? Math.round((100 / numericOdds) * 10) / 10
+      : null;
+  };
+  const probabilityLabel = (odds) => {
+    const probability = comboProbability(odds);
+    return probability === null ? "n.d." : `${probability.toFixed(1)}%`;
+  };
 
   function matchName() {
     return clean(document.querySelector(".reading-versus b")?.textContent || document.title.replace(/^Lettura\s*-\s*/i, ""));
@@ -234,11 +244,15 @@
     const comboWon = settledSelections.length === selections.length && settledSelections.every(result => result.status === "won");
     const comboResult = comboLost ? "PERSA" : comboWon ? "VINTA" : "DA VERIFICARE";
     const comboTone = comboLost ? "is-lost" : comboWon ? "is-won" : "is-pending";
+    const probability = probabilityLabel(found);
     return `
       <article class="mycombo-final-card ${comboTone}">
         <header>
           <div><span>Quota target ${target}</span><h4>${title}</h4></div>
-          <strong><small>${comboResult} · Quota trovata</small>${displayValue(found)}</strong>
+          <div class="mycombo-portfolio-metrics">
+            <strong><small>${comboResult} · Quota trovata</small>${displayValue(found)}</strong>
+            <strong class="mycombo-success-probability"><small>Probabilità implicita</small>${probability}</strong>
+          </div>
         </header>
         ${missedTarget ? `<p class="mycombo-target-note">Quota target ${target}, quota trovata ${escapeHtml(found)}</p>` : ""}
         <ol class="mycombo-selections">${selections.map(selectionCard).join("") || '<li class="mycombo-combo-empty">Nessuna selezione presente.</li>'}</ol>
@@ -261,6 +275,7 @@
     const risk = portfolio.riskProfile || {};
     const riskNotes = Array.isArray(portfolio.riskNotes) ? portfolio.riskNotes.filter(Boolean) : [];
     const riskVerdict = fold(portfolio.riskVerdict || "high");
+    const successProbability = probabilityLabel(portfolio.finalOdds);
     return `
       <article class="mycombo-final-card mycombo-portfolio-panel" data-portfolio-panel="${index}" ${index ? "hidden" : ""}>
         <header>
@@ -268,7 +283,10 @@
             <span>Scenario · ${escapeHtml(scenario || "Non specificato")}</span>
             <h4>${escapeHtml(portfolio.name)}</h4>
           </div>
-          <strong><small>Quota finale</small>${escapeHtml(portfolio.finalOdds)}</strong>
+          <div class="mycombo-portfolio-metrics">
+            <strong><small>Quota finale</small>${escapeHtml(portfolio.finalOdds)}</strong>
+            <strong class="mycombo-success-probability"><small>Probabilità implicita di successo</small>${successProbability}</strong>
+          </div>
         </header>
         ${portfolio.reason ? `<p class="mycombo-portfolio-reason">${escapeHtml(portfolio.reason)}</p>` : ""}
         <section class="mycombo-risk-profile is-${escapeHtml(riskVerdict)}">
@@ -308,7 +326,10 @@
         ${payload.portfolios.map((portfolio, index) => `
           <button type="button" role="tab" aria-selected="${index === 0}" class="${index === 0 ? "active" : ""}" data-portfolio-tab="${index}">
             <span>${escapeHtml(portfolio.name)}</span>
-            <strong>${escapeHtml(portfolio.finalOdds)}</strong>
+            <span class="mycombo-tab-values">
+              <strong>${escapeHtml(portfolio.finalOdds)}</strong>
+              <small>${probabilityLabel(portfolio.finalOdds)} successo</small>
+            </span>
           </button>`).join("")}
       </div>
       <div class="mycombo-portfolio-content">
@@ -424,6 +445,7 @@
     downloadStudy,
     render,
     renderFinalCombos,
+    comboProbability,
     loadFinalCombos,
     pageSlug,
     viewerDebug,

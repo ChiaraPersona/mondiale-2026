@@ -1,0 +1,329 @@
+{
+  "match": "Francia - Svezia",
+  "scenarios": [
+    {
+      "id": "favorite_dominance",
+      "name": "Dominio Francia",
+      "description": "Francia controlla territorio e volume offensivo, producendo più tiri e corner.",
+      "estimatedProbability": "alta",
+      "compatibleEvents": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1"
+        },
+        {
+          "id": "event-02",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X"
+        },
+        {
+          "id": "event-03",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1"
+        },
+        {
+          "id": "event-08",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-12",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL"
+        },
+        {
+          "id": "event-13",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-15",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-18",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 15.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 6.5 TIRI IN PORTA",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-22",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MBAPPE K. U/O 4.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-23",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MBAPPE K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-24",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DEMBELE OUSMANE U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-25",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BARCOLA B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        }
+      ],
+      "incompatibleEvents": [
+        {
+          "id": "event-11",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "2"
+        }
+      ],
+      "rootCauses": [
+        "Motivazione Francia: very_high",
+        "Forma Francia: excellent"
+      ]
+    },
+    {
+      "id": "controlled_favorite_win",
+      "name": "Vittoria controllata Francia",
+      "description": "Francia passa in vantaggio e gestisce la gara senza trasformarla in una partita aperta.",
+      "estimatedProbability": "media",
+      "compatibleEvents": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1"
+        },
+        {
+          "id": "event-02",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X"
+        },
+        {
+          "id": "event-03",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1"
+        },
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 4.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-14",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-16",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER"
+        }
+      ],
+      "incompatibleEvents": [
+        {
+          "id": "event-12",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL"
+        },
+        {
+          "id": "event-15",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "OVER"
+        }
+      ],
+      "rootCauses": [
+        "Motivazione Francia: very_high",
+        "Forma Francia: excellent",
+        "Gestione del vantaggio"
+      ]
+    },
+    {
+      "id": "balanced_resistance",
+      "name": "Resistenza Svezia",
+      "description": "Svezia mantiene equilibrio, limita la favorita e conserva possibilità nelle transizioni.",
+      "estimatedProbability": "bassa",
+      "compatibleEvents": [
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 4.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-09",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 7.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-14",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-16",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-20",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 6.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-21",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-26",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ISAK A. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-27",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GYOKERES V. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        }
+      ],
+      "incompatibleEvents": [
+        {
+          "id": "event-08",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-18",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 15.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 6.5 TIRI IN PORTA",
+          "selection": "OVER"
+        }
+      ],
+      "rootCauses": [
+        "Motivazione Svezia: non disponibile",
+        "Forma Svezia: negative",
+        "Differenza di 16 punti per la Francia. Rischio sorpresa basso; il principale pericolo è una partita bloccata più che una superiorità svedese continuativa."
+      ]
+    },
+    {
+      "id": "open_game",
+      "name": "Partita aperta",
+      "description": "Il ritmo cresce, aumentano conclusioni, corner e possibilità di gol da entrambe le parti.",
+      "estimatedProbability": "media",
+      "compatibleEvents": [
+        {
+          "id": "event-05",
+          "market": "U/O CORNER — U/O 8.5 CORNER",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-06",
+          "market": "U/O CORNER — U/O 10.5 CORNER",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-08",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-09",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 7.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-12",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL"
+        },
+        {
+          "id": "event-13",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-15",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-18",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 15.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 6.5 TIRI IN PORTA",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-20",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 6.5 TIRI TOTALI",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-21",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-22",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MBAPPE K. U/O 4.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-23",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MBAPPE K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-24",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DEMBELE OUSMANE U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-25",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BARCOLA B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-26",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ISAK A. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-27",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GYOKERES V. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        }
+      ],
+      "incompatibleEvents": [
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 4.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-14",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER"
+        },
+        {
+          "id": "event-16",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER"
+        }
+      ],
+      "rootCauses": [
+        "Intensità offensiva",
+        "Transizioni",
+        "Partita sensibile al primo gol"
+      ]
+    }
+  ]
+}

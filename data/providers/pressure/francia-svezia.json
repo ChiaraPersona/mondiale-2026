@@ -1,0 +1,8 @@
+{
+  "match": "Francia - Svezia",
+  "data": {
+    "mustWin": false,
+    "canSettle": true,
+    "knockout": false
+  }
+}

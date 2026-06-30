@@ -19,6 +19,14 @@ const teamPlayers = {
     team1: ["HAVERTZ", "UNDAV", "SANE", "WIRTZ"],
     team2: ["AVALOS", "ENCISO", "ALMIRON", "CUBAS", "CACERES", "ALONSO"],
   },
+  "costa-avorio-norvegia": {
+    team1: ["PEPE", "DIALLO", "INAO OULAI", "SANGARE"],
+    team2: ["HAALAND", "SORLOTH", "NUSA", "ODEGAARD", "AJER"],
+  },
+  "francia-svezia": {
+    team1: ["MBAPPE", "DEMBELE", "BARCOLA", "OLISE"],
+    team2: ["ISAK", "GYOKERES", "LAGERBIELKE", "KARLSTROM", "LINDELOF"],
+  },
 };
 
 function normalized(value) {

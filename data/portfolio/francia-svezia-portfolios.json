@@ -1,0 +1,232 @@
+{
+  "match": "Francia - Svezia",
+  "portfolios": [
+    {
+      "name": "Portfolio Safe",
+      "targetOdds": 5,
+      "status": "target_reached",
+      "totalOdds": 5.02,
+      "events": [
+        {
+          "id": "event-03",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1",
+          "odds": 1.27,
+          "selectionId": 5195839813,
+          "marketId": 789088767,
+          "category": "esito",
+          "rankingScore": 92,
+          "class": "CORE"
+        },
+        {
+          "id": "event-08",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5196907855,
+          "marketId": 789287959,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE"
+        },
+        {
+          "id": "event-13",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER",
+          "odds": 1.4,
+          "selectionId": 5195846734,
+          "marketId": 789089259,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 6.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.8,
+          "selectionId": 5196903763,
+          "marketId": 789286936,
+          "category": "tiri",
+          "rankingScore": 86,
+          "class": "CORE"
+        }
+      ],
+      "scenario": {
+        "id": "favorite_dominance",
+        "name": "Dominio Francia",
+        "estimatedProbability": "alta"
+      },
+      "reason": "Selezione costruita interamente sullo scenario “Dominio Francia”, privilegiando Score elevati, compatibilità e vicinanza alla quota 5.",
+      "strengths": [
+        "3 categorie rappresentate: esito, tiri, goal.",
+        "Score medio 88.25.",
+        "6 relazioni positive e nessuna relazione negativa o ridondante.",
+        "Motivazione Francia: very_high",
+        "Forma Francia: excellent"
+      ],
+      "weaknesses": [
+        "Il portfolio resta sensibile al mancato verificarsi dello scenario comune."
+      ]
+    },
+    {
+      "name": "Portfolio Balanced",
+      "targetOdds": 10,
+      "status": "target_reached",
+      "totalOdds": 10,
+      "events": [
+        {
+          "id": "event-05",
+          "market": "U/O CORNER — U/O 8.5 CORNER",
+          "selection": "OVER",
+          "odds": 1.62,
+          "selectionId": 5197607096,
+          "marketId": 789412934,
+          "category": "corner",
+          "rankingScore": 89,
+          "class": "CORE"
+        },
+        {
+          "id": "event-12",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.75,
+          "selectionId": 5195840217,
+          "marketId": 789088786,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
+        },
+        {
+          "id": "event-13",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER",
+          "odds": 1.4,
+          "selectionId": 5195846734,
+          "marketId": 789089259,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
+        },
+        {
+          "id": "event-18",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 15.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.4,
+          "selectionId": 5196903627,
+          "marketId": 789286902,
+          "category": "tiri",
+          "rankingScore": 86,
+          "class": "CORE"
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 6.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.8,
+          "selectionId": 5196903763,
+          "marketId": 789286936,
+          "category": "tiri",
+          "rankingScore": 86,
+          "class": "CORE"
+        }
+      ],
+      "scenario": {
+        "id": "open_game",
+        "name": "Partita aperta",
+        "estimatedProbability": "media"
+      },
+      "reason": "Selezione costruita interamente sullo scenario “Partita aperta”, privilegiando Score elevati, compatibilità e vicinanza alla quota 10.",
+      "strengths": [
+        "3 categorie rappresentate: corner, goal, tiri.",
+        "Score medio 87.",
+        "10 relazioni positive e nessuna relazione negativa o ridondante.",
+        "Intensità offensiva",
+        "Transizioni"
+      ],
+      "weaknesses": [
+        "Lo scenario ha probabilità qualitativa media."
+      ]
+    },
+    {
+      "name": "Portfolio Aggressive",
+      "targetOdds": 20,
+      "status": "target_reached",
+      "totalOdds": 20.11,
+      "events": [
+        {
+          "id": "event-06",
+          "market": "U/O CORNER — U/O 10.5 CORNER",
+          "selection": "OVER",
+          "odds": 2.4,
+          "selectionId": 5197607194,
+          "marketId": 789412957,
+          "category": "corner",
+          "rankingScore": 89,
+          "class": "CORE"
+        },
+        {
+          "id": "event-12",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.75,
+          "selectionId": 5195840217,
+          "marketId": 789088786,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
+        },
+        {
+          "id": "event-15",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "OVER",
+          "odds": 2,
+          "selectionId": 5195846738,
+          "marketId": 789089260,
+          "category": "goal",
+          "rankingScore": 87,
+          "class": "CORE"
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 6.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.8,
+          "selectionId": 5196903763,
+          "marketId": 789286936,
+          "category": "tiri",
+          "rankingScore": 86,
+          "class": "CORE"
+        },
+        {
+          "id": "event-23",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MBAPPE K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.33,
+          "selectionId": 5196906611,
+          "marketId": 789287648,
+          "category": "tiri",
+          "rankingScore": 61,
+          "class": "VALUE"
+        }
+      ],
+      "scenario": {
+        "id": "open_game",
+        "name": "Partita aperta",
+        "estimatedProbability": "media"
+      },
+      "reason": "Selezione costruita interamente sullo scenario “Partita aperta”, privilegiando Score elevati, compatibilità e vicinanza alla quota 20.",
+      "strengths": [
+        "3 categorie rappresentate: corner, goal, tiri.",
+        "Score medio 82.",
+        "10 relazioni positive e nessuna relazione negativa o ridondante.",
+        "Intensità offensiva",
+        "Transizioni"
+      ],
+      "weaknesses": [
+        "I mercati giocatore restano sensibili a minutaggio, ruolo e sostituzioni.",
+        "Lo scenario ha probabilità qualitativa media."
+      ]
+    }
+  ]
+}

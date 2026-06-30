@@ -1,0 +1,785 @@
+{
+  "match": "Francia - Svezia",
+  "events": [
+    {
+      "mercato": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+      "selezione": "1",
+      "quota": 1.12,
+      "selectionId": 5195843075,
+      "marketId": 789089036,
+      "categoria": "esito",
+      "motivo": "Francia qualificata, in linea con il verdetto della lettura.",
+      "puntiDiForza": [
+        "La Francia ha un vantaggio netto per qualità, profondità e produzione offensiva; il 3-1 è il risultato guida."
+      ],
+      "possibiliCriticita": [
+        "Il 3-4-3 svedese conserva una minaccia concreta con Isak, Gyökeres ed Elanga."
+      ],
+      "score": 94,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 25,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 12,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+      "selezione": "1X",
+      "quota": 1.04,
+      "selectionId": 5195846753,
+      "marketId": 789089264,
+      "categoria": "esito",
+      "motivo": "Copertura molto prudente sulla Francia.",
+      "puntiDiForza": [
+        "La Francia ha un vantaggio netto per qualità, profondità e produzione offensiva; il 3-1 è il risultato guida."
+      ],
+      "possibiliCriticita": [
+        "Il 3-4-3 svedese conserva una minaccia concreta con Isak, Gyökeres ed Elanga."
+      ],
+      "score": 93,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 25,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 12,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+      "selezione": "1",
+      "quota": 1.27,
+      "selectionId": 5195839813,
+      "marketId": 789088767,
+      "categoria": "esito",
+      "motivo": "Francia vincente, coerente con il divario tecnico e il 3-1 guida.",
+      "puntiDiForza": [
+        "La Francia ha un vantaggio netto per qualità, profondità e produzione offensiva; il 3-1 è il risultato guida."
+      ],
+      "possibiliCriticita": [
+        "Il 3-4-3 svedese conserva una minaccia concreta con Isak, Gyökeres ed Elanga."
+      ],
+      "score": 92,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 12,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 4.5",
+      "selezione": "UNDER",
+      "quota": 1.27,
+      "selectionId": 5195846741,
+      "marketId": 789089261,
+      "categoria": "goal",
+      "motivo": "Linea larga coerente con tutti gli scenari principali.",
+      "puntiDiForza": [
+        "Il risultato guida 3-1 e gli undici offensivi sostengono Over 2,5 e almeno una rete svedese."
+      ],
+      "possibiliCriticita": [
+        "Tchouaméni aumenta la protezione francese e può riportare la gara verso uno scenario da porta inviolata."
+      ],
+      "score": 89,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER — U/O 8.5 CORNER",
+      "selezione": "OVER",
+      "quota": 1.62,
+      "selectionId": 5197607096,
+      "marketId": 789412934,
+      "categoria": "corner",
+      "motivo": "La proiezione totale 9-13 sostiene l'Over 8,5.",
+      "puntiDiForza": [
+        "La proiezione di 9-13 corner, con forte pressione francese, sostiene le linee centrali."
+      ],
+      "possibiliCriticita": [
+        "Un vantaggio francese precoce può ridurre ritmo e volume nella ripresa."
+      ],
+      "score": 89,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER — U/O 10.5 CORNER",
+      "selezione": "OVER",
+      "quota": 2.4,
+      "selectionId": 5197607194,
+      "marketId": 789412957,
+      "categoria": "corner",
+      "motivo": "Variante sulla parte alta della proiezione totale.",
+      "puntiDiForza": [
+        "La proiezione di 9-13 corner, con forte pressione francese, sostiene le linee centrali."
+      ],
+      "possibiliCriticita": [
+        "Un vantaggio francese precoce può ridurre ritmo e volume nella ripresa."
+      ],
+      "score": 89,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER — U/O 10.5 CORNER",
+      "selezione": "UNDER",
+      "quota": 1.5,
+      "selectionId": 5197607193,
+      "marketId": 789412957,
+      "categoria": "corner",
+      "motivo": "Copertura sulla zona centrale della proiezione corner.",
+      "puntiDiForza": [
+        "La proiezione di 9-13 corner, con forte pressione francese, sostiene le linee centrali."
+      ],
+      "possibiliCriticita": [
+        "Un vantaggio francese precoce può ridurre ritmo e volume nella ripresa."
+      ],
+      "score": 89,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 16.5 TIRI TOTALI",
+      "selezione": "OVER",
+      "quota": 1.57,
+      "selectionId": 5196907855,
+      "marketId": 789287959,
+      "categoria": "tiri",
+      "motivo": "Linea sotto la proiezione francese.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 88,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 20,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 7.5 TIRI TOTALI",
+      "selezione": "OVER",
+      "quota": 1.57,
+      "selectionId": 5196906807,
+      "marketId": 789287697,
+      "categoria": "tiri",
+      "motivo": "Linea centrale della proiezione svedese.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 88,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 20,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+      "selezione": "X",
+      "quota": 6,
+      "selectionId": 5195839814,
+      "marketId": 789088767,
+      "categoria": "esito",
+      "motivo": "Il pareggio è lo scenario alternativo se la Francia non converte il volume.",
+      "puntiDiForza": [
+        "La Francia ha un vantaggio netto per qualità, profondità e produzione offensiva; il 3-1 è il risultato guida."
+      ],
+      "possibiliCriticita": [
+        "Il 3-4-3 svedese conserva una minaccia concreta con Isak, Gyökeres ed Elanga."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: mercato strutturalmente stabile; penalizzato da linea più aggressiva rispetto allo scenario centrale.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 18,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 12,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+      "selezione": "2",
+      "quota": 11,
+      "selectionId": 5195839815,
+      "marketId": 789088767,
+      "categoria": "esito",
+      "motivo": "Successo svedese come scenario sorpresa ad alta quota.",
+      "puntiDiForza": [
+        "La Francia ha un vantaggio netto per qualità, profondità e produzione offensiva; il 3-1 è il risultato guida."
+      ],
+      "possibiliCriticita": [
+        "Il 3-4-3 svedese conserva una minaccia concreta con Isak, Gyökeres ed Elanga."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: mercato strutturalmente stabile; penalizzato da linea più aggressiva rispetto allo scenario centrale.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 18,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 12,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "GOAL/NOGOAL — GOAL/NO GOAL",
+      "selezione": "GOAL",
+      "quota": 1.75,
+      "selectionId": 5195840217,
+      "marketId": 789088786,
+      "categoria": "goal",
+      "motivo": "Il 3-1 centrale e il tridente svedese sostengono entrambe a segno.",
+      "puntiDiForza": [
+        "Il risultato guida 3-1 e gli undici offensivi sostengono Over 2,5 e almeno una rete svedese."
+      ],
+      "possibiliCriticita": [
+        "Tchouaméni aumenta la protezione francese e può riportare la gara verso uno scenario da porta inviolata."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 2.5",
+      "selezione": "OVER",
+      "quota": 1.4,
+      "selectionId": 5195846734,
+      "marketId": 789089259,
+      "categoria": "goal",
+      "motivo": "La Francia può produrre da sola gran parte della linea.",
+      "puntiDiForza": [
+        "Il risultato guida 3-1 e gli undici offensivi sostengono Over 2,5 e almeno una rete svedese."
+      ],
+      "possibiliCriticita": [
+        "Tchouaméni aumenta la protezione francese e può riportare la gara verso uno scenario da porta inviolata."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 2.5",
+      "selezione": "UNDER",
+      "quota": 2.75,
+      "selectionId": 5195846733,
+      "marketId": 789089259,
+      "categoria": "goal",
+      "motivo": "Copertura se Tchouaméni e il controllo francese comprimono la gara.",
+      "puntiDiForza": [
+        "Il risultato guida 3-1 e gli undici offensivi sostengono Over 2,5 e almeno una rete svedese."
+      ],
+      "possibiliCriticita": [
+        "Tchouaméni aumenta la protezione francese e può riportare la gara verso uno scenario da porta inviolata."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 3.5",
+      "selezione": "OVER",
+      "quota": 2,
+      "selectionId": 5195846738,
+      "marketId": 789089260,
+      "categoria": "goal",
+      "motivo": "Il 3-1 guida contiene quattro reti.",
+      "puntiDiForza": [
+        "Il risultato guida 3-1 e gli undici offensivi sostengono Over 2,5 e almeno una rete svedese."
+      ],
+      "possibiliCriticita": [
+        "Tchouaméni aumenta la protezione francese e può riportare la gara verso uno scenario da porta inviolata."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 3.5",
+      "selezione": "UNDER",
+      "quota": 1.7,
+      "selectionId": 5195846737,
+      "marketId": 789089260,
+      "categoria": "goal",
+      "motivo": "Protegge gli scenari alternativi 2-0 e 3-0.",
+      "puntiDiForza": [
+        "Il risultato guida 3-1 e gli undici offensivi sostengono Over 2,5 e almeno una rete svedese."
+      ],
+      "possibiliCriticita": [
+        "Tchouaméni aumenta la protezione francese e può riportare la gara verso uno scenario da porta inviolata."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER — U/O 8.5 CORNER",
+      "selezione": "UNDER",
+      "quota": 2.1,
+      "selectionId": 5197607095,
+      "marketId": 789412934,
+      "categoria": "corner",
+      "motivo": "Variante prudente se la Svezia non riesce a uscire.",
+      "puntiDiForza": [
+        "La proiezione di 9-13 corner, con forte pressione francese, sostiene le linee centrali."
+      ],
+      "possibiliCriticita": [
+        "Un vantaggio francese precoce può ridurre ritmo e volume nella ripresa."
+      ],
+      "score": 87,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 15.5 TIRI TOTALI",
+      "selezione": "OVER",
+      "quota": 1.4,
+      "selectionId": 5196903627,
+      "marketId": 789286902,
+      "categoria": "tiri",
+      "motivo": "Francia proiettata a 18-23 tiri.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 86,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 20,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 6.5 TIRI IN PORTA",
+      "selezione": "OVER",
+      "quota": 1.8,
+      "selectionId": 5196903763,
+      "marketId": 789286936,
+      "categoria": "tiri",
+      "motivo": "Francia proiettata a 7-10 tiri nello specchio.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 86,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 20,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 6.5 TIRI TOTALI",
+      "selezione": "OVER",
+      "quota": 1.33,
+      "selectionId": 5196905083,
+      "marketId": 789287266,
+      "categoria": "tiri",
+      "motivo": "Svezia proiettata a 6-9 conclusioni.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 86,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 20,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+      "selezione": "OVER",
+      "quota": 1.95,
+      "selectionId": 5196903287,
+      "marketId": 789284251,
+      "categoria": "tiri",
+      "motivo": "Isak e Gyökeres rendono plausibili almeno tre tiri in porta.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 86,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 20,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MBAPPE K. U/O 4.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.65,
+      "selectionId": 5196903927,
+      "marketId": 789286977,
+      "categoria": "tiri",
+      "motivo": "Variante aggressiva sul principale terminale francese.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 65,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 25,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MBAPPE K. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.33,
+      "selectionId": 5196906611,
+      "marketId": 789287648,
+      "categoria": "tiri",
+      "motivo": "Mbappé è proiettato a 4-6 tiri.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 61,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DEMBELE OUSMANE U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.4,
+      "selectionId": 5196904651,
+      "marketId": 789287158,
+      "categoria": "tiri",
+      "motivo": "Dembélé è proiettato a 2-4 conclusioni.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 61,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BARCOLA B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.25,
+      "selectionId": 5196905671,
+      "marketId": 789287413,
+      "categoria": "tiri",
+      "motivo": "Barcola può produrre almeno due tiri attaccando la profondità.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 61,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ISAK A. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.5,
+      "selectionId": 5196905539,
+      "marketId": 789287380,
+      "categoria": "tiri",
+      "motivo": "Isak è uno dei due terminali principali della Svezia.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 61,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — GYOKERES V. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.57,
+      "selectionId": 5196905635,
+      "marketId": 789287404,
+      "categoria": "tiri",
+      "motivo": "Gyökeres può produrre almeno due conclusioni anche con poco possesso.",
+      "puntiDiForza": [
+        "Francia 18-23 tiri e Svezia 6-9; Mbappé, Dembélé, Barcola, Olise, Isak e Gyökeres sono i riferimenti."
+      ],
+      "possibiliCriticita": [
+        "Rotazioni, sostituzioni e punteggio acquisito possono ridurre i volumi individuali."
+      ],
+      "score": 61,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 15,
+        "indipendenzaSingoloGiocatore": 4,
+        "stabilitaMinutaggio": 5,
+        "stabilitaAndamentoPartita": 8,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "CARTELLINO SI/NO (DUO) INC TS — LAGERBIELKE G. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selezione": "SI",
+      "quota": 3.75,
+      "selectionId": 5197785721,
+      "marketId": 789449167,
+      "categoria": "cartellini",
+      "motivo": "Lagerbielke è la prima scelta ammoniti, pur con fiducia moderata da Makkelie.",
+      "puntiDiForza": [
+        "Lagerbielke e Karlström sono esposti alle accelerazioni francesi e ai falli tattici."
+      ],
+      "possibiliCriticita": [
+        "Makkelie ha una media contenuta di 3,31 gialli, quindi i cartellini individuali restano selezioni prudenti."
+      ],
+      "score": 60,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 25,
+        "stabilitaMercato": 10,
+        "indipendenzaSingoloGiocatore": 3,
+        "stabilitaMinutaggio": 7,
+        "stabilitaAndamentoPartita": 7,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "CARTELLINO SI/NO (DUO) INC TS — KARLSTROM J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selezione": "SI",
+      "quota": 3.75,
+      "selectionId": 5197785589,
+      "marketId": 789449134,
+      "categoria": "cartellini",
+      "motivo": "Karlström è esposto alle ricezioni centrali francesi.",
+      "puntiDiForza": [
+        "Lagerbielke e Karlström sono esposti alle accelerazioni francesi e ai falli tattici."
+      ],
+      "possibiliCriticita": [
+        "Makkelie ha una media contenuta di 3,31 gialli, quindi i cartellini individuali restano selezioni prudenti."
+      ],
+      "score": 56,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 10,
+        "indipendenzaSingoloGiocatore": 3,
+        "stabilitaMinutaggio": 7,
+        "stabilitaAndamentoPartita": 7,
+        "semplicitaMercato": 8
+      }
+    },
+    {
+      "mercato": "CARTELLINO SI/NO (DUO) INC TS — LINDELOF V. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selezione": "SI",
+      "quota": 6,
+      "selectionId": 5197785597,
+      "marketId": 789449136,
+      "categoria": "cartellini",
+      "motivo": "Lindelöf può essere costretto a coperture profonde su Mbappé.",
+      "puntiDiForza": [
+        "Lagerbielke e Karlström sono esposti alle accelerazioni francesi e ai falli tattici."
+      ],
+      "possibiliCriticita": [
+        "Makkelie ha una media contenuta di 3,31 gialli, quindi i cartellini individuali restano selezioni prudenti."
+      ],
+      "score": 53,
+      "classe": "SPECULATIVE",
+      "motivoScore": "SPECULATIVE: supporto sufficiente dell'analisi; penalizzato da linea più aggressiva rispetto allo scenario centrale e mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 18,
+        "stabilitaMercato": 10,
+        "indipendenzaSingoloGiocatore": 3,
+        "stabilitaMinutaggio": 7,
+        "stabilitaAndamentoPartita": 7,
+        "semplicitaMercato": 8
+      }
+    }
+  ]
+}

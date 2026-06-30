@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { portfolioRiskLimits, withEventRisk, assessPortfolio } = require("./risk-engine");
 
 const root = path.resolve(__dirname, "..");
 const mvpDirectory = path.join(root, "data", "mvp");
@@ -7,25 +8,25 @@ const requestedMatch = process.argv[2];
 
 const configs = {
   "Portfolio Safe": {
-    range: [4.5, 5.5],
+    id: "safe",
+    ...portfolioRiskLimits.safe,
     softMinimum: 3.8,
     minScore: 80,
     classes: new Set(["CORE"]),
-    maxEvents: 5,
   },
   "Portfolio Balanced": {
-    range: [9, 11],
+    id: "balanced",
+    ...portfolioRiskLimits.balanced,
     softMinimum: 7.2,
     minScore: 65,
     classes: new Set(["CORE", "VALUE"]),
-    maxEvents: 6,
   },
   "Portfolio Aggressive": {
-    range: [18, 22],
+    id: "aggressive",
+    ...portfolioRiskLimits.aggressive,
     softMinimum: 14.4,
     minScore: 55,
     classes: new Set(["CORE", "VALUE", "SPECULATIVE"]),
-    maxEvents: 7,
   },
 };
 
@@ -67,7 +68,7 @@ function adjustedEventQuality(event) {
   return event.score - classPenalty;
 }
 
-function portfolioStats(selected, edges) {
+function portfolioStats(selected, edges, portfolioId) {
   const totalOdds = selected.reduce((total, event) => total * event.odds, 1);
   const adjusted = selected.map(adjustedEventQuality);
   const averageQuality = adjusted.reduce((total, value) => total + value, 0) / adjusted.length;
@@ -95,6 +96,17 @@ function portfolioStats(selected, edges) {
     repeatedCategories -
     neutral * 0.4 -
     veryHighCorrelation * 0.8;
+  const risk = assessPortfolio(selected, portfolioId, edges);
+  const concentrationPenalty =
+    risk.riskProfile.riskConcentration === "high" ? 18 :
+    risk.riskProfile.riskConcentration === "medium" ? 7 : 0;
+  const optimizationScore =
+    risk.riskProfile.averageRisk * 2 +
+    risk.riskProfile.maxEventRisk * 0.8 +
+    risk.riskProfile.highRiskEvents * 35 +
+    concentrationPenalty -
+    qualityIndex * 0.35 +
+    Math.max(0, 6 - selected.length) * 3;
 
   return {
     totalOdds,
@@ -105,6 +117,8 @@ function portfolioStats(selected, edges) {
     neutral,
     veryHighCorrelation,
     qualityIndex,
+    optimizationScore,
+    ...risk,
   };
 }
 
@@ -114,15 +128,16 @@ function searchBest(candidates, config, edges, previouslySelected = new Set()) {
   const [minimum, maximum] = config.range;
 
   function consider(selected) {
-    if (selected.length < 2) return;
+    if (selected.length < config.minEvents) return;
     const sharedEvents = selected.filter(event => previouslySelected.has(event.id)).length;
     if (sharedEvents > 1) return;
-    const stats = portfolioStats(selected, edges);
+    const stats = portfolioStats(selected, edges, config.id);
+    if (!stats.allowed) return;
     const result = { selected: [...selected], stats };
     if (stats.totalOdds >= minimum && stats.totalOdds <= maximum) {
-      if (!bestInside || stats.qualityIndex > bestInside.stats.qualityIndex) bestInside = result;
+      if (!bestInside || stats.optimizationScore < bestInside.stats.optimizationScore) bestInside = result;
     } else if (stats.totalOdds >= config.softMinimum && stats.totalOdds < minimum) {
-      if (!bestBelow || stats.qualityIndex > bestBelow.stats.qualityIndex) bestBelow = result;
+      if (!bestBelow || stats.optimizationScore < bestBelow.stats.optimizationScore) bestBelow = result;
     }
   }
 
@@ -142,18 +157,13 @@ function searchBest(candidates, config, edges, previouslySelected = new Set()) {
 
   visit(0, [], 1);
 
-  if (
-    bestBelow &&
-    (!bestInside || bestBelow.stats.qualityIndex >= bestInside.stats.qualityIndex + 4)
-  ) {
-    return { ...bestBelow, rangeStatus: "below_range_for_quality" };
-  }
   if (bestInside) return { ...bestInside, rangeStatus: "inside_range" };
-  if (bestBelow) return { ...bestBelow, rangeStatus: "below_range_no_quality_solution" };
+  if (bestBelow) return { ...bestBelow, rangeStatus: "below_range_risk_limited" };
   return null;
 }
 
 function eventOutput(event) {
+  const risk = withEventRisk(event);
   return {
     id: event.id,
     market: event.market,
@@ -164,6 +174,9 @@ function eventOutput(event) {
     category: event.category,
     rankingScore: event.score,
     class: event.class,
+    riskScore: risk.riskScore,
+    riskLevel: risk.riskLevel,
+    riskReasons: risk.riskReasons,
   };
 }
 
@@ -217,6 +230,9 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph, previouslySelec
       addedEvents: [],
       improvementEstimate: "nessuno",
       reason: portfolio.reason || "Nessun candidato disponibile da ottimizzare.",
+      riskProfile: portfolio.riskProfile || assessPortfolio([], config.id).riskProfile,
+      riskVerdict: portfolio.riskVerdict || "high",
+      riskNotes: portfolio.riskNotes || ["Nessun candidato disponibile per il calcolo del rischio."],
     };
   }
   const scenario = scenarios.find(item => item.id === portfolio.scenario.id);
@@ -238,6 +254,12 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph, previouslySelec
           category: event.categoria,
           score: event.score,
           class: event.classe,
+          ...withEventRisk({
+            market: event.mercato,
+            odds: Number(event.quota),
+            category: event.categoria,
+            class: event.classe,
+          }),
         },
       ];
     })
@@ -252,7 +274,9 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph, previouslySelec
       isMyComboEligible(event) &&
       event.score >= config.minScore &&
       config.classes.has(event.class) &&
-      event.odds > 1.05
+      event.odds > 1.05 &&
+      event.odds <= config.maxSingleOdds &&
+      event.riskScore <= config.maxEventRisk
     )
     .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
 
@@ -261,26 +285,36 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph, previouslySelec
     .map(event => rankingById.get(event.id))
     .filter(Boolean)
     .filter(isMyComboEligible);
-  const initialStats = portfolioStats(initialEvents, edges);
+  const initialStats = portfolioStats(initialEvents, edges, config.id);
 
   if (!optimized) {
+    const initialWithinRange =
+      initialStats.totalOdds >= config.range[0] && initialStats.totalOdds <= config.range[1];
+    const keepInitial = initialWithinRange && initialStats.allowed;
     return {
       name: portfolio.name,
       scenario: portfolio.scenario,
       initialOdds: portfolio.totalOdds,
       finalOdds: portfolio.totalOdds,
       acceptedRange: config.range,
-      status: "unchanged_no_better_solution",
+      status: keepInitial ? "unchanged_risk_optimal" : "unchanged_no_better_solution",
       events: portfolio.events,
       removedEvents: [],
       addedEvents: [],
       improvementEstimate: "nessuno",
-      reason: "Nessuna alternativa rispetta contemporaneamente scenario, qualità e compatibilità.",
+      reason: keepInitial
+        ? "Il portfolio iniziale è già la soluzione più stabile entro l'intervallo quota."
+        : "Quota target non raggiungibile senza aumentare troppo il rischio.",
       strengths: portfolio.strengths,
       weaknesses: [
         ...portfolio.weaknesses,
         "L'Optimizer non ha forzato la quota con eventi di qualità inferiore.",
       ],
+      riskProfile: initialStats.riskProfile,
+      riskVerdict: initialStats.riskVerdict,
+      riskNotes: keepInitial
+        ? initialStats.riskNotes
+        : [...initialStats.riskNotes, "Quota target non raggiungibile senza superare i limiti di rischio."],
     };
   }
 
@@ -315,15 +349,15 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph, previouslySelec
       note: "Indice comparativo di qualità, non probabilità.",
     },
     reason: insideRange
-      ? "La soluzione massimizza la qualità tra le combinazioni ammissibili nell'intervallo."
-      : "La soluzione resta sotto l'intervallo: aumentare la quota avrebbe richiesto eventi meno stabili o più ridondanti.",
+      ? "La soluzione minimizza il rischio tra le combinazioni ammissibili nell'intervallo."
+      : "Quota target non raggiungibile senza aumentare troppo il rischio: mantenuta la soluzione più stabile sotto intervallo.",
     strengths: [
       `${optimized.stats.categories} categorie rappresentate.`,
       `${optimized.stats.positive} relazioni positive, nessuna negativa o ridondante.`,
       `Score medio corretto per classe: ${round2(optimized.stats.averageQuality)}.`,
-      optimized.selected.length < initialEvents.length
-        ? `Numero di eventi ridotto da ${initialEvents.length} a ${optimized.selected.length}.`
-        : "Numero di eventi mantenuto senza aggiunte finalizzate soltanto alla quota.",
+      optimized.selected.length > initialEvents.length
+        ? `Eventi aumentati da ${initialEvents.length} a ${optimized.selected.length} per distribuire il rischio su quote più basse.`
+        : `Numero eventi: ${optimized.selected.length}.`,
     ],
     weaknesses: [
       optimized.stats.neutral
@@ -331,6 +365,9 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph, previouslySelec
         : "Tutte le coppie hanno una relazione positiva nello scenario.",
       "La qualità resta condizionata dal verificarsi dello scenario comune.",
     ],
+    riskProfile: optimized.stats.riskProfile,
+    riskVerdict: optimized.stats.riskVerdict,
+    riskNotes: optimized.stats.riskNotes,
   };
 }
 

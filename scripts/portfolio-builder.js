@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { portfolioRiskLimits, withEventRisk, assessPortfolio } = require("./risk-engine");
 
 const root = path.resolve(__dirname, "..");
 const mvpDirectory = path.join(root, "data", "mvp");
@@ -13,8 +14,7 @@ const portfolioConfigs = [
     minScore: 80,
     classes: new Set(["CORE"]),
     scenarioLevels: new Set(["alta"]),
-    maxEvents: 5,
-    tolerance: 0.20,
+    ...portfolioRiskLimits.safe,
   },
   {
     id: "balanced",
@@ -23,8 +23,7 @@ const portfolioConfigs = [
     minScore: 65,
     classes: new Set(["CORE", "VALUE"]),
     scenarioLevels: new Set(["alta", "media"]),
-    maxEvents: 6,
-    tolerance: 0.25,
+    ...portfolioRiskLimits.balanced,
   },
   {
     id: "aggressive",
@@ -33,8 +32,7 @@ const portfolioConfigs = [
     minScore: 55,
     classes: new Set(["CORE", "VALUE", "SPECULATIVE"]),
     scenarioLevels: new Set(["alta", "media", "bassa"]),
-    maxEvents: 7,
-    tolerance: 0.30,
+    ...portfolioRiskLimits.aggressive,
   },
 ];
 
@@ -74,7 +72,7 @@ function candidateCompatible(candidate, selected, edges) {
   return sameCategory < 2;
 }
 
-function combinationStats(selected, edges) {
+function combinationStats(selected, edges, portfolioId) {
   const product = selected.reduce((total, event) => total * event.odds, 1);
   const categories = new Set(selected.map(event => event.category));
   const averageScore =
@@ -88,29 +86,36 @@ function combinationStats(selected, edges) {
       if (edge?.type === "NEUTRAL") neutral += 1;
     }
   }
-  return { product, diversity: categories.size, averageScore, positive, neutral };
+  const risk = assessPortfolio(selected, portfolioId, edges);
+  return { product, diversity: categories.size, averageScore, positive, neutral, ...risk };
 }
 
-function objective(stats, target, legs) {
-  const distance = Math.abs(Math.log(stats.product / target));
+function objective(stats, legs) {
+  const concentrationPenalty =
+    stats.riskProfile.riskConcentration === "high" ? 18 :
+    stats.riskProfile.riskConcentration === "medium" ? 7 : 0;
   return (
-    distance * 100 -
+    stats.riskProfile.averageRisk * 2 +
+    stats.riskProfile.maxEventRisk * 0.8 +
+    stats.riskProfile.highRiskEvents * 35 +
+    concentrationPenalty -
     stats.diversity * 5 -
-    stats.averageScore * 0.04 -
+    stats.averageScore * 0.12 -
     stats.positive * 1.5 +
     stats.neutral * 0.5 +
-    legs * 0.25
+    Math.max(0, 6 - legs) * 3
   );
 }
 
 function bestCombination(candidates, config, edges) {
   let best = null;
-  const maximumProduct = config.target * (1 + config.tolerance + 0.55);
+  const maximumProduct = config.range[1];
 
   function consider(selected) {
-    if (selected.length < 2) return;
-    const stats = combinationStats(selected, edges);
-    const quality = objective(stats, config.target, selected.length);
+    if (selected.length < config.minEvents) return;
+    const stats = combinationStats(selected, edges, config.id);
+    if (stats.product < config.range[0] || stats.product > config.range[1] || !stats.allowed) return;
+    const quality = objective(stats, selected.length);
     if (!best || quality < best.quality) {
       best = { selected: [...selected], stats, quality };
     }
@@ -136,7 +141,9 @@ function bestCombination(candidates, config, edges) {
 }
 
 function portfolioEvents(selected) {
-  return selected.map(event => ({
+  return selected.map(event => {
+    const risk = withEventRisk(event);
+    return {
     id: event.id,
     market: event.market,
     selection: event.selection,
@@ -146,7 +153,11 @@ function portfolioEvents(selected) {
     category: event.category,
     rankingScore: event.score,
     class: event.class,
-  }));
+    riskScore: risk.riskScore,
+    riskLevel: risk.riskLevel,
+    riskReasons: risk.riskReasons,
+  };
+  });
 }
 
 function portfolioNarrative(best, scenario, config) {
@@ -167,7 +178,7 @@ function portfolioNarrative(best, scenario, config) {
   return {
     reason:
       `Selezione costruita interamente sullo scenario “${scenario.name}”, ` +
-      `privilegiando Score elevati, compatibilità e vicinanza alla quota ${config.target}.`,
+      `massimizzando stabilità e probabilità entro l'intervallo quota ${config.range[0]}-${config.range[1]}.`,
     strengths: [
       `${categories.length} categorie rappresentate: ${categories.join(", ")}.`,
       `Score medio ${round2(stats.averageScore)}.`,
@@ -199,6 +210,12 @@ function buildPortfolio(ranking, scenarios, graph, config) {
           score: event.score,
           class: event.classe,
           node,
+          ...withEventRisk({
+            market: event.mercato,
+            odds: Number(event.quota),
+            category: event.categoria,
+            class: event.classe,
+          }),
         },
       ];
     })
@@ -216,7 +233,9 @@ function buildPortfolio(ranking, scenarios, graph, config) {
         isMyComboEligible(event) &&
         event.score >= config.minScore &&
         config.classes.has(event.class) &&
-        event.odds > 1.05
+        event.odds > 1.05 &&
+        event.odds <= config.maxSingleOdds &&
+        event.riskScore <= config.maxEventRisk
       )
       .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
 
@@ -238,12 +257,15 @@ function buildPortfolio(ranking, scenarios, graph, config) {
       reason: "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
       strengths: [],
       weaknesses: ["Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."],
+      riskProfile: assessPortfolio([], config.id, edges).riskProfile,
+      riskVerdict: "high",
+      riskNotes: ["Quota target non raggiungibile entro i limiti di rischio configurati."],
     };
   }
 
   const { scenario, best } = winner;
-  const deviation = Math.abs(best.stats.product - config.target) / config.target;
-  const targetReached = deviation <= config.tolerance;
+  const targetReached =
+    best.stats.product >= config.range[0] && best.stats.product <= config.range[1];
   const narrative = portfolioNarrative(best, scenario, config);
 
   return {
@@ -267,6 +289,9 @@ function buildPortfolio(ranking, scenarios, graph, config) {
           ...narrative.weaknesses,
           "Quota target non raggiunta: il builder ha mantenuto invariati i filtri di qualità.",
         ],
+    riskProfile: best.stats.riskProfile,
+    riskVerdict: best.stats.riskVerdict,
+    riskNotes: best.stats.riskNotes,
   };
 }
 

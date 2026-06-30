@@ -12,6 +12,18 @@
       "strengths": [],
       "weaknesses": [
         "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
       ]
     },
     {
@@ -29,7 +41,10 @@
           "marketId": 789026026,
           "category": "goal",
           "rankingScore": 89,
-          "class": "CORE"
+          "class": "CORE",
+          "riskScore": 47,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-08",
@@ -40,7 +55,10 @@
           "marketId": 789412569,
           "category": "corner",
           "rankingScore": 89,
-          "class": "CORE"
+          "class": "CORE",
+          "riskScore": 50,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-13",
@@ -51,7 +69,10 @@
           "marketId": 789026499,
           "category": "goal",
           "rankingScore": 87,
-          "class": "CORE"
+          "class": "CORE",
+          "riskScore": 63,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-18",
@@ -62,7 +83,10 @@
           "marketId": 789297608,
           "category": "tiri",
           "rankingScore": 86,
-          "class": "CORE"
+          "class": "CORE",
+          "riskScore": 38,
+          "riskLevel": "low",
+          "riskReasons": []
         },
         {
           "id": "event-20",
@@ -73,7 +97,10 @@
           "marketId": 789297207,
           "category": "tiri",
           "rankingScore": 86,
-          "class": "CORE"
+          "class": "CORE",
+          "riskScore": 38,
+          "riskLevel": "low",
+          "riskReasons": []
         }
       ],
       "scenario": {
@@ -81,7 +108,7 @@
         "name": "Partita aperta",
         "estimatedProbability": "media"
       },
-      "reason": "Selezione costruita interamente sullo scenario “Partita aperta”, privilegiando Score elevati, compatibilità e vicinanza alla quota 10.",
+      "reason": "Selezione costruita interamente sullo scenario “Partita aperta”, massimizzando stabilità e probabilità entro l'intervallo quota 9-11.",
       "strengths": [
         "3 categorie rappresentate: goal, corner, tiri.",
         "Score medio 87.4.",
@@ -92,6 +119,18 @@
       "weaknesses": [
         "1 relazioni sono neutrali: gli eventi condividono lo scenario ma non una dipendenza diretta.",
         "Lo scenario ha probabilità qualitativa media."
+      ],
+      "riskProfile": {
+        "averageRisk": 47,
+        "maxEventRisk": 63,
+        "maxSingleOdds": 1.85,
+        "riskConcentration": "low",
+        "numberOfEvents": 5,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "medium",
+      "riskNotes": [
+        "Profilo entro tutti i limiti di rischio configurati."
       ]
     },
     {
@@ -109,7 +148,10 @@
           "marketId": 789026026,
           "category": "goal",
           "rankingScore": 89,
-          "class": "CORE"
+          "class": "CORE",
+          "riskScore": 47,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-08",
@@ -120,7 +162,10 @@
           "marketId": 789412569,
           "category": "corner",
           "rankingScore": 89,
-          "class": "CORE"
+          "class": "CORE",
+          "riskScore": 50,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-13",
@@ -131,7 +176,10 @@
           "marketId": 789026499,
           "category": "goal",
           "rankingScore": 87,
-          "class": "CORE"
+          "class": "CORE",
+          "riskScore": 63,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-19",
@@ -142,7 +190,10 @@
           "marketId": 789297288,
           "category": "tiri",
           "rankingScore": 86,
-          "class": "CORE"
+          "class": "CORE",
+          "riskScore": 68,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-21",
@@ -153,7 +204,10 @@
           "marketId": 789297385,
           "category": "tiri",
           "rankingScore": 86,
-          "class": "CORE"
+          "class": "CORE",
+          "riskScore": 68,
+          "riskLevel": "medium",
+          "riskReasons": []
         }
       ],
       "scenario": {
@@ -161,7 +215,7 @@
         "name": "Partita aperta",
         "estimatedProbability": "media"
       },
-      "reason": "Selezione costruita interamente sullo scenario “Partita aperta”, privilegiando Score elevati, compatibilità e vicinanza alla quota 20.",
+      "reason": "Selezione costruita interamente sullo scenario “Partita aperta”, massimizzando stabilità e probabilità entro l'intervallo quota 18-22.",
       "strengths": [
         "3 categorie rappresentate: goal, corner, tiri.",
         "Score medio 87.4.",
@@ -171,6 +225,18 @@
       ],
       "weaknesses": [
         "Lo scenario ha probabilità qualitativa media."
+      ],
+      "riskProfile": {
+        "averageRisk": 59,
+        "maxEventRisk": 68,
+        "maxSingleOdds": 2.1,
+        "riskConcentration": "low",
+        "numberOfEvents": 5,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "medium",
+      "riskNotes": [
+        "Profilo entro tutti i limiti di rischio configurati."
       ]
     }
   ]

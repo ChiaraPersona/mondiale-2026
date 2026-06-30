@@ -30,6 +30,9 @@ function normalizePortfolio(portfolio) {
     scenario: portfolio.scenario,
     strengths: portfolio.strengths || [],
     weaknesses: portfolio.weaknesses || [],
+    riskProfile: portfolio.riskProfile || null,
+    riskVerdict: portfolio.riskVerdict || "high",
+    riskNotes: portfolio.riskNotes || [],
     optimization: {
       initialOdds: portfolio.initialOdds,
       acceptedRange: portfolio.acceptedRange,

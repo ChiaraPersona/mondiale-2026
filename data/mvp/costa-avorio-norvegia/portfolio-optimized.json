@@ -13,6 +13,18 @@
       "weaknesses": [
         "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
       ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ],
       "initialOdds": null,
       "finalOdds": null,
       "acceptedRange": [
@@ -31,7 +43,7 @@
         "estimatedProbability": "media"
       },
       "initialOdds": 10.53,
-      "finalOdds": 10.05,
+      "finalOdds": 10.53,
       "acceptedRange": [
         9,
         11
@@ -47,32 +59,11 @@
           "marketId": 789026026,
           "category": "goal",
           "rankingScore": 89,
-          "class": "CORE"
+          "class": "CORE",
+          "riskScore": 47,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
-        {
-          "id": "event-10",
-          "market": "U/O CORNER — U/O 10.5 CORNER",
-          "selection": "OVER",
-          "odds": 2.9,
-          "selectionId": 5197604876,
-          "marketId": 789412555,
-          "category": "corner",
-          "rankingScore": 89,
-          "class": "CORE"
-        },
-        {
-          "id": "event-19",
-          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 3.5 TIRI IN PORTA",
-          "selection": "OVER",
-          "odds": 2.1,
-          "selectionId": 5196945251,
-          "marketId": 789297288,
-          "category": "tiri",
-          "rankingScore": 86,
-          "class": "CORE"
-        }
-      ],
-      "removedEvents": [
         {
           "id": "event-08",
           "market": "U/O CORNER — U/O 8.5 CORNER",
@@ -83,7 +74,9 @@
           "category": "corner",
           "rankingScore": 89,
           "class": "CORE",
-          "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
+          "riskScore": 50,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-13",
@@ -95,7 +88,9 @@
           "category": "goal",
           "rankingScore": 87,
           "class": "CORE",
-          "reason": "Sostituito da un evento della stessa categoria con Score più alto (89 contro 87) e quota compatibile."
+          "riskScore": 63,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-18",
@@ -107,7 +102,9 @@
           "category": "tiri",
           "rankingScore": 86,
           "class": "CORE",
-          "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
+          "riskScore": 38,
+          "riskLevel": "low",
+          "riskReasons": []
         },
         {
           "id": "event-20",
@@ -119,52 +116,42 @@
           "category": "tiri",
           "rankingScore": 86,
           "class": "CORE",
-          "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
+          "riskScore": 38,
+          "riskLevel": "low",
+          "riskReasons": []
         }
       ],
-      "addedEvents": [
-        {
-          "id": "event-10",
-          "market": "U/O CORNER — U/O 10.5 CORNER",
-          "selection": "OVER",
-          "odds": 2.9,
-          "selectionId": 5197604876,
-          "marketId": 789412555,
-          "category": "corner",
-          "rankingScore": 89,
-          "class": "CORE",
-          "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
-        },
-        {
-          "id": "event-19",
-          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 3.5 TIRI IN PORTA",
-          "selection": "OVER",
-          "odds": 2.1,
-          "selectionId": 5196945251,
-          "marketId": 789297288,
-          "category": "tiri",
-          "rankingScore": 86,
-          "class": "CORE",
-          "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
-        }
-      ],
-      "improvementEstimate": "alto",
+      "removedEvents": [],
+      "addedEvents": [],
+      "improvementEstimate": "nessuno: la schedina candidata era già ottimale",
       "qualityIndex": {
         "initial": 92.6,
-        "final": 100,
-        "delta": 7.4,
+        "final": 92.6,
+        "delta": 0,
         "note": "Indice comparativo di qualità, non probabilità."
       },
-      "reason": "La soluzione massimizza la qualità tra le combinazioni ammissibili nell'intervallo.",
+      "reason": "La soluzione minimizza il rischio tra le combinazioni ammissibili nell'intervallo.",
       "strengths": [
         "3 categorie rappresentate.",
-        "3 relazioni positive, nessuna negativa o ridondante.",
-        "Score medio corretto per classe: 88.",
-        "Numero di eventi ridotto da 5 a 3."
+        "9 relazioni positive, nessuna negativa o ridondante.",
+        "Score medio corretto per classe: 87.4.",
+        "Numero eventi: 5."
       ],
       "weaknesses": [
-        "Tutte le coppie hanno una relazione positiva nello scenario.",
+        "1 relazioni neutrali restano nel portfolio.",
         "La qualità resta condizionata dal verificarsi dello scenario comune."
+      ],
+      "riskProfile": {
+        "averageRisk": 47,
+        "maxEventRisk": 63,
+        "maxSingleOdds": 1.85,
+        "riskConcentration": "low",
+        "numberOfEvents": 5,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "medium",
+      "riskNotes": [
+        "Profilo entro tutti i limiti di rischio configurati."
       ]
     },
     {
@@ -175,59 +162,13 @@
         "estimatedProbability": "media"
       },
       "initialOdds": 20.16,
-      "finalOdds": 20.81,
+      "finalOdds": 20.16,
       "acceptedRange": [
         18,
         22
       ],
-      "status": "optimized_inside_range",
+      "status": "unchanged_no_better_solution",
       "events": [
-        {
-          "id": "event-10",
-          "market": "U/O CORNER — U/O 10.5 CORNER",
-          "selection": "OVER",
-          "odds": 2.9,
-          "selectionId": 5197604876,
-          "marketId": 789412555,
-          "category": "corner",
-          "rankingScore": 89,
-          "class": "CORE"
-        },
-        {
-          "id": "event-11",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 10.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.65,
-          "selectionId": 5196945107,
-          "marketId": 789297252,
-          "category": "tiri",
-          "rankingScore": 88,
-          "class": "CORE"
-        },
-        {
-          "id": "event-16",
-          "market": "UNDER/OVER — U/O 3.5",
-          "selection": "OVER",
-          "odds": 3,
-          "selectionId": 5195520769,
-          "marketId": 789026500,
-          "category": "goal",
-          "rankingScore": 87,
-          "class": "CORE"
-        },
-        {
-          "id": "event-20",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 11.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.45,
-          "selectionId": 5196944927,
-          "marketId": 789297207,
-          "category": "tiri",
-          "rankingScore": 86,
-          "class": "CORE"
-        }
-      ],
-      "removedEvents": [
         {
           "id": "event-06",
           "market": "GOAL/NOGOAL — GOAL/NO GOAL",
@@ -238,7 +179,9 @@
           "category": "goal",
           "rankingScore": 89,
           "class": "CORE",
-          "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
+          "riskScore": 47,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-08",
@@ -250,7 +193,9 @@
           "category": "corner",
           "rankingScore": 89,
           "class": "CORE",
-          "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
+          "riskScore": 50,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-13",
@@ -262,7 +207,9 @@
           "category": "goal",
           "rankingScore": 87,
           "class": "CORE",
-          "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota."
+          "riskScore": 63,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-19",
@@ -274,7 +221,9 @@
           "category": "tiri",
           "rankingScore": 86,
           "class": "CORE",
-          "reason": "Sostituito da un evento della stessa categoria con Score più alto (88 contro 86) e quota compatibile."
+          "riskScore": 68,
+          "riskLevel": "medium",
+          "riskReasons": []
         },
         {
           "id": "event-21",
@@ -286,76 +235,38 @@
           "category": "tiri",
           "rankingScore": 86,
           "class": "CORE",
-          "reason": "Sostituito da un evento della stessa categoria con Score più alto (88 contro 86) e quota compatibile."
+          "riskScore": 68,
+          "riskLevel": "medium",
+          "riskReasons": []
         }
       ],
-      "addedEvents": [
-        {
-          "id": "event-10",
-          "market": "U/O CORNER — U/O 10.5 CORNER",
-          "selection": "OVER",
-          "odds": 2.9,
-          "selectionId": 5197604876,
-          "marketId": 789412555,
-          "category": "corner",
-          "rankingScore": 89,
-          "class": "CORE",
-          "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
-        },
-        {
-          "id": "event-11",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 10.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.65,
-          "selectionId": 5196945107,
-          "marketId": 789297252,
-          "category": "tiri",
-          "rankingScore": 88,
-          "class": "CORE",
-          "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
-        },
-        {
-          "id": "event-16",
-          "market": "UNDER/OVER — U/O 3.5",
-          "selection": "OVER",
-          "odds": 3,
-          "selectionId": 5195520769,
-          "marketId": 789026500,
-          "category": "goal",
-          "rankingScore": 87,
-          "class": "CORE",
-          "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
-        },
-        {
-          "id": "event-20",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 11.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.45,
-          "selectionId": 5196944927,
-          "marketId": 789297207,
-          "category": "tiri",
-          "rankingScore": 86,
-          "class": "CORE",
-          "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario."
-        }
-      ],
-      "improvementEstimate": "medio",
-      "qualityIndex": {
-        "initial": 93,
-        "final": 96.3,
-        "delta": 3.3,
-        "note": "Indice comparativo di qualità, non probabilità."
-      },
-      "reason": "La soluzione massimizza la qualità tra le combinazioni ammissibili nell'intervallo.",
+      "removedEvents": [],
+      "addedEvents": [],
+      "improvementEstimate": "nessuno",
+      "reason": "Nessuna alternativa rispetta contemporaneamente scenario, qualità e compatibilità.",
       "strengths": [
-        "3 categorie rappresentate.",
-        "5 relazioni positive, nessuna negativa o ridondante.",
-        "Score medio corretto per classe: 87.5.",
-        "Numero di eventi ridotto da 5 a 4."
+        "3 categorie rappresentate: goal, corner, tiri.",
+        "Score medio 87.4.",
+        "10 relazioni positive e nessuna relazione negativa o ridondante.",
+        "Intensità offensiva",
+        "Transizioni"
       ],
       "weaknesses": [
-        "1 relazioni neutrali restano nel portfolio.",
-        "La qualità resta condizionata dal verificarsi dello scenario comune."
+        "Lo scenario ha probabilità qualitativa media.",
+        "L'Optimizer non ha forzato la quota con eventi di qualità inferiore."
+      ],
+      "riskProfile": {
+        "averageRisk": 59,
+        "maxEventRisk": 68,
+        "maxSingleOdds": 2.1,
+        "riskConcentration": "low",
+        "numberOfEvents": 5,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "medium",
+      "riskNotes": [
+        "Profilo entro tutti i limiti di rischio configurati.",
+        "Quota target non raggiungibile senza superare i limiti di rischio."
       ]
     }
   ]

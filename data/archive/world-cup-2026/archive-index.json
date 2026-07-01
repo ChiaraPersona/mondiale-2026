@@ -1,0 +1,215 @@
+{
+  "tournament": "FIFA World Cup 2026",
+  "generatedAt": "2026-07-01T10:32:03.839Z",
+  "strategy": "Copia non distruttiva: i dataset sorgente in js/ restano invariati.",
+  "eliminatedTeamCount": 23,
+  "teams": [
+    {
+      "team": "Arabia Saudita",
+      "group": "H",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-27",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/arabia-saudita.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/arabia-saudita.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Corea del Sud",
+      "group": "A",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-25",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/corea-del-sud.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/corea-del-sud.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Costa d'Avorio",
+      "group": "E",
+      "stage": "Sedicesimi di finale",
+      "eliminationDate": "2026-06-30",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/costa-d-avorio.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/costa-d-avorio.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Curacao",
+      "group": "E",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-25",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/curacao.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/curacao.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Ecuador",
+      "group": "E",
+      "stage": "Sedicesimi di finale",
+      "eliminationDate": "2026-07-01",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/ecuador.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/ecuador.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Germania",
+      "group": "E",
+      "stage": "Sedicesimi di finale",
+      "eliminationDate": "2026-06-29",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/germania.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/germania.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Giappone",
+      "group": "F",
+      "stage": "Sedicesimi di finale",
+      "eliminationDate": "2026-06-29",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/giappone.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/giappone.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Giordania",
+      "group": "J",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-28",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/giordania.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/giordania.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Haiti",
+      "group": "C",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-24",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/haiti.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/haiti.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Iran",
+      "group": "G",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-27",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/iran.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/iran.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Iraq",
+      "group": "I",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-26",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/iraq.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/iraq.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Nuova Zelanda",
+      "group": "G",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-27",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/nuova-zelanda.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/nuova-zelanda.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Olanda",
+      "group": "F",
+      "stage": "Sedicesimi di finale",
+      "eliminationDate": "2026-06-30",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/olanda.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/olanda.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Panama",
+      "group": "L",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-27",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/panama.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/panama.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Qatar",
+      "group": "B",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-24",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/qatar.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/qatar.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Repubblica Ceca",
+      "group": "A",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-25",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/repubblica-ceca.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/repubblica-ceca.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Scozia",
+      "group": "C",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-24",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/scozia.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/scozia.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Sudafrica",
+      "group": "A",
+      "stage": "Sedicesimi di finale",
+      "eliminationDate": "2026-06-28",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/sudafrica.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/sudafrica.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Svezia",
+      "group": "F",
+      "stage": "Sedicesimi di finale",
+      "eliminationDate": "2026-06-30",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/svezia.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/svezia.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Tunisia",
+      "group": "F",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-26",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/tunisia.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/tunisia.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Turchia",
+      "group": "D",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-26",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/turchia.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/turchia.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Uruguay",
+      "group": "H",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-27",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/uruguay.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/uruguay.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Uzbekistan",
+      "group": "K",
+      "stage": "Fase a gironi",
+      "eliminationDate": "2026-06-28",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/uzbekistan.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/uzbekistan.json",
+      "playerCount": 26
+    }
+  ]
+}

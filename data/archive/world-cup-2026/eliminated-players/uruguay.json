@@ -1,0 +1,1367 @@
+{
+  "team": "Uruguay",
+  "eliminationDate": "2026-06-27",
+  "roster": [
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Attaccanti",
+      "player": "Darwin N��ez",
+      "club": "Al-Hilal",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/uruguay.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Attaccanti",
+      "player": "Federico Vi�as",
+      "club": "Real Oviedo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "Segunda Division",
+      "flag": "flags/uruguay.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Attaccanti",
+      "player": "Rodrigo Aguirre",
+      "club": "Club Am�rica",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Messico",
+      "league": "Liga MX",
+      "flag": "flags/uruguay.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Agust�n Canobbio",
+      "club": "Fluminense",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/uruguay.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Brian Rodr�guez",
+      "club": "Club Am�rica",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Messico",
+      "league": "Liga MX",
+      "flag": "flags/uruguay.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Emiliano Mart�nez",
+      "club": "Palmeiras",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/uruguay.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Facundo Pellistri",
+      "club": "Panathinaikos",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Grecia",
+      "league": "Super League Greece",
+      "flag": "flags/uruguay.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Federico Valverde",
+      "club": "Real Madrid",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/uruguay.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Giorgian De Arrascaeta",
+      "club": "Flamengo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/uruguay.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Juan Manuel Sanabria",
+      "club": "Atl�tico de San Luis",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Messico",
+      "league": "Liga MX",
+      "flag": "flags/uruguay.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Manuel Ugarte",
+      "club": "Manchester United",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/uruguay.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Maximiliano Ara�jo",
+      "club": "Sporting CP",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/uruguay.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Nicol�s de la Cruz",
+      "club": "Flamengo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/uruguay.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Rodrigo Bentancur",
+      "club": "Tottenham Hotspur",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/uruguay.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Centrocampisti",
+      "player": "Rodrigo Zalazar",
+      "club": "SC Braga",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/uruguay.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Difensori",
+      "player": "Guillermo Varela",
+      "club": "Flamengo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/uruguay.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Difensori",
+      "player": "Joaqu�n Piquerez",
+      "club": "Palmeiras",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/uruguay.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Difensori",
+      "player": "Jos� Mar�a Gim�nez",
+      "club": "Atl�tico de Madrid",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/uruguay.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Difensori",
+      "player": "Math�as Olivera",
+      "club": "Napoli",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/uruguay.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Difensori",
+      "player": "Mat�as Vi�a",
+      "club": "Flamengo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/uruguay.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Difensori",
+      "player": "Ronald Ara�jo",
+      "club": "FC Barcelona",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/uruguay.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Difensori",
+      "player": "Santiago Bueno",
+      "club": "Wolverhampton Wanderers",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/uruguay.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Difensori",
+      "player": "Sebasti�n C�ceres",
+      "club": "Club Am�rica",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Messico",
+      "league": "Liga MX",
+      "flag": "flags/uruguay.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Portieri",
+      "player": "Fernando Muslera",
+      "club": "Estudiantes de La Plata",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Argentina",
+      "league": "Primera Division",
+      "flag": "flags/uruguay.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Portieri",
+      "player": "Santiago Mele",
+      "club": "Monterrey",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Messico",
+      "league": "Liga MX",
+      "flag": "flags/uruguay.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "role": "Portieri",
+      "player": "Sergio Rochet",
+      "club": "Internacional",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/uruguay.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "uruguay::darwin nunez": {
+      "player": "Darwin Núñez",
+      "team": "Uruguay",
+      "club": "Al-Hilal",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 5,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/nunez-darwin/Ygo6EZPh/",
+      "direttaPlayerId": "Ygo6EZPh",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1029,
+        "goals": 4,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.02"
+      }
+    },
+    "uruguay::federico vinas": {
+      "player": "Federico Viñas",
+      "team": "Uruguay",
+      "club": "Real Oviedo",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 4,
+        "subIns": 5,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/vinas-federico/AowQSEG9/",
+      "direttaPlayerId": "AowQSEG9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1238,
+        "goals": 5,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 2,
+        "matchesSample": 15,
+        "averageRating": "6.63",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1211,
+          "goals": 5,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 2,
+          "averageRating": 6.61
+        }
+      }
+    },
+    "uruguay::rodrigo aguirre": {
+      "player": "Rodrigo Aguirre",
+      "team": "Uruguay",
+      "club": "Club América",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 7,
+        "subIns": 3,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/aguirre-rodrigo/fFu5N8yS/",
+      "direttaPlayerId": "fFu5N8yS",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1134,
+        "goals": 4,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.46"
+      }
+    },
+    "uruguay::agustin canobbio": {
+      "player": "Agustín Canobbio",
+      "team": "Uruguay",
+      "club": "Fluminense",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/canobbio-agustin/rFeX9AIm/",
+      "direttaPlayerId": "rFeX9AIm",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1250,
+        "goals": 4,
+        "assists": 1,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.89"
+      }
+    },
+    "uruguay::brian rodriguez": {
+      "player": "Brian Rodríguez",
+      "team": "Uruguay",
+      "club": "Club América",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 5,
+        "subIns": 5,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/rodriguez-brian/dSCaPSDs/",
+      "direttaPlayerId": "dSCaPSDs",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1038,
+        "goals": 3,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.21"
+      }
+    },
+    "uruguay::emiliano martinez": {
+      "player": "Emiliano Martínez",
+      "team": "Uruguay",
+      "club": "Palmeiras",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 2,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/martinez-emiliano/88Z5NeIl/",
+      "direttaPlayerId": "88Z5NeIl",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 601,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.69"
+      }
+    },
+    "uruguay::facundo pellistri": {
+      "player": "Facundo Pellistri",
+      "team": "Uruguay",
+      "club": "Panathinaikos",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 7,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pellistri-facundo/jN7eev32/",
+      "direttaPlayerId": "jN7eev32",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 964,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.42"
+      }
+    },
+    "uruguay::federico valverde": {
+      "player": "Federico Valverde",
+      "team": "Uruguay",
+      "club": "Real Madrid",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 8,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/valverde-federico/nscfER6B/",
+      "direttaPlayerId": "nscfER6B",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1273,
+        "goals": 8,
+        "assists": 3,
+        "yellowCards": 0,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "7.67",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 643,
+          "goals": 4,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 1,
+          "averageRating": 7.71
+        }
+      }
+    },
+    "uruguay::giorgian de arrascaeta": {
+      "player": "Giorgian De Arrascaeta",
+      "team": "Uruguay",
+      "club": "Flamengo",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 8,
+        "subIns": 0,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/de-arrascaeta-giorgian/foizdExt/",
+      "direttaPlayerId": "foizdExt",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1077,
+        "goals": 6,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.38"
+      }
+    },
+    "uruguay::juan manuel sanabria": {
+      "player": "Juan Manuel Sanabria",
+      "team": "Uruguay",
+      "club": "Atlético de San Luis",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 3,
+        "subIns": 2,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sanabria-juan-manuel/jRLVt5ii/",
+      "direttaPlayerId": "jRLVt5ii",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1220,
+        "goals": 2,
+        "assists": 6,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.34"
+      }
+    },
+    "uruguay::manuel ugarte": {
+      "player": "Manuel Ugarte",
+      "team": "Uruguay",
+      "club": "Manchester United",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 9,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ugarte-manuel/IksYqIr8/",
+      "direttaPlayerId": "IksYqIr8",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 685,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.46",
+        "topFive": {
+          "appearances": 13,
+          "minutes": 516,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.47
+        }
+      }
+    },
+    "uruguay::maximiliano araujo": {
+      "player": "Maximiliano Araújo",
+      "team": "Uruguay",
+      "club": "Sporting CP",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 10,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/araujo-maximiliano/4UXCOm0L/",
+      "direttaPlayerId": "4UXCOm0L",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1232,
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.34"
+      }
+    },
+    "uruguay::nicolas de la cruz": {
+      "player": "Nicolás de la Cruz",
+      "team": "Uruguay",
+      "club": "Flamengo",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 0,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/de-la-cruz-nicolas/tjRTCmJm/",
+      "direttaPlayerId": "tjRTCmJm",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 481,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.92"
+      }
+    },
+    "uruguay::rodrigo bentancur": {
+      "player": "Rodrigo Bentancur",
+      "team": "Uruguay",
+      "club": "Tottenham Hotspur",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 9,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bentancur-rodrigo/nLRMnJtJ/",
+      "direttaPlayerId": "nLRMnJtJ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1103,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 5,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.49",
+        "topFive": {
+          "appearances": 11,
+          "minutes": 769,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 4,
+          "redCards": 0,
+          "averageRating": 6.56
+        }
+      }
+    },
+    "uruguay::rodrigo zalazar": {
+      "player": "Rodrigo Zalazar",
+      "team": "Uruguay",
+      "club": "SC Braga",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 3,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/zalazar-rodrigo/viSZFJO9/",
+      "direttaPlayerId": "viSZFJO9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1241,
+        "goals": 11,
+        "assists": 5,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.82"
+      }
+    },
+    "uruguay::guillermo varela": {
+      "player": "Guillermo Varela",
+      "team": "Uruguay",
+      "club": "Flamengo",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 7,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/varela-guillermo/d8SI7upD/",
+      "direttaPlayerId": "d8SI7upD",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1146,
+        "goals": 0,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.83"
+      }
+    },
+    "uruguay::joaquin piquerez": {
+      "player": "Joaquín Piquerez",
+      "team": "Uruguay",
+      "club": "Palmeiras",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 3,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/joaquin-piquerez/2N2kVn3t/",
+      "direttaPlayerId": "2N2kVn3t",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1136,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.95"
+      }
+    },
+    "uruguay::jose maria gimenez": {
+      "player": "José María Giménez",
+      "team": "Uruguay",
+      "club": "Atlético de Madrid",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 9,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gimenez-jose/IgRLzKhM/",
+      "direttaPlayerId": "IgRLzKhM",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 905,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.02",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 615,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.16
+        }
+      }
+    },
+    "uruguay::mathias olivera": {
+      "player": "Mathías Olivera",
+      "team": "Uruguay",
+      "club": "Napoli",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 13,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/olivera-mathias/bwAJqLBt/",
+      "direttaPlayerId": "bwAJqLBt",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 823,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.73",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 525,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.72
+        }
+      }
+    },
+    "uruguay::matias vina": {
+      "player": "Matías Viña",
+      "team": "Uruguay",
+      "club": "Flamengo",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/vina-matias/40ALE0fh/",
+      "direttaPlayerId": "40ALE0fh",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 825,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 8,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.51"
+      }
+    },
+    "uruguay::ronald araujo": {
+      "player": "Ronald Araújo",
+      "team": "Uruguay",
+      "club": "FC Barcelona",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 7,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/araujo-ronald/M3sbJix9/",
+      "direttaPlayerId": "M3sbJix9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 625,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.82",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 220,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.65
+        }
+      }
+    },
+    "uruguay::santiago bueno": {
+      "player": "Santiago Bueno",
+      "team": "Uruguay",
+      "club": "Wolverhampton Wanderers",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bueno-santiago/2y6924gn/",
+      "direttaPlayerId": "2y6924gn",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1349,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.41",
+        "topFive": {
+          "appearances": 13,
+          "minutes": 1169,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.21
+        }
+      }
+    },
+    "uruguay::sebastian caceres": {
+      "player": "Sebastián Cáceres",
+      "team": "Uruguay",
+      "club": "Club América",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 3,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/caceres-sebastian/tlQoW3Pe/",
+      "direttaPlayerId": "tlQoW3Pe",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1258,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.55"
+      }
+    },
+    "uruguay::fernando muslera": {
+      "player": "Fernando Muslera",
+      "team": "Uruguay",
+      "club": "Estudiantes de La Plata",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/fernando-muslera/65awSbS3/",
+      "direttaPlayerId": "65awSbS3",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1336,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.94",
+        "scope": "Club + nazionale",
+        "goalsConceded": 9,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.60",
+        "nationalGoalkeeper": {
+          "appearances": 1,
+          "goalsConceded": 1,
+          "goalsConcededPerGame": 1,
+          "averageRating": 7.5,
+          "matches": [
+            {
+              "conceded": 1,
+              "rating": 7.5
+            }
+          ]
+        }
+      }
+    },
+    "uruguay::santiago mele": {
+      "player": "Santiago Mele",
+      "team": "Uruguay",
+      "club": "Monterrey",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 4,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mele-santiago/lvXkKVQD/",
+      "direttaPlayerId": "lvXkKVQD",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1340,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.59",
+        "scope": "Club + nazionale",
+        "goalsConceded": 22,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.47",
+        "nationalGoalkeeper": {
+          "appearances": 2,
+          "goalsConceded": 0,
+          "goalsConcededPerGame": 0,
+          "averageRating": 7.45,
+          "matches": [
+            {
+              "conceded": 0,
+              "rating": 7.2
+            },
+            {
+              "conceded": 0,
+              "rating": 7.7
+            }
+          ]
+        }
+      }
+    },
+    "uruguay::sergio rochet": {
+      "player": "Sergio Rochet",
+      "team": "Uruguay",
+      "club": "Internacional",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 7,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sergio-rochet/pz4Z0i1g/",
+      "direttaPlayerId": "pz4Z0i1g",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.45",
+        "scope": "Club + nazionale",
+        "goalsConceded": 15,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.00",
+        "nationalGoalkeeper": {
+          "appearances": 1,
+          "goalsConceded": 0,
+          "goalsConcededPerGame": 0,
+          "averageRating": 6.2,
+          "matches": [
+            {
+              "conceded": 0,
+              "rating": 6.2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "H",
+      "squadra": "Uruguay",
+      "giocatore": "Rodrigo Bentancur",
+      "club": "Tottenham Hotspur",
+      "lega": "Premier League",
+      "ammonizioni_stagionali": 11,
+      "espulsioni_stagionali": 1,
+      "media_falli_partita": 1.2,
+      "rischio_cartellino": 64
+    }
+  ]
+}

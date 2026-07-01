@@ -1,0 +1,1515 @@
+{
+  "team": "Haiti",
+  "eliminationDate": "2026-06-24",
+  "roster": [
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Attaccanti",
+      "player": "Derrick Etienne",
+      "club": "Toronto FC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/haiti.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Attaccanti",
+      "player": "Duckens Nazon",
+      "club": "Esteghlal FC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Iran",
+      "league": "Persian Gulf Pro League",
+      "flag": "flags/haiti.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Attaccanti",
+      "player": "Frantzdy Pierrot",
+      "club": "�aykur Rizespor",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/haiti.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Attaccanti",
+      "player": "Josu� Casimir",
+      "club": "AJ Auxerre",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/haiti.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Attaccanti",
+      "player": "Lenny Joseph",
+      "club": "Ferencv�ros TC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Ungheria",
+      "league": "NB I",
+      "flag": "flags/haiti.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Attaccanti",
+      "player": "Louicius Deedson",
+      "club": "FC Dallas",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/haiti.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Attaccanti",
+      "player": "Ruben Providence",
+      "club": "Almere City FC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/haiti.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Attaccanti",
+      "player": "Wilson Isidor",
+      "club": "Sunderland AFC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/haiti.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Attaccanti",
+      "player": "Yassin Fortune",
+      "club": "FC Vizela",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/haiti.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Centrocampisti",
+      "player": "Carl-Fred Sainthe",
+      "club": "El Paso Locomotive FC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/haiti.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Centrocampisti",
+      "player": "Dominique Simon",
+      "club": "FC Tatran Pre�ov",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Slovacchia",
+      "league": "Slovak First League",
+      "flag": "flags/haiti.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Centrocampisti",
+      "player": "Jean-Jacques Danley",
+      "club": "Philadelphia Union",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/haiti.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Centrocampisti",
+      "player": "Jeanricner Bellegarde",
+      "club": "Wolverhampton",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/haiti.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Centrocampisti",
+      "player": "Leverton Pierre",
+      "club": "FC Vizela",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/haiti.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Centrocampisti",
+      "player": "Pierre Woodenski",
+      "club": "Violette AC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Haiti",
+      "league": "Championnat National",
+      "flag": "flags/haiti.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Difensori",
+      "player": "Carlens Arcus",
+      "club": "Angers SCO",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/haiti.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Difensori",
+      "player": "Duke Lacroix",
+      "club": "Colorado Springs",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/haiti.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Difensori",
+      "player": "Hannes Delcroix",
+      "club": "FC Lugano",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Svizzera",
+      "league": "Swiss Super League",
+      "flag": "flags/haiti.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Difensori",
+      "player": "JK Duverne",
+      "club": "KAA Gent",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/haiti.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Difensori",
+      "player": "Keeto Thermoncy",
+      "club": "BSC Young Boys II",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Svizzera",
+      "league": "Swiss Super League",
+      "flag": "flags/haiti.svg",
+      "age": 20,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Difensori",
+      "player": "Martin Experience",
+      "club": "AS Nancy-Lorraine",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/haiti.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Difensori",
+      "player": "Ricardo Ad�",
+      "club": "LDU Quito",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Ecuador",
+      "league": "LigaPro",
+      "flag": "flags/haiti.svg",
+      "age": 36,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Difensori",
+      "player": "Wilguens Paugain",
+      "club": "SV Zulte Waregem",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/haiti.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Portieri",
+      "player": "Alexandre Pierre",
+      "club": "FC Sochaux",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/haiti.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Portieri",
+      "player": "Johnny Placide",
+      "club": "SC Bastia",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 2",
+      "flag": "flags/haiti.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Haiti",
+      "role": "Portieri",
+      "player": "Josu� Duverger",
+      "club": "FC Cosmos Koblenz",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Oberliga Rheinland-Pfalz/Saar",
+      "flag": "flags/haiti.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "haiti::derrick etienne": {
+      "player": "Derrick Etienne",
+      "team": "Haiti",
+      "club": "Toronto FC",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/etienne-derick/jagUidH4/",
+      "direttaPlayerId": "jagUidH4",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 805,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.46"
+      }
+    },
+    "haiti::duckens nazon": {
+      "player": "Duckens Nazon",
+      "team": "Haiti",
+      "club": "Esteghlal FC",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 15,
+        "starts": 9,
+        "subIns": 6,
+        "goals": 5,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/nazon-duckens/nXkZ0apR/",
+      "direttaPlayerId": "nXkZ0apR",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 698,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.47"
+      }
+    },
+    "haiti::frantzdy pierrot": {
+      "player": "Frantzdy Pierrot",
+      "team": "Haiti",
+      "club": "Çaykur Rizespor",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 15,
+        "starts": 14,
+        "subIns": 1,
+        "goals": 6,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pierrot-frantzdy/Q7ptRtTl/",
+      "direttaPlayerId": "Q7ptRtTl",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 687,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.65"
+      }
+    },
+    "haiti::josue casimir": {
+      "player": "Josué Casimir",
+      "team": "Haiti",
+      "club": "AJ Auxerre",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 5,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/casimir-josue/A3L0pzbI/",
+      "direttaPlayerId": "A3L0pzbI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 721,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.51",
+        "topFive": {
+          "appearances": 13,
+          "minutes": 571,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.42
+        }
+      }
+    },
+    "haiti::lenny joseph": {
+      "player": "Lenny Joseph",
+      "team": "Haiti",
+      "club": "Ferencváros TC",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 0,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/joseph-belmar/nuTkcSre/",
+      "direttaPlayerId": "nuTkcSre",
+      "recent15": {
+        "appearances": 4,
+        "minutes": 177,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 4,
+        "averageRating": "5.43"
+      }
+    },
+    "haiti::louicius deedson": {
+      "player": "Louicius Deedson",
+      "team": "Haiti",
+      "club": "FC Dallas",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 15,
+        "starts": 10,
+        "subIns": 5,
+        "goals": 5,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/deedson-louicius/bqX8zpK2/",
+      "direttaPlayerId": "bqX8zpK2",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 439,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.54"
+      }
+    },
+    "haiti::ruben providence": {
+      "player": "Ruben Providence",
+      "team": "Haiti",
+      "club": "Almere City FC",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 7,
+        "subIns": 6,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/providence-ruben/rT09jQGj/",
+      "direttaPlayerId": "rT09jQGj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 831,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.45"
+      }
+    },
+    "haiti::wilson isidor": {
+      "player": "Wilson Isidor",
+      "team": "Haiti",
+      "club": "Sunderland AFC",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/isidor-wilson/veOg2tx3/",
+      "direttaPlayerId": "veOg2tx3",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 347,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.25",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 244,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.24
+        }
+      }
+    },
+    "haiti::yassin fortune": {
+      "player": "Yassin Fortune",
+      "team": "Haiti",
+      "club": "FC Vizela",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/yassin-fortune/zuJDahW0/",
+      "direttaPlayerId": "zuJDahW0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 715,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": ""
+      }
+    },
+    "haiti::carl-fred sainthe": {
+      "player": "Carl-Fred Sainthe",
+      "team": "Haiti",
+      "club": "El Paso Locomotive FC",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 1,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sainte-carl/MqeBl5KD/",
+      "direttaPlayerId": "MqeBl5KD",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 843,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.74"
+      }
+    },
+    "haiti::dominique simon": {
+      "player": "Dominique Simon",
+      "team": "Haiti",
+      "club": "FC Tatran Prešov",
+      "age": 26,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "K4kIpYsN",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/simon-dominique/K4kIpYsN/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 921,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.40"
+      }
+    },
+    "haiti::jean-jacques danley": {
+      "player": "Jean-Jacques Danley",
+      "team": "Haiti",
+      "club": "Philadelphia Union",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 13,
+        "subIns": 0,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/jean-jacques-danley/ADHNs0BF/",
+      "direttaPlayerId": "ADHNs0BF",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1186,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.68"
+      }
+    },
+    "haiti::jeanricner bellegarde": {
+      "player": "Jeanricner Bellegarde",
+      "team": "Haiti",
+      "club": "Wolverhampton",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 8,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bellegarde-jean-ricner/YsThwpbL/",
+      "direttaPlayerId": "YsThwpbL",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 798,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.51",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 616,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 6.52
+        }
+      }
+    },
+    "haiti::leverton pierre": {
+      "player": "Leverton Pierre",
+      "team": "Haiti",
+      "club": "FC Vizela",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 10,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pierre-leverton/EZghbuhT/",
+      "direttaPlayerId": "EZghbuhT",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 550,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.82"
+      }
+    },
+    "haiti::pierre woodenski": {
+      "player": "Pierre Woodenski",
+      "team": "Haiti",
+      "club": "Violette AC",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pierre-woodensky-olivier/zyYbg9z9/",
+      "direttaPlayerId": "zyYbg9z9"
+    },
+    "haiti::carlens arcus": {
+      "player": "Carlens Arcus",
+      "team": "Haiti",
+      "club": "Angers SCO",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/arcus-carlens/lvXo8mgi/",
+      "direttaPlayerId": "lvXo8mgi",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1211,
+        "goals": 0,
+        "assists": 4,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.96",
+        "topFive": {
+          "appearances": 11,
+          "minutes": 937,
+          "goals": 0,
+          "assists": 3,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 6.95
+        }
+      }
+    },
+    "haiti::duke lacroix": {
+      "player": "Duke Lacroix",
+      "team": "Haiti",
+      "club": "Colorado Springs",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 7,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/lacroix-duke/zmDsfzTp/",
+      "direttaPlayerId": "zmDsfzTp",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1072,
+        "goals": 0,
+        "assists": 4,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.75"
+      }
+    },
+    "haiti::hannes delcroix": {
+      "player": "Hannes Delcroix",
+      "team": "Haiti",
+      "club": "FC Lugano",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 4,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/delcroix-hannes/WbdzxlCl/",
+      "direttaPlayerId": "WbdzxlCl",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1162,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.71",
+        "topFive": {
+          "appearances": 3,
+          "minutes": 226,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": null
+        }
+      }
+    },
+    "haiti::jk duverne": {
+      "player": "JK Duverne",
+      "team": "Haiti",
+      "club": "KAA Gent",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 10,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/duverne-jean-kevin/G6Icx4DR/",
+      "direttaPlayerId": "G6Icx4DR",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 545,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.43"
+      }
+    },
+    "haiti::keeto thermoncy": {
+      "player": "Keeto Thermoncy",
+      "team": "Haiti",
+      "club": "BSC Young Boys II",
+      "age": 20,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/thermoncy-keeto/Y50N9gVC/",
+      "direttaPlayerId": "Y50N9gVC",
+      "recent15": {
+        "appearances": 1,
+        "minutes": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 1,
+        "averageRating": ""
+      }
+    },
+    "haiti::martin experience": {
+      "player": "Martin Experience",
+      "team": "Haiti",
+      "club": "AS Nancy-Lorraine",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 8,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/experience-martin/rRI50CVE/",
+      "direttaPlayerId": "rRI50CVE",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1032,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.42"
+      }
+    },
+    "haiti::ricardo ade": {
+      "player": "Ricardo Adé",
+      "team": "Haiti",
+      "club": "LDU Quito",
+      "age": 36,
+      "career": {},
+      "season2025_26": {
+        "appearances": 15,
+        "starts": 15,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ade-ricardo/YZSpCwUq/",
+      "direttaPlayerId": "YZSpCwUq",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1306,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.80"
+      }
+    },
+    "haiti::wilguens paugain": {
+      "player": "Wilguens Paugain",
+      "team": "Haiti",
+      "club": "SV Zulte Waregem",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 0,
+        "subIns": 6,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/paugain-wilguens/hn5nvi6k/",
+      "direttaPlayerId": "hn5nvi6k",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 894,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.68"
+      }
+    },
+    "haiti::alexandre pierre": {
+      "player": "Alexandre Pierre",
+      "team": "Haiti",
+      "club": "FC Sochaux",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 5,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pierre-alexandre/0OG09j8j/",
+      "direttaPlayerId": "0OG09j8j",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "",
+        "scope": "Club + nazionale",
+        "goalsConceded": 10,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.67",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 8,
+          "goalsConceded": 9,
+          "goalsConcededPerGame": "1.12",
+          "averageRating": "6.92",
+          "sample": [
+            {
+              "date": "06.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Haiti",
+              "awayTeam": "Honduras",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 7.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "22.03.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Aserbaidschan",
+              "awayTeam": "Haiti",
+              "homeScore": 0,
+              "awayScore": 3,
+              "score": "0-3",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "19.11.24",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Haiti",
+              "awayTeam": "Puerto Rico",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "15.10.24",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Haiti",
+              "awayTeam": "Aruba",
+              "homeScore": 5,
+              "awayScore": 3,
+              "score": "5-3",
+              "minutes": 66,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "03.07.23",
+              "competition": "Gold Cup (Nord- & Mittelamerika)",
+              "homeTeam": "Honduras",
+              "awayTeam": "Haiti",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "30.06.23",
+              "competition": "Gold Cup (Nord- & Mittelamerika)",
+              "homeTeam": "Haiti",
+              "awayTeam": "Mexiko",
+              "homeScore": 1,
+              "awayScore": 3,
+              "score": "1-3",
+              "minutes": 90,
+              "rating": 7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "26.06.23",
+              "competition": "Gold Cup (Nord- & Mittelamerika)",
+              "homeTeam": "Haiti",
+              "awayTeam": "Katar",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "25.03.23",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Montserrat",
+              "awayTeam": "Haiti",
+              "homeScore": 0,
+              "awayScore": 4,
+              "score": "0-4",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    },
+    "haiti::johnny placide": {
+      "player": "Johnny Placide",
+      "team": "Haiti",
+      "club": "SC Bastia",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 9,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/placide-johnny/hz9iLSns/",
+      "direttaPlayerId": "hz9iLSns",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.94",
+        "scope": "Club + nazionale",
+        "goalsConceded": 12,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.80",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 4,
+          "goalsConceded": 4,
+          "goalsConcededPerGame": "1.00",
+          "averageRating": "8.20",
+          "sample": [
+            {
+              "date": "08.09.23",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Haiti",
+              "awayTeam": "Kuba",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 8.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "15.06.22",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Haiti",
+              "awayTeam": "Guyana",
+              "homeScore": 6,
+              "awayScore": 0,
+              "score": "6-0",
+              "minutes": 46,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "11.06.22",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Guyana",
+              "awayTeam": "Haiti",
+              "homeScore": 2,
+              "awayScore": 6,
+              "score": "2-6",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "07.06.22",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Haiti",
+              "awayTeam": "Montserrat",
+              "homeScore": 3,
+              "awayScore": 2,
+              "score": "3-2",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            }
+          ]
+        }
+      }
+    },
+    "haiti::josue duverger": {
+      "player": "Josué Duverger",
+      "team": "Haiti",
+      "club": "FC Cosmos Koblenz",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/duverger-josue/nw5Ka7dc/",
+      "direttaPlayerId": "nw5Ka7dc",
+      "recent15": {
+        "appearances": 5,
+        "minutes": 340,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 5,
+        "averageRating": "5.30",
+        "scope": "Club + nazionale",
+        "goalsConceded": 8,
+        "goalsConcededMatches": 5,
+        "goalsConcededPerGame": "1.60",
+        "nationalGoalkeeper": {
+          "appearances": 4,
+          "goalsConceded": 7,
+          "goalsConcededPerGame": 1.75,
+          "averageRating": 5.3,
+          "matches": [
+            {
+              "conceded": 1,
+              "rating": null
+            },
+            {
+              "conceded": 2,
+              "rating": null
+            },
+            {
+              "conceded": 3,
+              "rating": 5.3
+            },
+            {
+              "conceded": 1,
+              "rating": null
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "C",
+      "squadra": "Haiti",
+      "giocatore": "Danley Jacques",
+      "club": "Philadelphia Union",
+      "lega": "MLS",
+      "ammonizioni_stagionali": 13,
+      "espulsioni_stagionali": 1,
+      "media_falli_partita": 1.4,
+      "rischio_cartellino": 72
+    }
+  ]
+}

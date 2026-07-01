@@ -1,0 +1,1640 @@
+{
+  "team": "Sudafrica",
+  "eliminationDate": "2026-06-28",
+  "roster": [
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Attaccanti",
+      "player": "Evidence Makgopa",
+      "club": "Orlando Pirates",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Attaccanti",
+      "player": "Iqraam Rayners",
+      "club": "Mamelodi Sundowns",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Attaccanti",
+      "player": "Lyle Foster",
+      "club": "Burnley",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/sudafrica.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Attaccanti",
+      "player": "Oswin Appollis",
+      "club": "Orlando Pirates",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Attaccanti",
+      "player": "Relebohile Mofokeng",
+      "club": "Orlando Pirates",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Attaccanti",
+      "player": "Thapelo Maseko",
+      "club": "AEL Limassol",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Cipro",
+      "league": "Cypriot First Division",
+      "flag": "flags/sudafrica.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Attaccanti",
+      "player": "Themba Zwane",
+      "club": "Mamelodi Sundowns",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 37,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Attaccanti",
+      "player": "Tshepang Moremi",
+      "club": "Orlando Pirates",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Centrocampisti",
+      "player": "Jayden Adams",
+      "club": "Mamelodi Sundowns",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Centrocampisti",
+      "player": "Sphephelo Sithole",
+      "club": "CD Tondela",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/sudafrica.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Centrocampisti",
+      "player": "Teboho Mokoena",
+      "club": "Mamelodi Sundowns",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Centrocampisti",
+      "player": "Thalente Mbatha",
+      "club": "Orlando Pirates",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Difensori",
+      "player": "Aubrey Modiba",
+      "club": "Mamelodi Sundowns",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Difensori",
+      "player": "Bradley Cross",
+      "club": "Kaizer Chiefs",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Difensori",
+      "player": "Ime Okon",
+      "club": "Hannover 96",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/sudafrica.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Difensori",
+      "player": "Kamogelo Sebelebele",
+      "club": "Orlando Pirates",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Difensori",
+      "player": "Khuliso Mudau",
+      "club": "Mamelodi Sundowns",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Difensori",
+      "player": "Khulumani Ndamane",
+      "club": "Mamelodi Sundowns",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Difensori",
+      "player": "Mbekezeli Mbokazi",
+      "club": "Chicago Fire",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/sudafrica.svg",
+      "age": 21,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Difensori",
+      "player": "Nkosinathi Sibisi",
+      "club": "Orlando Pirates",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Difensori",
+      "player": "Olwethu Makhanya",
+      "club": "Philadelphia Union",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/sudafrica.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Difensori",
+      "player": "Samukelo Kabini",
+      "club": "Molde FK",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Norvegia",
+      "league": "Eliteserien",
+      "flag": "flags/sudafrica.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Difensori",
+      "player": "Thabang Matuludi",
+      "club": "Polokwane City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Portieri",
+      "player": "Ricardo Goss",
+      "club": "Siwelele FC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Portieri",
+      "player": "Ronwen Williams",
+      "club": "Mamelodi Sundowns",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "A",
+      "team": "Sudafrica",
+      "role": "Portieri",
+      "player": "Sipho Chaine",
+      "club": "Orlando Pirates",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Sudafrica",
+      "league": "South African Premiership",
+      "flag": "flags/sudafrica.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "sudafrica::evidence makgopa": {
+      "player": "Evidence Makgopa",
+      "team": "Sudafrica",
+      "club": "Orlando Pirates",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 1,
+        "subIns": 7,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/makgopa-evidence/riFLkbEo/",
+      "direttaPlayerId": "riFLkbEo",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 588,
+        "goals": 5,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.85"
+      }
+    },
+    "sudafrica::iqraam rayners": {
+      "player": "Iqraam Rayners",
+      "team": "Sudafrica",
+      "club": "Mamelodi Sundowns",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 0,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/rayners-iqraam/8M2gNoUh/",
+      "direttaPlayerId": "8M2gNoUh",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 741,
+        "goals": 6,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.80"
+      }
+    },
+    "sudafrica::lyle foster": {
+      "player": "Lyle Foster",
+      "team": "Sudafrica",
+      "club": "Burnley",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 3,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/foster-lyle/Kh0tCZmg/",
+      "direttaPlayerId": "Kh0tCZmg",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 871,
+        "goals": 3,
+        "assists": 4,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.43",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 438,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.06
+        }
+      }
+    },
+    "sudafrica::oswin appollis": {
+      "player": "Oswin Appollis",
+      "team": "Sudafrica",
+      "club": "Orlando Pirates",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 10,
+        "subIns": 2,
+        "goals": 5,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/appollis-oswin/6e9QI2W6/",
+      "direttaPlayerId": "6e9QI2W6",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1077,
+        "goals": 4,
+        "assists": 3,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.45"
+      }
+    },
+    "sudafrica::relebohile mofokeng": {
+      "player": "Relebohile Mofokeng",
+      "team": "Sudafrica",
+      "club": "Orlando Pirates",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 2,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mofokeng-relebohile/hx20yWyp/",
+      "direttaPlayerId": "hx20yWyp",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1193,
+        "goals": 8,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.86"
+      }
+    },
+    "sudafrica::thapelo maseko": {
+      "player": "Thapelo Maseko",
+      "team": "Sudafrica",
+      "club": "AEL Limassol",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 0,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/maseko-thapelo/fPICDHL5/",
+      "direttaPlayerId": "fPICDHL5",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 560,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.50"
+      }
+    },
+    "sudafrica::themba zwane": {
+      "player": "Themba Zwane",
+      "team": "Sudafrica",
+      "club": "Mamelodi Sundowns",
+      "age": 37,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/zwane-themba/hnSM11RK/",
+      "direttaPlayerId": "hnSM11RK",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 386,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.56"
+      }
+    },
+    "sudafrica::tshepang moremi": {
+      "player": "Tshepang Moremi",
+      "team": "Sudafrica",
+      "club": "Orlando Pirates",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 6,
+        "subIns": 3,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/moremi-tshepang/QXY2UJk0/",
+      "direttaPlayerId": "QXY2UJk0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 963,
+        "goals": 4,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.15"
+      }
+    },
+    "sudafrica::jayden adams": {
+      "player": "Jayden Adams",
+      "team": "Sudafrica",
+      "club": "Mamelodi Sundowns",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/adams-jayden/vPHtKJeg/",
+      "direttaPlayerId": "vPHtKJeg",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1114,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.72"
+      }
+    },
+    "sudafrica::sphephelo sithole": {
+      "player": "Sphephelo Sithole",
+      "team": "Sudafrica",
+      "club": "CD Tondela",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 7,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/yaya-sithole/8QxUv8F5/",
+      "direttaPlayerId": "8QxUv8F5",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 902,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.32"
+      }
+    },
+    "sudafrica::teboho mokoena": {
+      "player": "Teboho Mokoena",
+      "team": "Sudafrica",
+      "club": "Mamelodi Sundowns",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mokoena-teboho/MFTeufFd/",
+      "direttaPlayerId": "MFTeufFd",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1094,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.17"
+      }
+    },
+    "sudafrica::thalente mbatha": {
+      "player": "Thalente Mbatha",
+      "team": "Sudafrica",
+      "club": "Orlando Pirates",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 4,
+        "subIns": 5,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mbatha-thalente/zuITHrv3/",
+      "direttaPlayerId": "zuITHrv3",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 994,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.18"
+      }
+    },
+    "sudafrica::aubrey modiba": {
+      "player": "Aubrey Modiba",
+      "team": "Sudafrica",
+      "club": "Mamelodi Sundowns",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 8,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/modiba-aubrey/tWExAYOC/",
+      "direttaPlayerId": "tWExAYOC",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1172,
+        "goals": 0,
+        "assists": 4,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "7.11"
+      }
+    },
+    "sudafrica::bradley cross": {
+      "player": "Bradley Cross",
+      "team": "Sudafrica",
+      "club": "Kaizer Chiefs",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/cross-bradley/lji5D2NO/",
+      "direttaPlayerId": "lji5D2NO",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1091,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.12"
+      }
+    },
+    "sudafrica::ime okon": {
+      "player": "Ime Okon",
+      "team": "Sudafrica",
+      "club": "Hannover 96",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 3,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/okon-ime/EFI44jgD/",
+      "direttaPlayerId": "EFI44jgD",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1000,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.48",
+        "topFive": {
+          "appearances": 15,
+          "minutes": 1000,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.48
+        }
+      }
+    },
+    "sudafrica::kamogelo sebelebele": {
+      "player": "Kamogelo Sebelebele",
+      "team": "Sudafrica",
+      "club": "Orlando Pirates",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sebelebele-kamogelo/xU3kPyH0/",
+      "direttaPlayerId": "xU3kPyH0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 897,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.00"
+      }
+    },
+    "sudafrica::khuliso mudau": {
+      "player": "Khuliso Mudau",
+      "team": "Sudafrica",
+      "club": "Mamelodi Sundowns",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 9,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mudau-khuliso/6Hn06vf2/",
+      "direttaPlayerId": "6Hn06vf2",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1261,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 7,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.15"
+      }
+    },
+    "sudafrica::khulumani ndamane": {
+      "player": "Khulumani Ndamane",
+      "team": "Sudafrica",
+      "club": "Mamelodi Sundowns",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 2,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ndamane-ayanda/f1xzNGBf/",
+      "direttaPlayerId": "f1xzNGBf",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1202,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.89"
+      }
+    },
+    "sudafrica::mbekezeli mbokazi": {
+      "player": "Mbekezeli Mbokazi",
+      "team": "Sudafrica",
+      "club": "Chicago Fire",
+      "age": 21,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 9,
+        "subIns": 0,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mbokazi-mbekezile/zg795kmf/",
+      "direttaPlayerId": "zg795kmf",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1348,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.98"
+      }
+    },
+    "sudafrica::nkosinathi sibisi": {
+      "player": "Nkosinathi Sibisi",
+      "team": "Sudafrica",
+      "club": "Orlando Pirates",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 4,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sibisi-nkosinathi/6Bm7v77H/",
+      "direttaPlayerId": "6Bm7v77H",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1278,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.92"
+      }
+    },
+    "sudafrica::olwethu makhanya": {
+      "player": "Olwethu Makhanya",
+      "team": "Sudafrica",
+      "club": "Philadelphia Union",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/makhanya-olwethu/Io2gXoT8/",
+      "direttaPlayerId": "Io2gXoT8",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1289,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "7.11"
+      }
+    },
+    "sudafrica::samukelo kabini": {
+      "player": "Samukelo Kabini",
+      "team": "Sudafrica",
+      "club": "Molde FK",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 4,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kabini-samukelo/zXmypc2g/",
+      "direttaPlayerId": "zXmypc2g",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1271,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.89"
+      }
+    },
+    "sudafrica::thabang matuludi": {
+      "player": "Thabang Matuludi",
+      "team": "Sudafrica",
+      "club": "Polokwane City",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/matuludi-tholo/0dMwlCzI/",
+      "direttaPlayerId": "0dMwlCzI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1223,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.52"
+      }
+    },
+    "sudafrica::ricardo goss": {
+      "player": "Ricardo Goss",
+      "team": "Sudafrica",
+      "club": "Siwelele FC",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/goss-ricardo/dEZDIGdM/",
+      "direttaPlayerId": "dEZDIGdM",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.04",
+        "scope": "Club + nazionale",
+        "goalsConceded": 6,
+        "goalsConcededMatches": 14,
+        "goalsConcededPerGame": "0.43",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 4,
+          "goalsConceded": 1,
+          "goalsConcededPerGame": "0.25",
+          "averageRating": "5.80",
+          "sample": [
+            {
+              "date": "16.12.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Ghana B",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "06.06.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Tansania",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 63,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "21.03.24",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Andorra",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 5.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "12.09.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "DR Kongo",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    },
+    "sudafrica::ronwen williams": {
+      "player": "Ronwen Williams",
+      "team": "Sudafrica",
+      "club": "Mamelodi Sundowns",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/williams-ronwen/lQRX0UzA/",
+      "direttaPlayerId": "lQRX0UzA",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1306,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.89",
+        "scope": "Club + nazionale",
+        "goalsConceded": 11,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.73",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 15,
+          "goalsConceded": 14,
+          "goalsConcededPerGame": "0.93",
+          "averageRating": "6.66",
+          "sample": [
+            {
+              "date": "31.03.26",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Panama",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 46,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "27.03.26",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Panama",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 6.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "04.01.26",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Kamerun",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 90,
+              "rating": 6.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "29.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Simbabwe",
+              "awayTeam": "Südafrika",
+              "homeScore": 2,
+              "awayScore": 3,
+              "score": "2-3",
+              "minutes": 90,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "26.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Ägypten",
+              "awayTeam": "Südafrika",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 6.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "22.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Angola",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 7.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "15.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Sambia",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 46,
+              "rating": 7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "14.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Ruanda",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "10.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Simbabwe",
+              "awayTeam": "Südafrika",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "09.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Nigeria",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "05.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Lesotho",
+              "awayTeam": "Südafrika",
+              "homeScore": 0,
+              "awayScore": 3,
+              "score": "0-3",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "25.03.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Benin",
+              "awayTeam": "Südafrika",
+              "homeScore": 0,
+              "awayScore": 2,
+              "score": "0-2",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "21.03.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Lesotho",
+              "homeScore": 0,
+              "awayScore": 3,
+              "score": "0-3",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "19.11.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Südsudan",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 74,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "15.11.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Uganda",
+              "awayTeam": "Südafrika",
+              "homeScore": 0,
+              "awayScore": 2,
+              "score": "0-2",
+              "minutes": 90,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    },
+    "sudafrica::sipho chaine": {
+      "player": "Sipho Chaine",
+      "team": "Sudafrica",
+      "club": "Orlando Pirates",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 7,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/chaine-sipho/pO7ZpkDI/",
+      "direttaPlayerId": "pO7ZpkDI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1365,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.87",
+        "scope": "Club + nazionale",
+        "goalsConceded": 5,
+        "goalsConcededMatches": 14,
+        "goalsConcededPerGame": "0.36",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 3,
+          "goalsConceded": 3,
+          "goalsConcededPerGame": "1.00",
+          "averageRating": "6.30",
+          "sample": [
+            {
+              "date": "15.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Sambia",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 45,
+              "rating": 6.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "10.06.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Südafrika",
+              "awayTeam": "Mosambik",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 67,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "10.09.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Südsudan",
+              "awayTeam": "Südafrika",
+              "homeScore": 2,
+              "awayScore": 3,
+              "score": "2-3",
+              "minutes": 90,
+              "rating": 6.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": []
+}

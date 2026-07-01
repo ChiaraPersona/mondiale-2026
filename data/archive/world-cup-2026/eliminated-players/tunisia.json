@@ -1,0 +1,1631 @@
+{
+  "team": "Tunisia",
+  "eliminationDate": "2026-06-26",
+  "roster": [
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Attaccanti",
+      "player": "Elias Achouri",
+      "club": "Copenhague",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Danimarca",
+      "league": "Danish Superliga",
+      "flag": "flags/tunisia.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Attaccanti",
+      "player": "Elias Saad",
+      "club": "Hannover 96",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/tunisia.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Attaccanti",
+      "player": "Firas Chaouat",
+      "club": "Club Africain",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Tunisia",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "flag": "flags/tunisia.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Attaccanti",
+      "player": "Hazem Mastouri",
+      "club": "Dynamo Makhachkala",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Russia",
+      "league": "Russian Premier League",
+      "flag": "flags/tunisia.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Attaccanti",
+      "player": "Khalil Ayari",
+      "club": "PSG",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/tunisia.svg",
+      "age": 21,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Attaccanti",
+      "player": "Rayan Elloumi",
+      "club": "Vancouver Whitecaps",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/tunisia.svg",
+      "age": 19,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Attaccanti",
+      "player": "Sebastian Tounekti",
+      "club": "Celtic",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/tunisia.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Centrocampisti",
+      "player": "Anis Ben Slimane",
+      "club": "Norwich",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/tunisia.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Centrocampisti",
+      "player": "Ellyes Skhiri",
+      "club": "Eintracht de Frankfurt",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/tunisia.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Centrocampisti",
+      "player": "Hannibal Mejbri",
+      "club": "Burnley",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/tunisia.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Centrocampisti",
+      "player": "Isma�l Gharbi",
+      "club": "Augsburgo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/tunisia.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Centrocampisti",
+      "player": "M. Hadj Mahmoud",
+      "club": "Lugano",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Svizzera",
+      "league": "Swiss Super League",
+      "flag": "flags/tunisia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Centrocampisti",
+      "player": "Mortadha Ben Ouanes",
+      "club": "Kasimpasa",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/tunisia.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Centrocampisti",
+      "player": "Rani Khedira",
+      "club": "Union Berlin",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/tunisia.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Difensori",
+      "player": "Adem Arous",
+      "club": "Kasimpasa",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/tunisia.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Difensori",
+      "player": "Ali Abdi",
+      "club": "Niza",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/tunisia.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Difensori",
+      "player": "Dylan Bronn",
+      "club": "Servette",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Svizzera",
+      "league": "Swiss Super League",
+      "flag": "flags/tunisia.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Difensori",
+      "player": "M.A Ben Hmida",
+      "club": "Esp�rance de Tunis",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Tunisia",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "flag": "flags/tunisia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Difensori",
+      "player": "Montassar Talbi",
+      "club": "Lorient",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/tunisia.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Difensori",
+      "player": "Moutaz Neffati",
+      "club": "Norrk�ping",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Svezia",
+      "league": "Allsvenskan",
+      "flag": "flags/tunisia.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Difensori",
+      "player": "Omar Rekik",
+      "club": "Maribor",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Slovenia",
+      "league": "PrvaLiga",
+      "flag": "flags/tunisia.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Difensori",
+      "player": "Raed Chikhaoui",
+      "club": "Monastir",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Tunisia",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "flag": "flags/tunisia.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Difensori",
+      "player": "Van Valery",
+      "club": "Young Boys",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Svizzera",
+      "league": "Swiss Super League",
+      "flag": "flags/tunisia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Portieri",
+      "player": "A. Chamakh",
+      "club": "Club Africain",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Tunisia",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "flag": "flags/tunisia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Portieri",
+      "player": "Aymen Dahmen",
+      "club": "CS Sfaxien",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Tunisia",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "flag": "flags/tunisia.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Tunisia",
+      "role": "Portieri",
+      "player": "Sabri Ben Hassen",
+      "club": "Etoile du Sahel",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Tunisia",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "flag": "flags/tunisia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "tunisia::elias achouri": {
+      "player": "Elias Achouri",
+      "team": "Tunisia",
+      "club": "Copenhague",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 3,
+        "subIns": 3,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/achouri-mohamed/8MxHX431/",
+      "direttaPlayerId": "8MxHX431",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 986,
+        "goals": 4,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.77"
+      }
+    },
+    "tunisia::elias saad": {
+      "player": "Elias Saad",
+      "team": "Tunisia",
+      "club": "Hannover 96",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 5,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/saad-elias/rcSN3FVD/",
+      "direttaPlayerId": "rcSN3FVD",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 884,
+        "goals": 0,
+        "assists": 4,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.90",
+        "topFive": {
+          "appearances": 11,
+          "minutes": 608,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.96
+        }
+      }
+    },
+    "tunisia::firas chaouat": {
+      "player": "Firas Chaouat",
+      "team": "Tunisia",
+      "club": "Club Africain",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 5,
+        "subIns": 6,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/chaouat-firas/dW88oMM0/",
+      "direttaPlayerId": "dW88oMM0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1102,
+        "goals": 8,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.60"
+      }
+    },
+    "tunisia::hazem mastouri": {
+      "player": "Hazem Mastouri",
+      "team": "Tunisia",
+      "club": "Dynamo Makhachkala",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 7,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mastouri-hazem/G0UUz5vH/",
+      "direttaPlayerId": "G0UUz5vH",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 856,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.67"
+      }
+    },
+    "tunisia::khalil ayari": {
+      "player": "Khalil Ayari",
+      "team": "Tunisia",
+      "club": "PSG",
+      "age": 21,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ayari-khalil/Sv6TfAIT/",
+      "direttaPlayerId": "Sv6TfAIT",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1084,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 6,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.67"
+      }
+    },
+    "tunisia::rayan elloumi": {
+      "player": "Rayan Elloumi",
+      "team": "Tunisia",
+      "club": "Vancouver Whitecaps",
+      "age": 19,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/elloumi-rayan/KxqXbGeK/",
+      "direttaPlayerId": "KxqXbGeK",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 402,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.55"
+      }
+    },
+    "tunisia::sebastian tounekti": {
+      "player": "Sebastian Tounekti",
+      "team": "Tunisia",
+      "club": "Celtic",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 3,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/tounekti-sebastian/Cbq96pm8/",
+      "direttaPlayerId": "Cbq96pm8",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 845,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.92"
+      }
+    },
+    "tunisia::anis ben slimane": {
+      "player": "Anis Ben Slimane",
+      "team": "Tunisia",
+      "club": "Norwich",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/slimane-anis/QabhZdtq/",
+      "direttaPlayerId": "QabhZdtq",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 926,
+        "goals": 5,
+        "assists": 3,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.04"
+      }
+    },
+    "tunisia::ellyes skhiri": {
+      "player": "Ellyes Skhiri",
+      "team": "Tunisia",
+      "club": "Eintracht de Frankfurt",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 9,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/skhiri-ellyes/UawLDteR/",
+      "direttaPlayerId": "UawLDteR",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1039,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.31",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 487,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 1,
+          "averageRating": 5.96
+        }
+      }
+    },
+    "tunisia::hannibal mejbri": {
+      "player": "Hannibal Mejbri",
+      "team": "Tunisia",
+      "club": "Burnley",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 8,
+        "subIns": 0,
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mejbri-hannibal/8ECeKtyS/",
+      "direttaPlayerId": "8ECeKtyS",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 917,
+        "goals": 1,
+        "assists": 4,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.96",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 516,
+          "goals": 1,
+          "assists": 2,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 6.99
+        }
+      }
+    },
+    "tunisia::ismael gharbi": {
+      "player": "Ismaël Gharbi",
+      "team": "Tunisia",
+      "club": "Augsburgo",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 7,
+        "subIns": 5,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gharbi-ismael/dIp0OKJA/",
+      "direttaPlayerId": "dIp0OKJA",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 740,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.67",
+        "topFive": {
+          "appearances": 4,
+          "minutes": 85,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.43
+        }
+      }
+    },
+    "tunisia::m. hadj mahmoud": {
+      "player": "M. Hadj Mahmoud",
+      "team": "Tunisia",
+      "club": "Lugano",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 1,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mahmoud-hadj/n53rO574/",
+      "direttaPlayerId": "n53rO574",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 676,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.34"
+      }
+    },
+    "tunisia::mortadha ben ouanes": {
+      "player": "Mortadha Ben Ouanes",
+      "team": "Tunisia",
+      "club": "Kasimpasa",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ben-ouanes-mortadha/lzkBz3Fs/",
+      "direttaPlayerId": "lzkBz3Fs",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1173,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.34"
+      }
+    },
+    "tunisia::rani khedira": {
+      "player": "Rani Khedira",
+      "team": "Tunisia",
+      "club": "Union Berlin",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 3,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/khedira-rani/nDdRIHZI/",
+      "direttaPlayerId": "nDdRIHZI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1327,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.25",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1237,
+          "goals": 2,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.23
+        }
+      }
+    },
+    "tunisia::adem arous": {
+      "player": "Adem Arous",
+      "team": "Tunisia",
+      "club": "Kasimpasa",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/arous-adem/KnxGVZkT/",
+      "direttaPlayerId": "KnxGVZkT",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1099,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.78"
+      }
+    },
+    "tunisia::ali abdi": {
+      "player": "Ali Abdi",
+      "team": "Tunisia",
+      "club": "Niza",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 12,
+        "subIns": 0,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/abdi-ali/h4HteEDA/",
+      "direttaPlayerId": "h4HteEDA",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1111,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.79",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 573,
+          "goals": 2,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.64
+        }
+      }
+    },
+    "tunisia::dylan bronn": {
+      "player": "Dylan Bronn",
+      "team": "Tunisia",
+      "club": "Servette",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 7,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bronn-dylan/b5OLGEKk/",
+      "direttaPlayerId": "b5OLGEKk",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1228,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.57"
+      }
+    },
+    "tunisia::m.a ben hmida": {
+      "player": "M.A Ben Hmida",
+      "team": "Tunisia",
+      "club": "Espérance de Tunis",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 1,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ben-hmida-amine/AiZoDQa0/",
+      "direttaPlayerId": "AiZoDQa0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1293,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.97"
+      }
+    },
+    "tunisia::montassar talbi": {
+      "player": "Montassar Talbi",
+      "team": "Tunisia",
+      "club": "Lorient",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 8,
+        "subIns": 0,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/talbi-montassar/bLU8KtEd/",
+      "direttaPlayerId": "bLU8KtEd",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1380,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.98",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 810,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.97
+        }
+      }
+    },
+    "tunisia::moutaz neffati": {
+      "player": "Moutaz Neffati",
+      "team": "Tunisia",
+      "club": "Norrköping",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 2,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/neffati-moutaz/4pLs2Gzb/",
+      "direttaPlayerId": "4pLs2Gzb",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1103,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.99"
+      }
+    },
+    "tunisia::omar rekik": {
+      "player": "Omar Rekik",
+      "team": "Tunisia",
+      "club": "Maribor",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/rekik-omar/Em3KVJ1K/",
+      "direttaPlayerId": "Em3KVJ1K",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1193,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": ""
+      }
+    },
+    "tunisia::raed chikhaoui": {
+      "player": "Raed Chikhaoui",
+      "team": "Tunisia",
+      "club": "Monastir",
+      "age": 22,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "I3aEQRZC",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/chikhaoui-raed/I3aEQRZC/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": ""
+      }
+    },
+    "tunisia::van valery": {
+      "player": "Van Valery",
+      "team": "Tunisia",
+      "club": "Young Boys",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 8,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/valery-yann/Icg1ZumF/",
+      "direttaPlayerId": "Icg1ZumF",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1197,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.51"
+      }
+    },
+    "tunisia::a. chamakh": {
+      "player": "A. Chamakh",
+      "team": "Tunisia",
+      "club": "Club Africain",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/abdelmouhib-chamakh/GjajLDW7/",
+      "direttaPlayerId": "GjajLDW7",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "",
+        "scope": "Club + nazionale",
+        "goalsConceded": 3,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.20"
+      }
+    },
+    "tunisia::aymen dahmen": {
+      "player": "Aymen Dahmen",
+      "team": "Tunisia",
+      "club": "CS Sfaxien",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 10,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/dahmen-aymen/QuESDCxQ/",
+      "direttaPlayerId": "QuESDCxQ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1380,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.23",
+        "scope": "Club + nazionale",
+        "goalsConceded": 12,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.80",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 15,
+          "goalsConceded": 15,
+          "goalsConcededPerGame": "1.00",
+          "averageRating": "6.34",
+          "sample": [
+            {
+              "date": "03.01.26",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Mali",
+              "awayTeam": "Tunesien",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 120,
+              "rating": 6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "30.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Tansania",
+              "awayTeam": "Tunesien",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 5.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "27.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Nigeria",
+              "awayTeam": "Tunesien",
+              "homeScore": 3,
+              "awayScore": 2,
+              "score": "3-2",
+              "minutes": 90,
+              "rating": 5.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "23.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Tunesien",
+              "awayTeam": "Uganda",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 90,
+              "rating": 6.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "07.12.25",
+              "competition": "FIFA Arab Cup (Welt)",
+              "homeTeam": "Katar",
+              "awayTeam": "Tunesien",
+              "homeScore": 0,
+              "awayScore": 3,
+              "score": "0-3",
+              "minutes": 90,
+              "rating": 7.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "04.12.25",
+              "competition": "FIFA Arab Cup (Welt)",
+              "homeTeam": "Palästina",
+              "awayTeam": "Tunesien",
+              "homeScore": 2,
+              "awayScore": 2,
+              "score": "2-2",
+              "minutes": 90,
+              "rating": 5.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "01.12.25",
+              "competition": "FIFA Arab Cup (Welt)",
+              "homeTeam": "Tunesien",
+              "awayTeam": "Syrien",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": 6.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "18.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Tunesien",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "14.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Tunesien",
+              "awayTeam": "Jordanien",
+              "homeScore": 3,
+              "awayScore": 2,
+              "score": "3-2",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "13.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Tunesien",
+              "awayTeam": "Namibia",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "10.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "São Tomé und Príncipe",
+              "awayTeam": "Tunesien",
+              "homeScore": 0,
+              "awayScore": 6,
+              "score": "0-6",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "08.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Äquatorialguinea",
+              "awayTeam": "Tunesien",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "04.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Tunesien",
+              "awayTeam": "Liberia",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "06.06.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Marokko",
+              "awayTeam": "Tunesien",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "02.06.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Tunesien",
+              "awayTeam": "Burkina Faso",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    },
+    "tunisia::sabri ben hassen": {
+      "player": "Sabri Ben Hassen",
+      "team": "Tunisia",
+      "club": "Etoile du Sahel",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ben-hsan-sabri/fenqH1Qs/",
+      "direttaPlayerId": "fenqH1Qs",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "",
+        "scope": "Club + nazionale",
+        "goalsConceded": 11,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.73",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 4,
+          "goalsConceded": 7,
+          "goalsConcededPerGame": "1.75",
+          "averageRating": "",
+          "sample": [
+            {
+              "date": "09.09.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Ägypten",
+              "awayTeam": "Tunesien",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "04.12.15",
+              "competition": "U23 Afrika-Cup (Afrika)",
+              "homeTeam": "Südafrika U23",
+              "awayTeam": "Tunesien U23",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "01.12.15",
+              "competition": "U23 Afrika-Cup (Afrika)",
+              "homeTeam": "Tunesien U23",
+              "awayTeam": "Senegal U23",
+              "homeScore": 0,
+              "awayScore": 2,
+              "score": "0-2",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "28.11.15",
+              "competition": "U23 Afrika-Cup (Afrika)",
+              "homeTeam": "Sambia U23",
+              "awayTeam": "Tunesien U23",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "F",
+      "squadra": "Tunisia",
+      "giocatore": "Hannibal Mejbri",
+      "club": "Burnley",
+      "lega": "EFL Championship",
+      "ammonizioni_stagionali": 12,
+      "espulsioni_stagionali": 0,
+      "media_falli_partita": 0.9,
+      "rischio_cartellino": 45
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "team": "Uzbekistan",
+  "group": "K",
+  "eliminationDate": "2026-06-28",
+  "stage": "Fase a gironi",
+  "teamStats": {
+    "team": "Uzbekistan",
+    "group": "K",
+    "flag": "flags/uzbekistan.svg",
+    "status": "Diretta",
+    "source": "https://www.diretta.it/squadra/uzbekistan/0dx6MUbU/risultati/",
+    "sampleSize": 15,
+    "teamTotals": {
+      "source": "https://www.diretta.it/squadra/uzbekistan/0dx6MUbU/"
+    },
+    "matches": [
+      {
+        "date": "08/06/2026",
+        "opponent": "Olanda",
+        "score": "1-2",
+        "source": "https://www.soccerbase.com/matches/results.sd?date=2026-06-08",
+        "note": "Risultato verificato su Soccerbase; statistiche complete Diretta da integrare"
+      },
+      {
+        "date": "30/07/2024",
+        "opponent": "Repubblica Dominicana Ol.",
+        "score": "1-1",
+        "source": "https://www.diretta.it/partita/calcio/repubblica-dominicana-4pLi97Eo/uzbekistan-0dx6MUbU/",
+        "xgFor": 1.67,
+        "xgAgainst": 1.84,
+        "possession": 49,
+        "opponentPossession": 51,
+        "shotsFor": 17,
+        "shotsAgainst": 15,
+        "shotsOnTargetFor": 5,
+        "shotsOnTargetAgainst": 5,
+        "cornersFor": 7,
+        "cornersAgainst": 3,
+        "yellowCards": 1,
+        "opponentYellowCards": 1,
+        "redCards": 0,
+        "opponentRedCards": 0,
+        "offsidesFor": 6,
+        "offsidesAgainst": 2,
+        "foulsFor": 13,
+        "foulsAgainst": 12,
+        "statsSource": "https://local-it.flashscore.ninja/46/x/feed/df_st_1_SAOdZ4BN"
+      },
+      {
+        "date": "27/07/2024",
+        "opponent": "Egitto Ol.",
+        "score": "0-1",
+        "source": "https://www.diretta.it/partita/calcio/uzbekistan-0dx6MUbU/egitto-IsnlNYQK/",
+        "xgFor": 0.86,
+        "xgAgainst": 0.81,
+        "possession": 57,
+        "opponentPossession": 43,
+        "shotsFor": 11,
+        "shotsAgainst": 11,
+        "shotsOnTargetFor": 3,
+        "shotsOnTargetAgainst": 3,
+        "cornersFor": 9,
+        "cornersAgainst": 2,
+        "yellowCards": 1,
+        "opponentYellowCards": 2,
+        "redCards": 0,
+        "opponentRedCards": 0,
+        "offsidesFor": 1,
+        "offsidesAgainst": 2,
+        "foulsFor": 9,
+        "foulsAgainst": 8,
+        "statsSource": "https://local-it.flashscore.ninja/46/x/feed/df_st_1_6ezlyRtB"
+      },
+      {
+        "date": "24/07/2024",
+        "opponent": "Spagna Ol.",
+        "score": "1-2",
+        "source": "https://www.diretta.it/partita/calcio/uzbekistan-0dx6MUbU/spagna-GSClRmaT/",
+        "xgFor": 1.64,
+        "xgAgainst": 1.91,
+        "possession": 47,
+        "opponentPossession": 53,
+        "shotsFor": 12,
+        "shotsAgainst": 9,
+        "shotsOnTargetFor": 7,
+        "shotsOnTargetAgainst": 6,
+        "cornersFor": 2,
+        "cornersAgainst": 0,
+        "yellowCards": 3,
+        "opponentYellowCards": 5,
+        "redCards": 0,
+        "opponentRedCards": 0,
+        "offsidesFor": 3,
+        "offsidesAgainst": 1,
+        "foulsFor": 23,
+        "foulsAgainst": 24,
+        "statsSource": "https://local-it.flashscore.ninja/46/x/feed/df_st_1_bVWuwmCb"
+      },
+      {
+        "date": "24/01/2022",
+        "opponent": "Zorya",
+        "score": "0-1",
+        "source": "https://www.diretta.it/partita/calcio/zorya-j9Wy32w4/uzbekistan-0dx6MUbU/"
+      }
+    ]
+  },
+  "probableFormation": {
+    "module": "3-4-2-1",
+    "coach": "Fabio Cannavaro",
+    "source": "Formazione Portogallo-Uzbekistan",
+    "starters": [
+      "Abduvohid Nematov",
+      "Rustamjon Ashurmatov",
+      "Abdulla Abdullaev",
+      "Abdukodir Khusanov",
+      "Sherzod Nasrullaev",
+      "Otabek Shukurov",
+      "Odiljon Hamrobekov",
+      "Farrukh Karimov",
+      "Azizbek Ganiev",
+      "Abbosbek Fayzullaev",
+      "Eldor Shomurodov"
+    ]
+  },
+  "formationInsight": {
+    "tier": "dark_horse",
+    "confed": "AFC",
+    "worldCupIndex": 80,
+    "captain": "Eldor Shomurodov",
+    "penaltyTaker": "Eldor Shomurodov",
+    "mainStriker": "Eldor Shomurodov",
+    "starPlayer": "Abbosbek Fayzullaev",
+    "keyPlayers": [
+      "Fayzullaev",
+      "Shomurodov",
+      "Khusanov"
+    ],
+    "bettingAngles": [
+      "Uzbekistan agli ottavi quota alta",
+      "Fayzullaev giovane",
+      "Shomurodov marcatore"
+    ],
+    "insight": "Tra le piccole e una delle piu interessanti: non va trattata automaticamente da ultima."
+  },
+  "teamInsight": {
+    "coach": "Fabio Cannavaro",
+    "starters": []
+  },
+  "penaltyTakers": [
+    "Shomurodov",
+    "Mozgovoy",
+    "Sergeev"
+  ],
+  "captains": [
+    "Eldor Shomurodov"
+  ],
+  "psychologicalFactors": {
+    "motivazione": 96,
+    "pressione": 42,
+    "momentoEmotivo": -4,
+    "notaPsicologica": "La prima partecipazione resta storica, ma il 5-0 subito dal Portogallo pesa su fiducia e tenuta mentale."
+  }
+}

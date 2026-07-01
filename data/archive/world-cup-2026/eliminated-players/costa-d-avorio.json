@@ -1,0 +1,1762 @@
+{
+  "team": "Costa d'Avorio",
+  "eliminationDate": "2026-06-30",
+  "roster": [
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Attaccanti",
+      "player": "Amad Diallo",
+      "club": "Manchester United",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Attaccanti",
+      "player": "Ange-Yoan Bonny",
+      "club": "Inter",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Attaccanti",
+      "player": "Bazoumana Toure",
+      "club": "Hoffenheim",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 20,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Attaccanti",
+      "player": "Elye Wahi",
+      "club": "Niza",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Attaccanti",
+      "player": "Evann Guessand",
+      "club": "Crystal Palace",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Attaccanti",
+      "player": "Nicolas Pepe",
+      "club": "Villarreal",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Attaccanti",
+      "player": "Oumar Diakite",
+      "club": "C�rculo Brujas",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Attaccanti",
+      "player": "Sim�n Adingra",
+      "club": "M�naco",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Attaccanti",
+      "player": "Yan Diomande",
+      "club": "Leipzig",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 20,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Centrocampisti",
+      "player": "Christ Inao Oulai",
+      "club": "Trabzonspor",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 20,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Centrocampisti",
+      "player": "Franck Kessi�",
+      "club": "Al Ahli",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Centrocampisti",
+      "player": "Ibrahim Sangar�",
+      "club": "Notts. Forest",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Centrocampisti",
+      "player": "Jean Micha�l Seri",
+      "club": "Maribor",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Slovenia",
+      "league": "PrvaLiga",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Centrocampisti",
+      "player": "Parfait Guiagon",
+      "club": "Charleroi",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Centrocampisti",
+      "player": "Seko Fofana",
+      "club": "Oporto",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Difensori",
+      "player": "Cl�ment Akpa",
+      "club": "Auxerre",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Difensori",
+      "player": "Emmanuel Agbadou",
+      "club": "Besiktas",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Difensori",
+      "player": "Evan N�Dicka",
+      "club": "Roma",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Difensori",
+      "player": "Ghislain Konan",
+      "club": "Gil Vicente",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Difensori",
+      "player": "Gu�la Dou�",
+      "club": "Estrasburgo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Difensori",
+      "player": "Odilon Kossounou",
+      "club": "Atalanta",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Difensori",
+      "player": "Ousmane Diomande",
+      "club": "Sporting",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Difensori",
+      "player": "Wilfried Singo",
+      "club": "M�naco",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Portieri",
+      "player": "Alban Lafont",
+      "club": "Panathinaikos",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Grecia",
+      "league": "Super League Greece",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Portieri",
+      "player": "Mohamed Kone",
+      "club": "Charleroi",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Costa d'Avorio",
+      "role": "Portieri",
+      "player": "Yahia Fofana",
+      "club": "�aykur Rizespor",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/costa-d-avorio.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "costa d'avorio::amad diallo": {
+      "player": "Amad Diallo",
+      "team": "Costa d'Avorio",
+      "club": "Manchester United",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 8,
+        "subIns": 4,
+        "goals": 4,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/traore-amad/I5Rhq1WL/",
+      "direttaPlayerId": "I5Rhq1WL",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1071,
+        "goals": 4,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.01",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 717,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.81
+        }
+      }
+    },
+    "costa d'avorio::ange-yoan bonny": {
+      "player": "Ange-Yoan Bonny",
+      "team": "Costa d'Avorio",
+      "club": "Inter",
+      "age": 23,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "08MpRWg8",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bonny-ange-yoan/08MpRWg8/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 475,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.75",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 309,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.57
+        }
+      }
+    },
+    "costa d'avorio::bazoumana toure": {
+      "player": "Bazoumana Toure",
+      "team": "Costa d'Avorio",
+      "club": "Hoffenheim",
+      "age": 20,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 2,
+        "subIns": 3,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/toure-bazoumana/jqfhZBWt/",
+      "direttaPlayerId": "jqfhZBWt",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 936,
+        "goals": 3,
+        "assists": 4,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.99",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 895,
+          "goals": 1,
+          "assists": 4,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.89
+        }
+      }
+    },
+    "costa d'avorio::elye wahi": {
+      "player": "Elye Wahi",
+      "team": "Costa d'Avorio",
+      "club": "Niza",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.sportsdunia.com/football-ratings/france-vs-ivory-coast-player-ratings-international-friendly-4th-june-2026"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/wahi-elye/8jdHWf50/",
+      "direttaPlayerId": "8jdHWf50",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 805,
+        "goals": 4,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.04",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 557,
+          "goals": 4,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.51
+        }
+      }
+    },
+    "costa d'avorio::evann guessand": {
+      "player": "Evann Guessand",
+      "team": "Costa d'Avorio",
+      "club": "Crystal Palace",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 8,
+        "subIns": 5,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/guessand-evann/QXyb0B8i/",
+      "direttaPlayerId": "QXyb0B8i",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 821,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.70",
+        "topFive": {
+          "appearances": 7,
+          "minutes": 375,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.57
+        }
+      }
+    },
+    "costa d'avorio::nicolas pepe": {
+      "player": "Nicolas Pepe",
+      "team": "Costa d'Avorio",
+      "club": "Villarreal",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 5,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pepe-nicolas/j3Hk0qEj/",
+      "direttaPlayerId": "j3Hk0qEj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1021,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.00",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 868,
+          "goals": 3,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.08
+        }
+      }
+    },
+    "costa d'avorio::oumar diakite": {
+      "player": "Oumar Diakite",
+      "team": "Costa d'Avorio",
+      "club": "Círculo Brujas",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 3,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.sportsdunia.com/football-ratings/france-vs-ivory-coast-player-ratings-international-friendly-4th-june-2026"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/diakite-oumar/jeOb1FYh/",
+      "direttaPlayerId": "jeOb1FYh",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 597,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "4.22"
+      }
+    },
+    "costa d'avorio::simon adingra": {
+      "player": "Simón Adingra",
+      "team": "Costa d'Avorio",
+      "club": "Mónaco",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 3,
+        "subIns": 5,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.sportsdunia.com/football-ratings/france-vs-ivory-coast-player-ratings-international-friendly-4th-june-2026"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/adingra-simon/6kgBNHG6/",
+      "direttaPlayerId": "6kgBNHG6",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 850,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.10",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 647,
+          "goals": 4,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.59
+        }
+      }
+    },
+    "costa d'avorio::yan diomande": {
+      "player": "Yan Diomande",
+      "team": "Costa d'Avorio",
+      "club": "Leipzig",
+      "age": 20,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 8,
+        "subIns": 3,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.sportsdunia.com/football-ratings/france-vs-ivory-coast-player-ratings-international-friendly-4th-june-2026"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/diomande-mohammed/CIwGzpBG/",
+      "direttaPlayerId": "CIwGzpBG",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 841,
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.12"
+      }
+    },
+    "costa d'avorio::christ inao oulai": {
+      "player": "Christ Inao Oulai",
+      "team": "Costa d'Avorio",
+      "club": "Trabzonspor",
+      "age": 20,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 5,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/inao-oulai-christ/KK953yrm/",
+      "direttaPlayerId": "KK953yrm",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1151,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.20"
+      }
+    },
+    "costa d'avorio::franck kessie": {
+      "player": "Franck Kessié",
+      "team": "Costa d'Avorio",
+      "club": "Al Ahli",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 11,
+        "subIns": 2,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.sportsdunia.com/football-ratings/france-vs-ivory-coast-player-ratings-international-friendly-4th-june-2026"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kessie-franck/n7dQ4tBL/",
+      "direttaPlayerId": "n7dQ4tBL",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1261,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.99"
+      }
+    },
+    "costa d'avorio::ibrahim sangare": {
+      "player": "Ibrahim Sangaré",
+      "team": "Costa d'Avorio",
+      "club": "Notts. Forest",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 11,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sangare-ibrahim/0zOKXsla/",
+      "direttaPlayerId": "0zOKXsla",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1017,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.53",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 720,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 6.33
+        }
+      }
+    },
+    "costa d'avorio::jean michael seri": {
+      "player": "Jean Michaël Seri",
+      "team": "Costa d'Avorio",
+      "club": "Maribor",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 3,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/seri-jean-michael/fq8rAzEM/",
+      "direttaPlayerId": "fq8rAzEM",
+      "recent15": {
+        "appearances": 13,
+        "minutes": 765,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 13,
+        "averageRating": "6.90"
+      }
+    },
+    "costa d'avorio::parfait guiagon": {
+      "player": "Parfait Guiagon",
+      "team": "Costa d'Avorio",
+      "club": "Charleroi",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 3,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/guiagon-parfait/rT7OYOq8/",
+      "direttaPlayerId": "rT7OYOq8",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1255,
+        "goals": 5,
+        "assists": 4,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.08"
+      }
+    },
+    "costa d'avorio::seko fofana": {
+      "player": "Seko Fofana",
+      "team": "Costa d'Avorio",
+      "club": "Oporto",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 3,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.sportsdunia.com/football-ratings/france-vs-ivory-coast-player-ratings-international-friendly-4th-june-2026"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/seko-fofana/f5FGGqhC/",
+      "direttaPlayerId": "f5FGGqhC",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 532,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "5.41",
+        "topFive": {
+          "appearances": 1,
+          "minutes": 1,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": null
+        }
+      }
+    },
+    "costa d'avorio::clement akpa": {
+      "player": "Clément Akpa",
+      "team": "Costa d'Avorio",
+      "club": "Auxerre",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 3,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/akpa-clement/fo9YVp8o/",
+      "direttaPlayerId": "fo9YVp8o",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1276,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.31",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1186,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 1,
+          "averageRating": 6.31
+        }
+      }
+    },
+    "costa d'avorio::emmanuel agbadou": {
+      "player": "Emmanuel Agbadou",
+      "team": "Costa d'Avorio",
+      "club": "Besiktas",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 5,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.sportsdunia.com/football-ratings/france-vs-ivory-coast-player-ratings-international-friendly-4th-june-2026"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/agbadou-emmanuel/fRbu2Opo/",
+      "direttaPlayerId": "fRbu2Opo",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1260,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.75",
+        "topFive": {
+          "appearances": 4,
+          "minutes": 360,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.03
+        }
+      }
+    },
+    "costa d'avorio::evan n’dicka": {
+      "player": "Evan N’Dicka",
+      "team": "Costa d'Avorio",
+      "club": "Roma",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 8,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/n-dicka-obite/0ORJzjri/",
+      "direttaPlayerId": "0ORJzjri",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1231,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.91",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 810,
+          "goals": 3,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 7.17
+        }
+      }
+    },
+    "costa d'avorio::ghislain konan": {
+      "player": "Ghislain Konan",
+      "team": "Costa d'Avorio",
+      "club": "Gil Vicente",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 11,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.sportsdunia.com/football-ratings/france-vs-ivory-coast-player-ratings-international-friendly-4th-june-2026"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/n-clomande-ghislain-konan/4d6oztsU/",
+      "direttaPlayerId": "4d6oztsU",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1260,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.91"
+      }
+    },
+    "costa d'avorio::guela doue": {
+      "player": "Guéla Doué",
+      "team": "Costa d'Avorio",
+      "club": "Estrasburgo",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 7,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.sportsdunia.com/football-ratings/france-vs-ivory-coast-player-ratings-international-friendly-4th-june-2026"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/doue-guela/vg3drc4E/",
+      "direttaPlayerId": "vg3drc4E",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1174,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.10",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 706,
+          "goals": 1,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.21
+        }
+      }
+    },
+    "costa d'avorio::odilon kossounou": {
+      "player": "Odilon Kossounou",
+      "team": "Costa d'Avorio",
+      "club": "Atalanta",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 8,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kossounou-odilon/SzDIipZ9/",
+      "direttaPlayerId": "SzDIipZ9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 965,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.53",
+        "topFive": {
+          "appearances": 5,
+          "minutes": 219,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.45
+        }
+      }
+    },
+    "costa d'avorio::ousmane diomande": {
+      "player": "Ousmane Diomande",
+      "team": "Costa d'Avorio",
+      "club": "Sporting",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 3,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/diomande-ousmane/ngCb1gCI/",
+      "direttaPlayerId": "ngCb1gCI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1039,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.05"
+      }
+    },
+    "costa d'avorio::wilfried singo": {
+      "player": "Wilfried Singo",
+      "team": "Costa d'Avorio",
+      "club": "Mónaco",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 2,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.sportsdunia.com/football-ratings/france-vs-ivory-coast-player-ratings-international-friendly-4th-june-2026"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/singo-wilfried/Ym8dZot0/",
+      "direttaPlayerId": "Ym8dZot0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 627,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "5.21"
+      }
+    },
+    "costa d'avorio::alban lafont": {
+      "player": "Alban Lafont",
+      "team": "Costa d'Avorio",
+      "club": "Panathinaikos",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 4,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/lafont-alban/p64JKtYL/",
+      "direttaPlayerId": "p64JKtYL",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1380,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.88",
+        "scope": "Club + nazionale",
+        "goalsConceded": 12,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.80",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 3,
+          "goalsConceded": 2,
+          "goalsConcededPerGame": "0.67",
+          "averageRating": "5.40",
+          "sample": [
+            {
+              "date": "31.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Gabun",
+              "awayTeam": "Elfenbeinküste",
+              "homeScore": 2,
+              "awayScore": 3,
+              "score": "2-3",
+              "minutes": 90,
+              "rating": 5.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "18.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Oman",
+              "awayTeam": "Elfenbeinküste",
+              "homeScore": 0,
+              "awayScore": 2,
+              "score": "0-2",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "10.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Seychellen",
+              "awayTeam": "Elfenbeinküste",
+              "homeScore": 0,
+              "awayScore": 7,
+              "score": "0-7",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    },
+    "costa d'avorio::mohamed kone": {
+      "player": "Mohamed Kone",
+      "team": "Costa d'Avorio",
+      "club": "Charleroi",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kone-mohamed/KEptl4xb/",
+      "direttaPlayerId": "KEptl4xb",
+      "recent15": {
+        "appearances": 11,
+        "minutes": 990,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 11,
+        "averageRating": "6.78",
+        "scope": "Club + nazionale",
+        "goalsConceded": 10,
+        "goalsConcededMatches": 11,
+        "goalsConcededPerGame": "0.91",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 4,
+          "goalsConceded": 3,
+          "goalsConcededPerGame": "0.75",
+          "averageRating": "",
+          "sample": [
+            {
+              "date": "21.11.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Elfenbeinküste U23",
+              "awayTeam": "Irak U23",
+              "homeScore": 4,
+              "awayScore": 0,
+              "score": "4-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "15.06.23",
+              "competition": "Maurice Revello Tournament (Welt)",
+              "homeTeam": "Elfenbeinküste U23",
+              "awayTeam": "Saudi-Arabien U23",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 62,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "13.06.23",
+              "competition": "Maurice Revello Tournament (Welt)",
+              "homeTeam": "Japan U19",
+              "awayTeam": "Elfenbeinküste U23",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "10.06.23",
+              "competition": "Maurice Revello Tournament (Welt)",
+              "homeTeam": "Elfenbeinküste U23",
+              "awayTeam": "Marokko U20",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      }
+    },
+    "costa d'avorio::yahia fofana": {
+      "player": "Yahia Fofana",
+      "team": "Costa d'Avorio",
+      "club": "Çaykur Rizespor",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 9,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.sportsdunia.com/football-ratings/france-vs-ivory-coast-player-ratings-international-friendly-4th-june-2026"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/fofana-yahia/rqDavwpd/",
+      "direttaPlayerId": "rqDavwpd",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1260,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.88",
+        "scope": "Club + nazionale",
+        "goalsConceded": 16,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.07",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 15,
+          "goalsConceded": 8,
+          "goalsConcededPerGame": "0.53",
+          "averageRating": "6.60",
+          "sample": [
+            {
+              "date": "10.01.26",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Ägypten",
+              "awayTeam": "Elfenbeinküste",
+              "homeScore": 3,
+              "awayScore": 2,
+              "score": "3-2",
+              "minutes": 90,
+              "rating": 5.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "06.01.26",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Elfenbeinküste",
+              "awayTeam": "Burkina Faso",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": 7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "28.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Elfenbeinküste",
+              "awayTeam": "Kamerun",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 6.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "24.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Elfenbeinküste",
+              "awayTeam": "Mosambik",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 7.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "14.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Saudi-Arabien",
+              "awayTeam": "Elfenbeinküste",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "14.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Elfenbeinküste",
+              "awayTeam": "Kenia",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "09.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Gabun",
+              "awayTeam": "Elfenbeinküste",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "05.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Elfenbeinküste",
+              "awayTeam": "Burundi",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "24.03.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Elfenbeinküste",
+              "awayTeam": "Gambia",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "21.03.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Burundi",
+              "awayTeam": "Elfenbeinküste",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "19.11.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Elfenbeinküste",
+              "awayTeam": "Tschad",
+              "homeScore": 4,
+              "awayScore": 0,
+              "score": "4-0",
+              "minutes": 90,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "15.11.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Sambia",
+              "awayTeam": "Elfenbeinküste",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "15.10.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Sierra Leone",
+              "awayTeam": "Elfenbeinküste",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "11.10.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Elfenbeinküste",
+              "awayTeam": "Sierra Leone",
+              "homeScore": 4,
+              "awayScore": 1,
+              "score": "4-1",
+              "minutes": 90,
+              "rating": 7.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "10.09.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Tschad",
+              "awayTeam": "Elfenbeinküste",
+              "homeScore": 0,
+              "awayScore": 2,
+              "score": "0-2",
+              "minutes": 90,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "E",
+      "squadra": "Costa d'Avorio",
+      "giocatore": "Christ Inao Oulai",
+      "club": "Trabzonspor",
+      "lega": "Super Lig",
+      "ammonizioni_stagionali": 12,
+      "espulsioni_stagionali": 0,
+      "media_falli_partita": 1.2,
+      "rischio_cartellino": 50
+    }
+  ]
+}

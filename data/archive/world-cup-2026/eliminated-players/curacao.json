@@ -1,0 +1,1395 @@
+{
+  "team": "Curacao",
+  "eliminationDate": "2026-06-25",
+  "roster": [
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Attaccanti",
+      "player": "Brandley Kuwas",
+      "club": "FC Volendam",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": 34,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Attaccanti",
+      "player": "Gervane Kastaneer",
+      "club": "Terengganu",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Malesia",
+      "league": "Malaysia Super League",
+      "flag": "flags/curacao.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Attaccanti",
+      "player": "Jearl Margaritha",
+      "club": "SK Beveren",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/curacao.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Attaccanti",
+      "player": "Jeremy Antonisse",
+      "club": "Kifisia",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Grecia",
+      "league": "Super League Greece",
+      "flag": "flags/curacao.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Attaccanti",
+      "player": "J�rgen Locadia",
+      "club": "Miami FC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/curacao.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Attaccanti",
+      "player": "Kenji Gorr�",
+      "club": "Maccabi Haifa",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Israele",
+      "league": "Israeli Premier League",
+      "flag": "flags/curacao.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Attaccanti",
+      "player": "Sontje Hansen",
+      "club": "Middlesbrough",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/curacao.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Attaccanti",
+      "player": "Tahith Chong",
+      "club": "Sheffield United",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/curacao.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Centrocampisti",
+      "player": "Arjany Martha",
+      "club": "Rotherham",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/curacao.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Centrocampisti",
+      "player": "Godfried Roemeratoe",
+      "club": "Waalwijk",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Centrocampisti",
+      "player": "Juninho Bacuna",
+      "club": "FC Volendam",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Centrocampisti",
+      "player": "Kevin Felida",
+      "club": "Den Bosch",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Centrocampisti",
+      "player": "Leandro Bacuna",
+      "club": "Igdir FK",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/curacao.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Centrocampisti",
+      "player": "Livano Comenencia",
+      "club": "Zurich",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Svizzera",
+      "league": "Swiss Super League",
+      "flag": "flags/curacao.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Centrocampisti",
+      "player": "Tyrese Noslin",
+      "club": "Telsar",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Difensori",
+      "player": "Armando Obispo",
+      "club": "PSV",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Difensori",
+      "player": "Deveron Fonville",
+      "club": "Nijmegen",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Difensori",
+      "player": "Joshua Brenet",
+      "club": "Kayserispor",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/curacao.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Difensori",
+      "player": "Jur�en Gaari",
+      "club": "Abha",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/curacao.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Difensori",
+      "player": "Riechedly Bazoer",
+      "club": "Konyaspor",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/curacao.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Difensori",
+      "player": "Roshon Van Eijma",
+      "club": "Waalwijk",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Difensori",
+      "player": "Sherel Floranus",
+      "club": "PEC Zwolle",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Difensori",
+      "player": "Shurandy Sambo",
+      "club": "Sparta Rotterdam",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Portieri",
+      "player": "Eloy Room",
+      "club": "Miami FC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/curacao.svg",
+      "age": 37,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Portieri",
+      "player": "Trevor Doornbusch",
+      "club": "VVV Venlo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "role": "Portieri",
+      "player": "Tyrick Bodak",
+      "club": "Telsar",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/curacao.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "curacao::brandley kuwas": {
+      "player": "Brandley Kuwas",
+      "team": "Curacao",
+      "club": "FC Volendam",
+      "age": 34,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 2,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kuwas-brandley/8WoNwYtk/",
+      "direttaPlayerId": "8WoNwYtk",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1113,
+        "goals": 5,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.56"
+      }
+    },
+    "curacao::gervane kastaneer": {
+      "player": "Gervane Kastaneer",
+      "team": "Curacao",
+      "club": "Terengganu",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 5,
+        "subIns": 6,
+        "goals": 4,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kastaneer-gervane/G2zMycep/",
+      "direttaPlayerId": "G2zMycep",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1180,
+        "goals": 5,
+        "assists": 4,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.15"
+      }
+    },
+    "curacao::jearl margaritha": {
+      "player": "Jearl Margaritha",
+      "team": "Curacao",
+      "club": "SK Beveren",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 8,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/margaritha-jearl/WvaW7LyI/",
+      "direttaPlayerId": "WvaW7LyI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1132,
+        "goals": 3,
+        "assists": 8,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.78"
+      }
+    },
+    "curacao::jeremy antonisse": {
+      "player": "Jeremy Antonisse",
+      "team": "Curacao",
+      "club": "Kifisia",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 5,
+        "subIns": 8,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/antonisse-jeremy/Q19pA573/",
+      "direttaPlayerId": "Q19pA573",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 940,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.58"
+      }
+    },
+    "curacao::jurgen locadia": {
+      "player": "Jürgen Locadia",
+      "team": "Curacao",
+      "club": "Miami FC",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 6,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 1,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/jurgen-locadia/0EA6GzzT/",
+      "direttaPlayerId": "0EA6GzzT",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 944,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.34"
+      }
+    },
+    "curacao::kenji gorre": {
+      "player": "Kenji Gorré",
+      "team": "Curacao",
+      "club": "Maccabi Haifa",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 9,
+        "subIns": 1,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gorre-kenji/tMNiQtw0/",
+      "direttaPlayerId": "tMNiQtw0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1241,
+        "goals": 3,
+        "assists": 4,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.18"
+      }
+    },
+    "curacao::sontje hansen": {
+      "player": "Sontje Hansen",
+      "team": "Curacao",
+      "club": "Middlesbrough",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 4,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hansen-sontje/2VKZg6FN/",
+      "direttaPlayerId": "2VKZg6FN",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 583,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.94",
+        "topFive": {
+          "appearances": 2,
+          "minutes": 180,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": null
+        }
+      }
+    },
+    "curacao::tahith chong": {
+      "player": "Tahith Chong",
+      "team": "Curacao",
+      "club": "Sheffield United",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 3,
+        "subIns": 2,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/chong-tahith/KxziU4tD/",
+      "direttaPlayerId": "KxziU4tD",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 538,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.41"
+      }
+    },
+    "curacao::arjany martha": {
+      "player": "Arjany Martha",
+      "team": "Curacao",
+      "club": "Rotherham",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 0,
+        "subIns": 3,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/martha-arjany/jD6wkPIH/",
+      "direttaPlayerId": "jD6wkPIH",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 912,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.48"
+      }
+    },
+    "curacao::godfried roemeratoe": {
+      "player": "Godfried Roemeratoe",
+      "team": "Curacao",
+      "club": "Waalwijk",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 1,
+        "subIns": 12,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/roemeratoe-godfried/4KG2w9JQ/",
+      "direttaPlayerId": "4KG2w9JQ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 999,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.47"
+      }
+    },
+    "curacao::juninho bacuna": {
+      "player": "Juninho Bacuna",
+      "team": "Curacao",
+      "club": "FC Volendam",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 13,
+        "subIns": 0,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/juninho-bacuna/MJcaY9pe/",
+      "direttaPlayerId": "MJcaY9pe",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 669,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.93"
+      }
+    },
+    "curacao::kevin felida": {
+      "player": "Kevin Felida",
+      "team": "Curacao",
+      "club": "Den Bosch",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 0,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/felida-kevin/tEPc5EF2/",
+      "direttaPlayerId": "tEPc5EF2",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1322,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.11"
+      }
+    },
+    "curacao::leandro bacuna": {
+      "player": "Leandro Bacuna",
+      "team": "Curacao",
+      "club": "Igdir FK",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 13,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 3,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bacuna-leandro/lfGzIOJg/",
+      "direttaPlayerId": "lfGzIOJg",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1023,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.50"
+      }
+    },
+    "curacao::livano comenencia": {
+      "player": "Livano Comenencia",
+      "team": "Curacao",
+      "club": "Zurich",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 14,
+        "starts": 13,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/comenencia-livano/QVwOF3CH/",
+      "direttaPlayerId": "QVwOF3CH",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 965,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.39"
+      }
+    },
+    "curacao::tyrese noslin": {
+      "player": "Tyrese Noslin",
+      "team": "Curacao",
+      "club": "Telsar",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 0,
+        "subIns": 6,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/noslin-tyrese/KElJ2HDn/",
+      "direttaPlayerId": "KElJ2HDn",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 829,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.59"
+      }
+    },
+    "curacao::armando obispo": {
+      "player": "Armando Obispo",
+      "team": "Curacao",
+      "club": "PSV",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 5,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/obispo-armando/dzZ57CXC/",
+      "direttaPlayerId": "dzZ57CXC",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 982,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.79"
+      }
+    },
+    "curacao::deveron fonville": {
+      "player": "Deveron Fonville",
+      "team": "Curacao",
+      "club": "Nijmegen",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/fonville-deveron/OhpzpIJC/",
+      "direttaPlayerId": "OhpzpIJC",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 747,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.91"
+      }
+    },
+    "curacao::joshua brenet": {
+      "player": "Joshua Brenet",
+      "team": "Curacao",
+      "club": "Kayserispor",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 6,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/joshua-brenet/AiIfuEh9/",
+      "direttaPlayerId": "AiIfuEh9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1125,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.26"
+      }
+    },
+    "curacao::jurien gaari": {
+      "player": "Jurïen Gaari",
+      "team": "Curacao",
+      "club": "Abha",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 11,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gaari-jurien/SMJcD0at/",
+      "direttaPlayerId": "SMJcD0at",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.05"
+      }
+    },
+    "curacao::riechedly bazoer": {
+      "player": "Riechedly Bazoer",
+      "team": "Curacao",
+      "club": "Konyaspor",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 4,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/riechedly-bazoer/YVhDaoID/",
+      "direttaPlayerId": "YVhDaoID",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1063,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.39"
+      }
+    },
+    "curacao::roshon van eijma": {
+      "player": "Roshon Van Eijma",
+      "team": "Curacao",
+      "club": "Waalwijk",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 10,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/van-eijma-roshon/IkyOf2am/",
+      "direttaPlayerId": "IkyOf2am",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1013,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.51"
+      }
+    },
+    "curacao::sherel floranus": {
+      "player": "Sherel Floranus",
+      "team": "Curacao",
+      "club": "PEC Zwolle",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 13,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/floranus-sherel/lURzLW93/",
+      "direttaPlayerId": "lURzLW93",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1302,
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.77"
+      }
+    },
+    "curacao::shurandy sambo": {
+      "player": "Shurandy Sambo",
+      "team": "Curacao",
+      "club": "Sparta Rotterdam",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 7,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sambo-shurandy/Amv9Myos/",
+      "direttaPlayerId": "Amv9Myos",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 866,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.71"
+      }
+    },
+    "curacao::eloy room": {
+      "player": "Eloy Room",
+      "team": "Curacao",
+      "club": "Miami FC",
+      "age": 37,
+      "career": {},
+      "season2025_26": {
+        "appearances": 14,
+        "starts": 14,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/room-eloy/QkUYeBt5/",
+      "direttaPlayerId": "QkUYeBt5",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1342,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.73",
+        "scope": "Club + nazionale",
+        "goalsConceded": 17,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.13",
+        "nationalGoalkeeper": {
+          "appearances": 8,
+          "goalsConceded": 10,
+          "goalsConcededPerGame": 1.25,
+          "averageRating": 6.9,
+          "matches": [
+            {
+              "conceded": 5,
+              "rating": 5.4
+            },
+            {
+              "conceded": 2,
+              "rating": 6.2
+            },
+            {
+              "conceded": 0,
+              "rating": 7
+            },
+            {
+              "conceded": 0,
+              "rating": 6.9
+            },
+            {
+              "conceded": 1,
+              "rating": 7.4
+            },
+            {
+              "conceded": 0,
+              "rating": 8.7
+            },
+            {
+              "conceded": 2,
+              "rating": 6.2
+            },
+            {
+              "conceded": 0,
+              "rating": 7.4
+            }
+          ]
+        }
+      }
+    },
+    "curacao::trevor doornbusch": {
+      "player": "Trevor Doornbusch",
+      "team": "Curacao",
+      "club": "VVV Venlo",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/doornbusch-trevor/bDSDAlUp/",
+      "direttaPlayerId": "bDSDAlUp",
+      "recent15": {
+        "appearances": 7,
+        "minutes": 551,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 7,
+        "averageRating": "6.46",
+        "scope": "Club + nazionale",
+        "goalsConceded": 14,
+        "goalsConcededMatches": 7,
+        "goalsConcededPerGame": "2.00",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 5,
+          "goalsConceded": 8,
+          "goalsConcededPerGame": "1.60",
+          "averageRating": "6.75",
+          "sample": [
+            {
+              "date": "17.11.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Curacao",
+              "awayTeam": "El Salvador",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "18.10.23",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Curacao",
+              "awayTeam": "Trinidad und Tobago",
+              "homeScore": 5,
+              "awayScore": 3,
+              "score": "5-3",
+              "minutes": 90,
+              "rating": 7.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "13.10.23",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Curacao",
+              "awayTeam": "Panama",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 90,
+              "rating": 6.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "11.09.23",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Martinique",
+              "awayTeam": "Curacao",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 7.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "08.09.23",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Trinidad und Tobago",
+              "awayTeam": "Curacao",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 6.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      }
+    },
+    "curacao::tyrick bodak": {
+      "player": "Tyrick Bodak",
+      "team": "Curacao",
+      "club": "Telsar",
+      "age": "",
+      "career": {},
+      "season2025_26": {},
+      "sources": [],
+      "direttaPlayerId": "G091B1NL",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bodak-tyrick/G091B1NL/",
+      "recent15": {
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 1,
+          "goalsConceded": 1,
+          "goalsConcededPerGame": "1.00",
+          "averageRating": "",
+          "sample": [
+            {
+              "date": "21.11.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Curacao",
+              "awayTeam": "El Salvador",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "E",
+      "squadra": "Curacao",
+      "giocatore": "Juninho Bacuna",
+      "club": "FC Volendam",
+      "lega": "Eredivisie",
+      "ammonizioni_stagionali": 6,
+      "espulsioni_stagionali": 0,
+      "media_falli_partita": 1.2,
+      "rischio_cartellino": 36
+    }
+  ]
+}

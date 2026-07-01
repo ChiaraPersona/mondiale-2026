@@ -1,0 +1,1756 @@
+{
+  "team": "Scozia",
+  "eliminationDate": "2026-06-24",
+  "roster": [
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Attaccanti",
+      "player": "Ch� Adams",
+      "club": "Torino",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/scozia.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Attaccanti",
+      "player": "George Hirst",
+      "club": "Ipswich Town",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/scozia.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Attaccanti",
+      "player": "Lawrence Shankland",
+      "club": "Hearts",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/scozia.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Attaccanti",
+      "player": "Lyndon Dykes",
+      "club": "Charlton",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL League One",
+      "flag": "flags/scozia.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Attaccanti",
+      "player": "Ross Stewart",
+      "club": "Southampton",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/scozia.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Centrocampisti",
+      "player": "Ben Gannon-Doak",
+      "club": "Bournemouth",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/scozia.svg",
+      "age": 21,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Centrocampisti",
+      "player": "Findlay Curtis",
+      "club": "Rangers",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/scozia.svg",
+      "age": 20,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Centrocampisti",
+      "player": "John McGinn",
+      "club": "Aston Villa",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/scozia.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Centrocampisti",
+      "player": "Kenny McLean",
+      "club": "Norwich City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/scozia.svg",
+      "age": 34,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Centrocampisti",
+      "player": "Lewis Ferguson",
+      "club": "Bologna",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/scozia.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Centrocampisti",
+      "player": "Ryan Christie",
+      "club": "Bournemouth",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/scozia.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Centrocampisti",
+      "player": "Scott McTominay",
+      "club": "N�poles",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/scozia.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Centrocampisti",
+      "player": "Tyler Fletcher",
+      "club": "Manchester United",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/scozia.svg",
+      "age": 19,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Difensori",
+      "player": "Aaron Hickey",
+      "club": "Brentford",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/scozia.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Difensori",
+      "player": "Andy Robertson",
+      "club": "Liverpool",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/scozia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Difensori",
+      "player": "Anthony Ralston",
+      "club": "Celtic",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/scozia.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Difensori",
+      "player": "Dom Hyam",
+      "club": "Wrexham",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/scozia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Difensori",
+      "player": "Grant Hanley",
+      "club": "Hibernian",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/scozia.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Difensori",
+      "player": "Jack Hendry",
+      "club": "Al Ettifaq",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/scozia.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Difensori",
+      "player": "John Souttar",
+      "club": "Hearts",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/scozia.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Difensori",
+      "player": "Kieran Tierney",
+      "club": "Celtic",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/scozia.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Difensori",
+      "player": "Nathan Patterson",
+      "club": "Everton",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/scozia.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Difensori",
+      "player": "Scott McKenna",
+      "club": "Dinamo Zagreb",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Croazia",
+      "league": "HNL",
+      "flag": "flags/scozia.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Portieri",
+      "player": "Angus Gunn",
+      "club": "Nottingham Forest",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/scozia.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Portieri",
+      "player": "Craig Gordon",
+      "club": "Hearts",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/scozia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Scozia",
+      "role": "Portieri",
+      "player": "Liam Kelly",
+      "club": "Rangers",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/scozia.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "scozia::che adams": {
+      "player": "Ché Adams",
+      "team": "Scozia",
+      "club": "Torino",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 9,
+        "subIns": 2,
+        "goals": 6,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/adams-che/4C0YmOaJ/",
+      "direttaPlayerId": "4C0YmOaJ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1006,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.85",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 918,
+          "goals": 1,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.72
+        }
+      }
+    },
+    "scozia::george hirst": {
+      "player": "George Hirst",
+      "team": "Scozia",
+      "club": "Ipswich Town",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 4,
+        "subIns": 5,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hirst-george/bXCwpSK5/",
+      "direttaPlayerId": "bXCwpSK5",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 583,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.52"
+      }
+    },
+    "scozia::lawrence shankland": {
+      "player": "Lawrence Shankland",
+      "team": "Scozia",
+      "club": "Hearts",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 1,
+        "subIns": 3,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/shankland-lawrence/QeWoXCac/",
+      "direttaPlayerId": "QeWoXCac",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1160,
+        "goals": 8,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.09"
+      }
+    },
+    "scozia::lyndon dykes": {
+      "player": "Lyndon Dykes",
+      "team": "Scozia",
+      "club": "Charlton",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 4,
+        "subIns": 7,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/dykes-lyndon/88BU9t07/",
+      "direttaPlayerId": "88BU9t07",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1108,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.60"
+      }
+    },
+    "scozia::ross stewart": {
+      "player": "Ross Stewart",
+      "team": "Scozia",
+      "club": "Southampton",
+      "age": 30,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "2L76lB8m",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/stewart-ross/2L76lB8m/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 601,
+        "goals": 5,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.80"
+      }
+    },
+    "scozia::ben gannon-doak": {
+      "player": "Ben Gannon-Doak",
+      "team": "Scozia",
+      "club": "Bournemouth",
+      "age": 21,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 8,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/doak-ben/ldgTlLCC/",
+      "direttaPlayerId": "ldgTlLCC",
+      "recent15": {
+        "appearances": 14,
+        "minutes": 589,
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14,
+        "averageRating": "6.72",
+        "topFive": {
+          "appearances": 4,
+          "minutes": 57,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.6
+        }
+      }
+    },
+    "scozia::findlay curtis": {
+      "player": "Findlay Curtis",
+      "team": "Scozia",
+      "club": "Rangers",
+      "age": 20,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 0,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/curtis-findlay/Qgj54Y5g/",
+      "direttaPlayerId": "Qgj54Y5g",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 765,
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.16"
+      }
+    },
+    "scozia::john mcginn": {
+      "player": "John McGinn",
+      "team": "Scozia",
+      "club": "Aston Villa",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 14,
+        "starts": 12,
+        "subIns": 2,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mcginn-john/rgGnzD2e/",
+      "direttaPlayerId": "rgGnzD2e",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 907,
+        "goals": 4,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.75",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 580,
+          "goals": 3,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.8
+        }
+      }
+    },
+    "scozia::kenny mclean": {
+      "player": "Kenny McLean",
+      "team": "Scozia",
+      "club": "Norwich City",
+      "age": 34,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 7,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mclean-kenny/xb91WoNd/",
+      "direttaPlayerId": "xb91WoNd",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1264,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.31"
+      }
+    },
+    "scozia::lewis ferguson": {
+      "player": "Lewis Ferguson",
+      "team": "Scozia",
+      "club": "Bologna",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 9,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ferguson-lewis/Q995M7Dt/",
+      "direttaPlayerId": "Q995M7Dt",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1100,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.75",
+        "topFive": {
+          "appearances": 6,
+          "minutes": 342,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 7.15
+        }
+      }
+    },
+    "scozia::ryan christie": {
+      "player": "Ryan Christie",
+      "team": "Scozia",
+      "club": "Bournemouth",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 8,
+        "subIns": 3,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/christie-ryan/hWTaBxeh/",
+      "direttaPlayerId": "hWTaBxeh",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 670,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.73",
+        "topFive": {
+          "appearances": 13,
+          "minutes": 524,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.73
+        }
+      }
+    },
+    "scozia::scott mctominay": {
+      "player": "Scott McTominay",
+      "team": "Scozia",
+      "club": "Nápoles",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 13,
+        "subIns": 0,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mctominay-scott/A7S3y397/",
+      "direttaPlayerId": "A7S3y397",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1261,
+        "goals": 6,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.31",
+        "topFive": {
+          "appearances": 11,
+          "minutes": 901,
+          "goals": 5,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.36
+        }
+      }
+    },
+    "scozia::tyler fletcher": {
+      "player": "Tyler Fletcher",
+      "team": "Scozia",
+      "club": "Manchester United",
+      "age": 19,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/fletcher-tyler/UPwHyZob/",
+      "direttaPlayerId": "UPwHyZob",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1160,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.70",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 575,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": null
+        }
+      }
+    },
+    "scozia::aaron hickey": {
+      "player": "Aaron Hickey",
+      "team": "Scozia",
+      "club": "Brentford",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 5,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hickey-aaron/rcIXJMf9/",
+      "direttaPlayerId": "rcIXJMf9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 542,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.57",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 346,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.36
+        }
+      }
+    },
+    "scozia::andy robertson": {
+      "player": "Andy Robertson",
+      "team": "Scozia",
+      "club": "Liverpool",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 15,
+        "starts": 15,
+        "subIns": 0,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/robertson-andrew/6e7Be9VI/",
+      "direttaPlayerId": "6e7Be9VI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 816,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.05",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 354,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.66
+        }
+      }
+    },
+    "scozia::anthony ralston": {
+      "player": "Anthony Ralston",
+      "team": "Scozia",
+      "club": "Celtic",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 6,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ralston-anthony/6PvBfu9D/",
+      "direttaPlayerId": "6PvBfu9D",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 744,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.79"
+      }
+    },
+    "scozia::dom hyam": {
+      "player": "Dom Hyam",
+      "team": "Scozia",
+      "club": "Wrexham",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 1,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hyam-dominic/KhEb9rmG/",
+      "direttaPlayerId": "KhEb9rmG",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1380,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.73"
+      }
+    },
+    "scozia::grant hanley": {
+      "player": "Grant Hanley",
+      "team": "Scozia",
+      "club": "Hibernian",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 9,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hanley-grant/Ykx5duh0/",
+      "direttaPlayerId": "Ykx5duh0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1259,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.67"
+      }
+    },
+    "scozia::jack hendry": {
+      "player": "Jack Hendry",
+      "team": "Scozia",
+      "club": "Al Ettifaq",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 3,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hendry-jack/StUI6cWs/",
+      "direttaPlayerId": "StUI6cWs",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1208,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.39"
+      }
+    },
+    "scozia::john souttar": {
+      "player": "John Souttar",
+      "team": "Scozia",
+      "club": "Hearts",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 11,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/souttar-john/QPDWspTb/",
+      "direttaPlayerId": "QPDWspTb",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1085,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.05"
+      }
+    },
+    "scozia::kieran tierney": {
+      "player": "Kieran Tierney",
+      "team": "Scozia",
+      "club": "Celtic",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 2,
+        "subIns": 6,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kieran-tierney/Qm0l3aod/",
+      "direttaPlayerId": "Qm0l3aod",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1099,
+        "goals": 2,
+        "assists": 4,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.30"
+      }
+    },
+    "scozia::nathan patterson": {
+      "player": "Nathan Patterson",
+      "team": "Scozia",
+      "club": "Everton",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 1,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/patterson-nathan/AFn0oV0O/",
+      "direttaPlayerId": "AFn0oV0O",
+      "recent15": {
+        "appearances": 10,
+        "minutes": 558,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 10,
+        "averageRating": "6.67",
+        "topFive": {
+          "appearances": 6,
+          "minutes": 242,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.9
+        }
+      }
+    },
+    "scozia::scott mckenna": {
+      "player": "Scott McKenna",
+      "team": "Scozia",
+      "club": "Dinamo Zagreb",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 6,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mckenna-scott/AerDGNDO/",
+      "direttaPlayerId": "AerDGNDO",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1359,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.31"
+      }
+    },
+    "scozia::angus gunn": {
+      "player": "Angus Gunn",
+      "team": "Scozia",
+      "club": "Nottingham Forest",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 6,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gunn-angus/zaREt4aJ/",
+      "direttaPlayerId": "zaREt4aJ",
+      "recent15": {
+        "appearances": 6,
+        "minutes": 495,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 6,
+        "averageRating": "6.97",
+        "scope": "Club + nazionale",
+        "goalsConceded": 4,
+        "goalsConcededMatches": 6,
+        "goalsConcededPerGame": "0.67",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 14,
+          "goalsConceded": 25,
+          "goalsConcededPerGame": "1.79",
+          "averageRating": "6.62",
+          "sample": [
+            {
+              "date": "28.03.26",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Japan",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": 7.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "12.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Belarus",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "09.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Griechenland",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "08.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Belarus",
+              "awayTeam": "Schottland",
+              "homeScore": 0,
+              "awayScore": 2,
+              "score": "0-2",
+              "minutes": 90,
+              "rating": 7.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "05.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Dänemark",
+              "awayTeam": "Schottland",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "06.06.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Island",
+              "homeScore": 1,
+              "awayScore": 3,
+              "score": "1-3",
+              "minutes": 7,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "08.09.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Portugal",
+              "awayTeam": "Schottland",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "05.09.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Polen",
+              "homeScore": 2,
+              "awayScore": 3,
+              "score": "2-3",
+              "minutes": 90,
+              "rating": 5.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "23.06.24",
+              "competition": "Europameisterschaft (Europa)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Ungarn",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": 7.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "19.06.24",
+              "competition": "Europameisterschaft (Europa)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Schweiz",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 7.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "14.06.24",
+              "competition": "Europameisterschaft (Europa)",
+              "homeTeam": "Deutschland",
+              "awayTeam": "Schottland",
+              "homeScore": 5,
+              "awayScore": 1,
+              "score": "5-1",
+              "minutes": 90,
+              "rating": 6.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 5
+            },
+            {
+              "date": "07.06.24",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Finnland",
+              "homeScore": 2,
+              "awayScore": 2,
+              "score": "2-2",
+              "minutes": 69,
+              "rating": 6.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "26.03.24",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Nordirland",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": 5.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "22.03.24",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Niederlande",
+              "awayTeam": "Schottland",
+              "homeScore": 4,
+              "awayScore": 0,
+              "score": "4-0",
+              "minutes": 90,
+              "rating": 5.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 4
+            }
+          ]
+        },
+        "topFive": {
+          "appearances": 1,
+          "minutes": 45,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.4
+        }
+      }
+    },
+    "scozia::craig gordon": {
+      "player": "Craig Gordon",
+      "team": "Scozia",
+      "club": "Hearts",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 7,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/craig-gordon/6ZbYTgJO/",
+      "direttaPlayerId": "6ZbYTgJO",
+      "recent15": {
+        "appearances": 13,
+        "minutes": 1066,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 13,
+        "averageRating": "6.44",
+        "scope": "Club + nazionale",
+        "goalsConceded": 18,
+        "goalsConcededMatches": 13,
+        "goalsConcededPerGame": "1.38",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 9,
+          "goalsConceded": 13,
+          "goalsConcededPerGame": "1.44",
+          "averageRating": "6.72",
+          "sample": [
+            {
+              "date": "18.11.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Dänemark",
+              "homeScore": 4,
+              "awayScore": 2,
+              "score": "4-2",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "15.11.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Griechenland",
+              "awayTeam": "Schottland",
+              "homeScore": 3,
+              "awayScore": 2,
+              "score": "3-2",
+              "minutes": 90,
+              "rating": 6.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "23.03.25",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Griechenland",
+              "homeScore": 0,
+              "awayScore": 3,
+              "score": "0-3",
+              "minutes": 90,
+              "rating": 5.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "20.03.25",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Griechenland",
+              "awayTeam": "Schottland",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "18.11.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Polen",
+              "awayTeam": "Schottland",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 90,
+              "rating": 7.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "15.11.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Kroatien",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 7.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "15.10.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Portugal",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "12.10.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Kroatien",
+              "awayTeam": "Schottland",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 6.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "07.06.24",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Finnland",
+              "homeScore": 2,
+              "awayScore": 2,
+              "score": "2-2",
+              "minutes": 22,
+              "rating": 7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            }
+          ]
+        }
+      }
+    },
+    "scozia::liam kelly": {
+      "player": "Liam Kelly",
+      "team": "Scozia",
+      "club": "Rangers",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 1,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kelly-liam/z7cRa6Wa/",
+      "direttaPlayerId": "z7cRa6Wa",
+      "recent15": {
+        "appearances": 2,
+        "minutes": 180,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 2,
+        "averageRating": "",
+        "scope": "Club + nazionale",
+        "goalsConceded": 0,
+        "goalsConcededMatches": 2,
+        "goalsConcededPerGame": "0.00",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 1,
+          "goalsConceded": 4,
+          "goalsConcededPerGame": "4.00",
+          "averageRating": "5.90",
+          "sample": [
+            {
+              "date": "17.10.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Frankreich",
+              "awayTeam": "Schottland",
+              "homeScore": 4,
+              "awayScore": 1,
+              "score": "4-1",
+              "minutes": 46,
+              "rating": 5.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 4
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "C",
+      "squadra": "Scozia",
+      "giocatore": "John McGinn",
+      "club": "Aston Villa",
+      "lega": "Premier League",
+      "ammonizioni_stagionali": 9,
+      "espulsioni_stagionali": 0,
+      "media_falli_partita": 1.1,
+      "rischio_cartellino": 41
+    }
+  ]
+}

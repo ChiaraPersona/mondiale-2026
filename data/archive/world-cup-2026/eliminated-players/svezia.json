@@ -1,0 +1,1671 @@
+{
+  "team": "Svezia",
+  "eliminationDate": "2026-06-30",
+  "roster": [
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Attaccanti",
+      "player": "Alexander Bernhardsson",
+      "club": "Holstein Kiel",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/svezia.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Attaccanti",
+      "player": "Alexander Isak",
+      "club": "Liverpool",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/svezia.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Attaccanti",
+      "player": "Anthony Elanga",
+      "club": "Newcastle",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/svezia.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Attaccanti",
+      "player": "Benjamin Nygren",
+      "club": "Celtic",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/svezia.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Attaccanti",
+      "player": "Gustaf Nilsson",
+      "club": "Brujas",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/svezia.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Attaccanti",
+      "player": "Taha Ali",
+      "club": "Malm�",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Svezia",
+      "league": "Allsvenskan",
+      "flag": "flags/svezia.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Attaccanti",
+      "player": "Viktor Gy�keres",
+      "club": "Arsenal",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/svezia.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Centrocampisti",
+      "player": "Besfort Zeneli",
+      "club": "Uni�n Saint-Gilloise",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/svezia.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Centrocampisti",
+      "player": "Jesper Kalstr�m",
+      "club": "Udinese",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/svezia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Centrocampisti",
+      "player": "Ken Sema",
+      "club": "Pafos",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Cipro",
+      "league": "Cypriot First Division",
+      "flag": "flags/svezia.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Centrocampisti",
+      "player": "Lucas Begvall",
+      "club": "Tottenham",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/svezia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Centrocampisti",
+      "player": "Mattias Svanberg",
+      "club": "Wolfsburgo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/svezia.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Centrocampisti",
+      "player": "Yasin Ayari",
+      "club": "Brighton",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/svezia.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Difensori",
+      "player": "Carl Starfelt",
+      "club": "Celta",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/svezia.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Difensori",
+      "player": "Daniel Svensson",
+      "club": "Borussia Dortmund",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/svezia.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Difensori",
+      "player": "Elliot Stroud",
+      "club": "Mj�llby",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Svezia",
+      "league": "Allsvenskan",
+      "flag": "flags/svezia.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Difensori",
+      "player": "Eric Smith",
+      "club": "St. Pauli",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/svezia.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Difensori",
+      "player": "Gabriel Gudmundsson",
+      "club": "Leeds",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/svezia.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Difensori",
+      "player": "Gustav Lagerbielke",
+      "club": "SC Braga",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/svezia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Difensori",
+      "player": "Herman Johansson",
+      "club": "FC Dallas",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/svezia.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Difensori",
+      "player": "Hjalmar Ekdal",
+      "club": "Burnley",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/svezia.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Difensori",
+      "player": "Isak Hien",
+      "club": "Atalanta",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/svezia.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Difensori",
+      "player": "Viktor Lindel�f",
+      "club": "Aston Villa",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/svezia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Portieri",
+      "player": "Jacob Zetterstr�m",
+      "club": "Derby County",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/svezia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Portieri",
+      "player": "Kristoffer Nordfeldt",
+      "club": "AIK",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Grecia",
+      "league": "Super League Greece",
+      "flag": "flags/svezia.svg",
+      "age": 37,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Svezia",
+      "role": "Portieri",
+      "player": "Viktor Johansson",
+      "club": "Stoke City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/svezia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "svezia::alexander bernhardsson": {
+      "player": "Alexander Bernhardsson",
+      "team": "Svezia",
+      "club": "Holstein Kiel",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 6,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bernhardsson-alexander/0Ah8TRF1/",
+      "direttaPlayerId": "0Ah8TRF1",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1023,
+        "goals": 2,
+        "assists": 4,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.85",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 724,
+          "goals": 1,
+          "assists": 4,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.03
+        }
+      }
+    },
+    "svezia::alexander isak": {
+      "player": "Alexander Isak",
+      "team": "Svezia",
+      "club": "Liverpool",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 5,
+        "subIns": 3,
+        "goals": 4,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/isak-alexander/p41IV42c/",
+      "direttaPlayerId": "p41IV42c",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 785,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.49",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 403,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.54
+        }
+      }
+    },
+    "svezia::anthony elanga": {
+      "player": "Anthony Elanga",
+      "team": "Svezia",
+      "club": "Newcastle",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 7,
+        "subIns": 2,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/elanga-anthony/dOlRWlZ6/",
+      "direttaPlayerId": "dOlRWlZ6",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 890,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.61",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 489,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.46
+        }
+      }
+    },
+    "svezia::benjamin nygren": {
+      "player": "Benjamin Nygren",
+      "team": "Svezia",
+      "club": "Celtic",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 6,
+        "subIns": 3,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/nygren-benjamin/WCHWGOvf/",
+      "direttaPlayerId": "WCHWGOvf",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1144,
+        "goals": 6,
+        "assists": 4,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.38"
+      }
+    },
+    "svezia::gustaf nilsson": {
+      "player": "Gustaf Nilsson",
+      "team": "Svezia",
+      "club": "Brujas",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/nilsson-gustaf/zofKop0A/",
+      "direttaPlayerId": "zofKop0A",
+      "recent15": {
+        "appearances": 9,
+        "minutes": 111,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 9,
+        "averageRating": "6.70"
+      }
+    },
+    "svezia::taha ali": {
+      "player": "Taha Ali",
+      "team": "Svezia",
+      "club": "Malmö",
+      "age": 28,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "no0y4BJ5",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ali-taha/no0y4BJ5/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 845,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.74"
+      }
+    },
+    "svezia::viktor gyokeres": {
+      "player": "Viktor Gyökeres",
+      "team": "Svezia",
+      "club": "Arsenal",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 8,
+        "subIns": 0,
+        "goals": 8,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gyokeres-viktor/zaBZ1xIk/",
+      "direttaPlayerId": "zaBZ1xIk",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1100,
+        "goals": 9,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.82",
+        "topFive": {
+          "appearances": 7,
+          "minutes": 500,
+          "goals": 4,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.76
+        }
+      }
+    },
+    "svezia::besfort zeneli": {
+      "player": "Besfort Zeneli",
+      "team": "Svezia",
+      "club": "Unión Saint-Gilloise",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 1,
+        "subIns": 5,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/zeneli-besfort/hbgshYpl/",
+      "direttaPlayerId": "hbgshYpl",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 777,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.67"
+      }
+    },
+    "svezia::jesper kalstrom": {
+      "player": "Jesper Kalström",
+      "team": "Svezia",
+      "club": "Udinese",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 6,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/jesper-karlstrom-jesper/UDGFZQv8/",
+      "direttaPlayerId": "UDGFZQv8",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1312,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.17",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1222,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.16
+        }
+      }
+    },
+    "svezia::ken sema": {
+      "player": "Ken Sema",
+      "team": "Svezia",
+      "club": "Pafos",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 7,
+        "subIns": 3,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sema-ken/8bzOQTcg/",
+      "direttaPlayerId": "8bzOQTcg",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 705,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.05"
+      }
+    },
+    "svezia::lucas begvall": {
+      "player": "Lucas Begvall",
+      "team": "Svezia",
+      "club": "Tottenham",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 3,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bergvall-lucas/th3mAHj9/",
+      "direttaPlayerId": "th3mAHj9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 709,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.44",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 449,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.39
+        }
+      }
+    },
+    "svezia::mattias svanberg": {
+      "player": "Mattias Svanberg",
+      "team": "Svezia",
+      "club": "Wolfsburgo",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 2,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mattias-svanberg/z522mgfh/",
+      "direttaPlayerId": "z522mgfh",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 435,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.47",
+        "topFive": {
+          "appearances": 11,
+          "minutes": 305,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.41
+        }
+      }
+    },
+    "svezia::yasin ayari": {
+      "player": "Yasin Ayari",
+      "team": "Svezia",
+      "club": "Brighton",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 13,
+        "subIns": 0,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ayari-yasin/vTrnQI0N/",
+      "direttaPlayerId": "vTrnQI0N",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1129,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.51",
+        "topFive": {
+          "appearances": 13,
+          "minutes": 1070,
+          "goals": 2,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.52
+        }
+      }
+    },
+    "svezia::carl starfelt": {
+      "player": "Carl Starfelt",
+      "team": "Svezia",
+      "club": "Celta",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 3,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/starfelt-carl/ptNHGRiJ/",
+      "direttaPlayerId": "ptNHGRiJ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1263,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.89",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 713,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.9
+        }
+      }
+    },
+    "svezia::daniel svensson": {
+      "player": "Daniel Svensson",
+      "team": "Svezia",
+      "club": "Borussia Dortmund",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 8,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/svensson-daniel/bs9KBNfb/",
+      "direttaPlayerId": "bs9KBNfb",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1170,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.55",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 966,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.74
+        }
+      }
+    },
+    "svezia::elliot stroud": {
+      "player": "Elliot Stroud",
+      "team": "Svezia",
+      "club": "Mjällby",
+      "age": 24,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "4rVMk5Sb",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/stroud-elliot/4rVMk5Sb/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 6,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.72"
+      }
+    },
+    "svezia::eric smith": {
+      "player": "Eric Smith",
+      "team": "Svezia",
+      "club": "St. Pauli",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/smith-eric/remhb0a6/",
+      "direttaPlayerId": "remhb0a6",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1305,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.85",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1215,
+          "goals": 1,
+          "assists": 2,
+          "yellowCards": 2,
+          "redCards": 1,
+          "averageRating": 6.79
+        }
+      }
+    },
+    "svezia::gabriel gudmundsson": {
+      "player": "Gabriel Gudmundsson",
+      "team": "Svezia",
+      "club": "Leeds",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 10,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gudmundsson-gabriel/0zzTdK1T/",
+      "direttaPlayerId": "0zzTdK1T",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1270,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.37",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 986,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 4,
+          "redCards": 1,
+          "averageRating": 6.13
+        }
+      }
+    },
+    "svezia::gustav lagerbielke": {
+      "player": "Gustav Lagerbielke",
+      "team": "Svezia",
+      "club": "SC Braga",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 6,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/lagerbielke-gustaf/UwOm1wvF/",
+      "direttaPlayerId": "UwOm1wvF",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.60"
+      }
+    },
+    "svezia::herman johansson": {
+      "player": "Herman Johansson",
+      "team": "Svezia",
+      "club": "FC Dallas",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/johansson-herman/fyM1vHt7/",
+      "direttaPlayerId": "fyM1vHt7",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1179,
+        "goals": 1,
+        "assists": 4,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.05"
+      }
+    },
+    "svezia::hjalmar ekdal": {
+      "player": "Hjalmar Ekdal",
+      "team": "Svezia",
+      "club": "Burnley",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 4,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ekdal-hjalmar/06l4rEaC/",
+      "direttaPlayerId": "06l4rEaC",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1164,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.37",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 918,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.35
+        }
+      }
+    },
+    "svezia::isak hien": {
+      "player": "Isak Hien",
+      "team": "Svezia",
+      "club": "Atalanta",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hien-isak/hz4zWEIG/",
+      "direttaPlayerId": "hz4zWEIG",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 950,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.54",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 418,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.67
+        }
+      }
+    },
+    "svezia::viktor lindelof": {
+      "player": "Viktor Lindelöf",
+      "team": "Svezia",
+      "club": "Aston Villa",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 6,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/lindelof-victor/OIp0Le1f/",
+      "direttaPlayerId": "OIp0Le1f",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1179,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.42",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 639,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.36
+        }
+      }
+    },
+    "svezia::jacob zetterstrom": {
+      "player": "Jacob Zetterström",
+      "team": "Svezia",
+      "club": "Derby County",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/zetterstrom-widell/OG2Bcuat/",
+      "direttaPlayerId": "OG2Bcuat",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.72",
+        "scope": "Club + nazionale",
+        "goalsConceded": 20,
+        "goalsConcededMatches": 14,
+        "goalsConcededPerGame": "1.43",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 1,
+          "goalsConceded": 1,
+          "goalsConcededPerGame": "1.00",
+          "averageRating": "6.70",
+          "sample": [
+            {
+              "date": "18.11.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Slowenien",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      }
+    },
+    "svezia::kristoffer nordfeldt": {
+      "player": "Kristoffer Nordfeldt",
+      "team": "Svezia",
+      "club": "AIK",
+      "age": 37,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/nordfeldt-kristoffer/zidYDVKR/",
+      "direttaPlayerId": "zidYDVKR",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.84",
+        "scope": "Club + nazionale",
+        "goalsConceded": 25,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.67",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 4,
+          "goalsConceded": 5,
+          "goalsConcededPerGame": "1.25",
+          "averageRating": "6.83",
+          "sample": [
+            {
+              "date": "31.03.26",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Polen",
+              "homeScore": 3,
+              "awayScore": 2,
+              "score": "3-2",
+              "minutes": 90,
+              "rating": 6.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "26.03.26",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Ukraine",
+              "awayTeam": "Schweden",
+              "homeScore": 1,
+              "awayScore": 3,
+              "score": "1-3",
+              "minutes": 90,
+              "rating": 7.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "12.10.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Moldawien",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 46,
+              "rating": 6.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "16.06.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Neuseeland",
+              "homeScore": 4,
+              "awayScore": 1,
+              "score": "4-1",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      }
+    },
+    "svezia::viktor johansson": {
+      "player": "Viktor Johansson",
+      "team": "Svezia",
+      "club": "Stoke City",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 7,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/johansson-viktor/hG7X4mv9/",
+      "direttaPlayerId": "hG7X4mv9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.83",
+        "scope": "Club + nazionale",
+        "goalsConceded": 17,
+        "goalsConcededMatches": 14,
+        "goalsConcededPerGame": "1.21",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 12,
+          "goalsConceded": 16,
+          "goalsConcededPerGame": "1.33",
+          "averageRating": "6.62",
+          "sample": [
+            {
+              "date": "15.11.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Schweiz",
+              "awayTeam": "Schweden",
+              "homeScore": 4,
+              "awayScore": 1,
+              "score": "4-1",
+              "minutes": 90,
+              "rating": 5.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "goalsConceded": 4
+            },
+            {
+              "date": "13.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Kosovo",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": 6.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "10.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Schweiz",
+              "homeScore": 0,
+              "awayScore": 2,
+              "score": "0-2",
+              "minutes": 90,
+              "rating": 6.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "10.06.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Algerien",
+              "homeScore": 4,
+              "awayScore": 3,
+              "score": "4-3",
+              "minutes": 90,
+              "rating": 6.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "25.03.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Nordirland",
+              "homeScore": 5,
+              "awayScore": 1,
+              "score": "5-1",
+              "minutes": 90,
+              "rating": 7.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "19.11.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Aserbaidschan",
+              "homeScore": 6,
+              "awayScore": 0,
+              "score": "6-0",
+              "minutes": 90,
+              "rating": 7.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "16.11.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Slowakei",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 6.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "14.10.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Estland",
+              "awayTeam": "Schweden",
+              "homeScore": 0,
+              "awayScore": 3,
+              "score": "0-3",
+              "minutes": 90,
+              "rating": 6.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "11.10.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Slowakei",
+              "awayTeam": "Schweden",
+              "homeScore": 2,
+              "awayScore": 2,
+              "score": "2-2",
+              "minutes": 90,
+              "rating": 6.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "08.09.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Estland",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": 7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "05.09.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Aserbaidschan",
+              "awayTeam": "Schweden",
+              "homeScore": 1,
+              "awayScore": 3,
+              "score": "1-3",
+              "minutes": 90,
+              "rating": 7.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "12.10.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Schweden",
+              "awayTeam": "Moldawien",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 45,
+              "rating": 6.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "F",
+      "squadra": "Svezia",
+      "giocatore": "Gustaf Lagerbielke",
+      "club": "SC Braga",
+      "lega": "Primeira Liga",
+      "ammonizioni_stagionali": 12,
+      "espulsioni_stagionali": 1,
+      "media_falli_partita": 1.4,
+      "rischio_cartellino": 70
+    }
+  ]
+}

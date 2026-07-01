@@ -1,0 +1,1331 @@
+{
+  "team": "Panama",
+  "eliminationDate": "2026-06-27",
+  "roster": [
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Attaccanti",
+      "player": "Cecilio Waterman",
+      "club": "Universidad de Concepci�n",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Cile",
+      "league": "Primera Division",
+      "flag": "flags/panama.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Attaccanti",
+      "player": "Ismael D�az",
+      "club": "Club Le�n FC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Messico",
+      "league": "Liga MX",
+      "flag": "flags/panama.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Attaccanti",
+      "player": "Jos� Fajardo",
+      "club": "CD Universidad Cat�lica",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Per�",
+      "league": "Liga 1",
+      "flag": "flags/panama.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Attaccanti",
+      "player": "Tom�s Rodr�guez",
+      "club": "Deportivo Saprissa",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Costa Rica",
+      "league": "Primera Division",
+      "flag": "flags/panama.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Centrocampisti",
+      "player": "Adalberto Carrasquilla",
+      "club": "UNAM",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Messico",
+      "league": "Liga MX",
+      "flag": "flags/panama.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Centrocampisti",
+      "player": "Alberto Quintero",
+      "club": "CD Plaza Amador",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Panama",
+      "league": "Liga Panamena",
+      "flag": "flags/panama.svg",
+      "age": 39,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Centrocampisti",
+      "player": "An�bal Godoy",
+      "club": "San Diego FC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/panama.svg",
+      "age": 36,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Centrocampisti",
+      "player": "Azar�as Londo�o",
+      "club": "CD Universidad Cat�lica",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Per�",
+      "league": "Liga 1",
+      "flag": "flags/panama.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Centrocampisti",
+      "player": "Carlos Harvey",
+      "club": "Minnesota United",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/panama.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Centrocampisti",
+      "player": "C�sar Yanis",
+      "club": "Cobresal",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Cile",
+      "league": "Primera Division",
+      "flag": "flags/panama.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Centrocampisti",
+      "player": "Cristian Mart�nez",
+      "club": "Ironi Kiryat Shmona",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Israele",
+      "league": "Israeli Premier League",
+      "flag": "flags/panama.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Centrocampisti",
+      "player": "Jos� Luis Rodr�guez",
+      "club": "Ju�rez",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Messico",
+      "league": "Liga MX",
+      "flag": "flags/panama.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Centrocampisti",
+      "player": "Yoel B�rcenas",
+      "club": "Mazatl�n FC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Messico",
+      "league": "Liga MX",
+      "flag": "flags/panama.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Difensori",
+      "player": "Amir Murillo",
+      "club": "Besiktas",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/panama.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Difensori",
+      "player": "Andr�s Andrade",
+      "club": "LASK",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Austria",
+      "league": "Austrian Bundesliga",
+      "flag": "flags/panama.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Difensori",
+      "player": "C�sar Blackman",
+      "club": "Slovan Bratislava",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Slovacchia",
+      "league": "Slovak First League",
+      "flag": "flags/panama.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Difensori",
+      "player": "Edgardo Fari�a",
+      "club": "FC Pari Nizhniy Novgorod",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Russia",
+      "league": "Russian Premier League",
+      "flag": "flags/panama.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Difensori",
+      "player": "Eric Davis",
+      "club": "Plaza Amador",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Panama",
+      "league": "Liga Panamena",
+      "flag": "flags/panama.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Difensori",
+      "player": "Fidel Escobar",
+      "club": "Deportivo Saprissa",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Costa Rica",
+      "league": "Primera Division",
+      "flag": "flags/panama.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Difensori",
+      "player": "Jiovany Ramos",
+      "club": "Puerto Cabello",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Venezuela",
+      "league": "Liga FUTVE",
+      "flag": "flags/panama.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Difensori",
+      "player": "Jorge Guti�rrez",
+      "club": "Deportivo La Guaira",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Venezuela",
+      "league": "Liga FUTVE",
+      "flag": "flags/panama.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Difensori",
+      "player": "Jos� C�rdoba",
+      "club": "Norwich City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/panama.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Difensori",
+      "player": "Roderick Miller",
+      "club": "Turan Tovuz",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Azerbaigian",
+      "league": "Azerbaijan Premier League",
+      "flag": "flags/panama.svg",
+      "age": 34,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Portieri",
+      "player": "C�sar Samudio",
+      "club": "CD Marath�n",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Honduras",
+      "league": "Liga Nacional",
+      "flag": "flags/panama.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Portieri",
+      "player": "Luis Mej�a",
+      "club": "Club Nacional",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Uruguay",
+      "league": "Primera Division",
+      "flag": "flags/panama.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "role": "Portieri",
+      "player": "Orlando Mosquera",
+      "club": "Al Fayha FC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/panama.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "panama::cecilio waterman": {
+      "player": "Cecilio Waterman",
+      "team": "Panama",
+      "club": "Universidad de Concepción",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 5,
+        "subIns": 4,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/waterman-cecilio/WAuwziMt/",
+      "direttaPlayerId": "WAuwziMt",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1027,
+        "goals": 6,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.90"
+      }
+    },
+    "panama::ismael diaz": {
+      "player": "Ismael Díaz",
+      "team": "Panama",
+      "club": "Club León FC",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 9,
+        "subIns": 1,
+        "goals": 5,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/diaz-ismael/8b4D77xN/",
+      "direttaPlayerId": "8b4D77xN",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1007,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.78"
+      }
+    },
+    "panama::jose fajardo": {
+      "player": "José Fajardo",
+      "team": "Panama",
+      "club": "CD Universidad Católica",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 3,
+        "subIns": 6,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/fajardo-jose/dbg8x0yg/",
+      "direttaPlayerId": "dbg8x0yg",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 994,
+        "goals": 5,
+        "assists": 1,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.55"
+      }
+    },
+    "panama::tomas rodriguez": {
+      "player": "Tomás Rodríguez",
+      "team": "Panama",
+      "club": "Deportivo Saprissa",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 3,
+        "subIns": 3,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/rodriguez-tomas/d8puDuwl/",
+      "direttaPlayerId": "d8puDuwl",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 901,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": ""
+      }
+    },
+    "panama::adalberto carrasquilla": {
+      "player": "Adalberto Carrasquilla",
+      "team": "Panama",
+      "club": "UNAM",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 7,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/carrasquilla-adalberto/vR08T4nC/",
+      "direttaPlayerId": "vR08T4nC",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1021,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.81"
+      }
+    },
+    "panama::alberto quintero": {
+      "player": "Alberto Quintero",
+      "team": "Panama",
+      "club": "CD Plaza Amador",
+      "age": 39,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 0,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/quintero-alberto/jPZsg8SI/",
+      "direttaPlayerId": "jPZsg8SI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1044,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.80"
+      }
+    },
+    "panama::anibal godoy": {
+      "player": "Aníbal Godoy",
+      "team": "Panama",
+      "club": "San Diego FC",
+      "age": 36,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 9,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/godoy-anibal/Mupyf1oM/",
+      "direttaPlayerId": "Mupyf1oM",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 951,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.74"
+      }
+    },
+    "panama::azarias londono": {
+      "player": "Azarías Londoño",
+      "team": "Panama",
+      "club": "CD Universidad Católica",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 3,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/londono-azarias/fLAuMXoJ/",
+      "direttaPlayerId": "fLAuMXoJ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1005,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.87"
+      }
+    },
+    "panama::carlos harvey": {
+      "player": "Carlos Harvey",
+      "team": "Panama",
+      "club": "Minnesota United",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 9,
+        "subIns": 2,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/harvey-carlos/lvHJtK7r/",
+      "direttaPlayerId": "lvHJtK7r",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 909,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.01"
+      }
+    },
+    "panama::cesar yanis": {
+      "player": "César Yanis",
+      "team": "Panama",
+      "club": "Cobresal",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 1,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/yanis-cesar/dIDsWLXj/",
+      "direttaPlayerId": "dIDsWLXj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1163,
+        "goals": 0,
+        "assists": 4,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.80"
+      }
+    },
+    "panama::cristian martinez": {
+      "player": "Cristian Martínez",
+      "team": "Panama",
+      "club": "Ironi Kiryat Shmona",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 9,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/martinez-christian/jBL8oCZ8/",
+      "direttaPlayerId": "jBL8oCZ8",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1192,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.77"
+      }
+    },
+    "panama::jose luis rodriguez": {
+      "player": "José Luis Rodríguez",
+      "team": "Panama",
+      "club": "Juárez",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 8,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/rodriguez-jose/OdHxpMKQ/",
+      "direttaPlayerId": "OdHxpMKQ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1197,
+        "goals": 4,
+        "assists": 5,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.18"
+      }
+    },
+    "panama::yoel barcenas": {
+      "player": "Yoel Bárcenas",
+      "team": "Panama",
+      "club": "Mazatlán FC",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 5,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/barcenas-yoel/Q785jybg/",
+      "direttaPlayerId": "Q785jybg",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1161,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.67"
+      }
+    },
+    "panama::amir murillo": {
+      "player": "Amir Murillo",
+      "team": "Panama",
+      "club": "Beşiktaş",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/murillo-jose/rqoIYFIo/",
+      "direttaPlayerId": "rqoIYFIo",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 937,
+        "goals": 7,
+        "assists": 0,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.10"
+      }
+    },
+    "panama::andres andrade": {
+      "player": "Andrés Andrade",
+      "team": "Panama",
+      "club": "LASK",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 10,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/andrade-andres/AFAhZ0pC/",
+      "direttaPlayerId": "AFAhZ0pC",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1307,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.43"
+      }
+    },
+    "panama::cesar blackman": {
+      "player": "César Blackman",
+      "team": "Panama",
+      "club": "Slovan Bratislava",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 5,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/blackman-cesar/4bHgxwqq/",
+      "direttaPlayerId": "4bHgxwqq",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1302,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.37"
+      }
+    },
+    "panama::edgardo farina": {
+      "player": "Edgardo Fariña",
+      "team": "Panama",
+      "club": "FC Pari Nizhniy Novgorod",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 0,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/farina-edgardo/tnY8gCFq/",
+      "direttaPlayerId": "tnY8gCFq",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1032,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.89"
+      }
+    },
+    "panama::eric davis": {
+      "player": "Eric Davis",
+      "team": "Panama",
+      "club": "Plaza Amador",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 7,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/davis-orman/xIVNc5FM/",
+      "direttaPlayerId": "xIVNc5FM",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1353,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": ""
+      }
+    },
+    "panama::fidel escobar": {
+      "player": "Fidel Escobar",
+      "team": "Panama",
+      "club": "Deportivo Saprissa",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/escobar-fidel/vkFwaUn1/",
+      "direttaPlayerId": "vkFwaUn1",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1322,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.58"
+      }
+    },
+    "panama::jiovany ramos": {
+      "player": "Jiovany Ramos",
+      "team": "Panama",
+      "club": "Puerto Cabello",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 2,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ramos-jiovany/UPGYWGkO/",
+      "direttaPlayerId": "UPGYWGkO",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1337,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.05"
+      }
+    },
+    "panama::jorge gutierrez": {
+      "player": "Jorge Gutiérrez",
+      "team": "Panama",
+      "club": "Deportivo La Guaira",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 7,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gutierrez-jorge/EDfR8GQp/",
+      "direttaPlayerId": "EDfR8GQp",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1282,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.66"
+      }
+    },
+    "panama::jose cordoba": {
+      "player": "José Córdoba",
+      "team": "Panama",
+      "club": "Norwich City",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 7,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/cordoba-omar/lSEXIGWr/",
+      "direttaPlayerId": "lSEXIGWr",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1189,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.35"
+      }
+    },
+    "panama::roderick miller": {
+      "player": "Roderick Miller",
+      "team": "Panama",
+      "club": "Turan Tovuz",
+      "age": 34,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/miller-roderick/YDDJfipp/",
+      "direttaPlayerId": "YDDJfipp",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1148,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.75"
+      }
+    },
+    "panama::cesar samudio": {
+      "player": "César Samudio",
+      "team": "Panama",
+      "club": "CD Marathón",
+      "age": 32,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "txge1Lcn",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/samudio-cesar/txge1Lcn/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1288,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "",
+        "scope": "Club + nazionale",
+        "goalsConceded": 11,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.73",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 3,
+          "goalsConceded": 3,
+          "goalsConcededPerGame": "1.00",
+          "averageRating": "7.35",
+          "sample": [
+            {
+              "date": "11.09.23",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Guatemala",
+              "awayTeam": "Panama",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 8.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "08.09.23",
+              "competition": "CONCACAF Nations League (Nord- & Mittelamerika)",
+              "homeTeam": "Panama",
+              "awayTeam": "Martinique",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 45,
+              "rating": 6.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "11.06.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Panama",
+              "awayTeam": "Nicaragua",
+              "homeScore": 3,
+              "awayScore": 2,
+              "score": "3-2",
+              "minutes": 27,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            }
+          ]
+        }
+      }
+    },
+    "panama::luis mejia": {
+      "player": "Luis Mejía",
+      "team": "Panama",
+      "club": "Club Nacional",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mejia-luis/0UuvoqM8/",
+      "direttaPlayerId": "0UuvoqM8",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1362,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.65",
+        "scope": "Club + nazionale",
+        "goalsConceded": 15,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.00",
+        "nationalGoalkeeper": {
+          "appearances": 1,
+          "goalsConceded": 1,
+          "goalsConcededPerGame": 1,
+          "averageRating": 7,
+          "matches": [
+            {
+              "conceded": 1,
+              "rating": 7
+            }
+          ]
+        }
+      }
+    },
+    "panama::orlando mosquera": {
+      "player": "Orlando Mosquera",
+      "team": "Panama",
+      "club": "Al Fayha FC",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 12,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mosquera-orlando/YqWSUHjk/",
+      "direttaPlayerId": "YqWSUHjk",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1309,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.88",
+        "scope": "Club + nazionale",
+        "goalsConceded": 22,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.47",
+        "nationalGoalkeeper": {
+          "appearances": 2,
+          "goalsConceded": 2,
+          "goalsConcededPerGame": 1,
+          "averageRating": 6.65,
+          "matches": [
+            {
+              "conceded": 1,
+              "rating": 6.5
+            },
+            {
+              "conceded": 1,
+              "rating": 6.8
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "L",
+      "squadra": "Panama",
+      "giocatore": "Anibal Godoy",
+      "club": "San Diego FC",
+      "lega": "MLS",
+      "ammonizioni_stagionali": 12,
+      "espulsioni_stagionali": 0,
+      "media_falli_partita": 1,
+      "rischio_cartellino": 63
+    }
+  ]
+}

@@ -5,7 +5,7 @@ function loadRows() {
   const context = {};
   vm.createContext(context);
   vm.runInContext(
-    fs.readFileSync("js/data.js", "utf8").replace(/^\uFEFF?const rows = /, "globalThis.rows = "),
+    fs.readFileSync("data/active/data.js", "utf8").replace(/^\uFEFF?const rows = /, "globalThis.rows = "),
     context,
   );
   return context.rows || [];
@@ -25,7 +25,7 @@ for (const file of htmls) {
 }
 
 const rows = loadRows();
-const statsBundle = fs.readFileSync("js/stats.js", "utf8")
+const statsBundle = fs.readFileSync("data/active/stats.js", "utf8")
   .replace(/^\uFEFF?const playerStats\s*=\s*/, "")
   .replace(/;\s*$/, "");
 const stats = JSON.parse(statsBundle);
@@ -44,7 +44,7 @@ console.log(JSON.stringify({
   teams: new Set(rows.map((row) => row.team)).size,
   groups: [...new Set(rows.map((row) => row.group))],
   statsRecords: Object.keys(stats).length,
-  statsSource: "js/stats.js",
+  statsSource: "data/active/stats.js",
   missingAssets,
   missingFlags,
   missingStatsRows,

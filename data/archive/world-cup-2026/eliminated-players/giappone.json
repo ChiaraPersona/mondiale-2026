@@ -1,0 +1,1790 @@
+{
+  "team": "Giappone",
+  "eliminationDate": "2026-06-29",
+  "roster": [
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Attaccanti",
+      "player": "Ayase Ueda",
+      "club": "Feyenoord",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/giappone.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Attaccanti",
+      "player": "Daizen Maeda",
+      "club": "Celtic",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/giappone.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Attaccanti",
+      "player": "Kaito Nakamura",
+      "club": "Stade Reims",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/giappone.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Attaccanti",
+      "player": "Keisuke Goto",
+      "club": "Sint-Truiden",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/giappone.svg",
+      "age": 21,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Attaccanti",
+      "player": "Kento Shiogai",
+      "club": "Wolfsburgo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/giappone.svg",
+      "age": 21,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Attaccanti",
+      "player": "Koki Ogawa",
+      "club": "NEC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/giappone.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Attaccanti",
+      "player": "Ritsu Doan",
+      "club": "Eintracht",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/giappone.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Attaccanti",
+      "player": "Takefusa Kubo",
+      "club": "Real Sociedad",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/giappone.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Attaccanti",
+      "player": "Yuito Suzuki",
+      "club": "Friburgo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/giappone.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Centrocampisti",
+      "player": "Ao Tanaka",
+      "club": "Leeds",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/giappone.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Centrocampisti",
+      "player": "Daichi Kamada",
+      "club": "Crystal Palace",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/giappone.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Centrocampisti",
+      "player": "Junya Ito",
+      "club": "Genk",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/giappone.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Centrocampisti",
+      "player": "Kaishu Sano",
+      "club": "Mainz",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/giappone.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Centrocampisti",
+      "player": "Wataru Endo",
+      "club": "Liverpool",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/giappone.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Difensori",
+      "player": "Ayumu Seko",
+      "club": "Le Havre",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/giappone.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Difensori",
+      "player": "Hiroki Ito",
+      "club": "Bayern de M�nich",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/giappone.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Difensori",
+      "player": "Junnosuke Suzuki",
+      "club": "Copenhague",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Danimarca",
+      "league": "Danish Superliga",
+      "flag": "flags/giappone.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Difensori",
+      "player": "Ko Itakura",
+      "club": "Ajax",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/giappone.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Difensori",
+      "player": "Shogo Taniguchi",
+      "club": "Sint-Truiden",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/giappone.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Difensori",
+      "player": "Takehiro Tomisayu",
+      "club": "Ajax",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/giappone.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Difensori",
+      "player": "Tsuyoshi Watanabe",
+      "club": "Feyenoord",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/giappone.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Difensori",
+      "player": "Yukinari Sugawara",
+      "club": "Werder Bremen",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/giappone.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Difensori",
+      "player": "Yuto Nagamoto",
+      "club": "FC Tokyo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Giappone",
+      "league": "J1 League",
+      "flag": "flags/giappone.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Portieri",
+      "player": "Keisuke Osako",
+      "club": "Sanfrecce Hiroshima",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Giappone",
+      "league": "J1 League",
+      "flag": "flags/giappone.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Portieri",
+      "player": "Tomoki Hayakawa",
+      "club": "Kashima",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Giappone",
+      "league": "J1 League",
+      "flag": "flags/giappone.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "F",
+      "team": "Giappone",
+      "role": "Portieri",
+      "player": "Zion Suzuki",
+      "club": "Parma",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/giappone.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "giappone::ayase ueda": {
+      "player": "Ayase Ueda",
+      "team": "Giappone",
+      "club": "Feyenoord",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 6,
+        "subIns": 4,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ueda-ayase/8Ssd0upn/",
+      "direttaPlayerId": "8Ssd0upn",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1104,
+        "goals": 9,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.08"
+      }
+    },
+    "giappone::daizen maeda": {
+      "player": "Daizen Maeda",
+      "team": "Giappone",
+      "club": "Celtic",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 4,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/maeda-daizen/6kfQTp18/",
+      "direttaPlayerId": "6kfQTp18",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1096,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.29"
+      }
+    },
+    "giappone::kaito nakamura": {
+      "player": "Kaito Nakamura",
+      "team": "Giappone",
+      "club": "Stade Reims",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 6,
+        "subIns": 6,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/nakamura-sota/QLjNHnHq/",
+      "direttaPlayerId": "QLjNHnHq",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 923,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.88"
+      }
+    },
+    "giappone::keisuke goto": {
+      "player": "Keisuke Goto",
+      "team": "Giappone",
+      "club": "Sint-Truiden",
+      "age": 21,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 1,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/goto-keisuke/lESOFKJf/",
+      "direttaPlayerId": "lESOFKJf",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1287,
+        "goals": 5,
+        "assists": 5,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.83"
+      }
+    },
+    "giappone::kento shiogai": {
+      "player": "Kento Shiogai",
+      "team": "Giappone",
+      "club": "Wolfsburgo",
+      "age": 21,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 0,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/shiogai-kento/t0LZyS5n/",
+      "direttaPlayerId": "t0LZyS5n",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 508,
+        "goals": 7,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.81",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 287,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.04
+        }
+      }
+    },
+    "giappone::koki ogawa": {
+      "player": "Koki Ogawa",
+      "team": "Giappone",
+      "club": "NEC",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 3,
+        "subIns": 3,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ogawa-koki/0xFkEenH/",
+      "direttaPlayerId": "0xFkEenH",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 765,
+        "goals": 4,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.67"
+      }
+    },
+    "giappone::ritsu doan": {
+      "player": "Ritsu Doan",
+      "team": "Giappone",
+      "club": "Eintracht",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 6,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/doan-ritsu/WUWvT7l3/",
+      "direttaPlayerId": "WUWvT7l3",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 980,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.45",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 861,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 6.49
+        }
+      }
+    },
+    "giappone::takefusa kubo": {
+      "player": "Takefusa Kubo",
+      "team": "Giappone",
+      "club": "Real Sociedad",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 8,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 5,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kubo-takefusa/fqdLdpc3/",
+      "direttaPlayerId": "fqdLdpc3",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1116,
+        "goals": 1,
+        "assists": 5,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.08",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 714,
+          "goals": 1,
+          "assists": 3,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.1
+        }
+      }
+    },
+    "giappone::yuito suzuki": {
+      "player": "Yuito Suzuki",
+      "team": "Giappone",
+      "club": "Friburgo",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 3,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/suzuki-yuito/buidOiX4/",
+      "direttaPlayerId": "buidOiX4",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1081,
+        "goals": 5,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.71",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 562,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.27
+        }
+      }
+    },
+    "giappone::ao tanaka": {
+      "player": "Ao Tanaka",
+      "team": "Giappone",
+      "club": "Leeds",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 6,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/tanaka-satoshi/bBFrXxiL/",
+      "direttaPlayerId": "bBFrXxiL",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1342,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.16",
+        "topFive": {
+          "appearances": 7,
+          "minutes": 622,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.97
+        }
+      }
+    },
+    "giappone::daichi kamada": {
+      "player": "Daichi Kamada",
+      "team": "Giappone",
+      "club": "Crystal Palace",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 7,
+        "subIns": 3,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kamada-daichi/bayITLyE/",
+      "direttaPlayerId": "bayITLyE",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 995,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.06",
+        "topFive": {
+          "appearances": 7,
+          "minutes": 332,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.4
+        }
+      }
+    },
+    "giappone::junya ito": {
+      "player": "Junya Ito",
+      "team": "Giappone",
+      "club": "Genk",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 4,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ito-jun-ya/j9vuLu2S/",
+      "direttaPlayerId": "j9vuLu2S",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 867,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.95"
+      }
+    },
+    "giappone::kaishu sano": {
+      "player": "Kaishu Sano",
+      "team": "Giappone",
+      "club": "Mainz",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 8,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sano-kaishu/v13GHQFg/",
+      "direttaPlayerId": "v13GHQFg",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.79",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 1080,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.82
+        }
+      }
+    },
+    "giappone::wataru endo": {
+      "player": "Wataru Endo",
+      "team": "Giappone",
+      "club": "Liverpool",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 5,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/endo-wataru/r7gln7MG/",
+      "direttaPlayerId": "r7gln7MG",
+      "recent15": {
+        "appearances": 12,
+        "minutes": 593,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 12,
+        "averageRating": "6.63",
+        "topFive": {
+          "appearances": 7,
+          "minutes": 146,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.8
+        }
+      }
+    },
+    "giappone::ayumu seko": {
+      "player": "Ayumu Seko",
+      "team": "Giappone",
+      "club": "Le Havre",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 5,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/seko-ayumu/W2j0scZO/",
+      "direttaPlayerId": "W2j0scZO",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.70",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1260,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.69
+        }
+      }
+    },
+    "giappone::hiroki ito": {
+      "player": "Hiroki Ito",
+      "team": "Giappone",
+      "club": "Bayern de Múnich",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 3,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ito-hiroki/4ULsVw9c/",
+      "direttaPlayerId": "4ULsVw9c",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 719,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.88",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 424,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.75
+        }
+      }
+    },
+    "giappone::junnosuke suzuki": {
+      "player": "Junnosuke Suzuki",
+      "team": "Giappone",
+      "club": "Copenhague",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 4,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/suzuki-junnosuke/KQMC4fv6/",
+      "direttaPlayerId": "KQMC4fv6",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1222,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.83"
+      }
+    },
+    "giappone::ko itakura": {
+      "player": "Ko Itakura",
+      "team": "Giappone",
+      "club": "Ajax",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 4,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/itakura-ko/xGFA759a/",
+      "direttaPlayerId": "xGFA759a",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1112,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.75"
+      }
+    },
+    "giappone::shogo taniguchi": {
+      "player": "Shogo Taniguchi",
+      "team": "Giappone",
+      "club": "Sint-Truiden",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 4,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/taniguchi-shogo/dbaoFm9A/",
+      "direttaPlayerId": "dbaoFm9A",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1305,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.11"
+      }
+    },
+    "giappone::takehiro tomisayu": {
+      "player": "Takehiro Tomisayu",
+      "team": "Giappone",
+      "club": "Ajax",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/tomiyasu-takehiro/OSNvjZSP/",
+      "direttaPlayerId": "OSNvjZSP",
+      "recent15": {
+        "appearances": 6,
+        "minutes": 196,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 6,
+        "averageRating": "6.60"
+      }
+    },
+    "giappone::tsuyoshi watanabe": {
+      "player": "Tsuyoshi Watanabe",
+      "team": "Giappone",
+      "club": "Feyenoord",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 7,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/watanabe-tsuyoshi/SYe5fQkj/",
+      "direttaPlayerId": "SYe5fQkj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1303,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.21"
+      }
+    },
+    "giappone::yukinari sugawara": {
+      "player": "Yukinari Sugawara",
+      "team": "Giappone",
+      "club": "Werder Bremen",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 3,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sugawara-yukinari/f7AvlM2c/",
+      "direttaPlayerId": "f7AvlM2c",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1214,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.42",
+        "topFive": {
+          "appearances": 15,
+          "minutes": 1214,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.42
+        }
+      }
+    },
+    "giappone::yuto nagamoto": {
+      "player": "Yuto Nagamoto",
+      "team": "Giappone",
+      "club": "FC Tokyo",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/nagatomo-yuto/hprzBx6h/",
+      "direttaPlayerId": "hprzBx6h",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1244,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.53"
+      }
+    },
+    "giappone::keisuke osako": {
+      "player": "Keisuke Osako",
+      "team": "Giappone",
+      "club": "Sanfrecce Hiroshima",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 3,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/osako-keisuke/lj1TfyEN/",
+      "direttaPlayerId": "lj1TfyEN",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.65",
+        "scope": "Club + nazionale",
+        "goalsConceded": 19,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.27",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 7,
+          "goalsConceded": 4,
+          "goalsConcededPerGame": "0.57",
+          "averageRating": "7.06",
+          "sample": [
+            {
+              "date": "10.09.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "USA",
+              "awayTeam": "Japan",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": 7.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "15.07.25",
+              "competition": "Fußball-Ostasienmeisterschaft (Asien)",
+              "homeTeam": "Südkorea",
+              "awayTeam": "Japan",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": 7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "10.06.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Indonesien",
+              "homeScore": 6,
+              "awayScore": 0,
+              "score": "6-0",
+              "minutes": 90,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "11.06.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Syrien",
+              "homeScore": 5,
+              "awayScore": 0,
+              "score": "5-0",
+              "minutes": 76,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "16.11.23",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Myanmar",
+              "homeScore": 5,
+              "awayScore": 0,
+              "score": "5-0",
+              "minutes": 81,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "13.10.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Kanada",
+              "homeScore": 4,
+              "awayScore": 1,
+              "score": "4-1",
+              "minutes": 90,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "09.09.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Deutschland",
+              "awayTeam": "Japan",
+              "homeScore": 1,
+              "awayScore": 4,
+              "score": "1-4",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      }
+    },
+    "giappone::tomoki hayakawa": {
+      "player": "Tomoki Hayakawa",
+      "team": "Giappone",
+      "club": "Kashima",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 3,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hayakawa-tomoki/j7riesZ7/",
+      "direttaPlayerId": "j7riesZ7",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.17",
+        "scope": "Club + nazionale",
+        "goalsConceded": 9,
+        "goalsConcededMatches": 13,
+        "goalsConcededPerGame": "0.69",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 3,
+          "goalsConceded": 0,
+          "goalsConcededPerGame": "0.00",
+          "averageRating": "7.17",
+          "sample": [
+            {
+              "date": "18.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Bolivien",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "14.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Ghana",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": 7.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "12.07.25",
+              "competition": "Fußball-Ostasienmeisterschaft (Asien)",
+              "homeTeam": "Japan",
+              "awayTeam": "China",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": 7.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    },
+    "giappone::zion suzuki": {
+      "player": "Zion Suzuki",
+      "team": "Giappone",
+      "club": "Parma",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 7,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/suzuki-zion/4bDDVvmT/",
+      "direttaPlayerId": "4bDDVvmT",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.63",
+        "scope": "Club + nazionale",
+        "goalsConceded": 23,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.53",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 15,
+          "goalsConceded": 9,
+          "goalsConcededPerGame": "0.60",
+          "averageRating": "6.61",
+          "sample": [
+            {
+              "date": "28.03.26",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Japan",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": 7.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "14.10.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Brasilien",
+              "homeScore": 3,
+              "awayScore": 2,
+              "score": "3-2",
+              "minutes": 90,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "10.10.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Paraguay",
+              "homeScore": 2,
+              "awayScore": 2,
+              "score": "2-2",
+              "minutes": 90,
+              "rating": 5.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "07.09.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Mexiko",
+              "awayTeam": "Japan",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "25.03.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Saudi-Arabien",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "20.03.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Bahrain",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": 7.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "19.11.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "China",
+              "awayTeam": "Japan",
+              "homeScore": 1,
+              "awayScore": 3,
+              "score": "1-3",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "15.11.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Indonesien",
+              "awayTeam": "Japan",
+              "homeScore": 0,
+              "awayScore": 4,
+              "score": "0-4",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "15.10.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Australien",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "10.10.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Saudi-Arabien",
+              "awayTeam": "Japan",
+              "homeScore": 0,
+              "awayScore": 2,
+              "score": "0-2",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "10.09.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Bahrain",
+              "awayTeam": "Japan",
+              "homeScore": 0,
+              "awayScore": 5,
+              "score": "0-5",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "05.09.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "China",
+              "homeScore": 7,
+              "awayScore": 0,
+              "score": "7-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "21.03.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Japan",
+              "awayTeam": "Nordkorea",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "03.02.24",
+              "competition": "Asienmeisterschaft (Asien)",
+              "homeTeam": "Iran",
+              "awayTeam": "Japan",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 6.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "31.01.24",
+              "competition": "Asienmeisterschaft (Asien)",
+              "homeTeam": "Bahrain",
+              "awayTeam": "Japan",
+              "homeScore": 1,
+              "awayScore": 3,
+              "score": "1-3",
+              "minutes": 90,
+              "rating": 6.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        },
+        "topFive": {
+          "appearances": 11,
+          "minutes": 990,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.62
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "F",
+      "squadra": "Giappone",
+      "giocatore": "Daizen Maeda",
+      "club": "Celtic",
+      "lega": "Scottish Premiership",
+      "ammonizioni_stagionali": 8,
+      "espulsioni_stagionali": 0,
+      "media_falli_partita": 1.4,
+      "rischio_cartellino": 44
+    }
+  ]
+}

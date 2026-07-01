@@ -1426,6 +1426,26 @@ const worldCupResults = {
       "MyCombo: 4 eventi centrati su 7; Balanced e Aggressive non vincenti.",
     ],
   },
+  80: {
+    status: "Finale",
+    home: 2,
+    away: 1,
+    winner: "Inghilterra",
+    source: "https://www.diretta.it/partita/calcio/dr-congo-phn9mm8H/inghilterra-j9N9ZNFA/?mid=nkoQVAgB",
+    sources: [
+      "https://www.diretta.it/partita/calcio/dr-congo-phn9mm8H/inghilterra-j9N9ZNFA/?mid=nkoQVAgB",
+      "https://cadenaser.com/nacional/2026/07/01/inglaterra-2-1-rd-congo-resumen-resultado-y-goles-del-partido-de-dieciseisavos-de-final-del-mundial-2026-cadena-ser/",
+    ],
+    scorers: {
+      "Inghilterra": ["Harry Kane", "Harry Kane"],
+      "RD Congo": ["Janson Cipenga"],
+    },
+    notes: [
+      "L'Inghilterra rimonta la RD Congo, vince 2-1 e si qualifica agli ottavi.",
+      "Cipenga apre al 7'; Kane segna al 75' e all'86'.",
+      "MyCombo: Safe 4/5, Balanced 5/6 e Aggressive 6/6. Il solo errore dei primi due portfolio è l'Over 17,5 tiri Inghilterra.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

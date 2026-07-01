@@ -2479,6 +2479,8 @@ function codexEnsureScorerTotal(totals, row) {
       team: row.team,
       role: row.role,
       goals: 0,
+      realGoals: 0,
+      projectedGoals: 0,
       matches: 0,
       recentGoals: codexNumber(recent.goals) || 0,
       recentApps: codexNumber(recent.appearances) || 0,
@@ -2578,6 +2580,7 @@ function codexProjectedScorers() {
           };
           const total = codexEnsureScorerTotal(totals, player);
           total.goals += 1;
+          total.realGoals += 1;
           result.scorers[team].push(total.player);
         });
       });
@@ -2592,14 +2595,14 @@ function codexProjectedScorers() {
       if (scorer) result.scorers[result.teamB].push(scorer.player);
     }
   });
-  codexApplyMarketScorerBalance(totals, teamMatches);
   return Object.values(totals)
     .map((row) => ({ ...row, matches: teamMatches[row.team] || 0 }))
+    .map((row) => ({ ...row, projectedGoals: Math.max(0, row.goals - row.realGoals) }))
+    .filter((row) => row.realGoals > 0 || (row.starter && row.expectedMinutes >= 55))
     .sort((a, b) =>
       b.goals - a.goals ||
       (b.penaltyRank === 1 ? 1 : 0) - (a.penaltyRank === 1 ? 1 : 0) ||
       (b.role === "Attaccanti" ? 1 : 0) - (a.role === "Attaccanti" ? 1 : 0) ||
-      ((b.scorerOdds ? 1 / b.scorerOdds : 0) - (a.scorerOdds ? 1 / a.scorerOdds : 0)) ||
       (b.rating || 0) - (a.rating || 0) ||
       b.matches - a.matches ||
       a.player.localeCompare(b.player)
@@ -3265,19 +3268,20 @@ function codexRenderTopScorers() {
   const root = document.getElementById("codex-top-scorers");
   if (!root) return;
   const scorers = codexProjectedScorers();
-  root.innerHTML = scorers.map((row, index) => {
+  root.innerHTML = `<p class="codex-ranking-disclaimer">Proiezione statistica del totale finale: separa i gol già registrati da quelli simulati. Non indica quote né presume che un mercato marcatore sia disponibile.</p>` + scorers.map((row, index) => {
     const rate = row.recentApps ? (row.recentGoals / row.recentApps).toFixed(2) : "n.d.";
     return `
       <article class="codex-scorer-row">
         <span>${index + 1}</span>
         <div>
           <strong>${codexEscape(row.player)} ${row.starter ? '<em>Probabile titolare</em>' : ""}</strong>
-          <small>${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 2)} &middot; ${codexEscape(row.role)} &middot; ${row.matches} partite previste &middot; ${row.expectedMinutes || 25}' stimati${row.penaltyRank ? ` &middot; rigorista #${row.penaltyRank}` : ""}</small>
+          <small>${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 2)} &middot; ${codexEscape(row.role)} &middot; ${row.matches} presenze di squadra nel modello &middot; ${row.expectedMinutes || 25}' stimati a gara${row.penaltyRank ? ` &middot; rigorista #${row.penaltyRank}` : ""}</small>
           ${row.observedTrend ? `<small>${codexEscape(row.observedTrend)}</small>` : ""}
         </div>
         <div class="codex-scorer-goals">
           <strong>${row.goals}</strong>
-          <small>gol previsti</small>
+          <small>totale finale stimato</small>
+          <small>${row.realGoals} reali + ${row.projectedGoals} simulati</small>
           <small>media recente ${rate}</small>
         </div>
       </article>`;

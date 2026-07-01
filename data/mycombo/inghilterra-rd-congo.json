@@ -2,7 +2,30 @@
   "slug": "inghilterra-rd-congo",
   "match": "Inghilterra - RD Congo",
   "date": "01/07/2026 ore 18.00",
-  "status": "prepared",
+  "status": "completed",
+  "settlement": {
+    "status": "Finale",
+    "score": "Inghilterra 2-1 RD Congo",
+    "source": "https://www.diretta.it/partita/calcio/dr-congo-phn9mm8H/inghilterra-j9N9ZNFA/?mid=nkoQVAgB",
+    "actualScenario": "Rimonta Inghilterra in una partita più aperta del previsto",
+    "notes": "Inghilterra qualificata: 16-7 nei tiri, 7-2 nello specchio, 5-3 nei corner e 1-1 nei cartellini. Safe 4/5, Balanced 5/6, Aggressive 6/6.",
+    "events": {
+      "event-02": { "status": "won", "evidence": "Inghilterra vincente 2-1." },
+      "event-05": { "status": "won", "evidence": "Inghilterra qualificata agli ottavi." },
+      "event-07": { "status": "won", "evidence": "Due gol dell'Inghilterra: fascia squadra 2-4 centrata." },
+      "event-10": { "status": "won", "evidence": "Tre gol totali: Over 1,5 centrato." },
+      "event-12": { "status": "won", "evidence": "Tre gol totali: Over 2,5 centrato." },
+      "event-18": { "status": "won", "evidence": "Tre gol totali: Multigoal 2-4 centrato." },
+      "event-19": { "status": "lost", "evidence": "Inghilterra: 16 tiri totali, sotto la soglia Over 17,5." },
+      "event-20": { "status": "won", "evidence": "RD Congo: 7 tiri totali, sopra la soglia 6,5." },
+      "event-21": { "status": "won", "evidence": "Inghilterra: 7 tiri in porta, sopra la soglia 5,5." },
+      "event-24": { "status": "won", "evidence": "RD Congo: 3 corner, sopra la soglia 2,5." },
+      "event-26": { "status": "won", "evidence": "Inghilterra: 5 corner, sopra la soglia 4,5." },
+      "booking-01": { "status": "lost", "evidence": "Masuaku non ammonito." },
+      "booking-02": { "status": "lost", "evidence": "Moutoussamy non ammonito." },
+      "booking-03": { "status": "lost", "evidence": "Mbemba non ammonito; i cartellini sono andati a Bellingham e Sadiki." }
+    }
+  },
   "portfolios": [
     {
       "name": "Safe",

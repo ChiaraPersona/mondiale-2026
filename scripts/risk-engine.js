@@ -1,3 +1,5 @@
+const { marketRisk } = require("./market-intelligence-engine");
+
 const portfolioRiskLimits = Object.freeze({
   safe: Object.freeze({
     range: [4.5, 5.5],
@@ -59,6 +61,7 @@ function eventRisk(event) {
   const category = normalized(event.category ?? event.categoria);
   const reasons = [];
   let score = oddsRisk(Number.isFinite(odds) ? odds : 10);
+  const intelligence = marketRisk(event);
 
   const categoryRisk = {
     ESITO: 2,
@@ -69,6 +72,9 @@ function eventRisk(event) {
     GIOCATORI: 14,
   }[category] ?? 8;
   score += categoryRisk;
+  if (intelligence.classification.recognized) score = Math.max(score, intelligence.score);
+  else score += intelligence.score;
+  reasons.push(...intelligence.reasons);
 
   const isTeamMarket = /SQUADRA|TEAM\s*[12]/.test(market);
   const isPlayerMarket =
@@ -110,6 +116,9 @@ function eventRisk(event) {
     minuteSensitive,
     complexMarket,
     volatileMarket,
+    marketKey: intelligence.classification.marketKey,
+    marketVolatility: intelligence.classification.volatility ?? null,
+    correlationGroup: intelligence.classification.correlationGroup ?? null,
   };
 }
 

@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { classifyMarket } = require("./market-intelligence-engine");
 
 const root = path.resolve(__dirname, "..");
 const outputRoot = path.join(root, "data", "mvp");
@@ -406,6 +407,8 @@ function automaticContext(category) {
 }
 
 function categoryForMarket(market) {
+  const intelligence = classifyMarket({ mercato: market });
+  if (intelligence.recognized) return intelligence.category;
   if (/CORNER|ANGOLO/i.test(market)) return "corner";
   if (/TIRI/i.test(market)) return "tiri";
   if (/CARTELLINO/i.test(market)) return "cartellini";
@@ -439,6 +442,29 @@ function buildAutomatic(plan) {
       motivo: reason,
       puntiDiForza: [strength],
       possibiliCriticita: [risk],
+    });
+  };
+  const addSource = (source, intelligence) => {
+    const key = `${source.marketId}:${source.selectionId}`;
+    if (seen.has(key) || picked.length >= 60) return;
+    const odds = Number(source.quota);
+    if (!Number.isFinite(odds) || odds <= 1.05 || odds > 8) return;
+    seen.add(key);
+    const [strength, risk] = automaticContext(intelligence.category) || [
+      `Mercato ${intelligence.marketKey} riconosciuto dal Market Intelligence Engine.`,
+      intelligence.metadata.notes,
+    ];
+    picked.push({
+      mercato: `${source.mercato} — ${source.info}`,
+      selezione: source.esito,
+      quota: odds,
+      selectionId: source.selectionId,
+      marketId: source.marketId,
+      categoria: intelligence.category,
+      marketKey: intelligence.marketKey,
+      motivo: "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
+      puntiDiForza: [strength],
+      possibiliCriticita: [risk, intelligence.metadata.notes].filter(Boolean),
     });
   };
 
@@ -498,6 +524,19 @@ function buildAutomatic(plan) {
   }
   for (const token of plan.cards) {
     add("CARTELLINO SI/NO (DUO) INC TS", new RegExp(`^${token.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} CARTELLINO`), "SI", "Candidato ammonito per ruolo, duelli e profilo arbitrale.");
+  }
+
+  const candidateKeys = new Set([
+    "player_shots_on_target", "player_total_shots", "player_goal_or_assist",
+    "player_shots_both_halves", "cards_over", "both_teams_cards",
+    "team_saves_over_under", "player_goal_or_card", "both_teams_corners",
+    "both_teams_corners_both_halves", "multigoal", "team_multigoal",
+  ]);
+  for (const source of payload.markets) {
+    const intelligence = classifyMarket(source);
+    if (intelligence.recognized && candidateKeys.has(intelligence.marketKey)) {
+      addSource(source, intelligence);
+    }
   }
 
   if (picked.length < 36) {

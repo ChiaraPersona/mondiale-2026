@@ -3,129 +3,37 @@
   "portfolios": [
     {
       "name": "Portfolio Safe",
-      "scenario": {
-        "id": "favorite_dominance",
-        "name": "Dominio Belgio",
-        "estimatedProbability": "alta"
+      "targetOdds": 5,
+      "status": "unchanged_no_candidate",
+      "totalOdds": null,
+      "events": [],
+      "scenario": null,
+      "reason": "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
+      "strengths": [],
+      "weaknesses": [
+        "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
       },
-      "initialOdds": 4.67,
-      "finalOdds": 4.67,
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ],
+      "initialOdds": null,
+      "finalOdds": null,
       "acceptedRange": [
         4.5,
         5.5
       ],
-      "status": "optimized_inside_range",
-      "events": [
-        {
-          "id": "event-01",
-          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
-          "selection": "1X",
-          "odds": 1.27,
-          "selectionId": 5197136354,
-          "marketId": 789348005,
-          "category": "esito",
-          "rankingScore": 95,
-          "class": "CORE",
-          "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
-          "riskScore": 30,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-10",
-          "market": "UNDER/OVER — U/O 1.5",
-          "selection": "OVER",
-          "odds": 1.27,
-          "selectionId": 5197136269,
-          "marketId": 789347996,
-          "category": "goal",
-          "rankingScore": 89,
-          "class": "CORE",
-          "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
-          "riskScore": 33,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-18",
-          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
-          "selection": "1-3",
-          "odds": 1.45,
-          "selectionId": 5197191786,
-          "marketId": 789348830,
-          "category": "goal",
-          "rankingScore": 89,
-          "class": "CORE",
-          "reason": "Fascia gol partita coerente con il risultato guida.",
-          "riskScore": 42,
-          "riskLevel": "low",
-          "riskReasons": [
-            "Mercato composto o ad alta complessità."
-          ]
-        },
-        {
-          "id": "event-21",
-          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 3.5 TIRI IN PORTA",
-          "selection": "OVER",
-          "odds": 1.5,
-          "selectionId": 5198496139,
-          "marketId": 789581949,
-          "category": "tiri",
-          "rankingScore": 88,
-          "class": "CORE",
-          "reason": "Soglia allineata alla proiezione di squadra.",
-          "riskScore": 38,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-25",
-          "market": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 1",
-          "selection": "OVER",
-          "odds": 1.33,
-          "selectionId": 5198429710,
-          "marketId": 789571896,
-          "category": "corner",
-          "rankingScore": 88,
-          "class": "CORE",
-          "reason": "Evento di supporto selezionato entro limiti di quota e mercato.",
-          "riskScore": 36,
-          "riskLevel": "low",
-          "riskReasons": []
-        }
-      ],
       "removedEvents": [],
       "addedEvents": [],
-      "improvementEstimate": "nessuno: la schedina candidata era già ottimale",
-      "qualityIndex": {
-        "initial": 114.6,
-        "final": 114.6,
-        "delta": 0,
-        "note": "Indice comparativo di qualità, non probabilità."
-      },
-      "reason": "La soluzione minimizza il rischio tra le combinazioni ammissibili nell'intervallo.",
-      "strengths": [
-        "4 categorie rappresentate.",
-        "10 relazioni positive, nessuna negativa o ridondante.",
-        "Score medio corretto per classe: 89.8.",
-        "Numero eventi: 5."
-      ],
-      "weaknesses": [
-        "Tutte le coppie hanno una relazione positiva nello scenario.",
-        "La qualità resta condizionata dal verificarsi dello scenario comune."
-      ],
-      "riskProfile": {
-        "averageRisk": 36,
-        "maxEventRisk": 42,
-        "maxSingleOdds": 1.5,
-        "riskConcentration": "low",
-        "numberOfEvents": 5,
-        "highRiskEvents": 0
-      },
-      "riskVerdict": "low",
-      "riskNotes": [
-        "Profilo entro tutti i limiti di rischio configurati."
-      ]
+      "improvementEstimate": "nessuno"
     },
     {
       "name": "Portfolio Balanced",
@@ -155,7 +63,9 @@
           "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
           "riskScore": 44,
           "riskLevel": "low",
-          "riskReasons": []
+          "riskReasons": [
+            "Mercato match_result: volatilità 30/100."
+          ]
         },
         {
           "id": "event-08",
@@ -170,7 +80,9 @@
           "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
           "riskScore": 47,
           "riskLevel": "medium",
-          "riskReasons": []
+          "riskReasons": [
+            "Mercato goals_over_under: volatilità 38/100."
+          ]
         },
         {
           "id": "event-18",
@@ -183,9 +95,10 @@
           "rankingScore": 89,
           "class": "CORE",
           "reason": "Fascia gol partita coerente con il risultato guida.",
-          "riskScore": 42,
-          "riskLevel": "low",
+          "riskScore": 47,
+          "riskLevel": "medium",
           "riskReasons": [
+            "Mercato multigoal: volatilità 42/100.",
             "Mercato composto o ad alta complessità."
           ]
         },
@@ -200,9 +113,11 @@
           "rankingScore": 88,
           "class": "CORE",
           "reason": "Soglia allineata alla proiezione di squadra.",
-          "riskScore": 38,
-          "riskLevel": "low",
-          "riskReasons": []
+          "riskScore": 52,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato team_total_shots: volatilità 46/100."
+          ]
         },
         {
           "id": "event-21",
@@ -215,9 +130,11 @@
           "rankingScore": 88,
           "class": "CORE",
           "reason": "Soglia allineata alla proiezione di squadra.",
-          "riskScore": 38,
-          "riskLevel": "low",
-          "riskReasons": []
+          "riskScore": 53,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato team_shots_on_target: volatilità 50/100."
+          ]
         },
         {
           "id": "event-25",
@@ -230,9 +147,11 @@
           "rankingScore": 88,
           "class": "CORE",
           "reason": "Evento di supporto selezionato entro limiti di quota e mercato.",
-          "riskScore": 36,
-          "riskLevel": "low",
-          "riskReasons": []
+          "riskScore": 52,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato corners_over_under: volatilità 44/100."
+          ]
         }
       ],
       "removedEvents": [],
@@ -256,14 +175,14 @@
         "La qualità resta condizionata dal verificarsi dello scenario comune."
       ],
       "riskProfile": {
-        "averageRisk": 41,
-        "maxEventRisk": 47,
+        "averageRisk": 49,
+        "maxEventRisk": 53,
         "maxSingleOdds": 1.65,
         "riskConcentration": "low",
         "numberOfEvents": 6,
         "highRiskEvents": 0
       },
-      "riskVerdict": "low",
+      "riskVerdict": "medium",
       "riskNotes": [
         "Profilo entro tutti i limiti di rischio configurati."
       ]
@@ -296,7 +215,9 @@
           "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
           "riskScore": 60,
           "riskLevel": "medium",
-          "riskReasons": []
+          "riskReasons": [
+            "Mercato match_result: volatilità 30/100."
+          ]
         },
         {
           "id": "event-08",
@@ -311,7 +232,9 @@
           "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
           "riskScore": 47,
           "riskLevel": "medium",
-          "riskReasons": []
+          "riskReasons": [
+            "Mercato goals_over_under: volatilità 38/100."
+          ]
         },
         {
           "id": "event-12",
@@ -326,7 +249,9 @@
           "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
           "riskScore": 63,
           "riskLevel": "medium",
-          "riskReasons": []
+          "riskReasons": [
+            "Mercato goals_over_under: volatilità 38/100."
+          ]
         },
         {
           "id": "event-19",
@@ -339,9 +264,11 @@
           "rankingScore": 88,
           "class": "CORE",
           "reason": "Soglia allineata alla proiezione di squadra.",
-          "riskScore": 38,
-          "riskLevel": "low",
-          "riskReasons": []
+          "riskScore": 52,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato team_total_shots: volatilità 46/100."
+          ]
         },
         {
           "id": "event-21",
@@ -354,9 +281,11 @@
           "rankingScore": 88,
           "class": "CORE",
           "reason": "Soglia allineata alla proiezione di squadra.",
-          "riskScore": 38,
-          "riskLevel": "low",
-          "riskReasons": []
+          "riskScore": 53,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato team_shots_on_target: volatilità 50/100."
+          ]
         },
         {
           "id": "event-25",
@@ -369,9 +298,11 @@
           "rankingScore": 88,
           "class": "CORE",
           "reason": "Evento di supporto selezionato entro limiti di quota e mercato.",
-          "riskScore": 36,
-          "riskLevel": "low",
-          "riskReasons": []
+          "riskScore": 52,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato corners_over_under: volatilità 44/100."
+          ]
         }
       ],
       "removedEvents": [],
@@ -395,7 +326,7 @@
         "La qualità resta condizionata dal verificarsi dello scenario comune."
       ],
       "riskProfile": {
-        "averageRisk": 47,
+        "averageRisk": 55,
         "maxEventRisk": 63,
         "maxSingleOdds": 2.1,
         "riskConcentration": "medium",

@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { portfolioRiskLimits, withEventRisk, assessPortfolio } = require("./risk-engine");
+const { isAllowedInPortfolio } = require("./market-intelligence-engine");
 
 const root = path.resolve(__dirname, "..");
 const mvpDirectory = path.join(root, "data", "mvp");
@@ -40,9 +41,9 @@ function round2(value) {
   return Math.round((value + Number.EPSILON) * 100) / 100;
 }
 
-function isMyComboEligible(event) {
+function isMyComboEligible(event, profile, scenario) {
   const market = String(event?.market || "").toUpperCase();
-  return !(
+  return isAllowedInPortfolio(event, profile, scenario) && !(
     market.includes("PRIMA A X CORNER") ||
     market.includes("PRIMA A 2 CALCI D'ANGOLO")
   );
@@ -234,7 +235,7 @@ function buildPortfolio(ranking, scenarios, graph, config) {
       .filter(Boolean)
       .filter(event =>
         !incompatible.has(event.id) &&
-        isMyComboEligible(event) &&
+        isMyComboEligible(event, config.id, scenario) &&
         event.score >= config.minScore &&
         config.classes.has(event.class) &&
         event.odds > 1.05 &&

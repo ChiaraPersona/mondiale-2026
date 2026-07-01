@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { classifyMarket } = require("./market-intelligence-engine");
 
 const root = path.resolve(__dirname, "..");
 const mvpDirectory = path.join(root, "data", "mvp");
@@ -24,7 +25,8 @@ function marketProfile(event) {
     Number(event.quota) >= 4 ||
     /\b(AGGRESSIV|AMBIZIOS|ALTA|VARIANTE PIU)\b/.test(reason);
 
-  return { market, reason, isCard, isPlayer, isTeamShots, isAggressive };
+  const intelligence = classifyMarket(event);
+  return { market, reason, isCard, isPlayer, isTeamShots, isAggressive, intelligence };
 }
 
 function coherence(event, profile) {
@@ -35,6 +37,9 @@ function coherence(event, profile) {
 }
 
 function marketStability(event, profile) {
+  if (profile.intelligence.recognized) {
+    return Math.max(4, Math.round(27 - profile.intelligence.volatility * 0.2));
+  }
   if (event.categoria === "esito") return profile.market.includes("DOPPIA CHANCE") ? 25 : 22;
   if (event.categoria === "goal") return 21;
   if (event.categoria === "corner") {
@@ -55,6 +60,7 @@ function singlePlayerIndependence(profile) {
 }
 
 function minuteStability(profile) {
+  if (profile.intelligence.minutePenalty) return Math.max(1, 10 - profile.intelligence.minutePenalty);
   if (profile.isCard) return 7;
   if (profile.isPlayer) return 5;
   return 10;
@@ -77,6 +83,8 @@ function simplicity(profile) {
 }
 
 function eventClass(event, profile) {
+  if (profile.intelligence.riskLevel === "high") return "SPECULATIVE";
+  if (["medium", "medium_high"].includes(profile.intelligence.riskLevel)) return "VALUE";
   if (profile.isAggressive && (profile.isPlayer || profile.isCard)) return "SPECULATIVE";
   if (profile.isPlayer || profile.isCard) return "VALUE";
   return "CORE";
@@ -126,6 +134,14 @@ function rankEvent(event, index) {
 
   return {
     ...event,
+    marketKey: profile.intelligence.marketKey,
+    marketIntelligence: profile.intelligence.recognized ? {
+      family: profile.intelligence.family,
+      volatility: profile.intelligence.volatility,
+      riskLevel: profile.intelligence.riskLevel,
+      correlationGroup: profile.intelligence.correlationGroup,
+      starterCertainty: profile.intelligence.starterCertainty,
+    } : null,
     score,
     classe: classification,
     motivoScore: scoreReason(event, profile, factors, classification),

@@ -265,7 +265,7 @@
     },
     {
       "name": "Aggressive",
-      "finalOdds": 19.29,
+      "finalOdds": 18.67,
       "events": [
         {
           "id": "event-07",
@@ -300,12 +300,12 @@
           "riskReasons": []
         },
         {
-          "id": "event-19",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
+          "id": "event-20",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 6.5 TIRI TOTALI",
           "selection": "OVER",
-          "odds": 1.57,
-          "selectionId": 5198505879,
-          "marketId": 789584529,
+          "odds": 1.72,
+          "selectionId": 5198506971,
+          "marketId": 789584802,
           "category": "tiri",
           "rankingScore": 88,
           "class": "CORE",
@@ -315,12 +315,12 @@
           "riskReasons": []
         },
         {
-          "id": "event-20",
-          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 6.5 TIRI TOTALI",
+          "id": "event-21",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
           "selection": "OVER",
-          "odds": 1.72,
-          "selectionId": 5198506971,
-          "marketId": 789584802,
+          "odds": 1.52,
+          "selectionId": 5198506555,
+          "marketId": 789584698,
           "category": "tiri",
           "rankingScore": 88,
           "class": "CORE",
@@ -368,12 +368,12 @@
       },
       "strengths": [
         "3 categorie rappresentate.",
-        "13 relazioni positive, nessuna negativa o ridondante.",
+        "15 relazioni positive, nessuna negativa o ridondante.",
         "Score medio corretto per classe: 88.67.",
         "Numero eventi: 6."
       ],
       "weaknesses": [
-        "2 relazioni neutrali restano nel portfolio.",
+        "Tutte le coppie hanno una relazione positiva nello scenario.",
         "La qualità resta condizionata dal verificarsi dello scenario comune."
       ],
       "riskProfile": {
@@ -394,41 +394,9 @@
           18,
           22
         ],
-        "removedEvents": [
-          {
-            "id": "event-21",
-            "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
-            "selection": "OVER",
-            "odds": 1.52,
-            "selectionId": 5198506555,
-            "marketId": 789584698,
-            "category": "tiri",
-            "rankingScore": 88,
-            "class": "CORE",
-            "reason": "Rimosso per ridurre il numero di gambe e migliorare la qualità complessiva senza forzare la quota.",
-            "riskScore": 52,
-            "riskLevel": "medium",
-            "riskReasons": []
-          }
-        ],
-        "addedEvents": [
-          {
-            "id": "event-19",
-            "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
-            "selection": "OVER",
-            "odds": 1.57,
-            "selectionId": 5198505879,
-            "marketId": 789584529,
-            "category": "tiri",
-            "rankingScore": 88,
-            "class": "CORE",
-            "reason": "Inserito per aumentare la stabilità del portfolio con un mercato CORE coerente con lo scenario.",
-            "riskScore": 52,
-            "riskLevel": "medium",
-            "riskReasons": []
-          }
-        ],
-        "improvementEstimate": "strutturale: quota o numero di gambe migliorati senza aumento dell'indice"
+        "removedEvents": [],
+        "addedEvents": [],
+        "improvementEstimate": "nessuno: la schedina candidata era già ottimale"
       }
     }
   ]

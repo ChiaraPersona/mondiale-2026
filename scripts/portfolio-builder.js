@@ -91,6 +91,7 @@ function combinationStats(selected, edges, portfolioId) {
 }
 
 function objective(stats, legs) {
+  const averageOdds = Math.pow(stats.product, 1 / legs);
   const concentrationPenalty =
     stats.riskProfile.riskConcentration === "high" ? 18 :
     stats.riskProfile.riskConcentration === "medium" ? 7 : 0;
@@ -103,7 +104,8 @@ function objective(stats, legs) {
     stats.averageScore * 0.12 -
     stats.positive * 1.5 +
     stats.neutral * 0.5 +
-    Math.max(0, 6 - legs) * 3
+    averageOdds * 4 -
+    legs * 2
   );
 }
 

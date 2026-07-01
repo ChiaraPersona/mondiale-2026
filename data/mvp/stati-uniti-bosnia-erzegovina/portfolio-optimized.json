@@ -209,8 +209,8 @@
       ],
       "improvementEstimate": "contenuto",
       "qualityIndex": {
-        "initial": 91.13,
-        "final": 91.93,
+        "initial": 112.73,
+        "final": 113.53,
         "delta": 0.8,
         "note": "Indice comparativo di qualità, non probabilità."
       },
@@ -348,8 +348,8 @@
       "addedEvents": [],
       "improvementEstimate": "nessuno: la schedina candidata era già ottimale",
       "qualityIndex": {
-        "initial": 89.2,
-        "final": 89.2,
+        "initial": 110.8,
+        "final": 110.8,
         "delta": 0,
         "note": "Indice comparativo di qualità, non probabilità."
       },

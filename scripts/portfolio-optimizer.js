@@ -88,7 +88,7 @@ function portfolioStats(selected, edges, portfolioId) {
   const qualityIndex =
     averageQuality +
     minimumQuality * 0.15 +
-    categories.size * 1.5 -
+    categories.size * 1.5 +
     selected.length * 1.8 -
     repeatedCategories -
     neutral * 0.4 -
@@ -103,7 +103,8 @@ function portfolioStats(selected, edges, portfolioId) {
     risk.riskProfile.highRiskEvents * 35 +
     concentrationPenalty -
     qualityIndex * 0.35 +
-    Math.max(0, 6 - selected.length) * 3;
+    Math.pow(totalOdds, 1 / selected.length) * 4 -
+    selected.length * 2;
 
   return {
     totalOdds,
@@ -119,17 +120,12 @@ function portfolioStats(selected, edges, portfolioId) {
   };
 }
 
-function searchBest(candidates, config, edges, forbiddenSuperset = new Set()) {
+function searchBest(candidates, config, edges) {
   let bestInside = null;
   const [minimum, maximum] = config.range;
 
   function consider(selected) {
     if (selected.length < config.minEvents) return;
-    const selectedIds = new Set(selected.map(event => event.id));
-    if (
-      forbiddenSuperset.size &&
-      [...forbiddenSuperset].every(eventId => selectedIds.has(eventId))
-    ) return;
     const stats = portfolioStats(selected, edges, config.id);
     if (!stats.allowed) return;
     const result = { selected: [...selected], stats };
@@ -213,7 +209,7 @@ function qualitativeImprovement(delta, removed, added) {
   return "strutturale: quota o numero di gambe migliorati senza aumento dell'indice";
 }
 
-function optimizePortfolio(portfolio, ranking, scenarios, graph, forbiddenSuperset = new Set()) {
+function optimizePortfolio(portfolio, ranking, scenarios, graph) {
   const config = configs[portfolio.name];
   if (!config) throw new Error(`Configurazione mancante per ${portfolio.name}`);
   if (!portfolio.scenario || !Array.isArray(portfolio.events) || !portfolio.events.length) {
@@ -278,7 +274,7 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph, forbiddenSupers
     )
     .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
 
-  const optimized = searchBest(candidates, config, edges, forbiddenSuperset);
+  const optimized = searchBest(candidates, config, edges);
   const initialEvents = portfolio.events
     .map(event => rankingById.get(event.id))
     .filter(Boolean)
@@ -288,11 +284,7 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph, forbiddenSupers
   if (!optimized) {
     const initialWithinRange =
       initialStats.totalOdds >= config.range[0] && initialStats.totalOdds <= config.range[1];
-    const initialIds = new Set(initialEvents.map(event => event.id));
-    const violatesIndependence =
-      forbiddenSuperset.size &&
-      [...forbiddenSuperset].every(eventId => initialIds.has(eventId));
-    const keepInitial = initialWithinRange && initialStats.allowed && !violatesIndependence;
+    const keepInitial = initialWithinRange && initialStats.allowed;
     return {
       name: portfolio.name,
       scenario: portfolio.scenario,
@@ -391,17 +383,11 @@ function processMatch(matchKey) {
 
   const optimized = [];
   for (const portfolio of portfolios.portfolios) {
-    const safeEvents = optimized.find(item => item.name === "Portfolio Safe")?.events || [];
-    const forbiddenSuperset =
-      portfolio.name === "Portfolio Balanced"
-        ? new Set(safeEvents.map(event => event.id))
-        : new Set();
     const result = optimizePortfolio(
       portfolio,
       ranking,
       scenarios.scenarios,
-      graph,
-      forbiddenSuperset
+      graph
     );
     optimized.push(result);
   }

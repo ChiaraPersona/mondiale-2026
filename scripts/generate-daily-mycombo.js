@@ -22,10 +22,14 @@ function writeJson(fileName, payload) {
 }
 
 function normalizePortfolio(portfolio) {
+  const events = Array.isArray(portfolio.events) ? portfolio.events : [];
+  const calculatedOdds = events.length
+    ? round2(events.reduce((total, event) => total * Number(event.odds), 1))
+    : null;
   return {
     name: String(portfolio.name || "").replace(/^Portfolio\s+/i, ""),
-    finalOdds: portfolio.finalOdds,
-    events: portfolio.events,
+    finalOdds: calculatedOdds,
+    events,
     reason: portfolio.reason,
     scenario: portfolio.scenario,
     strengths: portfolio.strengths || [],
@@ -45,6 +49,31 @@ function normalizePortfolio(portfolio) {
 
 function round2(value) {
   return Math.round((Number(value) + Number.EPSILON) * 100) / 100;
+}
+
+function validatePortfolioOdds(match) {
+  const ranges = {
+    Safe: [4.5, 5.5],
+    Balanced: [9, 11],
+    Aggressive: [18, 22],
+  };
+  for (const portfolio of match.portfolios || []) {
+    const events = Array.isArray(portfolio.events) ? portfolio.events : [];
+    if (!events.length) continue;
+    const product = round2(events.reduce((total, event) => total * Number(event.odds), 1));
+    if (product !== Number(portfolio.finalOdds)) {
+      throw new Error(
+        `${match.slug} / ${portfolio.name}: quota dichiarata ${portfolio.finalOdds}, prodotto reale ${product}.`
+      );
+    }
+    const range = ranges[portfolio.name];
+    if (range && (product < range[0] || product > range[1])) {
+      throw new Error(
+        `${match.slug} / ${portfolio.name}: prodotto ${product} fuori fascia ${range[0]}-${range[1]}.`
+      );
+    }
+  }
+  return match;
 }
 
 function bookingPlayer(event) {
@@ -579,6 +608,7 @@ if (requestedSlug) {
         quote.date,
         buildBookingsTrio(ranking, quote)
       );
+  validatePortfolioOdds(match);
   writeJson(`${requestedSlug}.json`, match);
   console.log(`MyCombo generata per ${source.match}.`);
   return;

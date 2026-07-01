@@ -1378,6 +1378,20 @@ const worldCupResults = {
       "Centrati risultato esatto 1-1, Under 2,5 e Goal; non preso il passaggio del turno dell'Olanda.",
     ],
   },
+  77: {
+    status: "Finale",
+    home: 3,
+    away: 0,
+    winner: "Francia",
+    source: "https://www.diretta.it/partita/calcio/francia-QkGeVG1n/svezia-OQyqbHWB/?mid=UN3MMEFl",
+    sources: ["https://www.diretta.it/partita/calcio/francia-QkGeVG1n/svezia-OQyqbHWB/?mid=UN3MMEFl"],
+    scorers: { "Francia": ["Kylian Mbappe", "Kylian Mbappe"], "Svezia": [] },
+    notes: [
+      "La Francia batte la Svezia 3-0 e si qualifica agli ottavi di finale.",
+      "Dominio francese: 25-8 nei tiri, 12-3 nei tiri in porta e 9-1 nei corner.",
+      "MyCombo: 7 eventi centrati su 9; tutti i portfolio saltano per il No Goal.",
+    ],
+  },
   78: {
     status: "Finale",
     home: 1,
@@ -1396,6 +1410,20 @@ const worldCupResults = {
       "La Norvegia batte la Costa d'Avorio 2-1 e si qualifica agli ottavi di finale.",
       "Centrati risultato esatto 1-2, Goal, Over 2,5 e Over 8,5 corner.",
       "Balanced e Aggressive chiudono entrambe 4/5: decisivi gli errori sui volumi di tiro della Norvegia.",
+    ],
+  },
+  79: {
+    status: "Finale",
+    home: 2,
+    away: 0,
+    winner: "Messico",
+    source: "https://www.diretta.it/partita/calcio/ecuador-8tbm8Tri/messico-O6iHcNkd/?mid=fydIxpfR",
+    sources: ["https://www.diretta.it/partita/calcio/ecuador-8tbm8Tri/messico-O6iHcNkd/?mid=fydIxpfR"],
+    scorers: { "Messico": [], "Ecuador": [] },
+    notes: [
+      "Il Messico batte l'Ecuador 2-0 e si qualifica agli ottavi di finale.",
+      "Messico avanti 15-7 nei tiri; Ecuador avanti 8-3 nei corner ma fermo a un solo tiro in porta.",
+      "MyCombo: 4 eventi centrati su 7; Balanced e Aggressive non vincenti.",
     ],
   },
 };

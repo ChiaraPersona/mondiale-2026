@@ -2,7 +2,52 @@
   "slug": "francia-svezia",
   "match": "Francia - Svezia",
   "date": "30/06/2026 ore 23.00",
-  "status": "prepared",
+  "status": "completed",
+  "settlement": {
+    "status": "Finale",
+    "score": "Francia 3-0 Svezia",
+    "source": "https://www.diretta.it/partita/calcio/francia-QkGeVG1n/svezia-OQyqbHWB/?mid=UN3MMEFl",
+    "actualScenario": "Dominio Francia",
+    "notes": "Francia qualificata dominando volumi e qualità: 25-8 nei tiri, 12-3 nello specchio e 9-1 nei corner.",
+    "events": {
+      "event-01": {
+        "status": "won",
+        "evidence": "Francia qualificata agli ottavi."
+      },
+      "event-05": {
+        "status": "won",
+        "evidence": "10 corner totali: Francia 9, Svezia 1."
+      },
+      "event-12": {
+        "status": "lost",
+        "evidence": "No Goal: la Svezia non ha segnato."
+      },
+      "event-13": {
+        "status": "won",
+        "evidence": "Tre gol totali: Over 2,5 centrato."
+      },
+      "event-15": {
+        "status": "lost",
+        "evidence": "Tre gol totali: Over 3,5 non centrato."
+      },
+      "event-18": {
+        "status": "won",
+        "evidence": "Francia: 25 tiri totali, sopra la soglia 15,5."
+      },
+      "event-19": {
+        "status": "won",
+        "evidence": "Francia: 12 tiri in porta, sopra la soglia 6,5."
+      },
+      "event-20": {
+        "status": "won",
+        "evidence": "Svezia: 8 tiri totali, sopra la soglia 6,5."
+      },
+      "event-21": {
+        "status": "won",
+        "evidence": "Svezia: 3 tiri in porta, sopra la soglia 2,5."
+      }
+    }
+  },
   "portfolios": [
     {
       "name": "Safe",

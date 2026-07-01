@@ -2,7 +2,44 @@
   "slug": "messico-ecuador",
   "match": "Messico - Ecuador",
   "date": "01/07/2026 ore 03.00",
-  "status": "prepared",
+  "status": "completed",
+  "settlement": {
+    "status": "Finale",
+    "score": "Messico 2-0 Ecuador",
+    "source": "https://www.diretta.it/partita/calcio/ecuador-8tbm8Tri/messico-O6iHcNkd/?mid=fydIxpfR",
+    "actualScenario": "Dominio Messico",
+    "notes": "Messico qualificato con 15 tiri contro 7; Ecuador più corner (8-3) ma poco pericoloso.",
+    "events": {
+      "event-01": {
+        "status": "won",
+        "evidence": "Messico vincente 2-0: doppia chance 1X centrata."
+      },
+      "event-11": {
+        "status": "won",
+        "evidence": "11 corner totali: Messico 3, Ecuador 8."
+      },
+      "event-12": {
+        "status": "won",
+        "evidence": "Messico: 15 tiri totali, sopra la soglia 11,5."
+      },
+      "event-13": {
+        "status": "lost",
+        "evidence": "Ecuador: 7 tiri totali, sotto la soglia 9,5."
+      },
+      "event-16": {
+        "status": "lost",
+        "evidence": "No Goal: l'Ecuador non ha segnato."
+      },
+      "event-17": {
+        "status": "won",
+        "evidence": "Due gol totali: Over 1,5 centrato."
+      },
+      "event-22": {
+        "status": "lost",
+        "evidence": "Messico: 3 tiri in porta, sotto la soglia 3,5."
+      }
+    }
+  },
   "portfolios": [
     {
       "name": "Safe",

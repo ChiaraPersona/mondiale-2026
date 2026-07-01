@@ -2,6 +2,141 @@
   "version": 1,
   "matches": [
     {
+      "slug": "messico-ecuador",
+      "date": "01/07/2026 ore 03.00",
+      "result": "Messico 2-0 Ecuador",
+      "predictedScenario": [
+        {
+          "id": "favorite_dominance",
+          "name": "Dominio Messico",
+          "estimatedProbability": "media"
+        },
+        {
+          "id": "open_game",
+          "name": "Partita aperta",
+          "estimatedProbability": "bassa"
+        }
+      ],
+      "actualScenario": "Dominio Messico",
+      "Safe": "not_generated",
+      "Balanced": "lost",
+      "Aggressive": "lost",
+      "correctEvents": 4,
+      "incorrectEvents": 3,
+      "finalOdds": {
+        "Safe": null,
+        "Balanced": 9.15,
+        "Aggressive": 20.83
+      },
+      "riskProfile": {
+        "Safe": {
+          "generated": false,
+          "outcome": "not_generated",
+          "finalOdds": null,
+          "eventIds": []
+        },
+        "Balanced": {
+          "generated": true,
+          "outcome": "lost",
+          "finalOdds": 9.15,
+          "eventIds": [
+            "event-01",
+            "event-12",
+            "event-16",
+            "event-17",
+            "event-22"
+          ]
+        },
+        "Aggressive": {
+          "generated": true,
+          "outcome": "lost",
+          "finalOdds": 20.83,
+          "eventIds": [
+            "event-11",
+            "event-13",
+            "event-16",
+            "event-17",
+            "event-22"
+          ]
+        }
+      },
+      "averageEqs": null,
+      "notes": "Messico qualificato con 15 tiri contro 7; Ecuador più corner (8-3) ma poco pericoloso.",
+      "source": "https://www.diretta.it/partita/calcio/ecuador-8tbm8Tri/messico-O6iHcNkd/?mid=fydIxpfR",
+      "events": [
+        {
+          "id": "event-01",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "category": "esito",
+          "selection": "1X",
+          "odds": 1.22,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Messico vincente 2-0: doppia chance 1X centrata."
+        },
+        {
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 11.5 TIRI TOTALI",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.3,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Messico: 15 tiri totali, sopra la soglia 11,5."
+        },
+        {
+          "id": "event-16",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "category": "goal",
+          "selection": "GOAL",
+          "odds": 2.2,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "No Goal: l'Ecuador non ha segnato."
+        },
+        {
+          "id": "event-17",
+          "market": "UNDER/OVER — U/O 1.5",
+          "category": "goal",
+          "selection": "OVER",
+          "odds": 1.57,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Due gol totali: Over 1,5 centrato."
+        },
+        {
+          "id": "event-22",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 3.5 TIRI IN PORTA",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.67,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "Messico: 3 tiri in porta, sotto la soglia 3,5."
+        },
+        {
+          "id": "event-11",
+          "market": "U/O CORNER — U/O 8.5 CORNER",
+          "category": "corner",
+          "selection": "OVER",
+          "odds": 2.3,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "11 corner totali: Messico 3, Ecuador 8."
+        },
+        {
+          "id": "event-13",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 9.5 TIRI TOTALI",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.57,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "Ecuador: 7 tiri totali, sotto la soglia 9,5."
+        }
+      ]
+    },
+    {
       "slug": "sudafrica-canada",
       "date": "28/06/2026 ore 21.00",
       "result": "Sudafrica 0-1 Canada",
@@ -430,6 +565,166 @@
           "eqs": null,
           "outcome": "lost",
           "evidence": "Norvegia: 4 tiri in porta, sotto la soglia 4,5."
+        }
+      ]
+    },
+    {
+      "slug": "francia-svezia",
+      "date": "30/06/2026 ore 23.00",
+      "result": "Francia 3-0 Svezia",
+      "predictedScenario": [
+        {
+          "id": "favorite_dominance",
+          "name": "Dominio Francia",
+          "estimatedProbability": "alta"
+        },
+        {
+          "id": "open_game",
+          "name": "Partita aperta",
+          "estimatedProbability": "media"
+        }
+      ],
+      "actualScenario": "Dominio Francia",
+      "Safe": "lost",
+      "Balanced": "lost",
+      "Aggressive": "lost",
+      "correctEvents": 7,
+      "incorrectEvents": 2,
+      "finalOdds": {
+        "Safe": 4.94,
+        "Balanced": 10.56,
+        "Aggressive": 19.9
+      },
+      "riskProfile": {
+        "Safe": {
+          "generated": true,
+          "outcome": "lost",
+          "finalOdds": 4.94,
+          "eventIds": [
+            "event-01",
+            "event-12",
+            "event-13",
+            "event-19"
+          ]
+        },
+        "Balanced": {
+          "generated": true,
+          "outcome": "lost",
+          "finalOdds": 10.56,
+          "eventIds": [
+            "event-05",
+            "event-12",
+            "event-15",
+            "event-18",
+            "event-20"
+          ]
+        },
+        "Aggressive": {
+          "generated": true,
+          "outcome": "lost",
+          "finalOdds": 19.9,
+          "eventIds": [
+            "event-05",
+            "event-12",
+            "event-15",
+            "event-19",
+            "event-21"
+          ]
+        }
+      },
+      "averageEqs": null,
+      "notes": "Francia qualificata dominando volumi e qualità: 25-8 nei tiri, 12-3 nello specchio e 9-1 nei corner.",
+      "source": "https://www.diretta.it/partita/calcio/francia-QkGeVG1n/svezia-OQyqbHWB/?mid=UN3MMEFl",
+      "events": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "category": "esito",
+          "selection": "1",
+          "odds": 1.12,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Francia qualificata agli ottavi."
+        },
+        {
+          "id": "event-12",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "category": "goal",
+          "selection": "GOAL",
+          "odds": 1.75,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "No Goal: la Svezia non ha segnato."
+        },
+        {
+          "id": "event-13",
+          "market": "UNDER/OVER — U/O 2.5",
+          "category": "goal",
+          "selection": "OVER",
+          "odds": 1.4,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Tre gol totali: Over 2,5 centrato."
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 6.5 TIRI IN PORTA",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.8,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Francia: 12 tiri in porta, sopra la soglia 6,5."
+        },
+        {
+          "id": "event-05",
+          "market": "U/O CORNER — U/O 8.5 CORNER",
+          "category": "corner",
+          "selection": "OVER",
+          "odds": 1.62,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "10 corner totali: Francia 9, Svezia 1."
+        },
+        {
+          "id": "event-15",
+          "market": "UNDER/OVER — U/O 3.5",
+          "category": "goal",
+          "selection": "OVER",
+          "odds": 2,
+          "eqs": null,
+          "outcome": "lost",
+          "evidence": "Tre gol totali: Over 3,5 non centrato."
+        },
+        {
+          "id": "event-18",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 15.5 TIRI TOTALI",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.4,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Francia: 25 tiri totali, sopra la soglia 15,5."
+        },
+        {
+          "id": "event-20",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 6.5 TIRI TOTALI",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.33,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Svezia: 8 tiri totali, sopra la soglia 6,5."
+        },
+        {
+          "id": "event-21",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "category": "tiri",
+          "selection": "OVER",
+          "odds": 1.95,
+          "eqs": null,
+          "outcome": "won",
+          "evidence": "Svezia: 3 tiri in porta, sopra la soglia 2,5."
         }
       ]
     }

@@ -1,78 +1,78 @@
 {
-  "analyzedMatches": 3,
+  "analyzedMatches": 5,
   "profiles": {
     "Safe": {
-      "generated": 2,
+      "generated": 3,
       "won": 1,
-      "lost": 1,
-      "successRate": 50
+      "lost": 2,
+      "successRate": 33.33
     },
     "Balanced": {
-      "generated": 3,
+      "generated": 5,
       "won": 1,
-      "lost": 2,
-      "successRate": 33.33
+      "lost": 4,
+      "successRate": 20
     },
     "Aggressive": {
-      "generated": 3,
+      "generated": 5,
       "won": 1,
-      "lost": 2,
-      "successRate": 33.33
+      "lost": 4,
+      "successRate": 20
     }
   },
   "markets": {
-    "goal": {
-      "events": 6,
-      "successes": 6,
+    "esito": {
+      "events": 4,
+      "successes": 4,
       "errors": 0,
       "successRate": 100
     },
     "tiri": {
-      "events": 11,
-      "successes": 7,
-      "errors": 4,
-      "successRate": 63.64
+      "events": 18,
+      "successes": 12,
+      "errors": 6,
+      "successRate": 66.67
     },
-    "esito": {
-      "events": 2,
-      "successes": 2,
-      "errors": 0,
-      "successRate": 100
+    "goal": {
+      "events": 11,
+      "successes": 8,
+      "errors": 3,
+      "successRate": 72.73
+    },
+    "corner": {
+      "events": 5,
+      "successes": 4,
+      "errors": 1,
+      "successRate": 80
     },
     "cartellini": {
       "events": 2,
       "successes": 0,
       "errors": 2,
       "successRate": 0
-    },
-    "corner": {
-      "events": 3,
-      "successes": 2,
-      "errors": 1,
-      "successRate": 66.67
     }
   },
   "bestMarkets": [
     {
-      "market": "goal",
-      "events": 6,
-      "successes": 6,
-      "errors": 0,
-      "successRate": 100
-    },
-    {
       "market": "esito",
-      "events": 2,
-      "successes": 2,
+      "events": 4,
+      "successes": 4,
       "errors": 0,
       "successRate": 100
     },
     {
       "market": "corner",
-      "events": 3,
-      "successes": 2,
+      "events": 5,
+      "successes": 4,
       "errors": 1,
-      "successRate": 66.67
+      "successRate": 80
+    },
+    {
+      "market": "goal",
+      "events": 11,
+      "successes": 8,
+      "errors": 3,
+      "successRate": 72.73
     }
   ],
   "worstMarkets": [
@@ -85,20 +85,29 @@
     },
     {
       "market": "tiri",
-      "events": 11,
-      "successes": 7,
-      "errors": 4,
-      "successRate": 63.64
+      "events": 18,
+      "successes": 12,
+      "errors": 6,
+      "successRate": 66.67
     },
     {
-      "market": "corner",
-      "events": 3,
-      "successes": 2,
-      "errors": 1,
-      "successRate": 66.67
+      "market": "goal",
+      "events": 11,
+      "successes": 8,
+      "errors": 3,
+      "successRate": 72.73
     }
   ],
   "last10Trend": [
+    {
+      "slug": "messico-ecuador",
+      "date": "01/07/2026 ore 03.00",
+      "Safe": "not_generated",
+      "Balanced": "lost",
+      "Aggressive": "lost",
+      "correctEvents": 4,
+      "incorrectEvents": 3
+    },
     {
       "slug": "sudafrica-canada",
       "date": "28/06/2026 ore 21.00",
@@ -124,6 +133,15 @@
       "Balanced": "lost",
       "Aggressive": "lost",
       "correctEvents": 5,
+      "incorrectEvents": 2
+    },
+    {
+      "slug": "francia-svezia",
+      "date": "30/06/2026 ore 23.00",
+      "Safe": "lost",
+      "Balanced": "lost",
+      "Aggressive": "lost",
+      "correctEvents": 7,
       "incorrectEvents": 2
     }
   ]

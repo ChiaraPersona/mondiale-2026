@@ -1,0 +1,188 @@
+{
+  "slug": "stati-uniti-bosnia-erzegovina",
+  "match": "Stati Uniti - Bosnia Erzegovina",
+  "date": "02/07/2026 ore 02.00",
+  "status": "prepared",
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": null,
+      "events": [],
+      "reason": "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
+      "scenario": null,
+      "strengths": [],
+      "weaknesses": [
+        "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ],
+      "optimization": {
+        "initialOdds": null,
+        "acceptedRange": [
+          4.5,
+          5.5
+        ],
+        "removedEvents": [],
+        "addedEvents": [],
+        "improvementEstimate": "nessuno"
+      }
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 9.12,
+      "events": [
+        {
+          "id": "event-07",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.9,
+          "selectionId": 5194467701,
+          "marketId": 788826766,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 63,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-09",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.18,
+          "selectionId": 5194513809,
+          "marketId": 788827235,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 21,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-15",
+          "market": "U/O CORNER — U/O 8.5 CORNER",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5198591226,
+          "marketId": 789602360,
+          "category": "corner",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 50,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5198519001,
+          "marketId": 789587618,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 52,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-20",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.65,
+          "selectionId": 5198515977,
+          "marketId": 789586862,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 52,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "La soluzione minimizza il rischio tra le combinazioni ammissibili nell'intervallo.",
+      "scenario": {
+        "id": "open_game",
+        "name": "Partita aperta",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "3 categorie rappresentate.",
+        "10 relazioni positive, nessuna negativa o ridondante.",
+        "Score medio corretto per classe: 88.6.",
+        "Numero eventi: 5."
+      ],
+      "weaknesses": [
+        "Tutte le coppie hanno una relazione positiva nello scenario.",
+        "La qualità resta condizionata dal verificarsi dello scenario comune."
+      ],
+      "riskProfile": {
+        "averageRisk": 48,
+        "maxEventRisk": 63,
+        "maxSingleOdds": 1.9,
+        "riskConcentration": "low",
+        "numberOfEvents": 5,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "medium",
+      "riskNotes": [
+        "Profilo entro tutti i limiti di rischio configurati."
+      ],
+      "optimization": {
+        "initialOdds": 9.12,
+        "acceptedRange": [
+          9,
+          11
+        ],
+        "removedEvents": [],
+        "addedEvents": [],
+        "improvementEstimate": "nessuno: la schedina candidata era già ottimale"
+      }
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": null,
+      "events": [],
+      "reason": "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
+      "scenario": null,
+      "strengths": [],
+      "weaknesses": [
+        "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ],
+      "optimization": {
+        "initialOdds": null,
+        "acceptedRange": [
+          18,
+          22
+        ],
+        "removedEvents": [],
+        "addedEvents": [],
+        "improvementEstimate": "nessuno"
+      }
+    }
+  ]
+}

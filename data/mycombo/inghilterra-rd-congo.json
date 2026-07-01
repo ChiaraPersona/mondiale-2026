@@ -1,0 +1,188 @@
+{
+  "slug": "inghilterra-rd-congo",
+  "match": "Inghilterra - RD Congo",
+  "date": "01/07/2026 ore 18.00",
+  "status": "prepared",
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": null,
+      "events": [],
+      "reason": "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
+      "scenario": null,
+      "strengths": [],
+      "weaknesses": [
+        "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ],
+      "optimization": {
+        "initialOdds": null,
+        "acceptedRange": [
+          4.5,
+          5.5
+        ],
+        "removedEvents": [],
+        "addedEvents": [],
+        "improvementEstimate": "nessuno"
+      }
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": null,
+      "events": [],
+      "reason": "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
+      "scenario": null,
+      "strengths": [],
+      "weaknesses": [
+        "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ],
+      "optimization": {
+        "initialOdds": null,
+        "acceptedRange": [
+          9,
+          11
+        ],
+        "removedEvents": [],
+        "addedEvents": [],
+        "improvementEstimate": "nessuno"
+      }
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 18.39,
+      "events": [
+        {
+          "id": "event-07",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 2.6,
+          "selectionId": 5197122459,
+          "marketId": 789343208,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 77,
+          "riskLevel": "high",
+          "riskReasons": []
+        },
+        {
+          "id": "event-11",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER",
+          "odds": 1.95,
+          "selectionId": 5197129267,
+          "marketId": 789344141,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 63,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-15",
+          "market": "U/O CORNER — U/O 8.5 CORNER",
+          "selection": "OVER",
+          "odds": 1.52,
+          "selectionId": 5197609311,
+          "marketId": 789413459,
+          "category": "corner",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 50,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-17",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5198505879,
+          "marketId": 789584529,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 52,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.52,
+          "selectionId": 5198506555,
+          "marketId": 789584698,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 52,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "La soluzione minimizza il rischio tra le combinazioni ammissibili nell'intervallo.",
+      "scenario": {
+        "id": "open_game",
+        "name": "Partita aperta",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "3 categorie rappresentate.",
+        "10 relazioni positive, nessuna negativa o ridondante.",
+        "Score medio corretto per classe: 88.6.",
+        "Numero eventi: 5."
+      ],
+      "weaknesses": [
+        "Tutte le coppie hanno una relazione positiva nello scenario.",
+        "La qualità resta condizionata dal verificarsi dello scenario comune."
+      ],
+      "riskProfile": {
+        "averageRisk": 59,
+        "maxEventRisk": 77,
+        "maxSingleOdds": 2.6,
+        "riskConcentration": "low",
+        "numberOfEvents": 5,
+        "highRiskEvents": 1
+      },
+      "riskVerdict": "medium",
+      "riskNotes": [
+        "Evento ad alto rischio: GOAL/NOGOAL — GOAL/NO GOAL (77/100)."
+      ],
+      "optimization": {
+        "initialOdds": 18.39,
+        "acceptedRange": [
+          18,
+          22
+        ],
+        "removedEvents": [],
+        "addedEvents": [],
+        "improvementEstimate": "nessuno: la schedina candidata era già ottimale"
+      }
+    }
+  ]
+}

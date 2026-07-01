@@ -1,25 +1,8 @@
 {
   "match": "Belgio - Senegal",
   "data": {
-    "location": "Seattle",
-    "condition": "Nubi basse",
-    "temperature": {
-      "min": 19,
-      "max": 20,
-      "unit": "C"
-    },
-    "rain": 0,
-    "wind": {
-      "minSpeed": 4,
-      "maxSpeed": 5,
-      "unit": "km/h",
-      "direction": "SSO"
-    },
-    "hours": [
-      { "time": "13:00", "temperature": 20, "wind": 5 },
-      { "time": "14:00", "temperature": 20, "wind": 5 },
-      { "time": "15:00", "temperature": 19, "wind": 4 }
-    ],
-    "source": "Screenshot meteo fornito dall'utente il 01/07/2026"
+    "temperature": null,
+    "rain": null,
+    "wind": null
   }
 }

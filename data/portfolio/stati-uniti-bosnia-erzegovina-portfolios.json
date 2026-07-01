@@ -1,0 +1,161 @@
+{
+  "match": "Stati Uniti - Bosnia Erzegovina",
+  "portfolios": [
+    {
+      "name": "Portfolio Safe",
+      "targetOdds": 5,
+      "status": "not_reached",
+      "totalOdds": null,
+      "events": [],
+      "scenario": null,
+      "reason": "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
+      "strengths": [],
+      "weaknesses": [
+        "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ]
+    },
+    {
+      "name": "Portfolio Balanced",
+      "targetOdds": 10,
+      "status": "target_reached",
+      "totalOdds": 9.12,
+      "events": [
+        {
+          "id": "event-07",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.9,
+          "selectionId": 5194467701,
+          "marketId": 788826766,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 63,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-09",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.18,
+          "selectionId": 5194513809,
+          "marketId": 788827235,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 21,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-15",
+          "market": "U/O CORNER — U/O 8.5 CORNER",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5198591226,
+          "marketId": 789602360,
+          "category": "corner",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 50,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5198519001,
+          "marketId": 789587618,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 52,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-20",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.65,
+          "selectionId": 5198515977,
+          "marketId": 789586862,
+          "category": "tiri",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 52,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "scenario": {
+        "id": "open_game",
+        "name": "Partita aperta",
+        "estimatedProbability": "media"
+      },
+      "reason": "Selezione costruita interamente sullo scenario “Partita aperta”, massimizzando stabilità e probabilità entro l'intervallo quota 9-11.",
+      "strengths": [
+        "3 categorie rappresentate: goal, corner, tiri.",
+        "Score medio 88.6.",
+        "10 relazioni positive e nessuna relazione negativa o ridondante.",
+        "Intensità offensiva",
+        "Transizioni"
+      ],
+      "weaknesses": [
+        "Lo scenario ha probabilità qualitativa media."
+      ],
+      "riskProfile": {
+        "averageRisk": 48,
+        "maxEventRisk": 63,
+        "maxSingleOdds": 1.9,
+        "riskConcentration": "low",
+        "numberOfEvents": 5,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "medium",
+      "riskNotes": [
+        "Profilo entro tutti i limiti di rischio configurati."
+      ]
+    },
+    {
+      "name": "Portfolio Aggressive",
+      "targetOdds": 20,
+      "status": "not_reached",
+      "totalOdds": null,
+      "events": [],
+      "scenario": null,
+      "reason": "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
+      "strengths": [],
+      "weaknesses": [
+        "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ]
+    }
+  ]
+}

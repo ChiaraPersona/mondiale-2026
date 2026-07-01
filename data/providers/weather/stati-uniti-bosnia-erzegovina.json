@@ -1,25 +1,8 @@
 {
-  "match": "Stati Uniti - Bosnia ed Erzegovina",
+  "match": "Stati Uniti - Bosnia Erzegovina",
   "data": {
-    "location": "Santa Clara",
-    "condition": "Sereno",
-    "temperature": {
-      "min": 25,
-      "max": 28,
-      "unit": "C"
-    },
-    "rain": 0,
-    "wind": {
-      "minSpeed": 3,
-      "maxSpeed": 4,
-      "unit": "km/h",
-      "directions": ["N", "NE", "ENE"]
-    },
-    "hours": [
-      { "time": "17:00", "temperature": 28, "wind": 4, "windDirection": "N" },
-      { "time": "18:00", "temperature": 27, "wind": 4, "windDirection": "NE" },
-      { "time": "19:00", "temperature": 25, "wind": 3, "windDirection": "ENE" }
-    ],
-    "source": "Screenshot meteo fornito dall'utente il 01/07/2026"
+    "temperature": null,
+    "rain": null,
+    "wind": null
   }
 }

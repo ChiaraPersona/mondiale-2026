@@ -296,6 +296,33 @@ const plans = {
       ["CARTELLINO SI/NO (DUO) INC TS", /^AJER K\. CARTELLINO/, "SI", "cartellini", "Ajer può essere esposto ai movimenti di Pépé e Diallo."],
     ],
   },
+  "inghilterra-rd-congo": {
+    auto: true,
+    slug: "inghilterra-rd-congo",
+    file: "inghilterra-rd-congo-quote.json",
+    match: "Inghilterra - RD Congo",
+    projections: { homeShots: 17.5, awayShots: 6.5, homeSot: 5.5, awaySot: 2.5 },
+    players: ["KANE H.", "BELLINGHAM JUDE", "SAKA B.", "RASHFORD M.", "WISSA Y.", "BAKAMBU C."],
+    cards: ["MOUTOUSSAMY S.", "MASUAKU A.", "MBEMBA C.", "RICE D."],
+  },
+  "belgio-senegal": {
+    auto: true,
+    slug: "belgio-senegal",
+    file: "belgio-senegal-quote.json",
+    match: "Belgio - Senegal",
+    projections: { homeShots: 11.5, awayShots: 8.5, homeSot: 3.5, awaySot: 2.5 },
+    players: ["DE KETELAERE C.", "DE BRUYNE K.", "DOKU J.", "TROSSARD L.", "MANE SADIO", "SARR I.", "NDIAYE I."],
+    cards: ["GUEYE PAPE A.", "TIELEMANS Y.", "DIATTA K.", "SECK A."],
+  },
+  "stati-uniti-bosnia-erzegovina": {
+    auto: true,
+    slug: "stati-uniti-bosnia-erzegovina",
+    file: "stati-uniti-bosnia-erzegovina-quote.json",
+    match: "Stati Uniti - Bosnia Erzegovina",
+    projections: { homeShots: 15.5, awayShots: 6.5, homeSot: 4.5, awaySot: 2.5 },
+    players: ["BALOGUN F.", "PULISIC C.", "TILLMAN M.", "DZEKO E.", "DEMIROVIC ERMEDIN", "BAJRAKTAREVIC E."],
+    cards: ["SUNJIC I.", "ADAMS T.", "KOLASINAC S.", "BASIC I."],
+  },
   "germania-paraguay": {
     file: "germania-paraguay-quote.json",
     match: "Germania - Paraguay",
@@ -364,7 +391,109 @@ function findMarket(markets, [market, infoPattern, selection]) {
   );
 }
 
+function automaticContext(category) {
+  const copy = {
+    esito: ["Esito e qualificazione sono coerenti con le probabilità della lettura.", "Una gara a eliminazione diretta conserva varianza elevata."],
+    goal: ["Le linee gol selezionate coprono gli scenari centrali della lettura.", "Un gol precoce può cambiare radicalmente ritmo e punteggio."],
+    corner: ["Le soglie corner sono vicine alla proiezione territoriale della partita.", "Il volume dipende da punteggio e durata della pressione offensiva."],
+    tiri: ["Le linee tiri seguono probabili formazioni e volumi stimati.", "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."],
+    cartellini: ["I candidati sono esposti ai duelli tattici principali e al profilo arbitrale.", "Il cartellino individuale rimane un mercato ad alta varianza."],
+  };
+  return copy[category];
+}
+
+function categoryForMarket(market) {
+  if (/CORNER|ANGOLO/i.test(market)) return "corner";
+  if (/TIRI/i.test(market)) return "tiri";
+  if (/CARTELLINO/i.test(market)) return "cartellini";
+  if (/GOAL|GOL|UNDER|OVER|MULTIGOAL/i.test(market)) return "goal";
+  return "esito";
+}
+
+function buildAutomatic(plan) {
+  const payload = JSON.parse(fs.readFileSync(path.join(root, "data", "quote", plan.file), "utf8"));
+  const picked = [];
+  const seen = new Set();
+  const add = (market, info, selection, reason) => {
+    const source = payload.markets.find(item =>
+      item.mercato === market &&
+      (info instanceof RegExp ? info.test(String(item.info || "")) : String(item.info || "") === info) &&
+      String(item.esito) === selection
+    );
+    if (!source) return;
+    const key = `${source.marketId}:${source.selectionId}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    const category = categoryForMarket(source.mercato);
+    const [strength, risk] = automaticContext(category);
+    picked.push({
+      mercato: `${source.mercato} — ${source.info}`,
+      selezione: source.esito,
+      quota: Number(source.quota),
+      selectionId: source.selectionId,
+      marketId: source.marketId,
+      categoria: category,
+      motivo: reason,
+      puntiDiForza: [strength],
+      possibiliCriticita: [risk],
+    });
+  };
+
+  [
+    ["1X2 ESITO FINALE", /ESITO FINALE 1X2/, "1"],
+    ["1X2 ESITO FINALE", /ESITO FINALE 1X2/, "X"],
+    ["1X2 ESITO FINALE", /ESITO FINALE 1X2/, "2"],
+    ["DOPPIA CHANCE", /DOPPIA CHANCE MULTIESITI/, "1X"],
+    ["PASSAGGIO TURNO", /PASSAGGIO TURNO/, "1"],
+    ["PASSAGGIO TURNO", /PASSAGGIO TURNO/, "2"],
+    ["GOAL/NOGOAL", /GOAL\/NO GOAL/, "GOAL"],
+    ["GOAL/NOGOAL", /GOAL\/NO GOAL/, "NOGOAL"],
+    ["UNDER/OVER", /U\/O 1\.5$/, "OVER"],
+    ["UNDER/OVER", /U\/O 2\.5$/, "UNDER"],
+    ["UNDER/OVER", /U\/O 2\.5$/, "OVER"],
+    ["UNDER/OVER", /U\/O 3\.5$/, "UNDER"],
+    ["UNDER/OVER", /U\/O 4\.5$/, "UNDER"],
+    ["U/O CORNER", /U\/O 7\.5 CORNER$/, "OVER"],
+    ["U/O CORNER", /U\/O 8\.5 CORNER$/, "OVER"],
+    ["U/O CORNER", /U\/O 10\.5 CORNER$/, "UNDER"],
+  ].forEach(spec => add(...spec, "Mercato strutturale coerente con lo scenario pre-partita."));
+
+  const p = plan.projections;
+  [
+    ["U/O TIRI TOTALI SQUADRA X", new RegExp(`SQUADRA 1: U/O ${String(p.homeShots).replace(".", "\\.")} TIRI TOTALI`), "OVER"],
+    ["U/O TIRI TOTALI SQUADRA X", new RegExp(`SQUADRA 2: U/O ${String(p.awayShots).replace(".", "\\.")} TIRI TOTALI`), "OVER"],
+    ["U/O TIRI IN PORTA SQUADRA X", new RegExp(`SQUADRA 1: U/O ${String(p.homeSot).replace(".", "\\.")} TIRI IN PORTA`), "OVER"],
+    ["U/O TIRI IN PORTA SQUADRA X", new RegExp(`SQUADRA 2: U/O ${String(p.awaySot).replace(".", "\\.")} TIRI IN PORTA`), "OVER"],
+  ].forEach(spec => add(...spec, "Soglia allineata alla proiezione di squadra."));
+
+  for (const token of plan.players) {
+    add("U/O TIRI TOTALI GIOCATORE (DUO) INC TS", new RegExp(`^${token.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} U/O 1\\.5`), "OVER", "Titolare probabile e coinvolto nella produzione offensiva.");
+  }
+  for (const token of plan.cards) {
+    add("CARTELLINO SI/NO (DUO) INC TS", new RegExp(`^${token.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} CARTELLINO`), "SI", "Candidato ammonito per ruolo, duelli e profilo arbitrale.");
+  }
+
+  if (picked.length < 30) {
+    for (const item of payload.markets) {
+      if (picked.length >= 30) break;
+      if (!["OVER", "UNDER"].includes(String(item.esito))) continue;
+      if (!/U\/O (CORNER|TIRI TOTALI SQUADRA X|TIRI IN PORTA SQUADRA X)/i.test(item.mercato)) continue;
+      const odds = Number(item.quota);
+      if (odds < 1.15 || odds > 3) continue;
+      add(item.mercato, String(item.info || ""), String(item.esito), "Evento di supporto selezionato entro limiti di quota e mercato.");
+    }
+  }
+
+  if (picked.length < 30) throw new Error(`${plan.match}: solo ${picked.length} eventi automatici disponibili.`);
+  const events = picked.slice(0, 30);
+  const destination = path.join(outputRoot, plan.slug, "top-events.json");
+  fs.mkdirSync(path.dirname(destination), { recursive: true });
+  fs.writeFileSync(destination, `${JSON.stringify({ match: plan.match, events }, null, 2)}\n`, "utf8");
+  console.log(`${plan.match}: 30 eventi -> ${path.relative(root, destination)}`);
+}
+
 function build(plan) {
+  if (plan.auto) return buildAutomatic(plan);
   const payload = JSON.parse(
     fs.readFileSync(path.join(root, "data", "quote", plan.file), "utf8")
   );
@@ -390,7 +519,7 @@ function build(plan) {
   if (events.length !== 30) throw new Error(`${plan.match}: attesi 30 eventi, trovati ${events.length}`);
   const destination = path.join(
     outputRoot,
-    plan.file.replace(/-quote\.json$/i, ""),
+    plan.slug || plan.file.replace(/-quote\.json$/i, ""),
     "top-events.json"
   );
   fs.mkdirSync(path.dirname(destination), { recursive: true });

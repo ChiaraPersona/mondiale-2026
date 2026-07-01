@@ -1,11 +1,7 @@
 {
-  "match": "Inghilterra - RD Congo",
+  "match": "Inghilterra - Repubblica Democratica del Congo",
   "data": {
-    "name": "Adham Makhadmeh",
-    "country": "Giordania",
-    "confederation": "AFC",
-    "strictness": "medium",
-    "yellowAverage": 3.04,
-    "source": "Designazione fornita dall'utente; statistiche: playerstats.football/referee/783"
+    "strictness": "low",
+    "yellowAverage": 3.04
   }
 }

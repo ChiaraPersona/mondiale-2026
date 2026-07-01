@@ -1,0 +1,8 @@
+{
+  "match": "Inghilterra - Repubblica Democratica del Congo",
+  "data": {
+    "mustWin": false,
+    "canSettle": true,
+    "knockout": false
+  }
+}

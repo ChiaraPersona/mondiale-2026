@@ -1,11 +1,7 @@
 {
   "match": "Belgio - Senegal",
   "data": {
-    "name": "Héctor Said Martínez",
-    "country": "Honduras",
-    "confederation": "CONCACAF",
-    "strictness": "medium-high",
-    "yellowAverage": 4.17,
-    "source": "Designazione fornita dall'utente; statistiche: playerstats.football/referee/1071"
+    "strictness": "medium",
+    "yellowAverage": 4.17
   }
 }

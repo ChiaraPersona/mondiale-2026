@@ -1,0 +1,8 @@
+{
+  "match": "Belgio - Senegal",
+  "data": {
+    "mustWin": false,
+    "canSettle": true,
+    "knockout": false
+  }
+}

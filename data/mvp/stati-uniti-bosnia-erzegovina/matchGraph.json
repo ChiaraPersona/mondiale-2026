@@ -1,0 +1,4903 @@
+{
+  "match": "Stati Uniti - Bosnia Erzegovina",
+  "directed": false,
+  "scenarioOrder": [
+    {
+      "id": "favorite_dominance",
+      "name": "Dominio Stati Uniti",
+      "estimatedProbability": "alta"
+    },
+    {
+      "id": "controlled_favorite_win",
+      "name": "Vittoria controllata Stati Uniti",
+      "estimatedProbability": "media"
+    },
+    {
+      "id": "balanced_resistance",
+      "name": "Resistenza Bosnia Erzegovina",
+      "estimatedProbability": "bassa"
+    },
+    {
+      "id": "open_game",
+      "name": "Partita aperta",
+      "estimatedProbability": "media"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "event-01",
+      "label": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI | 1X",
+      "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+      "selection": "1X",
+      "category": "esito",
+      "rankingScore": 95,
+      "class": "CORE",
+      "odds": 1.07,
+      "scenarioVector": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-02",
+      "label": "1X2 ESITO FINALE — ESITO FINALE 1X2 | 1",
+      "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+      "selection": "1",
+      "category": "esito",
+      "rankingScore": 92,
+      "class": "CORE",
+      "odds": 1.38,
+      "scenarioVector": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-03",
+      "label": "1X2 ESITO FINALE — ESITO FINALE 1X2 | X",
+      "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+      "selection": "X",
+      "category": "esito",
+      "rankingScore": 92,
+      "class": "CORE",
+      "odds": 4.75,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-04",
+      "label": "1X2 ESITO FINALE — ESITO FINALE 1X2 | 2",
+      "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+      "selection": "2",
+      "category": "esito",
+      "rankingScore": 92,
+      "class": "CORE",
+      "odds": 8.5,
+      "scenarioVector": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-05",
+      "label": "PASSAGGIO TURNO — PASSAGGIO TURNO | 1",
+      "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+      "selection": "1",
+      "category": "esito",
+      "rankingScore": 92,
+      "class": "CORE",
+      "odds": 1.2,
+      "scenarioVector": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-06",
+      "label": "PASSAGGIO TURNO — PASSAGGIO TURNO | 2",
+      "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+      "selection": "2",
+      "category": "esito",
+      "rankingScore": 92,
+      "class": "CORE",
+      "odds": 4.5,
+      "scenarioVector": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-07",
+      "label": "GOAL/NOGOAL — GOAL/NO GOAL | GOAL",
+      "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+      "selection": "GOAL",
+      "category": "goal",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.9,
+      "scenarioVector": [
+        1,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-08",
+      "label": "GOAL/NOGOAL — GOAL/NO GOAL | NOGOAL",
+      "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+      "selection": "NOGOAL",
+      "category": "goal",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.8,
+      "scenarioVector": [
+        0,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "id": "event-09",
+      "label": "UNDER/OVER — U/O 1.5 | OVER",
+      "market": "UNDER/OVER — U/O 1.5",
+      "selection": "OVER",
+      "category": "goal",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.18,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-10",
+      "label": "UNDER/OVER — U/O 2.5 | UNDER",
+      "market": "UNDER/OVER — U/O 2.5",
+      "selection": "UNDER",
+      "category": "goal",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 2.1,
+      "scenarioVector": [
+        0,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "id": "event-11",
+      "label": "UNDER/OVER — U/O 2.5 | OVER",
+      "market": "UNDER/OVER — U/O 2.5",
+      "selection": "OVER",
+      "category": "goal",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.65,
+      "scenarioVector": [
+        1,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-12",
+      "label": "UNDER/OVER — U/O 3.5 | UNDER",
+      "market": "UNDER/OVER — U/O 3.5",
+      "selection": "UNDER",
+      "category": "goal",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.42,
+      "scenarioVector": [
+        0,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "id": "event-13",
+      "label": "UNDER/OVER — U/O 4.5 | UNDER",
+      "market": "UNDER/OVER — U/O 4.5",
+      "selection": "UNDER",
+      "category": "goal",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.14,
+      "scenarioVector": [
+        0,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "id": "event-14",
+      "label": "U/O CORNER — U/O 7.5 CORNER | OVER",
+      "market": "U/O CORNER — U/O 7.5 CORNER",
+      "selection": "OVER",
+      "category": "corner",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.33,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-15",
+      "label": "U/O CORNER — U/O 8.5 CORNER | OVER",
+      "market": "U/O CORNER — U/O 8.5 CORNER",
+      "selection": "OVER",
+      "category": "corner",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.57,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-16",
+      "label": "U/O CORNER — U/O 10.5 CORNER | UNDER",
+      "market": "U/O CORNER — U/O 10.5 CORNER",
+      "selection": "UNDER",
+      "category": "corner",
+      "rankingScore": 89,
+      "class": "CORE",
+      "odds": 1.48,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-17",
+      "label": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 15.5 TIRI TOTALI | OVER",
+      "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 15.5 TIRI TOTALI",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 88,
+      "class": "CORE",
+      "odds": 1.9,
+      "scenarioVector": [
+        1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "id": "event-18",
+      "label": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 6.5 TIRI TOTALI | OVER",
+      "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 6.5 TIRI TOTALI",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 88,
+      "class": "CORE",
+      "odds": 1.22,
+      "scenarioVector": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "event-19",
+      "label": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA | OVER",
+      "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 88,
+      "class": "CORE",
+      "odds": 1.57,
+      "scenarioVector": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-20",
+      "label": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA | OVER",
+      "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 88,
+      "class": "CORE",
+      "odds": 1.65,
+      "scenarioVector": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "event-21",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BALOGUN F. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BALOGUN F. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 1.08,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-22",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — PULISIC C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — PULISIC C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 1.2,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-23",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — TILLMAN M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — TILLMAN M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 1.33,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-24",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DZEKO E. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DZEKO E. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 1.5,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-25",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DEMIROVIC ERMEDIN U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DEMIROVIC ERMEDIN U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 1.65,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-26",
+      "label": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BAJRAKTAREVIC E. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S. | OVER",
+      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BAJRAKTAREVIC E. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selection": "OVER",
+      "category": "tiri",
+      "rankingScore": 61,
+      "class": "VALUE",
+      "odds": 2.25,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "event-27",
+      "label": "CARTELLINO SI/NO (DUO) INC TS — SUNJIC I. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI | SI",
+      "market": "CARTELLINO SI/NO (DUO) INC TS — SUNJIC I. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "category": "cartellini",
+      "rankingScore": 56,
+      "class": "VALUE",
+      "odds": 3.25,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-28",
+      "label": "CARTELLINO SI/NO (DUO) INC TS — KOLASINAC S. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI | SI",
+      "market": "CARTELLINO SI/NO (DUO) INC TS — KOLASINAC S. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "category": "cartellini",
+      "rankingScore": 56,
+      "class": "VALUE",
+      "odds": 3.5,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-29",
+      "label": "CARTELLINO SI/NO (DUO) INC TS — ADAMS T. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI | SI",
+      "market": "CARTELLINO SI/NO (DUO) INC TS — ADAMS T. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "category": "cartellini",
+      "rankingScore": 53,
+      "class": "SPECULATIVE",
+      "odds": 4.5,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "event-30",
+      "label": "CARTELLINO SI/NO (DUO) INC TS — BASIC I. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI | SI",
+      "market": "CARTELLINO SI/NO (DUO) INC TS — BASIC I. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "category": "cartellini",
+      "rankingScore": 53,
+      "class": "SPECULATIVE",
+      "odds": 4.5,
+      "scenarioVector": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "event-01",
+      "target": "event-02",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Stati Uniti, Vittoria controllata Stati Uniti.",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-03",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-04",
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-05",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Stati Uniti, Vittoria controllata Stati Uniti.",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-06",
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-07",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-08",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-09",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-10",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-11",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-12",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-13",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-14",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-15",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-17",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-19",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-01",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-22",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-23",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-24",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-25",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-01",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-03",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-04",
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-05",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Stati Uniti, Vittoria controllata Stati Uniti.",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-06",
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-07",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-08",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-09",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-10",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-11",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-12",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-13",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-14",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-15",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-17",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-19",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-02",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-22",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-23",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-24",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-25",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-02",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-04",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-05",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-06",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-07",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-08",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-09",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-10",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-11",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-12",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-13",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-14",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-15",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-17",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-19",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-22",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-23",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-24",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-25",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-03",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-05",
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-06",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "La stessa dinamica calcistica soddisfa progressivamente entrambe le soglie.",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-07",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-08",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-09",
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-10",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-11",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-12",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-13",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-14",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-15",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-17",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-19",
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-04",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-22",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-23",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-24",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-25",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-04",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-06",
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-07",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-08",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-09",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-10",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-11",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-12",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-13",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-14",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-15",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-17",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-19",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-05",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-22",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-23",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-24",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-25",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-05",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-07",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-08",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-09",
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-10",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-11",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-12",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-13",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-14",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-15",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-17",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-19",
+      "correlationScore": -0.71,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Dominio Stati Uniti.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good",
+      "scenarios": [
+        "Dominio Stati Uniti"
+      ]
+    },
+    {
+      "source": "event-06",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-22",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-23",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-24",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-25",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-06",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-08",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Vittoria controllata Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio; Intensità offensiva",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-09",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-10",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Vittoria controllata Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio; Intensità offensiva",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-11",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-12",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Vittoria controllata Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio; Intensità offensiva",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-13",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Vittoria controllata Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio; Intensità offensiva",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-14",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-15",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-17",
+      "correlationScore": 0.67,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-18",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-19",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-20",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-21",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-22",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-23",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-24",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-25",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-26",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-07",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-07",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-09",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-10",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti, Resistenza Bosnia Erzegovina.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio; Motivazione Bosnia Erzegovina: non disponibile",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Resistenza Bosnia Erzegovina"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-11",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Vittoria controllata Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio; Intensità offensiva",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-12",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti, Resistenza Bosnia Erzegovina.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio; Motivazione Bosnia Erzegovina: non disponibile",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Resistenza Bosnia Erzegovina"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-13",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Vittoria controllata Stati Uniti, Resistenza Bosnia Erzegovina.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio; Motivazione Bosnia Erzegovina: non disponibile",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Resistenza Bosnia Erzegovina"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-14",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-15",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-17",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Resistenza Bosnia Erzegovina, Partita aperta.",
+      "footballCause": "Motivazione Bosnia Erzegovina: non disponibile; Forma Bosnia Erzegovina: medium; Differenza di 14 punti per gli Stati Uniti. Rischio sorpresa basso: la Bosnia può rallentare la gara, ma il probabile undici USA riduce una delle principali fonti d'incertezza.; Intensità offensiva",
+      "scenarios": [
+        "Resistenza Bosnia Erzegovina",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-19",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-21",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-22",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-23",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-24",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-25",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-26",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-08",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-08",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-10",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-11",
+      "correlationScore": 0.9,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Dominio Stati Uniti, Partita aperta.",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-12",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-13",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-14",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-15",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-17",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-18",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-19",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-20",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-21",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-22",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-23",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-24",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-25",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-26",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-09",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-09",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-10",
+      "target": "event-11",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Vittoria controllata Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio; Intensità offensiva",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-12",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Vittoria controllata Stati Uniti, Resistenza Bosnia Erzegovina.",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Resistenza Bosnia Erzegovina",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-13",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Vittoria controllata Stati Uniti, Resistenza Bosnia Erzegovina.",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Resistenza Bosnia Erzegovina",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-14",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-15",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-10",
+      "target": "event-17",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Resistenza Bosnia Erzegovina, Partita aperta.",
+      "footballCause": "Motivazione Bosnia Erzegovina: non disponibile; Forma Bosnia Erzegovina: medium; Differenza di 14 punti per gli Stati Uniti. Rischio sorpresa basso: la Bosnia può rallentare la gara, ma il probabile undici USA riduce una delle principali fonti d'incertezza.; Intensità offensiva",
+      "scenarios": [
+        "Resistenza Bosnia Erzegovina",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-10",
+      "target": "event-19",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-10",
+      "target": "event-21",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-22",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-23",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-24",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-25",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-26",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-10",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-10",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-10",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-10",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-11",
+      "target": "event-12",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Vittoria controllata Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio; Intensità offensiva",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-13",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Vittoria controllata Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Gestione del vantaggio; Intensità offensiva",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-14",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-15",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-11",
+      "target": "event-17",
+      "correlationScore": 0.67,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-18",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-19",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-20",
+      "correlationScore": 0.41,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-21",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-22",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-23",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-24",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-25",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-26",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-11",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-11",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-11",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-11",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-12",
+      "target": "event-13",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Vittoria controllata Stati Uniti, Resistenza Bosnia Erzegovina.",
+      "scenarios": [
+        "Vittoria controllata Stati Uniti",
+        "Resistenza Bosnia Erzegovina",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-14",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-15",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-12",
+      "target": "event-17",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Resistenza Bosnia Erzegovina, Partita aperta.",
+      "footballCause": "Motivazione Bosnia Erzegovina: non disponibile; Forma Bosnia Erzegovina: medium; Differenza di 14 punti per gli Stati Uniti. Rischio sorpresa basso: la Bosnia può rallentare la gara, ma il probabile undici USA riduce una delle principali fonti d'incertezza.; Intensità offensiva",
+      "scenarios": [
+        "Resistenza Bosnia Erzegovina",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-12",
+      "target": "event-19",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-12",
+      "target": "event-21",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-22",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-23",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-24",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-25",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-26",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-12",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-12",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-12",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-12",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-13",
+      "target": "event-14",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-15",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-13",
+      "target": "event-17",
+      "correlationScore": -0.67,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Resistenza Bosnia Erzegovina, Partita aperta.",
+      "footballCause": "Motivazione Bosnia Erzegovina: non disponibile; Forma Bosnia Erzegovina: medium; Differenza di 14 punti per gli Stati Uniti. Rischio sorpresa basso: la Bosnia può rallentare la gara, ma il probabile undici USA riduce una delle principali fonti d'incertezza.; Intensità offensiva",
+      "scenarios": [
+        "Resistenza Bosnia Erzegovina",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-13",
+      "target": "event-19",
+      "correlationScore": -0.41,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-13",
+      "target": "event-21",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-22",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-23",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-24",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-25",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-26",
+      "correlationScore": -0.58,
+      "type": "NEGATIVE",
+      "reason": "Gli eventi assumono ruoli opposti negli scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-13",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-13",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-13",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-13",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-14",
+      "target": "event-15",
+      "correlationScore": 1,
+      "type": "REDUNDANT",
+      "reason": "I due eventi descrivono lo stesso scenario con soglie annidate.",
+      "footballCause": "Entrambi sono sostenuti dagli scenari: Partita aperta.",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-14",
+      "target": "event-17",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-18",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-19",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-20",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-21",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-22",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-14",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-14",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-14",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-14",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-15",
+      "target": "event-16",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-15",
+      "target": "event-17",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-18",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-19",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-20",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-21",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-22",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-15",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-15",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-15",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-15",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-17",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-19",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-21",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-22",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-23",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-24",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-25",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-26",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-16",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-17",
+      "target": "event-18",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-17",
+      "target": "event-19",
+      "correlationScore": 0.82,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Dominio Stati Uniti, Partita aperta.",
+      "footballCause": "Motivazione Stati Uniti: very_high; Forma Stati Uniti: good; Intensità offensiva; Transizioni",
+      "scenarios": [
+        "Dominio Stati Uniti",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-20",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-17",
+      "target": "event-21",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-22",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-23",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-24",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-25",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-26",
+      "correlationScore": 0.58,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-17",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-17",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-17",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-17",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-18",
+      "target": "event-19",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-20",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Resistenza Bosnia Erzegovina, Partita aperta.",
+      "footballCause": "Motivazione Bosnia Erzegovina: non disponibile; Forma Bosnia Erzegovina: medium; Differenza di 14 punti per gli Stati Uniti. Rischio sorpresa basso: la Bosnia può rallentare la gara, ma il probabile undici USA riduce una delle principali fonti d'incertezza.; Intensità offensiva",
+      "scenarios": [
+        "Resistenza Bosnia Erzegovina",
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-21",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-22",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-23",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-24",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-25",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-26",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-18",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-18",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-18",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-18",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-19",
+      "target": "event-20",
+      "correlationScore": 0.5,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-21",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-22",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-23",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-24",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-25",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-26",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-19",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-19",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-19",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-19",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-20",
+      "target": "event-21",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-22",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-23",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-24",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-25",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-26",
+      "correlationScore": 0.71,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-20",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-20",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-20",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-20",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-21",
+      "target": "event-22",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-21",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-21",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-21",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-21",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-22",
+      "target": "event-23",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-22",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-22",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-22",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-22",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-23",
+      "target": "event-24",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-23",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-23",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-23",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-23",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-24",
+      "target": "event-25",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-24",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-24",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-24",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-24",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-24",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-25",
+      "target": "event-26",
+      "correlationScore": 1,
+      "type": "POSITIVE",
+      "reason": "Gli eventi sono compatibili con gli stessi scenari: Partita aperta.",
+      "footballCause": "Intensità offensiva; Transizioni; Partita sensibile al primo gol",
+      "scenarios": [
+        "Partita aperta"
+      ]
+    },
+    {
+      "source": "event-25",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-25",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-25",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-25",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-26",
+      "target": "event-27",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-26",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-26",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-26",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-27",
+      "target": "event-28",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-27",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-27",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-28",
+      "target": "event-29",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-28",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    },
+    {
+      "source": "event-29",
+      "target": "event-30",
+      "correlationScore": 0,
+      "type": "NEUTRAL",
+      "reason": "Gli eventi non condividono abbastanza scenari per stabilire una relazione forte.",
+      "footballCause": "Dipendono da sviluppi differenti o non determinanti del match.",
+      "scenarios": []
+    }
+  ],
+  "redundantGroups": [
+    {
+      "id": "redundant-1",
+      "nodes": [
+        "event-01",
+        "event-02",
+        "event-05"
+      ]
+    },
+    {
+      "id": "redundant-2",
+      "nodes": [
+        "event-04",
+        "event-06"
+      ]
+    },
+    {
+      "id": "redundant-3",
+      "nodes": [
+        "event-09",
+        "event-11"
+      ]
+    },
+    {
+      "id": "redundant-4",
+      "nodes": [
+        "event-10",
+        "event-12",
+        "event-13"
+      ]
+    },
+    {
+      "id": "redundant-5",
+      "nodes": [
+        "event-14",
+        "event-15"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "match": "Stati Uniti - Bosnia Erzegovina",
+  "data": {
+    "mustWin": false,
+    "canSettle": true,
+    "knockout": false
+  }
+}

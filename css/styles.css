@@ -427,11 +427,40 @@ header {
   gap: 18px;
 }
 
-.mycombo-portfolio-metrics .mycombo-success-probability {
+.mycombo-portfolio-metrics .mycombo-event-count {
   border-left: 1px solid rgba(255, 255, 255, .12);
   padding-left: 18px;
-  color: var(--green);
+  color: #fff;
 }
+
+.mycombo-ticket-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  padding: 14px 18px 0;
+}
+
+.mycombo-ticket-summary > div {
+  display: grid;
+  gap: 5px;
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 7px;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, .025);
+}
+
+.mycombo-ticket-summary small {
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.mycombo-ticket-summary strong { color: #fff; font-size: 13px; }
+.mycombo-ticket-summary .is-risk-low { color: #64e6ae; }
+.mycombo-ticket-summary .is-risk-medium { color: #ffd166; }
+.mycombo-ticket-summary .is-risk-high { color: #ff6b81; }
 
 .mycombo-target-note {
   margin: 0;
@@ -638,7 +667,7 @@ header {
 .mycombo-risk-badge.is-high { color: #ff6b81; background: rgba(255, 77, 109, .15); }
 .mycombo-risk-warning { color: #ff8fa3; font-weight: 800; }
 .mycombo-risk-profile {
-  margin: .85rem 0;
+  margin: 14px 18px;
   padding: .8rem;
   border: 1px solid rgba(255, 255, 255, .12);
   border-radius: 14px;
@@ -664,6 +693,7 @@ header {
 .mycombo-risk-profile dt { color: var(--muted); font-size: .72rem; }
 .mycombo-risk-profile dd { margin: 0; font-weight: 850; }
 .mycombo-risk-profile ul { margin: .65rem 0 0; padding-left: 1.15rem; color: var(--muted); font-size: .78rem; }
+.mycombo-risk-notes li::marker { color: #f5c84b; }
 @media (max-width: 700px) {
   .mycombo-risk-profile dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
@@ -776,7 +806,7 @@ header {
     text-align: left;
   }
 
-  .mycombo-portfolio-metrics .mycombo-success-probability {
+  .mycombo-portfolio-metrics .mycombo-event-count {
     border-top: 1px solid rgba(255, 255, 255, .12);
     border-left: 0;
     padding-top: 12px;
@@ -794,6 +824,15 @@ header {
 
   .mycombo-tabs {
     grid-template-columns: 1fr;
+  }
+
+  .mycombo-ticket-summary {
+    grid-template-columns: 1fr;
+    padding-inline: 14px;
+  }
+
+  .mycombo-risk-profile {
+    margin-inline: 14px;
   }
 
   .mycombo-assessment {

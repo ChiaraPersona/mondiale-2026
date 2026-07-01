@@ -4,7 +4,6 @@
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
   })[character]);
-
   const clean = (value) => String(value ?? "").replace(/\s+/g, " ").trim();
   const fold = (value) => clean(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
   const firstValue = (source, keys) => keys.map((key) => source?.[key])
@@ -15,13 +14,32 @@
     return filename.match(/^lettura-(.+)\.html$/i)?.[1]?.toLowerCase() || "";
   }
 
-  function probabilityLabel(odds) {
-    const numeric = Number(odds);
-    return Number.isFinite(numeric) && numeric > 1 ? `${(100 / numeric).toFixed(1)}%` : "n.d.";
+  function readableMarket(value) {
+    return clean(value).split(/\s+(?:—|â€”)\s+/).filter(Boolean).join(" · ");
   }
 
-  function readableMarket(value) {
-    return clean(value).split(/\s+—\s+/).filter(Boolean).join(" · ") || "Mercato non disponibile";
+  function riskLabel(value) {
+    const normalized = fold(value);
+    if (normalized === "low" || normalized === "basso") return "Basso";
+    if (normalized === "medium" || normalized === "medio") return "Medio";
+    if (normalized === "high" || normalized === "alto") return "Alto";
+    return clean(value);
+  }
+
+  function cleanList(values) {
+    return (Array.isArray(values) ? values : [])
+      .map(clean)
+      .filter((value) => value && fold(value) !== "n.d.");
+  }
+
+  function assessmentList(title, className, values) {
+    const items = cleanList(values);
+    if (!items.length) return "";
+    return `
+      <section class="${className}">
+        <h5>${escapeHtml(title)}</h5>
+        <ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+      </section>`;
   }
 
   function selectionCard(event, settlement) {
@@ -29,34 +47,46 @@
     const outcome = fold(result.status);
     const resultLabel = outcome === "won" ? "Vinta" : outcome === "lost" ? "Persa" : "";
     const resultClass = resultLabel ? ` is-${outcome}` : "";
-    const riskScore = Number(event.riskScore);
+    const market = readableMarket(firstValue(event, ["market", "mercato"]));
+    const selection = clean(firstValue(event, ["selection", "selezione"]));
+    const odds = firstValue(event, ["odds", "quota"]);
+    const reasons = cleanList([
+      firstValue(event, ["reason", "motivo", "why"]),
+      ...(Array.isArray(event.riskReasons) ? event.riskReasons : []),
+    ]);
+
     return `
       <li class="mycombo-selection${resultClass}">
         <div class="mycombo-selection-title">
           <div>
             <span class="mycombo-market-label">Mercato</span>
-            <strong>${escapeHtml(readableMarket(firstValue(event, ["market", "mercato"])))}</strong>
+            <strong>${escapeHtml(market)}</strong>
           </div>
           <div class="mycombo-selection-badges">
             ${event.category ? `<span class="mycombo-category-badge">${escapeHtml(event.category)}</span>` : ""}
             ${event.class ? `<span class="mycombo-class-badge is-${escapeHtml(fold(event.class))}">${escapeHtml(event.class)}</span>` : ""}
-            ${Number.isFinite(riskScore) ? `<span class="mycombo-risk-badge is-${escapeHtml(event.riskLevel || "medium")}">Rischio ${riskScore}/100</span>` : ""}
             ${resultLabel ? `<span class="mycombo-result-badge${resultClass}">${resultLabel}</span>` : ""}
           </div>
         </div>
         <div class="mycombo-pick-line">
-          <strong>${escapeHtml(firstValue(event, ["selection", "selezione"]) || "n.d.")}</strong>
-          <span>Quota ${escapeHtml(event.odds ?? event.quota ?? "n.d.")}</span>
+          <div><span>Selezione</span><strong>${escapeHtml(selection)}</strong></div>
+          ${odds !== undefined && odds !== null && odds !== "" ? `<div><span>Quota</span><strong>${escapeHtml(odds)}</strong></div>` : ""}
         </div>
-        ${result.evidence ? `<p class="mycombo-settlement-note">${escapeHtml(result.evidence)}</p>` : ""}
+        ${reasons.length ? `<p class="mycombo-pick-reason"><span>Motivo</span>${escapeHtml(reasons.join(" "))}</p>` : ""}
+        ${result.evidence ? `<p class="mycombo-settlement-note"><strong>Esito:</strong> ${escapeHtml(result.evidence)}</p>` : ""}
       </li>`;
   }
 
   function portfolioCard(portfolio, index, settlement) {
     const events = Array.isArray(portfolio.events) ? portfolio.events : [];
     const risk = portfolio.riskProfile || {};
-    const verdict = fold(portfolio.riskVerdict || "high");
+    const verdict = fold(portfolio.riskVerdict);
     const scenario = typeof portfolio.scenario === "object" ? portfolio.scenario?.name : portfolio.scenario;
+    const riskNotes = cleanList(portfolio.riskNotes);
+    const strengths = assessmentList("Punti di forza", "is-strength", portfolio.strengths);
+    const weaknesses = assessmentList("Criticità", "is-weakness", portfolio.weaknesses);
+    const hasRiskData = Boolean(portfolio.riskVerdict || Object.keys(risk).length || riskNotes.length);
+
     if (!events.length || !Number.isFinite(Number(portfolio.finalOdds))) {
       return `
         <article class="mycombo-final-card mycombo-portfolio-panel" data-portfolio-panel="${index}" ${index ? "hidden" : ""}>
@@ -64,25 +94,32 @@
           <p class="mycombo-combo-empty">${escapeHtml(portfolio.reason || "Nessuna combinazione compatibile disponibile.")}</p>
         </article>`;
     }
+
     return `
       <article class="mycombo-final-card mycombo-portfolio-panel" data-portfolio-panel="${index}" ${index ? "hidden" : ""}>
         <header>
-          <div><span>Portfolio</span><h4>${escapeHtml(portfolio.name)}</h4></div>
+          <div><span>Schedina</span><h4>${escapeHtml(portfolio.name)}</h4></div>
           <div class="mycombo-portfolio-metrics">
             <strong><small>Quota finale</small>${escapeHtml(portfolio.finalOdds)}</strong>
-            <strong class="mycombo-success-probability"><small>Probabilità implicita</small>${probabilityLabel(portfolio.finalOdds)}</strong>
+            <strong class="mycombo-event-count"><small>Eventi</small>${escapeHtml(events.length)}</strong>
           </div>
         </header>
         ${portfolio.reason ? `<p class="mycombo-portfolio-reason">${escapeHtml(portfolio.reason)}</p>` : ""}
-        <section class="mycombo-risk-profile is-${escapeHtml(verdict)}">
-          <header><strong>Profilo rischio</strong><span>${escapeHtml(portfolio.riskVerdict || "n.d.")}</span></header>
-          <dl>
-            <div><dt>Rischio medio</dt><dd>${escapeHtml(risk.averageRisk ?? "n.d.")}${risk.averageRisk != null ? "/100" : ""}</dd></div>
-            <div><dt>Rischio massimo</dt><dd>${escapeHtml(risk.maxEventRisk ?? "n.d.")}${risk.maxEventRisk != null ? "/100" : ""}</dd></div>
-            <div><dt>Eventi</dt><dd>${escapeHtml(risk.numberOfEvents ?? events.length)}</dd></div>
-          </dl>
-        </section>
-        ${scenario ? `<p class="mycombo-scenario"><strong>Scenario:</strong> ${escapeHtml(scenario)}</p>` : ""}
+        <div class="mycombo-ticket-summary">
+          ${scenario ? `<div><small>Scenario</small><strong>${escapeHtml(scenario)}</strong></div>` : ""}
+          ${portfolio.riskVerdict ? `<div><small>Profilo rischio</small><strong class="is-risk-${escapeHtml(verdict)}">${escapeHtml(riskLabel(portfolio.riskVerdict))}</strong></div>` : ""}
+        </div>
+        ${hasRiskData ? `
+          <section class="mycombo-risk-profile is-${escapeHtml(verdict)}">
+            <header><strong>Risk Engine</strong>${portfolio.riskVerdict ? `<span>Rischio ${escapeHtml(riskLabel(portfolio.riskVerdict))}</span>` : ""}</header>
+            <dl>
+              ${risk.maxSingleOdds != null ? `<div><dt>Quota massima singola</dt><dd>${escapeHtml(risk.maxSingleOdds)}</dd></div>` : ""}
+              ${risk.averageRisk != null ? `<div><dt>Rischio medio</dt><dd>${escapeHtml(risk.averageRisk)}/100</dd></div>` : ""}
+              ${risk.maxEventRisk != null ? `<div><dt>Picco di rischio</dt><dd>${escapeHtml(risk.maxEventRisk)}/100</dd></div>` : ""}
+            </dl>
+            ${riskNotes.length ? `<ul class="mycombo-risk-notes">${riskNotes.map((note) => `<li>${escapeHtml(note)}</li>`).join("")}</ul>` : ""}
+          </section>` : ""}
+        ${strengths || weaknesses ? `<div class="mycombo-assessment">${strengths}${weaknesses}</div>` : ""}
         <ol class="mycombo-selections">${events.map((event) => selectionCard(event, settlement)).join("")}</ol>
       </article>`;
   }
@@ -97,7 +134,7 @@
         ${payload.portfolios.map((portfolio, index) => `
           <button type="button" role="tab" aria-selected="${index === 0}" class="${index === 0 ? "active" : ""}" data-portfolio-tab="${index}">
             <span>${escapeHtml(portfolio.name)}</span>
-            <span class="mycombo-tab-values"><strong>${escapeHtml(portfolio.finalOdds ?? "—")}</strong><small>${probabilityLabel(portfolio.finalOdds)} successo</small></span>
+            ${portfolio.finalOdds != null ? `<span class="mycombo-tab-values"><small>Quota</small><strong>${escapeHtml(portfolio.finalOdds)}</strong></span>` : ""}
           </button>`).join("")}
       </div>
       <div class="mycombo-portfolio-content">
@@ -148,8 +185,8 @@
     viewer.className = "mycombo-generated";
     viewer.innerHTML = `
       <header class="mycombo-generated-head">
-        <div><span>Portfolio precalcolati</span><h3>MYCOMBO DEFINITIVE</h3></div>
-        <p>Safe, Balanced e Aggressive della partita.</p>
+        <div><span>Schedine ragionate</span><h3>MYCOMBO DEFINITIVE</h3></div>
+        <p>Scegli il profilo Safe, Balanced o Aggressive.</p>
       </header>
       <div class="mycombo-final-grid"><p class="mycombo-loading">La MyCombo verrà caricata quando raggiungi questa sezione.</p></div>`;
     article.querySelector(".reading-note")?.insertAdjacentElement("beforebegin", viewer) || article.appendChild(viewer);

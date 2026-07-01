@@ -124,6 +124,38 @@
       </article>`;
   }
 
+  function bookingsTrioCard(trio, settlement) {
+    if (!trio) return "";
+    const events = Array.isArray(trio.events) ? trio.events : [];
+    const risks = cleanList(trio.risks);
+    const mode = trio.mode === "tris_ammoniti_con_errore"
+      ? "Sisal · con errore"
+      : "Tris manuale";
+
+    return `
+      <section class="mycombo-bookings-section" aria-labelledby="mycombo-bookings-title">
+        <article class="mycombo-final-card mycombo-bookings-card">
+          <header>
+            <div><span>Sezione separata</span><h4 id="mycombo-bookings-title">Tris ammoniti</h4></div>
+            ${trio.available ? `
+              <div class="mycombo-portfolio-metrics">
+                <strong><small>Quota totale</small>${escapeHtml(trio.totalOdds)}</strong>
+                <strong class="mycombo-event-count"><small>Modalità</small>${escapeHtml(mode)}</strong>
+              </div>` : ""}
+          </header>
+          <p class="mycombo-portfolio-reason">${escapeHtml(trio.reason || "Dati insufficienti per proporre il tris.")}</p>
+          ${trio.available && events.length === 3
+            ? `<ol class="mycombo-selections">${events.map((event) => selectionCard(event, settlement)).join("")}</ol>`
+            : `<p class="mycombo-combo-empty">Combinazione non forzata.</p>`}
+          ${risks.length ? `
+            <section class="mycombo-risk-profile is-high">
+              <header><strong>Rischi specifici</strong><span>Alta varianza</span></header>
+              <ul class="mycombo-risk-notes">${risks.map((risk) => `<li>${escapeHtml(risk)}</li>`).join("")}</ul>
+            </section>` : ""}
+        </article>
+      </section>`;
+  }
+
   function renderFinalCombos(container, payload) {
     if (!Array.isArray(payload?.portfolios) || !payload.portfolios.length) {
       throw new Error("Formato MyCombo non valido");
@@ -139,7 +171,8 @@
       </div>
       <div class="mycombo-portfolio-content">
         ${payload.portfolios.map((portfolio, index) => portfolioCard(portfolio, index, settlement)).join("")}
-      </div>`;
+      </div>
+      ${bookingsTrioCard(payload.bookingsTrio, settlement)}`;
 
     container.addEventListener("click", (event) => {
       const button = event.target.closest("[data-portfolio-tab]");

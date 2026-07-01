@@ -395,5 +395,60 @@
         "improvementEstimate": "nessuno: la schedina candidata era già ottimale"
       }
     }
-  ]
+  ],
+  "bookingsTrio": {
+    "available": true,
+    "totalOdds": 101.25,
+    "mode": "manual_trio",
+    "events": [
+      {
+        "id": "booking-01",
+        "player": "GUEYE PAPE A.",
+        "market": "CARTELLINO SI/NO (DUO) INC TS — GUEYE PAPE A. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+        "selection": "SI",
+        "odds": 4.5,
+        "selectionId": 5199807627,
+        "marketId": 789839996,
+        "category": "cartellini",
+        "rankingScore": 53,
+        "class": "SPECULATIVE",
+        "reason": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+        "minuteStability": 7
+      },
+      {
+        "id": "booking-02",
+        "player": "SECK A.",
+        "market": "CARTELLINO SI/NO (DUO) INC TS — SECK A. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+        "selection": "SI",
+        "odds": 4.5,
+        "selectionId": 5199807519,
+        "marketId": 789839969,
+        "category": "cartellini",
+        "rankingScore": 53,
+        "class": "SPECULATIVE",
+        "reason": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+        "minuteStability": 7
+      },
+      {
+        "id": "booking-03",
+        "player": "DIATTA K.",
+        "market": "CARTELLINO SI/NO (DUO) INC TS — DIATTA K. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+        "selection": "SI",
+        "odds": 5,
+        "selectionId": 5199807397,
+        "marketId": 789839939,
+        "category": "cartellini",
+        "rankingScore": 53,
+        "class": "SPECULATIVE",
+        "reason": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+        "minuteStability": 7
+      }
+    ],
+    "reason": "Tris manuale costruito sui tre profili meglio classificati per ruolo, duelli, storico disciplinare, avversario e stabilità di impiego.",
+    "risks": [
+      "I cartellini individuali restano eventi ad alta varianza e dipendono dalla direzione arbitrale.",
+      "Sostituzioni, cambi di ruolo e andamento della partita possono ridurre l'esposizione ai duelli previsti.",
+      "La quota è il prodotto teorico delle tre singole Sisal e va verificata nel betslip."
+    ]
+  }
 }

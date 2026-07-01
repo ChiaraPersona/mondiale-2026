@@ -332,6 +332,16 @@ header {
   display: none;
 }
 
+.mycombo-bookings-section {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.mycombo-bookings-card {
+  border-color: rgba(234, 179, 8, 0.42);
+}
+
 .mycombo-value-explanation {
   margin-bottom: 14px;
   border: 1px solid rgba(245, 200, 75, .2);

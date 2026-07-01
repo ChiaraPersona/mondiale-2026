@@ -43,13 +43,110 @@ function normalizePortfolio(portfolio) {
   };
 }
 
-function optimizedMatch(slug, source, date) {
+function round2(value) {
+  return Math.round((Number(value) + Number.EPSILON) * 100) / 100;
+}
+
+function bookingPlayer(event) {
+  const market = String(event.mercato || event.market || "");
+  const detail = market.split(/\s+(?:—|â€”)\s+/).pop();
+  return detail
+    .replace(/\s+CARTELLINO O SUO SOST\..*$/i, "")
+    .replace(/\s+CARTELLINO.*$/i, "")
+    .trim();
+}
+
+function unavailableBookingsTrio(reason) {
+  return {
+    available: false,
+    totalOdds: null,
+    mode: null,
+    events: [],
+    reason,
+    risks: [],
+  };
+}
+
+function buildBookingsTrio(ranking, quote) {
+  const candidates = (ranking?.events || [])
+    .filter(event =>
+      String(event.categoria || "").toLowerCase() === "cartellini" &&
+      String(event.selezione || "").toUpperCase() === "SI" &&
+      Number(event.quota) > 1
+    )
+    .sort((first, second) =>
+      Number(second.score || 0) - Number(first.score || 0) ||
+      Number(second.fattoriScore?.stabilitaMinutaggio || 0) -
+        Number(first.fattoriScore?.stabilitaMinutaggio || 0) ||
+      Number(first.quota) - Number(second.quota)
+    );
+
+  if (candidates.length < 3) {
+    return unavailableBookingsTrio(
+      `Dati insufficienti: disponibili soltanto ${candidates.length} candidati ammonito valutati.`
+    );
+  }
+
+  const selected = candidates.slice(0, 3);
+  if (selected.some(event => Number(event.fattoriScore?.stabilitaMinutaggio || 0) < 5)) {
+    return unavailableBookingsTrio(
+      "Dati insufficienti: i candidati migliori presentano un rischio minutaggio troppo alto."
+    );
+  }
+
+  const specialMarket = (quote?.markets || []).find(item => {
+    const text = `${item.mercato || ""} ${item.info || ""}`.toUpperCase();
+    return (
+      Number(item.stato) === 1 &&
+      Number(item.quota) > 1 &&
+      text.includes("TRIS") &&
+      /(AMMON|CARTELL)/.test(text) &&
+      text.includes("ERRORE")
+    );
+  });
+
+  const events = selected.map((event, index) => ({
+    id: `booking-${String(index + 1).padStart(2, "0")}`,
+    player: bookingPlayer(event),
+    market: event.mercato,
+    selection: event.selezione,
+    odds: Number(event.quota),
+    selectionId: event.selectionId,
+    marketId: event.marketId,
+    category: "cartellini",
+    rankingScore: event.score,
+    class: event.classe,
+    reason: event.motivo,
+    minuteStability: event.fattoriScore?.stabilitaMinutaggio ?? null,
+  }));
+  const totalOdds = specialMarket
+    ? Number(specialMarket.quota)
+    : round2(events.reduce((total, event) => total * event.odds, 1));
+
+  return {
+    available: true,
+    totalOdds,
+    mode: specialMarket ? "tris_ammoniti_con_errore" : "manual_trio",
+    events,
+    reason: specialMarket
+      ? "Usato il mercato Sisal Tris ammoniti con errore, con i tre profili meglio classificati per ruolo, duelli, storico disciplinare e stabilità di impiego."
+      : "Tris manuale costruito sui tre profili meglio classificati per ruolo, duelli, storico disciplinare, avversario e stabilità di impiego.",
+    risks: [
+      "I cartellini individuali restano eventi ad alta varianza e dipendono dalla direzione arbitrale.",
+      "Sostituzioni, cambi di ruolo e andamento della partita possono ridurre l'esposizione ai duelli previsti.",
+      ...(specialMarket ? [] : ["La quota è il prodotto teorico delle tre singole Sisal e va verificata nel betslip."]),
+    ],
+  };
+}
+
+function optimizedMatch(slug, source, date, bookingsTrio = null) {
   return {
     slug,
     match: source.match,
     date,
     status: "prepared",
     portfolios: source.portfolios.map(normalizePortfolio),
+    bookingsTrio: bookingsTrio || unavailableBookingsTrio("Analisi ammoniti non disponibile per questa partita."),
   };
 }
 
@@ -187,7 +284,13 @@ const requestedSlug = process.argv[2];
 if (requestedSlug) {
   const source = readJson(`data/mvp/${requestedSlug}/portfolio-optimized.json`);
   const quote = readJson(`data/quote/${requestedSlug}-quote.json`);
-  const match = optimizedMatch(requestedSlug, source, quote.date);
+  const ranking = readJson(`data/mvp/${requestedSlug}/ranking-events.json`);
+  const match = optimizedMatch(
+    requestedSlug,
+    source,
+    quote.date,
+    buildBookingsTrio(ranking, quote)
+  );
   writeJson(`${requestedSlug}.json`, match);
   console.log(`MyCombo generata per ${source.match}.`);
   return;

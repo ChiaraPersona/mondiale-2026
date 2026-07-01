@@ -369,5 +369,60 @@
         "improvementEstimate": "nessuno: la schedina candidata era già ottimale"
       }
     }
-  ]
+  ],
+  "bookingsTrio": {
+    "available": true,
+    "totalOdds": 51.19,
+    "mode": "manual_trio",
+    "events": [
+      {
+        "id": "booking-01",
+        "player": "SUNJIC I.",
+        "market": "CARTELLINO SI/NO (DUO) INC TS — SUNJIC I. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+        "selection": "SI",
+        "odds": 3.25,
+        "selectionId": 5198592864,
+        "marketId": 789602482,
+        "category": "cartellini",
+        "rankingScore": 56,
+        "class": "VALUE",
+        "reason": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+        "minuteStability": 7
+      },
+      {
+        "id": "booking-02",
+        "player": "KOLASINAC S.",
+        "market": "CARTELLINO SI/NO (DUO) INC TS — KOLASINAC S. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+        "selection": "SI",
+        "odds": 3.5,
+        "selectionId": 5198592730,
+        "marketId": 789602449,
+        "category": "cartellini",
+        "rankingScore": 56,
+        "class": "VALUE",
+        "reason": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+        "minuteStability": 7
+      },
+      {
+        "id": "booking-03",
+        "player": "ADAMS T.",
+        "market": "CARTELLINO SI/NO (DUO) INC TS — ADAMS T. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+        "selection": "SI",
+        "odds": 4.5,
+        "selectionId": 5198592722,
+        "marketId": 789602447,
+        "category": "cartellini",
+        "rankingScore": 53,
+        "class": "SPECULATIVE",
+        "reason": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+        "minuteStability": 7
+      }
+    ],
+    "reason": "Tris manuale costruito sui tre profili meglio classificati per ruolo, duelli, storico disciplinare, avversario e stabilità di impiego.",
+    "risks": [
+      "I cartellini individuali restano eventi ad alta varianza e dipendono dalla direzione arbitrale.",
+      "Sostituzioni, cambi di ruolo e andamento della partita possono ridurre l'esposizione ai duelli previsti.",
+      "La quota è il prodotto teorico delle tre singole Sisal e va verificata nel betslip."
+    ]
+  }
 }

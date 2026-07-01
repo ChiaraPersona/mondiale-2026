@@ -70,6 +70,7 @@ function eventRisk(event) {
     TIRI: 10,
     CARTELLINI: 15,
     GIOCATORI: 14,
+    PARATE: 8,
   }[category] ?? 8;
   score += categoryRisk;
   if (intelligence.classification.recognized) score = Math.max(score, intelligence.score);
@@ -111,7 +112,7 @@ function eventRisk(event) {
   return {
     riskScore,
     riskLevel: riskScore >= 70 ? "high" : riskScore >= 45 ? "medium" : "low",
-    riskReasons: reasons,
+    riskReasons: [...new Set(reasons)],
     isPlayerMarket,
     minuteSensitive,
     complexMarket,

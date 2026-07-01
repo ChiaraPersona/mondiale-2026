@@ -402,6 +402,8 @@ function automaticContext(category) {
     corner: ["Le soglie corner sono vicine alla proiezione territoriale della partita.", "Il volume dipende da punteggio e durata della pressione offensiva."],
     tiri: ["Le linee tiri seguono probabili formazioni e volumi stimati.", "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."],
     cartellini: ["I candidati sono esposti ai duelli tattici principali e al profilo arbitrale.", "Il cartellino individuale rimane un mercato ad alta varianza."],
+    parate: ["Le parate seguono il volume di tiri in porta concesso.", "Dipendono dalla precisione avversaria e dal portiere impiegato."],
+    giocatori: ["Il mercato segue il coinvolgimento individuale previsto.", "Minutaggio, ruolo ed elevata varianza richiedono prudenza."],
   };
   return copy[category];
 }

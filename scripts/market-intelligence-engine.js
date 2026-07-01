@@ -77,11 +77,15 @@ function classifyMarket(event, options = {}) {
   return {
     recognized: true,
     marketKey: metadata.marketKey,
+    label: metadata.label,
     category: metadata.category,
     family: metadata.family,
     volatility: metadata.volatility,
     riskLevel: metadata.riskLevel,
+    dependsOnMinutes: metadata.dependsOnMinutes,
+    needsStarter: metadata.needsStarter,
     correlationGroup: metadata.correlationGroup,
+    notes: metadata.notes,
     minutePenalty,
     starterCertainty: certainty,
     scenarioCompatible: scenarioCompatible(metadata, options.scenario),
@@ -115,6 +119,25 @@ function listMarkets() {
   return [...markets.values()];
 }
 
+function auditEvents(events) {
+  const recognized = [];
+  const unmapped = [];
+  for (const event of events || []) {
+    const classification = classifyMarket(event);
+    const market = String(event?.market ?? event?.mercato ?? "");
+    if (classification.recognized) {
+      recognized.push({ market, marketKey: classification.marketKey });
+    } else {
+      unmapped.push(market);
+    }
+  }
+  return {
+    total: recognized.length + unmapped.length,
+    recognized,
+    unmapped: [...new Set(unmapped)].sort((a, b) => a.localeCompare(b, "it")),
+  };
+}
+
 module.exports = {
   identifyMarket,
   classifyMarket,
@@ -122,4 +145,5 @@ module.exports = {
   marketRisk,
   scenarioCompatible,
   listMarkets,
+  auditEvents,
 };

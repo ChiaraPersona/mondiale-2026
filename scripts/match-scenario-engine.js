@@ -72,11 +72,15 @@ function eventAttributes(event, matchKey) {
 
   let metric = event.categoria;
   if (event.categoria === "tiri" && market.includes("TIRI IN PORTA")) metric = "tiri_in_porta";
-  const positive = ["OVER", "GOAL", "SI", "1", "1X", "TEAM 1", "2-4"].includes(selection);
+  const isMultigoal = market.includes("MULTIGOAL");
+  const multigoalRange = selection.match(/^(\d+)-(\d+)$/)?.slice(1).map(Number) || null;
+  const positive =
+    ["OVER", "GOAL", "SI", "1", "1X", "TEAM 1"].includes(selection) ||
+    Boolean(isMultigoal && multigoalRange);
   const negative = ["UNDER", "NOGOAL", "NO", "2", "X2", "TEAM 2"].includes(selection);
   const threshold = Number(market.match(/\bU\/O\s+(\d+(?:\.\d+)?)/)?.[1] ?? NaN);
 
-  return { market, selection, side, metric, positive, negative, threshold };
+  return { market, selection, side, metric, positive, negative, threshold, isMultigoal, multigoalRange };
 }
 
 function eventRef(event, index) {
@@ -103,16 +107,30 @@ function classifyEvent(event, index, matchKey, scenario) {
   }
 
   if (scenario === "controlled_favorite_win") {
+    const controlledMultigoal =
+      a.isMultigoal &&
+      a.multigoalRange &&
+      a.multigoalRange[0] <= 2 &&
+      a.multigoalRange[1] <= 4;
     const compatible =
       (a.metric === "esito" && a.side === "team1") ||
-      (a.metric === "goal" && a.negative);
-    const incompatible = a.metric === "goal" && a.positive && Number(event.quota) >= 1.5;
+      (a.metric === "goal" && (a.negative || controlledMultigoal));
+    const incompatible =
+      a.metric === "goal" &&
+      a.positive &&
+      !controlledMultigoal &&
+      Number(event.quota) >= 1.5;
     return { ref, compatible, incompatible };
   }
 
   if (scenario === "balanced_resistance") {
+    const controlledMultigoal =
+      a.isMultigoal &&
+      a.multigoalRange &&
+      a.multigoalRange[0] <= 2 &&
+      a.multigoalRange[1] <= 4;
     const compatible =
-      (a.metric === "goal" && a.negative) ||
+      (a.metric === "goal" && (a.negative || controlledMultigoal)) ||
       (["tiri", "tiri_in_porta", "corner"].includes(a.metric) && a.side === "team2" && a.positive);
     const incompatible =
       (["tiri", "tiri_in_porta", "corner"].includes(a.metric) &&

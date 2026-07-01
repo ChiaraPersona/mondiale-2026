@@ -242,6 +242,36 @@
       ]
     },
     {
+      "mercato": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+      "selezione": "1-3",
+      "quota": 1.52,
+      "selectionId": 5194477143,
+      "marketId": 788830735,
+      "categoria": "goal",
+      "motivo": "Fascia gol partita coerente con il risultato guida.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ]
+    },
+    {
+      "mercato": "MULTIGOAL SQUADRA X — MULTIGOAL SQUADRA 1 MULTIESITI",
+      "selezione": "1-3",
+      "quota": 1.3,
+      "selectionId": 5194476801,
+      "marketId": 788830678,
+      "categoria": "goal",
+      "motivo": "Fascia gol della squadra di casa coerente con lo scenario principale.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ]
+    },
+    {
       "mercato": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 15.5 TIRI TOTALI",
       "selezione": "OVER",
       "quota": 1.9,
@@ -449,6 +479,66 @@
       ],
       "possibiliCriticita": [
         "Il cartellino individuale rimane un mercato ad alta varianza."
+      ]
+    },
+    {
+      "mercato": "U/O CORNER SQUADRA X — U/O 2.5 CORNER SQUADRA 2",
+      "selezione": "UNDER",
+      "quota": 2.2,
+      "selectionId": 5198591281,
+      "marketId": 789602374,
+      "categoria": "corner",
+      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ]
+    },
+    {
+      "mercato": "U/O CORNER SQUADRA X — U/O 2.5 CORNER SQUADRA 2",
+      "selezione": "OVER",
+      "quota": 1.52,
+      "selectionId": 5198591282,
+      "marketId": 789602374,
+      "categoria": "corner",
+      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ]
+    },
+    {
+      "mercato": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2",
+      "selezione": "UNDER",
+      "quota": 1.52,
+      "selectionId": 5198591355,
+      "marketId": 789602392,
+      "categoria": "corner",
+      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ]
+    },
+    {
+      "mercato": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2",
+      "selezione": "OVER",
+      "quota": 2.2,
+      "selectionId": 5198591356,
+      "marketId": 789602392,
+      "categoria": "corner",
+      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
       ]
     }
   ]

@@ -153,6 +153,7 @@ function portfolioEvents(selected) {
     category: event.category,
     rankingScore: event.score,
     class: event.class,
+    reason: event.reason,
     riskScore: risk.riskScore,
     riskLevel: risk.riskLevel,
     riskReasons: risk.riskReasons,
@@ -209,6 +210,7 @@ function buildPortfolio(ranking, scenarios, graph, config) {
           category: event.categoria,
           score: event.score,
           class: event.classe,
+          reason: event.motivo,
           node,
           ...withEventRisk({
             market: event.mercato,

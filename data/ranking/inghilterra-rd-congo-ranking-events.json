@@ -158,6 +158,32 @@
       }
     },
     {
+      "mercato": "MULTIGOAL SQUADRA X — MULTIGOAL SQUADRA 1 MULTIESITI",
+      "selezione": "2-4",
+      "quota": 1.65,
+      "selectionId": 5197189263,
+      "marketId": 789346381,
+      "categoria": "goal",
+      "motivo": "Fascia gol della squadra di casa coerente con lo scenario principale.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ],
+      "score": 91,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 25,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
       "mercato": "GOAL/NOGOAL — GOAL/NO GOAL",
       "selezione": "GOAL",
       "quota": 2.6,
@@ -418,6 +444,32 @@
       }
     },
     {
+      "mercato": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+      "selezione": "2-4",
+      "quota": 1.52,
+      "selectionId": 5197189525,
+      "marketId": 789346414,
+      "categoria": "goal",
+      "motivo": "Fascia gol partita coerente con il risultato guida.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ],
+      "score": 89,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
       "mercato": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
       "selezione": "OVER",
       "quota": 1.57,
@@ -515,6 +567,110 @@
       "fattoriScore": {
         "coerenzaAnalisi": 23,
         "stabilitaMercato": 20,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER SQUADRA X — U/O 2.5 CORNER SQUADRA 2",
+      "selezione": "UNDER",
+      "quota": 1.75,
+      "selectionId": 5197609138,
+      "marketId": 789413419,
+      "categoria": "corner",
+      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ],
+      "score": 88,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER SQUADRA X — U/O 2.5 CORNER SQUADRA 2",
+      "selezione": "OVER",
+      "quota": 1.85,
+      "selectionId": 5197609139,
+      "marketId": 789413419,
+      "categoria": "corner",
+      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ],
+      "score": 88,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2",
+      "selezione": "UNDER",
+      "quota": 1.28,
+      "selectionId": 5197608984,
+      "marketId": 789413383,
+      "categoria": "corner",
+      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ],
+      "score": 88,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 22,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER SQUADRA X — U/O 4.5 CORNER SQUADRA 1",
+      "selezione": "OVER",
+      "quota": 1.2,
+      "selectionId": 5197609093,
+      "marketId": 789413408,
+      "categoria": "corner",
+      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ],
+      "score": 88,
+      "classe": "CORE",
+      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 21,
+        "stabilitaMercato": 22,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,

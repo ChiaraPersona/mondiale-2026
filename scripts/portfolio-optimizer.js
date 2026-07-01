@@ -10,21 +10,18 @@ const configs = {
   "Portfolio Safe": {
     id: "safe",
     ...portfolioRiskLimits.safe,
-    softMinimum: 3.8,
     minScore: 80,
     classes: new Set(["CORE"]),
   },
   "Portfolio Balanced": {
     id: "balanced",
     ...portfolioRiskLimits.balanced,
-    softMinimum: 7.2,
     minScore: 65,
     classes: new Set(["CORE", "VALUE"]),
   },
   "Portfolio Aggressive": {
     id: "aggressive",
     ...portfolioRiskLimits.aggressive,
-    softMinimum: 14.4,
     minScore: 55,
     classes: new Set(["CORE", "VALUE", "SPECULATIVE"]),
   },
@@ -122,22 +119,22 @@ function portfolioStats(selected, edges, portfolioId) {
   };
 }
 
-function searchBest(candidates, config, edges, previouslySelected = new Set()) {
+function searchBest(candidates, config, edges, forbiddenSuperset = new Set()) {
   let bestInside = null;
-  let bestBelow = null;
   const [minimum, maximum] = config.range;
 
   function consider(selected) {
     if (selected.length < config.minEvents) return;
-    const sharedEvents = selected.filter(event => previouslySelected.has(event.id)).length;
-    if (sharedEvents > 1) return;
+    const selectedIds = new Set(selected.map(event => event.id));
+    if (
+      forbiddenSuperset.size &&
+      [...forbiddenSuperset].every(eventId => selectedIds.has(eventId))
+    ) return;
     const stats = portfolioStats(selected, edges, config.id);
     if (!stats.allowed) return;
     const result = { selected: [...selected], stats };
     if (stats.totalOdds >= minimum && stats.totalOdds <= maximum) {
       if (!bestInside || stats.optimizationScore < bestInside.stats.optimizationScore) bestInside = result;
-    } else if (stats.totalOdds >= config.softMinimum && stats.totalOdds < minimum) {
-      if (!bestBelow || stats.optimizationScore < bestBelow.stats.optimizationScore) bestBelow = result;
     }
   }
 
@@ -158,7 +155,6 @@ function searchBest(candidates, config, edges, previouslySelected = new Set()) {
   visit(0, [], 1);
 
   if (bestInside) return { ...bestInside, rangeStatus: "inside_range" };
-  if (bestBelow) return { ...bestBelow, rangeStatus: "below_range_risk_limited" };
   return null;
 }
 
@@ -174,6 +170,7 @@ function eventOutput(event) {
     category: event.category,
     rankingScore: event.score,
     class: event.class,
+    reason: event.reason,
     riskScore: risk.riskScore,
     riskLevel: risk.riskLevel,
     riskReasons: risk.riskReasons,
@@ -216,7 +213,7 @@ function qualitativeImprovement(delta, removed, added) {
   return "strutturale: quota o numero di gambe migliorati senza aumento dell'indice";
 }
 
-function optimizePortfolio(portfolio, ranking, scenarios, graph, previouslySelected = new Set()) {
+function optimizePortfolio(portfolio, ranking, scenarios, graph, forbiddenSuperset = new Set()) {
   const config = configs[portfolio.name];
   if (!config) throw new Error(`Configurazione mancante per ${portfolio.name}`);
   if (!portfolio.scenario || !Array.isArray(portfolio.events) || !portfolio.events.length) {
@@ -254,6 +251,7 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph, previouslySelec
           category: event.categoria,
           score: event.score,
           class: event.classe,
+          reason: event.motivo,
           ...withEventRisk({
             market: event.mercato,
             odds: Number(event.quota),
@@ -280,7 +278,7 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph, previouslySelec
     )
     .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
 
-  const optimized = searchBest(candidates, config, edges, previouslySelected);
+  const optimized = searchBest(candidates, config, edges, forbiddenSuperset);
   const initialEvents = portfolio.events
     .map(event => rankingById.get(event.id))
     .filter(Boolean)
@@ -290,31 +288,35 @@ function optimizePortfolio(portfolio, ranking, scenarios, graph, previouslySelec
   if (!optimized) {
     const initialWithinRange =
       initialStats.totalOdds >= config.range[0] && initialStats.totalOdds <= config.range[1];
-    const keepInitial = initialWithinRange && initialStats.allowed;
+    const initialIds = new Set(initialEvents.map(event => event.id));
+    const violatesIndependence =
+      forbiddenSuperset.size &&
+      [...forbiddenSuperset].every(eventId => initialIds.has(eventId));
+    const keepInitial = initialWithinRange && initialStats.allowed && !violatesIndependence;
     return {
       name: portfolio.name,
       scenario: portfolio.scenario,
       initialOdds: portfolio.totalOdds,
-      finalOdds: portfolio.totalOdds,
+      finalOdds: keepInitial ? portfolio.totalOdds : null,
       acceptedRange: config.range,
       status: keepInitial ? "unchanged_risk_optimal" : "unchanged_no_better_solution",
-      events: portfolio.events,
+      events: keepInitial ? portfolio.events : [],
       removedEvents: [],
       addedEvents: [],
       improvementEstimate: "nessuno",
       reason: keepInitial
         ? "Il portfolio iniziale è già la soluzione più stabile entro l'intervallo quota."
-        : "Quota target non raggiungibile senza aumentare troppo il rischio.",
+        : "Nessuna combinazione valida nell'intervallo previsto e coerente con i vincoli del profilo.",
       strengths: portfolio.strengths,
       weaknesses: [
         ...portfolio.weaknesses,
         "L'Optimizer non ha forzato la quota con eventi di qualità inferiore.",
       ],
-      riskProfile: initialStats.riskProfile,
-      riskVerdict: initialStats.riskVerdict,
+      riskProfile: keepInitial ? initialStats.riskProfile : assessPortfolio([], config.id, edges).riskProfile,
+      riskVerdict: keepInitial ? initialStats.riskVerdict : "high",
       riskNotes: keepInitial
         ? initialStats.riskNotes
-        : [...initialStats.riskNotes, "Quota target non raggiungibile senza superare i limiti di rischio."],
+        : ["Portfolio non generato: nessun evento debole è stato aggiunto per forzare la quota."],
     };
   }
 
@@ -388,17 +390,20 @@ function processMatch(matchKey) {
   const graph = JSON.parse(fs.readFileSync(graphPath, "utf8"));
 
   const optimized = [];
-  const previouslySelected = new Set();
   for (const portfolio of portfolios.portfolios) {
+    const safeEvents = optimized.find(item => item.name === "Portfolio Safe")?.events || [];
+    const forbiddenSuperset =
+      portfolio.name === "Portfolio Balanced"
+        ? new Set(safeEvents.map(event => event.id))
+        : new Set();
     const result = optimizePortfolio(
       portfolio,
       ranking,
       scenarios.scenarios,
       graph,
-      previouslySelected
+      forbiddenSuperset
     );
     optimized.push(result);
-    (result.events || []).forEach(event => previouslySelected.add(event.id));
   }
   const output = { match: portfolios.match, portfolios: optimized };
   const outputPath = path.join(directory, "portfolio-optimized.json");

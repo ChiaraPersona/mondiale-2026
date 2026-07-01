@@ -304,6 +304,7 @@ const plans = {
     projections: { homeShots: 17.5, awayShots: 6.5, homeSot: 5.5, awaySot: 2.5 },
     players: ["KANE H.", "BELLINGHAM JUDE", "SAKA B.", "RASHFORD M.", "WISSA Y.", "BAKAMBU C."],
     cards: ["MOUTOUSSAMY S.", "MASUAKU A.", "MBEMBA C.", "RICE D."],
+    multigoal: { match: "2-4", home: "2-4", away: "0-1" },
   },
   "belgio-senegal": {
     auto: true,
@@ -313,6 +314,7 @@ const plans = {
     projections: { homeShots: 11.5, awayShots: 8.5, homeSot: 3.5, awaySot: 2.5 },
     players: ["DE KETELAERE C.", "DE BRUYNE K.", "DOKU J.", "TROSSARD L.", "MANE SADIO", "SARR I.", "NDIAYE I."],
     cards: ["GUEYE PAPE A.", "TIELEMANS Y.", "DIATTA K.", "SECK A."],
+    multigoal: { match: "1-3", home: "1-2", away: "0-1" },
   },
   "stati-uniti-bosnia-erzegovina": {
     auto: true,
@@ -322,6 +324,7 @@ const plans = {
     projections: { homeShots: 15.5, awayShots: 6.5, homeSot: 4.5, awaySot: 2.5 },
     players: ["BALOGUN F.", "PULISIC C.", "TILLMAN M.", "DZEKO E.", "DEMIROVIC ERMEDIN", "BAJRAKTAREVIC E."],
     cards: ["SUNJIC I.", "ADAMS T.", "KOLASINAC S.", "BASIC I."],
+    multigoal: { match: "1-3", home: "1-3", away: "0-1" },
   },
   "germania-paraguay": {
     file: "germania-paraguay-quote.json",
@@ -458,6 +461,30 @@ function buildAutomatic(plan) {
     ["U/O CORNER", /U\/O 10\.5 CORNER$/, "UNDER"],
   ].forEach(spec => add(...spec, "Mercato strutturale coerente con lo scenario pre-partita."));
 
+  if (plan.multigoal) {
+    [
+      ["MULTIGOAL", /MULTIGOAL MULTIESITI/, plan.multigoal.match, "Fascia gol partita coerente con il risultato guida."],
+      ["MULTIGOAL SQUADRA X", /MULTIGOAL SQUADRA 1 MULTIESITI/, plan.multigoal.home, "Fascia gol della squadra di casa coerente con lo scenario principale."],
+      ["MULTIGOAL SQUADRA X", /MULTIGOAL SQUADRA 2 MULTIESITI/, plan.multigoal.away, "Fascia gol della squadra ospite coerente con lo scenario principale."],
+    ].forEach(spec => add(...spec));
+  }
+
+  const trisAmmoniti = payload.markets.find(item =>
+    /TRIS.*AMMON|AMMON.*TRIS/i.test(
+      `${item.mercato || ""} ${item.info || ""} ${item.esito || ""}`
+    )
+  );
+  if (trisAmmoniti) {
+    add(
+      trisAmmoniti.mercato,
+      String(trisAmmoniti.info || ""),
+      String(trisAmmoniti.esito),
+      "Tris ammoniti con errore disponibile nel palinsesto Sisal e valutato come evento ad alta varianza."
+    );
+  } else {
+    console.log(`${plan.match}: tris ammoniti con errore non disponibile nelle quote Sisal.`);
+  }
+
   const p = plan.projections;
   [
     ["U/O TIRI TOTALI SQUADRA X", new RegExp(`SQUADRA 1: U/O ${String(p.homeShots).replace(".", "\\.")} TIRI TOTALI`), "OVER"],
@@ -473,9 +500,9 @@ function buildAutomatic(plan) {
     add("CARTELLINO SI/NO (DUO) INC TS", new RegExp(`^${token.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} CARTELLINO`), "SI", "Candidato ammonito per ruolo, duelli e profilo arbitrale.");
   }
 
-  if (picked.length < 30) {
+  if (picked.length < 36) {
     for (const item of payload.markets) {
-      if (picked.length >= 30) break;
+      if (picked.length >= 36) break;
       if (!["OVER", "UNDER"].includes(String(item.esito))) continue;
       if (!/U\/O (CORNER|TIRI TOTALI SQUADRA X|TIRI IN PORTA SQUADRA X)/i.test(item.mercato)) continue;
       const odds = Number(item.quota);
@@ -485,11 +512,11 @@ function buildAutomatic(plan) {
   }
 
   if (picked.length < 30) throw new Error(`${plan.match}: solo ${picked.length} eventi automatici disponibili.`);
-  const events = picked.slice(0, 30);
+  const events = picked.slice(0, 36);
   const destination = path.join(outputRoot, plan.slug, "top-events.json");
   fs.mkdirSync(path.dirname(destination), { recursive: true });
   fs.writeFileSync(destination, `${JSON.stringify({ match: plan.match, events }, null, 2)}\n`, "utf8");
-  console.log(`${plan.match}: 30 eventi -> ${path.relative(root, destination)}`);
+  console.log(`${plan.match}: ${events.length} eventi -> ${path.relative(root, destination)}`);
 }
 
 function build(plan) {

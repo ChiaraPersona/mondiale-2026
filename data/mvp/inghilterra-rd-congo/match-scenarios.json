@@ -24,27 +24,42 @@
         },
         {
           "id": "event-07",
+          "market": "MULTIGOAL SQUADRA X — MULTIGOAL SQUADRA 1 MULTIESITI",
+          "selection": "2-4"
+        },
+        {
+          "id": "event-08",
           "market": "GOAL/NOGOAL — GOAL/NO GOAL",
           "selection": "GOAL"
         },
         {
-          "id": "event-09",
+          "id": "event-10",
           "market": "UNDER/OVER — U/O 1.5",
           "selection": "OVER"
         },
         {
-          "id": "event-11",
+          "id": "event-12",
           "market": "UNDER/OVER — U/O 2.5",
           "selection": "OVER"
         },
         {
-          "id": "event-17",
+          "id": "event-18",
+          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+          "selection": "2-4"
+        },
+        {
+          "id": "event-19",
           "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
           "selection": "OVER"
         },
         {
-          "id": "event-19",
+          "id": "event-21",
           "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-26",
+          "market": "U/O CORNER SQUADRA X — U/O 4.5 CORNER SQUADRA 1",
           "selection": "OVER"
         }
       ],
@@ -87,34 +102,44 @@
           "selection": "1"
         },
         {
-          "id": "event-08",
+          "id": "event-07",
+          "market": "MULTIGOAL SQUADRA X — MULTIGOAL SQUADRA 1 MULTIESITI",
+          "selection": "2-4"
+        },
+        {
+          "id": "event-09",
           "market": "GOAL/NOGOAL — GOAL/NO GOAL",
           "selection": "NOGOAL"
         },
         {
-          "id": "event-10",
+          "id": "event-11",
           "market": "UNDER/OVER — U/O 2.5",
           "selection": "UNDER"
         },
         {
-          "id": "event-12",
+          "id": "event-13",
           "market": "UNDER/OVER — U/O 3.5",
           "selection": "UNDER"
         },
         {
-          "id": "event-13",
+          "id": "event-14",
           "market": "UNDER/OVER — U/O 4.5",
           "selection": "UNDER"
+        },
+        {
+          "id": "event-18",
+          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+          "selection": "2-4"
         }
       ],
       "incompatibleEvents": [
         {
-          "id": "event-07",
+          "id": "event-08",
           "market": "GOAL/NOGOAL — GOAL/NO GOAL",
           "selection": "GOAL"
         },
         {
-          "id": "event-11",
+          "id": "event-12",
           "market": "UNDER/OVER — U/O 2.5",
           "selection": "OVER"
         }
@@ -132,39 +157,54 @@
       "estimatedProbability": "bassa",
       "compatibleEvents": [
         {
-          "id": "event-08",
+          "id": "event-07",
+          "market": "MULTIGOAL SQUADRA X — MULTIGOAL SQUADRA 1 MULTIESITI",
+          "selection": "2-4"
+        },
+        {
+          "id": "event-09",
           "market": "GOAL/NOGOAL — GOAL/NO GOAL",
           "selection": "NOGOAL"
         },
         {
-          "id": "event-10",
+          "id": "event-11",
           "market": "UNDER/OVER — U/O 2.5",
           "selection": "UNDER"
         },
         {
-          "id": "event-12",
+          "id": "event-13",
           "market": "UNDER/OVER — U/O 3.5",
           "selection": "UNDER"
         },
         {
-          "id": "event-13",
+          "id": "event-14",
           "market": "UNDER/OVER — U/O 4.5",
           "selection": "UNDER"
         },
         {
           "id": "event-18",
+          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+          "selection": "2-4"
+        },
+        {
+          "id": "event-20",
           "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 6.5 TIRI TOTALI",
           "selection": "OVER"
         },
         {
-          "id": "event-20",
+          "id": "event-22",
           "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-24",
+          "market": "U/O CORNER SQUADRA X — U/O 2.5 CORNER SQUADRA 2",
           "selection": "OVER"
         }
       ],
       "incompatibleEvents": [
         {
-          "id": "event-17",
+          "id": "event-19",
           "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
           "selection": "OVER"
         }
@@ -183,98 +223,118 @@
       "compatibleEvents": [
         {
           "id": "event-07",
+          "market": "MULTIGOAL SQUADRA X — MULTIGOAL SQUADRA 1 MULTIESITI",
+          "selection": "2-4"
+        },
+        {
+          "id": "event-08",
           "market": "GOAL/NOGOAL — GOAL/NO GOAL",
           "selection": "GOAL"
         },
         {
-          "id": "event-09",
+          "id": "event-10",
           "market": "UNDER/OVER — U/O 1.5",
           "selection": "OVER"
         },
         {
-          "id": "event-11",
+          "id": "event-12",
           "market": "UNDER/OVER — U/O 2.5",
           "selection": "OVER"
         },
         {
-          "id": "event-14",
+          "id": "event-15",
           "market": "U/O CORNER — U/O 7.5 CORNER",
           "selection": "OVER"
         },
         {
-          "id": "event-15",
+          "id": "event-16",
           "market": "U/O CORNER — U/O 8.5 CORNER",
           "selection": "OVER"
         },
         {
-          "id": "event-17",
+          "id": "event-18",
+          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+          "selection": "2-4"
+        },
+        {
+          "id": "event-19",
           "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
           "selection": "OVER"
         },
         {
-          "id": "event-18",
+          "id": "event-20",
           "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 6.5 TIRI TOTALI",
           "selection": "OVER"
         },
         {
-          "id": "event-19",
+          "id": "event-21",
           "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
           "selection": "OVER"
         },
         {
-          "id": "event-20",
+          "id": "event-22",
           "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
           "selection": "OVER"
         },
         {
-          "id": "event-21",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — KANE H. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER"
-        },
-        {
-          "id": "event-22",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BELLINGHAM JUDE U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER"
-        },
-        {
-          "id": "event-23",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAKA B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER"
-        },
-        {
           "id": "event-24",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — RASHFORD M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER"
-        },
-        {
-          "id": "event-25",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WISSA Y. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O CORNER SQUADRA X — U/O 2.5 CORNER SQUADRA 2",
           "selection": "OVER"
         },
         {
           "id": "event-26",
+          "market": "U/O CORNER SQUADRA X — U/O 4.5 CORNER SQUADRA 1",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-27",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — KANE H. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-28",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BELLINGHAM JUDE U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-29",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAKA B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-30",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — RASHFORD M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-31",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — WISSA Y. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER"
+        },
+        {
+          "id": "event-32",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BAKAMBU C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER"
         }
       ],
       "incompatibleEvents": [
         {
-          "id": "event-08",
+          "id": "event-09",
           "market": "GOAL/NOGOAL — GOAL/NO GOAL",
           "selection": "NOGOAL"
         },
         {
-          "id": "event-10",
+          "id": "event-11",
           "market": "UNDER/OVER — U/O 2.5",
           "selection": "UNDER"
         },
         {
-          "id": "event-12",
+          "id": "event-13",
           "market": "UNDER/OVER — U/O 3.5",
           "selection": "UNDER"
         },
         {
-          "id": "event-13",
+          "id": "event-14",
           "market": "UNDER/OVER — U/O 4.5",
           "selection": "UNDER"
         }

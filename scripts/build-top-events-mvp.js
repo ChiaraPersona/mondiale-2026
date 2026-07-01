@@ -314,7 +314,7 @@ const plans = {
     match: "Belgio - Senegal",
     projections: { homeShots: 11.5, awayShots: 8.5, homeSot: 3.5, awaySot: 2.5 },
     players: ["DE KETELAERE C.", "DE BRUYNE K.", "DOKU J.", "TROSSARD L.", "MANE SADIO", "SARR I.", "NDIAYE I."],
-    cards: ["GUEYE PAPE A.", "TIELEMANS Y.", "DIATTA K.", "SECK A."],
+    cards: ["GUEYE PAPE A.", "TIELEMANS Y.", "DIATTA K."],
     multigoal: { match: "1-3", home: "1-2", away: "0-1" },
   },
   "stati-uniti-bosnia-erzegovina": {

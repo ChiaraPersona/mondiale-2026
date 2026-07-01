@@ -210,6 +210,134 @@ function diversifiedGermany(source, ranking) {
   return match;
 }
 
+function officialBelgiumSenegal(source, ranking, quote) {
+  const officialCardTokens = ["GUEYE PAPE A.", "TIELEMANS Y.", "DIATTA K."];
+  const officialRanking = {
+    ...ranking,
+    events: ranking.events.map(event => {
+      const isConfirmedStarter = officialCardTokens.some(token =>
+        String(event.mercato || "").toUpperCase().includes(token)
+      );
+      if (!isConfirmedStarter) return event;
+      return {
+        ...event,
+        motivo: "Titolare ufficiale: candidato ammonito per ruolo, duelli diretti e profilo arbitrale.",
+        fattoriScore: {
+          ...(event.fattoriScore || {}),
+          stabilitaMinutaggio: 9,
+        },
+      };
+    }),
+  };
+  const match = optimizedMatch(
+    "belgio-senegal",
+    source,
+    quote.date || "01/07/2026 ore 22.00",
+    buildBookingsTrio(officialRanking, quote)
+  );
+  const definitions = [
+    {
+      name: "Safe",
+      indexes: [4, 9, 13, 14, 15, 16],
+      reason: "Copertura sul Belgio e fascia 2-4 gol, sostenuta da volumi corner bassi ma bilaterali.",
+      scenario: "Gara equilibrata con Belgio non sconfitto",
+      probability: "alta",
+      risk: "low",
+    },
+    {
+      name: "Balanced",
+      indexes: [5, 7, 14, 21, 22],
+      reason: "Strategia indipendente costruita sull'1-1 centrale: entrambe segnano, volumi nello specchio e leggero vantaggio qualificazione Belgio.",
+      scenario: "Equilibrio con occasioni da entrambe le parti",
+      probability: "media-alta",
+      risk: "medium",
+    },
+    {
+      name: "Aggressive",
+      indexes: [7, 11, 13, 16, 20, 21, 22],
+      reason: "Scenario 2-1 o 1-2: partita aperta ma sotto i cinque gol, con produzione offensiva e corner di entrambe.",
+      scenario: "Partita aperta e sensibile al primo gol",
+      probability: "media",
+      risk: "medium",
+    },
+  ];
+
+  match.lineupUpdate = {
+    status: "official",
+    updatedAt: "2026-07-01T21:00:00+02:00",
+    verdict: "1-1",
+    alternatives: ["2-1 Belgio", "1-2 Senegal"],
+    notes: [
+      "De Ketelaere falso nove aumenta mobilità e combinazioni, ma riduce presenza fisica in area rispetto a Lukaku.",
+      "Tielemans-Vanaken offre qualità di possesso ma meno protezione sulle transizioni.",
+      "Diatta titolare da terzino è esposto ai duelli con Trossard e De Cuyper.",
+      "Seck non titolare: escluso dai candidati ammonito.",
+    ],
+  };
+
+  match.portfolios = definitions.map(definition => {
+    const events = definition.indexes.map(index => {
+      const event = ranking.events[index - 1];
+      if (!event) throw new Error(`Belgio-Senegal: evento ranking ${index} mancante.`);
+      return {
+        id: `event-${String(index).padStart(2, "0")}`,
+        market: event.mercato,
+        selection: event.selezione,
+        odds: event.quota,
+        selectionId: event.selectionId,
+        marketId: event.marketId,
+        category: event.categoria,
+        rankingScore: event.score,
+        class: event.classe,
+        reason: event.motivo,
+        riskScore: event.riskScore,
+        riskLevel: event.riskLevel,
+        riskReasons: event.riskReasons || [],
+      };
+    });
+    const finalOdds = round2(events.reduce((total, event) => total * Number(event.odds), 1));
+    return {
+      name: definition.name,
+      finalOdds,
+      events,
+      reason: definition.reason,
+      scenario: {
+        id: definition.name.toLowerCase(),
+        name: definition.scenario,
+        estimatedProbability: definition.probability,
+      },
+      strengths: [
+        "Selezioni ricalcolate dopo la conferma degli undici ufficiali.",
+        "Nessun mercato individuale con titolarità incerta.",
+        "Strategia indipendente dagli altri due portfolio.",
+      ],
+      weaknesses: [
+        definition.name === "Safe"
+          ? "I corner restano sensibili al momento del primo gol."
+          : "La strategia richiede produzione offensiva da entrambe le squadre.",
+      ],
+      riskProfile: {
+        averageRisk: definition.name === "Safe" ? 33 : definition.name === "Balanced" ? 45 : 51,
+        maxEventRisk: definition.name === "Safe" ? 42 : definition.name === "Balanced" ? 52 : 63,
+        maxSingleOdds: Math.max(...events.map(event => Number(event.odds))),
+        riskConcentration: definition.name === "Aggressive" ? "medium" : "low",
+        numberOfEvents: events.length,
+        highRiskEvents: 0,
+      },
+      riskVerdict: definition.risk,
+      riskNotes: ["Profilo ricalcolato sugli undici ufficiali e sui soli mercati presenti nell'export Sisal."],
+      optimization: {
+        initialOdds: finalOdds,
+        acceptedRange: definition.name === "Safe" ? [4.5, 5.5] : definition.name === "Balanced" ? [9, 11] : [18, 22],
+        removedEvents: [],
+        addedEvents: [],
+        improvementEstimate: "ricalcolo post-formazioni ufficiali",
+      },
+    };
+  });
+  return match;
+}
+
 function categoryFor(market) {
   const value = String(market || "").toLowerCase();
   if (value.includes("corner") || value.includes("angolo")) return "corner";
@@ -285,12 +413,14 @@ if (requestedSlug) {
   const source = readJson(`data/mvp/${requestedSlug}/portfolio-optimized.json`);
   const quote = readJson(`data/quote/${requestedSlug}-quote.json`);
   const ranking = readJson(`data/mvp/${requestedSlug}/ranking-events.json`);
-  const match = optimizedMatch(
-    requestedSlug,
-    source,
-    quote.date,
-    buildBookingsTrio(ranking, quote)
-  );
+  const match = requestedSlug === "belgio-senegal"
+    ? officialBelgiumSenegal(source, ranking, quote)
+    : optimizedMatch(
+        requestedSlug,
+        source,
+        quote.date,
+        buildBookingsTrio(ranking, quote)
+      );
   writeJson(`${requestedSlug}.json`, match);
   console.log(`MyCombo generata per ${source.match}.`);
   return;

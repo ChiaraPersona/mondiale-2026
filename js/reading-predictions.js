@@ -12,7 +12,7 @@ const readingPredictions = {
   "Francia|Svezia": { home: 3, away: 1, source: "letture/lettura-francia-svezia.html" },
   "Messico|Ecuador": { home: 1, away: 0, source: "letture/lettura-messico-ecuador.html" },
   "Inghilterra|RD Congo": { home: 3, away: 0, source: "letture/lettura-inghilterra-rd-congo.html" },
-  "Belgio|Senegal": { home: 1, away: 0, source: "letture/lettura-belgio-senegal.html" },
+  "Belgio|Senegal": { home: 1, away: 1, source: "letture/lettura-belgio-senegal.html" },
   "Stati Uniti|Bosnia ed Erzegovina": { home: 2, away: 0, source: "letture/lettura-stati-uniti-bosnia-erzegovina.html" },
   "Spagna|Austria": { home: 2, away: 0, source: "letture/lettura-spagna-austria.html" },
   "Portogallo|Croazia": { home: 1, away: 0, source: "letture/lettura-portogallo-croazia.html" },

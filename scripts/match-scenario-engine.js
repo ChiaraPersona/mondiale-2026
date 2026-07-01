@@ -176,6 +176,12 @@ const matchLevelOverrides = {
     balanced: "media",
     open: "bassa",
   },
+  "belgio-senegal": {
+    dominance: "media",
+    controlled: "media",
+    balanced: "alta",
+    open: "media",
+  },
 };
 
 function rootCauses(context, home, away) {

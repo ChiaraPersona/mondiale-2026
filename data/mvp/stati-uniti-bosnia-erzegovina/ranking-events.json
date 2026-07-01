@@ -2,32 +2,6 @@
   "match": "Stati Uniti - Bosnia Erzegovina",
   "events": [
     {
-      "mercato": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
-      "selezione": "1X",
-      "quota": 1.07,
-      "selectionId": 5194513844,
-      "marketId": 788827244,
-      "categoria": "esito",
-      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
-      "puntiDiForza": [
-        "Esito e qualificazione sono coerenti con le probabilità della lettura."
-      ],
-      "possibiliCriticita": [
-        "Una gara a eliminazione diretta conserva varianza elevata."
-      ],
-      "score": 95,
-      "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
-      "fattoriScore": {
-        "coerenzaAnalisi": 23,
-        "stabilitaMercato": 25,
-        "indipendenzaSingoloGiocatore": 15,
-        "stabilitaMinutaggio": 10,
-        "stabilitaAndamentoPartita": 12,
-        "semplicitaMercato": 10
-      }
-    },
-    {
       "mercato": "1X2 ESITO FINALE — ESITO FINALE 1X2",
       "selezione": "1",
       "quota": 1.38,
@@ -41,12 +15,20 @@
       "possibiliCriticita": [
         "Una gara a eliminazione diretta conserva varianza elevata."
       ],
-      "score": 92,
+      "marketKey": "match_result",
+      "marketIntelligence": {
+        "family": "result",
+        "volatility": 30,
+        "riskLevel": "low",
+        "correlationGroup": "match_result",
+        "starterCertainty": "unknown"
+      },
+      "score": 91,
       "classe": "CORE",
       "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 22,
+        "stabilitaMercato": 21,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 12,
@@ -67,12 +49,20 @@
       "possibiliCriticita": [
         "Una gara a eliminazione diretta conserva varianza elevata."
       ],
-      "score": 92,
+      "marketKey": "match_result",
+      "marketIntelligence": {
+        "family": "result",
+        "volatility": 30,
+        "riskLevel": "low",
+        "correlationGroup": "match_result",
+        "starterCertainty": "unknown"
+      },
+      "score": 91,
       "classe": "CORE",
       "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 22,
+        "stabilitaMercato": 21,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 12,
@@ -93,12 +83,54 @@
       "possibiliCriticita": [
         "Una gara a eliminazione diretta conserva varianza elevata."
       ],
-      "score": 92,
+      "marketKey": "match_result",
+      "marketIntelligence": {
+        "family": "result",
+        "volatility": 30,
+        "riskLevel": "low",
+        "correlationGroup": "match_result",
+        "starterCertainty": "unknown"
+      },
+      "score": 91,
       "classe": "CORE",
       "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 22,
+        "stabilitaMercato": 21,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 12,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+      "selezione": "1X",
+      "quota": 1.07,
+      "selectionId": 5194513844,
+      "marketId": 788827244,
+      "categoria": "esito",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Esito e qualificazione sono coerenti con le probabilità della lettura."
+      ],
+      "possibiliCriticita": [
+        "Una gara a eliminazione diretta conserva varianza elevata."
+      ],
+      "marketKey": "match_result",
+      "marketIntelligence": {
+        "family": "result",
+        "volatility": 30,
+        "riskLevel": "low",
+        "correlationGroup": "match_result",
+        "starterCertainty": "unknown"
+      },
+      "score": 91,
+      "classe": "CORE",
+      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 21,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 12,
@@ -119,12 +151,20 @@
       "possibiliCriticita": [
         "Una gara a eliminazione diretta conserva varianza elevata."
       ],
-      "score": 92,
+      "marketKey": "match_result",
+      "marketIntelligence": {
+        "family": "result",
+        "volatility": 30,
+        "riskLevel": "low",
+        "correlationGroup": "match_result",
+        "starterCertainty": "unknown"
+      },
+      "score": 91,
       "classe": "CORE",
       "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 22,
+        "stabilitaMercato": 21,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 12,
@@ -145,41 +185,23 @@
       "possibiliCriticita": [
         "Una gara a eliminazione diretta conserva varianza elevata."
       ],
-      "score": 92,
+      "marketKey": "match_result",
+      "marketIntelligence": {
+        "family": "result",
+        "volatility": 30,
+        "riskLevel": "low",
+        "correlationGroup": "match_result",
+        "starterCertainty": "unknown"
+      },
+      "score": 91,
       "classe": "CORE",
       "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 22,
-        "indipendenzaSingoloGiocatore": 15,
-        "stabilitaMinutaggio": 10,
-        "stabilitaAndamentoPartita": 12,
-        "semplicitaMercato": 10
-      }
-    },
-    {
-      "mercato": "MULTIGOAL SQUADRA X — MULTIGOAL SQUADRA 1 MULTIESITI",
-      "selezione": "1-3",
-      "quota": 1.3,
-      "selectionId": 5194476801,
-      "marketId": 788830678,
-      "categoria": "goal",
-      "motivo": "Fascia gol della squadra di casa coerente con lo scenario principale.",
-      "puntiDiForza": [
-        "Le linee gol selezionate coprono gli scenari centrali della lettura."
-      ],
-      "possibiliCriticita": [
-        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
-      ],
-      "score": 91,
-      "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
-      "fattoriScore": {
-        "coerenzaAnalisi": 25,
         "stabilitaMercato": 21,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
-        "stabilitaAndamentoPartita": 10,
+        "stabilitaAndamentoPartita": 12,
         "semplicitaMercato": 10
       }
     },
@@ -197,12 +219,20 @@
       "possibiliCriticita": [
         "Un gol precoce può cambiare radicalmente ritmo e punteggio."
       ],
-      "score": 89,
+      "marketKey": "goals_over_under",
+      "marketIntelligence": {
+        "family": "goals",
+        "volatility": 38,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 87,
       "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
+        "stabilitaMercato": 19,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -223,12 +253,20 @@
       "possibiliCriticita": [
         "Un gol precoce può cambiare radicalmente ritmo e punteggio."
       ],
-      "score": 89,
+      "marketKey": "goals_over_under",
+      "marketIntelligence": {
+        "family": "goals",
+        "volatility": 38,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 87,
       "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
+        "stabilitaMercato": 19,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -249,12 +287,20 @@
       "possibiliCriticita": [
         "Un gol precoce può cambiare radicalmente ritmo e punteggio."
       ],
-      "score": 89,
+      "marketKey": "goals_over_under",
+      "marketIntelligence": {
+        "family": "goals",
+        "volatility": 38,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 87,
       "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
+        "stabilitaMercato": 19,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -275,12 +321,20 @@
       "possibiliCriticita": [
         "Un gol precoce può cambiare radicalmente ritmo e punteggio."
       ],
-      "score": 89,
+      "marketKey": "goals_over_under",
+      "marketIntelligence": {
+        "family": "goals",
+        "volatility": 38,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 87,
       "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
+        "stabilitaMercato": 19,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -301,12 +355,20 @@
       "possibiliCriticita": [
         "Un gol precoce può cambiare radicalmente ritmo e punteggio."
       ],
-      "score": 89,
+      "marketKey": "goals_over_under",
+      "marketIntelligence": {
+        "family": "goals",
+        "volatility": 38,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 87,
       "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
+        "stabilitaMercato": 19,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -327,12 +389,20 @@
       "possibiliCriticita": [
         "Un gol precoce può cambiare radicalmente ritmo e punteggio."
       ],
-      "score": 89,
+      "marketKey": "goals_over_under",
+      "marketIntelligence": {
+        "family": "goals",
+        "volatility": 38,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 87,
       "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
+        "stabilitaMercato": 19,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -353,90 +423,20 @@
       "possibiliCriticita": [
         "Un gol precoce può cambiare radicalmente ritmo e punteggio."
       ],
-      "score": 89,
+      "marketKey": "goals_over_under",
+      "marketIntelligence": {
+        "family": "goals",
+        "volatility": 38,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 87,
       "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
-        "indipendenzaSingoloGiocatore": 15,
-        "stabilitaMinutaggio": 10,
-        "stabilitaAndamentoPartita": 10,
-        "semplicitaMercato": 10
-      }
-    },
-    {
-      "mercato": "U/O CORNER — U/O 7.5 CORNER",
-      "selezione": "OVER",
-      "quota": 1.33,
-      "selectionId": 5198591258,
-      "marketId": 789602368,
-      "categoria": "corner",
-      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
-      "puntiDiForza": [
-        "Le soglie corner sono vicine alla proiezione territoriale della partita."
-      ],
-      "possibiliCriticita": [
-        "Il volume dipende da punteggio e durata della pressione offensiva."
-      ],
-      "score": 89,
-      "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
-      "fattoriScore": {
-        "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
-        "indipendenzaSingoloGiocatore": 15,
-        "stabilitaMinutaggio": 10,
-        "stabilitaAndamentoPartita": 10,
-        "semplicitaMercato": 10
-      }
-    },
-    {
-      "mercato": "U/O CORNER — U/O 8.5 CORNER",
-      "selezione": "OVER",
-      "quota": 1.57,
-      "selectionId": 5198591226,
-      "marketId": 789602360,
-      "categoria": "corner",
-      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
-      "puntiDiForza": [
-        "Le soglie corner sono vicine alla proiezione territoriale della partita."
-      ],
-      "possibiliCriticita": [
-        "Il volume dipende da punteggio e durata della pressione offensiva."
-      ],
-      "score": 89,
-      "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
-      "fattoriScore": {
-        "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
-        "indipendenzaSingoloGiocatore": 15,
-        "stabilitaMinutaggio": 10,
-        "stabilitaAndamentoPartita": 10,
-        "semplicitaMercato": 10
-      }
-    },
-    {
-      "mercato": "U/O CORNER — U/O 10.5 CORNER",
-      "selezione": "UNDER",
-      "quota": 1.48,
-      "selectionId": 5198591297,
-      "marketId": 789602378,
-      "categoria": "corner",
-      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
-      "puntiDiForza": [
-        "Le soglie corner sono vicine alla proiezione territoriale della partita."
-      ],
-      "possibiliCriticita": [
-        "Il volume dipende da punteggio e durata della pressione offensiva."
-      ],
-      "score": 89,
-      "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
-      "fattoriScore": {
-        "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
+        "stabilitaMercato": 19,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -457,12 +457,156 @@
       "possibiliCriticita": [
         "Un gol precoce può cambiare radicalmente ritmo e punteggio."
       ],
-      "score": 89,
+      "marketKey": "multigoal",
+      "marketIntelligence": {
+        "family": "goal_range",
+        "volatility": 42,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 87,
       "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 21,
+        "stabilitaMercato": 19,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "MULTIGOAL SQUADRA X — MULTIGOAL SQUADRA 1 MULTIESITI",
+      "selezione": "1-3",
+      "quota": 1.3,
+      "selectionId": 5194476801,
+      "marketId": 788830678,
+      "categoria": "goal",
+      "motivo": "Fascia gol della squadra di casa coerente con lo scenario principale.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ],
+      "marketKey": "team_multigoal",
+      "marketIntelligence": {
+        "family": "team_goal_range",
+        "volatility": 48,
+        "riskLevel": "medium",
+        "correlationGroup": "team_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 87,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 25,
+        "stabilitaMercato": 17,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER — U/O 7.5 CORNER",
+      "selezione": "OVER",
+      "quota": 1.33,
+      "selectionId": 5198591258,
+      "marketId": 789602368,
+      "categoria": "corner",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ],
+      "marketKey": "corners_over_under",
+      "marketIntelligence": {
+        "family": "corners",
+        "volatility": 44,
+        "riskLevel": "medium",
+        "correlationGroup": "corners",
+        "starterCertainty": "unknown"
+      },
+      "score": 86,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 18,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER — U/O 8.5 CORNER",
+      "selezione": "OVER",
+      "quota": 1.57,
+      "selectionId": 5198591226,
+      "marketId": 789602360,
+      "categoria": "corner",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ],
+      "marketKey": "corners_over_under",
+      "marketIntelligence": {
+        "family": "corners",
+        "volatility": 44,
+        "riskLevel": "medium",
+        "correlationGroup": "corners",
+        "starterCertainty": "unknown"
+      },
+      "score": 86,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 18,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "U/O CORNER — U/O 10.5 CORNER",
+      "selezione": "UNDER",
+      "quota": 1.48,
+      "selectionId": 5198591297,
+      "marketId": 789602378,
+      "categoria": "corner",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ],
+      "marketKey": "corners_over_under",
+      "marketIntelligence": {
+        "family": "corners",
+        "volatility": 44,
+        "riskLevel": "medium",
+        "correlationGroup": "corners",
+        "starterCertainty": "unknown"
+      },
+      "score": 86,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 23,
+        "stabilitaMercato": 18,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -483,12 +627,20 @@
       "possibiliCriticita": [
         "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
       ],
-      "score": 88,
-      "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "marketKey": "team_total_shots",
+      "marketIntelligence": {
+        "family": "team_offensive",
+        "volatility": 46,
+        "riskLevel": "medium",
+        "correlationGroup": "team_shots",
+        "starterCertainty": "unknown"
+      },
+      "score": 86,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 20,
+        "stabilitaMercato": 18,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -509,12 +661,20 @@
       "possibiliCriticita": [
         "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
       ],
-      "score": 88,
-      "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "marketKey": "team_total_shots",
+      "marketIntelligence": {
+        "family": "team_offensive",
+        "volatility": 46,
+        "riskLevel": "medium",
+        "correlationGroup": "team_shots",
+        "starterCertainty": "unknown"
+      },
+      "score": 86,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 20,
+        "stabilitaMercato": 18,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -535,12 +695,20 @@
       "possibiliCriticita": [
         "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
       ],
-      "score": 88,
-      "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "marketKey": "team_shots_on_target",
+      "marketIntelligence": {
+        "family": "team_offensive",
+        "volatility": 50,
+        "riskLevel": "medium",
+        "correlationGroup": "team_shots",
+        "starterCertainty": "unknown"
+      },
+      "score": 85,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 20,
+        "stabilitaMercato": 17,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -561,12 +729,20 @@
       "possibiliCriticita": [
         "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
       ],
-      "score": 88,
-      "classe": "CORE",
-      "motivoScore": "CORE: forte coerenza con l'analisi e mercato strutturalmente stabile.",
+      "marketKey": "team_shots_on_target",
+      "marketIntelligence": {
+        "family": "team_offensive",
+        "volatility": 50,
+        "riskLevel": "medium",
+        "correlationGroup": "team_shots",
+        "starterCertainty": "unknown"
+      },
+      "score": 85,
+      "classe": "VALUE",
+      "motivoScore": "VALUE: forte coerenza con l'analisi; penalizzato da mercato soggetto a maggiore varianza.",
       "fattoriScore": {
         "coerenzaAnalisi": 23,
-        "stabilitaMercato": 20,
+        "stabilitaMercato": 17,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -574,25 +750,34 @@
       }
     },
     {
-      "mercato": "U/O CORNER SQUADRA X — U/O 2.5 CORNER SQUADRA 2",
-      "selezione": "UNDER",
-      "quota": 2.2,
-      "selectionId": 5198591281,
-      "marketId": 789602374,
-      "categoria": "corner",
-      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "mercato": "COMBO: 1X2 + MULTIGOAL 6 ESITI — 1X2 + MULTIGOAL 1 - 2",
+      "selezione": "1+ MULTIGOAL",
+      "quota": 3.6,
+      "selectionId": 5194478805,
+      "marketId": 788830892,
+      "categoria": "goal",
+      "marketKey": "multigoal",
+      "motivo": "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
       "puntiDiForza": [
-        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
       ],
       "possibiliCriticita": [
-        "Il volume dipende da punteggio e durata della pressione offensiva."
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio.",
+        "Preferire fasce ampie coerenti con la proiezione."
       ],
-      "score": 88,
+      "marketIntelligence": {
+        "family": "goal_range",
+        "volatility": 42,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 85,
       "classe": "CORE",
-      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
-        "stabilitaMercato": 22,
+        "stabilitaMercato": 19,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -600,25 +785,34 @@
       }
     },
     {
-      "mercato": "U/O CORNER SQUADRA X — U/O 2.5 CORNER SQUADRA 2",
-      "selezione": "OVER",
-      "quota": 1.52,
-      "selectionId": 5198591282,
-      "marketId": 789602374,
-      "categoria": "corner",
-      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "mercato": "COMBO: 1X2 + MULTIGOAL 6 ESITI — 1X2 + MULTIGOAL 1 - 2",
+      "selezione": "1+ALTRO",
+      "quota": 1.83,
+      "selectionId": 5194478806,
+      "marketId": 788830892,
+      "categoria": "goal",
+      "marketKey": "multigoal",
+      "motivo": "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
       "puntiDiForza": [
-        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
       ],
       "possibiliCriticita": [
-        "Il volume dipende da punteggio e durata della pressione offensiva."
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio.",
+        "Preferire fasce ampie coerenti con la proiezione."
       ],
-      "score": 88,
+      "marketIntelligence": {
+        "family": "goal_range",
+        "volatility": 42,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 85,
       "classe": "CORE",
-      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
-        "stabilitaMercato": 22,
+        "stabilitaMercato": 19,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -626,25 +820,34 @@
       }
     },
     {
-      "mercato": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2",
-      "selezione": "UNDER",
-      "quota": 1.52,
-      "selectionId": 5198591355,
-      "marketId": 789602392,
-      "categoria": "corner",
-      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "mercato": "COMBO: 1X2 + MULTIGOAL 6 ESITI — 1X2 + MULTIGOAL 1 - 3",
+      "selezione": "1+ MULTIGOAL",
+      "quota": 2.1,
+      "selectionId": 5194478943,
+      "marketId": 788830913,
+      "categoria": "goal",
+      "marketKey": "multigoal",
+      "motivo": "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
       "puntiDiForza": [
-        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
       ],
       "possibiliCriticita": [
-        "Il volume dipende da punteggio e durata della pressione offensiva."
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio.",
+        "Preferire fasce ampie coerenti con la proiezione."
       ],
-      "score": 88,
+      "marketIntelligence": {
+        "family": "goal_range",
+        "volatility": 42,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 85,
       "classe": "CORE",
-      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
-        "stabilitaMercato": 22,
+        "stabilitaMercato": 19,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -652,25 +855,69 @@
       }
     },
     {
-      "mercato": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2",
-      "selezione": "OVER",
-      "quota": 2.2,
-      "selectionId": 5198591356,
-      "marketId": 789602392,
-      "categoria": "corner",
-      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "mercato": "COMBO: 1X2 + MULTIGOAL 6 ESITI — 1X2 + MULTIGOAL 1 - 3",
+      "selezione": "1+ALTRO",
+      "quota": 2.9,
+      "selectionId": 5194478944,
+      "marketId": 788830913,
+      "categoria": "goal",
+      "marketKey": "multigoal",
+      "motivo": "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
       "puntiDiForza": [
-        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
       ],
       "possibiliCriticita": [
-        "Il volume dipende da punteggio e durata della pressione offensiva."
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio.",
+        "Preferire fasce ampie coerenti con la proiezione."
       ],
-      "score": 88,
+      "marketIntelligence": {
+        "family": "goal_range",
+        "volatility": 42,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 85,
       "classe": "CORE",
-      "motivoScore": "CORE: buona coerenza con il copione e mercato strutturalmente stabile; penalizzato da sensibilità all'andamento del punteggio.",
+      "motivoScore": "CORE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
-        "stabilitaMercato": 22,
+        "stabilitaMercato": 19,
+        "indipendenzaSingoloGiocatore": 15,
+        "stabilitaMinutaggio": 10,
+        "stabilitaAndamentoPartita": 10,
+        "semplicitaMercato": 10
+      }
+    },
+    {
+      "mercato": "COMBO: 1X2 + MULTIGOAL 6 ESITI — 1X2 + MULTIGOAL 1 - 2",
+      "selezione": "X+ALTRO",
+      "quota": 7.5,
+      "selectionId": 5194478808,
+      "marketId": 788830892,
+      "categoria": "goal",
+      "marketKey": "multigoal",
+      "motivo": "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio.",
+        "Preferire fasce ampie coerenti con la proiezione."
+      ],
+      "marketIntelligence": {
+        "family": "goal_range",
+        "volatility": 42,
+        "riskLevel": "medium_low",
+        "correlationGroup": "match_goals",
+        "starterCertainty": "unknown"
+      },
+      "score": 82,
+      "classe": "CORE",
+      "motivoScore": "CORE: supporto sufficiente dell'analisi; penalizzato da linea più aggressiva rispetto allo scenario centrale e mercato soggetto a maggiore varianza e sensibilità all'andamento del punteggio.",
+      "fattoriScore": {
+        "coerenzaAnalisi": 18,
+        "stabilitaMercato": 19,
         "indipendenzaSingoloGiocatore": 15,
         "stabilitaMinutaggio": 10,
         "stabilitaAndamentoPartita": 10,
@@ -691,14 +938,22 @@
       "possibiliCriticita": [
         "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
       ],
-      "score": 61,
+      "marketKey": "player_total_shots",
+      "marketIntelligence": {
+        "family": "offensive_player",
+        "volatility": 62,
+        "riskLevel": "medium",
+        "correlationGroup": "player_shots",
+        "starterCertainty": "unknown"
+      },
+      "score": 57,
       "classe": "VALUE",
       "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
         "stabilitaMercato": 15,
         "indipendenzaSingoloGiocatore": 4,
-        "stabilitaMinutaggio": 5,
+        "stabilitaMinutaggio": 1,
         "stabilitaAndamentoPartita": 8,
         "semplicitaMercato": 8
       }
@@ -717,14 +972,22 @@
       "possibiliCriticita": [
         "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
       ],
-      "score": 61,
+      "marketKey": "player_total_shots",
+      "marketIntelligence": {
+        "family": "offensive_player",
+        "volatility": 62,
+        "riskLevel": "medium",
+        "correlationGroup": "player_shots",
+        "starterCertainty": "unknown"
+      },
+      "score": 57,
       "classe": "VALUE",
       "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
         "stabilitaMercato": 15,
         "indipendenzaSingoloGiocatore": 4,
-        "stabilitaMinutaggio": 5,
+        "stabilitaMinutaggio": 1,
         "stabilitaAndamentoPartita": 8,
         "semplicitaMercato": 8
       }
@@ -743,14 +1006,22 @@
       "possibiliCriticita": [
         "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
       ],
-      "score": 61,
+      "marketKey": "player_total_shots",
+      "marketIntelligence": {
+        "family": "offensive_player",
+        "volatility": 62,
+        "riskLevel": "medium",
+        "correlationGroup": "player_shots",
+        "starterCertainty": "unknown"
+      },
+      "score": 57,
       "classe": "VALUE",
       "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
         "stabilitaMercato": 15,
         "indipendenzaSingoloGiocatore": 4,
-        "stabilitaMinutaggio": 5,
+        "stabilitaMinutaggio": 1,
         "stabilitaAndamentoPartita": 8,
         "semplicitaMercato": 8
       }
@@ -769,14 +1040,22 @@
       "possibiliCriticita": [
         "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
       ],
-      "score": 61,
+      "marketKey": "player_total_shots",
+      "marketIntelligence": {
+        "family": "offensive_player",
+        "volatility": 62,
+        "riskLevel": "medium",
+        "correlationGroup": "player_shots",
+        "starterCertainty": "unknown"
+      },
+      "score": 57,
       "classe": "VALUE",
       "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
         "stabilitaMercato": 15,
         "indipendenzaSingoloGiocatore": 4,
-        "stabilitaMinutaggio": 5,
+        "stabilitaMinutaggio": 1,
         "stabilitaAndamentoPartita": 8,
         "semplicitaMercato": 8
       }
@@ -795,14 +1074,22 @@
       "possibiliCriticita": [
         "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
       ],
-      "score": 61,
+      "marketKey": "player_total_shots",
+      "marketIntelligence": {
+        "family": "offensive_player",
+        "volatility": 62,
+        "riskLevel": "medium",
+        "correlationGroup": "player_shots",
+        "starterCertainty": "unknown"
+      },
+      "score": 57,
       "classe": "VALUE",
       "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
         "stabilitaMercato": 15,
         "indipendenzaSingoloGiocatore": 4,
-        "stabilitaMinutaggio": 5,
+        "stabilitaMinutaggio": 1,
         "stabilitaAndamentoPartita": 8,
         "semplicitaMercato": 8
       }
@@ -821,14 +1108,22 @@
       "possibiliCriticita": [
         "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
       ],
-      "score": 61,
+      "marketKey": "player_total_shots",
+      "marketIntelligence": {
+        "family": "offensive_player",
+        "volatility": 62,
+        "riskLevel": "medium",
+        "correlationGroup": "player_shots",
+        "starterCertainty": "unknown"
+      },
+      "score": 57,
       "classe": "VALUE",
       "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e dipendenza dal singolo giocatore e dal minutaggio.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
         "stabilitaMercato": 15,
         "indipendenzaSingoloGiocatore": 4,
-        "stabilitaMinutaggio": 5,
+        "stabilitaMinutaggio": 1,
         "stabilitaAndamentoPartita": 8,
         "semplicitaMercato": 8
       }
@@ -847,14 +1142,22 @@
       "possibiliCriticita": [
         "Il cartellino individuale rimane un mercato ad alta varianza."
       ],
-      "score": 56,
-      "classe": "VALUE",
-      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
+      "marketKey": "player_card",
+      "marketIntelligence": {
+        "family": "disciplinary_player",
+        "volatility": 76,
+        "riskLevel": "high",
+        "correlationGroup": "player_cards",
+        "starterCertainty": "unknown"
+      },
+      "score": 52,
+      "classe": "SPECULATIVE",
+      "motivoScore": "SPECULATIVE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
-        "stabilitaMercato": 10,
+        "stabilitaMercato": 12,
         "indipendenzaSingoloGiocatore": 3,
-        "stabilitaMinutaggio": 7,
+        "stabilitaMinutaggio": 1,
         "stabilitaAndamentoPartita": 7,
         "semplicitaMercato": 8
       }
@@ -873,14 +1176,22 @@
       "possibiliCriticita": [
         "Il cartellino individuale rimane un mercato ad alta varianza."
       ],
-      "score": 56,
-      "classe": "VALUE",
-      "motivoScore": "VALUE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
+      "marketKey": "player_card",
+      "marketIntelligence": {
+        "family": "disciplinary_player",
+        "volatility": 76,
+        "riskLevel": "high",
+        "correlationGroup": "player_cards",
+        "starterCertainty": "unknown"
+      },
+      "score": 52,
+      "classe": "SPECULATIVE",
+      "motivoScore": "SPECULATIVE: buona coerenza con il copione; penalizzato da mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
       "fattoriScore": {
         "coerenzaAnalisi": 21,
-        "stabilitaMercato": 10,
+        "stabilitaMercato": 12,
         "indipendenzaSingoloGiocatore": 3,
-        "stabilitaMinutaggio": 7,
+        "stabilitaMinutaggio": 1,
         "stabilitaAndamentoPartita": 7,
         "semplicitaMercato": 8
       }
@@ -899,40 +1210,22 @@
       "possibiliCriticita": [
         "Il cartellino individuale rimane un mercato ad alta varianza."
       ],
-      "score": 53,
+      "marketKey": "player_card",
+      "marketIntelligence": {
+        "family": "disciplinary_player",
+        "volatility": 76,
+        "riskLevel": "high",
+        "correlationGroup": "player_cards",
+        "starterCertainty": "unknown"
+      },
+      "score": 49,
       "classe": "SPECULATIVE",
       "motivoScore": "SPECULATIVE: supporto sufficiente dell'analisi; penalizzato da linea più aggressiva rispetto allo scenario centrale e mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
       "fattoriScore": {
         "coerenzaAnalisi": 18,
-        "stabilitaMercato": 10,
+        "stabilitaMercato": 12,
         "indipendenzaSingoloGiocatore": 3,
-        "stabilitaMinutaggio": 7,
-        "stabilitaAndamentoPartita": 7,
-        "semplicitaMercato": 8
-      }
-    },
-    {
-      "mercato": "CARTELLINO SI/NO (DUO) INC TS — BASIC I. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
-      "selezione": "SI",
-      "quota": 4.5,
-      "selectionId": 5198593078,
-      "marketId": 789602535,
-      "categoria": "cartellini",
-      "motivo": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
-      "puntiDiForza": [
-        "I candidati sono esposti ai duelli tattici principali e al profilo arbitrale."
-      ],
-      "possibiliCriticita": [
-        "Il cartellino individuale rimane un mercato ad alta varianza."
-      ],
-      "score": 53,
-      "classe": "SPECULATIVE",
-      "motivoScore": "SPECULATIVE: supporto sufficiente dell'analisi; penalizzato da linea più aggressiva rispetto allo scenario centrale e mercato soggetto a maggiore varianza e forte sensibilità a arbitro e sviluppo dei duelli.",
-      "fattoriScore": {
-        "coerenzaAnalisi": 18,
-        "stabilitaMercato": 10,
-        "indipendenzaSingoloGiocatore": 3,
-        "stabilitaMinutaggio": 7,
+        "stabilitaMinutaggio": 1,
         "stabilitaAndamentoPartita": 7,
         "semplicitaMercato": 8
       }

@@ -1446,6 +1446,23 @@ const worldCupResults = {
       "MyCombo: Safe 4/5, Balanced 5/6 e Aggressive 6/6. Il solo errore dei primi due portfolio è l'Over 17,5 tiri Inghilterra.",
     ],
   },
+  82: {
+    status: "Finale dopo i supplementari",
+    home: 3,
+    away: 2,
+    winner: "Belgio",
+    source: "https://www.diretta.it/partita/calcio/belgio-GbB957na/senegal-hOIsJLJr/?mid=vPsIXWOb",
+    sources: ["https://www.diretta.it/partita/calcio/belgio-GbB957na/senegal-hOIsJLJr/?mid=vPsIXWOb"],
+    scorers: {
+      Belgio: ["Romelu Lukaku", "Youri Tielemans", "Youri Tielemans"],
+      Senegal: ["Habib Diarra", "Ismaila Sarr"],
+    },
+    notes: [
+      "Belgio e Senegal chiudono 2-2 i tempi regolamentari.",
+      "Tielemans segna su rigore al 120+5' e porta il Belgio agli ottavi.",
+      "MyCombo: Safe 4/6, Balanced 4/5 e Aggressive 6/7; decisivi Multigoal 1-3 e Over 7,5 corner.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

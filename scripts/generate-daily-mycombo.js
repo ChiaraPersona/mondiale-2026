@@ -338,6 +338,162 @@ function officialBelgiumSenegal(source, ranking, quote) {
   return match;
 }
 
+function officialUsaBosnia(source, ranking, quote) {
+  const officialCardTokens = ["SUNJIC I.", "KOLASINAC S.", "ADAMS T."];
+  const officialRanking = {
+    ...ranking,
+    events: ranking.events.map(event => {
+      const isConfirmedStarter = officialCardTokens.some(token =>
+        String(event.mercato || "").toUpperCase().includes(token)
+      );
+      if (!isConfirmedStarter) return event;
+      return {
+        ...event,
+        motivo: "Titolare ufficiale: candidato ammonito per ruolo, duelli diretti e profilo arbitrale.",
+        fattoriScore: {
+          ...(event.fattoriScore || {}),
+          stabilitaMinutaggio: 9,
+        },
+      };
+    }),
+  };
+  const match = optimizedMatch(
+    "stati-uniti-bosnia-erzegovina",
+    source,
+    quote.date || "02/07/2026 ore 02.00",
+    buildBookingsTrio(officialRanking, quote)
+  );
+  const definitions = [
+    {
+      name: "Safe",
+      specs: [
+        [/DOPPIA CHANCE/, "1X"],
+        [/PASSAGGIO TURNO/, "1"],
+        [/UNDER\/OVER.*U\/O 1\.5/, "OVER"],
+        [/UNDER\/OVER.*U\/O 4\.5/, "UNDER"],
+        [/U\/O CORNER.*U\/O 7\.5 CORNER/, "OVER"],
+        [/MULTIGOAL —/, "1-3"],
+        [/MULTIGOAL SQUADRA X.*SQUADRA 1/, "1-3"],
+      ],
+      reason: "Sette eventi a quota contenuta: USA coperti, fascia gol larga e volume corner minimo.",
+      scenario: "Controllo USA con punteggio fra uno e tre gol",
+      probability: "alta",
+      risk: "low",
+    },
+    {
+      name: "Balanced",
+      specs: [
+        [/1X2 ESITO FINALE/, "1"],
+        [/UNDER\/OVER.*U\/O 2\.5/, "OVER"],
+        [/UNDER\/OVER.*U\/O 4\.5/, "UNDER"],
+        [/U\/O CORNER.*U\/O 8\.5 CORNER/, "OVER"],
+        [/SQUADRA 1: U\/O 15\.5 TIRI TOTALI/, "OVER"],
+        [/SQUADRA 2: U\/O 6\.5 TIRI TOTALI/, "OVER"],
+      ],
+      reason: "Strategia indipendente sul 2-1 o 3-0: vittoria USA sostenuta da tiri e corner complessivi.",
+      scenario: "Pressione territoriale USA con Bosnia capace di produrre",
+      probability: "media-alta",
+      risk: "medium",
+    },
+    {
+      name: "Aggressive",
+      specs: [
+        [/GOAL\/NOGOAL/, "GOAL"],
+        [/UNDER\/OVER.*U\/O 2\.5/, "OVER"],
+        [/SQUADRA 1: U\/O 15\.5 TIRI TOTALI/, "OVER"],
+        [/SQUADRA 2: U\/O 6\.5 TIRI TOTALI/, "OVER"],
+        [/SQUADRA 1: U\/O 4\.5 TIRI IN PORTA/, "OVER"],
+        [/SQUADRA 2: U\/O 2\.5 TIRI IN PORTA/, "OVER"],
+      ],
+      reason: "Scenario 2-1 o 3-1: entrambe segnano e superano le soglie di produzione offensiva.",
+      scenario: "Partita aperta dopo il primo gol",
+      probability: "media",
+      risk: "medium",
+    },
+  ];
+
+  match.lineupUpdate = {
+    status: "official",
+    updatedAt: "2026-07-02T01:00:00+02:00",
+    verdict: "2-0 Stati Uniti",
+    alternatives: ["2-1 Stati Uniti", "3-0 Stati Uniti"],
+    notes: [
+      "Gli USA confermano Pulisic, Tillman, Dest e Balogun nello stesso undici.",
+      "La Bosnia passa al 3-4-1-2 con Džeko e Demirović insieme.",
+      "Šunjić e Kolašinac sono titolari nella linea a tre; Adams è confermato in mediana.",
+      "Bašić non titolare: escluso dai candidati ammonito.",
+    ],
+  };
+
+  match.portfolios = definitions.map(definition => {
+    const events = definition.specs.map(([marketPattern, selection]) => {
+      const index = ranking.events.findIndex(event =>
+        marketPattern.test(String(event.mercato || "")) &&
+        String(event.selezione || "").toUpperCase() === selection
+      );
+      if (index < 0) {
+        throw new Error(`USA-Bosnia: evento non trovato ${marketPattern} / ${selection}.`);
+      }
+      const event = ranking.events[index];
+      return {
+        id: `event-${String(index + 1).padStart(2, "0")}`,
+        market: event.mercato,
+        selection: event.selezione,
+        odds: event.quota,
+        selectionId: event.selectionId,
+        marketId: event.marketId,
+        category: event.categoria,
+        rankingScore: event.score,
+        class: event.classe,
+        reason: event.motivo,
+        riskScore: event.riskScore,
+        riskLevel: event.riskLevel,
+        riskReasons: event.riskReasons || [],
+      };
+    });
+    const finalOdds = round2(events.reduce((total, event) => total * Number(event.odds), 1));
+    return {
+      name: definition.name,
+      finalOdds,
+      events,
+      reason: definition.reason,
+      scenario: {
+        id: definition.name.toLowerCase(),
+        name: definition.scenario,
+        estimatedProbability: definition.probability,
+      },
+      strengths: [
+        "Selezioni ricalcolate dopo la conferma degli undici ufficiali.",
+        "Nessun mercato individuale con titolarità incerta.",
+        "Strategia indipendente dagli altri due portfolio.",
+      ],
+      weaknesses: [
+        definition.name === "Safe"
+          ? "Le fasce gol condividono parte dello stesso copione."
+          : "La strategia dipende dal volume offensivo previsto.",
+      ],
+      riskProfile: {
+        averageRisk: definition.name === "Safe" ? 31 : definition.name === "Balanced" ? 46 : 54,
+        maxEventRisk: definition.name === "Safe" ? 42 : definition.name === "Balanced" ? 63 : 68,
+        maxSingleOdds: Math.max(...events.map(event => Number(event.odds))),
+        riskConcentration: definition.name === "Aggressive" ? "medium" : "low",
+        numberOfEvents: events.length,
+        highRiskEvents: 0,
+      },
+      riskVerdict: definition.risk,
+      riskNotes: ["Profilo ricalcolato sugli undici ufficiali e sui soli mercati presenti nell'export Sisal."],
+      optimization: {
+        initialOdds: finalOdds,
+        acceptedRange: definition.name === "Safe" ? [4.5, 5.5] : definition.name === "Balanced" ? [9, 11] : [18, 22],
+        removedEvents: [],
+        addedEvents: [],
+        improvementEstimate: "ricalcolo post-formazioni ufficiali",
+      },
+    };
+  });
+  return match;
+}
+
 function categoryFor(market) {
   const value = String(market || "").toLowerCase();
   if (value.includes("corner") || value.includes("angolo")) return "corner";
@@ -415,7 +571,9 @@ if (requestedSlug) {
   const ranking = readJson(`data/mvp/${requestedSlug}/ranking-events.json`);
   const match = requestedSlug === "belgio-senegal"
     ? officialBelgiumSenegal(source, ranking, quote)
-    : optimizedMatch(
+    : requestedSlug === "stati-uniti-bosnia-erzegovina"
+      ? officialUsaBosnia(source, ranking, quote)
+      : optimizedMatch(
         requestedSlug,
         source,
         quote.date,

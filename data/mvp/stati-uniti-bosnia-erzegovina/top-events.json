@@ -467,78 +467,88 @@
       ]
     },
     {
-      "mercato": "CARTELLINO SI/NO (DUO) INC TS — BASIC I. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
-      "selezione": "SI",
-      "quota": 4.5,
-      "selectionId": 5198593078,
-      "marketId": 789602535,
-      "categoria": "cartellini",
-      "motivo": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+      "mercato": "COMBO: 1X2 + MULTIGOAL 6 ESITI — 1X2 + MULTIGOAL 1 - 2",
+      "selezione": "1+ MULTIGOAL",
+      "quota": 3.6,
+      "selectionId": 5194478805,
+      "marketId": 788830892,
+      "categoria": "goal",
+      "marketKey": "multigoal",
+      "motivo": "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
       "puntiDiForza": [
-        "I candidati sono esposti ai duelli tattici principali e al profilo arbitrale."
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
       ],
       "possibiliCriticita": [
-        "Il cartellino individuale rimane un mercato ad alta varianza."
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio.",
+        "Preferire fasce ampie coerenti con la proiezione."
       ]
     },
     {
-      "mercato": "U/O CORNER SQUADRA X — U/O 2.5 CORNER SQUADRA 2",
-      "selezione": "UNDER",
-      "quota": 2.2,
-      "selectionId": 5198591281,
-      "marketId": 789602374,
-      "categoria": "corner",
-      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "mercato": "COMBO: 1X2 + MULTIGOAL 6 ESITI — 1X2 + MULTIGOAL 1 - 2",
+      "selezione": "1+ALTRO",
+      "quota": 1.83,
+      "selectionId": 5194478806,
+      "marketId": 788830892,
+      "categoria": "goal",
+      "marketKey": "multigoal",
+      "motivo": "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
       "puntiDiForza": [
-        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
       ],
       "possibiliCriticita": [
-        "Il volume dipende da punteggio e durata della pressione offensiva."
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio.",
+        "Preferire fasce ampie coerenti con la proiezione."
       ]
     },
     {
-      "mercato": "U/O CORNER SQUADRA X — U/O 2.5 CORNER SQUADRA 2",
-      "selezione": "OVER",
-      "quota": 1.52,
-      "selectionId": 5198591282,
-      "marketId": 789602374,
-      "categoria": "corner",
-      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "mercato": "COMBO: 1X2 + MULTIGOAL 6 ESITI — 1X2 + MULTIGOAL 1 - 2",
+      "selezione": "X+ALTRO",
+      "quota": 7.5,
+      "selectionId": 5194478808,
+      "marketId": 788830892,
+      "categoria": "goal",
+      "marketKey": "multigoal",
+      "motivo": "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
       "puntiDiForza": [
-        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
       ],
       "possibiliCriticita": [
-        "Il volume dipende da punteggio e durata della pressione offensiva."
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio.",
+        "Preferire fasce ampie coerenti con la proiezione."
       ]
     },
     {
-      "mercato": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2",
-      "selezione": "UNDER",
-      "quota": 1.52,
-      "selectionId": 5198591355,
-      "marketId": 789602392,
-      "categoria": "corner",
-      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "mercato": "COMBO: 1X2 + MULTIGOAL 6 ESITI — 1X2 + MULTIGOAL 1 - 3",
+      "selezione": "1+ MULTIGOAL",
+      "quota": 2.1,
+      "selectionId": 5194478943,
+      "marketId": 788830913,
+      "categoria": "goal",
+      "marketKey": "multigoal",
+      "motivo": "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
       "puntiDiForza": [
-        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
       ],
       "possibiliCriticita": [
-        "Il volume dipende da punteggio e durata della pressione offensiva."
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio.",
+        "Preferire fasce ampie coerenti con la proiezione."
       ]
     },
     {
-      "mercato": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2",
-      "selezione": "OVER",
-      "quota": 2.2,
-      "selectionId": 5198591356,
-      "marketId": 789602392,
-      "categoria": "corner",
-      "motivo": "Evento di supporto selezionato entro limiti di quota e mercato.",
+      "mercato": "COMBO: 1X2 + MULTIGOAL 6 ESITI — 1X2 + MULTIGOAL 1 - 3",
+      "selezione": "1+ALTRO",
+      "quota": 2.9,
+      "selectionId": 5194478944,
+      "marketId": 788830913,
+      "categoria": "goal",
+      "marketKey": "multigoal",
+      "motivo": "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
       "puntiDiForza": [
-        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
       ],
       "possibiliCriticita": [
-        "Il volume dipende da punteggio e durata della pressione offensiva."
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio.",
+        "Preferire fasce ampie coerenti con la proiezione."
       ]
     }
   ]

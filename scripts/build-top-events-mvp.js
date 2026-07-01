@@ -324,7 +324,7 @@ const plans = {
     match: "Stati Uniti - Bosnia Erzegovina",
     projections: { homeShots: 15.5, awayShots: 6.5, homeSot: 4.5, awaySot: 2.5 },
     players: ["BALOGUN F.", "PULISIC C.", "TILLMAN M.", "DZEKO E.", "DEMIROVIC ERMEDIN", "BAJRAKTAREVIC E."],
-    cards: ["SUNJIC I.", "ADAMS T.", "KOLASINAC S.", "BASIC I."],
+    cards: ["SUNJIC I.", "ADAMS T.", "KOLASINAC S."],
     multigoal: { match: "1-3", home: "1-3", away: "0-1" },
   },
   "germania-paraguay": {

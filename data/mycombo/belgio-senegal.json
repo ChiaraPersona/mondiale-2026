@@ -2,7 +2,32 @@
   "slug": "belgio-senegal",
   "match": "Belgio - Senegal",
   "date": "01/07/2026 ore 22.00",
-  "status": "prepared",
+  "status": "completed",
+  "settlement": {
+    "status": "Finale dopo supplementari",
+    "score": "Belgio 3-2 Senegal",
+    "regulationScore": "2-2",
+    "source": "https://www.diretta.it/partita/calcio/belgio-GbB957na/senegal-hOIsJLJr/?mid=vPsIXWOb",
+    "actualScenario": "Partita aperta con rimonta Belgio",
+    "notes": "Belgio qualificato dopo i supplementari. Al 90' 2-2; statistiche finali: 19-19 tiri, 5-5 nello specchio, 4-2 corner e un giallo per parte. Safe 4/6, Balanced 4/5, Aggressive 6/7.",
+    "events": {
+      "event-04": { "status": "won", "evidence": "2-2 al 90': doppia chance 1X centrata." },
+      "event-05": { "status": "won", "evidence": "Belgio qualificato vincendo 3-2 dopo i supplementari." },
+      "event-07": { "status": "won", "evidence": "Entrambe le squadre hanno segnato." },
+      "event-09": { "status": "won", "evidence": "Quattro gol nei tempi regolamentari: Over 1,5 centrato." },
+      "event-11": { "status": "won", "evidence": "Quattro gol nei tempi regolamentari: Over 2,5 centrato." },
+      "event-13": { "status": "won", "evidence": "Quattro gol nei tempi regolamentari: Under 4,5 centrato." },
+      "event-14": { "status": "lost", "evidence": "Quattro gol al 90': Multigoal 1-3 non centrato." },
+      "event-15": { "status": "won", "evidence": "Il Belgio ha segnato due gol nei tempi regolamentari: fascia squadra 1-2 centrata." },
+      "event-16": { "status": "lost", "evidence": "Sei corner totali: Belgio 4, Senegal 2; Over 7,5 non centrato." },
+      "event-20": { "status": "won", "evidence": "Senegal: 19 tiri complessivi, sopra la soglia 8,5." },
+      "event-21": { "status": "won", "evidence": "Belgio: 5 tiri in porta, sopra la soglia 3,5." },
+      "event-22": { "status": "won", "evidence": "Senegal: 5 tiri in porta, sopra la soglia 2,5." },
+      "booking-01": { "status": "lost", "evidence": "Pape Gueye non ammonito." },
+      "booking-02": { "status": "lost", "evidence": "Diatta non ammonito." },
+      "booking-03": { "status": "lost", "evidence": "Tielemans non ammonito; i gialli sono andati a Mechele e Lamine Camara." }
+    }
+  },
   "portfolios": [
     {
       "name": "Safe",

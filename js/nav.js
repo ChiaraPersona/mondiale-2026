@@ -12,10 +12,19 @@ document.querySelectorAll(".page-links").forEach((nav) => {
 });
 
 if (readingPage && !document.querySelector('script[data-mycombo-export]')) {
-  const myComboScript = document.createElement("script");
-  myComboScript.src = "js/mycombo-export.js?v=20260630-risk-1";
-  myComboScript.dataset.mycomboExport = "true";
-  document.head.appendChild(myComboScript);
+  const loadMyComboViewer = () => {
+    if (document.querySelector('script[data-mycombo-export]')) return;
+    const myComboScript = document.createElement("script");
+    myComboScript.src = "js/mycombo-export.js?v=20260701-viewer-1";
+    myComboScript.dataset.mycomboExport = "true";
+    myComboScript.defer = true;
+    document.head.appendChild(myComboScript);
+  };
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(loadMyComboViewer, { timeout: 1500 });
+  } else {
+    window.addEventListener("load", loadMyComboViewer, { once: true });
+  }
 }
 
 if (readingPage && !document.querySelector(".page-links")) {

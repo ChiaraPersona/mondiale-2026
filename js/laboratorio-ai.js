@@ -100,11 +100,27 @@
     });
   }
 
-  function analyze(filename) {
+  async function loadDataset(filename) {
+    if (datasets.has(filename)) return datasets.get(filename);
+    const response = await fetch(`${DATA_ROOT}${filename}`, { cache: "no-store" });
+    if (!response.ok) throw new Error(`File non trovato (${response.status}): ${DATA_ROOT}${filename}`);
+    const data = validateDataset(await response.json(), filename);
+    data._grouped = groupedMarkets(data);
+    datasets.set(filename, data);
+    return data;
+  }
+
+  async function analyze(filename) {
     clearError();
-    const data = datasets.get(filename);
-    if (!data) {
-      showError(`File non trovato o non caricato: ${DATA_ROOT}${filename}`);
+    analysisMatch.textContent = "Caricamento…";
+    analysisMeta.textContent = "Il file quote viene letto solo su richiesta.";
+    analysis.hidden = false;
+    let data;
+    try {
+      data = await loadDataset(filename);
+    } catch (error) {
+      showError(error.message);
+      analysis.hidden = true;
       return;
     }
     activeDataset = data;
@@ -125,28 +141,13 @@
 
   function renderMatches(files) {
     count.textContent = `${files.length} ${files.length === 1 ? "partita" : "partite"}`;
-    list.innerHTML = files.map(filename => {
-      const data = datasets.get(filename);
-      if (!data) {
-        return `
-          <article class="lab-match-card is-error">
-            <span>File non disponibile</span>
-            <h3>${escapeHtml(filename)}</h3>
-            <p>Impossibile leggere o validare questo JSON.</p>
-            <button type="button" data-file="${escapeHtml(filename)}">Analizza</button>
-          </article>`;
-      }
-      return `
+    list.innerHTML = files.map(filename => `
         <article class="lab-match-card">
-          <span>${escapeHtml(data.date)}</span>
-          <h3>${escapeHtml(data.match)}</h3>
-          <dl>
-            <div><dt>Quote dichiarate</dt><dd>${Number(data.totalMarkets).toLocaleString("it-IT")}</dd></div>
-            <div><dt>Record letti</dt><dd>${data.markets.length.toLocaleString("it-IT")}</dd></div>
-          </dl>
+          <span>Dataset disponibile</span>
+          <h3>${escapeHtml(filename.replace(/-quote\.json$/i, "").replaceAll("-", " "))}</h3>
+          <p>Il JSON completo non viene scaricato finché non premi Analizza.</p>
           <button type="button" data-file="${escapeHtml(filename)}">Analizza</button>
-        </article>`;
-    }).join("");
+        </article>`).join("");
     list.querySelectorAll("button").forEach(button => {
       button.addEventListener("click", () => analyze(button.dataset.file));
     });
@@ -160,17 +161,6 @@
       const index = await indexResponse.json();
       if (!Array.isArray(index.files)) throw new Error(`Indice non valido: ${DATA_ROOT}index.json`);
 
-      await Promise.all(index.files.map(async filename => {
-        try {
-          const response = await fetch(`${DATA_ROOT}${filename}`, { cache: "no-store" });
-          if (!response.ok) throw new Error(`File non trovato (${response.status}): ${DATA_ROOT}${filename}`);
-          const data = validateDataset(await response.json(), filename);
-          data._grouped = groupedMarkets(data);
-          datasets.set(filename, data);
-        } catch (error) {
-          showError(error.message);
-        }
-      }));
       renderMatches(index.files);
     } catch (error) {
       count.textContent = "Errore";

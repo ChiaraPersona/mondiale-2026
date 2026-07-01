@@ -167,10 +167,3 @@ function renderReadingSurprise() {
 }
 
 renderReadingSurprise();
-
-if (!document.querySelector('script[data-mycombo-export]')) {
-  const myComboScript = document.createElement("script");
-  myComboScript.src = "js/mycombo-export.js?v=20260630-risk-1";
-  myComboScript.dataset.mycomboExport = "true";
-  document.head.appendChild(myComboScript);
-}

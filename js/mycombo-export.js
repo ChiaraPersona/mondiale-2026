@@ -77,8 +77,20 @@
       </li>`;
   }
 
+  function oddsProduct(events) {
+    if (!events.length || events.some(event => !Number.isFinite(Number(event.odds)))) return null;
+    return Math.round(
+      (events.reduce((total, event) => total * Number(event.odds), 1) + Number.EPSILON) * 100
+    ) / 100;
+  }
+
+  function oddsExpression(events) {
+    return events.map(event => Number(event.odds).toFixed(2)).join(" × ");
+  }
+
   function portfolioCard(portfolio, index, settlement) {
     const events = Array.isArray(portfolio.events) ? portfolio.events : [];
+    const calculatedOdds = oddsProduct(events);
     const risk = portfolio.riskProfile || {};
     const verdict = fold(portfolio.riskVerdict);
     const scenario = typeof portfolio.scenario === "object" ? portfolio.scenario?.name : portfolio.scenario;
@@ -87,7 +99,7 @@
     const weaknesses = assessmentList("Criticità", "is-weakness", portfolio.weaknesses);
     const hasRiskData = Boolean(portfolio.riskVerdict || Object.keys(risk).length || riskNotes.length);
 
-    if (!events.length || !Number.isFinite(Number(portfolio.finalOdds))) {
+    if (!events.length || calculatedOdds == null) {
       return `
         <article class="mycombo-final-card mycombo-portfolio-panel" data-portfolio-panel="${index}" ${index ? "hidden" : ""}>
           <h4>${escapeHtml(portfolio.name || "Portfolio")}</h4>
@@ -100,10 +112,11 @@
         <header>
           <div><span>Schedina</span><h4>${escapeHtml(portfolio.name)}</h4></div>
           <div class="mycombo-portfolio-metrics">
-            <strong><small>Quota finale</small>${escapeHtml(portfolio.finalOdds)}</strong>
+            <strong><small>Prodotto quote</small>${escapeHtml(calculatedOdds)}</strong>
             <strong class="mycombo-event-count"><small>Eventi</small>${escapeHtml(events.length)}</strong>
           </div>
         </header>
+        <p class="mycombo-settlement-note"><strong>Calcolo:</strong> ${escapeHtml(oddsExpression(events))} = ${escapeHtml(calculatedOdds)}. Prodotto matematico teorico: Sisal può rifiutare o riquotare eventi correlati della stessa partita.</p>
         ${portfolio.reason ? `<p class="mycombo-portfolio-reason">${escapeHtml(portfolio.reason)}</p>` : ""}
         <div class="mycombo-ticket-summary">
           ${scenario ? `<div><small>Scenario</small><strong>${escapeHtml(scenario)}</strong></div>` : ""}
@@ -166,7 +179,7 @@
         ${payload.portfolios.map((portfolio, index) => `
           <button type="button" role="tab" aria-selected="${index === 0}" class="${index === 0 ? "active" : ""}" data-portfolio-tab="${index}">
             <span>${escapeHtml(portfolio.name)}</span>
-            ${portfolio.finalOdds != null ? `<span class="mycombo-tab-values"><small>Quota</small><strong>${escapeHtml(portfolio.finalOdds)}</strong></span>` : ""}
+            ${oddsProduct(Array.isArray(portfolio.events) ? portfolio.events : []) != null ? `<span class="mycombo-tab-values"><small>Prodotto</small><strong>${escapeHtml(oddsProduct(portfolio.events))}</strong></span>` : ""}
           </button>`).join("")}
       </div>
       <div class="mycombo-portfolio-content">

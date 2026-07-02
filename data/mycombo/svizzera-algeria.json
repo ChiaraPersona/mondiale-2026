@@ -1,0 +1,43 @@
+{
+  "slug": "svizzera-algeria",
+  "match": "Svizzera - Algeria",
+  "date": "03/07/2026 ore 05.00",
+  "status": "open",
+  "updatedAt": "2026-07-02",
+  "scenario": "Svizzera più stabile, Algeria pericolosa tra Mahrez e Gouiri; gara competitiva ma protetta dall'Under 3,5.",
+  "prediction": { "score": "2-1", "home": 50, "draw": 28, "away": 22 },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 5.94,
+      "events": [
+        { "selection": "1X", "odds": 1.18, "category": "esito", "selectionId": 5197189707, "marketId": 789348549 },
+        { "selection": "Under 3,5", "odds": 1.2, "category": "goal", "selectionId": 5197136644, "marketId": 789348545 },
+        { "selection": "Embolo 3+ tiri", "odds": 1.57, "category": "tiri", "selectionId": 5199021226, "marketId": 789685138 },
+        { "selection": "Mahrez 2+ tiri", "odds": 1.65, "category": "tiri", "selectionId": 5199022046, "marketId": 789685343 },
+        { "selection": "Over 8,5 corner", "odds": 1.62, "category": "corner", "selectionId": 5198548087, "marketId": 789593013 }
+      ]
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 11.74,
+      "events": [
+        { "selection": "Svizzera Draw No Bet", "odds": 1.36, "category": "esito", "selectionId": 5197192620, "marketId": 789348885 },
+        { "selection": "Goal", "odds": 1.85, "category": "goal", "selectionId": 5197131516, "marketId": 789348071 },
+        { "selection": "Under 3,5", "odds": 1.2, "category": "goal", "selectionId": 5197136644, "marketId": 789348545 },
+        { "selection": "Embolo 4+ tiri", "odds": 2.4, "category": "tiri", "selectionId": 5199018474, "marketId": 789684450 },
+        { "selection": "Over 8,5 corner", "odds": 1.62, "category": "corner", "selectionId": 5198548087, "marketId": 789593013 }
+      ]
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 25.31,
+      "events": [
+        { "selection": "Svizzera vincente", "odds": 1.9, "category": "esito", "selectionId": 5197130575, "marketId": 789348052 },
+        { "selection": "Goal", "odds": 1.85, "category": "goal", "selectionId": 5197131516, "marketId": 789348071 },
+        { "selection": "Embolo 4+ tiri", "odds": 2.4, "category": "tiri", "selectionId": 5199018474, "marketId": 789684450 },
+        { "selection": "Mahrez 3+ tiri", "odds": 3, "category": "tiri", "selectionId": 5199021234, "marketId": 789685140 }
+      ]
+    }
+  ]
+}

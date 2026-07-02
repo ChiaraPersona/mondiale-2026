@@ -10045,6 +10045,12 @@ footer,
 .formation-unavailable { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 0 13px 12px; }
 .formation-unavailable span { border-radius: 999px; padding: 5px 8px; color: #fff; background: #c83b3b; font-size: 9px; font-weight: 900; }
 .formation-disclaimer { margin-top: 12px !important; padding: 10px 12px; border-left: 3px solid #f4c14a; color: #b9c3cd !important; background: rgba(244, 193, 74, .07); font-size: 11px !important; }
+.reading-mycombo { display: grid; gap: 8px; margin-top: 10px; }
+.reading-mycombo div { display: grid; gap: 3px; padding: 10px; border: 1px solid rgba(255, 255, 255, .08); border-radius: 10px; background: rgba(255, 255, 255, .035); }
+.reading-mycombo b { display: flex; justify-content: space-between; gap: 8px; color: #fff; font-size: 11px; }
+.reading-mycombo em { color: #5ce0ac; font-style: normal; }
+.reading-mycombo small { color: #aeb9c5; font-size: 10px; line-height: 1.45; }
+.reading-picks-label { display: block; margin-top: 14px; }
 @media (max-width: 760px) {
   .match-formation-grid { grid-template-columns: 1fr; }
   .football-pitch { min-height: 330px; }

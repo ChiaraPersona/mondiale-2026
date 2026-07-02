@@ -1,0 +1,44 @@
+{
+  "slug": "portogallo-croazia",
+  "match": "Portogallo - Croazia",
+  "date": "03/07/2026 ore 01.00",
+  "status": "open",
+  "updatedAt": "2026-07-02",
+  "scenario": "Portogallo favorito ma caldo estremo e umidità favoriscono gestione, pause e punteggio contenuto.",
+  "prediction": { "score": "1-0", "home": 48, "draw": 29, "away": 23 },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 3.96,
+      "events": [
+        { "selection": "Portogallo Draw No Bet", "odds": 1.22, "category": "esito", "selectionId": 5197193570, "marketId": 789348942 },
+        { "selection": "Under 3,5", "odds": 1.38, "category": "goal", "selectionId": 5197128836, "marketId": 789344653 },
+        { "selection": "Ronaldo 3+ tiri", "odds": 1.2, "category": "tiri", "selectionId": 5199740066, "marketId": 789824858 },
+        { "selection": "Modric 1+ tiro", "odds": 1.25, "category": "tiri", "selectionId": 5199741298, "marketId": 789825166 },
+        { "selection": "Under 9,5 corner", "odds": 1.57, "category": "corner", "selectionId": 5199965563, "marketId": 789868922 }
+      ]
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 7.52,
+      "events": [
+        { "selection": "Under 2,5", "odds": 2, "category": "goal", "selectionId": 5197128830, "marketId": 789344652 },
+        { "selection": "Portogallo Draw No Bet", "odds": 1.22, "category": "esito", "selectionId": 5197193570, "marketId": 789348942 },
+        { "selection": "Ronaldo 4+ tiri", "odds": 1.57, "category": "tiri", "selectionId": 5199746667, "marketId": 789825645 },
+        { "selection": "Modric 1+ tiro", "odds": 1.25, "category": "tiri", "selectionId": 5199741298, "marketId": 789825166 },
+        { "selection": "Under 9,5 corner", "odds": 1.57, "category": "corner", "selectionId": 5199965563, "marketId": 789868922 }
+      ]
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 26.13,
+      "events": [
+        { "selection": "Portogallo vincente", "odds": 1.67, "category": "esito", "selectionId": 5197122162, "marketId": 789343194 },
+        { "selection": "No Goal", "odds": 2.1, "category": "goal", "selectionId": 5197122512, "marketId": 789343262 },
+        { "selection": "Under 3,5", "odds": 1.38, "category": "goal", "selectionId": 5197128836, "marketId": 789344653 },
+        { "selection": "Ronaldo 5+ tiri", "odds": 2.25, "category": "tiri", "selectionId": 5199746095, "marketId": 789825502 },
+        { "selection": "Modric 2+ tiri", "odds": 2.4, "category": "tiri", "selectionId": 5199739066, "marketId": 789824608 }
+      ]
+    }
+  ]
+}

@@ -4,6 +4,8 @@
   "date": "03/07/2026 ore 01.00",
   "status": "open",
   "updatedAt": "2026-07-02",
+  "sourceQuote": "data/quote/portogallo-croazia-quote.json",
+  "trisAmmoniti": { "status": "unavailable", "reason": "Le quote Sisal disponibili non espongono un mercato ammonito puro per tre giocatori." },
   "scenario": "Portogallo favorito ma caldo estremo e umidità favoriscono gestione, pause e punteggio contenuto.",
   "prediction": { "score": "1-0", "home": 48, "draw": 29, "away": 23 },
   "portfolios": [

@@ -4,6 +4,8 @@
   "date": "03/07/2026 ore 05.00",
   "status": "open",
   "updatedAt": "2026-07-02",
+  "sourceQuote": "data/quote/svizzera-algeria-quote.json",
+  "trisAmmoniti": { "status": "unavailable", "reason": "Le quote Sisal disponibili non espongono un mercato ammonito puro per tre giocatori." },
   "scenario": "Svizzera più stabile, Algeria pericolosa tra Mahrez e Gouiri; gara competitiva ma protetta dall'Under 3,5.",
   "prediction": { "score": "2-1", "home": 50, "draw": 28, "away": 22 },
   "portfolios": [

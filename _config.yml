@@ -1,0 +1,24 @@
+exclude:
+  - ARCHITECTURE.md
+  - ARCHITECTURE_REVIEW.md
+  - README.md
+  - output
+  - tmp
+  - exports
+  - scripts
+  - data/active
+  - data/archive
+  - data/backtesting
+  - data/confidence
+  - data/eqs
+  - data/events
+  - data/intelligence
+  - data/mvp
+  - data/portfolio
+  - data/probability
+  - data/providers
+  - data/ranking
+  - data/scoring
+  - data/top-events
+  - data/value
+

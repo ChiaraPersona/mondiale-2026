@@ -4,6 +4,8 @@
   "date": "02/07/2026 ore 21.00",
   "status": "open",
   "updatedAt": "2026-07-02",
+  "sourceQuote": "data/quote/spagna-austria-quote.json",
+  "trisAmmoniti": { "status": "unavailable", "reason": "Le quote Sisal disponibili non espongono un mercato ammonito puro per tre giocatori." },
   "scenario": "Dominio territoriale della Spagna, Austria bassa e volume elevato di tiri e corner.",
   "prediction": { "score": "2-0", "home": 76, "draw": 18, "away": 6 },
   "portfolios": [

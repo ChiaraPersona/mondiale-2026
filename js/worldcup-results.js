@@ -1446,6 +1446,27 @@ const worldCupResults = {
       "MyCombo: Safe 4/5, Balanced 5/6 e Aggressive 6/6. Il solo errore dei primi due portfolio è l'Over 17,5 tiri Inghilterra.",
     ],
   },
+  81: {
+    status: "Finale",
+    home: 2,
+    away: 0,
+    winner: "Stati Uniti",
+    source: "https://www.diretta.it/partita/calcio/bosnia-erzegovina-fqe7WYTr/usa-fuitL4CF/?mid=A1Jughll",
+    sources: [
+      "https://www.diretta.it/partita/calcio/bosnia-erzegovina-fqe7WYTr/usa-fuitL4CF/?mid=A1Jughll",
+      "https://www.ussoccer.com/stories/2026/07/usmnt/match-recap-highlights-vs-bosnia-and-herzegovina-world-cup-round-of-32",
+    ],
+    scorers: {
+      "Stati Uniti": ["Folarin Balogun", "Malik Tillman"],
+      "Bosnia ed Erzegovina": [],
+    },
+    notes: [
+      "Gli Stati Uniti battono la Bosnia-Erzegovina 2-0 e si qualificano agli ottavi contro il Belgio.",
+      "Balogun segna al 45' e viene espulso al 64'; Tillman chiude la gara su punizione all'82'.",
+      "Pronostico Codex pienamente centrato: risultato esatto 2-0, USA + Under 4,5 e No Goal.",
+      "Tiri 8-10, tiri in porta 2-3 e corner 4-3; non entrano Over 2,5 e ammonito Sunjic.",
+    ],
+  },
   82: {
     status: "Finale dopo i supplementari",
     home: 3,

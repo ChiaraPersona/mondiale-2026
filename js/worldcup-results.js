@@ -1484,6 +1484,24 @@ const worldCupResults = {
       "MyCombo: Safe 4/6, Balanced 4/5 e Aggressive 6/7; decisivi Multigoal 1-3 e Over 7,5 corner.",
     ],
   },
+  84: {
+    status: "Finale",
+    home: 3,
+    away: 0,
+    winner: "Spagna",
+    source: "https://www.diretta.it/partita/calcio/austria-naHiWdnt/spagna-bLyo6mco/?mid=jJucpA84",
+    sources: ["https://www.diretta.it/partita/calcio/austria-naHiWdnt/spagna-bLyo6mco/?mid=jJucpA84"],
+    scorers: {
+      Spagna: ["Mikel Oyarzabal", "Pedro Porro", "Mikel Oyarzabal"],
+      Austria: [],
+    },
+    notes: [
+      "La Spagna batte l'Austria 3-0 e si qualifica agli ottavi di finale.",
+      "Oyarzabal segna due volte; Pedro Porro firma il primo gol in nazionale.",
+      "Statistiche: 23-5 tiri, 10-0 tiri in porta, 9-0 corner e 2,84-0,32 xG.",
+      "Pronostico positivo: centrati Spagna vincente, No Goal, Under 3,5, Spagna + Under 4,5 e Over 8,5 corner; risultato esatto previsto 2-0.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

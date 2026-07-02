@@ -327,6 +327,21 @@ const plans = {
     cards: ["SUNJIC I.", "ADAMS T.", "KOLASINAC S."],
     multigoal: { match: "1-3", home: "1-3", away: "0-1" },
   },
+  "spagna-austria": {
+    auto: true,
+    slug: "spagna-austria",
+    file: "spagna-austria-quote.json",
+    match: "Spagna - Austria",
+    projections: { homeShots: 17.5, awayShots: 6.5, homeSot: 6.5, awaySot: 2.5 },
+    players: ["YAMAL L.", "OYARZABAL M.", "OLMO D.", "BAENA A.", "GREGORITSCH M.", "WANNER P.", "SABITZER M."],
+    cards: ["LAIMER K.", "SEIWALD N.", "DANSO K.", "CUCURELLA M."],
+    confirmedStarters: [
+      "YAMAL L.", "OYARZABAL M.", "OLMO D.", "BAENA A.", "GREGORITSCH M.",
+      "WANNER P.", "SABITZER M.", "LAIMER K.", "SEIWALD N.", "DANSO K.", "CUCURELLA M.",
+    ],
+    confirmedNonStarters: ["ARNAUTOVIC M.", "PRASS A.", "LIENHART P.", "LLORENTE M."],
+    multigoal: { match: "1-3", home: "1-3", away: "0-1" },
+  },
   "germania-paraguay": {
     file: "germania-paraguay-quote.json",
     match: "Germania - Paraguay",
@@ -422,6 +437,15 @@ function buildAutomatic(plan) {
   const payload = JSON.parse(fs.readFileSync(path.join(root, "data", "quote", plan.file), "utf8"));
   const picked = [];
   const seen = new Set();
+  const playerAvailability = source => {
+    const normalize = value => String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase();
+    const text = normalize(`${source.info || ""} ${source.mercato || ""}`);
+    const confirmed = (plan.confirmedStarters || []).some(token => text.includes(normalize(token)));
+    const excluded = (plan.confirmedNonStarters || []).some(token => text.includes(normalize(token)));
+    if (confirmed) return { starterConfirmed: true, expectedMinutes: 78 };
+    if (excluded) return { starterConfirmed: false, expectedMinutes: 25 };
+    return {};
+  };
   const add = (market, info, selection, reason) => {
     const source = payload.markets.find(item =>
       item.mercato === market &&
@@ -444,6 +468,7 @@ function buildAutomatic(plan) {
       motivo: reason,
       puntiDiForza: [strength],
       possibiliCriticita: [risk],
+      ...playerAvailability(source),
     });
   };
   const addSource = (source, intelligence) => {
@@ -467,6 +492,7 @@ function buildAutomatic(plan) {
       motivo: "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
       puntiDiForza: [strength],
       possibiliCriticita: [risk, intelligence.metadata.notes].filter(Boolean),
+      ...playerAvailability(source),
     });
   };
 

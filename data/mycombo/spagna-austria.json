@@ -3,10 +3,15 @@
   "match": "Spagna - Austria",
   "date": "02/07/2026 ore 21.00",
   "status": "open",
-  "updatedAt": "2026-07-02",
+  "updatedAt": "2026-07-02T19:45:00+02:00",
   "sourceQuote": "data/quote/spagna-austria-quote.json",
-  "trisAmmoniti": { "status": "unavailable", "reason": "Le quote Sisal disponibili non espongono un mercato ammonito puro per tre giocatori." },
-  "scenario": "Dominio territoriale della Spagna, Austria bassa e volume elevato di tiri e corner.",
+  "lineups": {
+    "status": "official",
+    "homeModule": "4-2-3-1",
+    "awayModule": "4-2-3-1",
+    "note": "Mercati giocatore limitati ai titolari ufficiali; i non titolari sono esclusi."
+  },
+  "scenario": "Dominio territoriale della Spagna, Austria bassa e volume elevato di tiri e corner. Le formazioni ufficiali confermano Yamal, Oyarzabal, Olmo e Baena; Gregoritsch sostituisce Arnautovic nel riferimento offensivo austriaco.",
   "prediction": { "score": "2-0", "home": 76, "draw": 18, "away": 6 },
   "portfolios": [
     {
@@ -24,8 +29,8 @@
       "events": [
         { "selection": "Spagna vincente", "odds": 1.28, "category": "esito", "selectionId": 5197181482, "marketId": 789345452 },
         { "selection": "Under 3,5", "odds": 1.45, "category": "goal", "selectionId": 5197185914, "marketId": 789345945 },
-        { "selection": "Yamal 4+ tiri", "odds": 1.5, "category": "tiri", "selectionId": 5198926058, "marketId": 789663022 },
-        { "selection": "Oyarzabal 4+ tiri", "odds": 1.8, "category": "tiri", "selectionId": 5198926158, "marketId": 789663047 },
+        { "selection": "Yamal 4+ tiri", "odds": 1.5, "category": "tiri", "selectionId": 5198926058, "marketId": 789663022, "starterConfirmed": true },
+        { "selection": "Oyarzabal 4+ tiri", "odds": 1.8, "category": "tiri", "selectionId": 5198926158, "marketId": 789663047, "starterConfirmed": true },
         { "selection": "Over 8,5 corner", "odds": 1.72, "category": "corner", "selectionId": 5198733155, "marketId": 789629259 }
       ]
     },
@@ -35,10 +40,22 @@
       "events": [
         { "selection": "Spagna + Under 3,5", "odds": 2, "category": "combo", "selectionId": 5197181646, "marketId": 789345478 },
         { "selection": "No Goal", "odds": 1.65, "category": "goal", "selectionId": 5197181597, "marketId": 789345471 },
-        { "selection": "Yamal 5+ tiri", "odds": 2, "category": "tiri", "selectionId": 5198924574, "marketId": 789662651 },
-        { "selection": "Oyarzabal 4+ tiri", "odds": 1.8, "category": "tiri", "selectionId": 5198926158, "marketId": 789663047 },
-        { "selection": "Laimer 1+ tiro", "odds": 1.44, "category": "tiri", "selectionId": 5198927562, "marketId": 789663398 }
+        { "selection": "Yamal 5+ tiri", "odds": 2, "category": "tiri", "selectionId": 5198924574, "marketId": 789662651, "starterConfirmed": true },
+        { "selection": "Oyarzabal 4+ tiri", "odds": 1.8, "category": "tiri", "selectionId": 5198926158, "marketId": 789663047, "starterConfirmed": true },
+        { "selection": "Laimer 1+ tiro", "odds": 1.44, "category": "tiri", "selectionId": 5198927562, "marketId": 789663398, "starterConfirmed": true }
       ]
     }
-  ]
+  ],
+  "bookingsTrio": {
+    "available": true,
+    "label": "Tris ammoniti",
+    "totalOdds": 168.75,
+    "risk": "very_high",
+    "events": [
+      { "player": "Konrad Laimer", "odds": 3.75, "selectionId": 5198733102, "marketId": 789629246, "starterConfirmed": true },
+      { "player": "Nicolas Seiwald", "odds": 6, "selectionId": 5198733288, "marketId": 789629292, "starterConfirmed": true },
+      { "player": "Marc Cucurella", "odds": 7.5, "selectionId": 5198733062, "marketId": 789629238, "starterConfirmed": true }
+    ],
+    "note": "Prodotto teorico delle tre singole Sisal; mercato ad altissima varianza da verificare nel betslip."
+  }
 }

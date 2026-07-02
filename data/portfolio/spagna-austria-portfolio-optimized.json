@@ -1,0 +1,264 @@
+{
+  "match": "Spagna - Austria",
+  "portfolios": [
+    {
+      "name": "Portfolio Safe",
+      "targetOdds": 5,
+      "status": "unchanged_no_candidate",
+      "totalOdds": null,
+      "events": [],
+      "scenario": null,
+      "reason": "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
+      "strengths": [],
+      "weaknesses": [
+        "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ],
+      "initialOdds": null,
+      "finalOdds": null,
+      "acceptedRange": [
+        4.5,
+        5.5
+      ],
+      "removedEvents": [],
+      "addedEvents": [],
+      "improvementEstimate": "nessuno"
+    },
+    {
+      "name": "Portfolio Balanced",
+      "targetOdds": 10,
+      "status": "unchanged_no_candidate",
+      "totalOdds": null,
+      "events": [],
+      "scenario": null,
+      "reason": "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
+      "strengths": [],
+      "weaknesses": [
+        "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ],
+      "initialOdds": null,
+      "finalOdds": null,
+      "acceptedRange": [
+        9,
+        11
+      ],
+      "removedEvents": [],
+      "addedEvents": [],
+      "improvementEstimate": "nessuno"
+    },
+    {
+      "name": "Portfolio Aggressive",
+      "scenario": {
+        "id": "open_game",
+        "name": "Partita aperta",
+        "estimatedProbability": "media"
+      },
+      "initialOdds": 20.53,
+      "finalOdds": 21.08,
+      "acceptedRange": [
+        18,
+        22
+      ],
+      "status": "optimized_inside_range",
+      "events": [
+        {
+          "id": "event-07",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 2.1,
+          "selectionId": 5197181596,
+          "marketId": 789345471,
+          "category": "goal",
+          "marketKey": "goals_over_under",
+          "marketVolatility": 38,
+          "correlationGroup": "match_goals",
+          "rankingScore": 87,
+          "class": "CORE",
+          "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
+          "riskScore": 63,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato goals_over_under: volatilità 38/100."
+          ]
+        },
+        {
+          "id": "event-11",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER",
+          "odds": 1.6,
+          "selectionId": 5197185911,
+          "marketId": 789345944,
+          "category": "goal",
+          "marketKey": "goals_over_under",
+          "marketVolatility": 38,
+          "correlationGroup": "match_goals",
+          "rankingScore": 87,
+          "class": "CORE",
+          "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
+          "riskScore": 47,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato goals_over_under: volatilità 38/100."
+          ]
+        },
+        {
+          "id": "event-17",
+          "market": "U/O CORNER — U/O 8.5 CORNER",
+          "selection": "OVER",
+          "odds": 1.72,
+          "selectionId": 5198733155,
+          "marketId": 789629259,
+          "category": "corner",
+          "marketKey": "corners_over_under",
+          "marketVolatility": 44,
+          "correlationGroup": "corners",
+          "rankingScore": 86,
+          "class": "VALUE",
+          "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
+          "riskScore": 56,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato corners_over_under: volatilità 44/100."
+          ]
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.52,
+          "selectionId": 5198925746,
+          "marketId": 789662944,
+          "category": "tiri",
+          "marketKey": "team_total_shots",
+          "marketVolatility": 46,
+          "correlationGroup": "team_shots",
+          "rankingScore": 86,
+          "class": "VALUE",
+          "reason": "Soglia allineata alla proiezione di squadra.",
+          "riskScore": 56,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato team_total_shots: volatilità 46/100."
+          ]
+        },
+        {
+          "id": "event-22",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 2.4,
+          "selectionId": 5198925882,
+          "marketId": 789662978,
+          "category": "tiri",
+          "marketKey": "team_shots_on_target",
+          "marketVolatility": 50,
+          "correlationGroup": "team_shots",
+          "rankingScore": 85,
+          "class": "VALUE",
+          "reason": "Soglia allineata alla proiezione di squadra.",
+          "riskScore": 86,
+          "riskLevel": "high",
+          "riskReasons": [
+            "Mercato team_shots_on_target: volatilità 50/100."
+          ]
+        }
+      ],
+      "removedEvents": [
+        {
+          "id": "event-20",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 6.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.48,
+          "selectionId": 5198925990,
+          "marketId": 789663005,
+          "category": "tiri",
+          "marketKey": "team_total_shots",
+          "marketVolatility": 46,
+          "correlationGroup": "team_shots",
+          "rankingScore": 86,
+          "class": "VALUE",
+          "reason": "Rimosso perché la quota aggiunta non compensava abbastanza la variabilità del mercato.",
+          "riskScore": 56,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato team_total_shots: volatilità 46/100."
+          ]
+        }
+      ],
+      "addedEvents": [
+        {
+          "id": "event-19",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 17.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.52,
+          "selectionId": 5198925746,
+          "marketId": 789662944,
+          "category": "tiri",
+          "marketKey": "team_total_shots",
+          "marketVolatility": 46,
+          "correlationGroup": "team_shots",
+          "rankingScore": 86,
+          "class": "VALUE",
+          "reason": "Inserito perché migliora diversità e qualità mantenendo la quota nell'intervallo accettabile.",
+          "riskScore": 56,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato team_total_shots: volatilità 46/100."
+          ]
+        }
+      ],
+      "improvementEstimate": "contenuto",
+      "qualityIndex": {
+        "initial": 103.6,
+        "final": 104,
+        "delta": 0.4,
+        "note": "Indice comparativo di qualità, non probabilità."
+      },
+      "reason": "La soluzione minimizza il rischio tra le combinazioni ammissibili nell'intervallo.",
+      "strengths": [
+        "3 categorie rappresentate.",
+        "9 relazioni positive, nessuna negativa o ridondante.",
+        "Score medio corretto per classe: 82.",
+        "Numero eventi: 5."
+      ],
+      "weaknesses": [
+        "1 relazioni neutrali restano nel portfolio.",
+        "La qualità resta condizionata dal verificarsi dello scenario comune."
+      ],
+      "riskProfile": {
+        "averageRisk": 62,
+        "maxEventRisk": 86,
+        "maxSingleOdds": 2.4,
+        "riskConcentration": "low",
+        "numberOfEvents": 5,
+        "highRiskEvents": 1
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Evento ad alto rischio: U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA (86/100)."
+      ]
+    }
+  ]
+}

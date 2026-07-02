@@ -7,6 +7,12 @@ scripts/__pycache__/
 # Dipendenze e cache locali
 node_modules/
 cache/
+
+# Output analitici locali: necessari alla pipeline, mai al frontend Pages.
+data/events/
+data/intelligence/
+data/mvp/
+data/providers/
 .cache/
 *.log
 

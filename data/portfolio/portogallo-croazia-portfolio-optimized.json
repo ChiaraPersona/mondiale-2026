@@ -1,0 +1,222 @@
+{
+  "match": "Portogallo - Croazia",
+  "portfolios": [
+    {
+      "name": "Portfolio Safe",
+      "targetOdds": 5,
+      "status": "unchanged_no_candidate",
+      "totalOdds": null,
+      "events": [],
+      "scenario": null,
+      "reason": "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
+      "strengths": [],
+      "weaknesses": [
+        "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ],
+      "initialOdds": null,
+      "finalOdds": null,
+      "acceptedRange": [
+        4.5,
+        5.5
+      ],
+      "removedEvents": [],
+      "addedEvents": [],
+      "improvementEstimate": "nessuno"
+    },
+    {
+      "name": "Portfolio Balanced",
+      "scenario": {
+        "id": "favorite_dominance",
+        "name": "Dominio Portogallo",
+        "estimatedProbability": "media"
+      },
+      "initialOdds": 9.34,
+      "finalOdds": 9.34,
+      "acceptedRange": [
+        9,
+        11
+      ],
+      "status": "optimized_inside_range",
+      "events": [
+        {
+          "id": "event-04",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X",
+          "odds": 1.14,
+          "selectionId": 5197128861,
+          "marketId": 789344657,
+          "category": "esito",
+          "marketKey": "match_result",
+          "marketVolatility": 30,
+          "correlationGroup": "match_result",
+          "rankingScore": 91,
+          "class": "CORE",
+          "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
+          "riskScore": 23,
+          "riskLevel": "low",
+          "riskReasons": [
+            "Mercato match_result: volatilità 30/100."
+          ]
+        },
+        {
+          "id": "event-07",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.65,
+          "selectionId": 5197122511,
+          "marketId": 789343262,
+          "category": "goal",
+          "marketKey": "goals_over_under",
+          "marketVolatility": 38,
+          "correlationGroup": "match_goals",
+          "rankingScore": 87,
+          "class": "CORE",
+          "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
+          "riskScore": 47,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato goals_over_under: volatilità 38/100."
+          ]
+        },
+        {
+          "id": "event-11",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER",
+          "odds": 1.72,
+          "selectionId": 5197128831,
+          "marketId": 789344652,
+          "category": "goal",
+          "marketKey": "goals_over_under",
+          "marketVolatility": 38,
+          "correlationGroup": "match_goals",
+          "rankingScore": 87,
+          "class": "CORE",
+          "reason": "Mercato strutturale coerente con lo scenario pre-partita.",
+          "riskScore": 47,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato goals_over_under: volatilità 38/100."
+          ]
+        },
+        {
+          "id": "event-19",
+          "market": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 14.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.65,
+          "selectionId": 5199746483,
+          "marketId": 789825599,
+          "category": "tiri",
+          "marketKey": "team_total_shots",
+          "marketVolatility": 46,
+          "correlationGroup": "team_shots",
+          "rankingScore": 86,
+          "class": "VALUE",
+          "reason": "Soglia allineata alla proiezione di squadra.",
+          "riskScore": 56,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato team_total_shots: volatilità 46/100."
+          ]
+        },
+        {
+          "id": "event-21",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.75,
+          "selectionId": 5199747723,
+          "marketId": 789825909,
+          "category": "tiri",
+          "marketKey": "team_shots_on_target",
+          "marketVolatility": 50,
+          "correlationGroup": "team_shots",
+          "rankingScore": 85,
+          "class": "VALUE",
+          "reason": "Soglia allineata alla proiezione di squadra.",
+          "riskScore": 57,
+          "riskLevel": "medium",
+          "riskReasons": [
+            "Mercato team_shots_on_target: volatilità 50/100."
+          ]
+        }
+      ],
+      "removedEvents": [],
+      "addedEvents": [],
+      "improvementEstimate": "nessuno: la schedina candidata era già ottimale",
+      "qualityIndex": {
+        "initial": 106,
+        "final": 106,
+        "delta": 0,
+        "note": "Indice comparativo di qualità, non probabilità."
+      },
+      "reason": "La soluzione minimizza il rischio tra le combinazioni ammissibili nell'intervallo.",
+      "strengths": [
+        "3 categorie rappresentate.",
+        "8 relazioni positive, nessuna negativa o ridondante.",
+        "Score medio corretto per classe: 84.4.",
+        "Numero eventi: 5."
+      ],
+      "weaknesses": [
+        "2 relazioni neutrali restano nel portfolio.",
+        "La qualità resta condizionata dal verificarsi dello scenario comune."
+      ],
+      "riskProfile": {
+        "averageRisk": 46,
+        "maxEventRisk": 57,
+        "maxSingleOdds": 1.75,
+        "riskConcentration": "low",
+        "numberOfEvents": 5,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "medium",
+      "riskNotes": [
+        "Profilo entro tutti i limiti di rischio configurati."
+      ]
+    },
+    {
+      "name": "Portfolio Aggressive",
+      "targetOdds": 20,
+      "status": "unchanged_no_candidate",
+      "totalOdds": null,
+      "events": [],
+      "scenario": null,
+      "reason": "Nessun insieme soddisfa i requisiti minimi di qualità, scenario e compatibilità.",
+      "strengths": [],
+      "weaknesses": [
+        "Quota target non raggiunta: non sono stati aggiunti eventi deboli o casuali."
+      ],
+      "riskProfile": {
+        "averageRisk": null,
+        "maxEventRisk": null,
+        "maxSingleOdds": null,
+        "riskConcentration": "none",
+        "numberOfEvents": 0,
+        "highRiskEvents": 0
+      },
+      "riskVerdict": "high",
+      "riskNotes": [
+        "Quota target non raggiungibile entro i limiti di rischio configurati."
+      ],
+      "initialOdds": null,
+      "finalOdds": null,
+      "acceptedRange": [
+        18,
+        22
+      ],
+      "removedEvents": [],
+      "addedEvents": [],
+      "improvementEstimate": "nessuno"
+    }
+  ]
+}

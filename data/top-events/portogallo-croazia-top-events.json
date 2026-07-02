@@ -1,0 +1,573 @@
+{
+  "match": "Portogallo - Croazia",
+  "events": [
+    {
+      "mercato": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+      "selezione": "1",
+      "quota": 1.67,
+      "selectionId": 5197122162,
+      "marketId": 789343194,
+      "categoria": "esito",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Esito e qualificazione sono coerenti con le probabilità della lettura."
+      ],
+      "possibiliCriticita": [
+        "Una gara a eliminazione diretta conserva varianza elevata."
+      ]
+    },
+    {
+      "mercato": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+      "selezione": "X",
+      "quota": 3.6,
+      "selectionId": 5197122163,
+      "marketId": 789343194,
+      "categoria": "esito",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Esito e qualificazione sono coerenti con le probabilità della lettura."
+      ],
+      "possibiliCriticita": [
+        "Una gara a eliminazione diretta conserva varianza elevata."
+      ]
+    },
+    {
+      "mercato": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+      "selezione": "2",
+      "quota": 5.5,
+      "selectionId": 5197122164,
+      "marketId": 789343194,
+      "categoria": "esito",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Esito e qualificazione sono coerenti con le probabilità della lettura."
+      ],
+      "possibiliCriticita": [
+        "Una gara a eliminazione diretta conserva varianza elevata."
+      ]
+    },
+    {
+      "mercato": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+      "selezione": "1X",
+      "quota": 1.14,
+      "selectionId": 5197128861,
+      "marketId": 789344657,
+      "categoria": "esito",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Esito e qualificazione sono coerenti con le probabilità della lettura."
+      ],
+      "possibiliCriticita": [
+        "Una gara a eliminazione diretta conserva varianza elevata."
+      ]
+    },
+    {
+      "mercato": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+      "selezione": "1",
+      "quota": 1.36,
+      "selectionId": 5197126225,
+      "marketId": 789343869,
+      "categoria": "esito",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Esito e qualificazione sono coerenti con le probabilità della lettura."
+      ],
+      "possibiliCriticita": [
+        "Una gara a eliminazione diretta conserva varianza elevata."
+      ]
+    },
+    {
+      "mercato": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+      "selezione": "2",
+      "quota": 3.1,
+      "selectionId": 5197126226,
+      "marketId": 789343869,
+      "categoria": "esito",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Esito e qualificazione sono coerenti con le probabilità della lettura."
+      ],
+      "possibiliCriticita": [
+        "Una gara a eliminazione diretta conserva varianza elevata."
+      ]
+    },
+    {
+      "mercato": "GOAL/NOGOAL — GOAL/NO GOAL",
+      "selezione": "GOAL",
+      "quota": 1.65,
+      "selectionId": 5197122511,
+      "marketId": 789343262,
+      "categoria": "goal",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ]
+    },
+    {
+      "mercato": "GOAL/NOGOAL — GOAL/NO GOAL",
+      "selezione": "NOGOAL",
+      "quota": 2.1,
+      "selectionId": 5197122512,
+      "marketId": 789343262,
+      "categoria": "goal",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ]
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 1.5",
+      "selezione": "OVER",
+      "quota": 1.2,
+      "selectionId": 5197128803,
+      "marketId": 789344648,
+      "categoria": "goal",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ]
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 2.5",
+      "selezione": "UNDER",
+      "quota": 2,
+      "selectionId": 5197128830,
+      "marketId": 789344652,
+      "categoria": "goal",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ]
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 2.5",
+      "selezione": "OVER",
+      "quota": 1.72,
+      "selectionId": 5197128831,
+      "marketId": 789344652,
+      "categoria": "goal",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ]
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 3.5",
+      "selezione": "UNDER",
+      "quota": 1.38,
+      "selectionId": 5197128836,
+      "marketId": 789344653,
+      "categoria": "goal",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ]
+    },
+    {
+      "mercato": "UNDER/OVER — U/O 4.5",
+      "selezione": "UNDER",
+      "quota": 1.14,
+      "selectionId": 5197128840,
+      "marketId": 789344654,
+      "categoria": "goal",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ]
+    },
+    {
+      "mercato": "U/O CORNER — U/O 7.5 CORNER",
+      "selezione": "OVER",
+      "quota": 1.42,
+      "selectionId": 5199965548,
+      "marketId": 789868918,
+      "categoria": "corner",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ]
+    },
+    {
+      "mercato": "U/O CORNER — U/O 8.5 CORNER",
+      "selezione": "OVER",
+      "quota": 1.75,
+      "selectionId": 5199965526,
+      "marketId": 789868913,
+      "categoria": "corner",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ]
+    },
+    {
+      "mercato": "U/O CORNER — U/O 10.5 CORNER",
+      "selezione": "UNDER",
+      "quota": 1.36,
+      "selectionId": 5199965683,
+      "marketId": 789868951,
+      "categoria": "corner",
+      "motivo": "Mercato strutturale coerente con lo scenario pre-partita.",
+      "puntiDiForza": [
+        "Le soglie corner sono vicine alla proiezione territoriale della partita."
+      ],
+      "possibiliCriticita": [
+        "Il volume dipende da punteggio e durata della pressione offensiva."
+      ]
+    },
+    {
+      "mercato": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+      "selezione": "1-3",
+      "quota": 1.52,
+      "selectionId": 5197193772,
+      "marketId": 789348977,
+      "categoria": "goal",
+      "motivo": "Fascia gol partita coerente con il risultato guida.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ]
+    },
+    {
+      "mercato": "MULTIGOAL SQUADRA X — MULTIGOAL SQUADRA 1 MULTIESITI",
+      "selezione": "1-2",
+      "quota": 1.57,
+      "selectionId": 5197194109,
+      "marketId": 789349019,
+      "categoria": "goal",
+      "motivo": "Fascia gol della squadra di casa coerente con lo scenario principale.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio."
+      ]
+    },
+    {
+      "mercato": "U/O TIRI TOTALI SQUADRA X — SQUADRA 1: U/O 14.5 TIRI TOTALI",
+      "selezione": "OVER",
+      "quota": 1.65,
+      "selectionId": 5199746483,
+      "marketId": 789825599,
+      "categoria": "tiri",
+      "motivo": "Soglia allineata alla proiezione di squadra.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ]
+    },
+    {
+      "mercato": "U/O TIRI TOTALI SQUADRA X — SQUADRA 2: U/O 8.5 TIRI TOTALI",
+      "selezione": "OVER",
+      "quota": 1.36,
+      "selectionId": 5199740250,
+      "marketId": 789824904,
+      "categoria": "tiri",
+      "motivo": "Soglia allineata alla proiezione di squadra.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ]
+    },
+    {
+      "mercato": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 4.5 TIRI IN PORTA",
+      "selezione": "OVER",
+      "quota": 1.75,
+      "selectionId": 5199747723,
+      "marketId": 789825909,
+      "categoria": "tiri",
+      "motivo": "Soglia allineata alla proiezione di squadra.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ]
+    },
+    {
+      "mercato": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+      "selezione": "OVER",
+      "quota": 1.5,
+      "selectionId": 5199747751,
+      "marketId": 789825916,
+      "categoria": "tiri",
+      "motivo": "Soglia allineata alla proiezione di squadra.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ]
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — RONALDO C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.05,
+      "selectionId": 5199739370,
+      "marketId": 789824684,
+      "categoria": "tiri",
+      "motivo": "Titolare probabile e coinvolto nella produzione offensiva.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — FERNANDES B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.33,
+      "selectionId": 5199739214,
+      "marketId": 789824645,
+      "categoria": "tiri",
+      "motivo": "Titolare probabile e coinvolto nella produzione offensiva.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — NETO P. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.65,
+      "selectionId": 5199739366,
+      "marketId": 789824683,
+      "categoria": "tiri",
+      "motivo": "Titolare probabile e coinvolto nella produzione offensiva.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BUDIMIR ANTE U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.33,
+      "selectionId": 5202147268,
+      "marketId": 790305170,
+      "categoria": "tiri",
+      "motivo": "Titolare probabile e coinvolto nella produzione offensiva.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MODRIC L. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 2.4,
+      "selectionId": 5199739066,
+      "marketId": 789824608,
+      "categoria": "tiri",
+      "motivo": "Titolare probabile e coinvolto nella produzione offensiva.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — VLASIC N. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.8,
+      "selectionId": 5199739122,
+      "marketId": 789824622,
+      "categoria": "tiri",
+      "motivo": "Titolare probabile e coinvolto nella produzione offensiva.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BATURINA M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 2,
+      "selectionId": 5199739166,
+      "marketId": 789824633,
+      "categoria": "tiri",
+      "motivo": "Titolare probabile e coinvolto nella produzione offensiva.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — PERISIC I. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "selezione": "OVER",
+      "quota": 1.65,
+      "selectionId": 5199739042,
+      "marketId": 789824602,
+      "categoria": "tiri",
+      "motivo": "Titolare probabile e coinvolto nella produzione offensiva.",
+      "puntiDiForza": [
+        "Le linee tiri seguono probabili formazioni e volumi stimati."
+      ],
+      "possibiliCriticita": [
+        "Minutaggio, sostituzioni e ruolo effettivo restano fattori di rischio."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "CARTELLINO SI/NO (DUO) INC TS — PONGRACIC MARIN CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selezione": "SI",
+      "quota": 4,
+      "selectionId": 5200588240,
+      "marketId": 789996703,
+      "categoria": "cartellini",
+      "motivo": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+      "puntiDiForza": [
+        "I candidati sono esposti ai duelli tattici principali e al profilo arbitrale."
+      ],
+      "possibiliCriticita": [
+        "Il cartellino individuale rimane un mercato ad alta varianza."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "CARTELLINO SI/NO (DUO) INC TS — STANISIC J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selezione": "SI",
+      "quota": 4,
+      "selectionId": 5200588068,
+      "marketId": 789996660,
+      "categoria": "cartellini",
+      "motivo": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+      "puntiDiForza": [
+        "I candidati sono esposti ai duelli tattici principali e al profilo arbitrale."
+      ],
+      "possibiliCriticita": [
+        "Il cartellino individuale rimane un mercato ad alta varianza."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "CARTELLINO SI/NO (DUO) INC TS — SUTALO J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selezione": "SI",
+      "quota": 6,
+      "selectionId": 5200588260,
+      "marketId": 789996708,
+      "categoria": "cartellini",
+      "motivo": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+      "puntiDiForza": [
+        "I candidati sono esposti ai duelli tattici principali e al profilo arbitrale."
+      ],
+      "possibiliCriticita": [
+        "Il cartellino individuale rimane un mercato ad alta varianza."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "CARTELLINO SI/NO (DUO) INC TS — SUCIC P. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selezione": "SI",
+      "quota": 4.5,
+      "selectionId": 5200588280,
+      "marketId": 789996713,
+      "categoria": "cartellini",
+      "motivo": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+      "puntiDiForza": [
+        "I candidati sono esposti ai duelli tattici principali e al profilo arbitrale."
+      ],
+      "possibiliCriticita": [
+        "Il cartellino individuale rimane un mercato ad alta varianza."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "CARTELLINO SI/NO (DUO) INC TS — KOVACIC M. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selezione": "SI",
+      "quota": 3.75,
+      "selectionId": 5200588236,
+      "marketId": 789996702,
+      "categoria": "cartellini",
+      "motivo": "Candidato ammonito per ruolo, duelli e profilo arbitrale.",
+      "puntiDiForza": [
+        "I candidati sono esposti ai duelli tattici principali e al profilo arbitrale."
+      ],
+      "possibiliCriticita": [
+        "Il cartellino individuale rimane un mercato ad alta varianza."
+      ],
+      "starterConfirmed": true,
+      "expectedMinutes": 78
+    },
+    {
+      "mercato": "COMBO: 1X2 + MULTIGOAL 6 ESITI — 1X2 + MULTIGOAL 1 - 2",
+      "selezione": "1+ MULTIGOAL",
+      "quota": 4.25,
+      "selectionId": 5197211013,
+      "marketId": 789363813,
+      "categoria": "goal",
+      "marketKey": "multigoal",
+      "motivo": "Candidato classificabile; non implica l'inserimento automatico in MyCombo.",
+      "puntiDiForza": [
+        "Le linee gol selezionate coprono gli scenari centrali della lettura."
+      ],
+      "possibiliCriticita": [
+        "Un gol precoce può cambiare radicalmente ritmo e punteggio.",
+        "Preferire fasce ampie coerenti con la proiezione."
+      ]
+    }
+  ]
+}

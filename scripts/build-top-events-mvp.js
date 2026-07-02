@@ -342,6 +342,25 @@ const plans = {
     confirmedNonStarters: ["ARNAUTOVIC M.", "PRASS A.", "LIENHART P.", "LLORENTE M."],
     multigoal: { match: "1-3", home: "1-3", away: "0-1" },
   },
+  "portogallo-croazia": {
+    auto: true,
+    slug: "portogallo-croazia",
+    file: "portogallo-croazia-quote.json",
+    match: "Portogallo - Croazia",
+    projections: { homeShots: 14.5, awayShots: 8.5, homeSot: 4.5, awaySot: 2.5 },
+    players: ["RONALDO C.", "FERNANDES B.", "NETO P.", "BUDIMIR ANTE", "MODRIC L.", "VLASIC N.", "BATURINA M.", "PERISIC I."],
+    cards: ["PONGRACIC MARIN", "STANISIC J.", "SUTALO J.", "SUCIC P.", "KOVACIC M."],
+    confirmedStarters: [
+      "RONALDO C.", "FERNANDES B.", "NETO P.", "BUDIMIR ANTE", "MODRIC L.",
+      "VLASIC N.", "BATURINA M.", "PERISIC I.", "PONGRACIC MARIN",
+      "STANISIC J.", "SUTALO J.", "SUCIC P.", "KOVACIC M.",
+    ],
+    confirmedNonStarters: [
+      "FELIX J.", "RAMOS G.", "SILVA B.", "MUSA P.", "PASALIC M.",
+      "GVARDIOL J.", "CALETA-CAR D.",
+    ],
+    multigoal: { match: "1-3", home: "1-2", away: "0-1" },
+  },
   "germania-paraguay": {
     file: "germania-paraguay-quote.json",
     match: "Germania - Paraguay",

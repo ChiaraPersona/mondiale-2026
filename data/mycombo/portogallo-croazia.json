@@ -3,11 +3,16 @@
   "match": "Portogallo - Croazia",
   "date": "03/07/2026 ore 01.00",
   "status": "open",
-  "updatedAt": "2026-07-02",
+  "updatedAt": "2026-07-02T20:15:00+02:00",
   "sourceQuote": "data/quote/portogallo-croazia-quote.json",
-  "trisAmmoniti": { "status": "unavailable", "reason": "Le quote Sisal disponibili non espongono un mercato ammonito puro per tre giocatori." },
-  "scenario": "Portogallo favorito ma caldo estremo e umidità favoriscono gestione, pause e punteggio contenuto.",
-  "prediction": { "score": "1-0", "home": 48, "draw": 29, "away": 23 },
+  "lineups": {
+    "status": "official",
+    "homeModule": "4-2-3-1",
+    "awayModule": "4-2-3-1",
+    "note": "Mercati giocatore ricalcolati sui titolari ufficiali; i non titolari sono esclusi o penalizzati."
+  },
+  "scenario": "Portogallo favorito: Leao aggiunge strappo e ampiezza, mentre la Croazia schiera esperienza e controllo con Modric e Kovacic. Caldo estremo e umidita favoriscono gestione, pause e punteggio contenuto.",
+  "prediction": { "score": "1-0", "home": 50, "draw": 28, "away": 22 },
   "portfolios": [
     {
       "name": "Safe",
@@ -15,8 +20,8 @@
       "events": [
         { "selection": "Portogallo Draw No Bet", "odds": 1.22, "category": "esito", "selectionId": 5197193570, "marketId": 789348942 },
         { "selection": "Under 3,5", "odds": 1.38, "category": "goal", "selectionId": 5197128836, "marketId": 789344653 },
-        { "selection": "Ronaldo 3+ tiri", "odds": 1.2, "category": "tiri", "selectionId": 5199740066, "marketId": 789824858 },
-        { "selection": "Modric 1+ tiro", "odds": 1.25, "category": "tiri", "selectionId": 5199741298, "marketId": 789825166 },
+        { "selection": "Ronaldo 3+ tiri", "odds": 1.2, "category": "tiri", "selectionId": 5199740066, "marketId": 789824858, "starterConfirmed": true },
+        { "selection": "Modric 1+ tiro", "odds": 1.25, "category": "tiri", "selectionId": 5199741298, "marketId": 789825166, "starterConfirmed": true },
         { "selection": "Under 9,5 corner", "odds": 1.57, "category": "corner", "selectionId": 5199965563, "marketId": 789868922 }
       ]
     },
@@ -26,8 +31,8 @@
       "events": [
         { "selection": "Under 2,5", "odds": 2, "category": "goal", "selectionId": 5197128830, "marketId": 789344652 },
         { "selection": "Portogallo Draw No Bet", "odds": 1.22, "category": "esito", "selectionId": 5197193570, "marketId": 789348942 },
-        { "selection": "Ronaldo 4+ tiri", "odds": 1.57, "category": "tiri", "selectionId": 5199746667, "marketId": 789825645 },
-        { "selection": "Modric 1+ tiro", "odds": 1.25, "category": "tiri", "selectionId": 5199741298, "marketId": 789825166 },
+        { "selection": "Ronaldo 4+ tiri", "odds": 1.57, "category": "tiri", "selectionId": 5199746667, "marketId": 789825645, "starterConfirmed": true },
+        { "selection": "Modric 1+ tiro", "odds": 1.25, "category": "tiri", "selectionId": 5199741298, "marketId": 789825166, "starterConfirmed": true },
         { "selection": "Under 9,5 corner", "odds": 1.57, "category": "corner", "selectionId": 5199965563, "marketId": 789868922 }
       ]
     },
@@ -38,9 +43,21 @@
         { "selection": "Portogallo vincente", "odds": 1.67, "category": "esito", "selectionId": 5197122162, "marketId": 789343194 },
         { "selection": "No Goal", "odds": 2.1, "category": "goal", "selectionId": 5197122512, "marketId": 789343262 },
         { "selection": "Under 3,5", "odds": 1.38, "category": "goal", "selectionId": 5197128836, "marketId": 789344653 },
-        { "selection": "Ronaldo 5+ tiri", "odds": 2.25, "category": "tiri", "selectionId": 5199746095, "marketId": 789825502 },
-        { "selection": "Modric 2+ tiri", "odds": 2.4, "category": "tiri", "selectionId": 5199739066, "marketId": 789824608 }
+        { "selection": "Ronaldo 5+ tiri", "odds": 2.25, "category": "tiri", "selectionId": 5199746095, "marketId": 789825502, "starterConfirmed": true },
+        { "selection": "Modric 2+ tiri", "odds": 2.4, "category": "tiri", "selectionId": 5199739066, "marketId": 789824608, "starterConfirmed": true }
       ]
     }
-  ]
+  ],
+  "bookingsTrio": {
+    "available": true,
+    "label": "Tris ammoniti",
+    "totalOdds": 60,
+    "risk": "very_high",
+    "events": [
+      { "player": "Mateo Kovacic", "odds": 3.75, "selectionId": 5200588236, "marketId": 789996702, "starterConfirmed": true },
+      { "player": "Marin Pongracic", "odds": 4, "selectionId": 5200588240, "marketId": 789996703, "starterConfirmed": true },
+      { "player": "Josip Stanisic", "odds": 4, "selectionId": 5200588068, "marketId": 789996660, "starterConfirmed": true }
+    ],
+    "note": "Prodotto teorico delle tre singole Sisal; mercato ad altissima varianza da verificare nel betslip."
+  }
 }

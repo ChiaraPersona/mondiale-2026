@@ -9980,3 +9980,72 @@ footer,
     content: none;
   }
 }
+.daily-weather {
+  margin: 0 0 28px;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, .11);
+  border-radius: 20px;
+  background: radial-gradient(circle at 100% 0, rgba(108, 183, 255, .1), transparent 32%), rgba(11, 17, 26, .78);
+}
+.daily-weather-head { display: flex; justify-content: space-between; align-items: end; gap: 28px; margin-bottom: 18px; }
+.daily-weather-kicker { color: #6cb7ff; font-size: 11px; font-weight: 950; letter-spacing: .09em; text-transform: uppercase; }
+.daily-weather-head h2 { margin: 5px 0 0; color: #fff; font-size: clamp(25px, 3vw, 34px); }
+.daily-weather-head p { max-width: 450px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.weather-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.weather-card { min-width: 0; padding: 16px; border: 1px solid rgba(108, 183, 255, .22); border-radius: 15px; background: linear-gradient(150deg, rgba(22, 31, 43, .98), rgba(12, 18, 27, .98)); }
+.weather-card-alert { border-color: rgba(255, 103, 77, .68); background: radial-gradient(circle at 100% 0, rgba(255, 82, 47, .2), transparent 42%), linear-gradient(150deg, rgba(47, 28, 25, .98), rgba(16, 18, 25, .98)); box-shadow: 0 12px 30px rgba(255, 67, 34, .12); }
+.weather-card-head { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: start; gap: 10px; }
+.weather-icon { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 11px; background: rgba(108, 183, 255, .12); font-size: 20px; }
+.weather-card-alert .weather-icon { background: rgba(255, 91, 61, .16); }
+.weather-stadium { display: block; overflow: hidden; color: #8493a1; font-size: 10px; font-weight: 800; text-overflow: ellipsis; white-space: nowrap; }
+.weather-card h3 { margin: 4px 0 0; color: #fff; font-size: 17px; line-height: 1.15; }
+.weather-badge { border-radius: 999px; padding: 5px 7px; font-size: 8px; font-weight: 950; letter-spacing: .06em; white-space: nowrap; }
+.weather-badge-good { color: #5ce0ac; background: rgba(0, 208, 132, .13); }
+.weather-badge-cool { color: #82c8ff; background: rgba(108, 183, 255, .13); }
+.weather-badge-alert { color: #fff; background: #e74c2f; }
+.weather-condition { display: flex; justify-content: space-between; gap: 10px; margin: 16px 0 12px; padding-bottom: 12px; border-bottom: 1px solid rgba(255, 255, 255, .08); }
+.weather-condition strong { color: #e9eef5; font-size: 12px; line-height: 1.35; }
+.weather-condition > span { color: #fff; font-size: 13px; font-weight: 950; text-align: right; }
+.weather-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 0; }
+.weather-facts div { padding: 9px; border-radius: 9px; background: rgba(255, 255, 255, .035); }
+.weather-facts dt { color: #778695; font-size: 9px; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; }
+.weather-facts dd { margin: 3px 0 0; color: #dbe3ec; font-size: 11px; font-weight: 800; line-height: 1.3; }
+.weather-impact { margin: 12px 0 0; color: #aeb9c5; font-size: 11px; line-height: 1.5; }
+.weather-impact b { display: block; margin-bottom: 2px; color: #fff; font-size: 9px; letter-spacing: .06em; text-transform: uppercase; }
+.weather-summary { display: flex; gap: 18px; align-items: center; margin-top: 12px; padding: 12px 14px; border-radius: 12px; background: rgba(0, 0, 0, .2); }
+.weather-summary > strong { color: #fff; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
+.weather-summary ul { display: flex; flex-wrap: wrap; gap: 7px; margin: 0; padding: 0; list-style: none; }
+.weather-summary li { border: 1px solid rgba(255, 255, 255, .08); border-radius: 999px; padding: 6px 9px; color: #c7d0da; background: rgba(255, 255, 255, .035); font-size: 10px; }
+.weather-summary li.is-alert { border-color: rgba(255, 103, 77, .35); color: #ffb6a8; background: rgba(255, 82, 47, .1); }
+@media (max-width: 920px) { .weather-card-grid { grid-template-columns: 1fr; } }
+@media (max-width: 620px) {
+  .daily-weather { padding: 16px; }
+  .daily-weather-head { display: block; }
+  .daily-weather-head p { margin-top: 8px; }
+  .weather-summary { display: block; }
+  .weather-summary ul { display: grid; margin-top: 9px; }
+  .weather-summary li { border-radius: 9px; }
+}
+
+.match-formation-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 14px; }
+.match-formation-card { overflow: hidden; border: 1px solid rgba(255, 255, 255, .12); border-radius: 16px; background: #101722; }
+.match-formation-card > header { display: flex; align-items: center; gap: 10px; padding: 12px 14px; background: rgba(255, 255, 255, .04); }
+.match-formation-card > header img { width: 30px; height: 21px; border-radius: 3px; object-fit: cover; }
+.match-formation-card > header div { display: grid; gap: 1px; }
+.match-formation-card > header strong { color: #fff; font-size: 15px; }
+.match-formation-card > header span { color: #73dfb4; font-size: 10px; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; }
+.football-pitch { position: relative; display: flex; flex-direction: column; justify-content: space-around; min-height: 360px; padding: 24px 10px; background: repeating-linear-gradient(90deg, rgba(16, 111, 72, .95) 0, rgba(16, 111, 72, .95) 16.66%, rgba(13, 98, 64, .95) 16.66%, rgba(13, 98, 64, .95) 33.32%); border-block: 1px solid rgba(255, 255, 255, .18); }
+.football-pitch::before { content: ""; position: absolute; inset: 12px; border: 1px solid rgba(255, 255, 255, .42); pointer-events: none; }
+.football-pitch::after { content: ""; position: absolute; top: 50%; left: 12px; right: 12px; border-top: 1px solid rgba(255, 255, 255, .42); pointer-events: none; }
+.pitch-row { position: relative; z-index: 1; display: flex; justify-content: space-around; align-items: center; gap: 4px; }
+.pitch-row span { max-width: 92px; border: 1px solid rgba(255, 255, 255, .23); border-radius: 999px; padding: 6px 8px; color: #fff; background: rgba(7, 20, 16, .88); box-shadow: 0 3px 9px rgba(0, 0, 0, .25); font-size: 9px; font-weight: 900; line-height: 1.1; text-align: center; }
+.formation-bench { display: grid; gap: 4px; padding: 11px 13px; }
+.formation-bench b, .formation-unavailable b { color: #7f8d9c; font-size: 9px; letter-spacing: .07em; text-transform: uppercase; }
+.formation-bench span { color: #c3ccd6; font-size: 10px; line-height: 1.45; }
+.formation-unavailable { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 0 13px 12px; }
+.formation-unavailable span { border-radius: 999px; padding: 5px 8px; color: #fff; background: #c83b3b; font-size: 9px; font-weight: 900; }
+.formation-disclaimer { margin-top: 12px !important; padding: 10px 12px; border-left: 3px solid #f4c14a; color: #b9c3cd !important; background: rgba(244, 193, 74, .07); font-size: 11px !important; }
+@media (max-width: 760px) {
+  .match-formation-grid { grid-template-columns: 1fr; }
+  .football-pitch { min-height: 330px; }
+}

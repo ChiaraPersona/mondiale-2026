@@ -3330,11 +3330,6 @@ function codexRenderGroupFixtures() {
         if (!result.scorers) codexProjectedScorers();
         const scorersA = codexScorerSummary(result.scorers?.[result.teamA]);
         const scorersB = codexScorerSummary(result.scorers?.[result.teamB]);
-        const scorerBlock = (scorersA || scorersB) ? `
-          <div class="codex-match-scorers">
-            ${scorersA ? `<span>${codexFlag(result.teamA)}${scorersA}</span>` : ""}
-            ${scorersB ? `<span>${codexFlag(result.teamB)}${scorersB}</span>` : ""}
-          </div>` : "";
         return `
           <article class="codex-match-card codex-group-score-card ${result.isReal ? "is-real-result" : ""}">
             <strong class="codex-match-scoreline">
@@ -3342,7 +3337,11 @@ function codexRenderGroupFixtures() {
               <span class="codex-match-score">${result.goalsA}-${result.goalsB}</span>
               <span class="codex-match-team">${codexFlag(result.teamB)}${codexEscape(result.teamB)}</span>
             </strong>
-            ${scorerBlock}
+            <div class="codex-group-scorers">
+              <span class="is-home">${scorersA || "&mdash;"}</span>
+              <small>Marcatori</small>
+              <span class="is-away">${scorersB || "&mdash;"}</span>
+            </div>
           </article>`;
       })
       .join("");

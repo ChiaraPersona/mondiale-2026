@@ -2,9 +2,25 @@
   "slug": "svizzera-algeria",
   "match": "Svizzera - Algeria",
   "date": "03/07/2026 ore 05.00",
-  "status": "open",
+  "status": "completed",
   "updatedAt": "2026-07-02",
   "sourceQuote": "data/quote/svizzera-algeria-quote.json",
+  "settlement": {
+    "status": "Finale",
+    "score": "Svizzera 2-0 Algeria",
+    "actualScenario": "Controllo Svizzera",
+    "source": "https://www.diretta.it/partita/calcio/algeria-nc87N1BR/svizzera-rHJ2vy1B/?mid=rgxknWwh",
+    "notes": "Centrati Svizzera vincente/1X/DNB e Under 3,5. Persi Goal e Over 8,5 corner. Mercati tiri giocatore non liquidati senza dettaglio numerico.",
+    "stats": { "shots": "11-8", "shotsOnTarget": "5-2", "corners": "4-2", "xg": "2.45-0.74", "yellowCards": "0-2" },
+    "events": {
+      "5197189707": { "status": "won", "evidence": "Svizzera vincente 2-0: doppia chance 1X centrata." },
+      "5197136644": { "status": "won", "evidence": "Due gol totali: Under 3,5 centrato." },
+      "5198548087": { "status": "lost", "evidence": "Sei corner totali: Over 8,5 perso." },
+      "5197192620": { "status": "won", "evidence": "Svizzera vincente 2-0: Draw No Bet centrato." },
+      "5197131516": { "status": "lost", "evidence": "Algeria senza gol: mercato Goal perso." },
+      "5197130575": { "status": "won", "evidence": "Svizzera vincente 2-0." }
+    }
+  },
   "trisAmmoniti": { "status": "unavailable", "reason": "Le quote Sisal disponibili non espongono un mercato ammonito puro per tre giocatori." },
   "scenario": "Svizzera più stabile, Algeria pericolosa tra Mahrez e Gouiri; gara competitiva ma protetta dall'Under 3,5.",
   "prediction": { "score": "2-1", "home": 50, "draw": 28, "away": 22 },
@@ -13,32 +29,32 @@
       "name": "Safe",
       "finalOdds": 5.94,
       "events": [
-        { "selection": "1X", "odds": 1.18, "category": "esito", "selectionId": 5197189707, "marketId": 789348549 },
-        { "selection": "Under 3,5", "odds": 1.2, "category": "goal", "selectionId": 5197136644, "marketId": 789348545 },
-        { "selection": "Embolo 3+ tiri", "odds": 1.57, "category": "tiri", "selectionId": 5199021226, "marketId": 789685138 },
-        { "selection": "Mahrez 2+ tiri", "odds": 1.65, "category": "tiri", "selectionId": 5199022046, "marketId": 789685343 },
-        { "selection": "Over 8,5 corner", "odds": 1.62, "category": "corner", "selectionId": 5198548087, "marketId": 789593013 }
+        { "id": "5197189707", "selection": "1X", "odds": 1.18, "category": "esito", "selectionId": 5197189707, "marketId": 789348549 },
+        { "id": "5197136644", "selection": "Under 3,5", "odds": 1.2, "category": "goal", "selectionId": 5197136644, "marketId": 789348545 },
+        { "id": "5199021226", "selection": "Embolo 3+ tiri", "odds": 1.57, "category": "tiri", "selectionId": 5199021226, "marketId": 789685138 },
+        { "id": "5199022046", "selection": "Mahrez 2+ tiri", "odds": 1.65, "category": "tiri", "selectionId": 5199022046, "marketId": 789685343 },
+        { "id": "5198548087", "selection": "Over 8,5 corner", "odds": 1.62, "category": "corner", "selectionId": 5198548087, "marketId": 789593013 }
       ]
     },
     {
       "name": "Balanced",
       "finalOdds": 11.74,
       "events": [
-        { "selection": "Svizzera Draw No Bet", "odds": 1.36, "category": "esito", "selectionId": 5197192620, "marketId": 789348885 },
-        { "selection": "Goal", "odds": 1.85, "category": "goal", "selectionId": 5197131516, "marketId": 789348071 },
-        { "selection": "Under 3,5", "odds": 1.2, "category": "goal", "selectionId": 5197136644, "marketId": 789348545 },
-        { "selection": "Embolo 4+ tiri", "odds": 2.4, "category": "tiri", "selectionId": 5199018474, "marketId": 789684450 },
-        { "selection": "Over 8,5 corner", "odds": 1.62, "category": "corner", "selectionId": 5198548087, "marketId": 789593013 }
+        { "id": "5197192620", "selection": "Svizzera Draw No Bet", "odds": 1.36, "category": "esito", "selectionId": 5197192620, "marketId": 789348885 },
+        { "id": "5197131516", "selection": "Goal", "odds": 1.85, "category": "goal", "selectionId": 5197131516, "marketId": 789348071 },
+        { "id": "5197136644", "selection": "Under 3,5", "odds": 1.2, "category": "goal", "selectionId": 5197136644, "marketId": 789348545 },
+        { "id": "5199018474", "selection": "Embolo 4+ tiri", "odds": 2.4, "category": "tiri", "selectionId": 5199018474, "marketId": 789684450 },
+        { "id": "5198548087", "selection": "Over 8,5 corner", "odds": 1.62, "category": "corner", "selectionId": 5198548087, "marketId": 789593013 }
       ]
     },
     {
       "name": "Aggressive",
       "finalOdds": 25.31,
       "events": [
-        { "selection": "Svizzera vincente", "odds": 1.9, "category": "esito", "selectionId": 5197130575, "marketId": 789348052 },
-        { "selection": "Goal", "odds": 1.85, "category": "goal", "selectionId": 5197131516, "marketId": 789348071 },
-        { "selection": "Embolo 4+ tiri", "odds": 2.4, "category": "tiri", "selectionId": 5199018474, "marketId": 789684450 },
-        { "selection": "Mahrez 3+ tiri", "odds": 3, "category": "tiri", "selectionId": 5199021234, "marketId": 789685140 }
+        { "id": "5197130575", "selection": "Svizzera vincente", "odds": 1.9, "category": "esito", "selectionId": 5197130575, "marketId": 789348052 },
+        { "id": "5197131516", "selection": "Goal", "odds": 1.85, "category": "goal", "selectionId": 5197131516, "marketId": 789348071 },
+        { "id": "5199018474", "selection": "Embolo 4+ tiri", "odds": 2.4, "category": "tiri", "selectionId": 5199018474, "marketId": 789684450 },
+        { "id": "5199021234", "selection": "Mahrez 3+ tiri", "odds": 3, "category": "tiri", "selectionId": 5199021234, "marketId": 789685140 }
       ]
     }
   ]

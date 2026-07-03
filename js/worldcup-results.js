@@ -1484,6 +1484,24 @@ const worldCupResults = {
       "MyCombo: Safe 4/6, Balanced 4/5 e Aggressive 6/7; decisivi Multigoal 1-3 e Over 7,5 corner.",
     ],
   },
+  83: {
+    status: "Finale",
+    home: 2,
+    away: 1,
+    winner: "Portogallo",
+    source: "https://www.diretta.it/partita/calcio/croazia-K8aznggo/portogallo-WvJrjFVN/?mid=6BqAZhfn",
+    sources: ["https://www.diretta.it/partita/calcio/croazia-K8aznggo/portogallo-WvJrjFVN/?mid=6BqAZhfn"],
+    scorers: {
+      Portogallo: ["Cristiano Ronaldo", "Gonçalo Ramos"],
+      Croazia: ["Ivan Perišić"],
+    },
+    notes: [
+      "Il Portogallo rimonta la Croazia 2-1 e si qualifica agli ottavi contro la Spagna.",
+      "Perišić apre, Ronaldo pareggia su rigore e Gonçalo Ramos decide nel recupero.",
+      "Statistiche: 15-13 tiri, 3-6 tiri in porta, 9-5 corner e 2,20-1,34 xG.",
+      "Pronostico positivo: centrati Portogallo vincente/Draw No Bet e Under 3,5; risultato esatto previsto 1-0.",
+    ],
+  },
   84: {
     status: "Finale",
     home: 3,
@@ -1500,6 +1518,24 @@ const worldCupResults = {
       "Oyarzabal segna due volte; Pedro Porro firma il primo gol in nazionale.",
       "Statistiche: 23-5 tiri, 10-0 tiri in porta, 9-0 corner e 2,84-0,32 xG.",
       "Pronostico positivo: centrati Spagna vincente, No Goal, Under 3,5, Spagna + Under 4,5 e Over 8,5 corner; risultato esatto previsto 2-0.",
+    ],
+  },
+  85: {
+    status: "Finale",
+    home: 2,
+    away: 0,
+    winner: "Svizzera",
+    source: "https://www.diretta.it/partita/calcio/algeria-nc87N1BR/svizzera-rHJ2vy1B/?mid=rgxknWwh",
+    sources: ["https://www.diretta.it/partita/calcio/algeria-nc87N1BR/svizzera-rHJ2vy1B/?mid=rgxknWwh"],
+    scorers: {
+      Svizzera: ["Breel Embolo", "Dan Ndoye"],
+      Algeria: [],
+    },
+    notes: [
+      "La Svizzera batte l'Algeria 2-0 e si qualifica agli ottavi.",
+      "Embolo segna al 10'; Ndoye raddoppia nel primo minuto della ripresa.",
+      "Statistiche: 11-8 tiri, 5-2 tiri in porta, 4-2 corner e 2,45-0,74 xG.",
+      "Pronostico positivo: centrati Svizzera vincente/1X/Draw No Bet e Under 3,5; risultato esatto previsto 2-1.",
     ],
   },
 };

@@ -10,6 +10,8 @@
     .find((value) => value !== undefined && value !== null && value !== "");
 
   function pageSlug() {
+    const override = document.querySelector(".reading-article")?.dataset?.mycomboSlug;
+    if (override) return override;
     const filename = decodeURIComponent(location.pathname.split("/").pop() || "");
     return filename.match(/^lettura-(.+)\.html$/i)?.[1]?.toLowerCase() || "";
   }
@@ -121,6 +123,9 @@
         <div class="mycombo-ticket-summary">
           ${scenario ? `<div><small>Scenario</small><strong>${escapeHtml(scenario)}</strong></div>` : ""}
           ${portfolio.riskVerdict ? `<div><small>Profilo rischio</small><strong class="is-risk-${escapeHtml(verdict)}">${escapeHtml(riskLabel(portfolio.riskVerdict))}</strong></div>` : ""}
+          ${portfolio.confidence != null ? `<div><small>Confidence</small><strong>${escapeHtml(portfolio.confidence)}/100</strong></div>` : ""}
+          ${portfolio.stability != null ? `<div><small>Stability</small><strong>${escapeHtml(portfolio.stability)}/100</strong></div>` : ""}
+          ${portfolio.value != null ? `<div><small>Value</small><strong>${escapeHtml(portfolio.value)}/100</strong></div>` : ""}
         </div>
         ${hasRiskData ? `
           <section class="mycombo-risk-profile is-${escapeHtml(verdict)}">

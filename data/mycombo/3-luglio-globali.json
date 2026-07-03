@@ -1,0 +1,61 @@
+{
+  "slug": "3-luglio-globali",
+  "match": "MyCombo globali - partite 3 luglio",
+  "date": "03/07/2026",
+  "status": "open",
+  "updatedAt": "2026-07-03",
+  "scenario": "Tre favorite protette da gare tendenzialmente controllate: Egitto leggermente avanti, Argentina dominante, Colombia superiore ma condizionata dal caldo.",
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 5.29,
+      "scenario": "Protezione sull'Egitto e vittorie delle due favorite, con porte inviolate coerenti con i blocchi bassi avversari.",
+      "confidence": 72,
+      "stability": 78,
+      "value": 61,
+      "riskVerdict": "medium_low",
+      "events": [
+        { "selection": "Australia-Egitto: X2", "odds": 1.33, "category": "esito", "reason": "L'Egitto ha più qualità offensiva; copertura sul pareggio." },
+        { "selection": "Australia-Egitto: No Goal", "odds": 1.6, "category": "goal", "reason": "Partita a basso volume in ambiente indoor controllato." },
+        { "selection": "Argentina vincente", "odds": 1.13, "category": "esito", "reason": "Divario tecnico netto contro un blocco molto basso." },
+        { "selection": "Argentina-Capo Verde: No Goal", "odds": 1.4, "category": "goal", "reason": "Argentina concede pochissimo; Capo Verde privilegia la resistenza." },
+        { "selection": "Colombia vincente", "odds": 1.57, "category": "esito", "reason": "Maggiore continuità e creatività, nonostante il caldo." }
+      ]
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 11.84,
+      "scenario": "Egitto vince una gara corta; Argentina produce almeno tre reti complessive senza subirne; Colombia conferma il vantaggio tecnico.",
+      "confidence": 62,
+      "stability": 66,
+      "value": 69,
+      "riskVerdict": "medium",
+      "events": [
+        { "selection": "Egitto vincente", "odds": 2.45, "category": "esito", "reason": "Salah e Marmoush offrono la giocata decisiva in una gara equilibrata." },
+        { "selection": "Australia-Egitto: Under 2,5", "odds": 1.4, "category": "goal", "reason": "Entrambe le letture centrali restano nella fascia 0-2 gol." },
+        { "selection": "Argentina-Capo Verde: Over 2,5", "odds": 1.57, "category": "goal", "reason": "Il 3-0 è il risultato guida." },
+        { "selection": "Argentina-Capo Verde: No Goal", "odds": 1.4, "category": "goal", "reason": "Scenario dominante senza rete dell'outsider." },
+        { "selection": "Colombia vincente", "odds": 1.57, "category": "esito", "reason": "Colombia più completa e stabile." }
+      ]
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 18.04,
+      "scenario": "Tre vittorie delle favorite: Egitto di misura, Argentina larga e senza subire, Colombia controlla senza concedere gol.",
+      "confidence": 48,
+      "stability": 51,
+      "value": 76,
+      "riskVerdict": "high",
+      "events": [
+        { "selection": "Egitto vincente", "odds": 2.45, "category": "esito", "reason": "Selezione più volatile del portfolio." },
+        { "selection": "Argentina vincente", "odds": 1.13, "category": "esito", "reason": "Base tecnica dello scenario." },
+        { "selection": "Argentina-Capo Verde: Over 2,5", "odds": 1.57, "category": "goal", "reason": "Compatibile con 3-0 e 4-0." },
+        { "selection": "Argentina-Capo Verde: No Goal", "odds": 1.4, "category": "goal", "reason": "Compatibile con il dominio argentino." },
+        { "selection": "Colombia vincente", "odds": 1.57, "category": "esito", "reason": "Vantaggio tecnico e di forma." },
+        { "selection": "Colombia-Ghana: No Goal", "odds": 1.6, "category": "goal", "reason": "Ghana poco produttivo nelle ultime gare." },
+        { "selection": "Colombia-Ghana: Under 3,5", "odds": 1.18, "category": "goal", "reason": "Protegge 1-0, 2-0 e 2-1." }
+      ]
+    }
+  ],
+  "note": "Quote ricavate dalle pagine di lettura già pubblicate; verificare sempre disponibilità e variazioni nel betslip."
+}

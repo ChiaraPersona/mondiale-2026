@@ -1179,6 +1179,19 @@ function codexObservedScorerMultiplier(row) {
   return codexObservedScorerTrend(row)?.multiplier || 1;
 }
 
+function codexTournamentScorerEntry(row) {
+  if (typeof tournamentScorers === "undefined") return null;
+  return tournamentScorers.find((entry) =>
+    entry.team === row.team && codexStarterMatchesPlayer(entry.player, codexScorerDisplayName(row))
+  ) || null;
+}
+
+function codexTournamentScorerMultiplier(row) {
+  const entry = codexTournamentScorerEntry(row);
+  if (!entry) return 1;
+  return codexClamp(1 + entry.goals * 0.075, 1, 1.45);
+}
+
 function codexRankingEntries() {
   if (typeof fifaRankingData === "undefined") return [];
   return fifaRankingData.rankings || [];
@@ -2405,7 +2418,8 @@ function codexScorerWeight(row) {
   const ratingLift = codexClamp((rating - 6.15) / 1.25, 0, 1.25);
   const availability = codexClamp(apps / 15, 0.35, 1);
   const observedMultiplier = codexObservedScorerMultiplier(row);
-  return Math.max(0.05, roleBase * starterBonus * formationWeight * penaltyBonus * focalBonus * formationFocalBonus * pedigreeBonus * marketMultiplier * observedMultiplier * minutesShare * availability * (0.82 + goalRate * 4.8 + assistSupport * 1.1 + ratingLift * 0.45));
+  const tournamentMultiplier = codexTournamentScorerMultiplier(row);
+  return Math.max(0.05, roleBase * starterBonus * formationWeight * penaltyBonus * focalBonus * formationFocalBonus * pedigreeBonus * marketMultiplier * observedMultiplier * tournamentMultiplier * minutesShare * availability * (0.82 + goalRate * 4.8 + assistSupport * 1.1 + ratingLift * 0.45));
 }
 
 function codexScorerPool(team) {
@@ -2493,6 +2507,23 @@ function codexEnsureScorerTotal(totals, row) {
     };
   }
   return totals[key];
+}
+
+function codexApplyOfficialScorerTable(totals) {
+  if (typeof tournamentScorers === "undefined") return;
+  tournamentScorers.forEach((entry) => {
+    const player = codexScorerPool(entry.team)
+      .find((item) => codexStarterMatchesPlayer(entry.player, codexScorerDisplayName(item.row)))?.row || {
+        player: entry.player,
+        team: entry.team,
+        role: "Dato reale Rai",
+      };
+    const total = codexEnsureScorerTotal(totals, player);
+    total.player = entry.player;
+    total.goals = Math.max(total.goals, entry.goals);
+    total.realGoals = entry.goals;
+    total.tournamentPenalties = entry.penalties;
+  });
 }
 
 function codexApplyFocalScorerFloor(totals, teamMatches) {
@@ -2595,6 +2626,7 @@ function codexProjectedScorers() {
       if (scorer) result.scorers[result.teamB].push(scorer.player);
     }
   });
+  codexApplyOfficialScorerTable(totals);
   return Object.values(totals)
     .map((row) => ({ ...row, matches: teamMatches[row.team] || 0 }))
     .map((row) => ({ ...row, projectedGoals: Math.max(0, row.goals - row.realGoals) }))
@@ -3268,7 +3300,7 @@ function codexRenderTopScorers() {
   const root = document.getElementById("codex-top-scorers");
   if (!root) return;
   const scorers = codexProjectedScorers();
-  root.innerHTML = `<p class="codex-ranking-disclaimer">Proiezione statistica del totale finale: separa i gol già registrati da quelli simulati. Non indica quote né presume che un mercato marcatore sia disponibile.</p>` + scorers.map((row, index) => {
+  root.innerHTML = `<p class="codex-ranking-disclaimer">Proiezione statistica del totale finale: gol reali aggiornati dalla <a href="${codexEscape(tournamentScorersMeta?.url || "#")}" target="_blank" rel="noopener">classifica Rai Sport</a> al 3 luglio 2026, più la simulazione residua Codex.</p>` + scorers.map((row, index) => {
     const rate = row.recentApps ? (row.recentGoals / row.recentApps).toFixed(2) : "n.d.";
     return `
       <article class="codex-scorer-row">
@@ -3281,7 +3313,7 @@ function codexRenderTopScorers() {
         <div class="codex-scorer-goals">
           <strong>${row.goals}</strong>
           <small>totale finale stimato</small>
-          <small>${row.realGoals} reali + ${row.projectedGoals} simulati</small>
+          <small>${row.realGoals} reali${row.tournamentPenalties ? ` (${row.tournamentPenalties} su rigore)` : ""} + ${row.projectedGoals} simulati</small>
           <small>media recente ${rate}</small>
         </div>
       </article>`;

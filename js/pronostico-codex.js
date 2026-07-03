@@ -3326,7 +3326,25 @@ function codexRenderGroupFixtures() {
   const byGroup = Object.keys(groupTeams).map((group) => {
     const cards = Object.entries(codexState.results)
       .filter(([number, result]) => Number(number) <= 72 && result.fixture?.[1] === `Group ${group}`)
-      .map(([number]) => codexRenderResultCard(Number(number)))
+      .map(([number, result]) => {
+        if (!result.scorers) codexProjectedScorers();
+        const scorersA = codexScorerSummary(result.scorers?.[result.teamA]);
+        const scorersB = codexScorerSummary(result.scorers?.[result.teamB]);
+        const scorerBlock = (scorersA || scorersB) ? `
+          <div class="codex-match-scorers">
+            ${scorersA ? `<span>${codexFlag(result.teamA)}${scorersA}</span>` : ""}
+            ${scorersB ? `<span>${codexFlag(result.teamB)}${scorersB}</span>` : ""}
+          </div>` : "";
+        return `
+          <article class="codex-match-card codex-group-score-card ${result.isReal ? "is-real-result" : ""}">
+            <strong class="codex-match-scoreline">
+              <span class="codex-match-team">${codexFlag(result.teamA)}${codexEscape(result.teamA)}</span>
+              <span class="codex-match-score">${result.goalsA}-${result.goalsB}</span>
+              <span class="codex-match-team">${codexFlag(result.teamB)}${codexEscape(result.teamB)}</span>
+            </strong>
+            ${scorerBlock}
+          </article>`;
+      })
       .join("");
     return `<section class="codex-group-results"><h3>Girone ${group}</h3><div>${cards}</div></section>`;
   }).join("");
@@ -3336,12 +3354,11 @@ function codexRenderGroupFixtures() {
 function codexStandingTable(group, table) {
   return `
     <article class="prediction-group-card" style="--group-color:${groupColors[group] || "#00d084"}">
-      <div class="prediction-group-head"><span>Girone ${group}</span><small>Codex</small></div>
+      <div class="prediction-group-head"><span>Girone ${group}</span><small>Punti</small></div>
       <table class="prediction-group-table">
-        <thead><tr><th>Pos</th><th>Squadra</th><th>PG</th><th>V</th><th>N</th><th>P</th><th>GF</th><th>GS</th><th>DR</th><th>Pt</th></tr></thead>
+        <thead><tr><th>Pos</th><th>Squadra</th><th>Pt</th></tr></thead>
         <tbody>${table.map((row, index) => {
-          const diff = row.gf - row.ga;
-          return `<tr><td>${index + 1}</td><td><span class="prediction-team-name">${codexFlag(row.team)}${codexEscape(row.team)}${codexExternalBadges(row.team, 2)}</span></td><td>${row.played}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td><td>${row.gf}</td><td>${row.ga}</td><td>${diff > 0 ? "+" : ""}${diff}</td><td><strong>${row.points}</strong></td></tr>`;
+          return `<tr><td>${index + 1}</td><td><span class="prediction-team-name">${codexFlag(row.team)}${codexEscape(row.team)}</span></td><td><strong>${row.points}</strong></td></tr>`;
         }).join("")}</tbody>
       </table>
     </article>`;

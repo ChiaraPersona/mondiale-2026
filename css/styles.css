@@ -8008,6 +8008,17 @@ body {
   background: rgba(16, 23, 34, .96);
 }
 
+.codex-group-score-card {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 7px;
+}
+
+.codex-group-score-card .codex-match-scoreline {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  margin-top: 0;
+}
+
 .codex-knockout-round .codex-match-card {
   position: relative;
   grid-template-columns: 46px minmax(0, 1fr);

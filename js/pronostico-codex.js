@@ -3329,7 +3329,7 @@ function codexRenderTopScorers() {
   const root = document.getElementById("codex-top-scorers");
   if (!root) return;
   const scorers = codexProjectedScorers();
-  root.innerHTML = `<p class="codex-ranking-disclaimer">Top 10 calcolata contando gli stessi marcatori mostrati nel tabellone: gol reali aggiornati dalla <a href="${codexEscape(tournamentScorersMeta?.url || "#")}" target="_blank" rel="noopener">classifica Rai Sport</a>, più la simulazione residua Codex.</p>` + scorers.map((row, index) => {
+  root.innerHTML = scorers.map((row, index) => {
     const rate = row.recentApps ? (row.recentGoals / row.recentApps).toFixed(2) : "n.d.";
     return `
       <article class="codex-scorer-row">

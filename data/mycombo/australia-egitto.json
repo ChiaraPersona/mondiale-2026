@@ -4,16 +4,64 @@
   "date": "03/07/2026 ore 20.00",
   "status": "open",
   "updatedAt": "2026-07-03",
-  "scenario": "Egitto leggermente favorito in una gara tattica e a punteggio contenuto; Salah e Marmoush concentrano il volume offensivo.",
-  "targetNote": "MyCombo ricalcolate sulle quote Sisal disponibili il 3 luglio. Le selezioni giocatore includono l'eventuale sostituto, come indicato dal mercato.",
+  "scenario": "Formazioni ufficiali: Egitto leggermente favorito in una gara tattica e a punteggio contenuto; Salah e Marmoush partono titolari e concentrano il volume offensivo.",
+  "targetNote": "MyCombo ricalcolate sulle quote Sisal e sugli undici ufficiali del 3 luglio. Le selezioni giocatore includono l'eventuale sostituto, come indicato dal mercato.",
+  "lineupStatus": "official",
+  "officialLineups": {
+    "Australia": {
+      "formation": "3-4-2-1",
+      "starters": [
+        "Paul Beach",
+        "Luka Herrington",
+        "Harry Souttar",
+        "Alessandro Circati",
+        "Aziz Behich",
+        "Jackson Irvine",
+        "Aiden O'Neill",
+        "Jordy Bos",
+        "Connor Metcalfe",
+        "Cristian Volpato",
+        "Nestory Irankunda"
+      ]
+    },
+    "Egitto": {
+      "formation": "4-2-3-1",
+      "starters": [
+        "Mostafa Shobeir",
+        "Mohamed Hany",
+        "Ramy Rabia",
+        "Yasser Ibrahim",
+        "Karim Hafez",
+        "Hamdy Fathy",
+        "Marwan Attia",
+        "Emam Ashour",
+        "Mohamed Salah",
+        "Mostafa Ziko",
+        "Omar Marmoush"
+      ]
+    }
+  },
+  "availabilityImpact": {
+    "startingPlayersBoosted": [
+      "Mohamed Salah",
+      "Omar Marmoush",
+      "Nestory Irankunda"
+    ],
+    "nonStartersPenalized": [
+      "Mohamed Toure",
+      "Cameron Burgess",
+      "Mohanad Lasheen"
+    ],
+    "note": "Nessun non titolare è utilizzato nelle MyCombo pubblicate."
+  },
   "portfolios": [
     {
       "name": "Safe",
       "finalOdds": 3.35,
       "scenario": "Egitto non perde, massimo tre gol e almeno un tiro in porta per entrambi i riferimenti offensivi.",
-      "confidence": 72,
-      "stability": 76,
-      "value": 64,
+      "confidence": 76,
+      "stability": 79,
+      "value": 66,
       "riskVerdict": "low",
       "events": [
         {
@@ -35,14 +83,14 @@
           "selection": "Salah almeno 1 tiro in porta",
           "odds": 1.57,
           "category": "giocatore",
-          "reason": "È il principale terminale egiziano; mercato valido anche sul sostituto."
+          "reason": "Titolare ufficiale e principale terminale egiziano; mercato valido anche sul sostituto."
         },
         {
           "market": "Tiri in porta giocatore (duo)",
           "selection": "Marmoush almeno 1 tiro in porta",
           "odds": 1.5,
           "category": "giocatore",
-          "reason": "Attacca profondità e seconde palle; mercato valido anche sul sostituto."
+          "reason": "Titolare come punta, attacca profondità e seconde palle; mercato valido anche sul sostituto."
         }
       ]
     },
@@ -50,9 +98,9 @@
       "name": "Balanced",
       "finalOdds": 8.02,
       "scenario": "Egitto vincente in una partita corta, con Salah e Marmoush entrambi pericolosi.",
-      "confidence": 58,
-      "stability": 61,
-      "value": 73,
+      "confidence": 62,
+      "stability": 65,
+      "value": 75,
       "riskVerdict": "medium",
       "events": [
         {
@@ -60,7 +108,7 @@
           "selection": "Egitto vincente",
           "odds": 2.35,
           "category": "esito",
-          "reason": "Salah e Marmoush danno all'Egitto il vantaggio tecnico decisivo."
+          "reason": "Salah e Marmoush, entrambi titolari ufficiali, danno all'Egitto il vantaggio tecnico decisivo."
         },
         {
           "market": "Under/Over",
@@ -74,14 +122,14 @@
           "selection": "Salah almeno 1 tiro in porta",
           "odds": 1.57,
           "category": "giocatore",
-          "reason": "Volume offensivo egiziano concentrato sul capitano."
+          "reason": "Titolare confermato: il volume offensivo egiziano resta concentrato sul capitano."
         },
         {
           "market": "Tiri in porta giocatore (duo)",
           "selection": "Marmoush almeno 1 tiro in porta",
           "odds": 1.5,
           "category": "giocatore",
-          "reason": "Secondo terminale più affidabile dell'Egitto."
+          "reason": "Punta titolare e secondo terminale più affidabile dell'Egitto."
         }
       ]
     },
@@ -89,9 +137,9 @@
       "name": "Aggressive",
       "finalOdds": 21.1,
       "scenario": "Variante 1-2 o 1-3: l'Egitto vince una gara più aperta del previsto e Salah centra la porta.",
-      "confidence": 34,
-      "stability": 37,
-      "value": 78,
+      "confidence": 36,
+      "stability": 39,
+      "value": 79,
       "riskVerdict": "high",
       "events": [
         {
@@ -127,7 +175,7 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-03T11:43:48.979Z",
+    "generatedAt": "2026-07-03T17:19:07.306Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "minimumValueScore": 0.02,
@@ -146,17 +194,17 @@
         "selection": "SI",
         "odds": 5.5,
         "impliedProbability": 18.18,
-        "estimatedProbability": 39,
-        "valueScore": 0.2082,
-        "edge": 20.82,
+        "estimatedProbability": 41,
+        "valueScore": 0.2282,
+        "edge": 22.82,
         "anomalyIndex": 83,
         "classification": "Possibile errore di quota",
         "badge": "🔴 Possibile errore di quota",
         "level": "error",
-        "reason": "La produzione offensiva egiziana è concentrata sui due giocatori e le MyCombo li prevedono entrambi al tiro. La quota appare ampia rispetto al volume congiunto stimato.",
+        "reason": "Salah e Marmoush sono entrambi titolari ufficiali e concentrano la produzione offensiva egiziana. La quota appare ampia rispetto al volume congiunto stimato.",
         "risk": "medium",
         "myComboCompatible": true,
-        "modelConfidence": 73,
+        "modelConfidence": 77,
         "confirmations": [
           "Scenario Engine",
           "Player Engine",
@@ -172,17 +220,17 @@
         "selection": "OVER",
         "odds": 4,
         "impliedProbability": 25,
-        "estimatedProbability": 38,
-        "valueScore": 0.13,
-        "edge": 13,
-        "anomalyIndex": 63,
+        "estimatedProbability": 40,
+        "valueScore": 0.15,
+        "edge": 15,
+        "anomalyIndex": 67,
         "classification": "Quota sospetta",
         "badge": "🟡 Quota sospetta",
         "level": "suspicious",
-        "reason": "Salah accentra conclusioni e piazzati. Il mercato richiede due tiri nello specchio, coerenti con il ruolo previsto e con una gara in cui l'Egitto è favorito.",
+        "reason": "Salah è titolare ufficiale e accentra conclusioni e piazzati. Due tiri nello specchio sono coerenti con ruolo e scenario di leggero favore egiziano.",
         "risk": "medium",
         "myComboCompatible": true,
-        "modelConfidence": 70,
+        "modelConfidence": 74,
         "confirmations": [
           "Player Engine",
           "Tactical Engine",
@@ -197,17 +245,17 @@
         "selection": "OVER",
         "odds": 3.75,
         "impliedProbability": 26.67,
-        "estimatedProbability": 34,
-        "valueScore": 0.0733,
-        "edge": 7.33,
-        "anomalyIndex": 50,
+        "estimatedProbability": 36,
+        "valueScore": 0.0933,
+        "edge": 9.33,
+        "anomalyIndex": 55,
         "classification": "Quota interessante",
         "badge": "🟢 Value",
         "level": "value",
-        "reason": "Marmoush attacca profondità e seconde palle. La stima supera la probabilità implicita, pur mantenendo una volatilità da mercato giocatore.",
+        "reason": "Marmoush parte da punta titolare e attacca profondità e seconde palle. La stima supera la probabilità implicita, pur mantenendo volatilità da mercato giocatore.",
         "risk": "medium",
         "myComboCompatible": true,
-        "modelConfidence": 66,
+        "modelConfidence": 70,
         "confirmations": [
           "Player Engine",
           "Scenario Engine",

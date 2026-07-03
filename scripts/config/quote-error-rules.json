@@ -5,8 +5,8 @@
         "event": "Salah e Marmoush almeno 4 tiri in porta complessivi",
         "infoContains": "MARMOUSH O. E SALAH M. E SOST. ALMENO 4 TIRI IN PORTA",
         "selection": "SI",
-        "estimatedProbability": 0.39,
-        "modelConfidence": 73,
+        "estimatedProbability": 0.41,
+        "modelConfidence": 77,
         "risk": "medium",
         "myComboCompatible": true,
         "scenarioCompatible": true,
@@ -14,15 +14,15 @@
         "tacticalFit": true,
         "isolatedScore": 86,
         "confirmations": ["Scenario Engine", "Player Engine", "Tactical Engine", "MyCombo Engine"],
-        "reason": "La produzione offensiva egiziana è concentrata sui due giocatori e le MyCombo li prevedono entrambi al tiro. La quota appare ampia rispetto al volume congiunto stimato."
+        "reason": "Salah e Marmoush sono entrambi titolari ufficiali e concentrano la produzione offensiva egiziana. La quota appare ampia rispetto al volume congiunto stimato."
       },
       {
         "event": "Salah almeno 2 tiri in porta",
         "infoContains": "SALAH M. U/O 1.5 SOMMA TIRI IN PORTA",
         "selection": "OVER",
         "threshold": "1.5",
-        "estimatedProbability": 0.38,
-        "modelConfidence": 70,
+        "estimatedProbability": 0.4,
+        "modelConfidence": 74,
         "risk": "medium",
         "myComboCompatible": true,
         "scenarioCompatible": true,
@@ -30,15 +30,15 @@
         "tacticalFit": true,
         "isolatedScore": 74,
         "confirmations": ["Player Engine", "Tactical Engine", "MyCombo Engine"],
-        "reason": "Salah accentra conclusioni e piazzati. Il mercato richiede due tiri nello specchio, coerenti con il ruolo previsto e con una gara in cui l'Egitto è favorito."
+        "reason": "Salah è titolare ufficiale e accentra conclusioni e piazzati. Due tiri nello specchio sono coerenti con ruolo e scenario di leggero favore egiziano."
       },
       {
         "event": "Marmoush almeno 2 tiri in porta",
         "infoContains": "MARMOUSH O. U/O 1.5 SOMMA TIRI IN PORTA",
         "selection": "OVER",
         "threshold": "1.5",
-        "estimatedProbability": 0.34,
-        "modelConfidence": 66,
+        "estimatedProbability": 0.36,
+        "modelConfidence": 70,
         "risk": "medium",
         "myComboCompatible": true,
         "scenarioCompatible": true,
@@ -46,7 +46,7 @@
         "tacticalFit": true,
         "isolatedScore": 68,
         "confirmations": ["Player Engine", "Scenario Engine", "MyCombo Engine"],
-        "reason": "Marmoush attacca profondità e seconde palle. La stima supera la probabilità implicita, pur mantenendo una volatilità da mercato giocatore."
+        "reason": "Marmoush parte da punta titolare e attacca profondità e seconde palle. La stima supera la probabilità implicita, pur mantenendo volatilità da mercato giocatore."
       }
     ],
     "argentina-capo-verde": [

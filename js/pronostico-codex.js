@@ -2592,6 +2592,36 @@ function codexApplyMarketScorerBalance(totals, teamMatches) {
 function codexProjectedScorers() {
   const totals = {};
   const teamMatches = {};
+  const officialRemaining = Object.fromEntries(
+    (typeof tournamentScorers === "undefined" ? [] : tournamentScorers)
+      .map((entry) => [`${entry.team}::${codexCompact(entry.player)}`, { ...entry, remaining: entry.goals }])
+  );
+  const useOfficialGoal = (team, name = "") => {
+    const candidates = Object.values(officialRemaining)
+      .filter((entry) => entry.team === team && entry.remaining > 0);
+    const matched = name
+      ? candidates.find((entry) => codexStarterMatchesPlayer(entry.player, name))
+      : candidates.sort((a, b) => b.remaining - a.remaining || a.player.localeCompare(b.player))[0];
+    if (!matched) return null;
+    matched.remaining -= 1;
+    return matched;
+  };
+  const addRealScorer = (team, name) => {
+    const official = useOfficialGoal(team, name);
+    const displayName = official?.player || name;
+    const player = codexScorerPool(team).find((item) =>
+      codexStarterMatchesPlayer(displayName, codexScorerDisplayName(item.row))
+    )?.row || {
+      player: displayName,
+      team,
+      role: official ? "Dato reale Rai" : "Dato reale",
+    };
+    const total = codexEnsureScorerTotal(totals, player);
+    total.goals += 1;
+    total.realGoals += 1;
+    if (official) total.tournamentPenalties = official.penalties;
+    return total.player;
+  };
   Object.entries(codexState.results).forEach(([number, result]) => {
     const matchNumber = Number(number);
     if (!result?.teamA || !result?.teamB) return;
@@ -2604,16 +2634,16 @@ function codexProjectedScorers() {
     if (result.isReal && result.real?.scorers) {
       [result.teamA, result.teamB].forEach((team) => {
         (result.real.scorers[team] || []).forEach((name) => {
-          const player = codexScorerPool(team).find((item) => codexCompact(item.row.player) === codexCompact(name))?.row || {
-            player: name,
-            team,
-            role: "Dato reale",
-          };
-          const total = codexEnsureScorerTotal(totals, player);
-          total.goals += 1;
-          total.realGoals += 1;
-          result.scorers[team].push(total.player);
+          result.scorers[team].push(addRealScorer(team, name));
         });
+        const teamGoals = team === result.teamA ? result.goalsA : result.goalsB;
+        while (result.scorers[team].length < teamGoals) {
+          const official = Object.values(officialRemaining)
+            .filter((entry) => entry.team === team && entry.remaining > 0)
+            .sort((a, b) => b.remaining - a.remaining || a.player.localeCompare(b.player))[0];
+          if (!official) break;
+          result.scorers[team].push(addRealScorer(team, official.player));
+        }
       });
       return;
     }
@@ -2626,7 +2656,6 @@ function codexProjectedScorers() {
       if (scorer) result.scorers[result.teamB].push(scorer.player);
     }
   });
-  codexApplyOfficialScorerTable(totals);
   return Object.values(totals)
     .map((row) => ({ ...row, matches: teamMatches[row.team] || 0 }))
     .map((row) => ({ ...row, projectedGoals: Math.max(0, row.goals - row.realGoals) }))
@@ -3300,7 +3329,7 @@ function codexRenderTopScorers() {
   const root = document.getElementById("codex-top-scorers");
   if (!root) return;
   const scorers = codexProjectedScorers();
-  root.innerHTML = `<p class="codex-ranking-disclaimer">Proiezione statistica del totale finale: gol reali aggiornati dalla <a href="${codexEscape(tournamentScorersMeta?.url || "#")}" target="_blank" rel="noopener">classifica Rai Sport</a> al 3 luglio 2026, più la simulazione residua Codex.</p>` + scorers.map((row, index) => {
+  root.innerHTML = `<p class="codex-ranking-disclaimer">Top 10 calcolata contando gli stessi marcatori mostrati nel tabellone: gol reali aggiornati dalla <a href="${codexEscape(tournamentScorersMeta?.url || "#")}" target="_blank" rel="noopener">classifica Rai Sport</a>, più la simulazione residua Codex.</p>` + scorers.map((row, index) => {
     const rate = row.recentApps ? (row.recentGoals / row.recentApps).toFixed(2) : "n.d.";
     return `
       <article class="codex-scorer-row">

@@ -342,6 +342,220 @@ header {
   border-color: rgba(234, 179, 8, 0.42);
 }
 
+.quote-error-section {
+  display: grid;
+  gap: 14px;
+  margin-top: 1.25rem;
+  border-top: 1px solid rgba(245, 200, 75, .22);
+  padding-top: 1.25rem;
+}
+
+.quote-error-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.quote-error-head span {
+  color: #f5c84b;
+  font-size: 10px;
+  font-weight: 950;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.quote-error-head h4 {
+  margin: 4px 0 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.quote-error-head p {
+  max-width: 480px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.quote-error-audit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.quote-error-audit span {
+  border: 1px solid rgba(255, 255, 255, .09);
+  border-radius: 999px;
+  padding: 6px 10px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, .035);
+  font-size: 9px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.quote-error-audit strong {
+  margin-right: 3px;
+  color: #fff;
+}
+
+.quote-error-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.quote-error-card {
+  overflow: hidden;
+  border: 1px solid rgba(0, 208, 132, .25);
+  border-left: 3px solid #00d084;
+  border-radius: 8px;
+  background: linear-gradient(145deg, rgba(0, 208, 132, .055), transparent 42%), rgba(7, 10, 15, .64);
+}
+
+.quote-error-card.is-suspicious {
+  border-color: rgba(245, 200, 75, .34);
+  border-left-color: #f5c84b;
+  background: linear-gradient(145deg, rgba(245, 200, 75, .07), transparent 42%), rgba(7, 10, 15, .64);
+}
+
+.quote-error-card.is-error {
+  border-color: rgba(255, 77, 109, .38);
+  border-left-color: #ff4d6d;
+  background: linear-gradient(145deg, rgba(255, 77, 109, .08), transparent 42%), rgba(7, 10, 15, .64);
+}
+
+.quote-error-card > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, .08);
+  padding: 14px 16px;
+}
+
+.quote-error-card h5 {
+  margin: 7px 0 0;
+  color: #fff;
+  font-size: 15px;
+}
+
+.quote-error-badge {
+  display: inline-flex;
+  border-radius: 999px;
+  padding: 5px 8px;
+  color: #07110d;
+  background: #00d084;
+  font-size: 9px;
+  font-weight: 950;
+}
+
+.quote-error-badge.is-suspicious { background: #f5c84b; }
+.quote-error-badge.is-error { color: #fff; background: #ff4d6d; }
+
+.quote-error-odds {
+  display: grid;
+  flex: 0 0 auto;
+  gap: 3px;
+  text-align: right;
+}
+
+.quote-error-odds small,
+.quote-error-metrics small,
+.quote-error-reason span,
+.quote-error-confirmations > span {
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.quote-error-odds strong {
+  color: #f5c84b;
+  font-size: 22px;
+}
+
+.quote-error-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  background: rgba(255, 255, 255, .07);
+}
+
+.quote-error-metrics > div {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+  padding: 11px 13px;
+  background: #0b1119;
+}
+
+.quote-error-metrics strong {
+  overflow-wrap: anywhere;
+  color: #fff;
+  font-size: 12px;
+}
+
+.quote-error-metrics .is-edge,
+.quote-error-metrics .is-risk-low { color: #64e6ae; }
+.quote-error-metrics .is-risk-medium { color: #ffd166; }
+.quote-error-metrics .is-risk-high { color: #ff6b81; }
+
+.quote-error-reason {
+  margin: 0;
+  padding: 13px 16px;
+  color: rgba(255, 255, 255, .76);
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.quote-error-reason span {
+  display: block;
+  margin-bottom: 5px;
+  color: #f5c84b;
+}
+
+.quote-error-confirmations {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-top: 1px solid rgba(255, 255, 255, .07);
+  padding: 11px 16px;
+}
+
+.quote-error-confirmations > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.quote-error-confirmations em {
+  border-radius: 999px;
+  padding: 4px 7px;
+  color: #b9c5cf;
+  background: rgba(255, 255, 255, .07);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.quote-error-disclaimer {
+  margin: 0;
+  border: 1px solid rgba(108, 183, 255, .18);
+  border-left: 3px solid #6cb7ff;
+  border-radius: 7px;
+  padding: 12px 14px;
+  color: rgba(255, 255, 255, .68);
+  background: rgba(108, 183, 255, .055);
+  font-size: 10px;
+  line-height: 1.55;
+}
+
 .mycombo-value-explanation {
   margin-bottom: 14px;
   border: 1px solid rgba(245, 200, 75, .2);
@@ -797,9 +1011,33 @@ header {
   }
 
   .mycombo-generated-head,
-  .mycombo-final-card > header {
+  .mycombo-final-card > header,
+  .quote-error-head {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .quote-error-head p {
+    max-width: none;
+    text-align: left;
+  }
+
+  .quote-error-card > header,
+  .quote-error-confirmations {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .quote-error-odds {
+    text-align: left;
+  }
+
+  .quote-error-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .quote-error-confirmations > div {
+    justify-content: flex-start;
   }
 
   .mycombo-final-card > header > strong {

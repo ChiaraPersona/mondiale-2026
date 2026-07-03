@@ -16,11 +16,41 @@
       "value": 65,
       "riskVerdict": "low",
       "events": [
-        { "market": "Esito finale 1X2", "selection": "Argentina vincente", "odds": 1.15, "category": "esito", "reason": "Divario tecnico netto e possesso previsto stabilmente argentino." },
-        { "market": "Goal/No Goal", "selection": "No Goal", "odds": 1.4, "category": "gol", "reason": "Capo Verde dovrebbe produrre poco contro la struttura argentina." },
-        { "market": "Under/Over", "selection": "Under 4,5", "odds": 1.18, "category": "gol", "reason": "Copre i risultati guida 2-0, 3-0 e 4-0." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "Messi almeno 2 tiri in porta", "odds": 1.25, "category": "giocatore", "reason": "Centralità tecnica, piazzati e volume contro un blocco basso." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "Lautaro Martínez almeno 2 tiri in porta", "odds": 1.8, "category": "giocatore", "reason": "Presenza costante nell'area avversaria; mercato valido anche sul sostituto." }
+        {
+          "market": "Esito finale 1X2",
+          "selection": "Argentina vincente",
+          "odds": 1.15,
+          "category": "esito",
+          "reason": "Divario tecnico netto e possesso previsto stabilmente argentino."
+        },
+        {
+          "market": "Goal/No Goal",
+          "selection": "No Goal",
+          "odds": 1.4,
+          "category": "gol",
+          "reason": "Capo Verde dovrebbe produrre poco contro la struttura argentina."
+        },
+        {
+          "market": "Under/Over",
+          "selection": "Under 4,5",
+          "odds": 1.18,
+          "category": "gol",
+          "reason": "Copre i risultati guida 2-0, 3-0 e 4-0."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "Messi almeno 2 tiri in porta",
+          "odds": 1.25,
+          "category": "giocatore",
+          "reason": "Centralità tecnica, piazzati e volume contro un blocco basso."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "Lautaro Martínez almeno 2 tiri in porta",
+          "odds": 1.8,
+          "category": "giocatore",
+          "reason": "Presenza costante nell'area avversaria; mercato valido anche sul sostituto."
+        }
       ]
     },
     {
@@ -32,12 +62,48 @@
       "value": 74,
       "riskVerdict": "medium",
       "events": [
-        { "market": "Esito finale 1X2", "selection": "Argentina vincente", "odds": 1.15, "category": "esito", "reason": "Base strutturale della lettura." },
-        { "market": "Goal/No Goal", "selection": "No Goal", "odds": 1.4, "category": "gol", "reason": "Scenario di dominio territoriale e porta argentina inviolata." },
-        { "market": "Under/Over", "selection": "Under 4,5", "odds": 1.18, "category": "gol", "reason": "Mantiene la partita entro un margine realistico." },
-        { "market": "Marcatore (duo)", "selection": "Messi marcatore", "odds": 1.5, "category": "marcatore", "reason": "Rigori, punizioni e posizione centrale nella rifinitura." },
-        { "market": "Marcatore (duo)", "selection": "Lautaro Martínez marcatore", "odds": 1.8, "category": "marcatore", "reason": "È il riferimento più avanzato dell'Argentina." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "Lautaro Martínez almeno 2 tiri in porta", "odds": 1.8, "category": "giocatore", "reason": "Sostiene lo scenario marcatore con un volume elevato in area." }
+        {
+          "market": "Esito finale 1X2",
+          "selection": "Argentina vincente",
+          "odds": 1.15,
+          "category": "esito",
+          "reason": "Base strutturale della lettura."
+        },
+        {
+          "market": "Goal/No Goal",
+          "selection": "No Goal",
+          "odds": 1.4,
+          "category": "gol",
+          "reason": "Scenario di dominio territoriale e porta argentina inviolata."
+        },
+        {
+          "market": "Under/Over",
+          "selection": "Under 4,5",
+          "odds": 1.18,
+          "category": "gol",
+          "reason": "Mantiene la partita entro un margine realistico."
+        },
+        {
+          "market": "Marcatore (duo)",
+          "selection": "Messi marcatore",
+          "odds": 1.5,
+          "category": "marcatore",
+          "reason": "Rigori, punizioni e posizione centrale nella rifinitura."
+        },
+        {
+          "market": "Marcatore (duo)",
+          "selection": "Lautaro Martínez marcatore",
+          "odds": 1.8,
+          "category": "marcatore",
+          "reason": "È il riferimento più avanzato dell'Argentina."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "Lautaro Martínez almeno 2 tiri in porta",
+          "odds": 1.8,
+          "category": "giocatore",
+          "reason": "Sostiene lo scenario marcatore con un volume elevato in area."
+        }
       ]
     },
     {
@@ -49,15 +115,132 @@
       "value": 80,
       "riskVerdict": "high",
       "events": [
-        { "market": "Esito finale 1X2", "selection": "Argentina vincente", "odds": 1.15, "category": "esito", "reason": "Il divario tecnico sostiene uno scenario largo." },
-        { "market": "Goal/No Goal", "selection": "No Goal", "odds": 1.4, "category": "gol", "reason": "Capo Verde resta sotto pressione e con pochi sbocchi." },
-        { "market": "Under/Over", "selection": "Over 2,5", "odds": 1.57, "category": "gol", "reason": "Richiede almeno tre reti argentine nello scenario senza gol ospite." },
-        { "market": "Under/Over", "selection": "Under 4,5", "odds": 1.18, "category": "gol", "reason": "Restringe lo scenario ai risultati 3-0 o 4-0." },
-        { "market": "Marcatore (duo)", "selection": "Messi marcatore", "odds": 1.5, "category": "marcatore", "reason": "È il primo candidato a incidere tra rigori e gioco aperto." },
-        { "market": "Marcatore (duo)", "selection": "Lautaro Martínez marcatore", "odds": 1.8, "category": "marcatore", "reason": "Attacca l'area contro una difesa destinata a schiacciarsi." },
-        { "market": "Tiri in porta giocatori (duo)", "selection": "Messi + Lautaro almeno 5 tiri in porta totali", "odds": 2, "category": "giocatore", "reason": "Volume coerente con una vittoria argentina da tre o quattro reti." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "Messi almeno 2 tiri in porta", "odds": 1.25, "category": "giocatore", "reason": "Rafforza lo scenario di forte centralità offensiva." }
+        {
+          "market": "Esito finale 1X2",
+          "selection": "Argentina vincente",
+          "odds": 1.15,
+          "category": "esito",
+          "reason": "Il divario tecnico sostiene uno scenario largo."
+        },
+        {
+          "market": "Goal/No Goal",
+          "selection": "No Goal",
+          "odds": 1.4,
+          "category": "gol",
+          "reason": "Capo Verde resta sotto pressione e con pochi sbocchi."
+        },
+        {
+          "market": "Under/Over",
+          "selection": "Over 2,5",
+          "odds": 1.57,
+          "category": "gol",
+          "reason": "Richiede almeno tre reti argentine nello scenario senza gol ospite."
+        },
+        {
+          "market": "Under/Over",
+          "selection": "Under 4,5",
+          "odds": 1.18,
+          "category": "gol",
+          "reason": "Restringe lo scenario ai risultati 3-0 o 4-0."
+        },
+        {
+          "market": "Marcatore (duo)",
+          "selection": "Messi marcatore",
+          "odds": 1.5,
+          "category": "marcatore",
+          "reason": "È il primo candidato a incidere tra rigori e gioco aperto."
+        },
+        {
+          "market": "Marcatore (duo)",
+          "selection": "Lautaro Martínez marcatore",
+          "odds": 1.8,
+          "category": "marcatore",
+          "reason": "Attacca l'area contro una difesa destinata a schiacciarsi."
+        },
+        {
+          "market": "Tiri in porta giocatori (duo)",
+          "selection": "Messi + Lautaro almeno 5 tiri in porta totali",
+          "odds": 2,
+          "category": "giocatore",
+          "reason": "Volume coerente con una vittoria argentina da tre o quattro reti."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "Messi almeno 2 tiri in porta",
+          "odds": 1.25,
+          "category": "giocatore",
+          "reason": "Rafforza lo scenario di forte centralità offensiva."
+        }
       ]
     }
-  ]
+  ],
+  "quoteErrorAnalysis": {
+    "title": "Errore di Quota",
+    "generatedAt": "2026-07-03T11:43:49.004Z",
+    "criteria": {
+      "minimumOddsExclusive": 3,
+      "minimumValueScore": 0.02,
+      "minimumModelConfidence": 55
+    },
+    "analysis": {
+      "totalMarkets": 6709,
+      "marketsAboveOddsThreshold": 3780,
+      "modelMatchedMarkets": 2,
+      "publishedEvents": 2
+    },
+    "events": [
+      {
+        "event": "Argentina segna esattamente 3 gol",
+        "market": "RISULTATO ESATTO MULTI ESITI 1",
+        "selection": "3-0 / 3-1 / 3-2",
+        "odds": 3.6,
+        "impliedProbability": 27.78,
+        "estimatedProbability": 36,
+        "valueScore": 0.0822,
+        "edge": 8.22,
+        "anomalyIndex": 56,
+        "classification": "Quota interessante",
+        "badge": "🟢 Value",
+        "level": "value",
+        "reason": "Il risultato guida del sistema è 3-0 e l'intero gruppo di esiti copre qualunque partita con tre reti argentine. È coerente con dominio territoriale e blocco basso avversario.",
+        "risk": "medium",
+        "myComboCompatible": true,
+        "modelConfidence": 69,
+        "confirmations": [
+          "Scenario Engine",
+          "Goal Engine",
+          "Tactical Engine",
+          "MyCombo Engine"
+        ],
+        "selectionId": "5196091277",
+        "marketId": "789137819"
+      },
+      {
+        "event": "Lautaro Martínez marcatore nel primo tempo",
+        "market": "MARCATORE SI/NO 1T",
+        "selection": "SI",
+        "odds": 3.15,
+        "impliedProbability": 31.75,
+        "estimatedProbability": 35,
+        "valueScore": 0.0325,
+        "edge": 3.25,
+        "anomalyIndex": 36,
+        "classification": "Leggero value",
+        "badge": "🟢 Value",
+        "level": "value",
+        "reason": "Lautaro è previsto come riferimento centrale contro una difesa bassa. Il timing nel primo tempo aumenta però la varianza e mantiene alto il rischio.",
+        "risk": "high",
+        "myComboCompatible": true,
+        "modelConfidence": 64,
+        "confirmations": [
+          "Player Engine",
+          "Scenario Engine",
+          "MyCombo Engine"
+        ],
+        "selectionId": "5197229493",
+        "marketId": "789346956"
+      }
+    ],
+    "disclaimer": "Le quote segnalate non rappresentano garanzie di vincita. Sono eventi in cui il modello rileva un possibile disallineamento tra la quota offerta dal bookmaker e la probabilità stimata."
+  }
 }

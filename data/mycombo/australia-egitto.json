@@ -16,10 +16,34 @@
       "value": 64,
       "riskVerdict": "low",
       "events": [
-        { "market": "Doppia chance", "selection": "X2", "odds": 1.27, "category": "esito", "reason": "L'Egitto ha più qualità individuale e resta coperto dal pareggio." },
-        { "market": "Under/Over", "selection": "Under 3,5", "odds": 1.12, "category": "gol", "reason": "Scenario tattico e stadio climatizzato favoriscono una gara controllata." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "Salah almeno 1 tiro in porta", "odds": 1.57, "category": "giocatore", "reason": "È il principale terminale egiziano; mercato valido anche sul sostituto." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "Marmoush almeno 1 tiro in porta", "odds": 1.5, "category": "giocatore", "reason": "Attacca profondità e seconde palle; mercato valido anche sul sostituto." }
+        {
+          "market": "Doppia chance",
+          "selection": "X2",
+          "odds": 1.27,
+          "category": "esito",
+          "reason": "L'Egitto ha più qualità individuale e resta coperto dal pareggio."
+        },
+        {
+          "market": "Under/Over",
+          "selection": "Under 3,5",
+          "odds": 1.12,
+          "category": "gol",
+          "reason": "Scenario tattico e stadio climatizzato favoriscono una gara controllata."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "Salah almeno 1 tiro in porta",
+          "odds": 1.57,
+          "category": "giocatore",
+          "reason": "È il principale terminale egiziano; mercato valido anche sul sostituto."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "Marmoush almeno 1 tiro in porta",
+          "odds": 1.5,
+          "category": "giocatore",
+          "reason": "Attacca profondità e seconde palle; mercato valido anche sul sostituto."
+        }
       ]
     },
     {
@@ -31,10 +55,34 @@
       "value": 73,
       "riskVerdict": "medium",
       "events": [
-        { "market": "Esito finale 1X2", "selection": "Egitto vincente", "odds": 2.35, "category": "esito", "reason": "Salah e Marmoush danno all'Egitto il vantaggio tecnico decisivo." },
-        { "market": "Under/Over", "selection": "Under 2,5", "odds": 1.45, "category": "gol", "reason": "Coerente con risultati guida 0-1 e 0-2." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "Salah almeno 1 tiro in porta", "odds": 1.57, "category": "giocatore", "reason": "Volume offensivo egiziano concentrato sul capitano." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "Marmoush almeno 1 tiro in porta", "odds": 1.5, "category": "giocatore", "reason": "Secondo terminale più affidabile dell'Egitto." }
+        {
+          "market": "Esito finale 1X2",
+          "selection": "Egitto vincente",
+          "odds": 2.35,
+          "category": "esito",
+          "reason": "Salah e Marmoush danno all'Egitto il vantaggio tecnico decisivo."
+        },
+        {
+          "market": "Under/Over",
+          "selection": "Under 2,5",
+          "odds": 1.45,
+          "category": "gol",
+          "reason": "Coerente con risultati guida 0-1 e 0-2."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "Salah almeno 1 tiro in porta",
+          "odds": 1.57,
+          "category": "giocatore",
+          "reason": "Volume offensivo egiziano concentrato sul capitano."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "Marmoush almeno 1 tiro in porta",
+          "odds": 1.5,
+          "category": "giocatore",
+          "reason": "Secondo terminale più affidabile dell'Egitto."
+        }
       ]
     },
     {
@@ -46,11 +94,129 @@
       "value": 78,
       "riskVerdict": "high",
       "events": [
-        { "market": "Esito finale 1X2", "selection": "Egitto vincente", "odds": 2.35, "category": "esito", "reason": "La qualità offensiva egiziana resta il fulcro dello scenario." },
-        { "market": "Goal/No Goal", "selection": "Goal", "odds": 2.2, "category": "gol", "reason": "L'Australia trova spazio in transizione o su calcio piazzato." },
-        { "market": "Under/Over", "selection": "Over 2,5", "odds": 2.6, "category": "gol", "reason": "Con entrambe a segno, identifica uno scenario da almeno tre reti." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "Salah almeno 1 tiro in porta", "odds": 1.57, "category": "giocatore", "reason": "Condizione minima per sostenere una vittoria egiziana ad alto punteggio." }
+        {
+          "market": "Esito finale 1X2",
+          "selection": "Egitto vincente",
+          "odds": 2.35,
+          "category": "esito",
+          "reason": "La qualità offensiva egiziana resta il fulcro dello scenario."
+        },
+        {
+          "market": "Goal/No Goal",
+          "selection": "Goal",
+          "odds": 2.2,
+          "category": "gol",
+          "reason": "L'Australia trova spazio in transizione o su calcio piazzato."
+        },
+        {
+          "market": "Under/Over",
+          "selection": "Over 2,5",
+          "odds": 2.6,
+          "category": "gol",
+          "reason": "Con entrambe a segno, identifica uno scenario da almeno tre reti."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "Salah almeno 1 tiro in porta",
+          "odds": 1.57,
+          "category": "giocatore",
+          "reason": "Condizione minima per sostenere una vittoria egiziana ad alto punteggio."
+        }
       ]
     }
-  ]
+  ],
+  "quoteErrorAnalysis": {
+    "title": "Errore di Quota",
+    "generatedAt": "2026-07-03T11:43:48.979Z",
+    "criteria": {
+      "minimumOddsExclusive": 3,
+      "minimumValueScore": 0.02,
+      "minimumModelConfidence": 55
+    },
+    "analysis": {
+      "totalMarkets": 7607,
+      "marketsAboveOddsThreshold": 4092,
+      "modelMatchedMarkets": 3,
+      "publishedEvents": 3
+    },
+    "events": [
+      {
+        "event": "Salah e Marmoush almeno 4 tiri in porta complessivi",
+        "market": "X + Y ALMENO Z TIRI IN PORTA (DUO) INC TS",
+        "selection": "SI",
+        "odds": 5.5,
+        "impliedProbability": 18.18,
+        "estimatedProbability": 39,
+        "valueScore": 0.2082,
+        "edge": 20.82,
+        "anomalyIndex": 83,
+        "classification": "Possibile errore di quota",
+        "badge": "🔴 Possibile errore di quota",
+        "level": "error",
+        "reason": "La produzione offensiva egiziana è concentrata sui due giocatori e le MyCombo li prevedono entrambi al tiro. La quota appare ampia rispetto al volume congiunto stimato.",
+        "risk": "medium",
+        "myComboCompatible": true,
+        "modelConfidence": 73,
+        "confirmations": [
+          "Scenario Engine",
+          "Player Engine",
+          "Tactical Engine",
+          "MyCombo Engine"
+        ],
+        "selectionId": "5200067526",
+        "marketId": "789888860"
+      },
+      {
+        "event": "Salah almeno 2 tiri in porta",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "selection": "OVER",
+        "odds": 4,
+        "impliedProbability": 25,
+        "estimatedProbability": 38,
+        "valueScore": 0.13,
+        "edge": 13,
+        "anomalyIndex": 63,
+        "classification": "Quota sospetta",
+        "badge": "🟡 Quota sospetta",
+        "level": "suspicious",
+        "reason": "Salah accentra conclusioni e piazzati. Il mercato richiede due tiri nello specchio, coerenti con il ruolo previsto e con una gara in cui l'Egitto è favorito.",
+        "risk": "medium",
+        "myComboCompatible": true,
+        "modelConfidence": 70,
+        "confirmations": [
+          "Player Engine",
+          "Tactical Engine",
+          "MyCombo Engine"
+        ],
+        "selectionId": "5201200401",
+        "marketId": "790149624"
+      },
+      {
+        "event": "Marmoush almeno 2 tiri in porta",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "selection": "OVER",
+        "odds": 3.75,
+        "impliedProbability": 26.67,
+        "estimatedProbability": 34,
+        "valueScore": 0.0733,
+        "edge": 7.33,
+        "anomalyIndex": 50,
+        "classification": "Quota interessante",
+        "badge": "🟢 Value",
+        "level": "value",
+        "reason": "Marmoush attacca profondità e seconde palle. La stima supera la probabilità implicita, pur mantenendo una volatilità da mercato giocatore.",
+        "risk": "medium",
+        "myComboCompatible": true,
+        "modelConfidence": 66,
+        "confirmations": [
+          "Player Engine",
+          "Scenario Engine",
+          "MyCombo Engine"
+        ],
+        "selectionId": "5200117515",
+        "marketId": "789898381"
+      }
+    ],
+    "disclaimer": "Le quote segnalate non rappresentano garanzie di vincita. Sono eventi in cui il modello rileva un possibile disallineamento tra la quota offerta dal bookmaker e la probabilità stimata."
+  }
 }

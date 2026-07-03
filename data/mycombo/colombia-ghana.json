@@ -16,10 +16,34 @@
       "value": 66,
       "riskVerdict": "low",
       "events": [
-        { "market": "Esito finale 1X2", "selection": "Colombia vincente", "odds": 1.44, "category": "esito", "reason": "Maggior qualità tecnica e più soluzioni tra le linee." },
-        { "market": "Under/Over", "selection": "Under 3,5", "odds": 1.25, "category": "gol", "reason": "Il caldo può abbassare intensità e continuità della gara." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "Luis Díaz almeno 1 tiro in porta", "odds": 1.4, "category": "giocatore", "reason": "È la principale minaccia in conduzione e attacco dell'area." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "James Rodríguez almeno 1 tiro in porta", "odds": 1.57, "category": "giocatore", "reason": "Piazzati e libertà tra le linee aumentano le occasioni di tiro." }
+        {
+          "market": "Esito finale 1X2",
+          "selection": "Colombia vincente",
+          "odds": 1.44,
+          "category": "esito",
+          "reason": "Maggior qualità tecnica e più soluzioni tra le linee."
+        },
+        {
+          "market": "Under/Over",
+          "selection": "Under 3,5",
+          "odds": 1.25,
+          "category": "gol",
+          "reason": "Il caldo può abbassare intensità e continuità della gara."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "Luis Díaz almeno 1 tiro in porta",
+          "odds": 1.4,
+          "category": "giocatore",
+          "reason": "È la principale minaccia in conduzione e attacco dell'area."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "James Rodríguez almeno 1 tiro in porta",
+          "odds": 1.57,
+          "category": "giocatore",
+          "reason": "Piazzati e libertà tra le linee aumentano le occasioni di tiro."
+        }
       ]
     },
     {
@@ -31,11 +55,41 @@
       "value": 76,
       "riskVerdict": "medium",
       "events": [
-        { "market": "Esito finale 1X2", "selection": "Colombia vincente", "odds": 1.44, "category": "esito", "reason": "La Colombia ha più controllo e qualità negli ultimi trenta metri." },
-        { "market": "Under/Over", "selection": "Under 3,5", "odds": 1.25, "category": "gol", "reason": "Coerente con 1-0, 2-0 e 3-0." },
-        { "market": "Goal/No Goal", "selection": "No Goal", "odds": 1.52, "category": "gol", "reason": "Il Ghana può soffrire nel consolidare il possesso sotto pressione." },
-        { "market": "Marcatore (duo)", "selection": "Luis Díaz marcatore", "odds": 2.4, "category": "marcatore", "reason": "È l'attaccante colombiano con maggiore capacità di creare il tiro." },
-        { "market": "Tiri in porta giocatore (duo)", "selection": "James Rodríguez almeno 1 tiro in porta", "odds": 1.57, "category": "giocatore", "reason": "Piazzati e conclusioni dal limite sostengono la selezione." }
+        {
+          "market": "Esito finale 1X2",
+          "selection": "Colombia vincente",
+          "odds": 1.44,
+          "category": "esito",
+          "reason": "La Colombia ha più controllo e qualità negli ultimi trenta metri."
+        },
+        {
+          "market": "Under/Over",
+          "selection": "Under 3,5",
+          "odds": 1.25,
+          "category": "gol",
+          "reason": "Coerente con 1-0, 2-0 e 3-0."
+        },
+        {
+          "market": "Goal/No Goal",
+          "selection": "No Goal",
+          "odds": 1.52,
+          "category": "gol",
+          "reason": "Il Ghana può soffrire nel consolidare il possesso sotto pressione."
+        },
+        {
+          "market": "Marcatore (duo)",
+          "selection": "Luis Díaz marcatore",
+          "odds": 2.4,
+          "category": "marcatore",
+          "reason": "È l'attaccante colombiano con maggiore capacità di creare il tiro."
+        },
+        {
+          "market": "Tiri in porta giocatore (duo)",
+          "selection": "James Rodríguez almeno 1 tiro in porta",
+          "odds": 1.57,
+          "category": "giocatore",
+          "reason": "Piazzati e conclusioni dal limite sostengono la selezione."
+        }
       ]
     },
     {
@@ -47,12 +101,111 @@
       "value": 81,
       "riskVerdict": "high",
       "events": [
-        { "market": "Esito finale 1X2", "selection": "Colombia vincente", "odds": 1.44, "category": "esito", "reason": "Superiorità tecnica e maggiore profondità offensiva." },
-        { "market": "Under/Over", "selection": "Over 2,5", "odds": 2, "category": "gol", "reason": "Scenario alternativo in cui il Ghana concede spazi dopo lo svantaggio." },
-        { "market": "Under/Over", "selection": "Under 4,5", "odds": 1.07, "category": "gol", "reason": "Limita la lettura a tre o quattro reti complessive." },
-        { "market": "Marcatore (duo)", "selection": "Luis Díaz marcatore", "odds": 2.4, "category": "marcatore", "reason": "Finalizzatore più credibile nel fronte offensivo colombiano." },
-        { "market": "Assist (duo)", "selection": "James Rodríguez assist", "odds": 3, "category": "assist", "reason": "Calci piazzati e ultimo passaggio possono collegarlo direttamente a una rete." }
+        {
+          "market": "Esito finale 1X2",
+          "selection": "Colombia vincente",
+          "odds": 1.44,
+          "category": "esito",
+          "reason": "Superiorità tecnica e maggiore profondità offensiva."
+        },
+        {
+          "market": "Under/Over",
+          "selection": "Over 2,5",
+          "odds": 2,
+          "category": "gol",
+          "reason": "Scenario alternativo in cui il Ghana concede spazi dopo lo svantaggio."
+        },
+        {
+          "market": "Under/Over",
+          "selection": "Under 4,5",
+          "odds": 1.07,
+          "category": "gol",
+          "reason": "Limita la lettura a tre o quattro reti complessive."
+        },
+        {
+          "market": "Marcatore (duo)",
+          "selection": "Luis Díaz marcatore",
+          "odds": 2.4,
+          "category": "marcatore",
+          "reason": "Finalizzatore più credibile nel fronte offensivo colombiano."
+        },
+        {
+          "market": "Assist (duo)",
+          "selection": "James Rodríguez assist",
+          "odds": 3,
+          "category": "assist",
+          "reason": "Calci piazzati e ultimo passaggio possono collegarlo direttamente a una rete."
+        }
       ]
     }
-  ]
+  ],
+  "quoteErrorAnalysis": {
+    "title": "Errore di Quota",
+    "generatedAt": "2026-07-03T11:43:49.029Z",
+    "criteria": {
+      "minimumOddsExclusive": 3,
+      "minimumValueScore": 0.02,
+      "minimumModelConfidence": 55
+    },
+    "analysis": {
+      "totalMarkets": 6844,
+      "marketsAboveOddsThreshold": 3928,
+      "modelMatchedMarkets": 2,
+      "publishedEvents": 2
+    },
+    "events": [
+      {
+        "event": "James Rodríguez almeno 2 tiri in porta",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "selection": "OVER",
+        "odds": 4,
+        "impliedProbability": 25,
+        "estimatedProbability": 34,
+        "valueScore": 0.09,
+        "edge": 9,
+        "anomalyIndex": 58,
+        "classification": "Quota interessante",
+        "badge": "🟢 Value",
+        "level": "value",
+        "reason": "Piazzati, rigori potenziali e libertà tra le linee sostengono un volume superiore a quello suggerito dalla quota.",
+        "risk": "medium",
+        "myComboCompatible": true,
+        "modelConfidence": 68,
+        "confirmations": [
+          "Player Engine",
+          "Set Piece Engine",
+          "Tactical Engine",
+          "MyCombo Engine"
+        ],
+        "selectionId": "5201332925",
+        "marketId": "790134927"
+      },
+      {
+        "event": "Luis Díaz realizza un assist",
+        "market": "ASSIST (DUO) INC TS",
+        "selection": "SI",
+        "odds": 3.75,
+        "impliedProbability": 26.67,
+        "estimatedProbability": 31,
+        "valueScore": 0.0433,
+        "edge": 4.33,
+        "anomalyIndex": 40,
+        "classification": "Leggero value",
+        "badge": "🟢 Value",
+        "level": "value",
+        "reason": "Luis Díaz può generare l'ultimo passaggio dopo avere attirato raddoppi. Il possibile disallineamento è interessante, ma l'assist resta un evento ad alta varianza.",
+        "risk": "high",
+        "myComboCompatible": true,
+        "modelConfidence": 62,
+        "confirmations": [
+          "Player Engine",
+          "Tactical Engine",
+          "MyCombo Engine"
+        ],
+        "selectionId": "5201318139",
+        "marketId": "790132821"
+      }
+    ],
+    "disclaimer": "Le quote segnalate non rappresentano garanzie di vincita. Sono eventi in cui il modello rileva un possibile disallineamento tra la quota offerta dal bookmaker e la probabilità stimata."
+  }
 }

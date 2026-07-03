@@ -1,0 +1,118 @@
+{
+  "matches": {
+    "australia-egitto": [
+      {
+        "event": "Salah e Marmoush almeno 4 tiri in porta complessivi",
+        "infoContains": "MARMOUSH O. E SALAH M. E SOST. ALMENO 4 TIRI IN PORTA",
+        "selection": "SI",
+        "estimatedProbability": 0.39,
+        "modelConfidence": 73,
+        "risk": "medium",
+        "myComboCompatible": true,
+        "scenarioCompatible": true,
+        "correlationCompatible": true,
+        "tacticalFit": true,
+        "isolatedScore": 86,
+        "confirmations": ["Scenario Engine", "Player Engine", "Tactical Engine", "MyCombo Engine"],
+        "reason": "La produzione offensiva egiziana è concentrata sui due giocatori e le MyCombo li prevedono entrambi al tiro. La quota appare ampia rispetto al volume congiunto stimato."
+      },
+      {
+        "event": "Salah almeno 2 tiri in porta",
+        "infoContains": "SALAH M. U/O 1.5 SOMMA TIRI IN PORTA",
+        "selection": "OVER",
+        "threshold": "1.5",
+        "estimatedProbability": 0.38,
+        "modelConfidence": 70,
+        "risk": "medium",
+        "myComboCompatible": true,
+        "scenarioCompatible": true,
+        "correlationCompatible": true,
+        "tacticalFit": true,
+        "isolatedScore": 74,
+        "confirmations": ["Player Engine", "Tactical Engine", "MyCombo Engine"],
+        "reason": "Salah accentra conclusioni e piazzati. Il mercato richiede due tiri nello specchio, coerenti con il ruolo previsto e con una gara in cui l'Egitto è favorito."
+      },
+      {
+        "event": "Marmoush almeno 2 tiri in porta",
+        "infoContains": "MARMOUSH O. U/O 1.5 SOMMA TIRI IN PORTA",
+        "selection": "OVER",
+        "threshold": "1.5",
+        "estimatedProbability": 0.34,
+        "modelConfidence": 66,
+        "risk": "medium",
+        "myComboCompatible": true,
+        "scenarioCompatible": true,
+        "correlationCompatible": true,
+        "tacticalFit": true,
+        "isolatedScore": 68,
+        "confirmations": ["Player Engine", "Scenario Engine", "MyCombo Engine"],
+        "reason": "Marmoush attacca profondità e seconde palle. La stima supera la probabilità implicita, pur mantenendo una volatilità da mercato giocatore."
+      }
+    ],
+    "argentina-capo-verde": [
+      {
+        "event": "Argentina segna esattamente 3 gol",
+        "infoContains": "RISULTATO ESATTO MULTI ESITI (1)",
+        "selection": "3-0 / 3-1 / 3-2",
+        "estimatedProbability": 0.36,
+        "modelConfidence": 69,
+        "risk": "medium",
+        "myComboCompatible": true,
+        "scenarioCompatible": true,
+        "correlationCompatible": true,
+        "tacticalFit": true,
+        "isolatedScore": 77,
+        "confirmations": ["Scenario Engine", "Goal Engine", "Tactical Engine", "MyCombo Engine"],
+        "reason": "Il risultato guida del sistema è 3-0 e l'intero gruppo di esiti copre qualunque partita con tre reti argentine. È coerente con dominio territoriale e blocco basso avversario."
+      },
+      {
+        "event": "Lautaro Martínez marcatore nel primo tempo",
+        "infoContains": "MARTINEZ LAUTARO MARCATORE 1T",
+        "selection": "SI",
+        "estimatedProbability": 0.35,
+        "modelConfidence": 64,
+        "risk": "high",
+        "myComboCompatible": true,
+        "scenarioCompatible": true,
+        "correlationCompatible": true,
+        "tacticalFit": true,
+        "isolatedScore": 61,
+        "confirmations": ["Player Engine", "Scenario Engine", "MyCombo Engine"],
+        "reason": "Lautaro è previsto come riferimento centrale contro una difesa bassa. Il timing nel primo tempo aumenta però la varianza e mantiene alto il rischio."
+      }
+    ],
+    "colombia-ghana": [
+      {
+        "event": "James Rodríguez almeno 2 tiri in porta",
+        "infoContains": "JAMES RODRIGUEZ U/O 1.5 SOMMA TIRI IN PORTA",
+        "selection": "OVER",
+        "threshold": "1.5",
+        "estimatedProbability": 0.34,
+        "modelConfidence": 68,
+        "risk": "medium",
+        "myComboCompatible": true,
+        "scenarioCompatible": true,
+        "correlationCompatible": true,
+        "tacticalFit": true,
+        "isolatedScore": 73,
+        "confirmations": ["Player Engine", "Set Piece Engine", "Tactical Engine", "MyCombo Engine"],
+        "reason": "Piazzati, rigori potenziali e libertà tra le linee sostengono un volume superiore a quello suggerito dalla quota."
+      },
+      {
+        "event": "Luis Díaz realizza un assist",
+        "infoContains": "LUIS DIAZ ASSIST O SUO SOSTITUTO",
+        "selection": "SI",
+        "estimatedProbability": 0.31,
+        "modelConfidence": 62,
+        "risk": "high",
+        "myComboCompatible": true,
+        "scenarioCompatible": true,
+        "correlationCompatible": true,
+        "tacticalFit": true,
+        "isolatedScore": 65,
+        "confirmations": ["Player Engine", "Tactical Engine", "MyCombo Engine"],
+        "reason": "Luis Díaz può generare l'ultimo passaggio dopo avere attirato raddoppi. Il possibile disallineamento è interessante, ma l'assist resta un evento ad alta varianza."
+      }
+    ]
+  }
+}

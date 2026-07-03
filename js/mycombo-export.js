@@ -174,6 +174,63 @@
       </section>`;
   }
 
+  function quoteErrorCard(event) {
+    const level = ["value", "suspicious", "error"].includes(event.level) ? event.level : "value";
+    const risk = fold(event.risk);
+    const confirmations = cleanList(event.confirmations);
+    return `
+      <article class="quote-error-card is-${escapeHtml(level)}">
+        <header>
+          <div>
+            <span class="quote-error-badge is-${escapeHtml(level)}">${escapeHtml(event.badge)}</span>
+            <h5>${escapeHtml(event.event)}</h5>
+          </div>
+          <div class="quote-error-odds"><small>Quota</small><strong>${escapeHtml(event.odds)}</strong></div>
+        </header>
+        <div class="quote-error-metrics">
+          <div><small>Probabilità implicita</small><strong>${escapeHtml(event.impliedProbability)}%</strong></div>
+          <div><small>Probabilità stimata</small><strong>${escapeHtml(event.estimatedProbability)}%</strong></div>
+          <div><small>Edge</small><strong class="is-edge">+${escapeHtml(event.edge)}%</strong></div>
+          <div><small>Indice di Anomalia</small><strong>${escapeHtml(event.anomalyIndex)}/100</strong></div>
+          <div><small>Rischio</small><strong class="is-risk-${escapeHtml(risk)}">${escapeHtml(riskLabel(event.risk))}</strong></div>
+          <div><small>Compatibilità MyCombo</small><strong>${event.myComboCompatible ? "Sì" : "No"}</strong></div>
+          <div><small>Fiducia modello</small><strong>${escapeHtml(event.modelConfidence)}/100</strong></div>
+          <div><small>Classificazione</small><strong>${escapeHtml(event.classification)}</strong></div>
+        </div>
+        <p class="quote-error-reason"><span>Motivo del possibile errore</span>${escapeHtml(event.reason)}</p>
+        ${confirmations.length ? `
+          <div class="quote-error-confirmations">
+            <span>Conferme motori</span>
+            <div>${confirmations.map((engine) => `<em>${escapeHtml(engine)}</em>`).join("")}</div>
+          </div>` : ""}
+      </article>`;
+  }
+
+  function quoteErrorSection(analysis) {
+    if (!analysis) return "";
+    const events = Array.isArray(analysis.events) ? analysis.events : [];
+    const stats = analysis.analysis || {};
+    return `
+      <section class="quote-error-section" aria-labelledby="quote-error-title">
+        <header class="quote-error-head">
+          <div>
+            <span>Market Intelligence</span>
+            <h4 id="quote-error-title">Errore di Quota</h4>
+          </div>
+          <p>Solo eventi con quota superiore a 3.00, edge positivo e conferme sufficienti dai motori.</p>
+        </header>
+        <div class="quote-error-audit">
+          <span><strong>${escapeHtml(stats.totalMarkets ?? 0)}</strong> quote analizzate</span>
+          <span><strong>${escapeHtml(stats.marketsAboveOddsThreshold ?? 0)}</strong> sopra 3.00</span>
+          <span><strong>${escapeHtml(events.length)}</strong> segnalazioni</span>
+        </div>
+        ${events.length
+          ? `<div class="quote-error-grid">${events.map(quoteErrorCard).join("")}</div>`
+          : `<p class="mycombo-combo-empty">Nessun possibile disallineamento supera tutti i filtri del modello.</p>`}
+        <p class="quote-error-disclaimer">${escapeHtml(analysis.disclaimer)}</p>
+      </section>`;
+  }
+
   function renderFinalCombos(container, payload) {
     if (!Array.isArray(payload?.portfolios) || !payload.portfolios.length) {
       throw new Error("Formato MyCombo non valido");
@@ -190,7 +247,8 @@
       <div class="mycombo-portfolio-content">
         ${payload.portfolios.map((portfolio, index) => portfolioCard(portfolio, index, settlement)).join("")}
       </div>
-      ${bookingsTrioCard(payload.bookingsTrio, settlement)}`;
+      ${bookingsTrioCard(payload.bookingsTrio, settlement)}
+      ${quoteErrorSection(payload.quoteErrorAnalysis)}`;
 
     container.addEventListener("click", (event) => {
       const button = event.target.closest("[data-portfolio-tab]");

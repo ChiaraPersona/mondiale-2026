@@ -1538,6 +1538,21 @@ const worldCupResults = {
       "Pronostico positivo: centrati Svizzera vincente/1X/Draw No Bet e Under 3,5; risultato esatto previsto 2-1.",
     ],
   },
+  88: {
+    status: "Finale dopo i rigori",
+    home: 1,
+    away: 1,
+    winner: "Egitto",
+    penalties: { home: 2, away: 4 },
+    source: "https://www.diretta.it/partita/calcio/australia-xSrf6qMM/egitto-bejDn7NN/?mid=Whg00tL7",
+    sources: ["https://www.diretta.it/partita/calcio/australia-xSrf6qMM/egitto-bejDn7NN/?mid=Whg00tL7"],
+    scorers: { Australia: [], Egitto: [] },
+    notes: [
+      "Australia ed Egitto chiudono 1-1 dopo i tempi supplementari.",
+      "L'Egitto vince 4-2 ai rigori e si qualifica agli ottavi di finale.",
+      "Pronostico positivo: centrati X2, Under 2,5 e il risultato alternativo 1-1; persi Egitto nei tempi di gioco e No Goal.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

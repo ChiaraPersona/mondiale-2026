@@ -1,0 +1,44 @@
+{
+  "slug": "argentina-capo-verde",
+  "match": "Argentina - Capo Verde",
+  "date": "04/07/2026 ore 00.00",
+  "status": "open",
+  "updatedAt": "2026-07-03",
+  "scenario": "Argentina dominante contro un blocco molto basso; risultato guida 3-0.",
+  "targetNote": "Quote compresse: i target superiori non sono raggiungibili con i soli mercati verificati senza introdurre selezioni artificiali.",
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 1.67,
+      "scenario": "Argentina vince con massimo tre reti complessive.",
+      "confidence": 86, "stability": 88, "value": 48, "riskVerdict": "low",
+      "events": [
+        { "selection": "Argentina vincente", "odds": 1.13, "category": "esito", "reason": "Divario tecnico e di forma netto." },
+        { "selection": "Under 3,5", "odds": 1.48, "category": "goal", "reason": "Protegge 2-0 e 3-0 contro il blocco basso." }
+      ]
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 2.34,
+      "scenario": "Argentina controlla senza subire: 2-0 o 3-0.",
+      "confidence": 76, "stability": 79, "value": 57, "riskVerdict": "medium_low",
+      "events": [
+        { "selection": "Argentina vincente", "odds": 1.13, "category": "esito", "reason": "Base della lettura." },
+        { "selection": "No Goal", "odds": 1.4, "category": "goal", "reason": "Capo Verde avrà poco volume offensivo." },
+        { "selection": "Under 3,5", "odds": 1.48, "category": "goal", "reason": "Scenario controllato anche con caldo e umidità." }
+      ]
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 3.68,
+      "scenario": "Risultato quasi vincolato al 3-0: Argentina, Over 2,5, No Goal e Under 3,5.",
+      "confidence": 57, "stability": 60, "value": 66, "riskVerdict": "high",
+      "events": [
+        { "selection": "Argentina vincente", "odds": 1.13, "category": "esito", "reason": "Favorita netta." },
+        { "selection": "Over 2,5", "odds": 1.57, "category": "goal", "reason": "Tre reti argentine nello scenario guida." },
+        { "selection": "No Goal", "odds": 1.4, "category": "goal", "reason": "Porta inviolata attesa." },
+        { "selection": "Under 3,5", "odds": 1.48, "category": "goal", "reason": "La combinazione descrive esattamente un totale di tre gol." }
+      ]
+    }
+  ]
+}

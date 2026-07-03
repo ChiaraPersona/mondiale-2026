@@ -1,0 +1,42 @@
+{
+  "slug": "australia-egitto",
+  "match": "Australia - Egitto",
+  "date": "03/07/2026 ore 20.00",
+  "status": "open",
+  "updatedAt": "2026-07-03",
+  "scenario": "Australia compatta, Egitto leggermente favorito grazie a Salah e Marmoush; climatizzazione favorevole a una gara tattica.",
+  "targetNote": "I target 4,5-25 non sono sempre raggiungibili senza inventare quote per tiri, corner o giocatori non ancora disponibili.",
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 1.86,
+      "scenario": "Egitto protetto e massimo due gol.",
+      "confidence": 76, "stability": 82, "value": 58, "riskVerdict": "low",
+      "events": [
+        { "selection": "X2", "odds": 1.33, "category": "esito", "reason": "Copertura sul pareggio in una gara equilibrata." },
+        { "selection": "Under 2,5", "odds": 1.4, "category": "goal", "reason": "Entrambe le squadre producono partite a basso punteggio." }
+      ]
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 3.43,
+      "scenario": "Egitto vince una gara corta, risultato guida 0-1.",
+      "confidence": 64, "stability": 68, "value": 69, "riskVerdict": "medium",
+      "events": [
+        { "selection": "Egitto vincente", "odds": 2.45, "category": "esito", "reason": "Salah e Marmoush spostano la qualità offensiva." },
+        { "selection": "Under 2,5", "odds": 1.4, "category": "goal", "reason": "Coerente con 0-1 e 0-2." }
+      ]
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 14.82,
+      "scenario": "Variante 1-2: Egitto vincente in una partita più aperta del previsto.",
+      "confidence": 39, "stability": 43, "value": 77, "riskVerdict": "high",
+      "events": [
+        { "selection": "Egitto vincente", "odds": 2.45, "category": "esito", "reason": "Vantaggio tecnico offensivo." },
+        { "selection": "Goal", "odds": 2.2, "category": "goal", "reason": "L'Australia sfrutta una transizione o un piazzato." },
+        { "selection": "Over 2,5", "odds": 2.75, "category": "goal", "reason": "Compatibile con il risultato alternativo 1-2." }
+      ]
+    }
+  ]
+}

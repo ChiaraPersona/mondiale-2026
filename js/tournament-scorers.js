@@ -1,6 +1,6 @@
 const tournamentScorers = [
   { player: "Kylian Mbappe", team: "Francia", goals: 6, penalties: 0 },
-  { player: "Lionel Messi", team: "Argentina", goals: 6, penalties: 0 },
+  { player: "Lionel Messi", team: "Argentina", goals: 7, penalties: 0 },
   { player: "Harry Kane", team: "Inghilterra", goals: 5, penalties: 1 },
   { player: "Erling Haaland", team: "Norvegia", goals: 5, penalties: 0 },
   { player: "Vinicius Jr", team: "Brasile", goals: 4, penalties: 0 },
@@ -48,7 +48,7 @@ const tournamentScorers = [
 ];
 
 const tournamentScorersMeta = {
-  updated: "2026-07-03",
+  updated: "2026-07-04",
   source: "Rai Sport",
   url: "https://www.rai.it/dl/raiSport/speciali/statistiche/mondiali/2026/classificaMarcatori.html",
   scope: "Giocatori con almeno 2 gol",

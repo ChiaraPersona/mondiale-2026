@@ -189,11 +189,66 @@
     }
   };
 
+  const calculatedDetails = {
+    "canada-marocco": {
+      motivation: [94, 95], surprise: "Medio", shots: [["Canada", "8-11", "3-4"], ["Marocco", "12-16", "4-6"]], corners: ["3-5", "5-7", "8-11"],
+      cards: [["Saliba", "Alto", "Protezione centrale contro Ounahi e Brahim Díaz."], ["Laryea", "Medio-alto", "Duelli esterni con Hakimi."], ["Bouaddi", "Medio-alto", "Falli tattici sulle transizioni canadesi."], ["Cornelius", "Medio", "Coperture profonde su Saibari."], ["Hakimi", "Outsider", "Recuperi lunghi contro Millar."]],
+      shotsPlayers: ["Jonathan David 3-5", "Oluwaseyi 2-3", "Brahim Díaz 2-4", "Saibari 2-4"]
+    },
+    "paraguay-francia": {
+      motivation: [96, 94], surprise: "Basso", shots: [["Paraguay", "5-8", "2-3"], ["Francia", "17-22", "7-10"]], corners: ["2-4", "6-9", "8-12"],
+      cards: [["Cubas", "Alto", "Schermo davanti alla difesa contro Olise e Mbappé."], ["Balbuena", "Alto", "Campo aperto e duelli con Mbappé."], ["Villasanti", "Medio-alto", "Pressione su Camavinga e Koné."], ["Espinoza", "Medio", "Uno contro uno con Dembélé."], ["Camavinga", "Outsider", "Possibile fallo tattico su Enciso."]],
+      shotsPlayers: ["Mbappé 4-7", "Dembélé 3-5", "Olise 2-4", "Enciso 2-4"]
+    },
+    "brasile-norvegia": {
+      motivation: [97, 96], surprise: "Medio-alto", shots: [["Brasile", "15-20", "6-9"], ["Norvegia", "9-13", "3-5"]], corners: ["6-8", "3-5", "9-12"],
+      cards: [["Casemiro", "Alto", "Copertura preventiva su Ødegaard."], ["Ryerson", "Alto", "Duello continuo con Vinícius."], ["Ajer", "Medio-alto", "Profondità di Endrick e seconde palle."], ["Bruno Guimarães", "Medio", "Transizioni norvegesi da interrompere."], ["Berge", "Medio", "Pressione su Neymar tra le linee."]],
+      shotsPlayers: ["Vinícius 4-6", "Endrick 3-5", "Haaland 4-6", "Nusa 2-3"]
+    },
+    "messico-inghilterra": {
+      motivation: [98, 96], surprise: "Alto", shots: [["Messico", "9-13", "3-5"], ["Inghilterra", "11-15", "4-6"]], corners: ["4-6", "4-6", "8-11"],
+      cards: [["Edson Álvarez", "Alto", "Protezione centrale contro Bellingham."], ["Montes", "Alto", "Duello fisico con Kane."], ["Rice", "Medio-alto", "Transizioni messicane e fattore altitudine."], ["Gallardo", "Medio-alto", "Uno contro uno con Saka."], ["Konsa", "Medio", "Copertura laterale su Lozano."]],
+      shotsPlayers: ["Kane 3-5", "Saka 2-4", "Bellingham 2-3", "Giménez 2-4"]
+    },
+    "portogallo-spagna": {
+      motivation: [98, 97], surprise: "Medio-alto", shots: [["Portogallo", "10-14", "4-6"], ["Spagna", "14-18", "5-7"]], corners: ["4-6", "5-7", "9-12"],
+      cards: [["Palhinha", "Alto", "Schermo contro Pedri e Fabián Ruiz."], ["Cucurella", "Medio-alto", "Duelli in velocità con Bernardo Silva."], ["Dalot", "Medio-alto", "Uno contro uno con Nico Williams."], ["Le Normand", "Medio", "Duello fisico con Ronaldo."], ["Rodri/Zubimendi", "Medio", "Falli tattici sulle transizioni."]],
+      shotsPlayers: ["Ronaldo 3-5", "Rafael Leão 2-4", "Lamine Yamal 3-5", "Morata 2-4"]
+    },
+    "stati-uniti-belgio": {
+      motivation: [97, 94], surprise: "Alto", shots: [["Stati Uniti", "11-15", "4-6"], ["Belgio", "12-16", "4-6"]], corners: ["4-6", "5-7", "9-12"],
+      cards: [["Adams", "Alto", "Pressione e coperture su De Bruyne."], ["Scally", "Alto", "Duello esterno con Doku."], ["Onana", "Medio-alto", "Interruzione delle transizioni americane."], ["Ream", "Medio", "Gestione della profondità di Lukaku/Openda."], ["Theate", "Medio", "Coperture sul lato di Weah."]],
+      shotsPlayers: ["Pulisic 3-5", "Pepi 2-4", "Doku 2-4", "Lukaku/Openda 3-5"]
+    },
+    "argentina-egitto": {
+      motivation: [97, 99], surprise: "Basso", shots: [["Argentina", "16-21", "6-9"], ["Egitto", "6-9", "2-4"]], corners: ["6-9", "2-3", "8-11"],
+      cards: [["Hamdi Fathi", "Alto", "Schermo centrale contro Messi."], ["Hegazy", "Alto", "Duelli con Lautaro o Julián Álvarez."], ["Elneny", "Medio-alto", "Coperture sugli inserimenti argentini."], ["De Paul", "Medio", "Controllo delle transizioni di Marmoush."], ["Mohamed Hany", "Medio", "Uno contro uno con Nico González."]],
+      shotsPlayers: ["Messi 4-6", "Lautaro/Julián 3-5", "Salah 2-4", "Marmoush 2-3"]
+    },
+    "svizzera-colombia": {
+      motivation: [95, 96], surprise: "Alto", shots: [["Svizzera", "9-12", "3-5"], ["Colombia", "11-15", "4-6"]], corners: ["4-5", "4-6", "8-11"],
+      cards: [["Freuler", "Alto", "Coperture su James Rodríguez."], ["Widmer", "Alto", "Uno contro uno con Luis Díaz."], ["Lerma", "Medio-alto", "Duelli centrali con Xhaka."], ["Muñoz", "Medio", "Pressione alta e recuperi su Vargas."], ["Schär", "Medio", "Gestione della profondità di Córdoba/Durán."]],
+      shotsPlayers: ["Embolo 2-4", "Vargas 2-3", "Luis Díaz 3-5", "Jhon Córdoba/Durán 2-4"]
+    }
+  };
+
   const root = document.querySelector("[data-round-of-16-match]");
   const slug = root && root.dataset.roundOf16Match;
   const data = slug && matches[slug];
   const reading = slug && readings[slug];
-  if (!data || !reading) return;
+  const detail = slug && calculatedDetails[slug];
+  if (!data || !reading || !detail) return;
+  const formationCards = data.formations.map(([team, system, players, note = ""], index) => {
+    const rows = players.replace(/\.$/, "").split(";").map(row => row.trim());
+    const goalkeeper = rows.shift();
+    return `<article class="match-formation-card">
+      <header><img src="flags/${data.flags[index]}.svg" alt=""><div><strong>${team}</strong><span>Modulo ${system} · probabile</span></div></header>
+      <div class="football-pitch" aria-label="Probabile formazione ${team}">
+        ${rows.reverse().map(row => `<div class="pitch-row">${row.split(",").map(player => `<span>${player.trim()}</span>`).join("")}</div>`).join("")}
+        <div class="pitch-row"><span>${goalkeeper}</span></div>
+      </div>${note ? `<div class="formation-bench"><b>Nota</b><span>${note}</span></div>` : ""}
+    </article>`;
+  }).join("");
   const formations = data.formations.map(([team, system, players, note = ""]) =>
     `<div class="round16-formation"><h3>${team} <span>${system}</span></h3><p>${players}</p>${note ? `<small>${note}</small>` : ""}</div>`
   ).join("");
@@ -210,6 +265,11 @@
       </div>
       <h2>${reading.headline}</h2>
       <p class="reading-deck">${reading.deck}</p>
+      <div class="reading-meta">
+        <span>Arbitro: ${data.referee || "da ufficializzare"}</span>
+        <span>Formazioni: probabili</span>
+        <span>Risultato centrale: ${reading.score}</span>
+      </div>
       ${data.high ? `<span class="round16-badge is-high">Fattore ambientale alto</span>` : ""}
     </header>
     <section class="reading-summary">
@@ -225,11 +285,23 @@
     </div>
     <div class="reading-layout">
       <div class="reading-copy">
-        ${reading.sections.map(([title, copy], index) => `${index === 3 ? `<blockquote><strong>La scelta</strong>${reading.picks.slice(0, 3).join(" · ")}</blockquote>` : ""}<section><h3>${title}</h3><p class="${index === 0 ? "reading-lead" : ""}">${copy}</p></section>`).join("")}
+        <section><p class="reading-lead">${reading.sections[0][1]}</p><p>Le probabilità stimate nei novanta minuti sono ${reading.probabilities[0]} ${reading.labels[0]}, ${reading.probabilities[1]} pareggio e ${reading.probabilities[2]} ${reading.labels[2]}. Le quote vengono confrontate con questa distribuzione soltanto dopo la costruzione dello scenario.</p></section>
+        <section><h3>Forma e precedenti pesati</h3><p>Non viene attribuito peso decisivo ai precedenti lontani nel tempo: rose, cicli tecnici e contesto mondiale rendono più affidabili forma recente, qualità degli undici e compatibilità tattica. La stima conserva margine per il pareggio proprio perché una gara secca riduce il vantaggio teorico della favorita.</p></section>
+        <section class="match-formations"><h3>Probabili formazioni</h3><div class="match-formation-grid">${formationCards}</div><p class="formation-disclaimer">Formazioni da confermare nelle comunicazioni ufficiali.</p></section>
+        <section><h3>La partita di ${data.teams[0]}</h3><p>${reading.sections[1][1]}</p></section>
+        <blockquote><strong>La chiave</strong>${reading.sections[2][1]}</blockquote>
+        <section><h3>La partita di ${data.teams[1]}</h3><p>${reading.deck} La squadra senza palla deve proteggere il centro, scegliere con precisione quando alzare la pressione e non concedere transizioni dopo un possesso forzato.</p></section>
+        <section><h3>Stato motivazionale playoff</h3><p><strong>${data.teams[0]} ${detail.motivation[0]}/100.</strong> Motivazione da eliminazione diretta, aumentata dal contesto e dalla possibilità di entrare tra le migliori otto.</p><p><strong>${data.teams[1]} ${detail.motivation[1]}/100.</strong> Pressione competitiva molto alta e margine minimo per gli errori.</p><p>Rischio sorpresa: <strong>${detail.surprise}</strong>. La differenza motivazionale non sostituisce il divario tecnico, ma incide su intensità, duelli e gestione dei momenti decisivi.</p></section>
+        <section><h3>Tiri e corner previsti</h3><p>${detail.shots[0][0]}: ${detail.shots[0][1]} tiri, ${detail.shots[0][2]} nello specchio. ${detail.shots[1][0]}: ${detail.shots[1][1]} tiri, ${detail.shots[1][2]} in porta.</p><p>Proiezioni individuali: ${detail.shotsPlayers.join("; ")}. Corner previsti: ${data.teams[0]} ${detail.corners[0]}, ${data.teams[1]} ${detail.corners[1]}, totale ${detail.corners[2]}.</p></section>
+        <section><h3>Possibili ammoniti</h3><p>La gerarchia combina ruolo, zona di campo, avversario diretto e profilo arbitrale. ${detail.cards.slice(0, 3).map(item => `<strong>${item[0]}</strong>: ${item[2]}`).join(" ")} Le selezioni individuali restano più volatili dei mercati squadra.</p></section>
+        <blockquote><strong>La scelta</strong>${reading.picks.slice(0, 3).join(" · ")}</blockquote>
+        <section><h3>Verdetto preliminare</h3><p>${reading.sections[3][1]}</p></section>
       </div>
       <aside class="reading-sidebar">
         <section class="reading-data-panel"><span>Probabilità nei 90 minuti</span><div class="reading-probability">${reading.probabilities.map((p, i) => `<div><b>${p}</b><small>${reading.labels[i]}</small></div>`).join("")}</div></section>
-        <section class="reading-data-panel"><span>Volume previsto</span><ul class="reading-picks">${reading.volume.map(item => `<li>${item}</li>`).join("")}</ul></section>
+        <section class="reading-data-panel"><span>Stato motivazionale</span><dl class="reading-stat-list"><div><dt>${data.teams[0]}</dt><dd>${detail.motivation[0]}/100</dd></div><div><dt>${data.teams[1]}</dt><dd>${detail.motivation[1]}/100</dd></div><div><dt>Rischio sorpresa</dt><dd>${detail.surprise}</dd></div></dl></section>
+        <section class="reading-data-panel"><span>Volume previsto</span><dl class="reading-stat-list">${detail.shots.map(item => `<div><dt>${item[0]}, tiri</dt><dd>${item[1]}</dd></div><div><dt>In porta</dt><dd>${item[2]}</dd></div>`).join("")}</dl></section>
+        <section class="reading-data-panel"><span>Gerarchia ammoniti</span><ol class="reading-card-ranking">${detail.cards.map(item => `<li><b>${item[0]}</b><strong>${item[1]}</strong><small>${item[2]}</small></li>`).join("")}</ol></section>
         <section class="reading-data-panel"><span>Gerarchia giocate</span><ol class="reading-card-ranking">${reading.picks.map((item, i) => `<li><b>${i + 1}. ${item}</b><small>${i === 0 ? "Scelta principale" : i === 1 ? "Seconda linea" : "Mercato complementare"}</small></li>`).join("")}</ol></section>
         <section class="reading-data-panel"><span>Metodo</span><p>Scenario e probabilità nascono dalla lettura di qualità, assetto tattico, assenze e ambiente. Le quote sono usate solo dopo, per valutare il prezzo.</p></section>
       </aside>

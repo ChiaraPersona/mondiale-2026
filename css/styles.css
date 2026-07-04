@@ -1394,6 +1394,16 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
   gap: 14px;
 }
 
+/* Mantiene le prossime partite sopra l'archivio anche quando le vecchie
+   schede conservano classi reading-order-* con valori negativi. */
+.reading-preview-grid > [data-reading-status="upcoming"] {
+  order: -100 !important;
+}
+
+.reading-preview-grid > .reading-status-divider[data-reading-status="completed"] {
+  order: -30;
+}
+
 /* Le letture ancora da disputare sono mostrate dalla gara più vicina alla più lontana. */
 .reading-preview-grid > .reading-order-0 { order: -60; }
 .reading-preview-grid > .reading-order-1 { order: -59; }

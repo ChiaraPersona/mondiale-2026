@@ -16,16 +16,42 @@ const models = {
   "svizzera-colombia": { p: [29, 31, 40], score: "0-1", scenario: "Colombia di misura, partita stretta", picks: [["U/O 3.5","UNDER"],["U/O 2.5","UNDER"],["PASSAGGIO TURNO","2"],["GOAL/NO GOAL","NOGOAL"],["ESITO FINALE 1X2","2"]], anomaly: null }
 };
 
+const diverseMarketNeedles = {
+  "canada-marocco": ["U/O 3.5 CORNER SQUADRA 2", "DAVID J. U/O 1.5 SOMMA TIRI TOTALI", "BRAHIM DIAZ U/O 1.5 SOMMA TIRI TOTALI", "HAKIMI A. U/O 1.5 SOMMA TIRI TOTALI"],
+  "paraguay-francia": ["U/O 5.5 CORNER SQUADRA 2", "MBAPPE K. U/O 3.5 SOMMA TIRI TOTALI", "DEMBELE OUSMANE U/O 2.5 SOMMA TIRI TOTALI", "DEMBELE OUSMANE U/O 3.5 SOMMA TIRI TOTALI", "BARCOLA B. U/O 2.5 SOMMA TIRI TOTALI", "ENCISO C. U/O 1.5 SOMMA TIRI TOTALI"],
+  "brasile-norvegia": ["U/O 3.5 CORNER SQUADRA 1", "HAALAND E. U/O 3.5 SOMMA TIRI TOTALI", "VINICIUS JUNIOR U/O 2.5 SOMMA TIRI TOTALI", "NUSA A. U/O 1.5 SOMMA TIRI TOTALI"],
+  "messico-inghilterra": ["U/O 3.5 CORNER SQUADRA 2", "BELLINGHAM JUDE U/O 1.5 SOMMA TIRI TOTALI", "KANE H. U/O 2.5 SOMMA TIRI TOTALI", "SAKA B. U/O 1.5 SOMMA TIRI TOTALI", "ALVARADO R. U/O 1.5 SOMMA TIRI TOTALI", "ANDERSON E. U/O 0.5 SOMMA TIRI TOTALI"],
+  "portogallo-spagna": ["LAMINE YAMAL U/O 2.5 SOMMA TIRI TOTALI", "FERNANDES B. U/O 1.5 SOMMA TIRI TOTALI", "LEAO R. U/O 1.5 SOMMA TIRI TOTALI", "BERNARDO SILVA U/O 0.5 SOMMA TIRI TOTALI", "FABIAN RUIZ U/O 1.5 SOMMA TIRI TOTALI", "FERRAN TORRES U/O 2.5 SOMMA TIRI TOTALI"],
+  "stati-uniti-belgio": ["U/O 3.5 CORNER SQUADRA 1", "PULISIC C. U/O 1.5 SOMMA TIRI TOTALI", "DOKU J. U/O 1.5 SOMMA TIRI TOTALI", "DE BRUYNE K. U/O 1.5 SOMMA TIRI TOTALI", "AARONSON B. U/O 1.5 SOMMA TIRI TOTALI", "ADAMS T. U/O 0.5 SOMMA TIRI TOTALI"],
+  "argentina-egitto": ["SEGNA GOAL 1", "MESSI L. SEGNA O SUO SOSTITUTO", "MULTIGOAL MULTIESITI 16 ESITI", "METODO DEL GOAL 1", "U/O 0.5 PALI/TRAVERSE", "ARBITRO CONSULTA MONITOR VAR", "PARI/DISPARI"],
+  "svizzera-colombia": ["SEGNA GOAL SQUADRA OSPITE", "U/O 0.5 SQUADRA 1", "MULTIGOAL MULTIESITI 16 ESITI", "METODO DEL GOAL 1", "U/O 0.5 PALI/TRAVERSE", "ARBITRO CONSULTA MONITOR VAR", "PARI/DISPARI"],
+};
+
 function round(n) { return Math.round(n * 100) / 100; }
 function findMarket(markets, info, selection) {
   return markets.find(m => m.info === info && m.esito === selection);
 }
 function event(m, index, score) {
+  const label = `${m.mercato} ${m.info}`;
+  const category = /CORNER/.test(label) ? "corner"
+    : /TIRI/.test(label) ? "tiri"
+    : /MARCATORE/.test(label) ? "giocatore"
+    : /MULTIGOAL/.test(label) ? "multigol"
+    : /METODO DEL GOAL/.test(label) ? "metodo-gol"
+    : /PALI|TRAVERSE/.test(label) ? "legni"
+    : /MONITOR VAR/.test(label) ? "var"
+    : /PARI\/DISPARI/.test(label) ? "parita"
+    : /RIMESSE/.test(label) ? "rimesse"
+    : /SEGNA GOAL/.test(label) ? "gol-squadra"
+    : /TURNO|1X2|DOPPIA CHANCE|DRAW NO BET/.test(label) ? "esito"
+    : /GOAL\/NO GOAL/.test(label) ? "btts"
+    : /U\/O|UNDER\/OVER/.test(label) ? "goal-total"
+    : "goal";
   return {
     id: `event-${String(index + 1).padStart(2, "0")}`,
     market: `${m.mercato} — ${m.info}`, selection: m.esito, odds: Number(m.quota),
     selectionId: m.selectionId, marketId: m.marketId,
-    category: /TURNO|1X2/.test(m.info) ? "esito" : "goal",
+    category,
     rankingScore: score, class: score >= 86 ? "CORE" : "VALUE",
     riskScore: Math.round(105 - score), riskLevel: score >= 82 ? "low" : "medium", riskReasons: []
   };
@@ -41,14 +67,26 @@ function portfolio(name, events, scenario) {
   };
 }
 
-function closestPortfolio(candidates, target) {
+function closestPortfolio(candidates, target, minimumCategories) {
   let best = null;
   const total = 1 << candidates.length;
   for (let mask = 1; mask < total; mask += 1) {
     const events = candidates.filter((_, index) => mask & (1 << index));
     if (events.length < 2 || events.length > 12) continue;
+    const categoryCounts = events.reduce((counts, item) => {
+      counts[item.category] = (counts[item.category] || 0) + 1;
+      return counts;
+    }, {});
+    if ((categoryCounts.esito || 0) > 1) continue;
+    if ((categoryCounts["goal-total"] || 0) > 1) continue;
+    if ((categoryCounts.btts || 0) > 1) continue;
+    if ((categoryCounts.corner || 0) > 1) continue;
+    if ((categoryCounts["gol-squadra"] || 0) > 1) continue;
+    if ((categoryCounts.multigol || 0) > 1) continue;
     const odds = events.reduce((product, item) => product * item.odds, 1);
-    const distance = Math.abs(Math.log(odds / target));
+    const categories = new Set(events.map(item => item.category)).size;
+    const diversityPenalty = Math.max(0, minimumCategories - categories) * 0.45;
+    const distance = Math.abs(Math.log(odds / target)) + diversityPenalty;
     if (!best || distance < best.distance || (distance === best.distance && events.length < best.events.length)) {
       best = { events, odds, distance };
     }
@@ -56,7 +94,7 @@ function closestPortfolio(candidates, target) {
   return best.events;
 }
 
-function easyCandidates(quote, model) {
+function easyCandidates(slug, quote, model) {
   const markets = quote.markets;
   const homeFavored = model.p[0] >= model.p[2];
   const favorite = homeFavored ? "1" : "2";
@@ -69,12 +107,6 @@ function easyCandidates(quote, model) {
     ["U/O 3.5", "UNDER"],
     ["U/O 4.5", "UNDER"],
     ["U/O 5.5", "UNDER"],
-    ["DC + U/O 1.5", `${doubleChance} + OVER`],
-    ["DC + U/O 3.5", `${doubleChance} + UNDER`],
-    ["DC + U/O 4.5", `${doubleChance} + UNDER`],
-    ["1X2 + U/O 1.5", `${favorite} + O`],
-    ["1X2 + U/O 3.5", `${favorite} + U`],
-    ["1X2 + U/O 4.5", `${favorite} + U`],
   ];
   const found = wanted.map(([info, selection]) =>
     markets.find(item => item.info === info && item.esito === selection)
@@ -82,6 +114,15 @@ function easyCandidates(quote, model) {
   for (const [info, selection] of model.picks) {
     const item = findMarket(markets, info, selection);
     if (item) found.push(item);
+  }
+  for (const needle of diverseMarketNeedles[slug] || []) {
+    const candidates = markets.filter(item =>
+      item.info.includes(needle) &&
+      Number(item.quota) >= 1.20 &&
+      Number(item.quota) <= 1.90 &&
+      ["OVER", "UNDER", "SI", "NO", "TEAM 1", "TEAM 2", "1-3", "1-2", "TIRO", "PARI", "1", "2"].includes(item.esito)
+    );
+    if (candidates.length) found.push(candidates[0]);
   }
   const unique = [...new Map(found.map(item => [String(item.selectionId), item])).values()]
     .filter(item => Number(item.quota) >= 1.05 && Number(item.quota) <= 1.90);
@@ -92,7 +133,7 @@ fs.mkdirSync(outputDir, { recursive: true });
 const summary = [];
 for (const [slug, model] of Object.entries(models)) {
   const quote = JSON.parse(fs.readFileSync(path.join(quoteDir, `${slug}-quote.json`), "utf8"));
-  const selected = easyCandidates(quote, model);
+  const selected = easyCandidates(slug, quote, model);
   const anomalyEvents = [];
   if (model.anomaly) {
     const [needle, probability] = model.anomaly;
@@ -114,9 +155,9 @@ for (const [slug, model] of Object.entries(models)) {
     slug, match: quote.match, date: quote.date, status: "scheduled",
     prediction: { probabilities90Minutes: { home: model.p[0], draw: model.p[1], away: model.p[2] }, centralScore: model.score, scenario: model.scenario, quoteInfluence: "secondaria" },
     portfolios: [
-      portfolio("Safe", closestPortfolio(selected, 5), model.scenario),
-      portfolio("Balanced", closestPortfolio(selected, 10), model.scenario),
-      portfolio("Aggressive", closestPortfolio(selected, 20), model.scenario)
+      portfolio("Safe", closestPortfolio(selected, 5, 2), model.scenario),
+      portfolio("Balanced", closestPortfolio(selected, 10, 3), model.scenario),
+      portfolio("Aggressive", closestPortfolio(selected, 20, 4), model.scenario)
     ],
     quoteErrorAnalysis: {
       title: "Errore di Quota", generatedAt: new Date().toISOString(),

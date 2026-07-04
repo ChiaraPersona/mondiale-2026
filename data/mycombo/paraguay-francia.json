@@ -1,0 +1,239 @@
+{
+  "slug": "paraguay-francia",
+  "match": "Paraguay - Francia",
+  "date": "04/07/2026 ore 23.00",
+  "status": "scheduled",
+  "prediction": {
+    "probabilities90Minutes": {
+      "home": 5,
+      "draw": 16,
+      "away": 79
+    },
+    "centralScore": "0-2",
+    "scenario": "Dominio Francia, caldo da gestire",
+    "quoteInfluence": "secondaria"
+  },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 1.44,
+      "events": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "2",
+          "odds": 1.05,
+          "selectionId": 5200871742,
+          "marketId": 790066812,
+          "category": "esito",
+          "rankingScore": 92,
+          "class": "CORE",
+          "riskScore": 13,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-02",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "2",
+          "odds": 1.18,
+          "selectionId": 5200870401,
+          "marketId": 790066543,
+          "category": "esito",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.16,
+          "selectionId": 5200872630,
+          "marketId": 790067031,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "dominio_francia_caldo_da_gestire",
+        "name": "Dominio Francia, caldo da gestire",
+        "estimatedProbability": "medio-alta"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "low"
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 2.03,
+      "events": [
+        {
+          "id": "event-02",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "2",
+          "odds": 1.18,
+          "selectionId": 5200870401,
+          "marketId": 790066543,
+          "category": "esito",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.16,
+          "selectionId": 5200872630,
+          "marketId": 790067031,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.48,
+          "selectionId": 5200872649,
+          "marketId": 790067036,
+          "category": "goal",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "dominio_francia_caldo_da_gestire",
+        "name": "Dominio Francia, caldo da gestire",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "medium"
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 2.61,
+      "events": [
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.16,
+          "selectionId": 5200872630,
+          "marketId": 790067031,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.48,
+          "selectionId": 5200872649,
+          "marketId": 790067036,
+          "category": "goal",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-05",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL",
+          "odds": 1.52,
+          "selectionId": 5200870514,
+          "marketId": 790066562,
+          "category": "goal",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "dominio_francia_caldo_da_gestire",
+        "name": "Dominio Francia, caldo da gestire",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "high"
+    }
+  ],
+  "quoteErrorAnalysis": {
+    "title": "Errore di Quota",
+    "generatedAt": "2026-07-04T11:14:48.358Z",
+    "criteria": {
+      "minimumOddsExclusive": 3,
+      "method": "probabilità indipendente contro probabilità implicita"
+    },
+    "analysis": {
+      "totalMarkets": 7344,
+      "manuallyModelledCandidates": 1,
+      "publishedEvents": 1
+    },
+    "events": [
+      {
+        "event": "ENCISO C. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+        "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+        "selection": "OVER",
+        "odds": 3.75,
+        "impliedProbability": 26.67,
+        "estimatedProbability": 31,
+        "edge": 4.33,
+        "classification": "Leggero value",
+        "level": "value",
+        "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
+        "modelConfidence": 62,
+        "risk": "medium",
+        "selectionId": "5202996953",
+        "marketId": "790487255"
+      }
+    ],
+    "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."
+  }
+}

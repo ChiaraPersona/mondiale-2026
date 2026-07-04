@@ -1,0 +1,222 @@
+{
+  "slug": "argentina-egitto",
+  "match": "Argentina - Egitto",
+  "date": "07/07/2026 ore 18.00",
+  "status": "scheduled",
+  "prediction": {
+    "probabilities90Minutes": {
+      "home": 71,
+      "draw": 19,
+      "away": 10
+    },
+    "centralScore": "2-0",
+    "scenario": "Controllo Argentina",
+    "quoteInfluence": "secondaria"
+  },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 1.79,
+      "events": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1",
+          "odds": 1.11,
+          "selectionId": 5205176351,
+          "marketId": 790901490,
+          "category": "esito",
+          "rankingScore": 92,
+          "class": "CORE",
+          "riskScore": 13,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-02",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.27,
+          "selectionId": 5205177259,
+          "marketId": 790901714,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.27,
+          "selectionId": 5205177240,
+          "marketId": 790901709,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "controllo_argentina",
+        "name": "Controllo Argentina",
+        "estimatedProbability": "medio-alta"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "low"
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 2.19,
+      "events": [
+        {
+          "id": "event-02",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.27,
+          "selectionId": 5205177259,
+          "marketId": 790901714,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.27,
+          "selectionId": 5205177240,
+          "marketId": 790901709,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1",
+          "odds": 1.36,
+          "selectionId": 5205175009,
+          "marketId": 790901221,
+          "category": "esito",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "controllo_argentina",
+        "name": "Controllo Argentina",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "medium"
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 2.71,
+      "events": [
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.27,
+          "selectionId": 5205177240,
+          "marketId": 790901709,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1",
+          "odds": 1.36,
+          "selectionId": 5205175009,
+          "marketId": 790901221,
+          "category": "esito",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-05",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL",
+          "odds": 1.57,
+          "selectionId": 5205175124,
+          "marketId": 790901240,
+          "category": "goal",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "controllo_argentina",
+        "name": "Controllo Argentina",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "high"
+    }
+  ],
+  "quoteErrorAnalysis": {
+    "title": "Errore di Quota",
+    "generatedAt": "2026-07-04T11:14:48.480Z",
+    "criteria": {
+      "minimumOddsExclusive": 3,
+      "method": "probabilità indipendente contro probabilità implicita"
+    },
+    "analysis": {
+      "totalMarkets": 4061,
+      "manuallyModelledCandidates": 0,
+      "publishedEvents": 0
+    },
+    "events": [],
+    "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."
+  }
+}

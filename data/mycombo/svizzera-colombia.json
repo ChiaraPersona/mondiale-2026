@@ -1,0 +1,222 @@
+{
+  "slug": "svizzera-colombia",
+  "match": "Svizzera - Colombia",
+  "date": "07/07/2026 ore 22.00",
+  "status": "scheduled",
+  "prediction": {
+    "probabilities90Minutes": {
+      "home": 29,
+      "draw": 31,
+      "away": 40
+    },
+    "centralScore": "0-1",
+    "scenario": "Colombia di misura, partita stretta",
+    "quoteInfluence": "secondaria"
+  },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 3.01,
+      "events": [
+        {
+          "id": "event-01",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.2,
+          "selectionId": 5205250099,
+          "marketId": 790906310,
+          "category": "goal",
+          "rankingScore": 92,
+          "class": "CORE",
+          "riskScore": 13,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-02",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER",
+          "odds": 1.6,
+          "selectionId": 5205250095,
+          "marketId": 790906309,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "2",
+          "odds": 1.57,
+          "selectionId": 5205249192,
+          "marketId": 790906086,
+          "category": "esito",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "colombia_di_misura_partita_stretta",
+        "name": "Colombia di misura, partita stretta",
+        "estimatedProbability": "medio-alta"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "low"
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 4.52,
+      "events": [
+        {
+          "id": "event-02",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER",
+          "odds": 1.6,
+          "selectionId": 5205250095,
+          "marketId": 790906309,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "2",
+          "odds": 1.57,
+          "selectionId": 5205249192,
+          "marketId": 790906086,
+          "category": "esito",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL",
+          "odds": 1.8,
+          "selectionId": 5205247964,
+          "marketId": 790905836,
+          "category": "goal",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "colombia_di_misura_partita_stretta",
+        "name": "Colombia di misura, partita stretta",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "medium"
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 6.22,
+      "events": [
+        {
+          "id": "event-03",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "2",
+          "odds": 1.57,
+          "selectionId": 5205249192,
+          "marketId": 790906086,
+          "category": "esito",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL",
+          "odds": 1.8,
+          "selectionId": 5205247964,
+          "marketId": 790905836,
+          "category": "goal",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-05",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "2",
+          "odds": 2.2,
+          "selectionId": 5205247851,
+          "marketId": 790905817,
+          "category": "esito",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "colombia_di_misura_partita_stretta",
+        "name": "Colombia di misura, partita stretta",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "high"
+    }
+  ],
+  "quoteErrorAnalysis": {
+    "title": "Errore di Quota",
+    "generatedAt": "2026-07-04T11:14:48.496Z",
+    "criteria": {
+      "minimumOddsExclusive": 3,
+      "method": "probabilità indipendente contro probabilità implicita"
+    },
+    "analysis": {
+      "totalMarkets": 4441,
+      "manuallyModelledCandidates": 0,
+      "publishedEvents": 0
+    },
+    "events": [],
+    "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."
+  }
+}

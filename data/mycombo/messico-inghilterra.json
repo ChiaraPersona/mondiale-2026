@@ -1,0 +1,239 @@
+{
+  "slug": "messico-inghilterra",
+  "match": "Messico - Inghilterra",
+  "date": "06/07/2026 ore 02.00",
+  "status": "scheduled",
+  "prediction": {
+    "probabilities90Minutes": {
+      "home": 34,
+      "draw": 30,
+      "away": 36
+    },
+    "centralScore": "1-1",
+    "scenario": "Equilibrio con forte fattore Azteca",
+    "quoteInfluence": "secondaria"
+  },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 2.59,
+      "events": [
+        {
+          "id": "event-01",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.16,
+          "selectionId": 5201708722,
+          "marketId": 790220448,
+          "category": "goal",
+          "rankingScore": 92,
+          "class": "CORE",
+          "riskScore": 13,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-02",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.42,
+          "selectionId": 5201708703,
+          "marketId": 790220443,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER",
+          "odds": 1.57,
+          "selectionId": 5201708718,
+          "marketId": 790220447,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "equilibrio_con_forte_fattore_azteca",
+        "name": "Equilibrio con forte fattore Azteca",
+        "estimatedProbability": "medio-alta"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "low"
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 3.9,
+      "events": [
+        {
+          "id": "event-02",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.42,
+          "selectionId": 5201708703,
+          "marketId": 790220443,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER",
+          "odds": 1.57,
+          "selectionId": 5201708718,
+          "marketId": 790220447,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "2",
+          "odds": 1.75,
+          "selectionId": 5201707815,
+          "marketId": 790220224,
+          "category": "esito",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "equilibrio_con_forte_fattore_azteca",
+        "name": "Equilibrio con forte fattore Azteca",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "medium"
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 8.52,
+      "events": [
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER",
+          "odds": 1.57,
+          "selectionId": 5201708718,
+          "marketId": 790220447,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "2",
+          "odds": 1.75,
+          "selectionId": 5201707815,
+          "marketId": 790220224,
+          "category": "esito",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-05",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "X",
+          "odds": 3.1,
+          "selectionId": 5201706473,
+          "marketId": 790219955,
+          "category": "esito",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "equilibrio_con_forte_fattore_azteca",
+        "name": "Equilibrio con forte fattore Azteca",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "high"
+    }
+  ],
+  "quoteErrorAnalysis": {
+    "title": "Errore di Quota",
+    "generatedAt": "2026-07-04T11:14:48.422Z",
+    "criteria": {
+      "minimumOddsExclusive": 3,
+      "method": "probabilità indipendente contro probabilità implicita"
+    },
+    "analysis": {
+      "totalMarkets": 7032,
+      "manuallyModelledCandidates": 1,
+      "publishedEvents": 1
+    },
+    "events": [
+      {
+        "event": "SAKA B. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO",
+        "market": "GIOCATORE ALMENO Y TIRI IN PORTA NEL TEMPO Z",
+        "selection": "SI",
+        "odds": 3.25,
+        "impliedProbability": 30.77,
+        "estimatedProbability": 36,
+        "edge": 5.23,
+        "classification": "Quota interessante",
+        "level": "value",
+        "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
+        "modelConfidence": 62,
+        "risk": "medium",
+        "selectionId": "5202742846",
+        "marketId": "790441066"
+      }
+    ],
+    "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."
+  }
+}

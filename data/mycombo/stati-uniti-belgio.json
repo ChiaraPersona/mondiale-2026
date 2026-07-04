@@ -1,0 +1,239 @@
+{
+  "slug": "stati-uniti-belgio",
+  "match": "Stati Uniti - Belgio",
+  "date": "07/07/2026 ore 02.00",
+  "status": "scheduled",
+  "prediction": {
+    "probabilities90Minutes": {
+      "home": 35,
+      "draw": 29,
+      "away": 36
+    },
+    "centralScore": "1-1",
+    "scenario": "Equilibrio e occasioni da entrambe le parti",
+    "quoteInfluence": "secondaria"
+  },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 2.65,
+      "events": [
+        {
+          "id": "event-01",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.2,
+          "selectionId": 5202118765,
+          "marketId": 790300284,
+          "category": "goal",
+          "rankingScore": 92,
+          "class": "CORE",
+          "riskScore": 13,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-02",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.38,
+          "selectionId": 5202118784,
+          "marketId": 790300289,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.6,
+          "selectionId": 5202116648,
+          "marketId": 790299395,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "equilibrio_e_occasioni_da_entrambe_le_parti",
+        "name": "Equilibrio e occasioni da entrambe le parti",
+        "estimatedProbability": "medio-alta"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "low"
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 3.8,
+      "events": [
+        {
+          "id": "event-02",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.38,
+          "selectionId": 5202118784,
+          "marketId": 790300289,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.6,
+          "selectionId": 5202116648,
+          "marketId": 790299395,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER",
+          "odds": 1.72,
+          "selectionId": 5202118781,
+          "marketId": 790300288,
+          "category": "goal",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "equilibrio_e_occasioni_da_entrambe_le_parti",
+        "name": "Equilibrio e occasioni da entrambe le parti",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "medium"
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 5.09,
+      "events": [
+        {
+          "id": "event-03",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.6,
+          "selectionId": 5202116648,
+          "marketId": 790299395,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "OVER",
+          "odds": 1.72,
+          "selectionId": 5202118781,
+          "marketId": 790300288,
+          "category": "goal",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-05",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "2",
+          "odds": 1.85,
+          "selectionId": 5202117877,
+          "marketId": 790300065,
+          "category": "esito",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "equilibrio_e_occasioni_da_entrambe_le_parti",
+        "name": "Equilibrio e occasioni da entrambe le parti",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "high"
+    }
+  ],
+  "quoteErrorAnalysis": {
+    "title": "Errore di Quota",
+    "generatedAt": "2026-07-04T11:14:48.466Z",
+    "criteria": {
+      "minimumOddsExclusive": 3,
+      "method": "probabilità indipendente contro probabilità implicita"
+    },
+    "analysis": {
+      "totalMarkets": 7153,
+      "manuallyModelledCandidates": 1,
+      "publishedEvents": 1
+    },
+    "events": [
+      {
+        "event": "PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "selection": "OVER",
+        "odds": 3.75,
+        "impliedProbability": 26.67,
+        "estimatedProbability": 32,
+        "edge": 5.33,
+        "classification": "Quota interessante",
+        "level": "value",
+        "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
+        "modelConfidence": 62,
+        "risk": "medium",
+        "selectionId": "5204596634",
+        "marketId": "790784450"
+      }
+    ],
+    "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."
+  }
+}

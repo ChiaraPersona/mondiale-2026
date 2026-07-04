@@ -1,0 +1,307 @@
+{
+  "generatedAt": "2026-07-04T11:14:48.497Z",
+  "matches": [
+    {
+      "slug": "canada-marocco",
+      "match": "Canada - Marocco",
+      "prediction": "0-1",
+      "probabilities": [
+        18,
+        29,
+        53
+      ],
+      "portfolios": [
+        {
+          "name": "Safe",
+          "odds": 2.63
+        },
+        {
+          "name": "Balanced",
+          "odds": 3.46
+        },
+        {
+          "name": "Aggressive",
+          "odds": 5.2
+        }
+      ],
+      "anomalies": [
+        {
+          "event": "DAVID J. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "selection": "OVER",
+          "odds": 4.5,
+          "impliedProbability": 22.22,
+          "estimatedProbability": 28,
+          "edge": 5.78,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
+          "modelConfidence": 62,
+          "risk": "medium",
+          "selectionId": "5202901929",
+          "marketId": "790462918"
+        }
+      ]
+    },
+    {
+      "slug": "paraguay-francia",
+      "match": "Paraguay - Francia",
+      "prediction": "0-2",
+      "probabilities": [
+        5,
+        16,
+        79
+      ],
+      "portfolios": [
+        {
+          "name": "Safe",
+          "odds": 1.44
+        },
+        {
+          "name": "Balanced",
+          "odds": 2.03
+        },
+        {
+          "name": "Aggressive",
+          "odds": 2.61
+        }
+      ],
+      "anomalies": [
+        {
+          "event": "ENCISO C. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "selection": "OVER",
+          "odds": 3.75,
+          "impliedProbability": 26.67,
+          "estimatedProbability": 31,
+          "edge": 4.33,
+          "classification": "Leggero value",
+          "level": "value",
+          "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
+          "modelConfidence": 62,
+          "risk": "medium",
+          "selectionId": "5202996953",
+          "marketId": "790487255"
+        }
+      ]
+    },
+    {
+      "slug": "brasile-norvegia",
+      "match": "Brasile - Norvegia",
+      "prediction": "2-1",
+      "probabilities": [
+        55,
+        24,
+        21
+      ],
+      "portfolios": [
+        {
+          "name": "Safe",
+          "odds": 2.69
+        },
+        {
+          "name": "Balanced",
+          "odds": 3.3
+        },
+        {
+          "name": "Aggressive",
+          "odds": 4.95
+        }
+      ],
+      "anomalies": [
+        {
+          "event": "HAALAND E. U/O 2.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "selection": "OVER",
+          "odds": 4,
+          "impliedProbability": 25,
+          "estimatedProbability": 31,
+          "edge": 6,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
+          "modelConfidence": 62,
+          "risk": "medium",
+          "selectionId": "5203086425",
+          "marketId": "790498861"
+        }
+      ]
+    },
+    {
+      "slug": "messico-inghilterra",
+      "match": "Messico - Inghilterra",
+      "prediction": "1-1",
+      "probabilities": [
+        34,
+        30,
+        36
+      ],
+      "portfolios": [
+        {
+          "name": "Safe",
+          "odds": 2.59
+        },
+        {
+          "name": "Balanced",
+          "odds": 3.9
+        },
+        {
+          "name": "Aggressive",
+          "odds": 8.52
+        }
+      ],
+      "anomalies": [
+        {
+          "event": "SAKA B. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO",
+          "market": "GIOCATORE ALMENO Y TIRI IN PORTA NEL TEMPO Z",
+          "selection": "SI",
+          "odds": 3.25,
+          "impliedProbability": 30.77,
+          "estimatedProbability": 36,
+          "edge": 5.23,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
+          "modelConfidence": 62,
+          "risk": "medium",
+          "selectionId": "5202742846",
+          "marketId": "790441066"
+        }
+      ]
+    },
+    {
+      "slug": "portogallo-spagna",
+      "match": "Portogallo - Spagna",
+      "prediction": "1-2",
+      "probabilities": [
+        25,
+        29,
+        46
+      ],
+      "portfolios": [
+        {
+          "name": "Safe",
+          "odds": 2.93
+        },
+        {
+          "name": "Balanced",
+          "odds": 2.81
+        },
+        {
+          "name": "Aggressive",
+          "odds": 4.26
+        }
+      ],
+      "anomalies": [
+        {
+          "event": "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO",
+          "market": "GIOCATORE ALMENO Y TIRI IN PORTA NEL TEMPO Z",
+          "selection": "SI",
+          "odds": 3.25,
+          "impliedProbability": 30.77,
+          "estimatedProbability": 36,
+          "edge": 5.23,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
+          "modelConfidence": 62,
+          "risk": "medium",
+          "selectionId": "5204512307",
+          "marketId": "790770830"
+        }
+      ]
+    },
+    {
+      "slug": "stati-uniti-belgio",
+      "match": "Stati Uniti - Belgio",
+      "prediction": "1-1",
+      "probabilities": [
+        35,
+        29,
+        36
+      ],
+      "portfolios": [
+        {
+          "name": "Safe",
+          "odds": 2.65
+        },
+        {
+          "name": "Balanced",
+          "odds": 3.8
+        },
+        {
+          "name": "Aggressive",
+          "odds": 5.09
+        }
+      ],
+      "anomalies": [
+        {
+          "event": "PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "selection": "OVER",
+          "odds": 3.75,
+          "impliedProbability": 26.67,
+          "estimatedProbability": 32,
+          "edge": 5.33,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
+          "modelConfidence": 62,
+          "risk": "medium",
+          "selectionId": "5204596634",
+          "marketId": "790784450"
+        }
+      ]
+    },
+    {
+      "slug": "argentina-egitto",
+      "match": "Argentina - Egitto",
+      "prediction": "2-0",
+      "probabilities": [
+        71,
+        19,
+        10
+      ],
+      "portfolios": [
+        {
+          "name": "Safe",
+          "odds": 1.79
+        },
+        {
+          "name": "Balanced",
+          "odds": 2.19
+        },
+        {
+          "name": "Aggressive",
+          "odds": 2.71
+        }
+      ],
+      "anomalies": []
+    },
+    {
+      "slug": "svizzera-colombia",
+      "match": "Svizzera - Colombia",
+      "prediction": "0-1",
+      "probabilities": [
+        29,
+        31,
+        40
+      ],
+      "portfolios": [
+        {
+          "name": "Safe",
+          "odds": 3.01
+        },
+        {
+          "name": "Balanced",
+          "odds": 4.52
+        },
+        {
+          "name": "Aggressive",
+          "odds": 6.22
+        }
+      ],
+      "anomalies": []
+    }
+  ]
+}

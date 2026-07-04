@@ -1,10 +1,10 @@
 (() => {
   const matches = {
     "canada-marocco": {
-      teams: ["Canada", "Marocco"], flags: ["canada", "marocco"], high: true,
+      teams: ["Canada", "Marocco"], flags: ["canada", "marocco"], high: true, officialFormations: true,
       formations: [
-        ["Canada", "4-4-2", "Crépeau; Johnston, Bombito, Cornelius, Laryea; Buchanan, Saliba, Eustáquio, Millar; Jonathan David, Oluwaseyi.", "In dubbio: Alphonso Davies, possibile utilizzo da subentrante."],
-        ["Marocco", "4-3-3", "Bounou; Hakimi, Issa Diop, Chadi Riad, Mazraoui; El Aynaoui, Bouaddi, Ounahi; Brahim Díaz, Saibari, El Khannouss."]
+        ["Canada", "4-4-2", "Crépeau; Laryea, Bombito, De Fougerolles, Johnston; Ahmed, Eustáquio, Sigur, Buchanan; Oluwaseyi, Jonathan David."],
+        ["Marocco", "4-2-3-1", "Bono; Hakimi, Issa Diop, El Hilali, Mazraoui; Bouaddi, El Aynaoui; Brahim Díaz, Ounahi, El Khannouss; Saibari."]
       ],
       weather: "Circa 33°C alle 12:00 locali, parzialmente soleggiato. Nel pomeriggio sono possibili temporali. Impatto medio-basso se il tetto è chiuso; alto solo in caso di gestione a tetto aperto.",
       stadium: "NRG Stadium, Houston. Impianto con tetto retrattile e aria condizionata, capienza circa 72.000. Campo in erba naturale installata per il Mondiale. Con condizioni interne controllate, caldo e umidità esterni avranno un impatto ridotto.",
@@ -242,7 +242,7 @@
     const rows = players.replace(/\.$/, "").split(";").map(row => row.trim());
     const goalkeeper = rows.shift();
     return `<article class="match-formation-card">
-      <header><img src="flags/${data.flags[index]}.svg" alt=""><div><strong>${team}</strong><span>Modulo ${system} · probabile</span></div></header>
+      <header><img src="flags/${data.flags[index]}.svg" alt=""><div><strong>${team}</strong><span>Modulo ${system} · ${data.officialFormations ? "ufficiale" : "probabile"}</span></div></header>
       <div class="football-pitch" aria-label="Probabile formazione ${team}">
         ${rows.reverse().map(row => `<div class="pitch-row">${row.split(",").map(player => `<span>${player.trim()}</span>`).join("")}</div>`).join("")}
         <div class="pitch-row"><span>${goalkeeper}</span></div>
@@ -267,7 +267,7 @@
       <p class="reading-deck">${reading.deck}</p>
       <div class="reading-meta">
         <span>Arbitro: ${data.referee || "da ufficializzare"}</span>
-        <span>Formazioni: probabili</span>
+        <span>Formazioni: ${data.officialFormations ? "ufficiali" : "probabili"}</span>
         <span>Risultato centrale: ${reading.score}</span>
       </div>
     </header>
@@ -277,7 +277,7 @@
       <div><span>Scelta base</span><strong>${reading.picks[0]}</strong><small>${reading.picks[1]}</small></div>
     </section>
     <div class="round16-info-grid">
-      <section class="round16-info-box round16-formations"><span>1</span><h2>Probabili Formazioni</h2>${formations}</section>
+      <section class="round16-info-box round16-formations"><span>1</span><h2>${data.officialFormations ? "Formazioni ufficiali" : "Probabili Formazioni"}</h2>${formations}</section>
       <section class="round16-info-box"><span>2</span><h2>Meteo</h2>${data.high ? `<div class="round16-badge is-high">Fattore ambientale alto</div>` : ""}<p>${data.weather}</p></section>
       <section class="round16-info-box"><span>3</span><h2>Stadio</h2><p>${data.stadium}</p></section>
       <section class="round16-info-box"><span>4</span><h2>Arbitraggio</h2>${referee}</section>
@@ -286,7 +286,7 @@
       <div class="reading-copy">
         <section><p class="reading-lead">${reading.sections[0][1]}</p><p>Le probabilità stimate nei novanta minuti sono ${reading.probabilities[0]} ${reading.labels[0]}, ${reading.probabilities[1]} pareggio e ${reading.probabilities[2]} ${reading.labels[2]}. Le quote vengono confrontate con questa distribuzione soltanto dopo la costruzione dello scenario.</p></section>
         <section><h3>Forma e precedenti pesati</h3><p>Non viene attribuito peso decisivo ai precedenti lontani nel tempo: rose, cicli tecnici e contesto mondiale rendono più affidabili forma recente, qualità degli undici e compatibilità tattica. La stima conserva margine per il pareggio proprio perché una gara secca riduce il vantaggio teorico della favorita.</p></section>
-        <section class="match-formations"><h3>Probabili formazioni</h3><div class="match-formation-grid">${formationCards}</div><p class="formation-disclaimer">Formazioni da confermare nelle comunicazioni ufficiali.</p></section>
+        <section class="match-formations"><h3>${data.officialFormations ? "Formazioni ufficiali" : "Probabili formazioni"}</h3><div class="match-formation-grid">${formationCards}</div><p class="formation-disclaimer">${data.officialFormations ? "Undici ufficiali comunicati prima del calcio d’inizio." : "Formazioni da confermare nelle comunicazioni ufficiali."}</p></section>
         <section><h3>La partita di ${data.teams[0]}</h3><p>${reading.sections[1][1]}</p></section>
         <blockquote><strong>La chiave</strong>${reading.sections[2][1]}</blockquote>
         <section><h3>La partita di ${data.teams[1]}</h3><p>${reading.deck} La squadra senza palla deve proteggere il centro, scegliere con precisione quando alzare la pressione e non concedere transizioni dopo un possesso forzato.</p></section>

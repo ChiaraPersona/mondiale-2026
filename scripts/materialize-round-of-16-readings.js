@@ -61,7 +61,10 @@ for (const slug of slugs) {
     title: "",
   };
   vm.runInNewContext(renderer, { document });
-  if (!article.innerHTML.includes("Verdetto") || !article.innerHTML.includes("Probabili Formazioni")) {
+  if (
+    !article.innerHTML.includes("Verdetto") ||
+    !(article.innerHTML.includes("Probabili Formazioni") || article.innerHTML.includes("Formazioni ufficiali"))
+  ) {
     throw new Error(`${slug}: contenuto incompleto.`);
   }
 

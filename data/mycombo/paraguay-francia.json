@@ -16,7 +16,7 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 1.44,
+      "finalOdds": 5,
       "events": [
         {
           "id": "event-01",
@@ -59,6 +59,34 @@
           "riskScore": 19,
           "riskLevel": "low",
           "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.48,
+          "selectionId": 5200872649,
+          "marketId": 790067036,
+          "category": "goal",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-06",
+          "market": "RISULTATO ESATTO MULTI ESITI 1 — RISULTATO ESATTO MULTI ESITI (1)",
+          "selection": "0-1 / 0-2 / 1-2",
+          "odds": 2.35,
+          "selectionId": 5200963083,
+          "marketId": 790078761,
+          "category": "risultato",
+          "rankingScore": 76,
+          "class": "SPECULATIVE",
+          "riskScore": 72,
+          "riskLevel": "high",
+          "riskReasons": []
         }
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
@@ -79,7 +107,7 @@
     },
     {
       "name": "Balanced",
-      "finalOdds": 2.03,
+      "finalOdds": 9.95,
       "events": [
         {
           "id": "event-02",
@@ -92,69 +120,6 @@
           "rankingScore": 89,
           "class": "CORE",
           "riskScore": 16,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-03",
-          "market": "UNDER/OVER — U/O 1.5",
-          "selection": "OVER",
-          "odds": 1.16,
-          "selectionId": 5200872630,
-          "marketId": 790067031,
-          "category": "goal",
-          "rankingScore": 86,
-          "class": "CORE",
-          "riskScore": 19,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-04",
-          "market": "UNDER/OVER — U/O 3.5",
-          "selection": "UNDER",
-          "odds": 1.48,
-          "selectionId": 5200872649,
-          "marketId": 790067036,
-          "category": "goal",
-          "rankingScore": 83,
-          "class": "VALUE",
-          "riskScore": 22,
-          "riskLevel": "low",
-          "riskReasons": []
-        }
-      ],
-      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
-      "scenario": {
-        "id": "dominio_francia_caldo_da_gestire",
-        "name": "Dominio Francia, caldo da gestire",
-        "estimatedProbability": "media"
-      },
-      "strengths": [
-        "Coerenza tattica interna.",
-        "Mercati principali e verificabili."
-      ],
-      "weaknesses": [
-        "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
-      ],
-      "riskVerdict": "medium"
-    },
-    {
-      "name": "Aggressive",
-      "finalOdds": 2.61,
-      "events": [
-        {
-          "id": "event-03",
-          "market": "UNDER/OVER — U/O 1.5",
-          "selection": "OVER",
-          "odds": 1.16,
-          "selectionId": 5200872630,
-          "marketId": 790067031,
-          "category": "goal",
-          "rankingScore": 86,
-          "class": "CORE",
-          "riskScore": 19,
           "riskLevel": "low",
           "riskReasons": []
         },
@@ -185,6 +150,97 @@
           "riskScore": 25,
           "riskLevel": "medium",
           "riskReasons": []
+        },
+        {
+          "id": "event-07",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ENCISO C. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 3.75,
+          "selectionId": 5202996953,
+          "marketId": 790487255,
+          "category": "giocatore",
+          "rankingScore": 72,
+          "class": "SPECULATIVE",
+          "riskScore": 78,
+          "riskLevel": "high",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "dominio_francia_caldo_da_gestire",
+        "name": "Dominio Francia, caldo da gestire",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "medium"
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 19.82,
+      "events": [
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.48,
+          "selectionId": 5200872649,
+          "marketId": 790067036,
+          "category": "goal",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-05",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL",
+          "odds": 1.52,
+          "selectionId": 5200870514,
+          "marketId": 790066562,
+          "category": "goal",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-06",
+          "market": "RISULTATO ESATTO MULTI ESITI 1 — RISULTATO ESATTO MULTI ESITI (1)",
+          "selection": "0-1 / 0-2 / 1-2",
+          "odds": 2.35,
+          "selectionId": 5200963083,
+          "marketId": 790078761,
+          "category": "risultato",
+          "rankingScore": 76,
+          "class": "SPECULATIVE",
+          "riskScore": 72,
+          "riskLevel": "high",
+          "riskReasons": []
+        },
+        {
+          "id": "event-07",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ENCISO C. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 3.75,
+          "selectionId": 5202996953,
+          "marketId": 790487255,
+          "category": "giocatore",
+          "rankingScore": 72,
+          "class": "SPECULATIVE",
+          "riskScore": 78,
+          "riskLevel": "high",
+          "riskReasons": []
         }
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
@@ -206,7 +262,7 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-04T11:14:48.358Z",
+    "generatedAt": "2026-07-04T11:49:22.529Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"

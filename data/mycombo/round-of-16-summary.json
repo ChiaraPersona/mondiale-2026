@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T11:14:48.497Z",
+  "generatedAt": "2026-07-04T11:49:22.625Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -13,15 +13,15 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 2.63
+          "odds": 5.03
         },
         {
           "name": "Balanced",
-          "odds": 3.46
+          "odds": 9.88
         },
         {
           "name": "Aggressive",
-          "odds": 5.2
+          "odds": 20.49
         }
       ],
       "anomalies": [
@@ -55,15 +55,15 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 1.44
+          "odds": 5
         },
         {
           "name": "Balanced",
-          "odds": 2.03
+          "odds": 9.95
         },
         {
           "name": "Aggressive",
-          "odds": 2.61
+          "odds": 19.82
         }
       ],
       "anomalies": [
@@ -97,15 +97,15 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 2.69
+          "odds": 4.95
         },
         {
           "name": "Balanced",
-          "odds": 3.3
+          "odds": 10.08
         },
         {
           "name": "Aggressive",
-          "odds": 4.95
+          "odds": 19.81
         }
       ],
       "anomalies": [
@@ -139,15 +139,15 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 2.59
+          "odds": 4.97
         },
         {
           "name": "Balanced",
-          "odds": 3.9
+          "odds": 10.08
         },
         {
           "name": "Aggressive",
-          "odds": 8.52
+          "odds": 19.91
         }
       ],
       "anomalies": [
@@ -181,15 +181,15 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 2.93
+          "odds": 4.88
         },
         {
           "name": "Balanced",
-          "odds": 2.81
+          "odds": 10.09
         },
         {
           "name": "Aggressive",
-          "odds": 4.26
+          "odds": 20.06
         }
       ],
       "anomalies": [
@@ -223,15 +223,15 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 2.65
+          "odds": 5.09
         },
         {
           "name": "Balanced",
-          "odds": 3.8
+          "odds": 9.94
         },
         {
           "name": "Aggressive",
-          "odds": 5.09
+          "odds": 20.05
         }
       ],
       "anomalies": [
@@ -265,18 +265,35 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 1.79
+          "odds": 5.1
         },
         {
           "name": "Balanced",
-          "odds": 2.19
+          "odds": 9.98
         },
         {
           "name": "Aggressive",
-          "odds": 2.71
+          "odds": 19.51
         }
       ],
-      "anomalies": []
+      "anomalies": [
+        {
+          "event": "MARTINEZ LAUTARO MARCATORE 1T",
+          "market": "MARCATORE SI/NO 1T",
+          "selection": "SI",
+          "odds": 4.1,
+          "impliedProbability": 24.39,
+          "estimatedProbability": 28,
+          "edge": 3.61,
+          "classification": "Leggero value",
+          "level": "value",
+          "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
+          "modelConfidence": 62,
+          "risk": "medium",
+          "selectionId": "5205358941",
+          "marketId": "790927253"
+        }
+      ]
     },
     {
       "slug": "svizzera-colombia",
@@ -290,15 +307,15 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 3.01
+          "odds": 5.09
         },
         {
           "name": "Balanced",
-          "odds": 4.52
+          "odds": 9.95
         },
         {
           "name": "Aggressive",
-          "odds": 6.22
+          "odds": 20.14
         }
       ],
       "anomalies": []

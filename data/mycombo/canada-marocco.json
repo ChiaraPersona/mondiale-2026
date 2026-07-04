@@ -16,7 +16,7 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 2.63,
+      "finalOdds": 5.03,
       "events": [
         {
           "id": "event-01",
@@ -43,118 +43,6 @@
           "rankingScore": 89,
           "class": "CORE",
           "riskScore": 16,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-03",
-          "market": "UNDER/OVER — U/O 2.5",
-          "selection": "UNDER",
-          "odds": 1.65,
-          "selectionId": 5199236851,
-          "marketId": 789729419,
-          "category": "goal",
-          "rankingScore": 86,
-          "class": "CORE",
-          "riskScore": 19,
-          "riskLevel": "low",
-          "riskReasons": []
-        }
-      ],
-      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
-      "scenario": {
-        "id": "marocco_favorito_gara_contenuta",
-        "name": "Marocco favorito, gara contenuta",
-        "estimatedProbability": "medio-alta"
-      },
-      "strengths": [
-        "Coerenza tattica interna.",
-        "Mercati principali e verificabili."
-      ],
-      "weaknesses": [
-        "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
-      ],
-      "riskVerdict": "low"
-    },
-    {
-      "name": "Balanced",
-      "finalOdds": 3.46,
-      "events": [
-        {
-          "id": "event-02",
-          "market": "UNDER/OVER — U/O 3.5",
-          "selection": "UNDER",
-          "odds": 1.2,
-          "selectionId": 5199236855,
-          "marketId": 789729420,
-          "category": "goal",
-          "rankingScore": 89,
-          "class": "CORE",
-          "riskScore": 16,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-03",
-          "market": "UNDER/OVER — U/O 2.5",
-          "selection": "UNDER",
-          "odds": 1.65,
-          "selectionId": 5199236851,
-          "marketId": 789729419,
-          "category": "goal",
-          "rankingScore": 86,
-          "class": "CORE",
-          "riskScore": 19,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-04",
-          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
-          "selection": "2",
-          "odds": 1.75,
-          "selectionId": 5199234607,
-          "marketId": 789728927,
-          "category": "esito",
-          "rankingScore": 83,
-          "class": "VALUE",
-          "riskScore": 22,
-          "riskLevel": "low",
-          "riskReasons": []
-        }
-      ],
-      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
-      "scenario": {
-        "id": "marocco_favorito_gara_contenuta",
-        "name": "Marocco favorito, gara contenuta",
-        "estimatedProbability": "media"
-      },
-      "strengths": [
-        "Coerenza tattica interna.",
-        "Mercati principali e verificabili."
-      ],
-      "weaknesses": [
-        "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
-      ],
-      "riskVerdict": "medium"
-    },
-    {
-      "name": "Aggressive",
-      "finalOdds": 5.2,
-      "events": [
-        {
-          "id": "event-03",
-          "market": "UNDER/OVER — U/O 2.5",
-          "selection": "UNDER",
-          "odds": 1.65,
-          "selectionId": 5199236851,
-          "marketId": 789729419,
-          "category": "goal",
-          "rankingScore": 86,
-          "class": "CORE",
-          "riskScore": 19,
           "riskLevel": "low",
           "riskReasons": []
         },
@@ -191,6 +79,146 @@
       "scenario": {
         "id": "marocco_favorito_gara_contenuta",
         "name": "Marocco favorito, gara contenuta",
+        "estimatedProbability": "medio-alta"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "low"
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 9.88,
+      "events": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "2",
+          "odds": 1.33,
+          "selectionId": 5199235948,
+          "marketId": 789729196,
+          "category": "esito",
+          "rankingScore": 92,
+          "class": "CORE",
+          "riskScore": 13,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER",
+          "odds": 1.65,
+          "selectionId": 5199236851,
+          "marketId": 789729419,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-07",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — DAVID J. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 4.5,
+          "selectionId": 5202901929,
+          "marketId": 790462918,
+          "category": "giocatore",
+          "rankingScore": 72,
+          "class": "SPECULATIVE",
+          "riskScore": 78,
+          "riskLevel": "high",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "marocco_favorito_gara_contenuta",
+        "name": "Marocco favorito, gara contenuta",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "medium"
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 20.49,
+      "events": [
+        {
+          "id": "event-02",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.2,
+          "selectionId": 5199236855,
+          "marketId": 789729420,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 2.5",
+          "selection": "UNDER",
+          "odds": 1.65,
+          "selectionId": 5199236851,
+          "marketId": 789729419,
+          "category": "goal",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-06",
+          "market": "RISULTATO ESATTO MULTI ESITI 1 — RISULTATO ESATTO MULTI ESITI (1)",
+          "selection": "0-1 / 0-2 / 1-2",
+          "odds": 2.3,
+          "selectionId": 5199513908,
+          "marketId": 789785953,
+          "category": "risultato",
+          "rankingScore": 76,
+          "class": "SPECULATIVE",
+          "riskScore": 72,
+          "riskLevel": "high",
+          "riskReasons": []
+        },
+        {
+          "id": "event-07",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — DAVID J. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 4.5,
+          "selectionId": 5202901929,
+          "marketId": 790462918,
+          "category": "giocatore",
+          "rankingScore": 72,
+          "class": "SPECULATIVE",
+          "riskScore": 78,
+          "riskLevel": "high",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "marocco_favorito_gara_contenuta",
+        "name": "Marocco favorito, gara contenuta",
         "estimatedProbability": "media"
       },
       "strengths": [
@@ -206,7 +234,7 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-04T11:14:48.302Z",
+    "generatedAt": "2026-07-04T11:49:22.508Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"

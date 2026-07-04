@@ -270,7 +270,6 @@
         <span>Formazioni: probabili</span>
         <span>Risultato centrale: ${reading.score}</span>
       </div>
-      ${data.high ? `<span class="round16-badge is-high">Fattore ambientale alto</span>` : ""}
     </header>
     <section class="reading-summary">
       <div><span>Risultato centrale</span><strong>${reading.score}</strong><small>Stima indipendente dalle quote</small></div>

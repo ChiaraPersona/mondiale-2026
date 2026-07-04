@@ -16,7 +16,84 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 1.79,
+      "finalOdds": 5.1,
+      "events": [
+        {
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1",
+          "odds": 1.11,
+          "selectionId": 5205176351,
+          "marketId": 790901490,
+          "category": "esito",
+          "rankingScore": 92,
+          "class": "CORE",
+          "riskScore": 13,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1",
+          "odds": 1.36,
+          "selectionId": 5205175009,
+          "marketId": 790901221,
+          "category": "esito",
+          "rankingScore": 83,
+          "class": "VALUE",
+          "riskScore": 22,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-05",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL",
+          "odds": 1.57,
+          "selectionId": 5205175124,
+          "marketId": 790901240,
+          "category": "goal",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-06",
+          "market": "RISULTATO ESATTO MULTI ESITI 1 — RISULTATO ESATTO MULTI ESITI (1)",
+          "selection": "1-0 / 2-0 / 2-1",
+          "odds": 2.15,
+          "selectionId": 5205315975,
+          "marketId": 790917256,
+          "category": "risultato",
+          "rankingScore": 76,
+          "class": "SPECULATIVE",
+          "riskScore": 72,
+          "riskLevel": "high",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "controllo_argentina",
+        "name": "Controllo Argentina",
+        "estimatedProbability": "medio-alta"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "low"
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 9.98,
       "events": [
         {
           "id": "event-01",
@@ -59,55 +136,6 @@
           "riskScore": 19,
           "riskLevel": "low",
           "riskReasons": []
-        }
-      ],
-      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
-      "scenario": {
-        "id": "controllo_argentina",
-        "name": "Controllo Argentina",
-        "estimatedProbability": "medio-alta"
-      },
-      "strengths": [
-        "Coerenza tattica interna.",
-        "Mercati principali e verificabili."
-      ],
-      "weaknesses": [
-        "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
-      ],
-      "riskVerdict": "low"
-    },
-    {
-      "name": "Balanced",
-      "finalOdds": 2.19,
-      "events": [
-        {
-          "id": "event-02",
-          "market": "UNDER/OVER — U/O 3.5",
-          "selection": "UNDER",
-          "odds": 1.27,
-          "selectionId": 5205177259,
-          "marketId": 790901714,
-          "category": "goal",
-          "rankingScore": 89,
-          "class": "CORE",
-          "riskScore": 16,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-03",
-          "market": "UNDER/OVER — U/O 1.5",
-          "selection": "OVER",
-          "odds": 1.27,
-          "selectionId": 5205177240,
-          "marketId": 790901709,
-          "category": "goal",
-          "rankingScore": 86,
-          "class": "CORE",
-          "riskScore": 19,
-          "riskLevel": "low",
-          "riskReasons": []
         },
         {
           "id": "event-04",
@@ -121,6 +149,20 @@
           "class": "VALUE",
           "riskScore": 22,
           "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-07",
+          "market": "MARCATORE SI/NO 1T — MARTINEZ LAUTARO MARCATORE 1T",
+          "selection": "SI",
+          "odds": 4.1,
+          "selectionId": 5205358941,
+          "marketId": 790927253,
+          "category": "giocatore",
+          "rankingScore": 72,
+          "class": "SPECULATIVE",
+          "riskScore": 78,
+          "riskLevel": "high",
           "riskReasons": []
         }
       ],
@@ -142,33 +184,33 @@
     },
     {
       "name": "Aggressive",
-      "finalOdds": 2.71,
+      "finalOdds": 19.51,
       "events": [
         {
-          "id": "event-03",
-          "market": "UNDER/OVER — U/O 1.5",
-          "selection": "OVER",
-          "odds": 1.27,
-          "selectionId": 5205177240,
-          "marketId": 790901709,
-          "category": "goal",
-          "rankingScore": 86,
+          "id": "event-01",
+          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
+          "selection": "1",
+          "odds": 1.11,
+          "selectionId": 5205176351,
+          "marketId": 790901490,
+          "category": "esito",
+          "rankingScore": 92,
           "class": "CORE",
-          "riskScore": 19,
+          "riskScore": 13,
           "riskLevel": "low",
           "riskReasons": []
         },
         {
-          "id": "event-04",
-          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
-          "selection": "1",
-          "odds": 1.36,
-          "selectionId": 5205175009,
-          "marketId": 790901221,
-          "category": "esito",
-          "rankingScore": 83,
-          "class": "VALUE",
-          "riskScore": 22,
+          "id": "event-02",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.27,
+          "selectionId": 5205177259,
+          "marketId": 790901714,
+          "category": "goal",
+          "rankingScore": 89,
+          "class": "CORE",
+          "riskScore": 16,
           "riskLevel": "low",
           "riskReasons": []
         },
@@ -184,6 +226,34 @@
           "class": "VALUE",
           "riskScore": 25,
           "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-06",
+          "market": "RISULTATO ESATTO MULTI ESITI 1 — RISULTATO ESATTO MULTI ESITI (1)",
+          "selection": "1-0 / 2-0 / 2-1",
+          "odds": 2.15,
+          "selectionId": 5205315975,
+          "marketId": 790917256,
+          "category": "risultato",
+          "rankingScore": 76,
+          "class": "SPECULATIVE",
+          "riskScore": 72,
+          "riskLevel": "high",
+          "riskReasons": []
+        },
+        {
+          "id": "event-07",
+          "market": "MARCATORE SI/NO 1T — MARTINEZ LAUTARO MARCATORE 1T",
+          "selection": "SI",
+          "odds": 4.1,
+          "selectionId": 5205358941,
+          "marketId": 790927253,
+          "category": "giocatore",
+          "rankingScore": 72,
+          "class": "SPECULATIVE",
+          "riskScore": 78,
+          "riskLevel": "high",
           "riskReasons": []
         }
       ],
@@ -206,17 +276,34 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-04T11:14:48.480Z",
+    "generatedAt": "2026-07-04T11:49:22.613Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"
     },
     "analysis": {
       "totalMarkets": 4061,
-      "manuallyModelledCandidates": 0,
-      "publishedEvents": 0
+      "manuallyModelledCandidates": 1,
+      "publishedEvents": 1
     },
-    "events": [],
+    "events": [
+      {
+        "event": "MARTINEZ LAUTARO MARCATORE 1T",
+        "market": "MARCATORE SI/NO 1T",
+        "selection": "SI",
+        "odds": 4.1,
+        "impliedProbability": 24.39,
+        "estimatedProbability": 28,
+        "edge": 3.61,
+        "classification": "Leggero value",
+        "level": "value",
+        "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
+        "modelConfidence": 62,
+        "risk": "medium",
+        "selectionId": "5205358941",
+        "marketId": "790927253"
+      }
+    ],
     "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."
   }
 }

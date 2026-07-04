@@ -12,7 +12,7 @@ const models = {
   "messico-inghilterra": { p: [34, 30, 36], score: "1-1", scenario: "Equilibrio con forte fattore Azteca", picks: [["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["U/O 2.5","UNDER"],["PASSAGGIO TURNO","2"],["ESITO FINALE 1X2","X"]], anomaly: ["SAKA B. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO", .36] },
   "portogallo-spagna": { p: [25, 29, 46], score: "1-2", scenario: "Spagna favorita in una gara aperta", picks: [["PASSAGGIO TURNO","2"],["U/O 1.5","OVER"],["GOAL/NO GOAL","GOAL"],["U/O 3.5","UNDER"],["ESITO FINALE 1X2","2"]], anomaly: ["LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO", .36] },
   "stati-uniti-belgio": { p: [35, 29, 36], score: "1-1", scenario: "Equilibrio e occasioni da entrambe le parti", picks: [["U/O 1.5","OVER"],["U/O 3.5","UNDER"],["GOAL/NO GOAL","GOAL"],["U/O 2.5","OVER"],["PASSAGGIO TURNO","2"]], anomaly: ["PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA", .32] },
-  "argentina-egitto": { p: [71, 19, 10], score: "2-0", scenario: "Controllo Argentina", picks: [["PASSAGGIO TURNO","1"],["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["ESITO FINALE 1X2","1"],["GOAL/NO GOAL","NOGOAL"]], anomaly: null },
+  "argentina-egitto": { p: [71, 19, 10], score: "2-0", scenario: "Controllo Argentina", picks: [["PASSAGGIO TURNO","1"],["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["ESITO FINALE 1X2","1"],["GOAL/NO GOAL","NOGOAL"]], anomaly: ["MARTINEZ LAUTARO MARCATORE 1T", .28] },
   "svizzera-colombia": { p: [29, 31, 40], score: "0-1", scenario: "Colombia di misura, partita stretta", picks: [["U/O 3.5","UNDER"],["U/O 2.5","UNDER"],["PASSAGGIO TURNO","2"],["GOAL/NO GOAL","NOGOAL"],["ESITO FINALE 1X2","2"]], anomaly: null }
 };
 
@@ -41,6 +41,21 @@ function portfolio(name, events, scenario) {
   };
 }
 
+function closestPortfolio(candidates, target) {
+  let best = null;
+  const total = 1 << candidates.length;
+  for (let mask = 1; mask < total; mask += 1) {
+    const events = candidates.filter((_, index) => mask & (1 << index));
+    if (events.length < 2 || events.length > 5) continue;
+    const odds = events.reduce((product, item) => product * item.odds, 1);
+    const distance = Math.abs(Math.log(odds / target));
+    if (!best || distance < best.distance || (distance === best.distance && events.length < best.events.length)) {
+      best = { events, odds, distance };
+    }
+  }
+  return best.events;
+}
+
 fs.mkdirSync(outputDir, { recursive: true });
 const summary = [];
 for (const [slug, model] of Object.entries(models)) {
@@ -50,6 +65,18 @@ for (const [slug, model] of Object.entries(models)) {
     if (!market) throw new Error(`${slug}: mercato mancante ${info} / ${selection}`);
     return event(market, i, 92 - i * 3);
   });
+  const centralScore = model.score.match(/\d-\d/)?.[0];
+  const exactScoreMarket = quote.markets.find(item =>
+    item.info === "RISULTATO ESATTO MULTI ESITI (1)" &&
+    String(item.esito).split("/").map(value => value.trim()).includes(centralScore)
+  );
+  if (exactScoreMarket) {
+    selected.push(event(exactScoreMarket, selected.length, 76));
+    selected[selected.length - 1].category = "risultato";
+    selected[selected.length - 1].class = "SPECULATIVE";
+    selected[selected.length - 1].riskScore = 72;
+    selected[selected.length - 1].riskLevel = "high";
+  }
   const anomalyEvents = [];
   if (model.anomaly) {
     const [needle, probability] = model.anomaly;
@@ -65,15 +92,21 @@ for (const [slug, model] of Object.entries(models)) {
         reason: "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
         modelConfidence: 62, risk: "medium", selectionId: String(market.selectionId), marketId: String(market.marketId)
       });
+      const speculative = event(market, selected.length, 72);
+      speculative.category = "giocatore";
+      speculative.class = "SPECULATIVE";
+      speculative.riskScore = 78;
+      speculative.riskLevel = "high";
+      selected.push(speculative);
     }
   }
   const payload = {
     slug, match: quote.match, date: quote.date, status: "scheduled",
     prediction: { probabilities90Minutes: { home: model.p[0], draw: model.p[1], away: model.p[2] }, centralScore: model.score, scenario: model.scenario, quoteInfluence: "secondaria" },
     portfolios: [
-      portfolio("Safe", selected.slice(0, 3), model.scenario),
-      portfolio("Balanced", [selected[1], selected[2], selected[3]], model.scenario),
-      portfolio("Aggressive", [selected[2], selected[3], selected[4]], model.scenario)
+      portfolio("Safe", closestPortfolio(selected, 5), model.scenario),
+      portfolio("Balanced", closestPortfolio(selected, 10), model.scenario),
+      portfolio("Aggressive", closestPortfolio(selected, 20), model.scenario)
     ],
     quoteErrorAnalysis: {
       title: "Errore di Quota", generatedAt: new Date().toISOString(),

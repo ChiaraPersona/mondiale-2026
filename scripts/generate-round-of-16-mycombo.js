@@ -46,7 +46,7 @@ function closestPortfolio(candidates, target) {
   const total = 1 << candidates.length;
   for (let mask = 1; mask < total; mask += 1) {
     const events = candidates.filter((_, index) => mask & (1 << index));
-    if (events.length < 2 || events.length > 5) continue;
+    if (events.length < 2 || events.length > 12) continue;
     const odds = events.reduce((product, item) => product * item.odds, 1);
     const distance = Math.abs(Math.log(odds / target));
     if (!best || distance < best.distance || (distance === best.distance && events.length < best.events.length)) {
@@ -56,27 +56,43 @@ function closestPortfolio(candidates, target) {
   return best.events;
 }
 
+function easyCandidates(quote, model) {
+  const markets = quote.markets;
+  const homeFavored = model.p[0] >= model.p[2];
+  const favorite = homeFavored ? "1" : "2";
+  const doubleChance = homeFavored ? "1X" : "X2";
+  const wanted = [
+    ["PASSAGGIO TURNO", favorite],
+    ["DOPPIA CHANCE MULTIESITI", doubleChance],
+    ["U/O 0.5", "OVER"],
+    ["U/O 1.5", "OVER"],
+    ["U/O 3.5", "UNDER"],
+    ["U/O 4.5", "UNDER"],
+    ["U/O 5.5", "UNDER"],
+    ["DC + U/O 1.5", `${doubleChance} + OVER`],
+    ["DC + U/O 3.5", `${doubleChance} + UNDER`],
+    ["DC + U/O 4.5", `${doubleChance} + UNDER`],
+    ["1X2 + U/O 1.5", `${favorite} + O`],
+    ["1X2 + U/O 3.5", `${favorite} + U`],
+    ["1X2 + U/O 4.5", `${favorite} + U`],
+  ];
+  const found = wanted.map(([info, selection]) =>
+    markets.find(item => item.info === info && item.esito === selection)
+  ).filter(Boolean);
+  for (const [info, selection] of model.picks) {
+    const item = findMarket(markets, info, selection);
+    if (item) found.push(item);
+  }
+  const unique = [...new Map(found.map(item => [String(item.selectionId), item])).values()]
+    .filter(item => Number(item.quota) >= 1.05 && Number(item.quota) <= 1.90);
+  return unique.map((item, index) => event(item, index, Math.max(78, 94 - index * 2)));
+}
+
 fs.mkdirSync(outputDir, { recursive: true });
 const summary = [];
 for (const [slug, model] of Object.entries(models)) {
   const quote = JSON.parse(fs.readFileSync(path.join(quoteDir, `${slug}-quote.json`), "utf8"));
-  const selected = model.picks.map(([info, selection], i) => {
-    const market = findMarket(quote.markets, info, selection);
-    if (!market) throw new Error(`${slug}: mercato mancante ${info} / ${selection}`);
-    return event(market, i, 92 - i * 3);
-  });
-  const centralScore = model.score.match(/\d-\d/)?.[0];
-  const exactScoreMarket = quote.markets.find(item =>
-    item.info === "RISULTATO ESATTO MULTI ESITI (1)" &&
-    String(item.esito).split("/").map(value => value.trim()).includes(centralScore)
-  );
-  if (exactScoreMarket) {
-    selected.push(event(exactScoreMarket, selected.length, 76));
-    selected[selected.length - 1].category = "risultato";
-    selected[selected.length - 1].class = "SPECULATIVE";
-    selected[selected.length - 1].riskScore = 72;
-    selected[selected.length - 1].riskLevel = "high";
-  }
+  const selected = easyCandidates(quote, model);
   const anomalyEvents = [];
   if (model.anomaly) {
     const [needle, probability] = model.anomaly;
@@ -92,12 +108,6 @@ for (const [slug, model] of Object.entries(models)) {
         reason: "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
         modelConfidence: 62, risk: "medium", selectionId: String(market.selectionId), marketId: String(market.marketId)
       });
-      const speculative = event(market, selected.length, 72);
-      speculative.category = "giocatore";
-      speculative.class = "SPECULATIVE";
-      speculative.riskScore = 78;
-      speculative.riskLevel = "high";
-      selected.push(speculative);
     }
   }
   const payload = {

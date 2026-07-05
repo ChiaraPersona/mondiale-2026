@@ -49,16 +49,16 @@ const readingPredictions = {
   "Messico|Inghilterra": { home: 0, away: 1, stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti" },
   /*
    * Cinque degli ultimi sei precedenti sono finiti in parità nei 90 minuti.
-   * Le finali 2025 e 2012 sono arrivate ai rigori: Spagna avanti soltanto
-   * come qualificata prevista, non come vincente nei tempi regolamentari.
+   * Le finali 2025 e 2012 sono arrivate ai rigori: il Portogallo viene
+   * indicato di misura oltre i regolamentari, senza una vera favorita.
    */
-  "Portogallo|Spagna": { home: 1, away: 1, winner: "Spagna", stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti" },
+  "Portogallo|Spagna": { home: 1, away: 1, winner: "Portogallo", stage: "Ottavi", basis: "Equilibrio tecnico + precedenti spesso in parità" },
   /*
-   * Belgio vincente in tutti i cinque precedenti mostrati. Il 5-2
-   * del marzo 2026 rende la serie direttamente rilevante per forma,
-   * rose attuali e compatibilità tattica, superando il fattore campo USA.
+   * La revoca della squalifica di Balogun restituisce profondità agli USA.
+   * Fattore campo e ritmo rendono insufficiente la sola serie storica belga:
+   * Stati Uniti avanti di misura in una sfida quasi equilibrata.
    */
-  "Stati Uniti|Belgio": { home: 1, away: 2, stage: "Ottavi", basis: "Letture dei sedicesimi + precedenti diretti (5-2 Belgio nel 2026)" },
+  "Stati Uniti|Belgio": { home: 2, away: 1, stage: "Ottavi", basis: "Balogun disponibile + fattore campo USA + equilibrio del modello" },
   "Argentina|Egitto": { home: 2, away: 0, stage: "Ottavi", basis: "Letture dei sedicesimi" },
   /*
    * Colombia avanti 2-1 nelle vittorie, con un pareggio. Il 2-0
@@ -90,6 +90,13 @@ const readingPredictions = {
    * di Copa America 2024 aggiunge un forte fattore rivalsa alla Colombia.
    */
   "Argentina|Colombia": { home: 1, away: 1, winner: "Colombia", stage: "Quarti", basis: "Letture + precedenti recenti + fattore rivalsa Colombia" },
+
+  /*
+   * Possibile semifinale: l'Inghilterra conserva un vantaggio tecnico,
+   * ma la Colombia ha transizioni e qualità sufficienti per segnare.
+   * Margine minimo, nessuno scenario da goleada.
+   */
+  "Inghilterra|Colombia": { home: 2, away: 1, stage: "Semifinale", basis: "Margine tecnico ridotto + pericolosità offensiva Colombia" },
 
   /*
    * Possibile semifinale. La Spagna ha vinto le due sfide ufficiali

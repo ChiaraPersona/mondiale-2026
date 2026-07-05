@@ -53,7 +53,7 @@
     "stati-uniti-belgio": {
       teams: ["Stati Uniti", "Belgio"], flags: ["stati-uniti", "belgio"],
       formations: [
-        ["USA", "4-3-3", "Freese; Freeman, Richards, Ream, Robinson; McKennie, Adams, Tillman; Dest, Pepi, Pulisic.", "Assente: Balogun squalificato."],
+        ["USA", "4-3-3", "Freese; Freeman, Richards, Ream, Robinson; McKennie, Adams, Tillman; Dest, Pepi, Pulisic.", "Balogun nuovamente disponibile dopo la revoca dell'espulsione; resta un'alternativa offensiva importante."],
         ["Belgio", "4-2-3-1", "Courtois; De Cuyper, Theate, Mechele, Castagne; Vanaken, Tielemans; Doku, De Bruyne, Trossard; Lukaku."]
       ],
       weather: "Circa 21°C alle 17:00 locali, soleggiato/sereno. Impatto basso: condizioni ideali per intensità e pressing.",
@@ -171,20 +171,20 @@
         ["La lettura della partita", "La Spagna sale al 46% nei novanta minuti grazie a un centrocampo più continuo e a una migliore capacità di recuperare il pallone dopo la perdita. Il Portogallo conserva il 25% di vittoria e soprattutto una minaccia concreta nelle transizioni. La stima non segue ciecamente il mercato: il margine spagnolo esiste, ma è più stretto di quanto suggerisca la quota."],
         ["La chiave tattica", "Rodri o Zubimendi devono controllare Bruno Fernandes senza lasciare Pedri e Fabián troppo lontani dall’area. Lamine Yamal può costringere Nuno Mendes a difendere basso, ma proprio quella corsia offre al Portogallo la migliore uscita in campo aperto. Ronaldo occupa i centrali e libera seconde ricezioni per Bernardo e Leão."],
         ["Ritmo controllato", "Con tetto chiuso e climatizzazione l’estremo caldo di Arlington dovrebbe restare fuori dalla partita. Questo favorisce intensità tecnica e pressing organizzato. I temporali inciderebbero soprattutto sulla logistica, non sul campo, salvo decisione di giocare con il tetto aperto."],
-        ["Verdetto", "Risultato centrale 1-2, con 1-1 molto vicino. Goal e Over 1,5 sono le basi; Spagna qualificata è preferibile al segno 2. L’Under 3,5 protegge lo scenario tecnico più probabile senza chiedere una partita completamente chiusa."]
+        ["Verdetto", "Risultato centrale 1-1. Non considero scontata la qualificazione spagnola: il Portogallo ha abbastanza qualità ed esperienza per passare oltre i regolamentari. Goal e Over 1,5 sono più solidi del segno; l’Under 3,5 protegge uno scenario equilibrato."]
       ],
       volume: ["Portogallo 10-14 tiri", "Spagna 14-18 tiri", "Tiri in porta 4-6 / 5-7", "Corner totali 9-12"],
       picks: ["Over 1,5", "Goal", "Spagna qualificata", "Under 3,5"]
     },
     "stati-uniti-belgio": {
       headline: "Equilibrio quasi totale: intensità americana contro qualità belga negli ultimi trenta metri.",
-      deck: "Seattle offre condizioni ideali per una partita veloce. Gli USA possono alzare il pressing, ma senza Balogun perdono una parte della profondità; il Belgio risponde con De Bruyne, Doku e più esperienza.",
-      score: "1-1", probabilities: ["35%", "29%", "36%"], labels: ["USA", "Pareggio", "Belgio"],
+      deck: "Seattle offre condizioni ideali per una partita veloce. La disponibilità di Balogun restituisce profondità e opzioni agli USA; il Belgio risponde con De Bruyne, Doku e più esperienza.",
+      score: "2-1 Stati Uniti", probabilities: ["39%", "28%", "33%"], labels: ["USA", "Pareggio", "Belgio"],
       sections: [
-        ["La lettura della partita", "Il modello non trova una vera favorita: 35% Stati Uniti, 29% pareggio e 36% Belgio. Il fattore campo equilibra il maggiore talento belga. L’assenza di Balogun sposta però più responsabilità su Pulisic, Reyna e Pepi, mentre il Belgio può cambiare centravanti senza perdere completamente struttura."],
+        ["La lettura della partita", "Il modello non trova una vera favorita. La revoca dell’espulsione di Balogun migliora profondità, cambi e capacità degli Stati Uniti di attaccare lo spazio; insieme al fattore campo, sposta leggermente la qualificazione verso gli USA. Il Belgio conserva più esperienza e qualità tra le linee, quindi il margine resta minimo."],
         ["La chiave tattica", "Adams e Musah devono ridurre il tempo di ricezione di De Bruyne, ma non possono entrambi uscire dalla zona centrale: Doku attacca immediatamente lo spazio che si apre. Gli USA devono muovere il pallone rapidamente verso Pulisic e Weah, costringendo Castagne e De Cuyper a lunghe corse all’indietro. Il duello sulle seconde palle decide chi può mantenere il ritmo alto."],
         ["Condizioni ideali", "Ventuno gradi e cielo sereno permettono pressing e accelerazioni continue. Non esiste una giustificazione ambientale per una gara lenta: se le squadre restano prudenti sarà per il peso dell’eliminazione diretta, non per il clima."],
-        ["Verdetto", "Il risultato centrale è 1-1, con 2-1 e 1-2 quasi simmetrici. Goal e Over 1,5 sono le scelte principali; il passaggio turno è troppo equilibrato per diventare una base prudente. Pulisic 2+ tiri in porta offre value moderato, ma dipende dallo sviluppo e dal suo ruolo effettivo."]
+        ["Verdetto", "Il risultato centrale aggiornato è 2-1 Stati Uniti, con 1-1 e 1-2 molto vicini. Goal e Over 1,5 sono le scelte principali; il passaggio turno resta troppo equilibrato per diventare una base prudente. Il ritorno di Balogun aumenta le alternative offensive e riduce il vantaggio precedentemente assegnato al Belgio."]
       ],
       volume: ["USA 11-15 tiri", "Belgio 12-16 tiri", "Tiri in porta 4-6 per parte", "Corner totali 9-12"],
       picks: ["Over 1,5", "Goal", "Under 3,5", "Nessun segno 1X2 come scelta principale"]

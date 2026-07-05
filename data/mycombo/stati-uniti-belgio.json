@@ -5,12 +5,12 @@
   "status": "scheduled",
   "prediction": {
     "probabilities90Minutes": {
-      "home": 35,
-      "draw": 29,
-      "away": 36
+      "home": 39,
+      "draw": 28,
+      "away": 33
     },
-    "centralScore": "1-1",
-    "scenario": "Equilibrio e occasioni da entrambe le parti",
+    "centralScore": "2-1",
+    "scenario": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
     "quoteInfluence": "secondaria"
   },
   "portfolios": [
@@ -64,7 +64,7 @@
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
         "id": "equilibrio_e_occasioni_da_entrambe_le_parti",
-        "name": "Equilibrio e occasioni da entrambe le parti",
+        "name": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
         "estimatedProbability": "medio-alta"
       },
       "strengths": [
@@ -169,7 +169,7 @@
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
         "id": "equilibrio_e_occasioni_da_entrambe_le_parti",
-        "name": "Equilibrio e occasioni da entrambe le parti",
+        "name": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
         "estimatedProbability": "media"
       },
       "strengths": [
@@ -288,7 +288,7 @@
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
         "id": "equilibrio_e_occasioni_da_entrambe_le_parti",
-        "name": "Equilibrio e occasioni da entrambe le parti",
+        "name": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
         "estimatedProbability": "media"
       },
       "strengths": [

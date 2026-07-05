@@ -316,10 +316,10 @@ const codexObservedScorerTrends = [
   {
     team: "Francia",
     player: "Kylian Mbappe",
-    multiplier: 1.18,
-    floorBoost: 1,
-    capBoost: 1,
-    note: "Resta il riferimento principale della Francia nei gol pesanti.",
+    multiplier: 1.55,
+    floorBoost: 2,
+    capBoost: 2,
+    note: "Terminale centrale della Francia: capitano, rigorista, centravanti e prima destinazione delle occasioni decisive.",
   },
   {
     team: "Portogallo",

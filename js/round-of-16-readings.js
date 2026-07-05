@@ -31,10 +31,10 @@
       referee: "Ismail Elfath (USA)", profile: "Arbitro esperto, dalla gestione abbastanza fluida, ma discusso in alcune gare fisiche.", severity: 63
     },
     "messico-inghilterra": {
-      teams: ["Messico", "Inghilterra"], flags: ["messico", "inghilterra"], high: true,
+      teams: ["Messico", "Inghilterra"], flags: ["messico", "inghilterra"], high: true, officialFormations: true,
       formations: [
         ["Messico", "4-3-3", "Rangel; Sánchez, Montes, Vásquez, Gallardo; Mora, Lira, Romo; Alvarado, Jiménez, Quiñones."],
-        ["Inghilterra", "4-2-3-1", "Pickford; O’Reilly, Guéhi, Konsa, Spence; Anderson, Rice; Gordon, Bellingham, Saka; Kane."]
+        ["Inghilterra", "4-2-3-1", "Pickford; O’Reilly, Guéhi, Konsa, Quansah; Rice, Anderson; Gordon, Bellingham, Saka; Kane."]
       ],
       weather: "Circa 17°C alle 18:00 locali, cielo nuvoloso, con temporali previsti tra pomeriggio e sera. Impatto alto per altitudine e possibile pioggia: pallone più veloce, recuperi più difficili e vantaggio ambientale per il Messico.",
       stadium: "Estadio Azteca, Città del Messico. Capienza circa 87.500, erba ibrida e altitudine di circa 2.200–2.240 metri. Non climatizzato: il fattore altitudine è molto importante.",
@@ -156,7 +156,7 @@
       score: "1-1", probabilities: ["34%", "30%", "36%"], labels: ["Messico", "Pareggio", "Inghilterra"],
       sections: [
         ["La lettura della partita", "Nei novanta minuti la stima è quasi tripartita: 34% Messico, 30% pareggio e 36% Inghilterra. Il valore inglese è superiore, ma giocare a oltre 2.200 metri cambia recuperi, pressing e gestione delle accelerazioni. Il Messico conosce tempi e traiettorie dell’Azteca e può tenere la partita in equilibrio molto a lungo."],
-        ["La chiave tattica", "Rice e Anderson devono proteggere le perdite di palla quando Saka e Spence salgono insieme. Lira può spezzare il ritmo inglese, mentre Mora e Romo cercano subito Alvarado e Quiñones. Bellingham è l’uomo che può rompere il blocco messicano ricevendo alle spalle dei centrocampisti; Kane dovrà alternare area e raccordo senza svuotare la zona centrale."],
+        ["La chiave tattica", "Rice e Anderson devono proteggere le perdite di palla quando Saka e O’Reilly salgono insieme. Lira può spezzare il ritmo inglese, mentre Mora e Romo cercano subito Alvarado e Quiñones. Bellingham è l’uomo che può rompere il blocco messicano ricevendo alle spalle dei centrocampisti; Kane dovrà alternare area e raccordo senza svuotare la zona centrale. Quansah deve gestire ampiezza e transizioni sul lato di Alvarado."],
         ["Altitudine e temporali", "Il pallone viaggia più rapidamente, mentre gli sprint ripetuti costano di più. Il rischio di pioggia aumenta ulteriormente la difficoltà tecnica. Le sostituzioni e la gestione dei primi sessanta minuti avranno un peso anomalo: partire troppo forte può essere un errore."],
         ["Verdetto", "Il risultato centrale è 1-1. L’Inghilterra resta leggermente favorita per passare il turno grazie alla panchina, ma il segno 2 nei novanta minuti non è una scelta prudente. Under 3,5 è la linea più solida; Under 2,5 è coerente ma più esposto a supplementari esclusi e singoli episodi."]
       ],
@@ -249,7 +249,7 @@
     },
     "messico-inghilterra": {
       motivation: [98, 96], surprise: "Alto", shots: [["Messico", "9-13", "3-5"], ["Inghilterra", "11-15", "4-6"]], corners: ["4-6", "4-6", "8-11"],
-      cards: [["Lira", "Alto", "Protezione centrale contro Bellingham."], ["Montes", "Alto", "Duello fisico con Kane."], ["Rice", "Medio-alto", "Transizioni messicane e fattore altitudine."], ["Gallardo", "Medio-alto", "Uno contro uno con Saka."], ["Konsa", "Medio", "Copertura laterale su Quiñones."]],
+      cards: [["Lira", "Alto", "Protezione centrale contro Bellingham."], ["Montes", "Alto", "Duello fisico con Kane."], ["Gallardo", "Medio-alto", "Uno contro uno con Saka."], ["Rice", "Medio-alto", "Transizioni messicane e fattore altitudine."], ["Quansah", "Medio", "Duelli esterni e coperture su Alvarado."], ["O’Reilly", "Medio", "Transizioni di Quiñones sul lato inglese."]],
       shotsPlayers: ["Kane 3-5", "Saka 2-4", "Bellingham 2-3", "Jiménez 2-4"]
     },
     "portogallo-spagna": {

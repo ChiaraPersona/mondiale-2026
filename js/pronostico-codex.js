@@ -2283,10 +2283,12 @@ function codexApplyGroupResult(table, result) {
   }
 }
 
-function codexRealResult(matchNumber, fixture) {
+function codexRealResult(matchNumber, fixture, resolvedTeams = null) {
   const real = typeof worldCupResultFor === "function" ? worldCupResultFor(matchNumber) : null;
   if (!real) return null;
-  const teams = codexFixtureTeams(fixture?.[2]);
+  const teams = Array.isArray(resolvedTeams) && resolvedTeams.length === 2
+    ? resolvedTeams
+    : codexFixtureTeams(fixture?.[2]);
   if (teams.length !== 2) return null;
   const goalsA = codexNumber(real.home);
   const goalsB = codexNumber(real.away);
@@ -2409,7 +2411,11 @@ function codexSimulateKnockout() {
       const [teamA, teamB] = codexParticipants(matchNumber);
       if (!teamA || !teamB) return;
       const simulated = codexScoreMatch(teamA, teamB, true, worldCupFixtures[matchNumber - 1], matchNumber);
-      const real = codexRealResult(matchNumber, worldCupFixtures[matchNumber - 1]);
+      const real = codexRealResult(
+        matchNumber,
+        worldCupFixtures[matchNumber - 1],
+        [teamA, teamB]
+      );
       const forecast = codexApplyReadingPrediction(simulated, teamA, teamB);
       const result = real ? { ...real, forecast } : forecast;
       codexState.results[matchNumber] = { ...result, fixture: worldCupFixtures[matchNumber - 1] };

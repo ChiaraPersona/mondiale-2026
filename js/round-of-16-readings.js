@@ -23,8 +23,8 @@
     "brasile-norvegia": {
       teams: ["Brasile", "Norvegia"], flags: ["brasile", "norvegia"], high: true,
       formations: [
-        ["Brasile", "4-2-3-1", "Alisson; Vanderson, Marquinhos, Gabriel Magalhães, Guilherme Arana; Casemiro, Bruno Guimarães; Raphinha/Rayan, Neymar, Vinícius Júnior; Endrick."],
-        ["Norvegia", "4-3-3", "Nyland; Ryerson, Ajer, Østigård, Meling; Berge, Aursnes, Ødegaard; Bobb, Haaland, Nusa."]
+        ["Brasile", "4-2-3-1", "Alisson; Danilo, Marquinhos, Gabriel, Douglas Santos; Bruno Guimarães, Casemiro; Rayan, Martinelli, Vinícius Júnior; Matheus Cunha."],
+        ["Norvegia", "4-3-3", "Nyland; Wolfe, Lysaker Heggem, Ajer, Pedersen; Berg, Berge, Ødegaard; Nusa, Haaland, Sørloth."]
       ],
       weather: "Circa 26°C alle 16:00 locali, cielo nuvoloso con temporali indicati proprio nell’orario della partita. Allerta caldo nell’area. Impatto medio-alto, soprattutto per il rischio di interruzioni e un campo più pesante.",
       stadium: "MetLife Stadium, East Rutherford / New York-New Jersey Stadium. Stadio aperto, grande capienza, erba naturale temporanea per il Mondiale. Non climatizzato.",
@@ -33,8 +33,8 @@
     "messico-inghilterra": {
       teams: ["Messico", "Inghilterra"], flags: ["messico", "inghilterra"], high: true,
       formations: [
-        ["Messico", "4-3-3", "Malagón; Sánchez, Montes, Vásquez, Gallardo; Álvarez, Chávez, Romo; Antuna, Giménez, Lozano."],
-        ["Inghilterra", "4-2-3-1", "Pickford; Konsa, Stones, Guéhi, Shaw; Rice, Anderson/Mainoo; Saka, Bellingham, Gordon/Rashford; Kane.", "Dubbi: Reece James e Quansah."]
+        ["Messico", "4-3-3", "Rangel; Sánchez, Montes, Vásquez, Gallardo; Mora, Lira, Romo; Alvarado, Jiménez, Quiñones."],
+        ["Inghilterra", "4-2-3-1", "Pickford; O’Reilly, Guéhi, Konsa, Spence; Anderson, Rice; Gordon, Bellingham, Saka; Kane."]
       ],
       weather: "Circa 17°C alle 18:00 locali, cielo nuvoloso, con temporali previsti tra pomeriggio e sera. Impatto alto per altitudine e possibile pioggia: pallone più veloce, recuperi più difficili e vantaggio ambientale per il Messico.",
       stadium: "Estadio Azteca, Città del Messico. Capienza circa 87.500, erba ibrida e altitudine di circa 2.200–2.240 metri. Non climatizzato: il fattore altitudine è molto importante.",
@@ -43,8 +43,8 @@
     "portogallo-spagna": {
       teams: ["Portogallo", "Spagna"], flags: ["portogallo", "spagna"], high: true,
       formations: [
-        ["Portogallo", "4-2-3-1", "Diogo Costa; Dalot, Rúben Dias, António Silva, Nuno Mendes; João Palhinha, Vitinha; Bernardo Silva, Bruno Fernandes, Rafael Leão; Cristiano Ronaldo."],
-        ["Spagna", "4-3-3", "Unai Simón; Carvajal/Porro, Le Normand, Laporte, Cucurella; Rodri/Zubimendi, Pedri, Fabián Ruiz; Lamine Yamal, Morata, Nico Williams."]
+        ["Portogallo", "4-2-3-1", "Diogo Costa; João Cancelo, Rúben Dias, Renato Veiga, Nuno Mendes; João Neves, Vitinha; Pedro Neto, Bruno Fernandes, Rafael Leão; Cristiano Ronaldo."],
+        ["Spagna", "4-3-3", "Unai Simón; Pedro Porro, Pau Cubarsí, Aymeric Laporte, Marc Cucurella; Dani Olmo, Rodri, Pedri; Lamine Yamal, Mikel Oyarzabal, Álex Baena."]
       ],
       weather: "Circa 35°C alle 14:00 locali, parzialmente soleggiato, con temporali possibili nel pomeriggio. Impatto basso se tetto chiuso e climatizzazione attiva; alto solo all’esterno.",
       stadium: "AT&T Stadium / Dallas Stadium, Arlington. Tetto retrattile, aria condizionata ed erba naturale temporanea. Condizioni probabilmente controllate.",
@@ -53,8 +53,8 @@
     "stati-uniti-belgio": {
       teams: ["Stati Uniti", "Belgio"], flags: ["stati-uniti", "belgio"],
       formations: [
-        ["USA", "4-2-3-1", "Turner; Scally, Richards, Ream, Jedi Robinson; Adams, Musah; Weah, Reyna, Pulisic; Pepi.", "Assente: Balogun squalificato."],
-        ["Belgio", "4-3-3", "Casteels; Castagne, Faes, Theate, De Cuyper; Onana, Tielemans, De Bruyne; Doku, Lukaku/Openda, Trossard."]
+        ["USA", "4-3-3", "Freese; Freeman, Richards, Ream, Robinson; McKennie, Adams, Tillman; Dest, Pepi, Pulisic.", "Assente: Balogun squalificato."],
+        ["Belgio", "4-2-3-1", "Courtois; De Cuyper, Theate, Mechele, Castagne; Vanaken, Tielemans; Doku, De Bruyne, Trossard; Lukaku."]
       ],
       weather: "Circa 21°C alle 17:00 locali, soleggiato/sereno. Impatto basso: condizioni ideali per intensità e pressing.",
       stadium: "Lumen Field, Seattle. Campo aperto e copertura parziale sugli spalti, erba naturale temporanea per il Mondiale. Non climatizzato, ma con clima favorevole.",
@@ -63,8 +63,8 @@
     "argentina-egitto": {
       teams: ["Argentina", "Egitto"], flags: ["argentina", "egitto"], high: true,
       formations: [
-        ["Argentina", "4-3-3", "Emiliano Martínez; Molina, Romero, Otamendi/Lisandro Martínez, Tagliafico; De Paul, Enzo Fernández, Mac Allister; Messi, Lautaro Martínez/Julián Álvarez, Nico González."],
-        ["Egitto", "4-2-3-1", "El Shenawy; Mohamed Hany, Hegazy, Abdelmonem, Hamdy; Elneny, Hamdi Fathi; Trezeguet, Emam Ashour, Marmoush; Salah."]
+        ["Argentina", "4-3-1-2", "Emiliano Martínez; Molina, Romero, Lisandro Martínez, Medina; De Paul, Enzo Fernández, Mac Allister; Almada; Messi, Lautaro Martínez.", "Medina in dubbio lieve dopo i crampi dell’ultima gara; Tagliafico è l’alternativa."],
+        ["Egitto", "4-4-2", "Shobeir; Mohamed Hany, Hamdy Fathy, Yasser Ibrahim, Ramy Rabia; Emam Ashour, Lasheen, Marwan Ateya, Ziko; Salah, Marmoush.", "Lasheen rientra dalla squalifica; Hafez, Fatouh e Abdelmonem sono in dubbio per problemi fisici."]
       ],
       weather: "Circa 30°C alle 12:00 locali, nuvole intermittenti, con temporali più probabili in serata. Impatto basso se lo stadio è chiuso e climatizzato.",
       stadium: "Mercedes-Benz Stadium / Atlanta Stadium. Tetto retrattile, aria condizionata ed erba naturale installata per il Mondiale. Ambiente controllato.",
@@ -73,8 +73,8 @@
     "svizzera-colombia": {
       teams: ["Svizzera", "Colombia"], flags: ["svizzera", "colombia"],
       formations: [
-        ["Svizzera", "3-4-2-1", "Sommer/Kobel; Akanji, Schär, Elvedi; Widmer, Xhaka, Freuler, Rodríguez; Vargas, Shaqiri/Okafor; Embolo."],
-        ["Colombia", "4-2-3-1", "Vargas; Muñoz, Lucumí, Davinson Sánchez, Mojica; Lerma, Richard Ríos; Arias, James Rodríguez, Luis Díaz; Jhon Córdoba/Durán."]
+        ["Svizzera", "4-2-3-1", "Kobel; Zakaria, Elvedi, Akanji, Ricardo Rodríguez; Freuler, Xhaka; Ndoye, Manzambi, Vargas; Embolo."],
+        ["Colombia", "4-2-3-1", "Camilo Vargas; Daniel Muñoz, Davinson Sánchez, Jhon Lucumí, Johan Mojica; Jefferson Lerma, Gustavo Puerta; Jhon Arias, James Rodríguez, Luis Díaz; Jhon Córdoba."]
       ],
       weather: "Circa 23°C alle 13:00 locali, prevalentemente soleggiato. Impatto basso: condizioni molto buone.",
       stadium: "BC Place, Vancouver. Tetto retrattile, capienza circa 54.500 e superficie convertita per il Mondiale con erba naturale/ibrida. Clima mite.",
@@ -126,8 +126,8 @@
       deck: "È uno degli ottavi più pericolosi per una favorita. Il Brasile può produrre più volume e possesso, ma ogni palla persa apre il campo a Ødegaard, Nusa e Haaland.",
       score: "2-1 Brasile", probabilities: ["55%", "24%", "21%"], labels: ["Brasile", "Pareggio", "Norvegia"],
       sections: [
-        ["La lettura della partita", "Il Brasile parte al 55% nei novanta minuti: favorito, ma lontano da una superiorità schiacciante. Neymar tra le linee, Vinícius in isolamento e Bruno Guimarães nella prima costruzione danno alla Seleção più modi per attaccare. La Norvegia ha meno possesso, ma può creare occasioni di qualità superiore alla quantità."],
-        ["La chiave tattica", "Marquinhos e Gabriel devono decidere quanto accorciare su Haaland senza liberare lo spazio per gli inserimenti di Ødegaard e Bobb. Sul lato opposto, Ryerson avrà bisogno di aiuto costante contro Vinícius. Se Berge e Aursnes vengono attratti troppo bassi, Neymar può ricevere frontalmente; se salgono, il Brasile trova corridoi diretti verso Endrick."],
+        ["La lettura della partita", "Il Brasile parte al 55% nei novanta minuti: favorito, ma lontano da una superiorità schiacciante. Martinelli tra le linee, Vinícius in isolamento e Bruno Guimarães nella prima costruzione danno alla Seleção più modi per attaccare. La Norvegia ha meno possesso, ma può creare occasioni di qualità superiore alla quantità."],
+        ["La chiave tattica", "Marquinhos e Gabriel devono decidere quanto accorciare su Haaland senza liberare lo spazio per gli inserimenti di Ødegaard e Sørloth. Sul lato opposto, Pedersen avrà bisogno di aiuto costante contro Vinícius. Se Berge e Berg vengono attratti troppo bassi, Martinelli può ricevere frontalmente; se salgono, il Brasile trova corridoi diretti verso Matheus Cunha."],
         ["Temporali e campo", "Il rischio di temporali nell’orario della partita può spezzare il ritmo e rendere il terreno più pesante. Le interruzioni riducono la continuità del palleggio brasiliano e aumentano il peso di piazzati e duelli: è un piccolo vantaggio relativo per la Norvegia."],
         ["Verdetto", "Scelgo 2-1 Brasile, con 1-1 come rischio principale. Goal e Over 1,5 sono più robusti del segno 1 secco. Haaland 3+ tiri in porta a quota alta è interessante, ma resta una selezione volatile e non entra nella base prudente."]
       ],
@@ -140,7 +140,7 @@
       score: "1-1", probabilities: ["34%", "30%", "36%"], labels: ["Messico", "Pareggio", "Inghilterra"],
       sections: [
         ["La lettura della partita", "Nei novanta minuti la stima è quasi tripartita: 34% Messico, 30% pareggio e 36% Inghilterra. Il valore inglese è superiore, ma giocare a oltre 2.200 metri cambia recuperi, pressing e gestione delle accelerazioni. Il Messico conosce tempi e traiettorie dell’Azteca e può tenere la partita in equilibrio molto a lungo."],
-        ["La chiave tattica", "Rice e il secondo mediano devono proteggere le perdite di palla quando Saka e il laterale destro salgono insieme. Álvarez può spezzare il ritmo inglese, mentre Chávez e Romo cercano subito Lozano e Antuna. Bellingham è l’uomo che può rompere il blocco messicano ricevendo alle spalle dei centrocampisti; Kane dovrà alternare area e raccordo senza svuotare la zona centrale."],
+        ["La chiave tattica", "Rice e Anderson devono proteggere le perdite di palla quando Saka e Spence salgono insieme. Lira può spezzare il ritmo inglese, mentre Mora e Romo cercano subito Alvarado e Quiñones. Bellingham è l’uomo che può rompere il blocco messicano ricevendo alle spalle dei centrocampisti; Kane dovrà alternare area e raccordo senza svuotare la zona centrale."],
         ["Altitudine e temporali", "Il pallone viaggia più rapidamente, mentre gli sprint ripetuti costano di più. Il rischio di pioggia aumenta ulteriormente la difficoltà tecnica. Le sostituzioni e la gestione dei primi sessanta minuti avranno un peso anomalo: partire troppo forte può essere un errore."],
         ["Verdetto", "Il risultato centrale è 1-1. L’Inghilterra resta leggermente favorita per passare il turno grazie alla panchina, ma il segno 2 nei novanta minuti non è una scelta prudente. Under 3,5 è la linea più solida; Under 2,5 è coerente ma più esposto a supplementari esclusi e singoli episodi."]
       ],
@@ -214,33 +214,33 @@
     },
     "brasile-norvegia": {
       motivation: [97, 96], surprise: "Medio-alto", shots: [["Brasile", "15-20", "6-9"], ["Norvegia", "9-13", "3-5"]], corners: ["6-8", "3-5", "9-12"],
-      cards: [["Casemiro", "Alto", "Copertura preventiva su Ødegaard."], ["Ryerson", "Alto", "Duello continuo con Vinícius."], ["Ajer", "Medio-alto", "Profondità di Endrick e seconde palle."], ["Bruno Guimarães", "Medio", "Transizioni norvegesi da interrompere."], ["Berge", "Medio", "Pressione su Neymar tra le linee."]],
-      shotsPlayers: ["Vinícius 4-6", "Endrick 3-5", "Haaland 4-6", "Nusa 2-3"]
+      cards: [["Casemiro", "Alto", "Copertura preventiva su Ødegaard."], ["Pedersen", "Alto", "Duello continuo con Vinícius."], ["Ajer", "Medio-alto", "Profondità di Matheus Cunha e seconde palle."], ["Bruno Guimarães", "Medio", "Transizioni norvegesi da interrompere."], ["Berge", "Medio", "Pressione su Martinelli tra le linee."]],
+      shotsPlayers: ["Vinícius 4-6", "Matheus Cunha 3-5", "Haaland 4-6", "Nusa 2-3"]
     },
     "messico-inghilterra": {
       motivation: [98, 96], surprise: "Alto", shots: [["Messico", "9-13", "3-5"], ["Inghilterra", "11-15", "4-6"]], corners: ["4-6", "4-6", "8-11"],
-      cards: [["Edson Álvarez", "Alto", "Protezione centrale contro Bellingham."], ["Montes", "Alto", "Duello fisico con Kane."], ["Rice", "Medio-alto", "Transizioni messicane e fattore altitudine."], ["Gallardo", "Medio-alto", "Uno contro uno con Saka."], ["Konsa", "Medio", "Copertura laterale su Lozano."]],
-      shotsPlayers: ["Kane 3-5", "Saka 2-4", "Bellingham 2-3", "Giménez 2-4"]
+      cards: [["Lira", "Alto", "Protezione centrale contro Bellingham."], ["Montes", "Alto", "Duello fisico con Kane."], ["Rice", "Medio-alto", "Transizioni messicane e fattore altitudine."], ["Gallardo", "Medio-alto", "Uno contro uno con Saka."], ["Konsa", "Medio", "Copertura laterale su Quiñones."]],
+      shotsPlayers: ["Kane 3-5", "Saka 2-4", "Bellingham 2-3", "Jiménez 2-4"]
     },
     "portogallo-spagna": {
       motivation: [98, 97], surprise: "Medio-alto", shots: [["Portogallo", "10-14", "4-6"], ["Spagna", "14-18", "5-7"]], corners: ["4-6", "5-7", "9-12"],
-      cards: [["Palhinha", "Alto", "Schermo contro Pedri e Fabián Ruiz."], ["Cucurella", "Medio-alto", "Duelli in velocità con Bernardo Silva."], ["Dalot", "Medio-alto", "Uno contro uno con Nico Williams."], ["Le Normand", "Medio", "Duello fisico con Ronaldo."], ["Rodri/Zubimendi", "Medio", "Falli tattici sulle transizioni."]],
+      cards: [["João Neves", "Alto", "Schermo contro Pedri e Dani Olmo."], ["Cucurella", "Medio-alto", "Duelli in velocità con Pedro Neto."], ["João Cancelo", "Medio-alto", "Uno contro uno con Álex Baena."], ["Pau Cubarsí", "Medio", "Duello fisico con Ronaldo."], ["Rodri", "Medio", "Falli tattici sulle transizioni."]],
       shotsPlayers: ["Ronaldo 3-5", "Rafael Leão 2-4", "Lamine Yamal 3-5", "Morata 2-4"]
     },
     "stati-uniti-belgio": {
       motivation: [97, 94], surprise: "Alto", shots: [["Stati Uniti", "11-15", "4-6"], ["Belgio", "12-16", "4-6"]], corners: ["4-6", "5-7", "9-12"],
-      cards: [["Adams", "Alto", "Pressione e coperture su De Bruyne."], ["Scally", "Alto", "Duello esterno con Doku."], ["Onana", "Medio-alto", "Interruzione delle transizioni americane."], ["Ream", "Medio", "Gestione della profondità di Lukaku/Openda."], ["Theate", "Medio", "Coperture sul lato di Weah."]],
+      cards: [["Adams", "Alto", "Pressione e coperture su De Bruyne."], ["Freeman", "Alto", "Duello esterno con Doku."], ["Vanaken", "Medio-alto", "Interruzione delle transizioni americane."], ["Ream", "Medio", "Gestione della profondità di Lukaku."], ["Theate", "Medio", "Coperture sul lato di Dest."]],
       shotsPlayers: ["Pulisic 3-5", "Pepi 2-4", "Doku 2-4", "Lukaku/Openda 3-5"]
     },
     "argentina-egitto": {
       motivation: [97, 99], surprise: "Basso", shots: [["Argentina", "16-21", "6-9"], ["Egitto", "6-9", "2-4"]], corners: ["6-9", "2-3", "8-11"],
-      cards: [["Hamdi Fathi", "Alto", "Schermo centrale contro Messi."], ["Hegazy", "Alto", "Duelli con Lautaro o Julián Álvarez."], ["Elneny", "Medio-alto", "Coperture sugli inserimenti argentini."], ["De Paul", "Medio", "Controllo delle transizioni di Marmoush."], ["Mohamed Hany", "Medio", "Uno contro uno con Nico González."]],
-      shotsPlayers: ["Messi 4-6", "Lautaro/Julián 3-5", "Salah 2-4", "Marmoush 2-3"]
+      cards: [["Hamdy Fathy", "Alto", "Schermo centrale contro Messi."], ["Yasser Ibrahim", "Alto", "Duelli con Lautaro Martínez."], ["Lasheen", "Medio-alto", "Coperture sugli inserimenti argentini."], ["De Paul", "Medio", "Controllo delle transizioni di Marmoush."], ["Mohamed Hany", "Medio", "Uno contro uno con Almada."]],
+      shotsPlayers: ["Messi 4-6", "Lautaro Martínez 3-5", "Salah 2-4", "Marmoush 2-3"]
     },
     "svizzera-colombia": {
       motivation: [95, 96], surprise: "Alto", shots: [["Svizzera", "9-12", "3-5"], ["Colombia", "11-15", "4-6"]], corners: ["4-5", "4-6", "8-11"],
-      cards: [["Freuler", "Alto", "Coperture su James Rodríguez."], ["Widmer", "Alto", "Uno contro uno con Luis Díaz."], ["Lerma", "Medio-alto", "Duelli centrali con Xhaka."], ["Muñoz", "Medio", "Pressione alta e recuperi su Vargas."], ["Schär", "Medio", "Gestione della profondità di Córdoba/Durán."]],
-      shotsPlayers: ["Embolo 2-4", "Vargas 2-3", "Luis Díaz 3-5", "Jhon Córdoba/Durán 2-4"]
+      cards: [["Freuler", "Alto", "Coperture su James Rodríguez."], ["Zakaria", "Alto", "Uno contro uno con Luis Díaz."], ["Lerma", "Medio-alto", "Duelli centrali con Xhaka."], ["Muñoz", "Medio", "Pressione alta e recuperi su Vargas."], ["Elvedi", "Medio", "Gestione della profondità di Jhon Córdoba."]],
+      shotsPlayers: ["Embolo 2-4", "Vargas 2-3", "Luis Díaz 3-5", "Jhon Córdoba 2-4"]
     }
   };
 

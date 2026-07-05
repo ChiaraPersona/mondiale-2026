@@ -93,124 +93,19 @@
     },
     {
       "name": "Balanced",
-      "finalOdds": 10.01,
+      "finalOdds": 9.99,
       "events": [
         {
-          "id": "event-05",
-          "market": "UNDER/OVER — U/O 4.5",
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 3.5",
           "selection": "UNDER",
-          "odds": 1.11,
-          "selectionId": 5203773672,
-          "marketId": 790631500,
+          "odds": 1.36,
+          "selectionId": 5203773668,
+          "marketId": 790631499,
           "category": "goal-total",
-          "rankingScore": 86,
+          "rankingScore": 88,
           "class": "CORE",
-          "riskScore": 19,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-07",
-          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
-          "selection": "2",
-          "odds": 1.9,
-          "selectionId": 5203771420,
-          "marketId": 790631006,
-          "category": "esito",
-          "rankingScore": 82,
-          "class": "VALUE",
-          "riskScore": 23,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-09",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — FERNANDES B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.57,
-          "selectionId": 5204514136,
-          "marketId": 790771287,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-10",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — LEAO R. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.5,
-          "selectionId": 5204514004,
-          "marketId": 790771254,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-11",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BERNARDO SILVA U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.4,
-          "selectionId": 5204508592,
-          "marketId": 790769901,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-12",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — FABIAN RUIZ U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.44,
-          "selectionId": 5204514112,
-          "marketId": 790771281,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        }
-      ],
-      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
-      "scenario": {
-        "id": "spagna_favorita_in_una_gara_aperta",
-        "name": "Spagna favorita in una gara aperta",
-        "estimatedProbability": "media"
-      },
-      "strengths": [
-        "Coerenza tattica interna.",
-        "Mercati principali e verificabili."
-      ],
-      "weaknesses": [
-        "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
-      ],
-      "riskVerdict": "medium"
-    },
-    {
-      "name": "Aggressive",
-      "finalOdds": 19.93,
-      "events": [
-        {
-          "id": "event-03",
-          "market": "UNDER/OVER — U/O 1.5",
-          "selection": "OVER",
-          "odds": 1.25,
-          "selectionId": 5203773649,
-          "marketId": 790631494,
-          "category": "goal-total",
-          "rankingScore": 90,
-          "class": "CORE",
-          "riskScore": 15,
+          "riskScore": 17,
           "riskLevel": "low",
           "riskReasons": []
         },
@@ -243,6 +138,125 @@
           "riskReasons": []
         },
         {
+          "id": "event-08",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — LAMINE YAMAL U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.25,
+          "selectionId": 5204512816,
+          "marketId": 790770957,
+          "category": "tiri",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-10",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — LEAO R. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.5,
+          "selectionId": 5204514004,
+          "marketId": 790771254,
+          "category": "tiri",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — OLMO D. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.25,
+          "selectionId": 5204514064,
+          "marketId": 790771269,
+          "category": "tiri",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "spagna_favorita_in_una_gara_aperta",
+        "name": "Spagna favorita in una gara aperta",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "medium"
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 15.69,
+      "events": [
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.36,
+          "selectionId": 5203773668,
+          "marketId": 790631499,
+          "category": "goal-total",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 17,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-06",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.65,
+          "selectionId": 5203771532,
+          "marketId": 790631025,
+          "category": "btts",
+          "rankingScore": 84,
+          "class": "VALUE",
+          "riskScore": 21,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-07",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "2",
+          "odds": 1.9,
+          "selectionId": 5203771420,
+          "marketId": 790631006,
+          "category": "esito",
+          "rankingScore": 82,
+          "class": "VALUE",
+          "riskScore": 23,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-08",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — LAMINE YAMAL U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.25,
+          "selectionId": 5204512816,
+          "marketId": 790770957,
+          "category": "tiri",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
           "id": "event-09",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — FERNANDES B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
@@ -271,26 +285,12 @@
           "riskReasons": []
         },
         {
-          "id": "event-12",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — FABIAN RUIZ U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — OLMO D. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.44,
-          "selectionId": 5204514112,
-          "marketId": 790771281,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-13",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — FERRAN TORRES U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.5,
-          "selectionId": 5204512944,
-          "marketId": 790770989,
+          "odds": 1.25,
+          "selectionId": 5204514064,
+          "marketId": 790771269,
           "category": "tiri",
           "rankingScore": 78,
           "class": "VALUE",
@@ -318,7 +318,7 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-04T12:10:01.589Z",
+    "generatedAt": "2026-07-05T10:49:01.402Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"

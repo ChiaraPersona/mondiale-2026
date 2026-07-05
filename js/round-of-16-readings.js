@@ -79,6 +79,16 @@
       weather: "Circa 23°C alle 13:00 locali, prevalentemente soleggiato. Impatto basso: condizioni molto buone.",
       stadium: "BC Place, Vancouver. Tetto retrattile, capienza circa 54.500 e superficie convertita per il Mondiale con erba naturale/ibrida. Clima mite.",
       referee: null
+    },
+    "francia-marocco": {
+      teams: ["Francia", "Marocco"], flags: ["francia", "marocco"], roundLabel: "Quarti di finale", achievement: "entrare tra le migliori quattro",
+      formations: [
+        ["Francia", "4-2-3-1", "Maignan; Koundé, Saliba, Upamecano, Digne; Manu Koné, Rabiot; Dembélé, Olise, Barcola; Mbappé."],
+        ["Marocco", "4-2-3-1", "Bono; Hakimi, Issa Diop, Redouane Halhal, Mazraoui; Bouaddi, El Aynaoui; Brahim Díaz, Ounahi, El Khannouss; Saibari."]
+      ],
+      weather: "Previsione iniziale per Foxborough: giornata calda, circa 30°C di massima e 20-21°C in serata. Impatto medio, da aggiornare vicino al calcio d’inizio per umidità e rischio temporali.",
+      stadium: "Gillette Stadium / Boston Stadium, Foxborough. Impianto aperto con superficie in erba naturale predisposta per il Mondiale: caldo e umidità possono incidere sul ritmo.",
+      referee: null
     }
   };
 
@@ -198,6 +208,20 @@
       ],
       volume: ["Svizzera 9-12 tiri", "Colombia 11-15 tiri", "Tiri in porta 3-5 / 4-6", "Corner totali 8-11"],
       picks: ["Under 3,5", "Under 2,5", "Colombia qualificata", "Colombia vincente: rischio medio"]
+    },
+    "francia-marocco": {
+      headline: "La Francia ha più profondità e soluzioni, ma il Marocco arriva al quarto con struttura, fiducia e qualità tra le linee.",
+      deck: "Il mercato favorisce nettamente i francesi, senza cancellare il rischio di una gara bloccata. Il Marocco può comprimere gli spazi e colpire con Hakimi, Ounahi e Saibari; la Francia resta avanti per volume, panchina e capacità di decidere gli episodi.",
+      score: "1-0 Francia", probabilities: ["58%", "25%", "17%"], labels: ["Francia", "Pareggio", "Marocco"],
+      history: "I precedenti registrati sono sei, non dieci: quattro vittorie Francia, due pareggi e nessuna vittoria del Marocco, con 14-7 nel totale dei gol. La Francia ha sempre segnato almeno una rete; il riferimento competitivo più recente è il 2-0 nella semifinale mondiale del 2022. È un segnale favorevole alla Francia, ma riceve un peso limitato perché quattro gare sono amichevoli o tornei storici e le rose attuali sono diverse.",
+      sections: [
+        ["La lettura della partita", "La Francia parte al 58% nei novanta minuti: favorita chiara, non dominante. La quota del segno 1 riflette il vantaggio tecnico, la profondità offensiva e una difesa capace di proteggere Maignan. Il Marocco conserva però un 42% complessivo tra pareggio e vittoria: abbastanza per preferire mercati larghi e qualificazione al semplice 1 secco nelle combinazioni prudenti."],
+        ["La chiave tattica", "Hakimi e Mazraoui devono scegliere con precisione quando accompagnare, perché Dembélé e Barcola possono attaccare lo spazio lasciato alle loro spalle. Bouaddi ed El Aynaoui cercano di togliere ricezioni a Olise e Mbappé; sul fronte opposto, Ounahi ed El Khannouss devono attirare fuori Koné e Rabiot per liberare Saibari. La Francia ha più cambi per aumentare ritmo nell’ultima mezz’ora."],
+        ["Ritmo e contesto", "Il quarto può partire prudente: eliminazione diretta, due difese fisiche e grande valore del primo gol. Il caldo previsto a Foxborough può ridurre la continuità del pressing e rafforzare Under 3,5; eventuale umidità o temporali andranno rivalutati vicino alla partita."],
+        ["Verdetto", "Scelgo 1-0 Francia, con 2-0 e 1-1 come alternative principali. Under 3,5 è la base più robusta; Francia qualificata ha un prezzo basso ma coerente. Over 1,5 è utilizzabile nelle MyCombo più ricche, mentre No Goal e Mbappé marcatore restano giocate secondarie per la loro maggiore varianza."]
+      ],
+      volume: ["Francia 14-18 tiri", "Marocco 8-12 tiri", "Tiri in porta 5-7 / 3-4", "Corner totali 8-11"],
+      picks: ["Under 3,5", "Francia qualificata", "Francia 1X", "Francia vincente: rischio medio"]
     }
   };
 
@@ -241,6 +265,11 @@
       motivation: [95, 96], surprise: "Alto", shots: [["Svizzera", "9-12", "3-5"], ["Colombia", "11-15", "4-6"]], corners: ["4-5", "4-6", "8-11"],
       cards: [["Freuler", "Alto", "Coperture su James Rodríguez."], ["Zakaria", "Alto", "Uno contro uno con Luis Díaz."], ["Lerma", "Medio-alto", "Duelli centrali con Xhaka."], ["Muñoz", "Medio", "Pressione alta e recuperi su Vargas."], ["Elvedi", "Medio", "Gestione della profondità di Jhon Córdoba."]],
       shotsPlayers: ["Embolo 2-4", "Vargas 2-3", "Luis Díaz 3-5", "Jhon Córdoba 2-4"]
+    },
+    "francia-marocco": {
+      motivation: [97, 99], surprise: "Medio", shots: [["Francia", "14-18", "5-7"], ["Marocco", "8-12", "3-4"]], corners: ["5-7", "3-5", "8-11"],
+      cards: [["Bouaddi", "Alto", "Coperture centrali su Olise e Mbappé."], ["Issa Diop", "Medio-alto", "Duelli in campo aperto con Mbappé."], ["Manu Koné", "Medio-alto", "Falli tattici sulle transizioni di Ounahi."], ["Mazraoui", "Medio", "Uno contro uno con Dembélé."], ["Rabiot", "Medio", "Pressione e seconde palle contro El Aynaoui."]],
+      shotsPlayers: ["Mbappé 4-6", "Dembélé 2-4", "Saibari 2-4", "Ounahi 1-3"]
     }
   };
 
@@ -275,7 +304,7 @@
     : `<span class="round16-badge is-pending">Da ufficializzare</span><p>L’arbitro non è ancora ufficiale nelle fonti consultate.</p>`;
   root.innerHTML = `
     <header class="reading-hero">
-      <div class="reading-kicker">Ottavi di finale · ${reading.result ? "Partita conclusa" : "Scheda prepartita"}</div>
+      <div class="reading-kicker">${data.roundLabel || "Ottavi di finale"} · ${reading.result ? "Partita conclusa" : "Scheda prepartita"}</div>
       <div class="reading-match">
         <div class="reading-team"><img src="flags/${data.flags[0]}.svg" alt=""><strong>${data.teams[0]}</strong></div>
         <div class="reading-versus"><b>${data.teams[0]} - ${data.teams[1]}</b><small>Mondiale 2026 · Eliminazione diretta</small></div>
@@ -304,12 +333,12 @@
     <div class="reading-layout">
       <div class="reading-copy">
         <section><p class="reading-lead">${reading.sections[0][1]}</p><p>Le probabilità stimate nei novanta minuti sono ${reading.probabilities[0]} ${reading.labels[0]}, ${reading.probabilities[1]} pareggio e ${reading.probabilities[2]} ${reading.labels[2]}. Le quote vengono confrontate con questa distribuzione soltanto dopo la costruzione dello scenario.</p></section>
-        <section><h3>Forma e precedenti pesati</h3><p>Non viene attribuito peso decisivo ai precedenti lontani nel tempo: rose, cicli tecnici e contesto mondiale rendono più affidabili forma recente, qualità degli undici e compatibilità tattica. La stima conserva margine per il pareggio proprio perché una gara secca riduce il vantaggio teorico della favorita.</p></section>
+        <section><h3>Forma e precedenti pesati</h3><p>${reading.history || "Non viene attribuito peso decisivo ai precedenti lontani nel tempo: rose, cicli tecnici e contesto mondiale rendono più affidabili forma recente, qualità degli undici e compatibilità tattica. La stima conserva margine per il pareggio proprio perché una gara secca riduce il vantaggio teorico della favorita."}</p></section>
         <section class="match-formations"><h3>${data.officialFormations ? "Formazioni ufficiali" : "Probabili formazioni"}</h3><div class="match-formation-grid">${formationCards}</div><p class="formation-disclaimer">${data.officialFormations ? "Undici ufficiali comunicati prima del calcio d’inizio." : "Formazioni da confermare nelle comunicazioni ufficiali."}</p></section>
         <section><h3>La partita di ${data.teams[0]}</h3><p>${reading.sections[1][1]}</p></section>
         <blockquote><strong>La chiave</strong>${reading.sections[2][1]}</blockquote>
         <section><h3>La partita di ${data.teams[1]}</h3><p>${reading.deck} La squadra senza palla deve proteggere il centro, scegliere con precisione quando alzare la pressione e non concedere transizioni dopo un possesso forzato.</p></section>
-        <section><h3>Stato motivazionale playoff</h3><p><strong>${data.teams[0]} ${detail.motivation[0]}/100.</strong> Motivazione da eliminazione diretta, aumentata dal contesto e dalla possibilità di entrare tra le migliori otto.</p><p><strong>${data.teams[1]} ${detail.motivation[1]}/100.</strong> Pressione competitiva molto alta e margine minimo per gli errori.</p><p>Rischio sorpresa: <strong>${detail.surprise}</strong>. La differenza motivazionale non sostituisce il divario tecnico, ma incide su intensità, duelli e gestione dei momenti decisivi.</p></section>
+        <section><h3>Stato motivazionale playoff</h3><p><strong>${data.teams[0]} ${detail.motivation[0]}/100.</strong> Motivazione da eliminazione diretta, aumentata dal contesto e dalla possibilità di ${data.achievement || "entrare tra le migliori otto"}.</p><p><strong>${data.teams[1]} ${detail.motivation[1]}/100.</strong> Pressione competitiva molto alta e margine minimo per gli errori.</p><p>Rischio sorpresa: <strong>${detail.surprise}</strong>. La differenza motivazionale non sostituisce il divario tecnico, ma incide su intensità, duelli e gestione dei momenti decisivi.</p></section>
         <section><h3>Tiri e corner previsti</h3><p>${detail.shots[0][0]}: ${detail.shots[0][1]} tiri, ${detail.shots[0][2]} nello specchio. ${detail.shots[1][0]}: ${detail.shots[1][1]} tiri, ${detail.shots[1][2]} in porta.</p><p>Proiezioni individuali: ${detail.shotsPlayers.join("; ")}. Corner previsti: ${data.teams[0]} ${detail.corners[0]}, ${data.teams[1]} ${detail.corners[1]}, totale ${detail.corners[2]}.</p></section>
         <section><h3>Possibili ammoniti</h3><p>La gerarchia combina ruolo, zona di campo, avversario diretto e profilo arbitrale. ${detail.cards.slice(0, 3).map(item => `<strong>${item[0]}</strong>: ${item[2]}`).join(" ")} Le selezioni individuali restano più volatili dei mercati squadra.</p></section>
         <blockquote><strong>La scelta</strong>${reading.picks.slice(0, 3).join(" · ")}</blockquote>

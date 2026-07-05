@@ -13,7 +13,8 @@ const models = {
   "portogallo-spagna": { p: [25, 29, 46], score: "1-2", scenario: "Spagna favorita in una gara aperta", picks: [["PASSAGGIO TURNO","2"],["U/O 1.5","OVER"],["GOAL/NO GOAL","GOAL"],["U/O 3.5","UNDER"],["ESITO FINALE 1X2","2"]], anomaly: ["LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO", .36] },
   "stati-uniti-belgio": { p: [35, 29, 36], score: "1-1", scenario: "Equilibrio e occasioni da entrambe le parti", picks: [["U/O 1.5","OVER"],["U/O 3.5","UNDER"],["GOAL/NO GOAL","GOAL"],["U/O 2.5","OVER"],["PASSAGGIO TURNO","2"]], anomaly: ["PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA", .32] },
   "argentina-egitto": { p: [71, 19, 10], score: "2-0", scenario: "Controllo Argentina", picks: [["PASSAGGIO TURNO","1"],["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["ESITO FINALE 1X2","1"],["GOAL/NO GOAL","NOGOAL"]], anomaly: ["MARTINEZ LAUTARO MARCATORE 1T", .28] },
-  "svizzera-colombia": { p: [29, 31, 40], score: "0-1", scenario: "Colombia di misura, partita stretta", picks: [["U/O 3.5","UNDER"],["U/O 2.5","UNDER"],["PASSAGGIO TURNO","2"],["GOAL/NO GOAL","NOGOAL"],["ESITO FINALE 1X2","2"]], anomaly: null }
+  "svizzera-colombia": { p: [29, 31, 40], score: "0-1", scenario: "Colombia di misura, partita stretta", picks: [["U/O 3.5","UNDER"],["U/O 2.5","UNDER"],["PASSAGGIO TURNO","2"],["GOAL/NO GOAL","NOGOAL"],["ESITO FINALE 1X2","2"]], anomaly: null },
+  "francia-marocco": { p: [58, 25, 17], score: "1-0", scenario: "Francia favorita, quarto a ritmo controllato", picks: [["PASSAGGIO TURNO","1"],["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["ESITO FINALE 1X2","1"],["GOAL/NO GOAL","NOGOAL"]], anomaly: null }
 };
 
 const diverseMarketNeedles = {
@@ -25,6 +26,7 @@ const diverseMarketNeedles = {
   "stati-uniti-belgio": ["U/O 3.5 CORNER SQUADRA 1", "PULISIC C. U/O 1.5 SOMMA TIRI TOTALI", "DOKU J. U/O 1.5 SOMMA TIRI TOTALI", "DE BRUYNE K. U/O 1.5 SOMMA TIRI TOTALI", "TILLMAN M. U/O 1.5 SOMMA TIRI TOTALI", "ADAMS T. U/O 0.5 SOMMA TIRI TOTALI"],
   "argentina-egitto": ["SEGNA GOAL 1", "MESSI L. SEGNA O SUO SOSTITUTO", "MULTIGOAL MULTIESITI 16 ESITI", "METODO DEL GOAL 1", "U/O 0.5 PALI/TRAVERSE", "ARBITRO CONSULTA MONITOR VAR", "PARI/DISPARI"],
   "svizzera-colombia": ["SEGNA GOAL SQUADRA OSPITE", "U/O 0.5 SQUADRA 1", "MULTIGOAL MULTIESITI 16 ESITI", "METODO DEL GOAL 1", "U/O 0.5 PALI/TRAVERSE", "ARBITRO CONSULTA MONITOR VAR", "PARI/DISPARI"],
+  "francia-marocco": ["MBAPPE K. SEGNA O SUO SOSTITUTO", "MULTIGOAL MULTIESITI 16 ESITI", "1 TEMPO: SEGNA GOAL 1"],
 };
 
 function round(n) { return Math.round(n * 100) / 100; }

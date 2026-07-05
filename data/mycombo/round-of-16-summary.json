@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T10:49:01.615Z",
+  "generatedAt": "2026-07-05T12:07:22.939Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -316,6 +316,31 @@
         {
           "name": "Aggressive",
           "odds": 19.99
+        }
+      ],
+      "anomalies": []
+    },
+    {
+      "slug": "francia-marocco",
+      "match": "Francia - Marocco",
+      "prediction": "1-0",
+      "probabilities": [
+        58,
+        25,
+        17
+      ],
+      "portfolios": [
+        {
+          "name": "Safe",
+          "odds": 5.03
+        },
+        {
+          "name": "Balanced",
+          "odds": 9.99
+        },
+        {
+          "name": "Aggressive",
+          "odds": 18.49
         }
       ],
       "anomalies": []

@@ -1,0 +1,306 @@
+{
+  "slug": "francia-marocco",
+  "match": "Francia - Marocco",
+  "date": "09/07/2026 ore 22.00",
+  "status": "scheduled",
+  "prediction": {
+    "probabilities90Minutes": {
+      "home": 58,
+      "draw": 25,
+      "away": 17
+    },
+    "centralScore": "1-0",
+    "scenario": "Francia favorita, quarto a ritmo controllato",
+    "quoteInfluence": "secondaria"
+  },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 5.03,
+      "events": [
+        {
+          "id": "event-02",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X",
+          "odds": 1.1,
+          "selectionId": 5206488596,
+          "marketId": 791152585,
+          "category": "esito",
+          "rankingScore": 92,
+          "class": "CORE",
+          "riskScore": 13,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.3,
+          "selectionId": 5206488580,
+          "marketId": 791152581,
+          "category": "goal-total",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 17,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-07",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL",
+          "odds": 1.85,
+          "selectionId": 5206486445,
+          "marketId": 791152107,
+          "category": "btts",
+          "rankingScore": 82,
+          "class": "VALUE",
+          "riskScore": 23,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-10",
+          "market": "SEGNA GOAL TEMPO X — 1 TEMPO: SEGNA GOAL 1",
+          "selection": "1",
+          "odds": 1.9,
+          "selectionId": 5206451728,
+          "marketId": 791137056,
+          "category": "gol-squadra",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "francia_favorita_quarto_a_ritmo_controllato",
+        "name": "Francia favorita, quarto a ritmo controllato",
+        "estimatedProbability": "medio-alta"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "low"
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 9.99,
+      "events": [
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.3,
+          "selectionId": 5206488580,
+          "marketId": 791152581,
+          "category": "goal-total",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 17,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-06",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1",
+          "odds": 1.55,
+          "selectionId": 5206486330,
+          "marketId": 791152088,
+          "category": "esito",
+          "rankingScore": 84,
+          "class": "VALUE",
+          "riskScore": 21,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-08",
+          "market": "MARCATORE SI/NO (DUO) INC TS — MBAPPE K. SEGNA O SUO SOSTITUTO INCL. T.S.",
+          "selection": "SI",
+          "odds": 1.8,
+          "selectionId": 5206702581,
+          "marketId": 791182565,
+          "category": "giocatore",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-09",
+          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+          "selection": "1-3",
+          "odds": 1.45,
+          "selectionId": 5206451784,
+          "marketId": 791137061,
+          "category": "multigol",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-10",
+          "market": "SEGNA GOAL TEMPO X — 1 TEMPO: SEGNA GOAL 1",
+          "selection": "1",
+          "odds": 1.9,
+          "selectionId": 5206451728,
+          "marketId": 791137056,
+          "category": "gol-squadra",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "francia_favorita_quarto_a_ritmo_controllato",
+        "name": "Francia favorita, quarto a ritmo controllato",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "medium"
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 18.49,
+      "events": [
+        {
+          "id": "event-04",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.3,
+          "selectionId": 5206488580,
+          "marketId": 791152581,
+          "category": "goal-total",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 17,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-06",
+          "market": "1X2 ESITO FINALE — ESITO FINALE 1X2",
+          "selection": "1",
+          "odds": 1.55,
+          "selectionId": 5206486330,
+          "marketId": 791152088,
+          "category": "esito",
+          "rankingScore": 84,
+          "class": "VALUE",
+          "riskScore": 21,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-07",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "NOGOAL",
+          "odds": 1.85,
+          "selectionId": 5206486445,
+          "marketId": 791152107,
+          "category": "btts",
+          "rankingScore": 82,
+          "class": "VALUE",
+          "riskScore": 23,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-08",
+          "market": "MARCATORE SI/NO (DUO) INC TS — MBAPPE K. SEGNA O SUO SOSTITUTO INCL. T.S.",
+          "selection": "SI",
+          "odds": 1.8,
+          "selectionId": 5206702581,
+          "marketId": 791182565,
+          "category": "giocatore",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-09",
+          "market": "MULTIGOAL — MULTIGOAL MULTIESITI 16 ESITI",
+          "selection": "1-3",
+          "odds": 1.45,
+          "selectionId": 5206451784,
+          "marketId": 791137061,
+          "category": "multigol",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-10",
+          "market": "SEGNA GOAL TEMPO X — 1 TEMPO: SEGNA GOAL 1",
+          "selection": "1",
+          "odds": 1.9,
+          "selectionId": 5206451728,
+          "marketId": 791137056,
+          "category": "gol-squadra",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "francia_favorita_quarto_a_ritmo_controllato",
+        "name": "Francia favorita, quarto a ritmo controllato",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "high"
+    }
+  ],
+  "quoteErrorAnalysis": {
+    "title": "Errore di Quota",
+    "generatedAt": "2026-07-05T12:07:22.939Z",
+    "criteria": {
+      "minimumOddsExclusive": 3,
+      "method": "probabilità indipendente contro probabilità implicita"
+    },
+    "analysis": {
+      "totalMarkets": 874,
+      "manuallyModelledCandidates": 0,
+      "publishedEvents": 0
+    },
+    "events": [],
+    "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."
+  }
+}

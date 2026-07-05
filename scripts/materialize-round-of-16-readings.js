@@ -13,6 +13,7 @@ const slugs = [
   "stati-uniti-belgio",
   "argentina-egitto",
   "svizzera-colombia",
+  "francia-marocco",
 ];
 
 function market(markets, info, selection) {

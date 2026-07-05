@@ -1,4 +1,4 @@
-const tournamentScorers = [
+const tournamentScorersAll = [
   { player: "Kylian Mbappe", team: "Francia", goals: 6, penalties: 0 },
   { player: "Lionel Messi", team: "Argentina", goals: 7, penalties: 0 },
   { player: "Harry Kane", team: "Inghilterra", goals: 5, penalties: 1 },
@@ -45,6 +45,15 @@ const tournamentScorers = [
   { player: "Anthony Elanga", team: "Svezia", goals: 2, penalties: 0 },
   { player: "Yasin Ayari", team: "Svezia", goals: 2, penalties: 0 },
 ];
+
+const tournamentScorerActiveTeams = new Set([
+  "Argentina", "Belgio", "Brasile", "Colombia", "Egitto", "Francia", "Inghilterra",
+  "Marocco", "Messico", "Norvegia", "Portogallo", "Spagna", "Stati Uniti", "Svizzera",
+]);
+
+const tournamentScorers = tournamentScorersAll.filter((entry) =>
+  tournamentScorerActiveTeams.has(entry.team)
+);
 
 const tournamentScorersMeta = {
   updated: "2026-07-05",

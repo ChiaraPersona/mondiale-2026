@@ -1390,7 +1390,7 @@ function codexRecentTeamProfile(matches) {
       errorsToGoalFor: 0,
       clearancesFor: 18,
       interceptionsFor: 8,
-    };
+      };
   }
   const pointsGetter = (match) => {
     const score = String(match.score || "").match(/(\d+)\s*-\s*(\d+)/);
@@ -2537,10 +2537,11 @@ function codexApplyOfficialScorerTable(totals) {
         player: entry.player,
         team: entry.team,
         role: "Dato reale Rai",
-      };
+    };
     const total = codexEnsureScorerTotal(totals, player);
+    const projectedGoals = Math.max(0, total.goals - total.realGoals);
     total.player = entry.player;
-    total.goals = Math.max(total.goals, entry.goals);
+    total.goals = entry.goals + projectedGoals;
     total.realGoals = entry.goals;
     total.tournamentPenalties = entry.penalties;
   });
@@ -2676,6 +2677,7 @@ function codexProjectedScorers() {
       if (scorer) result.scorers[result.teamB].push(scorer.player);
     }
   });
+  codexApplyOfficialScorerTable(totals);
   return Object.values(totals)
     .map((row) => ({ ...row, matches: teamMatches[row.team] || 0 }))
     .map((row) => ({ ...row, projectedGoals: Math.max(0, row.goals - row.realGoals) }))

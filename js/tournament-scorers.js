@@ -1,5 +1,5 @@
 const tournamentScorersAll = [
-  { player: "Kylian Mbappe", team: "Francia", goals: 6, penalties: 0 },
+  { player: "Kylian Mbappe", team: "Francia", goals: 7, penalties: 1 },
   { player: "Lionel Messi", team: "Argentina", goals: 7, penalties: 0 },
   { player: "Harry Kane", team: "Inghilterra", goals: 5, penalties: 1 },
   { player: "Erling Haaland", team: "Norvegia", goals: 5, penalties: 0 },
@@ -24,6 +24,7 @@ const tournamentScorersAll = [
   { player: "Youri Tielemans", team: "Belgio", goals: 2, penalties: 1 },
   { player: "Romelu Lukaku", team: "Belgio", goals: 2, penalties: 0 },
   { player: "Emam Ashour", team: "Egitto", goals: 2, penalties: 0 },
+  { player: "Azzedine Ounahi", team: "Marocco", goals: 2, penalties: 0 },
   { player: "Ruben Vargas", team: "Svizzera", goals: 2, penalties: 0 },
   { player: "Amad Diallo", team: "Costa d'Avorio", goals: 2, penalties: 0 },
   { player: "Ermin Mahmic", team: "Bosnia ed Erzegovina", goals: 2, penalties: 0 },
@@ -40,6 +41,7 @@ const tournamentScorersAll = [
   { player: "Crysencio Summerville", team: "Olanda", goals: 2, penalties: 0 },
   { player: "Ayase Ueda", team: "Giappone", goals: 2, penalties: 0 },
   { player: "Riyad Mahrez", team: "Algeria", goals: 2, penalties: 0 },
+  { player: "Soufiane Rahimi", team: "Marocco", goals: 2, penalties: 0 },
   { player: "Raul Jimenez", team: "Messico", goals: 2, penalties: 0 },
   { player: "Cyle Larin", team: "Canada", goals: 2, penalties: 0 },
   { player: "Anthony Elanga", team: "Svezia", goals: 2, penalties: 0 },

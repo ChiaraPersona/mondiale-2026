@@ -2679,6 +2679,7 @@ function codexProjectedScorers() {
   return Object.values(totals)
     .map((row) => ({ ...row, matches: teamMatches[row.team] || 0 }))
     .map((row) => ({ ...row, projectedGoals: Math.max(0, row.goals - row.realGoals) }))
+    .filter((row) => codexActiveTournamentTeams.has(row.team))
     .filter((row) => row.realGoals > 0 || (row.starter && row.expectedMinutes >= 55))
     .sort((a, b) =>
       b.goals - a.goals ||

@@ -1,4 +1,24 @@
 const codexRoleOrder = ["Portieri", "Difensori", "Centrocampisti", "Attaccanti"];
+const codexActiveTournamentTeams = new Set([
+  "Argentina", "Belgio", "Brasile", "Colombia", "Egitto", "Francia", "Inghilterra",
+  "Marocco", "Messico", "Norvegia", "Portogallo", "Spagna", "Stati Uniti", "Svizzera",
+]);
+const codexTitleProbabilities = {
+  "Spagna": 18,
+  "Francia": 17,
+  "Inghilterra": 13,
+  "Argentina": 12,
+  "Portogallo": 9,
+  "Brasile": 8,
+  "Belgio": 5,
+  "Marocco": 5,
+  "Norvegia": 4,
+  "Stati Uniti": 3,
+  "Colombia": 2.5,
+  "Messico": 1.5,
+  "Svizzera": 1.5,
+  "Egitto": 0.5,
+};
 const codexRoundOf32Seeds = [
   ["1E", "3 ABCDF"], ["1I", "3 CDFGH"], ["2A", "2B"], ["1F", "2C"],
   ["2K", "2L"], ["1H", "2J"], ["1D", "3 BEFIJ"], ["1G", "3 AEHIJ"],
@@ -3312,8 +3332,11 @@ function codexRenderRanking() {
   const root = document.getElementById("codex-team-ranking");
   if (!root) return;
   const rows = Object.values(codexState.strengths)
-    .sort((a, b) => b.total - a.total)
-    .slice(0, 16);
+    .filter((row) => codexActiveTournamentTeams.has(row.team))
+    .sort((a, b) =>
+      b.total - a.total ||
+      (codexTitleProbabilities[b.team] || 0) - (codexTitleProbabilities[a.team] || 0)
+    );
   root.innerHTML = rows.map((row, index) => `
     <article class="codex-ranking-row">
       <span class="codex-ranking-position">${index + 1}</span>
@@ -3321,7 +3344,7 @@ function codexRenderRanking() {
         <strong>${codexFlag(row.team)}<span>${codexEscape(row.team)}</span></strong>
         <div class="codex-ranking-badges">${codexExternalBadges(row.team, 3)}${codexMotivationBadge(row.team)}</div>
       </div>
-      <small class="codex-ranking-score"><b>Codex+ ${codexPlusScore(row.team).toFixed(1)}</b><em>Codex ${row.total.toFixed(1)}</em></small>
+      <small class="codex-ranking-score"><b>Codex+ ${codexPlusScore(row.team).toFixed(1)}</b><em>Codex ${row.total.toFixed(1)} · Titolo ${(codexTitleProbabilities[row.team] || 0).toFixed(1)}%</em></small>
     </article>`).join("");
 }
 

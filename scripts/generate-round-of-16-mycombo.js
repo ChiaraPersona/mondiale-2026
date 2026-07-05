@@ -153,6 +153,25 @@ for (const [slug, model] of Object.entries(models)) {
       });
     }
   }
+  if (slug === "brasile-norvegia") {
+    const rayan = quote.markets.find(m =>
+      m.info.includes("RAYAN U/O 1.5 SOMMA TIRI IN PORTA") &&
+      m.esito === "OVER" &&
+      Number(m.quota) === 3.75
+    );
+    if (rayan) {
+      const estimatedProbability = 0.32;
+      const implied = 1 / Number(rayan.quota);
+      anomalyEvents.push({
+        event: rayan.info, market: rayan.mercato, selection: rayan.esito, odds: Number(rayan.quota),
+        impliedProbability: round(implied * 100), estimatedProbability: round(estimatedProbability * 100),
+        edge: round((estimatedProbability - implied) * 100), classification: "Quota interessante",
+        level: "value",
+        reason: "La titolarità ufficiale da esterno offensivo aumenta minuti e volume atteso; il mercato resta volatile.",
+        modelConfidence: 64, risk: "medium", selectionId: String(rayan.selectionId), marketId: String(rayan.marketId)
+      });
+    }
+  }
   const payload = {
     slug, match: quote.match, date: quote.date, status: "scheduled",
     prediction: { probabilities90Minutes: { home: model.p[0], draw: model.p[1], away: model.p[2] }, centralScore: model.score, scenario: model.scenario, quoteInfluence: "secondaria" },

@@ -87,7 +87,7 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
+        "Quote giocatore soggette alle regole sul sostituto."
       ],
       "riskVerdict": "low"
     },
@@ -192,7 +192,7 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
+        "Quote giocatore soggette alle regole sul sostituto."
       ],
       "riskVerdict": "medium"
     },
@@ -297,7 +297,7 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
+        "Quote giocatore soggette alle regole sul sostituto."
       ],
       "riskVerdict": "high"
     }
@@ -311,8 +311,8 @@
     },
     "analysis": {
       "totalMarkets": 7199,
-      "manuallyModelledCandidates": 1,
-      "publishedEvents": 1
+      "manuallyModelledCandidates": 2,
+      "publishedEvents": 2
     },
     "events": [
       {
@@ -330,6 +330,22 @@
         "risk": "medium",
         "selectionId": "5203086425",
         "marketId": "790498861"
+      },
+      {
+        "event": "RAYAN U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "selection": "OVER",
+        "odds": 3.75,
+        "impliedProbability": 26.67,
+        "estimatedProbability": 32,
+        "edge": 5.33,
+        "classification": "Quota interessante",
+        "level": "value",
+        "reason": "La titolarità ufficiale da esterno offensivo aumenta minuti e volume atteso; il mercato resta volatile.",
+        "modelConfidence": 64,
+        "risk": "medium",
+        "selectionId": "5203094571",
+        "marketId": "790500061"
       }
     ],
     "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."

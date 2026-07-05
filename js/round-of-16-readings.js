@@ -21,10 +21,10 @@
       referee: "Ilgiz Tantashev (Uzbekistan)", var: "Juan Lara", profile: "Arbitro internazionale con una gestione fisica abbastanza decisa.", severity: 68
     },
     "brasile-norvegia": {
-      teams: ["Brasile", "Norvegia"], flags: ["brasile", "norvegia"], high: true,
+      teams: ["Brasile", "Norvegia"], flags: ["brasile", "norvegia"], high: true, officialFormations: true,
       formations: [
-        ["Brasile", "4-2-3-1", "Alisson; Danilo, Marquinhos, Gabriel, Douglas Santos; Bruno Guimarães, Casemiro; Rayan, Martinelli, Vinícius Júnior; Matheus Cunha."],
-        ["Norvegia", "4-3-3", "Nyland; Wolfe, Lysaker Heggem, Ajer, Pedersen; Berg, Berge, Ødegaard; Nusa, Haaland, Sørloth."]
+        ["Brasile", "4-4-2", "Alisson; Danilo, Marquinhos, Gabriel, Douglas Santos; Rayan, Bruno Guimarães, Casemiro, Vinícius Júnior; Martinelli, Matheus Cunha."],
+        ["Norvegia", "4-3-3", "Nyland; Ryerson, Ajer, Lysaker Heggem, Wolfe; Berge, Berg, Ødegaard; Sørloth, Haaland, Nusa."]
       ],
       weather: "Circa 26°C alle 16:00 locali, cielo nuvoloso con temporali indicati proprio nell’orario della partita. Allerta caldo nell’area. Impatto medio-alto, soprattutto per il rischio di interruzioni e un campo più pesante.",
       stadium: "MetLife Stadium, East Rutherford / New York-New Jersey Stadium. Stadio aperto, grande capienza, erba naturale temporanea per il Mondiale. Non climatizzato.",
@@ -137,7 +137,7 @@
       score: "2-1 Brasile", probabilities: ["55%", "24%", "21%"], labels: ["Brasile", "Pareggio", "Norvegia"],
       sections: [
         ["La lettura della partita", "Il Brasile parte al 55% nei novanta minuti: favorito, ma lontano da una superiorità schiacciante. Martinelli tra le linee, Vinícius in isolamento e Bruno Guimarães nella prima costruzione danno alla Seleção più modi per attaccare. La Norvegia ha meno possesso, ma può creare occasioni di qualità superiore alla quantità."],
-        ["La chiave tattica", "Marquinhos e Gabriel devono decidere quanto accorciare su Haaland senza liberare lo spazio per gli inserimenti di Ødegaard e Sørloth. Sul lato opposto, Pedersen avrà bisogno di aiuto costante contro Vinícius. Se Berge e Berg vengono attratti troppo bassi, Martinelli può ricevere frontalmente; se salgono, il Brasile trova corridoi diretti verso Matheus Cunha."],
+        ["La chiave tattica", "Marquinhos e Gabriel devono decidere quanto accorciare su Haaland senza liberare lo spazio per gli inserimenti di Ødegaard e Sørloth. Sul lato opposto, Ryerson avrà bisogno di aiuto costante contro Vinícius. Il 4-4-2 ufficiale del Brasile porta Martinelli vicino a Matheus Cunha e lascia a Rayan e Vinícius il compito di allargare il blocco norvegese. Se Berge e Berg vengono attratti troppo bassi, Bruno Guimarães può ricevere frontalmente."],
         ["Temporali e campo", "Il rischio di temporali nell’orario della partita può spezzare il ritmo e rendere il terreno più pesante. Le interruzioni riducono la continuità del palleggio brasiliano e aumentano il peso di piazzati e duelli: è un piccolo vantaggio relativo per la Norvegia."],
         ["Verdetto", "Scelgo 2-1 Brasile, con 1-1 come rischio principale. Goal e Over 1,5 sono più robusti del segno 1 secco. Haaland 3+ tiri in porta a quota alta è interessante, ma resta una selezione volatile e non entra nella base prudente."]
       ],
@@ -238,8 +238,8 @@
     },
     "brasile-norvegia": {
       motivation: [97, 96], surprise: "Medio-alto", shots: [["Brasile", "15-20", "6-9"], ["Norvegia", "9-13", "3-5"]], corners: ["6-8", "3-5", "9-12"],
-      cards: [["Casemiro", "Alto", "Copertura preventiva su Ødegaard."], ["Pedersen", "Alto", "Duello continuo con Vinícius."], ["Ajer", "Medio-alto", "Profondità di Matheus Cunha e seconde palle."], ["Bruno Guimarães", "Medio", "Transizioni norvegesi da interrompere."], ["Berge", "Medio", "Pressione su Martinelli tra le linee."]],
-      shotsPlayers: ["Vinícius 4-6", "Matheus Cunha 3-5", "Haaland 4-6", "Nusa 2-3"]
+      cards: [["Ryerson", "Alto", "Duello diretto con Vinícius e coperture sul lato debole."], ["Casemiro", "Alto", "Copertura preventiva su Ødegaard e seconde palle."], ["Ajer", "Medio-alto", "Profondità di Martinelli e Matheus Cunha."], ["Bruno Guimarães", "Medio", "Transizioni norvegesi da interrompere."], ["Berge", "Medio", "Pressione su Bruno Guimarães e inserimenti centrali."]],
+      shotsPlayers: ["Vinícius 4-6 (2-3 in porta)", "Matheus Cunha 3-5 (1-2 in porta)", "Haaland 4-6 (2-3 in porta)", "Rayan 3-4 (1-2 in porta)", "Ødegaard 1-3 (0-1 in porta)", "Nusa 2-3 (0-1 in porta)"]
     },
     "messico-inghilterra": {
       motivation: [98, 96], surprise: "Alto", shots: [["Messico", "9-13", "3-5"], ["Inghilterra", "11-15", "4-6"]], corners: ["4-6", "4-6", "8-11"],

@@ -79,10 +79,11 @@ const readingPredictions = {
    */
   "Spagna|Belgio": { home: 2, away: 0, stage: "Quarti", basis: "Proiezioni precedenti + precedenti diretti" },
   /*
-   * Brasile favorito dalla serie storica e vincente 1-0 nel confronto
-   * più recente del marzo 2024. L'Inghilterra mantiene il punteggio basso.
+   * La Norvegia arriva al quarto dopo il 2-1 sul Brasile e con Haaland
+   * capocannoniere a 7 reti. L'Inghilterra resta leggermente favorita,
+   * ma non esiste un divario coerente con una vittoria larga o un No Goal.
    */
-  "Brasile|Inghilterra": { home: 1, away: 0, stage: "Quarti", basis: "Proiezioni precedenti + precedenti diretti" },
+  "Norvegia|Inghilterra": { home: 1, away: 2, stage: "Quarti", basis: "Risultato reale contro il Brasile + forma di Haaland + proiezione Inghilterra" },
   /*
    * I precedenti recenti sono equilibrati: 1-1 nel 2025 e 2-1 Colombia
    * nel settembre 2024. La controversia arbitrale percepita nella finale

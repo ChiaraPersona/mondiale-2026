@@ -1624,6 +1624,26 @@ const worldCupResults = {
       "Ai quarti il Marocco affrontera la Francia.",
     ],
   },
+  91: {
+    status: "Finale",
+    home: 1,
+    away: 2,
+    winner: "Norvegia",
+    source: "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/norvegia-8rP6JO0H/?mid=tpOhKWcC",
+    sources: [
+      "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/norvegia-8rP6JO0H/?mid=tpOhKWcC",
+    ],
+    scorers: {
+      Brasile: ["Neymar"],
+      Norvegia: ["Erling Haaland", "Erling Haaland"],
+    },
+    notes: [
+      "La Norvegia batte il Brasile 2-1 e si qualifica ai quarti di finale.",
+      "Haaland segna al 79' e al 90'; Neymar accorcia su rigore al 90+10'.",
+      "Bruno Guimaraes sbaglia un rigore al 14'.",
+      "Le tre MyCombo sono perse per la presenza di Brasile qualificato o Brasile vincente; centrati Goal, Over 1,5, Over 2,5 e Under 3,5.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

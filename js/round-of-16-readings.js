@@ -135,6 +135,12 @@
       headline: "Il Brasile ha più controllo, la Norvegia l’attaccante che può cambiare la partita con una sola occasione.",
       deck: "È uno degli ottavi più pericolosi per una favorita. Il Brasile può produrre più volume e possesso, ma ogni palla persa apre il campo a Ødegaard, Nusa e Haaland.",
       score: "2-1 Brasile", probabilities: ["55%", "24%", "21%"], labels: ["Brasile", "Pareggio", "Norvegia"],
+      result: {
+        score: "Brasile 1-2 Norvegia",
+        winner: "Norvegia qualificata",
+        verdict: "Pronostico negativo",
+        review: "La sorpresa indicata come medio-alta si concretizza, ma il risultato centrale 2-1 Brasile e il passaggio del turno verdeoro non entrano. Centrati Goal, Over 1,5, Over 2,5 e Under 3,5. Haaland segna due volte; Neymar accorcia su rigore nel recupero. Tutte e tre le MyCombo risultano perse perché contenevano Brasile qualificato o Brasile vincente."
+      },
       sections: [
         ["La lettura della partita", "Il Brasile parte al 55% nei novanta minuti: favorito, ma lontano da una superiorità schiacciante. Martinelli tra le linee, Vinícius in isolamento e Bruno Guimarães nella prima costruzione danno alla Seleção più modi per attaccare. La Norvegia ha meno possesso, ma può creare occasioni di qualità superiore alla quantità."],
         ["La chiave tattica", "Marquinhos e Gabriel devono decidere quanto accorciare su Haaland senza liberare lo spazio per gli inserimenti di Ødegaard e Sørloth. Sul lato opposto, Ryerson avrà bisogno di aiuto costante contro Vinícius. Il 4-4-2 ufficiale del Brasile porta Martinelli vicino a Matheus Cunha e lascia a Rayan e Vinícius il compito di allargare il blocco norvegese. Se Berge e Berg vengono attratti troppo bassi, Bruno Guimarães può ricevere frontalmente."],

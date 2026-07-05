@@ -2,7 +2,7 @@ const tournamentScorersAll = [
   { player: "Kylian Mbappe", team: "Francia", goals: 7, penalties: 1 },
   { player: "Lionel Messi", team: "Argentina", goals: 7, penalties: 0 },
   { player: "Harry Kane", team: "Inghilterra", goals: 5, penalties: 1 },
-  { player: "Erling Haaland", team: "Norvegia", goals: 5, penalties: 0 },
+  { player: "Erling Haaland", team: "Norvegia", goals: 7, penalties: 0 },
   { player: "Vinicius Jr", team: "Brasile", goals: 4, penalties: 0 },
   { player: "Ousmane Dembele", team: "Francia", goals: 4, penalties: 0 },
   { player: "Ismaila Sarr", team: "Senegal", goals: 4, penalties: 0 },
@@ -49,7 +49,7 @@ const tournamentScorersAll = [
 ];
 
 const tournamentScorerActiveTeams = new Set([
-  "Argentina", "Belgio", "Brasile", "Colombia", "Egitto", "Francia", "Inghilterra",
+  "Argentina", "Belgio", "Colombia", "Egitto", "Francia", "Inghilterra",
   "Marocco", "Messico", "Norvegia", "Portogallo", "Spagna", "Stati Uniti", "Svizzera",
 ]);
 
@@ -58,8 +58,8 @@ const tournamentScorers = tournamentScorersAll.filter((entry) =>
 );
 
 const tournamentScorersMeta = {
-  updated: "2026-07-05",
-  source: "Rai Sport",
-  url: "https://www.rai.it/dl/raiSport/speciali/statistiche/mondiali/2026/classificaMarcatori.html",
+  updated: "2026-07-06",
+  source: "Diretta.it",
+  url: "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/norvegia-8rP6JO0H/?mid=tpOhKWcC",
   scope: "Giocatori con almeno 2 gol",
 };

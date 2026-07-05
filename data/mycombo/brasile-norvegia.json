@@ -2,7 +2,20 @@
   "slug": "brasile-norvegia",
   "match": "Brasile - Norvegia",
   "date": "05/07/2026 ore 22.00",
-  "status": "scheduled",
+  "status": "completed",
+  "result": {
+    "score": "1-2",
+    "winner": "Norvegia",
+    "scorers": {
+      "Brasile": ["Neymar"],
+      "Norvegia": ["Erling Haaland", "Erling Haaland"]
+    },
+    "portfolioVerdict": {
+      "Safe": "persa",
+      "Balanced": "persa",
+      "Aggressive": "persa"
+    }
+  },
   "prediction": {
     "probabilities90Minutes": {
       "home": 55,

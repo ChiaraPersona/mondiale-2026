@@ -1,0 +1,1567 @@
+{
+  "team": "Algeria",
+  "eliminationDate": "2026-07-03",
+  "roster": [
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Attaccanti",
+      "player": "Adil Boulbina",
+      "club": "Paradou AC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Algeria",
+      "league": "Ligue 1 Mobilis",
+      "flag": "flags/algeria.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Attaccanti",
+      "player": "Amine Gouiri",
+      "club": "Olympique de Marseille",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/algeria.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Attaccanti",
+      "player": "Anis Hadj Moussa",
+      "club": "Feyenoord",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/algeria.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Attaccanti",
+      "player": "Far�s Ghedjemis",
+      "club": "FC Vizela",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/algeria.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Attaccanti",
+      "player": "Mohamed Amine Amoura",
+      "club": "VfL Wolfsburg",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/algeria.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Attaccanti",
+      "player": "Nadhir Benbouali",
+      "club": "Charleroi SC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/algeria.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Attaccanti",
+      "player": "Riyad Mahrez",
+      "club": "Al-Ahli",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/algeria.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Centrocampisti",
+      "player": "Far�s Cha�bi",
+      "club": "Eintracht Frankfurt",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/algeria.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Centrocampisti",
+      "player": "Hicham Boudaoui",
+      "club": "OGC Nice",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/algeria.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Centrocampisti",
+      "player": "Houssem Aouar",
+      "club": "Al-Ittihad",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/algeria.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Centrocampisti",
+      "player": "Ibrahim Maza",
+      "club": "Bayer Leverkusen",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/algeria.svg",
+      "age": 21,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Centrocampisti",
+      "player": "Nabil Bentaleb",
+      "club": "LOSC Lille",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/algeria.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Centrocampisti",
+      "player": "Ramiz Zerrouki",
+      "club": "Feyenoord",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/algeria.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Centrocampisti",
+      "player": "Yacine Titraoui",
+      "club": "Charleroi SC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/algeria.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Difensori",
+      "player": "Achref Abada",
+      "club": "MC Alger",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Algeria",
+      "league": "Ligue 1 Mobilis",
+      "flag": "flags/algeria.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Difensori",
+      "player": "A�ssa Mandi",
+      "club": "LOSC Lille",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/algeria.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Difensori",
+      "player": "Jaouen Hadjam",
+      "club": "BSC Young Boys",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Svizzera",
+      "league": "Swiss Super League",
+      "flag": "flags/algeria.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Difensori",
+      "player": "Mohamed Amine Touga�",
+      "club": "Esp�rance de Tunis",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Tunisia",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "flag": "flags/algeria.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Difensori",
+      "player": "Rafik Belghali",
+      "club": "KV Mechelen",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/algeria.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Difensori",
+      "player": "Ramy Benseba�ni",
+      "club": "Borussia Dortmund",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/algeria.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Difensori",
+      "player": "Rayan A�t-Nouri",
+      "club": "Manchester City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/algeria.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Difensori",
+      "player": "Samir Chergui",
+      "club": "USM Alger",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Algeria",
+      "league": "Ligue 1 Mobilis",
+      "flag": "flags/algeria.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Difensori",
+      "player": "Zineddine Bela�d",
+      "club": "Saint-Trond VV",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/algeria.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Portieri",
+      "player": "Abdelatif Ramdane",
+      "club": "MC Alger",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Algeria",
+      "league": "Ligue 1 Mobilis",
+      "flag": "flags/algeria.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Portieri",
+      "player": "Luca Zidane",
+      "club": "Granada CF",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "Segunda Division",
+      "flag": "flags/algeria.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Portieri",
+      "player": "Melvin Mastil",
+      "club": "KVC Westerlo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/algeria.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "role": "Portieri",
+      "player": "Oussama Benbot",
+      "club": "USM Alger",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Algeria",
+      "league": "Ligue 1 Mobilis",
+      "flag": "flags/algeria.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "algeria::adil boulbina": {
+      "player": "Adil Boulbina",
+      "team": "Algeria",
+      "club": "Paradou AC",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 4,
+        "subIns": 4,
+        "goals": 4,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/boulbina-adil/KQG5S7e0/",
+      "direttaPlayerId": "KQG5S7e0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1086,
+        "goals": 8,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.10"
+      }
+    },
+    "algeria::amine gouiri": {
+      "player": "Amine Gouiri",
+      "team": "Algeria",
+      "club": "Olympique de Marseille",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 3,
+        "subIns": 1,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gouiri-amine/K0zFVdU8/",
+      "direttaPlayerId": "K0zFVdU8",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 936,
+        "goals": 8,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.13",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 484,
+          "goals": 5,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.13
+        }
+      }
+    },
+    "algeria::anis hadj moussa": {
+      "player": "Anis Hadj Moussa",
+      "team": "Algeria",
+      "club": "Feyenoord",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 2,
+        "subIns": 5,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/moussa-anis-hadj/0vqEKboE/",
+      "direttaPlayerId": "0vqEKboE",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1112,
+        "goals": 4,
+        "assists": 4,
+        "yellowCards": 7,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.32"
+      }
+    },
+    "algeria::fares ghedjemis": {
+      "player": "Farès Ghedjemis",
+      "team": "Algeria",
+      "club": "FC Vizela",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ghedjemis-fares/fDYy3Ls1/",
+      "direttaPlayerId": "fDYy3Ls1",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1304,
+        "goals": 6,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.31"
+      }
+    },
+    "algeria::mohamed amine amoura": {
+      "player": "Mohamed Amine Amoura",
+      "team": "Algeria",
+      "club": "VfL Wolfsburg",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 7,
+        "subIns": 1,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/amoura-mohamed/lla8DJW0/",
+      "direttaPlayerId": "lla8DJW0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1096,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.51",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 664,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.45
+        }
+      }
+    },
+    "algeria::nadhir benbouali": {
+      "player": "Nadhir Benbouali",
+      "team": "Algeria",
+      "club": "Charleroi SC",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 0,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/benbouali-nadir/KzK1U1bi/",
+      "direttaPlayerId": "KzK1U1bi",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1210,
+        "goals": 4,
+        "assists": 3,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.10"
+      }
+    },
+    "algeria::riyad mahrez": {
+      "player": "Riyad Mahrez",
+      "team": "Algeria",
+      "club": "Al-Ahli",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 8,
+        "subIns": 1,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mahrez-riyad/AkzHA2kB/",
+      "direttaPlayerId": "AkzHA2kB",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1180,
+        "goals": 3,
+        "assists": 5,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.33"
+      }
+    },
+    "algeria::fares chaibi": {
+      "player": "Farès Chaïbi",
+      "team": "Algeria",
+      "club": "Eintracht Frankfurt",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 6,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/chaibi-fares/IusyCIkS/",
+      "direttaPlayerId": "IusyCIkS",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 882,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.81",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 498,
+          "goals": 1,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.69
+        }
+      }
+    },
+    "algeria::hicham boudaoui": {
+      "player": "Hicham Boudaoui",
+      "team": "Algeria",
+      "club": "OGC Nice",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 7,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/boudaoui-hichem/URcBI8WC/",
+      "direttaPlayerId": "URcBI8WC",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 937,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.53",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 475,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.37
+        }
+      }
+    },
+    "algeria::houssem aouar": {
+      "player": "Houssem Aouar",
+      "team": "Algeria",
+      "club": "Al-Ittihad",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 3,
+        "subIns": 0,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/aouar-houssem/E7gaowFp/",
+      "direttaPlayerId": "E7gaowFp",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1216,
+        "goals": 7,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.85"
+      }
+    },
+    "algeria::ibrahim maza": {
+      "player": "Ibrahim Maza",
+      "team": "Algeria",
+      "club": "Bayer Leverkusen",
+      "age": 21,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 6,
+        "subIns": 4,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/maza-ibrahim/zPa6aAD8/",
+      "direttaPlayerId": "zPa6aAD8",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1000,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.07",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 576,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.27
+        }
+      }
+    },
+    "algeria::nabil bentaleb": {
+      "player": "Nabil Bentaleb",
+      "team": "Algeria",
+      "club": "LOSC Lille",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 1,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bentaleb-nabil/UVRm5Kjk/",
+      "direttaPlayerId": "UVRm5Kjk",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 855,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.98",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 515,
+          "goals": 1,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.95
+        }
+      }
+    },
+    "algeria::ramiz zerrouki": {
+      "player": "Ramiz Zerrouki",
+      "team": "Algeria",
+      "club": "Feyenoord",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 4,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/zerrouki-ramiz/84ievKCO/",
+      "direttaPlayerId": "84ievKCO",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1043,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "7.19"
+      }
+    },
+    "algeria::yacine titraoui": {
+      "player": "Yacine Titraoui",
+      "team": "Algeria",
+      "club": "Charleroi SC",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 1,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/titraoui-yacine/00dnOh4E/",
+      "direttaPlayerId": "00dnOh4E",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1196,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 5,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.70"
+      }
+    },
+    "algeria::achref abada": {
+      "player": "Achref Abada",
+      "team": "Algeria",
+      "club": "MC Alger",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 5,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/abada-achref/KMhgPtD0/",
+      "direttaPlayerId": "KMhgPtD0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1237,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.06"
+      }
+    },
+    "algeria::aissa mandi": {
+      "player": "Aïssa Mandi",
+      "team": "Algeria",
+      "club": "LOSC Lille",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 8,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mandi-aissa/0hxFjbCm/",
+      "direttaPlayerId": "0hxFjbCm",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1309,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.01",
+        "topFive": {
+          "appearances": 7,
+          "minutes": 610,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 7.07
+        }
+      }
+    },
+    "algeria::jaouen hadjam": {
+      "player": "Jaouen Hadjam",
+      "team": "Algeria",
+      "club": "BSC Young Boys",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 3,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hadjam-jaouen/WOYIq4cD/",
+      "direttaPlayerId": "WOYIq4cD",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1004,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.13"
+      }
+    },
+    "algeria::mohamed amine tougai": {
+      "player": "Mohamed Amine Tougaï",
+      "team": "Algeria",
+      "club": "Espérance de Tunis",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/tougai-mohamed-amine/CM7kNyeN/",
+      "direttaPlayerId": "CM7kNyeN",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1179,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.97"
+      }
+    },
+    "algeria::rafik belghali": {
+      "player": "Rafik Belghali",
+      "team": "Algeria",
+      "club": "KV Mechelen",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 7,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/belghali-rafik/v3TEsxcK/",
+      "direttaPlayerId": "v3TEsxcK",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1088,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.86",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 596,
+          "goals": 2,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.76
+        }
+      }
+    },
+    "algeria::ramy bensebaini": {
+      "player": "Ramy Bensebaïni",
+      "team": "Algeria",
+      "club": "Borussia Dortmund",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 8,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bensebaini-ramy/jag6GVQG/",
+      "direttaPlayerId": "jag6GVQG",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1231,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 5,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "7.05",
+        "topFive": {
+          "appearances": 6,
+          "minutes": 400,
+          "goals": 2,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 7.12
+        }
+      }
+    },
+    "algeria::rayan ait-nouri": {
+      "player": "Rayan Aït-Nouri",
+      "team": "Algeria",
+      "club": "Manchester City",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 8,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ait-nouri-rayan/t4db4nTt/",
+      "direttaPlayerId": "t4db4nTt",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1163,
+        "goals": 0,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.44",
+        "topFive": {
+          "appearances": 7,
+          "minutes": 567,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.49
+        }
+      }
+    },
+    "algeria::samir chergui": {
+      "player": "Samir Chergui",
+      "team": "Algeria",
+      "club": "USM Alger",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/chergui-samir/C4Q8WADc/",
+      "direttaPlayerId": "C4Q8WADc",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1125,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.53",
+        "topFive": {
+          "appearances": 11,
+          "minutes": 885,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.38
+        }
+      }
+    },
+    "algeria::zineddine belaid": {
+      "player": "Zineddine Belaïd",
+      "team": "Algeria",
+      "club": "Saint-Trond VV",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 4,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/belaid-zineddine/tChLJUZS/",
+      "direttaPlayerId": "tChLJUZS",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1251,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.77"
+      }
+    },
+    "algeria::abdelatif ramdane": {
+      "player": "Abdelatif Ramdane",
+      "team": "Algeria",
+      "club": "MC Alger",
+      "age": "",
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "GAJi7lBc",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ramdane-abdelatif/GAJi7lBc/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1291,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "5.90",
+        "scope": "Club + nazionale",
+        "goalsConceded": 7,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.47"
+      }
+    },
+    "algeria::luca zidane": {
+      "player": "Luca Zidane",
+      "team": "Algeria",
+      "club": "Granada CF",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 6,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/zidane-luca/jPxdddKn/",
+      "direttaPlayerId": "jPxdddKn",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1380,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.05",
+        "scope": "Club + nazionale",
+        "goalsConceded": 9,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.60",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 6,
+          "goalsConceded": 3,
+          "goalsConcededPerGame": "0.50",
+          "averageRating": "6.86",
+          "sample": [
+            {
+              "date": "31.03.26",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Algerien",
+              "awayTeam": "Uruguay",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "10.01.26",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Algerien",
+              "awayTeam": "Nigeria",
+              "homeScore": 0,
+              "awayScore": 2,
+              "score": "0-2",
+              "minutes": 90,
+              "rating": 6.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "06.01.26",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Algerien",
+              "awayTeam": "DR Kongo",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 120,
+              "rating": 7.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "28.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Algerien",
+              "awayTeam": "Burkina Faso",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "24.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Algerien",
+              "awayTeam": "Sudan",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": 7.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "14.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Algerien",
+              "awayTeam": "Uganda",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        },
+        "topFive": {
+          "appearances": 10,
+          "minutes": 900,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.14
+        }
+      }
+    },
+    "algeria::melvin mastil": {
+      "player": "Melvin Mastil",
+      "team": "Algeria",
+      "club": "KVC Westerlo",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mastil-melvin/WMHCK31Q/",
+      "direttaPlayerId": "WMHCK31Q",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1380,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.28",
+        "scope": "Club + nazionale",
+        "goalsConceded": 15,
+        "goalsConcededMatches": 14,
+        "goalsConcededPerGame": "1.07",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 1,
+          "goalsConceded": 0,
+          "goalsConcededPerGame": "0.00",
+          "averageRating": "",
+          "sample": [
+            {
+              "date": "27.03.26",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Algerien",
+              "awayTeam": "Guatemala",
+              "homeScore": 7,
+              "awayScore": 0,
+              "score": "7-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    },
+    "algeria::oussama benbot": {
+      "player": "Oussama Benbot",
+      "team": "Algeria",
+      "club": "USM Alger",
+      "age": 32,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "zJEmW7NM",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/benbot-oussama/zJEmW7NM/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.06",
+        "scope": "Club + nazionale",
+        "goalsConceded": 9,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.60",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 2,
+          "goalsConceded": 1,
+          "goalsConcededPerGame": "0.50",
+          "averageRating": "",
+          "sample": [
+            {
+              "date": "13.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Algerien",
+              "awayTeam": "Simbabwe",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "05.06.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Algerien",
+              "awayTeam": "Ruanda",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "J",
+      "squadra": "Algeria",
+      "giocatore": "Ramy Bensebaini",
+      "club": "Borussia Dortmund",
+      "lega": "Bundesliga",
+      "ammonizioni_stagionali": 14,
+      "espulsioni_stagionali": 1,
+      "media_falli_partita": 1.6,
+      "rischio_cartellino": 78
+    }
+  ]
+}

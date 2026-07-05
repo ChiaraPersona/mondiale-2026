@@ -1587,6 +1587,43 @@ const worldCupResults = {
       "Pronostico positivo: centrati X2, Under 2,5 e il risultato alternativo 1-1; persi Egitto nei tempi di gioco e No Goal.",
     ],
   },
+  89: {
+    status: "Finale",
+    home: 0,
+    away: 1,
+    winner: "Francia",
+    source: "https://www.diretta.it/partita/calcio/francia-QkGeVG1n/paraguay-YaNlqp6j/?mid=M5YPKKbB",
+    sources: [
+      "https://www.diretta.it/partita/calcio/francia-QkGeVG1n/paraguay-YaNlqp6j/?mid=M5YPKKbB",
+      "https://www.the-afc.com/en/national/fifa_world_cup.html/news/r16-paraguay-0-1-france",
+    ],
+    scorers: { Paraguay: [], Francia: ["Kylian Mbappe"] },
+    notes: [
+      "La Francia batte il Paraguay 1-0 e si qualifica ai quarti di finale.",
+      "Kylian Mbappe decide la partita su rigore al 70'.",
+      "Ai quarti la Francia affrontera il Marocco.",
+    ],
+  },
+  90: {
+    status: "Finale",
+    home: 0,
+    away: 3,
+    winner: "Marocco",
+    source: "https://www.diretta.it/partita/calcio/canada-x4toKORL/marocco-IDKYO3R8/?mid=pUYfr7u3",
+    sources: [
+      "https://www.diretta.it/partita/calcio/canada-x4toKORL/marocco-IDKYO3R8/?mid=pUYfr7u3",
+      "https://www.sportsnet.ca/fifa-world-cup/article/canada-eliminated-by-morocco-in-world-cup-round-of-16/",
+    ],
+    scorers: {
+      Canada: [],
+      Marocco: ["Azzedine Ounahi", "Azzedine Ounahi", "Soufiane Rahimi"],
+    },
+    notes: [
+      "Il Marocco batte il Canada 3-0 e si qualifica ai quarti di finale.",
+      "Ounahi firma una doppietta; Rahimi segna il terzo gol.",
+      "Ai quarti il Marocco affrontera la Francia.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

@@ -1,0 +1,1655 @@
+{
+  "team": "RD Congo",
+  "eliminationDate": "2026-07-01",
+  "roster": [
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Attaccanti",
+      "player": "Brian Cipenga",
+      "club": "Castell�n",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/rd-congo.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Attaccanti",
+      "player": "C�dric Bakambu",
+      "club": "Betis",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/rd-congo.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Attaccanti",
+      "player": "Fiston Mayele",
+      "club": "Pyramids",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Egitto",
+      "league": "Egyptian Premier League",
+      "flag": "flags/rd-congo.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Attaccanti",
+      "player": "Meschack Elia",
+      "club": "Alanyaspor",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/rd-congo.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Attaccanti",
+      "player": "Nathanael Mbuku",
+      "club": "Montpellier",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/rd-congo.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Attaccanti",
+      "player": "Simon Banza",
+      "club": "Al-Jazira",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Emirati Arabi Uniti",
+      "league": "UAE Pro League",
+      "flag": "flags/rd-congo.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Attaccanti",
+      "player": "Th�o Bongonda",
+      "club": "Spartak Mosc�",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Russia",
+      "league": "Russian Premier League",
+      "flag": "flags/rd-congo.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Attaccanti",
+      "player": "Yoane Wissa",
+      "club": "Newcastle",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/rd-congo.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Centrocampisti",
+      "player": "Charles Pickel",
+      "club": "Espanyol",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/rd-congo.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Centrocampisti",
+      "player": "Edo Kayembe",
+      "club": "Watford",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/rd-congo.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Centrocampisti",
+      "player": "Gael Kakuta",
+      "club": "Larissa",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Grecia",
+      "league": "Super League Greece",
+      "flag": "flags/rd-congo.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Centrocampisti",
+      "player": "Ngal�Ayel Mukau",
+      "club": "LOSC Lille",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/rd-congo.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Centrocampisti",
+      "player": "Noah Sadiki",
+      "club": "Sunderland",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/rd-congo.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Centrocampisti",
+      "player": "Samuel Moutoussamy",
+      "club": "Atromitos",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Grecia",
+      "league": "Super League Greece",
+      "flag": "flags/rd-congo.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Difensori",
+      "player": "Aaron Wan-Bissaka",
+      "club": "West Ham",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/rd-congo.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Difensori",
+      "player": "Arthur Masuku",
+      "club": "Lens",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/rd-congo.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Difensori",
+      "player": "Axel Tuanzebe",
+      "club": "Burnley",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/rd-congo.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Difensori",
+      "player": "Chancel Mbemba",
+      "club": "LOSC Lille",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/rd-congo.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Difensori",
+      "player": "Dylan Batubinsika",
+      "club": "Larissa",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Grecia",
+      "league": "Super League Greece",
+      "flag": "flags/rd-congo.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Difensori",
+      "player": "Gedeon Kalulu",
+      "club": "Aris",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Grecia",
+      "league": "Super League Greece",
+      "flag": "flags/rd-congo.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Difensori",
+      "player": "Joris Kayembe",
+      "club": "KRC Genk",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/rd-congo.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Difensori",
+      "player": "Rocky Bushiri",
+      "club": "Hibernian",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Scozia",
+      "league": "Scottish Premiership",
+      "flag": "flags/rd-congo.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Difensori",
+      "player": "Steve Kapuadi",
+      "club": "Widzeu Lodz",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Polonia",
+      "league": "Ekstraklasa",
+      "flag": "flags/rd-congo.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Portieri",
+      "player": "Lionel Mpasi",
+      "club": "Le Havre",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/rd-congo.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Portieri",
+      "player": "Mattieu Epolo",
+      "club": "Standard Lieja",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/rd-congo.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "RD Congo",
+      "role": "Portieri",
+      "player": "Timothy Fayulu",
+      "club": "FC Noah",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Armenia",
+      "league": "Armenian Premier League",
+      "flag": "flags/rd-congo.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "rd congo::brian cipenga": {
+      "player": "Brian Cipenga",
+      "team": "RD Congo",
+      "club": "Castellón",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 0,
+        "subIns": 6,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/cipenga-brian/KQL5Shet/",
+      "direttaPlayerId": "KQL5Shet",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 852,
+        "goals": 2,
+        "assists": 4,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.11",
+        "topFive": {
+          "appearances": 11,
+          "minutes": 803,
+          "goals": 2,
+          "assists": 4,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.11
+        }
+      }
+    },
+    "rd congo::cedric bakambu": {
+      "player": "Cédric Bakambu",
+      "team": "RD Congo",
+      "club": "Betis",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 9,
+        "subIns": 0,
+        "goals": 6,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/cedric-bakambu/vZ3QJXBc/",
+      "direttaPlayerId": "vZ3QJXBc",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 918,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.63",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 367,
+          "goals": 2,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.66
+        }
+      }
+    },
+    "rd congo::fiston mayele": {
+      "player": "Fiston Mayele",
+      "team": "RD Congo",
+      "club": "Pyramids",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 2,
+        "subIns": 8,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mayele-fiston-kalala/dSvTGtth/",
+      "direttaPlayerId": "dSvTGtth",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 952,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.41"
+      }
+    },
+    "rd congo::meschack elia": {
+      "player": "Meschack Elia",
+      "team": "RD Congo",
+      "club": "Alanyaspor",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 7,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/elia-meschack/bThRZIx6/",
+      "direttaPlayerId": "bThRZIx6",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 583,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.46"
+      }
+    },
+    "rd congo::nathanael mbuku": {
+      "player": "Nathanael Mbuku",
+      "team": "RD Congo",
+      "club": "Montpellier",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 7,
+        "subIns": 4,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mbuku-nathanael/thMu3O3c/",
+      "direttaPlayerId": "thMu3O3c",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 951,
+        "goals": 1,
+        "assists": 5,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.85"
+      }
+    },
+    "rd congo::simon banza": {
+      "player": "Simon Banza",
+      "team": "RD Congo",
+      "club": "Al-Jazira",
+      "age": 30,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "jmFyZGss",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/banza-simon/jmFyZGss/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1144,
+        "goals": 6,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.78"
+      }
+    },
+    "rd congo::theo bongonda": {
+      "player": "Théo Bongonda",
+      "team": "RD Congo",
+      "club": "Spartak Moscú",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 5,
+        "subIns": 3,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bongonda-theo/xlw7OJug/",
+      "direttaPlayerId": "xlw7OJug",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 777,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.85"
+      }
+    },
+    "rd congo::yoane wissa": {
+      "player": "Yoane Wissa",
+      "team": "RD Congo",
+      "club": "Newcastle",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 3,
+        "subIns": 0,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/wissa-yoane/b35gWzB2/",
+      "direttaPlayerId": "b35gWzB2",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 672,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.47",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 359,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.39
+        }
+      }
+    },
+    "rd congo::charles pickel": {
+      "player": "Charles Pickel",
+      "team": "RD Congo",
+      "club": "Espanyol",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 3,
+        "subIns": 5,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pickel-charles/AoykjoMB/",
+      "direttaPlayerId": "AoykjoMB",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 593,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 2,
+        "matchesSample": 15,
+        "averageRating": "6.17",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 286,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 2,
+          "averageRating": 6.07
+        }
+      }
+    },
+    "rd congo::edo kayembe": {
+      "player": "Edo Kayembe",
+      "team": "RD Congo",
+      "club": "Watford",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 6,
+        "subIns": 6,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kayembe-edo/fPTJ6Fqs/",
+      "direttaPlayerId": "fPTJ6Fqs",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1098,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.74"
+      }
+    },
+    "rd congo::gael kakuta": {
+      "player": "Gael Kakuta",
+      "team": "RD Congo",
+      "club": "Larissa",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 1,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kakuta-gael/SWsZHFh9/",
+      "direttaPlayerId": "SWsZHFh9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1032,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.72"
+      }
+    },
+    "rd congo::ngal’ayel mukau": {
+      "player": "Ngal’Ayel Mukau",
+      "team": "RD Congo",
+      "club": "LOSC Lille",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 5,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mukau-ngal-ayel/2Nyle1h2/",
+      "direttaPlayerId": "2Nyle1h2",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 846,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.29",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 495,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.14
+        }
+      }
+    },
+    "rd congo::noah sadiki": {
+      "player": "Noah Sadiki",
+      "team": "RD Congo",
+      "club": "Sunderland",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 8,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sadiki-noah/UJnCIUV6/",
+      "direttaPlayerId": "UJnCIUV6",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1205,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.47",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 791,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.37
+        }
+      }
+    },
+    "rd congo::samuel moutoussamy": {
+      "player": "Samuel Moutoussamy",
+      "team": "RD Congo",
+      "club": "Atromitos",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 10,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/moutoussamy-samuel/G0ZLyJKh/",
+      "direttaPlayerId": "G0ZLyJKh",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1368,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.88"
+      }
+    },
+    "rd congo::aaron wan-bissaka": {
+      "player": "Aaron Wan-Bissaka",
+      "team": "RD Congo",
+      "club": "West Ham",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 10,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/wan-bissaka-aaron/faGmGOOh/",
+      "direttaPlayerId": "faGmGOOh",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1321,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.71",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 900,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.71
+        }
+      }
+    },
+    "rd congo::arthur masuku": {
+      "player": "Arthur Masuku",
+      "team": "RD Congo",
+      "club": "Lens",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 7,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/arthur-masuaku/4YoV0hmC/",
+      "direttaPlayerId": "4YoV0hmC",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1004,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.08",
+        "topFive": {
+          "appearances": 4,
+          "minutes": 129,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.4
+        }
+      }
+    },
+    "rd congo::axel tuanzebe": {
+      "player": "Axel Tuanzebe",
+      "team": "RD Congo",
+      "club": "Burnley",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 8,
+        "subIns": 0,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/axel-tuanzebe/l21PrfBG/",
+      "direttaPlayerId": "l21PrfBG",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1353,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.28",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 843,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.1
+        }
+      }
+    },
+    "rd congo::chancel mbemba": {
+      "player": "Chancel Mbemba",
+      "team": "RD Congo",
+      "club": "LOSC Lille",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/chancel-mbemba/U5hu6oJh/",
+      "direttaPlayerId": "U5hu6oJh",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1313,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.02",
+        "topFive": {
+          "appearances": 6,
+          "minutes": 457,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.98
+        }
+      }
+    },
+    "rd congo::dylan batubinsika": {
+      "player": "Dylan Batubinsika",
+      "team": "RD Congo",
+      "club": "Larissa",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/batubinsika-dylan/QcLd3bL1/",
+      "direttaPlayerId": "QcLd3bL1",
+      "recent15": {
+        "appearances": 13,
+        "minutes": 1125,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 13,
+        "averageRating": "6.73",
+        "topFive": {
+          "appearances": 1,
+          "minutes": 45,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 8
+        }
+      }
+    },
+    "rd congo::gedeon kalulu": {
+      "player": "Gedeon Kalulu",
+      "team": "RD Congo",
+      "club": "Aris",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kalulu-gedeon/hbh3pcUj/",
+      "direttaPlayerId": "hbh3pcUj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1107,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": ""
+      }
+    },
+    "rd congo::joris kayembe": {
+      "player": "Joris Kayembe",
+      "team": "RD Congo",
+      "club": "KRC Genk",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 4,
+        "subIns": 5,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/joris-kayembe/MTvtILKc/",
+      "direttaPlayerId": "MTvtILKc",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1175,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.05"
+      }
+    },
+    "rd congo::rocky bushiri": {
+      "player": "Rocky Bushiri",
+      "team": "RD Congo",
+      "club": "Hibernian",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bushiri-rocky/C4f3PxdO/",
+      "direttaPlayerId": "C4f3PxdO",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.76"
+      }
+    },
+    "rd congo::steve kapuadi": {
+      "player": "Steve Kapuadi",
+      "team": "RD Congo",
+      "club": "Widzeu Lodz",
+      "age": 28,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "6skiVT8o",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kapuadi-steve/6skiVT8o/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1172,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.31"
+      }
+    },
+    "rd congo::lionel mpasi": {
+      "player": "Lionel Mpasi",
+      "team": "RD Congo",
+      "club": "Le Havre",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 9,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mpasi-nzau-lionel/pzX674k0/",
+      "direttaPlayerId": "pzX674k0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1276,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.12",
+        "scope": "Club + nazionale",
+        "goalsConceded": 7,
+        "goalsConcededMatches": 14,
+        "goalsConcededPerGame": "0.50",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 15,
+          "goalsConceded": 10,
+          "goalsConcededPerGame": "0.67",
+          "averageRating": "6.58",
+          "sample": [
+            {
+              "date": "06.01.26",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Algerien",
+              "awayTeam": "DR Kongo",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 120,
+              "rating": 7.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "30.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Botswana",
+              "awayTeam": "DR Kongo",
+              "homeScore": 0,
+              "awayScore": 3,
+              "score": "0-3",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "27.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Senegal",
+              "awayTeam": "DR Kongo",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "23.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "DR Kongo",
+              "awayTeam": "Benin",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "16.11.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Nigeria",
+              "awayTeam": "DR Kongo",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 120,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "13.11.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Kamerun",
+              "awayTeam": "DR Kongo",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "14.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "DR Kongo",
+              "awayTeam": "Sudan",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "10.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Togo",
+              "awayTeam": "DR Kongo",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "19.11.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "DR Kongo",
+              "awayTeam": "Äthiopien",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 90,
+              "rating": 5.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "07.02.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Elfenbeinküste",
+              "awayTeam": "DR Kongo",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 6.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "02.02.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "DR Kongo",
+              "awayTeam": "Guinea",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 90,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "28.01.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Ägypten",
+              "awayTeam": "DR Kongo",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 120,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "24.01.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Tansania",
+              "awayTeam": "DR Kongo",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 6.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "21.01.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Marokko",
+              "awayTeam": "DR Kongo",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "17.01.24",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "DR Kongo",
+              "awayTeam": "Sambia",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 6.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        },
+        "topFive": {
+          "appearances": 4,
+          "minutes": 315,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 7.45
+        }
+      }
+    },
+    "rd congo::mattieu epolo": {
+      "player": "Mattieu Epolo",
+      "team": "RD Congo",
+      "club": "Standard Lieja",
+      "age": "",
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "6wssZzE9",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/epolo-matthieu/6wssZzE9/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1305,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.87",
+        "scope": "Club + nazionale",
+        "goalsConceded": 20,
+        "goalsConcededMatches": 14,
+        "goalsConcededPerGame": "1.43",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 1,
+          "goalsConceded": 0,
+          "goalsConcededPerGame": "0.00",
+          "averageRating": "",
+          "sample": [
+            {
+              "date": "16.12.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "DR Kongo",
+              "awayTeam": "Sambia",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 45,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    },
+    "rd congo::timothy fayulu": {
+      "player": "Timothy Fayulu",
+      "team": "RD Congo",
+      "club": "FC Noah",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/fayulu-timothy/2et9Nynf/",
+      "direttaPlayerId": "2et9Nynf",
+      "recent15": {
+        "appearances": 12,
+        "minutes": 947,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 12,
+        "averageRating": "6.70",
+        "scope": "Club + nazionale",
+        "goalsConceded": 13,
+        "goalsConcededMatches": 12,
+        "goalsConcededPerGame": "1.08",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 3,
+          "goalsConceded": 2,
+          "goalsConcededPerGame": "0.67",
+          "averageRating": "",
+          "sample": [
+            {
+              "date": "16.12.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "DR Kongo",
+              "awayTeam": "Sambia",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 46,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "16.11.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Nigeria",
+              "awayTeam": "DR Kongo",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 1,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "08.06.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "DR Kongo",
+              "awayTeam": "Madagaskar",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": []
+}

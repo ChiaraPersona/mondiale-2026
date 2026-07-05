@@ -1,0 +1,1730 @@
+{
+  "team": "Croazia",
+  "eliminationDate": "2026-07-03",
+  "roster": [
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Attaccanti",
+      "player": "Andrej Kramaric",
+      "club": "Hoffenheim",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/croazia.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Attaccanti",
+      "player": "Ante Budimir",
+      "club": "Osasuna",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/croazia.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Attaccanti",
+      "player": "Igor Matanovic",
+      "club": "Friburgo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/croazia.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Attaccanti",
+      "player": "Ivan Perisic",
+      "club": "PSV",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/croazia.svg",
+      "age": 37,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Attaccanti",
+      "player": "Marco Pasalic",
+      "club": "Orlando City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/croazia.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Attaccanti",
+      "player": "Petar Musa",
+      "club": "Dallas",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/croazia.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Centrocampisti",
+      "player": "Kristijan Jakic",
+      "club": "Augsburg",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/croazia.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Centrocampisti",
+      "player": "Luka Modric",
+      "club": "Milan",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/croazia.svg",
+      "age": 41,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Centrocampisti",
+      "player": "Luka Sucic",
+      "club": "Real Sociedad",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/croazia.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Centrocampisti",
+      "player": "Mario Pasalic",
+      "club": "Atalanta",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/croazia.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Centrocampisti",
+      "player": "Martin Baturina",
+      "club": "Como",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/croazia.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Centrocampisti",
+      "player": "Mateo Kovacic",
+      "club": "Man. City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/croazia.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Centrocampisti",
+      "player": "Nikola Moro",
+      "club": "Bologna",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/croazia.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Centrocampisti",
+      "player": "Nikola Vlasic",
+      "club": "Torino",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/croazia.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Centrocampisti",
+      "player": "Petar Sucic",
+      "club": "Inter",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/croazia.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Centrocampisti",
+      "player": "Toni Fruk",
+      "club": "Rijeka",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Croazia",
+      "league": "HNL",
+      "flag": "flags/croazia.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Difensori",
+      "player": "Duje Caleta-Car",
+      "club": "Real Sociedad",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/croazia.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Difensori",
+      "player": "Josip Stanisic",
+      "club": "Bayern de M�nich",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/croazia.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Difensori",
+      "player": "Josip Sutalo",
+      "club": "Ajax",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/croazia.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Difensori",
+      "player": "Josko Gvardiol",
+      "club": "Man. City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/croazia.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Difensori",
+      "player": "Luka Vuskovic",
+      "club": "HSV",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/croazia.svg",
+      "age": 19,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Difensori",
+      "player": "Marin Pongracic",
+      "club": "Fiorentina",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/croazia.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Difensori",
+      "player": "Martin Erlic",
+      "club": "Midtjylland",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Danimarca",
+      "league": "Danish Superliga",
+      "flag": "flags/croazia.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Portieri",
+      "player": "Dominic Livakovic",
+      "club": "Dinamo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Uzbekistan",
+      "league": "Uzbekistan Super League",
+      "flag": "flags/croazia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Portieri",
+      "player": "Dominik Kotarski",
+      "club": "Kabenhavn",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Danimarca",
+      "league": "Danish Superliga",
+      "flag": "flags/croazia.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "L",
+      "team": "Croazia",
+      "role": "Portieri",
+      "player": "Ivor Pandur",
+      "club": "Hull City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/croazia.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "croazia::andrej kramaric": {
+      "player": "Andrej Kramaric",
+      "team": "Croazia",
+      "club": "Hoffenheim",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 15,
+        "starts": 10,
+        "subIns": 5,
+        "goals": 6,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kramaric-andrej/6V0rWuu1/",
+      "direttaPlayerId": "6V0rWuu1",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1032,
+        "goals": 7,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.20",
+        "topFive": {
+          "appearances": 15,
+          "minutes": 1032,
+          "goals": 7,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.2
+        }
+      }
+    },
+    "croazia::ante budimir": {
+      "player": "Ante Budimir",
+      "team": "Croazia",
+      "club": "Osasuna",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 7,
+        "subIns": 3,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/budimir-ante/IeVXGQOi/",
+      "direttaPlayerId": "IeVXGQOi",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1148,
+        "goals": 10,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.05",
+        "topFive": {
+          "appearances": 13,
+          "minutes": 1066,
+          "goals": 10,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.15
+        }
+      }
+    },
+    "croazia::igor matanovic": {
+      "player": "Igor Matanovic",
+      "team": "Croazia",
+      "club": "Friburgo",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 3,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/matanovic-igor/j5PxPTVi/",
+      "direttaPlayerId": "j5PxPTVi",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1133,
+        "goals": 6,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.97",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 666,
+          "goals": 3,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.78
+        }
+      }
+    },
+    "croazia::ivan perisic": {
+      "player": "Ivan Perisic",
+      "team": "Croazia",
+      "club": "PSV",
+      "age": 37,
+      "career": {},
+      "season2025_26": {
+        "appearances": 15,
+        "starts": 12,
+        "subIns": 3,
+        "goals": 4,
+        "assists": 5,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/perisic-ivan/4AbKyVr9/",
+      "direttaPlayerId": "4AbKyVr9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1060,
+        "goals": 4,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.44"
+      }
+    },
+    "croazia::marco pasalic": {
+      "player": "Marco Pasalic",
+      "team": "Croazia",
+      "club": "Orlando City",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 3,
+        "subIns": 6,
+        "goals": 0,
+        "assists": 3,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pasalic-marco/6wSPewNt/",
+      "direttaPlayerId": "6wSPewNt",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1056,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.77"
+      }
+    },
+    "croazia::petar musa": {
+      "player": "Petar Musa",
+      "team": "Croazia",
+      "club": "Dallas",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 2,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/musa-petar/2JMpq78N/",
+      "direttaPlayerId": "2JMpq78N",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1126,
+        "goals": 11,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.27"
+      }
+    },
+    "croazia::kristijan jakic": {
+      "player": "Kristijan Jakic",
+      "team": "Croazia",
+      "club": "Augsburg",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 5,
+        "subIns": 5,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/jakic-kristijan/QkJGjOO2/",
+      "direttaPlayerId": "QkJGjOO2",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 959,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.49",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 869,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 6.34
+        }
+      }
+    },
+    "croazia::luka modric": {
+      "player": "Luka Modric",
+      "team": "Croazia",
+      "club": "Milan",
+      "age": 41,
+      "career": {},
+      "season2025_26": {
+        "appearances": 15,
+        "starts": 10,
+        "subIns": 5,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/modric-luka/bZWyoJnA/",
+      "direttaPlayerId": "bZWyoJnA",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1144,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.49",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1132,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 7.57
+        }
+      }
+    },
+    "croazia::luka sucic": {
+      "player": "Luka Sucic",
+      "team": "Croazia",
+      "club": "Real Sociedad",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 2,
+        "subIns": 4,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sucic-luka/p6f9CgsE/",
+      "direttaPlayerId": "p6f9CgsE",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 667,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.80",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 514,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.64
+        }
+      }
+    },
+    "croazia::mario pasalic": {
+      "player": "Mario Pasalic",
+      "team": "Croazia",
+      "club": "Atalanta",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 14,
+        "starts": 8,
+        "subIns": 6,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pasalic-mario/ld4iyqYa/",
+      "direttaPlayerId": "ld4iyqYa",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1053,
+        "goals": 5,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.97",
+        "topFive": {
+          "appearances": 6,
+          "minutes": 478,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.27
+        }
+      }
+    },
+    "croazia::martin baturina": {
+      "player": "Martin Baturina",
+      "team": "Croazia",
+      "club": "Como",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 7,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/baturina-martin/0WWy1lhR/",
+      "direttaPlayerId": "0WWy1lhR",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 959,
+        "goals": 6,
+        "assists": 3,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.42",
+        "topFive": {
+          "appearances": 11,
+          "minutes": 764,
+          "goals": 5,
+          "assists": 3,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.57
+        }
+      }
+    },
+    "croazia::mateo kovacic": {
+      "player": "Mateo Kovacic",
+      "team": "Croazia",
+      "club": "Man. City",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 6,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kovacic-mateo/4f084TL7/",
+      "direttaPlayerId": "4f084TL7",
+      "recent15": {
+        "appearances": 4,
+        "minutes": 118,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 4,
+        "averageRating": "7.30",
+        "topFive": {
+          "appearances": 2,
+          "minutes": 15,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": null
+        }
+      }
+    },
+    "croazia::nikola moro": {
+      "player": "Nikola Moro",
+      "team": "Croazia",
+      "club": "Bologna",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 3,
+        "subIns": 6,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/moro-nikola/SOva7ZCL/",
+      "direttaPlayerId": "SOva7ZCL",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1009,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.09",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 567,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.1
+        }
+      }
+    },
+    "croazia::nikola vlasic": {
+      "player": "Nikola Vlasic",
+      "team": "Croazia",
+      "club": "Torino",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 2,
+        "subIns": 4,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/nikola-vlasic/4ryWOtME/",
+      "direttaPlayerId": "4ryWOtME",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1321,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.93",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 1080,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 4,
+          "redCards": 0,
+          "averageRating": 6.92
+        }
+      }
+    },
+    "croazia::petar sucic": {
+      "player": "Petar Sucic",
+      "team": "Croazia",
+      "club": "Inter",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 11,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sucic-petar/dMS6iFY2/",
+      "direttaPlayerId": "dMS6iFY2",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 884,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.78",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 409,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.79
+        }
+      }
+    },
+    "croazia::toni fruk": {
+      "player": "Toni Fruk",
+      "team": "Croazia",
+      "club": "Rijeka",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 2,
+        "subIns": 5,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/fruk-toni/G4BedhkN/",
+      "direttaPlayerId": "G4BedhkN",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 999,
+        "goals": 7,
+        "assists": 2,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.33"
+      }
+    },
+    "croazia::duje caleta-car": {
+      "player": "Duje Caleta-Car",
+      "team": "Croazia",
+      "club": "Real Sociedad",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/caleta-car-duje/K44QNA2A/",
+      "direttaPlayerId": "K44QNA2A",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1120,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.57",
+        "topFive": {
+          "appearances": 11,
+          "minutes": 791,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 1,
+          "averageRating": 6.6
+        }
+      }
+    },
+    "croazia::josip stanisic": {
+      "player": "Josip Stanisic",
+      "team": "Croazia",
+      "club": "Bayern de Múnich",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 8,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/stanisic-josip/SfawK0Y3/",
+      "direttaPlayerId": "SfawK0Y3",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1080,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.39",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 582,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.42
+        }
+      }
+    },
+    "croazia::josip sutalo": {
+      "player": "Josip Sutalo",
+      "team": "Croazia",
+      "club": "Ajax",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 10,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sutalo-josip/2aSozh6l/",
+      "direttaPlayerId": "2aSozh6l",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1219,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.73"
+      }
+    },
+    "croazia::josko gvardiol": {
+      "player": "Josko Gvardiol",
+      "team": "Croazia",
+      "club": "Man. City",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 9,
+        "subIns": 1,
+        "goals": 4,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gvardiol-josko/86K1f1fd/",
+      "direttaPlayerId": "86K1f1fd",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1127,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.20",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 785,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 7.16
+        }
+      }
+    },
+    "croazia::luka vuskovic": {
+      "player": "Luka Vuskovic",
+      "team": "Croazia",
+      "club": "HSV",
+      "age": 19,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 4,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/vuskovic-luka/QLMh9ouh/",
+      "direttaPlayerId": "QLMh9ouh",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1380,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.31",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1260,
+          "goals": 4,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 7.32
+        }
+      }
+    },
+    "croazia::marin pongracic": {
+      "player": "Marin Pongracic",
+      "team": "Croazia",
+      "club": "Fiorentina",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 4,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pongracic-marin/OSXlKkv9/",
+      "direttaPlayerId": "OSXlKkv9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1035,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.45",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 762,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.57
+        }
+      }
+    },
+    "croazia::martin erlic": {
+      "player": "Martin Erlic",
+      "team": "Croazia",
+      "club": "Midtjylland",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/erlic-martin/n9FYAE96/",
+      "direttaPlayerId": "n9FYAE96",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1286,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 6,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.86"
+      }
+    },
+    "croazia::dominic livakovic": {
+      "player": "Dominic Livakovic",
+      "team": "Croazia",
+      "club": "Dinamo",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 13,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/livakovic-dominik/OOasPX9j/",
+      "direttaPlayerId": "OOasPX9j",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1380,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.91",
+        "scope": "Club + nazionale",
+        "goalsConceded": 19,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.27",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 15,
+          "goalsConceded": 16,
+          "goalsConcededPerGame": "1.07",
+          "averageRating": "6.91",
+          "sample": [
+            {
+              "date": "01.04.26",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Kroatien",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 90,
+              "rating": 6.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "27.03.26",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Kolumbien",
+              "awayTeam": "Kroatien",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 90,
+              "rating": 7.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "17.11.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Montenegro",
+              "awayTeam": "Kroatien",
+              "homeScore": 2,
+              "awayScore": 3,
+              "score": "2-3",
+              "minutes": 90,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "14.11.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Kroatien",
+              "awayTeam": "Färöer Inseln",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 90,
+              "rating": 7.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "09.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Tschechien",
+              "awayTeam": "Kroatien",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 7.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "08.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Kroatien",
+              "awayTeam": "Montenegro",
+              "homeScore": 4,
+              "awayScore": 0,
+              "score": "4-0",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "05.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Färöer Inseln",
+              "awayTeam": "Kroatien",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": 7.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "09.06.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Kroatien",
+              "awayTeam": "Tschechien",
+              "homeScore": 5,
+              "awayScore": 1,
+              "score": "5-1",
+              "minutes": 90,
+              "rating": 7.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "06.06.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Gibraltar",
+              "awayTeam": "Kroatien",
+              "homeScore": 0,
+              "awayScore": 7,
+              "score": "0-7",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "23.03.25",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Frankreich",
+              "awayTeam": "Kroatien",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 120,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "20.03.25",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Kroatien",
+              "awayTeam": "Frankreich",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": 7.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "18.11.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Kroatien",
+              "awayTeam": "Portugal",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 7.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "15.10.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Polen",
+              "awayTeam": "Kroatien",
+              "homeScore": 3,
+              "awayScore": 3,
+              "score": "3-3",
+              "minutes": 76,
+              "rating": 5.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 1,
+              "goalsConceded": 3
+            },
+            {
+              "date": "12.10.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Kroatien",
+              "awayTeam": "Schottland",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 6.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "08.09.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Kroatien",
+              "awayTeam": "Polen",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    },
+    "croazia::dominik kotarski": {
+      "player": "Dominik Kotarski",
+      "team": "Croazia",
+      "club": "Kabenhavn",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/kotarski-dominik/lSEheXlN/",
+      "direttaPlayerId": "lSEheXlN",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.89",
+        "scope": "Club + nazionale",
+        "goalsConceded": 27,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.80",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 3,
+          "goalsConceded": 3,
+          "goalsConcededPerGame": "1.00",
+          "averageRating": "6.60",
+          "sample": [
+            {
+              "date": "12.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Kroatien",
+              "awayTeam": "Gibraltar",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "15.11.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Kroatien",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "26.03.24",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Ägypten",
+              "awayTeam": "Kroatien",
+              "homeScore": 2,
+              "awayScore": 4,
+              "score": "2-4",
+              "minutes": 45,
+              "rating": 7.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            }
+          ]
+        }
+      }
+    },
+    "croazia::ivor pandur": {
+      "player": "Ivor Pandur",
+      "team": "Croazia",
+      "club": "Hull City",
+      "age": 26,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "O2IVI9D4",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pandur-ivor/O2IVI9D4/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.15",
+        "scope": "Club + nazionale",
+        "goalsConceded": 20,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.33",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 1,
+          "goalsConceded": 0,
+          "goalsConcededPerGame": "0.00",
+          "averageRating": "7.40",
+          "sample": [
+            {
+              "date": "27.06.23",
+              "competition": "U21 Euro (Europa)",
+              "homeTeam": "Kroatien U21",
+              "awayTeam": "Rumänien U21",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 7.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "L",
+      "squadra": "Croazia",
+      "giocatore": "Marin Pongracic",
+      "club": "Fiorentina",
+      "lega": "Serie A",
+      "ammonizioni_stagionali": 18,
+      "espulsioni_stagionali": 0,
+      "media_falli_partita": 2.1,
+      "rischio_cartellino": 88
+    }
+  ]
+}

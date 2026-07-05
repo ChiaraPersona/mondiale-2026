@@ -1,0 +1,1331 @@
+{
+  "team": "Paraguay",
+  "eliminationDate": "2026-07-04",
+  "roster": [
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Attaccanti",
+      "player": "Alex Arce",
+      "club": "Liga de Quito",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Ecuador",
+      "league": "LigaPro",
+      "flag": "flags/paraguay.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Attaccanti",
+      "player": "Antonio Sanabria",
+      "club": "Torino",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/paraguay.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Attaccanti",
+      "player": "Gabriel �valos",
+      "club": "Independiente",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Argentina",
+      "league": "Primera Division",
+      "flag": "flags/paraguay.svg",
+      "age": 36,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Attaccanti",
+      "player": "Isidro Pitta",
+      "club": "Red Bull Bragantino",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/paraguay.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Attaccanti",
+      "player": "Julio Enciso",
+      "club": "Estrasburgo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/paraguay.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Attaccanti",
+      "player": "Miguel Almir�n",
+      "club": "Atlanta United",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/paraguay.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Centrocampisti",
+      "player": "Alejandro Romero Gamarra",
+      "club": "Al-Ain",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/paraguay.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Centrocampisti",
+      "player": "Andr�s Cubas",
+      "club": "Vancouver Whitecaps",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/paraguay.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Centrocampisti",
+      "player": "Braian Ojeda",
+      "club": "Real Salt Lake",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/paraguay.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Centrocampisti",
+      "player": "Dami�n Bobadilla",
+      "club": "S�o Paulo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/paraguay.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Centrocampisti",
+      "player": "Diego G�mez",
+      "club": "Brighton",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/paraguay.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Centrocampisti",
+      "player": "Gustavo Caballero",
+      "club": "Nacional",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Paraguay",
+      "league": "Primera Division",
+      "flag": "flags/paraguay.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Centrocampisti",
+      "player": "Mat�as Galarza",
+      "club": "Talleres de C�rdoba",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Argentina",
+      "league": "Primera Division",
+      "flag": "flags/paraguay.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Centrocampisti",
+      "player": "Ram�n Sosa",
+      "club": "Palmeiras",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/paraguay.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Difensori",
+      "player": "Alessandro Maidana",
+      "club": "Olimpia",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Paraguay",
+      "league": "Primera Division",
+      "flag": "flags/paraguay.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Difensori",
+      "player": "Fabi�n Balbuena",
+      "club": "Dinamo Mosc�",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Uzbekistan",
+      "league": "Uzbekistan Super League",
+      "flag": "flags/paraguay.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Difensori",
+      "player": "Gustavo G�mez",
+      "club": "Palmeiras",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/paraguay.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Difensori",
+      "player": "Gustavo Vel�zquez",
+      "club": "Cerro Porte�o",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Paraguay",
+      "league": "Primera Division",
+      "flag": "flags/paraguay.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Difensori",
+      "player": "Jos� Canale",
+      "club": "Lan�s",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Argentina",
+      "league": "Primera Division",
+      "flag": "flags/paraguay.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Difensori",
+      "player": "Juan C�ceres",
+      "club": "Dynamo Mosc�",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Russia",
+      "league": "Russian Premier League",
+      "flag": "flags/paraguay.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Difensori",
+      "player": "Junior Alonso",
+      "club": "Atl�tico Mineiro",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/paraguay.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Difensori",
+      "player": "Mauricio Magalh�es",
+      "club": "Libertad",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Paraguay",
+      "league": "Primera Division",
+      "flag": "flags/paraguay.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Difensori",
+      "player": "Omar Alderete",
+      "club": "Getafe",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/paraguay.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Portieri",
+      "player": "Gast�n Olveira",
+      "club": "Olimpia",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Paraguay",
+      "league": "Primera Division",
+      "flag": "flags/paraguay.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Portieri",
+      "player": "Orlando Gill",
+      "club": "San Lorenzo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Argentina",
+      "league": "Primera Division",
+      "flag": "flags/paraguay.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "role": "Portieri",
+      "player": "Roberto Fern�ndez",
+      "club": "Cerro Porte�o",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Paraguay",
+      "league": "Primera Division",
+      "flag": "flags/paraguay.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "paraguay::alex arce": {
+      "player": "Alex Arce",
+      "team": "Paraguay",
+      "club": "Liga de Quito",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 2,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/arce-alex/E7XYJ7UB/",
+      "direttaPlayerId": "E7XYJ7UB",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 781,
+        "goals": 5,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.74"
+      }
+    },
+    "paraguay::antonio sanabria": {
+      "player": "Antonio Sanabria",
+      "team": "Paraguay",
+      "club": "Torino",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 15,
+        "starts": 9,
+        "subIns": 6,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sanabria-antonio/jNePUJ0b/",
+      "direttaPlayerId": "jNePUJ0b",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 459,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.44",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 391,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.35
+        }
+      }
+    },
+    "paraguay::gabriel avalos": {
+      "player": "Gabriel Ávalos",
+      "team": "Paraguay",
+      "club": "Independiente",
+      "age": 36,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 2,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/avalos-gabriel/vcRwBofF/",
+      "direttaPlayerId": "vcRwBofF",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1278,
+        "goals": 11,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.31"
+      }
+    },
+    "paraguay::isidro pitta": {
+      "player": "Isidro Pitta",
+      "team": "Paraguay",
+      "club": "Red Bull Bragantino",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 1,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/isidro-pitta/dITLSeFN/",
+      "direttaPlayerId": "dITLSeFN",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 918,
+        "goals": 7,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.93"
+      }
+    },
+    "paraguay::julio enciso": {
+      "player": "Julio Enciso",
+      "team": "Paraguay",
+      "club": "Estrasburgo",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 9,
+        "subIns": 2,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/enciso-julio/f19S9MEi/",
+      "direttaPlayerId": "f19S9MEi",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1112,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.00",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 595,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.04
+        }
+      }
+    },
+    "paraguay::miguel almiron": {
+      "player": "Miguel Almirón",
+      "team": "Paraguay",
+      "club": "Atlanta United",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 14,
+        "starts": 14,
+        "subIns": 0,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/almiron-miguel/AwqEUHxT/",
+      "direttaPlayerId": "AwqEUHxT",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1253,
+        "goals": 2,
+        "assists": 4,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.12"
+      }
+    },
+    "paraguay::alejandro romero gamarra": {
+      "player": "Alejandro Romero Gamarra",
+      "team": "Paraguay",
+      "club": "Al-Ain",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 1,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/romero-lucas/Uscd4I6r/",
+      "direttaPlayerId": "Uscd4I6r",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 879,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.03"
+      }
+    },
+    "paraguay::andres cubas": {
+      "player": "Andrés Cubas",
+      "team": "Paraguay",
+      "club": "Vancouver Whitecaps",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 8,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/cubas-andres/EDvdadt9/",
+      "direttaPlayerId": "EDvdadt9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1137,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 7,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.13"
+      }
+    },
+    "paraguay::braian ojeda": {
+      "player": "Braian Ojeda",
+      "team": "Paraguay",
+      "club": "Real Salt Lake",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 3,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ojeda-braian/tvZFRdbR/",
+      "direttaPlayerId": "tvZFRdbR",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1124,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.28"
+      }
+    },
+    "paraguay::damian bobadilla": {
+      "player": "Damián Bobadilla",
+      "team": "Paraguay",
+      "club": "São Paulo",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 8,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bobadilla-damian/6DVp3SWL/",
+      "direttaPlayerId": "6DVp3SWL",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1086,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.82"
+      }
+    },
+    "paraguay::diego gomez": {
+      "player": "Diego Gómez",
+      "team": "Paraguay",
+      "club": "Brighton",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 14,
+        "starts": 14,
+        "subIns": 0,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 1,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gomez-diego/KrSC9Fhb/",
+      "direttaPlayerId": "KrSC9Fhb",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1119,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.25",
+        "topFive": {
+          "appearances": 13,
+          "minutes": 980,
+          "goals": 3,
+          "assists": 0,
+          "yellowCards": 4,
+          "redCards": 0,
+          "averageRating": 6.34
+        }
+      }
+    },
+    "paraguay::gustavo caballero": {
+      "player": "Gustavo Caballero",
+      "team": "Paraguay",
+      "club": "Nacional",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 0,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/caballero-gustavo/beBGXWlI/",
+      "direttaPlayerId": "beBGXWlI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 682,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.35"
+      }
+    },
+    "paraguay::matias galarza": {
+      "player": "Matías Galarza",
+      "team": "Paraguay",
+      "club": "Talleres de Córdoba",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 4,
+        "subIns": 6,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/galarza-matias/v7raiufc/",
+      "direttaPlayerId": "v7raiufc",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 735,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.54"
+      }
+    },
+    "paraguay::ramon sosa": {
+      "player": "Ramón Sosa",
+      "team": "Paraguay",
+      "club": "Palmeiras",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 5,
+        "subIns": 6,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sosa-ramon/GzkUujEi/",
+      "direttaPlayerId": "GzkUujEi",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 701,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.85"
+      }
+    },
+    "paraguay::alessandro maidana": {
+      "player": "Alessandro Maidana",
+      "team": "Paraguay",
+      "club": "Olimpia",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/maidana-alexandro/buIoLLtp/",
+      "direttaPlayerId": "buIoLLtp",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1217,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 2,
+        "matchesSample": 15,
+        "averageRating": "6.85"
+      }
+    },
+    "paraguay::fabian balbuena": {
+      "player": "Fabián Balbuena",
+      "team": "Paraguay",
+      "club": "Dinamo Moscú",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 3,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/balbuena-fabian/ELMR4PLj/",
+      "direttaPlayerId": "ELMR4PLj",
+      "recent15": {
+        "appearances": 13,
+        "minutes": 1045,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 13,
+        "averageRating": "6.95"
+      }
+    },
+    "paraguay::gustavo gomez": {
+      "player": "Gustavo Gómez",
+      "team": "Paraguay",
+      "club": "Palmeiras",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 12,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gustavo-gomez/fH0yeuUu/",
+      "direttaPlayerId": "fH0yeuUu",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.79"
+      }
+    },
+    "paraguay::gustavo velazquez": {
+      "player": "Gustavo Velázquez",
+      "team": "Paraguay",
+      "club": "Cerro Porteño",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 3,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/velazquez-ramos-gustavo/MFT77Isk/",
+      "direttaPlayerId": "MFT77Isk",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1163,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.76"
+      }
+    },
+    "paraguay::jose canale": {
+      "player": "José Canale",
+      "team": "Paraguay",
+      "club": "Lanús",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/canale-jose/YiYtYE6A/",
+      "direttaPlayerId": "YiYtYE6A",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1313,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.69"
+      }
+    },
+    "paraguay::juan caceres": {
+      "player": "Juan Cáceres",
+      "team": "Paraguay",
+      "club": "Dynamo Moscú",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 10,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 3,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/caceres-juan/fPYjWy4U/",
+      "direttaPlayerId": "fPYjWy4U",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1184,
+        "goals": 1,
+        "assists": 4,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.44"
+      }
+    },
+    "paraguay::junior alonso": {
+      "player": "Junior Alonso",
+      "team": "Paraguay",
+      "club": "Atlético Mineiro",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 14,
+        "starts": 13,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/junior-alonso/KpAuQGn2/",
+      "direttaPlayerId": "KpAuQGn2",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1314,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.02"
+      }
+    },
+    "paraguay::mauricio magalhaes": {
+      "player": "Mauricio Magalhães",
+      "team": "Paraguay",
+      "club": "Libertad",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 0,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mauricio/KABD6DYa/",
+      "direttaPlayerId": "KABD6DYa",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 925,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.43"
+      }
+    },
+    "paraguay::omar alderete": {
+      "player": "Omar Alderete",
+      "team": "Paraguay",
+      "club": "Getafe",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 12,
+        "subIns": 1,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 1,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/alderete-omar/fLceoUtl/",
+      "direttaPlayerId": "fLceoUtl",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1329,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.76",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1239,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 6.68
+        }
+      }
+    },
+    "paraguay::gaston olveira": {
+      "player": "Gastón Olveira",
+      "team": "Paraguay",
+      "club": "Olimpia",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/olveira-gaston/0K98OubN/",
+      "direttaPlayerId": "0K98OubN",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.51",
+        "scope": "Club + nazionale",
+        "goalsConceded": 2,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.13",
+        "nationalGoalkeeper": {
+          "appearances": 1,
+          "goalsConceded": 0,
+          "goalsConcededPerGame": 0,
+          "averageRating": null,
+          "matches": [
+            {
+              "conceded": 0,
+              "rating": null
+            }
+          ]
+        }
+      }
+    },
+    "paraguay::orlando gill": {
+      "player": "Orlando Gill",
+      "team": "Paraguay",
+      "club": "San Lorenzo",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 5,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gill-orlando/d6RBYBBD/",
+      "direttaPlayerId": "d6RBYBBD",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.94",
+        "scope": "Club + nazionale",
+        "goalsConceded": 14,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.93",
+        "nationalGoalkeeper": {
+          "appearances": 1,
+          "goalsConceded": 2,
+          "goalsConcededPerGame": 2,
+          "averageRating": 6.1,
+          "matches": [
+            {
+              "conceded": 2,
+              "rating": 6.1
+            }
+          ]
+        }
+      }
+    },
+    "paraguay::roberto fernandez": {
+      "player": "Roberto Fernández",
+      "team": "Paraguay",
+      "club": "Cerro Porteño",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 9,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gatito-fernandez/trdcbm1s/",
+      "direttaPlayerId": "trdcbm1s",
+      "recent15": {
+        "appearances": 5,
+        "minutes": 450,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 5,
+        "averageRating": "6.33",
+        "scope": "Club + nazionale",
+        "goalsConceded": 9,
+        "goalsConcededMatches": 5,
+        "goalsConcededPerGame": "1.80",
+        "nationalGoalkeeper": {
+          "appearances": 2,
+          "goalsConceded": 2,
+          "goalsConcededPerGame": 1,
+          "averageRating": 6.5,
+          "matches": [
+            {
+              "conceded": 2,
+              "rating": 6.3
+            },
+            {
+              "conceded": 0,
+              "rating": 6.7
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "D",
+      "squadra": "Paraguay",
+      "giocatore": "Andres Cubas",
+      "club": "Vancouver Whitecaps",
+      "lega": "MLS",
+      "ammonizioni_stagionali": 16,
+      "espulsioni_stagionali": 0,
+      "media_falli_partita": 1.6,
+      "rischio_cartellino": 67
+    }
+  ]
+}

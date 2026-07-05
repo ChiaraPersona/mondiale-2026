@@ -1,0 +1,1333 @@
+{
+  "team": "Bosnia ed Erzegovina",
+  "eliminationDate": "2026-07-02",
+  "roster": [
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Attaccanti",
+      "player": "Edin Dzeko",
+      "club": "Schalke 04",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 40,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Attaccanti",
+      "player": "Ermedin Demirovic",
+      "club": "VfB Stuttgart",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Attaccanti",
+      "player": "Haris Tabakovic",
+      "club": "Borussia Moenchengladbach",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Attaccanti",
+      "player": "Jovo Lukic",
+      "club": "Universitatea Cluj",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Romania",
+      "league": "Liga I",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Attaccanti",
+      "player": "Samed Bazdar",
+      "club": "Jagiellonia Bialystok",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Polonia",
+      "league": "Ekstraklasa",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Centrocampisti",
+      "player": "Amar Memic",
+      "club": "Viktoria Plzen",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Repubblica Ceca",
+      "league": "Czech First League",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Centrocampisti",
+      "player": "Amir Hadziahmetovic",
+      "club": "Hull City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Centrocampisti",
+      "player": "Armin Gigovic",
+      "club": "Young Boys",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Svizzera",
+      "league": "Swiss Super League",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Centrocampisti",
+      "player": "Benjamin Tahirovic",
+      "club": "Brondby",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Danimarca",
+      "league": "Danish Superliga",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Centrocampisti",
+      "player": "Dzenis Burnic",
+      "club": "Karlsruher SC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Centrocampisti",
+      "player": "Ermin Mahmic",
+      "club": "Slovan Liberec",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Repubblica Ceca",
+      "league": "Czech First League",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 21,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Centrocampisti",
+      "player": "Esmir Bajraktarevic",
+      "club": "PSV Eindhoven",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 21,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Centrocampisti",
+      "player": "Ivan Basic",
+      "club": "Astana",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Kazakistan",
+      "league": "Kazakhstan Premier League",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Centrocampisti",
+      "player": "Ivan Sunjic",
+      "club": "Pafos",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Cipro",
+      "league": "Cypriot First Division",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Centrocampisti",
+      "player": "Kerim Alajbegovic",
+      "club": "RB Salzburg",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Austria",
+      "league": "Austrian Bundesliga",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 19,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Difensori",
+      "player": "Amar Dedic",
+      "club": "Benfica",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Difensori",
+      "player": "Dennis Hadzikadunic",
+      "club": "Sampdoria",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Difensori",
+      "player": "Nidal Celik",
+      "club": "Lens",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 20,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Difensori",
+      "player": "Nihad Mujakic",
+      "club": "Gaziantep",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Difensori",
+      "player": "Nikola Katic",
+      "club": "Schalke 04",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Difensori",
+      "player": "Sead Kolasinac",
+      "club": "Atalanta",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Difensori",
+      "player": "Stjepan Radeljic",
+      "club": "Rijeka",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Croazia",
+      "league": "HNL",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Difensori",
+      "player": "Tarik Muharemovic",
+      "club": "Sassuolo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Portieri",
+      "player": "Martin Zlomislic",
+      "club": "Rijeka",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Croazia",
+      "league": "HNL",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Portieri",
+      "player": "Nikola Vasilj",
+      "club": "St Pauli",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "B",
+      "team": "Bosnia ed Erzegovina",
+      "role": "Portieri",
+      "player": "Osman Hadzikic",
+      "club": "Slaven Belupo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Croazia",
+      "league": "HNL",
+      "flag": "flags/bosnia-ed-erzegovina.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "bosnia ed erzegovina::edin dzeko": {
+      "player": "Edin Dzeko",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Schalke 04",
+      "age": 40,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 9,
+        "subIns": 1,
+        "goals": 6,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/dzeko-edin/zilGmgZq/",
+      "direttaPlayerId": "zilGmgZq",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 983,
+        "goals": 7,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "7.28",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 575,
+          "goals": 6,
+          "assists": 3,
+          "yellowCards": 0,
+          "redCards": 1,
+          "averageRating": 7.59
+        }
+      }
+    },
+    "bosnia ed erzegovina::ermedin demirovic": {
+      "player": "Ermedin Demirovic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "VfB Stuttgart",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 9,
+        "subIns": 1,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/demirovic-ermedin/dIsZ5Eyb/",
+      "direttaPlayerId": "dIsZ5Eyb",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1041,
+        "goals": 5,
+        "assists": 2,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.65",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 538,
+          "goals": 5,
+          "assists": 1,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 7.11
+        }
+      }
+    },
+    "bosnia ed erzegovina::haris tabakovic": {
+      "player": "Haris Tabakovic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Borussia Moenchengladbach",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 2,
+        "subIns": 3,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/tabakovic-haris/Asecu8a3/",
+      "direttaPlayerId": "Asecu8a3",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1184,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.23",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1138,
+          "goals": 4,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.23
+        }
+      }
+    },
+    "bosnia ed erzegovina::jovo lukic": {
+      "player": "Jovo Lukic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Universitatea Cluj",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/lukic-jovo/AVGMpFFJ/",
+      "direttaPlayerId": "AVGMpFFJ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1179,
+        "goals": 10,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.33"
+      }
+    },
+    "bosnia ed erzegovina::samed bazdar": {
+      "player": "Samed Bazdar",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Jagiellonia Bialystok",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 4,
+        "subIns": 8,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bazdar-samed/6mb7wPdI/",
+      "direttaPlayerId": "6mb7wPdI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 565,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.62",
+        "topFive": {
+          "appearances": 1,
+          "minutes": 23,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.3
+        }
+      }
+    },
+    "bosnia ed erzegovina::amar memic": {
+      "player": "Amar Memic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Viktoria Plzen",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 8,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/memic-amar/O85x3xJ8/",
+      "direttaPlayerId": "O85x3xJ8",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1268,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.62"
+      }
+    },
+    "bosnia ed erzegovina::amir hadziahmetovic": {
+      "player": "Amir Hadziahmetovic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Hull City",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 0,
+        "subIns": 5,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hadziahmetovic-amir/vXPNa292/",
+      "direttaPlayerId": "vXPNa292",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 799,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.66"
+      }
+    },
+    "bosnia ed erzegovina::armin gigovic": {
+      "player": "Armin Gigovic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Young Boys",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 9,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gigovic-armin/Yitlr4Gb/",
+      "direttaPlayerId": "Yitlr4Gb",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 954,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.73"
+      }
+    },
+    "bosnia ed erzegovina::benjamin tahirovic": {
+      "player": "Benjamin Tahirovic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Brondby",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 15,
+        "starts": 12,
+        "subIns": 3,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/tahirovic-benjamin/8t8aMjIk/",
+      "direttaPlayerId": "8t8aMjIk",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 866,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.71"
+      }
+    },
+    "bosnia ed erzegovina::dzenis burnic": {
+      "player": "Dzenis Burnic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Karlsruher SC",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 6,
+        "subIns": 7,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/burnic-dzenis/40zt37bl/",
+      "direttaPlayerId": "40zt37bl",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1236,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 7,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.09",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1162,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 7,
+          "redCards": 0,
+          "averageRating": 6.09
+        }
+      }
+    },
+    "bosnia ed erzegovina::ermin mahmic": {
+      "player": "Ermin Mahmic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Slovan Liberec",
+      "age": 21,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mahmic-ermin/lbdiuVzP/",
+      "direttaPlayerId": "lbdiuVzP",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 999,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.79"
+      }
+    },
+    "bosnia ed erzegovina::esmir bajraktarevic": {
+      "player": "Esmir Bajraktarevic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "PSV Eindhoven",
+      "age": 21,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 6,
+        "subIns": 5,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bajraktarevic-esmir/GUqdXgyQ/",
+      "direttaPlayerId": "GUqdXgyQ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 774,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.82"
+      }
+    },
+    "bosnia ed erzegovina::ivan basic": {
+      "player": "Ivan Basic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Astana",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 4,
+        "subIns": 8,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/basic-ivan/nwTWiiMP/",
+      "direttaPlayerId": "nwTWiiMP",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1096,
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.52"
+      }
+    },
+    "bosnia ed erzegovina::ivan sunjic": {
+      "player": "Ivan Sunjic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Pafos",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ivan-sunjic/WK5l228D/",
+      "direttaPlayerId": "WK5l228D",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1152,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.17"
+      }
+    },
+    "bosnia ed erzegovina::kerim alajbegovic": {
+      "player": "Kerim Alajbegovic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "RB Salzburg",
+      "age": 19,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 3,
+        "subIns": 6,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/alajbegovic-kerim/4WqOzLUF/",
+      "direttaPlayerId": "4WqOzLUF",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1063,
+        "goals": 5,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.64"
+      }
+    },
+    "bosnia ed erzegovina::amar dedic": {
+      "player": "Amar Dedic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Benfica",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 11,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/dedic-amar/Q1ROYFRs/",
+      "direttaPlayerId": "Q1ROYFRs",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1271,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.67"
+      }
+    },
+    "bosnia ed erzegovina::dennis hadzikadunic": {
+      "player": "Dennis Hadzikadunic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Sampdoria",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hadzikadunic-dennis/jV3UcfqE/",
+      "direttaPlayerId": "jV3UcfqE",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1281,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.83"
+      }
+    },
+    "bosnia ed erzegovina::nidal celik": {
+      "player": "Nidal Celik",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Lens",
+      "age": 20,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/celik-nidal/GG20rgqO/",
+      "direttaPlayerId": "GG20rgqO",
+      "recent15": {
+        "appearances": 9,
+        "minutes": 570,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 9,
+        "averageRating": "6.60",
+        "topFive": {
+          "appearances": 6,
+          "minutes": 474,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.73
+        }
+      }
+    },
+    "bosnia ed erzegovina::nihad mujakic": {
+      "player": "Nihad Mujakic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Gaziantep",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 4,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mujakic-nihad/OIYjrKQh/",
+      "direttaPlayerId": "OIYjrKQh",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1230,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.35"
+      }
+    },
+    "bosnia ed erzegovina::nikola katic": {
+      "player": "Nikola Katic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Schalke 04",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 7,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/katic-nikola/dUkOy6Yc/",
+      "direttaPlayerId": "dUkOy6Yc",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.01",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1260,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 7.05
+        }
+      }
+    },
+    "bosnia ed erzegovina::sead kolasinac": {
+      "player": "Sead Kolasinac",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Atalanta",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 4,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sead-kolasinac/8xFYnbEi/",
+      "direttaPlayerId": "8xFYnbEi",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1031,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.60",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 553,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.76
+        }
+      }
+    },
+    "bosnia ed erzegovina::stjepan radeljic": {
+      "player": "Stjepan Radeljic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Rijeka",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 4,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/radeljic-stjepan/WUSzYCFD/",
+      "direttaPlayerId": "WUSzYCFD",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1196,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.32"
+      }
+    },
+    "bosnia ed erzegovina::tarik muharemovic": {
+      "player": "Tarik Muharemovic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Sassuolo",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 9,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/muharemovic-tarik/O0Ss5jSf/",
+      "direttaPlayerId": "O0Ss5jSf",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1336,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.85",
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1216,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.8
+        }
+      }
+    },
+    "bosnia ed erzegovina::martin zlomislic": {
+      "player": "Martin Zlomislic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Rijeka",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 3,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/zlomislic-martin/fssx9NH9/",
+      "direttaPlayerId": "fssx9NH9",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.00",
+        "scope": "Club + nazionale",
+        "goalsConceded": 17,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.13"
+      }
+    },
+    "bosnia ed erzegovina::nikola vasilj": {
+      "player": "Nikola Vasilj",
+      "team": "Bosnia ed Erzegovina",
+      "club": "St Pauli",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 12,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/vasilj-nikola/zJ3yuRdk/",
+      "direttaPlayerId": "zJ3yuRdk",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.97",
+        "scope": "Club + nazionale",
+        "goalsConceded": 20,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.33",
+        "topFive": {
+          "appearances": 15,
+          "minutes": 1350,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.97
+        }
+      }
+    },
+    "bosnia ed erzegovina::osman hadzikic": {
+      "player": "Osman Hadzikic",
+      "team": "Bosnia ed Erzegovina",
+      "club": "Slaven Belupo",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/hadzikic-osman/8hcZi0Aa/",
+      "direttaPlayerId": "8hcZi0Aa",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1285,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.48",
+        "scope": "Club + nazionale",
+        "goalsConceded": 20,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.33"
+      }
+    }
+  },
+  "cardRiskPlayers": []
+}

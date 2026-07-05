@@ -1,0 +1,1872 @@
+{
+  "team": "Senegal",
+  "eliminationDate": "2026-07-01",
+  "roster": [
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Attaccanti",
+      "player": "Assane Diao",
+      "club": "Como",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/senegal.svg",
+      "age": 21,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Attaccanti",
+      "player": "Bamba Dieng",
+      "club": "Lorient",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/senegal.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Attaccanti",
+      "player": "Cherif Ndiaye",
+      "club": "Samsunspor",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/senegal.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Attaccanti",
+      "player": "Ibrahim Mbaye",
+      "club": "PSG",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/senegal.svg",
+      "age": 18,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Attaccanti",
+      "player": "Iliman Ndiaye",
+      "club": "Everton",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/senegal.svg",
+      "age": 20,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Attaccanti",
+      "player": "Isma�la Sarr",
+      "club": "Crystal Palace",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/senegal.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Attaccanti",
+      "player": "Nicolas Jackson",
+      "club": "Bayern",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/senegal.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Attaccanti",
+      "player": "Sadio Man�",
+      "club": "Al Nassr",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/senegal.svg",
+      "age": 34,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Centrocampisti",
+      "player": "Bara Sapoko Ndiaye",
+      "club": "Bayern",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Germania",
+      "league": "Bundesliga",
+      "flag": "flags/senegal.svg",
+      "age": 19,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Centrocampisti",
+      "player": "Habib Diarra",
+      "club": "Sunderland",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "EFL Championship",
+      "flag": "flags/senegal.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Centrocampisti",
+      "player": "Idrissa Gana Gueye",
+      "club": "Everton",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/senegal.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Centrocampisti",
+      "player": "Lamine Camara",
+      "club": "M�naco",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/senegal.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Centrocampisti",
+      "player": "Pape Gueye",
+      "club": "Villarreal",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/senegal.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Centrocampisti",
+      "player": "Pape Matar Sarr",
+      "club": "Tottenham",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/senegal.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Centrocampisti",
+      "player": "Path� Ciss",
+      "club": "Rayo Vallecano",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/senegal.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Difensori",
+      "player": "Abdoulaye Seck",
+      "club": "Maccabi Haifa",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Israele",
+      "league": "Israeli Premier League",
+      "flag": "flags/senegal.svg",
+      "age": 34,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Difensori",
+      "player": "Antoine Mendy",
+      "club": "Niza",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/senegal.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Difensori",
+      "player": "El Hadji Malick Diouf",
+      "club": "West Ham",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/senegal.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Difensori",
+      "player": "Ilay Camara",
+      "club": "Anderlecht",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Belgio",
+      "league": "Belgian Pro League",
+      "flag": "flags/senegal.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Difensori",
+      "player": "Isma�l Jakobs",
+      "club": "Galatasaray",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/senegal.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Difensori",
+      "player": "Kalidou Koulibaly",
+      "club": "Al Ahli",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/senegal.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Difensori",
+      "player": "Kr�pin Diatta",
+      "club": "M�naco",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/senegal.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Difensori",
+      "player": "Mamadou Sarr",
+      "club": "Estrasburgo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/senegal.svg",
+      "age": 21,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Difensori",
+      "player": "Moussa Niakhat�",
+      "club": "O. Lyon",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/senegal.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Difensori",
+      "player": "Moustapha Mbow",
+      "club": "Paris",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/senegal.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Portieri",
+      "player": "Edouard Mendy",
+      "club": "Al Ahli",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/senegal.svg",
+      "age": 34,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Portieri",
+      "player": "Mory Diaw",
+      "club": "Le Havre",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/senegal.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "role": "Portieri",
+      "player": "Yehvann Diouf",
+      "club": "Niza",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/senegal.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "senegal::assane diao": {
+      "player": "Assane Diao",
+      "team": "Senegal",
+      "club": "Como",
+      "age": 21,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/diao-assane/rZziaoTk/",
+      "direttaPlayerId": "rZziaoTk",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 697,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.67",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 446,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.81
+        }
+      }
+    },
+    "senegal::bamba dieng": {
+      "player": "Bamba Dieng",
+      "team": "Senegal",
+      "club": "Lorient",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 0,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/dieng-bamba/ba2ejA41/",
+      "direttaPlayerId": "ba2ejA41",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 932,
+        "goals": 12,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.08",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 723,
+          "goals": 7,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.85
+        }
+      }
+    },
+    "senegal::cherif ndiaye": {
+      "player": "Cherif Ndiaye",
+      "team": "Senegal",
+      "club": "Samsunspor",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 1,
+        "subIns": 11,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ndiaye-cherif/fwNzmJyM/",
+      "direttaPlayerId": "fwNzmJyM",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 752,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.51"
+      }
+    },
+    "senegal::ibrahim mbaye": {
+      "player": "Ibrahim Mbaye",
+      "team": "Senegal",
+      "club": "PSG",
+      "age": 18,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 2,
+        "subIns": 8,
+        "goals": 3,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mbaye-ibrahim/nkxtcGo7/",
+      "direttaPlayerId": "nkxtcGo7",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 477,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.78",
+        "topFive": {
+          "appearances": 5,
+          "minutes": 187,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.6
+        }
+      }
+    },
+    "senegal::iliman ndiaye": {
+      "player": "Iliman Ndiaye",
+      "team": "Senegal",
+      "club": "Everton",
+      "age": 20,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ndiaye-iliman/Im0c6Oy7/",
+      "direttaPlayerId": "Im0c6Oy7",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1251,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.86",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 810,
+          "goals": 1,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.87
+        }
+      }
+    },
+    "senegal::ismaila sarr": {
+      "player": "Ismaïla Sarr",
+      "team": "Senegal",
+      "club": "Crystal Palace",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 8,
+        "subIns": 2,
+        "goals": 3,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sarr-ismaila/ll2uTDkB/",
+      "direttaPlayerId": "ll2uTDkB",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1279,
+        "goals": 9,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.83",
+        "topFive": {
+          "appearances": 7,
+          "minutes": 565,
+          "goals": 3,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.24
+        }
+      }
+    },
+    "senegal::nicolas jackson": {
+      "player": "Nicolas Jackson",
+      "team": "Senegal",
+      "club": "Bayern",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 11,
+        "subIns": 1,
+        "goals": 6,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/jackson-nicolas/jXg8d5RJ/",
+      "direttaPlayerId": "jXg8d5RJ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 887,
+        "goals": 6,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "7.04",
+        "topFive": {
+          "appearances": 6,
+          "minutes": 262,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 1,
+          "averageRating": 7
+        }
+      }
+    },
+    "senegal::sadio mane": {
+      "player": "Sadio Mané",
+      "team": "Senegal",
+      "club": "Al Nassr",
+      "age": 34,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 13,
+        "subIns": 0,
+        "goals": 9,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mane-sadio/xxskxOU0/",
+      "direttaPlayerId": "xxskxOU0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1274,
+        "goals": 7,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.83"
+      }
+    },
+    "senegal::bara sapoko ndiaye": {
+      "player": "Bara Sapoko Ndiaye",
+      "team": "Senegal",
+      "club": "Bayern",
+      "age": 19,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ndiaye-bara/QNiKiuQb/",
+      "direttaPlayerId": "QNiKiuQb",
+      "recent15": {
+        "appearances": 1,
+        "minutes": 7,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 1,
+        "averageRating": "",
+        "topFive": {
+          "appearances": 1,
+          "minutes": 7,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": null
+        }
+      }
+    },
+    "senegal::habib diarra": {
+      "player": "Habib Diarra",
+      "team": "Senegal",
+      "club": "Sunderland",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 5,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/diarra-habib/nFakLd1E/",
+      "direttaPlayerId": "nFakLd1E",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1111,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.41",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 731,
+          "goals": 2,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 6.28
+        }
+      }
+    },
+    "senegal::idrissa gana gueye": {
+      "player": "Idrissa Gana Gueye",
+      "team": "Senegal",
+      "club": "Everton",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 14,
+        "starts": 12,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gueye-idrissa/f12b2WQA/",
+      "direttaPlayerId": "f12b2WQA",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1337,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.95",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 707,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.69
+        }
+      }
+    },
+    "senegal::lamine camara": {
+      "player": "Lamine Camara",
+      "team": "Senegal",
+      "club": "Mónaco",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 5,
+        "subIns": 7,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/camara-lamine/boBGHitI/",
+      "direttaPlayerId": "boBGHitI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1264,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.06",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 782,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 7.36
+        }
+      }
+    },
+    "senegal::pape gueye": {
+      "player": "Pape Gueye",
+      "team": "Senegal",
+      "club": "Villarreal",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 11,
+        "subIns": 1,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gueye-pape/p6rsDQvN/",
+      "direttaPlayerId": "p6rsDQvN",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1136,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.03",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 818,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.98
+        }
+      }
+    },
+    "senegal::pape matar sarr": {
+      "player": "Pape Matar Sarr",
+      "team": "Senegal",
+      "club": "Tottenham",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 3,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sarr-pape-matar/CSjTl5sR/",
+      "direttaPlayerId": "CSjTl5sR",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1024,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.56",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 640,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.49
+        }
+      }
+    },
+    "senegal::pathe ciss": {
+      "player": "Pathé Ciss",
+      "team": "Senegal",
+      "club": "Rayo Vallecano",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 2,
+        "subIns": 8,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ciss-pathe/zRB7v9IT/",
+      "direttaPlayerId": "zRB7v9IT",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1000,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.82",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 528,
+          "goals": 2,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 1,
+          "averageRating": 6.69
+        }
+      }
+    },
+    "senegal::abdoulaye seck": {
+      "player": "Abdoulaye Seck",
+      "team": "Senegal",
+      "club": "Maccabi Haifa",
+      "age": 34,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 6,
+        "subIns": 1,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/seck-abdoulaye/nLaO6snF/",
+      "direttaPlayerId": "nLaO6snF",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1248,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.94"
+      }
+    },
+    "senegal::antoine mendy": {
+      "player": "Antoine Mendy",
+      "team": "Senegal",
+      "club": "Niza",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 3,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mendy-antoine/zRrXS0P0/",
+      "direttaPlayerId": "zRrXS0P0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1079,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.63",
+        "topFive": {
+          "appearances": 8,
+          "minutes": 597,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.56
+        }
+      }
+    },
+    "senegal::el hadji malick diouf": {
+      "player": "El Hadji Malick Diouf",
+      "team": "Senegal",
+      "club": "West Ham",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 9,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/malick-diouf/n1SNJhEe/",
+      "direttaPlayerId": "n1SNJhEe",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1199,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.88",
+        "topFive": {
+          "appearances": 10,
+          "minutes": 801,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.8
+        }
+      }
+    },
+    "senegal::ilay camara": {
+      "player": "Ilay Camara",
+      "team": "Senegal",
+      "club": "Anderlecht",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 1,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/camara-ilay/Wrax9llr/",
+      "direttaPlayerId": "Wrax9llr",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 955,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.66"
+      }
+    },
+    "senegal::ismail jakobs": {
+      "player": "Ismaïl Jakobs",
+      "team": "Senegal",
+      "club": "Galatasaray",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 6,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/jakobs-ismail/0YpRCTwo/",
+      "direttaPlayerId": "0YpRCTwo",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 957,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.58"
+      }
+    },
+    "senegal::kalidou koulibaly": {
+      "player": "Kalidou Koulibaly",
+      "team": "Senegal",
+      "club": "Al Ahli",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 10,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 1,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/koulibaly-kalidou/hSKz7qT3/",
+      "direttaPlayerId": "hSKz7qT3",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1288,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "7.23"
+      }
+    },
+    "senegal::krepin diatta": {
+      "player": "Krépin Diatta",
+      "team": "Senegal",
+      "club": "Mónaco",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 12,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/diatta-krepin/lbPmGop2/",
+      "direttaPlayerId": "lbPmGop2",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 851,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.05",
+        "topFive": {
+          "appearances": 7,
+          "minutes": 233,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.62
+        }
+      }
+    },
+    "senegal::mamadou sarr": {
+      "player": "Mamadou Sarr",
+      "team": "Senegal",
+      "club": "Estrasburgo",
+      "age": 21,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 5,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/sarr-mamadou/h2cuSnsi/",
+      "direttaPlayerId": "h2cuSnsi",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1046,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.35",
+        "topFive": {
+          "appearances": 7,
+          "minutes": 499,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 5.95
+        }
+      }
+    },
+    "senegal::moussa niakhate": {
+      "player": "Moussa Niakhaté",
+      "team": "Senegal",
+      "club": "O. Lyon",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 10,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/niakhate-moussa/tdnibGHH/",
+      "direttaPlayerId": "tdnibGHH",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1234,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "7.27",
+        "topFive": {
+          "appearances": 9,
+          "minutes": 765,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.31
+        }
+      }
+    },
+    "senegal::moustapha mbow": {
+      "player": "Moustapha Mbow",
+      "team": "Senegal",
+      "club": "Paris",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mbow-mamadou/8UK1HbMC/",
+      "direttaPlayerId": "8UK1HbMC",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1277,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.99",
+        "topFive": {
+          "appearances": 12,
+          "minutes": 1007,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.01
+        }
+      }
+    },
+    "senegal::edouard mendy": {
+      "player": "Edouard Mendy",
+      "team": "Senegal",
+      "club": "Al Ahli",
+      "age": 34,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mendy-edouard/8zpLkf6p/",
+      "direttaPlayerId": "8zpLkf6p",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1380,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.83",
+        "scope": "Club + nazionale",
+        "goalsConceded": 13,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.87",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 15,
+          "goalsConceded": 10,
+          "goalsConcededPerGame": "0.67",
+          "averageRating": "6.99",
+          "sample": [
+            {
+              "date": "18.01.26",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Senegal",
+              "awayTeam": "Marokko",
+              "homeScore": 0,
+              "awayScore": 3,
+              "score": "0-3",
+              "minutes": 90,
+              "rating": 7.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "goalsConceded": 3
+            },
+            {
+              "date": "14.01.26",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Senegal",
+              "awayTeam": "Ägypten",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "09.01.26",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Mali",
+              "awayTeam": "Senegal",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": 7.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "03.01.26",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Senegal",
+              "awayTeam": "Sudan",
+              "homeScore": 3,
+              "awayScore": 1,
+              "score": "3-1",
+              "minutes": 90,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "30.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Benin",
+              "awayTeam": "Senegal",
+              "homeScore": 0,
+              "awayScore": 3,
+              "score": "0-3",
+              "minutes": 90,
+              "rating": 7.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "27.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Senegal",
+              "awayTeam": "DR Kongo",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "23.12.25",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Senegal",
+              "awayTeam": "Botswana",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "18.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Senegal",
+              "awayTeam": "Kenia",
+              "homeScore": 8,
+              "awayScore": 0,
+              "score": "8-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "15.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Senegal",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": 6.6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "10.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Südsudan",
+              "awayTeam": "Senegal",
+              "homeScore": 0,
+              "awayScore": 5,
+              "score": "0-5",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "09.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "DR Kongo",
+              "awayTeam": "Senegal",
+              "homeScore": 2,
+              "awayScore": 3,
+              "score": "2-3",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "05.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Senegal",
+              "awayTeam": "Sudan",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "10.06.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "England",
+              "awayTeam": "Senegal",
+              "homeScore": 1,
+              "awayScore": 3,
+              "score": "1-3",
+              "minutes": 90,
+              "rating": 7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "25.03.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Senegal",
+              "awayTeam": "Togo",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "22.03.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Sudan",
+              "awayTeam": "Senegal",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      }
+    },
+    "senegal::mory diaw": {
+      "player": "Mory Diaw",
+      "team": "Senegal",
+      "club": "Le Havre",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 3,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/diaw-mory/vJ2Mu476/",
+      "direttaPlayerId": "vJ2Mu476",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1306,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.96",
+        "scope": "Club + nazionale",
+        "goalsConceded": 16,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.07",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 4,
+          "goalsConceded": 2,
+          "goalsConcededPerGame": "0.50",
+          "averageRating": "6.40",
+          "sample": [
+            {
+              "date": "14.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Senegal",
+              "awayTeam": "Mauretanien",
+              "homeScore": 4,
+              "awayScore": 0,
+              "score": "4-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "22.03.24",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Senegal",
+              "awayTeam": "Gabun",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "08.01.24",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Senegal",
+              "awayTeam": "Niger",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 45,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "20.06.23",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Senegal",
+              "homeScore": 2,
+              "awayScore": 4,
+              "score": "2-4",
+              "minutes": 90,
+              "rating": 6.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            }
+          ]
+        },
+        "topFive": {
+          "appearances": 15,
+          "minutes": 1306,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.96
+        }
+      }
+    },
+    "senegal::yehvann diouf": {
+      "player": "Yehvann Diouf",
+      "team": "Senegal",
+      "club": "Niza",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/diouf-yehvann/xCg7OFVE/",
+      "direttaPlayerId": "xCg7OFVE",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.64",
+        "scope": "Club + nazionale",
+        "goalsConceded": 34,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "2.27",
+        "nationalGoalkeeper": {
+          "appearances": 1,
+          "goalsConceded": 1,
+          "goalsConcededPerGame": 1,
+          "averageRating": null,
+          "matches": [
+            {
+              "conceded": 1,
+              "rating": null
+            }
+          ]
+        },
+        "topFive": {
+          "appearances": 9,
+          "minutes": 810,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.51
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "I",
+      "squadra": "Senegal",
+      "giocatore": "Pape Gueye",
+      "club": "Villarreal",
+      "lega": "LaLiga",
+      "ammonizioni_stagionali": 17,
+      "espulsioni_stagionali": 0,
+      "media_falli_partita": 1.7,
+      "rischio_cartellino": 71
+    }
+  ]
+}

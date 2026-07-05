@@ -1,0 +1,1383 @@
+{
+  "team": "Capo Verde",
+  "eliminationDate": "2026-07-03",
+  "roster": [
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Attaccanti",
+      "player": "Dailon Livramento",
+      "club": "Casa Pia",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/capo-verde.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Attaccanti",
+      "player": "Garry Rodrigues",
+      "club": "Apollon Limassol",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Cipro",
+      "league": "Cypriot First Division",
+      "flag": "flags/capo-verde.svg",
+      "age": 36,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Attaccanti",
+      "player": "Gilson Benchimol",
+      "club": "Akron Togliatti",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Russia",
+      "league": "Russian Premier League",
+      "flag": "flags/capo-verde.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Attaccanti",
+      "player": "H�lio Varela",
+      "club": "Maccabi Tel Aviv",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Israele",
+      "league": "Israeli Premier League",
+      "flag": "flags/capo-verde.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Attaccanti",
+      "player": "Jovane Cabral",
+      "club": "Estrela Amadora",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/capo-verde.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Attaccanti",
+      "player": "Nuno da Costa",
+      "club": "Basaksehir FK",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/capo-verde.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Attaccanti",
+      "player": "Ryan Mendes",
+      "club": "Igdir FK",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/capo-verde.svg",
+      "age": 36,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Attaccanti",
+      "player": "Willy Semedo",
+      "club": "Omonia Nicosia",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Cipro",
+      "league": "Cypriot First Division",
+      "flag": "flags/capo-verde.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Centrocampisti",
+      "player": "Deroy Duarte",
+      "club": "Ludogorets",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Bulgaria",
+      "league": "First League",
+      "flag": "flags/capo-verde.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Centrocampisti",
+      "player": "Jamiro Monteiro",
+      "club": "Zwolle",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Olanda",
+      "league": "Eredivisie",
+      "flag": "flags/capo-verde.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Centrocampisti",
+      "player": "Kevin Pina",
+      "club": "Krasnodar",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Russia",
+      "league": "Russian Premier League",
+      "flag": "flags/capo-verde.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Centrocampisti",
+      "player": "Laros Duarte",
+      "club": "Puskas AFC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Ungheria",
+      "league": "NB I",
+      "flag": "flags/capo-verde.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Centrocampisti",
+      "player": "Telmo Arcanjo",
+      "club": "Vitoria Guimar�es",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/capo-verde.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Centrocampisti",
+      "player": "Yannick Semedo",
+      "club": "Farense",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/capo-verde.svg",
+      "age": 31,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Difensori",
+      "player": "Edilson Borges",
+      "club": "Al-Bataeh CSC",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Emirati Arabi Uniti",
+      "league": "UAE Pro League",
+      "flag": "flags/capo-verde.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Difensori",
+      "player": "Ianique Tavares",
+      "club": "Torreense",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/capo-verde.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Difensori",
+      "player": "Jo�o Paulo Fernandes",
+      "club": "FCSB",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Romania",
+      "league": "Liga I",
+      "flag": "flags/capo-verde.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Difensori",
+      "player": "Kelvin Pires",
+      "club": "SJK Sein�joki",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Finlandia",
+      "league": "Veikkausliiga",
+      "flag": "flags/capo-verde.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Difensori",
+      "player": "Logan Costa",
+      "club": "Villarreal",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/capo-verde.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Difensori",
+      "player": "Roberto Lopes",
+      "club": "Shamrock Rovers",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Irlanda",
+      "league": "League of Ireland Premier Division",
+      "flag": "flags/capo-verde.svg",
+      "age": 34,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Difensori",
+      "player": "Sidny Lopes Cabral",
+      "club": "Benfica",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/capo-verde.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Difensori",
+      "player": "Steven Moreira",
+      "club": "Columbus Crew",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/capo-verde.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Difensori",
+      "player": "Wagner Pina",
+      "club": "Trabzonspor",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/capo-verde.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Portieri",
+      "player": "Carlos Santos",
+      "club": "San Diego",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Stati Uniti",
+      "league": "MLS",
+      "flag": "flags/capo-verde.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Portieri",
+      "player": "Josimar Dias",
+      "club": "Chaves",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/capo-verde.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "H",
+      "team": "Capo Verde",
+      "role": "Portieri",
+      "player": "M�rcio da Rosa",
+      "club": "Montana",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Capo Verde",
+      "league": "Campeonato Nacional",
+      "flag": "flags/capo-verde.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "capo verde::dailon livramento": {
+      "player": "Dailon Livramento",
+      "team": "Capo Verde",
+      "club": "Casa Pia",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 8,
+        "subIns": 3,
+        "goals": 5,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/rocha-livramento-dailon/Aiy63dji/",
+      "direttaPlayerId": "Aiy63dji",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 645,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.39"
+      }
+    },
+    "capo verde::garry rodrigues": {
+      "player": "Garry Rodrigues",
+      "team": "Capo Verde",
+      "club": "Apollon Limassol",
+      "age": 36,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 4,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/rodrigues-garry/OvWqhAAD/",
+      "direttaPlayerId": "OvWqhAAD",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1040,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.60"
+      }
+    },
+    "capo verde::gilson benchimol": {
+      "player": "Gilson Benchimol",
+      "team": "Capo Verde",
+      "club": "Akron Togliatti",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 0,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/benchimol/WIgYe7Nj/",
+      "direttaPlayerId": "WIgYe7Nj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 779,
+        "goals": 5,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.63"
+      }
+    },
+    "capo verde::helio varela": {
+      "player": "Hélio Varela",
+      "team": "Capo Verde",
+      "club": "Maccabi Tel Aviv",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 2,
+        "subIns": 6,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bruno-varela/IarQbYUt/",
+      "direttaPlayerId": "IarQbYUt",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1293,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.72"
+      }
+    },
+    "capo verde::jovane cabral": {
+      "player": "Jovane Cabral",
+      "team": "Capo Verde",
+      "club": "Estrela Amadora",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 6,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/jovane/WUAs2EHj/",
+      "direttaPlayerId": "WUAs2EHj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1033,
+        "goals": 5,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.84"
+      }
+    },
+    "capo verde::nuno da costa": {
+      "player": "Nuno da Costa",
+      "team": "Capo Verde",
+      "club": "Basaksehir FK",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 2,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/da-costa-joia-nuno/Megzw2qb/",
+      "direttaPlayerId": "Megzw2qb",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 445,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.67"
+      }
+    },
+    "capo verde::ryan mendes": {
+      "player": "Ryan Mendes",
+      "team": "Capo Verde",
+      "club": "Igdir FK",
+      "age": 36,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 9,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mendes-ryan/0MexVJ9m/",
+      "direttaPlayerId": "0MexVJ9m",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 922,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.55"
+      }
+    },
+    "capo verde::willy semedo": {
+      "player": "Willy Semedo",
+      "team": "Capo Verde",
+      "club": "Omonia Nicosia",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 6,
+        "subIns": 5,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/semedo-willy/00eTrJz0/",
+      "direttaPlayerId": "00eTrJz0",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1042,
+        "goals": 7,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.40"
+      }
+    },
+    "capo verde::deroy duarte": {
+      "player": "Deroy Duarte",
+      "team": "Capo Verde",
+      "club": "Ludogorets",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 4,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/duarte-deroy/2oo31kfa/",
+      "direttaPlayerId": "2oo31kfa",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1131,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.00"
+      }
+    },
+    "capo verde::jamiro monteiro": {
+      "player": "Jamiro Monteiro",
+      "team": "Capo Verde",
+      "club": "Zwolle",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 7,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/monteiro-jamiro/QXkjtqYd/",
+      "direttaPlayerId": "QXkjtqYd",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 978,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.73"
+      }
+    },
+    "capo verde::kevin pina": {
+      "player": "Kevin Pina",
+      "team": "Capo Verde",
+      "club": "Krasnodar",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 10,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/goncalves-pereira-de-pina-kevin/ljD3tZSO/",
+      "direttaPlayerId": "ljD3tZSO",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 690,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.59"
+      }
+    },
+    "capo verde::laros duarte": {
+      "player": "Laros Duarte",
+      "team": "Capo Verde",
+      "club": "Puskas AFC",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 4,
+        "subIns": 6,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/duarte-laros/8ty2w50k/",
+      "direttaPlayerId": "8ty2w50k",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1341,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.78"
+      }
+    },
+    "capo verde::telmo arcanjo": {
+      "player": "Telmo Arcanjo",
+      "team": "Capo Verde",
+      "club": "Vitoria Guimarães",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 6,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/arcanjo-telmo/6Xwk64Dj/",
+      "direttaPlayerId": "6Xwk64Dj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 572,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.56"
+      }
+    },
+    "capo verde::yannick semedo": {
+      "player": "Yannick Semedo",
+      "team": "Capo Verde",
+      "club": "Farense",
+      "age": 31,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 8,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/semedo-yannick/vw9Xgz4g/",
+      "direttaPlayerId": "vw9Xgz4g",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 992,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.45"
+      }
+    },
+    "capo verde::edilson borges": {
+      "player": "Edilson Borges",
+      "team": "Capo Verde",
+      "club": "Al-Bataeh CSC",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 9,
+        "subIns": 0,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 1,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/diney-borges/805ZtR7G/",
+      "direttaPlayerId": "805ZtR7G",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1380,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.96"
+      }
+    },
+    "capo verde::ianique tavares": {
+      "player": "Ianique Tavares",
+      "team": "Capo Verde",
+      "club": "Torreense",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 2,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/heriberto-tavares/lEHw32fU/",
+      "direttaPlayerId": "lEHw32fU",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1208,
+        "goals": 3,
+        "assists": 4,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.87"
+      }
+    },
+    "capo verde::joao paulo fernandes": {
+      "player": "João Paulo Fernandes",
+      "team": "Capo Verde",
+      "club": "FCSB",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 7,
+        "subIns": 5,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/joao-paulo/6TzaYddc/",
+      "direttaPlayerId": "6TzaYddc",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1015,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.94"
+      }
+    },
+    "capo verde::kelvin pires": {
+      "player": "Kelvin Pires",
+      "team": "Capo Verde",
+      "club": "SJK Seinäjoki",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerId": "0MWz2VvQ",
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pires-kelvin/0MWz2VvQ/",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1231,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 5,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.50"
+      }
+    },
+    "capo verde::logan costa": {
+      "player": "Logan Costa",
+      "team": "Capo Verde",
+      "club": "Villarreal",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 3,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/costa-logan/EL0WleP6/",
+      "direttaPlayerId": "EL0WleP6",
+      "recent15": {
+        "appearances": 3,
+        "minutes": 212,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 3,
+        "averageRating": "7.10",
+        "topFive": {
+          "appearances": 2,
+          "minutes": 180,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.1
+        }
+      }
+    },
+    "capo verde::roberto lopes": {
+      "player": "Roberto Lopes",
+      "team": "Capo Verde",
+      "club": "Shamrock Rovers",
+      "age": 34,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 10,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pico/f3KWvSZL/",
+      "direttaPlayerId": "f3KWvSZL",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1322,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 1,
+        "matchesSample": 15,
+        "averageRating": "6.87"
+      }
+    },
+    "capo verde::sidny lopes cabral": {
+      "player": "Sidny Lopes Cabral",
+      "team": "Capo Verde",
+      "club": "Benfica",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 5,
+        "subIns": 3,
+        "goals": 3,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/lopes-cabral-sidny/t4c8EgYT/",
+      "direttaPlayerId": "t4c8EgYT",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 741,
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.95"
+      }
+    },
+    "capo verde::steven moreira": {
+      "player": "Steven Moreira",
+      "team": "Capo Verde",
+      "club": "Columbus Crew",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 8,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/moreira-david/Eqldctsk/",
+      "direttaPlayerId": "Eqldctsk",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1323,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": ""
+      }
+    },
+    "capo verde::wagner pina": {
+      "player": "Wagner Pina",
+      "team": "Capo Verde",
+      "club": "Trabzonspor",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 6,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/pina-wagner/O8Oxw6vd/",
+      "direttaPlayerId": "O8Oxw6vd",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 928,
+        "goals": 0,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.83"
+      }
+    },
+    "capo verde::carlos santos": {
+      "player": "Carlos Santos",
+      "team": "Capo Verde",
+      "club": "San Diego",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 0,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/santos-ricardo/8OV7PU9m/",
+      "direttaPlayerId": "8OV7PU9m",
+      "recent15": {
+        "appearances": 3,
+        "minutes": 72,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 3,
+        "averageRating": "6.80",
+        "scope": "Club + nazionale",
+        "goalsConceded": 7,
+        "goalsConcededMatches": 3,
+        "goalsConcededPerGame": "2.33",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 1,
+          "goalsConceded": 2,
+          "goalsConcededPerGame": "2.00",
+          "averageRating": "",
+          "sample": [
+            {
+              "date": "17.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Ägypten",
+              "awayTeam": "Kap Verde",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 32,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            }
+          ]
+        }
+      }
+    },
+    "capo verde::josimar dias": {
+      "player": "Josimar Dias",
+      "team": "Capo Verde",
+      "club": "Chaves",
+      "age": "",
+      "career": {},
+      "season2025_26": {},
+      "sources": []
+    },
+    "capo verde::marcio da rosa": {
+      "player": "Márcio da Rosa",
+      "team": "Capo Verde",
+      "club": "Montana",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 14
+      },
+      "sources": [
+        "https://www.diretta.it/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/rosa-marcio/UqXIHuN8/",
+      "direttaPlayerId": "UqXIHuN8",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1331,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.70",
+        "scope": "Club + nazionale",
+        "goalsConceded": 22,
+        "goalsConcededMatches": 14,
+        "goalsConcededPerGame": "1.57",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 7,
+          "goalsConceded": 5,
+          "goalsConcededPerGame": "0.71",
+          "averageRating": "6.75",
+          "sample": [
+            {
+              "date": "30.03.26",
+              "competition": "FIFA Series (Welt)",
+              "homeTeam": "Kap Verde",
+              "awayTeam": "Finnland",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 7.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "12.06.22",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Ecuador",
+              "awayTeam": "Kap Verde",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "07.06.22",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Kap Verde",
+              "awayTeam": "Togo",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 25,
+              "rating": 6.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "28.03.22",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Kap Verde",
+              "awayTeam": "San Marino",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "25.01.22",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Senegal",
+              "awayTeam": "Kap Verde",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 32,
+              "rating": 6.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "09.01.22",
+              "competition": "Afrika-Cup (Afrika)",
+              "homeTeam": "Äthiopien",
+              "awayTeam": "Kap Verde",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "13.11.21",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Kap Verde",
+              "awayTeam": "Zentralafrikanische Republik",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "H",
+      "squadra": "Capo Verde",
+      "giocatore": "Kevin Lenini Pina",
+      "club": "Krasnodar",
+      "lega": "Russian Premier League",
+      "ammonizioni_stagionali": 13,
+      "espulsioni_stagionali": 0,
+      "media_falli_partita": 1,
+      "rischio_cartellino": 49
+    }
+  ]
+}

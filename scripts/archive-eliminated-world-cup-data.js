@@ -18,7 +18,12 @@ const GROUP_ELIMINATION_DATES = {
 };
 const ROUND_OF_32_DATES = {
   73: "2026-06-28", 74: "2026-06-29", 75: "2026-06-30", 76: "2026-06-29",
-  77: "2026-06-30", 78: "2026-06-30", 79: "2026-07-01"
+  77: "2026-06-30", 78: "2026-06-30", 79: "2026-07-01", 80: "2026-07-01",
+  81: "2026-07-02", 82: "2026-07-01", 83: "2026-07-03", 84: "2026-07-02",
+  85: "2026-07-03", 86: "2026-07-03", 87: "2026-07-04", 88: "2026-07-03"
+};
+const ROUND_OF_16_DATES = {
+  89: "2026-07-04", 90: "2026-07-04"
 };
 
 function readScript(file, names) {
@@ -79,14 +84,24 @@ const bracket = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "codex-plus-b
 
 const allTeams = [...new Set(rows.map((row) => row.team))];
 const r32Matches = [...(bracket.left?.r32 || []), ...(bracket.right?.r32 || [])];
+const r16Matches = [...(bracket.left?.r16 || []), ...(bracket.right?.r16 || [])];
 const r32Teams = new Set(r32Matches.flatMap((match) => [match.teamA, match.teamB]));
 const finishedR32 = r32Matches.filter((match) => ROUND_OF_32_DATES[match.number]);
 const r32Eliminated = new Map(finishedR32.map((match) => [
   match.winner === match.teamA ? match.teamB : match.teamA,
   ROUND_OF_32_DATES[match.number]
 ]));
+const finishedR16 = r16Matches.filter((match) => ROUND_OF_16_DATES[match.number]);
+const r16Eliminated = new Map(finishedR16.map((match) => [
+  match.winner === match.teamA ? match.teamB : match.teamA,
+  ROUND_OF_16_DATES[match.number]
+]));
 const groupEliminated = allTeams.filter((team) => !r32Teams.has(team));
-const eliminatedTeams = new Set([...groupEliminated, ...r32Eliminated.keys()]);
+const eliminatedTeams = new Set([
+  ...groupEliminated,
+  ...r32Eliminated.keys(),
+  ...r16Eliminated.keys()
+]);
 const activeTeams = new Set(allTeams.filter((team) => !eliminatedTeams.has(team)));
 
 const statsEntries = Object.entries(playerStats);
@@ -153,9 +168,11 @@ const archiveEntries = [...eliminatedTeams].sort().map((team) => {
   const slug = slugify(team);
   const roster = rows.filter((row) => row.team === team);
   const archivedStats = Object.fromEntries(statsEntries.filter(([, value]) => teamOf(value) === team));
-  const eliminationDate = r32Eliminated.get(team) ||
+  const eliminationDate = r16Eliminated.get(team) || r32Eliminated.get(team) ||
     GROUP_ELIMINATION_DATES[roster[0]?.group] || null;
-  const stage = r32Eliminated.has(team) ? "Sedicesimi di finale" : "Fase a gironi";
+  const stage = r16Eliminated.has(team)
+    ? "Ottavi di finale"
+    : r32Eliminated.has(team) ? "Sedicesimi di finale" : "Fase a gironi";
   const teamPath = `eliminated-teams/${slug}.json`;
   const playerPath = `eliminated-players/${slug}.json`;
 

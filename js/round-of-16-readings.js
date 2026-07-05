@@ -87,6 +87,12 @@
       headline: "Il Marocco ha più qualità tra le linee, ma il Canada può trascinarlo in una partita fisica e molto stretta.",
       deck: "Il divario tecnico favorisce i nordafricani senza trasformare l’ottavo in una formalità. Il Canada ha corsa, profondità e un Jonathan David capace di punire ogni uscita sbagliata.",
       score: "0-1 Marocco", probabilities: ["18%", "29%", "53%"], labels: ["Canada", "Pareggio", "Marocco"],
+      result: {
+        score: "Canada 0-3 Marocco",
+        winner: "Marocco qualificato",
+        verdict: "Pronostico positivo",
+        review: "Centrati Marocco qualificato e Under 3,5. Il risultato centrale 0-1 e l’Under 2,5 non entrano: Ounahi firma una doppietta e Rahimi completa il 3-0."
+      },
       sections: [
         ["La lettura della partita", "Il Marocco parte avanti per qualità individuale, controllo del pallone e capacità di creare superiorità con Hakimi, Ounahi e Brahim Díaz. Il Canada, però, è costruito per sporcare la gara: due linee compatte, pressione sulle seconde palle e attacchi verticali verso David e Oluwaseyi. La probabilità marocchina nei novanta minuti resta quindi al 53%, non abbastanza alta da trattare il segno 2 come una certezza."],
         ["La chiave tattica", "Il duello decisivo è sulle corsie. Hakimi e Mazraoui possono fissare gli esterni canadesi e permettere al Marocco di occupare stabilmente la metà campo avversaria; Buchanan e Millar devono invece attaccare lo spazio alle loro spalle. Se il Canada recupera palla e trova subito David, la difesa marocchina sarà costretta a correre verso la propria porta. Se Bouaddi ed El Aynaoui controllano le seconde palle, il possesso del Marocco può diventare soffocante."],
@@ -100,6 +106,12 @@
       headline: "La Francia ha un vantaggio enorme, ma il caldo di Philadelphia può abbassare ritmo e precisione.",
       deck: "Il Paraguay deve trasformare l’ottavo in una gara intermittente e fisica. La Francia può vincerla anche senza dominare per novanta minuti, grazie a profondità e qualità offensiva nettamente superiori.",
       score: "0-2 Francia", probabilities: ["5%", "16%", "79%"], labels: ["Paraguay", "Pareggio", "Francia"],
+      result: {
+        score: "Paraguay 0-1 Francia",
+        winner: "Francia qualificata",
+        verdict: "Pronostico positivo",
+        review: "Centrati Francia vincente, Francia qualificata e Under 3,5. Non entrano il risultato centrale 0-2 e l’Over 1,5: decide Mbappé su rigore al 70’."
+      },
       sections: [
         ["La lettura della partita", "La Francia possiede più soluzioni in ogni reparto e arriva al tiro con facilità anche contro blocchi bassi. Il Paraguay ha una sola strada credibile: densità centrale, falli tattici, piazzati e transizioni di Almirón ed Enciso. Il 79% francese nei tempi regolamentari nasce dal divario tecnico, non dalla quota molto bassa."],
         ["La chiave tattica", "Cubas e Villasanti devono proteggere la zona davanti ai centrali, ma così rischiano di lasciare libertà sugli esterni. Dembélé e Barcola possono allargare il blocco, mentre Olise riceve tra le linee e Mbappé attacca lo spazio creato. Se il Paraguay abbassa troppo i trequartisti, Sanabria rimane isolato; se li alza, concede campo alle transizioni francesi."],
@@ -238,6 +250,12 @@
   const reading = slug && readings[slug];
   const detail = slug && calculatedDetails[slug];
   if (!data || !reading || !detail) return;
+  const resultReview = reading.result
+    ? `<section class="reading-result-review">
+        <span>${reading.result.verdict}</span>
+        <div><strong>Finale: ${reading.result.score}</strong><p>${reading.result.review}</p></div>
+      </section>`
+    : "";
   const formationCards = data.formations.map(([team, system, players, note = ""], index) => {
     const rows = players.replace(/\.$/, "").split(";").map(row => row.trim());
     const goalkeeper = rows.shift();
@@ -257,7 +275,7 @@
     : `<span class="round16-badge is-pending">Da ufficializzare</span><p>L’arbitro non è ancora ufficiale nelle fonti consultate.</p>`;
   root.innerHTML = `
     <header class="reading-hero">
-      <div class="reading-kicker">Ottavi di finale · Scheda prepartita</div>
+      <div class="reading-kicker">Ottavi di finale · ${reading.result ? "Partita conclusa" : "Scheda prepartita"}</div>
       <div class="reading-match">
         <div class="reading-team"><img src="flags/${data.flags[0]}.svg" alt=""><strong>${data.teams[0]}</strong></div>
         <div class="reading-versus"><b>${data.teams[0]} - ${data.teams[1]}</b><small>Mondiale 2026 · Eliminazione diretta</small></div>
@@ -267,10 +285,11 @@
       <p class="reading-deck">${reading.deck}</p>
       <div class="reading-meta">
         <span>Arbitro: ${data.referee || "da ufficializzare"}</span>
-        <span>Formazioni: ${data.officialFormations ? "ufficiali" : "probabili"}</span>
-        <span>Risultato centrale: ${reading.score}</span>
+        <span>${reading.result ? `Stato: finale · ${reading.result.winner}` : `Formazioni: ${data.officialFormations ? "ufficiali" : "probabili"}`}</span>
+        <span>${reading.result ? `Risultato finale: ${reading.result.score}` : `Risultato centrale: ${reading.score}`}</span>
       </div>
     </header>
+    ${resultReview}
     <section class="reading-summary">
       <div><span>Risultato centrale</span><strong>${reading.score}</strong><small>Stima indipendente dalle quote</small></div>
       <div><span>Scenario</span><strong>${reading.sections[0][1].split(".")[0]}</strong><small>La direzione principale della lettura</small></div>

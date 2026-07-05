@@ -11,7 +11,6 @@ const tournamentScorers = [
   { player: "Yoane Wissa", team: "RD Congo", goals: 3, penalties: 1 },
   { player: "Kai Havertz", team: "Germania", goals: 3, penalties: 1 },
   { player: "Johan Manzambi", team: "Svizzera", goals: 3, penalties: 0 },
-  { player: "Brian Brobbey", team: "Olanda", goals: 3, penalties: 0 },
   { player: "Jonathan David", team: "Canada", goals: 3, penalties: 0 },
   { player: "Ismael Saibari", team: "Marocco", goals: 3, penalties: 0 },
   { player: "Deniz Undav", team: "Germania", goals: 3, penalties: 0 },
@@ -48,7 +47,7 @@ const tournamentScorers = [
 ];
 
 const tournamentScorersMeta = {
-  updated: "2026-07-04",
+  updated: "2026-07-05",
   source: "Rai Sport",
   url: "https://www.rai.it/dl/raiSport/speciali/statistiche/mondiali/2026/classificaMarcatori.html",
   scope: "Giocatori con almeno 2 gol",

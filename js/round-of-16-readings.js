@@ -51,10 +51,10 @@
       referee: "Anthony Taylor (Inghilterra)", profile: "Arbitro esperto, incline a lasciare intensità nei duelli ma pronto a sanzionare proteste e falli tattici ripetuti.", severity: 70
     },
     "stati-uniti-belgio": {
-      teams: ["Stati Uniti", "Belgio"], flags: ["stati-uniti", "belgio"],
+      teams: ["Stati Uniti", "Belgio"], flags: ["stati-uniti", "belgio"], officialFormations: true,
       formations: [
-        ["USA", "4-3-3", "Freese; Freeman, Richards, Ream, Robinson; McKennie, Adams, Tillman; Dest, Balogun, Pulisic.", "Balogun è nuovamente disponibile dopo la revoca dell’espulsione ed è previsto titolare."],
-        ["Belgio", "4-2-3-1", "Courtois; De Cuyper, Theate, Mechele, Castagne; Raskin, Tielemans; Doku, De Bruyne, Trossard; Lukaku.", "Probabile formazione ricevuta il 6 luglio."]
+        ["USA", "4-3-3", "Freese; Freeman, Richards, Ream, Robinson; McKennie, Adams, Tillman; Dest, Balogun, Pulisic.", "Formazione ufficiale: Balogun titolare al centro dell'attacco."],
+        ["Belgio", "4-2-3-1", "Courtois; De Cuyper, Ngoy, Mechele, Castagne; Onana, Raskin; Trossard, Tielemans, Lukebakio; De Ketelaere.", "Formazione ufficiale: fuori dall'undici iniziale Lukaku, De Bruyne, Doku e Theate."]
       ],
       weather: "Circa 20-22°C, clima generalmente mite e poco umido. Condizioni ideali per intensità, pressing e continuità di gioco.",
       stadium: "Seattle Stadium (Lumen Field), Seattle, Washington. Stadio all’aperto e non climatizzato.",
@@ -184,19 +184,19 @@
       picks: ["Over 1,5", "Goal", "Spagna qualificata", "Under 3,5"]
     },
     "stati-uniti-belgio": {
-      headline: "Equilibrio quasi totale: intensità americana contro qualità belga negli ultimi trenta metri.",
-      deck: "Seattle offre condizioni ideali per una partita veloce. La disponibilità di Balogun restituisce profondità e opzioni agli USA; il Belgio risponde con De Bruyne, Doku e più esperienza.",
-      score: "2-1 Stati Uniti", probabilities: ["39%", "28%", "33%"], labels: ["USA", "Pareggio", "Belgio"],
+      headline: "Le ufficiali spostano il peso verso gli USA: Belgio più prudente senza De Bruyne, Doku e Lukaku.",
+      deck: "Seattle resta ideale per ritmo e pressione. Gli USA confermano Balogun e l'assetto offensivo previsto; il Belgio sceglie De Ketelaere, Trossard, Tielemans e Lukebakio, con meno strappo puro e meno peso d'area rispetto alla lettura iniziale.",
+      score: "1-0 Stati Uniti", probabilities: ["43%", "30%", "27%"], labels: ["USA", "Pareggio", "Belgio"],
       sections: [
-        ["La lettura della partita", "Il modello non trova una vera favorita. La revoca dell’espulsione di Balogun migliora profondità, cambi e capacità degli Stati Uniti di attaccare lo spazio; insieme al fattore campo, sposta leggermente la qualificazione verso gli USA. Il Belgio conserva più esperienza e qualità tra le linee, quindi il margine resta minimo."],
-        ["La chiave tattica", "Adams e Musah devono ridurre il tempo di ricezione di De Bruyne, ma non possono entrambi uscire dalla zona centrale: Doku attacca immediatamente lo spazio che si apre. Gli USA devono muovere il pallone rapidamente verso Pulisic e Weah, costringendo Castagne e De Cuyper a lunghe corse all’indietro. Il duello sulle seconde palle decide chi può mantenere il ritmo alto."],
+        ["La lettura della partita", "Le formazioni ufficiali cambiano la lettura: gli USA mantengono profondità, ampiezza e Balogun titolare, mentre il Belgio rinuncia dall'inizio a De Bruyne, Doku e Lukaku. Questo non chiude la partita, perché Trossard, Tielemans, Lukebakio e De Ketelaere restano giocatori tecnici, ma riduce la capacità belga di creare occasioni pulite e di ribaltare il campo con una singola giocata. Il modello alza quindi gli USA al 43%, porta il pareggio al 30% e abbassa il Belgio al 27% nei novanta minuti."],
+        ["La chiave tattica", "Gli USA devono aggredire la prima uscita belga senza spezzarsi: Adams protegge la zona centrale, McKennie e Tillman possono lavorare sulle seconde palle e Pulisic/Dest devono attaccare De Cuyper e Castagne in isolamento. Il Belgio, senza il riferimento fisico di Lukaku e senza lo strappo di Doku, cerca più combinazioni corte con Tielemans, Trossard e De Ketelaere. Se Onana e Raskin reggono il primo pressing, la gara resta equilibrata; se perdono campo, gli USA possono stabilizzarsi nella metà campo belga."],
         ["Condizioni ideali", "Ventuno gradi e cielo sereno permettono pressing e accelerazioni continue. Non esiste una giustificazione ambientale per una gara lenta: se le squadre restano prudenti sarà per il peso dell’eliminazione diretta, non per il clima."],
         ["Fattore politico e pressione esterna", "La revoca o sospensione della squalifica di Folarin Balogun, arrivata dopo un intervento politico diretto dagli Stati Uniti e dentro una polemica internazionale su pressione di Trump su Infantino e proteste belghe/UEFA, non viene trattata come prova di favoritismo o partita truccata. Nel modello pesa come variabile narrativa e psicologica: gli USA possono ricevere un boost emotivo da squadra di casa, clima mediatico favorevole e senso di partita simbolica; il Belgio può trasformare la percezione di penalizzazione in rabbia competitiva, ma con più rischio di nervosismo. Anche Raphael Claus entra in una gara delicata: potrebbe evitare decisioni percepite come pro-USA e scegliere una gestione più prudente o più severa sui contatti. L'impatto principale è sui cartellini e sulla gestione emotiva, soprattutto se Balogun viene coinvolto in duelli duri o se il Belgio legge qualche episodio come dubbio. Non altera pesantemente il pronostico tecnico: aumenta tensione, proteste potenziali e valore del mercato disciplinare, senza cambiare la struttura quasi equilibrata della partita."],
-        ["Tre scenari", "Scenario USA (36%): pressione, ampiezza di Pulisic e profondità di Balogun portano al 2-1. Scenario equilibrato (31%): le squadre si neutralizzano per lunghi tratti e chiudono 1-1. Scenario Belgio (33%): De Bruyne trova Doku e Lukaku tra le linee per un 1-2. La media dei tre scenari suggerisce Goal e margini minimi, non un segno secco."],
-        ["Verdetto", "Il risultato centrale aggiornato è 2-1 Stati Uniti, con 1-1 e 1-2 molto vicini. Goal e Over 1,5 sono le scelte principali; il passaggio turno resta troppo equilibrato per diventare una base prudente. Il ritorno di Balogun aumenta le alternative offensive e riduce il vantaggio precedentemente assegnato al Belgio."]
+        ["Tre scenari", "Scenario USA (43%): pressione, Balogun da riferimento e ampiezza di Pulisic/Dest portano all'1-0 o al 2-0. Scenario equilibrato (30%): il Belgio abbassa ritmo e rischio, portando la gara verso 0-0 o 1-1. Scenario Belgio (27%): Tielemans e Trossard trovano qualità tra le linee e De Ketelaere finalizza una delle poche ricezioni pulite. La media aggiornata abbassa Goal e Over 2,5, rafforzando Under 3,5 e 1X."],
+        ["Verdetto", "Il risultato centrale aggiornato diventa 1-0 Stati Uniti, con 1-1 e 2-0 come alternative più vicine. Under 3,5 e 1X sono ora più coerenti di Goal e Over 2,5; il passaggio turno USA diventa giocabile ma resta esposto alla varianza da eliminazione diretta. Le MyCombo vanno ripulite dai mercati su De Bruyne, Doku e Lukaku e spostate su titolari ufficiali o mercati squadra."]
       ],
-      volume: ["USA 11-15 tiri", "Belgio 12-16 tiri", "Tiri in porta 4-6 per parte", "Corner totali 9-12"],
-      picks: ["Over 1,5", "Goal", "Under 3,5", "Nessun segno 1X2 come scelta principale"]
+      volume: ["USA 12-16 tiri", "Belgio 9-13 tiri", "Tiri in porta USA 4-6 / Belgio 3-5", "Corner totali 8-11"],
+      picks: ["Under 3,5", "1X", "Stati Uniti qualificati", "No Goal come value, non base"]
     },
     "argentina-egitto": {
       headline: "L’Argentina può controllare territorio e ritmo, ma Salah e Marmoush vietano qualsiasi gestione distratta.",
@@ -269,9 +269,9 @@
       shotsPlayers: ["Ronaldo 3-5", "João Félix 2-4", "Lamine Yamal 3-5", "Oyarzabal 2-4"]
     },
     "stati-uniti-belgio": {
-      motivation: [97, 94], surprise: "Alto", shots: [["Stati Uniti", "11-15", "4-6"], ["Belgio", "12-16", "4-6"]], corners: ["4-6", "5-7", "9-12"],
-      cards: [["Adams", "Alto", "Pressione e coperture su De Bruyne."], ["Freeman", "Alto", "Duello esterno con Doku."], ["Raskin", "Medio-alto", "Interruzione delle transizioni americane."], ["Ream", "Medio-alto", "Gestione della profondità di Lukaku."], ["Theate", "Medio", "Coperture sul lato di Dest."]],
-      shotsPlayers: ["Pulisic 3-5", "Balogun 2-4", "Doku 2-4", "Lukaku 3-5"]
+      motivation: [98, 95], surprise: "Medio-alto", shots: [["Stati Uniti", "12-16", "4-6"], ["Belgio", "9-13", "3-5"]], corners: ["4-6", "3-5", "8-11"],
+      cards: [["Adams", "Alto", "Pressione su Tielemans e coperture centrali."], ["Castagne", "Alto", "Duelli ripetuti con Pulisic."], ["Raskin", "Medio-alto", "Interruzione delle transizioni americane."], ["Ngoy", "Medio-alto", "Gestione di Balogun e degli attacchi diretti."], ["Onana", "Medio", "Contrasti sulle seconde palle e proteste possibili."]],
+      shotsPlayers: ["Pulisic 3-5", "Balogun 2-4", "Dest 2-3", "De Ketelaere 2-4", "Trossard 2-3"]
     },
     "argentina-egitto": {
       motivation: [97, 99], surprise: "Basso", shots: [["Argentina", "16-21", "6-9"], ["Egitto", "6-9", "2-4"]], corners: ["6-9", "2-3", "8-11"],
@@ -319,6 +319,8 @@
   const referee = data.referee
     ? `<p><strong>${data.referee}</strong>${data.var ? `<br>VAR: ${data.var}.` : ""}</p><p>${data.profile}</p><div class="round16-severity"><span>Indice severità</span><strong>${data.severity}/100</strong></div>`
     : `<span class="round16-badge is-pending">Da ufficializzare</span><p>L’arbitro non è ancora ufficiale nelle fonti consultate.</p>`;
+  const narrativeSections = reading.sections.slice(3, -1).map(([title, text]) => `<section><h3>${title}</h3><p>${text}</p></section>`).join("");
+  const verdictText = reading.sections[reading.sections.length - 1][1];
   root.innerHTML = `
     <header class="reading-hero">
       <div class="reading-kicker">${data.roundLabel || "Ottavi di finale"} · ${reading.result ? "Partita conclusa" : "Scheda prepartita"}</div>
@@ -356,10 +358,11 @@
         <blockquote><strong>La chiave</strong>${reading.sections[2][1]}</blockquote>
         <section><h3>La partita di ${data.teams[1]}</h3><p>${reading.deck} La squadra senza palla deve proteggere il centro, scegliere con precisione quando alzare la pressione e non concedere transizioni dopo un possesso forzato.</p></section>
         <section><h3>Stato motivazionale playoff</h3><p><strong>${data.teams[0]} ${detail.motivation[0]}/100.</strong> Motivazione da eliminazione diretta, aumentata dal contesto e dalla possibilità di ${data.achievement || "entrare tra le migliori otto"}.</p><p><strong>${data.teams[1]} ${detail.motivation[1]}/100.</strong> Pressione competitiva molto alta e margine minimo per gli errori.</p><p>Rischio sorpresa: <strong>${detail.surprise}</strong>. La differenza motivazionale non sostituisce il divario tecnico, ma incide su intensità, duelli e gestione dei momenti decisivi.</p></section>
+        ${narrativeSections}
         <section><h3>Tiri e corner previsti</h3><p>${detail.shots[0][0]}: ${detail.shots[0][1]} tiri, ${detail.shots[0][2]} nello specchio. ${detail.shots[1][0]}: ${detail.shots[1][1]} tiri, ${detail.shots[1][2]} in porta.</p><p>Proiezioni individuali: ${detail.shotsPlayers.join("; ")}. Corner previsti: ${data.teams[0]} ${detail.corners[0]}, ${data.teams[1]} ${detail.corners[1]}, totale ${detail.corners[2]}.</p></section>
         <section><h3>Possibili ammoniti</h3><p>La gerarchia combina ruolo, zona di campo, avversario diretto e profilo arbitrale. ${detail.cards.slice(0, 3).map(item => `<strong>${item[0]}</strong>: ${item[2]}`).join(" ")} Le selezioni individuali restano più volatili dei mercati squadra.</p></section>
         <blockquote><strong>La scelta</strong>${reading.picks.slice(0, 3).join(" · ")}</blockquote>
-        <section><h3>Verdetto preliminare</h3><p>${reading.sections[3][1]}</p></section>
+        <section><h3>Verdetto preliminare</h3><p>${verdictText}</p></section>
       </div>
       <aside class="reading-sidebar">
         <section class="reading-data-panel"><span>Probabilità nei 90 minuti</span><div class="reading-probability">${reading.probabilities.map((p, i) => `<div><b>${p}</b><small>${reading.labels[i]}</small></div>`).join("")}</div></section>
@@ -370,6 +373,6 @@
         <section class="reading-data-panel"><span>Metodo</span><p>Scenario e probabilità nascono dalla lettura di qualità, assetto tattico, assenze e ambiente. Le quote sono usate solo dopo, per valutare il prezzo.</p></section>
       </aside>
     </div>
-    <footer class="reading-note"><strong>Nota</strong><p>Formazioni probabili e informazioni prepartita: titolarità, arbitro e gestione del tetto possono richiedere un aggiornamento vicino al calcio d’inizio.</p></footer>`;
+    <footer class="reading-note"><strong>Nota</strong><p>${data.officialFormations ? "Formazioni ufficiali incorporate; arbitro e gestione del tetto possono richiedere un ultimo controllo vicino al calcio d'inizio." : "Formazioni probabili e informazioni prepartita: titolarità, arbitro e gestione del tetto possono richiedere un aggiornamento vicino al calcio d’inizio."}</p></footer>`;
   document.title = `Lettura - ${data.teams[0]} ${data.teams[1]} | Mondiale 2026`;
 })();

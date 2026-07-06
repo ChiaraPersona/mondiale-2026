@@ -5,18 +5,95 @@
   "status": "scheduled",
   "prediction": {
     "probabilities90Minutes": {
-      "home": 39,
-      "draw": 28,
-      "away": 33
+      "home": 43,
+      "draw": 30,
+      "away": 27
     },
-    "centralScore": "2-1",
-    "scenario": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
+    "centralScore": "1-0",
+    "scenario": "USA avanti con ufficiali: Belgio più prudente senza De Bruyne, Doku e Lukaku",
     "quoteInfluence": "secondaria"
   },
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 5.18,
+      "finalOdds": 2.6,
+      "events": [
+        {
+          "id": "event-01",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X",
+          "odds": 1.42,
+          "selectionId": 5202118800,
+          "marketId": 790300293,
+          "category": "esito",
+          "rankingScore": 90,
+          "class": "CORE",
+          "riskScore": 15,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "UNDER/OVER — U/O 4.5",
+          "selection": "UNDER",
+          "odds": 1.16,
+          "selectionId": 5202118788,
+          "marketId": 790300290,
+          "category": "goal-total",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BALOGUN F. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.16,
+          "selectionId": 5207116730,
+          "marketId": 791275194,
+          "category": "tiri",
+          "rankingScore": 82,
+          "class": "VALUE",
+          "riskScore": 23,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 1.36,
+          "selectionId": 5203559657,
+          "marketId": 790588506,
+          "category": "corner",
+          "rankingScore": 82,
+          "class": "VALUE",
+          "riskScore": 23,
+          "riskLevel": "low",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "usa_avanti_con_ufficiali_belgio_pi_prudente_senza_de_bruyne_doku_e_lukaku",
+        "name": "USA avanti con ufficiali: Belgio più prudente senza De Bruyne, Doku e Lukaku",
+        "estimatedProbability": "medio-alta"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ufficiali verificate; mercati tiri comunque volatili."
+      ],
+      "riskVerdict": "low"
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 9.19,
       "events": [
         {
           "id": "event-01",
@@ -26,20 +103,34 @@
           "selectionId": 5202117876,
           "marketId": 790300065,
           "category": "esito",
-          "rankingScore": 94,
+          "rankingScore": 88,
           "class": "CORE",
-          "riskScore": 11,
+          "riskScore": 17,
           "riskLevel": "low",
           "riskReasons": []
         },
         {
-          "id": "event-07",
-          "market": "UNDER/OVER — U/O 2.5",
-          "selection": "OVER",
-          "odds": 1.6,
-          "selectionId": 5202118781,
-          "marketId": 790300288,
+          "id": "event-01",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.45,
+          "selectionId": 5202118784,
+          "marketId": 790300289,
           "category": "goal-total",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 17,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — PULISIC C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.33,
+          "selectionId": 5204561413,
+          "marketId": 790781069,
+          "category": "tiri",
           "rankingScore": 82,
           "class": "VALUE",
           "riskScore": 23,
@@ -47,7 +138,21 @@
           "riskReasons": []
         },
         {
-          "id": "event-13",
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DE KETELAERE C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.47,
+          "selectionId": 5204561217,
+          "marketId": 790781020,
+          "category": "tiri",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ADAMS T. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
           "odds": 1.8,
@@ -63,113 +168,8 @@
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
-        "id": "equilibrio_con_lieve_vantaggio_usa_dopo_il_rientro_di_balogun",
-        "name": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
-        "estimatedProbability": "medio-alta"
-      },
-      "strengths": [
-        "Coerenza tattica interna.",
-        "Mercati principali e verificabili."
-      ],
-      "weaknesses": [
-        "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
-      ],
-      "riskVerdict": "low"
-    },
-    {
-      "name": "Balanced",
-      "finalOdds": 8.71,
-      "events": [
-        {
-          "id": "event-02",
-          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
-          "selection": "1X",
-          "odds": 1.42,
-          "selectionId": 5202118800,
-          "marketId": 790300293,
-          "category": "esito",
-          "rankingScore": 92,
-          "class": "CORE",
-          "riskScore": 13,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-05",
-          "market": "UNDER/OVER — U/O 4.5",
-          "selection": "UNDER",
-          "odds": 1.16,
-          "selectionId": 5202118788,
-          "marketId": 790300290,
-          "category": "goal-total",
-          "rankingScore": 86,
-          "class": "CORE",
-          "riskScore": 19,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-08",
-          "market": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 1",
-          "selection": "OVER",
-          "odds": 1.36,
-          "selectionId": 5203559657,
-          "marketId": 790588506,
-          "category": "corner",
-          "rankingScore": 80,
-          "class": "VALUE",
-          "riskScore": 25,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-11",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DE BRUYNE K. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.33,
-          "selectionId": 5204561289,
-          "marketId": 790781038,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-05",
-          "market": "U/O CORNER SQUADRA X — U/O 4.5 CORNER SQUADRA 1",
-          "selection": "OVER",
-          "odds": 1.7,
-          "selectionId": 5203559575,
-          "marketId": 790588486,
-          "category": "corner",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-06",
-          "market": "U/O TIRI TOTALI — U/O 25.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.72,
-          "selectionId": 5202117425,
-          "marketId": 790299967,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        }
-      ],
-      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
-      "scenario": {
-        "id": "equilibrio_con_lieve_vantaggio_usa_dopo_il_rientro_di_balogun",
-        "name": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
+        "id": "usa_avanti_con_ufficiali_belgio_pi_prudente_senza_de_bruyne_doku_e_lukaku",
+        "name": "USA avanti con ufficiali: Belgio più prudente senza De Bruyne, Doku e Lukaku",
         "estimatedProbability": "media"
       },
       "strengths": [
@@ -178,22 +178,22 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
+        "Formazioni ufficiali verificate; mercati tiri comunque volatili."
       ],
       "riskVerdict": "medium"
     },
     {
       "name": "Aggressive",
-      "finalOdds": 13.46,
+      "finalOdds": 15.85,
       "events": [
         {
-          "id": "event-03",
-          "market": "UNDER/OVER — U/O 1.5",
-          "selection": "OVER",
-          "odds": 1.16,
-          "selectionId": 5202118765,
-          "marketId": 790300284,
-          "category": "goal-total",
+          "id": "event-01",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X",
+          "odds": 1.42,
+          "selectionId": 5202118800,
+          "marketId": 790300293,
+          "category": "esito",
           "rankingScore": 90,
           "class": "CORE",
           "riskScore": 15,
@@ -201,26 +201,54 @@
           "riskReasons": []
         },
         {
-          "id": "event-06",
+          "id": "event-01",
           "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-          "selection": "GOAL",
-          "odds": 1.57,
-          "selectionId": 5202116648,
+          "selection": "NOGOAL",
+          "odds": 2.25,
+          "selectionId": 5202116649,
           "marketId": 790299395,
           "category": "btts",
-          "rankingScore": 84,
+          "rankingScore": 80,
           "class": "VALUE",
-          "riskScore": 21,
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "UNDER/OVER — U/O 3.5",
+          "selection": "UNDER",
+          "odds": 1.45,
+          "selectionId": 5202118784,
+          "marketId": 790300289,
+          "category": "goal-total",
+          "rankingScore": 88,
+          "class": "CORE",
+          "riskScore": 17,
           "riskLevel": "low",
           "riskReasons": []
         },
         {
-          "id": "event-09",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — PULISIC C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DEST S. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.75,
+          "selectionId": 5204561453,
+          "marketId": 790781079,
+          "category": "tiri",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — TROSSARD L. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
           "odds": 1.33,
-          "selectionId": 5204561413,
-          "marketId": 790781069,
+          "selectionId": 5204561373,
+          "marketId": 790781059,
           "category": "tiri",
           "rankingScore": 78,
           "class": "VALUE",
@@ -229,40 +257,12 @@
           "riskReasons": []
         },
         {
-          "id": "event-12",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — TILLMAN M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DE KETELAERE C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
           "odds": 1.47,
-          "selectionId": 5204561321,
-          "marketId": 790781046,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-05",
-          "market": "U/O CORNER SQUADRA X — U/O 4.5 CORNER SQUADRA 2",
-          "selection": "OVER",
-          "odds": 1.8,
-          "selectionId": 5203559713,
-          "marketId": 790588519,
-          "category": "corner",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-06",
-          "market": "U/O TIRI IN PORTA — U/O 9.5 TIRI IN PORTA",
-          "selection": "OVER",
-          "odds": 2.1,
-          "selectionId": 5202117333,
-          "marketId": 790299944,
+          "selectionId": 5204561217,
+          "marketId": 790781020,
           "category": "tiri",
           "rankingScore": 78,
           "class": "VALUE",
@@ -273,8 +273,8 @@
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
-        "id": "equilibrio_con_lieve_vantaggio_usa_dopo_il_rientro_di_balogun",
-        "name": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
+        "id": "usa_avanti_con_ufficiali_belgio_pi_prudente_senza_de_bruyne_doku_e_lukaku",
+        "name": "USA avanti con ufficiali: Belgio più prudente senza De Bruyne, Doku e Lukaku",
         "estimatedProbability": "media"
       },
       "strengths": [
@@ -283,14 +283,14 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
+        "Formazioni ufficiali verificate; mercati tiri comunque volatili."
       ],
       "riskVerdict": "high"
     }
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-06T14:48:50.571Z",
+    "generatedAt": "2026-07-06T23:03:16.106Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"
@@ -338,22 +338,22 @@
         "marketId": "790784450"
       },
       {
-        "label": "Jérémy Doku almeno 2 tiri in porta",
-        "event": "Jérémy Doku almeno 2 tiri in porta",
-        "technicalEvent": "DOKU J. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "label": "Charles De Ketelaere almeno 2 tiri in porta",
+        "event": "Charles De Ketelaere almeno 2 tiri in porta",
+        "technicalEvent": "DE KETELAERE C. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
         "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
         "selection": "OVER",
         "odds": 4.5,
         "impliedProbability": 22.22,
-        "estimatedProbability": 27,
-        "edge": 4.78,
+        "estimatedProbability": 24,
+        "edge": 1.78,
         "classification": "Quota interessante",
         "level": "value",
-        "reason": "Gli uno contro uno sul lato di Freeman aumentano il volume atteso oltre il 22,22% implicito.",
+        "reason": "Da riferimento offensivo ufficiale del Belgio mantiene una quota alta, pur con volume squadra ridotto.",
         "modelConfidence": 61,
         "risk": "medium",
-        "selectionId": "5204558317",
-        "marketId": "790780295"
+        "selectionId": "5204558177",
+        "marketId": "790780260"
       }
     ],
     "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."

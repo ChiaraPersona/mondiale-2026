@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T18:12:24.571Z",
+  "generatedAt": "2026-07-06T23:03:16.115Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -252,24 +252,24 @@
     {
       "slug": "stati-uniti-belgio",
       "match": "Stati Uniti - Belgio",
-      "prediction": "2-1",
+      "prediction": "1-0",
       "probabilities": [
-        39,
-        28,
-        33
+        43,
+        30,
+        27
       ],
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 5.18
+          "odds": 2.6
         },
         {
           "name": "Balanced",
-          "odds": 8.71
+          "odds": 9.19
         },
         {
           "name": "Aggressive",
-          "odds": 13.46
+          "odds": 15.85
         }
       ],
       "anomalies": [
@@ -310,22 +310,22 @@
           "marketId": "790784450"
         },
         {
-          "label": "Jérémy Doku almeno 2 tiri in porta",
-          "event": "Jérémy Doku almeno 2 tiri in porta",
-          "technicalEvent": "DOKU J. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "label": "Charles De Ketelaere almeno 2 tiri in porta",
+          "event": "Charles De Ketelaere almeno 2 tiri in porta",
+          "technicalEvent": "DE KETELAERE C. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
           "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
           "selection": "OVER",
           "odds": 4.5,
           "impliedProbability": 22.22,
-          "estimatedProbability": 27,
-          "edge": 4.78,
+          "estimatedProbability": 24,
+          "edge": 1.78,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "Gli uno contro uno sul lato di Freeman aumentano il volume atteso oltre il 22,22% implicito.",
+          "reason": "Da riferimento offensivo ufficiale del Belgio mantiene una quota alta, pur con volume squadra ridotto.",
           "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5204558317",
-          "marketId": "790780295"
+          "selectionId": "5204558177",
+          "marketId": "790780260"
         }
       ]
     },

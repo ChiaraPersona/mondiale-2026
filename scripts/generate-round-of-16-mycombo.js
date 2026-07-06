@@ -11,7 +11,7 @@ const models = {
   "brasile-norvegia": { p: [55, 24, 21], score: "2-1", scenario: "Brasile avanti, Norvegia pericolosa", picks: [["PASSAGGIO TURNO","1"],["U/O 1.5","OVER"],["GOAL/NO GOAL","GOAL"],["U/O 2.5","OVER"],["ESITO FINALE 1X2","1"]], anomaly: ["HAALAND E. U/O 2.5 SOMMA TIRI IN PORTA", .31] },
   "messico-inghilterra": { p: [34, 30, 36], score: "1-1", scenario: "Equilibrio con forte fattore Azteca", picks: [["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["U/O 2.5","UNDER"],["PASSAGGIO TURNO","2"],["ESITO FINALE 1X2","X"]], anomaly: ["SAKA B. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO", .36] },
   "portogallo-spagna": { p: [23, 29, 48], score: "1-2", scenario: "Spagna favorita, Portogallo pericoloso nelle transizioni", picks: [["PASSAGGIO TURNO","2"],["U/O 1.5","OVER"],["GOAL/NO GOAL","GOAL"],["U/O 3.5","UNDER"],["ESITO FINALE 1X2","2"]], anomaly: null },
-  "stati-uniti-belgio": { p: [39, 28, 33], score: "2-1", scenario: "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun", picks: [["U/O 1.5","OVER"],["U/O 3.5","UNDER"],["GOAL/NO GOAL","GOAL"],["U/O 2.5","OVER"],["DOPPIA CHANCE MULTIESITI","1X"]], anomaly: ["PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA", .32] },
+  "stati-uniti-belgio": { p: [43, 30, 27], score: "1-0", scenario: "USA avanti con ufficiali: Belgio più prudente senza De Bruyne, Doku e Lukaku", picks: [["U/O 3.5","UNDER"],["DOPPIA CHANCE MULTIESITI","1X"],["PASSAGGIO TURNO","1"],["GOAL/NO GOAL","NOGOAL"],["U/O 1.5","OVER"]], anomaly: ["PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA", .31] },
   "argentina-egitto": { p: [71, 19, 10], score: "2-0", scenario: "Controllo Argentina", picks: [["PASSAGGIO TURNO","1"],["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["ESITO FINALE 1X2","1"],["GOAL/NO GOAL","NOGOAL"]], anomaly: ["MARTINEZ LAUTARO MARCATORE 1T", .28] },
   "svizzera-colombia": { p: [29, 31, 40], score: "0-1", scenario: "Colombia di misura, partita stretta", picks: [["U/O 3.5","UNDER"],["U/O 2.5","UNDER"],["PASSAGGIO TURNO","2"],["GOAL/NO GOAL","NOGOAL"],["ESITO FINALE 1X2","2"]], anomaly: null },
   "francia-marocco": { p: [58, 25, 17], score: "1-0", scenario: "Francia favorita, quarto a ritmo controllato", picks: [["PASSAGGIO TURNO","1"],["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["ESITO FINALE 1X2","1"],["GOAL/NO GOAL","NOGOAL"]], anomaly: null }
@@ -23,7 +23,7 @@ const diverseMarketNeedles = {
   "brasile-norvegia": ["U/O 3.5 CORNER SQUADRA 1", "HAALAND E. U/O 3.5 SOMMA TIRI TOTALI", "VINICIUS JUNIOR U/O 2.5 SOMMA TIRI TOTALI", "NUSA A. U/O 1.5 SOMMA TIRI TOTALI"],
   "messico-inghilterra": ["U/O 3.5 CORNER SQUADRA 2", "BELLINGHAM JUDE U/O 1.5 SOMMA TIRI TOTALI", "KANE H. U/O 2.5 SOMMA TIRI TOTALI", "SAKA B. U/O 1.5 SOMMA TIRI TOTALI", "ALVARADO R. U/O 1.5 SOMMA TIRI TOTALI", "ANDERSON E. U/O 0.5 SOMMA TIRI TOTALI"],
   "portogallo-spagna": ["LAMINE YAMAL U/O 2.5 SOMMA TIRI TOTALI", "FERNANDES B. U/O 1.5 SOMMA TIRI TOTALI", "JOAO FELIX U/O 1.5 SOMMA TIRI TOTALI", "OYARZABAL M. U/O 1.5 SOMMA TIRI TOTALI", "PEDRI U/O 1.5 SOMMA TIRI TOTALI", "OLMO D. U/O 1.5 SOMMA TIRI TOTALI"],
-  "stati-uniti-belgio": ["U/O 3.5 CORNER SQUADRA 1", "PULISIC C. U/O 1.5 SOMMA TIRI TOTALI", "DOKU J. U/O 1.5 SOMMA TIRI TOTALI", "DE BRUYNE K. U/O 1.5 SOMMA TIRI TOTALI", "TILLMAN M. U/O 1.5 SOMMA TIRI TOTALI", "ADAMS T. U/O 0.5 SOMMA TIRI TOTALI"],
+  "stati-uniti-belgio": ["U/O 3.5 CORNER SQUADRA 1", "PULISIC C. U/O 1.5 SOMMA TIRI TOTALI", "BALOGUN F. U/O 1.5 SOMMA TIRI TOTALI", "DEST S. U/O 1.5 SOMMA TIRI TOTALI", "TILLMAN M. U/O 1.5 SOMMA TIRI TOTALI", "ADAMS T. U/O 0.5 SOMMA TIRI TOTALI", "DE KETELAERE C. U/O 1.5 SOMMA TIRI TOTALI", "TROSSARD L. U/O 1.5 SOMMA TIRI TOTALI"],
   "argentina-egitto": ["SEGNA GOAL 1", "MESSI L. SEGNA O SUO SOSTITUTO", "SQUADRA 1: U/O 5.5 TIRI IN PORTA", "U/O 24.5 TIRI TOTALI"],
   "svizzera-colombia": ["SEGNA GOAL SQUADRA OSPITE", "U/O 0.5 SQUADRA 1", "SQUADRA 2: U/O 14.5 TIRI TOTALI", "U/O 4.5 CORNER SQUADRA 2", "SQUADRA 1: U/O 11.5 TIRI TOTALI", "U/O 3.5 CORNER SQUADRA 1"],
   "francia-marocco": ["MBAPPE K. SEGNA O SUO SOSTITUTO", "MULTIGOAL MULTIESITI 16 ESITI", "1 TEMPO: SEGNA GOAL 1"],
@@ -38,7 +38,7 @@ const verifiedQuoteErrors = {
   "stati-uniti-belgio": [
     { label: "Folarin Balogun marcatore nel primo tempo", info: "BALOGUN F. MARCATORE 1T", selection: "SI", probability: .23, reason: "La revoca dell’espulsione e la probabile titolarità aumentano minuti e presenza in area." },
     { label: "Christian Pulisic almeno 2 tiri in porta", includes: "PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA", selection: "OVER", probability: .31, reason: "Ruolo, piazzati e volume offensivo USA sostengono una stima superiore al 26,67% implicito." },
-    { label: "Jérémy Doku almeno 2 tiri in porta", includes: "DOKU J. U/O 1.5 SOMMA TIRI IN PORTA", selection: "OVER", probability: .27, reason: "Gli uno contro uno sul lato di Freeman aumentano il volume atteso oltre il 22,22% implicito." },
+    { label: "Charles De Ketelaere almeno 2 tiri in porta", includes: "DE KETELAERE C. U/O 1.5 SOMMA TIRI IN PORTA", selection: "OVER", probability: .24, reason: "Da riferimento offensivo ufficiale del Belgio mantiene una quota alta, pur con volume squadra ridotto." },
   ],
   "argentina-egitto": [
     { label: "Lautaro Martínez marcatore nel primo tempo", info: "MARTINEZ LAUTARO MARCATORE 1T", selection: "SI", probability: .28, reason: "La probabile titolarità accanto a Messi produce una stima sopra il 24,39% implicito." },
@@ -299,8 +299,10 @@ for (const [slug, model] of Object.entries(models)) {
     }
   }
   if (slug === "messico-inghilterra") {
-    const curatedMarket = (needle, selection, score) => {
-      const item = quote.markets.find(m => m.info.includes(needle) && m.esito === selection);
+    const curatedMarket = (needle, selection, score, mercato = null) => {
+      const matchesMarket = item => !mercato || item.mercato === mercato;
+      const item = quote.markets.find(m => matchesMarket(m) && m.info === needle && m.esito === selection)
+        || quote.markets.find(m => matchesMarket(m) && m.info.includes(needle) && m.esito === selection);
       if (!item) throw new Error(`Mercato MyCombo non trovato: ${needle} ${selection}`);
       return event(item, 0, score);
     };
@@ -319,6 +321,35 @@ for (const [slug, model] of Object.entries(models)) {
       portfolio("Safe", [mexicoX2, goal, kaneShots, jimenezShots], model.scenario),
       portfolio("Balanced", [mexico1X, goal, englandCorners, quinonesShots, alvaradoShots], model.scenario),
       portfolio("Aggressive", [mexico1X, goal, kaneShots, sakaShots, bellinghamShots, andersonShots, quinonesShots], model.scenario),
+    ].map(item => ({
+      ...item,
+      weaknesses: ["Partita a eliminazione diretta.", "Formazioni ufficiali verificate; mercati tiri comunque volatili."],
+    }));
+  }
+  if (slug === "stati-uniti-belgio") {
+    const curatedMarket = (needle, selection, score, mercato = null) => {
+      const matchesMarket = item => !mercato || item.mercato === mercato;
+      const item = quote.markets.find(m => matchesMarket(m) && m.info === needle && m.esito === selection)
+        || quote.markets.find(m => matchesMarket(m) && m.info.includes(needle) && m.esito === selection);
+      if (!item) throw new Error(`Mercato MyCombo non trovato: ${needle} ${selection}`);
+      return event(item, 0, score);
+    };
+    const usa1x = curatedMarket("DOPPIA CHANCE MULTIESITI", "1X", 90);
+    const usaQualifies = curatedMarket("PASSAGGIO TURNO", "1", 88);
+    const under35 = curatedMarket("U/O 3.5", "UNDER", 88, "UNDER/OVER");
+    const under45 = curatedMarket("U/O 4.5", "UNDER", 86, "UNDER/OVER");
+    const noGoal = curatedMarket("GOAL/NO GOAL", "NOGOAL", 80);
+    const usaCorners35 = curatedMarket("U/O 3.5 CORNER SQUADRA 1", "OVER", 82);
+    const pulisicShots = curatedMarket("PULISIC C. U/O 1.5 SOMMA TIRI TOTALI", "OVER", 82);
+    const balogunShots = curatedMarket("BALOGUN F. U/O 1.5 SOMMA TIRI TOTALI", "OVER", 82);
+    const destShots = curatedMarket("DEST S. U/O 1.5 SOMMA TIRI TOTALI", "OVER", 80);
+    const adamsShots = curatedMarket("ADAMS T. U/O 0.5 SOMMA TIRI TOTALI", "OVER", 78);
+    const deKetelaereShots = curatedMarket("DE KETELAERE C. U/O 1.5 SOMMA TIRI TOTALI", "OVER", 78);
+    const trossardShots = curatedMarket("TROSSARD L. U/O 1.5 SOMMA TIRI TOTALI", "OVER", 78);
+    payload.portfolios = [
+      portfolio("Safe", [usa1x, under45, balogunShots, usaCorners35], model.scenario),
+      portfolio("Balanced", [usaQualifies, under35, pulisicShots, deKetelaereShots, adamsShots], model.scenario),
+      portfolio("Aggressive", [usa1x, noGoal, under35, destShots, trossardShots, deKetelaereShots], model.scenario),
     ].map(item => ({
       ...item,
       weaknesses: ["Partita a eliminazione diretta.", "Formazioni ufficiali verificate; mercati tiri comunque volatili."],

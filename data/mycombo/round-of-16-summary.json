@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T14:30:28.542Z",
+  "generatedAt": "2026-07-06T14:37:00.348Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -195,7 +195,8 @@
       "anomalies": [
         {
           "label": "Pareggio + Under 2,5",
-          "event": "1X2 + U/O 2.5",
+          "event": "Pareggio + Under 2,5",
+          "technicalEvent": "1X2 + U/O 2.5",
           "market": "COMBO: 1X2 + U/O",
           "selection": "X + U",
           "odds": 4.75,
@@ -212,7 +213,8 @@
         },
         {
           "label": "Risultati coperti: 1-1 oppure 1-2",
-          "event": "RISULTATO ESATTO MULTI ESITI (3)",
+          "event": "Risultati coperti: 1-1 oppure 1-2",
+          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (3)",
           "market": "RISULTATO ESATTO MULTI ESITI 3",
           "selection": "1-1 / 1-2",
           "odds": 3.8,
@@ -229,7 +231,8 @@
         },
         {
           "label": "Rafael Leão almeno 1 tiro in porta nel primo tempo",
-          "event": "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO",
+          "event": "Rafael Leão almeno 1 tiro in porta nel primo tempo",
+          "technicalEvent": "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO",
           "market": "GIOCATORE ALMENO Y TIRI IN PORTA NEL TEMPO Z",
           "selection": "SI",
           "odds": 3.25,
@@ -272,7 +275,8 @@
       "anomalies": [
         {
           "label": "Risultati coperti: USA 1-0, 2-0 oppure 2-1",
-          "event": "RISULTATO ESATTO MULTI ESITI (1)",
+          "event": "Risultati coperti: USA 1-0, 2-0 oppure 2-1",
+          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (1)",
           "market": "RISULTATO ESATTO MULTI ESITI 1",
           "selection": "1-0 / 2-0 / 2-1",
           "odds": 3.75,
@@ -289,7 +293,8 @@
         },
         {
           "label": "Risultati coperti: 1-1 oppure USA 2-1",
-          "event": "RISULTATO ESATTO MULTI ESITI (2)",
+          "event": "Risultati coperti: 1-1 oppure USA 2-1",
+          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (2)",
           "market": "RISULTATO ESATTO MULTI ESITI 2",
           "selection": "1-1 / 2-1",
           "odds": 3.9,
@@ -306,7 +311,8 @@
         },
         {
           "label": "Folarin Balogun marcatore nel primo tempo",
-          "event": "BALOGUN F. MARCATORE 1T",
+          "event": "Folarin Balogun marcatore nel primo tempo",
+          "technicalEvent": "BALOGUN F. MARCATORE 1T",
           "market": "MARCATORE SI/NO 1T",
           "selection": "SI",
           "odds": 4.6,
@@ -349,7 +355,8 @@
       "anomalies": [
         {
           "label": "Risultati coperti: Argentina 2-0 oppure 3-0",
-          "event": "RISULTATO ESATTO MULTI ESITI (2)",
+          "event": "Risultati coperti: Argentina 2-0 oppure 3-0",
+          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (2)",
           "market": "RISULTATO ESATTO MULTI ESITI 2",
           "selection": "2-0 / 3-0",
           "odds": 3.2,
@@ -366,7 +373,8 @@
         },
         {
           "label": "Primo gol tra il 1° e il 15° minuto",
-          "event": "MINUTO DEL PRIMO GOAL",
+          "event": "Primo gol tra il 1° e il 15° minuto",
+          "technicalEvent": "MINUTO DEL PRIMO GOAL",
           "market": "MINUTO PRIMO GOAL",
           "selection": "0 - 15",
           "odds": 3.1,
@@ -383,7 +391,8 @@
         },
         {
           "label": "Lautaro Martínez marcatore nel primo tempo",
-          "event": "MARTINEZ LAUTARO MARCATORE 1T",
+          "event": "Lautaro Martínez marcatore nel primo tempo",
+          "technicalEvent": "MARTINEZ LAUTARO MARCATORE 1T",
           "market": "MARCATORE SI/NO 1T",
           "selection": "SI",
           "odds": 4.1,
@@ -426,7 +435,8 @@
       "anomalies": [
         {
           "label": "Risultati coperti: 0-0 oppure 1-1",
-          "event": "RISULTATO ESATTO MULTI ESITI (1)",
+          "event": "Risultati coperti: 0-0 oppure 1-1",
+          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (1)",
           "market": "RISULTATO ESATTO MULTI ESITI 1",
           "selection": "0-0 / 1-1",
           "odds": 3.4,
@@ -443,7 +453,8 @@
         },
         {
           "label": "Risultati coperti: 0-0 oppure Colombia 0-1",
-          "event": "RISULTATO ESATTO MULTI ESITI (3)",
+          "event": "Risultati coperti: 0-0 oppure Colombia 0-1",
+          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (3)",
           "market": "RISULTATO ESATTO MULTI ESITI 3",
           "selection": "0-0 / 0-1",
           "odds": 3.5,
@@ -460,7 +471,8 @@
         },
         {
           "label": "Colombia vincente + Under 2,5",
-          "event": "1X2 + U/O 2.5",
+          "event": "Colombia vincente + Under 2,5",
+          "technicalEvent": "1X2 + U/O 2.5",
           "market": "COMBO: 1X2 + U/O",
           "selection": "2 + U",
           "odds": 4.25,

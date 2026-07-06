@@ -276,7 +276,7 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-06T14:30:28.345Z",
+    "generatedAt": "2026-07-06T14:37:00.192Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"
@@ -289,7 +289,8 @@
     "events": [
       {
         "label": "Pareggio + Under 2,5",
-        "event": "1X2 + U/O 2.5",
+        "event": "Pareggio + Under 2,5",
+        "technicalEvent": "1X2 + U/O 2.5",
         "market": "COMBO: 1X2 + U/O",
         "selection": "X + U",
         "odds": 4.75,
@@ -306,7 +307,8 @@
       },
       {
         "label": "Risultati coperti: 1-1 oppure 1-2",
-        "event": "RISULTATO ESATTO MULTI ESITI (3)",
+        "event": "Risultati coperti: 1-1 oppure 1-2",
+        "technicalEvent": "RISULTATO ESATTO MULTI ESITI (3)",
         "market": "RISULTATO ESATTO MULTI ESITI 3",
         "selection": "1-1 / 1-2",
         "odds": 3.8,
@@ -323,7 +325,8 @@
       },
       {
         "label": "Rafael Leão almeno 1 tiro in porta nel primo tempo",
-        "event": "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO",
+        "event": "Rafael Leão almeno 1 tiro in porta nel primo tempo",
+        "technicalEvent": "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO",
         "market": "GIOCATORE ALMENO Y TIRI IN PORTA NEL TEMPO Z",
         "selection": "SI",
         "odds": 3.25,

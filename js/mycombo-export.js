@@ -178,12 +178,20 @@
     const level = ["value", "suspicious", "error"].includes(event.level) ? event.level : "value";
     const risk = fold(event.risk);
     const confirmations = cleanList(event.confirmations);
+    const concreteSelection = clean(firstValue(event, ["label", "selectionLabel", "displayName"]))
+      || [clean(event.event), clean(event.selection)].filter(Boolean).join(" · ");
+    const technicalMarket = clean(event.market);
+    const anomalyIndex = Number.isFinite(Number(event.anomalyIndex)) ? `${Number(event.anomalyIndex)}/100` : "Non calcolato";
+    const compatibility = typeof event.myComboCompatible === "boolean"
+      ? (event.myComboCompatible ? "Sì" : "No")
+      : "Non valutata";
     return `
       <article class="quote-error-card is-${escapeHtml(level)}">
         <header>
           <div>
-            <span class="quote-error-badge is-${escapeHtml(level)}">${escapeHtml(event.badge)}</span>
-            <h5>${escapeHtml(event.event)}</h5>
+            ${clean(event.badge) ? `<span class="quote-error-badge is-${escapeHtml(level)}">${escapeHtml(event.badge)}</span>` : ""}
+            <h5>${escapeHtml(concreteSelection)}</h5>
+            ${technicalMarket ? `<small class="quote-error-market-type">Tipologia: ${escapeHtml(technicalMarket)}</small>` : ""}
           </div>
           <div class="quote-error-odds"><small>Quota</small><strong>${escapeHtml(event.odds)}</strong></div>
         </header>
@@ -191,9 +199,9 @@
           <div><small>Probabilità implicita</small><strong>${escapeHtml(event.impliedProbability)}%</strong></div>
           <div><small>Probabilità stimata</small><strong>${escapeHtml(event.estimatedProbability)}%</strong></div>
           <div><small>Edge</small><strong class="is-edge">+${escapeHtml(event.edge)}%</strong></div>
-          <div><small>Indice di Anomalia</small><strong>${escapeHtml(event.anomalyIndex)}/100</strong></div>
+          <div><small>Indice di Anomalia</small><strong>${escapeHtml(anomalyIndex)}</strong></div>
           <div><small>Rischio</small><strong class="is-risk-${escapeHtml(risk)}">${escapeHtml(riskLabel(event.risk))}</strong></div>
-          <div><small>Compatibilità MyCombo</small><strong>${event.myComboCompatible ? "Sì" : "No"}</strong></div>
+          <div><small>Compatibilità MyCombo</small><strong>${compatibility}</strong></div>
           <div><small>Fiducia modello</small><strong>${escapeHtml(event.modelConfidence)}/100</strong></div>
           <div><small>Classificazione</small><strong>${escapeHtml(event.classification)}</strong></div>
         </div>

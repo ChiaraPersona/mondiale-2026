@@ -199,7 +199,8 @@ for (const [slug, model] of Object.entries(models)) {
       const implied = 1 / Number(market.quota);
       const edge = (candidate.probability - implied) * 100;
       anomalyEvents.push({
-        label: candidate.label, event: market.info, market: market.mercato, selection: market.esito, odds: Number(market.quota),
+        label: candidate.label, event: candidate.label, technicalEvent: market.info,
+        market: market.mercato, selection: market.esito, odds: Number(market.quota),
         impliedProbability: round(implied * 100), estimatedProbability: round(candidate.probability * 100),
         edge: round(edge), classification: "Quota interessante",
         level: "value", reason: candidate.reason,

@@ -262,7 +262,7 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-06T14:30:28.391Z",
+    "generatedAt": "2026-07-06T14:37:00.231Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"
@@ -275,7 +275,8 @@
     "events": [
       {
         "label": "Risultati coperti: USA 1-0, 2-0 oppure 2-1",
-        "event": "RISULTATO ESATTO MULTI ESITI (1)",
+        "event": "Risultati coperti: USA 1-0, 2-0 oppure 2-1",
+        "technicalEvent": "RISULTATO ESATTO MULTI ESITI (1)",
         "market": "RISULTATO ESATTO MULTI ESITI 1",
         "selection": "1-0 / 2-0 / 2-1",
         "odds": 3.75,
@@ -292,7 +293,8 @@
       },
       {
         "label": "Risultati coperti: 1-1 oppure USA 2-1",
-        "event": "RISULTATO ESATTO MULTI ESITI (2)",
+        "event": "Risultati coperti: 1-1 oppure USA 2-1",
+        "technicalEvent": "RISULTATO ESATTO MULTI ESITI (2)",
         "market": "RISULTATO ESATTO MULTI ESITI 2",
         "selection": "1-1 / 2-1",
         "odds": 3.9,
@@ -309,7 +311,8 @@
       },
       {
         "label": "Folarin Balogun marcatore nel primo tempo",
-        "event": "BALOGUN F. MARCATORE 1T",
+        "event": "Folarin Balogun marcatore nel primo tempo",
+        "technicalEvent": "BALOGUN F. MARCATORE 1T",
         "market": "MARCATORE SI/NO 1T",
         "selection": "SI",
         "odds": 4.6,

@@ -44,12 +44,12 @@ function quotePanels(slug) {
   }).join("");
   const anomalies = myCombo.quoteErrorAnalysis?.events || [];
   const anomalyRows = anomalies.length
-    ? anomalies.map(item => `<li><b>${item.classification}</b> ${item.event} @ ${Number(item.odds).toFixed(2)} · edge ${Number(item.edge).toFixed(2)} p.p.</li>`).join("")
+    ? anomalies.map(item => `<li><b>${item.label || `${item.event}: ${item.selection}`} @ ${Number(item.odds).toFixed(2)}</b><span>Stima Codex ${Number(item.estimatedProbability).toFixed(2)}% · probabilità implicita ${Number(item.impliedProbability).toFixed(2)}% · vantaggio +${Number(item.edge).toFixed(2)} punti</span><small>${item.reason}</small></li>`).join("")
     : "<li>Nessun possibile errore di quota rilevato.</li>";
   return `
     <section class="reading-data-panel"><span>Quote ricevute</span><dl class="reading-stat-list">${quoteRows}</dl></section>
     <section class="reading-data-panel"><span>MyCombo · quote aggiornate</span><div class="reading-mycombo">${comboRows}</div></section>
-    <section class="reading-data-panel"><span>Analisi errore di quota</span><ul class="reading-picks">${anomalyRows}</ul></section>`;
+    <section class="reading-data-panel"><span>3 possibili errori di quota · tutti sopra 3,00</span><ul class="reading-picks">${anomalyRows}</ul></section>`;
 }
 
 for (const slug of slugs) {

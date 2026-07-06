@@ -304,7 +304,7 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-06T14:25:15.110Z",
+    "generatedAt": "2026-07-06T14:30:28.488Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"
@@ -316,6 +316,7 @@
     },
     "events": [
       {
+        "label": "Risultati coperti: Argentina 2-0 oppure 3-0",
         "event": "RISULTATO ESATTO MULTI ESITI (2)",
         "market": "RISULTATO ESATTO MULTI ESITI 2",
         "selection": "2-0 / 3-0",
@@ -332,6 +333,7 @@
         "marketId": "790917071"
       },
       {
+        "label": "Primo gol tra il 1° e il 15° minuto",
         "event": "MINUTO DEL PRIMO GOAL",
         "market": "MINUTO PRIMO GOAL",
         "selection": "0 - 15",
@@ -348,6 +350,7 @@
         "marketId": "790917378"
       },
       {
+        "label": "Lautaro Martínez marcatore nel primo tempo",
         "event": "MARTINEZ LAUTARO MARCATORE 1T",
         "market": "MARCATORE SI/NO 1T",
         "selection": "SI",

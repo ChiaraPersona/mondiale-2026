@@ -262,7 +262,7 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-06T14:25:15.178Z",
+    "generatedAt": "2026-07-06T14:30:28.540Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"
@@ -274,6 +274,7 @@
     },
     "events": [
       {
+        "label": "Risultati coperti: 0-0 oppure 1-1",
         "event": "RISULTATO ESATTO MULTI ESITI (1)",
         "market": "RISULTATO ESATTO MULTI ESITI 1",
         "selection": "0-0 / 1-1",
@@ -290,6 +291,7 @@
         "marketId": "790917189"
       },
       {
+        "label": "Risultati coperti: 0-0 oppure Colombia 0-1",
         "event": "RISULTATO ESATTO MULTI ESITI (3)",
         "market": "RISULTATO ESATTO MULTI ESITI 3",
         "selection": "0-0 / 0-1",
@@ -306,6 +308,7 @@
         "marketId": "790917266"
       },
       {
+        "label": "Colombia vincente + Under 2,5",
         "event": "1X2 + U/O 2.5",
         "market": "COMBO: 1X2 + U/O",
         "selection": "2 + U",

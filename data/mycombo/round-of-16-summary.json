@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T14:25:15.180Z",
+  "generatedAt": "2026-07-06T14:30:28.542Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -194,6 +194,7 @@
       ],
       "anomalies": [
         {
+          "label": "Pareggio + Under 2,5",
           "event": "1X2 + U/O 2.5",
           "market": "COMBO: 1X2 + U/O",
           "selection": "X + U",
@@ -210,6 +211,7 @@
           "marketId": "790631031"
         },
         {
+          "label": "Risultati coperti: 1-1 oppure 1-2",
           "event": "RISULTATO ESATTO MULTI ESITI (3)",
           "market": "RISULTATO ESATTO MULTI ESITI 3",
           "selection": "1-1 / 1-2",
@@ -226,6 +228,7 @@
           "marketId": "790658252"
         },
         {
+          "label": "Rafael Leão almeno 1 tiro in porta nel primo tempo",
           "event": "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO",
           "market": "GIOCATORE ALMENO Y TIRI IN PORTA NEL TEMPO Z",
           "selection": "SI",
@@ -268,6 +271,7 @@
       ],
       "anomalies": [
         {
+          "label": "Risultati coperti: USA 1-0, 2-0 oppure 2-1",
           "event": "RISULTATO ESATTO MULTI ESITI (1)",
           "market": "RISULTATO ESATTO MULTI ESITI 1",
           "selection": "1-0 / 2-0 / 2-1",
@@ -284,6 +288,7 @@
           "marketId": "790302145"
         },
         {
+          "label": "Risultati coperti: 1-1 oppure USA 2-1",
           "event": "RISULTATO ESATTO MULTI ESITI (2)",
           "market": "RISULTATO ESATTO MULTI ESITI 2",
           "selection": "1-1 / 2-1",
@@ -300,6 +305,7 @@
           "marketId": "790302162"
         },
         {
+          "label": "Folarin Balogun marcatore nel primo tempo",
           "event": "BALOGUN F. MARCATORE 1T",
           "market": "MARCATORE SI/NO 1T",
           "selection": "SI",
@@ -342,6 +348,7 @@
       ],
       "anomalies": [
         {
+          "label": "Risultati coperti: Argentina 2-0 oppure 3-0",
           "event": "RISULTATO ESATTO MULTI ESITI (2)",
           "market": "RISULTATO ESATTO MULTI ESITI 2",
           "selection": "2-0 / 3-0",
@@ -358,6 +365,7 @@
           "marketId": "790917071"
         },
         {
+          "label": "Primo gol tra il 1° e il 15° minuto",
           "event": "MINUTO DEL PRIMO GOAL",
           "market": "MINUTO PRIMO GOAL",
           "selection": "0 - 15",
@@ -374,6 +382,7 @@
           "marketId": "790917378"
         },
         {
+          "label": "Lautaro Martínez marcatore nel primo tempo",
           "event": "MARTINEZ LAUTARO MARCATORE 1T",
           "market": "MARCATORE SI/NO 1T",
           "selection": "SI",
@@ -416,6 +425,7 @@
       ],
       "anomalies": [
         {
+          "label": "Risultati coperti: 0-0 oppure 1-1",
           "event": "RISULTATO ESATTO MULTI ESITI (1)",
           "market": "RISULTATO ESATTO MULTI ESITI 1",
           "selection": "0-0 / 1-1",
@@ -432,6 +442,7 @@
           "marketId": "790917189"
         },
         {
+          "label": "Risultati coperti: 0-0 oppure Colombia 0-1",
           "event": "RISULTATO ESATTO MULTI ESITI (3)",
           "market": "RISULTATO ESATTO MULTI ESITI 3",
           "selection": "0-0 / 0-1",
@@ -448,6 +459,7 @@
           "marketId": "790917266"
         },
         {
+          "label": "Colombia vincente + Under 2,5",
           "event": "1X2 + U/O 2.5",
           "market": "COMBO: 1X2 + U/O",
           "selection": "2 + U",

@@ -31,24 +31,24 @@ const diverseMarketNeedles = {
 
 const verifiedQuoteErrors = {
   "portogallo-spagna": [
-    { info: "1X2 + U/O 2.5", selection: "X + U", probability: .24, reason: "Lo scenario bloccato 0-0/1-1 pesa più del 21,05% implicito." },
-    { info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "1-1 / 1-2", probability: .30, reason: "I due risultati più centrali del modello superano il 26,32% implicito." },
-    { includes: "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO", selection: "SI", probability: .36, reason: "Titolarità, ruolo in transizione e volume atteso sostengono una stima superiore a quella implicita." },
+    { label: "Pareggio + Under 2,5", info: "1X2 + U/O 2.5", selection: "X + U", probability: .24, reason: "Lo scenario bloccato 0-0/1-1 pesa più del 21,05% implicito." },
+    { label: "Risultati coperti: 1-1 oppure 1-2", info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "1-1 / 1-2", probability: .30, reason: "I due risultati più centrali del modello superano il 26,32% implicito." },
+    { label: "Rafael Leão almeno 1 tiro in porta nel primo tempo", includes: "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO", selection: "SI", probability: .36, reason: "Titolarità, ruolo in transizione e volume atteso sostengono una stima superiore a quella implicita." },
   ],
   "stati-uniti-belgio": [
-    { info: "RISULTATO ESATTO MULTI ESITI (1)", selection: "1-0 / 2-0 / 2-1", probability: .30, reason: "Fattore campo e titolarità di Balogun alzano il blocco di risultati USA sopra il 26,67% implicito." },
-    { info: "RISULTATO ESATTO MULTI ESITI (2)", selection: "1-1 / 2-1", probability: .29, reason: "Due dei tre scenari principali convergono su 1-1 o 2-1." },
-    { info: "BALOGUN F. MARCATORE 1T", selection: "SI", probability: .23, reason: "La revoca dell’espulsione e la probabile titolarità aumentano minuti e presenza in area." },
+    { label: "Risultati coperti: USA 1-0, 2-0 oppure 2-1", info: "RISULTATO ESATTO MULTI ESITI (1)", selection: "1-0 / 2-0 / 2-1", probability: .30, reason: "Fattore campo e titolarità di Balogun alzano il blocco di risultati USA sopra il 26,67% implicito." },
+    { label: "Risultati coperti: 1-1 oppure USA 2-1", info: "RISULTATO ESATTO MULTI ESITI (2)", selection: "1-1 / 2-1", probability: .29, reason: "Due dei tre scenari principali convergono su 1-1 o 2-1." },
+    { label: "Folarin Balogun marcatore nel primo tempo", info: "BALOGUN F. MARCATORE 1T", selection: "SI", probability: .23, reason: "La revoca dell’espulsione e la probabile titolarità aumentano minuti e presenza in area." },
   ],
   "argentina-egitto": [
-    { info: "RISULTATO ESATTO MULTI ESITI (2)", selection: "2-0 / 3-0", probability: .35, reason: "Controllo territoriale e differenziale di volume rendono 2-0/3-0 più probabile del 31,25% implicito." },
-    { info: "MINUTO DEL PRIMO GOAL", selection: "0 - 15", probability: .36, reason: "La pressione iniziale argentina e il divario tecnico sostengono una rete precoce." },
-    { info: "MARTINEZ LAUTARO MARCATORE 1T", selection: "SI", probability: .28, reason: "La probabile titolarità accanto a Messi produce una stima sopra il 24,39% implicito." },
+    { label: "Risultati coperti: Argentina 2-0 oppure 3-0", info: "RISULTATO ESATTO MULTI ESITI (2)", selection: "2-0 / 3-0", probability: .35, reason: "Controllo territoriale e differenziale di volume rendono 2-0/3-0 più probabile del 31,25% implicito." },
+    { label: "Primo gol tra il 1° e il 15° minuto", info: "MINUTO DEL PRIMO GOAL", selection: "0 - 15", probability: .36, reason: "La pressione iniziale argentina e il divario tecnico sostengono una rete precoce." },
+    { label: "Lautaro Martínez marcatore nel primo tempo", info: "MARTINEZ LAUTARO MARCATORE 1T", selection: "SI", probability: .28, reason: "La probabile titolarità accanto a Messi produce una stima sopra il 24,39% implicito." },
   ],
   "svizzera-colombia": [
-    { info: "RISULTATO ESATTO MULTI ESITI (1)", selection: "0-0 / 1-1", probability: .34, reason: "La massa assegnata allo scenario bloccato supera il 29,41% implicito." },
-    { info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "0-0 / 0-1", probability: .33, reason: "Pareggio senza gol e vittoria colombiana minima sono due esiti centrali della distribuzione." },
-    { info: "1X2 + U/O 2.5", selection: "2 + U", probability: .27, reason: "Lo 0-1 è il risultato centrale e il 27% stimato supera il 23,53% implicito." },
+    { label: "Risultati coperti: 0-0 oppure 1-1", info: "RISULTATO ESATTO MULTI ESITI (1)", selection: "0-0 / 1-1", probability: .34, reason: "La massa assegnata allo scenario bloccato supera il 29,41% implicito." },
+    { label: "Risultati coperti: 0-0 oppure Colombia 0-1", info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "0-0 / 0-1", probability: .33, reason: "Pareggio senza gol e vittoria colombiana minima sono due esiti centrali della distribuzione." },
+    { label: "Colombia vincente + Under 2,5", info: "1X2 + U/O 2.5", selection: "2 + U", probability: .27, reason: "Lo 0-1 è il risultato centrale e il 27% stimato supera il 23,53% implicito." },
   ],
 };
 
@@ -199,7 +199,7 @@ for (const [slug, model] of Object.entries(models)) {
       const implied = 1 / Number(market.quota);
       const edge = (candidate.probability - implied) * 100;
       anomalyEvents.push({
-        event: market.info, market: market.mercato, selection: market.esito, odds: Number(market.quota),
+        label: candidate.label, event: market.info, market: market.mercato, selection: market.esito, odds: Number(market.quota),
         impliedProbability: round(implied * 100), estimatedProbability: round(candidate.probability * 100),
         edge: round(edge), classification: "Quota interessante",
         level: "value", reason: candidate.reason,

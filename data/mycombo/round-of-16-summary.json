@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:48:01.461Z",
+  "generatedAt": "2026-07-06T14:25:15.180Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -181,18 +181,50 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 5
+          "odds": 4.5
         },
         {
           "name": "Balanced",
-          "odds": 9.99
+          "odds": 9.98
         },
         {
           "name": "Aggressive",
-          "odds": 15.69
+          "odds": 16.89
         }
       ],
       "anomalies": [
+        {
+          "event": "1X2 + U/O 2.5",
+          "market": "COMBO: 1X2 + U/O",
+          "selection": "X + U",
+          "odds": 4.75,
+          "impliedProbability": 21.05,
+          "estimatedProbability": 24,
+          "edge": 2.95,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "Lo scenario bloccato 0-0/1-1 pesa più del 21,05% implicito.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5203771571",
+          "marketId": "790631031"
+        },
+        {
+          "event": "RISULTATO ESATTO MULTI ESITI (3)",
+          "market": "RISULTATO ESATTO MULTI ESITI 3",
+          "selection": "1-1 / 1-2",
+          "odds": 3.8,
+          "impliedProbability": 26.32,
+          "estimatedProbability": 30,
+          "edge": 3.68,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "I due risultati più centrali del modello superano il 26,32% implicito.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5203908231",
+          "marketId": "790658252"
+        },
         {
           "event": "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO",
           "market": "GIOCATORE ALMENO Y TIRI IN PORTA NEL TEMPO Z",
@@ -203,8 +235,8 @@
           "edge": 5.23,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
-          "modelConfidence": 62,
+          "reason": "Titolarità, ruolo in transizione e volume atteso sostengono una stima superiore a quella implicita.",
+          "modelConfidence": 61,
           "risk": "medium",
           "selectionId": "5204512307",
           "marketId": "790770830"
@@ -214,42 +246,74 @@
     {
       "slug": "stati-uniti-belgio",
       "match": "Stati Uniti - Belgio",
-      "prediction": "1-1",
+      "prediction": "2-1",
       "probabilities": [
-        35,
-        29,
-        36
+        39,
+        28,
+        33
       ],
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 5
+          "odds": 5.18
         },
         {
           "name": "Balanced",
-          "odds": 9.99
+          "odds": 11.17
         },
         {
           "name": "Aggressive",
-          "odds": 20
+          "odds": 16.38
         }
       ],
       "anomalies": [
         {
-          "event": "PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
-          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "selection": "OVER",
+          "event": "RISULTATO ESATTO MULTI ESITI (1)",
+          "market": "RISULTATO ESATTO MULTI ESITI 1",
+          "selection": "1-0 / 2-0 / 2-1",
           "odds": 3.75,
           "impliedProbability": 26.67,
-          "estimatedProbability": 32,
-          "edge": 5.33,
+          "estimatedProbability": 30,
+          "edge": 3.33,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
-          "modelConfidence": 62,
+          "reason": "Fattore campo e titolarità di Balogun alzano il blocco di risultati USA sopra il 26,67% implicito.",
+          "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5204596634",
-          "marketId": "790784450"
+          "selectionId": "5202124251",
+          "marketId": "790302145"
+        },
+        {
+          "event": "RISULTATO ESATTO MULTI ESITI (2)",
+          "market": "RISULTATO ESATTO MULTI ESITI 2",
+          "selection": "1-1 / 2-1",
+          "odds": 3.9,
+          "impliedProbability": 25.64,
+          "estimatedProbability": 29,
+          "edge": 3.36,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "Due dei tre scenari principali convergono su 1-1 o 2-1.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5202124381",
+          "marketId": "790302162"
+        },
+        {
+          "event": "BALOGUN F. MARCATORE 1T",
+          "market": "MARCATORE SI/NO 1T",
+          "selection": "SI",
+          "odds": 4.6,
+          "impliedProbability": 21.74,
+          "estimatedProbability": 23,
+          "edge": 1.26,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "La revoca dell’espulsione e la probabile titolarità aumentano minuti e presenza in area.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5207116289",
+          "marketId": "791274790"
         }
       ]
     },
@@ -265,18 +329,50 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 5
+          "odds": 4.2
         },
         {
           "name": "Balanced",
-          "odds": 10
+          "odds": 9.07
         },
         {
           "name": "Aggressive",
-          "odds": 19.99
+          "odds": 18.32
         }
       ],
       "anomalies": [
+        {
+          "event": "RISULTATO ESATTO MULTI ESITI (2)",
+          "market": "RISULTATO ESATTO MULTI ESITI 2",
+          "selection": "2-0 / 3-0",
+          "odds": 3.2,
+          "impliedProbability": 31.25,
+          "estimatedProbability": 35,
+          "edge": 3.75,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "Controllo territoriale e differenziale di volume rendono 2-0/3-0 più probabile del 31,25% implicito.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5205314593",
+          "marketId": "790917071"
+        },
+        {
+          "event": "MINUTO DEL PRIMO GOAL",
+          "market": "MINUTO PRIMO GOAL",
+          "selection": "0 - 15",
+          "odds": 3.1,
+          "impliedProbability": 32.26,
+          "estimatedProbability": 36,
+          "edge": 3.74,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "La pressione iniziale argentina e il divario tecnico sostengono una rete precoce.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5205316833",
+          "marketId": "790917378"
+        },
         {
           "event": "MARTINEZ LAUTARO MARCATORE 1T",
           "market": "MARCATORE SI/NO 1T",
@@ -285,10 +381,10 @@
           "impliedProbability": 24.39,
           "estimatedProbability": 28,
           "edge": 3.61,
-          "classification": "Leggero value",
+          "classification": "Quota interessante",
           "level": "value",
-          "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
-          "modelConfidence": 62,
+          "reason": "La probabile titolarità accanto a Messi produce una stima sopra il 24,39% implicito.",
+          "modelConfidence": 61,
           "risk": "medium",
           "selectionId": "5205358941",
           "marketId": "790927253"
@@ -307,18 +403,67 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 5
+          "odds": 4.72
         },
         {
           "name": "Balanced",
-          "odds": 10
+          "odds": 9.74
         },
         {
           "name": "Aggressive",
-          "odds": 19.99
+          "odds": 18.13
         }
       ],
-      "anomalies": []
+      "anomalies": [
+        {
+          "event": "RISULTATO ESATTO MULTI ESITI (1)",
+          "market": "RISULTATO ESATTO MULTI ESITI 1",
+          "selection": "0-0 / 1-1",
+          "odds": 3.4,
+          "impliedProbability": 29.41,
+          "estimatedProbability": 34,
+          "edge": 4.59,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "La massa assegnata allo scenario bloccato supera il 29,41% implicito.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5205315483",
+          "marketId": "790917189"
+        },
+        {
+          "event": "RISULTATO ESATTO MULTI ESITI (3)",
+          "market": "RISULTATO ESATTO MULTI ESITI 3",
+          "selection": "0-0 / 0-1",
+          "odds": 3.5,
+          "impliedProbability": 28.57,
+          "estimatedProbability": 33,
+          "edge": 4.43,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "Pareggio senza gol e vittoria colombiana minima sono due esiti centrali della distribuzione.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5205316041",
+          "marketId": "790917266"
+        },
+        {
+          "event": "1X2 + U/O 2.5",
+          "market": "COMBO: 1X2 + U/O",
+          "selection": "2 + U",
+          "odds": 4.25,
+          "impliedProbability": 23.53,
+          "estimatedProbability": 27,
+          "edge": 3.47,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "Lo 0-1 è il risultato centrale e il 27% stimato supera il 23,53% implicito.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5205248003",
+          "marketId": "790905842"
+        }
+      ]
     },
     {
       "slug": "francia-marocco",

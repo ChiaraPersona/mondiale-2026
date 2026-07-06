@@ -4,7 +4,7 @@ const vm = require("vm");
 
 const rootDirectory = path.resolve(__dirname, "..");
 const renderer = fs.readFileSync(path.join(rootDirectory, "js", "round-of-16-readings.js"), "utf8");
-const slugs = [
+const allSlugs = [
   "canada-marocco",
   "paraguay-francia",
   "brasile-norvegia",
@@ -15,6 +15,8 @@ const slugs = [
   "svizzera-colombia",
   "francia-marocco",
 ];
+const requestedSlugs = process.argv.slice(2);
+const slugs = requestedSlugs.length ? allSlugs.filter(slug => requestedSlugs.includes(slug)) : allSlugs;
 
 function market(markets, info, selection) {
   return markets.find(item => item.info === info && item.esito === selection);

@@ -16,14 +16,14 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 5,
+      "finalOdds": 5.18,
       "events": [
         {
           "id": "event-01",
           "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
-          "selection": "2",
-          "odds": 1.85,
-          "selectionId": 5202117877,
+          "selection": "1",
+          "odds": 1.8,
+          "selectionId": 5202117876,
           "marketId": 790300065,
           "category": "esito",
           "rankingScore": 94,
@@ -33,17 +33,17 @@
           "riskReasons": []
         },
         {
-          "id": "event-12",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — TILLMAN M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-07",
+          "market": "UNDER/OVER — U/O 2.5",
           "selection": "OVER",
-          "odds": 1.5,
-          "selectionId": 5204561321,
-          "marketId": 790781046,
-          "category": "tiri",
-          "rankingScore": 78,
+          "odds": 1.6,
+          "selectionId": 5202118781,
+          "marketId": 790300288,
+          "category": "goal-total",
+          "rankingScore": 82,
           "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
+          "riskScore": 23,
+          "riskLevel": "low",
           "riskReasons": []
         },
         {
@@ -63,7 +63,7 @@
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
-        "id": "equilibrio_e_occasioni_da_entrambe_le_parti",
+        "id": "equilibrio_con_lieve_vantaggio_usa_dopo_il_rientro_di_balogun",
         "name": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
         "estimatedProbability": "medio-alta"
       },
@@ -79,14 +79,14 @@
     },
     {
       "name": "Balanced",
-      "finalOdds": 9.99,
+      "finalOdds": 11.17,
       "events": [
         {
           "id": "event-02",
           "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
-          "selection": "X2",
+          "selection": "1X",
           "odds": 1.42,
-          "selectionId": 5202118802,
+          "selectionId": 5202118800,
           "marketId": 790300293,
           "category": "esito",
           "rankingScore": 92,
@@ -96,16 +96,16 @@
           "riskReasons": []
         },
         {
-          "id": "event-04",
-          "market": "UNDER/OVER — U/O 3.5",
+          "id": "event-05",
+          "market": "UNDER/OVER — U/O 4.5",
           "selection": "UNDER",
-          "odds": 1.38,
-          "selectionId": 5202118784,
-          "marketId": 790300289,
+          "odds": 1.16,
+          "selectionId": 5202118788,
+          "marketId": 790300290,
           "category": "goal-total",
-          "rankingScore": 88,
+          "rankingScore": 86,
           "class": "CORE",
-          "riskScore": 17,
+          "riskScore": 19,
           "riskLevel": "low",
           "riskReasons": []
         },
@@ -113,7 +113,7 @@
           "id": "event-08",
           "market": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 1",
           "selection": "OVER",
-          "odds": 1.42,
+          "odds": 1.36,
           "selectionId": 5203559657,
           "marketId": 790588506,
           "category": "corner",
@@ -121,6 +121,83 @@
           "class": "VALUE",
           "riskScore": 25,
           "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-11",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DE BRUYNE K. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.33,
+          "selectionId": 5204561289,
+          "marketId": 790781038,
+          "category": "tiri",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-05",
+          "market": "RISULTATO ESATTO MULTI ESITI 1 — RISULTATO ESATTO MULTI ESITI (1)",
+          "selection": "1-0 / 2-0 / 2-1",
+          "odds": 3.75,
+          "selectionId": 5202124251,
+          "marketId": 790302145,
+          "category": "goal",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "equilibrio_con_lieve_vantaggio_usa_dopo_il_rientro_di_balogun",
+        "name": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ancora probabili."
+      ],
+      "riskVerdict": "medium"
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 16.38,
+      "events": [
+        {
+          "id": "event-03",
+          "market": "UNDER/OVER — U/O 1.5",
+          "selection": "OVER",
+          "odds": 1.16,
+          "selectionId": 5202118765,
+          "marketId": 790300284,
+          "category": "goal-total",
+          "rankingScore": 90,
+          "class": "CORE",
+          "riskScore": 15,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-06",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.57,
+          "selectionId": 5202116648,
+          "marketId": 790299395,
+          "category": "btts",
+          "rankingScore": 84,
+          "class": "VALUE",
+          "riskScore": 21,
+          "riskLevel": "low",
           "riskReasons": []
         },
         {
@@ -141,7 +218,7 @@
           "id": "event-12",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — TILLMAN M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.5,
+          "odds": 1.47,
           "selectionId": 5204561321,
           "marketId": 790781046,
           "category": "tiri",
@@ -152,13 +229,13 @@
           "riskReasons": []
         },
         {
-          "id": "event-13",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ADAMS T. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.8,
-          "selectionId": 5204560909,
-          "marketId": 790780943,
-          "category": "tiri",
+          "id": "event-05",
+          "market": "MARCATORE SI/NO 1T — BALOGUN F. MARCATORE 1T",
+          "selection": "SI",
+          "odds": 4.6,
+          "selectionId": 5207116289,
+          "marketId": 791274790,
+          "category": "giocatore",
           "rankingScore": 78,
           "class": "VALUE",
           "riskScore": 27,
@@ -168,126 +245,7 @@
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
-        "id": "equilibrio_e_occasioni_da_entrambe_le_parti",
-        "name": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
-        "estimatedProbability": "media"
-      },
-      "strengths": [
-        "Coerenza tattica interna.",
-        "Mercati principali e verificabili."
-      ],
-      "weaknesses": [
-        "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
-      ],
-      "riskVerdict": "medium"
-    },
-    {
-      "name": "Aggressive",
-      "finalOdds": 20,
-      "events": [
-        {
-          "id": "event-01",
-          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
-          "selection": "2",
-          "odds": 1.85,
-          "selectionId": 5202117877,
-          "marketId": 790300065,
-          "category": "esito",
-          "rankingScore": 94,
-          "class": "CORE",
-          "riskScore": 11,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-04",
-          "market": "UNDER/OVER — U/O 3.5",
-          "selection": "UNDER",
-          "odds": 1.38,
-          "selectionId": 5202118784,
-          "marketId": 790300289,
-          "category": "goal-total",
-          "rankingScore": 88,
-          "class": "CORE",
-          "riskScore": 17,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-06",
-          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
-          "selection": "GOAL",
-          "odds": 1.6,
-          "selectionId": 5202116648,
-          "marketId": 790299395,
-          "category": "btts",
-          "rankingScore": 84,
-          "class": "VALUE",
-          "riskScore": 21,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-08",
-          "market": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 1",
-          "selection": "OVER",
-          "odds": 1.42,
-          "selectionId": 5203559657,
-          "marketId": 790588506,
-          "category": "corner",
-          "rankingScore": 80,
-          "class": "VALUE",
-          "riskScore": 25,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-09",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — PULISIC C. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.33,
-          "selectionId": 5204561413,
-          "marketId": 790781069,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-10",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — DOKU J. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.44,
-          "selectionId": 5204561081,
-          "marketId": 790780986,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-13",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ADAMS T. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.8,
-          "selectionId": 5204560909,
-          "marketId": 790780943,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        }
-      ],
-      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
-      "scenario": {
-        "id": "equilibrio_e_occasioni_da_entrambe_le_parti",
+        "id": "equilibrio_con_lieve_vantaggio_usa_dopo_il_rientro_di_balogun",
         "name": "Equilibrio con lieve vantaggio USA dopo il rientro di Balogun",
         "estimatedProbability": "media"
       },
@@ -304,32 +262,64 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-05T10:49:01.450Z",
+    "generatedAt": "2026-07-06T14:25:15.040Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"
     },
     "analysis": {
-      "totalMarkets": 7153,
-      "manuallyModelledCandidates": 1,
-      "publishedEvents": 1
+      "totalMarkets": 7898,
+      "manuallyModelledCandidates": 3,
+      "publishedEvents": 3
     },
     "events": [
       {
-        "event": "PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
-        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-        "selection": "OVER",
+        "event": "RISULTATO ESATTO MULTI ESITI (1)",
+        "market": "RISULTATO ESATTO MULTI ESITI 1",
+        "selection": "1-0 / 2-0 / 2-1",
         "odds": 3.75,
         "impliedProbability": 26.67,
-        "estimatedProbability": 32,
-        "edge": 5.33,
+        "estimatedProbability": 30,
+        "edge": 3.33,
         "classification": "Quota interessante",
         "level": "value",
-        "reason": "La stima indipendente basata su ruolo, volume atteso e probabile titolarità supera la probabilità implicita; mercato comunque volatile.",
-        "modelConfidence": 62,
+        "reason": "Fattore campo e titolarità di Balogun alzano il blocco di risultati USA sopra il 26,67% implicito.",
+        "modelConfidence": 61,
         "risk": "medium",
-        "selectionId": "5204596634",
-        "marketId": "790784450"
+        "selectionId": "5202124251",
+        "marketId": "790302145"
+      },
+      {
+        "event": "RISULTATO ESATTO MULTI ESITI (2)",
+        "market": "RISULTATO ESATTO MULTI ESITI 2",
+        "selection": "1-1 / 2-1",
+        "odds": 3.9,
+        "impliedProbability": 25.64,
+        "estimatedProbability": 29,
+        "edge": 3.36,
+        "classification": "Quota interessante",
+        "level": "value",
+        "reason": "Due dei tre scenari principali convergono su 1-1 o 2-1.",
+        "modelConfidence": 61,
+        "risk": "medium",
+        "selectionId": "5202124381",
+        "marketId": "790302162"
+      },
+      {
+        "event": "BALOGUN F. MARCATORE 1T",
+        "market": "MARCATORE SI/NO 1T",
+        "selection": "SI",
+        "odds": 4.6,
+        "impliedProbability": 21.74,
+        "estimatedProbability": 23,
+        "edge": 1.26,
+        "classification": "Quota interessante",
+        "level": "value",
+        "reason": "La revoca dell’espulsione e la probabile titolarità aumentano minuti e presenza in area.",
+        "modelConfidence": 61,
+        "risk": "medium",
+        "selectionId": "5207116289",
+        "marketId": "791274790"
       }
     ],
     "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."

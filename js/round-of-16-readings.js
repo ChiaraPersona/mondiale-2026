@@ -43,42 +43,42 @@
     "portogallo-spagna": {
       teams: ["Portogallo", "Spagna"], flags: ["portogallo", "spagna"], high: true,
       formations: [
-        ["Portogallo", "4-2-3-1", "Diogo Costa; João Cancelo, Rúben Dias, Renato Veiga, Nuno Mendes; João Neves, Vitinha; Pedro Neto, Bruno Fernandes, Rafael Leão; Cristiano Ronaldo."],
-        ["Spagna", "4-3-3", "Unai Simón; Pedro Porro, Pau Cubarsí, Aymeric Laporte, Marc Cucurella; Dani Olmo, Rodri, Pedri; Lamine Yamal, Mikel Oyarzabal, Álex Baena."]
+        ["Portogallo", "4-2-3-1", "Diogo Costa; João Cancelo, Rúben Dias, Renato Veiga, Nuno Mendes; João Neves, Vitinha; Pedro Neto, Bruno Fernandes, Rafael Leão; Cristiano Ronaldo.", "Probabile formazione ricevuta il 6 luglio."],
+        ["Spagna", "4-3-3", "Unai Simón; Pedro Porro, Pau Cubarsí, Aymeric Laporte, Marc Cucurella; Rodri, Pedri, Dani Olmo; Lamine Yamal, Mikel Oyarzabal, Álex Baena.", "Probabile formazione ricevuta il 6 luglio."]
       ],
-      weather: "Circa 35°C alle 14:00 locali, parzialmente soleggiato, con temporali possibili nel pomeriggio. Impatto basso se tetto chiuso e climatizzazione attiva; alto solo all’esterno.",
-      stadium: "AT&T Stadium / Dallas Stadium, Arlington. Tetto retrattile, aria condizionata ed erba naturale temporanea. Condizioni probabilmente controllate.",
-      referee: null
+      weather: "Esterno circa 35-37°C; interno circa 22-24°C. Con copertura completa e climatizzazione, il caldo esterno non dovrebbe incidere sulle condizioni di gioco.",
+      stadium: "AT&T Stadium, Arlington (Dallas), Texas. Stadio completamente coperto e impianto climatizzato con temperatura interna controllata.",
+      referee: "Anthony Taylor (Inghilterra)", profile: "Arbitro esperto, incline a lasciare intensità nei duelli ma pronto a sanzionare proteste e falli tattici ripetuti.", severity: 70
     },
     "stati-uniti-belgio": {
       teams: ["Stati Uniti", "Belgio"], flags: ["stati-uniti", "belgio"],
       formations: [
-        ["USA", "4-3-3", "Freese; Freeman, Richards, Ream, Robinson; McKennie, Adams, Tillman; Dest, Pepi, Pulisic.", "Balogun nuovamente disponibile dopo la revoca dell'espulsione; resta un'alternativa offensiva importante."],
-        ["Belgio", "4-2-3-1", "Courtois; De Cuyper, Theate, Mechele, Castagne; Vanaken, Tielemans; Doku, De Bruyne, Trossard; Lukaku."]
+        ["USA", "4-3-3", "Freese; Freeman, Richards, Ream, Robinson; McKennie, Adams, Tillman; Dest, Balogun, Pulisic.", "Balogun è nuovamente disponibile dopo la revoca dell’espulsione ed è previsto titolare."],
+        ["Belgio", "4-2-3-1", "Courtois; De Cuyper, Theate, Mechele, Castagne; Raskin, Tielemans; Doku, De Bruyne, Trossard; Lukaku.", "Probabile formazione ricevuta il 6 luglio."]
       ],
-      weather: "Circa 21°C alle 17:00 locali, soleggiato/sereno. Impatto basso: condizioni ideali per intensità e pressing.",
-      stadium: "Lumen Field, Seattle. Campo aperto e copertura parziale sugli spalti, erba naturale temporanea per il Mondiale. Non climatizzato, ma con clima favorevole.",
-      referee: null
+      weather: "Circa 20-22°C, clima generalmente mite e poco umido. Condizioni ideali per intensità, pressing e continuità di gioco.",
+      stadium: "Seattle Stadium (Lumen Field), Seattle, Washington. Stadio all’aperto e non climatizzato.",
+      referee: "Raphael Claus (Brasile)", profile: "Direzione generalmente dialogante, ma severa sui contrasti in ritardo e sulle interruzioni delle ripartenze.", severity: 67
     },
     "argentina-egitto": {
       teams: ["Argentina", "Egitto"], flags: ["argentina", "egitto"], high: true,
       formations: [
-        ["Argentina", "4-3-1-2", "Emiliano Martínez; Molina, Romero, Lisandro Martínez, Medina; De Paul, Enzo Fernández, Mac Allister; Almada; Messi, Lautaro Martínez.", "Medina in dubbio lieve dopo i crampi dell’ultima gara; Tagliafico è l’alternativa."],
-        ["Egitto", "4-4-2", "Shobeir; Mohamed Hany, Hamdy Fathy, Yasser Ibrahim, Ramy Rabia; Emam Ashour, Lasheen, Marwan Ateya, Ziko; Salah, Marmoush.", "Lasheen rientra dalla squalifica; Hafez, Fatouh e Abdelmonem sono in dubbio per problemi fisici."]
+        ["Argentina", "4-4-2", "Emiliano Martínez; Molina, Romero, Lisandro Martínez, Tagliafico; De Paul, Mac Allister, Enzo Fernández, Almada; Messi, Lautaro Martínez.", "Probabile formazione ricevuta il 6 luglio."],
+        ["Egitto", "4-2-3-1", "Shobeir; Mohamed Hany, Yasser Ibrahim, Ramy Rabia, Hafez; Hamdy Fathy, Marwan Attia; Salah, Emam Ashour, Zizo; Marmoush.", "Probabile formazione ricevuta il 6 luglio."]
       ],
-      weather: "Circa 30°C alle 12:00 locali, nuvole intermittenti, con temporali più probabili in serata. Impatto basso se lo stadio è chiuso e climatizzato.",
-      stadium: "Mercedes-Benz Stadium / Atlanta Stadium. Tetto retrattile, aria condizionata ed erba naturale installata per il Mondiale. Ambiente controllato.",
-      referee: null
+      weather: "Circa 31-33°C, con possibile elevato irraggiamento solare durante la gara. Caldo e recupero fisico possono incidere soprattutto nella ripresa.",
+      stadium: "Kansas City Stadium (Arrowhead Stadium), Kansas City, Missouri. Stadio all’aperto e non climatizzato.",
+      referee: "Szymon Marciniak (Polonia)", profile: "Arbitro di grande esperienza, autorevole nella gestione delle gare a eliminazione diretta e attento ai contatti in area.", severity: 72
     },
     "svizzera-colombia": {
       teams: ["Svizzera", "Colombia"], flags: ["svizzera", "colombia"],
       formations: [
-        ["Svizzera", "4-2-3-1", "Kobel; Zakaria, Elvedi, Akanji, Ricardo Rodríguez; Freuler, Xhaka; Ndoye, Manzambi, Vargas; Embolo."],
-        ["Colombia", "4-2-3-1", "Camilo Vargas; Daniel Muñoz, Davinson Sánchez, Jhon Lucumí, Johan Mojica; Jefferson Lerma, Gustavo Puerta; Jhon Arias, James Rodríguez, Luis Díaz; Jhon Córdoba."]
+        ["Svizzera", "4-2-3-1", "Kobel; Widmer, Elvedi, Akanji, Ricardo Rodríguez; Freuler, Xhaka; Ndoye, Manzambi, Vargas; Embolo.", "Probabile formazione ricevuta il 6 luglio."],
+        ["Colombia", "4-3-3", "Camilo Vargas; Daniel Muñoz, Davinson Sánchez, Jhon Lucumí, Johan Mojica; Jhon Arias, Jefferson Lerma, Suárez; Luis Díaz, James Rodríguez, Gustavo Puerta.", "Probabile formazione ricevuta il 6 luglio."]
       ],
-      weather: "Circa 23°C alle 13:00 locali, prevalentemente soleggiato. Impatto basso: condizioni molto buone.",
-      stadium: "BC Place, Vancouver. Tetto retrattile, capienza circa 54.500 e superficie convertita per il Mondiale con erba naturale/ibrida. Clima mite.",
-      referee: null
+      weather: "Esterno circa 33-35°C; interno circa 22-24°C grazie alla climatizzazione. Temperatura di gioco stabile e impatto ambientale basso.",
+      stadium: "Atlanta Stadium (Mercedes-Benz Stadium), Atlanta, Georgia. Tetto retrattile e impianto completamente climatizzato.",
+      referee: "Clément Turpin (Francia)", profile: "Arbitro tecnico e posizionale, tende a proteggere la fluidità ma interviene sui falli tattici evidenti.", severity: 65
     },
     "francia-marocco": {
       teams: ["Francia", "Marocco"], flags: ["francia", "marocco"], roundLabel: "Quarti di finale", achievement: "entrare tra le migliori quattro",
@@ -177,6 +177,7 @@
         ["La lettura della partita", "La Spagna sale al 46% nei novanta minuti grazie a un centrocampo più continuo e a una migliore capacità di recuperare il pallone dopo la perdita. Il Portogallo conserva il 25% di vittoria e soprattutto una minaccia concreta nelle transizioni. La stima non segue ciecamente il mercato: il margine spagnolo esiste, ma è più stretto di quanto suggerisca la quota."],
         ["La chiave tattica", "Rodri o Zubimendi devono controllare Bruno Fernandes senza lasciare Pedri e Fabián troppo lontani dall’area. Lamine Yamal può costringere Nuno Mendes a difendere basso, ma proprio quella corsia offre al Portogallo la migliore uscita in campo aperto. Ronaldo occupa i centrali e libera seconde ricezioni per Bernardo e Leão."],
         ["Ritmo controllato", "Con tetto chiuso e climatizzazione l’estremo caldo di Arlington dovrebbe restare fuori dalla partita. Questo favorisce intensità tecnica e pressing organizzato. I temporali inciderebbero soprattutto sulla logistica, non sul campo, salvo decisione di giocare con il tetto aperto."],
+        ["Tre scenari", "Scenario prudente (35%): gara bloccata, 0-0 o 1-1, con Under 2,5. Scenario centrale (40%): entrambe segnano e la maggiore continuità spagnola produce 1-2. Scenario alternativo (25%): il Portogallo sfrutta transizioni e piazzati, vincendo 2-1. La sintesi mantiene la Spagna favorita senza trattarne la vittoria come automatica."],
         ["Verdetto", "Risultato centrale 1-1. Non considero scontata la qualificazione spagnola: il Portogallo ha abbastanza qualità ed esperienza per passare oltre i regolamentari. Goal e Over 1,5 sono più solidi del segno; l’Under 3,5 protegge uno scenario equilibrato."]
       ],
       volume: ["Portogallo 10-14 tiri", "Spagna 14-18 tiri", "Tiri in porta 4-6 / 5-7", "Corner totali 9-12"],
@@ -190,6 +191,7 @@
         ["La lettura della partita", "Il modello non trova una vera favorita. La revoca dell’espulsione di Balogun migliora profondità, cambi e capacità degli Stati Uniti di attaccare lo spazio; insieme al fattore campo, sposta leggermente la qualificazione verso gli USA. Il Belgio conserva più esperienza e qualità tra le linee, quindi il margine resta minimo."],
         ["La chiave tattica", "Adams e Musah devono ridurre il tempo di ricezione di De Bruyne, ma non possono entrambi uscire dalla zona centrale: Doku attacca immediatamente lo spazio che si apre. Gli USA devono muovere il pallone rapidamente verso Pulisic e Weah, costringendo Castagne e De Cuyper a lunghe corse all’indietro. Il duello sulle seconde palle decide chi può mantenere il ritmo alto."],
         ["Condizioni ideali", "Ventuno gradi e cielo sereno permettono pressing e accelerazioni continue. Non esiste una giustificazione ambientale per una gara lenta: se le squadre restano prudenti sarà per il peso dell’eliminazione diretta, non per il clima."],
+        ["Tre scenari", "Scenario USA (36%): pressione, ampiezza di Pulisic e profondità di Balogun portano al 2-1. Scenario equilibrato (31%): le squadre si neutralizzano per lunghi tratti e chiudono 1-1. Scenario Belgio (33%): De Bruyne trova Doku e Lukaku tra le linee per un 1-2. La media dei tre scenari suggerisce Goal e margini minimi, non un segno secco."],
         ["Verdetto", "Il risultato centrale aggiornato è 2-1 Stati Uniti, con 1-1 e 1-2 molto vicini. Goal e Over 1,5 sono le scelte principali; il passaggio turno resta troppo equilibrato per diventare una base prudente. Il ritorno di Balogun aumenta le alternative offensive e riduce il vantaggio precedentemente assegnato al Belgio."]
       ],
       volume: ["USA 11-15 tiri", "Belgio 12-16 tiri", "Tiri in porta 4-6 per parte", "Corner totali 9-12"],
@@ -202,7 +204,8 @@
       sections: [
         ["La lettura della partita", "L’Argentina ha il 71% di vittoria nei novanta minuti perché può dominare possesso, seconde palle e qualità delle occasioni. L’Egitto non è innocuo: Salah e Marmoush possono trasformare un recupero in una conclusione in pochi secondi. Per questo il vantaggio argentino va letto come controllo probabile, non come goleada obbligatoria."],
         ["La chiave tattica", "De Paul e Molina devono accompagnare Messi senza lasciare libero il corridoio di Salah. Enzo Fernández e Mac Allister possono muovere il blocco egiziano fino ad aprire lo spazio centrale per Lautaro o Julián Álvarez. Elneny e Hamdi Fathi hanno il compito più difficile: schermare Messi e contemporaneamente seguire gli inserimenti."],
-        ["Gestione dello stadio", "Con tetto chiuso e climatizzazione, caldo e umidità di Atlanta incidono poco. L’ambiente controllato aiuta la squadra che vuole tenere il pallone e riduce la possibilità che la gara venga decisa dalla fatica."],
+        ["Caldo e irraggiamento", "A Kansas City si gioca all’aperto con 31-33°C e possibile forte irraggiamento. Il caldo può abbassare il pressing continuo, favorire pause e rendere più importante il primo gol; l’Argentina conserva un vantaggio tecnico netto, ma la gestione delle energie rafforza Under 3,5 rispetto a una goleada."],
+        ["Tre scenari", "Scenario di controllo (50%): Argentina avanti presto e gestione fino al 2-0. Scenario resistente (27%): l’Egitto resta basso e perde 1-0. Scenario aperto (23%): Salah o Marmoush segnano in transizione e la gara arriva al 2-1 o 3-1. La media porta a 2-0, con Argentina qualificata e Under 3,5 come assi principali."],
         ["Verdetto", "Scelgo 2-0 Argentina, con 2-1 come rischio principale se Salah trova spazio. Argentina qualificata, Under 3,5 e Over 1,5 compongono lo scenario più coerente. No Goal è sensato ma meno sicuro del risultato centrale, proprio per la qualità delle transizioni egiziane."]
       ],
       volume: ["Argentina 16-21 tiri", "Egitto 6-9 tiri", "Corner Argentina 6-9", "Cartellini 3-5"],
@@ -215,7 +218,8 @@
       sections: [
         ["La lettura della partita", "La Colombia parte al 40%, con pareggio al 31% e Svizzera al 29%. È il profilo classico di una favorita leggera: più talento offensivo e uno contro uno, ma nessun margine per controllare la gara in automatico. La Svizzera può abbassare il numero di possessi e rendere ogni duello decisivo."],
         ["La chiave tattica", "Widmer e Rodríguez devono contenere Luis Díaz e Arias senza schiacciare completamente Vargas e Shaqiri. Xhaka prova a orientare il possesso lontano dalla pressione di Lerma e Richard Ríos; James cerca invece la ricezione alle spalle di Freuler. Embolo può mettere in difficoltà i centrali colombiani attaccando direttamente la profondità."],
-        ["Condizioni favorevoli", "Il clima mite di Vancouver e il possibile tetto chiuso eliminano quasi tutte le variabili esterne. Il ritmo dipenderà dalle scelte tattiche: la Svizzera ha interesse a comprimerlo, la Colombia ad aumentare il numero di uno contro uno."],
+        ["Condizioni controllate", "Ad Atlanta il tetto retrattile e la climatizzazione mantengono circa 22-24°C all’interno nonostante i 33-35°C esterni. La componente fisica dipende quindi dalle scelte tattiche: la Svizzera vuole comprimere il ritmo, la Colombia aumentare gli uno contro uno."],
+        ["Tre scenari", "Scenario bloccato (38%): 0-0 o 1-1 e qualificazione decisa oltre i novanta minuti. Scenario Colombia (40%): Luis Díaz e James producono il gol dello 0-1 o dell’1-2. Scenario Svizzera (22%): struttura, piazzati e seconde palle valgono l’1-0. La media conferma Colombia leggermente avanti e Under 3,5 come mercato più robusto."],
         ["Verdetto", "Scelgo 0-1 Colombia, con 1-1 come alternativa più forte. Under 3,5 e Under 2,5 sono le linee principali; Colombia qualificata è preferibile al segno 2. Una rete svizzera trasformerebbe la gara in uno scenario molto più incerto."]
       ],
       volume: ["Svizzera 9-12 tiri", "Colombia 11-15 tiri", "Tiri in porta 3-5 / 4-6", "Corner totali 8-11"],
@@ -260,23 +264,23 @@
     },
     "portogallo-spagna": {
       motivation: [98, 97], surprise: "Medio-alto", shots: [["Portogallo", "10-14", "4-6"], ["Spagna", "14-18", "5-7"]], corners: ["4-6", "5-7", "9-12"],
-      cards: [["João Neves", "Alto", "Schermo contro Pedri e Dani Olmo."], ["Cucurella", "Medio-alto", "Duelli in velocità con Pedro Neto."], ["João Cancelo", "Medio-alto", "Uno contro uno con Álex Baena."], ["Pau Cubarsí", "Medio", "Duello fisico con Ronaldo."], ["Rodri", "Medio", "Falli tattici sulle transizioni."]],
-      shotsPlayers: ["Ronaldo 3-5", "Rafael Leão 2-4", "Lamine Yamal 3-5", "Morata 2-4"]
+      cards: [["João Neves", "Alto", "Schermo contro Pedri e Dani Olmo."], ["Nuno Mendes", "Alto", "Duello ripetuto con Lamine Yamal."], ["Cucurella", "Medio-alto", "Duelli in velocità con Pedro Neto."], ["João Cancelo", "Medio-alto", "Uno contro uno con Álex Baena."], ["Pau Cubarsí", "Medio", "Duello fisico con Ronaldo."], ["Rodri", "Medio", "Falli tattici sulle transizioni."]],
+      shotsPlayers: ["Ronaldo 3-5", "Rafael Leão 2-4", "Lamine Yamal 3-5", "Oyarzabal 2-4"]
     },
     "stati-uniti-belgio": {
       motivation: [97, 94], surprise: "Alto", shots: [["Stati Uniti", "11-15", "4-6"], ["Belgio", "12-16", "4-6"]], corners: ["4-6", "5-7", "9-12"],
-      cards: [["Adams", "Alto", "Pressione e coperture su De Bruyne."], ["Freeman", "Alto", "Duello esterno con Doku."], ["Vanaken", "Medio-alto", "Interruzione delle transizioni americane."], ["Ream", "Medio", "Gestione della profondità di Lukaku."], ["Theate", "Medio", "Coperture sul lato di Dest."]],
-      shotsPlayers: ["Pulisic 3-5", "Pepi 2-4", "Doku 2-4", "Lukaku/Openda 3-5"]
+      cards: [["Adams", "Alto", "Pressione e coperture su De Bruyne."], ["Freeman", "Alto", "Duello esterno con Doku."], ["Raskin", "Medio-alto", "Interruzione delle transizioni americane."], ["Ream", "Medio-alto", "Gestione della profondità di Lukaku."], ["Theate", "Medio", "Coperture sul lato di Dest."]],
+      shotsPlayers: ["Pulisic 3-5", "Balogun 2-4", "Doku 2-4", "Lukaku 3-5"]
     },
     "argentina-egitto": {
       motivation: [97, 99], surprise: "Basso", shots: [["Argentina", "16-21", "6-9"], ["Egitto", "6-9", "2-4"]], corners: ["6-9", "2-3", "8-11"],
-      cards: [["Hamdy Fathy", "Alto", "Schermo centrale contro Messi."], ["Yasser Ibrahim", "Alto", "Duelli con Lautaro Martínez."], ["Lasheen", "Medio-alto", "Coperture sugli inserimenti argentini."], ["De Paul", "Medio", "Controllo delle transizioni di Marmoush."], ["Mohamed Hany", "Medio", "Uno contro uno con Almada."]],
+      cards: [["Hamdy Fathy", "Alto", "Schermo centrale contro Messi."], ["Yasser Ibrahim", "Alto", "Duelli con Lautaro Martínez."], ["Marwan Attia", "Medio-alto", "Coperture sugli inserimenti argentini."], ["De Paul", "Medio", "Controllo delle transizioni di Marmoush."], ["Mohamed Hany", "Medio", "Uno contro uno con Almada."]],
       shotsPlayers: ["Messi 4-6", "Lautaro Martínez 3-5", "Salah 2-4", "Marmoush 2-3"]
     },
     "svizzera-colombia": {
       motivation: [95, 96], surprise: "Alto", shots: [["Svizzera", "9-12", "3-5"], ["Colombia", "11-15", "4-6"]], corners: ["4-5", "4-6", "8-11"],
-      cards: [["Freuler", "Alto", "Coperture su James Rodríguez."], ["Zakaria", "Alto", "Uno contro uno con Luis Díaz."], ["Lerma", "Medio-alto", "Duelli centrali con Xhaka."], ["Muñoz", "Medio", "Pressione alta e recuperi su Vargas."], ["Elvedi", "Medio", "Gestione della profondità di Jhon Córdoba."]],
-      shotsPlayers: ["Embolo 2-4", "Vargas 2-3", "Luis Díaz 3-5", "Jhon Córdoba 2-4"]
+      cards: [["Freuler", "Alto", "Coperture su James Rodríguez."], ["Widmer", "Alto", "Uno contro uno con Luis Díaz."], ["Lerma", "Medio-alto", "Duelli centrali con Xhaka."], ["Muñoz", "Medio", "Pressione alta e recuperi su Vargas."], ["Elvedi", "Medio", "Gestione della profondità colombiana."]],
+      shotsPlayers: ["Embolo 2-4", "Vargas 2-3", "Luis Díaz 3-5", "James Rodríguez 2-4"]
     },
     "francia-marocco": {
       motivation: [97, 99], surprise: "Medio", shots: [["Francia", "14-18", "5-7"], ["Marocco", "8-12", "3-4"]], corners: ["5-7", "3-5", "8-11"],

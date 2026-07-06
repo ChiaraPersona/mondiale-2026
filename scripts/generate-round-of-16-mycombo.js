@@ -29,6 +29,55 @@ const diverseMarketNeedles = {
   "francia-marocco": ["MBAPPE K. SEGNA O SUO SOSTITUTO", "MULTIGOAL MULTIESITI 16 ESITI", "1 TEMPO: SEGNA GOAL 1"],
 };
 
+const verifiedQuoteErrors = {
+  "portogallo-spagna": [
+    { info: "1X2 + U/O 2.5", selection: "X + U", probability: .24, reason: "Lo scenario bloccato 0-0/1-1 pesa più del 21,05% implicito." },
+    { info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "1-1 / 1-2", probability: .30, reason: "I due risultati più centrali del modello superano il 26,32% implicito." },
+    { includes: "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO", selection: "SI", probability: .36, reason: "Titolarità, ruolo in transizione e volume atteso sostengono una stima superiore a quella implicita." },
+  ],
+  "stati-uniti-belgio": [
+    { info: "RISULTATO ESATTO MULTI ESITI (1)", selection: "1-0 / 2-0 / 2-1", probability: .30, reason: "Fattore campo e titolarità di Balogun alzano il blocco di risultati USA sopra il 26,67% implicito." },
+    { info: "RISULTATO ESATTO MULTI ESITI (2)", selection: "1-1 / 2-1", probability: .29, reason: "Due dei tre scenari principali convergono su 1-1 o 2-1." },
+    { info: "BALOGUN F. MARCATORE 1T", selection: "SI", probability: .23, reason: "La revoca dell’espulsione e la probabile titolarità aumentano minuti e presenza in area." },
+  ],
+  "argentina-egitto": [
+    { info: "RISULTATO ESATTO MULTI ESITI (2)", selection: "2-0 / 3-0", probability: .35, reason: "Controllo territoriale e differenziale di volume rendono 2-0/3-0 più probabile del 31,25% implicito." },
+    { info: "MINUTO DEL PRIMO GOAL", selection: "0 - 15", probability: .36, reason: "La pressione iniziale argentina e il divario tecnico sostengono una rete precoce." },
+    { info: "MARTINEZ LAUTARO MARCATORE 1T", selection: "SI", probability: .28, reason: "La probabile titolarità accanto a Messi produce una stima sopra il 24,39% implicito." },
+  ],
+  "svizzera-colombia": [
+    { info: "RISULTATO ESATTO MULTI ESITI (1)", selection: "0-0 / 1-1", probability: .34, reason: "La massa assegnata allo scenario bloccato supera il 29,41% implicito." },
+    { info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "0-0 / 0-1", probability: .33, reason: "Pareggio senza gol e vittoria colombiana minima sono due esiti centrali della distribuzione." },
+    { info: "1X2 + U/O 2.5", selection: "2 + U", probability: .27, reason: "Lo 0-1 è il risultato centrale e il 27% stimato supera il 23,53% implicito." },
+  ],
+};
+
+const portfolioAdditions = {
+  "portogallo-spagna": {
+    Safe: [{ info: "OYARZABAL M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.", selection: "OVER" }],
+    Balanced: [{ info: "1X2 + U/O 2.5", selection: "X + U" }],
+    Aggressive: [
+      { info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "1-1 / 1-2" },
+      { info: "PASSAGGIO TURNO", selection: "2" },
+    ],
+  },
+  "stati-uniti-belgio": {
+    Balanced: [{ info: "RISULTATO ESATTO MULTI ESITI (1)", selection: "1-0 / 2-0 / 2-1" }],
+    Aggressive: [{ info: "BALOGUN F. MARCATORE 1T", selection: "SI" }],
+  },
+  "argentina-egitto": {
+    Balanced: [{ info: "SQUADRA 1: U/O 5.5 TIRI IN PORTA", selection: "OVER" }],
+    Aggressive: [{ info: "RISULTATO ESATTO MULTI ESITI (2)", selection: "2-0 / 3-0" }],
+  },
+  "svizzera-colombia": {
+    Balanced: [{ info: "PRIMA A 5 CALCI D'ANGOLO", selection: "TEAM 2" }],
+    Aggressive: [
+      { info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "0-0 / 0-1" },
+      { info: "SQUADRA 2: U/O 4.5 TIRI IN PORTA", selection: "OVER" },
+    ],
+  },
+};
+
 function round(n) { return Math.round(n * 100) / 100; }
 function findMarket(markets, info, selection) {
   return markets.find(m => m.info === info && m.esito === selection);
@@ -139,7 +188,25 @@ for (const [slug, model] of Object.entries(models)) {
   const quote = JSON.parse(fs.readFileSync(path.join(quoteDir, `${slug}-quote.json`), "utf8"));
   const selected = easyCandidates(slug, quote, model);
   const anomalyEvents = [];
-  if (model.anomaly) {
+  if (verifiedQuoteErrors[slug]) {
+    for (const candidate of verifiedQuoteErrors[slug]) {
+      const market = quote.markets.find(m =>
+        (candidate.info ? m.info === candidate.info : m.info.includes(candidate.includes)) &&
+        m.esito === candidate.selection &&
+        Number(m.quota) > 3
+      );
+      if (!market) throw new Error(`Errore di quota non trovato: ${slug} ${candidate.info || candidate.includes}`);
+      const implied = 1 / Number(market.quota);
+      const edge = (candidate.probability - implied) * 100;
+      anomalyEvents.push({
+        event: market.info, market: market.mercato, selection: market.esito, odds: Number(market.quota),
+        impliedProbability: round(implied * 100), estimatedProbability: round(candidate.probability * 100),
+        edge: round(edge), classification: "Quota interessante",
+        level: "value", reason: candidate.reason,
+        modelConfidence: 61, risk: "medium", selectionId: String(market.selectionId), marketId: String(market.marketId)
+      });
+    }
+  } else if (model.anomaly) {
     const [needle, probability] = model.anomaly;
     const market = quote.markets.find(m => m.info.includes(needle) && Number(m.quota) > 3 && ["OVER","SI"].includes(m.esito));
     if (market) {
@@ -190,6 +257,27 @@ for (const [slug, model] of Object.entries(models)) {
       disclaimer: "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."
     }
   };
+  if (verifiedQuoteErrors[slug]) {
+    const pools = [[], [], []];
+    selected.forEach((item, index) => pools[index % 3].push(item));
+    const buildDistinct = (name, target, pool) => {
+      const picked = closestPortfolio(pool, target, 1);
+      return portfolio(name, picked, model.scenario);
+    };
+    payload.portfolios = [
+      buildDistinct("Safe", 5, pools[0]),
+      buildDistinct("Balanced", 10, pools[1]),
+      buildDistinct("Aggressive", 20, pools[2]),
+    ];
+    for (const item of payload.portfolios) {
+      for (const addition of portfolioAdditions[slug]?.[item.name] || []) {
+        const market = quote.markets.find(m => m.info === addition.info && m.esito === addition.selection);
+        if (!market) throw new Error(`Aggiunta MyCombo non trovata: ${slug} ${addition.info} ${addition.selection}`);
+        item.events.push(event(market, item.events.length, item.name === "Safe" ? 82 : 78));
+      }
+      item.finalOdds = round(item.events.reduce((product, current) => product * current.odds, 1));
+    }
+  }
   if (slug === "messico-inghilterra") {
     const curatedMarket = (needle, selection, score) => {
       const item = quote.markets.find(m => m.info.includes(needle) && m.esito === selection);

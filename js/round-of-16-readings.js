@@ -154,6 +154,12 @@
       headline: "L’Inghilterra ha più talento, ma l’Azteca annulla una parte del divario e rende il Messico molto più vivo.",
       deck: "Altitudine, pubblico e temporali spostano la gara verso margini sottili. L’Inghilterra resta leggermente avanti per la qualificazione, non nei novanta minuti con la stessa nettezza suggerita dai nomi.",
       score: "1-1", probabilities: ["34%", "30%", "36%"], labels: ["Messico", "Pareggio", "Inghilterra"],
+      result: {
+        score: "Messico 2-3 Inghilterra",
+        winner: "Inghilterra qualificata",
+        verdict: "Pronostico misto",
+        review: "Centrati Inghilterra qualificata, X2 e Goal. Non entrano il risultato centrale 1-1, il pareggio, Under 2,5 e Under 3,5. La lettura sul Messico competitivo e sul margine sottile era corretta: l’Inghilterra passa 3-2 dopo aver difeso in dieci dal 54’. Bellingham firma una doppietta e Kane segna su rigore."
+      },
       sections: [
         ["La lettura della partita", "Nei novanta minuti la stima è quasi tripartita: 34% Messico, 30% pareggio e 36% Inghilterra. Il valore inglese è superiore, ma giocare a oltre 2.200 metri cambia recuperi, pressing e gestione delle accelerazioni. Il Messico conosce tempi e traiettorie dell’Azteca e può tenere la partita in equilibrio molto a lungo."],
         ["La chiave tattica", "Rice e Anderson devono proteggere le perdite di palla quando Saka e O’Reilly salgono insieme. Lira può spezzare il ritmo inglese, mentre Mora e Romo cercano subito Alvarado e Quiñones. Bellingham è l’uomo che può rompere il blocco messicano ricevendo alle spalle dei centrocampisti; Kane dovrà alternare area e raccordo senza svuotare la zona centrale. Quansah deve gestire ampiezza e transizioni sul lato di Alvarado."],

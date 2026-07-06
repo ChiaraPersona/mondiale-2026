@@ -1644,6 +1644,28 @@ const worldCupResults = {
       "Le tre MyCombo sono perse per la presenza di Brasile qualificato o Brasile vincente; centrati Goal, Over 1,5, Over 2,5 e Under 3,5.",
     ],
   },
+  92: {
+    status: "Finale",
+    home: 2,
+    away: 3,
+    winner: "Inghilterra",
+    source: "https://www.diretta.it/partita/calcio/inghilterra-j9N9ZNFA/messico-O6iHcNkd/?mid=bc27lzfo",
+    sources: [
+      "https://www.diretta.it/partita/calcio/inghilterra-j9N9ZNFA/messico-O6iHcNkd/?mid=bc27lzfo",
+      "https://www.skysports.com/football/mexico-vs-england/report/549857",
+    ],
+    scorers: {
+      Messico: ["Julian Quinones", "Raul Jimenez"],
+      Inghilterra: ["Jude Bellingham", "Jude Bellingham", "Harry Kane"],
+    },
+    cards: { red: [{ team: "Inghilterra", player: "Jarell Quansah" }] },
+    notes: [
+      "L'Inghilterra batte il Messico 3-2 e si qualifica ai quarti contro la Norvegia.",
+      "Bellingham segna al 36' e al 38'; Quinones accorcia al 42'. Kane firma su rigore il 3-1 al 60', Jimenez risponde dal dischetto al 69'.",
+      "Quansah viene espulso al 54': l'Inghilterra difende il vantaggio in dieci uomini.",
+      "Centrati X2, Goal e Inghilterra qualificata; persi 1X, Under 3,5, Under 2,5 e pareggio nei 90 minuti.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

@@ -1,7 +1,7 @@
 const tournamentScorersAll = [
   { player: "Kylian Mbappe", team: "Francia", goals: 7, penalties: 1 },
   { player: "Lionel Messi", team: "Argentina", goals: 7, penalties: 0 },
-  { player: "Harry Kane", team: "Inghilterra", goals: 5, penalties: 1 },
+  { player: "Harry Kane", team: "Inghilterra", goals: 6, penalties: 2 },
   { player: "Erling Haaland", team: "Norvegia", goals: 7, penalties: 0 },
   { player: "Vinicius Jr", team: "Brasile", goals: 4, penalties: 0 },
   { player: "Ousmane Dembele", team: "Francia", goals: 4, penalties: 0 },
@@ -17,7 +17,7 @@ const tournamentScorersAll = [
   { player: "Cody Gakpo", team: "Olanda", goals: 3, penalties: 0 },
   { player: "Folarin Balogun", team: "Stati Uniti", goals: 3, penalties: 0 },
   { player: "Matheus Cunha", team: "Brasile", goals: 3, penalties: 0 },
-  { player: "Julian Quinones", team: "Messico", goals: 3, penalties: 0 },
+  { player: "Julian Quinones", team: "Messico", goals: 4, penalties: 0 },
   { player: "Elijah Just", team: "Nuova Zelanda", goals: 3, penalties: 0 },
   { player: "Breel Embolo", team: "Svizzera", goals: 2, penalties: 1 },
   { player: "Marco Arnautovic", team: "Austria", goals: 2, penalties: 1 },
@@ -35,14 +35,14 @@ const tournamentScorersAll = [
   { player: "Daichi Kamada", team: "Giappone", goals: 2, penalties: 0 },
   { player: "Leandro Trossard", team: "Belgio", goals: 2, penalties: 0 },
   { player: "Bradley Barcola", team: "Francia", goals: 2, penalties: 0 },
-  { player: "Jude Bellingham", team: "Inghilterra", goals: 2, penalties: 0 },
+  { player: "Jude Bellingham", team: "Inghilterra", goals: 4, penalties: 0 },
   { player: "Daniel Munoz", team: "Colombia", goals: 2, penalties: 0 },
   { player: "Ramin Rezaeian", team: "Iran", goals: 2, penalties: 0 },
   { player: "Crysencio Summerville", team: "Olanda", goals: 2, penalties: 0 },
   { player: "Ayase Ueda", team: "Giappone", goals: 2, penalties: 0 },
   { player: "Riyad Mahrez", team: "Algeria", goals: 2, penalties: 0 },
   { player: "Soufiane Rahimi", team: "Marocco", goals: 2, penalties: 0 },
-  { player: "Raul Jimenez", team: "Messico", goals: 2, penalties: 0 },
+  { player: "Raul Jimenez", team: "Messico", goals: 3, penalties: 1 },
   { player: "Cyle Larin", team: "Canada", goals: 2, penalties: 0 },
   { player: "Anthony Elanga", team: "Svezia", goals: 2, penalties: 0 },
   { player: "Yasin Ayari", team: "Svezia", goals: 2, penalties: 0 },
@@ -50,7 +50,7 @@ const tournamentScorersAll = [
 
 const tournamentScorerActiveTeams = new Set([
   "Argentina", "Belgio", "Colombia", "Egitto", "Francia", "Inghilterra",
-  "Marocco", "Messico", "Norvegia", "Portogallo", "Spagna", "Stati Uniti", "Svizzera",
+  "Marocco", "Norvegia", "Portogallo", "Spagna", "Stati Uniti", "Svizzera",
 ]);
 
 const tournamentScorers = tournamentScorersAll.filter((entry) =>

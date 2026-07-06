@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T12:07:22.939Z",
+  "generatedAt": "2026-07-05T22:48:01.461Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -139,15 +139,15 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 4.99
+          "odds": 5
         },
         {
           "name": "Balanced",
-          "odds": 9.99
+          "odds": 10
         },
         {
           "name": "Aggressive",
-          "odds": 20.27
+          "odds": 20.06
         }
       ],
       "anomalies": [

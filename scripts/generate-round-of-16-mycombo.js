@@ -133,7 +133,9 @@ function easyCandidates(slug, quote, model) {
 
 fs.mkdirSync(outputDir, { recursive: true });
 const summary = [];
+const requestedSlugs = new Set(process.argv.slice(2));
 for (const [slug, model] of Object.entries(models)) {
+  if (requestedSlugs.size && !requestedSlugs.has(slug)) continue;
   const quote = JSON.parse(fs.readFileSync(path.join(quoteDir, `${slug}-quote.json`), "utf8"));
   const selected = easyCandidates(slug, quote, model);
   const anomalyEvents = [];
@@ -188,8 +190,46 @@ for (const [slug, model] of Object.entries(models)) {
       disclaimer: "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."
     }
   };
+  if (slug === "messico-inghilterra") {
+    const curatedMarket = (needle, selection, score) => {
+      const item = quote.markets.find(m => m.info.includes(needle) && m.esito === selection);
+      if (!item) throw new Error(`Mercato MyCombo non trovato: ${needle} ${selection}`);
+      return event(item, 0, score);
+    };
+    const mexicoX2 = curatedMarket("DOPPIA CHANCE MULTIESITI", "X2", 88);
+    const mexico1X = curatedMarket("DOPPIA CHANCE MULTIESITI", "1X", 86);
+    const goal = curatedMarket("GOAL/NO GOAL", "GOAL", 84);
+    const englandCorners = curatedMarket("U/O 3.5 CORNER SQUADRA 2", "OVER", 82);
+    const kaneShots = curatedMarket("KANE H. U/O 2.5 SOMMA TIRI TOTALI", "OVER", 82);
+    const sakaShots = curatedMarket("SAKA B. U/O 1.5 SOMMA TIRI TOTALI", "OVER", 82);
+    const bellinghamShots = curatedMarket("BELLINGHAM JUDE U/O 1.5 SOMMA TIRI TOTALI", "OVER", 80);
+    const andersonShots = curatedMarket("ANDERSON E. U/O 0.5 SOMMA TIRI TOTALI", "OVER", 80);
+    const jimenezShots = curatedMarket("RAUL JIMENEZ U/O 1.5 SOMMA TIRI TOTALI", "OVER", 80);
+    const quinonesShots = curatedMarket("QUINONES J. U/O 1.5 SOMMA TIRI TOTALI", "OVER", 80);
+    const alvaradoShots = curatedMarket("ALVARADO R. U/O 1.5 SOMMA TIRI TOTALI", "OVER", 78);
+    payload.portfolios = [
+      portfolio("Safe", [mexicoX2, goal, kaneShots, jimenezShots], model.scenario),
+      portfolio("Balanced", [mexico1X, goal, englandCorners, quinonesShots, alvaradoShots], model.scenario),
+      portfolio("Aggressive", [mexico1X, goal, kaneShots, sakaShots, bellinghamShots, andersonShots, quinonesShots], model.scenario),
+    ].map(item => ({
+      ...item,
+      weaknesses: ["Partita a eliminazione diretta.", "Formazioni ufficiali verificate; mercati tiri comunque volatili."],
+    }));
+  }
   fs.writeFileSync(path.join(outputDir, `${slug}.json`), `${JSON.stringify(payload, null, 2)}\n`);
   summary.push({ slug, match: quote.match, prediction: model.score, probabilities: model.p, portfolios: payload.portfolios.map(p => ({ name: p.name, odds: p.finalOdds })), anomalies: anomalyEvents });
 }
-fs.writeFileSync(path.join(outputDir, "round-of-16-summary.json"), `${JSON.stringify({ generatedAt: new Date().toISOString(), matches: summary }, null, 2)}\n`);
+const summaryPath = path.join(outputDir, "round-of-16-summary.json");
+let summaryMatches = summary;
+if (requestedSlugs.size && fs.existsSync(summaryPath)) {
+  const previous = JSON.parse(fs.readFileSync(summaryPath, "utf8")).matches || [];
+  const replacements = new Map(summary.map(item => [item.slug, item]));
+  summaryMatches = previous.map(item => replacements.get(item.slug) || item);
+  summary.forEach(item => {
+    if (!previous.some(existing => existing.slug === item.slug)) summaryMatches.push(item);
+  });
+  const modelOrder = Object.keys(models);
+  summaryMatches.sort((a, b) => modelOrder.indexOf(a.slug) - modelOrder.indexOf(b.slug));
+}
+fs.writeFileSync(summaryPath, `${JSON.stringify({ generatedAt: new Date().toISOString(), matches: summaryMatches }, null, 2)}\n`);
 console.log(`Generate ${summary.length} MyCombo degli ottavi.`);

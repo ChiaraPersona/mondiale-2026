@@ -2,7 +2,18 @@
   "slug": "messico-inghilterra",
   "match": "Messico - Inghilterra",
   "date": "06/07/2026 ore 02.00",
-  "status": "scheduled",
+  "status": "completed",
+  "result": {
+    "score": "Messico 2-3 Inghilterra",
+    "winner": "Inghilterra",
+    "qualified": "Inghilterra",
+    "summary": "Centrati X2 e Goal. Balanced e Aggressive sono perse sul segno 1X; la verifica completa della Safe dipende dal referto ufficiale dei tiri giocatore.",
+    "portfolioSettlement": {
+      "Safe": "parziale: X2 e Goal centrati; tiri giocatore da verificare",
+      "Balanced": "persa: 1X non centrato",
+      "Aggressive": "persa: 1X non centrato"
+    }
+  },
   "prediction": {
     "probabilities90Minutes": {
       "home": 34,
@@ -16,75 +27,61 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 4.99,
+      "finalOdds": 5,
       "events": [
         {
-          "id": "event-02",
+          "id": "event-01",
           "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
           "selection": "X2",
           "odds": 1.36,
           "selectionId": 5201708740,
           "marketId": 790220452,
           "category": "esito",
-          "rankingScore": 92,
+          "rankingScore": 88,
           "class": "CORE",
-          "riskScore": 13,
+          "riskScore": 17,
           "riskLevel": "low",
           "riskReasons": []
         },
         {
-          "id": "event-03",
-          "market": "UNDER/OVER — U/O 0.5",
-          "selection": "OVER",
-          "odds": 1.06,
-          "selectionId": 5201708711,
-          "marketId": 790220445,
-          "category": "goal-total",
-          "rankingScore": 90,
-          "class": "CORE",
-          "riskScore": 15,
+          "id": "event-01",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.95,
+          "selectionId": 5201706586,
+          "marketId": 790219974,
+          "category": "btts",
+          "rankingScore": 84,
+          "class": "VALUE",
+          "riskScore": 21,
           "riskLevel": "low",
           "riskReasons": []
         },
         {
-          "id": "event-09",
+          "id": "event-01",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — KANE H. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
           "odds": 1.57,
           "selectionId": 5202741703,
           "marketId": 790440780,
           "category": "tiri",
-          "rankingScore": 78,
+          "rankingScore": 82,
           "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
+          "riskScore": 23,
+          "riskLevel": "low",
           "riskReasons": []
         },
         {
-          "id": "event-10",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAKA B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — RAUL JIMENEZ U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.47,
-          "selectionId": 5202741215,
-          "marketId": 790440658,
+          "odds": 1.2,
+          "selectionId": 5202741279,
+          "marketId": 790440674,
           "category": "tiri",
-          "rankingScore": 78,
+          "rankingScore": 80,
           "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-12",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ANDERSON E. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.5,
-          "selectionId": 5202739855,
-          "marketId": 790440318,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
+          "riskScore": 25,
           "riskLevel": "medium",
           "riskReasons": []
         }
@@ -101,36 +98,22 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ufficiali verificate."
+        "Formazioni ufficiali verificate; mercati tiri comunque volatili."
       ],
       "riskVerdict": "low"
     },
     {
       "name": "Balanced",
-      "finalOdds": 9.99,
+      "finalOdds": 10,
       "events": [
         {
           "id": "event-01",
-          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
-          "selection": "2",
-          "odds": 1.75,
-          "selectionId": 5201707815,
-          "marketId": 790220224,
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X",
+          "odds": 1.52,
+          "selectionId": 5201708738,
+          "marketId": 790220452,
           "category": "esito",
-          "rankingScore": 94,
-          "class": "CORE",
-          "riskScore": 11,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-05",
-          "market": "UNDER/OVER — U/O 3.5",
-          "selection": "UNDER",
-          "odds": 1.16,
-          "selectionId": 5201708722,
-          "marketId": 790220448,
-          "category": "goal-total",
           "rankingScore": 86,
           "class": "CORE",
           "riskScore": 19,
@@ -138,104 +121,13 @@
           "riskReasons": []
         },
         {
-          "id": "event-07",
-          "market": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2",
-          "selection": "OVER",
-          "odds": 1.45,
-          "selectionId": 5202826940,
-          "marketId": 790453613,
-          "category": "corner",
-          "rankingScore": 82,
-          "class": "VALUE",
-          "riskScore": 23,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-08",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BELLINGHAM JUDE U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.47,
-          "selectionId": 5202741203,
-          "marketId": 790440655,
-          "category": "tiri",
-          "rankingScore": 80,
-          "class": "VALUE",
-          "riskScore": 25,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-09",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — KANE H. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.57,
-          "selectionId": 5202741703,
-          "marketId": 790440780,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-10",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAKA B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.47,
-          "selectionId": 5202741215,
-          "marketId": 790440658,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        }
-      ],
-      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
-      "scenario": {
-        "id": "equilibrio_con_forte_fattore_azteca",
-        "name": "Equilibrio con forte fattore Azteca",
-        "estimatedProbability": "media"
-      },
-      "strengths": [
-        "Coerenza tattica interna.",
-        "Mercati principali e verificabili."
-      ],
-      "weaknesses": [
-        "Partita a eliminazione diretta.",
-        "Formazioni ufficiali verificate."
-      ],
-      "riskVerdict": "medium"
-    },
-    {
-      "name": "Aggressive",
-      "finalOdds": 20.27,
-      "events": [
-        {
           "id": "event-01",
-          "market": "PASSAGGIO TURNO — PASSAGGIO TURNO",
-          "selection": "2",
-          "odds": 1.75,
-          "selectionId": 5201707815,
-          "marketId": 790220224,
-          "category": "esito",
-          "rankingScore": 94,
-          "class": "CORE",
-          "riskScore": 11,
-          "riskLevel": "low",
-          "riskReasons": []
-        },
-        {
-          "id": "event-06",
-          "market": "UNDER/OVER — U/O 2.5",
-          "selection": "UNDER",
-          "odds": 1.57,
-          "selectionId": 5201708718,
-          "marketId": 790220447,
-          "category": "goal-total",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.95,
+          "selectionId": 5201706586,
+          "marketId": 790219974,
+          "category": "btts",
           "rankingScore": 84,
           "class": "VALUE",
           "riskScore": 21,
@@ -243,7 +135,7 @@
           "riskReasons": []
         },
         {
-          "id": "event-07",
+          "id": "event-01",
           "market": "U/O CORNER SQUADRA X — U/O 3.5 CORNER SQUADRA 2",
           "selection": "OVER",
           "odds": 1.45,
@@ -257,12 +149,12 @@
           "riskReasons": []
         },
         {
-          "id": "event-08",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BELLINGHAM JUDE U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — QUINONES J. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.47,
-          "selectionId": 5202741203,
-          "marketId": 790440655,
+          "odds": 1.33,
+          "selectionId": 5202741023,
+          "marketId": 790440610,
           "category": "tiri",
           "rankingScore": 80,
           "class": "VALUE",
@@ -271,40 +163,12 @@
           "riskReasons": []
         },
         {
-          "id": "event-09",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — KANE H. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ALVARADO R. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.57,
-          "selectionId": 5202741703,
-          "marketId": 790440780,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-10",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAKA B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.47,
-          "selectionId": 5202741215,
-          "marketId": 790440658,
-          "category": "tiri",
-          "rankingScore": 78,
-          "class": "VALUE",
-          "riskScore": 27,
-          "riskLevel": "medium",
-          "riskReasons": []
-        },
-        {
-          "id": "event-12",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ANDERSON E. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.5,
-          "selectionId": 5202739855,
-          "marketId": 790440318,
+          "odds": 1.75,
+          "selectionId": 5202741347,
+          "marketId": 790440691,
           "category": "tiri",
           "rankingScore": 78,
           "class": "VALUE",
@@ -325,14 +189,133 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ufficiali verificate."
+        "Formazioni ufficiali verificate; mercati tiri comunque volatili."
+      ],
+      "riskVerdict": "medium"
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 20.06,
+      "events": [
+        {
+          "id": "event-01",
+          "market": "DOPPIA CHANCE — DOPPIA CHANCE MULTIESITI",
+          "selection": "1X",
+          "odds": 1.52,
+          "selectionId": 5201708738,
+          "marketId": 790220452,
+          "category": "esito",
+          "rankingScore": 86,
+          "class": "CORE",
+          "riskScore": 19,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "GOAL/NOGOAL — GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.95,
+          "selectionId": 5201706586,
+          "marketId": 790219974,
+          "category": "btts",
+          "rankingScore": 84,
+          "class": "VALUE",
+          "riskScore": 21,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — KANE H. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5202741703,
+          "marketId": 790440780,
+          "category": "tiri",
+          "rankingScore": 82,
+          "class": "VALUE",
+          "riskScore": 23,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — SAKA B. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.47,
+          "selectionId": 5202741215,
+          "marketId": 790440658,
+          "category": "tiri",
+          "rankingScore": 82,
+          "class": "VALUE",
+          "riskScore": 23,
+          "riskLevel": "low",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — BELLINGHAM JUDE U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.47,
+          "selectionId": 5202741203,
+          "marketId": 790440655,
+          "category": "tiri",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ANDERSON E. U/O 0.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.5,
+          "selectionId": 5202739855,
+          "marketId": 790440318,
+          "category": "tiri",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-01",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — QUINONES J. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.33,
+          "selectionId": 5202741023,
+          "marketId": 790440610,
+          "category": "tiri",
+          "rankingScore": 80,
+          "class": "VALUE",
+          "riskScore": 25,
+          "riskLevel": "medium",
+          "riskReasons": []
+        }
+      ],
+      "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
+      "scenario": {
+        "id": "equilibrio_con_forte_fattore_azteca",
+        "name": "Equilibrio con forte fattore Azteca",
+        "estimatedProbability": "media"
+      },
+      "strengths": [
+        "Coerenza tattica interna.",
+        "Mercati principali e verificabili."
+      ],
+      "weaknesses": [
+        "Partita a eliminazione diretta.",
+        "Formazioni ufficiali verificate; mercati tiri comunque volatili."
       ],
       "riskVerdict": "high"
     }
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-05T10:49:01.373Z",
+    "generatedAt": "2026-07-05T22:48:01.453Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"

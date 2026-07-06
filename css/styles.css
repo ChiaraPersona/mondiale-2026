@@ -1396,8 +1396,8 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
 
 .reading-emotional-feature {
   display: block;
-  width: min(1180px, calc(100% - 32px));
-  margin: 0 auto clamp(24px, 4vw, 42px);
+  width: min(920px, calc(100% - 32px));
+  margin: 0 auto clamp(20px, 3vw, 32px);
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, .12);
   border-radius: 8px;
@@ -1408,7 +1408,7 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
 .reading-emotional-feature img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 7;
   object-fit: cover;
   transition: transform .28s ease, filter .28s ease;
 }
@@ -1574,6 +1574,16 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
 }
 
 @media (max-width: 600px) {
+  .reading-emotional-feature {
+    width: calc(100% - 20px);
+    margin-bottom: 26px;
+  }
+
+  .reading-emotional-feature img {
+    aspect-ratio: 4 / 5;
+    object-position: 58% center;
+  }
+
   .reading-supercombo > header { display: grid; }
   .reading-supercombo-total { width: 100%; }
   .reading-supercombo-grid { grid-template-columns: 1fr; }

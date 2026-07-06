@@ -1,4 +1,5 @@
 const readingPage = document.body.classList.contains("reading-page");
+const storyReadingPage = Boolean(document.querySelector(".reading-story-article"));
 
 document.querySelectorAll(".page-links").forEach((nav) => {
   if (nav.querySelector('a[href="laboratorio-ai.html"]')) return;
@@ -11,7 +12,7 @@ document.querySelectorAll(".page-links").forEach((nav) => {
   nav.insertBefore(link, utilityLink || null);
 });
 
-if (readingPage && !document.querySelector('script[data-mycombo-export]')) {
+if (readingPage && !storyReadingPage && !document.querySelector('script[data-mycombo-export]')) {
   const loadMyComboViewer = () => {
     if (document.querySelector('script[data-mycombo-export]')) return;
     const myComboScript = document.createElement("script");

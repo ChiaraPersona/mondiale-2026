@@ -1408,13 +1408,12 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
 .reading-emotional-feature img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 7;
-  object-fit: cover;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
   transition: transform .28s ease, filter .28s ease;
 }
 
 .reading-emotional-feature:hover img {
-  transform: scale(1.015);
   filter: brightness(1.08);
 }
 
@@ -1531,7 +1530,8 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
   width: 100%;
   border-radius: 8px;
   aspect-ratio: 16 / 9;
-  object-fit: cover;
+  object-fit: contain;
+  background: #05080b;
 }
 
 .reading-story-hero span {
@@ -1580,8 +1580,7 @@ h1 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: 0; }
   }
 
   .reading-emotional-feature img {
-    aspect-ratio: 4 / 5;
-    object-position: 58% center;
+    aspect-ratio: 16 / 9;
   }
 
   .reading-supercombo > header { display: grid; }

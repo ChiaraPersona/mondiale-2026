@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T14:37:00.348Z",
+  "generatedAt": "2026-07-06T14:51:09.517Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -185,49 +185,31 @@
         },
         {
           "name": "Balanced",
-          "odds": 9.98
+          "odds": 3.13
         },
         {
           "name": "Aggressive",
-          "odds": 16.89
+          "odds": 8
         }
       ],
       "anomalies": [
         {
-          "label": "Pareggio + Under 2,5",
-          "event": "Pareggio + Under 2,5",
-          "technicalEvent": "1X2 + U/O 2.5",
-          "market": "COMBO: 1X2 + U/O",
-          "selection": "X + U",
-          "odds": 4.75,
-          "impliedProbability": 21.05,
-          "estimatedProbability": 24,
-          "edge": 2.95,
+          "label": "Spagna almeno 7 tiri in porta",
+          "event": "Spagna almeno 7 tiri in porta",
+          "technicalEvent": "SQUADRA 2: U/O 6.5 TIRI IN PORTA",
+          "market": "U/O TIRI IN PORTA SQUADRA X",
+          "selection": "OVER",
+          "odds": 3.1,
+          "impliedProbability": 32.26,
+          "estimatedProbability": 35,
+          "edge": 2.74,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "Lo scenario bloccato 0-0/1-1 pesa più del 21,05% implicito.",
+          "reason": "Il volume offensivo spagnolo stimato porta la probabilità sopra il 32,26% implicito.",
           "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5203771571",
-          "marketId": "790631031"
-        },
-        {
-          "label": "Risultati coperti: 1-1 oppure 1-2",
-          "event": "Risultati coperti: 1-1 oppure 1-2",
-          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (3)",
-          "market": "RISULTATO ESATTO MULTI ESITI 3",
-          "selection": "1-1 / 1-2",
-          "odds": 3.8,
-          "impliedProbability": 26.32,
-          "estimatedProbability": 30,
-          "edge": 3.68,
-          "classification": "Quota interessante",
-          "level": "value",
-          "reason": "I due risultati più centrali del modello superano il 26,32% implicito.",
-          "modelConfidence": 61,
-          "risk": "medium",
-          "selectionId": "5203908231",
-          "marketId": "790658252"
+          "selectionId": "5204510408",
+          "marketId": "790770355"
         },
         {
           "label": "Rafael Leão almeno 1 tiro in porta nel primo tempo",
@@ -246,6 +228,24 @@
           "risk": "medium",
           "selectionId": "5204512307",
           "marketId": "790770830"
+        },
+        {
+          "label": "Lamine Yamal marcatore nel primo tempo",
+          "event": "Lamine Yamal marcatore nel primo tempo",
+          "technicalEvent": "LAMINE YAMAL MARCATORE 1T",
+          "market": "MARCATORE SI/NO 1T",
+          "selection": "SI",
+          "odds": 5.25,
+          "impliedProbability": 19.05,
+          "estimatedProbability": 22,
+          "edge": 2.95,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "La centralità offensiva di Yamal e il volume spagnolo portano la stima sopra il 19,05% implicito.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5204226771",
+          "marketId": "790705396"
         }
       ]
     },
@@ -265,50 +265,14 @@
         },
         {
           "name": "Balanced",
-          "odds": 11.17
+          "odds": 8.71
         },
         {
           "name": "Aggressive",
-          "odds": 16.38
+          "odds": 13.46
         }
       ],
       "anomalies": [
-        {
-          "label": "Risultati coperti: USA 1-0, 2-0 oppure 2-1",
-          "event": "Risultati coperti: USA 1-0, 2-0 oppure 2-1",
-          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (1)",
-          "market": "RISULTATO ESATTO MULTI ESITI 1",
-          "selection": "1-0 / 2-0 / 2-1",
-          "odds": 3.75,
-          "impliedProbability": 26.67,
-          "estimatedProbability": 30,
-          "edge": 3.33,
-          "classification": "Quota interessante",
-          "level": "value",
-          "reason": "Fattore campo e titolarità di Balogun alzano il blocco di risultati USA sopra il 26,67% implicito.",
-          "modelConfidence": 61,
-          "risk": "medium",
-          "selectionId": "5202124251",
-          "marketId": "790302145"
-        },
-        {
-          "label": "Risultati coperti: 1-1 oppure USA 2-1",
-          "event": "Risultati coperti: 1-1 oppure USA 2-1",
-          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (2)",
-          "market": "RISULTATO ESATTO MULTI ESITI 2",
-          "selection": "1-1 / 2-1",
-          "odds": 3.9,
-          "impliedProbability": 25.64,
-          "estimatedProbability": 29,
-          "edge": 3.36,
-          "classification": "Quota interessante",
-          "level": "value",
-          "reason": "Due dei tre scenari principali convergono su 1-1 o 2-1.",
-          "modelConfidence": 61,
-          "risk": "medium",
-          "selectionId": "5202124381",
-          "marketId": "790302162"
-        },
         {
           "label": "Folarin Balogun marcatore nel primo tempo",
           "event": "Folarin Balogun marcatore nel primo tempo",
@@ -326,6 +290,42 @@
           "risk": "medium",
           "selectionId": "5207116289",
           "marketId": "791274790"
+        },
+        {
+          "label": "Christian Pulisic almeno 2 tiri in porta",
+          "event": "Christian Pulisic almeno 2 tiri in porta",
+          "technicalEvent": "PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "selection": "OVER",
+          "odds": 3.75,
+          "impliedProbability": 26.67,
+          "estimatedProbability": 31,
+          "edge": 4.33,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "Ruolo, piazzati e volume offensivo USA sostengono una stima superiore al 26,67% implicito.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5204596634",
+          "marketId": "790784450"
+        },
+        {
+          "label": "Jérémy Doku almeno 2 tiri in porta",
+          "event": "Jérémy Doku almeno 2 tiri in porta",
+          "technicalEvent": "DOKU J. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "selection": "OVER",
+          "odds": 4.5,
+          "impliedProbability": 22.22,
+          "estimatedProbability": 27,
+          "edge": 4.78,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "Gli uno contro uno sul lato di Freeman aumentano il volume atteso oltre il 22,22% implicito.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5204558317",
+          "marketId": "790780295"
         }
       ]
     },
@@ -341,54 +341,18 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 4.2
+          "odds": 3.94
         },
         {
           "name": "Balanced",
-          "odds": 9.07
+          "odds": 6.88
         },
         {
           "name": "Aggressive",
-          "odds": 18.32
+          "odds": 19.93
         }
       ],
       "anomalies": [
-        {
-          "label": "Risultati coperti: Argentina 2-0 oppure 3-0",
-          "event": "Risultati coperti: Argentina 2-0 oppure 3-0",
-          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (2)",
-          "market": "RISULTATO ESATTO MULTI ESITI 2",
-          "selection": "2-0 / 3-0",
-          "odds": 3.2,
-          "impliedProbability": 31.25,
-          "estimatedProbability": 35,
-          "edge": 3.75,
-          "classification": "Quota interessante",
-          "level": "value",
-          "reason": "Controllo territoriale e differenziale di volume rendono 2-0/3-0 più probabile del 31,25% implicito.",
-          "modelConfidence": 61,
-          "risk": "medium",
-          "selectionId": "5205314593",
-          "marketId": "790917071"
-        },
-        {
-          "label": "Primo gol tra il 1° e il 15° minuto",
-          "event": "Primo gol tra il 1° e il 15° minuto",
-          "technicalEvent": "MINUTO DEL PRIMO GOAL",
-          "market": "MINUTO PRIMO GOAL",
-          "selection": "0 - 15",
-          "odds": 3.1,
-          "impliedProbability": 32.26,
-          "estimatedProbability": 36,
-          "edge": 3.74,
-          "classification": "Quota interessante",
-          "level": "value",
-          "reason": "La pressione iniziale argentina e il divario tecnico sostengono una rete precoce.",
-          "modelConfidence": 61,
-          "risk": "medium",
-          "selectionId": "5205316833",
-          "marketId": "790917378"
-        },
         {
           "label": "Lautaro Martínez marcatore nel primo tempo",
           "event": "Lautaro Martínez marcatore nel primo tempo",
@@ -406,6 +370,42 @@
           "risk": "medium",
           "selectionId": "5205358941",
           "marketId": "790927253"
+        },
+        {
+          "label": "Argentina almeno 8 tiri in porta",
+          "event": "Argentina almeno 8 tiri in porta",
+          "technicalEvent": "SQUADRA 1: U/O 7.5 TIRI IN PORTA",
+          "market": "U/O TIRI IN PORTA SQUADRA X",
+          "selection": "OVER",
+          "odds": 3.25,
+          "impliedProbability": 30.77,
+          "estimatedProbability": 34,
+          "edge": 3.23,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "Possesso, territorio e qualità delle conclusioni portano la stima sopra il 30,77% implicito.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5206971726",
+          "marketId": "791245905"
+        },
+        {
+          "label": "Lautaro Martínez almeno 5 tiri totali",
+          "event": "Lautaro Martínez almeno 5 tiri totali",
+          "technicalEvent": "MARTINEZ LAUTARO U/O 4.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "selection": "OVER",
+          "odds": 3.5,
+          "impliedProbability": 28.57,
+          "estimatedProbability": 33,
+          "edge": 4.43,
+          "classification": "Quota interessante",
+          "level": "value",
+          "reason": "Da riferimento centrale dell’attacco argentino può superare il 28,57% implicito.",
+          "modelConfidence": 61,
+          "risk": "medium",
+          "selectionId": "5206972118",
+          "marketId": "791246003"
         }
       ]
     },
@@ -421,71 +421,71 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 4.72
+          "odds": 4.85
         },
         {
           "name": "Balanced",
-          "odds": 9.74
+          "odds": 7.08
         },
         {
           "name": "Aggressive",
-          "odds": 18.13
+          "odds": 16.94
         }
       ],
       "anomalies": [
         {
-          "label": "Risultati coperti: 0-0 oppure 1-1",
-          "event": "Risultati coperti: 0-0 oppure 1-1",
-          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (1)",
-          "market": "RISULTATO ESATTO MULTI ESITI 1",
-          "selection": "0-0 / 1-1",
-          "odds": 3.4,
-          "impliedProbability": 29.41,
+          "label": "Breel Embolo almeno 4 tiri totali",
+          "event": "Breel Embolo almeno 4 tiri totali",
+          "technicalEvent": "EMBOLO B. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "selection": "OVER",
+          "odds": 3.25,
+          "impliedProbability": 30.77,
           "estimatedProbability": 34,
-          "edge": 4.59,
+          "edge": 3.23,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "La massa assegnata allo scenario bloccato supera il 29,41% implicito.",
+          "reason": "Il ruolo di riferimento offensivo porta la stima sopra il 30,77% implicito.",
           "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5205315483",
-          "marketId": "790917189"
+          "selectionId": "5207018700",
+          "marketId": "791255559"
         },
         {
-          "label": "Risultati coperti: 0-0 oppure Colombia 0-1",
-          "event": "Risultati coperti: 0-0 oppure Colombia 0-1",
-          "technicalEvent": "RISULTATO ESATTO MULTI ESITI (3)",
-          "market": "RISULTATO ESATTO MULTI ESITI 3",
-          "selection": "0-0 / 0-1",
+          "label": "Luis Díaz almeno 5 tiri totali",
+          "event": "Luis Díaz almeno 5 tiri totali",
+          "technicalEvent": "LUIS DIAZ U/O 4.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "selection": "OVER",
           "odds": 3.5,
           "impliedProbability": 28.57,
           "estimatedProbability": 33,
           "edge": 4.43,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "Pareggio senza gol e vittoria colombiana minima sono due esiti centrali della distribuzione.",
+          "reason": "La centralità di Díaz negli attacchi colombiani supera il 28,57% implicito.",
           "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5205316041",
-          "marketId": "790917266"
+          "selectionId": "5207025487",
+          "marketId": "791257091"
         },
         {
-          "label": "Colombia vincente + Under 2,5",
-          "event": "Colombia vincente + Under 2,5",
-          "technicalEvent": "1X2 + U/O 2.5",
-          "market": "COMBO: 1X2 + U/O",
-          "selection": "2 + U",
-          "odds": 4.25,
-          "impliedProbability": 23.53,
-          "estimatedProbability": 27,
-          "edge": 3.47,
+          "label": "Colombia almeno 7 tiri in porta",
+          "event": "Colombia almeno 7 tiri in porta",
+          "technicalEvent": "SQUADRA 2: U/O 6.5 TIRI IN PORTA",
+          "market": "U/O TIRI IN PORTA SQUADRA X",
+          "selection": "OVER",
+          "odds": 4.5,
+          "impliedProbability": 22.22,
+          "estimatedProbability": 26,
+          "edge": 3.78,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "Lo 0-1 è il risultato centrale e il 27% stimato supera il 23,53% implicito.",
+          "reason": "La superiorità negli uno contro uno porta la stima sopra il 22,22% implicito.",
           "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5205248003",
-          "marketId": "790905842"
+          "selectionId": "5207023671",
+          "marketId": "791256637"
         }
       ]
     },

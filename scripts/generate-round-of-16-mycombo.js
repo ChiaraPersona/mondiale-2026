@@ -24,56 +24,69 @@ const diverseMarketNeedles = {
   "messico-inghilterra": ["U/O 3.5 CORNER SQUADRA 2", "BELLINGHAM JUDE U/O 1.5 SOMMA TIRI TOTALI", "KANE H. U/O 2.5 SOMMA TIRI TOTALI", "SAKA B. U/O 1.5 SOMMA TIRI TOTALI", "ALVARADO R. U/O 1.5 SOMMA TIRI TOTALI", "ANDERSON E. U/O 0.5 SOMMA TIRI TOTALI"],
   "portogallo-spagna": ["LAMINE YAMAL U/O 2.5 SOMMA TIRI TOTALI", "FERNANDES B. U/O 1.5 SOMMA TIRI TOTALI", "LEAO R. U/O 1.5 SOMMA TIRI TOTALI", "OYARZABAL M. U/O 1.5 SOMMA TIRI TOTALI", "PEDRI U/O 1.5 SOMMA TIRI TOTALI", "OLMO D. U/O 1.5 SOMMA TIRI TOTALI"],
   "stati-uniti-belgio": ["U/O 3.5 CORNER SQUADRA 1", "PULISIC C. U/O 1.5 SOMMA TIRI TOTALI", "DOKU J. U/O 1.5 SOMMA TIRI TOTALI", "DE BRUYNE K. U/O 1.5 SOMMA TIRI TOTALI", "TILLMAN M. U/O 1.5 SOMMA TIRI TOTALI", "ADAMS T. U/O 0.5 SOMMA TIRI TOTALI"],
-  "argentina-egitto": ["SEGNA GOAL 1", "MESSI L. SEGNA O SUO SOSTITUTO", "MULTIGOAL MULTIESITI 16 ESITI", "METODO DEL GOAL 1", "U/O 0.5 PALI/TRAVERSE", "ARBITRO CONSULTA MONITOR VAR", "PARI/DISPARI"],
-  "svizzera-colombia": ["SEGNA GOAL SQUADRA OSPITE", "U/O 0.5 SQUADRA 1", "MULTIGOAL MULTIESITI 16 ESITI", "METODO DEL GOAL 1", "U/O 0.5 PALI/TRAVERSE", "ARBITRO CONSULTA MONITOR VAR", "PARI/DISPARI"],
+  "argentina-egitto": ["SEGNA GOAL 1", "MESSI L. SEGNA O SUO SOSTITUTO", "SQUADRA 1: U/O 5.5 TIRI IN PORTA", "U/O 24.5 TIRI TOTALI"],
+  "svizzera-colombia": ["SEGNA GOAL SQUADRA OSPITE", "U/O 0.5 SQUADRA 1", "SQUADRA 2: U/O 14.5 TIRI TOTALI", "U/O 4.5 CORNER SQUADRA 2", "SQUADRA 1: U/O 11.5 TIRI TOTALI", "U/O 3.5 CORNER SQUADRA 1"],
   "francia-marocco": ["MBAPPE K. SEGNA O SUO SOSTITUTO", "MULTIGOAL MULTIESITI 16 ESITI", "1 TEMPO: SEGNA GOAL 1"],
 };
 
 const verifiedQuoteErrors = {
   "portogallo-spagna": [
-    { label: "Pareggio + Under 2,5", info: "1X2 + U/O 2.5", selection: "X + U", probability: .24, reason: "Lo scenario bloccato 0-0/1-1 pesa più del 21,05% implicito." },
-    { label: "Risultati coperti: 1-1 oppure 1-2", info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "1-1 / 1-2", probability: .30, reason: "I due risultati più centrali del modello superano il 26,32% implicito." },
+    { label: "Spagna almeno 7 tiri in porta", info: "SQUADRA 2: U/O 6.5 TIRI IN PORTA", selection: "OVER", probability: .35, reason: "Il volume offensivo spagnolo stimato porta la probabilità sopra il 32,26% implicito." },
     { label: "Rafael Leão almeno 1 tiro in porta nel primo tempo", includes: "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO", selection: "SI", probability: .36, reason: "Titolarità, ruolo in transizione e volume atteso sostengono una stima superiore a quella implicita." },
+    { label: "Lamine Yamal marcatore nel primo tempo", info: "LAMINE YAMAL MARCATORE 1T", selection: "SI", probability: .22, reason: "La centralità offensiva di Yamal e il volume spagnolo portano la stima sopra il 19,05% implicito." },
   ],
   "stati-uniti-belgio": [
-    { label: "Risultati coperti: USA 1-0, 2-0 oppure 2-1", info: "RISULTATO ESATTO MULTI ESITI (1)", selection: "1-0 / 2-0 / 2-1", probability: .30, reason: "Fattore campo e titolarità di Balogun alzano il blocco di risultati USA sopra il 26,67% implicito." },
-    { label: "Risultati coperti: 1-1 oppure USA 2-1", info: "RISULTATO ESATTO MULTI ESITI (2)", selection: "1-1 / 2-1", probability: .29, reason: "Due dei tre scenari principali convergono su 1-1 o 2-1." },
     { label: "Folarin Balogun marcatore nel primo tempo", info: "BALOGUN F. MARCATORE 1T", selection: "SI", probability: .23, reason: "La revoca dell’espulsione e la probabile titolarità aumentano minuti e presenza in area." },
+    { label: "Christian Pulisic almeno 2 tiri in porta", includes: "PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA", selection: "OVER", probability: .31, reason: "Ruolo, piazzati e volume offensivo USA sostengono una stima superiore al 26,67% implicito." },
+    { label: "Jérémy Doku almeno 2 tiri in porta", includes: "DOKU J. U/O 1.5 SOMMA TIRI IN PORTA", selection: "OVER", probability: .27, reason: "Gli uno contro uno sul lato di Freeman aumentano il volume atteso oltre il 22,22% implicito." },
   ],
   "argentina-egitto": [
-    { label: "Risultati coperti: Argentina 2-0 oppure 3-0", info: "RISULTATO ESATTO MULTI ESITI (2)", selection: "2-0 / 3-0", probability: .35, reason: "Controllo territoriale e differenziale di volume rendono 2-0/3-0 più probabile del 31,25% implicito." },
-    { label: "Primo gol tra il 1° e il 15° minuto", info: "MINUTO DEL PRIMO GOAL", selection: "0 - 15", probability: .36, reason: "La pressione iniziale argentina e il divario tecnico sostengono una rete precoce." },
     { label: "Lautaro Martínez marcatore nel primo tempo", info: "MARTINEZ LAUTARO MARCATORE 1T", selection: "SI", probability: .28, reason: "La probabile titolarità accanto a Messi produce una stima sopra il 24,39% implicito." },
+    { label: "Argentina almeno 8 tiri in porta", info: "SQUADRA 1: U/O 7.5 TIRI IN PORTA", selection: "OVER", probability: .34, reason: "Possesso, territorio e qualità delle conclusioni portano la stima sopra il 30,77% implicito." },
+    { label: "Lautaro Martínez almeno 5 tiri totali", includes: "MARTINEZ LAUTARO U/O 4.5 SOMMA TIRI TOTALI", selection: "OVER", probability: .33, reason: "Da riferimento centrale dell’attacco argentino può superare il 28,57% implicito." },
   ],
   "svizzera-colombia": [
-    { label: "Risultati coperti: 0-0 oppure 1-1", info: "RISULTATO ESATTO MULTI ESITI (1)", selection: "0-0 / 1-1", probability: .34, reason: "La massa assegnata allo scenario bloccato supera il 29,41% implicito." },
-    { label: "Risultati coperti: 0-0 oppure Colombia 0-1", info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "0-0 / 0-1", probability: .33, reason: "Pareggio senza gol e vittoria colombiana minima sono due esiti centrali della distribuzione." },
-    { label: "Colombia vincente + Under 2,5", info: "1X2 + U/O 2.5", selection: "2 + U", probability: .27, reason: "Lo 0-1 è il risultato centrale e il 27% stimato supera il 23,53% implicito." },
+    { label: "Breel Embolo almeno 4 tiri totali", includes: "EMBOLO B. U/O 3.5 SOMMA TIRI TOTALI", selection: "OVER", probability: .34, reason: "Il ruolo di riferimento offensivo porta la stima sopra il 30,77% implicito." },
+    { label: "Luis Díaz almeno 5 tiri totali", includes: "LUIS DIAZ U/O 4.5 SOMMA TIRI TOTALI", selection: "OVER", probability: .33, reason: "La centralità di Díaz negli attacchi colombiani supera il 28,57% implicito." },
+    { label: "Colombia almeno 7 tiri in porta", info: "SQUADRA 2: U/O 6.5 TIRI IN PORTA", selection: "OVER", probability: .26, reason: "La superiorità negli uno contro uno porta la stima sopra il 22,22% implicito." },
   ],
 };
 
 const portfolioAdditions = {
   "portogallo-spagna": {
     Safe: [{ info: "OYARZABAL M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.", selection: "OVER" }],
-    Balanced: [{ info: "1X2 + U/O 2.5", selection: "X + U" }],
+    Balanced: [
+      { info: "U/O 3.5 CORNER SQUADRA 2", selection: "OVER" },
+      { info: "U/O 2.5 CORNER SQUADRA 1", selection: "OVER" },
+    ],
     Aggressive: [
-      { info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "1-1 / 1-2" },
       { info: "PASSAGGIO TURNO", selection: "2" },
+      { info: "U/O 5.5 CORNER SQUADRA 2", selection: "OVER" },
     ],
   },
   "stati-uniti-belgio": {
-    Balanced: [{ info: "RISULTATO ESATTO MULTI ESITI (1)", selection: "1-0 / 2-0 / 2-1" }],
-    Aggressive: [{ info: "BALOGUN F. MARCATORE 1T", selection: "SI" }],
+    Balanced: [
+      { info: "U/O 4.5 CORNER SQUADRA 1", selection: "OVER" },
+      { info: "U/O 25.5 TIRI TOTALI", selection: "OVER" },
+    ],
+    Aggressive: [
+      { info: "U/O 4.5 CORNER SQUADRA 2", selection: "OVER" },
+      { info: "U/O 9.5 TIRI IN PORTA", selection: "OVER" },
+    ],
   },
   "argentina-egitto": {
-    Balanced: [{ info: "SQUADRA 1: U/O 5.5 TIRI IN PORTA", selection: "OVER" }],
-    Aggressive: [{ info: "RISULTATO ESATTO MULTI ESITI (2)", selection: "2-0 / 3-0" }],
+    Balanced: [{ info: "U/O 5.5 CORNER SQUADRA 1", selection: "OVER" }],
+    Aggressive: [
+      { info: "SQUADRA 1: U/O 6.5 TIRI IN PORTA", selection: "OVER" },
+      { info: "U/O 6.5 CORNER SQUADRA 1", selection: "OVER" },
+    ],
   },
   "svizzera-colombia": {
     Balanced: [{ info: "PRIMA A 5 CALCI D'ANGOLO", selection: "TEAM 2" }],
     Aggressive: [
-      { info: "RISULTATO ESATTO MULTI ESITI (3)", selection: "0-0 / 0-1" },
       { info: "SQUADRA 2: U/O 4.5 TIRI IN PORTA", selection: "OVER" },
+      { info: "PASSAGGIO TURNO", selection: "2" },
+      { info: "U/O 4.5 CORNER SQUADRA 2", selection: "OVER" },
     ],
   },
 };

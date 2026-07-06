@@ -79,7 +79,7 @@
     },
     {
       "name": "Balanced",
-      "finalOdds": 11.17,
+      "finalOdds": 8.71,
       "events": [
         {
           "id": "event-02",
@@ -139,12 +139,26 @@
         },
         {
           "id": "event-05",
-          "market": "RISULTATO ESATTO MULTI ESITI 1 — RISULTATO ESATTO MULTI ESITI (1)",
-          "selection": "1-0 / 2-0 / 2-1",
-          "odds": 3.75,
-          "selectionId": 5202124251,
-          "marketId": 790302145,
-          "category": "goal",
+          "market": "U/O CORNER SQUADRA X — U/O 4.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 1.7,
+          "selectionId": 5203559575,
+          "marketId": 790588486,
+          "category": "corner",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-06",
+          "market": "U/O TIRI TOTALI — U/O 25.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.72,
+          "selectionId": 5202117425,
+          "marketId": 790299967,
+          "category": "tiri",
           "rankingScore": 78,
           "class": "VALUE",
           "riskScore": 27,
@@ -170,7 +184,7 @@
     },
     {
       "name": "Aggressive",
-      "finalOdds": 16.38,
+      "finalOdds": 13.46,
       "events": [
         {
           "id": "event-03",
@@ -230,12 +244,26 @@
         },
         {
           "id": "event-05",
-          "market": "MARCATORE SI/NO 1T — BALOGUN F. MARCATORE 1T",
-          "selection": "SI",
-          "odds": 4.6,
-          "selectionId": 5207116289,
-          "marketId": 791274790,
-          "category": "giocatore",
+          "market": "U/O CORNER SQUADRA X — U/O 4.5 CORNER SQUADRA 2",
+          "selection": "OVER",
+          "odds": 1.8,
+          "selectionId": 5203559713,
+          "marketId": 790588519,
+          "category": "corner",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-06",
+          "market": "U/O TIRI IN PORTA — U/O 9.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 2.1,
+          "selectionId": 5202117333,
+          "marketId": 790299944,
+          "category": "tiri",
           "rankingScore": 78,
           "class": "VALUE",
           "riskScore": 27,
@@ -262,7 +290,7 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-06T14:37:00.231Z",
+    "generatedAt": "2026-07-06T14:48:50.571Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"
@@ -273,42 +301,6 @@
       "publishedEvents": 3
     },
     "events": [
-      {
-        "label": "Risultati coperti: USA 1-0, 2-0 oppure 2-1",
-        "event": "Risultati coperti: USA 1-0, 2-0 oppure 2-1",
-        "technicalEvent": "RISULTATO ESATTO MULTI ESITI (1)",
-        "market": "RISULTATO ESATTO MULTI ESITI 1",
-        "selection": "1-0 / 2-0 / 2-1",
-        "odds": 3.75,
-        "impliedProbability": 26.67,
-        "estimatedProbability": 30,
-        "edge": 3.33,
-        "classification": "Quota interessante",
-        "level": "value",
-        "reason": "Fattore campo e titolarità di Balogun alzano il blocco di risultati USA sopra il 26,67% implicito.",
-        "modelConfidence": 61,
-        "risk": "medium",
-        "selectionId": "5202124251",
-        "marketId": "790302145"
-      },
-      {
-        "label": "Risultati coperti: 1-1 oppure USA 2-1",
-        "event": "Risultati coperti: 1-1 oppure USA 2-1",
-        "technicalEvent": "RISULTATO ESATTO MULTI ESITI (2)",
-        "market": "RISULTATO ESATTO MULTI ESITI 2",
-        "selection": "1-1 / 2-1",
-        "odds": 3.9,
-        "impliedProbability": 25.64,
-        "estimatedProbability": 29,
-        "edge": 3.36,
-        "classification": "Quota interessante",
-        "level": "value",
-        "reason": "Due dei tre scenari principali convergono su 1-1 o 2-1.",
-        "modelConfidence": 61,
-        "risk": "medium",
-        "selectionId": "5202124381",
-        "marketId": "790302162"
-      },
       {
         "label": "Folarin Balogun marcatore nel primo tempo",
         "event": "Folarin Balogun marcatore nel primo tempo",
@@ -326,6 +318,42 @@
         "risk": "medium",
         "selectionId": "5207116289",
         "marketId": "791274790"
+      },
+      {
+        "label": "Christian Pulisic almeno 2 tiri in porta",
+        "event": "Christian Pulisic almeno 2 tiri in porta",
+        "technicalEvent": "PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "selection": "OVER",
+        "odds": 3.75,
+        "impliedProbability": 26.67,
+        "estimatedProbability": 31,
+        "edge": 4.33,
+        "classification": "Quota interessante",
+        "level": "value",
+        "reason": "Ruolo, piazzati e volume offensivo USA sostengono una stima superiore al 26,67% implicito.",
+        "modelConfidence": 61,
+        "risk": "medium",
+        "selectionId": "5204596634",
+        "marketId": "790784450"
+      },
+      {
+        "label": "Jérémy Doku almeno 2 tiri in porta",
+        "event": "Jérémy Doku almeno 2 tiri in porta",
+        "technicalEvent": "DOKU J. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "selection": "OVER",
+        "odds": 4.5,
+        "impliedProbability": 22.22,
+        "estimatedProbability": 27,
+        "edge": 4.78,
+        "classification": "Quota interessante",
+        "level": "value",
+        "reason": "Gli uno contro uno sul lato di Freeman aumentano il volume atteso oltre il 22,22% implicito.",
+        "modelConfidence": 61,
+        "risk": "medium",
+        "selectionId": "5204558317",
+        "marketId": "790780295"
       }
     ],
     "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."

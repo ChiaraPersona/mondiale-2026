@@ -5,18 +5,18 @@
   "status": "scheduled",
   "prediction": {
     "probabilities90Minutes": {
-      "home": 25,
+      "home": 23,
       "draw": 29,
-      "away": 46
+      "away": 48
     },
     "centralScore": "1-2",
-    "scenario": "Spagna favorita in una gara aperta",
+    "scenario": "Spagna favorita, Portogallo pericoloso nelle transizioni",
     "quoteInfluence": "secondaria"
   },
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 4.5,
+      "finalOdds": 4.2,
       "events": [
         {
           "id": "event-04",
@@ -48,11 +48,11 @@
         },
         {
           "id": "event-10",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — LEAO R. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — JOAO FELIX U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.5,
-          "selectionId": 5204514004,
-          "marketId": 790771254,
+          "odds": 1.4,
+          "selectionId": 5204514124,
+          "marketId": 790771284,
           "category": "tiri",
           "rankingScore": 78,
           "class": "VALUE",
@@ -77,8 +77,8 @@
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
-        "id": "spagna_favorita_in_una_gara_aperta",
-        "name": "Spagna favorita in una gara aperta",
+        "id": "spagna_favorita_portogallo_pericoloso_nelle_transizioni",
+        "name": "Spagna favorita, Portogallo pericoloso nelle transizioni",
         "estimatedProbability": "medio-alta"
       },
       "strengths": [
@@ -87,7 +87,7 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
+        "Formazioni ufficiali confermate; i mercati individuali mantengono varianza."
       ],
       "riskVerdict": "low"
     },
@@ -182,8 +182,8 @@
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
-        "id": "spagna_favorita_in_una_gara_aperta",
-        "name": "Spagna favorita in una gara aperta",
+        "id": "spagna_favorita_portogallo_pericoloso_nelle_transizioni",
+        "name": "Spagna favorita, Portogallo pericoloso nelle transizioni",
         "estimatedProbability": "media"
       },
       "strengths": [
@@ -192,7 +192,7 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
+        "Formazioni ufficiali confermate; i mercati individuali mantengono varianza."
       ],
       "riskVerdict": "medium"
     },
@@ -273,8 +273,8 @@
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
-        "id": "spagna_favorita_in_una_gara_aperta",
-        "name": "Spagna favorita in una gara aperta",
+        "id": "spagna_favorita_portogallo_pericoloso_nelle_transizioni",
+        "name": "Spagna favorita, Portogallo pericoloso nelle transizioni",
         "estimatedProbability": "media"
       },
       "strengths": [
@@ -283,14 +283,14 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
+        "Formazioni ufficiali confermate; i mercati individuali mantengono varianza."
       ],
       "riskVerdict": "high"
     }
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-06T14:48:50.367Z",
+    "generatedAt": "2026-07-06T18:12:24.565Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"
@@ -320,22 +320,22 @@
         "marketId": "790770355"
       },
       {
-        "label": "Rafael Leão almeno 1 tiro in porta nel primo tempo",
-        "event": "Rafael Leão almeno 1 tiro in porta nel primo tempo",
-        "technicalEvent": "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO",
-        "market": "GIOCATORE ALMENO Y TIRI IN PORTA NEL TEMPO Z",
-        "selection": "SI",
-        "odds": 3.25,
-        "impliedProbability": 30.77,
-        "estimatedProbability": 36,
-        "edge": 5.23,
+        "label": "João Félix almeno 4 tiri totali",
+        "event": "João Félix almeno 4 tiri totali",
+        "technicalEvent": "JOAO FELIX U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+        "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+        "selection": "OVER",
+        "odds": 4,
+        "impliedProbability": 25,
+        "estimatedProbability": 29,
+        "edge": 4,
         "classification": "Quota interessante",
         "level": "value",
-        "reason": "Titolarità, ruolo in transizione e volume atteso sostengono una stima superiore a quella implicita.",
+        "reason": "La titolarità ufficiale sulla trequarti porta la stima sopra il 25% implicito.",
         "modelConfidence": 61,
         "risk": "medium",
-        "selectionId": "5204512307",
-        "marketId": "790770830"
+        "selectionId": "5204509904",
+        "marketId": "790770229"
       },
       {
         "label": "Lamine Yamal marcatore nel primo tempo",

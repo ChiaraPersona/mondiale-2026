@@ -41,10 +41,10 @@
       referee: "Alireza Faghani (Australia/Iran)", profile: "Arbitro molto esperto, severo nella gestione disciplinare e molto presente nei momenti caldi.", severity: 75
     },
     "portogallo-spagna": {
-      teams: ["Portogallo", "Spagna"], flags: ["portogallo", "spagna"], high: true,
+      teams: ["Portogallo", "Spagna"], flags: ["portogallo", "spagna"], high: true, officialFormations: true,
       formations: [
-        ["Portogallo", "4-2-3-1", "Diogo Costa; João Cancelo, Rúben Dias, Renato Veiga, Nuno Mendes; João Neves, Vitinha; Pedro Neto, Bruno Fernandes, Rafael Leão; Cristiano Ronaldo.", "Probabile formazione ricevuta il 6 luglio."],
-        ["Spagna", "4-3-3", "Unai Simón; Pedro Porro, Pau Cubarsí, Aymeric Laporte, Marc Cucurella; Rodri, Pedri, Dani Olmo; Lamine Yamal, Mikel Oyarzabal, Álex Baena.", "Probabile formazione ricevuta il 6 luglio."]
+        ["Portogallo", "4-2-3-1", "Diogo Costa; João Cancelo, Rúben Dias, Renato Veiga, Nuno Mendes; João Neves, Vitinha; Pedro Neto, Bruno Fernandes, João Félix; Cristiano Ronaldo.", "Formazione ufficiale."],
+        ["Spagna", "4-2-3-1", "Unai Simón; Pedro Porro, Pau Cubarsí, Aymeric Laporte, Marc Cucurella; Rodri, Álex Baena; Lamine Yamal, Dani Olmo, Pedri; Mikel Oyarzabal.", "Formazione ufficiale."]
       ],
       weather: "Esterno circa 35-37°C; interno circa 22-24°C. Con copertura completa e climatizzazione, il caldo esterno non dovrebbe incidere sulle condizioni di gioco.",
       stadium: "AT&T Stadium, Arlington (Dallas), Texas. Stadio completamente coperto e impianto climatizzato con temperatura interna controllata.",
@@ -171,14 +171,14 @@
     },
     "portogallo-spagna": {
       headline: "La Spagna può comandare il pallone, il Portogallo ha abbastanza talento per punire ogni eccesso di controllo.",
-      deck: "Una sfida di qualità, con il possesso spagnolo contro le ricezioni di Bruno Fernandes e le accelerazioni di Leão. La Spagna è favorita, ma il Goal è più stabile del segno 2.",
-      score: "1-2 Spagna", probabilities: ["25%", "29%", "46%"], labels: ["Portogallo", "Pareggio", "Spagna"],
+      deck: "Una sfida di qualità, con il possesso spagnolo contro le ricezioni di Bruno Fernandes e João Félix. La Spagna è favorita, ma il Goal resta più stabile del segno 2.",
+      score: "1-2 Spagna", probabilities: ["23%", "29%", "48%"], labels: ["Portogallo", "Pareggio", "Spagna"],
       sections: [
-        ["La lettura della partita", "La Spagna sale al 46% nei novanta minuti grazie a un centrocampo più continuo e a una migliore capacità di recuperare il pallone dopo la perdita. Il Portogallo conserva il 25% di vittoria e soprattutto una minaccia concreta nelle transizioni. La stima non segue ciecamente il mercato: il margine spagnolo esiste, ma è più stretto di quanto suggerisca la quota."],
-        ["La chiave tattica", "Rodri o Zubimendi devono controllare Bruno Fernandes senza lasciare Pedri e Fabián troppo lontani dall’area. Lamine Yamal può costringere Nuno Mendes a difendere basso, ma proprio quella corsia offre al Portogallo la migliore uscita in campo aperto. Ronaldo occupa i centrali e libera seconde ricezioni per Bernardo e Leão."],
+        ["La lettura della partita", "Con gli undici ufficiali la Spagna sale al 48% nei novanta minuti, il pareggio resta al 29% e il Portogallo scende al 23%. Il 4-2-3-1 spagnolo offre occupazione stabile tra le linee con Olmo e Pedri, mentre João Félix dà al Portogallo più associazione interna ma meno strappo puro rispetto a Leão. Il margine spagnolo cresce leggermente, senza rendere scontato il passaggio del turno."],
+        ["La chiave tattica", "Rodri e Baena devono controllare Bruno Fernandes e João Félix senza concedere ricezioni frontali a Ronaldo. Lamine Yamal può costringere Nuno Mendes a difendere basso; sul lato opposto Pedri entra dentro il campo e libera le sovrapposizioni di Cucurella. João Félix può attirare Cubarsí fuori linea e aprire corridoi per Ronaldo e Pedro Neto."],
         ["Ritmo controllato", "Con tetto chiuso e climatizzazione l’estremo caldo di Arlington dovrebbe restare fuori dalla partita. Questo favorisce intensità tecnica e pressing organizzato. I temporali inciderebbero soprattutto sulla logistica, non sul campo, salvo decisione di giocare con il tetto aperto."],
-        ["Tre scenari", "Scenario prudente (35%): gara bloccata, 0-0 o 1-1, con Under 2,5. Scenario centrale (40%): entrambe segnano e la maggiore continuità spagnola produce 1-2. Scenario alternativo (25%): il Portogallo sfrutta transizioni e piazzati, vincendo 2-1. La sintesi mantiene la Spagna favorita senza trattarne la vittoria come automatica."],
-        ["Verdetto", "Risultato centrale 1-1. Non considero scontata la qualificazione spagnola: il Portogallo ha abbastanza qualità ed esperienza per passare oltre i regolamentari. Goal e Over 1,5 sono più solidi del segno; l’Under 3,5 protegge uno scenario equilibrato."]
+        ["Tre scenari", "Scenario prudente (32%): gara bloccata, 0-0 o 1-1, con Under 2,5. Scenario centrale (44%): entrambe segnano e la maggiore continuità spagnola produce 1-2. Scenario alternativo (24%): il Portogallo sfrutta transizioni e piazzati, vincendo 2-1. La media aggiornata degli scenari porta a una vittoria spagnola di misura."],
+        ["Verdetto", "Il risultato centrale aggiornato è 1-2 Spagna, con 1-1 come rischio principale. La Spagna è favorita ma non abbastanza da rendere prudente il segno 2 secco; Goal, Over 1,5 e Under 3,5 descrivono meglio la distribuzione complessiva."]
       ],
       volume: ["Portogallo 10-14 tiri", "Spagna 14-18 tiri", "Tiri in porta 4-6 / 5-7", "Corner totali 9-12"],
       picks: ["Over 1,5", "Goal", "Spagna qualificata", "Under 3,5"]
@@ -265,7 +265,7 @@
     "portogallo-spagna": {
       motivation: [98, 97], surprise: "Medio-alto", shots: [["Portogallo", "10-14", "4-6"], ["Spagna", "14-18", "5-7"]], corners: ["4-6", "5-7", "9-12"],
       cards: [["João Neves", "Alto", "Schermo contro Pedri e Dani Olmo."], ["Nuno Mendes", "Alto", "Duello ripetuto con Lamine Yamal."], ["Cucurella", "Medio-alto", "Duelli in velocità con Pedro Neto."], ["João Cancelo", "Medio-alto", "Uno contro uno con Álex Baena."], ["Pau Cubarsí", "Medio", "Duello fisico con Ronaldo."], ["Rodri", "Medio", "Falli tattici sulle transizioni."]],
-      shotsPlayers: ["Ronaldo 3-5", "Rafael Leão 2-4", "Lamine Yamal 3-5", "Oyarzabal 2-4"]
+      shotsPlayers: ["Ronaldo 3-5", "João Félix 2-4", "Lamine Yamal 3-5", "Oyarzabal 2-4"]
     },
     "stati-uniti-belgio": {
       motivation: [97, 94], surprise: "Alto", shots: [["Stati Uniti", "11-15", "4-6"], ["Belgio", "12-16", "4-6"]], corners: ["4-6", "5-7", "9-12"],

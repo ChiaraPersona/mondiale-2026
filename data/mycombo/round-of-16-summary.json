@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T14:51:09.517Z",
+  "generatedAt": "2026-07-06T18:12:24.571Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -174,14 +174,14 @@
       "match": "Portogallo - Spagna",
       "prediction": "1-2",
       "probabilities": [
-        25,
+        23,
         29,
-        46
+        48
       ],
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 4.5
+          "odds": 4.2
         },
         {
           "name": "Balanced",
@@ -212,22 +212,22 @@
           "marketId": "790770355"
         },
         {
-          "label": "Rafael Leão almeno 1 tiro in porta nel primo tempo",
-          "event": "Rafael Leão almeno 1 tiro in porta nel primo tempo",
-          "technicalEvent": "LEAO R. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO",
-          "market": "GIOCATORE ALMENO Y TIRI IN PORTA NEL TEMPO Z",
-          "selection": "SI",
-          "odds": 3.25,
-          "impliedProbability": 30.77,
-          "estimatedProbability": 36,
-          "edge": 5.23,
+          "label": "João Félix almeno 4 tiri totali",
+          "event": "João Félix almeno 4 tiri totali",
+          "technicalEvent": "JOAO FELIX U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "selection": "OVER",
+          "odds": 4,
+          "impliedProbability": 25,
+          "estimatedProbability": 29,
+          "edge": 4,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "Titolarità, ruolo in transizione e volume atteso sostengono una stima superiore a quella implicita.",
+          "reason": "La titolarità ufficiale sulla trequarti porta la stima sopra il 25% implicito.",
           "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5204512307",
-          "marketId": "790770830"
+          "selectionId": "5204509904",
+          "marketId": "790770229"
         },
         {
           "label": "Lamine Yamal marcatore nel primo tempo",

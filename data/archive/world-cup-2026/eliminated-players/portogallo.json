@@ -1,0 +1,2035 @@
+{
+  "team": "Portogallo",
+  "eliminationDate": "2026-07-06",
+  "roster": [
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Attaccanti",
+      "player": "Cristiano Ronaldo",
+      "club": "Al Nassr",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/portogallo.svg",
+      "age": 41,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Attaccanti",
+      "player": "Francisco Concei��o",
+      "club": "Juventus",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/portogallo.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Attaccanti",
+      "player": "Francisco Trinc�o",
+      "club": "Sporting CP",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/portogallo.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Attaccanti",
+      "player": "Gon�alo Guedes",
+      "club": "Real Sociedad",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/portogallo.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Attaccanti",
+      "player": "Gon�alo Ramos",
+      "club": "PSG",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/portogallo.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Attaccanti",
+      "player": "Jo�o F�lix",
+      "club": "Al Nassr",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/portogallo.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Attaccanti",
+      "player": "Pedro Neto",
+      "club": "Chelsea",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/portogallo.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Attaccanti",
+      "player": "Rafael Le�o",
+      "club": "Milan",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/portogallo.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Centrocampisti",
+      "player": "Bernardo Silva",
+      "club": "Manchester City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/portogallo.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Centrocampisti",
+      "player": "Bruno Fernandes",
+      "club": "Manchester United",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/portogallo.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Centrocampisti",
+      "player": "Jo�o Neves",
+      "club": "PSG",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/portogallo.svg",
+      "age": 22,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Centrocampisti",
+      "player": "R�ben Neves",
+      "club": "Al Hilal",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/portogallo.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Centrocampisti",
+      "player": "Samu Costa",
+      "club": "Mallorca",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/portogallo.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Centrocampisti",
+      "player": "Vitinha",
+      "club": "PSG",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/portogallo.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Difensori",
+      "player": "Diogo Dalot",
+      "club": "Manchester United",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/portogallo.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Difensori",
+      "player": "Gon�alo In�cio",
+      "club": "Sporting CP",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/portogallo.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Difensori",
+      "player": "Jo�o Cancelo",
+      "club": "Barcelona",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/portogallo.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Difensori",
+      "player": "Matheus Nunes",
+      "club": "Manchester City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/portogallo.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Difensori",
+      "player": "N�lson Semedo",
+      "club": "Fenerbah�e",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/portogallo.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Difensori",
+      "player": "Nuno Mendes",
+      "club": "PSG",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/portogallo.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Difensori",
+      "player": "Renato Veiga",
+      "club": "Villarreal",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/portogallo.svg",
+      "age": 23,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Difensori",
+      "player": "R�ben Dias",
+      "club": "Manchester City",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/portogallo.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Difensori",
+      "player": "Tom�s Ara�jo",
+      "club": "Benfica",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/portogallo.svg",
+      "age": 24,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Portieri",
+      "player": "Diogo Costa",
+      "club": "Oporto",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/portogallo.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Portieri",
+      "player": "Jos� S�",
+      "club": "Wolverhampton",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/portogallo.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Portieri",
+      "player": "Ricardo Velho",
+      "club": "Farense",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/portogallo.svg",
+      "age": 28,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "K",
+      "team": "Portogallo",
+      "role": "Portieri",
+      "player": "Rui Silva",
+      "club": "Sporting CP",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Portogallo",
+      "league": "Primeira Liga",
+      "flag": "flags/portogallo.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "portogallo::cristiano ronaldo": {
+      "player": "Cristiano Ronaldo",
+      "team": "Portogallo",
+      "club": "Al Nassr",
+      "age": 41,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 8,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 1,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/ronaldo-cristiano/WGOY4FSt/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ronaldo-cristiano/WGOY4FSt/",
+      "direttaPlayerId": "WGOY4FSt",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1246,
+        "goals": 12,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "7.55",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 4.8,
+          "shotsOnTargetPerGame": 1.87,
+          "foulsCommittedPerGame": 0.47,
+          "foulsSufferedPerGame": 0.4
+        }
+      },
+      "sofascorePlayerId": 750
+    },
+    "portogallo::francisco conceicao": {
+      "player": "Francisco Conceição",
+      "team": "Portogallo",
+      "club": "Juventus",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 4,
+        "subIns": 5,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/conceicao-francisco/n53v4sSd/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/conceicao-francisco/n53v4sSd/",
+      "direttaPlayerId": "n53v4sSd",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 896,
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "6.63",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1.73,
+          "shotsOnTargetPerGame": 0.67,
+          "foulsCommittedPerGame": 0.87,
+          "foulsSufferedPerGame": 0.93
+        },
+        "topFive": {
+          "appearances": 10,
+          "minutes": 588,
+          "goals": 1,
+          "assists": 3,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.31
+        }
+      },
+      "sofascorePlayerId": 979222
+    },
+    "portogallo::francisco trincao": {
+      "player": "Francisco Trincão",
+      "team": "Portogallo",
+      "club": "Sporting CP",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 2,
+        "subIns": 7,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/trincao/vmYemyQS/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/trincao/vmYemyQS/",
+      "direttaPlayerId": "vmYemyQS",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1170,
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "6.71",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 2.4,
+          "shotsOnTargetPerGame": 0.67,
+          "foulsCommittedPerGame": 0.67,
+          "foulsSufferedPerGame": 0.6
+        }
+      },
+      "sofascorePlayerId": 830431
+    },
+    "portogallo::goncalo guedes": {
+      "player": "Gonçalo Guedes",
+      "team": "Portogallo",
+      "club": "Real Sociedad",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/goncalo-guedes/pORMn6gO/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/goncalo-guedes/pORMn6gO/",
+      "direttaPlayerId": "pORMn6gO",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1078,
+        "goals": 5,
+        "assists": 5,
+        "yellowCards": 3,
+        "redCards": 0,
+        "averageRating": "7.05",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 2.07,
+          "shotsOnTargetPerGame": 1.07,
+          "foulsCommittedPerGame": 0.53,
+          "foulsSufferedPerGame": 1.2
+        },
+        "topFive": {
+          "appearances": 10,
+          "minutes": 716,
+          "goals": 4,
+          "assists": 3,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.95
+        }
+      },
+      "sofascorePlayerId": 280979
+    },
+    "portogallo::goncalo ramos": {
+      "player": "Gonçalo Ramos",
+      "team": "Portogallo",
+      "club": "PSG",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 3,
+        "subIns": 7,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/ramos-goncalo/xfW2M1Tt/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ramos-goncalo/xfW2M1Tt/",
+      "direttaPlayerId": "xfW2M1Tt",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 595,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 1,
+        "averageRating": "5.22",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1.4,
+          "shotsOnTargetPerGame": 0.47,
+          "foulsCommittedPerGame": 0.47,
+          "foulsSufferedPerGame": 0.47
+        },
+        "topFive": {
+          "appearances": 9,
+          "minutes": 401,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 1,
+          "averageRating": 6.55
+        }
+      },
+      "sofascorePlayerId": 934510
+    },
+    "portogallo::joao felix": {
+      "player": "João Félix",
+      "team": "Portogallo",
+      "club": "Al Nassr",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 4,
+        "subIns": 6,
+        "goals": 4,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/joao-felix/KI3YXMhi/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/joao-felix/KI3YXMhi/",
+      "direttaPlayerId": "KI3YXMhi",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1216,
+        "goals": 8,
+        "assists": 7,
+        "yellowCards": 4,
+        "redCards": 0,
+        "averageRating": "8.04",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 3.13,
+          "shotsOnTargetPerGame": 1,
+          "foulsCommittedPerGame": 1.6,
+          "foulsSufferedPerGame": 1.93
+        }
+      },
+      "sofascorePlayerId": 851671
+    },
+    "portogallo::pedro neto": {
+      "player": "Pedro Neto",
+      "team": "Portogallo",
+      "club": "Chelsea",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 9,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/neto-pedro/lxtnUkIP/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/neto-pedro/lxtnUkIP/",
+      "direttaPlayerId": "lxtnUkIP",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1103,
+        "goals": 0,
+        "assists": 5,
+        "yellowCards": 4,
+        "redCards": 1,
+        "averageRating": "6.79",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1.47,
+          "shotsOnTargetPerGame": 0.53,
+          "foulsCommittedPerGame": 0.2,
+          "foulsSufferedPerGame": 0.4
+        },
+        "topFive": {
+          "appearances": 7,
+          "minutes": 564,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 2,
+          "redCards": 1,
+          "averageRating": 6.43
+        }
+      },
+      "sofascorePlayerId": 879349
+    },
+    "portogallo::rafael leao": {
+      "player": "Rafael Leão",
+      "team": "Portogallo",
+      "club": "Milan",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 5,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/leao-rafael/AqOPWN5s/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/leao-rafael/AqOPWN5s/",
+      "direttaPlayerId": "AqOPWN5s",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 943,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 4,
+        "redCards": 0,
+        "averageRating": "6.35",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 2.13,
+          "shotsOnTargetPerGame": 0.93,
+          "foulsCommittedPerGame": 0.6,
+          "foulsSufferedPerGame": 1.2
+        },
+        "topFive": {
+          "appearances": 15,
+          "minutes": 943,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 4,
+          "redCards": 0,
+          "averageRating": 6.8
+        }
+      },
+      "sofascorePlayerId": 851284
+    },
+    "portogallo::bernardo silva": {
+      "player": "Bernardo Silva",
+      "team": "Portogallo",
+      "club": "Manchester City",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 14,
+        "starts": 11,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/silva-antonio/0xBtwxKs/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/silva-antonio/0xBtwxKs/",
+      "direttaPlayerId": "0xBtwxKs",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1007,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "averageRating": "6.72",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1,
+          "shotsOnTargetPerGame": 0.33,
+          "foulsCommittedPerGame": 1.33,
+          "foulsSufferedPerGame": 0.8
+        }
+      },
+      "sofascorePlayerId": 331209
+    },
+    "portogallo::bruno fernandes": {
+      "player": "Bruno Fernandes",
+      "team": "Portogallo",
+      "club": "Manchester United",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 13,
+        "subIns": 0,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/fernandes-bruno/GYvAMDm2/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/fernandes-bruno/GYvAMDm2/",
+      "direttaPlayerId": "GYvAMDm2",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1335,
+        "goals": 3,
+        "assists": 11,
+        "yellowCards": 3,
+        "redCards": 0,
+        "averageRating": "8.10",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 3.07,
+          "shotsOnTargetPerGame": 0.8,
+          "foulsCommittedPerGame": 0.6,
+          "foulsSufferedPerGame": 0.8
+        },
+        "topFive": {
+          "appearances": 13,
+          "minutes": 1169,
+          "goals": 3,
+          "assists": 9,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 8.17
+        }
+      },
+      "sofascorePlayerId": 288205
+    },
+    "portogallo::joao neves": {
+      "player": "João Neves",
+      "team": "Portogallo",
+      "club": "PSG",
+      "age": 22,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 9,
+        "subIns": 1,
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/neves-joao/hCbYVsXQ/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/neves-joao/hCbYVsXQ/",
+      "direttaPlayerId": "hCbYVsXQ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 946,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "6.96",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1.6,
+          "shotsOnTargetPerGame": 0.67,
+          "foulsCommittedPerGame": 0.8,
+          "foulsSufferedPerGame": 1.2
+        },
+        "topFive": {
+          "appearances": 7,
+          "minutes": 285,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.66
+        }
+      },
+      "sofascorePlayerId": 1190933
+    },
+    "portogallo::ruben neves": {
+      "player": "Rúben Neves",
+      "team": "Portogallo",
+      "club": "Al Hilal",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 6,
+        "subIns": 6,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/ruben-neves/Ea90ReE4/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ruben-neves/Ea90ReE4/",
+      "direttaPlayerId": "Ea90ReE4",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1171,
+        "goals": 3,
+        "assists": 4,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "7.37",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1.6,
+          "shotsOnTargetPerGame": 0.6,
+          "foulsCommittedPerGame": 0.67,
+          "foulsSufferedPerGame": 0.67
+        }
+      },
+      "sofascorePlayerId": 280955
+    },
+    "portogallo::samu costa": {
+      "player": "Samu Costa",
+      "team": "Portogallo",
+      "club": "Mallorca",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/costa-samuel/AXPRNqQn/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/costa-samuel/AXPRNqQn/",
+      "direttaPlayerId": "AXPRNqQn",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1190,
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 3,
+        "redCards": 0,
+        "averageRating": "6.83",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.87,
+          "shotsOnTargetPerGame": 0.47,
+          "foulsCommittedPerGame": 2.33,
+          "foulsSufferedPerGame": 2.33
+        },
+        "topFive": {
+          "appearances": 13,
+          "minutes": 1098,
+          "goals": 3,
+          "assists": 2,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 6.78
+        }
+      },
+      "sofascorePlayerId": 988351
+    },
+    "portogallo::vitinha": {
+      "player": "Vitinha",
+      "team": "Portogallo",
+      "club": "PSG",
+      "age": 26,
+      "career": {},
+      "season2025_26": {
+        "appearances": 15,
+        "starts": 12,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/vitinha-ferreira-vitor/Sz9SH7zj/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/vitinha-ferreira-vitor/Sz9SH7zj/",
+      "direttaPlayerId": "Sz9SH7zj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1133,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "7.61",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1.87,
+          "shotsOnTargetPerGame": 0.47,
+          "foulsCommittedPerGame": 0.87,
+          "foulsSufferedPerGame": 0.67
+        },
+        "topFive": {
+          "appearances": 7,
+          "minutes": 502,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.56
+        }
+      },
+      "sofascorePlayerId": 902029
+    },
+    "portogallo::diogo dalot": {
+      "player": "Diogo Dalot",
+      "team": "Portogallo",
+      "club": "Manchester United",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 6,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/dalot-diogo/rZZKJVOS/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/dalot-diogo/rZZKJVOS/",
+      "direttaPlayerId": "rZZKJVOS",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1120,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "averageRating": "6.93",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.93,
+          "shotsOnTargetPerGame": 0.33,
+          "foulsCommittedPerGame": 0.73,
+          "foulsSufferedPerGame": 0.53
+        },
+        "topFive": {
+          "appearances": 13,
+          "minutes": 1029,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.94
+        }
+      },
+      "sofascorePlayerId": 843200
+    },
+    "portogallo::goncalo inacio": {
+      "player": "Gonçalo Inácio",
+      "team": "Portogallo",
+      "club": "Sporting CP",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 7,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/inacio-goncalo/0vh9xYsD/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/inacio-goncalo/0vh9xYsD/",
+      "direttaPlayerId": "0vh9xYsD",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1308,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "7.39",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.33,
+          "shotsOnTargetPerGame": 0.07,
+          "foulsCommittedPerGame": 0.6,
+          "foulsSufferedPerGame": 0.8
+        }
+      },
+      "sofascorePlayerId": 1001196
+    },
+    "portogallo::joao cancelo": {
+      "player": "João Cancelo",
+      "team": "Portogallo",
+      "club": "Barcelona",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 7,
+        "subIns": 1,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/cancelo-joao/dAyeWYpm/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/cancelo-joao/dAyeWYpm/",
+      "direttaPlayerId": "dAyeWYpm",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 942,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 3,
+        "redCards": 0,
+        "averageRating": "6.57",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.93,
+          "shotsOnTargetPerGame": 0.2,
+          "foulsCommittedPerGame": 0.93,
+          "foulsSufferedPerGame": 0.8
+        },
+        "topFive": {
+          "appearances": 10,
+          "minutes": 610,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.22
+        }
+      },
+      "sofascorePlayerId": 138892
+    },
+    "portogallo::matheus nunes": {
+      "player": "Matheus Nunes",
+      "team": "Portogallo",
+      "club": "Manchester City",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/matheus-nunes/bXbvxFWS/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/matheus-nunes/bXbvxFWS/",
+      "direttaPlayerId": "bXbvxFWS",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1196,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "7.24",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.13,
+          "shotsOnTargetPerGame": 0.07,
+          "foulsCommittedPerGame": 0.8,
+          "foulsSufferedPerGame": 1.13
+        },
+        "topFive": {
+          "appearances": 8,
+          "minutes": 688,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.31
+        }
+      },
+      "sofascorePlayerId": 945122
+    },
+    "portogallo::nelson semedo": {
+      "player": "Nélson Semedo",
+      "team": "Portogallo",
+      "club": "Fenerbahçe",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 3,
+        "subIns": 7,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/nelson-semedo/EyHywivj/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/nelson-semedo/EyHywivj/",
+      "direttaPlayerId": "EyHywivj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1087,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 4,
+        "redCards": 0,
+        "averageRating": "6.82",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.73,
+          "shotsOnTargetPerGame": 0.07,
+          "foulsCommittedPerGame": 0.87,
+          "foulsSufferedPerGame": 1.2
+        }
+      },
+      "sofascorePlayerId": 252821
+    },
+    "portogallo::nuno mendes": {
+      "player": "Nuno Mendes",
+      "team": "Portogallo",
+      "club": "PSG",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 13,
+        "starts": 12,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 4,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/mendes-nuno/ne2xCTJj/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/mendes-nuno/ne2xCTJj/",
+      "direttaPlayerId": "ne2xCTJj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 981,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 2,
+        "redCards": 0,
+        "averageRating": "7.06",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 2.07,
+          "shotsOnTargetPerGame": 0.67,
+          "foulsCommittedPerGame": 0.47,
+          "foulsSufferedPerGame": 2.2
+        },
+        "topFive": {
+          "appearances": 5,
+          "minutes": 237,
+          "goals": 1,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.26
+        }
+      },
+      "sofascorePlayerId": 989768
+    },
+    "portogallo::renato veiga": {
+      "player": "Renato Veiga",
+      "team": "Portogallo",
+      "club": "Villarreal",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 6,
+        "subIns": 4,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/veiga-renato/r1cX4e0d/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/veiga-renato/r1cX4e0d/",
+      "direttaPlayerId": "r1cX4e0d",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1128,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "averageRating": "6.52",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.73,
+          "shotsOnTargetPerGame": 0.2,
+          "foulsCommittedPerGame": 1.13,
+          "foulsSufferedPerGame": 0.07
+        },
+        "topFive": {
+          "appearances": 13,
+          "minutes": 1017,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 6.49
+        }
+      },
+      "sofascorePlayerId": 1087359
+    },
+    "portogallo::ruben dias": {
+      "player": "Rúben Dias",
+      "team": "Portogallo",
+      "club": "Manchester City",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 11,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/dias-ruben/OpVD3nmU/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/dias-ruben/OpVD3nmU/",
+      "direttaPlayerId": "OpVD3nmU",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1193,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "averageRating": "7.14",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.47,
+          "shotsOnTargetPerGame": 0.27,
+          "foulsCommittedPerGame": 0.6,
+          "foulsSufferedPerGame": 0.53
+        },
+        "topFive": {
+          "appearances": 12,
+          "minutes": 967,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 7.28
+        }
+      },
+      "sofascorePlayerId": 318941
+    },
+    "portogallo::tomas araujo": {
+      "player": "Tomás Araújo",
+      "team": "Portogallo",
+      "club": "Benfica",
+      "age": 24,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 2,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/araujo-tomas/jHAm0zFF/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/araujo-tomas/jHAm0zFF/",
+      "direttaPlayerId": "jHAm0zFF",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1204,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 3,
+        "redCards": 0,
+        "averageRating": "7.11",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.67,
+          "shotsOnTargetPerGame": 0.33,
+          "foulsCommittedPerGame": 0.47,
+          "foulsSufferedPerGame": 0.07
+        }
+      },
+      "sofascorePlayerId": 983542
+    },
+    "portogallo::diogo costa": {
+      "player": "Diogo Costa",
+      "team": "Portogallo",
+      "club": "Oporto",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 12,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/diogo-costa/hC31Ab0c/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/diogo-costa/hC31Ab0c/",
+      "direttaPlayerId": "hC31Ab0c",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.01",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0,
+          "shotsOnTargetPerGame": 0,
+          "foulsCommittedPerGame": 0,
+          "foulsSufferedPerGame": 0.2
+        },
+        "scope": "Club + nazionale",
+        "goalsConceded": 11,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.73",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 15,
+          "goalsConceded": 17,
+          "goalsConcededPerGame": "1.13",
+          "averageRating": "6.81",
+          "sample": [
+            {
+              "date": "16.11.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Portugal",
+              "awayTeam": "Armenien",
+              "homeScore": 9,
+              "awayScore": 1,
+              "score": "9-1",
+              "minutes": 90,
+              "rating": 6.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "13.11.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Irland",
+              "awayTeam": "Portugal",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": 6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "14.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Portugal",
+              "awayTeam": "Ungarn",
+              "homeScore": 2,
+              "awayScore": 2,
+              "score": "2-2",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "11.10.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Portugal",
+              "awayTeam": "Irland",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "09.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Ungarn",
+              "awayTeam": "Portugal",
+              "homeScore": 2,
+              "awayScore": 3,
+              "score": "2-3",
+              "minutes": 90,
+              "rating": 6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "06.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Armenien",
+              "awayTeam": "Portugal",
+              "homeScore": 0,
+              "awayScore": 5,
+              "score": "0-5",
+              "minutes": 90,
+              "rating": 7.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "08.06.25",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Portugal",
+              "awayTeam": "Spanien",
+              "homeScore": 3,
+              "awayScore": 2,
+              "score": "3-2",
+              "minutes": 120,
+              "rating": 7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "04.06.25",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Deutschland",
+              "awayTeam": "Portugal",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 90,
+              "rating": 7.1,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "23.03.25",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Portugal",
+              "awayTeam": "Dänemark",
+              "homeScore": 5,
+              "awayScore": 2,
+              "score": "5-2",
+              "minutes": 120,
+              "rating": 6.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "20.03.25",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Dänemark",
+              "awayTeam": "Portugal",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 8.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "15.11.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Portugal",
+              "awayTeam": "Polen",
+              "homeScore": 5,
+              "awayScore": 1,
+              "score": "5-1",
+              "minutes": 90,
+              "rating": 7.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "15.10.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Schottland",
+              "awayTeam": "Portugal",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "12.10.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Polen",
+              "awayTeam": "Portugal",
+              "homeScore": 1,
+              "awayScore": 3,
+              "score": "1-3",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "08.09.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Portugal",
+              "awayTeam": "Schottland",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 6.5,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "05.09.24",
+              "competition": "UEFA Nations League (Europa)",
+              "homeTeam": "Portugal",
+              "awayTeam": "Kroatien",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      },
+      "sofascorePlayerId": 843115
+    },
+    "portogallo::jose sa": {
+      "player": "José Sá",
+      "team": "Portogallo",
+      "club": "Wolverhampton",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/jose-sa/tMoomIVO/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/jose-sa/tMoomIVO/",
+      "direttaPlayerId": "tMoomIVO",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.69",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0,
+          "shotsOnTargetPerGame": 0,
+          "foulsCommittedPerGame": 0,
+          "foulsSufferedPerGame": 0.4
+        },
+        "scope": "Club + nazionale",
+        "goalsConceded": 23,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.53",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 2,
+          "goalsConceded": 2,
+          "goalsConcededPerGame": "1.00",
+          "averageRating": "6.40",
+          "sample": [
+            {
+              "date": "04.06.24",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Portugal",
+              "awayTeam": "Finnland",
+              "homeScore": 4,
+              "awayScore": 2,
+              "score": "4-2",
+              "minutes": 90,
+              "rating": 6,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "16.11.23",
+              "competition": "Europameisterschaft (Europa)",
+              "homeTeam": "Liechtenstein",
+              "awayTeam": "Portugal",
+              "homeScore": 0,
+              "awayScore": 2,
+              "score": "0-2",
+              "minutes": 90,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        },
+        "topFive": {
+          "appearances": 14,
+          "minutes": 1260,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.87
+        }
+      },
+      "sofascorePlayerId": 252669
+    },
+    "portogallo::ricardo velho": {
+      "player": "Ricardo Velho",
+      "team": "Portogallo",
+      "club": "Farense",
+      "age": 28,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 0,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/velho-ricardo/GGacI8zd/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/velho-ricardo/GGacI8zd/",
+      "direttaPlayerId": "GGacI8zd",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.11",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0,
+          "shotsOnTargetPerGame": 0,
+          "foulsCommittedPerGame": 0,
+          "foulsSufferedPerGame": 0.33
+        },
+        "scope": "Club + nazionale",
+        "goalsConceded": 19,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "1.27"
+      },
+      "sofascorePlayerId": 845792
+    },
+    "portogallo::rui silva": {
+      "player": "Rui Silva",
+      "team": "Portogallo",
+      "club": "Sporting CP",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 1,
+        "starts": 1,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/silva-rui/GErUsMSq/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/silva-rui/GErUsMSq/",
+      "direttaPlayerId": "GErUsMSq",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1380,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.80",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0,
+          "shotsOnTargetPerGame": 0,
+          "foulsCommittedPerGame": 0,
+          "foulsSufferedPerGame": 0.13
+        },
+        "scope": "Club + nazionale",
+        "goalsConceded": 14,
+        "goalsConcededMatches": 14,
+        "goalsConcededPerGame": "1.00",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 1,
+          "goalsConceded": 0,
+          "goalsConcededPerGame": "0.00",
+          "averageRating": "6.80",
+          "sample": [
+            {
+              "date": "29.03.26",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Mexiko",
+              "awayTeam": "Portugal",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            }
+          ]
+        }
+      },
+      "sofascorePlayerId": 253809
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "K",
+      "squadra": "Portogallo",
+      "giocatore": "Bernardo Silva",
+      "club": "Manchester City",
+      "lega": "Premier League",
+      "ammonizioni_stagionali": 16,
+      "espulsioni_stagionali": 1,
+      "media_falli_partita": 1,
+      "rischio_cartellino": 85
+    }
+  ]
+}

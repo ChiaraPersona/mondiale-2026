@@ -1,1 +1,1 @@
-const teamCaptains = {"Argentina":["Lionel Messi"],"Belgio":["Youri Tielemans"],"Brasile":["Marquinhos"],"Colombia":["James Rodríguez"],"Francia":["Kylian Mbappé"],"Inghilterra":["Harry Kane"],"Marocco":["Achraf Hakimi"],"Portogallo":["Cristiano Ronaldo"],"Stati Uniti":["Tim Ream"],"Svizzera":["Gran Xhaka"]};
+const teamCaptains = {"Argentina":["Lionel Messi"],"Belgio":["Youri Tielemans"],"Colombia":["James Rodríguez"],"Francia":["Kylian Mbappé"],"Inghilterra":["Harry Kane"],"Marocco":["Achraf Hakimi"],"Stati Uniti":["Tim Ream"],"Svizzera":["Gran Xhaka"]};

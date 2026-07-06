@@ -50,7 +50,7 @@ const tournamentScorersAll = [
 
 const tournamentScorerActiveTeams = new Set([
   "Argentina", "Belgio", "Colombia", "Egitto", "Francia", "Inghilterra",
-  "Marocco", "Norvegia", "Portogallo", "Spagna", "Stati Uniti", "Svizzera",
+  "Marocco", "Norvegia", "Spagna", "Stati Uniti", "Svizzera",
 ]);
 
 const tournamentScorers = tournamentScorersAll.filter((entry) =>
@@ -58,8 +58,8 @@ const tournamentScorers = tournamentScorersAll.filter((entry) =>
 );
 
 const tournamentScorersMeta = {
-  updated: "2026-07-06",
+  updated: "2026-07-07",
   source: "Diretta.it",
-  url: "https://www.diretta.it/partita/calcio/brasile-I9l9aqLq/norvegia-8rP6JO0H/?mid=tpOhKWcC",
+  url: "https://www.diretta.it/partita/calcio/portogallo-WvJrjFVN/spagna-bLyo6mco/",
   scope: "Giocatori con almeno 2 gol",
 };

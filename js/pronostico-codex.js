@@ -1,14 +1,14 @@
 const codexRoleOrder = ["Portieri", "Difensori", "Centrocampisti", "Attaccanti"];
 const codexActiveTournamentTeams = new Set([
   "Argentina", "Belgio", "Colombia", "Egitto", "Francia", "Inghilterra",
-  "Marocco", "Norvegia", "Portogallo", "Spagna", "Stati Uniti", "Svizzera",
+  "Marocco", "Norvegia", "Spagna", "Stati Uniti", "Svizzera",
 ]);
 const codexTitleProbabilities = {
-  "Spagna": 18,
+  "Spagna": 24,
   "Francia": 17,
   "Inghilterra": 14.5,
   "Argentina": 12,
-  "Portogallo": 9,
+  "Portogallo": 0,
   "Brasile": 0,
   "Belgio": 5,
   "Marocco": 5,

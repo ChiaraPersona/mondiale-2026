@@ -1666,6 +1666,28 @@ const worldCupResults = {
       "Centrati X2, Goal e Inghilterra qualificata; persi 1X, Under 3,5, Under 2,5 e pareggio nei 90 minuti.",
     ],
   },
+  93: {
+    status: "Finale",
+    home: 0,
+    away: 1,
+    winner: "Spagna",
+    source: "https://www.diretta.it/partita/calcio/portogallo-WvJrjFVN/spagna-bLyo6mco/",
+    sources: [
+      "https://www.diretta.it/partita/calcio/portogallo-WvJrjFVN/spagna-bLyo6mco/",
+      "https://www.barcablaugranes.com/world-cup-2026/125802/portugal-spain-world-cup-2026-final-score-match-report-recap-reaction-lamine-yamal-cristiano-ronaldo",
+      "https://www.managingmadrid.com/real-madrid-cf-players/109844/spain-knock-bernardo-silva-portugal-out-of-the-world-cup",
+    ],
+    scorers: {
+      Portogallo: [],
+      Spagna: ["Mikel Merino"],
+    },
+    notes: [
+      "La Spagna batte il Portogallo 1-0 e si qualifica ai quarti di finale.",
+      "Mikel Merino decide la partita nel recupero su assist di Ferran Torres.",
+      "Il Portogallo viene eliminato agli ottavi; Cristiano Ronaldo chiude il torneo a 3 gol.",
+      "Pronostico Codex coerente sul passaggio della Spagna e sull'Under 3,5; persi Goal e Over 1,5.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

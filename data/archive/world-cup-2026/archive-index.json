@@ -1,8 +1,8 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "generatedAt": "2026-07-05T11:35:10.288Z",
+  "generatedAt": "2026-07-06T22:51:57.566Z",
   "strategy": "Copia non distruttiva: i dataset sorgente in js/ restano invariati.",
-  "eliminatedTeamCount": 34,
+  "eliminatedTeamCount": 37,
   "teams": [
     {
       "team": "Algeria",
@@ -47,6 +47,15 @@
       "eliminationDate": "2026-07-02",
       "teamArchive": "data/archive/world-cup-2026/eliminated-teams/bosnia-ed-erzegovina.json",
       "playerArchive": "data/archive/world-cup-2026/eliminated-players/bosnia-ed-erzegovina.json",
+      "playerCount": 26
+    },
+    {
+      "team": "Brasile",
+      "group": "C",
+      "stage": "Ottavi di finale",
+      "eliminationDate": "2026-07-05",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/brasile.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/brasile.json",
       "playerCount": 26
     },
     {
@@ -176,6 +185,15 @@
       "playerCount": 26
     },
     {
+      "team": "Messico",
+      "group": "A",
+      "stage": "Ottavi di finale",
+      "eliminationDate": "2026-07-06",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/messico.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/messico.json",
+      "playerCount": 26
+    },
+    {
       "team": "Nuova Zelanda",
       "group": "G",
       "stage": "Fase a gironi",
@@ -210,6 +228,15 @@
       "teamArchive": "data/archive/world-cup-2026/eliminated-teams/paraguay.json",
       "playerArchive": "data/archive/world-cup-2026/eliminated-players/paraguay.json",
       "playerCount": 26
+    },
+    {
+      "team": "Portogallo",
+      "group": "K",
+      "stage": "Ottavi di finale",
+      "eliminationDate": "2026-07-06",
+      "teamArchive": "data/archive/world-cup-2026/eliminated-teams/portogallo.json",
+      "playerArchive": "data/archive/world-cup-2026/eliminated-players/portogallo.json",
+      "playerCount": 27
     },
     {
       "team": "Qatar",

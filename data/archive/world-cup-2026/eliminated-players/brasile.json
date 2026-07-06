@@ -1,0 +1,2101 @@
+{
+  "team": "Brasile",
+  "eliminationDate": "2026-07-05",
+  "roster": [
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Attaccanti",
+      "player": "Endrick",
+      "club": "Lyon/Real Madrid",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/brasile.svg",
+      "age": 20,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Attaccanti",
+      "player": "Igor Thiago",
+      "club": "Brentford",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/brasile.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Attaccanti",
+      "player": "Luiz Henrique",
+      "club": "Zenit",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Russia",
+      "league": "Russian Premier League",
+      "flag": "flags/brasile.svg",
+      "age": 25,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Attaccanti",
+      "player": "Martinelli",
+      "club": "Arsenal",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/brasile.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Attaccanti",
+      "player": "Matheus Cunha",
+      "club": "Manchester United",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/brasile.svg",
+      "age": 27,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Attaccanti",
+      "player": "Neymar",
+      "club": "Santos",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/brasile.svg",
+      "age": 34,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Attaccanti",
+      "player": "Raphinha",
+      "club": "Barcelona",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/brasile.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Attaccanti",
+      "player": "Rayan",
+      "club": "Bournemouth",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/brasile.svg",
+      "age": 20,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Attaccanti",
+      "player": "Vinicius Jr.",
+      "club": "Real Madrid",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Spagna",
+      "league": "LaLiga",
+      "flag": "flags/brasile.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Centrocampisti",
+      "player": "Bruno Guimar�es",
+      "club": "Newcastle",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/brasile.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Centrocampisti",
+      "player": "Casemiro",
+      "club": "Manchester United",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/brasile.svg",
+      "age": 34,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Centrocampisti",
+      "player": "Danilo",
+      "club": "Botafogo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/brasile.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Centrocampisti",
+      "player": "Fabinho",
+      "club": "Al Ittihad",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/brasile.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Centrocampisti",
+      "player": "Lucas Paquet�",
+      "club": "Flamengo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/brasile.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Difensori",
+      "player": "Alex Sandro",
+      "club": "Flamengo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/brasile.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Difensori",
+      "player": "Bremer",
+      "club": "Juventus",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/brasile.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Difensori",
+      "player": "Danilo",
+      "club": "Flamengo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/brasile.svg",
+      "age": 35,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Difensori",
+      "player": "Douglas Santos",
+      "club": "Zenit",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Russia",
+      "league": "Russian Premier League",
+      "flag": "flags/brasile.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Difensori",
+      "player": "Gabriel Magalh�es",
+      "club": "Arsenal",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/brasile.svg",
+      "age": 29,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Difensori",
+      "player": "Ib��ez",
+      "club": "Al Ahli",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "flag": "flags/brasile.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Difensori",
+      "player": "L�o Pereira",
+      "club": "Flamengo",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/brasile.svg",
+      "age": 30,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Difensori",
+      "player": "Marquinhos",
+      "club": "PSG",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Francia",
+      "league": "Ligue 1",
+      "flag": "flags/brasile.svg",
+      "age": 32,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Centrocampisti",
+      "player": "Ederson Silva",
+      "club": "Atalanta",
+      "status": "Ufficiale",
+      "source": "https://www.diretta.it/giocatore/ederson-silva/fqEsbNyA/",
+      "clubCountry": "Italia",
+      "league": "Serie A",
+      "flag": "flags/brasile.svg",
+      "age": 26,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Portieri",
+      "player": "Alisson",
+      "club": "Liverpool",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Inghilterra",
+      "league": "Premier League",
+      "flag": "flags/brasile.svg",
+      "age": "",
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Portieri",
+      "player": "Ederson",
+      "club": "Fenerbahce",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Turchia",
+      "league": "Super Lig",
+      "flag": "flags/brasile.svg",
+      "age": 33,
+      "caps": "",
+      "worldCupsPlayed": ""
+    },
+    {
+      "group": "C",
+      "team": "Brasile",
+      "role": "Portieri",
+      "player": "Weverton",
+      "club": "Gr�mio",
+      "status": "Ufficiale",
+      "source": "https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-clone-f202606-n/",
+      "clubCountry": "Brasile",
+      "league": "Brasileirao Serie A",
+      "flag": "flags/brasile.svg",
+      "age": 39,
+      "caps": "",
+      "worldCupsPlayed": ""
+    }
+  ],
+  "playerStats": {
+    "brasile::endrick": {
+      "player": "Endrick",
+      "team": "Brasile",
+      "club": "Lyon/Real Madrid",
+      "age": 20,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 0,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/endrick/bXHrpEJ4/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/endrick/bXHrpEJ4/",
+      "direttaPlayerId": "bXHrpEJ4",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1021,
+        "goals": 3,
+        "assists": 5,
+        "yellowCards": 2,
+        "redCards": 0,
+        "averageRating": "7.35",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 3.53,
+          "shotsOnTargetPerGame": 1.73,
+          "foulsCommittedPerGame": 1.13,
+          "foulsSufferedPerGame": 1.67
+        },
+        "topFive": {
+          "appearances": 10,
+          "minutes": 715,
+          "goals": 2,
+          "assists": 4,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 7.34
+        }
+      },
+      "sofascorePlayerId": 1174937
+    },
+    "brasile::igor thiago": {
+      "player": "Igor Thiago",
+      "team": "Brasile",
+      "club": "Brentford",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 0,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/rodriguez-thiago/MmJb4MzQ/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/rodriguez-thiago/MmJb4MzQ/",
+      "direttaPlayerId": "MmJb4MzQ",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1198,
+        "goals": 9,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "averageRating": "6.85",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 2.33,
+          "shotsOnTargetPerGame": 1.13,
+          "foulsCommittedPerGame": 1.6,
+          "foulsSufferedPerGame": 0.87
+        },
+        "topFive": {
+          "appearances": 11,
+          "minutes": 990,
+          "goals": 5,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.68
+        }
+      },
+      "sofascorePlayerId": 1016907
+    },
+    "brasile::luiz henrique": {
+      "player": "Luiz Henrique",
+      "team": "Brasile",
+      "club": "Zenit",
+      "age": 25,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 5,
+        "subIns": 6,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/caio-henrique/dr5D8pxI/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/caio-henrique/dr5D8pxI/",
+      "direttaPlayerId": "dr5D8pxI",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1078,
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "averageRating": "6.21",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1.4,
+          "shotsOnTargetPerGame": 0.33,
+          "foulsCommittedPerGame": 1.07,
+          "foulsSufferedPerGame": 1.6
+        },
+        "topFive": {
+          "appearances": 9,
+          "minutes": 582,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.84
+        }
+      },
+      "sofascorePlayerId": 1035995
+    },
+    "brasile::martinelli": {
+      "player": "Martinelli",
+      "team": "Brasile",
+      "club": "Arsenal",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 8,
+        "starts": 4,
+        "subIns": 4,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/martinelli-gabriel/dITe5M88/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/martinelli-gabriel/dITe5M88/",
+      "direttaPlayerId": "dITe5M88",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 775,
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 2,
+        "redCards": 0,
+        "averageRating": "6.24",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.73,
+          "shotsOnTargetPerGame": 0.2,
+          "foulsCommittedPerGame": 1,
+          "foulsSufferedPerGame": 0.87
+        },
+        "topFive": {
+          "appearances": 6,
+          "minutes": 284,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 6.23
+        }
+      },
+      "sofascorePlayerId": 1067671
+    },
+    "brasile::matheus cunha": {
+      "player": "Matheus Cunha",
+      "team": "Brasile",
+      "club": "Manchester United",
+      "age": 27,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 8,
+        "subIns": 3,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/matheus-cunha/bq5QzRdb/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/matheus-cunha/bq5QzRdb/",
+      "direttaPlayerId": "bq5QzRdb",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1206,
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "averageRating": "6.99",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 3.13,
+          "shotsOnTargetPerGame": 0.93,
+          "foulsCommittedPerGame": 0.47,
+          "foulsSufferedPerGame": 1.47
+        },
+        "topFive": {
+          "appearances": 12,
+          "minutes": 1014,
+          "goals": 4,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 7.08
+        }
+      },
+      "sofascorePlayerId": 886363
+    },
+    "brasile::neymar": {
+      "player": "Neymar",
+      "team": "Brasile",
+      "club": "Santos",
+      "age": 34,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/giocatore/neymar/jNOPwl3h/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/neymar/jNOPwl3h/",
+      "direttaPlayerId": "jNOPwl3h",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1265,
+        "goals": 6,
+        "assists": 4,
+        "yellowCards": 7,
+        "redCards": 0,
+        "averageRating": "7.63",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 3.2,
+          "shotsOnTargetPerGame": 1.33,
+          "foulsCommittedPerGame": 0.87,
+          "foulsSufferedPerGame": 3.2
+        },
+        "topFive": {
+          "appearances": 8,
+          "minutes": 686,
+          "goals": 4,
+          "assists": 2,
+          "yellowCards": 5,
+          "redCards": 0,
+          "averageRating": 7.6
+        }
+      },
+      "sofascorePlayerId": 124712
+    },
+    "brasile::raphinha": {
+      "player": "Raphinha",
+      "team": "Brasile",
+      "club": "Barcelona",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 8,
+        "subIns": 1,
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 2,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/raphinha/xtBsDPam/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/raphinha/xtBsDPam/",
+      "direttaPlayerId": "xtBsDPam",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1014,
+        "goals": 9,
+        "assists": 2,
+        "yellowCards": 3,
+        "redCards": 0,
+        "averageRating": "7.63",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 3.07,
+          "shotsOnTargetPerGame": 1.07,
+          "foulsCommittedPerGame": 0.47,
+          "foulsSufferedPerGame": 0.4
+        },
+        "topFive": {
+          "appearances": 9,
+          "minutes": 563,
+          "goals": 5,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 7.52
+        }
+      },
+      "sofascorePlayerId": 831005
+    },
+    "brasile::rayan": {
+      "player": "Rayan",
+      "team": "Brasile",
+      "club": "Bournemouth",
+      "age": 20,
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 0,
+        "subIns": 2,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/rayan/CSiH3dM4/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/rayan/CSiH3dM4/",
+      "direttaPlayerId": "CSiH3dM4",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1071,
+        "goals": 5,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "6.79",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 2.33,
+          "shotsOnTargetPerGame": 1.27,
+          "foulsCommittedPerGame": 0.6,
+          "foulsSufferedPerGame": 1.73
+        },
+        "topFive": {
+          "appearances": 13,
+          "minutes": 1012,
+          "goals": 4,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.78
+        }
+      },
+      "sofascorePlayerId": 1464966
+    },
+    "brasile::vinicius jr.": {
+      "player": "Vinicius Jr.",
+      "team": "Brasile",
+      "club": "Real Madrid",
+      "age": "",
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/giocatore/vinicius-junior/CbwQ4Mws/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/vinicius-junior/CbwQ4Mws/",
+      "direttaPlayerId": "CbwQ4Mws",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1202,
+        "goals": 10,
+        "assists": 3,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "7.69",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 3.47,
+          "shotsOnTargetPerGame": 1.53,
+          "foulsCommittedPerGame": 0.87,
+          "foulsSufferedPerGame": 2.67
+        },
+        "topFive": {
+          "appearances": 9,
+          "minutes": 730,
+          "goals": 7,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.73
+        }
+      },
+      "sofascorePlayerId": 868812
+    },
+    "brasile::bruno guimaraes": {
+      "player": "Bruno Guimarães",
+      "team": "Brasile",
+      "club": "Newcastle",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 12,
+        "starts": 12,
+        "subIns": 0,
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/guimaraes-bruno/xtyKanzU/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/guimaraes-bruno/xtyKanzU/",
+      "direttaPlayerId": "xtyKanzU",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1255,
+        "goals": 5,
+        "assists": 2,
+        "yellowCards": 5,
+        "redCards": 0,
+        "averageRating": "7.45",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1.47,
+          "shotsOnTargetPerGame": 0.73,
+          "foulsCommittedPerGame": 1.07,
+          "foulsSufferedPerGame": 1.67
+        },
+        "topFive": {
+          "appearances": 10,
+          "minutes": 900,
+          "goals": 5,
+          "assists": 2,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 7.8
+        }
+      },
+      "sofascorePlayerId": 866469
+    },
+    "brasile::casemiro": {
+      "player": "Casemiro",
+      "team": "Brasile",
+      "club": "Manchester United",
+      "age": 34,
+      "career": {},
+      "season2025_26": {
+        "appearances": 10,
+        "starts": 10,
+        "subIns": 0,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 4,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/casemiro/Ukeq3c0b/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/casemiro/Ukeq3c0b/",
+      "direttaPlayerId": "Ukeq3c0b",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1221,
+        "goals": 5,
+        "assists": 1,
+        "yellowCards": 5,
+        "redCards": 0,
+        "averageRating": "7.37",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1.67,
+          "shotsOnTargetPerGame": 0.47,
+          "foulsCommittedPerGame": 1.53,
+          "foulsSufferedPerGame": 1.07
+        },
+        "topFive": {
+          "appearances": 12,
+          "minutes": 1031,
+          "goals": 4,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 7.35
+        }
+      },
+      "sofascorePlayerId": 122951
+    },
+    "brasile::danilo::centrocampisti": {
+      "player": "Danilo",
+      "team": "Brasile",
+      "club": "Botafogo",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/danilo/rsMiiNaj/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/danilo/rsMiiNaj/",
+      "direttaPlayerId": "rsMiiNaj",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1165,
+        "goals": 6,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "7.31",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.13,
+          "shotsOnTargetPerGame": 0,
+          "foulsCommittedPerGame": 0.67,
+          "foulsSufferedPerGame": 0.27
+        },
+        "topFive": {
+          "appearances": 7,
+          "minutes": 630,
+          "goals": 2,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.24
+        }
+      },
+      "sofascorePlayerId": 124992
+    },
+    "brasile::fabinho": {
+      "player": "Fabinho",
+      "team": "Brasile",
+      "club": "Al Ittihad",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 0,
+        "subIns": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/fabinho/nqldMgYf/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/fabinho/nqldMgYf/",
+      "direttaPlayerId": "nqldMgYf",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1304,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 5,
+        "redCards": 0,
+        "averageRating": "7.46",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.53,
+          "shotsOnTargetPerGame": 0.07,
+          "foulsCommittedPerGame": 1.67,
+          "foulsSufferedPerGame": 0.73
+        }
+      },
+      "sofascorePlayerId": 243585
+    },
+    "brasile::lucas paqueta": {
+      "player": "Lucas Paquetá",
+      "team": "Brasile",
+      "club": "Flamengo",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 9,
+        "starts": 2,
+        "subIns": 7,
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/lucas-paqueta/SruRBYZP/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/lucas-paqueta/SruRBYZP/",
+      "direttaPlayerId": "SruRBYZP",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 941,
+        "goals": 5,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "7.29",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1.4,
+          "shotsOnTargetPerGame": 0.6,
+          "foulsCommittedPerGame": 1.67,
+          "foulsSufferedPerGame": 1.07
+        },
+        "topFive": {
+          "appearances": 10,
+          "minutes": 701,
+          "goals": 3,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 7.26
+        }
+      },
+      "sofascorePlayerId": 839981
+    },
+    "brasile::alex sandro": {
+      "player": "Alex Sandro",
+      "team": "Brasile",
+      "club": "Flamengo",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 4,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/alex-sandro/hrkni8NN/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/alex-sandro/hrkni8NN/",
+      "direttaPlayerId": "hrkni8NN",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1160,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "averageRating": "6.21",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.07,
+          "shotsOnTargetPerGame": 0,
+          "foulsCommittedPerGame": 1.4,
+          "foulsSufferedPerGame": 1.07
+        },
+        "topFive": {
+          "appearances": 10,
+          "minutes": 799,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
+          "averageRating": 6.49
+        }
+      },
+      "sofascorePlayerId": 84854
+    },
+    "brasile::bremer": {
+      "player": "Bremer",
+      "team": "Brasile",
+      "club": "Juventus",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 2,
+        "starts": 2,
+        "subIns": 0,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/bremer/INWVBb0R/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/bremer/INWVBb0R/",
+      "direttaPlayerId": "INWVBb0R",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1247,
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 5,
+        "redCards": 0,
+        "averageRating": "7.05",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.53,
+          "shotsOnTargetPerGame": 0.27,
+          "foulsCommittedPerGame": 1.33,
+          "foulsSufferedPerGame": 0.33
+        },
+        "topFive": {
+          "appearances": 12,
+          "minutes": 1078,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 4,
+          "redCards": 0,
+          "averageRating": 7.12
+        }
+      },
+      "sofascorePlayerId": 885197
+    },
+    "brasile::danilo::difensori": {
+      "player": "Danilo",
+      "team": "Brasile",
+      "club": "Flamengo",
+      "age": 35,
+      "career": {},
+      "season2025_26": {
+        "appearances": 5,
+        "starts": 1,
+        "subIns": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/danilo/KUjvgUhB/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/danilo/KUjvgUhB/",
+      "direttaPlayerId": "KUjvgUhB",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1091,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 1,
+        "averageRating": "5.99",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.13,
+          "shotsOnTargetPerGame": 0,
+          "foulsCommittedPerGame": 0.67,
+          "foulsSufferedPerGame": 0.27
+        },
+        "topFive": {
+          "appearances": 4,
+          "minutes": 205,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 1,
+          "averageRating": 6.47
+        }
+      },
+      "sofascorePlayerId": 124992
+    },
+    "brasile::douglas santos": {
+      "player": "Douglas Santos",
+      "team": "Brasile",
+      "club": "Zenit",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 5,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/douglas/f91ESvlb/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/douglas/f91ESvlb/",
+      "direttaPlayerId": "f91ESvlb",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1206,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "averageRating": "5.30",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.8,
+          "shotsOnTargetPerGame": 0.13,
+          "foulsCommittedPerGame": 0.47,
+          "foulsSufferedPerGame": 0.67
+        },
+        "topFive": {
+          "appearances": 8,
+          "minutes": 720,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.39
+        }
+      },
+      "sofascorePlayerId": 243583
+    },
+    "brasile::gabriel magalhaes": {
+      "player": "Gabriel Magalhães",
+      "team": "Brasile",
+      "club": "Arsenal",
+      "age": 29,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 6,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/gabriel/tEcnVXMS/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/gabriel/tEcnVXMS/",
+      "direttaPlayerId": "tEcnVXMS",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1317,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "averageRating": "6.75",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.53,
+          "shotsOnTargetPerGame": 0.13,
+          "foulsCommittedPerGame": 0.93,
+          "foulsSufferedPerGame": 1.07
+        },
+        "topFive": {
+          "appearances": 7,
+          "minutes": 585,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.84
+        }
+      },
+      "sofascorePlayerId": 869792
+    },
+    "brasile::ibanez": {
+      "player": "Ibáñez",
+      "team": "Brasile",
+      "club": "Al Ahli",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 3,
+        "starts": 1,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/ibanez/tARMiREs/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ibanez/tARMiREs/",
+      "direttaPlayerId": "tARMiREs",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1214,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 0,
+        "averageRating": "6.97",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 1,
+          "shotsOnTargetPerGame": 0.4,
+          "foulsCommittedPerGame": 0.6,
+          "foulsSufferedPerGame": 0.6
+        }
+      },
+      "sofascorePlayerId": 888949
+    },
+    "brasile::leo pereira": {
+      "player": "Léo Pereira",
+      "team": "Brasile",
+      "club": "Flamengo",
+      "age": 30,
+      "career": {},
+      "season2025_26": {
+        "appearances": 4,
+        "starts": 3,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/leo-pereira/xY0cwI3L/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/leo-pereira/xY0cwI3L/",
+      "direttaPlayerId": "xY0cwI3L",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1346,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "averageRating": "6.74",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.8,
+          "shotsOnTargetPerGame": 0.27,
+          "foulsCommittedPerGame": 0.8,
+          "foulsSufferedPerGame": 0.53
+        },
+        "topFive": {
+          "appearances": 8,
+          "minutes": 716,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 0,
+          "averageRating": 7.42
+        }
+      },
+      "sofascorePlayerId": 358548
+    },
+    "brasile::marquinhos": {
+      "player": "Marquinhos",
+      "team": "Brasile",
+      "club": "PSG",
+      "age": 32,
+      "career": {},
+      "season2025_26": {
+        "appearances": 11,
+        "starts": 10,
+        "subIns": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/marquinhos/UFfev8HP/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/marquinhos/UFfev8HP/",
+      "direttaPlayerId": "UFfev8HP",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1365,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "averageRating": "7.10",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.47,
+          "shotsOnTargetPerGame": 0.07,
+          "foulsCommittedPerGame": 0.73,
+          "foulsSufferedPerGame": 0.13
+        },
+        "topFive": {
+          "appearances": 5,
+          "minutes": 450,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "averageRating": 7.5
+        }
+      },
+      "sofascorePlayerId": 155995
+    },
+    "brasile::wesley": {
+      "player": "Wesley",
+      "team": "Brasile",
+      "club": "Roma",
+      "age": 23,
+      "career": {},
+      "season2025_26": {
+        "appearances": 7,
+        "starts": 5,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/wesley-franca/zmtPBqz4/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/wesley-franca/zmtPBqz4/",
+      "direttaPlayerId": "zmtPBqz4",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1234,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 4,
+        "redCards": 2,
+        "averageRating": "6.55",
+        "scope": "Club + nazionale",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0.6,
+          "shotsOnTargetPerGame": 0.13,
+          "foulsCommittedPerGame": 0.8,
+          "foulsSufferedPerGame": 2
+        },
+        "topFive": {
+          "appearances": 11,
+          "minutes": 926,
+          "goals": 2,
+          "assists": 0,
+          "yellowCards": 3,
+          "redCards": 2,
+          "averageRating": 6.66
+        }
+      },
+      "sofascorePlayerId": 1134200
+    },
+    "brasile::alisson": {
+      "player": "Alisson",
+      "team": "Brasile",
+      "club": "Liverpool",
+      "age": "",
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 6,
+        "subIns": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/becker-alisson/UZrQ3bwP/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/becker-alisson/UZrQ3bwP/",
+      "direttaPlayerId": "UZrQ3bwP",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.85",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0,
+          "shotsOnTargetPerGame": 0,
+          "foulsCommittedPerGame": 0,
+          "foulsSufferedPerGame": 0.07
+        },
+        "scope": "Club + nazionale",
+        "goalsConceded": 13,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.87",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 15,
+          "goalsConceded": 12,
+          "goalsConcededPerGame": "0.80",
+          "averageRating": "7.12",
+          "sample": [
+            {
+              "date": "10.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Bolivien",
+              "awayTeam": "Brasilien",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 7.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "05.09.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Chile",
+              "homeScore": 3,
+              "awayScore": 0,
+              "score": "3-0",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "11.06.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Paraguay",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 6.9,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "06.06.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Ecuador",
+              "awayTeam": "Brasilien",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 7.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "21.03.25",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Kolumbien",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 78,
+              "rating": 6.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "11.09.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Paraguay",
+              "awayTeam": "Brasilien",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "07.09.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Ecuador",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "07.07.24",
+              "competition": "Copa America (Südamerika)",
+              "homeTeam": "Uruguay",
+              "awayTeam": "Brasilien",
+              "homeScore": 1,
+              "awayScore": 0,
+              "score": "1-0",
+              "minutes": 90,
+              "rating": 7.2,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "03.07.24",
+              "competition": "Copa America (Südamerika)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Kolumbien",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 7.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "29.06.24",
+              "competition": "Copa America (Südamerika)",
+              "homeTeam": "Paraguay",
+              "awayTeam": "Brasilien",
+              "homeScore": 1,
+              "awayScore": 4,
+              "score": "1-4",
+              "minutes": 90,
+              "rating": 7.8,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "25.06.24",
+              "competition": "Copa America (Südamerika)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Costa Rica",
+              "homeScore": 0,
+              "awayScore": 0,
+              "score": "0-0",
+              "minutes": 90,
+              "rating": 6.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "13.06.24",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "USA",
+              "awayTeam": "Brasilien",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": 7.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "09.06.24",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Mexiko",
+              "awayTeam": "Brasilien",
+              "homeScore": 2,
+              "awayScore": 3,
+              "score": "2-3",
+              "minutes": 90,
+              "rating": 6.3,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "22.11.23",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Argentinien",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "17.11.23",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Kolumbien",
+              "awayTeam": "Brasilien",
+              "homeScore": 2,
+              "awayScore": 1,
+              "score": "2-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            }
+          ]
+        },
+        "topFive": {
+          "appearances": 10,
+          "minutes": 900,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
+          "averageRating": 6.67
+        }
+      },
+      "sofascorePlayerId": 243609
+    },
+    "brasile::ederson": {
+      "player": "Ederson",
+      "team": "Brasile",
+      "club": "Fenerbahce",
+      "age": 33,
+      "career": {},
+      "season2025_26": {
+        "appearances": 6,
+        "starts": 4,
+        "subIns": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "matchesSample": 15
+      },
+      "sources": [
+        "https://www.diretta.it/",
+        "https://www.diretta.it/giocatore/ederson-moraes/UDODA71I/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/ederson-moraes/UDODA71I/",
+      "direttaPlayerId": "UDODA71I",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "6.79",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0,
+          "shotsOnTargetPerGame": 0,
+          "foulsCommittedPerGame": 0,
+          "foulsSufferedPerGame": 0.13
+        },
+        "scope": "Club + nazionale",
+        "goalsConceded": 17,
+        "goalsConcededMatches": 14,
+        "goalsConcededPerGame": "1.21",
+        "nationalGoalkeeper": {
+          "scope": "Ultime 15 partite in nazionale",
+          "appearances": 10,
+          "goalsConceded": 9,
+          "goalsConcededPerGame": "0.90",
+          "averageRating": "6.05",
+          "sample": [
+            {
+              "date": "26.03.26",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Frankreich",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 90,
+              "rating": 5.7,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "15.11.25",
+              "competition": "Internationale Freundschaftsspiele (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Senegal",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": 6.4,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "20.11.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Uruguay",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "14.11.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Venezuela",
+              "awayTeam": "Brasilien",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "16.10.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Peru",
+              "homeScore": 4,
+              "awayScore": 0,
+              "score": "4-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "11.10.24",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Chile",
+              "awayTeam": "Brasilien",
+              "homeScore": 1,
+              "awayScore": 2,
+              "score": "1-2",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "18.10.23",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Uruguay",
+              "awayTeam": "Brasilien",
+              "homeScore": 2,
+              "awayScore": 0,
+              "score": "2-0",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "goalsConceded": 2
+            },
+            {
+              "date": "13.10.23",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Venezuela",
+              "homeScore": 1,
+              "awayScore": 1,
+              "score": "1-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            },
+            {
+              "date": "13.09.23",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Peru",
+              "awayTeam": "Brasilien",
+              "homeScore": 0,
+              "awayScore": 1,
+              "score": "0-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 0
+            },
+            {
+              "date": "09.09.23",
+              "competition": "Weltmeisterschaft (Welt)",
+              "homeTeam": "Brasilien",
+              "awayTeam": "Bolivien",
+              "homeScore": 5,
+              "awayScore": 1,
+              "score": "5-1",
+              "minutes": 90,
+              "rating": null,
+              "goals": 0,
+              "assists": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "goalsConceded": 1
+            }
+          ]
+        }
+      },
+      "sofascorePlayerId": 254491
+    },
+    "brasile::weverton": {
+      "player": "Weverton",
+      "team": "Brasile",
+      "club": "Grêmio",
+      "age": 39,
+      "career": {},
+      "season2025_26": {},
+      "sources": [
+        "https://www.diretta.it/giocatore/weverton/Ac1mqDdC/"
+      ],
+      "direttaPlayerUrl": "https://www.diretta.it/giocatore/weverton/Ac1mqDdC/",
+      "direttaPlayerId": "Ac1mqDdC",
+      "recent15": {
+        "appearances": 15,
+        "minutes": 1350,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "matchesSample": 15,
+        "averageRating": "7.02",
+        "advanced": {
+          "source": "SofaScore",
+          "matches": 15,
+          "shotsPerGame": 0,
+          "shotsOnTargetPerGame": 0,
+          "foulsCommittedPerGame": 0.07,
+          "foulsSufferedPerGame": 0.27
+        },
+        "scope": "Club + nazionale",
+        "goalsConceded": 10,
+        "goalsConcededMatches": 15,
+        "goalsConcededPerGame": "0.67"
+      },
+      "sofascorePlayerId": 243529
+    }
+  },
+  "cardRiskPlayers": [
+    {
+      "gruppo": "C",
+      "squadra": "Brasile",
+      "giocatore": "Casemiro",
+      "club": "Manchester United",
+      "lega": "Premier League",
+      "ammonizioni_stagionali": 14,
+      "espulsioni_stagionali": 1,
+      "media_falli_partita": 1.2,
+      "rischio_cartellino": 71
+    }
+  ]
+}

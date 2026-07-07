@@ -87,7 +87,7 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
+        "Formazioni ufficiali incorporate."
       ],
       "riskVerdict": "low"
     },
@@ -178,7 +178,7 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
+        "Formazioni ufficiali incorporate."
       ],
       "riskVerdict": "medium"
     },
@@ -283,7 +283,7 @@
       ],
       "weaknesses": [
         "Partita a eliminazione diretta.",
-        "Formazioni ancora probabili."
+        "Formazioni ufficiali incorporate."
       ],
       "riskVerdict": "high"
     }

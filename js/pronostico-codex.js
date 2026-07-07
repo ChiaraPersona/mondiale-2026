@@ -1268,6 +1268,7 @@ const codexReadingLinks = {
   "Inghilterra|RD Congo": "letture/lettura-inghilterra-rd-congo.html",
   "Belgio|Senegal": "letture/lettura-belgio-senegal.html",
   "Stati Uniti|Bosnia ed Erzegovina": "letture/lettura-stati-uniti-bosnia-erzegovina.html",
+  "Stati Uniti|Belgio": "letture/lettura-stati-uniti-belgio.html",
   "Spagna|Austria": "letture/lettura-spagna-austria.html",
   "Portogallo|Croazia": "letture/lettura-portogallo-croazia.html",
   "Svizzera|Algeria": "letture/lettura-svizzera-algeria.html",

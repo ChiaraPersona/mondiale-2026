@@ -63,8 +63,8 @@
     "argentina-egitto": {
       teams: ["Argentina", "Egitto"], flags: ["argentina", "egitto"], high: true,
       formations: [
-        ["Argentina", "4-4-2", "Emiliano Martínez; Molina, Romero, Lisandro Martínez, Tagliafico; De Paul, Mac Allister, Enzo Fernández, Almada; Messi, Lautaro Martínez.", "Probabile formazione ricevuta il 6 luglio."],
-        ["Egitto", "4-2-3-1", "Shobeir; Mohamed Hany, Yasser Ibrahim, Ramy Rabia, Hafez; Hamdy Fathy, Marwan Attia; Salah, Emam Ashour, Zizo; Marmoush.", "Probabile formazione ricevuta il 6 luglio."]
+        ["Argentina", "4-4-2", "Emiliano Martínez; Molina, Romero, Lisandro Martínez, Tagliafico; De Paul, Mac Allister, Enzo Fernández, Paredes; Messi, Julián Álvarez.", "Probabile formazione ricevuta il 7 luglio."],
+        ["Egitto", "4-2-3-1", "Shobeir; Mohamed Hany, Yasser Ibrahim, Ramy Rabia, Hafez; Hamdy Fathy, Marwan Attia; Salah, Emam Ashour, Zizo; Marmoush.", "Probabile formazione ricevuta il 7 luglio."]
       ],
       weather: "Circa 31-33°C, con possibile elevato irraggiamento solare durante la gara. Caldo e recupero fisico possono incidere soprattutto nella ripresa.",
       stadium: "Kansas City Stadium (Arrowhead Stadium), Kansas City, Missouri. Stadio all’aperto e non climatizzato.",
@@ -73,8 +73,8 @@
     "svizzera-colombia": {
       teams: ["Svizzera", "Colombia"], flags: ["svizzera", "colombia"],
       formations: [
-        ["Svizzera", "4-2-3-1", "Kobel; Widmer, Elvedi, Akanji, Ricardo Rodríguez; Freuler, Xhaka; Ndoye, Manzambi, Vargas; Embolo.", "Probabile formazione ricevuta il 6 luglio."],
-        ["Colombia", "4-3-3", "Camilo Vargas; Daniel Muñoz, Davinson Sánchez, Jhon Lucumí, Johan Mojica; Jhon Arias, Jefferson Lerma, Suárez; Luis Díaz, James Rodríguez, Gustavo Puerta.", "Probabile formazione ricevuta il 6 luglio."]
+        ["Svizzera", "4-2-3-1", "Kobel; Zakaria, Elvedi, Akanji, Ricardo Rodríguez; Freuler, Xhaka; Ndoye, Rieder, Okafor; Embolo.", "Probabile formazione ricevuta il 7 luglio."],
+        ["Colombia", "4-3-3", "Camilo Vargas; Daniel Muñoz, Davinson Sánchez, Jhon Lucumí, Johan Mojica; Jhon Arias, Jefferson Lerma, Gustavo Puerta; Luis Díaz, Luis Suárez, James Rodríguez.", "Probabile formazione ricevuta il 7 luglio."]
       ],
       weather: "Esterno circa 33-35°C; interno circa 22-24°C grazie alla climatizzazione. Temperatura di gioco stabile e impatto ambientale basso.",
       stadium: "Atlanta Stadium (Mercedes-Benz Stadium), Atlanta, Georgia. Tetto retrattile e impianto completamente climatizzato.",
@@ -187,6 +187,12 @@
       headline: "Le ufficiali spostano il peso verso gli USA: Belgio più prudente senza De Bruyne, Doku e Lukaku.",
       deck: "Seattle resta ideale per ritmo e pressione. Gli USA confermano Balogun e l'assetto offensivo previsto; il Belgio sceglie De Ketelaere, Trossard, Tielemans e Lukebakio, con meno strappo puro e meno peso d'area rispetto alla lettura iniziale.",
       score: "1-0 Stati Uniti", probabilities: ["43%", "30%", "27%"], labels: ["USA", "Pareggio", "Belgio"],
+      result: {
+        score: "Stati Uniti 1-4 Belgio",
+        winner: "Belgio qualificato",
+        verdict: "Pronostico ribaltato dal campo",
+        review: "Il Belgio travolge gli Stati Uniti 4-1 e va ai quarti contro la Spagna. De Ketelaere firma una doppietta, Vanaken e Lukaku completano il poker; per gli USA segna Tillman. Non entrano 1X, Stati Uniti qualificati, Under 3,5 e No Goal: la rabbia competitiva belga diventa il tema dominante della partita."
+      },
       sections: [
         ["La lettura della partita", "Le formazioni ufficiali cambiano la lettura: gli USA mantengono profondità, ampiezza e Balogun titolare, mentre il Belgio rinuncia dall'inizio a De Bruyne, Doku e Lukaku. Questo non chiude la partita, perché Trossard, Tielemans, Lukebakio e De Ketelaere restano giocatori tecnici, ma riduce la capacità belga di creare occasioni pulite e di ribaltare il campo con una singola giocata. Il modello alza quindi gli USA al 43%, porta il pareggio al 30% e abbassa il Belgio al 27% nei novanta minuti."],
         ["La chiave tattica", "Gli USA devono aggredire la prima uscita belga senza spezzarsi: Adams protegge la zona centrale, McKennie e Tillman possono lavorare sulle seconde palle e Pulisic/Dest devono attaccare De Cuyper e Castagne in isolamento. Il Belgio, senza il riferimento fisico di Lukaku e senza lo strappo di Doku, cerca più combinazioni corte con Tielemans, Trossard e De Ketelaere. Se Onana e Raskin reggono il primo pressing, la gara resta equilibrata; se perdono campo, gli USA possono stabilizzarsi nella metà campo belga."],
@@ -199,32 +205,32 @@
       picks: ["Under 3,5", "1X", "Stati Uniti qualificati", "No Goal come value, non base"]
     },
     "argentina-egitto": {
-      headline: "L’Argentina può controllare territorio e ritmo, ma Salah e Marmoush vietano qualsiasi gestione distratta.",
-      deck: "La campione del mondo parte nettamente avanti. L’Egitto deve difendere basso, proteggere il centro e conservare energie per poche transizioni ad alta qualità.",
-      score: "2-0 Argentina", probabilities: ["71%", "19%", "10%"], labels: ["Argentina", "Pareggio", "Egitto"],
+      headline: "Paredes aumenta il controllo, Julián Álvarez dà profondità: Argentina favorita, ma il caldo chiede pazienza.",
+      deck: "La probabile Argentina è meno da trequarti pura e più da controllo: Paredes aiuta la gestione, Álvarez attacca la profondità accanto a Messi. L’Egitto resta pericoloso solo se Salah e Marmoush corrono in campo aperto.",
+      score: "2-0 Argentina", probabilities: ["72%", "18%", "10%"], labels: ["Argentina", "Pareggio", "Egitto"],
       sections: [
-        ["La lettura della partita", "L’Argentina ha il 71% di vittoria nei novanta minuti perché può dominare possesso, seconde palle e qualità delle occasioni. L’Egitto non è innocuo: Salah e Marmoush possono trasformare un recupero in una conclusione in pochi secondi. Per questo il vantaggio argentino va letto come controllo probabile, non come goleada obbligatoria."],
-        ["La chiave tattica", "De Paul e Molina devono accompagnare Messi senza lasciare libero il corridoio di Salah. Enzo Fernández e Mac Allister possono muovere il blocco egiziano fino ad aprire lo spazio centrale per Lautaro o Julián Álvarez. Elneny e Hamdi Fathi hanno il compito più difficile: schermare Messi e contemporaneamente seguire gli inserimenti."],
-        ["Caldo e irraggiamento", "A Kansas City si gioca all’aperto con 31-33°C e possibile forte irraggiamento. Il caldo può abbassare il pressing continuo, favorire pause e rendere più importante il primo gol; l’Argentina conserva un vantaggio tecnico netto, ma la gestione delle energie rafforza Under 3,5 rispetto a una goleada."],
-        ["Tre scenari", "Scenario di controllo (50%): Argentina avanti presto e gestione fino al 2-0. Scenario resistente (27%): l’Egitto resta basso e perde 1-0. Scenario aperto (23%): Salah o Marmoush segnano in transizione e la gara arriva al 2-1 o 3-1. La media porta a 2-0, con Argentina qualificata e Under 3,5 come assi principali."],
-        ["Verdetto", "Scelgo 2-0 Argentina, con 2-1 come rischio principale se Salah trova spazio. Argentina qualificata, Under 3,5 e Over 1,5 compongono lo scenario più coerente. No Goal è sensato ma meno sicuro del risultato centrale, proprio per la qualità delle transizioni egiziane."]
+        ["La lettura della partita", "L’Argentina sale al 72% nei novanta minuti perché la probabile coppia Paredes-Enzo-Mac Allister-De Paul dà più controllo e più protezione preventiva. Álvarez, rispetto a una punta più statica, allunga la linea egiziana e libera ricezioni interne per Messi. L’Egitto non è innocuo: Salah e Marmoush possono trasformare un recupero in una conclusione in pochi secondi, ma hanno bisogno di campo e di un’Argentina sbilanciata."],
+        ["La chiave tattica", "Molina e Tagliafico devono accompagnare senza aprire corridoi alle spalle: il lato di Salah resta la zona più delicata. Paredes può rallentare il ritmo quando il caldo pesa, mentre Mac Allister ed Enzo Fernández muovono il blocco fino a trovare Messi tra le linee. Per l’Egitto Hamdy Fathy e Marwan Attia devono schermare Messi, ma se si abbassano troppo lasciano Álvarez libero di attaccare area e seconde palle."],
+        ["Caldo e irraggiamento", "A Kansas City si gioca all’aperto con 31-33°C e possibile forte irraggiamento. Il caldo abbassa la probabilità di pressione continua e rende più preziosa la gestione del primo vantaggio. Questo non toglie valore all’Argentina, ma rafforza Under 3,5 rispetto alla goleada e rende più credibile una gara controllata dopo l’1-0."],
+        ["Tre scenari", "Scenario di controllo Argentina (52%): possesso, pazienza, Messi tra le linee e Álvarez in profondità portano al 2-0 o al 3-0. Scenario resistente egiziano (28%): Shobeir e il blocco basso tengono viva la gara fino all’1-0 o all’1-1 parziale. Scenario transizione Egitto (20%): Salah o Marmoush puniscono una palla persa e trasformano la partita in 2-1 o 3-1. La media resta 2-0 Argentina."],
+        ["Verdetto", "Scelgo 2-0 Argentina, con 2-1 come rischio principale se Salah trova campo. Argentina qualificata e Argentina vincente sono il nucleo tecnico; Under 3,5 protegge dal caldo e dalla gestione; Over 1,5 resta coerente con il volume argentino. No Goal è buono ma meno blindato rispetto alla base, proprio per la qualità delle transizioni egiziane."]
       ],
       volume: ["Argentina 16-21 tiri", "Egitto 6-9 tiri", "Corner Argentina 6-9", "Cartellini 3-5"],
       picks: ["Argentina qualificata", "Argentina vincente", "Under 3,5", "Over 1,5"]
     },
     "svizzera-colombia": {
-      headline: "La Colombia ha più accelerazione offensiva, la Svizzera la struttura per portare tutto fino all’ultimo episodio.",
-      deck: "È una partita da margini sottili. James e Luis Díaz possono creare la giocata decisiva, ma Xhaka e Akanji rendono la Svizzera difficile da spostare e ancora più difficile da eliminare.",
-      score: "0-1 Colombia", probabilities: ["29%", "31%", "40%"], labels: ["Svizzera", "Pareggio", "Colombia"],
+      headline: "Okafor e Rieder rendono la Svizzera più viva: Colombia avanti, ma non più da No Goal secco.",
+      deck: "La Colombia conserva più talento nell’ultimo terzo con Luis Díaz, Luis Suárez e James Rodríguez. La Svizzera però ha più corsa e più rifinitura del previsto: Embolo, Okafor e Rieder alzano il rischio Goal.",
+      score: "1-1", probabilities: ["30%", "32%", "38%"], labels: ["Svizzera", "Pareggio", "Colombia"],
       sections: [
-        ["La lettura della partita", "La Colombia parte al 40%, con pareggio al 31% e Svizzera al 29%. È il profilo classico di una favorita leggera: più talento offensivo e uno contro uno, ma nessun margine per controllare la gara in automatico. La Svizzera può abbassare il numero di possessi e rendere ogni duello decisivo."],
-        ["La chiave tattica", "Widmer e Rodríguez devono contenere Luis Díaz e Arias senza schiacciare completamente Vargas e Shaqiri. Xhaka prova a orientare il possesso lontano dalla pressione di Lerma e Richard Ríos; James cerca invece la ricezione alle spalle di Freuler. Embolo può mettere in difficoltà i centrali colombiani attaccando direttamente la profondità."],
+        ["La lettura della partita", "La Colombia scende leggermente al 38% nei novanta minuti perché la probabile Svizzera non è solo blocco basso: Okafor e Rieder danno ricezioni tra le linee, Ndoye attacca campo e Embolo resta il riferimento fisico. Il pareggio sale al 32%, mentre la Svizzera resta al 30%. Il passaggio turno continua però a pendere verso la Colombia per talento offensivo e qualità nei calciatori decisivi."],
+        ["La chiave tattica", "Zakaria e Ricardo Rodríguez devono reggere ampiezza e diagonali contro Luis Díaz e James, mentre Xhaka prova a evitare che Lerma e Puerta trasformino la partita in duelli continui. Rieder può ricevere alle spalle del primo centrocampo colombiano e servire Embolo; dall’altra parte Luis Suárez fissa i centrali e libera corridoi per Díaz. Se la Colombia alza Arias e Puerta insieme, la Svizzera può trovare campo alle spalle."],
         ["Condizioni controllate", "Ad Atlanta il tetto retrattile e la climatizzazione mantengono circa 22-24°C all’interno nonostante i 33-35°C esterni. La componente fisica dipende quindi dalle scelte tattiche: la Svizzera vuole comprimere il ritmo, la Colombia aumentare gli uno contro uno."],
-        ["Tre scenari", "Scenario bloccato (38%): 0-0 o 1-1 e qualificazione decisa oltre i novanta minuti. Scenario Colombia (40%): Luis Díaz e James producono il gol dello 0-1 o dell’1-2. Scenario Svizzera (22%): struttura, piazzati e seconde palle valgono l’1-0. La media conferma Colombia leggermente avanti e Under 3,5 come mercato più robusto."],
-        ["Verdetto", "Scelgo 0-1 Colombia, con 1-1 come alternativa più forte. Under 3,5 e Under 2,5 sono le linee principali; Colombia qualificata è preferibile al segno 2. Una rete svizzera trasformerebbe la gara in uno scenario molto più incerto."]
+        ["Tre scenari", "Scenario equilibrio (40%): 1-1 nei novanta minuti, con Svizzera compatta e Colombia più pericolosa ma non abbastanza continua. Scenario Colombia (38%): Díaz, James o Suárez trovano il colpo per 0-1 o 1-2. Scenario Svizzera (22%): piazzati, seconde palle e profondità di Embolo/Okafor portano all’1-0 o al 2-1. La media aggiornata porta a 1-1, con Colombia qualificata come scelta di passaggio turno."],
+        ["Verdetto", "Scelgo 1-1 nei novanta minuti, con Colombia qualificata come esito playoff più probabile. Under 3,5 resta la base; Over 1,5 e Goal diventano più coerenti del vecchio No Goal; X2 è più prudente del segno 2 secco. La Svizzera può segnare, ma la Colombia mantiene più armi per decidere oltre il pareggio."]
       ],
-      volume: ["Svizzera 9-12 tiri", "Colombia 11-15 tiri", "Tiri in porta 3-5 / 4-6", "Corner totali 8-11"],
-      picks: ["Under 3,5", "Under 2,5", "Colombia qualificata", "Colombia vincente: rischio medio"]
+      volume: ["Svizzera 10-13 tiri", "Colombia 12-16 tiri", "Tiri in porta 3-5 / 4-6", "Corner totali 8-11"],
+      picks: ["Under 3,5", "X2", "Colombia qualificata", "Goal"]
     },
     "francia-marocco": {
       headline: "La Francia ha più profondità e soluzioni, ma il Marocco arriva al quarto con struttura, fiducia e qualità tra le linee.",
@@ -275,13 +281,13 @@
     },
     "argentina-egitto": {
       motivation: [97, 99], surprise: "Basso", shots: [["Argentina", "16-21", "6-9"], ["Egitto", "6-9", "2-4"]], corners: ["6-9", "2-3", "8-11"],
-      cards: [["Hamdy Fathy", "Alto", "Schermo centrale contro Messi."], ["Yasser Ibrahim", "Alto", "Duelli con Lautaro Martínez."], ["Marwan Attia", "Medio-alto", "Coperture sugli inserimenti argentini."], ["De Paul", "Medio", "Controllo delle transizioni di Marmoush."], ["Mohamed Hany", "Medio", "Uno contro uno con Almada."]],
-      shotsPlayers: ["Messi 4-6", "Lautaro Martínez 3-5", "Salah 2-4", "Marmoush 2-3"]
+      cards: [["Hamdy Fathy", "Alto", "Schermo centrale contro Messi."], ["Yasser Ibrahim", "Alto", "Duelli con Julián Álvarez."], ["Marwan Attia", "Medio-alto", "Coperture sugli inserimenti argentini."], ["De Paul", "Medio", "Controllo delle transizioni di Marmoush."], ["Mohamed Hany", "Medio", "Uno contro uno con Tagliafico e coperture su Messi."]],
+      shotsPlayers: ["Messi 4-6", "Julián Álvarez 3-5", "Salah 2-4", "Marmoush 2-3"]
     },
     "svizzera-colombia": {
-      motivation: [95, 96], surprise: "Alto", shots: [["Svizzera", "9-12", "3-5"], ["Colombia", "11-15", "4-6"]], corners: ["4-5", "4-6", "8-11"],
-      cards: [["Freuler", "Alto", "Coperture su James Rodríguez."], ["Widmer", "Alto", "Uno contro uno con Luis Díaz."], ["Lerma", "Medio-alto", "Duelli centrali con Xhaka."], ["Muñoz", "Medio", "Pressione alta e recuperi su Vargas."], ["Elvedi", "Medio", "Gestione della profondità colombiana."]],
-      shotsPlayers: ["Embolo 2-4", "Vargas 2-3", "Luis Díaz 3-5", "James Rodríguez 2-4"]
+      motivation: [95, 96], surprise: "Alto", shots: [["Svizzera", "10-13", "3-5"], ["Colombia", "12-16", "4-6"]], corners: ["4-5", "4-6", "8-11"],
+      cards: [["Freuler", "Alto", "Coperture su James Rodríguez."], ["Zakaria", "Alto", "Uno contro uno con Luis Díaz."], ["Lerma", "Medio-alto", "Duelli centrali con Xhaka e Rieder."], ["Muñoz", "Medio", "Pressione alta su Okafor e Ricardo Rodríguez."], ["Elvedi", "Medio", "Gestione della profondità di Luis Suárez."]],
+      shotsPlayers: ["Embolo 2-4", "Okafor 1-3", "Luis Díaz 3-5", "James Rodríguez 2-4", "Luis Suárez 2-3"]
     },
     "francia-marocco": {
       motivation: [97, 99], surprise: "Medio", shots: [["Francia", "14-18", "5-7"], ["Marocco", "8-12", "3-4"]], corners: ["5-7", "3-5", "8-11"],
@@ -373,6 +379,6 @@
         <section class="reading-data-panel"><span>Metodo</span><p>Scenario e probabilità nascono dalla lettura di qualità, assetto tattico, assenze e ambiente. Le quote sono usate solo dopo, per valutare il prezzo.</p></section>
       </aside>
     </div>
-    <footer class="reading-note"><strong>Nota</strong><p>${data.officialFormations ? "Formazioni ufficiali incorporate; arbitro e gestione del tetto possono richiedere un ultimo controllo vicino al calcio d'inizio." : "Formazioni probabili e informazioni prepartita: titolarità, arbitro e gestione del tetto possono richiedere un aggiornamento vicino al calcio d’inizio."}</p></footer>`;
+    <footer class="reading-note"><strong>Nota</strong><p>${reading.result ? "Risultato finale incorporato nella verifica del pronostico; le sezioni di lettura restano come archivio della previsione pubblicata prima della partita." : data.officialFormations ? "Formazioni ufficiali incorporate; arbitro e gestione del tetto possono richiedere un ultimo controllo vicino al calcio d'inizio." : "Formazioni probabili e informazioni prepartita: titolarità, arbitro e gestione del tetto possono richiedere un aggiornamento vicino al calcio d’inizio."}</p></footer>`;
   document.title = `Lettura - ${data.teams[0]} ${data.teams[1]} | Mondiale 2026`;
 })();

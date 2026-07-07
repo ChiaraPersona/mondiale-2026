@@ -1688,6 +1688,24 @@ const worldCupResults = {
       "Pronostico Codex coerente sul passaggio della Spagna e sull'Under 3,5; persi Goal e Over 1,5.",
     ],
   },
+  94: {
+    status: "Finale",
+    home: 1,
+    away: 4,
+    winner: "Belgio",
+    source: "",
+    sources: [],
+    scorers: {
+      "Stati Uniti": ["Malik Tillman"],
+      Belgio: ["Charles De Ketelaere", "Charles De Ketelaere", "Hans Vanaken", "Romelu Lukaku"],
+    },
+    notes: [
+      "Il Belgio batte gli Stati Uniti 4-1 e si qualifica ai quarti di finale contro la Spagna.",
+      "De Ketelaere firma una doppietta; Vanaken e Lukaku completano il poker belga.",
+      "Tillman segna il gol degli Stati Uniti.",
+      "La lettura prepartita viene ribaltata: non entrano 1X, Stati Uniti qualificati, Under 3,5 e No Goal.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

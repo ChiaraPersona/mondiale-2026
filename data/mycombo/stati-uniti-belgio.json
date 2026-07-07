@@ -2,7 +2,12 @@
   "slug": "stati-uniti-belgio",
   "match": "Stati Uniti - Belgio",
   "date": "07/07/2026 ore 02.00",
-  "status": "scheduled",
+  "status": "final",
+  "result": {
+    "score": "Stati Uniti 1-4 Belgio",
+    "winner": "Belgio qualificato",
+    "review": "MyCombo tutte perse sui mercati principali: 1X, Stati Uniti qualificati, Under 3.5, Under 4.5 e No Goal non entrano. De Ketelaere segna due volte; Tillman firma il gol USA."
+  },
   "prediction": {
     "probabilities90Minutes": {
       "home": 43,

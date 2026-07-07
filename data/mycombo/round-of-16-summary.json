@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T23:03:16.115Z",
+  "generatedAt": "2026-07-07T13:49:47.468Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -253,6 +253,8 @@
       "slug": "stati-uniti-belgio",
       "match": "Stati Uniti - Belgio",
       "prediction": "1-0",
+      "result": "Stati Uniti 1-4 Belgio",
+      "winner": "Belgio qualificato",
       "probabilities": [
         43,
         30,
@@ -334,42 +336,42 @@
       "match": "Argentina - Egitto",
       "prediction": "2-0",
       "probabilities": [
-        71,
-        19,
+        72,
+        18,
         10
       ],
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 3.94
+          "odds": 3.66
         },
         {
           "name": "Balanced",
-          "odds": 6.88
+          "odds": 7.07
         },
         {
           "name": "Aggressive",
-          "odds": 19.93
+          "odds": 20.45
         }
       ],
       "anomalies": [
         {
-          "label": "Lautaro Martínez marcatore nel primo tempo",
-          "event": "Lautaro Martínez marcatore nel primo tempo",
-          "technicalEvent": "MARTINEZ LAUTARO MARCATORE 1T",
+          "label": "Julián Álvarez marcatore nel primo tempo",
+          "event": "Julián Álvarez marcatore nel primo tempo",
+          "technicalEvent": "ALVAREZ JULIAN MARCATORE 1T",
           "market": "MARCATORE SI/NO 1T",
           "selection": "SI",
           "odds": 4.1,
           "impliedProbability": 24.39,
-          "estimatedProbability": 28,
-          "edge": 3.61,
+          "estimatedProbability": 27,
+          "edge": 2.61,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "La probabile titolarità accanto a Messi produce una stima sopra il 24,39% implicito.",
+          "reason": "La probabile titolarità accanto a Messi aumenta profondità, minuti e presenza in area sopra il 24,39% implicito.",
           "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5205358941",
-          "marketId": "790927253"
+          "selectionId": "5205357997",
+          "marketId": "790927194"
         },
         {
           "label": "Argentina almeno 8 tiri in porta",
@@ -379,8 +381,8 @@
           "selection": "OVER",
           "odds": 3.25,
           "impliedProbability": 30.77,
-          "estimatedProbability": 34,
-          "edge": 3.23,
+          "estimatedProbability": 33,
+          "edge": 2.23,
           "classification": "Quota interessante",
           "level": "value",
           "reason": "Possesso, territorio e qualità delle conclusioni portano la stima sopra il 30,77% implicito.",
@@ -390,46 +392,46 @@
           "marketId": "791245905"
         },
         {
-          "label": "Lautaro Martínez almeno 5 tiri totali",
-          "event": "Lautaro Martínez almeno 5 tiri totali",
-          "technicalEvent": "MARTINEZ LAUTARO U/O 4.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "label": "Julián Álvarez almeno 6 tiri totali",
+          "event": "Julián Álvarez almeno 6 tiri totali",
+          "technicalEvent": "ALVAREZ JULIAN U/O 5.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
           "selection": "OVER",
-          "odds": 3.5,
-          "impliedProbability": 28.57,
-          "estimatedProbability": 33,
-          "edge": 4.43,
+          "odds": 4.5,
+          "impliedProbability": 22.22,
+          "estimatedProbability": 25,
+          "edge": 2.78,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "Da riferimento centrale dell’attacco argentino può superare il 28,57% implicito.",
+          "reason": "Da seconda punta mobile può accumulare conclusioni tra profondità, ribattute e sostituto incluso.",
           "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5206972118",
-          "marketId": "791246003"
+          "selectionId": "5206973006",
+          "marketId": "791246225"
         }
       ]
     },
     {
       "slug": "svizzera-colombia",
       "match": "Svizzera - Colombia",
-      "prediction": "0-1",
+      "prediction": "1-1",
       "probabilities": [
-        29,
-        31,
-        40
+        30,
+        32,
+        38
       ],
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 4.85
+          "odds": 4.81
         },
         {
           "name": "Balanced",
-          "odds": 7.08
+          "odds": 10.91
         },
         {
           "name": "Aggressive",
-          "odds": 16.94
+          "odds": 23.47
         }
       ],
       "anomalies": [

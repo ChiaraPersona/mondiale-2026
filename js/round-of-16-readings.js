@@ -71,10 +71,10 @@
       referee: "Szymon Marciniak (Polonia)", profile: "Arbitro di grande esperienza, autorevole nella gestione delle gare a eliminazione diretta e attento ai contatti in area.", severity: 72
     },
     "svizzera-colombia": {
-      teams: ["Svizzera", "Colombia"], flags: ["svizzera", "colombia"],
+      teams: ["Svizzera", "Colombia"], flags: ["svizzera", "colombia"], officialFormations: true,
       formations: [
-        ["Svizzera", "4-2-3-1", "Kobel; Zakaria, Elvedi, Akanji, Ricardo Rodríguez; Freuler, Xhaka; Ndoye, Rieder, Okafor; Embolo.", "Probabile formazione ricevuta il 7 luglio."],
-        ["Colombia", "4-3-3", "Camilo Vargas; Daniel Muñoz, Davinson Sánchez, Jhon Lucumí, Johan Mojica; Jhon Arias, Jefferson Lerma, Gustavo Puerta; Luis Díaz, Luis Suárez, James Rodríguez.", "Probabile formazione ricevuta il 7 luglio."]
+        ["Svizzera", "4-2-3-1", "Kobel; Zakaria, Elvedi, Akanji, Ricardo Rodríguez; Freuler, Xhaka; Rieder, Jaashari, Ndoye; Embolo.", "Formazione ufficiale ricevuta il 7 luglio."],
+        ["Colombia", "4-3-3", "Camilo Vargas; Daniel Muñoz, Davinson Sánchez, Jhon Lucumí, Johan Mojica; Jhon Arias, Jefferson Lerma, Gustavo Puerta; Luis Díaz, Luis Suárez, James Rodríguez.", "Formazione ufficiale ricevuta il 7 luglio."]
       ],
       weather: "Esterno circa 33-35°C; interno circa 22-24°C grazie alla climatizzazione. Temperatura di gioco stabile e impatto ambientale basso.",
       stadium: "Atlanta Stadium (Mercedes-Benz Stadium), Atlanta, Georgia. Tetto retrattile e impianto completamente climatizzato.",
@@ -219,15 +219,15 @@
       picks: ["Argentina qualificata", "Argentina vincente", "Under 3,5", "Over 1,5"]
     },
     "svizzera-colombia": {
-      headline: "Okafor e Rieder rendono la Svizzera più viva: Colombia avanti, ma non più da No Goal secco.",
-      deck: "La Colombia conserva più talento nell’ultimo terzo con Luis Díaz, Luis Suárez e James Rodríguez. La Svizzera però ha più corsa e più rifinitura del previsto: Embolo, Okafor e Rieder alzano il rischio Goal.",
-      score: "1-1", probabilities: ["30%", "32%", "38%"], labels: ["Svizzera", "Pareggio", "Colombia"],
+      headline: "Jaashari dà ordine alla Svizzera: Colombia avanti per talento, ma il pareggio resta molto vivo.",
+      deck: "La Colombia conserva più talento nell’ultimo terzo con Luis Díaz, Luis Suárez e James Rodríguez. La Svizzera ufficiale è meno verticale senza Okafor dall’inizio, ma più ordinata: Jaashari tra le linee, Rieder e Ndoye ai lati di Embolo tengono aperto il rischio Goal.",
+      score: "1-1", probabilities: ["29%", "32%", "39%"], labels: ["Svizzera", "Pareggio", "Colombia"],
       sections: [
-        ["La lettura della partita", "La Colombia scende leggermente al 38% nei novanta minuti perché la probabile Svizzera non è solo blocco basso: Okafor e Rieder danno ricezioni tra le linee, Ndoye attacca campo e Embolo resta il riferimento fisico. Il pareggio sale al 32%, mentre la Svizzera resta al 30%. Il passaggio turno continua però a pendere verso la Colombia per talento offensivo e qualità nei calciatori decisivi."],
-        ["La chiave tattica", "Zakaria e Ricardo Rodríguez devono reggere ampiezza e diagonali contro Luis Díaz e James, mentre Xhaka prova a evitare che Lerma e Puerta trasformino la partita in duelli continui. Rieder può ricevere alle spalle del primo centrocampo colombiano e servire Embolo; dall’altra parte Luis Suárez fissa i centrali e libera corridoi per Díaz. Se la Colombia alza Arias e Puerta insieme, la Svizzera può trovare campo alle spalle."],
+        ["La lettura della partita", "Le ufficiali portano la Colombia al 39% nei novanta minuti, con pareggio al 32% e Svizzera al 29%. L’assenza di Okafor dall’undici toglie un po’ di strappo puro alla Svizzera, ma Jaashari aumenta ordine e raccordo tra Xhaka/Freuler ed Embolo. Il passaggio turno continua a pendere verso la Colombia per talento offensivo e qualità nei calciatori decisivi, senza cancellare la possibilità di un 1-1 lungo."],
+        ["La chiave tattica", "Zakaria e Ricardo Rodríguez devono reggere ampiezza e diagonali contro Luis Díaz e James, mentre Xhaka prova a evitare che Lerma e Puerta trasformino la partita in duelli continui. Jaashari può ricevere alle spalle del primo centrocampo colombiano e collegare Rieder, Ndoye ed Embolo; dall’altra parte Luis Suárez fissa i centrali e libera corridoi per Díaz. Se la Colombia alza Arias e Puerta insieme, la Svizzera può trovare campo alle spalle."],
         ["Condizioni controllate", "Ad Atlanta il tetto retrattile e la climatizzazione mantengono circa 22-24°C all’interno nonostante i 33-35°C esterni. La componente fisica dipende quindi dalle scelte tattiche: la Svizzera vuole comprimere il ritmo, la Colombia aumentare gli uno contro uno."],
-        ["Tre scenari", "Scenario equilibrio (40%): 1-1 nei novanta minuti, con Svizzera compatta e Colombia più pericolosa ma non abbastanza continua. Scenario Colombia (38%): Díaz, James o Suárez trovano il colpo per 0-1 o 1-2. Scenario Svizzera (22%): piazzati, seconde palle e profondità di Embolo/Okafor portano all’1-0 o al 2-1. La media aggiornata porta a 1-1, con Colombia qualificata come scelta di passaggio turno."],
-        ["Verdetto", "Scelgo 1-1 nei novanta minuti, con Colombia qualificata come esito playoff più probabile. Under 3,5 resta la base; Over 1,5 e Goal diventano più coerenti del vecchio No Goal; X2 è più prudente del segno 2 secco. La Svizzera può segnare, ma la Colombia mantiene più armi per decidere oltre il pareggio."]
+        ["Tre scenari", "Scenario equilibrio (40%): 1-1 nei novanta minuti, con Svizzera compatta e Colombia più pericolosa ma non abbastanza continua. Scenario Colombia (39%): Díaz, James o Suárez trovano il colpo per 0-1 o 1-2. Scenario Svizzera (21%): piazzati, seconde palle e collegamenti Jaashari-Embolo portano all’1-0 o al 2-1. La media aggiornata porta a 1-1, con Colombia qualificata come scelta di passaggio turno."],
+        ["Verdetto", "Scelgo 1-1 nei novanta minuti, con Colombia qualificata come esito playoff più probabile. Under 3,5 resta la base; Over 1,5 e Goal restano coerenti perché la Svizzera ha struttura per arrivare in area anche senza Okafor titolare; X2 è più prudente del segno 2 secco. La Colombia mantiene più armi per decidere oltre il pareggio."]
       ],
       volume: ["Svizzera 10-13 tiri", "Colombia 12-16 tiri", "Tiri in porta 3-5 / 4-6", "Corner totali 8-11"],
       picks: ["Under 3,5", "X2", "Colombia qualificata", "Goal"]
@@ -286,8 +286,8 @@
     },
     "svizzera-colombia": {
       motivation: [95, 96], surprise: "Alto", shots: [["Svizzera", "10-13", "3-5"], ["Colombia", "12-16", "4-6"]], corners: ["4-5", "4-6", "8-11"],
-      cards: [["Freuler", "Alto", "Coperture su James Rodríguez."], ["Zakaria", "Alto", "Uno contro uno con Luis Díaz."], ["Lerma", "Medio-alto", "Duelli centrali con Xhaka e Rieder."], ["Muñoz", "Medio", "Pressione alta su Okafor e Ricardo Rodríguez."], ["Elvedi", "Medio", "Gestione della profondità di Luis Suárez."]],
-      shotsPlayers: ["Embolo 2-4", "Okafor 1-3", "Luis Díaz 3-5", "James Rodríguez 2-4", "Luis Suárez 2-3"]
+      cards: [["Freuler", "Alto", "Coperture su James Rodríguez."], ["Zakaria", "Alto", "Uno contro uno con Luis Díaz."], ["Lerma", "Medio-alto", "Duelli centrali con Xhaka e Jaashari."], ["Muñoz", "Medio", "Pressione alta su Rieder e Ricardo Rodríguez."], ["Elvedi", "Medio", "Gestione della profondità di Luis Suárez."]],
+      shotsPlayers: ["Embolo 2-4", "Jaashari 1-2", "Luis Díaz 3-5", "James Rodríguez 2-4", "Luis Suárez 2-3"]
     },
     "francia-marocco": {
       motivation: [97, 99], surprise: "Medio", shots: [["Francia", "14-18", "5-7"], ["Marocco", "8-12", "3-4"]], corners: ["5-7", "3-5", "8-11"],

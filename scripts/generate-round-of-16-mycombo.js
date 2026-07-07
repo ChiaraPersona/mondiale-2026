@@ -13,7 +13,7 @@ const models = {
   "portogallo-spagna": { p: [23, 29, 48], score: "1-2", scenario: "Spagna favorita, Portogallo pericoloso nelle transizioni", picks: [["PASSAGGIO TURNO","2"],["U/O 1.5","OVER"],["GOAL/NO GOAL","GOAL"],["U/O 3.5","UNDER"],["ESITO FINALE 1X2","2"]], anomaly: null },
   "stati-uniti-belgio": { p: [43, 30, 27], score: "1-0", scenario: "USA avanti con ufficiali: Belgio più prudente senza De Bruyne, Doku e Lukaku", picks: [["U/O 3.5","UNDER"],["DOPPIA CHANCE MULTIESITI","1X"],["PASSAGGIO TURNO","1"],["GOAL/NO GOAL","NOGOAL"],["U/O 1.5","OVER"]], anomaly: ["PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA", .31] },
   "argentina-egitto": { p: [72, 18, 10], score: "2-0", scenario: "Controllo Argentina con Messi motore", picks: [["PASSAGGIO TURNO","1"],["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["ESITO FINALE 1X2","1"],["GOAL/NO GOAL","NOGOAL"]], anomaly: ["MESSI L. MARCATORE 1T", .34] },
-  "svizzera-colombia": { p: [30, 32, 38], score: "1-1", scenario: "Equilibrio, Colombia avanti per qualificazione", picks: [["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["DOPPIA CHANCE MULTIESITI","X2"],["PASSAGGIO TURNO","2"],["GOAL/NO GOAL","GOAL"]], anomaly: null },
+  "svizzera-colombia": { p: [29, 32, 39], score: "1-1", scenario: "Equilibrio, Colombia avanti per qualificazione con Jaashari titolare", picks: [["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["DOPPIA CHANCE MULTIESITI","X2"],["PASSAGGIO TURNO","2"],["GOAL/NO GOAL","GOAL"]], anomaly: null },
   "francia-marocco": { p: [58, 25, 17], score: "1-0", scenario: "Francia favorita, quarto a ritmo controllato", picks: [["PASSAGGIO TURNO","1"],["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["ESITO FINALE 1X2","1"],["GOAL/NO GOAL","NOGOAL"]], anomaly: null }
 };
 
@@ -25,7 +25,7 @@ const diverseMarketNeedles = {
   "portogallo-spagna": ["LAMINE YAMAL U/O 2.5 SOMMA TIRI TOTALI", "FERNANDES B. U/O 1.5 SOMMA TIRI TOTALI", "JOAO FELIX U/O 1.5 SOMMA TIRI TOTALI", "OYARZABAL M. U/O 1.5 SOMMA TIRI TOTALI", "PEDRI U/O 1.5 SOMMA TIRI TOTALI", "OLMO D. U/O 1.5 SOMMA TIRI TOTALI"],
   "stati-uniti-belgio": ["U/O 3.5 CORNER SQUADRA 1", "PULISIC C. U/O 1.5 SOMMA TIRI TOTALI", "BALOGUN F. U/O 1.5 SOMMA TIRI TOTALI", "DEST S. U/O 1.5 SOMMA TIRI TOTALI", "TILLMAN M. U/O 1.5 SOMMA TIRI TOTALI", "ADAMS T. U/O 0.5 SOMMA TIRI TOTALI", "DE KETELAERE C. U/O 1.5 SOMMA TIRI TOTALI", "TROSSARD L. U/O 1.5 SOMMA TIRI TOTALI"],
   "argentina-egitto": ["SEGNA GOAL 1", "MESSI L. SEGNA O SUO SOSTITUTO", "MESSI L. U/O 1.5 SOMMA TIRI IN PORTA", "MESSI L. U/O 3.5 SOMMA TIRI TOTALI", "SQUADRA 1: U/O 5.5 TIRI IN PORTA", "U/O 24.5 TIRI TOTALI"],
-  "svizzera-colombia": ["SEGNA GOAL SQUADRA OSPITE", "SEGNA GOAL 1", "SQUADRA 2: U/O 14.5 TIRI TOTALI", "U/O 4.5 CORNER SQUADRA 2", "SQUADRA 1: U/O 11.5 TIRI TOTALI", "U/O 3.5 CORNER SQUADRA 1", "JAMES RODRIGUEZ U/O 1.5 SOMMA TIRI TOTALI", "LUIS SUAREZ J. C. U/O 1.5 SOMMA TIRI TOTALI"],
+  "svizzera-colombia": ["SEGNA GOAL SQUADRA OSPITE", "SEGNA GOAL 1", "SQUADRA 2: U/O 14.5 TIRI TOTALI", "U/O 4.5 CORNER SQUADRA 2", "SQUADRA 1: U/O 10.5 TIRI TOTALI", "U/O 3.5 CORNER SQUADRA 1", "NDOYE D. U/O 1.5 SOMMA TIRI TOTALI", "JAMES RODRIGUEZ U/O 1.5 SOMMA TIRI TOTALI", "LUIS SUAREZ J. C. U/O 1.5 SOMMA TIRI TOTALI"],
   "francia-marocco": ["MBAPPE K. SEGNA O SUO SOSTITUTO", "MULTIGOAL MULTIESITI 16 ESITI", "1 TEMPO: SEGNA GOAL 1"],
 };
 
@@ -46,9 +46,9 @@ const verifiedQuoteErrors = {
     { label: "Messi segna su rigore", info: "MESSI L. SEGNA SU RIGORE INC TS", selection: "SI", probability: .24, reason: "Messi resta rigorista e il dominio territoriale argentino può produrre area occupata e contatti; mercato comunque episodico." },
   ],
   "svizzera-colombia": [
-    { label: "Breel Embolo almeno 4 tiri totali", includes: "EMBOLO B. U/O 3.5 SOMMA TIRI TOTALI", selection: "OVER", probability: .34, reason: "Il ruolo di riferimento offensivo porta la stima sopra il 30,77% implicito." },
-    { label: "Luis Díaz almeno 5 tiri totali", includes: "LUIS DIAZ U/O 4.5 SOMMA TIRI TOTALI", selection: "OVER", probability: .33, reason: "La centralità di Díaz negli attacchi colombiani supera il 28,57% implicito." },
-    { label: "Colombia almeno 7 tiri in porta", info: "SQUADRA 2: U/O 6.5 TIRI IN PORTA", selection: "OVER", probability: .26, reason: "La superiorità negli uno contro uno porta la stima sopra il 22,22% implicito." },
+    { label: "Dan Ndoye almeno 2 tiri in porta", includes: "NDOYE D. U/O 1.5 SOMMA TIRI IN PORTA", selection: "OVER", probability: .24, reason: "Con Okafor fuori dall'undici, Ndoye resta uno dei canali principali per attaccare l'area: quota alta, mercato volatile ma coerente con la titolarità ufficiale." },
+    { label: "Luis Díaz almeno 5 tiri totali", includes: "LUIS DIAZ U/O 4.5 SOMMA TIRI TOTALI", selection: "OVER", probability: .34, reason: "La centralità di Díaz negli attacchi colombiani aumenta con la Colombia leggermente più avanti nel modello ufficiale." },
+    { label: "Colombia almeno 7 tiri in porta", info: "SQUADRA 2: U/O 6.5 TIRI IN PORTA", selection: "OVER", probability: .27, reason: "La qualità degli uno contro uno e il leggero rialzo colombiano portano la stima sopra il 22,22% implicito." },
   ],
 };
 
@@ -126,7 +126,7 @@ function portfolio(name, events, scenario) {
     reason: "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
     scenario: { id: scenario.toLowerCase().replace(/\W+/g, "_"), name: scenario, estimatedProbability: name === "Safe" ? "medio-alta" : "media" },
     strengths: ["Coerenza tattica interna.", "Mercati principali e verificabili."],
-    weaknesses: ["Partita a eliminazione diretta.", "Formazioni ancora probabili."],
+    weaknesses: ["Partita a eliminazione diretta.", "Formazioni ufficiali incorporate."],
     riskVerdict: name === "Safe" ? "low" : name === "Balanced" ? "medium" : "high"
   };
 }

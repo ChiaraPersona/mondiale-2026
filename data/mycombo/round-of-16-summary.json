@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T13:55:07.241Z",
+  "generatedAt": "2026-07-07T19:08:12.918Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -416,42 +416,42 @@
       "match": "Svizzera - Colombia",
       "prediction": "1-1",
       "probabilities": [
-        30,
+        29,
         32,
-        38
+        39
       ],
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 4.81
+          "odds": 4.96
         },
         {
           "name": "Balanced",
-          "odds": 10.91
+          "odds": 9.87
         },
         {
           "name": "Aggressive",
-          "odds": 23.47
+          "odds": 23.42
         }
       ],
       "anomalies": [
         {
-          "label": "Breel Embolo almeno 4 tiri totali",
-          "event": "Breel Embolo almeno 4 tiri totali",
-          "technicalEvent": "EMBOLO B. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "label": "Dan Ndoye almeno 2 tiri in porta",
+          "event": "Dan Ndoye almeno 2 tiri in porta",
+          "technicalEvent": "NDOYE D. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
           "selection": "OVER",
-          "odds": 3.25,
-          "impliedProbability": 30.77,
-          "estimatedProbability": 34,
-          "edge": 3.23,
+          "odds": 4.5,
+          "impliedProbability": 22.22,
+          "estimatedProbability": 24,
+          "edge": 1.78,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "Il ruolo di riferimento offensivo porta la stima sopra il 30,77% implicito.",
+          "reason": "Con Okafor fuori dall'undici, Ndoye resta uno dei canali principali per attaccare l'area: quota alta, mercato volatile ma coerente con la titolarità ufficiale.",
           "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5207018700",
-          "marketId": "791255559"
+          "selectionId": "5207023275",
+          "marketId": "791256538"
         },
         {
           "label": "Luis Díaz almeno 5 tiri totali",
@@ -461,11 +461,11 @@
           "selection": "OVER",
           "odds": 3.5,
           "impliedProbability": 28.57,
-          "estimatedProbability": 33,
-          "edge": 4.43,
+          "estimatedProbability": 34,
+          "edge": 5.43,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "La centralità di Díaz negli attacchi colombiani supera il 28,57% implicito.",
+          "reason": "La centralità di Díaz negli attacchi colombiani aumenta con la Colombia leggermente più avanti nel modello ufficiale.",
           "modelConfidence": 61,
           "risk": "medium",
           "selectionId": "5207025487",
@@ -479,11 +479,11 @@
           "selection": "OVER",
           "odds": 4.5,
           "impliedProbability": 22.22,
-          "estimatedProbability": 26,
-          "edge": 3.78,
+          "estimatedProbability": 27,
+          "edge": 4.78,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "La superiorità negli uno contro uno porta la stima sopra il 22,22% implicito.",
+          "reason": "La qualità degli uno contro uno e il leggero rialzo colombiano portano la stima sopra il 22,22% implicito.",
           "modelConfidence": 61,
           "risk": "medium",
           "selectionId": "5207023671",

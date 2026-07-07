@@ -10,13 +10,13 @@
       "away": 10
     },
     "centralScore": "2-0",
-    "scenario": "Controllo Argentina con Paredes e Alvarez",
+    "scenario": "Controllo Argentina con Messi motore",
     "quoteInfluence": "secondaria"
   },
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 3.66,
+      "finalOdds": 2.62,
       "events": [
         {
           "id": "event-01",
@@ -62,11 +62,11 @@
         },
         {
           "id": "event-10",
-          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — MESSI L. U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.75,
-          "selectionId": 5206971910,
-          "marketId": 791245951,
+          "odds": 1.25,
+          "selectionId": 5206975054,
+          "marketId": 791246737,
           "category": "tiri",
           "rankingScore": 78,
           "class": "VALUE",
@@ -77,8 +77,8 @@
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
-        "id": "controllo_argentina_con_paredes_e_alvarez",
-        "name": "Controllo Argentina con Paredes e Alvarez",
+        "id": "controllo_argentina_con_messi_motore",
+        "name": "Controllo Argentina con Messi motore",
         "estimatedProbability": "medio-alta"
       },
       "strengths": [
@@ -139,11 +139,11 @@
         },
         {
           "id": "event-11",
-          "market": "U/O TIRI TOTALI — U/O 24.5 TIRI TOTALI",
+          "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 5.5 TIRI IN PORTA",
           "selection": "OVER",
           "odds": 1.75,
-          "selectionId": 5205175860,
-          "marketId": 790901382,
+          "selectionId": 5206971910,
+          "marketId": 791245951,
           "category": "tiri",
           "rankingScore": 78,
           "class": "VALUE",
@@ -168,8 +168,8 @@
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
-        "id": "controllo_argentina_con_paredes_e_alvarez",
-        "name": "Controllo Argentina con Paredes e Alvarez",
+        "id": "controllo_argentina_con_messi_motore",
+        "name": "Controllo Argentina con Messi motore",
         "estimatedProbability": "media"
       },
       "strengths": [
@@ -184,7 +184,7 @@
     },
     {
       "name": "Aggressive",
-      "finalOdds": 20.45,
+      "finalOdds": 27.19,
       "events": [
         {
           "id": "event-03",
@@ -216,11 +216,11 @@
         },
         {
           "id": "event-09",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS — ALVAREZ JULIAN U/O 3.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS — MESSI L. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.75,
-          "selectionId": 5206975146,
-          "marketId": 791246760,
+          "odds": 1.33,
+          "selectionId": 5206971722,
+          "marketId": 791245904,
           "category": "tiri",
           "rankingScore": 78,
           "class": "VALUE",
@@ -229,7 +229,21 @@
           "riskReasons": []
         },
         {
-          "id": "event-04",
+          "id": "event-12",
+          "market": "U/O TIRI TOTALI — U/O 24.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.75,
+          "selectionId": 5205175860,
+          "marketId": 790901382,
+          "category": "tiri",
+          "rankingScore": 78,
+          "class": "VALUE",
+          "riskScore": 27,
+          "riskLevel": "medium",
+          "riskReasons": []
+        },
+        {
+          "id": "event-05",
           "market": "U/O TIRI IN PORTA SQUADRA X — SQUADRA 1: U/O 6.5 TIRI IN PORTA",
           "selection": "OVER",
           "odds": 2.3,
@@ -243,7 +257,7 @@
           "riskReasons": []
         },
         {
-          "id": "event-05",
+          "id": "event-06",
           "market": "U/O CORNER SQUADRA X — U/O 6.5 CORNER SQUADRA 1",
           "selection": "OVER",
           "odds": 2.5,
@@ -259,8 +273,8 @@
       ],
       "reason": "Selezioni derivate dalla lettura tecnica; le quote sono usate per scegliere la combinazione, non per definire il pronostico.",
       "scenario": {
-        "id": "controllo_argentina_con_paredes_e_alvarez",
-        "name": "Controllo Argentina con Paredes e Alvarez",
+        "id": "controllo_argentina_con_messi_motore",
+        "name": "Controllo Argentina con Messi motore",
         "estimatedProbability": "media"
       },
       "strengths": [
@@ -276,7 +290,7 @@
   ],
   "quoteErrorAnalysis": {
     "title": "Errore di Quota",
-    "generatedAt": "2026-07-07T13:49:47.392Z",
+    "generatedAt": "2026-07-07T13:55:07.238Z",
     "criteria": {
       "minimumOddsExclusive": 3,
       "method": "probabilità indipendente contro probabilità implicita"
@@ -288,22 +302,22 @@
     },
     "events": [
       {
-        "label": "Julián Álvarez marcatore nel primo tempo",
-        "event": "Julián Álvarez marcatore nel primo tempo",
-        "technicalEvent": "ALVAREZ JULIAN MARCATORE 1T",
-        "market": "MARCATORE SI/NO 1T",
-        "selection": "SI",
-        "odds": 4.1,
-        "impliedProbability": 24.39,
-        "estimatedProbability": 27,
-        "edge": 2.61,
+        "label": "Messi almeno 4 tiri in porta",
+        "event": "Messi almeno 4 tiri in porta",
+        "technicalEvent": "MESSI L. U/O 3.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "selection": "OVER",
+        "odds": 3.75,
+        "impliedProbability": 26.67,
+        "estimatedProbability": 29,
+        "edge": 2.33,
         "classification": "Quota interessante",
         "level": "value",
-        "reason": "La probabile titolarità accanto a Messi aumenta profondità, minuti e presenza in area sopra il 24,39% implicito.",
+        "reason": "Quota alta e scenario Messi-centrico: resta molto volatile, ma è più coerente dei tiri di Álvarez se il gioco passa sempre dal 10.",
         "modelConfidence": 61,
         "risk": "medium",
-        "selectionId": "5205357997",
-        "marketId": "790927194"
+        "selectionId": "5206973706",
+        "marketId": "791246400"
       },
       {
         "label": "Argentina almeno 8 tiri in porta",
@@ -324,22 +338,22 @@
         "marketId": "791245905"
       },
       {
-        "label": "Julián Álvarez almeno 6 tiri totali",
-        "event": "Julián Álvarez almeno 6 tiri totali",
-        "technicalEvent": "ALVAREZ JULIAN U/O 5.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-        "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-        "selection": "OVER",
+        "label": "Messi segna su rigore",
+        "event": "Messi segna su rigore",
+        "technicalEvent": "MESSI L. SEGNA SU RIGORE INC TS",
+        "market": "GIOCATORE SEGNA SU RIGORE INC TS",
+        "selection": "SI",
         "odds": 4.5,
         "impliedProbability": 22.22,
-        "estimatedProbability": 25,
-        "edge": 2.78,
+        "estimatedProbability": 24,
+        "edge": 1.78,
         "classification": "Quota interessante",
         "level": "value",
-        "reason": "Da seconda punta mobile può accumulare conclusioni tra profondità, ribattute e sostituto incluso.",
+        "reason": "Messi resta rigorista e il dominio territoriale argentino può produrre area occupata e contatti; mercato comunque episodico.",
         "modelConfidence": 61,
         "risk": "medium",
-        "selectionId": "5206973006",
-        "marketId": "791246225"
+        "selectionId": "5208819318",
+        "marketId": "791580363"
       }
     ],
     "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."

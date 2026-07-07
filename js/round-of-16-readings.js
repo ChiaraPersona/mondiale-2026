@@ -205,15 +205,15 @@
       picks: ["Under 3,5", "1X", "Stati Uniti qualificati", "No Goal come value, non base"]
     },
     "argentina-egitto": {
-      headline: "Paredes aumenta il controllo, Julián Álvarez dà profondità: Argentina favorita, ma il caldo chiede pazienza.",
-      deck: "La probabile Argentina è meno da trequarti pura e più da controllo: Paredes aiuta la gestione, Álvarez attacca la profondità accanto a Messi. L’Egitto resta pericoloso solo se Salah e Marmoush corrono in campo aperto.",
+      headline: "Paredes aumenta il controllo, ma tutto passa da Messi: Argentina favorita, tiri di Álvarez da evitare.",
+      deck: "La probabile Argentina è meno da trequarti pura e più da controllo: Paredes aiuta la gestione, Álvarez attacca la profondità accanto a Messi. Però il gioco tende a rendere Messi motore e protagonista assoluto, quindi i mercati tiri di Álvarez sono più fragili del suo ruolo tattico.",
       score: "2-0 Argentina", probabilities: ["72%", "18%", "10%"], labels: ["Argentina", "Pareggio", "Egitto"],
       sections: [
-        ["La lettura della partita", "L’Argentina sale al 72% nei novanta minuti perché la probabile coppia Paredes-Enzo-Mac Allister-De Paul dà più controllo e più protezione preventiva. Álvarez, rispetto a una punta più statica, allunga la linea egiziana e libera ricezioni interne per Messi. L’Egitto non è innocuo: Salah e Marmoush possono trasformare un recupero in una conclusione in pochi secondi, ma hanno bisogno di campo e di un’Argentina sbilanciata."],
+        ["La lettura della partita", "L’Argentina sale al 72% nei novanta minuti perché la probabile coppia Paredes-Enzo-Mac Allister-De Paul dà più controllo e più protezione preventiva. Álvarez, rispetto a una punta più statica, allunga la linea egiziana e libera ricezioni interne per Messi, ma non va trasformato automaticamente in un mercato tiri: quando l’Argentina deve decidere, tende a far passare ritmo, ultimo passaggio e conclusione dal suo numero 10. L’Egitto non è innocuo: Salah e Marmoush possono trasformare un recupero in una conclusione in pochi secondi, ma hanno bisogno di campo e di un’Argentina sbilanciata."],
         ["La chiave tattica", "Molina e Tagliafico devono accompagnare senza aprire corridoi alle spalle: il lato di Salah resta la zona più delicata. Paredes può rallentare il ritmo quando il caldo pesa, mentre Mac Allister ed Enzo Fernández muovono il blocco fino a trovare Messi tra le linee. Per l’Egitto Hamdy Fathy e Marwan Attia devono schermare Messi, ma se si abbassano troppo lasciano Álvarez libero di attaccare area e seconde palle."],
         ["Caldo e irraggiamento", "A Kansas City si gioca all’aperto con 31-33°C e possibile forte irraggiamento. Il caldo abbassa la probabilità di pressione continua e rende più preziosa la gestione del primo vantaggio. Questo non toglie valore all’Argentina, ma rafforza Under 3,5 rispetto alla goleada e rende più credibile una gara controllata dopo l’1-0."],
-        ["Tre scenari", "Scenario di controllo Argentina (52%): possesso, pazienza, Messi tra le linee e Álvarez in profondità portano al 2-0 o al 3-0. Scenario resistente egiziano (28%): Shobeir e il blocco basso tengono viva la gara fino all’1-0 o all’1-1 parziale. Scenario transizione Egitto (20%): Salah o Marmoush puniscono una palla persa e trasformano la partita in 2-1 o 3-1. La media resta 2-0 Argentina."],
-        ["Verdetto", "Scelgo 2-0 Argentina, con 2-1 come rischio principale se Salah trova campo. Argentina qualificata e Argentina vincente sono il nucleo tecnico; Under 3,5 protegge dal caldo e dalla gestione; Over 1,5 resta coerente con il volume argentino. No Goal è buono ma meno blindato rispetto alla base, proprio per la qualità delle transizioni egiziane."]
+        ["Tre scenari", "Scenario di controllo Argentina (52%): possesso, pazienza, Messi tra le linee e Álvarez in profondità portano al 2-0 o al 3-0, ma il volume individuale resta più su Messi che su Álvarez. Scenario resistente egiziano (28%): Shobeir e il blocco basso tengono viva la gara fino all’1-0 o all’1-1 parziale. Scenario transizione Egitto (20%): Salah o Marmoush puniscono una palla persa e trasformano la partita in 2-1 o 3-1. La media resta 2-0 Argentina."],
+        ["Verdetto", "Scelgo 2-0 Argentina, con 2-1 come rischio principale se Salah trova campo. Argentina qualificata e Argentina vincente sono il nucleo tecnico; Under 3,5 protegge dal caldo e dalla gestione; Over 1,5 resta coerente con il volume argentino. Evito i tiri di Álvarez nelle MyCombo: è importante per occupare l’area, ma se il copione diventa Messi-centrico può chiudere con meno conclusioni del suo peso tattico."]
       ],
       volume: ["Argentina 16-21 tiri", "Egitto 6-9 tiri", "Corner Argentina 6-9", "Cartellini 3-5"],
       picks: ["Argentina qualificata", "Argentina vincente", "Under 3,5", "Over 1,5"]
@@ -282,7 +282,7 @@
     "argentina-egitto": {
       motivation: [97, 99], surprise: "Basso", shots: [["Argentina", "16-21", "6-9"], ["Egitto", "6-9", "2-4"]], corners: ["6-9", "2-3", "8-11"],
       cards: [["Hamdy Fathy", "Alto", "Schermo centrale contro Messi."], ["Yasser Ibrahim", "Alto", "Duelli con Julián Álvarez."], ["Marwan Attia", "Medio-alto", "Coperture sugli inserimenti argentini."], ["De Paul", "Medio", "Controllo delle transizioni di Marmoush."], ["Mohamed Hany", "Medio", "Uno contro uno con Tagliafico e coperture su Messi."]],
-      shotsPlayers: ["Messi 4-6", "Julián Álvarez 3-5", "Salah 2-4", "Marmoush 2-3"]
+      shotsPlayers: ["Messi 4-6", "Julián Álvarez 2-3", "Salah 2-4", "Marmoush 2-3"]
     },
     "svizzera-colombia": {
       motivation: [95, 96], surprise: "Alto", shots: [["Svizzera", "10-13", "3-5"], ["Colombia", "12-16", "4-6"]], corners: ["4-5", "4-6", "8-11"],

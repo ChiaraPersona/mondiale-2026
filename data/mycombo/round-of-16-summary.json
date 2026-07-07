@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T13:49:47.468Z",
+  "generatedAt": "2026-07-07T13:55:07.241Z",
   "matches": [
     {
       "slug": "canada-marocco",
@@ -343,7 +343,7 @@
       "portfolios": [
         {
           "name": "Safe",
-          "odds": 3.66
+          "odds": 2.62
         },
         {
           "name": "Balanced",
@@ -351,27 +351,27 @@
         },
         {
           "name": "Aggressive",
-          "odds": 20.45
+          "odds": 27.19
         }
       ],
       "anomalies": [
         {
-          "label": "Julián Álvarez marcatore nel primo tempo",
-          "event": "Julián Álvarez marcatore nel primo tempo",
-          "technicalEvent": "ALVAREZ JULIAN MARCATORE 1T",
-          "market": "MARCATORE SI/NO 1T",
-          "selection": "SI",
-          "odds": 4.1,
-          "impliedProbability": 24.39,
-          "estimatedProbability": 27,
-          "edge": 2.61,
+          "label": "Messi almeno 4 tiri in porta",
+          "event": "Messi almeno 4 tiri in porta",
+          "technicalEvent": "MESSI L. U/O 3.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "selection": "OVER",
+          "odds": 3.75,
+          "impliedProbability": 26.67,
+          "estimatedProbability": 29,
+          "edge": 2.33,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "La probabile titolarità accanto a Messi aumenta profondità, minuti e presenza in area sopra il 24,39% implicito.",
+          "reason": "Quota alta e scenario Messi-centrico: resta molto volatile, ma è più coerente dei tiri di Álvarez se il gioco passa sempre dal 10.",
           "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5205357997",
-          "marketId": "790927194"
+          "selectionId": "5206973706",
+          "marketId": "791246400"
         },
         {
           "label": "Argentina almeno 8 tiri in porta",
@@ -392,22 +392,22 @@
           "marketId": "791245905"
         },
         {
-          "label": "Julián Álvarez almeno 6 tiri totali",
-          "event": "Julián Álvarez almeno 6 tiri totali",
-          "technicalEvent": "ALVAREZ JULIAN U/O 5.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-          "selection": "OVER",
+          "label": "Messi segna su rigore",
+          "event": "Messi segna su rigore",
+          "technicalEvent": "MESSI L. SEGNA SU RIGORE INC TS",
+          "market": "GIOCATORE SEGNA SU RIGORE INC TS",
+          "selection": "SI",
           "odds": 4.5,
           "impliedProbability": 22.22,
-          "estimatedProbability": 25,
-          "edge": 2.78,
+          "estimatedProbability": 24,
+          "edge": 1.78,
           "classification": "Quota interessante",
           "level": "value",
-          "reason": "Da seconda punta mobile può accumulare conclusioni tra profondità, ribattute e sostituto incluso.",
+          "reason": "Messi resta rigorista e il dominio territoriale argentino può produrre area occupata e contatti; mercato comunque episodico.",
           "modelConfidence": 61,
           "risk": "medium",
-          "selectionId": "5206973006",
-          "marketId": "791246225"
+          "selectionId": "5208819318",
+          "marketId": "791580363"
         }
       ]
     },

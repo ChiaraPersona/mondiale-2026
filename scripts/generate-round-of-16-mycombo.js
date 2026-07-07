@@ -12,7 +12,7 @@ const models = {
   "messico-inghilterra": { p: [34, 30, 36], score: "1-1", scenario: "Equilibrio con forte fattore Azteca", picks: [["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["U/O 2.5","UNDER"],["PASSAGGIO TURNO","2"],["ESITO FINALE 1X2","X"]], anomaly: ["SAKA B. ALMENO 1 TIRI IN PORTA NEL 1 TEMPO", .36] },
   "portogallo-spagna": { p: [23, 29, 48], score: "1-2", scenario: "Spagna favorita, Portogallo pericoloso nelle transizioni", picks: [["PASSAGGIO TURNO","2"],["U/O 1.5","OVER"],["GOAL/NO GOAL","GOAL"],["U/O 3.5","UNDER"],["ESITO FINALE 1X2","2"]], anomaly: null },
   "stati-uniti-belgio": { p: [43, 30, 27], score: "1-0", scenario: "USA avanti con ufficiali: Belgio più prudente senza De Bruyne, Doku e Lukaku", picks: [["U/O 3.5","UNDER"],["DOPPIA CHANCE MULTIESITI","1X"],["PASSAGGIO TURNO","1"],["GOAL/NO GOAL","NOGOAL"],["U/O 1.5","OVER"]], anomaly: ["PULISIC C. U/O 1.5 SOMMA TIRI IN PORTA", .31] },
-  "argentina-egitto": { p: [72, 18, 10], score: "2-0", scenario: "Controllo Argentina con Paredes e Alvarez", picks: [["PASSAGGIO TURNO","1"],["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["ESITO FINALE 1X2","1"],["GOAL/NO GOAL","NOGOAL"]], anomaly: ["ALVAREZ JULIAN MARCATORE 1T", .27] },
+  "argentina-egitto": { p: [72, 18, 10], score: "2-0", scenario: "Controllo Argentina con Messi motore", picks: [["PASSAGGIO TURNO","1"],["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["ESITO FINALE 1X2","1"],["GOAL/NO GOAL","NOGOAL"]], anomaly: ["MESSI L. MARCATORE 1T", .34] },
   "svizzera-colombia": { p: [30, 32, 38], score: "1-1", scenario: "Equilibrio, Colombia avanti per qualificazione", picks: [["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["DOPPIA CHANCE MULTIESITI","X2"],["PASSAGGIO TURNO","2"],["GOAL/NO GOAL","GOAL"]], anomaly: null },
   "francia-marocco": { p: [58, 25, 17], score: "1-0", scenario: "Francia favorita, quarto a ritmo controllato", picks: [["PASSAGGIO TURNO","1"],["U/O 3.5","UNDER"],["U/O 1.5","OVER"],["ESITO FINALE 1X2","1"],["GOAL/NO GOAL","NOGOAL"]], anomaly: null }
 };
@@ -24,7 +24,7 @@ const diverseMarketNeedles = {
   "messico-inghilterra": ["U/O 3.5 CORNER SQUADRA 2", "BELLINGHAM JUDE U/O 1.5 SOMMA TIRI TOTALI", "KANE H. U/O 2.5 SOMMA TIRI TOTALI", "SAKA B. U/O 1.5 SOMMA TIRI TOTALI", "ALVARADO R. U/O 1.5 SOMMA TIRI TOTALI", "ANDERSON E. U/O 0.5 SOMMA TIRI TOTALI"],
   "portogallo-spagna": ["LAMINE YAMAL U/O 2.5 SOMMA TIRI TOTALI", "FERNANDES B. U/O 1.5 SOMMA TIRI TOTALI", "JOAO FELIX U/O 1.5 SOMMA TIRI TOTALI", "OYARZABAL M. U/O 1.5 SOMMA TIRI TOTALI", "PEDRI U/O 1.5 SOMMA TIRI TOTALI", "OLMO D. U/O 1.5 SOMMA TIRI TOTALI"],
   "stati-uniti-belgio": ["U/O 3.5 CORNER SQUADRA 1", "PULISIC C. U/O 1.5 SOMMA TIRI TOTALI", "BALOGUN F. U/O 1.5 SOMMA TIRI TOTALI", "DEST S. U/O 1.5 SOMMA TIRI TOTALI", "TILLMAN M. U/O 1.5 SOMMA TIRI TOTALI", "ADAMS T. U/O 0.5 SOMMA TIRI TOTALI", "DE KETELAERE C. U/O 1.5 SOMMA TIRI TOTALI", "TROSSARD L. U/O 1.5 SOMMA TIRI TOTALI"],
-  "argentina-egitto": ["SEGNA GOAL 1", "MESSI L. SEGNA O SUO SOSTITUTO", "ALVAREZ JULIAN U/O 3.5 SOMMA TIRI TOTALI", "SQUADRA 1: U/O 5.5 TIRI IN PORTA", "U/O 24.5 TIRI TOTALI"],
+  "argentina-egitto": ["SEGNA GOAL 1", "MESSI L. SEGNA O SUO SOSTITUTO", "MESSI L. U/O 1.5 SOMMA TIRI IN PORTA", "MESSI L. U/O 3.5 SOMMA TIRI TOTALI", "SQUADRA 1: U/O 5.5 TIRI IN PORTA", "U/O 24.5 TIRI TOTALI"],
   "svizzera-colombia": ["SEGNA GOAL SQUADRA OSPITE", "SEGNA GOAL 1", "SQUADRA 2: U/O 14.5 TIRI TOTALI", "U/O 4.5 CORNER SQUADRA 2", "SQUADRA 1: U/O 11.5 TIRI TOTALI", "U/O 3.5 CORNER SQUADRA 1", "JAMES RODRIGUEZ U/O 1.5 SOMMA TIRI TOTALI", "LUIS SUAREZ J. C. U/O 1.5 SOMMA TIRI TOTALI"],
   "francia-marocco": ["MBAPPE K. SEGNA O SUO SOSTITUTO", "MULTIGOAL MULTIESITI 16 ESITI", "1 TEMPO: SEGNA GOAL 1"],
 };
@@ -41,9 +41,9 @@ const verifiedQuoteErrors = {
     { label: "Charles De Ketelaere almeno 2 tiri in porta", includes: "DE KETELAERE C. U/O 1.5 SOMMA TIRI IN PORTA", selection: "OVER", probability: .24, reason: "Da riferimento offensivo ufficiale del Belgio mantiene una quota alta, pur con volume squadra ridotto." },
   ],
   "argentina-egitto": [
-    { label: "Julián Álvarez marcatore nel primo tempo", info: "ALVAREZ JULIAN MARCATORE 1T", selection: "SI", probability: .27, reason: "La probabile titolarità accanto a Messi aumenta profondità, minuti e presenza in area sopra il 24,39% implicito." },
+    { label: "Messi almeno 4 tiri in porta", includes: "MESSI L. U/O 3.5 SOMMA TIRI IN PORTA", selection: "OVER", probability: .29, reason: "Quota alta e scenario Messi-centrico: resta molto volatile, ma è più coerente dei tiri di Álvarez se il gioco passa sempre dal 10." },
     { label: "Argentina almeno 8 tiri in porta", info: "SQUADRA 1: U/O 7.5 TIRI IN PORTA", selection: "OVER", probability: .33, reason: "Possesso, territorio e qualità delle conclusioni portano la stima sopra il 30,77% implicito." },
-    { label: "Julián Álvarez almeno 6 tiri totali", includes: "ALVAREZ JULIAN U/O 5.5 SOMMA TIRI TOTALI", selection: "OVER", probability: .25, reason: "Da seconda punta mobile può accumulare conclusioni tra profondità, ribattute e sostituto incluso." },
+    { label: "Messi segna su rigore", info: "MESSI L. SEGNA SU RIGORE INC TS", selection: "SI", probability: .24, reason: "Messi resta rigorista e il dominio territoriale argentino può produrre area occupata e contatti; mercato comunque episodico." },
   ],
   "svizzera-colombia": [
     { label: "Breel Embolo almeno 4 tiri totali", includes: "EMBOLO B. U/O 3.5 SOMMA TIRI TOTALI", selection: "OVER", probability: .34, reason: "Il ruolo di riferimento offensivo porta la stima sopra il 30,77% implicito." },

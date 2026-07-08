@@ -49,8 +49,8 @@ const tournamentScorersAll = [
 ];
 
 const tournamentScorerActiveTeams = new Set([
-  "Argentina", "Belgio", "Colombia", "Egitto", "Francia", "Inghilterra",
-  "Marocco", "Norvegia", "Spagna", "Stati Uniti", "Svizzera",
+  "Argentina", "Belgio", "Francia", "Inghilterra",
+  "Marocco", "Norvegia", "Spagna", "Svizzera",
 ]);
 
 const tournamentScorers = tournamentScorersAll.filter((entry) =>
@@ -58,8 +58,8 @@ const tournamentScorers = tournamentScorersAll.filter((entry) =>
 );
 
 const tournamentScorersMeta = {
-  updated: "2026-07-07",
+  updated: "2026-07-08",
   source: "Diretta.it",
-  url: "https://www.diretta.it/partita/calcio/portogallo-WvJrjFVN/spagna-bLyo6mco/",
+  url: "https://www.diretta.it/partita/calcio/argentina-f9OppQjp/egitto-bejDn7NN/?mid=bodsDyte",
   scope: "Giocatori con almeno 2 gol",
 };

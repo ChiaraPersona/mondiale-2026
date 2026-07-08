@@ -1706,6 +1706,49 @@ const worldCupResults = {
       "La lettura prepartita viene ribaltata: non entrano 1X, Stati Uniti qualificati, Under 3,5 e No Goal.",
     ],
   },
+  95: {
+    status: "Finale",
+    home: 3,
+    away: 2,
+    winner: "Argentina",
+    source: "https://www.diretta.it/partita/calcio/argentina-f9OppQjp/egitto-bejDn7NN/?mid=bodsDyte",
+    sources: [
+      "https://www.diretta.it/partita/calcio/argentina-f9OppQjp/egitto-bejDn7NN/?mid=bodsDyte",
+      "https://www.theguardian.com/football/live/2026/jul/07/argentina-v-egypt-world-cup-2026-last-16-live",
+      "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/argentina-vs-egypt-fifa-world-cup-match-result-messi-inspires-three-goal-miracle-comeback-as-champions-march-into-quarter-finals/articleshow/132245850.cms",
+    ],
+    scorers: {
+      Argentina: ["Cristian Romero", "Lionel Messi", "Enzo Fernandez"],
+      Egitto: ["Yasser Ibrahim", "Ahmed Zizo"],
+    },
+    notes: [
+      "L'Argentina batte l'Egitto 3-2 e si qualifica ai quarti di finale.",
+      "L'Egitto va avanti 2-0 con Yasser Ibrahim e Zizo.",
+      "Romero apre la rimonta, Messi pareggia ed Enzo Fernandez completa il sorpasso nel recupero.",
+      "Pronostico positivo sul passaggio Argentina e sull'Over 1,5; persi risultato centrale 2-0, No Goal e Under 3,5.",
+    ],
+  },
+  96: {
+    status: "Finale dopo i rigori",
+    home: 0,
+    away: 0,
+    winner: "Svizzera",
+    penalties: { home: 4, away: 3 },
+    source: "https://www.diretta.it/partita/calcio/colombia-G02s4PCS/svizzera-rHJ2vy1B/?mid=EmgOlMbT",
+    sources: [
+      "https://www.diretta.it/partita/calcio/colombia-G02s4PCS/svizzera-rHJ2vy1B/?mid=EmgOlMbT",
+      "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/switzerland-end-72-year-world-cup-quarter-final-wait-with-dramatic-4-3-penalty-shootout-win-over-colombia-argentina-next/articleshow/132250908.cms",
+    ],
+    scorers: {
+      Svizzera: [],
+      Colombia: [],
+    },
+    notes: [
+      "Svizzera e Colombia chiudono 0-0 dopo 120 minuti.",
+      "La Svizzera vince 4-3 ai rigori e si qualifica ai quarti contro l'Argentina.",
+      "Pronostico misto: centrati Under 3,5 e X2 nei tempi di gioco; persi Colombia qualificata, Goal e Over 1,5.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

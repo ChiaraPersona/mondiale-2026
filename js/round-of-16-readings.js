@@ -208,6 +208,12 @@
       headline: "Le ufficiali confermano Paredes e Messi centrale: Argentina favorita, tiri di Álvarez da evitare.",
       deck: "L’Argentina ufficiale è da controllo: Paredes aiuta la gestione, Álvarez attacca la profondità accanto a Messi, ma il gioco tende a rendere il numero 10 motore e protagonista assoluto. L’Egitto passa al 4-4-2 con Salah e Zizo davanti: più compattezza, meno strappo puro senza Marmoush.",
       score: "2-0 Argentina", probabilities: ["72%", "18%", "10%"], labels: ["Argentina", "Pareggio", "Egitto"],
+      result: {
+        score: "Argentina 3-2 Egitto",
+        winner: "Argentina qualificata",
+        verdict: "Pronostico positivo, ma partita molto più caotica del previsto",
+        review: "L'Argentina passa 3-2 dopo essere andata sotto 0-2: Yasser Ibrahim e Zizo portano avanti l'Egitto, poi Romero, Messi ed Enzo Fernandez ribaltano tutto nel finale. Centrati Argentina qualificata, Argentina vincente e Over 1,5; saltano risultato centrale 2-0, No Goal e Under 3,5."
+      },
       sections: [
         ["La lettura della partita", "L’Argentina resta al 72% nei novanta minuti perché la linea Paredes-Enzo-Mac Allister-De Paul dà controllo e protezione preventiva. Álvarez, rispetto a una punta più statica, allunga la linea egiziana e libera ricezioni interne per Messi, ma non va trasformato automaticamente in un mercato tiri: quando l’Argentina deve decidere, tende a far passare ritmo, ultimo passaggio e conclusione dal suo numero 10. L’Egitto non è innocuo: Salah da punta e Zizo vicino possono trasformare un recupero in una conclusione rapida, ma l’assenza di Marmoush riduce la minaccia di campo aperto puro."],
         ["La chiave tattica", "Molina e Tagliafico devono accompagnare senza aprire corridoi alle spalle: il lato di Salah resta la zona più delicata anche nel 4-4-2. Paredes può rallentare il ritmo quando il caldo pesa, mentre Mac Allister ed Enzo Fernández muovono il blocco fino a trovare Messi tra le linee. Per l’Egitto Marwan Attia e Mohamed Lasheen devono schermare Messi, ma se si abbassano troppo lasciano Álvarez libero di attaccare area e seconde palle."],
@@ -222,6 +228,12 @@
       headline: "Jaashari dà ordine alla Svizzera: Colombia avanti per talento, ma il pareggio resta molto vivo.",
       deck: "La Colombia conserva più talento nell’ultimo terzo con Luis Díaz, Luis Suárez e James Rodríguez. La Svizzera ufficiale è meno verticale senza Okafor dall’inizio, ma più ordinata: Jaashari tra le linee, Rieder e Ndoye ai lati di Embolo tengono aperto il rischio Goal.",
       score: "1-1", probabilities: ["29%", "32%", "39%"], labels: ["Svizzera", "Pareggio", "Colombia"],
+      result: {
+        score: "Colombia 0-0 Svizzera, 3-4 ai rigori",
+        winner: "Svizzera qualificata",
+        verdict: "Pronostico misto",
+        review: "La partita resta bloccata sullo 0-0 per 120 minuti e la Svizzera passa 4-3 ai rigori. Centrati Under 3,5 e X2 nei tempi di gioco; non entrano Colombia qualificata, Goal, Over 1,5 e la proiezione di passaggio turno colombiano."
+      },
       sections: [
         ["La lettura della partita", "Le ufficiali portano la Colombia al 39% nei novanta minuti, con pareggio al 32% e Svizzera al 29%. L’assenza di Okafor dall’undici toglie un po’ di strappo puro alla Svizzera, ma Jaashari aumenta ordine e raccordo tra Xhaka/Freuler ed Embolo. Il passaggio turno continua a pendere verso la Colombia per talento offensivo e qualità nei calciatori decisivi, senza cancellare la possibilità di un 1-1 lungo."],
         ["La chiave tattica", "Zakaria e Ricardo Rodríguez devono reggere ampiezza e diagonali contro Luis Díaz e James, mentre Xhaka prova a evitare che Lerma e Puerta trasformino la partita in duelli continui. Jaashari può ricevere alle spalle del primo centrocampo colombiano e collegare Rieder, Ndoye ed Embolo; dall’altra parte Luis Suárez fissa i centrali e libera corridoi per Díaz. Se la Colombia alza Arias e Puerta insieme, la Svizzera può trovare campo alle spalle."],

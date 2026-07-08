@@ -2,7 +2,7 @@
   "slug": "svizzera-colombia",
   "match": "Svizzera - Colombia",
   "date": "07/07/2026 ore 22.00",
-  "status": "scheduled",
+  "status": "final",
   "prediction": {
     "probabilities90Minutes": {
       "home": 29,
@@ -385,5 +385,10 @@
       }
     ],
     "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."
+  },
+  "result": {
+    "score": "Colombia 0-0 Svizzera, 3-4 ai rigori",
+    "winner": "Svizzera qualificata",
+    "review": "La gara resta 0-0 dopo 120 minuti; la Svizzera passa 4-3 ai rigori. Centrati Under 3,5 e X2 nei tempi di gioco; persi Colombia qualificata, Goal e Over 1,5."
   }
 }

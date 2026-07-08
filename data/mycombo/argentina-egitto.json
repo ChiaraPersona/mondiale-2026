@@ -2,7 +2,7 @@
   "slug": "argentina-egitto",
   "match": "Argentina - Egitto",
   "date": "07/07/2026 ore 18.00",
-  "status": "scheduled",
+  "status": "final",
   "prediction": {
     "probabilities90Minutes": {
       "home": 72,
@@ -357,5 +357,10 @@
       }
     ],
     "disclaimer": "Un disallineamento non garantisce la vincita. I mercati giocatore hanno varianza elevata e dipendono dalla conferma delle formazioni."
+  },
+  "result": {
+    "score": "Argentina 3-2 Egitto",
+    "winner": "Argentina qualificata",
+    "review": "Argentina sotto 0-2, poi rimonta con Romero, Messi ed Enzo Fernandez. Centrati Argentina qualificata, Argentina vincente e Over 1,5; persi risultato 2-0, No Goal e Under 3,5."
   }
 }

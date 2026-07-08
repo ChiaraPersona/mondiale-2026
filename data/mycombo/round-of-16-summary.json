@@ -409,7 +409,11 @@
           "selectionId": "5208819318",
           "marketId": "791580363"
         }
-      ]
+      ],
+      "status": "final",
+      "result": "Argentina 3-2 Egitto",
+      "winner": "Argentina qualificata",
+      "review": "Argentina sotto 0-2, poi rimonta con Romero, Messi ed Enzo Fernandez. Centrati Argentina qualificata, Argentina vincente e Over 1,5; persi risultato 2-0, No Goal e Under 3,5."
     },
     {
       "slug": "svizzera-colombia",
@@ -489,7 +493,11 @@
           "selectionId": "5207023671",
           "marketId": "791256637"
         }
-      ]
+      ],
+      "status": "final",
+      "result": "Colombia 0-0 Svizzera, 3-4 ai rigori",
+      "winner": "Svizzera qualificata",
+      "review": "La gara resta 0-0 dopo 120 minuti; la Svizzera passa 4-3 ai rigori. Centrati Under 3,5 e X2 nei tempi di gioco; persi Colombia qualificata, Goal e Over 1,5."
     },
     {
       "slug": "francia-marocco",

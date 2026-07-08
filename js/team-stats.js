@@ -140,6 +140,56 @@ function withDerivedPlayerMetrics(player) {
   };
 }
 
+function sumNullablePlayerField(rows, field) {
+  let hasValue = false;
+  const total = rows.reduce((sum, row) => {
+    const value = Number(row[field]);
+    if (!Number.isFinite(value)) return sum;
+    hasValue = true;
+    return sum + value;
+  }, 0);
+  return hasValue ? total : null;
+}
+
+function aggregatePlayerRows(rows) {
+  const grouped = rows.reduce((groups, row) => {
+    const key = row.name || "Giocatore da inserire";
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(row);
+    return groups;
+  }, new Map());
+
+  const sumFields = [
+    "minutes",
+    "shots",
+    "shotsOnTarget",
+    "goals",
+    "assists",
+    "foulsCommitted",
+    "foulsWon",
+    "yellowCards",
+    "redCards"
+  ];
+
+  return [...grouped.entries()].map(([name, playerRows]) => {
+    const base = playerRows.find((row) => Number(row.minutes) > 0) || playerRows[0] || {};
+    const aggregated = {
+      ...base,
+      name,
+      match: "Tutte le partite",
+      matchesCount: playerRows.length,
+      starter: null,
+      contextNote: `Totale su ${playerRows.length} partite; dati reali aggregati per calciatore.`
+    };
+
+    sumFields.forEach((field) => {
+      aggregated[field] = sumNullablePlayerField(playerRows, field);
+    });
+
+    return withDerivedPlayerMetrics(aggregated);
+  });
+}
+
 async function loadMatchContextData() {
   try {
     const response = await fetch(matchContextSource, { cache: "no-store" });
@@ -308,6 +358,7 @@ function playerMetricValue(row, metric) {
 function renderPlayerFilterControls(team, rows) {
   const matchOptions = [...new Set((team.playerMatches || []).map((match) => match.match).filter(Boolean))];
   const linkedSources = [...new Set((team.playerMatches || []).map((match) => match.normalizedSource).filter(Boolean))];
+  const rowsLabel = teamStatsPlayerFilters.match === "all" ? "calciatori aggregati" : "righe partita-calciatore";
   const roleOptions = [
     ["attackers", "Attaccanti / esterni offensivi"],
     ["midfielders", "Centrocampisti"],
@@ -344,7 +395,7 @@ function renderPlayerFilterControls(team, rows) {
         </select>
       </label>
       ${linkedSources.length ? `<strong>JSON collegati: ${linkedSources.map(escapeTeamStats).join(" · ")}</strong>` : ""}
-      <strong>${escapeTeamStats(rows.length)} righe partita-calciatore</strong>
+      <strong>${escapeTeamStats(rows.length)} ${escapeTeamStats(rowsLabel)}</strong>
     </div>
   `;
 }
@@ -524,6 +575,8 @@ function renderPlayersPanel(team) {
 
   if (teamStatsPlayerFilters.match !== "all") {
     rows = rows.filter((row) => row.match === teamStatsPlayerFilters.match);
+  } else {
+    rows = aggregatePlayerRows(rows);
   }
 
   rows = rows.sort((a, b) => {

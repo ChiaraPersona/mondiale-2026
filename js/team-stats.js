@@ -327,7 +327,7 @@ function renderPlayerContextBoxes(team) {
     "Per i mercati tiri e tiri in porta, dare priorità a minuti previsti, posizione in campo, avversario affrontato e probabilità che la squadra debba attaccare."
   ];
 
-  if (team.playerMatches?.some((match) => match.provider === "ESPN")) {
+  if (team.playerStatsMeta?.primarySource === "ESPN" || team.playerMatches?.some((match) => match.provider === "ESPN")) {
     notes = [
       ...notes,
       "Fonte player stats: ESPN. Per questa partita sono disponibili tiri, tiri in porta, gol, assist, falli commessi, falli subiti e cartellini. Minuti, xG, xA, tocchi, passaggi, duelli e rating non sono disponibili da ESPN e restano null."

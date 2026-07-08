@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Come funziona il sito Mondiale 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="project-doc-page">
+  <header>
+    <div class="topbar project-doc-topbar">
+      <img class="site-emblem" src="assets/world-cup-2026-logo.png" alt="FIFA World Cup 2026">
+      <div>
+        <h1>Come funziona il sito Mondiale 2026</h1>
+        <p class="sub">Documentazione interna della struttura attuale: pagine, dati, JavaScript e pipeline operative.</p>
+      </div>
+    </div>
+
+    <nav class="page-links" aria-label="Sezioni">
+      <a class="page-link" href="index.html">Home</a>
+      <a class="page-link" href="player.html">Player</a>
+      <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
+      <a class="page-link" href="arbitri.html">Arbitri</a>
+      <div class="nav-dropdown">
+        <span class="page-link nav-dropdown-toggle">Pronostico <span class="nav-caret">&#9662;</span></span>
+        <div class="nav-dropdown-menu">
+          <a class="page-link" href="pronostico-codex.html">Pronostico Codex</a>
+          <a class="page-link" href="lettura.html">Lettura</a>
+        </div>
+      </div>
+      <a class="page-link" href="storia.html">Storia</a>
+      <a class="page-link" href="laboratorio-ai.html">Laboratorio AI</a>
+      <a class="page-link active" href="documentazione-progetto.html">Documentazione</a>
+      <a class="page-link utility-link" href="metodo-fonti.html">Metodo e fonti</a>
+    </nav>
+  </header>
+
+  <main class="project-doc-main">
+    <section class="project-doc-hero">
+      <div>
+        <span>Dev / Documentazione</span>
+        <h2>Vista unica dello stato del progetto</h2>
+        <p>Questa pagina fotografa la struttura attuale del sito. Serve per orientarsi prima di cambiare dati, pipeline o pagine: non esegue script, non modifica file e non sostituisce le pipeline esistenti.</p>
+      </div>
+      <aside>
+        <strong>Regola pratica</strong>
+        <p>Prima di eliminare qualcosa, verificare sempre se e' usato da una pagina HTML, da uno script di generazione o da una pipeline intermedia.</p>
+      </aside>
+    </section>
+
+    <nav class="project-doc-index" aria-label="Indice documentazione">
+      <a href="#mappa-pagine">Mappa pagine</a>
+      <a href="#mappa-js">Mappa JS</a>
+      <a href="#mappa-dati">Mappa dati</a>
+      <a href="#pipeline">Pipeline</a>
+      <a href="#da-verificare">Da verificare</a>
+      <a href="#prossimi-passi">Prossimi passi</a>
+    </nav>
+
+    <section id="mappa-pagine" class="project-doc-section">
+      <header>
+        <span>1</span>
+        <h2>Mappa delle pagine</h2>
+      </header>
+
+      <div class="project-doc-table-wrap">
+        <table class="project-doc-table">
+          <thead>
+            <tr>
+              <th>Pagina</th>
+              <th>Funzione</th>
+              <th>Script principali</th>
+              <th>Stato</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><code>index.html</code></td><td>Homepage e snodo verso le sezioni principali.</td><td><code>js/nav.js</code></td><td>Attiva</td></tr>
+            <tr><td><code>player.html</code></td><td>Ranking calciatori, ricerca e lettura dei dati player aggregati.</td><td><code>data/active/data.js</code>, <code>data/active/stats.js</code>, <code>js/player.js</code>, <code>js/card-risk.js</code></td><td>Attiva</td></tr>
+            <tr><td><code>statistiche-squadre.html</code></td><td>Pagina unica riutilizzabile per statistiche squadra, calciatori, contesto partite e stime.</td><td><code>data/active/team-stats-data.js</code>, <code>js/team-stats.js</code></td><td>Attiva</td></tr>
+            <tr><td><code>arbitri.html</code></td><td>Consultazione arbitri e fonti ufficiali.</td><td><code>js/referees.js</code></td><td>Attiva</td></tr>
+            <tr><td><code>pronostico-codex.html</code></td><td>Tabellone, simulazioni, letture squadra e previsione del torneo.</td><td><code>js/pronostico-codex.js</code> piu' dataset squadra, fixture, risultati e letture.</td><td>Attiva</td></tr>
+            <tr><td><code>lettura.html</code></td><td>Indice delle letture partita e collegamento ai report in <code>letture/</code>.</td><td><code>js/nav.js</code>; carica <code>js/mycombo-export.js</code> in modo lazy sulle pagine lettura.</td><td>Attiva</td></tr>
+            <tr><td><code>letture/*.html</code></td><td>Pagine editoriali partita per partita, spesso collegate a MyCombo e report pronostico.</td><td><code>js/nav.js</code>, talvolta <code>js/mycombo-export.js</code> via lazy loader.</td><td>Generate / editoriali</td></tr>
+            <tr><td><code>storia.html</code></td><td>Contenuti storici, albo d'oro e record del Mondiale.</td><td><code>js/nav.js</code></td><td>Attiva</td></tr>
+            <tr><td><code>metodo-fonti.html</code></td><td>Metodo, fonti, limiti dei dati e note di trasparenza.</td><td><code>js/nav.js</code></td><td>Attiva</td></tr>
+            <tr><td><code>laboratorio-ai.html</code></td><td>Area tecnica interna per esplorare i JSON quote in <code>data/quote/</code>.</td><td><code>js/laboratorio-ai.js</code></td><td>Dev / interna</td></tr>
+            <tr><td><code>schedina.html</code></td><td>Pagina storica per una versione precedente del pronostico/schedina.</td><td>Dataset <code>data/active</code> + <code>js/pronostico-codex.js</code></td><td>Da verificare</td></tr>
+            <tr><td><code>tipster.html</code></td><td>Raccolta tipster/link/immagini esterne.</td><td><code>js/nav.js</code></td><td>Separata, da verificare se ancora nel flusso principale</td></tr>
+            <tr><td><code>documentazione-progetto.html</code></td><td>Questa documentazione interna.</td><td><code>js/nav.js</code></td><td>Nuova</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="mappa-js" class="project-doc-section">
+      <header>
+        <span>2</span>
+        <h2>Mappa dei file JS</h2>
+      </header>
+
+      <div class="project-doc-grid">
+        <article>
+          <h3>Frontend principali</h3>
+          <ul>
+            <li><code>js/nav.js</code>: aggiunge link comuni, mobile menu, dropdown e lazy load MyCombo sulle letture. Alimenta quasi tutte le pagine.</li>
+            <li><code>js/player.js</code>: costruisce ranking giocatori leggendo <code>rows</code>, <code>playerStats</code> e dati rischio cartellini.</li>
+            <li><code>js/team-stats.js</code>: pagina statistiche squadra; legge <code>data/active/team-stats-data.js</code> e il JSON merged player-stats.</li>
+            <li><code>js/pronostico-codex.js</code>: logica tabellone, simulazione, carte squadra e viste del pronostico.</li>
+            <li><code>js/laboratorio-ai.js</code>: carica e visualizza i file quote JSON in laboratorio.</li>
+            <li><code>js/mycombo-export.js</code>: arricchisce le letture partita con dati MyCombo da <code>data/mycombo/</code>.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Dataset JS attivi</h3>
+          <ul>
+            <li><code>data/active/data.js</code>: rose/squadre attive usate da <code>player.html</code> e <code>schedina.html</code>.</li>
+            <li><code>data/active/stats.js</code>: statistiche aggregate giocatori per ranking.</li>
+            <li><code>data/active/team-stats-data.js</code>: dati base della pagina statistiche squadra.</li>
+            <li><code>data/active/card-risk-data.js</code>: dati rischio cartellini per pagina player.</li>
+            <li><code>data/active/formations.js</code>, <code>penalty-takers.js</code>, <code>team-insights.js</code>, <code>fifa-rankings.js</code>: supporto pronostico/schedina.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Dataset JS legacy o paralleli</h3>
+          <ul>
+            <li><code>js/data.js</code>, <code>js/stats.js</code>, <code>js/team-stats-data.js</code>: ancora caricati da <code>pronostico-codex.html</code>; sembrano paralleli ai bundle in <code>data/active/</code>.</li>
+            <li><code>js/formations.js</code>, <code>js/formations-insights.js</code>, <code>js/penalty-takers.js</code>, <code>js/team-insights.js</code>, <code>js/fifa-rankings.js</code>: usati dal pronostico principale.</li>
+            <li><code>js/worldcup-fixtures.js</code>, <code>js/worldcup-results.js</code>, <code>js/tournament-scorers.js</code>, <code>js/reading-predictions.js</code>, <code>js/psychological-factors.js</code>: alimentano scenario torneo e letture.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>File JS meno centrali</h3>
+          <ul>
+            <li><code>js/referees.js</code>: pagina arbitri.</li>
+            <li><code>js/captains.js</code>, <code>js/card-risk-data.js</code>, <code>js/final-mycombo-data.js</code>, <code>js/reading-surprise.js</code>, <code>js/round-of-16-readings.js</code>: da verificare per uso effettivo nelle pagine attuali.</li>
+            <li><code>js/tournament-scorers.js</code>: caricato dal pronostico per capocannonieri/torneo.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="mappa-dati" class="project-doc-section">
+      <header>
+        <span>3</span>
+        <h2>Mappa dei dati</h2>
+      </header>
+
+      <div class="project-doc-table-wrap">
+        <table class="project-doc-table">
+          <thead>
+            <tr><th>Cartella / file</th><th>Contenuto</th><th>Uso reale rilevato</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><code>data/active/</code></td><td>Bundle JS attivi per squadre ancora in gioco.</td><td><code>player.html</code>, <code>statistiche-squadre.html</code>, <code>schedina.html</code>.</td><td>README indica che il frontend dovrebbe preferire questi file ai dataset completi in <code>js/</code>.</td></tr>
+            <tr><td><code>data/player-stats/merged/</code></td><td>JSON finale fuso tra provider.</td><td><code>js/team-stats.js</code> usa <code>portugal-spain-2026-07-06.json</code>.</td><td>File chiave per statistiche calciatori.</td></tr>
+            <tr><td><code>data/player-stats/raw/</code></td><td>Raw ESPN, SofaScore, FotMob, WhoScored.</td><td>Input della pipeline player-stats.</td><td>Contiene anche raw vecchi nella root <code>raw/</code>, da verificare.</td></tr>
+            <tr><td><code>data/player-stats/debug/</code></td><td>HTML, JSON e log utili per debug scraping.</td><td>Solo debug pipeline.</td><td>Non dovrebbe essere letto dal frontend.</td></tr>
+            <tr><td><code>data/player-stats/normalized/</code></td><td>Output normalizzato della pipeline precedente.</td><td>Non collegato alla pagina dopo passaggio a <code>merged/</code>.</td><td>Possibile storico o fallback.</td></tr>
+            <tr><td><code>data/quote/</code></td><td>Quote partita in formato laboratorio/MyCombo.</td><td><code>laboratorio-ai.js</code> e script MyCombo.</td><td>Usati davvero dal laboratorio e da pipeline quote.</td></tr>
+            <tr><td><code>data/providers/</code></td><td>Input provider per quote, forma, assenze, motivazione, tattica, arbitro, meteo, rischi.</td><td>Pipeline quote/intelligence/confidence.</td><td>Non letto direttamente dal frontend.</td></tr>
+            <tr><td><code>data/events/</code></td><td>Eventi generati da quote provider.</td><td>Input pipeline successive.</td><td>Intermedio.</td></tr>
+            <tr><td><code>data/intelligence/</code>, <code>data/scoring/</code>, <code>data/confidence/</code>, <code>data/probability/</code>, <code>data/value/</code></td><td>Stadi progressivi della pipeline quote/Sisal.</td><td>Input per ranking e portfolio.</td><td>Cartelle intermedie.</td></tr>
+            <tr><td><code>data/ranking/</code></td><td>Eventi ordinati/classificati, inclusi file <code>*-ranking-events.json</code>.</td><td>Pipeline MyCombo e pubblicazione.</td><td>Alcuni file sembrano duplicati con e senza suffisso ranking.</td></tr>
+            <tr><td><code>data/top-events/</code></td><td>Top eventi pubblici per match.</td><td>Usati da output MyCombo/letture.</td><td>Generati da pipeline MVP.</td></tr>
+            <tr><td><code>data/portfolio/</code></td><td>Portfoli e portfoli ottimizzati pubblici.</td><td>Usati da MyCombo/letture.</td><td>Output pubblicato da <code>publish-mycombo-pipeline.js</code>.</td></tr>
+            <tr><td><code>data/mycombo/</code></td><td>JSON finali MyCombo per pagina lettura.</td><td><code>js/mycombo-export.js</code>.</td><td>Collegamento frontend piu' diretto per MyCombo.</td></tr>
+            <tr><td><code>data/mvp/</code></td><td>Output per singola partita: top-events, ranking, portfolio.</td><td>Input di pubblicazione verso cartelle pubbliche.</td><td>Intermedio importante.</td></tr>
+            <tr><td><code>data/archive/</code></td><td>Dati squadre e giocatori eliminati.</td><td>Generato da archiviazione.</td><td>Non frontend diretto.</td></tr>
+            <tr><td><code>data/backtesting/</code></td><td>Dashboard e storico backtesting.</td><td>Script backtesting.</td><td>Da collegare o mantenere come tool interno.</td></tr>
+            <tr><td><code>data/stats.csv</code></td><td>CSV sorgente importabile in <code>js/stats.js</code>.</td><td><code>scripts/update-stats-from-csv.js</code>.</td><td>Input manuale/import.</td></tr>
+            <tr><td><code>data/codex-plus-bracket.json</code></td><td>Export tabellone.</td><td>Generato da script export/render.</td><td>Da verificare se usato dal frontend.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="pipeline" class="project-doc-section">
+      <header>
+        <span>4</span>
+        <h2>Pipeline esistenti</h2>
+      </header>
+
+      <div class="project-doc-pipeline-list">
+        <article>
+          <h3>Sisal / quote</h3>
+          <p>Trasforma dati quote provider in eventi arricchiti, punteggiati e confrontabili.</p>
+          <dl>
+            <div><dt>Comandi</dt><dd><code>node scripts/quote-engine.js FILE.json</code>, poi <code>football-intelligence-engine</code>, <code>event-scoring-engine</code>, <code>confidence-engine</code>, <code>probability-engine</code>, <code>value-engine</code>, <code>ranking-engine</code>.</dd></div>
+            <div><dt>Input</dt><dd><code>data/providers/quote/</code> e cartelle provider parallele.</dd></div>
+            <div><dt>Output</dt><dd><code>data/events/</code>, <code>data/intelligence/</code>, <code>data/scoring/</code>, <code>data/confidence/</code>, <code>data/probability/</code>, <code>data/value/</code>, <code>data/ranking/</code>.</dd></div>
+            <div><dt>Pagina</dt><dd>Usata indirettamente da laboratorio, MyCombo e letture.</dd></div>
+          </dl>
+        </article>
+
+        <article>
+          <h3>top-events</h3>
+          <p>Estrae gli eventi migliori per una partita e li prepara per pubblicazione.</p>
+          <dl>
+            <div><dt>Comando</dt><dd><code>node scripts/build-top-events-mvp.js SLUG</code></dd></div>
+            <div><dt>Input</dt><dd><code>data/quote/</code> e regole interne nello script.</dd></div>
+            <div><dt>Output</dt><dd><code>data/mvp/SLUG/top-events.json</code> e, dopo publish, <code>data/top-events/SLUG-top-events.json</code>.</dd></div>
+            <div><dt>Pagina</dt><dd>Letture e MyCombo, quando il file e' pubblicato.</dd></div>
+          </dl>
+        </article>
+
+        <article>
+          <h3>ranking</h3>
+          <p>Classifica gli eventi value e aggiunge metadati di mercato.</p>
+          <dl>
+            <div><dt>Comando</dt><dd><code>node scripts/ranking-engine.js FILE-events.json</code></dd></div>
+            <div><dt>Input</dt><dd><code>data/value/</code>.</dd></div>
+            <div><dt>Output</dt><dd><code>data/ranking/</code> e <code>data/mvp/SLUG/ranking-events.json</code> nelle pipeline MVP.</dd></div>
+            <div><dt>Pagina</dt><dd>MyCombo/letture tramite output pubblicati.</dd></div>
+          </dl>
+        </article>
+
+        <article>
+          <h3>portfolio</h3>
+          <p>Costruisce combinazioni Safe, Balanced e Aggressive e poi le ottimizza.</p>
+          <dl>
+            <div><dt>Comandi</dt><dd><code>node scripts/portfolio-builder.js SLUG</code>, <code>node scripts/portfolio-optimizer.js SLUG</code></dd></div>
+            <div><dt>Input</dt><dd><code>data/mvp/SLUG/ranking-events.json</code> e modelli rischio/correlazione.</dd></div>
+            <div><dt>Output</dt><dd><code>data/mvp/SLUG/portfolios.json</code>, <code>portfolio-optimized.json</code>, poi <code>data/portfolio/</code>.</dd></div>
+            <div><dt>Pagina</dt><dd>Letture partita e MyCombo export.</dd></div>
+          </dl>
+        </article>
+
+        <article>
+          <h3>MyCombo</h3>
+          <p>Produce JSON consultabili dalle letture e sincronizza gli output pubblici.</p>
+          <dl>
+            <div><dt>Comandi</dt><dd><code>node scripts/generate-round-of-16-mycombo.js SLUG</code>, <code>node scripts/generate-daily-mycombo.js SLUG</code>, <code>node scripts/publish-mycombo-pipeline.js SLUG</code></dd></div>
+            <div><dt>Input</dt><dd><code>data/quote/</code>, <code>data/mvp/</code>, ranking e portfolio.</dd></div>
+            <div><dt>Output</dt><dd><code>data/mycombo/SLUG.json</code>, <code>round-of-16-summary.json</code>, cartelle pubbliche <code>top-events</code>, <code>ranking</code>, <code>portfolio</code>.</dd></div>
+            <div><dt>Pagina</dt><dd><code>lettura.html</code> e <code>letture/*.html</code> tramite <code>js/mycombo-export.js</code>.</dd></div>
+          </dl>
+        </article>
+
+        <article>
+          <h3>player-stats</h3>
+          <p>Scraping multi-provider dei dati player-by-player e merge finale con source per campo.</p>
+          <dl>
+            <div><dt>Comando completo</dt><dd><code>node scripts/player-stats/run-match.js --match MATCH_ID --espn URL --sofascore URL --fotmob URL --whoscored URL --playwright</code></dd></div>
+            <div><dt>Comandi singoli</dt><dd><code>scrape-espn.js</code>, <code>scrape-sofascore.js</code>, <code>scrape-fotmob.js</code>, <code>scrape-whoscored.js</code>, <code>merge-player-stats.js --match MATCH_ID</code>.</dd></div>
+            <div><dt>Input</dt><dd>URL provider e raw in <code>data/player-stats/raw/PROVIDER/</code>.</dd></div>
+            <div><dt>Output</dt><dd><code>data/player-stats/merged/MATCH_ID.json</code>, raw provider, HTML/JSON debug.</dd></div>
+            <div><dt>Pagina</dt><dd><code>statistiche-squadre.html</code> tramite <code>js/team-stats.js</code>.</dd></div>
+          </dl>
+        </article>
+
+        <article>
+          <h3>statistiche squadra</h3>
+          <p>Unisce dati squadra statici e player stats merged in una sola pagina riutilizzabile.</p>
+          <dl>
+            <div><dt>Comando</dt><dd>Nessun comando dedicato: rendering frontend.</dd></div>
+            <div><dt>Input</dt><dd><code>data/active/team-stats-data.js</code> e <code>data/player-stats/merged/portugal-spain-2026-07-06.json</code>.</dd></div>
+            <div><dt>Output</dt><dd>Tab statistiche squadra, calciatori, contesto e stime; metriche derivate per 90 minuti e classifiche automatiche.</dd></div>
+            <div><dt>Pagina</dt><dd><code>statistiche-squadre.html</code>.</dd></div>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section id="da-verificare" class="project-doc-section project-doc-warning">
+      <header>
+        <span>5</span>
+        <h2>Possibili file o funzioni da eliminare</h2>
+      </header>
+      <p>Questa lista non implica cancellazione immediata. Sono solo elementi che sembrano duplicati, vecchi fallback o non collegati in modo evidente.</p>
+      <ul>
+        <li><code>scripts/stats/</code>: prima pipeline player-stats; ora esiste anche <code>scripts/player-stats/</code> piu' professionale.</li>
+        <li><code>data/player-stats/normalized/</code> e raw root tipo <code>data/player-stats/raw/portugal-spain-2026-07-06.*.json</code>: sembrano output della pipeline precedente.</li>
+        <li><code>schedina.html</code>: usa ancora una combinazione vecchia di dataset active e <code>js/pronostico-codex.js</code>.</li>
+        <li><code>tipster.html</code>: pagina separata, non presente nella navigazione principale come voce dedicata.</li>
+        <li><code>js/data.js</code>, <code>js/stats.js</code> e analoghi in <code>data/active/</code>: duplicazione potenziale tra dataset completi e attivi.</li>
+        <li><code>data/ranking/*-events.json</code> e <code>*-ranking-events.json</code>: verificare se sono entrambi necessari.</li>
+        <li><code>js/final-mycombo-data.js</code>, <code>js/reading-surprise.js</code>, <code>js/round-of-16-readings.js</code>, <code>js/captains.js</code>: controllare se sono ancora richiamati da pagine attive.</li>
+        <li>Dati hardcoded in <code>scripts/build-top-events-mvp.js</code>, <code>scripts/generate-round-of-16-mycombo.js</code> e <code>js/pronostico-codex.js</code>: utili ora, ma candidati a configurazione JSON in futuro.</li>
+        <li><code>data/archive/</code>: da tenere se serve storico; da escludere da flussi frontend attivi.</li>
+      </ul>
+    </section>
+
+    <section id="prossimi-passi" class="project-doc-section">
+      <header>
+        <span>6</span>
+        <h2>Prossimi passi consigliati</h2>
+      </header>
+
+      <div class="project-doc-grid project-doc-next-grid">
+        <article>
+          <h3>Tenere</h3>
+          <ul>
+            <li><code>statistiche-squadre.html</code> come pagina unica riutilizzabile.</li>
+            <li><code>scripts/player-stats/</code> come pipeline principale player-by-player.</li>
+            <li><code>data/player-stats/merged/</code> come sorgente finale per il frontend.</li>
+            <li><code>data/active/</code> per i bundle frontend delle squadre ancora in gioco.</li>
+            <li><code>data/mycombo/</code>, <code>data/top-events/</code>, <code>data/portfolio/</code> come output pubblici.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Unificare</h3>
+          <ul>
+            <li>Dataset duplicati tra <code>js/</code> e <code>data/active/</code>.</li>
+            <li>Le due pipeline player-stats in <code>scripts/stats/</code> e <code>scripts/player-stats/</code>.</li>
+            <li>I file ranking con naming diverso.</li>
+            <li>Le regole hardcoded delle pipeline quote/MyCombo in file JSON di configurazione.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Eliminare dopo verifica</h3>
+          <ul>
+            <li>Fallback raw/normalized della vecchia pipeline se non servono piu'.</li>
+            <li>Pagine non linkate o obsolete, solo dopo controllo manuale.</li>
+            <li>Script JS non importati da nessuna pagina e non usati da pipeline.</li>
+            <li>Output intermedi duplicati, mantenendo prima un archivio o backup.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Documentazione interna del progetto Mondiale 2026. Aggiornare questa pagina quando cambiano dati, pipeline o pagine principali.
+  </footer>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>

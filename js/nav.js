@@ -12,6 +12,17 @@ document.querySelectorAll(".page-links").forEach((nav) => {
   nav.insertBefore(link, utilityLink || null);
 });
 
+document.querySelectorAll(".page-links").forEach((nav) => {
+  if (nav.querySelector('a[href="documentazione-progetto.html"]')) return;
+  const utilityLink = nav.querySelector(".utility-link");
+  const link = document.createElement("a");
+  link.className = "page-link";
+  link.href = "documentazione-progetto.html";
+  link.textContent = "Documentazione";
+  if (document.body.classList.contains("project-doc-page")) link.classList.add("active");
+  nav.insertBefore(link, utilityLink || null);
+});
+
 if (readingPage && !storyReadingPage && !document.querySelector('script[data-mycombo-export]')) {
   const loadMyComboViewer = () => {
     if (document.querySelector('script[data-mycombo-export]')) return;
@@ -47,6 +58,7 @@ if (readingPage && !document.querySelector(".page-links")) {
         </div>
         <a class="page-link" href="storia.html">Storia</a>
         <a class="page-link" href="laboratorio-ai.html">Laboratorio AI</a>
+        <a class="page-link" href="documentazione-progetto.html">Documentazione</a>
         <a class="page-link utility-link" href="metodo-fonti.html">Metodo e fonti</a>
       </nav>
     `);

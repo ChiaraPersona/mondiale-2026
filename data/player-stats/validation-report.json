@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-08T23:38:49.238Z",
+  "generatedAt": "2026-07-08T23:52:08.101Z",
   "summary": {
-    "filesChecked": 5,
+    "filesChecked": 15,
     "errors": 0,
     "warnings": 0,
     "suspiciousPlayers": 0,
@@ -9,9 +9,119 @@
   },
   "files": [
     {
+      "file": "brazil-morocco-2026-06-13.json",
+      "matchId": "brazil-morocco-2026-06-13",
+      "match": "Brazil 1-1 Morocco",
+      "provider": "Merged",
+      "completion": 36.6,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "canada-morocco-2026-07-04.json",
+      "matchId": "canada-morocco-2026-07-04",
+      "match": "Canada 0-3 Morocco",
+      "provider": "Merged",
+      "completion": 36.5,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "france-iraq-2026-06-22.json",
+      "matchId": "france-iraq-2026-06-22",
+      "match": "France 3-0 Iraq",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "france-senegal-2026-06-16.json",
+      "matchId": "france-senegal-2026-06-16",
+      "match": "France 3-1 Senegal",
+      "provider": "Merged",
+      "completion": 36.1,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "france-sweden-2026-06-30.json",
+      "matchId": "france-sweden-2026-06-30",
+      "match": "France 3-0 Sweden",
+      "provider": "Merged",
+      "completion": 36.5,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "morocco-haiti-2026-06-24.json",
+      "matchId": "morocco-haiti-2026-06-24",
+      "match": "Morocco 4-2 Haiti",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "netherlands-morocco-2026-06-29.json",
+      "matchId": "netherlands-morocco-2026-06-29",
+      "match": "Netherlands 1-1 Morocco",
+      "provider": "Merged",
+      "completion": 36.5,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "norway-france-2026-06-26.json",
+      "matchId": "norway-france-2026-06-26",
+      "match": "Norway 1-4 France",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "paraguay-france-2026-07-04.json",
+      "matchId": "paraguay-france-2026-07-04",
+      "match": "Paraguay 0-1 France",
+      "provider": "Merged",
+      "completion": 36,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
       "file": "portugal-spain-2026-07-06.json",
       "matchId": "portugal-spain-2026-07-06",
       "match": "Portugal 0-1 Spain",
+      "provider": "Merged",
+      "completion": 36.3,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "scotland-morocco-2026-06-19.json",
+      "matchId": "scotland-morocco-2026-06-19",
+      "match": "Scotland 0-1 Morocco",
       "provider": "Merged",
       "completion": 36.3,
       "errors": [],

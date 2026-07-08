@@ -1,0 +1,10 @@
+{
+  "provider": "fotmob",
+  "matchId": "norway-france-2026-06-26",
+  "completion": 0,
+  "errors": [
+    "URL fotmob non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

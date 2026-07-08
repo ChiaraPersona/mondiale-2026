@@ -62,9 +62,16 @@ function substitutionEvents(json) {
 function finalMinute(json) {
   const end = [...(json?.commentary || [])].reverse().find((item) => {
     const text = item.play?.type?.type || "";
-    return text === "end-regular-time" || String(item.text || "").includes("Second Half ends");
+    return text === "end-regular-time"
+      || String(item.text || "").includes("Second Half ends")
+      || String(item.text || "").includes("Second Half Extra Time ends");
   });
-  return minuteToNumber(end?.play?.clock?.displayValue || end?.time?.displayValue) || 90;
+  const endMinute = minuteToNumber(end?.play?.clock?.displayValue || end?.time?.displayValue);
+  const maxCommentaryMinute = Math.max(
+    0,
+    ...(json?.commentary || []).map((item) => minuteToNumber(item.play?.clock?.displayValue || item.time?.displayValue) || 0)
+  );
+  return Math.max(endMinute || 0, maxCommentaryMinute, 90);
 }
 
 function applyMinutes(player, teamName, subs, endMinute) {

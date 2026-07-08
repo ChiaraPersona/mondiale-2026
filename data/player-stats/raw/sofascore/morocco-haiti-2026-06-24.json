@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "morocco-haiti-2026-06-24",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

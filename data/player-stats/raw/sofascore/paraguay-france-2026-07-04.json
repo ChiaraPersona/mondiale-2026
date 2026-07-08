@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "paraguay-france-2026-07-04",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

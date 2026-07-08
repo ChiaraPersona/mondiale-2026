@@ -12,7 +12,17 @@ const normalizedPlayerStatsSources = [
   "data/player-stats/merged/spain-saudi-arabia-2026.json",
   "data/player-stats/merged/uruguay-spain-2026.json",
   "data/player-stats/merged/portugal-spain-2026-07-06.json",
-  "data/player-stats/merged/spain-austria-2026-07-02.json"
+  "data/player-stats/merged/spain-austria-2026-07-02.json",
+  "data/player-stats/merged/france-sweden-2026-06-30.json",
+  "data/player-stats/merged/paraguay-france-2026-07-04.json",
+  "data/player-stats/merged/france-senegal-2026-06-16.json",
+  "data/player-stats/merged/france-iraq-2026-06-22.json",
+  "data/player-stats/merged/norway-france-2026-06-26.json",
+  "data/player-stats/merged/netherlands-morocco-2026-06-29.json",
+  "data/player-stats/merged/canada-morocco-2026-07-04.json",
+  "data/player-stats/merged/brazil-morocco-2026-06-13.json",
+  "data/player-stats/merged/scotland-morocco-2026-06-19.json",
+  "data/player-stats/merged/morocco-haiti-2026-06-24.json"
 ];
 const matchContextSource = "data/player-stats/match-context.json";
 let resolvedTeamStatsData = null;
@@ -84,7 +94,19 @@ function cloneTeamStatsData() {
 function normalizeTeamStatsName(value) {
   const names = {
     Spain: "Spagna",
-    Portugal: "Portogallo"
+    Portugal: "Portogallo",
+    France: "Francia",
+    Morocco: "Marocco",
+    Sweden: "Svezia",
+    Paraguay: "Paraguay",
+    Senegal: "Senegal",
+    Iraq: "Iraq",
+    Norway: "Norvegia",
+    Netherlands: "Paesi Bassi",
+    Canada: "Canada",
+    Brazil: "Brasile",
+    Scotland: "Scozia",
+    Haiti: "Haiti"
   };
   return names[value] || value;
 }
@@ -132,6 +154,8 @@ function derivedPer90(player, statKey) {
 function withDerivedPlayerMetrics(player) {
   return {
     ...player,
+    goalsPer90: derivedPer90(player, "goals"),
+    assistsPer90: derivedPer90(player, "assists"),
     shotsPer90: derivedPer90(player, "shots"),
     shotsOnTargetPer90: derivedPer90(player, "shotsOnTarget"),
     foulsCommittedPer90: derivedPer90(player, "foulsCommitted"),
@@ -474,10 +498,13 @@ function renderPlayerTable(rows, metric) {
     ["foulsWon", "Falli subiti"],
     ["yellowCards", "Gialli"],
     ["redCards", "Rossi"],
+    ["goalsPer90", "Gol/90", true],
+    ["assistsPer90", "Assist/90", true],
     ["shotsPer90", "Tiri/90", true],
     ["shotsOnTargetPer90", "Tiri porta/90", true],
     ["foulsCommittedPer90", "Falli comm./90", true],
     ["foulsWonPer90", "Falli subiti/90", true],
+    ["yellowCardsPer90", "Gialli/90", true],
     ["contextNote", "Nota"]
   ];
 

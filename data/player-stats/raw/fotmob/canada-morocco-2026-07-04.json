@@ -1,0 +1,10 @@
+{
+  "provider": "fotmob",
+  "matchId": "canada-morocco-2026-07-04",
+  "completion": 0,
+  "errors": [
+    "URL fotmob non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

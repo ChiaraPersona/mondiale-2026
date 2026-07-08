@@ -8,7 +8,8 @@ let teamStatsPlayerFilters = {
   metric: "shots"
 };
 const normalizedPlayerStatsSources = [
-  "data/player-stats/merged/portugal-spain-2026-07-06.json"
+  "data/player-stats/merged/portugal-spain-2026-07-06.json",
+  "data/player-stats/merged/spain-austria-2026-07-02.json"
 ];
 let resolvedTeamStatsData = null;
 
@@ -28,6 +29,26 @@ function renderStatRows(rows = []) {
       <strong>${escapeTeamStats(value)}</strong>
     </div>
   `).join("");
+}
+
+function firstTeamStatValue(rows = [], labels = []) {
+  const wanted = labels.map((label) => String(label).toLowerCase());
+  const found = rows.find(([label]) => wanted.includes(String(label).toLowerCase()));
+  return found?.[1] ?? "da inserire";
+}
+
+function renderTeamMainStatRows(rows = []) {
+  const mainRows = [
+    ["Tiri", firstTeamStatValue(rows, ["Tiri", "Tiri totali medi"])],
+    ["Tiri in porta", firstTeamStatValue(rows, ["Tiri in porta", "Tiri in porta medi"])],
+    ["Corner", firstTeamStatValue(rows, ["Corner", "Corner medi"])],
+    ["Falli commessi", firstTeamStatValue(rows, ["Falli", "Falli medi", "Falli commessi"])],
+    ["Falli subiti", firstTeamStatValue(rows, ["Falli subiti"])],
+    ["Cartellini", firstTeamStatValue(rows, ["Cartellini", "Cartellini gialli", "Cartellini gialli medi"])],
+    ["Possesso", firstTeamStatValue(rows, ["Possesso", "Possesso medio"])],
+    ["xG", firstTeamStatValue(rows, ["xG", "xG medio"])]
+  ];
+  return renderStatRows(mainRows);
 }
 
 function getTeamStatsData() {
@@ -110,7 +131,7 @@ function withDerivedPlayerMetrics(player) {
   };
 }
 
-function mergeNormalizedPlayerStats(stats, normalized) {
+function mergeNormalizedPlayerStats(stats, normalized, sourcePath) {
   if (!normalized?.teams) return stats;
 
   const matchName = displayMatchName(normalized);
@@ -150,7 +171,7 @@ function mergeNormalizedPlayerStats(stats, normalized) {
         round: normalized.round || previousMatch.round || "Round of 16",
         date: normalized.date || previousMatch.date || null,
         provider: normalized.provider || "Merged",
-        normalizedSource: "data/player-stats/merged/portugal-spain-2026-07-06.json",
+        normalizedSource: sourcePath,
         context: previousMatch.context || {},
         players
       }
@@ -160,7 +181,7 @@ function mergeNormalizedPlayerStats(stats, normalized) {
       source: normalized.provider || "Merged",
       primarySource: normalized.providers?.espn?.completion ? "ESPN" : (normalized.provider || "Merged"),
       coverage: normalized.completion,
-      unavailableAdvancedFields: ["xG", "xA", "tocchi", "passaggi", "duelli", "rating"],
+      unavailableAdvancedFields: ["xA", "tocchi", "tocchi area", "passaggi", "pass accuracy", "key passes", "cross", "dribbling", "tackle", "duelli", "rating"],
       providerSummary: normalized.providers || {}
     };
   });
@@ -175,7 +196,7 @@ async function loadNormalizedPlayerStats() {
     try {
       const response = await fetch(source, { cache: "no-store" });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      mergeNormalizedPlayerStats(stats, await response.json());
+      mergeNormalizedPlayerStats(stats, await response.json(), source);
     } catch (error) {
       console.warn(`Statistiche normalizzate non caricate da ${source}: ${error.message}`);
     }
@@ -213,7 +234,7 @@ function renderAnalyzedMatches(matches = []) {
             <h5>${escapeTeamStats(match.match)}</h5>
             <p>${escapeTeamStats(match.context)}</p>
             <div class="team-stats-table">
-              ${renderStatRows(match.stats)}
+              ${renderTeamMainStatRows(match.stats)}
             </div>
           </article>
         `).join("")}
@@ -226,9 +247,9 @@ function renderTeamStatsPanel(team) {
   return `
     <div class="team-stats-section-grid">
       <section class="team-stats-section">
-        <h4>Medie da mostrare</h4>
+        <h4>Statistiche squadra principali</h4>
         <div class="team-stats-table">
-          ${team.averages?.length ? renderStatRows(team.averages) : '<div class="team-stats-row"><span>Dati</span><strong>da inserire</strong></div>'}
+          ${team.averages?.length ? renderTeamMainStatRows(team.averages) : '<div class="team-stats-row"><span>Dati</span><strong>da inserire</strong></div>'}
         </div>
       </section>
 
@@ -260,6 +281,7 @@ function playerMetricValue(row, metric) {
 
 function renderPlayerFilterControls(team, rows) {
   const matchOptions = [...new Set((team.playerMatches || []).map((match) => match.match).filter(Boolean))];
+  const linkedSources = [...new Set((team.playerMatches || []).map((match) => match.normalizedSource).filter(Boolean))];
   const roleOptions = [
     ["attackers", "Attaccanti / esterni offensivi"],
     ["midfielders", "Centrocampisti"],
@@ -270,9 +292,7 @@ function renderPlayerFilterControls(team, rows) {
     ["shotsOnTarget", "tiri in porta"],
     ["foulsCommitted", "falli commessi"],
     ["foulsWon", "falli subiti"],
-    ["cards", "cartellini"],
-    ["keyPasses", "passaggi chiave"],
-    ["touchesInBox", "tocchi in area"]
+    ["cards", "cartellini"]
   ];
 
   return `
@@ -297,7 +317,7 @@ function renderPlayerFilterControls(team, rows) {
           ${metricOptions.map(([value, label]) => `<option value="${value}"${selectedAttr(teamStatsPlayerFilters.metric, value)}>${escapeTeamStats(label)}</option>`).join("")}
         </select>
       </label>
-      ${team.playerMatches?.some((match) => match.normalizedSource) ? `<strong>JSON collegato: ${escapeTeamStats(team.playerMatches.find((match) => match.normalizedSource)?.normalizedSource)}</strong>` : ""}
+      ${linkedSources.length ? `<strong>JSON collegati: ${linkedSources.map(escapeTeamStats).join(" · ")}</strong>` : ""}
       <strong>${escapeTeamStats(rows.length)} righe partita-calciatore</strong>
     </div>
   `;
@@ -308,15 +328,11 @@ function renderPlayerStatsBadges(team) {
   if (!meta) return "";
 
   const coverage = meta.coverage === null || meta.coverage === undefined ? "n/d" : `${meta.coverage}%`;
-  const unavailable = meta.unavailableAdvancedFields?.length
-    ? meta.unavailableAdvancedFields.join(", ")
-    : "n/d";
-
   return `
     <div class="team-stats-player-badges" aria-label="Copertura dati player stats">
       <span>Fonte principale: ${escapeTeamStats(meta.primarySource || "ESPN")}</span>
       <span>Copertura dati: ${escapeTeamStats(coverage)}</span>
-      <span>Campi avanzati non disponibili: ${escapeTeamStats(unavailable)}</span>
+      <span>Campi avanzati: nascosti dalla tabella principale</span>
     </div>
   `;
 }
@@ -330,7 +346,7 @@ function renderPlayerContextBoxes(team) {
   if (team.playerStatsMeta?.primarySource === "ESPN" || team.playerMatches?.some((match) => match.provider === "ESPN")) {
     notes = [
       ...notes,
-      "Fonte player stats: ESPN. Per questa partita sono disponibili tiri, tiri in porta, gol, assist, falli commessi, falli subiti e cartellini. Minuti, xG, xA, tocchi, passaggi, duelli e rating non sono disponibili da ESPN e restano null."
+      "Fonte player stats: ESPN. La tabella principale mostra solo minuti, tiri, tiri in porta, gol, assist, falli, cartellini e metriche per 90 minuti. I campi avanzati restano nel JSON e non vengono mostrati qui."
     ];
   }
 
@@ -372,35 +388,20 @@ function renderMatchContextSummary(team) {
 function renderPlayerTable(rows, metric) {
   const columns = [
     ["name", "Calciatore"],
-    ["role", "Ruolo"],
-    ["starter", "Titolare"],
-    ["match", "Partita"],
     ["minutes", "Minuti"],
-    ["shots", "Tiri totali"],
-    ["shotsPer90", "Tiri/90", true],
+    ["shots", "Tiri"],
     ["shotsOnTarget", "Tiri in porta"],
-    ["shotsOnTargetPer90", "Tiri porta/90", true],
     ["goals", "Gol"],
-    ["xG", "xG"],
     ["assists", "Assist"],
-    ["xA", "xA"],
-    ["keyPasses", "Passaggi chiave"],
-    ["touches", "Tocchi"],
-    ["touchesInBox", "Tocchi in area"],
-    ["crosses", "Cross"],
-    ["successfulDribbles", "Dribbling riusciti"],
     ["foulsCommitted", "Falli commessi"],
-    ["foulsCommittedPer90", "Falli comm./90", true],
     ["foulsWon", "Falli subiti"],
+    ["yellowCards", "Gialli"],
+    ["redCards", "Rossi"],
+    ["shotsPer90", "Tiri/90", true],
+    ["shotsOnTargetPer90", "Tiri porta/90", true],
+    ["foulsCommittedPer90", "Falli comm./90", true],
     ["foulsWonPer90", "Falli subiti/90", true],
-    ["tackles", "Contrasti"],
-    ["duelsWon", "Duelli vinti"],
-    ["yellowCards", "Cartellini gialli"],
-    ["yellowCardsPer90", "Gialli/90", true],
-    ["redCards", "Cartellini rossi"],
-    ["rating", "Rating"],
-    ["source", "Fonte"],
-    ["contextNote", "Note contesto"]
+    ["contextNote", "Nota"]
   ];
 
   if (!rows.length) {

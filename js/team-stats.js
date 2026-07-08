@@ -7,6 +7,10 @@ let teamStatsPlayerFilters = {
   role: "all",
   metric: "shots"
 };
+const normalizedPlayerStatsSources = [
+  "data/player-stats/normalized/portugal-spain-2026-07-06.json"
+];
+let resolvedTeamStatsData = null;
 
 function escapeTeamStats(value) {
   return String(value ?? "")
@@ -27,6 +31,7 @@ function renderStatRows(rows = []) {
 }
 
 function getTeamStatsData() {
+  if (Array.isArray(resolvedTeamStatsData)) return resolvedTeamStatsData;
   return Array.isArray(window.teamStatsData) ? window.teamStatsData : teamStatsData;
 }
 
@@ -36,6 +41,100 @@ function renderEmptyValue(value) {
 
 function renderPlayerValue(value) {
   return value === null || value === undefined || value === "" ? "da inserire" : escapeTeamStats(value);
+}
+
+function cloneTeamStatsData() {
+  return JSON.parse(JSON.stringify(Array.isArray(window.teamStatsData) ? window.teamStatsData : teamStatsData));
+}
+
+function normalizeTeamStatsName(value) {
+  const names = {
+    Spain: "Spagna",
+    Portugal: "Portogallo"
+  };
+  return names[value] || value;
+}
+
+function roleGroupFromPlayer(role, playerName) {
+  const roleText = String(role || "").toLowerCase();
+  const nameText = String(playerName || "").toLowerCase();
+  if (roleText.includes("goalkeeper") || roleText.includes("back") || roleText.includes("defender")) return "defenders";
+  if (roleText.includes("midfielder")) return roleText.includes("attacking") ? "attackers" : "midfielders";
+  if (roleText.includes("forward") || roleText.includes("attacker")) return "attackers";
+  if (["ferran", "borja", "nico", "yamal", "oyarzabal", "olmo", "baena", "pino", "munoz"].some((name) => nameText.includes(name))) return "attackers";
+  if (["rodri", "pedri", "merino", "ruiz", "zubimendi", "gavi"].some((name) => nameText.includes(name))) return "midfielders";
+  if (["simon", "raya", "garcia", "laporte", "cubarsi", "cucurella", "porro", "pubill", "llorente", "grimaldo"].some((name) => nameText.includes(name))) return "defenders";
+  return "midfielders";
+}
+
+function displayMatchName(normalized) {
+  if (normalized.homeTeam && normalized.awayTeam && normalized.score) {
+    return `${normalizeTeamStatsName(normalized.homeTeam)} ${normalized.score} ${normalizeTeamStatsName(normalized.awayTeam)}`;
+  }
+  return "Portogallo 0-1 Spagna";
+}
+
+function mapNormalizedPlayer(player, match, teamName) {
+  return {
+    ...player,
+    roleGroup: roleGroupFromPlayer(player.role, player.name),
+    match,
+    team: teamName,
+    successfulDribbles: player.dribblesCompleted,
+    contextNote: `Fonte: ${player.source || "provider"}; titolare: ${player.starter === null ? "da inserire" : (player.starter ? "si" : "no")}`
+  };
+}
+
+function mergeNormalizedPlayerStats(stats, normalized) {
+  if (!normalized?.teams) return stats;
+
+  const matchName = displayMatchName(normalized);
+  Object.entries(normalized.teams).forEach(([sourceTeamName, teamBlock]) => {
+    const teamName = normalizeTeamStatsName(sourceTeamName);
+    const team = stats.find((item) => item.team === teamName);
+    if (!team) return;
+
+    const players = (teamBlock.players || []).map((player) => mapNormalizedPlayer(player, matchName, team.team));
+    if (!players.length) return;
+
+    const existing = team.playerMatches || [];
+    const previousMatch = existing.find((match) => match.match === matchName) || {};
+    const remainingMatches = existing.filter((match) => match.match !== matchName);
+
+    team.playerMatches = [
+      ...remainingMatches,
+      {
+        ...previousMatch,
+        team: team.team,
+        match: matchName,
+        competition: normalized.competition || previousMatch.competition || "World Cup 2026",
+        round: normalized.round || previousMatch.round || "Round of 16",
+        date: normalized.date || previousMatch.date || null,
+        provider: normalized.provider,
+        normalizedSource: "data/player-stats/normalized/portugal-spain-2026-07-06.json",
+        context: previousMatch.context || {},
+        players
+      }
+    ];
+  });
+
+  return stats;
+}
+
+async function loadNormalizedPlayerStats() {
+  const stats = cloneTeamStatsData();
+
+  for (const source of normalizedPlayerStatsSources) {
+    try {
+      const response = await fetch(source, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      mergeNormalizedPlayerStats(stats, await response.json());
+    } catch (error) {
+      console.warn(`Statistiche normalizzate non caricate da ${source}: ${error.message}`);
+    }
+  }
+
+  resolvedTeamStatsData = stats;
 }
 
 function selectedAttr(currentValue, optionValue) {
@@ -151,6 +250,7 @@ function renderPlayerFilterControls(team, rows) {
           ${metricOptions.map(([value, label]) => `<option value="${value}"${selectedAttr(teamStatsPlayerFilters.metric, value)}>${escapeTeamStats(label)}</option>`).join("")}
         </select>
       </label>
+      ${team.playerMatches?.some((match) => match.normalizedSource) ? `<strong>JSON collegato: ${escapeTeamStats(team.playerMatches.find((match) => match.normalizedSource)?.normalizedSource)}</strong>` : ""}
       <strong>${escapeTeamStats(rows.length)} righe partita-calciatore</strong>
     </div>
   `;
@@ -201,10 +301,12 @@ function renderPlayerTable(rows, metric) {
   const columns = [
     ["name", "Calciatore"],
     ["role", "Ruolo"],
+    ["starter", "Titolare"],
     ["match", "Partita"],
     ["minutes", "Minuti"],
     ["shots", "Tiri totali"],
     ["shotsOnTarget", "Tiri in porta"],
+    ["goals", "Gol"],
     ["xG", "xG"],
     ["assists", "Assist"],
     ["xA", "xA"],
@@ -218,7 +320,9 @@ function renderPlayerTable(rows, metric) {
     ["tackles", "Contrasti"],
     ["duelsWon", "Duelli vinti"],
     ["yellowCards", "Cartellini gialli"],
+    ["redCards", "Cartellini rossi"],
     ["rating", "Rating"],
+    ["source", "Fonte"],
     ["contextNote", "Note contesto"]
   ];
 
@@ -391,13 +495,19 @@ function renderTeamStats() {
   }
 }
 
-if (teamStatsSelect) {
-  renderTeamSelector(getTeamStatsData());
-  teamStatsSelect.addEventListener("change", () => {
-    activeTeamStatsTab = "team";
-    teamStatsPlayerFilters = { match: "all", role: "all", metric: "shots" };
-    renderTeamStats();
-  });
+async function initTeamStatsPage() {
+  await loadNormalizedPlayerStats();
+
+  if (teamStatsSelect) {
+    renderTeamSelector(getTeamStatsData());
+    teamStatsSelect.addEventListener("change", () => {
+      activeTeamStatsTab = "team";
+      teamStatsPlayerFilters = { match: "all", role: "all", metric: "shots" };
+      renderTeamStats();
+    });
+  }
+
+  renderTeamStats();
 }
 
-renderTeamStats();
+initTeamStatsPage();

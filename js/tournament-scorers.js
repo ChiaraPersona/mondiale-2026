@@ -1,6 +1,6 @@
 const tournamentScorersAll = [
   { player: "Kylian Mbappe", team: "Francia", goals: 7, penalties: 1 },
-  { player: "Lionel Messi", team: "Argentina", goals: 7, penalties: 0 },
+  { player: "Lionel Messi", team: "Argentina", goals: 8, penalties: 0 },
   { player: "Harry Kane", team: "Inghilterra", goals: 6, penalties: 2 },
   { player: "Erling Haaland", team: "Norvegia", goals: 7, penalties: 0 },
   { player: "Vinicius Jr", team: "Brasile", goals: 4, penalties: 0 },
@@ -24,6 +24,7 @@ const tournamentScorersAll = [
   { player: "Youri Tielemans", team: "Belgio", goals: 2, penalties: 1 },
   { player: "Romelu Lukaku", team: "Belgio", goals: 2, penalties: 0 },
   { player: "Emam Ashour", team: "Egitto", goals: 2, penalties: 0 },
+  { player: "Ahmed Zizo", team: "Egitto", goals: 2, penalties: 0 },
   { player: "Azzedine Ounahi", team: "Marocco", goals: 2, penalties: 0 },
   { player: "Ruben Vargas", team: "Svizzera", goals: 2, penalties: 0 },
   { player: "Amad Diallo", team: "Costa d'Avorio", goals: 2, penalties: 0 },
@@ -35,6 +36,7 @@ const tournamentScorersAll = [
   { player: "Daichi Kamada", team: "Giappone", goals: 2, penalties: 0 },
   { player: "Leandro Trossard", team: "Belgio", goals: 2, penalties: 0 },
   { player: "Bradley Barcola", team: "Francia", goals: 2, penalties: 0 },
+  { player: "Cristian Romero", team: "Argentina", goals: 2, penalties: 0 },
   { player: "Jude Bellingham", team: "Inghilterra", goals: 4, penalties: 0 },
   { player: "Daniel Munoz", team: "Colombia", goals: 2, penalties: 0 },
   { player: "Ramin Rezaeian", team: "Iran", goals: 2, penalties: 0 },
@@ -48,14 +50,7 @@ const tournamentScorersAll = [
   { player: "Yasin Ayari", team: "Svezia", goals: 2, penalties: 0 },
 ];
 
-const tournamentScorerActiveTeams = new Set([
-  "Argentina", "Belgio", "Francia", "Inghilterra",
-  "Marocco", "Norvegia", "Spagna", "Svizzera",
-]);
-
-const tournamentScorers = tournamentScorersAll.filter((entry) =>
-  tournamentScorerActiveTeams.has(entry.team)
-);
+const tournamentScorers = tournamentScorersAll;
 
 const tournamentScorersMeta = {
   updated: "2026-07-08",

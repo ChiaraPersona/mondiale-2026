@@ -43,6 +43,10 @@ function renderPlayerValue(value) {
   return value === null || value === undefined || value === "" ? "da inserire" : escapeTeamStats(value);
 }
 
+function renderDerivedPlayerValue(value) {
+  return value === null || value === undefined || value === "" ? "n/d" : escapeTeamStats(value);
+}
+
 function cloneTeamStatsData() {
   return JSON.parse(JSON.stringify(Array.isArray(window.teamStatsData) ? window.teamStatsData : teamStatsData));
 }
@@ -87,14 +91,47 @@ function mapNormalizedPlayer(player, match, teamName) {
   };
 }
 
+function derivedPer90(player, statKey) {
+  const minutes = Number(player.minutes);
+  const value = Number(player[statKey]);
+  if (!Number.isFinite(minutes) || minutes <= 0) return null;
+  if (!Number.isFinite(value)) return null;
+  return Math.round((value / minutes) * 90 * 100) / 100;
+}
+
+function withDerivedPlayerMetrics(player) {
+  return {
+    ...player,
+    shotsPer90: derivedPer90(player, "shots"),
+    shotsOnTargetPer90: derivedPer90(player, "shotsOnTarget"),
+    foulsCommittedPer90: derivedPer90(player, "foulsCommitted"),
+    foulsWonPer90: derivedPer90(player, "foulsWon"),
+    yellowCardsPer90: derivedPer90(player, "yellowCards")
+  };
+}
+
 function mergeNormalizedPlayerStats(stats, normalized) {
   if (!normalized?.teams) return stats;
 
   const matchName = displayMatchName(normalized);
   Object.entries(normalized.teams).forEach(([sourceTeamName, teamBlock]) => {
     const teamName = normalizeTeamStatsName(sourceTeamName);
-    const team = stats.find((item) => item.team === teamName);
-    if (!team) return;
+    let team = stats.find((item) => item.team === teamName);
+    if (!team) {
+      team = {
+        team: teamName,
+        group: "",
+        summary: "Statistiche calciatori importate dal JSON merged.",
+        analyzedMatches: [],
+        averages: [],
+        modelReading: "Dati squadra da inserire.",
+        estimateTitle: "Stime prossimo match",
+        estimate: [],
+        playerStatsNotes: [],
+        playerMatches: []
+      };
+      stats.push(team);
+    }
 
     const players = (teamBlock.players || []).map((player) => mapNormalizedPlayer(player, matchName, team.team));
     if (!players.length) return;
@@ -118,6 +155,14 @@ function mergeNormalizedPlayerStats(stats, normalized) {
         players
       }
     ];
+
+    team.playerStatsMeta = {
+      source: normalized.provider || "Merged",
+      primarySource: normalized.providers?.espn?.completion ? "ESPN" : (normalized.provider || "Merged"),
+      coverage: normalized.completion,
+      unavailableAdvancedFields: ["xG", "xA", "tocchi", "passaggi", "duelli", "rating"],
+      providerSummary: normalized.providers || {}
+    };
   });
 
   return stats;
@@ -198,7 +243,7 @@ function renderTeamStatsPanel(team) {
 }
 
 function flattenPlayerMatchRows(team) {
-  return (team.playerMatches || []).flatMap((match) => (match.players || []).map((player) => ({
+  return (team.playerMatches || []).flatMap((match) => (match.players || []).map((player) => withDerivedPlayerMetrics({
     ...player,
     team: match.team || team.team,
     match: match.match,
@@ -254,6 +299,24 @@ function renderPlayerFilterControls(team, rows) {
       </label>
       ${team.playerMatches?.some((match) => match.normalizedSource) ? `<strong>JSON collegato: ${escapeTeamStats(team.playerMatches.find((match) => match.normalizedSource)?.normalizedSource)}</strong>` : ""}
       <strong>${escapeTeamStats(rows.length)} righe partita-calciatore</strong>
+    </div>
+  `;
+}
+
+function renderPlayerStatsBadges(team) {
+  const meta = team.playerStatsMeta;
+  if (!meta) return "";
+
+  const coverage = meta.coverage === null || meta.coverage === undefined ? "n/d" : `${meta.coverage}%`;
+  const unavailable = meta.unavailableAdvancedFields?.length
+    ? meta.unavailableAdvancedFields.join(", ")
+    : "n/d";
+
+  return `
+    <div class="team-stats-player-badges" aria-label="Copertura dati player stats">
+      <span>Fonte principale: ${escapeTeamStats(meta.primarySource || "ESPN")}</span>
+      <span>Copertura dati: ${escapeTeamStats(coverage)}</span>
+      <span>Campi avanzati non disponibili: ${escapeTeamStats(unavailable)}</span>
     </div>
   `;
 }
@@ -314,7 +377,9 @@ function renderPlayerTable(rows, metric) {
     ["match", "Partita"],
     ["minutes", "Minuti"],
     ["shots", "Tiri totali"],
+    ["shotsPer90", "Tiri/90", true],
     ["shotsOnTarget", "Tiri in porta"],
+    ["shotsOnTargetPer90", "Tiri porta/90", true],
     ["goals", "Gol"],
     ["xG", "xG"],
     ["assists", "Assist"],
@@ -325,10 +390,13 @@ function renderPlayerTable(rows, metric) {
     ["crosses", "Cross"],
     ["successfulDribbles", "Dribbling riusciti"],
     ["foulsCommitted", "Falli commessi"],
+    ["foulsCommittedPer90", "Falli comm./90", true],
     ["foulsWon", "Falli subiti"],
+    ["foulsWonPer90", "Falli subiti/90", true],
     ["tackles", "Contrasti"],
     ["duelsWon", "Duelli vinti"],
     ["yellowCards", "Cartellini gialli"],
+    ["yellowCardsPer90", "Gialli/90", true],
     ["redCards", "Cartellini rossi"],
     ["rating", "Rating"],
     ["source", "Fonte"],
@@ -344,21 +412,69 @@ function renderPlayerTable(rows, metric) {
       <table class="team-stats-player-table">
         <thead>
           <tr>
-            ${columns.map(([key, label]) => `<th class="${key === metric || (metric === "cards" && key === "yellowCards") ? "is-active-metric" : ""}">${escapeTeamStats(label)}</th>`).join("")}
+            ${columns.map(([key, label, derived]) => `<th class="${key === metric || (metric === "cards" && key === "yellowCards") ? "is-active-metric" : ""}${derived ? " is-derived-metric" : ""}">${escapeTeamStats(label)}</th>`).join("")}
           </tr>
         </thead>
         <tbody>
           ${rows.map((player) => `
             <tr>
-              ${columns.map(([key]) => {
+              ${columns.map(([key, _label, derived]) => {
                 const isMetric = key === metric || (metric === "cards" && key === "yellowCards");
-                return `<td class="${isMetric ? "is-active-metric" : ""}">${renderPlayerValue(player[key])}</td>`;
+                const classes = `${isMetric ? "is-active-metric" : ""}${derived ? " is-derived-metric" : ""}`;
+                return `<td class="${classes}">${derived ? renderDerivedPlayerValue(player[key]) : renderPlayerValue(player[key])}</td>`;
               }).join("")}
             </tr>
           `).join("")}
         </tbody>
       </table>
     </div>
+  `;
+}
+
+function renderPlayerRankings(rows) {
+  const rankingDefinitions = [
+    ["shots", "Più tiri"],
+    ["shotsOnTarget", "Più tiri in porta"],
+    ["foulsCommitted", "Più falli commessi"],
+    ["foulsWon", "Più falli subiti"],
+    ["yellowCards", "Più cartellini"]
+  ];
+
+  const cardValue = (row) => {
+    const yellowCards = Number(row.yellowCards);
+    const redCards = Number(row.redCards);
+    return (Number.isFinite(yellowCards) ? yellowCards : 0) + (Number.isFinite(redCards) ? redCards : 0);
+  };
+
+  const metricValue = (row, key) => key === "yellowCards" ? cardValue(row) : Number(row[key]);
+  const usedRows = rows.filter((row) => Number(row.minutes) > 0);
+
+  return `
+    <section class="team-stats-player-rankings" aria-label="Classifiche automatiche calciatori">
+      ${rankingDefinitions.map(([key, title]) => {
+        const ranked = usedRows
+          .map((row) => ({ row, value: metricValue(row, key) }))
+          .filter((item) => Number.isFinite(item.value) && item.value > 0)
+          .sort((a, b) => b.value - a.value || String(a.row.name).localeCompare(String(b.row.name)))
+          .slice(0, 5);
+
+        return `
+          <article>
+            <h4>${escapeTeamStats(title)}</h4>
+            ${ranked.length ? `
+              <ol>
+                ${ranked.map((item) => `
+                  <li>
+                    <span>${escapeTeamStats(item.row.name)}</span>
+                    <strong>${escapeTeamStats(item.value)}</strong>
+                  </li>
+                `).join("")}
+              </ol>
+            ` : '<p>n/d</p>'}
+          </article>
+        `;
+      }).join("")}
+    </section>
   `;
 }
 
@@ -394,9 +510,11 @@ function renderPlayersPanel(team) {
 
   return `
     <section class="team-stats-player-panel">
+      ${renderPlayerStatsBadges(team)}
       ${renderPlayerContextBoxes(team)}
       ${renderPlayerFilterControls(team, rows)}
       ${renderMatchContextSummary(team)}
+      ${renderPlayerRankings(rows)}
       ${renderPlayerGroup("Attaccanti / esterni offensivi", "attackers", rows, metric)}
       ${renderPlayerGroup("Centrocampisti", "midfielders", rows, metric)}
       ${renderPlayerGroup("Difensori e portiere", "defenders", rows, metric)}

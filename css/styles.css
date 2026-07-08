@@ -6138,6 +6138,27 @@ body {
   padding: 16px 18px 18px;
 }
 
+.team-stats-player-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.team-stats-player-badges span {
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(0, 208, 132, .24);
+  border-radius: 8px;
+  padding: 7px 10px;
+  color: var(--green);
+  background: rgba(0, 208, 132, .08);
+  font-size: 11px;
+  font-weight: 950;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
 .team-stats-player-info-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -6267,6 +6288,65 @@ body {
   gap: 8px;
 }
 
+.team-stats-player-rankings {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.team-stats-player-rankings article {
+  border: 1px solid rgba(255, 255, 255, .09);
+  border-radius: 10px;
+  padding: 12px;
+  background: rgba(7, 10, 15, .24);
+}
+
+.team-stats-player-rankings h4 {
+  margin: 0 0 10px;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.team-stats-player-rankings ol {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.team-stats-player-rankings li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.team-stats-player-rankings li span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.team-stats-player-rankings li strong {
+  color: var(--ink);
+  font-weight: 950;
+}
+
+.team-stats-player-rankings p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .team-stats-player-group h4 {
   margin: 0;
   color: var(--green);
@@ -6326,6 +6406,11 @@ body {
   background: rgba(245, 200, 75, .08);
 }
 
+.team-stats-player-table .is-derived-metric {
+  color: var(--ink);
+  background: rgba(0, 208, 132, .055);
+}
+
 .team-stats-matches a {
   padding: 10px 14px;
   color: var(--muted);
@@ -6358,7 +6443,8 @@ body {
 
   .team-stats-player-info-grid,
   .team-stats-player-controls,
-  .team-stats-player-match-context dl {
+  .team-stats-player-match-context dl,
+  .team-stats-player-rankings {
     grid-template-columns: 1fr;
   }
 }

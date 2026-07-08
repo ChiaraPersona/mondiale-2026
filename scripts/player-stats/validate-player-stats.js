@@ -33,25 +33,39 @@ function playerLabel(teamName, player) {
   return `${teamName} / ${player.name || "Giocatore senza nome"}`;
 }
 
+function countOwnGoalsFor(team) {
+  return Array.isArray(team?.ownGoalsFor) ? team.ownGoalsFor.length : 0;
+}
+
 function checkTeamGoals({ data, file, score, errors }) {
-  const homePlayers = data.teams?.[data.homeTeam]?.players || [];
-  const awayPlayers = data.teams?.[data.awayTeam]?.players || [];
+  const homeTeam = data.teams?.[data.homeTeam] || {};
+  const awayTeam = data.teams?.[data.awayTeam] || {};
+  const homePlayers = homeTeam.players || [];
+  const awayPlayers = awayTeam.players || [];
   const homeGoals = homePlayers.reduce((total, player) => total + (numberOrNull(player.goals) || 0), 0);
   const awayGoals = awayPlayers.reduce((total, player) => total + (numberOrNull(player.goals) || 0), 0);
+  const homeOwnGoalsFor = countOwnGoalsFor(homeTeam);
+  const awayOwnGoalsFor = countOwnGoalsFor(awayTeam);
+  const homeTotalGoals = homeGoals + homeOwnGoalsFor;
+  const awayTotalGoals = awayGoals + awayOwnGoalsFor;
 
-  if (homeGoals !== score.home) {
+  if (homeTotalGoals !== score.home) {
     errors.push(issue("error", file, data.matchId, "Somma gol squadra casa non coerente con il risultato.", {
       team: data.homeTeam,
       expected: score.home,
-      actual: homeGoals
+      actual: homeTotalGoals,
+      playerGoals: homeGoals,
+      ownGoalsFor: homeOwnGoalsFor
     }));
   }
 
-  if (awayGoals !== score.away) {
+  if (awayTotalGoals !== score.away) {
     errors.push(issue("error", file, data.matchId, "Somma gol squadra trasferta non coerente con il risultato.", {
       team: data.awayTeam,
       expected: score.away,
-      actual: awayGoals
+      actual: awayTotalGoals,
+      playerGoals: awayGoals,
+      ownGoalsFor: awayOwnGoalsFor
     }));
   }
 }

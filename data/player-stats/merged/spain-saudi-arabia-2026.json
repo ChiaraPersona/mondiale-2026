@@ -1283,6 +1283,14 @@
   },
   "teams": {
     "Spain": {
+      "ownGoalsFor": [
+        {
+          "player": "Hassan Al Tambakti",
+          "team": "Saudi Arabia",
+          "minute": "49'",
+          "source": "ESPN commentary"
+        }
+      ],
       "players": [
         {
           "name": "Álex Baena",
@@ -1470,7 +1478,7 @@
           "minuteOut": 45,
           "shots": 5,
           "shotsOnTarget": 2,
-          "goals": 2,
+          "goals": 1,
           "assists": 0,
           "xG": null,
           "xA": null,
@@ -1508,7 +1516,7 @@
             "minuteOut": "ESPN",
             "shots": "ESPN",
             "shotsOnTarget": "ESPN",
-            "goals": "Manuale utente",
+            "goals": "ESPN",
             "assists": "ESPN",
             "foulsCommitted": "ESPN",
             "foulsWon": "ESPN",

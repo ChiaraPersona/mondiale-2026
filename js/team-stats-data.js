@@ -1,1 +1,1 @@
-const teamStatsData = [];
+const teamStatsData = typeof window !== "undefined" && window.teamStatsData ? window.teamStatsData : [];

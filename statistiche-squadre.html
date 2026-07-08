@@ -13,25 +13,17 @@
       <img class="site-emblem" src="assets/world-cup-2026-logo.png" alt="FIFA World Cup 2026">
       <div>
         <h1>Statistiche Squadre</h1>
-        <p class="sub">Pagina svuotata: le nuove statistiche squadra verranno ricostruite da zero.</p>
+        <p class="sub">Pagina unica riutilizzabile per consultare dati squadra, calciatori, contesto e stime.</p>
       </div>
 
-      <label class="search" aria-label="Cerca squadra">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <circle cx="11" cy="11" r="7"></circle>
-          <path d="m20 20-3.5-3.5"></path>
-        </svg>
-        <input
-          id="team-stats-search"
-          type="search"
-          placeholder="Cerca nazionale"
-        >
+      <label class="team-stats-selector" aria-label="Seleziona squadra">
+        <span>Squadra</span>
+        <select id="team-stats-select"></select>
       </label>
     </div>
 
     <nav class="page-links" aria-label="Sezioni">
       <a class="page-link" href="index.html">Home</a>
-      <a class="page-link" href="convocati.html">Convocati</a>
       <a class="page-link" href="player.html">Player</a>
       <a class="page-link active" href="statistiche-squadre.html">Statistiche squadre</a>
       <a class="page-link" href="arbitri.html">Arbitri</a>
@@ -53,7 +45,7 @@
   </main>
 
   <footer>
-    Statistiche squadre in ricostruzione.
+    Statistiche squadre consultabili da una pagina unica.
   </footer>
 
   <script src="data/active/team-stats-data.js"></script>

@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "spain-saudi-arabia-2026",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

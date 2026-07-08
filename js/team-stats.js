@@ -8,6 +8,9 @@ let teamStatsPlayerFilters = {
   metric: "shots"
 };
 const normalizedPlayerStatsSources = [
+  "data/player-stats/merged/spain-cape-verde-2026.json",
+  "data/player-stats/merged/spain-saudi-arabia-2026.json",
+  "data/player-stats/merged/uruguay-spain-2026.json",
   "data/player-stats/merged/portugal-spain-2026-07-06.json",
   "data/player-stats/merged/spain-austria-2026-07-02.json"
 ];

@@ -8,7 +8,7 @@ let teamStatsPlayerFilters = {
   metric: "shots"
 };
 const normalizedPlayerStatsSources = [
-  "data/player-stats/normalized/portugal-spain-2026-07-06.json"
+  "data/player-stats/merged/portugal-spain-2026-07-06.json"
 ];
 let resolvedTeamStatsData = null;
 
@@ -75,13 +75,15 @@ function displayMatchName(normalized) {
 }
 
 function mapNormalizedPlayer(player, match, teamName) {
+  const sourceLabel = player.source || player.sources?.shots || "Merged";
   return {
     ...player,
     roleGroup: roleGroupFromPlayer(player.role, player.name),
     match,
     team: teamName,
     successfulDribbles: player.dribblesCompleted,
-    contextNote: `Fonte: ${player.source || "provider"}; titolare: ${player.starter === null ? "da inserire" : (player.starter ? "si" : "no")}`
+    source: sourceLabel,
+    contextNote: `Fonte: ${sourceLabel}; titolare: ${player.starter === null ? "da inserire" : (player.starter ? "si" : "no")}`
   };
 }
 
@@ -110,8 +112,8 @@ function mergeNormalizedPlayerStats(stats, normalized) {
         competition: normalized.competition || previousMatch.competition || "World Cup 2026",
         round: normalized.round || previousMatch.round || "Round of 16",
         date: normalized.date || previousMatch.date || null,
-        provider: normalized.provider,
-        normalizedSource: "data/player-stats/normalized/portugal-spain-2026-07-06.json",
+        provider: normalized.provider || "Merged",
+        normalizedSource: "data/player-stats/merged/portugal-spain-2026-07-06.json",
         context: previousMatch.context || {},
         players
       }

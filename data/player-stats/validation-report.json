@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-07-08T23:30:19.132Z",
+  "summary": {
+    "filesChecked": 5,
+    "errors": 0,
+    "warnings": 0,
+    "suspiciousPlayers": 0,
+    "fieldsToReview": 0
+  },
+  "files": [
+    {
+      "file": "portugal-spain-2026-07-06.json",
+      "matchId": "portugal-spain-2026-07-06",
+      "match": "Portugal 0-1 Spain",
+      "provider": "Merged",
+      "completion": 36.3,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "spain-austria-2026-07-02.json",
+      "matchId": "spain-austria-2026-07-02",
+      "match": "Spain 3-0 Austria",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "spain-cape-verde-2026.json",
+      "matchId": "spain-cape-verde-2026",
+      "match": "Spain 0-0 Cape Verde",
+      "provider": "Merged",
+      "completion": 36.3,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "spain-saudi-arabia-2026.json",
+      "matchId": "spain-saudi-arabia-2026",
+      "match": "Spain 4-0 Saudi Arabia",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "uruguay-spain-2026.json",
+      "matchId": "uruguay-spain-2026",
+      "match": "Uruguay 0-1 Spain",
+      "provider": "Merged",
+      "completion": 36.3,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "suspiciousPlayers": [],
+  "fieldsToReview": []
+}

@@ -14,7 +14,9 @@ const normalizedPlayerStatsSources = [
   "data/player-stats/merged/portugal-spain-2026-07-06.json",
   "data/player-stats/merged/spain-austria-2026-07-02.json"
 ];
+const matchContextSource = "data/player-stats/match-context.json";
 let resolvedTeamStatsData = null;
+let matchContextData = {};
 
 function escapeTeamStats(value) {
   return String(value ?? "")
@@ -68,6 +70,10 @@ function renderPlayerValue(value) {
 }
 
 function renderDerivedPlayerValue(value) {
+  return value === null || value === undefined || value === "" ? "n/d" : escapeTeamStats(value);
+}
+
+function renderContextValue(value) {
   return value === null || value === undefined || value === "" ? "n/d" : escapeTeamStats(value);
 }
 
@@ -134,6 +140,22 @@ function withDerivedPlayerMetrics(player) {
   };
 }
 
+async function loadMatchContextData() {
+  try {
+    const response = await fetch(matchContextSource, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    matchContextData = data && typeof data === "object" ? data : {};
+  } catch (error) {
+    matchContextData = {};
+    console.warn(`Contesti partita non caricati da ${matchContextSource}: ${error.message}`);
+  }
+}
+
+function contextForMatch(matchId, fallback = {}) {
+  return matchContextData[matchId] || fallback || {};
+}
+
 function mergeNormalizedPlayerStats(stats, normalized, sourcePath) {
   if (!normalized?.teams) return stats;
 
@@ -174,8 +196,9 @@ function mergeNormalizedPlayerStats(stats, normalized, sourcePath) {
         round: normalized.round || previousMatch.round || "Round of 16",
         date: normalized.date || previousMatch.date || null,
         provider: normalized.provider || "Merged",
+        matchId: normalized.matchId || previousMatch.matchId || null,
         normalizedSource: sourcePath,
-        context: previousMatch.context || {},
+        context: contextForMatch(normalized.matchId, previousMatch.context),
         players
       }
     ];
@@ -376,11 +399,11 @@ function renderMatchContextSummary(team) {
           <h5>${escapeTeamStats(match.match)}</h5>
           <small>${escapeTeamStats(match.date || "Data da inserire")}</small>
           <dl>
-            <div><dt>Tipo partita</dt><dd>${escapeTeamStats(match.context?.matchType || "da inserire")}</dd></div>
-            <div><dt>Livello avversario</dt><dd>${escapeTeamStats(match.context?.opponentLevel || "da inserire")}</dd></div>
-            <div><dt>Stile avversario</dt><dd>${escapeTeamStats(match.context?.opponentStyle || "da inserire")}</dd></div>
-            <div><dt>Stato gara</dt><dd>${escapeTeamStats(match.context?.gameState || "da inserire")}</dd></div>
-            <div><dt>Peso modello</dt><dd>${escapeTeamStats(match.context?.modelWeight || "da inserire")}</dd></div>
+            <div><dt>Tipo partita</dt><dd>${renderContextValue(match.context?.matchType)}</dd></div>
+            <div><dt>Livello avversario</dt><dd>${renderContextValue(match.context?.opponentLevel)}</dd></div>
+            <div><dt>Stile avversario</dt><dd>${renderContextValue(match.context?.opponentStyle)}</dd></div>
+            <div><dt>Stato gara</dt><dd>${renderContextValue(match.context?.gameState)}</dd></div>
+            <div><dt>Peso modello</dt><dd>${renderContextValue(match.context?.modelWeight)}</dd></div>
           </dl>
         </article>
       `).join("")}
@@ -627,6 +650,7 @@ function renderTeamStats() {
 }
 
 async function initTeamStatsPage() {
+  await loadMatchContextData();
   await loadNormalizedPlayerStats();
 
   if (teamStatsSelect) {

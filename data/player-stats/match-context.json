@@ -1,0 +1,37 @@
+{
+  "portugal-spain-2026-07-06": {
+    "matchType": "Eliminazione diretta",
+    "opponentLevel": "Élite",
+    "opponentStyle": "Tecnica, possesso medio-alto, qualità offensiva alta",
+    "gameState": "Partita chiusa/equilibrata, pochi spazi, gol Spagna nel finale",
+    "modelWeight": "Molto alto"
+  },
+  "spain-austria-2026-07-02": {
+    "matchType": "Eliminazione diretta",
+    "opponentLevel": "Medio-alto",
+    "opponentStyle": "Fisica, organizzata, aggressiva nei duelli",
+    "gameState": "Spagna dominante, vantaggio gestito, partita meno bloccata rispetto al Portogallo",
+    "modelWeight": "Alto"
+  },
+  "spain-cape-verde-2026": {
+    "matchType": "Fase a gironi",
+    "opponentLevel": "Basso-medio",
+    "opponentStyle": "Molto difensiva, blocco basso, pochi spazi centrali",
+    "gameState": "Spagna dominante, possesso alto, partita utile per volume tiri/corner ma meno simile a Spagna-Belgio",
+    "modelWeight": "Medio-basso"
+  },
+  "spain-saudi-arabia-2026": {
+    "matchType": "Fase a gironi",
+    "opponentLevel": "Basso-medio",
+    "opponentStyle": "Difensiva, tende a concedere possesso e campo",
+    "gameState": "Spagna dominante, partita indirizzata presto, utile per volume offensivo ma meno predittiva contro avversari forti",
+    "modelWeight": "Medio-basso"
+  },
+  "uruguay-spain-2026": {
+    "matchType": "Fase a gironi / gara ad alta intensità",
+    "opponentLevel": "Alto",
+    "opponentStyle": "Fisica, aggressiva, intensa nei duelli, compatta",
+    "gameState": "Partita tesa e più sporca, utile per valutare falli, pressione e rendimento contro squadre forti",
+    "modelWeight": "Alto"
+  }
+}

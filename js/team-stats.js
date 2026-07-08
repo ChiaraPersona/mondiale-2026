@@ -257,10 +257,17 @@ function renderPlayerFilterControls(team, rows) {
 }
 
 function renderPlayerContextBoxes(team) {
-  const notes = team.playerStatsNotes?.length ? team.playerStatsNotes : [
+  let notes = team.playerStatsNotes?.length ? team.playerStatsNotes : [
     "Le statistiche dei calciatori sono salvate partita per partita. Le medie non devono essere considerate da sole, ma sempre insieme a minuti giocati, ruolo, titolarità, tipo di avversario, stato della partita, importanza della gara e contesto tattico.",
     "Per i mercati tiri e tiri in porta, dare priorità a minuti previsti, posizione in campo, avversario affrontato e probabilità che la squadra debba attaccare."
   ];
+
+  if (team.playerMatches?.some((match) => match.provider === "ESPN")) {
+    notes = [
+      ...notes,
+      "Fonte player stats: ESPN. Per questa partita sono disponibili tiri, tiri in porta, gol, assist, falli commessi, falli subiti e cartellini. Minuti, xG, xA, tocchi, passaggi, duelli e rating non sono disponibili da ESPN e restano null."
+    ];
+  }
 
   return `
     <div class="team-stats-player-info-grid">

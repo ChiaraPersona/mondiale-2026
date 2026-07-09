@@ -216,16 +216,34 @@
     ],
     "bookingComboCandidates": [
       {
-        "player": "Hakimi",
-        "team": "Marocco"
+        "player": "Neil El Aynaoui",
+        "team": "Marocco",
+        "risk": "Alto",
+        "note": "Titolare ufficiale, 11 falli commessi nel torneo, zona centrale contro Olise/Rabiot e partita da alta intensita."
       },
       {
-        "player": "El Aynaoui",
-        "team": "Marocco"
+        "player": "Achraf Hakimi",
+        "team": "Marocco",
+        "risk": "Alto",
+        "note": "Fascia destra esposta contro Dembele, Doue e Digne; rischio fallo tattico se il Marocco deve difendere basso o rincorrere."
       },
       {
-        "player": "Tchouameni",
-        "team": "Francia"
+        "player": "Ayyoub Bouaddi",
+        "team": "Marocco",
+        "risk": "Medio-alto",
+        "note": "Titolare ufficiale, profilo giovane/aggressivo, rischio disciplinare stagionale alto e duelli interni frequenti."
+      },
+      {
+        "player": "Issa Diop",
+        "team": "Marocco",
+        "risk": "Medio-alto",
+        "note": "Centrale contro Mbappe, 2 gialli nel campione e possibile intervento di emergenza se la Francia attacca la profondita."
+      },
+      {
+        "player": "Adrien Rabiot",
+        "team": "Francia",
+        "risk": "Medio",
+        "note": "Titolare ufficiale, 7 falli commessi e 1.62 falli/90; esposto se Ounahi e Brahim Diaz riescono a portare transizioni."
       }
     ]
   },
@@ -481,5 +499,42 @@
       "Brahim Diaz",
       "El Khannouss"
     ]
-  }
+  },
+  "bookingHierarchy": [
+    {
+      "rank": 1,
+      "player": "Neil El Aynaoui",
+      "team": "Marocco",
+      "risk": "Alto",
+      "rationale": "Titolare ufficiale, 11 falli commessi nel torneo, zona centrale contro Olise/Rabiot e partita da alta intensita."
+    },
+    {
+      "rank": 2,
+      "player": "Achraf Hakimi",
+      "team": "Marocco",
+      "risk": "Alto",
+      "rationale": "Fascia destra esposta contro Dembele, Doue e Digne; rischio fallo tattico se il Marocco deve difendere basso o rincorrere."
+    },
+    {
+      "rank": 3,
+      "player": "Ayyoub Bouaddi",
+      "team": "Marocco",
+      "risk": "Medio-alto",
+      "rationale": "Titolare ufficiale, profilo giovane/aggressivo, rischio disciplinare stagionale alto e duelli interni frequenti."
+    },
+    {
+      "rank": 4,
+      "player": "Issa Diop",
+      "team": "Marocco",
+      "risk": "Medio-alto",
+      "rationale": "Centrale contro Mbappe, 2 gialli nel campione e possibile intervento di emergenza se la Francia attacca la profondita."
+    },
+    {
+      "rank": 5,
+      "player": "Adrien Rabiot",
+      "team": "Francia",
+      "risk": "Medio",
+      "rationale": "Titolare ufficiale, 7 falli commessi e 1.62 falli/90; esposto se Ounahi e Brahim Diaz riescono a portare transizioni."
+    }
+  ]
 }

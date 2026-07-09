@@ -30,7 +30,7 @@
     "I segnali non sono quote e non rappresentano una schedina: servono solo per aiutare la piueline MyCombo a pesare gli eventi disponibili.",
     "I mercati giocatore vanno confermati con titolarita, ruolo e minuti previsti prima dell'uso operativo.",
     "Nei teamProfiles, falli subiti/foulsWon sono calcolati come falli commessi dall'avversario; il valore foulsWonFromPlayerRows conserva la somma player-by-player ESPN quando differisce dal totale squadra.",
-    "Probabili formazioni aggiornate: Barcola e Saibari non sono titolari probabili; Doue e Rahimi sono titolari probabili nella versione fornita dall'utente."
+    "Formazioni ufficiali Francia-Marocco aggiornate da screenshot Diretta: Doue titolare per la Francia; per il Marocco El Khannouss, Talbi e Salah-Eddine sono titolari, Rahimi e Chadi Riad non partono nell XI ufficiale."
   ],
   "matchSummaries": [
     {
@@ -1669,7 +1669,7 @@
     }
   },
   "probableLineups": {
-    "source": "Probabili formazioni fornite dall'utente / screenshot Diretta",
+    "source": "Formazioni ufficiali fornite dall utente / screenshot Diretta del 2026-07-09",
     "formation": "4-2-3-1 vs 4-2-3-1",
     "France": {
       "team": "Francia",
@@ -1686,36 +1686,33 @@
         "Michael Olise",
         "Desire Doue",
         "Kylian Mbappe"
-      ],
-      "notInProbableXIFromPreviousDraft": [
-        "Bradley Barcola"
       ]
     },
     "Morocco": {
       "team": "Marocco",
       "module": "4-2-3-1",
       "starters": [
-        "Yassine Bounou",
+        "Bono",
         "Achraf Hakimi",
         "Issa Diop",
-        "Chadi Riad",
         "Noussair Mazraoui",
-        "Bilal El Khannouss",
+        "Salah-Eddine",
+        "Chemsdine Talbi",
         "Neil El Aynaoui",
-        "Brahim Diaz",
-        "Ayyoub Bouaddi",
         "Azzedine Ounahi",
-        "Soufiane Rahimi"
+        "Ayyoub Bouaddi",
+        "Brahim Diaz",
+        "Bilal El Khannouss"
       ],
-      "notInProbableXIFromPreviousDraft": [
-        "Ismael Saibari",
-        "Redouane Halhal"
+      "notStartingFromPreviousDraft": [
+        "Soufiane Rahimi",
+        "Chadi Riad"
       ]
     },
     "modelImpact": [
-      "Barcola e Saibari non vanno trattati come titolari probabili in questa versione.",
-      "Doue e Rahimi vanno considerati titolari probabili, ma i mercati su Doue restano non usati se la quota/linea non e necessaria alla MyCombo.",
-      "Olise, Dembele e Mbappe restano coerenti con i mercati tiri selezionati."
+      "Le MyCombo su Mbappe, Dembele, Olise e Brahim Diaz restano coerenti: sono tutti titolari ufficiali.",
+      "Rahimi non va piu trattato come titolare: eventuali mercati su di lui richiedono copertura sostituto/minutaggio.",
+      "El Khannouss diventa il riferimento offensivo centrale del Marocco nello slot iniziale."
     ]
   },
   "status": "ready",
@@ -1790,20 +1787,25 @@
       "team": "Morocco",
       "slotId": "morocco_st",
       "slotLabel": "Morocco centre forward",
-      "primaryPlayer": "Soufiane Rahimi",
-      "expectedPrimaryMinutes": 75,
+      "primaryPlayer": "Bilal El Khannouss",
+      "expectedPrimaryMinutes": 70,
       "replacementCandidates": [
         {
+          "player": "Soufiane Rahimi",
+          "replacementProbability": 0.45,
+          "expectedMinutes": 20
+        },
+        {
           "player": "Ayoub El Kaabi",
-          "replacementProbability": 0.55,
-          "expectedMinutes": 10
+          "replacementProbability": 0.35,
+          "expectedMinutes": 15
         }
       ],
       "slotMetrics": {
-        "slotShotsPer90": 3.25,
-        "slotShotsOnTargetPer90": 2.17,
-        "slotShotThreatIndex": 72,
-        "slotShotOnTargetIndex": 82
+        "slotShotsPer90": 1.31,
+        "slotShotsOnTargetPer90": 0.87,
+        "slotShotThreatIndex": 44,
+        "slotShotOnTargetIndex": 48
       },
       "marketApplicability": {
         "shots": true,
@@ -1839,8 +1841,57 @@
         },
         "reliability": "high",
         "note": "Replacement candidate found in existing player model."
-      }
+      },
+      "reliability": "medium",
+      "note": "Aggiornato su formazioni ufficiali: El Khannouss titolare, Rahimi opzione dalla panchina."
     }
   ],
-  "sourceRoleSlotModel": "data/player-stats/quarterfinals-role-slot-model.json"
+  "sourceRoleSlotModel": "data/player-stats/quarterfinals-role-slot-model.json",
+  "officialLineups": {
+    "source": "Formazioni ufficiali fornite dall utente / screenshot Diretta del 2026-07-09",
+    "formation": "4-2-3-1 vs 4-2-3-1",
+    "France": {
+      "team": "Francia",
+      "module": "4-2-3-1",
+      "starters": [
+        "Mike Maignan",
+        "Jules Kounde",
+        "Dayot Upamecano",
+        "William Saliba",
+        "Lucas Digne",
+        "Manu Kone",
+        "Adrien Rabiot",
+        "Ousmane Dembele",
+        "Michael Olise",
+        "Desire Doue",
+        "Kylian Mbappe"
+      ]
+    },
+    "Morocco": {
+      "team": "Marocco",
+      "module": "4-2-3-1",
+      "starters": [
+        "Bono",
+        "Achraf Hakimi",
+        "Issa Diop",
+        "Noussair Mazraoui",
+        "Salah-Eddine",
+        "Chemsdine Talbi",
+        "Neil El Aynaoui",
+        "Azzedine Ounahi",
+        "Ayyoub Bouaddi",
+        "Brahim Diaz",
+        "Bilal El Khannouss"
+      ],
+      "notStartingFromPreviousDraft": [
+        "Soufiane Rahimi",
+        "Chadi Riad"
+      ]
+    },
+    "modelImpact": [
+      "Le MyCombo su Mbappe, Dembele, Olise e Brahim Diaz restano coerenti: sono tutti titolari ufficiali.",
+      "Rahimi non va piu trattato come titolare: eventuali mercati su di lui richiedono copertura sostituto/minutaggio.",
+      "El Khannouss diventa il riferimento offensivo centrale del Marocco nello slot iniziale."
+    ]
+  }
 }

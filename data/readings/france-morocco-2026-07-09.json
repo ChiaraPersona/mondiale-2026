@@ -1,5 +1,5 @@
 {
-  "status": "partial_missing_context",
+  "status": "complete",
   "match": "Francia-Marocco",
   "date": "2026-07-09",
   "summary": "Lettura operativa basata su weighted player model completo: France vs Morocco. Priorita a tiri/SOT dei profili con continuita, cartellini/falli su ruoli esposti e contesto stadio/meteo se disponibile.",
@@ -34,9 +34,9 @@
       "cardExposure": 36,
       "foulExposure": 38,
       "topPlayers": [
-        "Ayoube Amaimouni",
-        "Soufiane Rahimi",
-        "Ayoub El Kaabi"
+        "Bilal El Khannouss",
+        "Brahim Diaz",
+        "Achraf Hakimi"
       ]
     }
   ],
@@ -154,7 +154,7 @@
     }
   },
   "shotsScenario": {
-    "primary": "Kylian Mbappé tiri/SOT, Ayoube Amaimouni tiri/SOT, Soufiane Rahimi tiri/SOT",
+    "primary": "Kylian Mbappe tiri/SOT, Michael Olise tiri/SOT, Bilal El Khannouss tiri/SOT con Rahimi solo da panchina",
     "teamModel": {
       "France": {
         "weightedShotsForPerMatch": 17.41,
@@ -189,8 +189,8 @@
   },
   "riskFactors": [
     "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
-    "player prop sensibili a titolarita e sostituzioni",
-    "cartellini individuali ad alta varianza"
+    "cartellini individuali ad alta varianza",
+    "Formazioni ufficiali integrate: evitare mercati pre-match su Rahimi come titolare; usare solo se coperti da sostituto/minutaggio."
   ],
   "missingContext": [
     "France: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
@@ -342,13 +342,16 @@
     {
       "team": "Morocco",
       "slotId": "morocco_st",
-      "primaryPlayer": "Soufiane Rahimi",
+      "primaryPlayer": "Bilal El Khannouss",
       "replacementCandidates": [
+        "Soufiane Rahimi",
         "Ayoub El Kaabi"
       ],
-      "slotShotsPer90": 3.25,
-      "slotShotsOnTargetPer90": 2.17,
-      "reliability": "high"
+      "slotShotsPer90": 1.31,
+      "slotShotsOnTargetPer90": 0.87,
+      "reliability": "high",
+      "confidence": "medium",
+      "note": "Aggiornato con XI ufficiale: Rahimi non titolare."
     }
   ],
   "matchEnvironmentEvidence": {
@@ -446,8 +449,37 @@
   ],
   "riskWarnings": [
     "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
-    "player prop sensibili a titolarita e sostituzioni",
     "cartellini individuali ad alta varianza",
-    "Campi avanzati non disponibili restano null e non vanno stimati."
-  ]
+    "Campi avanzati non disponibili restano null e non vanno stimati.",
+    "XI ufficiale confermato: mercati su Mbappe, Dembele, Olise e Brahim Diaz restano allineati alla titolarita."
+  ],
+  "officialLineups": {
+    "source": "Screenshot Diretta fornito dall utente, 2026-07-09",
+    "France": [
+      "Maignan",
+      "Kounde",
+      "Upamecano",
+      "Saliba",
+      "Digne",
+      "Kone",
+      "Rabiot",
+      "Dembele",
+      "Olise",
+      "Doue",
+      "Mbappe"
+    ],
+    "Morocco": [
+      "Bono",
+      "Hakimi",
+      "Diop",
+      "Mazraoui",
+      "Salah-Eddine",
+      "Talbi",
+      "El Aynaoui",
+      "Ounahi",
+      "Bouaddi",
+      "Brahim Diaz",
+      "El Khannouss"
+    ]
+  }
 }

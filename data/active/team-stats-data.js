@@ -699,39 +699,915 @@ const teamStatsData = [
     "team": "Belgio",
     "group": "G",
     "flag": "flags/belgio.svg",
-    "summary": "Struttura pronta per statistiche squadra e calciatori.",
-    "analyzedMatches": [],
-    "averages": [],
-    "modelReading": "Dati da inserire.",
-    "estimateTitle": "Stime prossimo match",
-    "estimate": [],
-    "playerStatsNotes": [],
+    "summary": "Belgio: statistiche precise disponibili da ESPN/player-stats sulle 5 partite Mondiale 2026.",
+    "analyzedMatches": [
+      {
+        "match": "Belgio vs Egitto",
+        "context": "Fase a gironi. girone. avversario medio. Belgio superiore in girone",
+        "stats": [
+          [
+            "Gol",
+            "0"
+          ],
+          [
+            "Tiri",
+            "15"
+          ],
+          [
+            "Tiri in porta",
+            "3"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "15"
+          ],
+          [
+            "Falli subiti",
+            "15"
+          ],
+          [
+            "Cartellini gialli",
+            "4"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Belgio vs Iran",
+        "context": "Fase a gironi. girone. avversario medio-basso. Belgio in gestione territoriale",
+        "stats": [
+          [
+            "Gol",
+            "0"
+          ],
+          [
+            "Tiri",
+            "23"
+          ],
+          [
+            "Tiri in porta",
+            "7"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "7"
+          ],
+          [
+            "Falli subiti",
+            "8"
+          ],
+          [
+            "Cartellini gialli",
+            "3"
+          ],
+          [
+            "Cartellini rossi",
+            "1"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Nuova Zelanda vs Belgio",
+        "context": "Fase a gironi. girone facile con turnover. avversario basso-medio. rotazioni e volume",
+        "stats": [
+          [
+            "Gol",
+            "5"
+          ],
+          [
+            "Tiri",
+            "35"
+          ],
+          [
+            "Tiri in porta",
+            "10"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "7"
+          ],
+          [
+            "Falli subiti",
+            "10"
+          ],
+          [
+            "Cartellini gialli",
+            "0"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Belgio vs Senegal",
+        "context": "Sedicesimi. eliminazione diretta. avversario medio-alto. gara intensa ai supplementari",
+        "stats": [
+          [
+            "Gol",
+            "3"
+          ],
+          [
+            "Tiri",
+            "19"
+          ],
+          [
+            "Tiri in porta",
+            "5"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "22"
+          ],
+          [
+            "Falli subiti",
+            "12"
+          ],
+          [
+            "Cartellini gialli",
+            "2"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Stati Uniti vs Belgio",
+        "context": "Ottavi. eliminazione diretta. avversario alto. ottavo pesante",
+        "stats": [
+          [
+            "Gol",
+            "4"
+          ],
+          [
+            "Tiri",
+            "15"
+          ],
+          [
+            "Tiri in porta",
+            "7"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "9"
+          ],
+          [
+            "Falli subiti",
+            "11"
+          ],
+          [
+            "Cartellini gialli",
+            "0"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      }
+    ],
+    "averages": [
+      [
+        "Tiri totali medi",
+        "21.4"
+      ],
+      [
+        "Tiri in porta medi",
+        "6.4"
+      ],
+      [
+        "Corner medi",
+        "n/d"
+      ],
+      [
+        "Falli commessi medi",
+        "12"
+      ],
+      [
+        "Falli subiti medi",
+        "11.2"
+      ],
+      [
+        "Cartellini gialli medi",
+        "1.8"
+      ],
+      [
+        "Possesso medio",
+        "n/d"
+      ],
+      [
+        "xG medio",
+        "n/d"
+      ]
+    ],
+    "modelReading": "Belgio e coperta su 5 partite reali del Mondiale 2026. La lettura precisa usa minuti, gol, tiri, tiri in porta, falli commessi, falli subiti e cartellini. Corner, possesso e xG non sono disponibili nel provider usato e restano n/d.",
+    "estimateTitle": "Stima prossimo match - Spagna-Belgio",
+    "estimate": [
+      [
+        "Tiri Belgio",
+        "18-25"
+      ],
+      [
+        "Tiri in porta Belgio",
+        "5-8"
+      ],
+      [
+        "Corner Belgio",
+        "n/d"
+      ],
+      [
+        "Falli commessi Belgio",
+        "10-14"
+      ],
+      [
+        "Falli subiti Belgio",
+        "8-15"
+      ],
+      [
+        "Cartellini Belgio",
+        "0-3"
+      ]
+    ],
+    "playerStatsNotes": [
+      "Statistiche calciatori complete sulle 5 partite disponibili nel modello player-stats.",
+      "Corner, possesso, xG, xA, tocchi, passaggi, duelli e rating restano n/d se non esposti dal provider."
+    ],
     "playerMatches": []
   },
   {
     "team": "Argentina",
     "group": "J",
     "flag": "flags/argentina.svg",
-    "summary": "Struttura pronta per statistiche squadra e calciatori.",
-    "analyzedMatches": [],
-    "averages": [],
-    "modelReading": "Dati da inserire.",
-    "estimateTitle": "Stime prossimo match",
-    "estimate": [],
-    "playerStatsNotes": [],
+    "summary": "Argentina: statistiche precise disponibili da ESPN/player-stats sulle 5 partite Mondiale 2026.",
+    "analyzedMatches": [
+      {
+        "match": "Argentina vs Algeria",
+        "context": "Fase a gironi. girone. avversario medio. Argentina favorita",
+        "stats": [
+          [
+            "Gol",
+            "3"
+          ],
+          [
+            "Tiri",
+            "10"
+          ],
+          [
+            "Tiri in porta",
+            "6"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "13"
+          ],
+          [
+            "Falli subiti",
+            "7"
+          ],
+          [
+            "Cartellini gialli",
+            "0"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Argentina vs Austria",
+        "context": "Fase a gironi. girone contro avversario forte. avversario medio-alto. test intensita",
+        "stats": [
+          [
+            "Gol",
+            "2"
+          ],
+          [
+            "Tiri",
+            "12"
+          ],
+          [
+            "Tiri in porta",
+            "5"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "13"
+          ],
+          [
+            "Falli subiti",
+            "12"
+          ],
+          [
+            "Cartellini gialli",
+            "4"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Giordania vs Argentina",
+        "context": "Fase a gironi. girone facile con turnover. avversario basso-medio. volume meno predittivo",
+        "stats": [
+          [
+            "Gol",
+            "3"
+          ],
+          [
+            "Tiri",
+            "12"
+          ],
+          [
+            "Tiri in porta",
+            "4"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "7"
+          ],
+          [
+            "Falli subiti",
+            "12"
+          ],
+          [
+            "Cartellini gialli",
+            "0"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Argentina vs Capo Verde",
+        "context": "Sedicesimi. eliminazione diretta. avversario medio-basso. supplementari",
+        "stats": [
+          [
+            "Gol",
+            "2"
+          ],
+          [
+            "Tiri",
+            "22"
+          ],
+          [
+            "Tiri in porta",
+            "10"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "13"
+          ],
+          [
+            "Falli subiti",
+            "12"
+          ],
+          [
+            "Cartellini gialli",
+            "2"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Argentina vs Egitto",
+        "context": "Ottavi. eliminazione diretta. avversario medio. ottavo controllato",
+        "stats": [
+          [
+            "Gol",
+            "3"
+          ],
+          [
+            "Tiri",
+            "19"
+          ],
+          [
+            "Tiri in porta",
+            "7"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "13"
+          ],
+          [
+            "Falli subiti",
+            "11"
+          ],
+          [
+            "Cartellini gialli",
+            "0"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      }
+    ],
+    "averages": [
+      [
+        "Tiri totali medi",
+        "15"
+      ],
+      [
+        "Tiri in porta medi",
+        "6.4"
+      ],
+      [
+        "Corner medi",
+        "n/d"
+      ],
+      [
+        "Falli commessi medi",
+        "11.8"
+      ],
+      [
+        "Falli subiti medi",
+        "10.8"
+      ],
+      [
+        "Cartellini gialli medi",
+        "1.2"
+      ],
+      [
+        "Possesso medio",
+        "n/d"
+      ],
+      [
+        "xG medio",
+        "n/d"
+      ]
+    ],
+    "modelReading": "Argentina e coperta su 5 partite reali del Mondiale 2026. La lettura precisa usa minuti, gol, tiri, tiri in porta, falli commessi, falli subiti e cartellini. Corner, possesso e xG non sono disponibili nel provider usato e restano n/d.",
+    "estimateTitle": "Stima prossimo match - Argentina-Svizzera",
+    "estimate": [
+      [
+        "Tiri Argentina",
+        "12-18"
+      ],
+      [
+        "Tiri in porta Argentina",
+        "5-8"
+      ],
+      [
+        "Corner Argentina",
+        "n/d"
+      ],
+      [
+        "Falli commessi Argentina",
+        "9-14"
+      ],
+      [
+        "Falli subiti Argentina",
+        "7-14"
+      ],
+      [
+        "Cartellini Argentina",
+        "0-3"
+      ]
+    ],
+    "playerStatsNotes": [
+      "Statistiche calciatori complete sulle 5 partite disponibili nel modello player-stats.",
+      "Corner, possesso, xG, xA, tocchi, passaggi, duelli e rating restano n/d se non esposti dal provider."
+    ],
     "playerMatches": []
   },
   {
     "team": "Svizzera",
     "group": "B",
     "flag": "flags/svizzera.svg",
-    "summary": "Struttura pronta per statistiche squadra e calciatori.",
-    "analyzedMatches": [],
-    "averages": [],
-    "modelReading": "Dati da inserire.",
-    "estimateTitle": "Stime prossimo match",
-    "estimate": [],
-    "playerStatsNotes": [],
+    "summary": "Svizzera: statistiche precise disponibili da ESPN/player-stats sulle 5 partite Mondiale 2026.",
+    "analyzedMatches": [
+      {
+        "match": "Qatar vs Svizzera",
+        "context": "Fase a gironi. girone. avversario medio-basso. Svizzera favorita",
+        "stats": [
+          [
+            "Gol",
+            "1"
+          ],
+          [
+            "Tiri",
+            "26"
+          ],
+          [
+            "Tiri in porta",
+            "7"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "11"
+          ],
+          [
+            "Falli subiti",
+            "12"
+          ],
+          [
+            "Cartellini gialli",
+            "2"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Svizzera vs Bosnia-Herzegovina",
+        "context": "Fase a gironi. girone. avversario medio. girone competitivo",
+        "stats": [
+          [
+            "Gol",
+            "4"
+          ],
+          [
+            "Tiri",
+            "13"
+          ],
+          [
+            "Tiri in porta",
+            "7"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "7"
+          ],
+          [
+            "Falli subiti",
+            "17"
+          ],
+          [
+            "Cartellini gialli",
+            "2"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Svizzera vs Canada",
+        "context": "Fase a gironi. girone contro avversario forte. avversario medio-alto. test transizioni",
+        "stats": [
+          [
+            "Gol",
+            "2"
+          ],
+          [
+            "Tiri",
+            "6"
+          ],
+          [
+            "Tiri in porta",
+            "4"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "19"
+          ],
+          [
+            "Falli subiti",
+            "13"
+          ],
+          [
+            "Cartellini gialli",
+            "2"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Svizzera vs Algeria",
+        "context": "Sedicesimi. eliminazione diretta. avversario medio. knockout controllato",
+        "stats": [
+          [
+            "Gol",
+            "2"
+          ],
+          [
+            "Tiri",
+            "11"
+          ],
+          [
+            "Tiri in porta",
+            "5"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "10"
+          ],
+          [
+            "Falli subiti",
+            "12"
+          ],
+          [
+            "Cartellini gialli",
+            "0"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Svizzera vs Colombia",
+        "context": "Ottavi. eliminazione diretta. avversario alto. ottavo equilibrato ai rigori",
+        "stats": [
+          [
+            "Gol",
+            "0"
+          ],
+          [
+            "Tiri",
+            "7"
+          ],
+          [
+            "Tiri in porta",
+            "2"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "22"
+          ],
+          [
+            "Falli subiti",
+            "21"
+          ],
+          [
+            "Cartellini gialli",
+            "6"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      }
+    ],
+    "averages": [
+      [
+        "Tiri totali medi",
+        "12.6"
+      ],
+      [
+        "Tiri in porta medi",
+        "5"
+      ],
+      [
+        "Corner medi",
+        "n/d"
+      ],
+      [
+        "Falli commessi medi",
+        "13.8"
+      ],
+      [
+        "Falli subiti medi",
+        "15"
+      ],
+      [
+        "Cartellini gialli medi",
+        "2.4"
+      ],
+      [
+        "Possesso medio",
+        "n/d"
+      ],
+      [
+        "xG medio",
+        "n/d"
+      ]
+    ],
+    "modelReading": "Svizzera e coperta su 5 partite reali del Mondiale 2026. La lettura precisa usa minuti, gol, tiri, tiri in porta, falli commessi, falli subiti e cartellini. Corner, possesso e xG non sono disponibili nel provider usato e restano n/d.",
+    "estimateTitle": "Stima prossimo match - Argentina-Svizzera",
+    "estimate": [
+      [
+        "Tiri Svizzera",
+        "9-16"
+      ],
+      [
+        "Tiri in porta Svizzera",
+        "4-6"
+      ],
+      [
+        "Corner Svizzera",
+        "n/d"
+      ],
+      [
+        "Falli commessi Svizzera",
+        "11-16"
+      ],
+      [
+        "Falli subiti Svizzera",
+        "12-18"
+      ],
+      [
+        "Cartellini Svizzera",
+        "1-4"
+      ]
+    ],
+    "playerStatsNotes": [
+      "Statistiche calciatori complete sulle 5 partite disponibili nel modello player-stats.",
+      "Corner, possesso, xG, xA, tocchi, passaggi, duelli e rating restano n/d se non esposti dal provider."
+    ],
     "playerMatches": []
   },
   {
@@ -1270,26 +2146,610 @@ const teamStatsData = [
     "team": "Inghilterra",
     "group": "L",
     "flag": "flags/inghilterra.svg",
-    "summary": "Struttura pronta per statistiche squadra e calciatori.",
-    "analyzedMatches": [],
-    "averages": [],
-    "modelReading": "Dati da inserire.",
-    "estimateTitle": "Stime prossimo match",
-    "estimate": [],
-    "playerStatsNotes": [],
+    "summary": "Inghilterra: statistiche precise disponibili da ESPN/player-stats sulle 5 partite Mondiale 2026.",
+    "analyzedMatches": [
+      {
+        "match": "Inghilterra vs Croazia",
+        "context": "Fase a gironi. girone contro avversario forte. avversario medio-alto. girone contro rivale solido",
+        "stats": [
+          [
+            "Gol",
+            "4"
+          ],
+          [
+            "Tiri",
+            "22"
+          ],
+          [
+            "Tiri in porta",
+            "11"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "10"
+          ],
+          [
+            "Falli subiti",
+            "12"
+          ],
+          [
+            "Cartellini gialli",
+            "0"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Inghilterra vs Ghana",
+        "context": "Fase a gironi. girone. avversario medio. duelli atletici",
+        "stats": [
+          [
+            "Gol",
+            "0"
+          ],
+          [
+            "Tiri",
+            "19"
+          ],
+          [
+            "Tiri in porta",
+            "3"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "14"
+          ],
+          [
+            "Falli subiti",
+            "24"
+          ],
+          [
+            "Cartellini gialli",
+            "2"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Panama vs Inghilterra",
+        "context": "Fase a gironi. girone facile con turnover. avversario basso-medio. volume meno predittivo",
+        "stats": [
+          [
+            "Gol",
+            "2"
+          ],
+          [
+            "Tiri",
+            "17"
+          ],
+          [
+            "Tiri in porta",
+            "6"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "13"
+          ],
+          [
+            "Falli subiti",
+            "16"
+          ],
+          [
+            "Cartellini gialli",
+            "2"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Inghilterra vs RD Congo",
+        "context": "Sedicesimi. eliminazione diretta. avversario medio. gestione knockout",
+        "stats": [
+          [
+            "Gol",
+            "2"
+          ],
+          [
+            "Tiri",
+            "16"
+          ],
+          [
+            "Tiri in porta",
+            "7"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "10"
+          ],
+          [
+            "Falli subiti",
+            "12"
+          ],
+          [
+            "Cartellini gialli",
+            "2"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Messico vs Inghilterra",
+        "context": "Ottavi. eliminazione diretta. avversario alto. ottavo equilibrato",
+        "stats": [
+          [
+            "Gol",
+            "3"
+          ],
+          [
+            "Tiri",
+            "6"
+          ],
+          [
+            "Tiri in porta",
+            "5"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "7"
+          ],
+          [
+            "Falli subiti",
+            "13"
+          ],
+          [
+            "Cartellini gialli",
+            "9"
+          ],
+          [
+            "Cartellini rossi",
+            "1"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      }
+    ],
+    "averages": [
+      [
+        "Tiri totali medi",
+        "16"
+      ],
+      [
+        "Tiri in porta medi",
+        "6.4"
+      ],
+      [
+        "Corner medi",
+        "n/d"
+      ],
+      [
+        "Falli commessi medi",
+        "10.8"
+      ],
+      [
+        "Falli subiti medi",
+        "15.4"
+      ],
+      [
+        "Cartellini gialli medi",
+        "3"
+      ],
+      [
+        "Possesso medio",
+        "n/d"
+      ],
+      [
+        "xG medio",
+        "n/d"
+      ]
+    ],
+    "modelReading": "Inghilterra e coperta su 5 partite reali del Mondiale 2026. La lettura precisa usa minuti, gol, tiri, tiri in porta, falli commessi, falli subiti e cartellini. Corner, possesso e xG non sono disponibili nel provider usato e restano n/d.",
+    "estimateTitle": "Stima prossimo match - Norvegia-Inghilterra",
+    "estimate": [
+      [
+        "Tiri Inghilterra",
+        "13-19"
+      ],
+      [
+        "Tiri in porta Inghilterra",
+        "5-8"
+      ],
+      [
+        "Corner Inghilterra",
+        "n/d"
+      ],
+      [
+        "Falli commessi Inghilterra",
+        "8-13"
+      ],
+      [
+        "Falli subiti Inghilterra",
+        "12-19"
+      ],
+      [
+        "Cartellini Inghilterra",
+        "2-4"
+      ]
+    ],
+    "playerStatsNotes": [
+      "Statistiche calciatori complete sulle 5 partite disponibili nel modello player-stats.",
+      "Corner, possesso, xG, xA, tocchi, passaggi, duelli e rating restano n/d se non esposti dal provider."
+    ],
     "playerMatches": []
   },
   {
     "team": "Norvegia",
     "group": "I",
     "flag": "flags/norvegia.svg",
-    "summary": "Struttura pronta per statistiche squadra e calciatori.",
-    "analyzedMatches": [],
-    "averages": [],
-    "modelReading": "Dati da inserire.",
-    "estimateTitle": "Stime prossimo match",
-    "estimate": [],
-    "playerStatsNotes": [],
+    "summary": "Norvegia: statistiche precise disponibili da ESPN/player-stats sulle 5 partite Mondiale 2026.",
+    "analyzedMatches": [
+      {
+        "match": "Iraq vs Norvegia",
+        "context": "Fase a gironi. girone. avversario basso-medio. Norvegia favorita",
+        "stats": [
+          [
+            "Gol",
+            "3"
+          ],
+          [
+            "Tiri",
+            "12"
+          ],
+          [
+            "Tiri in porta",
+            "5"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "13"
+          ],
+          [
+            "Falli subiti",
+            "11"
+          ],
+          [
+            "Cartellini gialli",
+            "0"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Norvegia vs Senegal",
+        "context": "Fase a gironi. girone contro avversario forte. avversario medio-alto. duelli e intensita",
+        "stats": [
+          [
+            "Gol",
+            "3"
+          ],
+          [
+            "Tiri",
+            "13"
+          ],
+          [
+            "Tiri in porta",
+            "7"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "13"
+          ],
+          [
+            "Falli subiti",
+            "4"
+          ],
+          [
+            "Cartellini gialli",
+            "0"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Norvegia vs Francia",
+        "context": "Fase a gironi. girone contro avversario forte. avversario alto. gara aperta contro avversario forte",
+        "stats": [
+          [
+            "Gol",
+            "1"
+          ],
+          [
+            "Tiri",
+            "10"
+          ],
+          [
+            "Tiri in porta",
+            "4"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "9"
+          ],
+          [
+            "Falli subiti",
+            "10"
+          ],
+          [
+            "Cartellini gialli",
+            "2"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Costa d'Avorio vs Norvegia",
+        "context": "Sedicesimi. eliminazione diretta. avversario medio-alto. knockout intenso",
+        "stats": [
+          [
+            "Gol",
+            "2"
+          ],
+          [
+            "Tiri",
+            "9"
+          ],
+          [
+            "Tiri in porta",
+            "4"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "7"
+          ],
+          [
+            "Falli subiti",
+            "4"
+          ],
+          [
+            "Cartellini gialli",
+            "2"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      },
+      {
+        "match": "Brasile vs Norvegia",
+        "context": "Ottavi. eliminazione diretta. avversario elite. ottavo di alto peso",
+        "stats": [
+          [
+            "Gol",
+            "2"
+          ],
+          [
+            "Tiri",
+            "9"
+          ],
+          [
+            "Tiri in porta",
+            "5"
+          ],
+          [
+            "Corner",
+            "n/d"
+          ],
+          [
+            "Falli commessi",
+            "6"
+          ],
+          [
+            "Falli subiti",
+            "6"
+          ],
+          [
+            "Cartellini gialli",
+            "0"
+          ],
+          [
+            "Cartellini rossi",
+            "0"
+          ],
+          [
+            "Possesso",
+            "n/d"
+          ],
+          [
+            "xG",
+            "n/d"
+          ]
+        ]
+      }
+    ],
+    "averages": [
+      [
+        "Tiri totali medi",
+        "10.6"
+      ],
+      [
+        "Tiri in porta medi",
+        "5"
+      ],
+      [
+        "Corner medi",
+        "n/d"
+      ],
+      [
+        "Falli commessi medi",
+        "9.6"
+      ],
+      [
+        "Falli subiti medi",
+        "7"
+      ],
+      [
+        "Cartellini gialli medi",
+        "0.8"
+      ],
+      [
+        "Possesso medio",
+        "n/d"
+      ],
+      [
+        "xG medio",
+        "n/d"
+      ]
+    ],
+    "modelReading": "Norvegia e coperta su 5 partite reali del Mondiale 2026. La lettura precisa usa minuti, gol, tiri, tiri in porta, falli commessi, falli subiti e cartellini. Corner, possesso e xG non sono disponibili nel provider usato e restano n/d.",
+    "estimateTitle": "Stima prossimo match - Norvegia-Inghilterra",
+    "estimate": [
+      [
+        "Tiri Norvegia",
+        "7-14"
+      ],
+      [
+        "Tiri in porta Norvegia",
+        "4-6"
+      ],
+      [
+        "Corner Norvegia",
+        "n/d"
+      ],
+      [
+        "Falli commessi Norvegia",
+        "7-12"
+      ],
+      [
+        "Falli subiti Norvegia",
+        "4-10"
+      ],
+      [
+        "Cartellini Norvegia",
+        "0-2"
+      ]
+    ],
+    "playerStatsNotes": [
+      "Statistiche calciatori complete sulle 5 partite disponibili nel modello player-stats.",
+      "Corner, possesso, xG, xA, tocchi, passaggi, duelli e rating restano n/d se non esposti dal provider."
+    ],
     "playerMatches": []
   }
 ];

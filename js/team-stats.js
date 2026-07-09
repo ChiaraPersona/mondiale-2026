@@ -384,7 +384,6 @@ function playerMetricValue(row, metric) {
 
 function renderPlayerFilterControls(team, rows) {
   const matchOptions = [...new Set((team.playerMatches || []).map((match) => match.match).filter(Boolean))];
-  const linkedSources = [...new Set((team.playerMatches || []).map((match) => match.normalizedSource).filter(Boolean))];
   const rowsLabel = teamStatsPlayerFilters.match === "all" ? "calciatori aggregati" : "righe partita-calciatore";
   const roleOptions = [
     ["attackers", "Attaccanti / esterni offensivi"],
@@ -421,7 +420,6 @@ function renderPlayerFilterControls(team, rows) {
           ${metricOptions.map(([value, label]) => `<option value="${value}"${selectedAttr(teamStatsPlayerFilters.metric, value)}>${escapeTeamStats(label)}</option>`).join("")}
         </select>
       </label>
-      ${linkedSources.length ? `<strong>JSON collegati: ${linkedSources.map(escapeTeamStats).join(" · ")}</strong>` : ""}
       <strong>${escapeTeamStats(rows.length)} ${escapeTeamStats(rowsLabel)}</strong>
     </div>
   `;

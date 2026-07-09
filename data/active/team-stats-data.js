@@ -12,7 +12,8 @@ const teamStatsData = [
           ["Tiri", "27"],
           ["Tiri in porta", "7"],
           ["Corner", "11"],
-          ["Falli", "10"],
+          ["Falli commessi", "10"],
+          ["Falli subiti", "1"],
           ["Cartellini gialli", "1"],
           ["xG", "2.10"],
           ["Possesso", "74%"]
@@ -25,7 +26,8 @@ const teamStatsData = [
           ["Tiri", "22"],
           ["Tiri in porta", "8"],
           ["Corner", "6"],
-          ["Falli", "10"],
+          ["Falli commessi", "10"],
+          ["Falli subiti", "2"],
           ["Cartellini gialli", "0"],
           ["xG", "2.30"],
           ["Possesso", "67%"]
@@ -38,7 +40,8 @@ const teamStatsData = [
           ["Tiri", "5-6"],
           ["Tiri in porta", "1"],
           ["Corner", "6"],
-          ["Falli", "14"],
+          ["Falli commessi", "14"],
+          ["Falli subiti", "14"],
           ["Cartellini gialli", "1"],
           ["xG", "0.53-0.86"],
           ["Possesso", "67-68%"]
@@ -51,7 +54,8 @@ const teamStatsData = [
           ["Tiri", "22-23"],
           ["Tiri in porta", "10"],
           ["Corner", "9"],
-          ["Falli", "8"],
+          ["Falli commessi", "8"],
+          ["Falli subiti", "15"],
           ["Cartellini gialli", "0"],
           ["xG", "2.25-2.84"],
           ["Possesso", "64-65%"]
@@ -64,7 +68,8 @@ const teamStatsData = [
           ["Tiri", "15"],
           ["Tiri in porta", "6"],
           ["Corner", "7"],
-          ["Falli", "13"],
+          ["Falli commessi", "13"],
+          ["Falli subiti", "9"],
           ["Cartellini gialli", "1"],
           ["xG", "1.60-1.69"],
           ["Possesso", "55-56%"]
@@ -75,7 +80,8 @@ const teamStatsData = [
       ["Tiri totali medi", "18.4"],
       ["Tiri in porta medi", "6.4"],
       ["Corner medi", "7.8"],
-      ["Falli medi", "11.0"],
+      ["Falli commessi medi", "11.0"],
+      ["Falli subiti medi", "8.2"],
       ["Cartellini gialli medi", "0.6"],
       ["Possesso medio", "65-66%"],
       ["xG medio", "circa 1.75-1.90"]
@@ -86,7 +92,8 @@ const teamStatsData = [
       ["Tiri Spagna", "12-16"],
       ["Tiri in porta Spagna", "4-6"],
       ["Corner Spagna", "5-8"],
-      ["Falli Spagna", "10-14"],
+      ["Falli commessi Spagna", "10-14"],
+      ["Falli subiti Spagna", "8-14"],
       ["Cartellini Spagna", "0-2"]
     ],
     playerStatsNotes: [
@@ -147,7 +154,7 @@ const teamStatsData = [
           ["Tiri in porta", "12"],
           ["Corner", "n/d"],
           ["Falli commessi", "14"],
-          ["Falli subiti", "9"],
+          ["Falli subiti", "10"],
           ["Cartellini gialli", "0"],
           ["Possesso", "n/d"],
           ["xG", "n/d"]
@@ -175,7 +182,7 @@ const teamStatsData = [
           ["Tiri in porta", "8"],
           ["Corner", "n/d"],
           ["Falli commessi", "5"],
-          ["Falli subiti", "8"],
+          ["Falli subiti", "9"],
           ["Cartellini gialli", "0"],
           ["Possesso", "n/d"],
           ["xG", "n/d"]
@@ -203,7 +210,7 @@ const teamStatsData = [
           ["Tiri in porta", "9"],
           ["Corner", "n/d"],
           ["Falli commessi", "11"],
-          ["Falli subiti", "8"],
+          ["Falli subiti", "9"],
           ["Cartellini gialli", "1"],
           ["Possesso", "n/d"],
           ["xG", "n/d"]
@@ -215,7 +222,7 @@ const teamStatsData = [
       ["Tiri in porta medi", "7.8"],
       ["Corner medi", "n/d"],
       ["Falli commessi medi", "9.8"],
-      ["Falli subiti medi", "8.4"],
+      ["Falli subiti medi", "9.0"],
       ["Cartellini gialli medi", "0.8"],
       ["Possesso medio", "n/d"],
       ["xG medio", "n/d"]
@@ -226,7 +233,8 @@ const teamStatsData = [
       ["Tiri Francia", "13-18"],
       ["Tiri in porta Francia", "5-8"],
       ["Corner Francia", "n/d"],
-      ["Falli Francia", "8-12"],
+      ["Falli commessi Francia", "8-12"],
+      ["Falli subiti Francia", "9-13"],
       ["Cartellini Francia", "0-2"],
       ["Gol attesi modello", "1-2"]
     ],
@@ -247,7 +255,7 @@ const teamStatsData = [
           ["Tiri in porta", "5"],
           ["Corner", "n/d"],
           ["Falli commessi", "15"],
-          ["Falli subiti", "15"],
+          ["Falli subiti", "18"],
           ["Cartellini gialli", "1"],
           ["Possesso", "n/d"],
           ["xG", "n/d"]
@@ -261,7 +269,7 @@ const teamStatsData = [
           ["Tiri in porta", "4"],
           ["Corner", "n/d"],
           ["Falli commessi", "14"],
-          ["Falli subiti", "23"],
+          ["Falli subiti", "24"],
           ["Cartellini gialli", "4"],
           ["Possesso", "n/d"],
           ["xG", "n/d"]
@@ -289,7 +297,7 @@ const teamStatsData = [
           ["Tiri in porta", "2"],
           ["Corner", "n/d"],
           ["Falli commessi", "8"],
-          ["Falli subiti", "10"],
+          ["Falli subiti", "11"],
           ["Cartellini gialli", "1"],
           ["Possesso", "n/d"],
           ["xG", "n/d"]
@@ -315,7 +323,7 @@ const teamStatsData = [
       ["Tiri in porta medi", "5.0"],
       ["Corner medi", "n/d"],
       ["Falli commessi medi", "12.2"],
-      ["Falli subiti medi", "16.4"],
+      ["Falli subiti medi", "17.4"],
       ["Cartellini gialli medi", "1.2"],
       ["Possesso medio", "n/d"],
       ["xG medio", "n/d"]
@@ -326,7 +334,8 @@ const teamStatsData = [
       ["Tiri Marocco", "8-13"],
       ["Tiri in porta Marocco", "3-5"],
       ["Corner Marocco", "n/d"],
-      ["Falli Marocco", "11-16"],
+      ["Falli commessi Marocco", "11-16"],
+      ["Falli subiti Marocco", "14-20"],
       ["Cartellini Marocco", "1-3"],
       ["Gol attesi modello", "0-1"]
     ],

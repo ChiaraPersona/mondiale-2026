@@ -1,0 +1,1202 @@
+{
+  "matchId": "france-morocco-2026-07-09",
+  "match": "Francia-Marocco",
+  "date": "2026-07-09",
+  "purpose": "Supporto MyCombo: arricchisce la valutazione degli eventi quando arriveranno le quote Sisal. Non contiene quote e non genera schedine definitive.",
+  "rules": {
+    "noOdds": true,
+    "noFinalBetSlip": true,
+    "noInventedMarkets": true,
+    "nullsNotConvertedToZero": true
+  },
+  "sources": {
+    "mergedFiles": [
+      "data/player-stats/merged/france-sweden-2026-06-30.json",
+      "data/player-stats/merged/paraguay-france-2026-07-04.json",
+      "data/player-stats/merged/france-senegal-2026-06-16.json",
+      "data/player-stats/merged/france-iraq-2026-06-22.json",
+      "data/player-stats/merged/norway-france-2026-06-26.json",
+      "data/player-stats/merged/netherlands-morocco-2026-06-29.json",
+      "data/player-stats/merged/canada-morocco-2026-07-04.json",
+      "data/player-stats/merged/brazil-morocco-2026-06-13.json",
+      "data/player-stats/merged/scotland-morocco-2026-06-19.json",
+      "data/player-stats/merged/morocco-haiti-2026-06-24.json"
+    ],
+    "matchContext": "data/player-stats/match-context.json",
+    "primaryProvider": "ESPN merged pipeline"
+  },
+  "dataLimitations": [
+    "I campi avanzati come xG, xA, tocchi, passaggi, duelli e rating non sono disponibili nella copertura ESPN usata per questi merged.",
+    "I segnali non sono quote e non rappresentano una schedina: servono solo per aiutare la pipeline MyCombo a pesare gli eventi disponibili.",
+    "I mercati giocatore vanno confermati con titolarit?, ruolo e minuti previsti prima dell'uso operativo.",
+    "Nei teamProfiles, falli subiti/foulsWon sono calcolati come falli commessi dall'avversario; il valore foulsWonFromPlayerRows conserva la somma player-by-player ESPN quando differisce dal totale squadra."
+  ],
+  "matchSummaries": [
+    {
+      "matchId": "france-sweden-2026-06-30",
+      "file": "data/player-stats/merged/france-sweden-2026-06-30.json",
+      "homeTeam": "France",
+      "awayTeam": "Sweden",
+      "score": "3-0",
+      "date": "2026-06-30",
+      "context": {
+        "matchType": "Sedicesimi / eliminazione diretta",
+        "opponentLevel": "Medio-alto",
+        "opponentStyle": "Fisica, ordinata, compatta",
+        "gameState": "Francia dominante, vittoria netta, buon riferimento per produzione offensiva e controllo partita",
+        "modelWeight": "Alto"
+      }
+    },
+    {
+      "matchId": "paraguay-france-2026-07-04",
+      "file": "data/player-stats/merged/paraguay-france-2026-07-04.json",
+      "homeTeam": "Paraguay",
+      "awayTeam": "France",
+      "score": "0-1",
+      "date": "2026-07-04",
+      "context": {
+        "matchType": "Ottavi / eliminazione diretta",
+        "opponentLevel": "Medio",
+        "opponentStyle": "Difensiva, fisica, blocco basso",
+        "gameState": "Partita chiusa, pochi gol, utile per valutare la Francia contro squadre compatte e prudenti",
+        "modelWeight": "Molto alto"
+      }
+    },
+    {
+      "matchId": "france-senegal-2026-06-16",
+      "file": "data/player-stats/merged/france-senegal-2026-06-16.json",
+      "homeTeam": "France",
+      "awayTeam": "Senegal",
+      "score": "3-1",
+      "date": "2026-06-16",
+      "context": {
+        "matchType": "Fase a gironi",
+        "opponentLevel": "Medio-alto",
+        "opponentStyle": "Fisica, verticale, intensa nelle transizioni",
+        "gameState": "Francia concreta e superiore negli ultimi metri contro avversario atletico",
+        "modelWeight": "Alto"
+      }
+    },
+    {
+      "matchId": "france-iraq-2026-06-22",
+      "file": "data/player-stats/merged/france-iraq-2026-06-22.json",
+      "homeTeam": "France",
+      "awayTeam": "Iraq",
+      "score": "3-0",
+      "date": "2026-06-22",
+      "context": {
+        "matchType": "Fase a gironi",
+        "opponentLevel": "Basso-medio",
+        "opponentStyle": "Difensiva, diretta, tende a concedere volume alle big",
+        "gameState": "Francia dominante, qualificazione indirizzata, utile per volume offensivo ma meno simile al Marocco",
+        "modelWeight": "Medio-basso"
+      }
+    },
+    {
+      "matchId": "norway-france-2026-06-26",
+      "file": "data/player-stats/merged/norway-france-2026-06-26.json",
+      "homeTeam": "Norway",
+      "awayTeam": "France",
+      "score": "1-4",
+      "date": "2026-06-26",
+      "context": {
+        "matchType": "Fase a gironi",
+        "opponentLevel": "Alto",
+        "opponentStyle": "Fisica, verticale, con terminali offensivi forti",
+        "gameState": "Partita aperta con gol da entrambe le parti, utile per valutare Francia contro avversario forte e diretto",
+        "modelWeight": "Alto"
+      }
+    },
+    {
+      "matchId": "netherlands-morocco-2026-06-29",
+      "file": "data/player-stats/merged/netherlands-morocco-2026-06-29.json",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Morocco",
+      "score": "1-1",
+      "date": "2026-06-30",
+      "context": {
+        "matchType": "Sedicesimi / eliminazione diretta",
+        "opponentLevel": "Alto",
+        "opponentStyle": "Tecnica, possesso, qualita offensiva alta",
+        "gameState": "Partita equilibrata, decisa ai rigori, utile per valutare il Marocco contro avversario forte",
+        "modelWeight": "Molto alto"
+      }
+    },
+    {
+      "matchId": "canada-morocco-2026-07-04",
+      "file": "data/player-stats/merged/canada-morocco-2026-07-04.json",
+      "homeTeam": "Canada",
+      "awayTeam": "Morocco",
+      "score": "0-3",
+      "date": "2026-07-04",
+      "context": {
+        "matchType": "Ottavi / eliminazione diretta",
+        "opponentLevel": "Medio",
+        "opponentStyle": "Fisica, diretta, meno tecnica rispetto alle big europee",
+        "gameState": "Marocco dominante, vittoria netta, utile per misurare produzione offensiva e gestione del vantaggio",
+        "modelWeight": "Alto"
+      }
+    },
+    {
+      "matchId": "brazil-morocco-2026-06-13",
+      "file": "data/player-stats/merged/brazil-morocco-2026-06-13.json",
+      "homeTeam": "Brazil",
+      "awayTeam": "Morocco",
+      "score": "1-1",
+      "date": "2026-06-13",
+      "context": {
+        "matchType": "Fase a gironi",
+        "opponentLevel": "Elite",
+        "opponentStyle": "Tecnica, individualita offensive alte, possesso e strappi",
+        "gameState": "Partita equilibrata contro una big, molto utile per misurare tenuta difensiva e transizioni del Marocco",
+        "modelWeight": "Molto alto"
+      }
+    },
+    {
+      "matchId": "scotland-morocco-2026-06-19",
+      "file": "data/player-stats/merged/scotland-morocco-2026-06-19.json",
+      "homeTeam": "Scotland",
+      "awayTeam": "Morocco",
+      "score": "0-1",
+      "date": "2026-06-19",
+      "context": {
+        "matchType": "Fase a gironi",
+        "opponentLevel": "Medio",
+        "opponentStyle": "Fisica, diretta, compatta",
+        "gameState": "Marocco avanti presto e poi in controllo, utile per gestione vantaggio e solidita difensiva",
+        "modelWeight": "Medio"
+      }
+    },
+    {
+      "matchId": "morocco-haiti-2026-06-24",
+      "file": "data/player-stats/merged/morocco-haiti-2026-06-24.json",
+      "homeTeam": "Morocco",
+      "awayTeam": "Haiti",
+      "score": "4-2",
+      "date": "2026-06-24",
+      "context": {
+        "matchType": "Fase a gironi",
+        "opponentLevel": "Basso-medio",
+        "opponentStyle": "Diretta, aperta, meno organizzata difensivamente",
+        "gameState": "Partita aperta e anomala, utile per volume offensivo ma meno simile a Francia-Marocco",
+        "modelWeight": "Medio-basso"
+      }
+    }
+  ],
+  "teamProfiles": {
+    "Francia": {
+      "team": "Francia",
+      "sourceTeam": "France",
+      "matches": 5,
+      "goals": 14,
+      "assists": 12,
+      "shots": 88,
+      "shotsOnTarget": 39,
+      "foulsCommitted": 49,
+      "foulsWon": 45,
+      "yellowCards": 4,
+      "redCards": 0,
+      "shotsPerMatch": 17.6,
+      "shotsOnTargetPerMatch": 7.8,
+      "foulsCommittedPerMatch": 9.8,
+      "foulsWonPerMatch": 9,
+      "yellowCardsPerMatch": 0.8,
+      "foulsWonFromPlayerRows": 42,
+      "foulsSuffered": 45,
+      "foulsSufferedPerMatch": 9
+    },
+    "Marocco": {
+      "team": "Marocco",
+      "sourceTeam": "Morocco",
+      "matches": 5,
+      "goals": 10,
+      "assists": 9,
+      "shots": 64,
+      "shotsOnTarget": 25,
+      "foulsCommitted": 61,
+      "foulsWon": 87,
+      "yellowCards": 6,
+      "redCards": 0,
+      "shotsPerMatch": 12.8,
+      "shotsOnTargetPerMatch": 5,
+      "foulsCommittedPerMatch": 12.2,
+      "foulsWonPerMatch": 17.4,
+      "yellowCardsPerMatch": 1.2,
+      "foulsWonFromPlayerRows": 82,
+      "foulsSuffered": 87,
+      "foulsSufferedPerMatch": 17.4
+    }
+  },
+  "playerProfiles": [
+    {
+      "team": "Francia",
+      "name": "Mike Maignan",
+      "role": "Goalkeeper",
+      "matches": 5,
+      "minutes": 484,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "shotsOnTarget": 0,
+      "foulsCommitted": 0,
+      "foulsWon": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 0,
+      "shotsOnTargetPer90": 0,
+      "foulsCommittedPer90": 0,
+      "foulsWonPer90": 0.37
+    },
+    {
+      "team": "Francia",
+      "name": "Dayot Upamecano",
+      "role": "Center Right Defender",
+      "matches": 5,
+      "minutes": 464,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "shotsOnTarget": 0,
+      "foulsCommitted": 5,
+      "foulsWon": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 0.39,
+      "shotsOnTargetPer90": 0,
+      "foulsCommittedPer90": 0.97,
+      "foulsWonPer90": 0.58
+    },
+    {
+      "team": "Francia",
+      "name": "Kylian Mbappé",
+      "role": "Forward",
+      "matches": 5,
+      "minutes": 464,
+      "goals": 7,
+      "assists": 2,
+      "shots": 26,
+      "shotsOnTarget": 17,
+      "foulsCommitted": 5,
+      "foulsWon": 5,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 1.36,
+      "assistsPer90": 0.39,
+      "shotsPer90": 5.04,
+      "shotsOnTargetPer90": 3.3,
+      "foulsCommittedPer90": 0.97,
+      "foulsWonPer90": 0.97
+    },
+    {
+      "team": "Francia",
+      "name": "Jules Koundé",
+      "role": "Right Back",
+      "matches": 5,
+      "minutes": 446,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "shotsOnTarget": 0,
+      "foulsCommitted": 2,
+      "foulsWon": 4,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 0.2,
+      "shotsOnTargetPer90": 0,
+      "foulsCommittedPer90": 0.4,
+      "foulsWonPer90": 0.81
+    },
+    {
+      "team": "Francia",
+      "name": "Michael Olise",
+      "role": "Attacking Midfielder",
+      "matches": 5,
+      "minutes": 419,
+      "goals": 0,
+      "assists": 5,
+      "shots": 14,
+      "shotsOnTarget": 5,
+      "foulsCommitted": 3,
+      "foulsWon": 9,
+      "yellowCards": 1,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 1.07,
+      "shotsPer90": 3.01,
+      "shotsOnTargetPer90": 1.07,
+      "foulsCommittedPer90": 0.64,
+      "foulsWonPer90": 1.93
+    },
+    {
+      "team": "Francia",
+      "name": "Adrien Rabiot",
+      "role": "Left Midfielder",
+      "matches": 4,
+      "minutes": 388,
+      "goals": 0,
+      "assists": 1,
+      "shots": 6,
+      "shotsOnTarget": 1,
+      "foulsCommitted": 7,
+      "foulsWon": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0.23,
+      "shotsPer90": 1.39,
+      "shotsOnTargetPer90": 0.23,
+      "foulsCommittedPer90": 1.62,
+      "foulsWonPer90": 0.46
+    },
+    {
+      "team": "Francia",
+      "name": "William Saliba",
+      "role": "Center Left Defender",
+      "matches": 4,
+      "minutes": 388,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "shotsOnTarget": 0,
+      "foulsCommitted": 3,
+      "foulsWon": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 0.23,
+      "shotsOnTargetPer90": 0,
+      "foulsCommittedPer90": 0.7,
+      "foulsWonPer90": 0
+    },
+    {
+      "team": "Francia",
+      "name": "Ousmane Dembélé",
+      "role": "Attacking Midfielder Right",
+      "matches": 5,
+      "minutes": 372,
+      "goals": 4,
+      "assists": 2,
+      "shots": 12,
+      "shotsOnTarget": 5,
+      "foulsCommitted": 0,
+      "foulsWon": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0.97,
+      "assistsPer90": 0.48,
+      "shotsPer90": 2.9,
+      "shotsOnTargetPer90": 1.21,
+      "foulsCommittedPer90": 0,
+      "foulsWonPer90": 0.48
+    },
+    {
+      "team": "Francia",
+      "name": "Aurélien Tchouaméni",
+      "role": "Right Midfielder",
+      "matches": 3,
+      "minutes": 290,
+      "goals": 0,
+      "assists": 1,
+      "shots": 2,
+      "shotsOnTarget": 0,
+      "foulsCommitted": 4,
+      "foulsWon": 2,
+      "yellowCards": 1,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0.31,
+      "shotsPer90": 0.62,
+      "shotsOnTargetPer90": 0,
+      "foulsCommittedPer90": 1.24,
+      "foulsWonPer90": 0.62
+    },
+    {
+      "team": "Francia",
+      "name": "Manu Koné",
+      "role": "Right Midfielder",
+      "matches": 3,
+      "minutes": 290,
+      "goals": 0,
+      "assists": 0,
+      "shots": 5,
+      "shotsOnTarget": 2,
+      "foulsCommitted": 4,
+      "foulsWon": 4,
+      "yellowCards": 1,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 1.55,
+      "shotsOnTargetPer90": 0.62,
+      "foulsCommittedPer90": 1.24,
+      "foulsWonPer90": 1.24
+    },
+    {
+      "team": "Francia",
+      "name": "Bradley Barcola",
+      "role": "Attacking Midfielder Left",
+      "matches": 5,
+      "minutes": 289,
+      "goals": 2,
+      "assists": 1,
+      "shots": 6,
+      "shotsOnTarget": 3,
+      "foulsCommitted": 3,
+      "foulsWon": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "goalsPer90": 0.62,
+      "assistsPer90": 0.31,
+      "shotsPer90": 1.87,
+      "shotsOnTargetPer90": 0.93,
+      "foulsCommittedPer90": 0.93,
+      "foulsWonPer90": 0
+    },
+    {
+      "team": "Francia",
+      "name": "Lucas Digne",
+      "role": "Left Back",
+      "matches": 3,
+      "minutes": 272,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "shotsOnTarget": 1,
+      "foulsCommitted": 3,
+      "foulsWon": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 0.33,
+      "shotsOnTargetPer90": 0.33,
+      "foulsCommittedPer90": 0.99,
+      "foulsWonPer90": 0.33
+    },
+    {
+      "team": "Francia",
+      "name": "Désiré Doué",
+      "role": "Substitute",
+      "matches": 5,
+      "minutes": 267,
+      "goals": 1,
+      "assists": 0,
+      "shots": 8,
+      "shotsOnTarget": 5,
+      "foulsCommitted": 1,
+      "foulsWon": 4,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0.34,
+      "assistsPer90": 0,
+      "shotsPer90": 2.7,
+      "shotsOnTargetPer90": 1.69,
+      "foulsCommittedPer90": 0.34,
+      "foulsWonPer90": 1.35
+    },
+    {
+      "team": "Marocco",
+      "name": "Achraf Hakimi",
+      "role": "Right Back",
+      "matches": 5,
+      "minutes": 519,
+      "goals": 1,
+      "assists": 2,
+      "shots": 13,
+      "shotsOnTarget": 4,
+      "foulsCommitted": 6,
+      "foulsWon": 14,
+      "yellowCards": 1,
+      "redCards": 0,
+      "goalsPer90": 0.17,
+      "assistsPer90": 0.35,
+      "shotsPer90": 2.25,
+      "shotsOnTargetPer90": 0.69,
+      "foulsCommittedPer90": 1.04,
+      "foulsWonPer90": 2.43
+    },
+    {
+      "team": "Marocco",
+      "name": "Yassine Bounou",
+      "role": "Goalkeeper",
+      "matches": 5,
+      "minutes": 519,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "shotsOnTarget": 0,
+      "foulsCommitted": 0,
+      "foulsWon": 4,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 0,
+      "shotsOnTargetPer90": 0,
+      "foulsCommittedPer90": 0,
+      "foulsWonPer90": 0.69
+    },
+    {
+      "team": "Marocco",
+      "name": "Neil El Aynaoui",
+      "role": "Left Midfielder",
+      "matches": 5,
+      "minutes": 503,
+      "goals": 0,
+      "assists": 0,
+      "shots": 6,
+      "shotsOnTarget": 2,
+      "foulsCommitted": 11,
+      "foulsWon": 7,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 1.07,
+      "shotsOnTargetPer90": 0.36,
+      "foulsCommittedPer90": 1.97,
+      "foulsWonPer90": 1.25
+    },
+    {
+      "team": "Marocco",
+      "name": "Noussair Mazraoui",
+      "role": "Left Back",
+      "matches": 5,
+      "minutes": 415,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "shotsOnTarget": 0,
+      "foulsCommitted": 3,
+      "foulsWon": 6,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 0,
+      "shotsOnTargetPer90": 0,
+      "foulsCommittedPer90": 0.65,
+      "foulsWonPer90": 1.3
+    },
+    {
+      "team": "Marocco",
+      "name": "Bilal El Khannouss",
+      "role": "Attacking Midfielder Left",
+      "matches": 5,
+      "minutes": 413,
+      "goals": 0,
+      "assists": 0,
+      "shots": 6,
+      "shotsOnTarget": 4,
+      "foulsCommitted": 5,
+      "foulsWon": 5,
+      "yellowCards": 1,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 1.31,
+      "shotsOnTargetPer90": 0.87,
+      "foulsCommittedPer90": 1.09,
+      "foulsWonPer90": 1.09
+    },
+    {
+      "team": "Marocco",
+      "name": "Issa Diop",
+      "role": "Center Right Defender",
+      "matches": 4,
+      "minutes": 407,
+      "goals": 1,
+      "assists": 0,
+      "shots": 1,
+      "shotsOnTarget": 1,
+      "foulsCommitted": 3,
+      "foulsWon": 1,
+      "yellowCards": 2,
+      "redCards": 0,
+      "goalsPer90": 0.22,
+      "assistsPer90": 0,
+      "shotsPer90": 0.22,
+      "shotsOnTargetPer90": 0.22,
+      "foulsCommittedPer90": 0.66,
+      "foulsWonPer90": 0.22
+    },
+    {
+      "team": "Marocco",
+      "name": "Brahim Díaz",
+      "role": "Attacking Midfielder Right",
+      "matches": 5,
+      "minutes": 398,
+      "goals": 0,
+      "assists": 4,
+      "shots": 5,
+      "shotsOnTarget": 1,
+      "foulsCommitted": 3,
+      "foulsWon": 8,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0.9,
+      "shotsPer90": 1.13,
+      "shotsOnTargetPer90": 0.23,
+      "foulsCommittedPer90": 0.68,
+      "foulsWonPer90": 1.81
+    },
+    {
+      "team": "Marocco",
+      "name": "Ismael Saibari",
+      "role": "Forward",
+      "matches": 5,
+      "minutes": 387,
+      "goals": 3,
+      "assists": 0,
+      "shots": 10,
+      "shotsOnTarget": 3,
+      "foulsCommitted": 8,
+      "foulsWon": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0.7,
+      "assistsPer90": 0,
+      "shotsPer90": 2.33,
+      "shotsOnTargetPer90": 0.7,
+      "foulsCommittedPer90": 1.86,
+      "foulsWonPer90": 0.7
+    },
+    {
+      "team": "Marocco",
+      "name": "Chadi Riad",
+      "role": "Center Left Defender",
+      "matches": 4,
+      "minutes": 372,
+      "goals": 0,
+      "assists": 1,
+      "shots": 1,
+      "shotsOnTarget": 0,
+      "foulsCommitted": 0,
+      "foulsWon": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0.24,
+      "shotsPer90": 0.24,
+      "shotsOnTargetPer90": 0,
+      "foulsCommittedPer90": 0,
+      "foulsWonPer90": 0.24
+    },
+    {
+      "team": "Marocco",
+      "name": "Azzedine Ounahi",
+      "role": "Attacking Midfielder",
+      "matches": 5,
+      "minutes": 357,
+      "goals": 2,
+      "assists": 0,
+      "shots": 4,
+      "shotsOnTarget": 2,
+      "foulsCommitted": 2,
+      "foulsWon": 6,
+      "yellowCards": 1,
+      "redCards": 0,
+      "goalsPer90": 0.5,
+      "assistsPer90": 0,
+      "shotsPer90": 1.01,
+      "shotsOnTargetPer90": 0.5,
+      "foulsCommittedPer90": 0.5,
+      "foulsWonPer90": 1.51
+    },
+    {
+      "team": "Marocco",
+      "name": "Ayyoub Bouaddi",
+      "role": "Right Midfielder",
+      "matches": 4,
+      "minutes": 340,
+      "goals": 0,
+      "assists": 0,
+      "shots": 3,
+      "shotsOnTarget": 0,
+      "foulsCommitted": 2,
+      "foulsWon": 6,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 0.79,
+      "shotsOnTargetPer90": 0,
+      "foulsCommittedPer90": 0.53,
+      "foulsWonPer90": 1.59
+    },
+    {
+      "team": "Marocco",
+      "name": "Redouane Halhal",
+      "role": "Center Left Defender",
+      "matches": 2,
+      "minutes": 199,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "shotsOnTarget": 0,
+      "foulsCommitted": 3,
+      "foulsWon": 5,
+      "yellowCards": 1,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0,
+      "shotsPer90": 0,
+      "shotsOnTargetPer90": 0,
+      "foulsCommittedPer90": 1.36,
+      "foulsWonPer90": 2.26
+    },
+    {
+      "team": "Marocco",
+      "name": "Soufiane Rahimi",
+      "role": "Substitute",
+      "matches": 5,
+      "minutes": 168,
+      "goals": 2,
+      "assists": 1,
+      "shots": 6,
+      "shotsOnTarget": 4,
+      "foulsCommitted": 5,
+      "foulsWon": 6,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 1.07,
+      "assistsPer90": 0.54,
+      "shotsPer90": 3.21,
+      "shotsOnTargetPer90": 2.14,
+      "foulsCommittedPer90": 2.68,
+      "foulsWonPer90": 3.21
+    },
+    {
+      "team": "Marocco",
+      "name": "Chemsdine Talbi",
+      "role": "Substitute",
+      "matches": 4,
+      "minutes": 121,
+      "goals": 0,
+      "assists": 1,
+      "shots": 2,
+      "shotsOnTarget": 0,
+      "foulsCommitted": 0,
+      "foulsWon": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 0,
+      "assistsPer90": 0.74,
+      "shotsPer90": 1.49,
+      "shotsOnTargetPer90": 0,
+      "foulsCommittedPer90": 0,
+      "foulsWonPer90": 0.74
+    },
+    {
+      "team": "Marocco",
+      "name": "Gessime Yassine",
+      "role": "Substitute",
+      "matches": 2,
+      "minutes": 72,
+      "goals": 1,
+      "assists": 0,
+      "shots": 1,
+      "shotsOnTarget": 1,
+      "foulsCommitted": 1,
+      "foulsWon": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "goalsPer90": 1.25,
+      "assistsPer90": 0,
+      "shotsPer90": 1.25,
+      "shotsOnTargetPer90": 1.25,
+      "foulsCommittedPer90": 1.25,
+      "foulsWonPer90": 2.5
+    }
+  ],
+  "marketSignals": [
+    {
+      "player": "Kylian Mbapp?",
+      "team": null,
+      "marketType": "tiri giocatore",
+      "strength": 0,
+      "risk": 46,
+      "confidence": 15,
+      "note": "Volume elite: 26 tiri in 464 minuti; mercato compatibile se la Francia attacca con continuit?."
+    },
+    {
+      "player": "Kylian Mbapp?",
+      "team": null,
+      "marketType": "tiri in porta giocatore",
+      "strength": 0,
+      "risk": 52,
+      "confidence": 13,
+      "note": "17 tiri in porta aggregati: segnale forte, ma dipende da quota e marcatura marocchina."
+    },
+    {
+      "player": "Kylian Mbapp?",
+      "team": null,
+      "marketType": "gol o assist",
+      "strength": 0,
+      "risk": 62,
+      "confidence": 11,
+      "note": "7 gol e 2 assist: profilo primario, mercato pi? volatile dei tiri."
+    },
+    {
+      "player": "Michael Olise",
+      "team": "Francia",
+      "marketType": "tiri giocatore",
+      "strength": 77,
+      "risk": 42,
+      "confidence": 72,
+      "note": "14 tiri e 5 assist: utile se parte largo/trequartista con minuti alti."
+    },
+    {
+      "player": "Michael Olise",
+      "team": "Francia",
+      "marketType": "gol o assist",
+      "strength": 43,
+      "risk": 46,
+      "confidence": 46,
+      "note": "5 assist aggregati: buon segnale creativo, da legare a titolarit? e piazzati."
+    },
+    {
+      "player": "Ousmane Demb?l?",
+      "team": null,
+      "marketType": "tiri giocatore",
+      "strength": 0,
+      "risk": 58,
+      "confidence": 12,
+      "note": "12 tiri, 4 gol e 2 assist: alto upside ma pi? dipendente da minuti e ruolo."
+    },
+    {
+      "player": "Achraf Hakimi",
+      "team": "Marocco",
+      "marketType": "falli subiti giocatore",
+      "strength": 74,
+      "risk": 36,
+      "confidence": 71,
+      "note": "14 falli subiti in 519 minuti: segnale molto utile per duelli sulla fascia."
+    },
+    {
+      "player": "Achraf Hakimi",
+      "team": "Marocco",
+      "marketType": "cartellini giocatore",
+      "strength": 28,
+      "risk": 74,
+      "confidence": 27,
+      "note": "1 giallo aggregato e ruolo esposto; segnale pi? speculativo del mercato falli subiti."
+    },
+    {
+      "team": "Francia",
+      "marketType": "tiri squadra",
+      "strength": 94,
+      "risk": 30,
+      "confidence": 88,
+      "note": "Francia a 17.6 tiri medi: segnale CORE/VALUE se la linea proposta non ? troppo alta."
+    },
+    {
+      "team": "Francia",
+      "marketType": "tiri in porta squadra",
+      "strength": 82,
+      "risk": 36,
+      "confidence": 78,
+      "note": "Francia a 7.8 tiri in porta medi: forte ma pu? calare contro blocco basso marocchino."
+    },
+    {
+      "team": "Marocco",
+      "marketType": "tiri squadra",
+      "strength": 74,
+      "risk": 48,
+      "confidence": 69,
+      "note": "Marocco a 12.8 tiri medi, ma con forte dipendenza dallo scenario partita."
+    },
+    {
+      "team": "Marocco",
+      "marketType": "falli/cartellini squadra",
+      "strength": 83,
+      "risk": 44,
+      "confidence": 76,
+      "note": "Marocco a 12.2 falli commessi e 1.2 gialli medi: segnale utile per gara fisica."
+    },
+    {
+      "team": "Marocco",
+      "marketType": "cartellini squadra",
+      "strength": 54,
+      "risk": 52,
+      "confidence": 53,
+      "note": "Profilo disciplinare pi? alto della Francia; resta legato ad arbitro e risultato."
+    },
+    {
+      "team": "Francia",
+      "marketType": "falli/cartellini squadra",
+      "strength": 71,
+      "risk": 38,
+      "confidence": 69,
+      "note": "Francia a 9.8 falli commessi e 0.8 gialli medi: segnale moderato."
+    },
+    {
+      "player": "Neil El Aynaoui",
+      "team": "Marocco",
+      "marketType": "cartellini giocatore",
+      "strength": 25,
+      "risk": 70,
+      "confidence": 26,
+      "note": "Mediano con 11 falli commessi aggregati; cartellino da trattare come SPECULATIVE."
+    },
+    {
+      "player": "Issa Diop",
+      "team": "Marocco",
+      "marketType": "cartellini giocatore",
+      "strength": 31,
+      "risk": 74,
+      "confidence": 30,
+      "note": "2 gialli aggregati da difensore: rischio presente, ma dipende da titolarit? e duelli con Mbapp?/Demb?l?."
+    }
+  ],
+  "scenarioFit": [
+    {
+      "scenario": "Francia dominante",
+      "description": "Francia alta e continua nella met? campo marocchina; Marocco costretto a difendere basso e ripartire.",
+      "compatibleMarkets": [
+        {
+          "market": "Mbapp? tiri",
+          "fit": "alto",
+          "note": "Volume coerente con pressione francese."
+        },
+        {
+          "market": "Mbapp? tiri in porta",
+          "fit": "alto",
+          "note": "Compatibile se la Francia arriva spesso in area."
+        },
+        {
+          "market": "Olise assist/tiri",
+          "fit": "alto",
+          "note": "Scenario favorevole a rifinitura e conclusioni da destra/mezzo spazio."
+        },
+        {
+          "market": "Demb?l? tiri",
+          "fit": "medio-alto",
+          "note": "Buono se titolare e largo contro blocco basso."
+        },
+        {
+          "market": "Hakimi falli subiti/cartellino avversario",
+          "fit": "medio",
+          "note": "Meno campo per correre, ma duelli difensivi frequenti."
+        },
+        {
+          "market": "Marocco cartellini",
+          "fit": "alto",
+          "note": "Difesa prolungata aumenta falli tattici."
+        },
+        {
+          "market": "Francia tiri squadra",
+          "fit": "alto",
+          "note": "Scenario principale per over tiri Francia."
+        },
+        {
+          "market": "Marocco tiri squadra",
+          "fit": "basso",
+          "note": "Produzione marocchina limitata."
+        }
+      ]
+    },
+    {
+      "scenario": "Francia vittoria controllata",
+      "description": "Francia avanti o superiore senza partita totalmente aperta; ritmo gestito e rischi ridotti.",
+      "compatibleMarkets": [
+        {
+          "market": "Mbapp? tiri",
+          "fit": "medio-alto",
+          "note": "Resta centrale anche con ritmo controllato."
+        },
+        {
+          "market": "Mbapp? tiri in porta",
+          "fit": "medio",
+          "note": "Buono ma meno forte se la Francia gestisce il vantaggio."
+        },
+        {
+          "market": "Olise assist/tiri",
+          "fit": "medio",
+          "note": "Dipende da minuti e posizione."
+        },
+        {
+          "market": "Demb?l? tiri",
+          "fit": "medio",
+          "note": "Utile solo con minutaggio chiaro."
+        },
+        {
+          "market": "Hakimi falli subiti/cartellino avversario",
+          "fit": "medio-alto",
+          "note": "Marocco pu? cercare uscite sulla destra."
+        },
+        {
+          "market": "Marocco cartellini",
+          "fit": "medio-alto",
+          "note": "Compatibile con rincorsa e falli tattici."
+        },
+        {
+          "market": "Francia tiri squadra",
+          "fit": "medio-alto",
+          "note": "Buono ma attenzione a linee alte."
+        },
+        {
+          "market": "Marocco tiri squadra",
+          "fit": "medio-basso",
+          "note": "Pu? crescere solo se costretto a inseguire."
+        }
+      ]
+    },
+    {
+      "scenario": "Marocco resiste basso",
+      "description": "Marocco compatto, partita chiusa, pochi spazi centrali, Francia costretta a pazientare.",
+      "compatibleMarkets": [
+        {
+          "market": "Mbapp? tiri",
+          "fit": "medio",
+          "note": "Pu? tirare anche da posizioni meno pulite."
+        },
+        {
+          "market": "Mbapp? tiri in porta",
+          "fit": "medio-basso",
+          "note": "Blocco basso pu? abbassare qualit? conclusioni."
+        },
+        {
+          "market": "Olise assist/tiri",
+          "fit": "medio",
+          "note": "Possibile volume su cross/rifinitura."
+        },
+        {
+          "market": "Demb?l? tiri",
+          "fit": "medio",
+          "note": "Dipende da uno contro uno e minuti."
+        },
+        {
+          "market": "Hakimi falli subiti/cartellino avversario",
+          "fit": "alto",
+          "note": "Transizioni e duelli laterali diventano chiave."
+        },
+        {
+          "market": "Marocco cartellini",
+          "fit": "alto",
+          "note": "Difesa bassa aumenta rischio falli ripetuti."
+        },
+        {
+          "market": "Francia tiri squadra",
+          "fit": "medio-alto",
+          "note": "Volume possibile, precisione meno garantita."
+        },
+        {
+          "market": "Marocco tiri squadra",
+          "fit": "basso",
+          "note": "Pochi possessi offensivi prolungati."
+        }
+      ]
+    },
+    {
+      "scenario": "Partita aperta/equilibrata",
+      "description": "Entrambe trovano campo, Marocco pi? aggressivo in uscita, ritmo pi? alto e transizioni.",
+      "compatibleMarkets": [
+        {
+          "market": "Mbapp? tiri",
+          "fit": "alto",
+          "note": "Pi? campo aumenta volume e qualit?."
+        },
+        {
+          "market": "Mbapp? tiri in porta",
+          "fit": "alto",
+          "note": "Scenario migliore per occasioni pulite."
+        },
+        {
+          "market": "Olise assist/tiri",
+          "fit": "medio-alto",
+          "note": "Pi? spazi tra le linee."
+        },
+        {
+          "market": "Demb?l? tiri",
+          "fit": "medio-alto",
+          "note": "Uno contro uno e transizioni favorevoli."
+        },
+        {
+          "market": "Hakimi falli subiti/cartellino avversario",
+          "fit": "alto",
+          "note": "Pi? conduzioni e duelli diretti."
+        },
+        {
+          "market": "Marocco cartellini",
+          "fit": "medio",
+          "note": "Rischio presente, ma meno schiacciamento difensivo."
+        },
+        {
+          "market": "Francia tiri squadra",
+          "fit": "alto",
+          "note": "Scenario favorevole al volume."
+        },
+        {
+          "market": "Marocco tiri squadra",
+          "fit": "medio-alto",
+          "note": "Transizioni marocchine pi? frequenti."
+        }
+      ]
+    }
+  ],
+  "myComboHints": {
+    "CORE": [
+      {
+        "market": "Francia tiri squadra",
+        "reason": "Volume medio alto e distribuito su pi? giocatori; meno dipendente da un singolo episodio."
+      },
+      {
+        "market": "Mbapp? tiri",
+        "reason": "26 tiri aggregati, 5 partite, minutaggio stabile e centralit? offensiva."
+      },
+      {
+        "market": "Marocco cartellini squadra",
+        "reason": "12.2 falli commessi e 1.2 gialli medi; coerente con scenario di resistenza bassa."
+      }
+    ],
+    "VALUE": [
+      {
+        "market": "Mbapp? tiri in porta",
+        "reason": "17 tiri in porta aggregati: segnale forte, ma quota/linea e blocco basso possono cambiare il valore."
+      },
+      {
+        "market": "Olise assist/tiri",
+        "reason": "5 assist e 14 tiri; interessante se titolare e con ruolo tra le linee."
+      },
+      {
+        "market": "Hakimi falli subiti",
+        "reason": "14 falli subiti: buon indicatore per duelli laterali e transizioni marocchine."
+      },
+      {
+        "market": "Francia tiri in porta squadra",
+        "reason": "7.8 di media, ma da pesare contro la compattezza marocchina."
+      }
+    ],
+    "SPECULATIVE": [
+      {
+        "market": "Demb?l? tiri",
+        "reason": "Buon upside, ma pi? sensibile a minutaggio, ruolo e rotazioni offensive."
+      },
+      {
+        "market": "Cartellino Hakimi",
+        "reason": "Ruolo esposto ma cartellino individuale ad alta varianza."
+      },
+      {
+        "market": "Cartellino Neil El Aynaoui",
+        "reason": "Profilo fisico e 11 falli commessi, ma dipende da titolarit? e arbitro."
+      },
+      {
+        "market": "Cartellino Issa Diop",
+        "reason": "2 gialli aggregati, ma mercato molto legato a duelli specifici e andamento gara."
+      },
+      {
+        "market": "Marocco tiri squadra",
+        "reason": "Buon totale medio, ma molto dipendente dallo scenario: basso se Marocco resta schiacciato."
+      }
+    ]
+  }
+}

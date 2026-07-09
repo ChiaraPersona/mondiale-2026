@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "ivory-coast-norway-2026-06-30",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

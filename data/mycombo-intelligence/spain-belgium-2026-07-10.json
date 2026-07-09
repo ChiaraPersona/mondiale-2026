@@ -1,0 +1,658 @@
+{
+  "matchId": "spain-belgium-2026-07-10",
+  "match": "Spagna-Belgio",
+  "date": "2026-07-10",
+  "status": "ready_for_market_evaluator",
+  "sourcePlayerStats": "data/player-stats/spain-belgium-2026-07-10.json",
+  "sourceQuote": "data/quote/spagna-belgio-quote.json",
+  "dataPolicy": {
+    "noEstimates": true,
+    "missingStatsRemainNull": true,
+    "missingMergedMatchesBlockMyCombo": true
+  },
+  "completion": 100,
+  "missingInputs": [],
+  "playerSignalsSeed": [
+    {
+      "marketType": "player_shots",
+      "player": "Ferran Torres",
+      "team": "Spain",
+      "role": "Right Forward",
+      "value": 4.46,
+      "minutesSample": 205
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Lamine Yamal",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 4.33,
+      "minutesSample": 330
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "role": "Forward",
+      "value": 3.87,
+      "minutesSample": 410
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Álex Baena",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 2.72,
+      "minutesSample": 273
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Dani Olmo",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 2.69,
+      "minutesSample": 269
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Fabián Ruiz",
+      "team": "Spain",
+      "role": "Right Midfielder",
+      "value": 2.21,
+      "minutesSample": 154
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Mikel Merino",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 1.67,
+      "minutesSample": 162
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Pedro Porro",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 1.15,
+      "minutesSample": 294
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Lamine Yamal",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 2.24,
+      "minutesSample": 330
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "role": "Forward",
+      "value": 1.96,
+      "minutesSample": 410
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Álex Baena",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 1.47,
+      "minutesSample": 273
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Mikel Merino",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 1.18,
+      "minutesSample": 162
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Ferran Torres",
+      "team": "Spain",
+      "role": "Right Forward",
+      "value": 0.74,
+      "minutesSample": 205
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Pedro Porro",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 0.54,
+      "minutesSample": 294
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Fabián Ruiz",
+      "team": "Spain",
+      "role": "Right Midfielder",
+      "value": 0.44,
+      "minutesSample": 154
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Marc Cucurella",
+      "team": "Spain",
+      "role": "Left Back",
+      "value": 0.27,
+      "minutesSample": 487
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Mikel Merino",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 2.87,
+      "minutesSample": 162
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Gavi",
+      "team": "Spain",
+      "role": "Left Forward",
+      "value": 1.8,
+      "minutesSample": 82
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Nico Williams",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 1.52,
+      "minutesSample": 68
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Pedro Porro",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 1.38,
+      "minutesSample": 294
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Dani Olmo",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 1.36,
+      "minutesSample": 269
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Álex Baena",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 1.1,
+      "minutesSample": 273
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Lamine Yamal",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 0.93,
+      "minutesSample": 330
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Pedri",
+      "team": "Spain",
+      "role": "Left Midfielder",
+      "value": 0.91,
+      "minutesSample": 404
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Lamine Yamal",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 2.17,
+      "minutesSample": 330
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Mikel Merino",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 2.17,
+      "minutesSample": 162
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Yéremy Pino",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 2,
+      "minutesSample": 85
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Gavi",
+      "team": "Spain",
+      "role": "Left Forward",
+      "value": 1.98,
+      "minutesSample": 82
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Álex Baena",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 1.83,
+      "minutesSample": 273
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Ferran Torres",
+      "team": "Spain",
+      "role": "Right Forward",
+      "value": 1.76,
+      "minutesSample": 205
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Dani Olmo",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 1.32,
+      "minutesSample": 269
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Rodri",
+      "team": "Spain",
+      "role": "Center Midfielder",
+      "value": 0.93,
+      "minutesSample": 478
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Ferran Torres",
+      "team": "Spain",
+      "role": "Right Forward",
+      "value": 63,
+      "minutesSample": 205
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Álex Baena",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 42,
+      "minutesSample": 273
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Lamine Yamal",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 30,
+      "minutesSample": 330
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Mikel Merino",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 30,
+      "minutesSample": 162
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Gavi",
+      "team": "Spain",
+      "role": "Left Forward",
+      "value": 28,
+      "minutesSample": 82
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Yéremy Pino",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 28,
+      "minutesSample": 85
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Dani Olmo",
+      "team": "Spain",
+      "role": "Substitute",
+      "value": 18,
+      "minutesSample": 269
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Pedri",
+      "team": "Spain",
+      "role": "Left Midfielder",
+      "value": 17,
+      "minutesSample": 404
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Kevin De Bruyne",
+      "team": "Belgium",
+      "role": "Attacking Midfielder",
+      "value": 4.88,
+      "minutesSample": 301
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Matias Fernandez-Pardo",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 4.48,
+      "minutesSample": 59
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Alexis Saelemaekers",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 3.74,
+      "minutesSample": 88
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Dodi Lukébakio",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 3.39,
+      "minutesSample": 181
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Leandro Trossard",
+      "team": "Belgium",
+      "role": "Attacking Midfielder Right",
+      "value": 2.97,
+      "minutesSample": 462
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Youri Tielemans",
+      "team": "Belgium",
+      "role": "Left Midfielder",
+      "value": 2.12,
+      "minutesSample": 504
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Romelu Lukaku",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 2.07,
+      "minutesSample": 229
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Maxim De Cuyper",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 1.8,
+      "minutesSample": 405
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Charles De Ketelaere",
+      "team": "Belgium",
+      "role": "Forward",
+      "value": 1.5,
+      "minutesSample": 263
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Romelu Lukaku",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 1.19,
+      "minutesSample": 229
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Maxim De Cuyper",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 1.16,
+      "minutesSample": 405
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Kevin De Bruyne",
+      "team": "Belgium",
+      "role": "Attacking Midfielder",
+      "value": 0.95,
+      "minutesSample": 301
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Alexis Saelemaekers",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 0.84,
+      "minutesSample": 88
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Youri Tielemans",
+      "team": "Belgium",
+      "role": "Left Midfielder",
+      "value": 0.65,
+      "minutesSample": 504
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Leandro Trossard",
+      "team": "Belgium",
+      "role": "Attacking Midfielder Right",
+      "value": 0.52,
+      "minutesSample": 462
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Hans Vanaken",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 0.39,
+      "minutesSample": 281
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Jérémy Doku",
+      "team": "Belgium",
+      "role": "Attacking Midfielder Left",
+      "value": 5.8,
+      "minutesSample": 226
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Hans Vanaken",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 2.14,
+      "minutesSample": 281
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Amadou Onana",
+      "team": "Belgium",
+      "role": "Right Midfielder",
+      "value": 1.87,
+      "minutesSample": 124
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Alexis Saelemaekers",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 1.68,
+      "minutesSample": 88
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Youri Tielemans",
+      "team": "Belgium",
+      "role": "Left Midfielder",
+      "value": 1.6,
+      "minutesSample": 504
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Leandro Trossard",
+      "team": "Belgium",
+      "role": "Attacking Midfielder Right",
+      "value": 1.45,
+      "minutesSample": 462
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Diego Moreira",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 1.3,
+      "minutesSample": 69
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Charles De Ketelaere",
+      "team": "Belgium",
+      "role": "Forward",
+      "value": 0.94,
+      "minutesSample": 263
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Thomas Meunier",
+      "team": "Belgium",
+      "role": "Right Back",
+      "value": 4.15,
+      "minutesSample": 208
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Nicolas Raskin",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 2.62,
+      "minutesSample": 274
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Diego Moreira",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 2.61,
+      "minutesSample": 69
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Timothy Castagne",
+      "team": "Belgium",
+      "role": "Left Back",
+      "value": 1.86,
+      "minutesSample": 417
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Youri Tielemans",
+      "team": "Belgium",
+      "role": "Left Midfielder",
+      "value": 1.5,
+      "minutesSample": 504
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Nathan Ngoy",
+      "team": "Belgium",
+      "role": "Center Right Defender",
+      "value": 1.47,
+      "minutesSample": 287
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Brandon Mechele",
+      "team": "Belgium",
+      "role": "Center Left Defender",
+      "value": 1.35,
+      "minutesSample": 515
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Maxim De Cuyper",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 1.2,
+      "minutesSample": 405
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Thomas Meunier",
+      "team": "Belgium",
+      "role": "Right Back",
+      "value": 58,
+      "minutesSample": 208
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Nicolas Raskin",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 37,
+      "minutesSample": 274
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Diego Moreira",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 37,
+      "minutesSample": 69
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Timothy Castagne",
+      "team": "Belgium",
+      "role": "Left Back",
+      "value": 35,
+      "minutesSample": 417
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Nathan Ngoy",
+      "team": "Belgium",
+      "role": "Center Right Defender",
+      "value": 34,
+      "minutesSample": 287
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Brandon Mechele",
+      "team": "Belgium",
+      "role": "Center Left Defender",
+      "value": 33,
+      "minutesSample": 515
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Maxim De Cuyper",
+      "team": "Belgium",
+      "role": "Substitute",
+      "value": 27,
+      "minutesSample": 405
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Youri Tielemans",
+      "team": "Belgium",
+      "role": "Left Midfielder",
+      "value": 21,
+      "minutesSample": 504
+    }
+  ],
+  "nextStep": "Applicare Market Evaluator V1 e filtrare solo mercati presenti nelle quote Sisal."
+}

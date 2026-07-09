@@ -1,0 +1,658 @@
+{
+  "matchId": "norway-england-2026-07-11",
+  "match": "Norvegia-Inghilterra",
+  "date": "2026-07-11",
+  "status": "ready_for_market_evaluator",
+  "sourcePlayerStats": "data/player-stats/norway-england-2026-07-11.json",
+  "sourceQuote": "data/quote/norvegia-inghilterra-quote.json",
+  "dataPolicy": {
+    "noEstimates": true,
+    "missingStatsRemainNull": true,
+    "missingMergedMatchesBlockMyCombo": true
+  },
+  "completion": 100,
+  "missingInputs": [],
+  "playerSignalsSeed": [
+    {
+      "marketType": "player_shots",
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "role": "Center Left Forward",
+      "value": 3.97,
+      "minutesSample": 399
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Kristian Thorstvedt",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 3.46,
+      "minutesSample": 70
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Martin Ødegaard",
+      "team": "Norway",
+      "role": "Right Midfielder",
+      "value": 1.94,
+      "minutesSample": 382
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Jørgen Strand Larsen",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 1.88,
+      "minutesSample": 96
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Thelo Aasgaard",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 1.88,
+      "minutesSample": 96
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Leo Østigard",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 1.58,
+      "minutesSample": 145
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Oscar Bobb",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 1.22,
+      "minutesSample": 209
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Antonio Nusa",
+      "team": "Norway",
+      "role": "Left Midfielder",
+      "value": 0.99,
+      "minutesSample": 273
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "role": "Center Left Forward",
+      "value": 2.62,
+      "minutesSample": 399
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Kristian Thorstvedt",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 1.44,
+      "minutesSample": 70
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Jørgen Strand Larsen",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 0.94,
+      "minutesSample": 96
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Thelo Aasgaard",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 0.94,
+      "minutesSample": 96
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Oscar Bobb",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 0.8,
+      "minutesSample": 209
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Martin Ødegaard",
+      "team": "Norway",
+      "role": "Right Midfielder",
+      "value": 0.51,
+      "minutesSample": 382
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Andreas Schjelderup",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 0.49,
+      "minutesSample": 222
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Leo Østigard",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 0.46,
+      "minutesSample": 145
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Thelo Aasgaard",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 2.81,
+      "minutesSample": 96
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Jørgen Strand Larsen",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 1.88,
+      "minutesSample": 96
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Oscar Bobb",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 1.78,
+      "minutesSample": 209
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Kristian Thorstvedt",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 1.44,
+      "minutesSample": 70
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Antonio Nusa",
+      "team": "Norway",
+      "role": "Left Midfielder",
+      "value": 1.29,
+      "minutesSample": 273
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Andreas Schjelderup",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 1.1,
+      "minutesSample": 222
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Martin Ødegaard",
+      "team": "Norway",
+      "role": "Right Midfielder",
+      "value": 0.93,
+      "minutesSample": 382
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Leo Østigard",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 0.59,
+      "minutesSample": 145
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Kristian Thorstvedt",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 2.87,
+      "minutesSample": 70
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Julian Ryerson",
+      "team": "Norway",
+      "role": "Right Back",
+      "value": 2.2,
+      "minutesSample": 174
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Morten Thorsby",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 1.76,
+      "minutesSample": 51
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Fredrik Aursnes",
+      "team": "Norway",
+      "role": "Center Left Midfielder",
+      "value": 1.64,
+      "minutesSample": 268
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "David Møller Wolfe",
+      "team": "Norway",
+      "role": "Left Back",
+      "value": 1.5,
+      "minutesSample": 367
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Leo Østigard",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 1.45,
+      "minutesSample": 145
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Alexander Sørloth",
+      "team": "Norway",
+      "role": "Center Right Forward",
+      "value": 1.43,
+      "minutesSample": 273
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "role": "Center Left Forward",
+      "value": 1.03,
+      "minutesSample": 399
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Kristian Thorstvedt",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 40,
+      "minutesSample": 70
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Julian Ryerson",
+      "team": "Norway",
+      "role": "Right Back",
+      "value": 31,
+      "minutesSample": 174
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Antonio Nusa",
+      "team": "Norway",
+      "role": "Left Midfielder",
+      "value": 26,
+      "minutesSample": 273
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Morten Thorsby",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 25,
+      "minutesSample": 51
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Fredrik Aursnes",
+      "team": "Norway",
+      "role": "Center Left Midfielder",
+      "value": 23,
+      "minutesSample": 268
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Patrick Berg",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 22,
+      "minutesSample": 369
+    },
+    {
+      "marketType": "player_cards",
+      "player": "David Møller Wolfe",
+      "team": "Norway",
+      "role": "Left Back",
+      "value": 21,
+      "minutesSample": 367
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Leo Østigard",
+      "team": "Norway",
+      "role": "Substitute",
+      "value": 20,
+      "minutesSample": 145
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Marcus Rashford",
+      "team": "England",
+      "role": "Substitute",
+      "value": 4.07,
+      "minutesSample": 196
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Harry Kane",
+      "team": "England",
+      "role": "Forward",
+      "value": 3.59,
+      "minutesSample": 465
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Jude Bellingham",
+      "team": "England",
+      "role": "Attacking Midfielder",
+      "value": 2.59,
+      "minutesSample": 424
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Noni Madueke",
+      "team": "England",
+      "role": "Attacking Midfielder Right",
+      "value": 2.17,
+      "minutesSample": 249
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Bukayo Saka",
+      "team": "England",
+      "role": "Substitute",
+      "value": 1.59,
+      "minutesSample": 213
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Anthony Gordon",
+      "team": "England",
+      "role": "Attacking Midfielder Left",
+      "value": 1.57,
+      "minutesSample": 276
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Nico O'Reilly",
+      "team": "England",
+      "role": "Left Back",
+      "value": 1.57,
+      "minutesSample": 395
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Elliot Anderson",
+      "team": "England",
+      "role": "Right Midfielder",
+      "value": 1.34,
+      "minutesSample": 427
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Jude Bellingham",
+      "team": "England",
+      "role": "Attacking Midfielder",
+      "value": 2.06,
+      "minutesSample": 424
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Harry Kane",
+      "team": "England",
+      "role": "Forward",
+      "value": 1.91,
+      "minutesSample": 465
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Marcus Rashford",
+      "team": "England",
+      "role": "Substitute",
+      "value": 1.49,
+      "minutesSample": 196
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Anthony Gordon",
+      "team": "England",
+      "role": "Attacking Midfielder Left",
+      "value": 0.94,
+      "minutesSample": 276
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Djed Spence",
+      "team": "England",
+      "role": "Substitute",
+      "value": 0.42,
+      "minutesSample": 215
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Bukayo Saka",
+      "team": "England",
+      "role": "Substitute",
+      "value": 0.38,
+      "minutesSample": 213
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Noni Madueke",
+      "team": "England",
+      "role": "Attacking Midfielder Right",
+      "value": 0.24,
+      "minutesSample": 249
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Nico O'Reilly",
+      "team": "England",
+      "role": "Left Back",
+      "value": 0.23,
+      "minutesSample": 395
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Jordan Henderson",
+      "team": "England",
+      "role": "Substitute",
+      "value": 7.5,
+      "minutesSample": 12
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Eberechi Eze",
+      "team": "England",
+      "role": "Substitute",
+      "value": 2.71,
+      "minutesSample": 75
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Bukayo Saka",
+      "team": "England",
+      "role": "Substitute",
+      "value": 2.41,
+      "minutesSample": 213
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Anthony Gordon",
+      "team": "England",
+      "role": "Attacking Midfielder Left",
+      "value": 2.33,
+      "minutesSample": 276
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Marc Guéhi",
+      "team": "England",
+      "role": "Substitute",
+      "value": 2.22,
+      "minutesSample": 403
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Ezri Konsa",
+      "team": "England",
+      "role": "Center Right Defender",
+      "value": 1.98,
+      "minutesSample": 490
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Elliot Anderson",
+      "team": "England",
+      "role": "Right Midfielder",
+      "value": 1.63,
+      "minutesSample": 427
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Jude Bellingham",
+      "team": "England",
+      "role": "Attacking Midfielder",
+      "value": 1.51,
+      "minutesSample": 424
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Marcus Rashford",
+      "team": "England",
+      "role": "Substitute",
+      "value": 2.51,
+      "minutesSample": 196
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Morgan Rogers",
+      "team": "England",
+      "role": "Substitute",
+      "value": 1.56,
+      "minutesSample": 158
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Bukayo Saka",
+      "team": "England",
+      "role": "Substitute",
+      "value": 1.4,
+      "minutesSample": 213
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Harry Kane",
+      "team": "England",
+      "role": "Forward",
+      "value": 1.31,
+      "minutesSample": 465
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Nico O'Reilly",
+      "team": "England",
+      "role": "Left Back",
+      "value": 1.3,
+      "minutesSample": 395
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Elliot Anderson",
+      "team": "England",
+      "role": "Right Midfielder",
+      "value": 1.14,
+      "minutesSample": 427
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Jude Bellingham",
+      "team": "England",
+      "role": "Attacking Midfielder",
+      "value": 1.11,
+      "minutesSample": 424
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Ezri Konsa",
+      "team": "England",
+      "role": "Center Right Defender",
+      "value": 1.07,
+      "minutesSample": 490
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Jarell Quansah",
+      "team": "England",
+      "role": "Substitute",
+      "value": 64,
+      "minutesSample": 166
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Declan Rice",
+      "team": "England",
+      "role": "Left Midfielder",
+      "value": 38,
+      "minutesSample": 363
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Marcus Rashford",
+      "team": "England",
+      "role": "Substitute",
+      "value": 35,
+      "minutesSample": 196
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Nico O'Reilly",
+      "team": "England",
+      "role": "Left Back",
+      "value": 35,
+      "minutesSample": 395
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Jude Bellingham",
+      "team": "England",
+      "role": "Attacking Midfielder",
+      "value": 29,
+      "minutesSample": 424
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Morgan Rogers",
+      "team": "England",
+      "role": "Substitute",
+      "value": 22,
+      "minutesSample": 158
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Marc Guéhi",
+      "team": "England",
+      "role": "Substitute",
+      "value": 21,
+      "minutesSample": 403
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Bukayo Saka",
+      "team": "England",
+      "role": "Substitute",
+      "value": 20,
+      "minutesSample": 213
+    }
+  ],
+  "nextStep": "Applicare Market Evaluator V1 e filtrare solo mercati presenti nelle quote Sisal."
+}

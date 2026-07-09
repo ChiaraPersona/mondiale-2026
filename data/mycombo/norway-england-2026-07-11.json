@@ -1,0 +1,15 @@
+{
+  "matchId": "norway-england-2026-07-11",
+  "match": "Norvegia-Inghilterra",
+  "date": "2026-07-11",
+  "status": "not_generated",
+  "sourcePlayerStats": "data/player-stats/norway-england-2026-07-11.json",
+  "sourceIntelligence": "data/mycombo-intelligence/norway-england-2026-07-11.json",
+  "sourceQuote": "data/quote/norvegia-inghilterra-quote.json",
+  "completion": 100,
+  "safe": null,
+  "balanced": null,
+  "aggressive": null,
+  "blockedReason": null,
+  "missingInputs": []
+}

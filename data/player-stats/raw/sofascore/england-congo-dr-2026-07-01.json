@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "england-congo-dr-2026-07-01",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

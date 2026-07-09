@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "argentina-cape-verde-2026-07-03",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

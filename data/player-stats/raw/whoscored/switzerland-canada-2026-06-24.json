@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "switzerland-canada-2026-06-24",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

@@ -1,0 +1,15 @@
+{
+  "matchId": "argentina-switzerland-2026-07-11",
+  "match": "Argentina-Svizzera",
+  "date": "2026-07-11",
+  "status": "not_generated",
+  "sourcePlayerStats": "data/player-stats/argentina-switzerland-2026-07-11.json",
+  "sourceIntelligence": "data/mycombo-intelligence/argentina-switzerland-2026-07-11.json",
+  "sourceQuote": "data/quote/argentina-svizzera-quote.json",
+  "completion": 100,
+  "safe": null,
+  "balanced": null,
+  "aggressive": null,
+  "blockedReason": null,
+  "missingInputs": []
+}

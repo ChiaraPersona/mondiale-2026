@@ -1,0 +1,658 @@
+{
+  "matchId": "argentina-switzerland-2026-07-11",
+  "match": "Argentina-Svizzera",
+  "date": "2026-07-11",
+  "status": "ready_for_market_evaluator",
+  "sourcePlayerStats": "data/player-stats/argentina-switzerland-2026-07-11.json",
+  "sourceQuote": "data/quote/argentina-svizzera-quote.json",
+  "dataPolicy": {
+    "noEstimates": true,
+    "missingStatsRemainNull": true,
+    "missingMergedMatchesBlockMyCombo": true
+  },
+  "completion": 100,
+  "missingInputs": [],
+  "playerSignalsSeed": [
+    {
+      "marketType": "player_shots",
+      "player": "José Manuel López",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 6.43,
+      "minutesSample": 14
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "role": "Center Right Forward",
+      "value": 5.93,
+      "minutesSample": 440
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Nico González",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 2.18,
+      "minutesSample": 171
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Lautaro Martínez",
+      "team": "Argentina",
+      "role": "Center Left Forward",
+      "value": 2.05,
+      "minutesSample": 279
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Enzo Fernández",
+      "team": "Argentina",
+      "role": "Center Left Midfielder",
+      "value": 1.9,
+      "minutesSample": 421
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Julián Álvarez",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 1.52,
+      "minutesSample": 314
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Giovani Lo Celso",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 1.5,
+      "minutesSample": 60
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Leandro Paredes",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 1.36,
+      "minutesSample": 254
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "role": "Center Right Forward",
+      "value": 3.49,
+      "minutesSample": 440
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Giovani Lo Celso",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 1.5,
+      "minutesSample": 60
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Julián Álvarez",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 0.78,
+      "minutesSample": 314
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Enzo Fernández",
+      "team": "Argentina",
+      "role": "Center Left Midfielder",
+      "value": 0.77,
+      "minutesSample": 421
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Leandro Paredes",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 0.5,
+      "minutesSample": 254
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Lautaro Martínez",
+      "team": "Argentina",
+      "role": "Center Left Forward",
+      "value": 0.47,
+      "minutesSample": 279
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Alexis Mac Allister",
+      "team": "Argentina",
+      "role": "Center Right Midfielder",
+      "value": 0.37,
+      "minutesSample": 456
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Rodrigo De Paul",
+      "team": "Argentina",
+      "role": "Right Midfielder",
+      "value": 0.31,
+      "minutesSample": 329
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Valentín Barco",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 3.6,
+      "minutesSample": 25
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "role": "Center Right Forward",
+      "value": 2.76,
+      "minutesSample": 440
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Nicolás Tagliafico",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 2.69,
+      "minutesSample": 216
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Marcos Senesi",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 1.88,
+      "minutesSample": 96
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Giovani Lo Celso",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 1.5,
+      "minutesSample": 60
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Lautaro Martínez",
+      "team": "Argentina",
+      "role": "Center Left Forward",
+      "value": 1.4,
+      "minutesSample": 279
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Alexis Mac Allister",
+      "team": "Argentina",
+      "role": "Center Right Midfielder",
+      "value": 1.13,
+      "minutesSample": 456
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Nico Paz",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 1.07,
+      "minutesSample": 78
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Nico Paz",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 2.53,
+      "minutesSample": 78
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Lautaro Martínez",
+      "team": "Argentina",
+      "role": "Center Left Forward",
+      "value": 2.28,
+      "minutesSample": 279
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Gonzalo Montiel",
+      "team": "Argentina",
+      "role": "Right Back",
+      "value": 2,
+      "minutesSample": 94
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Nicolás Otamendi",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 1.88,
+      "minutesSample": 161
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Nico González",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 1.77,
+      "minutesSample": 171
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Julián Álvarez",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 1.66,
+      "minutesSample": 314
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Giovani Lo Celso",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 1.5,
+      "minutesSample": 60
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Cristian Romero",
+      "team": "Argentina",
+      "role": "Center Right Defender",
+      "value": 1.46,
+      "minutesSample": 356
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Gonzalo Montiel",
+      "team": "Argentina",
+      "role": "Right Back",
+      "value": 97,
+      "minutesSample": 94
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Nico Paz",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 35,
+      "minutesSample": 78
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Lautaro Martínez",
+      "team": "Argentina",
+      "role": "Center Left Forward",
+      "value": 32,
+      "minutesSample": 279
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Facundo Medina",
+      "team": "Argentina",
+      "role": "Left Back",
+      "value": 27,
+      "minutesSample": 272
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Nicolás Otamendi",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 26,
+      "minutesSample": 161
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Nico González",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 25,
+      "minutesSample": 171
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Julián Álvarez",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 23,
+      "minutesSample": 314
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Leandro Paredes",
+      "team": "Argentina",
+      "role": "Substitute",
+      "value": 23,
+      "minutesSample": 254
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Noah Okafor",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 3.46,
+      "minutesSample": 26
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Dan Ndoye",
+      "team": "Switzerland",
+      "role": "Right Forward",
+      "value": 3.05,
+      "minutesSample": 332
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Fabian Rieder",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 2.49,
+      "minutesSample": 233
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Johan Manzambi",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 2.23,
+      "minutesSample": 216
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Breel Embolo",
+      "team": "Switzerland",
+      "role": "Forward",
+      "value": 1.63,
+      "minutesSample": 442
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Rubén Vargas",
+      "team": "Switzerland",
+      "role": "Left Forward",
+      "value": 1.59,
+      "minutesSample": 287
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Zeki Amdouni",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 1.22,
+      "minutesSample": 52
+    },
+    {
+      "marketType": "player_shots",
+      "player": "Denis Zakaria",
+      "team": "Switzerland",
+      "role": "Right Back",
+      "value": 1.15,
+      "minutesSample": 272
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Dan Ndoye",
+      "team": "Switzerland",
+      "role": "Right Forward",
+      "value": 1.47,
+      "minutesSample": 332
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Johan Manzambi",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 1.15,
+      "minutesSample": 216
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Rubén Vargas",
+      "team": "Switzerland",
+      "role": "Left Forward",
+      "value": 1.1,
+      "minutesSample": 287
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Fabian Rieder",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 0.87,
+      "minutesSample": 233
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Breel Embolo",
+      "team": "Switzerland",
+      "role": "Forward",
+      "value": 0.77,
+      "minutesSample": 442
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Denis Zakaria",
+      "team": "Switzerland",
+      "role": "Right Back",
+      "value": 0.58,
+      "minutesSample": 272
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Michel Aebischer",
+      "team": "Switzerland",
+      "role": "Right Midfielder",
+      "value": 0.48,
+      "minutesSample": 169
+    },
+    {
+      "marketType": "player_shots_on_target",
+      "player": "Remo Freuler",
+      "team": "Switzerland",
+      "role": "Left Midfielder",
+      "value": 0.19,
+      "minutesSample": 503
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Zeki Amdouni",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 5.98,
+      "minutesSample": 52
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Dan Ndoye",
+      "team": "Switzerland",
+      "role": "Right Forward",
+      "value": 4.35,
+      "minutesSample": 332
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Cedric Itten",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 2.98,
+      "minutesSample": 56
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Granit Xhaka",
+      "team": "Switzerland",
+      "role": "Center Midfielder",
+      "value": 2.27,
+      "minutesSample": 512
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Rubén Vargas",
+      "team": "Switzerland",
+      "role": "Left Forward",
+      "value": 1.86,
+      "minutesSample": 287
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Miro Muheim",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 1.61,
+      "minutesSample": 60
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Fabian Rieder",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 1.57,
+      "minutesSample": 233
+    },
+    {
+      "marketType": "player_fouls_drawn",
+      "player": "Breel Embolo",
+      "team": "Switzerland",
+      "role": "Forward",
+      "value": 1.48,
+      "minutesSample": 442
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Zeki Amdouni",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 8.41,
+      "minutesSample": 52
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Cedric Itten",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 6.8,
+      "minutesSample": 56
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Ardon Jashari",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 3.6,
+      "minutesSample": 54
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Luca Jaquez",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 3.19,
+      "minutesSample": 86
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Rubén Vargas",
+      "team": "Switzerland",
+      "role": "Left Forward",
+      "value": 1.97,
+      "minutesSample": 287
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Michel Aebischer",
+      "team": "Switzerland",
+      "role": "Right Midfielder",
+      "value": 1.75,
+      "minutesSample": 169
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Ricardo Rodríguez",
+      "team": "Switzerland",
+      "role": "Left Back",
+      "value": 1.72,
+      "minutesSample": 452
+    },
+    {
+      "marketType": "player_fouls_committed",
+      "player": "Miro Muheim",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 1.61,
+      "minutesSample": 60
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Zeki Amdouni",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 100,
+      "minutesSample": 52
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Miro Muheim",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 100,
+      "minutesSample": 60
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Cedric Itten",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 95,
+      "minutesSample": 56
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Ardon Jashari",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 50,
+      "minutesSample": 54
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Denis Zakaria",
+      "team": "Switzerland",
+      "role": "Right Back",
+      "value": 46,
+      "minutesSample": 272
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Luca Jaquez",
+      "team": "Switzerland",
+      "role": "Substitute",
+      "value": 45,
+      "minutesSample": 86
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Rubén Vargas",
+      "team": "Switzerland",
+      "role": "Left Forward",
+      "value": 28,
+      "minutesSample": 287
+    },
+    {
+      "marketType": "player_cards",
+      "player": "Granit Xhaka",
+      "team": "Switzerland",
+      "role": "Center Midfielder",
+      "value": 27,
+      "minutesSample": 512
+    }
+  ],
+  "nextStep": "Applicare Market Evaluator V1 e filtrare solo mercati presenti nelle quote Sisal."
+}

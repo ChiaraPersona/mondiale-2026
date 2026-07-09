@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "belgium-iran-2026-06-21",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

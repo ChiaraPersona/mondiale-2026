@@ -1,0 +1,10 @@
+{
+  "provider": "fotmob",
+  "matchId": "ivory-coast-norway-2026-06-30",
+  "completion": 0,
+  "errors": [
+    "URL fotmob non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

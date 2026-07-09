@@ -1,0 +1,10 @@
+{
+  "provider": "fotmob",
+  "matchId": "brazil-norway-2026-07-05",
+  "completion": 0,
+  "errors": [
+    "URL fotmob non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

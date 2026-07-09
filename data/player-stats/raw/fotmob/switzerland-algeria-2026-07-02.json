@@ -1,0 +1,10 @@
+{
+  "provider": "fotmob",
+  "matchId": "switzerland-algeria-2026-07-02",
+  "completion": 0,
+  "errors": [
+    "URL fotmob non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

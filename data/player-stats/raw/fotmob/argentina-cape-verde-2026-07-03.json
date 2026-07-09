@@ -1,0 +1,10 @@
+{
+  "provider": "fotmob",
+  "matchId": "argentina-cape-verde-2026-07-03",
+  "completion": 0,
+  "errors": [
+    "URL fotmob non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

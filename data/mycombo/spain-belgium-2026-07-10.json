@@ -1,0 +1,15 @@
+{
+  "matchId": "spain-belgium-2026-07-10",
+  "match": "Spagna-Belgio",
+  "date": "2026-07-10",
+  "status": "not_generated",
+  "sourcePlayerStats": "data/player-stats/spain-belgium-2026-07-10.json",
+  "sourceIntelligence": "data/mycombo-intelligence/spain-belgium-2026-07-10.json",
+  "sourceQuote": "data/quote/spagna-belgio-quote.json",
+  "completion": 100,
+  "safe": null,
+  "balanced": null,
+  "aggressive": null,
+  "blockedReason": null,
+  "missingInputs": []
+}

@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "norway-senegal-2026-06-22",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

@@ -13,7 +13,14 @@
     const override = document.querySelector(".reading-article")?.dataset?.mycomboSlug;
     if (override) return override;
     const filename = decodeURIComponent(location.pathname.split("/").pop() || "");
-    return filename.match(/^lettura-(.+)\.html$/i)?.[1]?.toLowerCase() || "";
+    const slug = filename.match(/^lettura-(.+)\.html$/i)?.[1]?.toLowerCase() || "";
+    const currentQuarterfinals = {
+      "francia-marocco": "france-morocco-2026-07-09",
+      "spagna-belgio": "spain-belgium-2026-07-10",
+      "norvegia-inghilterra": "norway-england-2026-07-11",
+      "argentina-svizzera": "argentina-switzerland-2026-07-11",
+    };
+    return currentQuarterfinals[slug] || slug;
   }
 
   function readableMarket(value) {

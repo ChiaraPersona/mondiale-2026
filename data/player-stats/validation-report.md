@@ -1,6 +1,6 @@
 # Player Stats Validation Report
 
-Generato: 2026-07-08T23:52:08.101Z
+Generato: 2026-07-09T08:09:02.035Z
 
 ## Riepilogo
 

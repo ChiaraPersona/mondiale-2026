@@ -133,8 +133,206 @@ const teamStatsData = [
   { team: "Belgio", group: "G", flag: "flags/belgio.svg", summary: "Struttura pronta per statistiche squadra e calciatori.", analyzedMatches: [], averages: [], modelReading: "Dati da inserire.", estimateTitle: "Stime prossimo match", estimate: [], playerStatsNotes: [], playerMatches: [] },
   { team: "Argentina", group: "J", flag: "flags/argentina.svg", summary: "Struttura pronta per statistiche squadra e calciatori.", analyzedMatches: [], averages: [], modelReading: "Dati da inserire.", estimateTitle: "Stime prossimo match", estimate: [], playerStatsNotes: [], playerMatches: [] },
   { team: "Svizzera", group: "B", flag: "flags/svizzera.svg", summary: "Struttura pronta per statistiche squadra e calciatori.", analyzedMatches: [], averages: [], modelReading: "Dati da inserire.", estimateTitle: "Stime prossimo match", estimate: [], playerStatsNotes: [], playerMatches: [] },
-  { team: "Francia", group: "I", flag: "flags/francia.svg", summary: "Struttura pronta per statistiche squadra e calciatori.", analyzedMatches: [], averages: [], modelReading: "Dati da inserire.", estimateTitle: "Stime prossimo match", estimate: [], playerStatsNotes: [], playerMatches: [] },
-  { team: "Marocco", group: "C", flag: "flags/marocco.svg", summary: "Struttura pronta per statistiche squadra e calciatori.", analyzedMatches: [], averages: [], modelReading: "Dati da inserire.", estimateTitle: "Stime prossimo match", estimate: [], playerStatsNotes: [], playerMatches: [] },
+  {
+    team: "Francia",
+    group: "I",
+    flag: "flags/francia.svg",
+    summary: "Attacco ad alto volume e alta precisione nello specchio: Mbappe, Olise e Dembele sono i riferimenti principali.",
+    analyzedMatches: [
+      {
+        match: "Francia 3-0 Svezia",
+        context: "Sedicesimi/eliminazione diretta. Svezia fisica e compatta: Francia dominante, ottimo riferimento per volume offensivo.",
+        stats: [
+          ["Tiri", "25"],
+          ["Tiri in porta", "12"],
+          ["Corner", "n/d"],
+          ["Falli commessi", "14"],
+          ["Falli subiti", "9"],
+          ["Cartellini gialli", "0"],
+          ["Possesso", "n/d"],
+          ["xG", "n/d"]
+        ]
+      },
+      {
+        match: "Paraguay 0-1 Francia",
+        context: "Ottavi/eliminazione diretta. Paraguay difensivo e fisico: partita chiusa, molto utile per leggere Francia contro blocchi bassi.",
+        stats: [
+          ["Tiri", "15"],
+          ["Tiri in porta", "5"],
+          ["Corner", "n/d"],
+          ["Falli commessi", "11"],
+          ["Falli subiti", "13"],
+          ["Cartellini gialli", "3"],
+          ["Possesso", "n/d"],
+          ["xG", "n/d"]
+        ]
+      },
+      {
+        match: "Francia 3-1 Senegal",
+        context: "Fase a gironi contro squadra atletica e verticale: Francia molto concreta negli ultimi metri.",
+        stats: [
+          ["Tiri", "11"],
+          ["Tiri in porta", "8"],
+          ["Corner", "n/d"],
+          ["Falli commessi", "5"],
+          ["Falli subiti", "8"],
+          ["Cartellini gialli", "0"],
+          ["Possesso", "n/d"],
+          ["xG", "n/d"]
+        ]
+      },
+      {
+        match: "Francia 3-0 Iraq",
+        context: "Fase a gironi contro avversario inferiore: utile per volume offensivo, meno predittiva contro Marocco.",
+        stats: [
+          ["Tiri", "19"],
+          ["Tiri in porta", "5"],
+          ["Corner", "n/d"],
+          ["Falli commessi", "8"],
+          ["Falli subiti", "4"],
+          ["Cartellini gialli", "0"],
+          ["Possesso", "n/d"],
+          ["xG", "n/d"]
+        ]
+      },
+      {
+        match: "Norvegia 1-4 Francia",
+        context: "Fase a gironi contro avversario forte e verticale: buon riferimento per gestione di transizioni e duelli.",
+        stats: [
+          ["Tiri", "18"],
+          ["Tiri in porta", "9"],
+          ["Corner", "n/d"],
+          ["Falli commessi", "11"],
+          ["Falli subiti", "8"],
+          ["Cartellini gialli", "1"],
+          ["Possesso", "n/d"],
+          ["xG", "n/d"]
+        ]
+      }
+    ],
+    averages: [
+      ["Tiri totali medi", "17.6"],
+      ["Tiri in porta medi", "7.8"],
+      ["Corner medi", "n/d"],
+      ["Falli commessi medi", "9.8"],
+      ["Falli subiti medi", "8.4"],
+      ["Cartellini gialli medi", "0.8"],
+      ["Possesso medio", "n/d"],
+      ["xG medio", "n/d"]
+    ],
+    modelReading: "La Francia abbina volume e qualita nello specchio: 17.6 tiri e 7.8 tiri in porta medi nelle cinque partite analizzate. Contro avversari compatti il volume resta buono ma la partita puo diventare piu stretta; contro squadre aperte o fisiche la Francia trova piu campo per Mbappe, Dembele e Olise. Per Francia-Marocco pesare soprattutto Paraguay, Brasile-Marocco e Paesi Bassi-Marocco come riferimenti di gara chiusa e ad alta qualita.",
+    estimateTitle: "Stima Francia-Marocco - Francia",
+    estimate: [
+      ["Tiri Francia", "13-18"],
+      ["Tiri in porta Francia", "5-8"],
+      ["Corner Francia", "n/d"],
+      ["Falli Francia", "8-12"],
+      ["Cartellini Francia", "0-2"],
+      ["Gol attesi modello", "1-2"]
+    ],
+    playerStatsNotes: [],
+    playerMatches: []
+  },
+  {
+    team: "Marocco",
+    group: "C",
+    flag: "flags/marocco.svg",
+    summary: "Squadra compatta e competitiva contro avversari forti, con molti falli subiti e transizioni affidate a Hakimi, Saibari e Brahim.",
+    analyzedMatches: [
+      {
+        match: "Paesi Bassi 1-1 Marocco",
+        context: "Sedicesimi/eliminazione diretta. Avversario tecnico e forte: partita equilibrata, riferimento molto alto per Francia-Marocco.",
+        stats: [
+          ["Tiri", "11"],
+          ["Tiri in porta", "5"],
+          ["Corner", "n/d"],
+          ["Falli commessi", "15"],
+          ["Falli subiti", "15"],
+          ["Cartellini gialli", "1"],
+          ["Possesso", "n/d"],
+          ["xG", "n/d"]
+        ]
+      },
+      {
+        match: "Canada 0-3 Marocco",
+        context: "Ottavi/eliminazione diretta. Marocco dominante contro avversario fisico: utile per gestione vantaggio e produzione offensiva.",
+        stats: [
+          ["Tiri", "5"],
+          ["Tiri in porta", "4"],
+          ["Corner", "n/d"],
+          ["Falli commessi", "14"],
+          ["Falli subiti", "23"],
+          ["Cartellini gialli", "4"],
+          ["Possesso", "n/d"],
+          ["xG", "n/d"]
+        ]
+      },
+      {
+        match: "Brasile 1-1 Marocco",
+        context: "Fase a gironi contro avversario elite: ottimo riferimento per tenuta difensiva e transizioni contro qualita superiore.",
+        stats: [
+          ["Tiri", "14"],
+          ["Tiri in porta", "3"],
+          ["Corner", "n/d"],
+          ["Falli commessi", "14"],
+          ["Falli subiti", "16"],
+          ["Cartellini gialli", "0"],
+          ["Possesso", "n/d"],
+          ["xG", "n/d"]
+        ]
+      },
+      {
+        match: "Scozia 0-1 Marocco",
+        context: "Fase a gironi contro avversario fisico e diretto: Marocco avanti presto e poi in controllo.",
+        stats: [
+          ["Tiri", "12"],
+          ["Tiri in porta", "2"],
+          ["Corner", "n/d"],
+          ["Falli commessi", "8"],
+          ["Falli subiti", "10"],
+          ["Cartellini gialli", "1"],
+          ["Possesso", "n/d"],
+          ["xG", "n/d"]
+        ]
+      },
+      {
+        match: "Marocco 4-2 Haiti",
+        context: "Fase a gironi aperta e meno simile al quarto: utile per volume offensivo, peso modello piu basso.",
+        stats: [
+          ["Tiri", "22"],
+          ["Tiri in porta", "11"],
+          ["Corner", "n/d"],
+          ["Falli commessi", "10"],
+          ["Falli subiti", "18"],
+          ["Cartellini gialli", "0"],
+          ["Possesso", "n/d"],
+          ["xG", "n/d"]
+        ]
+      }
+    ],
+    averages: [
+      ["Tiri totali medi", "12.8"],
+      ["Tiri in porta medi", "5.0"],
+      ["Corner medi", "n/d"],
+      ["Falli commessi medi", "12.2"],
+      ["Falli subiti medi", "16.4"],
+      ["Cartellini gialli medi", "1.2"],
+      ["Possesso medio", "n/d"],
+      ["xG medio", "n/d"]
+    ],
+    modelReading: "Il Marocco resta leggibile come squadra da gara stretta: concede pochi riferimenti puliti, subisce molti falli e porta spesso la partita sul piano fisico. Contro Brasile e Paesi Bassi ha retto contro qualita alta; contro Canada e Haiti ha convertito bene quando ha trovato campo. Per Francia-Marocco i riferimenti principali sono Brasile e Paesi Bassi, piu del match con Haiti.",
+    estimateTitle: "Stima Francia-Marocco - Marocco",
+    estimate: [
+      ["Tiri Marocco", "8-13"],
+      ["Tiri in porta Marocco", "3-5"],
+      ["Corner Marocco", "n/d"],
+      ["Falli Marocco", "11-16"],
+      ["Cartellini Marocco", "1-3"],
+      ["Gol attesi modello", "0-1"]
+    ],
+    playerStatsNotes: [],
+    playerMatches: []
+  },
   { team: "Inghilterra", group: "L", flag: "flags/inghilterra.svg", summary: "Struttura pronta per statistiche squadra e calciatori.", analyzedMatches: [], averages: [], modelReading: "Dati da inserire.", estimateTitle: "Stime prossimo match", estimate: [], playerStatsNotes: [], playerMatches: [] },
   { team: "Norvegia", group: "I", flag: "flags/norvegia.svg", summary: "Struttura pronta per statistiche squadra e calciatori.", analyzedMatches: [], averages: [], modelReading: "Dati da inserire.", estimateTitle: "Stime prossimo match", estimate: [], playerStatsNotes: [], playerMatches: [] }
 ];

@@ -7,6 +7,7 @@ let teamStatsPlayerFilters = {
   role: "all",
   metric: "shots"
 };
+const quarterFinalTeams = ["Spagna", "Belgio", "Argentina", "Svizzera", "Francia", "Marocco", "Inghilterra", "Norvegia"];
 const normalizedPlayerStatsSources = [
   "data/player-stats/merged/spain-cape-verde-2026.json",
   "data/player-stats/merged/spain-saudi-arabia-2026.json",
@@ -67,8 +68,10 @@ function renderTeamMainStatRows(rows = []) {
 }
 
 function getTeamStatsData() {
-  if (Array.isArray(resolvedTeamStatsData)) return resolvedTeamStatsData;
-  return Array.isArray(window.teamStatsData) ? window.teamStatsData : teamStatsData;
+  const source = Array.isArray(resolvedTeamStatsData)
+    ? resolvedTeamStatsData
+    : (Array.isArray(window.teamStatsData) ? window.teamStatsData : teamStatsData);
+  return source.filter((team) => quarterFinalTeams.includes(team.team));
 }
 
 function renderEmptyValue(value) {

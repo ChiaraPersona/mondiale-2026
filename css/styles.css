@@ -5749,6 +5749,7 @@ body {
 .team-stats-selector {
   display: grid;
   gap: 6px;
+  min-width: 220px;
 }
 
 .team-stats-selector span {
@@ -5941,9 +5942,11 @@ body {
   flex-wrap: wrap;
   gap: 8px;
   padding: 14px 18px 0;
+  overflow-x: auto;
 }
 
 .team-stats-tab {
+  flex: 0 0 auto;
   min-height: 38px;
   border: 1px solid rgba(255, 255, 255, .12);
   border-radius: 8px;
@@ -6179,7 +6182,7 @@ body {
 
 .team-stats-player-controls {
   display: grid;
-  grid-template-columns: repeat(3, minmax(160px, 1fr)) auto;
+  grid-template-columns: repeat(3, minmax(160px, 1fr));
   gap: 10px;
   align-items: end;
   border: 1px solid rgba(255, 255, 255, .09);
@@ -6216,7 +6219,7 @@ body {
   min-height: 40px;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   border-radius: 8px;
   padding: 0 12px;
   color: var(--green);
@@ -6290,7 +6293,7 @@ body {
 
 .team-stats-player-rankings {
   display: grid;
-  grid-template-columns: repeat(5, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
   gap: 10px;
 }
 
@@ -6358,6 +6361,7 @@ body {
 
 .team-stats-player-table-wrap {
   overflow-x: auto;
+  max-width: 100%;
   border: 1px solid rgba(255, 255, 255, .09);
   border-radius: 10px;
   background: rgba(7, 10, 15, .24);
@@ -6365,7 +6369,7 @@ body {
 
 .team-stats-player-table {
   width: 100%;
-  min-width: 2060px;
+  min-width: 1760px;
   border-collapse: collapse;
   font-size: 12px;
 }
@@ -6396,9 +6400,13 @@ body {
 }
 
 .team-stats-player-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
   color: var(--ink);
   font-weight: 950;
   white-space: nowrap;
+  background: rgba(16, 23, 34, .98);
 }
 
 .team-stats-player-table .is-active-metric {
@@ -6425,6 +6433,41 @@ body {
 }
 
 @media (max-width: 760px) {
+  .team-stats-selector {
+    width: 100%;
+  }
+
+  .team-stats-card h3 {
+    font-size: 20px;
+  }
+
+  .team-stats-tabs {
+    flex-wrap: nowrap;
+    padding-inline: 12px;
+    scrollbar-width: thin;
+  }
+
+  .team-stats-tab {
+    min-width: max-content;
+  }
+
+  .team-stats-section-grid,
+  .team-stats-player-panel {
+    padding: 12px;
+  }
+
+  .team-stats-row {
+    align-items: flex-start;
+  }
+
+  .team-stats-row span {
+    line-height: 1.35;
+  }
+
+  .team-stats-row strong {
+    font-size: 16px;
+  }
+
   .team-stats-intro {
     grid-template-columns: 1fr;
   }
@@ -6446,6 +6489,20 @@ body {
   .team-stats-player-match-context dl,
   .team-stats-player-rankings {
     grid-template-columns: 1fr;
+  }
+
+  .team-stats-player-table {
+    min-width: 1380px;
+    font-size: 11px;
+  }
+
+  .team-stats-player-table th,
+  .team-stats-player-table td {
+    padding: 8px 9px;
+  }
+
+  .team-stats-player-table td:first-child {
+    position: static;
   }
 }
 

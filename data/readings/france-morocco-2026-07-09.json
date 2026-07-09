@@ -149,5 +149,29 @@
     "player prop sensibili a titolarita e sostituzioni",
     "cartellini individuali ad alta varianza"
   ],
-  "missingContext": []
+  "missingContext": [],
+  "sitePublication": {
+    "quoteErrors": [
+      {
+        "market": "Francia over 5.5 tiri in porta squadra",
+        "odds": 1.8,
+        "note": "Volume alto Francia e scenario favorevole se il Marocco resta basso."
+      },
+      {
+        "market": "Mbappe piu tiri in porta di Dembele",
+        "odds": 1.4,
+        "note": "Mbappe ha volume nello specchio superiore e centralita offensiva piu alta."
+      },
+      {
+        "market": "Olise piu tiri in porta di Brahim Diaz",
+        "odds": 2,
+        "note": "Prezzo interessante se Olise parte titolare."
+      }
+    ],
+    "bookingComboCandidates": [
+      { "player": "Hakimi", "team": "Marocco" },
+      { "player": "El Aynaoui", "team": "Marocco" },
+      { "player": "Tchouameni", "team": "Francia" }
+    ]
+  }
 }

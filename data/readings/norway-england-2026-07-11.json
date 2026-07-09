@@ -151,5 +151,27 @@
   ],
   "missingContext": [
     "referee confirmed"
-  ]
+  ],
+  "sitePublication": {
+    "probableFormations": {
+      "Norway": {
+        "module": "4-3-3",
+        "players": ["Nyland", "Ryerson", "Ajer", "Heggem", "Wolfe", "Odegaard", "Berge", "Berg", "Schjelderup", "Haaland", "Nusa"]
+      },
+      "England": {
+        "module": "4-2-3-1",
+        "players": ["Pickford", "O'Reilly", "Guehi", "Stones", "Konsa", "Anderson", "Rice", "Gordon", "Bellingham", "Saka", "Kane"]
+      }
+    },
+    "quoteErrors": [
+      { "market": "Inghilterra prima a X corner", "odds": 1.7, "note": "Scenario favorevole se l'Inghilterra tiene campo." },
+      { "market": "Over tiri in porta match", "odds": "1.50 / 1.80", "note": "Haaland e Kane aumentano il volume nello specchio." },
+      { "market": "Inghilterra over tiri squadra", "odds": 1.65, "note": "Buono se la Norvegia abbassa il blocco." }
+    ],
+    "bookingComboCandidates": [
+      { "player": "Declan Rice", "team": "Inghilterra" },
+      { "player": "David Moller Wolfe", "team": "Norvegia" },
+      { "player": "Nico O'Reilly", "team": "Inghilterra" }
+    ]
+  }
 }

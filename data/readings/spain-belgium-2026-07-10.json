@@ -149,5 +149,27 @@
     "player prop sensibili a titolarita e sostituzioni",
     "cartellini individuali ad alta varianza"
   ],
-  "missingContext": []
+  "missingContext": [],
+  "sitePublication": {
+    "probableFormations": {
+      "Spain": {
+        "module": "4-2-3-1",
+        "players": ["Simon", "Porro", "Cubarsi", "Laporte", "Cucurella", "Rodri", "Pedri", "Lamine Yamal", "Olmo", "Baena", "Oyarzabal"]
+      },
+      "Belgium": {
+        "module": "4-2-3-1",
+        "players": ["Courtois", "De Cuyper", "Mechele", "Ngoy", "Castagne", "Tielemans", "Vanaken", "Trossard", "De Bruyne", "Doku", "De Ketelaere"]
+      }
+    },
+    "quoteErrors": [
+      { "market": "Spagna prima a X corner", "odds": 2, "note": "Coerente con possesso e volume offensivo spagnolo." },
+      { "market": "Spagna 1 + Over", "odds": 1.95, "note": "Buona se la partita resta territoriale e il Belgio concede campo." },
+      { "market": "Spagna over tiri squadra", "odds": 1.6, "note": "Mercato sostenuto dai dati aggregati della Spagna." }
+    ],
+    "bookingComboCandidates": [
+      { "player": "Raskin", "team": "Belgio" },
+      { "player": "Cucurella", "team": "Spagna" },
+      { "player": "De Cuyper", "team": "Belgio" }
+    ]
+  }
 }

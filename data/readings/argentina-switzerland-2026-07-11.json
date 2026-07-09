@@ -150,6 +150,21 @@
     "cartellini individuali ad alta varianza"
   ],
   "missingContext": [
-    "referee confirmed"
-  ]
+    "referee confirmed",
+    "probable formations"
+  ],
+  "sitePublication": {
+    "probableFormations": null,
+    "probableFormationsNote": "Probabili formazioni Argentina-Svizzera ancora da inserire. Non stimate.",
+    "quoteErrors": [
+      { "market": "Argentina over tiri totali", "odds": 2, "note": "Prezzo interessante se l'Argentina tiene campo." },
+      { "market": "Argentina over 5.5 tiri in porta squadra", "odds": 2, "note": "Linea aggressiva ma coerente in scenario dominante." },
+      { "market": "Over 8.5 tiri in porta match", "odds": 1.9, "note": "Buono se la Svizzera non resta solo bassa." }
+    ],
+    "bookingComboCandidates": [
+      { "player": "Ricardo Rodriguez", "team": "Svizzera" },
+      { "player": "Cristian Romero", "team": "Argentina" },
+      { "player": "Nico Elvedi", "team": "Svizzera" }
+    ]
+  }
 }

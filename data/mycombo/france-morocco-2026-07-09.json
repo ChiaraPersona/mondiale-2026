@@ -251,24 +251,60 @@
     },
     "events": [
       {
-        "title": "Francia + Under 3,5 a prezzo ancora giocabile",
-        "odds": null,
-        "badge": "core",
-        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
+        "title": "Francia + Under 3,5",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 3.5",
+        "selection": "1 + U",
+        "odds": 2.1,
+        "selectionId": 5206486494,
+        "marketId": 791152114,
+        "category": "esito",
+        "badge": "CORE",
+        "reason": "Il prezzo resta interessante se la partita prende la forma di vittoria controllata, non di gara aperta.",
+        "compatibility": "Safe/Balanced",
+        "confirmations": [
+          "Lettura partita",
+          "Player/team stats",
+          "Quote Sisal"
+        ]
       },
       {
         "title": "Mbappe piu tiri in porta di Dembele",
-        "odds": null,
-        "badge": "value",
-        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
+        "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
+        "info": "MBAPPE K. - DEMBELE OUSMANE 1X2 TIRI IN PORTA INC TS",
+        "selection": "1",
+        "odds": 1.4,
+        "selectionId": 5209002837,
+        "marketId": 791621116,
+        "category": "tiri",
+        "badge": "VALUE",
+        "reason": "Il player model di Mbappe e nettamente superiore per tiri nello specchio e centralita offensiva.",
+        "compatibility": "Balanced/Aggressive",
+        "confirmations": [
+          "Lettura partita",
+          "Player/team stats",
+          "Quote Sisal"
+        ]
       },
       {
         "title": "Olise piu tiri in porta di Brahim Diaz",
-        "odds": null,
-        "badge": "value",
-        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
+        "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
+        "info": "OLISE M. - BRAHIM DIAZ 1X2 TIRI IN PORTA INC TS",
+        "selection": "1",
+        "odds": 2,
+        "selectionId": 5209002843,
+        "marketId": 791621117,
+        "category": "tiri",
+        "badge": "VALUE",
+        "reason": "Olise riceve nella zona piu stabile della Francia, Brahim dipende di piu dalle transizioni marocchine.",
+        "compatibility": "Balanced/Aggressive",
+        "confirmations": [
+          "Lettura partita",
+          "Player/team stats",
+          "Quote Sisal"
+        ]
       }
     ],
-    "disclaimer": "Le quote segnalate non sono garanzia di vincita: servono a evidenziare mercati compatibili con il modello."
+    "disclaimer": "I possibili errori di quota non sono garanzie di vincita: indicano mercati reali Sisal compatibili con lettura e dati disponibili."
   }
 }

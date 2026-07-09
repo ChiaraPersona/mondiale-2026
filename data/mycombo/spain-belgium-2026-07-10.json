@@ -252,23 +252,59 @@
     "events": [
       {
         "title": "Spagna prima a 6 corner",
-        "odds": null,
-        "badge": "core",
-        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
+        "market": "PRIMA A X CORNER",
+        "info": "PRIMA A 6 CALCI D'ANGOLO",
+        "selection": "TEAM 1",
+        "odds": 2,
+        "selectionId": 5210774160,
+        "marketId": 791948600,
+        "category": "corner",
+        "badge": "CORE",
+        "reason": "La pressione territoriale spagnola rende il prezzo interessante se il Belgio difende basso.",
+        "compatibility": "Safe/Balanced",
+        "confirmations": [
+          "Lettura partita",
+          "Player/team stats",
+          "Quote Sisal"
+        ]
       },
       {
-        "title": "De Bruyne over tiri se il Belgio deve rincorrere",
-        "odds": null,
-        "badge": "value",
-        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
+        "title": "De Bruyne over 1.5 tiri",
+        "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+        "info": "DE BRUYNE K. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+        "selection": "OVER",
+        "odds": 1.65,
+        "selectionId": 5209474675,
+        "marketId": 791698815,
+        "category": "tiri",
+        "badge": "VALUE",
+        "reason": "Se il Belgio deve rincorrere, De Bruyne diventa il primo tiratore da seconda linea.",
+        "compatibility": "Balanced/Aggressive",
+        "confirmations": [
+          "Lettura partita",
+          "Player/team stats",
+          "Quote Sisal"
+        ]
       },
       {
-        "title": "Doku falli subiti over in scenario di transizione",
-        "odds": null,
-        "badge": "value",
-        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
+        "title": "Doku over falli subiti",
+        "market": "U/O FALLI SUBITI GIOCATORE",
+        "info": "DOKU J. U/O 2.5 FALLI SUBITI",
+        "selection": "OVER",
+        "odds": 1.75,
+        "selectionId": 5209470507,
+        "marketId": 791697773,
+        "category": "falli",
+        "badge": "VALUE",
+        "reason": "Doku puo attirare contatti se il Belgio trova transizioni contro terzini spagnoli alti.",
+        "compatibility": "Balanced/Aggressive",
+        "confirmations": [
+          "Lettura partita",
+          "Player/team stats",
+          "Quote Sisal"
+        ]
       }
     ],
-    "disclaimer": "Le quote segnalate non sono garanzia di vincita: servono a evidenziare mercati compatibili con il modello."
+    "disclaimer": "I possibili errori di quota non sono garanzie di vincita: indicano mercati reali Sisal compatibili con lettura e dati disponibili."
   }
 }

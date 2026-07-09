@@ -251,24 +251,60 @@
     },
     "events": [
       {
-        "title": "Inghilterra passaggio turno ancora giocabile",
-        "odds": null,
-        "badge": "core",
-        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
+        "title": "Inghilterra passaggio turno",
+        "market": "PASSAGGIO TURNO",
+        "info": "PASSAGGIO TURNO",
+        "selection": "2",
+        "odds": 1.45,
+        "selectionId": 5207566661,
+        "marketId": 791355146,
+        "category": "esito",
+        "badge": "CORE",
+        "reason": "La quota resta usabile se si legge l Inghilterra come squadra piu completa nei 120 minuti.",
+        "compatibility": "Safe/Balanced",
+        "confirmations": [
+          "Lettura partita",
+          "Player/team stats",
+          "Quote Sisal"
+        ]
       },
       {
-        "title": "Over tiri in porta match se entrambe arrivano ai finalizzatori",
-        "odds": null,
-        "badge": "value",
-        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
+        "title": "Over tiri in porta match",
+        "market": "U/O TIRI IN PORTA",
+        "info": "U/O 10.5 TIRI IN PORTA",
+        "selection": "OVER",
+        "odds": 2.3,
+        "selectionId": 5207566153,
+        "marketId": 791355034,
+        "category": "tiri",
+        "badge": "VALUE",
+        "reason": "Haaland e Kane alzano il tetto SOT anche in una gara tattica.",
+        "compatibility": "Balanced/Aggressive",
+        "confirmations": [
+          "Lettura partita",
+          "Player/team stats",
+          "Quote Sisal"
+        ]
       },
       {
         "title": "Bellingham piu tiri di Odegaard",
-        "odds": null,
-        "badge": "value",
-        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
+        "market": "1X2 TIRI TOTALI GIOCATORI INC TS",
+        "info": "ODEGAARD MARTIN - BELLINGHAM JUDE 1X2 TIRI INC TS",
+        "selection": "2",
+        "odds": 1.6,
+        "selectionId": 5209324043,
+        "marketId": 791668595,
+        "category": "tiri",
+        "badge": "VALUE",
+        "reason": "Bellingham ha piu presenza area e piu scenario da conclusione se l Inghilterra tiene campo.",
+        "compatibility": "Balanced/Aggressive",
+        "confirmations": [
+          "Lettura partita",
+          "Player/team stats",
+          "Quote Sisal"
+        ]
       }
     ],
-    "disclaimer": "Le quote segnalate non sono garanzia di vincita: servono a evidenziare mercati compatibili con il modello."
+    "disclaimer": "I possibili errori di quota non sono garanzie di vincita: indicano mercati reali Sisal compatibili con lettura e dati disponibili."
   }
 }

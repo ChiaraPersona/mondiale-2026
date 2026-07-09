@@ -5,7 +5,7 @@ if (readingPage && !storyReadingPage && !document.querySelector('script[data-myc
   const loadMyComboViewer = () => {
     if (document.querySelector('script[data-mycombo-export]')) return;
     const myComboScript = document.createElement("script");
-    myComboScript.src = "js/mycombo-export.js?v=20260702-odds-1";
+    myComboScript.src = "js/mycombo-export.js?v=20260709-mycombo-visible-1";
     myComboScript.dataset.mycomboExport = "true";
     myComboScript.defer = true;
     document.head.appendChild(myComboScript);

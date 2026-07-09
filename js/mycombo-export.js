@@ -239,7 +239,37 @@
       </section>`;
   }
 
+  function normalizePortfolio(payload, key, fallbackName) {
+    const portfolio = payload?.[key];
+    if (!portfolio || typeof portfolio !== "object") return null;
+    return {
+      ...portfolio,
+      name: portfolio.name || fallbackName,
+      reason: portfolio.reason || portfolio.motivation || portfolio.whyIncluded || "",
+      riskProfile: {
+        ...(portfolio.riskProfile || {}),
+        ...(portfolio.averageRisk != null ? { averageRisk: portfolio.averageRisk } : {}),
+      },
+      riskVerdict: portfolio.riskVerdict || (
+        Number(portfolio.averageRisk) >= 65 ? "Alto" :
+        Number(portfolio.averageRisk) >= 40 ? "Medio" :
+        Number.isFinite(Number(portfolio.averageRisk)) ? "Basso" : ""
+      ),
+    };
+  }
+
+  function normalizePayload(payload) {
+    if (Array.isArray(payload?.portfolios) && payload.portfolios.length) return payload;
+    const portfolios = [
+      normalizePortfolio(payload, "safe", "Safe"),
+      normalizePortfolio(payload, "balanced", "Balanced"),
+      normalizePortfolio(payload, "aggressive", "Aggressive"),
+    ].filter(Boolean);
+    return { ...payload, portfolios };
+  }
+
   function renderFinalCombos(container, payload) {
+    payload = normalizePayload(payload);
     if (!Array.isArray(payload?.portfolios) || !payload.portfolios.length) {
       throw new Error("Formato MyCombo non valido");
     }

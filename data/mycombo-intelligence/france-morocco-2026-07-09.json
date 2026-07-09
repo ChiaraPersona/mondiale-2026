@@ -26,9 +26,9 @@
     "primaryProvider": "ESPN merged pipeline"
   },
   "dataLimitations": [
-    "I campi avanzati come xG, xA, tocchi, passaggi, duelli e rating non sono disponibili nella copertura ESPN usata per questi merged.",
-    "I segnali non sono quote e non rappresentano una schedina: servono solo per aiutare la pipeline MyCombo a pesare gli eventi disponibili.",
-    "I mercati giocatore vanno confermati con titolarit?, ruolo e minuti previsti prima dell'uso operativo.",
+    "I campiuavanzati come xG, xA, tocchi, passaggi, duelli e rating non sono disponibili nella copertura ESPN usata per questi merged.",
+    "I segnali non sono quote e non rappresentano una schedina: servono solo per aiutare la piueline MyCombo a pesare gli eventi disponibili.",
+    "I mercati giocatore vanno confermati con titolarita, ruolo e minuti previsti prima dell'uso operativo.",
     "Nei teamProfiles, falli subiti/foulsWon sono calcolati come falli commessi dall'avversario; il valore foulsWonFromPlayerRows conserva la somma player-by-player ESPN quando differisce dal totale squadra."
   ],
   "matchSummaries": [
@@ -819,142 +819,503 @@
   ],
   "marketSignals": [
     {
-      "player": "Kylian Mbapp?",
-      "team": null,
+      "market": "Mbappe tiri",
+      "player": "Kylian Mbappé",
+      "team": "Francia",
       "marketType": "tiri giocatore",
-      "strength": 0,
-      "risk": 46,
-      "confidence": 15,
-      "note": "Volume elite: 26 tiri in 464 minuti; mercato compatibile se la Francia attacca con continuit?."
+      "inputs": {
+        "volumeScore": 84,
+        "consistencyScore": 93,
+        "contextScore": 72,
+        "opponentScore": 72,
+        "starterScore": 100,
+        "trendScore": 70
+      },
+      "strength": 83,
+      "confidence": 78,
+      "risk": 43,
+      "note": "Volume elite: 26 tiri in 464 minuti. Segnale forte ma da incrociare con linea Sisal e marcatura marocchina.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 34,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 8,
+        "cardMarketPenalty": 0,
+        "lowConsistencyPenalty": 1
+      },
+      "environmentAdjustments": [
+        {
+          "type": "confidence",
+          "delta": -4,
+          "reason": "Caldo e real feel alto possono ridurre pressing, ritmo continuo e volume tiri su 90 minuti."
+        }
+      ]
     },
     {
-      "player": "Kylian Mbapp?",
-      "team": null,
+      "market": "Mbappe tiri in porta",
+      "player": "Kylian Mbappé",
+      "team": "Francia",
       "marketType": "tiri in porta giocatore",
-      "strength": 0,
-      "risk": 52,
-      "confidence": 13,
-      "note": "17 tiri in porta aggregati: segnale forte, ma dipende da quota e marcatura marocchina."
+      "inputs": {
+        "volumeScore": 94,
+        "consistencyScore": 94,
+        "contextScore": 72,
+        "opponentScore": 68,
+        "starterScore": 100,
+        "trendScore": 59
+      },
+      "strength": 85,
+      "confidence": 78,
+      "risk": 50,
+      "note": "17 tiri in porta aggregati: mercato forte, piu volatile del semplice volume tiri.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 42,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 8,
+        "cardMarketPenalty": 0,
+        "lowConsistencyPenalty": 0
+      },
+      "environmentAdjustments": [
+        {
+          "type": "confidence",
+          "delta": -4,
+          "reason": "Caldo e real feel alto possono ridurre pressing, ritmo continuo e volume tiri su 90 minuti."
+        }
+      ]
     },
     {
-      "player": "Kylian Mbapp?",
-      "team": null,
+      "market": "Mbappe gol o assist",
+      "player": "Kylian Mbappé",
+      "team": "Francia",
       "marketType": "gol o assist",
-      "strength": 0,
-      "risk": 62,
-      "confidence": 11,
-      "note": "7 gol e 2 assist: profilo primario, mercato pi? volatile dei tiri."
+      "inputs": {
+        "volumeScore": 73,
+        "consistencyScore": 94,
+        "contextScore": 72,
+        "opponentScore": 64,
+        "starterScore": 100,
+        "trendScore": 69
+      },
+      "strength": 78,
+      "confidence": 82,
+      "risk": 66,
+      "note": "7 gol e 2 assist: centralita altissima, ma mercato evento piu volatile dei tiri.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 58,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 8,
+        "cardMarketPenalty": 0,
+        "lowConsistencyPenalty": 0
+      }
     },
     {
+      "market": "Olise tiri",
       "player": "Michael Olise",
       "team": "Francia",
       "marketType": "tiri giocatore",
-      "strength": 77,
-      "risk": 42,
-      "confidence": 72,
-      "note": "14 tiri e 5 assist: utile se parte largo/trequartista con minuti alti."
-    },
-    {
-      "player": "Michael Olise",
-      "team": "Francia",
-      "marketType": "gol o assist",
-      "strength": 43,
+      "inputs": {
+        "volumeScore": 50,
+        "consistencyScore": 68,
+        "contextScore": 72,
+        "opponentScore": 72,
+        "starterScore": 94,
+        "trendScore": 71
+      },
+      "strength": 67,
+      "confidence": 70,
       "risk": 46,
-      "confidence": 46,
-      "note": "5 assist aggregati: buon segnale creativo, da legare a titolarit? e piazzati."
+      "note": "14 tiri e 419 minuti: segnale buono se titolare nel ruolo visto nelle probabili formazioni.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 34,
+        "minuteUncertaintyPenalty": 1,
+        "individualMarketPenalty": 8,
+        "cardMarketPenalty": 0,
+        "lowConsistencyPenalty": 3
+      },
+      "environmentAdjustments": [
+        {
+          "type": "confidence",
+          "delta": -4,
+          "reason": "Caldo e real feel alto possono ridurre pressing, ritmo continuo e volume tiri su 90 minuti."
+        }
+      ]
     },
     {
-      "player": "Ousmane Demb?l?",
-      "team": null,
+      "market": "Olise gol o assist",
+      "player": "Michael Olise",
+      "team": "Francia",
+      "marketType": "gol o assist",
+      "inputs": {
+        "volumeScore": 45,
+        "consistencyScore": 46,
+        "contextScore": 72,
+        "opponentScore": 64,
+        "starterScore": 94,
+        "trendScore": 69
+      },
+      "strength": 60,
+      "confidence": 69,
+      "risk": 71,
+      "note": "5 assist aggregati: profilo creativo interessante, da legare a titolarita e piazzati.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 58,
+        "minuteUncertaintyPenalty": 1,
+        "individualMarketPenalty": 8,
+        "cardMarketPenalty": 0,
+        "lowConsistencyPenalty": 4
+      }
+    },
+    {
+      "market": "Dembele tiri",
+      "player": "Ousmane Dembélé",
+      "team": "Francia",
       "marketType": "tiri giocatore",
-      "strength": 0,
-      "risk": 58,
-      "confidence": 12,
-      "note": "12 tiri, 4 gol e 2 assist: alto upside ma pi? dipendente da minuti e ruolo."
+      "inputs": {
+        "volumeScore": 48,
+        "consistencyScore": 88,
+        "contextScore": 72,
+        "opponentScore": 72,
+        "starterScore": 86,
+        "trendScore": 79
+      },
+      "strength": 69,
+      "confidence": 73,
+      "risk": 46,
+      "note": "12 tiri, 4 gol e 2 assist: upside alto, rischio legato a minuti e ruolo.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 34,
+        "minuteUncertaintyPenalty": 3,
+        "individualMarketPenalty": 8,
+        "cardMarketPenalty": 0,
+        "lowConsistencyPenalty": 1
+      },
+      "environmentAdjustments": [
+        {
+          "type": "confidence",
+          "delta": -4,
+          "reason": "Caldo e real feel alto possono ridurre pressing, ritmo continuo e volume tiri su 90 minuti."
+        }
+      ]
     },
     {
+      "market": "Hakimi falli subiti",
       "player": "Achraf Hakimi",
       "team": "Marocco",
       "marketType": "falli subiti giocatore",
-      "strength": 74,
-      "risk": 36,
-      "confidence": 71,
-      "note": "14 falli subiti in 519 minuti: segnale molto utile per duelli sulla fascia."
+      "inputs": {
+        "volumeScore": 81,
+        "consistencyScore": 89,
+        "contextScore": 72,
+        "opponentScore": 70,
+        "starterScore": 100,
+        "trendScore": 63
+      },
+      "strength": 80,
+      "confidence": 81,
+      "risk": 47,
+      "note": "14 falli subiti in 519 minuti: indicatore forte per duelli laterali e transizioni.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 38,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 8,
+        "cardMarketPenalty": 0,
+        "lowConsistencyPenalty": 1
+      }
     },
     {
+      "market": "Hakimi cartellino",
       "player": "Achraf Hakimi",
       "team": "Marocco",
       "marketType": "cartellini giocatore",
-      "strength": 28,
-      "risk": 74,
-      "confidence": 27,
-      "note": "1 giallo aggregato e ruolo esposto; segnale pi? speculativo del mercato falli subiti."
+      "inputs": {
+        "volumeScore": 39,
+        "consistencyScore": 0,
+        "contextScore": 72,
+        "opponentScore": 72,
+        "starterScore": 100,
+        "trendScore": 40
+      },
+      "strength": 54,
+      "confidence": 59,
+      "risk": 100,
+      "note": "Ruolo esposto e un giallo aggregato; resta un mercato ad alta varianza.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 72,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 8,
+        "cardMarketPenalty": 16,
+        "lowConsistencyPenalty": 8,
+        "environmentRefereeHeatPenalty": 6
+      },
+      "environmentAdjustments": [
+        {
+          "type": "risk",
+          "delta": 0,
+          "reason": "Arbitro sudamericano, caldo e gara a eliminazione diretta aumentano volatilita dei cartellini individuali."
+        }
+      ]
     },
     {
+      "market": "Francia tiri squadra",
       "team": "Francia",
       "marketType": "tiri squadra",
-      "strength": 94,
-      "risk": 30,
-      "confidence": 88,
-      "note": "Francia a 17.6 tiri medi: segnale CORE/VALUE se la linea proposta non ? troppo alta."
+      "inputs": {
+        "volumeScore": 88,
+        "consistencyScore": 93,
+        "contextScore": 72,
+        "opponentScore": 72,
+        "starterScore": 100,
+        "trendScore": 66
+      },
+      "strength": 84,
+      "confidence": 79,
+      "risk": 25,
+      "note": "Francia a 17.6 tiri medi: segnale strutturale, meno dipendente dal singolo.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 24,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 0,
+        "cardMarketPenalty": 0,
+        "lowConsistencyPenalty": 1
+      },
+      "environmentAdjustments": [
+        {
+          "type": "confidence",
+          "delta": -3,
+          "reason": "Caldo e real feel alto possono ridurre pressing, ritmo continuo e volume tiri su 90 minuti."
+        }
+      ]
     },
     {
+      "market": "Francia tiri in porta squadra",
       "team": "Francia",
       "marketType": "tiri in porta squadra",
+      "inputs": {
+        "volumeScore": 87,
+        "consistencyScore": 92,
+        "contextScore": 72,
+        "opponentScore": 68,
+        "starterScore": 100,
+        "trendScore": 62
+      },
       "strength": 82,
-      "risk": 36,
-      "confidence": 78,
-      "note": "Francia a 7.8 tiri in porta medi: forte ma pu? calare contro blocco basso marocchino."
+      "confidence": 79,
+      "risk": 33,
+      "note": "Francia a 7.8 tiri in porta medi: forte, ma da pesare contro blocco basso marocchino.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 32,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 0,
+        "cardMarketPenalty": 0,
+        "lowConsistencyPenalty": 1
+      },
+      "environmentAdjustments": [
+        {
+          "type": "confidence",
+          "delta": -3,
+          "reason": "Caldo e real feel alto possono ridurre pressing, ritmo continuo e volume tiri su 90 minuti."
+        }
+      ]
     },
     {
+      "market": "Marocco tiri squadra",
       "team": "Marocco",
       "marketType": "tiri squadra",
+      "inputs": {
+        "volumeScore": 64,
+        "consistencyScore": 89,
+        "contextScore": 69,
+        "opponentScore": 58,
+        "starterScore": 100,
+        "trendScore": 73
+      },
       "strength": 74,
-      "risk": 48,
-      "confidence": 69,
-      "note": "Marocco a 12.8 tiri medi, ma con forte dipendenza dallo scenario partita."
+      "confidence": 77,
+      "risk": 25,
+      "note": "Marocco a 12.8 tiri medi, con forte dipendenza dallo scenario partita.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 24,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 0,
+        "cardMarketPenalty": 0,
+        "lowConsistencyPenalty": 1
+      },
+      "environmentAdjustments": [
+        {
+          "type": "confidence",
+          "delta": -3,
+          "reason": "Caldo e real feel alto possono ridurre pressing, ritmo continuo e volume tiri su 90 minuti."
+        }
+      ]
     },
     {
+      "market": "Marocco falli/cartellini squadra",
       "team": "Marocco",
       "marketType": "falli/cartellini squadra",
-      "strength": 83,
-      "risk": 44,
-      "confidence": 76,
-      "note": "Marocco a 12.2 falli commessi e 1.2 gialli medi: segnale utile per gara fisica."
+      "inputs": {
+        "volumeScore": 76,
+        "consistencyScore": 94,
+        "contextScore": 72,
+        "opponentScore": 51,
+        "starterScore": 100,
+        "trendScore": 58
+      },
+      "strength": 75,
+      "confidence": 82,
+      "risk": 48,
+      "note": "Marocco a 12.2 falli commessi e 1.2 gialli medi: segnale utile per gara fisica.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 40,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 0,
+        "cardMarketPenalty": 8,
+        "lowConsistencyPenalty": 0
+      }
     },
     {
+      "market": "Marocco cartellini squadra",
       "team": "Marocco",
       "marketType": "cartellini squadra",
-      "strength": 54,
-      "risk": 52,
-      "confidence": 53,
-      "note": "Profilo disciplinare pi? alto della Francia; resta legato ad arbitro e risultato."
+      "inputs": {
+        "volumeScore": 55,
+        "consistencyScore": 39,
+        "contextScore": 72,
+        "opponentScore": 72,
+        "starterScore": 100,
+        "trendScore": 50
+      },
+      "strength": 70,
+      "confidence": 68,
+      "risk": 59,
+      "note": "Profilo disciplinare piu alto della Francia; legato ad arbitro e risultato.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 42,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 0,
+        "cardMarketPenalty": 10,
+        "lowConsistencyPenalty": 5
+      },
+      "environmentAdjustments": [
+        {
+          "type": "scenarioFit",
+          "deltaStrength": 5,
+          "deltaRisk": 2,
+          "reason": "Boost condizionale allo scenario Marocco resiste basso."
+        }
+      ],
+      "scenarioAdjustments": [
+        {
+          "scenario": "Marocco resiste basso",
+          "strengthDelta": 5,
+          "riskDelta": 2,
+          "reason": "Se il Marocco difende basso, aumentano difesa prolungata, duelli, falli tattici e rischio cartellini squadra."
+        }
+      ]
     },
     {
+      "market": "Francia falli/cartellini squadra",
       "team": "Francia",
       "marketType": "falli/cartellini squadra",
-      "strength": 71,
-      "risk": 38,
-      "confidence": 69,
-      "note": "Francia a 9.8 falli commessi e 0.8 gialli medi: segnale moderato."
+      "inputs": {
+        "volumeScore": 61,
+        "consistencyScore": 92,
+        "contextScore": 78,
+        "opponentScore": 91,
+        "starterScore": 100,
+        "trendScore": 64
+      },
+      "strength": 81,
+      "confidence": 83,
+      "risk": 49,
+      "note": "Francia a 9.8 falli commessi e 0.8 gialli medi: segnale moderato.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 40,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 0,
+        "cardMarketPenalty": 8,
+        "lowConsistencyPenalty": 1
+      }
     },
     {
+      "market": "El Aynaoui cartellino",
       "player": "Neil El Aynaoui",
       "team": "Marocco",
       "marketType": "cartellini giocatore",
-      "strength": 25,
-      "risk": 70,
-      "confidence": 26,
-      "note": "Mediano con 11 falli commessi aggregati; cartellino da trattare come SPECULATIVE."
+      "inputs": {
+        "volumeScore": 0,
+        "consistencyScore": 15,
+        "contextScore": 72,
+        "opponentScore": 72,
+        "starterScore": 100,
+        "trendScore": 20
+      },
+      "strength": 45,
+      "confidence": 62,
+      "risk": 100,
+      "note": "Mediano con 11 falli commessi aggregati; cartellino da trattare come SPECULATIVE.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 72,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 8,
+        "cardMarketPenalty": 16,
+        "lowConsistencyPenalty": 7,
+        "environmentRefereeHeatPenalty": 6
+      },
+      "environmentAdjustments": [
+        {
+          "type": "risk",
+          "delta": 0,
+          "reason": "Arbitro sudamericano, caldo e gara a eliminazione diretta aumentano volatilita dei cartellini individuali."
+        }
+      ]
     },
     {
+      "market": "Issa Diop cartellino",
       "player": "Issa Diop",
       "team": "Marocco",
       "marketType": "cartellini giocatore",
-      "strength": 31,
-      "risk": 74,
-      "confidence": 30,
-      "note": "2 gialli aggregati da difensore: rischio presente, ma dipende da titolarit? e duelli con Mbapp?/Demb?l?."
+      "inputs": {
+        "volumeScore": 98,
+        "consistencyScore": 24,
+        "contextScore": 72,
+        "opponentScore": 72,
+        "starterScore": 100,
+        "trendScore": 75
+      },
+      "strength": 76,
+      "confidence": 65,
+      "risk": 100,
+      "note": "2 gialli aggregati da difensore: rischio presente, ma dipende da titolarita e duelli con gli esterni francesi.",
+      "evaluatorVersion": "Market Evaluator V1",
+      "riskComponents": {
+        "marketVolatility": 72,
+        "minuteUncertaintyPenalty": 0,
+        "individualMarketPenalty": 8,
+        "cardMarketPenalty": 16,
+        "lowConsistencyPenalty": 6,
+        "environmentRefereeHeatPenalty": 6
+      },
+      "environmentAdjustments": [
+        {
+          "type": "risk",
+          "delta": 0,
+          "reason": "Arbitro sudamericano, caldo e gara a eliminazione diretta aumentano volatilita dei cartellini individuali."
+        }
+      ]
     }
   ],
   "scenarioFit": [
@@ -963,12 +1324,12 @@
       "description": "Francia alta e continua nella met? campo marocchina; Marocco costretto a difendere basso e ripartire.",
       "compatibleMarkets": [
         {
-          "market": "Mbapp? tiri",
+          "market": "Mbappe tiri",
           "fit": "alto",
           "note": "Volume coerente con pressione francese."
         },
         {
-          "market": "Mbapp? tiri in porta",
+          "market": "Mbappe tiri in porta",
           "fit": "alto",
           "note": "Compatibile se la Francia arriva spesso in area."
         },
@@ -978,7 +1339,7 @@
           "note": "Scenario favorevole a rifinitura e conclusioni da destra/mezzo spazio."
         },
         {
-          "market": "Demb?l? tiri",
+          "market": "Dembele tiri",
           "fit": "medio-alto",
           "note": "Buono se titolare e largo contro blocco basso."
         },
@@ -1009,12 +1370,12 @@
       "description": "Francia avanti o superiore senza partita totalmente aperta; ritmo gestito e rischi ridotti.",
       "compatibleMarkets": [
         {
-          "market": "Mbapp? tiri",
+          "market": "Mbappe tiri",
           "fit": "medio-alto",
           "note": "Resta centrale anche con ritmo controllato."
         },
         {
-          "market": "Mbapp? tiri in porta",
+          "market": "Mbappe tiri in porta",
           "fit": "medio",
           "note": "Buono ma meno forte se la Francia gestisce il vantaggio."
         },
@@ -1024,7 +1385,7 @@
           "note": "Dipende da minuti e posizione."
         },
         {
-          "market": "Demb?l? tiri",
+          "market": "Dembele tiri",
           "fit": "medio",
           "note": "Utile solo con minutaggio chiaro."
         },
@@ -1055,14 +1416,14 @@
       "description": "Marocco compatto, partita chiusa, pochi spazi centrali, Francia costretta a pazientare.",
       "compatibleMarkets": [
         {
-          "market": "Mbapp? tiri",
+          "market": "Mbappe tiri",
           "fit": "medio",
           "note": "Pu? tirare anche da posizioni meno pulite."
         },
         {
-          "market": "Mbapp? tiri in porta",
+          "market": "Mbappe tiri in porta",
           "fit": "medio-basso",
-          "note": "Blocco basso pu? abbassare qualit? conclusioni."
+          "note": "Blocco basso pu? abbassare qualita conclusioni."
         },
         {
           "market": "Olise assist/tiri",
@@ -1070,7 +1431,7 @@
           "note": "Possibile volume su cross/rifinitura."
         },
         {
-          "market": "Demb?l? tiri",
+          "market": "Dembele tiri",
           "fit": "medio",
           "note": "Dipende da uno contro uno e minuti."
         },
@@ -1098,15 +1459,15 @@
     },
     {
       "scenario": "Partita aperta/equilibrata",
-      "description": "Entrambe trovano campo, Marocco pi? aggressivo in uscita, ritmo pi? alto e transizioni.",
+      "description": "Entrambe trovano campo, Marocco piu aggressivo in uscita, ritmo piu alto e transizioni.",
       "compatibleMarkets": [
         {
-          "market": "Mbapp? tiri",
+          "market": "Mbappe tiri",
           "fit": "alto",
-          "note": "Pi? campo aumenta volume e qualit?."
+          "note": "Pi? campo aumenta volume e qualita."
         },
         {
-          "market": "Mbapp? tiri in porta",
+          "market": "Mbappe tiri in porta",
           "fit": "alto",
           "note": "Scenario migliore per occasioni pulite."
         },
@@ -1116,7 +1477,7 @@
           "note": "Pi? spazi tra le linee."
         },
         {
-          "market": "Demb?l? tiri",
+          "market": "Dembele tiri",
           "fit": "medio-alto",
           "note": "Uno contro uno e transizioni favorevoli."
         },
@@ -1138,7 +1499,7 @@
         {
           "market": "Marocco tiri squadra",
           "fit": "medio-alto",
-          "note": "Transizioni marocchine pi? frequenti."
+          "note": "Transizioni marocchine piu frequenti."
         }
       ]
     }
@@ -1147,11 +1508,11 @@
     "CORE": [
       {
         "market": "Francia tiri squadra",
-        "reason": "Volume medio alto e distribuito su pi? giocatori; meno dipendente da un singolo episodio."
+        "reason": "Volume medio alto e distribuito su piu giocatori; meno dipendente da un singolo epiuodio."
       },
       {
-        "market": "Mbapp? tiri",
-        "reason": "26 tiri aggregati, 5 partite, minutaggio stabile e centralit? offensiva."
+        "market": "Mbappe tiri",
+        "reason": "26 tiri aggregati, 5 partite, minutaggio stabile e centralita offensiva."
       },
       {
         "market": "Marocco cartellini squadra",
@@ -1160,7 +1521,7 @@
     ],
     "VALUE": [
       {
-        "market": "Mbapp? tiri in porta",
+        "market": "Mbappe tiri in porta",
         "reason": "17 tiri in porta aggregati: segnale forte, ma quota/linea e blocco basso possono cambiare il valore."
       },
       {
@@ -1178,8 +1539,8 @@
     ],
     "SPECULATIVE": [
       {
-        "market": "Demb?l? tiri",
-        "reason": "Buon upside, ma pi? sensibile a minutaggio, ruolo e rotazioni offensive."
+        "market": "Dembele tiri",
+        "reason": "Buon upside, ma piu sensibile a minutaggio, ruolo e rotazioni offensive."
       },
       {
         "market": "Cartellino Hakimi",
@@ -1187,7 +1548,7 @@
       },
       {
         "market": "Cartellino Neil El Aynaoui",
-        "reason": "Profilo fisico e 11 falli commessi, ma dipende da titolarit? e arbitro."
+        "reason": "Profilo fisico e 11 falli commessi, ma dipende da titolarita e arbitro."
       },
       {
         "market": "Cartellino Issa Diop",
@@ -1198,5 +1559,111 @@
         "reason": "Buon totale medio, ma molto dipendente dallo scenario: basso se Marocco resta schiacciato."
       }
     ]
+  },
+  "scoringModelV1": {
+    "status": "active_for_france_morocco_intelligence",
+    "description": "Calcola marketSignals spiegabili senza quote. Mantiene compatibilita con la pipeline MyCombo esistente conservando strength, confidence e risk.",
+    "dataQualityScore": 62,
+    "inputs": [
+      "volumeScore",
+      "consistencyScore",
+      "contextScore",
+      "opponentScore",
+      "starterScore",
+      "trendScore"
+    ],
+    "formulas": {
+      "strength": "media pesata degli inputs; default volume 32%, consistency 18%, context 16%, opponent 14%, starter 12%, trend 8%; cartellini volume 24%, consistency 15%, context 16%, opponent 20%, starter 15%, trend 10%",
+      "confidence": "media semplice tra dataQualityScore, consistencyScore, starterScore e contextScore",
+      "risk": "volatilita base del mercato + penalita minutaggio incerto + penalita mercato individuale + penalita cartellino + piccola penalita per bassa consistency"
+    },
+    "notImplementedYet": [
+      "bookmakerProbability",
+      "expectedProbability",
+      "value",
+      "quote Sisal",
+      "MyCombo definitiva"
+    ],
+    "environmentOverlay": {
+      "status": "active",
+      "appliedTo": [
+        "cartellini giocatore",
+        "Marocco cartellini squadra",
+        "mercati tiri dipendenti da ritmo alto"
+      ],
+      "rules": [
+        "Aumenta leggermente il risk dei cartellini giocatore per arbitro/caldo/eliminazione diretta.",
+        "Aumenta strength e risk di Marocco cartellini squadra nello scenario Marocco resiste basso.",
+        "Riduce leggermente confidence dei mercati tiri quando dipendono da ritmo alto per 90 minuti.",
+        "Non modifica teamProfiles, playerProfiles o dati grezzi."
+      ]
+    }
+  },
+  "marketEvaluatorV1": {
+    "status": "active_for_france_morocco_intelligence",
+    "description": "Calcola marketSignals spiegabili senza quote. Mantiene compatibilita con la pipeline MyCombo esistente conservando strength, confidence e risk.",
+    "dataQualityScore": 62,
+    "inputs": [
+      "volumeScore",
+      "consistencyScore",
+      "contextScore",
+      "opponentScore",
+      "starterScore",
+      "trendScore"
+    ],
+    "formulas": {
+      "strength": "media pesata degli inputs; default volume 32%, consistency 18%, context 16%, opponent 14%, starter 12%, trend 8%; cartellini volume 24%, consistency 15%, context 16%, opponent 20%, starter 15%, trend 10%",
+      "confidence": "media semplice tra dataQualityScore, consistencyScore, starterScore e contextScore",
+      "risk": "volatilita base del mercato + penalita minutaggio incerto + penalita mercato individuale + penalita cartellino + piccola penalita per bassa consistency"
+    },
+    "notImplementedYet": [
+      "bookmakerProbability",
+      "expectedProbability",
+      "value",
+      "quote Sisal",
+      "MyCombo definitiva"
+    ],
+    "environmentOverlay": {
+      "status": "active",
+      "appliedTo": [
+        "cartellini giocatore",
+        "Marocco cartellini squadra",
+        "mercati tiri dipendenti da ritmo alto"
+      ],
+      "rules": [
+        "Aumenta leggermente il risk dei cartellini giocatore per arbitro/caldo/eliminazione diretta.",
+        "Aumenta strength e risk di Marocco cartellini squadra nello scenario Marocco resiste basso.",
+        "Riduce leggermente confidence dei mercati tiri quando dipendono da ritmo alto per 90 minuti.",
+        "Non modifica teamProfiles, playerProfiles o dati grezzi."
+      ]
+    }
+  },
+  "matchEnvironment": {
+    "stadium": "Boston Stadium / Gillette Stadium",
+    "city": "Foxborough / Boston",
+    "kickoffLocal": "2026-07-09 16:00 EDT",
+    "kickoffItaly": "2026-07-09 22:00 CEST",
+    "referee": {
+      "name": "Facundo Tello",
+      "country": "Argentina",
+      "assistantReferees": [
+        "Juan Pablo Belatti",
+        "Gabriel Chade"
+      ],
+      "fourthOfficial": "Dario Herrera",
+      "reserveAssistantReferee": "Cristian Navarro",
+      "note": "Designazione arbitrale argentina completa; contesto utile soprattutto per cartellini, falli e gestione emotiva."
+    },
+    "weather": {
+      "temperatureCelsiusApprox": 30,
+      "condition": "Caldo, piu sole che nuvole, pioggia non prevista",
+      "realFeel": "Superiore alla temperatura reale",
+      "impact": {
+        "tempo": "Possibile calo ritmo nella seconda parte",
+        "cards": "Caldo + eliminazione diretta puo aumentare nervosismo e falli tattici",
+        "shots": "Il caldo puo ridurre pressing e intensita continua",
+        "substitutions": "Possibile maggiore peso delle rotazioni offensive"
+      }
+    }
   }
 }

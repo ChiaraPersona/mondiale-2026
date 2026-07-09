@@ -8,6 +8,14 @@ function readJson(relativePath) {
   return JSON.parse(fs.readFileSync(path.join(root, relativePath), "utf8"));
 }
 
+function readOptionalMatchEnvironment(matchId) {
+  const environmentPath = path.join(root, "data", "match-environment", "quarterfinals-2026.json");
+  if (!fs.existsSync(environmentPath)) return null;
+
+  const environment = JSON.parse(fs.readFileSync(environmentPath, "utf8"));
+  return (environment.matches || []).find(match => match.matchId === matchId) || null;
+}
+
 function writeJson(fileName, payload) {
   fs.mkdirSync(outputDirectory, { recursive: true });
   const destination = path.join(outputDirectory, fileName);
@@ -169,11 +177,14 @@ function buildBookingsTrio(ranking, quote) {
 }
 
 function optimizedMatch(slug, source, date, bookingsTrio = null) {
+  const matchEnvironment = readOptionalMatchEnvironment(slug);
+
   return {
     slug,
     match: source.match,
     date,
     status: "prepared",
+    ...(matchEnvironment ? { matchEnvironment } : {}),
     portfolios: source.portfolios.map(normalizePortfolio),
     bookingsTrio: bookingsTrio || unavailableBookingsTrio("Analisi ammoniti non disponibile per questa partita."),
   };

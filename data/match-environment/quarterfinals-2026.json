@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-07-09",
+  "competition": "World Cup 2026",
+  "round": "Quarter-finals",
+  "notes": [
+    "File di supporto per ambiente partita: arbitro, stadio, altitudine, copertura, climatizzazione, meteo e impatto modello.",
+    "Non deve generare quote o MyCombo in autonomia.",
+    "Gli arbitri non confermati restano null e status not_confirmed."
+  ],
+  "matches": [
+    {
+      "matchId": "france-morocco-2026-07-09",
+      "match": "Francia-Marocco",
+      "date": "2026-07-09",
+      "kickoffLocal": "16:00 EDT",
+      "kickoffItaly": "22:00 CEST",
+      "stadium": "Boston Stadium / Gillette Stadium",
+      "city": "Foxborough / Boston",
+      "altitudeMeters": 90,
+      "altitudeLabel": "circa 90 metri",
+      "roofType": "open-air / senza tetto",
+      "climateControlled": false,
+      "airConditioned": false,
+      "weather": {
+        "confidence": "medium",
+        "temperatureCelsiusApprox": 30,
+        "condition": "Caldo, piu sole che nuvole, pioggia non prevista",
+        "realFeel": "Superiore alla temperatura reale",
+        "impact": [
+          "Possibile calo ritmo nella seconda parte",
+          "Possibile aumento importanza dei cambi",
+          "Possibile impatto su pressing continuo",
+          "Cooling break probabile/possibile se condizioni lo richiedono"
+        ]
+      },
+      "referee": {
+        "confidence": "high",
+        "status": "confirmed",
+        "name": "Facundo Tello",
+        "country": "Argentina",
+        "assistantReferees": [
+          "Juan Belatti",
+          "Gabriel Chade"
+        ],
+        "fourthOfficial": "Dario Herrera",
+        "reserveAssistantReferee": "Cristian Navarro",
+        "VAR": "Hernan Mastrangelo",
+        "AVAR": "Leodan Gonzalez"
+      },
+      "refereeProfile": {
+        "confidence": "medium",
+        "notes": [
+          "Ha arbitrato 2 partite nel Mondiale 2026 prima del quarto.",
+          "Ha gia arbitrato Canada-Bosnia nella fase a gironi.",
+          "Media generale alta di cartellini: circa 4.6-5.2 gialli a partita secondo database referee.",
+          "Profilo storicamente severo, noto anche per partite con molti rossi.",
+          "Precedente importante con il Marocco: quarto di finale Mondiale 2022 Marocco-Portogallo, con espulsione di Walid Cheddira.",
+          "Attenzione al contesto politico/psicologico: squadra arbitrale tutta argentina e Francia reduce da polemiche arbitrali, ma non trasformare questo in dato predittivo automatico."
+        ]
+      },
+      "modelImpact": {
+        "cards": "Aumenta leggermente rischio cartellini",
+        "fouls": "Aumenta peso mercati falli/cartellini",
+        "tempo": "Caldo puo abbassare intensita e pressing continuo",
+        "shots": "Attenzione agli over tiri troppo alti se il ritmo cala"
+      }
+    },
+    {
+      "matchId": "spain-belgium-2026-07-10",
+      "match": "Spagna-Belgio",
+      "date": "2026-07-10",
+      "kickoffLocal": "15:00 PDT",
+      "kickoffItaly": "21:00 CEST",
+      "stadium": "Los Angeles Stadium / SoFi Stadium",
+      "city": "Inglewood / Los Angeles",
+      "altitudeMeters": 30,
+      "altitudeLabel": "circa 30 metri",
+      "roofType": "fixed canopy / tetto fisso ma lati aperti",
+      "climateControlled": "passive cooling",
+      "airConditioned": false,
+      "weather": {
+        "confidence": "low",
+        "temperatureCelsiusApprox": null,
+        "condition": "Da aggiornare con forecast locale; stadio coperto da canopy ma non climatizzato, lati aperti",
+        "impact": [
+          "Meno esposizione diretta al sole rispetto a stadio totalmente aperto",
+          "Non considerarlo come stadio indoor climatizzato",
+          "Possibile temperatura piu gestibile rispetto a Boston/Miami, ma dipende dal meteo esterno"
+        ]
+      },
+      "referee": {
+        "confidence": "high",
+        "status": "confirmed",
+        "name": "Michael Oliver",
+        "country": "England",
+        "assistantReferees": [
+          "Stuart Burt",
+          "James Mainwaring"
+        ],
+        "fourthOfficial": "Ramon Abatti",
+        "reserveAssistantReferee": "Rafael Alves",
+        "VAR": null,
+        "AVAR": null
+      },
+      "refereeProfile": {
+        "confidence": "medium",
+        "notes": [
+          "Confermato per Spagna-Belgio.",
+          "Ha gia arbitrato Canada-Marocco agli ottavi del Mondiale 2026.",
+          "In Canada-Marocco ha mostrato molti cartellini; fonti riportano 6 gialli nel primo tempo e 8 totali.",
+          "Profilo normalmente esperto e dialogante, ma in gare intense puo arrivare a gestione severa.",
+          "Ha precedenti favorevoli/positivi con la Spagna in gare competitive, ma verificare nel dettaglio prima di usarlo nel modello.",
+          "Ha gia arbitrato il Marocco in questo torneo, non Spagna o Belgio nel 2026 salvo verifica ulteriore."
+        ]
+      },
+      "modelImpact": {
+        "cards": "Rischio medio-alto se partita intensa",
+        "fouls": "Buono per mercati falli/cartellini",
+        "tempo": "Stadio meno penalizzante del caldo estremo, ma non climatizzato",
+        "shots": "Condizioni ambientali meno negative rispetto a stadi open-air molto caldi"
+      }
+    },
+    {
+      "matchId": "norway-england-2026-07-10",
+      "match": "Norvegia-Inghilterra",
+      "date": "2026-07-10",
+      "kickoffLocal": null,
+      "kickoffItaly": null,
+      "stadium": "Miami Stadium / Hard Rock Stadium",
+      "city": "Miami Gardens / Miami",
+      "altitudeMeters": 2,
+      "altitudeLabel": "circa 2 metri",
+      "roofType": "open-air / canopy parziale sugli spalti, campo esposto",
+      "climateControlled": false,
+      "airConditioned": false,
+      "weather": {
+        "confidence": "low",
+        "temperatureCelsiusApprox": null,
+        "condition": "Da aggiornare con forecast locale; atteso profilo caldo/umido, possibile rischio temporali",
+        "impact": [
+          "Caldo e umidita possono ridurre ritmo e pressing continuo",
+          "Aumenta il peso della gestione energie",
+          "Possibili cooling break se condizioni lo richiedono",
+          "Rischio temporali da verificare vicino al calcio d'inizio"
+        ]
+      },
+      "referee": {
+        "confidence": "low",
+        "status": "not_confirmed",
+        "name": null,
+        "country": null,
+        "assistantReferees": [],
+        "fourthOfficial": null,
+        "reserveAssistantReferee": null,
+        "VAR": null,
+        "AVAR": null
+      },
+      "refereeProfile": {
+        "confidence": "low",
+        "notes": [
+          "Arbitro ufficiale non confermato nel materiale disponibile.",
+          "Assistenti, quarto uomo e VAR da verificare con fonte FIFA o database affidabile.",
+          "Precedenti nel Mondiale 2026 e precedenti con Norvegia/Inghilterra da completare dopo designazione."
+        ]
+      },
+      "modelImpact": {
+        "cards": "Non aumentare automaticamente il rischio cartellini finche l'arbitro non e confermato",
+        "fouls": "Valutare soprattutto intensita partita e profilo squadre; arbitro da integrare",
+        "tempo": "Caldo e umidita possono abbassare ritmo e aumentare gestione energie",
+        "shots": "Attenzione agli over tiri troppo dipendenti da ritmo alto per 90 minuti"
+      }
+    },
+    {
+      "matchId": "argentina-switzerland-2026-07-10",
+      "match": "Argentina-Svizzera",
+      "date": "2026-07-10",
+      "kickoffLocal": null,
+      "kickoffItaly": null,
+      "stadium": "Nashville Stadium / GEODIS Park",
+      "city": "Nashville",
+      "altitudeMeters": 180,
+      "altitudeLabel": "circa 180 metri",
+      "roofType": "open-air / senza tetto",
+      "climateControlled": false,
+      "airConditioned": false,
+      "weather": {
+        "confidence": "low",
+        "temperatureCelsiusApprox": null,
+        "condition": "Da aggiornare con forecast locale; atteso profilo caldo e umido",
+        "impact": [
+          "Possibile calo ritmo nella seconda parte",
+          "Aumenta importanza gestione fisica e rotazioni",
+          "Cartellini piu legati a tensione da eliminazione diretta che al solo meteo"
+        ]
+      },
+      "referee": {
+        "confidence": "low",
+        "status": "not_confirmed",
+        "name": null,
+        "country": null,
+        "assistantReferees": [],
+        "fourthOfficial": null,
+        "reserveAssistantReferee": null,
+        "VAR": null,
+        "AVAR": null
+      },
+      "refereeProfile": {
+        "confidence": "low",
+        "notes": [
+          "Arbitro ufficiale non confermato nel materiale disponibile.",
+          "Assistenti, quarto uomo e VAR da verificare con fonte FIFA o database affidabile.",
+          "Precedenti nel Mondiale 2026 e precedenti con Argentina/Svizzera da completare dopo designazione."
+        ]
+      },
+      "modelImpact": {
+        "cards": "Non aumentare automaticamente il rischio arbitro finche la designazione non e confermata; resta alto il peso emotivo dell'eliminazione diretta",
+        "fouls": "Valutare con contesto gara e duelli; arbitro da integrare",
+        "tempo": "Caldo e umidita possono ridurre continuita e pressing",
+        "shots": "Possibile lieve penalita agli over tiri se il ritmo cala"
+      }
+    }
+  ]
+}

@@ -29,7 +29,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Francia passa il turno",
+        "marketType": "PASSAGGIO TURNO"
       },
       {
         "id": "event-5206486494",
@@ -50,7 +52,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Francia vince + Under 3,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5206488020",
@@ -71,7 +75,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
-        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
+        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
+        "displayName": "Totale falli commessi Under 24,5",
+        "marketType": "U/O FALLI COMMESSI  INC TS"
       }
     ],
     "finalOdds": 4.86,
@@ -101,7 +107,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Francia vince + Under 3,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5209002837",
@@ -122,7 +130,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Mbappe piu tiri in porta di Dembele",
+        "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS"
       },
       {
         "id": "event-5209002843",
@@ -143,7 +153,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Olise piu tiri in porta di Brahim Diaz",
+        "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS"
       },
       {
         "id": "event-5206488021",
@@ -164,7 +176,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
-        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
+        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
+        "displayName": "Totale falli commessi Over 24,5",
+        "marketType": "U/O FALLI COMMESSI  INC TS"
       }
     ],
     "finalOdds": 10.88,
@@ -194,7 +208,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento da usare solo se coerente con lo scenario principale.",
-        "whyIncluded": "Quota bassa: Francia vincente con almeno due gol totali, scenario meno secco del marcatore 1T."
+        "whyIncluded": "Quota bassa: Francia vincente con almeno due gol totali, scenario meno secco del marcatore 1T.",
+        "displayName": "Francia vince + Over 1,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5206486494",
@@ -215,7 +231,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento da usare solo se coerente con lo scenario principale.",
-        "whyIncluded": "Francia + Under 3,5 resta coerente con vittoria controllata."
+        "whyIncluded": "Francia + Under 3,5 resta coerente con vittoria controllata.",
+        "displayName": "Francia vince + Under 3,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5209002837",
@@ -236,7 +254,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Mbappe piu tiri in porta di Dembele",
+        "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS"
       },
       {
         "id": "event-5209002843",
@@ -257,7 +277,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Olise piu tiri in porta di Brahim Diaz",
+        "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS"
       },
       {
         "id": "event-5206488021",
@@ -278,7 +300,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
-        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
+        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
+        "displayName": "Totale falli commessi Over 24,5",
+        "marketType": "U/O FALLI COMMESSI  INC TS"
       }
     ],
     "finalOdds": 21.21,

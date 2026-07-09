@@ -56,8 +56,9 @@
     const outcome = fold(result.status);
     const resultLabel = outcome === "won" ? "Vinta" : outcome === "lost" ? "Persa" : "";
     const resultClass = resultLabel ? ` is-${outcome}` : "";
-    const market = readableMarket(firstValue(event, ["info", "event", "title", "market", "mercato"]));
-    const marketType = clean(firstValue(event, ["market", "mercato"]));
+    const market = readableMarket(firstValue(event, ["displayName", "label", "title", "info", "event", "market", "mercato"]));
+    const marketDetail = clean(firstValue(event, ["info", "event"]));
+    const marketType = clean(firstValue(event, ["marketType", "market", "mercato"]));
     const selection = clean(firstValue(event, ["selection", "selezione"]));
     const odds = firstValue(event, ["odds", "quota"]);
     const reasons = cleanList([
@@ -71,6 +72,7 @@
           <div>
             <span class="mycombo-market-label">Mercato</span>
             <strong>${escapeHtml(market)}</strong>
+            ${marketDetail && marketDetail !== market ? `<small>Dettaglio Sisal: ${escapeHtml(marketDetail)}</small>` : ""}
             ${marketType && marketType !== market ? `<small>Tipo: ${escapeHtml(marketType)}</small>` : ""}
           </div>
           <div class="mycombo-selection-badges">

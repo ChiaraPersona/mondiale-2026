@@ -29,7 +29,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Spagna vince + Under 3,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5210774494",
@@ -50,7 +52,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Corner non completi nei provider locali: usare con prudenza.",
-        "whyIncluded": "Scelto per pressione territoriale e copione di possesso/campo."
+        "whyIncluded": "Scelto per pressione territoriale e copione di possesso/campo.",
+        "displayName": "Spagna prima a 5 corner",
+        "marketType": "PRIMA A X CORNER"
       },
       {
         "id": "event-5209475831",
@@ -71,7 +75,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Oyarzabal almeno 1 tiro in porta, sostituto incluso",
+        "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS"
       }
     ],
     "finalOdds": 4.75,
@@ -101,7 +107,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Spagna vince + Over 1,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5210774160",
@@ -122,7 +130,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Corner non completi nei provider locali: usare con prudenza.",
-        "whyIncluded": "Scelto per pressione territoriale e copione di possesso/campo."
+        "whyIncluded": "Scelto per pressione territoriale e copione di possesso/campo.",
+        "displayName": "Spagna prima a 6 corner",
+        "marketType": "PRIMA A X CORNER"
       },
       {
         "id": "event-5209474675",
@@ -143,7 +153,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "De Bruyne Over 1,5 tiri totali, sostituto incluso",
+        "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS"
       },
       {
         "id": "event-5209474027",
@@ -164,7 +176,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
-        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
+        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
+        "displayName": "Lamine Yamal Over 1,5 falli subiti",
+        "marketType": "U/O FALLI SUBITI GIOCATORE"
       }
     ],
     "finalOdds": 9.65,
@@ -194,7 +208,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Spagna vince + Over 2,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5209469807",
@@ -215,7 +231,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Doku almeno 1 tiro in porta, sostituto incluso",
+        "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS"
       },
       {
         "id": "event-5209474675",
@@ -236,7 +254,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "De Bruyne Over 1,5 tiri totali, sostituto incluso",
+        "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS"
       },
       {
         "id": "event-5209474027",
@@ -257,7 +277,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
-        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
+        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
+        "displayName": "Lamine Yamal Over 1,5 falli subiti",
+        "marketType": "U/O FALLI SUBITI GIOCATORE"
       },
       {
         "id": "event-5209475831",
@@ -278,7 +300,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Oyarzabal almeno 1 tiro in porta, sostituto incluso",
+        "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS"
       }
     ],
     "finalOdds": 18.19,

@@ -29,7 +29,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Inghilterra passa il turno",
+        "marketType": "PASSAGGIO TURNO"
       },
       {
         "id": "event-5207566153",
@@ -50,7 +52,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Totale tiri in porta Over 10,5",
+        "marketType": "U/O TIRI IN PORTA"
       },
       {
         "id": "event-5209324043",
@@ -71,7 +75,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Bellingham piu tiri totali di Odegaard",
+        "marketType": "1X2 TIRI TOTALI GIOCATORI INC TS"
       }
     ],
     "finalOdds": 5.34,
@@ -101,7 +107,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Inghilterra vince + Over 2,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5209324049",
@@ -122,7 +130,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Kane piu tiri in porta di Haaland",
+        "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS"
       },
       {
         "id": "event-5209324043",
@@ -143,7 +153,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Bellingham piu tiri totali di Odegaard",
+        "marketType": "1X2 TIRI TOTALI GIOCATORI INC TS"
       }
     ],
     "finalOdds": 11.45,
@@ -173,7 +185,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento da usare solo se coerente con lo scenario principale.",
-        "whyIncluded": "Inghilterra + Over 1,5: quota piu bassa rispetto al 2 + Over 2,5, scenario meno fragile."
+        "whyIncluded": "Inghilterra + Over 1,5: quota piu bassa rispetto al 2 + Over 2,5, scenario meno fragile.",
+        "displayName": "Inghilterra vince + Over 1,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5207566153",
@@ -194,7 +208,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Totale tiri in porta Over 10,5",
+        "marketType": "U/O TIRI IN PORTA"
       },
       {
         "id": "event-5209324043",
@@ -215,7 +231,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Bellingham piu tiri totali di Odegaard",
+        "marketType": "1X2 TIRI TOTALI GIOCATORI INC TS"
       },
       {
         "id": "event-5209324090",
@@ -236,7 +254,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Haaland e Kane entrambi non segnano, sostituti inclusi",
+        "marketType": "1X2  MARCATORI INC TS"
       },
       {
         "id": "event-5209178709",
@@ -257,7 +277,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
-        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
+        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
+        "displayName": "Rice almeno 1 fallo commesso",
+        "marketType": "U/O FALLI COMMESSI GIOCATORE"
       }
     ],
     "finalOdds": 23.15,

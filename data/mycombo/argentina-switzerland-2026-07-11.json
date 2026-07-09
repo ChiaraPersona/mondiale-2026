@@ -29,7 +29,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Argentina passa il turno",
+        "marketType": "PASSAGGIO TURNO"
       },
       {
         "id": "event-5210481374",
@@ -50,7 +52,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Argentina vince + Under 3,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5211243321",
@@ -71,7 +75,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Ndoye almeno 1 tiro in porta, sostituto incluso",
+        "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS"
       }
     ],
     "finalOdds": 5.15,
@@ -101,7 +107,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Argentina vince + Over 1,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5212591527",
@@ -122,7 +130,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Messi segna di sinistro",
+        "marketType": "GIOCATORE SEGNA DI SINISTRO INC TS"
       },
       {
         "id": "event-5211243321",
@@ -143,7 +153,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Ndoye almeno 1 tiro in porta, sostituto incluso",
+        "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS"
       }
     ],
     "finalOdds": 9.9,
@@ -173,7 +185,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Argentina passa il turno",
+        "marketType": "PASSAGGIO TURNO"
       },
       {
         "id": "event-5210481353",
@@ -194,7 +208,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Argentina vince + Over 1,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5210481374",
@@ -215,7 +231,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "displayName": "Argentina vince + Under 3,5 gol",
+        "marketType": "COMBO: 1X2 + U/O"
       },
       {
         "id": "event-5211243321",
@@ -236,7 +254,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Ndoye almeno 1 tiro in porta, sostituto incluso",
+        "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS"
       },
       {
         "id": "event-5211296947",
@@ -257,7 +277,9 @@
         },
         "confidence": "high",
         "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "displayName": "Embolo almeno 1 tiro in porta, sostituto incluso",
+        "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS"
       },
       {
         "id": "event-5211242337",
@@ -278,7 +300,9 @@
         },
         "confidence": "medium",
         "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
-        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
+        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
+        "displayName": "Akanji almeno 1 fallo commesso",
+        "marketType": "U/O FALLI COMMESSI GIOCATORE"
       }
     ],
     "finalOdds": 23.35,

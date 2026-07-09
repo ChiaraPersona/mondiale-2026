@@ -1,449 +1,38 @@
 {
   "matchId": "spain-belgium-2026-07-10",
   "match": "Spagna-Belgio",
-  "date": "2026-07-10",
+  "date": "10/07/2026 ore 21.00",
   "completion": 100,
   "status": "ready",
-  "sourcePlayerStats": "data/player-stats/spain-belgium-2026-07-10.json",
-  "sourceReading": "data/readings/spain-belgium-2026-07-10.json",
   "sourceQuote": "data/quote/spagna-belgio-quote.json",
+  "sourceReading": "data/readings/spain-belgium-2026-07-10.json",
+  "sourcePlayerStats": "data/player-stats/spain-belgium-2026-07-10.json",
   "safe": {
     "name": "Safe",
     "events": [
       {
-        "id": "event-774160",
-        "market": "PRIMA A X CORNER",
-        "info": "PRIMA A 6 CALCI D'ANGOLO",
-        "selection": "TEAM 1",
-        "odds": 2,
-        "selectionId": 5210774160,
-        "marketId": 791948600,
-        "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Spain",
-          "market": "corner",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Spain",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.67,
-                "weightedGoalsAgainstPerMatch": 0,
-                "weightedShotsForPerMatch": 17.76,
-                "weightedShotsAgainstPerMatch": 6.19,
-                "weightedShotsOnTargetForPerMatch": 6.4,
-                "weightedShotsOnTargetAgainstPerMatch": 1.05,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 67,
-                "attackIndex": 90,
-                "defenseIndex": 79,
-                "cornerIndex": null,
-                "tempoIndex": 80,
-                "pressureIndex": 78
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/spain-belgium-2026-07-10.json",
-            "linkedScenario": "corner"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Spain e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-274991",
-        "market": "U/O PALI/TRAVERSE MATCH INC TS",
-        "info": "U/O 0.5 PALI/TRAVERSE INCL. TS",
-        "selection": "UNDER",
-        "odds": 1.67,
-        "selectionId": 5209274991,
-        "marketId": 791672519,
-        "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Spain / Belgium",
-          "market": "gol",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Spain",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.67,
-                "weightedGoalsAgainstPerMatch": 0,
-                "weightedShotsForPerMatch": 17.76,
-                "weightedShotsAgainstPerMatch": 6.19,
-                "weightedShotsOnTargetForPerMatch": 6.4,
-                "weightedShotsOnTargetAgainstPerMatch": 1.05,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 67,
-                "attackIndex": 90,
-                "defenseIndex": 79,
-                "cornerIndex": null,
-                "tempoIndex": 80,
-                "pressureIndex": 78
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            },
-            {
-              "team": "Belgium",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.15,
-                "weightedShotsForPerMatch": 19.92,
-                "weightedShotsAgainstPerMatch": 11.72,
-                "weightedShotsOnTargetForPerMatch": 6.08,
-                "weightedShotsOnTargetAgainstPerMatch": 3.23,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 53,
-                "attackIndex": 93,
-                "defenseIndex": 47,
-                "cornerIndex": null,
-                "tempoIndex": 100,
-                "pressureIndex": 93
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 17,
-                  "shotsOnTargetForPerMatch": 6,
-                  "foulsCommittedPerMatch": 15.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 17,
-                  "shotsOnTargetForPerMatch": 6,
-                  "foulsCommittedPerMatch": 15.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/spain-belgium-2026-07-10.json",
-            "linkedScenario": "gol"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Spain / Belgium e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Mercato situazionale con evidenza statistica indiretta.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-662181",
-        "market": "1 TEMPO: 1X2 CORNER",
-        "info": "1 TEMPO: 1X2 CORNER",
-        "selection": "1",
-        "odds": 1.5,
-        "selectionId": 5208662181,
-        "marketId": 791556750,
-        "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Spain",
-          "market": "corner",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Spain",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.67,
-                "weightedGoalsAgainstPerMatch": 0,
-                "weightedShotsForPerMatch": 17.76,
-                "weightedShotsAgainstPerMatch": 6.19,
-                "weightedShotsOnTargetForPerMatch": 6.4,
-                "weightedShotsOnTargetAgainstPerMatch": 1.05,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 67,
-                "attackIndex": 90,
-                "defenseIndex": 79,
-                "cornerIndex": null,
-                "tempoIndex": 80,
-                "pressureIndex": 78
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/spain-belgium-2026-07-10.json",
-            "linkedScenario": "corner"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Spain e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      }
-    ],
-    "finalOdds": 5.01,
-    "targetOdds": "4-6",
-    "averageRisk": 40,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
-    "eventsWithStatEvidence": 3,
-    "lowConfidenceEvents": []
-  },
-  "balanced": {
-    "name": "Balanced",
-    "events": [
-      {
-        "id": "event-774160",
-        "market": "PRIMA A X CORNER",
-        "info": "PRIMA A 6 CALCI D'ANGOLO",
-        "selection": "TEAM 1",
-        "odds": 2,
-        "selectionId": 5210774160,
-        "marketId": 791948600,
-        "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Spain",
-          "market": "corner",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Spain",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.67,
-                "weightedGoalsAgainstPerMatch": 0,
-                "weightedShotsForPerMatch": 17.76,
-                "weightedShotsAgainstPerMatch": 6.19,
-                "weightedShotsOnTargetForPerMatch": 6.4,
-                "weightedShotsOnTargetAgainstPerMatch": 1.05,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 67,
-                "attackIndex": 90,
-                "defenseIndex": 79,
-                "cornerIndex": null,
-                "tempoIndex": 80,
-                "pressureIndex": 78
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/spain-belgium-2026-07-10.json",
-            "linkedScenario": "corner"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Spain e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-661328",
+        "id": "event-5208661349",
         "market": "COMBO: 1X2 + U/O",
-        "info": "1X2 + U/O 1.5",
-        "selection": "1 + O",
-        "odds": 1.95,
-        "selectionId": 5208661328,
-        "marketId": 791556577,
-        "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "info": "1X2 + U/O 3.5",
+        "selection": "1 + U",
+        "odds": 2.4,
+        "selectionId": 5208661349,
+        "marketId": 791556579,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
         "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Spain",
-          "market": "gol",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Spain",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.67,
-                "weightedGoalsAgainstPerMatch": 0,
-                "weightedShotsForPerMatch": 17.76,
-                "weightedShotsAgainstPerMatch": 6.19,
-                "weightedShotsOnTargetForPerMatch": 6.4,
-                "weightedShotsOnTargetAgainstPerMatch": 1.05,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 67,
-                "attackIndex": 90,
-                "defenseIndex": 79,
-                "cornerIndex": null,
-                "tempoIndex": 80,
-                "pressureIndex": 78
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/spain-belgium-2026-07-10.json",
-            "linkedScenario": "gol"
-          },
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
           "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Spain e alla lettura partita."
+          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
         },
         "confidence": "medium",
-        "riskWarning": "Rischio coerente con quota e dati disponibili.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
       },
       {
-        "id": "event-774494",
+        "id": "event-5210774494",
         "market": "PRIMA A X CORNER",
         "info": "PRIMA A 5 CALCI D'ANGOLO",
         "selection": "TEAM 1",
@@ -451,130 +40,71 @@
         "selectionId": 5210774494,
         "marketId": 791948677,
         "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "class": "VALUE",
+        "reason": "Scelto per pressione territoriale e copione di possesso/campo.",
         "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Spain",
-          "market": "corner",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Spain",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.67,
-                "weightedGoalsAgainstPerMatch": 0,
-                "weightedShotsForPerMatch": 17.76,
-                "weightedShotsAgainstPerMatch": 6.19,
-                "weightedShotsOnTargetForPerMatch": 6.4,
-                "weightedShotsOnTargetAgainstPerMatch": 1.05,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 67,
-                "attackIndex": 90,
-                "defenseIndex": 79,
-                "cornerIndex": null,
-                "tempoIndex": 80,
-                "pressureIndex": 78
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/spain-belgium-2026-07-10.json",
-            "linkedScenario": "corner"
-          },
+          "type": "team pressure model",
+          "source": "pressione territoriale",
           "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Spain e alla lettura partita."
+          "reason": "Scelto per pressione territoriale e copione di possesso/campo."
         },
         "confidence": "medium",
-        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "riskWarning": "Corner non completi nei provider locali: usare con prudenza.",
+        "whyIncluded": "Scelto per pressione territoriale e copione di possesso/campo."
       },
       {
-        "id": "event-232935",
-        "market": "1X2 TIRI TOTALI GIOCATORI INC TS",
-        "info": "PEDRI - TROSSARD L. 1X2 TIRI INC TS",
-        "selection": "2",
-        "odds": 1.55,
-        "selectionId": 5210232935,
-        "marketId": 791845985,
+        "id": "event-5209475831",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "info": "OYARZABAL M. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "selection": "OVER",
+        "odds": 1.2,
+        "selectionId": 5209475831,
+        "marketId": 791699085,
         "category": "tiri",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
         "statEvidence": {
-          "sourceFile": "data/player-stats/spain-belgium-2026-07-10.json",
-          "type": "player",
-          "player": "Pedri",
-          "team": "Spain",
-          "market": "tiri",
-          "usedModel": "playerModel",
-          "rawStats": {
-            "matches": 5,
-            "minutes": 404,
-            "shots": 4,
-            "shotsOnTarget": 1,
-            "goals": 0,
-            "assists": 0,
-            "foulsCommitted": 3,
-            "foulsDrawn": 4,
-            "yellowCards": 1
-          },
-          "weightedStats": {
-            "shotsPer90": 0.89,
-            "shotsOnTargetPer90": 0.22,
-            "foulsCommittedPer90": 0.67,
-            "foulsDrawnPer90": 0.89,
-            "shotThreatIndex": 20,
-            "shotOnTargetIndex": 8,
-            "bettingIndex": 32
-          },
-          "roleSlotEvidence": null,
+          "type": "player/team shots model",
+          "source": "analisi calciatori",
           "confidence": "high",
-          "reason": "Evento collegato a Pedri: 404 minuti e dati reali nelle 5 partite."
+          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
         },
         "confidence": "high",
-        "riskWarning": "Rischio coerente con quota e dati disponibili.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "riskWarning": "Sensibile a minutaggio e stato gara.",
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
       }
     ],
-    "finalOdds": 9.97,
-    "targetOdds": "8-12",
-    "averageRisk": 40,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
-    "eventsWithStatEvidence": 4,
-    "lowConfidenceEvents": []
+    "finalOdds": 4.75,
+    "targetOdds": "4-6",
+    "averageRisk": 38,
+    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico."
   },
-  "aggressive": {
-    "name": "Aggressive",
+  "balanced": {
+    "name": "Balanced",
     "events": [
       {
-        "id": "event-774160",
+        "id": "event-5208661328",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 1.5",
+        "selection": "1 + O",
+        "odds": 1.95,
+        "selectionId": 5208661328,
+        "marketId": 791556577,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "statEvidence": {
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
+          "confidence": "medium",
+          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+      },
+      {
+        "id": "event-5210774160",
         "market": "PRIMA A X CORNER",
         "info": "PRIMA A 6 CALCI D'ANGOLO",
         "selection": "TEAM 1",
@@ -582,570 +112,163 @@
         "selectionId": 5210774160,
         "marketId": 791948600,
         "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "class": "VALUE",
+        "reason": "Scelto per pressione territoriale e copione di possesso/campo.",
         "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Spain",
-          "market": "corner",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Spain",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.67,
-                "weightedGoalsAgainstPerMatch": 0,
-                "weightedShotsForPerMatch": 17.76,
-                "weightedShotsAgainstPerMatch": 6.19,
-                "weightedShotsOnTargetForPerMatch": 6.4,
-                "weightedShotsOnTargetAgainstPerMatch": 1.05,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 67,
-                "attackIndex": 90,
-                "defenseIndex": 79,
-                "cornerIndex": null,
-                "tempoIndex": 80,
-                "pressureIndex": 78
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/spain-belgium-2026-07-10.json",
-            "linkedScenario": "corner"
-          },
+          "type": "team pressure model",
+          "source": "pressione territoriale",
           "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Spain e alla lettura partita."
+          "reason": "Scelto per pressione territoriale e copione di possesso/campo."
         },
         "confidence": "medium",
-        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "riskWarning": "Corner non completi nei provider locali: usare con prudenza.",
+        "whyIncluded": "Scelto per pressione territoriale e copione di possesso/campo."
       },
       {
-        "id": "event-274992",
-        "market": "U/O PALI/TRAVERSE MATCH INC TS",
-        "info": "U/O 0.5 PALI/TRAVERSE INCL. TS",
+        "id": "event-5209474675",
+        "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+        "info": "DE BRUYNE K. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
         "selection": "OVER",
-        "odds": 2,
-        "selectionId": 5209274992,
-        "marketId": 791672519,
-        "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Spain / Belgium",
-          "market": "gol",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Spain",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.67,
-                "weightedGoalsAgainstPerMatch": 0,
-                "weightedShotsForPerMatch": 17.76,
-                "weightedShotsAgainstPerMatch": 6.19,
-                "weightedShotsOnTargetForPerMatch": 6.4,
-                "weightedShotsOnTargetAgainstPerMatch": 1.05,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 67,
-                "attackIndex": 90,
-                "defenseIndex": 79,
-                "cornerIndex": null,
-                "tempoIndex": 80,
-                "pressureIndex": 78
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            },
-            {
-              "team": "Belgium",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.15,
-                "weightedShotsForPerMatch": 19.92,
-                "weightedShotsAgainstPerMatch": 11.72,
-                "weightedShotsOnTargetForPerMatch": 6.08,
-                "weightedShotsOnTargetAgainstPerMatch": 3.23,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 53,
-                "attackIndex": 93,
-                "defenseIndex": 47,
-                "cornerIndex": null,
-                "tempoIndex": 100,
-                "pressureIndex": 93
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 17,
-                  "shotsOnTargetForPerMatch": 6,
-                  "foulsCommittedPerMatch": 15.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 17,
-                  "shotsOnTargetForPerMatch": 6,
-                  "foulsCommittedPerMatch": 15.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/spain-belgium-2026-07-10.json",
-            "linkedScenario": "gol"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Spain / Belgium e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Mercato situazionale con evidenza statistica indiretta.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-011208",
-        "market": "GIOCATORE SEGNA O ASSIST O CARTELLINO INC TS",
-        "info": "LUKEBAKIO D. SEGNA ALMENO UN GOAL O REALIZZA ALMENO UN ASSIST O RICEVE ALMENO UN CARTELLINO INC. TS",
-        "selection": "SI",
-        "odds": 1.97,
-        "selectionId": 5211011208,
-        "marketId": 791993471,
-        "category": "cartellini",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "referee_team",
-          "team": "Spain / Belgium",
-          "market": "cartellini",
-          "usedModel": "teamStatsModel+refereeEvidence",
-          "teamStatsEvidence": [
-            {
-              "team": "Spain",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.67,
-                "weightedGoalsAgainstPerMatch": 0,
-                "weightedShotsForPerMatch": 17.76,
-                "weightedShotsAgainstPerMatch": 6.19,
-                "weightedShotsOnTargetForPerMatch": 6.4,
-                "weightedShotsOnTargetAgainstPerMatch": 1.05,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 67,
-                "attackIndex": 90,
-                "defenseIndex": 79,
-                "cornerIndex": null,
-                "tempoIndex": 80,
-                "pressureIndex": 78
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            },
-            {
-              "team": "Belgium",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.15,
-                "weightedShotsForPerMatch": 19.92,
-                "weightedShotsAgainstPerMatch": 11.72,
-                "weightedShotsOnTargetForPerMatch": 6.08,
-                "weightedShotsOnTargetAgainstPerMatch": 3.23,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 53,
-                "attackIndex": 93,
-                "defenseIndex": 47,
-                "cornerIndex": null,
-                "tempoIndex": 100,
-                "pressureIndex": 93
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 17,
-                  "shotsOnTargetForPerMatch": 6,
-                  "foulsCommittedPerMatch": 15.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 17,
-                  "shotsOnTargetForPerMatch": 6,
-                  "foulsCommittedPerMatch": 15.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/spain-belgium-2026-07-10.json",
-            "linkedScenario": "cartellini"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Spain / Belgium e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Mercato ad alta varianza: usare stake ridotto e confermare intensita/arbitro.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-662999",
-        "market": "U/O FUORIGIOCO CASA INC TS",
-        "info": "CASA: U/O 1.5 FUORIGIOCO INC. TS",
-        "selection": "UNDER",
-        "odds": 1.7,
-        "selectionId": 5208662999,
-        "marketId": 791556937,
-        "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Spain",
-          "market": "gol",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Spain",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.67,
-                "weightedGoalsAgainstPerMatch": 0,
-                "weightedShotsForPerMatch": 17.76,
-                "weightedShotsAgainstPerMatch": 6.19,
-                "weightedShotsOnTargetForPerMatch": 6.4,
-                "weightedShotsOnTargetAgainstPerMatch": 1.05,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 67,
-                "attackIndex": 90,
-                "defenseIndex": 79,
-                "cornerIndex": null,
-                "tempoIndex": 80,
-                "pressureIndex": 78
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 19,
-                  "shotsOnTargetForPerMatch": 8,
-                  "foulsCommittedPerMatch": 10.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/spain-belgium-2026-07-10.json",
-            "linkedScenario": "gol"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Spain e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Mercato situazionale con evidenza statistica indiretta.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-471595",
-        "market": "U/O TIRI TOTALI SQUADRA X",
-        "info": "SQUADRA 2: U/O 9.5 TIRI TOTALI",
-        "selection": "OVER",
-        "odds": 1.6,
-        "selectionId": 5209471595,
-        "marketId": 791698045,
+        "odds": 1.65,
+        "selectionId": 5209474675,
+        "marketId": 791698815,
         "category": "tiri",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
         "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Belgium",
-          "market": "tiri",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Belgium",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.15,
-                "weightedShotsForPerMatch": 19.92,
-                "weightedShotsAgainstPerMatch": 11.72,
-                "weightedShotsOnTargetForPerMatch": 6.08,
-                "weightedShotsOnTargetAgainstPerMatch": 3.23,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 53,
-                "attackIndex": 93,
-                "defenseIndex": 47,
-                "cornerIndex": null,
-                "tempoIndex": 100,
-                "pressureIndex": 93
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 17,
-                  "shotsOnTargetForPerMatch": 6,
-                  "foulsCommittedPerMatch": 15.5,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 17,
-                  "shotsOnTargetForPerMatch": 6,
-                  "foulsCommittedPerMatch": 15.5,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/spain-belgium-2026-07-10.json",
-            "linkedScenario": "tiri"
-          },
+          "type": "player/team shots model",
+          "source": "analisi calciatori",
+          "confidence": "high",
+          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        },
+        "confidence": "high",
+        "riskWarning": "Sensibile a minutaggio e stato gara.",
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+      },
+      {
+        "id": "event-5209474027",
+        "market": "U/O FALLI SUBITI GIOCATORE",
+        "info": "LAMINE YAMAL U/O 1.5 FALLI SUBITI",
+        "selection": "OVER",
+        "odds": 1.5,
+        "selectionId": 5209474027,
+        "marketId": 791698653,
+        "category": "falli",
+        "class": "VALUE",
+        "reason": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
+        "statEvidence": {
+          "type": "discipline model",
+          "source": "falli/cartellini squadra e ruolo",
           "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Belgium e alla lettura partita."
+          "reason": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
         },
         "confidence": "medium",
-        "riskWarning": "Rischio coerente con quota e dati disponibili.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
+        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
       }
     ],
-    "finalOdds": 21.43,
+    "finalOdds": 9.65,
+    "targetOdds": "8-12",
+    "averageRisk": 52,
+    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico."
+  },
+  "aggressive": {
+    "name": "Aggressive",
+    "events": [
+      {
+        "id": "event-5208661340",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 2.5",
+        "selection": "1 + O",
+        "odds": 2.45,
+        "selectionId": 5208661340,
+        "marketId": 791556578,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "statEvidence": {
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
+          "confidence": "medium",
+          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+      },
+      {
+        "id": "event-5209469807",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "info": "DOKU J. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "selection": "OVER",
+        "odds": 2.5,
+        "selectionId": 5209469807,
+        "marketId": 791697578,
+        "category": "tiri",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "statEvidence": {
+          "type": "player/team shots model",
+          "source": "analisi calciatori",
+          "confidence": "high",
+          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        },
+        "confidence": "high",
+        "riskWarning": "Sensibile a minutaggio e stato gara.",
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+      },
+      {
+        "id": "event-5209470251",
+        "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+        "info": "DE BRUYNE K. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+        "selection": "OVER",
+        "odds": 3,
+        "selectionId": 5209470251,
+        "marketId": 791697709,
+        "category": "tiri",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "statEvidence": {
+          "type": "player/team shots model",
+          "source": "analisi calciatori",
+          "confidence": "high",
+          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        },
+        "confidence": "high",
+        "riskWarning": "Sensibile a minutaggio e stato gara.",
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+      }
+    ],
+    "finalOdds": 18.38,
     "targetOdds": "18-25",
-    "averageRisk": 44,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
-    "eventsWithStatEvidence": 5,
-    "lowConfidenceEvents": []
+    "averageRisk": 68,
+    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico."
   },
-  "reasoning": {
-    "summary": "Combinazioni costruite solo su mercati reali Sisal, weighted player model, team trend e match context.",
-    "playerEdges": [
+  "quoteErrorAnalysis": {
+    "analysis": {
+      "totalMarkets": 8118,
+      "publishedEvents": 3
+    },
+    "events": [
       {
-        "player": "Ferran Torres",
-        "team": "Spain",
-        "role": "Right Forward",
-        "bettingIndex": 55,
-        "signals": {
-          "shotThreatIndex": 90,
-          "shotOnTargetIndex": 31,
-          "goalThreatIndex": 49,
-          "assistThreatIndex": 39,
-          "cardRiskIndex": 76,
-          "foulRiskIndex": 39,
-          "playmakingIndex": 31,
-          "defensiveIndex": 0,
-          "formIndex": 49,
-          "pressureIndex": 75,
-          "bettingIndex": 55
-        }
+        "title": "Spagna prima a 6 corner",
+        "odds": null,
+        "badge": "core",
+        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
       },
       {
-        "player": "Lamine Yamal",
-        "team": "Spain",
-        "role": "Substitute",
-        "bettingIndex": 55,
-        "signals": {
-          "shotThreatIndex": 78,
-          "shotOnTargetIndex": 63,
-          "goalThreatIndex": 78,
-          "assistThreatIndex": 0,
-          "cardRiskIndex": 57,
-          "foulRiskIndex": 50,
-          "playmakingIndex": 0,
-          "defensiveIndex": 0,
-          "formIndex": 68,
-          "pressureIndex": 75,
-          "bettingIndex": 55
-        }
+        "title": "De Bruyne over tiri se il Belgio deve rincorrere",
+        "odds": null,
+        "badge": "value",
+        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
       },
       {
-        "player": "Mikel Oyarzabal",
-        "team": "Spain",
-        "role": "Forward",
-        "bettingIndex": 52,
-        "signals": {
-          "shotThreatIndex": 80,
-          "shotOnTargetIndex": 65,
-          "goalThreatIndex": 100,
-          "assistThreatIndex": 10,
-          "cardRiskIndex": 13,
-          "foulRiskIndex": 15,
-          "playmakingIndex": 8,
-          "defensiveIndex": 0,
-          "formIndex": 69,
-          "pressureIndex": 75,
-          "bettingIndex": 52
-        }
+        "title": "Doku falli subiti over in scenario di transizione",
+        "odds": null,
+        "badge": "value",
+        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
       }
     ],
-    "teamEdges": [
-      {
-        "team": "Spain",
-        "attackingDepth": 45,
-        "cardExposure": 30,
-        "foulExposure": 27,
-        "topPlayers": [
-          "Ferran Torres",
-          "Lamine Yamal",
-          "Mikel Oyarzabal"
-        ]
-      },
-      {
-        "team": "Belgium",
-        "attackingDepth": 44,
-        "cardExposure": 31,
-        "foulExposure": 30,
-        "topPlayers": [
-          "Kevin De Bruyne",
-          "Leandro Trossard",
-          "Youri Tielemans"
-        ]
-      }
-    ]
-  },
-  "riskWarnings": [
-    "Quote target da verificare nel betslip se Sisal aggiorna linee/stato mercato.",
-    "Campi avanzati ESPN mancanti: xG, xA, tocchi, passaggi, duelli e rating spesso null.",
-    "Cartellini individuali e player prop restano sensibili a titolarita e sostituzioni."
-  ],
-  "dataQuality": {
-    "completion": 100,
-    "playerStats": "complete",
-    "quoteMarkets": 8118,
-    "advancedStats": "partial_espn_base",
-    "missingContext": []
-  },
-  "sourceTeamStats": "data/team-stats/quarterfinals-team-model.json",
-  "sourceRoleSlotModel": "data/player-stats/quarterfinals-role-slot-model.json"
+    "disclaimer": "Le quote segnalate non sono garanzia di vincita: servono a evidenziare mercati compatibili con il modello."
+  }
 }

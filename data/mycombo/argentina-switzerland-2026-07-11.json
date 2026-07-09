@@ -1,1321 +1,274 @@
 {
   "matchId": "argentina-switzerland-2026-07-11",
   "match": "Argentina-Svizzera",
-  "date": "2026-07-11",
+  "date": "12/07/2026 ore 03.00",
   "completion": 100,
   "status": "ready",
-  "sourcePlayerStats": "data/player-stats/argentina-switzerland-2026-07-11.json",
-  "sourceReading": "data/readings/argentina-switzerland-2026-07-11.json",
   "sourceQuote": "data/quote/argentina-svizzera-quote.json",
+  "sourceReading": "data/readings/argentina-switzerland-2026-07-11.json",
+  "sourcePlayerStats": "data/player-stats/argentina-switzerland-2026-07-11.json",
   "safe": {
     "name": "Safe",
     "events": [
       {
-        "id": "event-482061",
-        "market": "U/O TIRI TOTALI",
-        "info": "U/O 24.5 TIRI TOTALI",
+        "id": "event-5210482552",
+        "market": "PASSAGGIO TURNO",
+        "info": "PASSAGGIO TURNO",
+        "selection": "1",
+        "odds": 1.33,
+        "selectionId": 5210482552,
+        "marketId": 791890635,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "statEvidence": {
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
+          "confidence": "medium",
+          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+      },
+      {
+        "id": "event-5210481374",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 3.5",
+        "selection": "1 + U",
+        "odds": 2.15,
+        "selectionId": 5210481374,
+        "marketId": 791890392,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "statEvidence": {
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
+          "confidence": "medium",
+          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+      },
+      {
+        "id": "event-5211243321",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "info": "NDOYE D. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
         "selection": "OVER",
-        "odds": 2,
-        "selectionId": 5210482061,
-        "marketId": 791890527,
+        "odds": 1.8,
+        "selectionId": 5211243321,
+        "marketId": 792038207,
         "category": "tiri",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
         "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Argentina / Switzerland",
-          "market": "tiri",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Argentina",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.17,
-                "weightedShotsForPerMatch": 16.18,
-                "weightedShotsAgainstPerMatch": 8.63,
-                "weightedShotsOnTargetForPerMatch": 6.94,
-                "weightedShotsOnTargetAgainstPerMatch": 2.2,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 64,
-                "attackIndex": 90,
-                "defenseIndex": 61,
-                "cornerIndex": null,
-                "tempoIndex": 83,
-                "pressureIndex": 81
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            },
-            {
-              "team": "Switzerland",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.64,
-                "weightedGoalsAgainstPerMatch": 0.36,
-                "weightedShotsForPerMatch": 11.54,
-                "weightedShotsAgainstPerMatch": 10.05,
-                "weightedShotsOnTargetForPerMatch": 4.63,
-                "weightedShotsOnTargetAgainstPerMatch": 3.54,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 47,
-                "attackIndex": 62,
-                "defenseIndex": 53,
-                "cornerIndex": null,
-                "tempoIndex": 72,
-                "pressureIndex": 84
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "tiri"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Argentina / Switzerland e alla lettura partita."
+          "type": "player/team shots model",
+          "source": "analisi calciatori",
+          "confidence": "high",
+          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
         },
-        "confidence": "medium",
-        "riskWarning": "Rischio coerente con quota e dati disponibili.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-367053",
-        "market": "U/O PALI/TRAVERSE MATCH INC TS",
-        "info": "U/O 0.5 PALI/TRAVERSE INCL. TS",
-        "selection": "UNDER",
-        "odds": 1.67,
-        "selectionId": 5211367053,
-        "marketId": 792059332,
-        "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Argentina / Switzerland",
-          "market": "gol",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Argentina",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.17,
-                "weightedShotsForPerMatch": 16.18,
-                "weightedShotsAgainstPerMatch": 8.63,
-                "weightedShotsOnTargetForPerMatch": 6.94,
-                "weightedShotsOnTargetAgainstPerMatch": 2.2,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 64,
-                "attackIndex": 90,
-                "defenseIndex": 61,
-                "cornerIndex": null,
-                "tempoIndex": 83,
-                "pressureIndex": 81
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            },
-            {
-              "team": "Switzerland",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.64,
-                "weightedGoalsAgainstPerMatch": 0.36,
-                "weightedShotsForPerMatch": 11.54,
-                "weightedShotsAgainstPerMatch": 10.05,
-                "weightedShotsOnTargetForPerMatch": 4.63,
-                "weightedShotsOnTargetAgainstPerMatch": 3.54,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 47,
-                "attackIndex": 62,
-                "defenseIndex": 53,
-                "cornerIndex": null,
-                "tempoIndex": 72,
-                "pressureIndex": 84
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "gol"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Argentina / Switzerland e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Mercato situazionale con evidenza statistica indiretta.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-716419",
-        "market": "PRIMA A X CORNER",
-        "info": "PRIMA A 2 CALCI D'ANGOLO",
-        "selection": "TEAM 1",
-        "odds": 1.5,
-        "selectionId": 5211716419,
-        "marketId": 792127612,
-        "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Switzerland",
-          "market": "corner",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Switzerland",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.64,
-                "weightedGoalsAgainstPerMatch": 0.36,
-                "weightedShotsForPerMatch": 11.54,
-                "weightedShotsAgainstPerMatch": 10.05,
-                "weightedShotsOnTargetForPerMatch": 4.63,
-                "weightedShotsOnTargetAgainstPerMatch": 3.54,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 47,
-                "attackIndex": 62,
-                "defenseIndex": 53,
-                "cornerIndex": null,
-                "tempoIndex": 72,
-                "pressureIndex": 84
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "corner"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Switzerland e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "confidence": "high",
+        "riskWarning": "Sensibile a minutaggio e stato gara.",
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
       }
     ],
-    "finalOdds": 5.01,
+    "finalOdds": 5.15,
     "targetOdds": "4-6",
-    "averageRisk": 40,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
-    "eventsWithStatEvidence": 3,
-    "lowConfidenceEvents": []
+    "averageRisk": 38,
+    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico."
   },
   "balanced": {
     "name": "Balanced",
     "events": [
       {
-        "id": "event-482061",
-        "market": "U/O TIRI TOTALI",
-        "info": "U/O 24.5 TIRI TOTALI",
-        "selection": "OVER",
-        "odds": 2,
-        "selectionId": 5210482061,
-        "marketId": 791890527,
-        "category": "tiri",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "id": "event-5210481353",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 1.5",
+        "selection": "1 + O",
+        "odds": 2.2,
+        "selectionId": 5210481353,
+        "marketId": 791890390,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
         "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Argentina / Switzerland",
-          "market": "tiri",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Argentina",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.17,
-                "weightedShotsForPerMatch": 16.18,
-                "weightedShotsAgainstPerMatch": 8.63,
-                "weightedShotsOnTargetForPerMatch": 6.94,
-                "weightedShotsOnTargetAgainstPerMatch": 2.2,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 64,
-                "attackIndex": 90,
-                "defenseIndex": 61,
-                "cornerIndex": null,
-                "tempoIndex": 83,
-                "pressureIndex": 81
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            },
-            {
-              "team": "Switzerland",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.64,
-                "weightedGoalsAgainstPerMatch": 0.36,
-                "weightedShotsForPerMatch": 11.54,
-                "weightedShotsAgainstPerMatch": 10.05,
-                "weightedShotsOnTargetForPerMatch": 4.63,
-                "weightedShotsOnTargetAgainstPerMatch": 3.54,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 47,
-                "attackIndex": 62,
-                "defenseIndex": 53,
-                "cornerIndex": null,
-                "tempoIndex": 72,
-                "pressureIndex": 84
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "tiri"
-          },
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
           "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Argentina / Switzerland e alla lettura partita."
+          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
         },
         "confidence": "medium",
-        "riskWarning": "Rischio coerente con quota e dati disponibili.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
       },
       {
-        "id": "event-917259",
-        "market": "X + Y ALMENO Z FALLI COMMESSI INC TS",
-        "info": "RODRIGUEZ RICARDO E XHAKA G. ALMENO 4 FALLI COMMESSI IN TOTALE INCL. T.S.",
+        "id": "event-5212591527",
+        "market": "GIOCATORE SEGNA DI SINISTRO INC TS",
+        "info": "MESSI L. SEGNA DI SINISTRO INCL. TS",
         "selection": "SI",
-        "odds": 1.95,
-        "selectionId": 5210917259,
-        "marketId": 791968353,
-        "category": "falli",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "odds": 2.5,
+        "selectionId": 5212591527,
+        "marketId": 792283640,
+        "category": "gol",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
         "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "referee_team",
-          "team": "Argentina / Switzerland",
-          "market": "falli",
-          "usedModel": "teamStatsModel+refereeEvidence",
-          "teamStatsEvidence": [
-            {
-              "team": "Argentina",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.17,
-                "weightedShotsForPerMatch": 16.18,
-                "weightedShotsAgainstPerMatch": 8.63,
-                "weightedShotsOnTargetForPerMatch": 6.94,
-                "weightedShotsOnTargetAgainstPerMatch": 2.2,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 64,
-                "attackIndex": 90,
-                "defenseIndex": 61,
-                "cornerIndex": null,
-                "tempoIndex": 83,
-                "pressureIndex": 81
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            },
-            {
-              "team": "Switzerland",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.64,
-                "weightedGoalsAgainstPerMatch": 0.36,
-                "weightedShotsForPerMatch": 11.54,
-                "weightedShotsAgainstPerMatch": 10.05,
-                "weightedShotsOnTargetForPerMatch": 4.63,
-                "weightedShotsOnTargetAgainstPerMatch": 3.54,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 47,
-                "attackIndex": 62,
-                "defenseIndex": 53,
-                "cornerIndex": null,
-                "tempoIndex": 72,
-                "pressureIndex": 84
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "falli"
-          },
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
           "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Argentina / Switzerland e alla lettura partita."
+          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
         },
         "confidence": "medium",
-        "riskWarning": "Rischio coerente con quota e dati disponibili.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
       },
       {
-        "id": "event-244641",
-        "market": "U/O TIRI TOTALI SQUADRA X",
-        "info": "SQUADRA 2: U/O 8.5 TIRI TOTALI",
+        "id": "event-5211243321",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "info": "NDOYE D. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
         "selection": "OVER",
-        "odds": 1.65,
-        "selectionId": 5211244641,
-        "marketId": 792038537,
+        "odds": 1.8,
+        "selectionId": 5211243321,
+        "marketId": 792038207,
         "category": "tiri",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
         "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Switzerland",
-          "market": "tiri",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Switzerland",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.64,
-                "weightedGoalsAgainstPerMatch": 0.36,
-                "weightedShotsForPerMatch": 11.54,
-                "weightedShotsAgainstPerMatch": 10.05,
-                "weightedShotsOnTargetForPerMatch": 4.63,
-                "weightedShotsOnTargetAgainstPerMatch": 3.54,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 47,
-                "attackIndex": 62,
-                "defenseIndex": 53,
-                "cornerIndex": null,
-                "tempoIndex": 72,
-                "pressureIndex": 84
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "tiri"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Switzerland e alla lettura partita."
+          "type": "player/team shots model",
+          "source": "analisi calciatori",
+          "confidence": "high",
+          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
         },
-        "confidence": "medium",
-        "riskWarning": "Rischio coerente con quota e dati disponibili.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-246288",
-        "market": "GIOCATORE COMMETTE ALMENO Y FALLI NEL TEMPO",
-        "info": "EMBOLO B. COMMETTE ALMENO 1 FALLI NEL 1 TEMPO",
-        "selection": "SI",
-        "odds": 1.55,
-        "selectionId": 5211246288,
-        "marketId": 792039940,
-        "category": "falli",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "referee_team",
-          "team": "Argentina",
-          "market": "falli",
-          "usedModel": "teamStatsModel+refereeEvidence",
-          "teamStatsEvidence": [
-            {
-              "team": "Argentina",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.17,
-                "weightedShotsForPerMatch": 16.18,
-                "weightedShotsAgainstPerMatch": 8.63,
-                "weightedShotsOnTargetForPerMatch": 6.94,
-                "weightedShotsOnTargetAgainstPerMatch": 2.2,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 64,
-                "attackIndex": 90,
-                "defenseIndex": 61,
-                "cornerIndex": null,
-                "tempoIndex": 83,
-                "pressureIndex": 81
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "falli"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Argentina e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Rischio coerente con quota e dati disponibili.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "confidence": "high",
+        "riskWarning": "Sensibile a minutaggio e stato gara.",
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
       }
     ],
-    "finalOdds": 9.97,
+    "finalOdds": 9.9,
     "targetOdds": "8-12",
-    "averageRisk": 40,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
-    "eventsWithStatEvidence": 4,
-    "lowConfidenceEvents": []
+    "averageRisk": 52,
+    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico."
   },
   "aggressive": {
     "name": "Aggressive",
     "events": [
       {
-        "id": "event-482061",
-        "market": "U/O TIRI TOTALI",
-        "info": "U/O 24.5 TIRI TOTALI",
+        "id": "event-5210481365",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 2.5",
+        "selection": "1 + O",
+        "odds": 2.9,
+        "selectionId": 5210481365,
+        "marketId": 791890391,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "statEvidence": {
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
+          "confidence": "medium",
+          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+      },
+      {
+        "id": "event-5210508622",
+        "market": "MARCATORE SI/NO 1T",
+        "info": "MESSI L. MARCATORE 1T",
+        "selection": "SI",
+        "odds": 3.6,
+        "selectionId": 5210508622,
+        "marketId": 791895824,
+        "category": "gol",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "statEvidence": {
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
+          "confidence": "medium",
+          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+      },
+      {
+        "id": "event-5211296947",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "info": "EMBOLO B. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
         "selection": "OVER",
-        "odds": 2,
-        "selectionId": 5210482061,
-        "marketId": 791890527,
+        "odds": 1.65,
+        "selectionId": 5211296947,
+        "marketId": 792050983,
         "category": "tiri",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
         "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Argentina / Switzerland",
-          "market": "tiri",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Argentina",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.17,
-                "weightedShotsForPerMatch": 16.18,
-                "weightedShotsAgainstPerMatch": 8.63,
-                "weightedShotsOnTargetForPerMatch": 6.94,
-                "weightedShotsOnTargetAgainstPerMatch": 2.2,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 64,
-                "attackIndex": 90,
-                "defenseIndex": 61,
-                "cornerIndex": null,
-                "tempoIndex": 83,
-                "pressureIndex": 81
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            },
-            {
-              "team": "Switzerland",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.64,
-                "weightedGoalsAgainstPerMatch": 0.36,
-                "weightedShotsForPerMatch": 11.54,
-                "weightedShotsAgainstPerMatch": 10.05,
-                "weightedShotsOnTargetForPerMatch": 4.63,
-                "weightedShotsOnTargetAgainstPerMatch": 3.54,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 47,
-                "attackIndex": 62,
-                "defenseIndex": 53,
-                "cornerIndex": null,
-                "tempoIndex": 72,
-                "pressureIndex": 84
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "tiri"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Argentina / Switzerland e alla lettura partita."
+          "type": "player/team shots model",
+          "source": "analisi calciatori",
+          "confidence": "high",
+          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
         },
-        "confidence": "medium",
-        "riskWarning": "Rischio coerente con quota e dati disponibili.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "confidence": "high",
+        "riskWarning": "Sensibile a minutaggio e stato gara.",
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
       },
       {
-        "id": "event-367054",
-        "market": "U/O PALI/TRAVERSE MATCH INC TS",
-        "info": "U/O 0.5 PALI/TRAVERSE INCL. TS",
+        "id": "event-5211242337",
+        "market": "U/O FALLI COMMESSI GIOCATORE",
+        "info": "AKANJI M. U/O 0.5 FALLI COMMESSI",
         "selection": "OVER",
-        "odds": 2,
-        "selectionId": 5211367054,
-        "marketId": 792059332,
-        "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "odds": 1.25,
+        "selectionId": 5211242337,
+        "marketId": 792037961,
+        "category": "falli",
+        "class": "VALUE",
+        "reason": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
         "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Argentina / Switzerland",
-          "market": "gol",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Argentina",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.17,
-                "weightedShotsForPerMatch": 16.18,
-                "weightedShotsAgainstPerMatch": 8.63,
-                "weightedShotsOnTargetForPerMatch": 6.94,
-                "weightedShotsOnTargetAgainstPerMatch": 2.2,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 64,
-                "attackIndex": 90,
-                "defenseIndex": 61,
-                "cornerIndex": null,
-                "tempoIndex": 83,
-                "pressureIndex": 81
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            },
-            {
-              "team": "Switzerland",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 1.64,
-                "weightedGoalsAgainstPerMatch": 0.36,
-                "weightedShotsForPerMatch": 11.54,
-                "weightedShotsAgainstPerMatch": 10.05,
-                "weightedShotsOnTargetForPerMatch": 4.63,
-                "weightedShotsOnTargetAgainstPerMatch": 3.54,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 47,
-                "attackIndex": 62,
-                "defenseIndex": 53,
-                "cornerIndex": null,
-                "tempoIndex": 72,
-                "pressureIndex": 84
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 9,
-                  "shotsOnTargetForPerMatch": 3.5,
-                  "foulsCommittedPerMatch": 16,
-                  "yellowCardsPerMatch": 1.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "gol"
-          },
+          "type": "discipline model",
+          "source": "falli/cartellini squadra e ruolo",
           "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Argentina / Switzerland e alla lettura partita."
+          "reason": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
         },
         "confidence": "medium",
-        "riskWarning": "Mercato situazionale con evidenza statistica indiretta.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-485949",
-        "market": "U/O SOMMA GOAL TEMPO X ASIATICO",
-        "info": "1 TEMPO: U/O 1 AH",
-        "selection": "OVER",
-        "odds": 1.98,
-        "selectionId": 5210485949,
-        "marketId": 791891160,
-        "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Argentina",
-          "market": "gol",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Argentina",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.17,
-                "weightedShotsForPerMatch": 16.18,
-                "weightedShotsAgainstPerMatch": 8.63,
-                "weightedShotsOnTargetForPerMatch": 6.94,
-                "weightedShotsOnTargetAgainstPerMatch": 2.2,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 64,
-                "attackIndex": 90,
-                "defenseIndex": 61,
-                "cornerIndex": null,
-                "tempoIndex": 83,
-                "pressureIndex": 81
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "gol"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Argentina e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Rischio coerente con quota e dati disponibili.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-485489",
-        "market": "COMBO: U/O 1T + U/O 2T",
-        "info": "COMBO U/O 1.5 1T + U/O 0.5 2T",
-        "selection": "UNDER + OVER",
-        "odds": 1.7,
-        "selectionId": 5210485489,
-        "marketId": 791891101,
-        "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Argentina",
-          "market": "gol",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Argentina",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.17,
-                "weightedShotsForPerMatch": 16.18,
-                "weightedShotsAgainstPerMatch": 8.63,
-                "weightedShotsOnTargetForPerMatch": 6.94,
-                "weightedShotsOnTargetAgainstPerMatch": 2.2,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 64,
-                "attackIndex": 90,
-                "defenseIndex": 61,
-                "cornerIndex": null,
-                "tempoIndex": 83,
-                "pressureIndex": 81
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "gol"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Argentina e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Rischio coerente con quota e dati disponibili.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
-      },
-      {
-        "id": "event-482206",
-        "market": "1 TEMPO: 1X2 CORNER",
-        "info": "1 TEMPO: 1X2 CORNER",
-        "selection": "1",
-        "odds": 1.6,
-        "selectionId": 5210482206,
-        "marketId": 791890563,
-        "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
-        "statEvidence": {
-          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-          "type": "team",
-          "team": "Argentina",
-          "market": "corner",
-          "usedModel": "teamStatsModel",
-          "teamStatsEvidence": [
-            {
-              "team": "Argentina",
-              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
-              "teamWeightedModel": {
-                "matches": 5,
-                "weightedGoalsForPerMatch": 2.53,
-                "weightedGoalsAgainstPerMatch": 1.17,
-                "weightedShotsForPerMatch": 16.18,
-                "weightedShotsAgainstPerMatch": 8.63,
-                "weightedShotsOnTargetForPerMatch": 6.94,
-                "weightedShotsOnTargetAgainstPerMatch": 2.2,
-                "weightedCornersForPerMatch": null,
-                "weightedCornersAgainstPerMatch": null,
-                "disciplineIndex": 64,
-                "attackIndex": 90,
-                "defenseIndex": 61,
-                "cornerIndex": null,
-                "tempoIndex": 83,
-                "pressureIndex": 81
-              },
-              "trends": {
-                "lastTwoMatches": {
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                },
-                "knockout": {
-                  "matches": 2,
-                  "shotsForPerMatch": 20.5,
-                  "shotsOnTargetForPerMatch": 8.5,
-                  "foulsCommittedPerMatch": 13,
-                  "yellowCardsPerMatch": 0.5
-                }
-              },
-              "missingFields": [
-                "cornersFor",
-                "cornersAgainst",
-                "possession",
-                "saves",
-                "firstHalfGoalsFor",
-                "firstHalfGoalsAgainst",
-                "secondHalfGoalsFor",
-                "secondHalfGoalsAgainst"
-              ]
-            }
-          ],
-          "matchReadingEvidence": {
-            "sourceFile": "data/readings/argentina-switzerland-2026-07-11.json",
-            "linkedScenario": "corner"
-          },
-          "confidence": "medium",
-          "reason": "Evento collegato al modello squadra Argentina e alla lettura partita."
-        },
-        "confidence": "medium",
-        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
-        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
+        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
       }
     ],
-    "finalOdds": 21.54,
+    "finalOdds": 21.53,
     "targetOdds": "18-25",
-    "averageRisk": 40,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
-    "eventsWithStatEvidence": 5,
-    "lowConfidenceEvents": []
+    "averageRisk": 68,
+    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico."
   },
-  "reasoning": {
-    "summary": "Combinazioni costruite solo su mercati reali Sisal, weighted player model, team trend e match context.",
-    "playerEdges": [
+  "quoteErrorAnalysis": {
+    "analysis": {
+      "totalMarkets": 7588,
+      "publishedEvents": 3
+    },
+    "events": [
       {
-        "player": "Lionel Messi",
-        "team": "Argentina",
-        "role": "Center Right Forward",
-        "bettingIndex": 66,
-        "signals": {
-          "shotThreatIndex": 100,
-          "shotOnTargetIndex": 100,
-          "goalThreatIndex": 100,
-          "assistThreatIndex": 13,
-          "cardRiskIndex": 13,
-          "foulRiskIndex": 37,
-          "playmakingIndex": 10,
-          "defensiveIndex": 0,
-          "formIndex": 93,
-          "pressureIndex": 75,
-          "bettingIndex": 66
-        }
+        "title": "Argentina + Under 3,5 coerente col copione",
+        "odds": null,
+        "badge": "core",
+        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
       },
       {
-        "player": "Dan Ndoye",
-        "team": "Switzerland",
-        "role": "Right Forward",
-        "bettingIndex": 47,
-        "signals": {
-          "shotThreatIndex": 65,
-          "shotOnTargetIndex": 51,
-          "goalThreatIndex": 62,
-          "assistThreatIndex": 0,
-          "cardRiskIndex": 33,
-          "foulRiskIndex": 67,
-          "playmakingIndex": 0,
-          "defensiveIndex": 0,
-          "formIndex": 39,
-          "pressureIndex": 75,
-          "bettingIndex": 47
-        }
+        "title": "Ndoye tiro in porta a quota ancora giocabile",
+        "odds": null,
+        "badge": "value",
+        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
       },
       {
-        "player": "Johan Manzambi",
-        "team": "Switzerland",
-        "role": "Substitute",
-        "bettingIndex": 46,
-        "signals": {
-          "shotThreatIndex": 40,
-          "shotOnTargetIndex": 32,
-          "goalThreatIndex": 88,
-          "assistThreatIndex": 49,
-          "cardRiskIndex": 33,
-          "foulRiskIndex": 38,
-          "playmakingIndex": 40,
-          "defensiveIndex": 0,
-          "formIndex": 27,
-          "pressureIndex": 65,
-          "bettingIndex": 46
-        }
+        "title": "Akanji falli commessi se Messi riceve tra le linee",
+        "odds": null,
+        "badge": "value",
+        "reason": "Possibile disallineamento individuato dalla lettura: usare solo se il mercato e presente e coerente con lo stake."
       }
     ],
-    "teamEdges": [
-      {
-        "team": "Argentina",
-        "attackingDepth": 38,
-        "cardExposure": 37,
-        "foulExposure": 35,
-        "topPlayers": [
-          "Lionel Messi",
-          "Lautaro Martínez",
-          "Gonzalo Montiel"
-        ]
-      },
-      {
-        "team": "Switzerland",
-        "attackingDepth": 32,
-        "cardExposure": 47,
-        "foulExposure": 41,
-        "topPlayers": [
-          "Dan Ndoye",
-          "Johan Manzambi",
-          "Rubén Vargas"
-        ]
-      }
-    ]
-  },
-  "riskWarnings": [
-    "Quote target da verificare nel betslip se Sisal aggiorna linee/stato mercato.",
-    "Campi avanzati ESPN mancanti: xG, xA, tocchi, passaggi, duelli e rating spesso null.",
-    "Cartellini individuali e player prop restano sensibili a titolarita e sostituzioni."
-  ],
-  "dataQuality": {
-    "completion": 100,
-    "playerStats": "complete",
-    "quoteMarkets": 7588,
-    "advancedStats": "partial_espn_base",
-    "missingContext": [
-      "referee confirmed"
-    ]
-  },
-  "sourceTeamStats": "data/team-stats/quarterfinals-team-model.json",
-  "sourceRoleSlotModel": "data/player-stats/quarterfinals-role-slot-model.json"
+    "disclaimer": "Le quote segnalate non sono garanzia di vincita: servono a evidenziare mercati compatibili con il modello."
+  }
 }

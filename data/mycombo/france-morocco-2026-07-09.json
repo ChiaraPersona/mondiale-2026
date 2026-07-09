@@ -1,729 +1,267 @@
 {
-  "slug": "france-morocco-2026-07-09",
   "matchId": "france-morocco-2026-07-09",
-  "match": "Francia - Marocco",
-  "competition": "Mondiale 2026",
-  "round": "Quarti di finale",
-  "date": "2026-07-09 ore 22:00 CEST",
-  "status": "prepared",
+  "match": "Francia-Marocco",
+  "date": "2026-07-09",
+  "completion": 100,
+  "status": "ready",
+  "sourcePlayerStats": "data/player-stats/france-morocco-2026-07-09.json",
+  "sourceReading": "data/readings/france-morocco-2026-07-09.json",
   "sourceQuote": "data/quote/francia-marocco-quote.json",
-  "sourceIntelligence": "data/mycombo-intelligence/france-morocco-2026-07-09.json",
-  "rules": {
-    "realSisalOddsOnly": true,
-    "noInventedMarkets": true,
-    "bookmakerProbabilityNotImplemented": true,
-    "expectedProbabilityNotImplemented": true,
-    "valueNotImplemented": true
+  "safe": {
+    "name": "Safe",
+    "events": [
+      {
+        "id": "event-002862",
+        "market": "1X2 FALLI COMMESSI GIOCATORI INC TS",
+        "info": "SALIBA W. - DIOP I. 1X2 FALLI COMMESSI INC. TS",
+        "selection": "X",
+        "odds": 2,
+        "selectionId": 5209002862,
+        "marketId": 791621120,
+        "category": "falli",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-904497",
+        "market": "U/O PALI/TRAVERSE MATCH INC TS",
+        "info": "U/O 0.5 PALI/TRAVERSE INCL. TS",
+        "selection": "UNDER",
+        "odds": 1.67,
+        "selectionId": 5207904497,
+        "marketId": 791420716,
+        "category": "gol",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-171399",
+        "market": "U/O FALLI COMMESSI GIOCATORE",
+        "info": "DOUE D. U/O 1.5 FALLI COMMESSI",
+        "selection": "OVER",
+        "odds": 1.5,
+        "selectionId": 5208171399,
+        "marketId": 791464366,
+        "category": "falli",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      }
+    ],
+    "finalOdds": 5.01,
+    "targetOdds": "4-6",
+    "averageRisk": 40,
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
   },
-  "scenarioUsed": {
-    "primary": "Francia vittoria controllata",
-    "secondary": "Marocco resiste basso",
-    "note": "Portfolio costruiti su Francia territoriale, Marocco compatto, caldo che puo abbassare il ritmo e contesto falli/cartellini piu sensibile."
+  "balanced": {
+    "name": "Balanced",
+    "events": [
+      {
+        "id": "event-486494",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 3.5",
+        "selection": "1 + U",
+        "odds": 2.1,
+        "selectionId": 5206486494,
+        "marketId": 791152114,
+        "category": "gol",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-451406",
+        "market": "COMBO: GOAL/NOGOAL + U/O",
+        "info": "U/O 4.5 + GG/NG",
+        "selection": "NO GOAL + UNDER",
+        "odds": 1.85,
+        "selectionId": 5206451406,
+        "marketId": 791136999,
+        "category": "gol",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-487161",
+        "market": "U/O TIRI IN PORTA",
+        "info": "U/O 8.5 TIRI IN PORTA",
+        "selection": "OVER",
+        "odds": 1.65,
+        "selectionId": 5206487161,
+        "marketId": 791152244,
+        "category": "tiri",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-017467",
+        "market": "ENTRAMBE ALMENO X CORNER",
+        "info": "ENTRAMBE ALMENO 3 CORNER",
+        "selection": "SI",
+        "odds": 1.55,
+        "selectionId": 5207017467,
+        "marketId": 791255273,
+        "category": "corner",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      }
+    ],
+    "finalOdds": 9.94,
+    "targetOdds": "8-12",
+    "averageRisk": 40,
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
   },
-  "portfolios": [
-    {
-      "name": "Safe",
-      "finalOdds": 4.69,
-      "events": [
-        {
-          "id": "event-01",
-          "market": "PASSAGGIO TURNO ? PASSAGGIO TURNO",
-          "selection": "1",
-          "odds": 1.25,
-          "selectionId": 5206487672,
-          "marketId": 791152357,
-          "category": "esito",
-          "rankingScore": 84,
-          "class": "CORE",
-          "risk": 24,
-          "confidence": 78,
-          "marketSignal": null,
-          "reason": "Francia favorita per qualita e profondita; scelta piu prudente dell'1 nei 90 minuti.",
-          "scenarioTags": [
-            "Francia vittoria controllata"
-          ]
-        },
-        {
-          "id": "event-02",
-          "market": "U/O TIRI TOTALI SQUADRA X ? SQUADRA 1: U/O 14.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.45,
-          "selectionId": 5208171963,
-          "marketId": 791464507,
-          "category": "tiri",
-          "rankingScore": 84,
-          "class": "CORE",
-          "risk": 25,
-          "confidence": 79,
-          "marketSignal": "Francia tiri squadra",
-          "reason": "Francia a 17.6 tiri medi; linea 14.5 coerente anche con ritmo non altissimo.",
-          "scenarioTags": [
-            "Francia dominante",
-            "Francia vittoria controllata"
-          ]
-        },
-        {
-          "id": "event-09",
-          "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI ? ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
-          "selection": "SI",
-          "odds": 1.4,
-          "selectionId": 5210999479,
-          "marketId": 791991397,
-          "category": "cartellini",
-          "rankingScore": 76,
-          "class": "CORE",
-          "risk": 42,
-          "confidence": 76,
-          "marketSignal": null,
-          "reason": "Eliminazione diretta, caldo e arbitro argentino rendono plausibile almeno un punto cartellino per entrambe.",
-          "scenarioTags": [
-            "Marocco resiste basso",
-            "Francia vittoria controllata"
-          ]
-        },
-        {
-          "id": "event-11",
-          "market": "U/O FALLI COMMESSI  INC TS ? U/O 24.5 FALLI COMMESSI INC TS",
-          "selection": "OVER",
-          "odds": 1.85,
-          "selectionId": 5206488021,
-          "marketId": 791152442,
-          "category": "falli",
-          "rankingScore": 77,
-          "class": "CORE",
-          "risk": 45,
-          "confidence": 76,
-          "marketSignal": null,
-          "reason": "Francia-Marocco ha profilo fisico: Marocco 12.2 falli commessi medi, Francia 9.8, caldo e gara secca alzano il rischio falli.",
-          "scenarioTags": [
-            "Marocco resiste basso",
-            "Francia vittoria controllata"
-          ]
-        }
-      ],
-      "reason": "Safe senza cartellini singoli e senza marcatori: Francia qualificata, volume tiri Francia, cartellini minimi per entrambe e totale falli alto.",
-      "scenario": {
-        "id": "controlled_favorite_win",
-        "name": "Francia vittoria controllata",
-        "estimatedProbability": "alta"
+  "aggressive": {
+    "name": "Aggressive",
+    "events": [
+      {
+        "id": "event-486494",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 3.5",
+        "selection": "1 + U",
+        "odds": 2.1,
+        "selectionId": 5206486494,
+        "marketId": 791152114,
+        "category": "gol",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
-      "confidence": 77.25,
-      "riskVerdict": "low",
-      "riskProfile": {
-        "averageRisk": 34,
-        "maxEventRisk": 45,
-        "maxSingleOdds": 1.85,
-        "targetRange": [
-          4.5,
-          5.5
+      {
+        "id": "event-174815",
+        "market": "U/O TIRI IN PORTA SQUADRA X",
+        "info": "SQUADRA 2: U/O 3.5 TIRI IN PORTA",
+        "selection": "OVER",
+        "odds": 2.1,
+        "selectionId": 5208174815,
+        "marketId": 791465220,
+        "category": "tiri",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-488144",
+        "market": "U/O FUORIGIOCO CASA INC TS",
+        "info": "CASA: U/O 1.5 FUORIGIOCO INC. TS",
+        "selection": "UNDER",
+        "odds": 1.8,
+        "selectionId": 5206488144,
+        "marketId": 791152472,
+        "category": "gol",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-488184",
+        "market": "U/O FUORIGIOCO OSPITE INC TS",
+        "info": "OSPITE: U/O 1.5 FUORIGIOCO INC. TS",
+        "selection": "UNDER",
+        "odds": 1.7,
+        "selectionId": 5206488184,
+        "marketId": 791152482,
+        "category": "gol",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-017317",
+        "market": "U/O CORNER SQUADRA X",
+        "info": "U/O 6.5 CORNER SQUADRA 1",
+        "selection": "UNDER",
+        "odds": 1.6,
+        "selectionId": 5207017317,
+        "marketId": 791255239,
+        "category": "corner",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      }
+    ],
+    "finalOdds": 21.59,
+    "targetOdds": "18-25",
+    "averageRisk": 40,
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+  },
+  "reasoning": {
+    "summary": "Combinazioni costruite solo su mercati reali Sisal, weighted player model, team trend e match context.",
+    "playerEdges": [
+      {
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "role": "Forward",
+        "bettingIndex": 67,
+        "signals": {
+          "shotThreatIndex": 97,
+          "shotOnTargetIndex": 100,
+          "goalThreatIndex": 100,
+          "assistThreatIndex": 21,
+          "cardRiskIndex": 27,
+          "foulRiskIndex": 30,
+          "playmakingIndex": 17,
+          "defensiveIndex": 0,
+          "formIndex": 97,
+          "pressureIndex": 75,
+          "bettingIndex": 67
+        }
+      },
+      {
+        "player": "Ayoube Amaimouni",
+        "team": "Morocco",
+        "role": "Substitute",
+        "bettingIndex": 57,
+        "signals": {
+          "shotThreatIndex": 91,
+          "shotOnTargetIndex": 85,
+          "goalThreatIndex": 78,
+          "assistThreatIndex": 0,
+          "cardRiskIndex": 53,
+          "foulRiskIndex": 38,
+          "playmakingIndex": 0,
+          "defensiveIndex": 0,
+          "formIndex": 2,
+          "pressureIndex": 20,
+          "bettingIndex": 57
+        }
+      },
+      {
+        "player": "Soufiane Rahimi",
+        "team": "Morocco",
+        "role": "Substitute",
+        "bettingIndex": 56,
+        "signals": {
+          "shotThreatIndex": 53,
+          "shotOnTargetIndex": 59,
+          "goalThreatIndex": 91,
+          "assistThreatIndex": 17,
+          "cardRiskIndex": 57,
+          "foulRiskIndex": 72,
+          "playmakingIndex": 14,
+          "defensiveIndex": 0,
+          "formIndex": 54,
+          "pressureIndex": 75,
+          "bettingIndex": 56
+        }
+      }
+    ],
+    "teamEdges": [
+      {
+        "team": "France",
+        "attackingDepth": 44,
+        "cardExposure": 35,
+        "foulExposure": 30,
+        "topPlayers": [
+          "Kylian Mbappé",
+          "Michael Olise",
+          "Jean-Philippe Mateta"
         ]
       },
-      "riskNotes": [
-        "Prodotto matematico teorico: Sisal puo rifiutare o riquotare eventi correlati della stessa partita.",
-        "Correlazioni negative escluse; restano solo correlazioni positive/coerenti con lo scenario scelto."
-      ],
-      "strengths": [
-        "Quota dentro target 4.50-5.50.",
-        "Nessun mercato individuale cartellino.",
-        "Eventi coerenti con gara fisica ma controllata."
-      ],
-      "weaknesses": [
-        "Presenza di mercati disciplinari: sensibili alla gestione arbitrale."
-      ],
-      "optimization": {
-        "initialOdds": 4.69,
-        "acceptedRange": [
-          4.5,
-          5.5
-        ],
-        "removedEvents": [],
-        "addedEvents": [
-          {
-            "id": "event-01",
-            "market": "PASSAGGIO TURNO ? PASSAGGIO TURNO",
-            "selection": "1",
-            "odds": 1.25,
-            "category": "esito",
-            "rankingScore": 84,
-            "class": "CORE",
-            "reason": "Francia favorita per qualita e profondita; scelta piu prudente dell'1 nei 90 minuti."
-          },
-          {
-            "id": "event-02",
-            "market": "U/O TIRI TOTALI SQUADRA X ? SQUADRA 1: U/O 14.5 TIRI TOTALI",
-            "selection": "OVER",
-            "odds": 1.45,
-            "category": "tiri",
-            "rankingScore": 84,
-            "class": "CORE",
-            "reason": "Francia a 17.6 tiri medi; linea 14.5 coerente anche con ritmo non altissimo."
-          },
-          {
-            "id": "event-09",
-            "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI ? ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
-            "selection": "SI",
-            "odds": 1.4,
-            "category": "cartellini",
-            "rankingScore": 76,
-            "class": "CORE",
-            "reason": "Eliminazione diretta, caldo e arbitro argentino rendono plausibile almeno un punto cartellino per entrambe."
-          },
-          {
-            "id": "event-11",
-            "market": "U/O FALLI COMMESSI  INC TS ? U/O 24.5 FALLI COMMESSI INC TS",
-            "selection": "OVER",
-            "odds": 1.85,
-            "category": "falli",
-            "rankingScore": 77,
-            "class": "CORE",
-            "reason": "Francia-Marocco ha profilo fisico: Marocco 12.2 falli commessi medi, Francia 9.8, caldo e gara secca alzano il rischio falli."
-          }
-        ],
-        "improvementEstimate": "costruzione diretta da Market Evaluator V1"
-      }
-    },
-    {
-      "name": "Balanced",
-      "finalOdds": 9.51,
-      "events": [
-        {
-          "id": "event-01",
-          "market": "PASSAGGIO TURNO ? PASSAGGIO TURNO",
-          "selection": "1",
-          "odds": 1.25,
-          "selectionId": 5206487672,
-          "marketId": 791152357,
-          "category": "esito",
-          "rankingScore": 84,
-          "class": "CORE",
-          "risk": 24,
-          "confidence": 78,
-          "marketSignal": null,
-          "reason": "Francia favorita per qualita e profondita; scelta piu prudente dell'1 nei 90 minuti.",
-          "scenarioTags": [
-            "Francia vittoria controllata"
-          ]
-        },
-        {
-          "id": "event-03",
-          "market": "U/O TIRI TOTALI SQUADRA X ? SQUADRA 1: U/O 15.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.65,
-          "selectionId": 5208170635,
-          "marketId": 791464175,
-          "category": "tiri",
-          "rankingScore": 84,
-          "class": "CORE",
-          "risk": 29,
-          "confidence": 77,
-          "marketSignal": "Francia tiri squadra",
-          "reason": "Linea piu alta della Safe ma ancora sotto la media francese aggregata.",
-          "scenarioTags": [
-            "Francia dominante",
-            "Partita aperta/equilibrata"
-          ]
-        },
-        {
-          "id": "event-04",
-          "market": "U/O TIRI IN PORTA SQUADRA X ? SQUADRA 1: U/O 4.5 TIRI IN PORTA",
-          "selection": "OVER",
-          "odds": 1.42,
-          "selectionId": 5208172027,
-          "marketId": 791464523,
-          "category": "tiri",
-          "rankingScore": 82,
-          "class": "CORE",
-          "risk": 33,
-          "confidence": 79,
-          "marketSignal": "Francia tiri in porta squadra",
-          "reason": "Francia a 7.8 tiri in porta medi; linea 4.5 protegge dal calo ritmo per caldo.",
-          "scenarioTags": [
-            "Francia dominante",
-            "Francia vittoria controllata"
-          ]
-        },
-        {
-          "id": "event-13",
-          "market": "U/O PUNTI CARTELLINI SQUADRA ? SQUADRA 2: U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
-          "selection": "OVER",
-          "odds": 2.9,
-          "selectionId": 5210999662,
-          "marketId": 791991442,
-          "category": "cartellini",
-          "rankingScore": 70,
-          "class": "VALUE",
-          "risk": 68,
-          "confidence": 62,
-          "marketSignal": "Marocco cartellini squadra",
-          "reason": "Linea piu alta: coerente solo se Marocco resiste basso e accumula falli tattici."
-        },
-        {
-          "id": "event-12",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS ? MBAPPE K. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.12,
-          "selectionId": 5208170995,
-          "marketId": 791464265,
-          "category": "tiri",
-          "rankingScore": 83,
-          "class": "CORE",
-          "risk": 39,
-          "confidence": 80,
-          "marketSignal": "Mbappe tiri",
-          "reason": "Linea piu prudente di Mbappe tiri: volume alto e quota utile per tenere Balanced nel range."
-        }
-      ],
-      "reason": "Balanced con CORE+VALUE dentro quota target: Francia qualificata, volume tiri/SOT Francia, Mbappe tiri prudente e Marocco Over 2.5 punti cartellini nello scenario di blocco basso.",
-      "scenario": {
-        "id": "france_pressure_morocco_low_block",
-        "name": "Francia territoriale, Marocco basso",
-        "estimatedProbability": "media"
-      },
-      "confidence": 75.2,
-      "riskVerdict": "medium",
-      "riskProfile": {
-        "averageRisk": 38.6,
-        "maxEventRisk": 68,
-        "maxSingleOdds": 2.9,
-        "targetRange": [
-          9,
-          11
+      {
+        "team": "Morocco",
+        "attackingDepth": 38,
+        "cardExposure": 36,
+        "foulExposure": 38,
+        "topPlayers": [
+          "Ayoube Amaimouni",
+          "Soufiane Rahimi",
+          "Ayoub El Kaabi"
         ]
-      },
-      "riskNotes": [
-        "Prodotto matematico teorico: Sisal puo rifiutare o riquotare eventi correlati della stessa partita.",
-        "Correlazioni negative escluse; restano solo correlazioni positive/coerenti con lo scenario scelto."
-      ],
-      "strengths": [
-        "Quota dentro target 9.00-11.00.",
-        "Usa i segnali piu forti di Francia tiri e Mbappe tiri.",
-        "Marocco cartellini coerente con scenario di resistenza bassa."
-      ],
-      "weaknesses": [
-        "Dipendenza dal volume offensivo francese.",
-        "Marocco Over 2.5 punti cartellini richiede gara fisica e pressione territoriale francese."
-      ],
-      "optimization": {
-        "initialOdds": 9.51,
-        "acceptedRange": [
-          9,
-          11
-        ],
-        "removedEvents": [],
-        "addedEvents": [
-          {
-            "id": "event-01",
-            "market": "PASSAGGIO TURNO ? PASSAGGIO TURNO",
-            "selection": "1",
-            "odds": 1.25,
-            "category": "esito",
-            "rankingScore": 84,
-            "class": "CORE",
-            "reason": "Francia favorita per qualita e profondita; scelta piu prudente dell'1 nei 90 minuti."
-          },
-          {
-            "id": "event-03",
-            "market": "U/O TIRI TOTALI SQUADRA X ? SQUADRA 1: U/O 15.5 TIRI TOTALI",
-            "selection": "OVER",
-            "odds": 1.65,
-            "category": "tiri",
-            "rankingScore": 84,
-            "class": "CORE",
-            "reason": "Linea piu alta della Safe ma ancora sotto la media francese aggregata."
-          },
-          {
-            "id": "event-04",
-            "market": "U/O TIRI IN PORTA SQUADRA X ? SQUADRA 1: U/O 4.5 TIRI IN PORTA",
-            "selection": "OVER",
-            "odds": 1.42,
-            "category": "tiri",
-            "rankingScore": 82,
-            "class": "CORE",
-            "reason": "Francia a 7.8 tiri in porta medi; linea 4.5 protegge dal calo ritmo per caldo."
-          },
-          {
-            "id": "event-13",
-            "market": "U/O PUNTI CARTELLINI SQUADRA ? SQUADRA 2: U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
-            "selection": "OVER",
-            "odds": 2.9,
-            "category": "cartellini",
-            "rankingScore": 70,
-            "class": "VALUE",
-            "reason": "Linea piu alta: coerente solo se Marocco resiste basso e accumula falli tattici."
-          },
-          {
-            "id": "event-12",
-            "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS ? MBAPPE K. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-            "selection": "OVER",
-            "odds": 1.12,
-            "category": "tiri",
-            "rankingScore": 83,
-            "class": "CORE",
-            "reason": "Linea piu prudente di Mbappe tiri: volume alto e quota utile per tenere Balanced nel range."
-          }
-        ],
-        "improvementEstimate": "costruzione diretta da Market Evaluator V1"
       }
-    },
-    {
-      "name": "Aggressive",
-      "finalOdds": 18.48,
-      "events": [
-        {
-          "id": "event-03",
-          "market": "U/O TIRI TOTALI SQUADRA X ? SQUADRA 1: U/O 15.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.65,
-          "selectionId": 5208170635,
-          "marketId": 791464175,
-          "category": "tiri",
-          "rankingScore": 84,
-          "class": "CORE",
-          "risk": 29,
-          "confidence": 77,
-          "marketSignal": "Francia tiri squadra",
-          "reason": "Linea piu alta della Safe ma ancora sotto la media francese aggregata.",
-          "scenarioTags": [
-            "Francia dominante",
-            "Partita aperta/equilibrata"
-          ]
-        },
-        {
-          "id": "event-04",
-          "market": "U/O TIRI IN PORTA SQUADRA X ? SQUADRA 1: U/O 4.5 TIRI IN PORTA",
-          "selection": "OVER",
-          "odds": 1.42,
-          "selectionId": 5208172027,
-          "marketId": 791464523,
-          "category": "tiri",
-          "rankingScore": 82,
-          "class": "CORE",
-          "risk": 33,
-          "confidence": 79,
-          "marketSignal": "Francia tiri in porta squadra",
-          "reason": "Francia a 7.8 tiri in porta medi; linea 4.5 protegge dal calo ritmo per caldo.",
-          "scenarioTags": [
-            "Francia dominante",
-            "Francia vittoria controllata"
-          ]
-        },
-        {
-          "id": "event-15",
-          "market": "X o Y CARTELLINO (DUO) INC TS ? DIGNE L. O HAKIMI A. CARTELLINO O LORO SOST. INC TS",
-          "selection": "SI",
-          "odds": 2.5,
-          "selectionId": 5207770206,
-          "marketId": 791392186,
-          "category": "cartellini",
-          "rankingScore": 63,
-          "class": "SPECULATIVE",
-          "risk": 82,
-          "confidence": 61,
-          "marketSignal": null,
-          "reason": "Duello laterale esposto; usato solo in Aggressive per alta volatilita dei cartellini individuali."
-        },
-        {
-          "id": "event-11",
-          "market": "U/O FALLI COMMESSI  INC TS ? U/O 24.5 FALLI COMMESSI INC TS",
-          "selection": "OVER",
-          "odds": 1.85,
-          "selectionId": 5206488021,
-          "marketId": 791152442,
-          "category": "falli",
-          "rankingScore": 77,
-          "class": "CORE",
-          "risk": 45,
-          "confidence": 76,
-          "marketSignal": null,
-          "reason": "Francia-Marocco ha profilo fisico: Marocco 12.2 falli commessi medi, Francia 9.8, caldo e gara secca alzano il rischio falli.",
-          "scenarioTags": [
-            "Marocco resiste basso",
-            "Francia vittoria controllata"
-          ]
-        },
-        {
-          "id": "event-07",
-          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS ? MBAPPE K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.47,
-          "selectionId": 5208173135,
-          "marketId": 791464800,
-          "category": "tiri",
-          "rankingScore": 85,
-          "class": "VALUE",
-          "risk": 50,
-          "confidence": 78,
-          "marketSignal": "Mbappe tiri in porta",
-          "reason": "17 tiri in porta aggregati: forte, ma piu volatile del solo volume tiri.",
-          "scenarioTags": [
-            "Francia dominante",
-            "Partita aperta/equilibrata"
-          ]
-        },
-        {
-          "id": "event-08",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS ? OLISE M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-          "selection": "OVER",
-          "odds": 1.16,
-          "selectionId": 5208170875,
-          "marketId": 791464235,
-          "category": "tiri",
-          "rankingScore": 67,
-          "class": "VALUE",
-          "risk": 46,
-          "confidence": 70,
-          "marketSignal": "Olise tiri",
-          "reason": "Olise ha buon volume e ruolo rifinitore; utile come gamba secondaria, non come base Safe.",
-          "scenarioTags": [
-            "Francia dominante",
-            "Francia vittoria controllata"
-          ]
-        }
-      ],
-      "reason": "Aggressive scenario-coerente: volume Francia, Mbappe/Olise, totale falli e duello Digne-Hakimi cartellino come gamba speculativa controllata.",
-      "scenario": {
-        "id": "morocco_low_block_with_lateral_duels",
-        "name": "Marocco resiste basso con duelli laterali",
-        "estimatedProbability": "media-bassa"
-      },
-      "confidence": 73.5,
-      "riskVerdict": "medium",
-      "riskProfile": {
-        "averageRisk": 47.5,
-        "maxEventRisk": 82,
-        "maxSingleOdds": 2.5,
-        "targetRange": [
-          18,
-          22
-        ]
-      },
-      "riskNotes": [
-        "Prodotto matematico teorico: Sisal puo rifiutare o riquotare eventi correlati della stessa partita.",
-        "Correlazioni negative escluse; restano solo correlazioni positive/coerenti con lo scenario scelto."
-      ],
-      "strengths": [
-        "Quota dentro target 18.00-22.00.",
-        "Cartellino usato solo in forma X o Y, non singolo secco.",
-        "Scenario coerente con fascia Francia-Marocco e difesa bassa marocchina."
-      ],
-      "weaknesses": [
-        "Maggiore correlazione positiva sul volume offensivo francese.",
-        "Il mercato cartellino resta ad alta varianza.",
-        "Olise e Dembele vanno confermati nelle formazioni ufficiali."
-      ],
-      "optimization": {
-        "initialOdds": 18.48,
-        "acceptedRange": [
-          18,
-          22
-        ],
-        "removedEvents": [],
-        "addedEvents": [
-          {
-            "id": "event-03",
-            "market": "U/O TIRI TOTALI SQUADRA X ? SQUADRA 1: U/O 15.5 TIRI TOTALI",
-            "selection": "OVER",
-            "odds": 1.65,
-            "category": "tiri",
-            "rankingScore": 84,
-            "class": "CORE",
-            "reason": "Linea piu alta della Safe ma ancora sotto la media francese aggregata."
-          },
-          {
-            "id": "event-04",
-            "market": "U/O TIRI IN PORTA SQUADRA X ? SQUADRA 1: U/O 4.5 TIRI IN PORTA",
-            "selection": "OVER",
-            "odds": 1.42,
-            "category": "tiri",
-            "rankingScore": 82,
-            "class": "CORE",
-            "reason": "Francia a 7.8 tiri in porta medi; linea 4.5 protegge dal calo ritmo per caldo."
-          },
-          {
-            "id": "event-15",
-            "market": "X o Y CARTELLINO (DUO) INC TS ? DIGNE L. O HAKIMI A. CARTELLINO O LORO SOST. INC TS",
-            "selection": "SI",
-            "odds": 2.5,
-            "category": "cartellini",
-            "rankingScore": 63,
-            "class": "SPECULATIVE",
-            "reason": "Duello laterale esposto; usato solo in Aggressive per alta volatilita dei cartellini individuali."
-          },
-          {
-            "id": "event-11",
-            "market": "U/O FALLI COMMESSI  INC TS ? U/O 24.5 FALLI COMMESSI INC TS",
-            "selection": "OVER",
-            "odds": 1.85,
-            "category": "falli",
-            "rankingScore": 77,
-            "class": "CORE",
-            "reason": "Francia-Marocco ha profilo fisico: Marocco 12.2 falli commessi medi, Francia 9.8, caldo e gara secca alzano il rischio falli."
-          },
-          {
-            "id": "event-07",
-            "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS ? MBAPPE K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
-            "selection": "OVER",
-            "odds": 1.47,
-            "category": "tiri",
-            "rankingScore": 85,
-            "class": "VALUE",
-            "reason": "17 tiri in porta aggregati: forte, ma piu volatile del solo volume tiri."
-          },
-          {
-            "id": "event-08",
-            "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS ? OLISE M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-            "selection": "OVER",
-            "odds": 1.16,
-            "category": "tiri",
-            "rankingScore": 67,
-            "class": "VALUE",
-            "reason": "Olise ha buon volume e ruolo rifinitore; utile come gamba secondaria, non come base Safe."
-          }
-        ],
-        "improvementEstimate": "costruzione diretta da Market Evaluator V1"
-      }
-    }
+    ]
+  },
+  "riskWarnings": [
+    "Quote target da verificare nel betslip se Sisal aggiorna linee/stato mercato.",
+    "Campi avanzati ESPN mancanti: xG, xA, tocchi, passaggi, duelli e rating spesso null.",
+    "Cartellini individuali e player prop restano sensibili a titolarita e sostituzioni."
   ],
-  "exclusions": {
-    "excludedForRisk": [
-      {
-        "market": "Hakimi cartellino singolo",
-        "reason": "Risk 100 nel Market Evaluator V1: troppo volatile fuori da tris/giocate separate."
-      },
-      {
-        "market": "El Aynaoui cartellino singolo",
-        "reason": "Risk 100 e consistency bassa; escluso da portfolio principali."
-      },
-      {
-        "market": "Issa Diop cartellino singolo",
-        "reason": "Risk 100: interessante ma troppo volatile per Safe/Balanced."
-      },
-      {
-        "market": "Supercombo primo marcatore",
-        "reason": "Quote alte ma mercato marcatore/minuto/metodo troppo speculativo per la MyCombo principale."
-      }
-    ],
-    "excludedForCorrelation": [
-      {
-        "market": "Francia tiri in porta Over 5.5 + Francia tiri in porta Over 4.5",
-        "reason": "Soglie annidate: mantenuta una sola linea per portfolio."
-      },
-      {
-        "market": "Passaggio turno Francia + Doppia chance 1X",
-        "reason": "Ridondanza di esito favorevole Francia; preferito passaggio turno nei profili Safe/Balanced."
-      },
-      {
-        "market": "Mbappe tiri Over 2.5 + Mbappe tiri Over 3.5",
-        "reason": "Soglie annidate sullo stesso giocatore; mantenuta la linea piu utile alla quota target."
-      },
-      {
-        "market": "Balanced con Olise tiri",
-        "reason": "Escluso dalla Balanced finale per evitare eccessiva concentrazione sui tiri francesi e mantenere quota nel range."
-      }
-    ],
-    "excludedForMinutes": [
-      {
-        "market": "Barcola tiri/tiri in porta",
-        "reason": "Barcola non e nella probabile formazione fornita: non trattarlo come titolare."
-      },
-      {
-        "market": "Saibari mercati offensivi",
-        "reason": "Saibari non e nella probabile formazione fornita: sostituito da Rahimi come riferimento offensivo."
-      },
-      {
-        "market": "Redouane Halhal mercati difensivi/cartellino",
-        "reason": "Redouane Halhal non e nella probabile formazione fornita: Chadi Riad e il centrale indicato."
-      }
-    ],
-    "interestingNotUsed": [
-      {
-        "market": "Marocco tiri squadra",
-        "reason": "Strength 74 ma troppo dipendente da scenario aperto; non usato nelle combo principali."
-      },
-      {
-        "market": "Mbappe gol o assist",
-        "reason": "Segnale medio-alto, ma mercato evento e rischio 66: lasciato fuori per evitare marcatori/speculazione."
-      },
-      {
-        "market": "Francia tiri in porta Over 5.5",
-        "reason": "Interessante, ma il caldo riduce confidence sui ritmi alti; usato il 4.5 nei portfolio piu coerenti."
-      },
-      {
-        "market": "Digne o Hakimi cartellino",
-        "reason": "Usato solo in Aggressive: forte relazione con scenario fascia, ma alta varianza."
-      },
-      {
-        "market": "Marocco Over 1.5 punti cartellini squadra",
-        "reason": "Usato in Aggressive come linea piu prudente; in Balanced serviva una linea piu alta per arrivare al target quota."
-      },
-      {
-        "market": "Doue tiri/tiri in porta",
-        "reason": "Ora titolare probabile, ma non usato perche la MyCombo e gia costruita su Mbappe, Olise e volume squadra Francia."
-      },
-      {
-        "market": "Rahimi mercati offensivi",
-        "reason": "Ora titolare probabile, ma Marocco tiri squadra resta troppo dipendente dallo scenario aperto."
-      }
-    ]
-  },
-  "bookingsTrio": {
-    "available": false,
-    "totalOdds": null,
-    "mode": null,
-    "events": [],
-    "reason": "Tris ammoniti non forzato: i cartellini singoli hanno risk molto alto e non sono richiesti come schedina separata in questa generazione.",
-    "risks": [
-      "Cartellini individuali sensibili ad arbitro, sostituzioni, stato gara e duelli effettivi."
-    ]
-  },
-  "probableLineups": {
-    "source": "Probabili formazioni fornite dall'utente / screenshot Diretta",
-    "formation": "4-2-3-1 vs 4-2-3-1",
-    "France": {
-      "team": "Francia",
-      "module": "4-2-3-1",
-      "starters": [
-        "Mike Maignan",
-        "Jules Kounde",
-        "Dayot Upamecano",
-        "William Saliba",
-        "Lucas Digne",
-        "Manu Kone",
-        "Adrien Rabiot",
-        "Ousmane Dembele",
-        "Michael Olise",
-        "Desire Doue",
-        "Kylian Mbappe"
-      ],
-      "notInProbableXIFromPreviousDraft": [
-        "Bradley Barcola"
-      ]
-    },
-    "Morocco": {
-      "team": "Marocco",
-      "module": "4-2-3-1",
-      "starters": [
-        "Yassine Bounou",
-        "Achraf Hakimi",
-        "Issa Diop",
-        "Chadi Riad",
-        "Noussair Mazraoui",
-        "Bilal El Khannouss",
-        "Neil El Aynaoui",
-        "Brahim Diaz",
-        "Ayyoub Bouaddi",
-        "Azzedine Ounahi",
-        "Soufiane Rahimi"
-      ],
-      "notInProbableXIFromPreviousDraft": [
-        "Ismael Saibari",
-        "Redouane Halhal"
-      ]
-    },
-    "modelImpact": [
-      "Barcola e Saibari non vanno trattati come titolari probabili in questa versione.",
-      "Doue e Rahimi vanno considerati titolari probabili, ma i mercati su Doue restano non usati se la quota/linea non e necessaria alla MyCombo.",
-      "Olise, Dembele e Mbappe restano coerenti con i mercati tiri selezionati."
-    ]
+  "dataQuality": {
+    "completion": 100,
+    "playerStats": "complete",
+    "quoteMarkets": 7320,
+    "advancedStats": "partial_espn_base",
+    "missingContext": []
   }
 }

@@ -2,14 +2,268 @@
   "matchId": "argentina-switzerland-2026-07-11",
   "match": "Argentina-Svizzera",
   "date": "2026-07-11",
-  "status": "not_generated",
-  "sourcePlayerStats": "data/player-stats/argentina-switzerland-2026-07-11.json",
-  "sourceIntelligence": "data/mycombo-intelligence/argentina-switzerland-2026-07-11.json",
-  "sourceQuote": "data/quote/argentina-svizzera-quote.json",
   "completion": 100,
-  "safe": null,
-  "balanced": null,
-  "aggressive": null,
-  "blockedReason": null,
-  "missingInputs": []
+  "status": "ready",
+  "sourcePlayerStats": "data/player-stats/argentina-switzerland-2026-07-11.json",
+  "sourceReading": "data/readings/argentina-switzerland-2026-07-11.json",
+  "sourceQuote": "data/quote/argentina-svizzera-quote.json",
+  "safe": {
+    "name": "Safe",
+    "events": [
+      {
+        "id": "event-482061",
+        "market": "U/O TIRI TOTALI",
+        "info": "U/O 24.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 2,
+        "selectionId": 5210482061,
+        "marketId": 791890527,
+        "category": "tiri",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-367053",
+        "market": "U/O PALI/TRAVERSE MATCH INC TS",
+        "info": "U/O 0.5 PALI/TRAVERSE INCL. TS",
+        "selection": "UNDER",
+        "odds": 1.67,
+        "selectionId": 5211367053,
+        "marketId": 792059332,
+        "category": "gol",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-716419",
+        "market": "PRIMA A X CORNER",
+        "info": "PRIMA A 2 CALCI D'ANGOLO",
+        "selection": "TEAM 1",
+        "odds": 1.5,
+        "selectionId": 5211716419,
+        "marketId": 792127612,
+        "category": "corner",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      }
+    ],
+    "finalOdds": 5.01,
+    "targetOdds": "4-6",
+    "averageRisk": 40,
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+  },
+  "balanced": {
+    "name": "Balanced",
+    "events": [
+      {
+        "id": "event-482061",
+        "market": "U/O TIRI TOTALI",
+        "info": "U/O 24.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 2,
+        "selectionId": 5210482061,
+        "marketId": 791890527,
+        "category": "tiri",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-917259",
+        "market": "X + Y ALMENO Z FALLI COMMESSI INC TS",
+        "info": "RODRIGUEZ RICARDO E XHAKA G. ALMENO 4 FALLI COMMESSI IN TOTALE INCL. T.S.",
+        "selection": "SI",
+        "odds": 1.95,
+        "selectionId": 5210917259,
+        "marketId": 791968353,
+        "category": "falli",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-244641",
+        "market": "U/O TIRI TOTALI SQUADRA X",
+        "info": "SQUADRA 2: U/O 8.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 1.65,
+        "selectionId": 5211244641,
+        "marketId": 792038537,
+        "category": "tiri",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-246288",
+        "market": "GIOCATORE COMMETTE ALMENO Y FALLI NEL TEMPO",
+        "info": "EMBOLO B. COMMETTE ALMENO 1 FALLI NEL 1 TEMPO",
+        "selection": "SI",
+        "odds": 1.55,
+        "selectionId": 5211246288,
+        "marketId": 792039940,
+        "category": "falli",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      }
+    ],
+    "finalOdds": 9.97,
+    "targetOdds": "8-12",
+    "averageRisk": 40,
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+  },
+  "aggressive": {
+    "name": "Aggressive",
+    "events": [
+      {
+        "id": "event-482061",
+        "market": "U/O TIRI TOTALI",
+        "info": "U/O 24.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 2,
+        "selectionId": 5210482061,
+        "marketId": 791890527,
+        "category": "tiri",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-367054",
+        "market": "U/O PALI/TRAVERSE MATCH INC TS",
+        "info": "U/O 0.5 PALI/TRAVERSE INCL. TS",
+        "selection": "OVER",
+        "odds": 2,
+        "selectionId": 5211367054,
+        "marketId": 792059332,
+        "category": "gol",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-485949",
+        "market": "U/O SOMMA GOAL TEMPO X ASIATICO",
+        "info": "1 TEMPO: U/O 1 AH",
+        "selection": "OVER",
+        "odds": 1.98,
+        "selectionId": 5210485949,
+        "marketId": 791891160,
+        "category": "gol",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-485489",
+        "market": "COMBO: U/O 1T + U/O 2T",
+        "info": "COMBO U/O 1.5 1T + U/O 0.5 2T",
+        "selection": "UNDER + OVER",
+        "odds": 1.7,
+        "selectionId": 5210485489,
+        "marketId": 791891101,
+        "category": "gol",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-482206",
+        "market": "1 TEMPO: 1X2 CORNER",
+        "info": "1 TEMPO: 1X2 CORNER",
+        "selection": "1",
+        "odds": 1.6,
+        "selectionId": 5210482206,
+        "marketId": 791890563,
+        "category": "corner",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      }
+    ],
+    "finalOdds": 21.54,
+    "targetOdds": "18-25",
+    "averageRisk": 40,
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+  },
+  "reasoning": {
+    "summary": "Combinazioni costruite solo su mercati reali Sisal, weighted player model, team trend e match context.",
+    "playerEdges": [
+      {
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "role": "Center Right Forward",
+        "bettingIndex": 66,
+        "signals": {
+          "shotThreatIndex": 100,
+          "shotOnTargetIndex": 100,
+          "goalThreatIndex": 100,
+          "assistThreatIndex": 13,
+          "cardRiskIndex": 13,
+          "foulRiskIndex": 37,
+          "playmakingIndex": 10,
+          "defensiveIndex": 0,
+          "formIndex": 93,
+          "pressureIndex": 75,
+          "bettingIndex": 66
+        }
+      },
+      {
+        "player": "Dan Ndoye",
+        "team": "Switzerland",
+        "role": "Right Forward",
+        "bettingIndex": 47,
+        "signals": {
+          "shotThreatIndex": 65,
+          "shotOnTargetIndex": 51,
+          "goalThreatIndex": 62,
+          "assistThreatIndex": 0,
+          "cardRiskIndex": 33,
+          "foulRiskIndex": 67,
+          "playmakingIndex": 0,
+          "defensiveIndex": 0,
+          "formIndex": 39,
+          "pressureIndex": 75,
+          "bettingIndex": 47
+        }
+      },
+      {
+        "player": "Johan Manzambi",
+        "team": "Switzerland",
+        "role": "Substitute",
+        "bettingIndex": 46,
+        "signals": {
+          "shotThreatIndex": 40,
+          "shotOnTargetIndex": 32,
+          "goalThreatIndex": 88,
+          "assistThreatIndex": 49,
+          "cardRiskIndex": 33,
+          "foulRiskIndex": 38,
+          "playmakingIndex": 40,
+          "defensiveIndex": 0,
+          "formIndex": 27,
+          "pressureIndex": 65,
+          "bettingIndex": 46
+        }
+      }
+    ],
+    "teamEdges": [
+      {
+        "team": "Argentina",
+        "attackingDepth": 38,
+        "cardExposure": 37,
+        "foulExposure": 35,
+        "topPlayers": [
+          "Lionel Messi",
+          "Lautaro Martínez",
+          "Gonzalo Montiel"
+        ]
+      },
+      {
+        "team": "Switzerland",
+        "attackingDepth": 32,
+        "cardExposure": 47,
+        "foulExposure": 41,
+        "topPlayers": [
+          "Dan Ndoye",
+          "Johan Manzambi",
+          "Rubén Vargas"
+        ]
+      }
+    ]
+  },
+  "riskWarnings": [
+    "Quote target da verificare nel betslip se Sisal aggiorna linee/stato mercato.",
+    "Campi avanzati ESPN mancanti: xG, xA, tocchi, passaggi, duelli e rating spesso null.",
+    "Cartellini individuali e player prop restano sensibili a titolarita e sostituzioni."
+  ],
+  "dataQuality": {
+    "completion": 100,
+    "playerStats": "complete",
+    "quoteMarkets": 7588,
+    "advancedStats": "partial_espn_base",
+    "missingContext": [
+      "referee confirmed"
+    ]
+  }
 }

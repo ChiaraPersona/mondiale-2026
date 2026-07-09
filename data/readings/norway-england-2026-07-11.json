@@ -1,0 +1,155 @@
+{
+  "status": "partial_missing_context",
+  "match": "Norvegia-Inghilterra",
+  "date": "2026-07-11",
+  "summary": "Lettura operativa basata su weighted player model completo: Norway vs England. Priorita a tiri/SOT dei profili con continuita, cartellini/falli su ruoli esposti e contesto stadio/meteo se disponibile.",
+  "tempoExpected": "ritmo da valutare sul contesto partita",
+  "gameScript": {
+    "firstHalf": "Avvio prudente, priorita a campo e controllo rischi; mercati live su falli/cartellini da confermare nei primi duelli.",
+    "secondHalf": "Aumenta peso cambi e stato gara; se favorita non sblocca crescono tiri/corner, se passa avanti crescono falli tattici avversari.",
+    "ifFavoriteScoresFirst": "Favorita in gestione: preferire falli/cartellini avversari e under ritmi estremi.",
+    "ifUnderdogScoresFirst": "Scenario piu aperto: aumenta volume tiri/corner favorita, rischio cartellini su recupero palla."
+  },
+  "teamEdges": [
+    {
+      "team": "Norway",
+      "attackingDepth": 31,
+      "cardExposure": 28,
+      "foulExposure": 27,
+      "topPlayers": [
+        "Erling Haaland",
+        "Kristian Thorstvedt",
+        "Martin Ødegaard"
+      ]
+    },
+    {
+      "team": "England",
+      "attackingDepth": 37,
+      "cardExposure": 28,
+      "foulExposure": 31,
+      "topPlayers": [
+        "Harry Kane",
+        "Jude Bellingham",
+        "Marcus Rashford"
+      ]
+    }
+  ],
+  "playerEdges": [
+    {
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "role": "Center Left Forward",
+      "bettingIndex": 57,
+      "signals": {
+        "shotThreatIndex": 81,
+        "shotOnTargetIndex": 83,
+        "goalThreatIndex": 100,
+        "assistThreatIndex": 0,
+        "cardRiskIndex": 28,
+        "foulRiskIndex": 25,
+        "playmakingIndex": 0,
+        "defensiveIndex": 0,
+        "formIndex": 73,
+        "pressureIndex": 75,
+        "bettingIndex": 57
+      }
+    },
+    {
+      "player": "Harry Kane",
+      "team": "England",
+      "role": "Forward",
+      "bettingIndex": 56,
+      "signals": {
+        "shotThreatIndex": 75,
+        "shotOnTargetIndex": 63,
+        "goalThreatIndex": 100,
+        "assistThreatIndex": 14,
+        "cardRiskIndex": 35,
+        "foulRiskIndex": 39,
+        "playmakingIndex": 11,
+        "defensiveIndex": 0,
+        "formIndex": 67,
+        "pressureIndex": 75,
+        "bettingIndex": 56
+      }
+    },
+    {
+      "player": "Jude Bellingham",
+      "team": "England",
+      "role": "Attacking Midfielder",
+      "bettingIndex": 55,
+      "signals": {
+        "shotThreatIndex": 57,
+        "shotOnTargetIndex": 68,
+        "goalThreatIndex": 94,
+        "assistThreatIndex": 15,
+        "cardRiskIndex": 48,
+        "foulRiskIndex": 45,
+        "playmakingIndex": 6,
+        "defensiveIndex": 0,
+        "formIndex": 68,
+        "pressureIndex": 75,
+        "bettingIndex": 55
+      }
+    },
+    {
+      "player": "Marcus Rashford",
+      "team": "England",
+      "role": "Substitute",
+      "bettingIndex": 50,
+      "signals": {
+        "shotThreatIndex": 73,
+        "shotOnTargetIndex": 42,
+        "goalThreatIndex": 79,
+        "assistThreatIndex": 0,
+        "cardRiskIndex": 66,
+        "foulRiskIndex": 53,
+        "playmakingIndex": 0,
+        "defensiveIndex": 0,
+        "formIndex": 53,
+        "pressureIndex": 48,
+        "bettingIndex": 50
+      }
+    },
+    {
+      "player": "Kristian Thorstvedt",
+      "team": "Norway",
+      "role": "Substitute",
+      "bettingIndex": 44,
+      "signals": {
+        "shotThreatIndex": 62,
+        "shotOnTargetIndex": 40,
+        "goalThreatIndex": 47,
+        "assistThreatIndex": 0,
+        "cardRiskIndex": 75,
+        "foulRiskIndex": 68,
+        "playmakingIndex": 0,
+        "defensiveIndex": 0,
+        "formIndex": 4,
+        "pressureIndex": 20,
+        "bettingIndex": 44
+      }
+    }
+  ],
+  "cardScenario": {
+    "primary": "team cards/fouls prima dei singoli cartellini",
+    "environment": null
+  },
+  "shotsScenario": {
+    "primary": "Erling Haaland tiri/SOT, Harry Kane tiri/SOT, Jude Bellingham tiri/SOT"
+  },
+  "cornersScenario": {
+    "primary": "favorita territoriale se game script resta bloccato"
+  },
+  "goalScenario": {
+    "primary": "gol/assist solo se supportato da indici goal/playmaking alti"
+  },
+  "riskFactors": [
+    "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
+    "player prop sensibili a titolarita e sostituzioni",
+    "cartellini individuali ad alta varianza"
+  ],
+  "missingContext": [
+    "referee confirmed"
+  ]
+}

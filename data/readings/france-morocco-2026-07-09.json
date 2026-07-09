@@ -1,0 +1,153 @@
+{
+  "status": "complete",
+  "match": "Francia-Marocco",
+  "date": "2026-07-09",
+  "summary": "Lettura operativa basata su weighted player model completo: France vs Morocco. Priorita a tiri/SOT dei profili con continuita, cartellini/falli su ruoli esposti e contesto stadio/meteo se disponibile.",
+  "tempoExpected": "Caldo puo abbassare intensita e pressing continuo",
+  "gameScript": {
+    "firstHalf": "Avvio prudente, priorita a campo e controllo rischi; mercati live su falli/cartellini da confermare nei primi duelli.",
+    "secondHalf": "Aumenta peso cambi e stato gara; se favorita non sblocca crescono tiri/corner, se passa avanti crescono falli tattici avversari.",
+    "ifFavoriteScoresFirst": "Favorita in gestione: preferire falli/cartellini avversari e under ritmi estremi.",
+    "ifUnderdogScoresFirst": "Scenario piu aperto: aumenta volume tiri/corner favorita, rischio cartellini su recupero palla."
+  },
+  "teamEdges": [
+    {
+      "team": "France",
+      "attackingDepth": 44,
+      "cardExposure": 35,
+      "foulExposure": 30,
+      "topPlayers": [
+        "Kylian Mbappé",
+        "Michael Olise",
+        "Jean-Philippe Mateta"
+      ]
+    },
+    {
+      "team": "Morocco",
+      "attackingDepth": 38,
+      "cardExposure": 36,
+      "foulExposure": 38,
+      "topPlayers": [
+        "Ayoube Amaimouni",
+        "Soufiane Rahimi",
+        "Ayoub El Kaabi"
+      ]
+    }
+  ],
+  "playerEdges": [
+    {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "role": "Forward",
+      "bettingIndex": 67,
+      "signals": {
+        "shotThreatIndex": 97,
+        "shotOnTargetIndex": 100,
+        "goalThreatIndex": 100,
+        "assistThreatIndex": 21,
+        "cardRiskIndex": 27,
+        "foulRiskIndex": 30,
+        "playmakingIndex": 17,
+        "defensiveIndex": 0,
+        "formIndex": 97,
+        "pressureIndex": 75,
+        "bettingIndex": 67
+      }
+    },
+    {
+      "player": "Ayoube Amaimouni",
+      "team": "Morocco",
+      "role": "Substitute",
+      "bettingIndex": 57,
+      "signals": {
+        "shotThreatIndex": 91,
+        "shotOnTargetIndex": 85,
+        "goalThreatIndex": 78,
+        "assistThreatIndex": 0,
+        "cardRiskIndex": 53,
+        "foulRiskIndex": 38,
+        "playmakingIndex": 0,
+        "defensiveIndex": 0,
+        "formIndex": 2,
+        "pressureIndex": 20,
+        "bettingIndex": 57
+      }
+    },
+    {
+      "player": "Soufiane Rahimi",
+      "team": "Morocco",
+      "role": "Substitute",
+      "bettingIndex": 56,
+      "signals": {
+        "shotThreatIndex": 53,
+        "shotOnTargetIndex": 59,
+        "goalThreatIndex": 91,
+        "assistThreatIndex": 17,
+        "cardRiskIndex": 57,
+        "foulRiskIndex": 72,
+        "playmakingIndex": 14,
+        "defensiveIndex": 0,
+        "formIndex": 54,
+        "pressureIndex": 75,
+        "bettingIndex": 56
+      }
+    },
+    {
+      "player": "Michael Olise",
+      "team": "France",
+      "role": "Attacking Midfielder Right",
+      "bettingIndex": 50,
+      "signals": {
+        "shotThreatIndex": 61,
+        "shotOnTargetIndex": 41,
+        "goalThreatIndex": 45,
+        "assistThreatIndex": 60,
+        "cardRiskIndex": 39,
+        "foulRiskIndex": 43,
+        "playmakingIndex": 43,
+        "defensiveIndex": 0,
+        "formIndex": 50,
+        "pressureIndex": 75,
+        "bettingIndex": 50
+      }
+    },
+    {
+      "player": "Jean-Philippe Mateta",
+      "team": "France",
+      "role": "Substitute",
+      "bettingIndex": 48,
+      "signals": {
+        "shotThreatIndex": 92,
+        "shotOnTargetIndex": 0,
+        "goalThreatIndex": 41,
+        "assistThreatIndex": 0,
+        "cardRiskIndex": 100,
+        "foulRiskIndex": 94,
+        "playmakingIndex": 0,
+        "defensiveIndex": 0,
+        "formIndex": 74,
+        "pressureIndex": 48,
+        "bettingIndex": 48
+      }
+    }
+  ],
+  "cardScenario": {
+    "primary": "team cards/fouls prima dei singoli cartellini",
+    "environment": "Aumenta leggermente rischio cartellini"
+  },
+  "shotsScenario": {
+    "primary": "Kylian Mbappé tiri/SOT, Ayoube Amaimouni tiri/SOT, Soufiane Rahimi tiri/SOT"
+  },
+  "cornersScenario": {
+    "primary": "favorita territoriale se game script resta bloccato"
+  },
+  "goalScenario": {
+    "primary": "gol/assist solo se supportato da indici goal/playmaking alti"
+  },
+  "riskFactors": [
+    "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
+    "player prop sensibili a titolarita e sostituzioni",
+    "cartellini individuali ad alta varianza"
+  ],
+  "missingContext": []
+}

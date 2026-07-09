@@ -2,7 +2,7 @@
   "matchId": "spain-belgium-2026-07-10",
   "match": "Spagna-Belgio",
   "date": "2026-07-10",
-  "status": "ready_for_market_evaluator",
+  "status": "ready",
   "sourcePlayerStats": "data/player-stats/spain-belgium-2026-07-10.json",
   "sourceQuote": "data/quote/spagna-belgio-quote.json",
   "dataPolicy": {
@@ -654,5 +654,11 @@
       "minutesSample": 504
     }
   ],
-  "nextStep": "Applicare Market Evaluator V1 e filtrare solo mercati presenti nelle quote Sisal."
+  "nextStep": "Applicare Market Evaluator V1 e filtrare solo mercati presenti nelle quote Sisal.",
+  "sourceReading": "data/readings/spain-belgium-2026-07-10.json",
+  "dataQuality": {
+    "completion": 100,
+    "advancedStats": "partial_espn_base",
+    "missingContext": []
+  }
 }

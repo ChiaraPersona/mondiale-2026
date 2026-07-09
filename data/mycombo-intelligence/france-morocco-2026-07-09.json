@@ -1716,5 +1716,15 @@
       "Doue e Rahimi vanno considerati titolari probabili, ma i mercati su Doue restano non usati se la quota/linea non e necessaria alla MyCombo.",
       "Olise, Dembele e Mbappe restano coerenti con i mercati tiri selezionati."
     ]
+  },
+  "status": "ready",
+  "completion": 100,
+  "sourcePlayerStats": "data/player-stats/france-morocco-2026-07-09.json",
+  "sourceReading": "data/readings/france-morocco-2026-07-09.json",
+  "missingInputs": [],
+  "dataQuality": {
+    "completion": 100,
+    "advancedStats": "partial_espn_base",
+    "missingContext": []
   }
 }

@@ -2,14 +2,268 @@
   "matchId": "norway-england-2026-07-11",
   "match": "Norvegia-Inghilterra",
   "date": "2026-07-11",
-  "status": "not_generated",
-  "sourcePlayerStats": "data/player-stats/norway-england-2026-07-11.json",
-  "sourceIntelligence": "data/mycombo-intelligence/norway-england-2026-07-11.json",
-  "sourceQuote": "data/quote/norvegia-inghilterra-quote.json",
   "completion": 100,
-  "safe": null,
-  "balanced": null,
-  "aggressive": null,
-  "blockedReason": null,
-  "missingInputs": []
+  "status": "ready",
+  "sourcePlayerStats": "data/player-stats/norway-england-2026-07-11.json",
+  "sourceReading": "data/readings/norway-england-2026-07-11.json",
+  "sourceQuote": "data/quote/norvegia-inghilterra-quote.json",
+  "safe": {
+    "name": "Safe",
+    "events": [
+      {
+        "id": "event-324073",
+        "market": "1X2 FALLI COMMESSI GIOCATORI INC TS",
+        "info": "BERG P. - ANDERSON E. 1X2 FALLI COMMESSI INC. TS",
+        "selection": "2",
+        "odds": 2,
+        "selectionId": 5209324073,
+        "marketId": 791668600,
+        "category": "falli",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-907709",
+        "market": "U/O PALI/TRAVERSE MATCH INC TS",
+        "info": "U/O 0.5 PALI/TRAVERSE INCL. TS",
+        "selection": "UNDER",
+        "odds": 1.67,
+        "selectionId": 5207907709,
+        "marketId": 791421900,
+        "category": "gol",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-566149",
+        "market": "U/O TIRI IN PORTA",
+        "info": "U/O 8.5 TIRI IN PORTA",
+        "selection": "OVER",
+        "odds": 1.5,
+        "selectionId": 5207566149,
+        "marketId": 791355033,
+        "category": "tiri",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      }
+    ],
+    "finalOdds": 5.01,
+    "targetOdds": "4-6",
+    "averageRisk": 40,
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+  },
+  "balanced": {
+    "name": "Balanced",
+    "events": [
+      {
+        "id": "event-817530",
+        "market": "U/O CORNER SQUADRA X",
+        "info": "U/O 4.5 CORNER SQUADRA 1",
+        "selection": "OVER",
+        "odds": 2.1,
+        "selectionId": 5210817530,
+        "marketId": 791965746,
+        "category": "corner",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-215673",
+        "market": "GIOCATORE COMMETTE ALMENO Y FALLI NEL TEMPO",
+        "info": "BERGE S. COMMETTE ALMENO 1 FALLI NEL 1 TEMPO",
+        "selection": "SI",
+        "odds": 1.85,
+        "selectionId": 5209215673,
+        "marketId": 791654143,
+        "category": "falli",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-181601",
+        "market": "U/O TIRI TOTALI SQUADRA X",
+        "info": "SQUADRA 2: U/O 14.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 1.65,
+        "selectionId": 5209181601,
+        "marketId": 791653836,
+        "category": "tiri",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-817333",
+        "market": "ENTRAMBE ALMENO X CORNER IN ENTRAMBI I TEMPI",
+        "info": "ENTRAMBE ALMENO 1 CORNER ENTRAMBI TEMPI",
+        "selection": "SI",
+        "odds": 1.55,
+        "selectionId": 5210817333,
+        "marketId": 791965701,
+        "category": "corner",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      }
+    ],
+    "finalOdds": 9.94,
+    "targetOdds": "8-12",
+    "averageRisk": 40,
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+  },
+  "aggressive": {
+    "name": "Aggressive",
+    "events": [
+      {
+        "id": "event-817530",
+        "market": "U/O CORNER SQUADRA X",
+        "info": "U/O 4.5 CORNER SQUADRA 1",
+        "selection": "OVER",
+        "odds": 2.1,
+        "selectionId": 5210817530,
+        "marketId": 791965746,
+        "category": "corner",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-817233",
+        "market": "U/O CORNER SQUADRA X",
+        "info": "U/O 4.5 CORNER SQUADRA 2",
+        "selection": "UNDER",
+        "odds": 2.1,
+        "selectionId": 5210817233,
+        "marketId": 791965677,
+        "category": "corner",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-566117",
+        "market": "U/O TIRI IN PORTA",
+        "info": "U/O 9.5 TIRI IN PORTA",
+        "selection": "OVER",
+        "odds": 1.8,
+        "selectionId": 5207566117,
+        "marketId": 791355025,
+        "category": "tiri",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-817303",
+        "market": "PRIMA A X CORNER",
+        "info": "PRIMA A 4 CALCI D'ANGOLO",
+        "selection": "TEAM 2",
+        "odds": 1.7,
+        "selectionId": 5210817303,
+        "marketId": 791965694,
+        "category": "corner",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      },
+      {
+        "id": "event-817547",
+        "market": "PRIMA A X CORNER",
+        "info": "PRIMA A 2 CALCI D'ANGOLO",
+        "selection": "TEAM 2",
+        "odds": 1.6,
+        "selectionId": 5210817547,
+        "marketId": 791965750,
+        "category": "corner",
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+      }
+    ],
+    "finalOdds": 21.59,
+    "targetOdds": "18-25",
+    "averageRisk": 40,
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+  },
+  "reasoning": {
+    "summary": "Combinazioni costruite solo su mercati reali Sisal, weighted player model, team trend e match context.",
+    "playerEdges": [
+      {
+        "player": "Erling Haaland",
+        "team": "Norway",
+        "role": "Center Left Forward",
+        "bettingIndex": 57,
+        "signals": {
+          "shotThreatIndex": 81,
+          "shotOnTargetIndex": 83,
+          "goalThreatIndex": 100,
+          "assistThreatIndex": 0,
+          "cardRiskIndex": 28,
+          "foulRiskIndex": 25,
+          "playmakingIndex": 0,
+          "defensiveIndex": 0,
+          "formIndex": 73,
+          "pressureIndex": 75,
+          "bettingIndex": 57
+        }
+      },
+      {
+        "player": "Harry Kane",
+        "team": "England",
+        "role": "Forward",
+        "bettingIndex": 56,
+        "signals": {
+          "shotThreatIndex": 75,
+          "shotOnTargetIndex": 63,
+          "goalThreatIndex": 100,
+          "assistThreatIndex": 14,
+          "cardRiskIndex": 35,
+          "foulRiskIndex": 39,
+          "playmakingIndex": 11,
+          "defensiveIndex": 0,
+          "formIndex": 67,
+          "pressureIndex": 75,
+          "bettingIndex": 56
+        }
+      },
+      {
+        "player": "Jude Bellingham",
+        "team": "England",
+        "role": "Attacking Midfielder",
+        "bettingIndex": 55,
+        "signals": {
+          "shotThreatIndex": 57,
+          "shotOnTargetIndex": 68,
+          "goalThreatIndex": 94,
+          "assistThreatIndex": 15,
+          "cardRiskIndex": 48,
+          "foulRiskIndex": 45,
+          "playmakingIndex": 6,
+          "defensiveIndex": 0,
+          "formIndex": 68,
+          "pressureIndex": 75,
+          "bettingIndex": 55
+        }
+      }
+    ],
+    "teamEdges": [
+      {
+        "team": "Norway",
+        "attackingDepth": 31,
+        "cardExposure": 28,
+        "foulExposure": 27,
+        "topPlayers": [
+          "Erling Haaland",
+          "Kristian Thorstvedt",
+          "Martin Ødegaard"
+        ]
+      },
+      {
+        "team": "England",
+        "attackingDepth": 37,
+        "cardExposure": 28,
+        "foulExposure": 31,
+        "topPlayers": [
+          "Harry Kane",
+          "Jude Bellingham",
+          "Marcus Rashford"
+        ]
+      }
+    ]
+  },
+  "riskWarnings": [
+    "Quote target da verificare nel betslip se Sisal aggiorna linee/stato mercato.",
+    "Campi avanzati ESPN mancanti: xG, xA, tocchi, passaggi, duelli e rating spesso null.",
+    "Cartellini individuali e player prop restano sensibili a titolarita e sostituzioni."
+  ],
+  "dataQuality": {
+    "completion": 100,
+    "playerStats": "complete",
+    "quoteMarkets": 7348,
+    "advancedStats": "partial_espn_base",
+    "missingContext": [
+      "referee confirmed"
+    ]
+  }
 }

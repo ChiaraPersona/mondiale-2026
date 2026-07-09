@@ -1,0 +1,153 @@
+{
+  "status": "complete",
+  "match": "Spagna-Belgio",
+  "date": "2026-07-10",
+  "summary": "Lettura operativa basata su weighted player model completo: Spain vs Belgium. Priorita a tiri/SOT dei profili con continuita, cartellini/falli su ruoli esposti e contesto stadio/meteo se disponibile.",
+  "tempoExpected": "Stadio meno penalizzante del caldo estremo, ma non climatizzato",
+  "gameScript": {
+    "firstHalf": "Avvio prudente, priorita a campo e controllo rischi; mercati live su falli/cartellini da confermare nei primi duelli.",
+    "secondHalf": "Aumenta peso cambi e stato gara; se favorita non sblocca crescono tiri/corner, se passa avanti crescono falli tattici avversari.",
+    "ifFavoriteScoresFirst": "Favorita in gestione: preferire falli/cartellini avversari e under ritmi estremi.",
+    "ifUnderdogScoresFirst": "Scenario piu aperto: aumenta volume tiri/corner favorita, rischio cartellini su recupero palla."
+  },
+  "teamEdges": [
+    {
+      "team": "Spain",
+      "attackingDepth": 45,
+      "cardExposure": 30,
+      "foulExposure": 27,
+      "topPlayers": [
+        "Ferran Torres",
+        "Lamine Yamal",
+        "Mikel Oyarzabal"
+      ]
+    },
+    {
+      "team": "Belgium",
+      "attackingDepth": 44,
+      "cardExposure": 31,
+      "foulExposure": 30,
+      "topPlayers": [
+        "Kevin De Bruyne",
+        "Leandro Trossard",
+        "Youri Tielemans"
+      ]
+    }
+  ],
+  "playerEdges": [
+    {
+      "player": "Ferran Torres",
+      "team": "Spain",
+      "role": "Right Forward",
+      "bettingIndex": 55,
+      "signals": {
+        "shotThreatIndex": 90,
+        "shotOnTargetIndex": 31,
+        "goalThreatIndex": 49,
+        "assistThreatIndex": 39,
+        "cardRiskIndex": 76,
+        "foulRiskIndex": 39,
+        "playmakingIndex": 31,
+        "defensiveIndex": 0,
+        "formIndex": 49,
+        "pressureIndex": 75,
+        "bettingIndex": 55
+      }
+    },
+    {
+      "player": "Lamine Yamal",
+      "team": "Spain",
+      "role": "Substitute",
+      "bettingIndex": 55,
+      "signals": {
+        "shotThreatIndex": 78,
+        "shotOnTargetIndex": 63,
+        "goalThreatIndex": 78,
+        "assistThreatIndex": 0,
+        "cardRiskIndex": 57,
+        "foulRiskIndex": 50,
+        "playmakingIndex": 0,
+        "defensiveIndex": 0,
+        "formIndex": 68,
+        "pressureIndex": 75,
+        "bettingIndex": 55
+      }
+    },
+    {
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "role": "Forward",
+      "bettingIndex": 52,
+      "signals": {
+        "shotThreatIndex": 80,
+        "shotOnTargetIndex": 65,
+        "goalThreatIndex": 100,
+        "assistThreatIndex": 10,
+        "cardRiskIndex": 13,
+        "foulRiskIndex": 15,
+        "playmakingIndex": 8,
+        "defensiveIndex": 0,
+        "formIndex": 69,
+        "pressureIndex": 75,
+        "bettingIndex": 52
+      }
+    },
+    {
+      "player": "Álex Baena",
+      "team": "Spain",
+      "role": "Substitute",
+      "bettingIndex": 46,
+      "signals": {
+        "shotThreatIndex": 49,
+        "shotOnTargetIndex": 41,
+        "goalThreatIndex": 59,
+        "assistThreatIndex": 19,
+        "cardRiskIndex": 61,
+        "foulRiskIndex": 46,
+        "playmakingIndex": 15,
+        "defensiveIndex": 0,
+        "formIndex": 51,
+        "pressureIndex": 75,
+        "bettingIndex": 46
+      }
+    },
+    {
+      "player": "Kevin De Bruyne",
+      "team": "Belgium",
+      "role": "Attacking Midfielder",
+      "bettingIndex": 43,
+      "signals": {
+        "shotThreatIndex": 98,
+        "shotOnTargetIndex": 37,
+        "goalThreatIndex": 67,
+        "assistThreatIndex": 8,
+        "cardRiskIndex": 10,
+        "foulRiskIndex": 18,
+        "playmakingIndex": 0,
+        "defensiveIndex": 0,
+        "formIndex": 39,
+        "pressureIndex": 48,
+        "bettingIndex": 43
+      }
+    }
+  ],
+  "cardScenario": {
+    "primary": "team cards/fouls prima dei singoli cartellini",
+    "environment": "Rischio medio-alto se partita intensa"
+  },
+  "shotsScenario": {
+    "primary": "Ferran Torres tiri/SOT, Lamine Yamal tiri/SOT, Mikel Oyarzabal tiri/SOT"
+  },
+  "cornersScenario": {
+    "primary": "favorita territoriale se game script resta bloccato"
+  },
+  "goalScenario": {
+    "primary": "gol/assist solo se supportato da indici goal/playmaking alti"
+  },
+  "riskFactors": [
+    "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
+    "player prop sensibili a titolarita e sostituzioni",
+    "cartellini individuali ad alta varianza"
+  ],
+  "missingContext": []
+}

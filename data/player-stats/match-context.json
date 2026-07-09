@@ -1,18 +1,4 @@
 {
-  "portugal-spain-2026-07-06": {
-    "matchType": "Eliminazione diretta",
-    "opponentLevel": "Elite",
-    "opponentStyle": "Tecnica, possesso medio-alto, qualita offensiva alta",
-    "gameState": "Partita chiusa/equilibrata, pochi spazi, gol Spagna nel finale",
-    "modelWeight": "Molto alto"
-  },
-  "spain-austria-2026-07-02": {
-    "matchType": "Eliminazione diretta",
-    "opponentLevel": "Medio-alto",
-    "opponentStyle": "Fisica, organizzata, aggressiva nei duelli",
-    "gameState": "Spagna dominante, vantaggio gestito, partita meno bloccata rispetto al Portogallo",
-    "modelWeight": "Alto"
-  },
   "spain-cape-verde-2026": {
     "matchType": "Fase a gironi",
     "opponentLevel": "Basso-medio",
@@ -34,18 +20,18 @@
     "gameState": "Partita tesa e piu sporca, utile per valutare falli, pressione e rendimento contro squadre forti",
     "modelWeight": "Alto"
   },
-  "france-sweden-2026-06-30": {
+  "spain-austria-2026-07-02": {
     "matchType": "Sedicesimi / eliminazione diretta",
     "opponentLevel": "Medio-alto",
-    "opponentStyle": "Fisica, ordinata, compatta",
-    "gameState": "Francia dominante, vittoria netta, buon riferimento per produzione offensiva e controllo partita",
+    "opponentStyle": "Fisica, organizzata, aggressiva nei duelli",
+    "gameState": "Spagna dominante, vantaggio gestito, partita meno bloccata rispetto al Portogallo",
     "modelWeight": "Alto"
   },
-  "paraguay-france-2026-07-04": {
+  "portugal-spain-2026-07-06": {
     "matchType": "Ottavi / eliminazione diretta",
-    "opponentLevel": "Medio",
-    "opponentStyle": "Difensiva, fisica, blocco basso",
-    "gameState": "Partita chiusa, pochi gol, utile per valutare la Francia contro squadre compatte e prudenti",
+    "opponentLevel": "Elite",
+    "opponentStyle": "Tecnica, possesso medio-alto, qualita offensiva alta",
+    "gameState": "Partita chiusa/equilibrata, pochi spazi, gol Spagna nel finale",
     "modelWeight": "Molto alto"
   },
   "france-senegal-2026-06-16": {
@@ -69,19 +55,19 @@
     "gameState": "Partita aperta con gol da entrambe le parti, utile per valutare Francia contro avversario forte e diretto",
     "modelWeight": "Alto"
   },
-  "netherlands-morocco-2026-06-29": {
+  "france-sweden-2026-06-30": {
     "matchType": "Sedicesimi / eliminazione diretta",
-    "opponentLevel": "Alto",
-    "opponentStyle": "Tecnica, possesso, qualita offensiva alta",
-    "gameState": "Partita equilibrata, decisa ai rigori, utile per valutare il Marocco contro avversario forte",
-    "modelWeight": "Molto alto"
+    "opponentLevel": "Medio-alto",
+    "opponentStyle": "Fisica, ordinata, compatta",
+    "gameState": "Francia dominante, vittoria netta, buon riferimento per produzione offensiva e controllo partita",
+    "modelWeight": "Alto"
   },
-  "canada-morocco-2026-07-04": {
+  "paraguay-france-2026-07-04": {
     "matchType": "Ottavi / eliminazione diretta",
     "opponentLevel": "Medio",
-    "opponentStyle": "Fisica, diretta, meno tecnica rispetto alle big europee",
-    "gameState": "Marocco dominante, vittoria netta, utile per misurare produzione offensiva e gestione del vantaggio",
-    "modelWeight": "Alto"
+    "opponentStyle": "Difensiva, fisica, blocco basso",
+    "gameState": "Partita chiusa, pochi gol, utile per valutare la Francia contro squadre compatte e prudenti",
+    "modelWeight": "Molto alto"
   },
   "brazil-morocco-2026-06-13": {
     "matchType": "Fase a gironi",
@@ -103,5 +89,19 @@
     "opponentStyle": "Diretta, aperta, meno organizzata difensivamente",
     "gameState": "Partita aperta e anomala, utile per volume offensivo ma meno simile a Francia-Marocco",
     "modelWeight": "Medio-basso"
+  },
+  "netherlands-morocco-2026-06-29": {
+    "matchType": "Sedicesimi / eliminazione diretta",
+    "opponentLevel": "Alto",
+    "opponentStyle": "Tecnica, possesso, qualita offensiva alta",
+    "gameState": "Partita equilibrata, decisa ai rigori, utile per valutare il Marocco contro avversario forte",
+    "modelWeight": "Molto alto"
+  },
+  "canada-morocco-2026-07-04": {
+    "matchType": "Ottavi / eliminazione diretta",
+    "opponentLevel": "Medio",
+    "opponentStyle": "Fisica, diretta, meno tecnica rispetto alle big europee",
+    "gameState": "Marocco dominante, vittoria netta, utile per misurare produzione offensiva e gestione del vantaggio",
+    "modelWeight": "Alto"
   }
 }

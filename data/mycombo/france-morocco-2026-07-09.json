@@ -18,7 +18,7 @@
   "scenarioUsed": {
     "primary": "Francia vittoria controllata",
     "secondary": "Marocco resiste basso",
-    "note": "Portfolio costruiti su Francia territoriale, Marocco compatto, caldo che pu? abbassare il ritmo e contesto falli/cartellini pi? sensibile."
+    "note": "Portfolio costruiti su Francia territoriale, Marocco compatto, caldo che puo abbassare il ritmo e contesto falli/cartellini piu sensibile."
   },
   "portfolios": [
     {
@@ -255,7 +255,7 @@
           "risk": 68,
           "confidence": 62,
           "marketSignal": "Marocco cartellini squadra",
-          "reason": "Linea pi? alta: coerente solo se Marocco resiste basso e accumula falli tattici."
+          "reason": "Linea piu alta: coerente solo se Marocco resiste basso e accumula falli tattici."
         },
         {
           "id": "event-12",
@@ -270,10 +270,10 @@
           "risk": 39,
           "confidence": 80,
           "marketSignal": "Mbappe tiri",
-          "reason": "Linea pi? prudente di Mbapp? tiri: volume alto e quota utile per tenere Balanced nel range."
+          "reason": "Linea piu prudente di Mbappe tiri: volume alto e quota utile per tenere Balanced nel range."
         }
       ],
-      "reason": "Balanced con CORE+VALUE dentro quota target: Francia qualificata, volume tiri/SOT Francia, Mbapp? tiri prudente e Marocco Over 2.5 punti cartellini nello scenario di blocco basso.",
+      "reason": "Balanced con CORE+VALUE dentro quota target: Francia qualificata, volume tiri/SOT Francia, Mbappe tiri prudente e Marocco Over 2.5 punti cartellini nello scenario di blocco basso.",
       "scenario": {
         "id": "france_pressure_morocco_low_block",
         "name": "Francia territoriale, Marocco basso",
@@ -296,7 +296,7 @@
       ],
       "strengths": [
         "Quota dentro target 9.00-11.00.",
-        "Usa i segnali pi? forti di Francia tiri e Mbappe tiri.",
+        "Usa i segnali piu forti di Francia tiri e Mbappe tiri.",
         "Marocco cartellini coerente con scenario di resistenza bassa."
       ],
       "weaknesses": [
@@ -349,7 +349,7 @@
             "category": "cartellini",
             "rankingScore": 70,
             "class": "VALUE",
-            "reason": "Linea pi? alta: coerente solo se Marocco resiste basso e accumula falli tattici."
+            "reason": "Linea piu alta: coerente solo se Marocco resiste basso e accumula falli tattici."
           },
           {
             "id": "event-12",
@@ -359,7 +359,7 @@
             "category": "tiri",
             "rankingScore": 83,
             "class": "CORE",
-            "reason": "Linea pi? prudente di Mbapp? tiri: volume alto e quota utile per tenere Balanced nel range."
+            "reason": "Linea piu prudente di Mbappe tiri: volume alto e quota utile per tenere Balanced nel range."
           }
         ],
         "improvementEstimate": "costruzione diretta da Market Evaluator V1"
@@ -454,7 +454,7 @@
           "risk": 50,
           "confidence": 78,
           "marketSignal": "Mbappe tiri in porta",
-          "reason": "17 tiri in porta aggregati: forte, ma pi? volatile del solo volume tiri.",
+          "reason": "17 tiri in porta aggregati: forte, ma piu volatile del solo volume tiri.",
           "scenarioTags": [
             "Francia dominante",
             "Partita aperta/equilibrata"
@@ -509,7 +509,7 @@
       "weaknesses": [
         "Maggiore correlazione positiva sul volume offensivo francese.",
         "Il mercato cartellino resta ad alta varianza.",
-        "Olise e Demb?l? vanno confermati nelle formazioni ufficiali."
+        "Olise e Dembele vanno confermati nelle formazioni ufficiali."
       ],
       "optimization": {
         "initialOdds": 18.48,
@@ -567,7 +567,7 @@
             "category": "tiri",
             "rankingScore": 85,
             "class": "VALUE",
-            "reason": "17 tiri in porta aggregati: forte, ma pi? volatile del solo volume tiri."
+            "reason": "17 tiri in porta aggregati: forte, ma piu volatile del solo volume tiri."
           },
           {
             "id": "event-08",
@@ -614,7 +614,7 @@
       },
       {
         "market": "Mbappe tiri Over 2.5 + Mbappe tiri Over 3.5",
-        "reason": "Soglie annidate sullo stesso giocatore; mantenuta la linea pi? utile alla quota target."
+        "reason": "Soglie annidate sullo stesso giocatore; mantenuta la linea piu utile alla quota target."
       },
       {
         "market": "Balanced con Olise tiri",
@@ -624,15 +624,15 @@
     "excludedForMinutes": [
       {
         "market": "Barcola tiri/tiri in porta",
-        "reason": "Probabile formazione non perfettamente stabile rispetto all'immagine allegata; rischio ruolo/minuti."
-      },
-      {
-        "market": "Doue tiri in porta",
-        "reason": "Buon profilo ma minutaggio/posizione meno certi rispetto a Mbappe, Olise e Dembele."
+        "reason": "Barcola non e nella probabile formazione fornita: non trattarlo come titolare."
       },
       {
         "market": "Saibari mercati offensivi",
-        "reason": "Nella lettura e nell'immagine ci sono segnali non perfettamente allineati sul riferimento offensivo centrale."
+        "reason": "Saibari non e nella probabile formazione fornita: sostituito da Rahimi come riferimento offensivo."
+      },
+      {
+        "market": "Redouane Halhal mercati difensivi/cartellino",
+        "reason": "Redouane Halhal non e nella probabile formazione fornita: Chadi Riad e il centrale indicato."
       }
     ],
     "interestingNotUsed": [
@@ -646,7 +646,7 @@
       },
       {
         "market": "Francia tiri in porta Over 5.5",
-        "reason": "Interessante, ma il caldo riduce confidence sui ritmi alti; usato il 4.5 nei portfolio pi? coerenti."
+        "reason": "Interessante, ma il caldo riduce confidence sui ritmi alti; usato il 4.5 nei portfolio piu coerenti."
       },
       {
         "market": "Digne o Hakimi cartellino",
@@ -654,7 +654,15 @@
       },
       {
         "market": "Marocco Over 1.5 punti cartellini squadra",
-        "reason": "Usato in Aggressive come linea pi? prudente; in Balanced serviva una linea pi? alta per arrivare al target quota."
+        "reason": "Usato in Aggressive come linea piu prudente; in Balanced serviva una linea piu alta per arrivare al target quota."
+      },
+      {
+        "market": "Doue tiri/tiri in porta",
+        "reason": "Ora titolare probabile, ma non usato perche la MyCombo e gia costruita su Mbappe, Olise e volume squadra Francia."
+      },
+      {
+        "market": "Rahimi mercati offensivi",
+        "reason": "Ora titolare probabile, ma Marocco tiri squadra resta troppo dipendente dallo scenario aperto."
       }
     ]
   },
@@ -666,6 +674,56 @@
     "reason": "Tris ammoniti non forzato: i cartellini singoli hanno risk molto alto e non sono richiesti come schedina separata in questa generazione.",
     "risks": [
       "Cartellini individuali sensibili ad arbitro, sostituzioni, stato gara e duelli effettivi."
+    ]
+  },
+  "probableLineups": {
+    "source": "Probabili formazioni fornite dall'utente / screenshot Diretta",
+    "formation": "4-2-3-1 vs 4-2-3-1",
+    "France": {
+      "team": "Francia",
+      "module": "4-2-3-1",
+      "starters": [
+        "Mike Maignan",
+        "Jules Kounde",
+        "Dayot Upamecano",
+        "William Saliba",
+        "Lucas Digne",
+        "Manu Kone",
+        "Adrien Rabiot",
+        "Ousmane Dembele",
+        "Michael Olise",
+        "Desire Doue",
+        "Kylian Mbappe"
+      ],
+      "notInProbableXIFromPreviousDraft": [
+        "Bradley Barcola"
+      ]
+    },
+    "Morocco": {
+      "team": "Marocco",
+      "module": "4-2-3-1",
+      "starters": [
+        "Yassine Bounou",
+        "Achraf Hakimi",
+        "Issa Diop",
+        "Chadi Riad",
+        "Noussair Mazraoui",
+        "Bilal El Khannouss",
+        "Neil El Aynaoui",
+        "Brahim Diaz",
+        "Ayyoub Bouaddi",
+        "Azzedine Ounahi",
+        "Soufiane Rahimi"
+      ],
+      "notInProbableXIFromPreviousDraft": [
+        "Ismael Saibari",
+        "Redouane Halhal"
+      ]
+    },
+    "modelImpact": [
+      "Barcola e Saibari non vanno trattati come titolari probabili in questa versione.",
+      "Doue e Rahimi vanno considerati titolari probabili, ma i mercati su Doue restano non usati se la quota/linea non e necessaria alla MyCombo.",
+      "Olise, Dembele e Mbappe restano coerenti con i mercati tiri selezionati."
     ]
   }
 }

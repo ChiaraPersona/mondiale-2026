@@ -29,7 +29,8 @@
     "I campiuavanzati come xG, xA, tocchi, passaggi, duelli e rating non sono disponibili nella copertura ESPN usata per questi merged.",
     "I segnali non sono quote e non rappresentano una schedina: servono solo per aiutare la piueline MyCombo a pesare gli eventi disponibili.",
     "I mercati giocatore vanno confermati con titolarita, ruolo e minuti previsti prima dell'uso operativo.",
-    "Nei teamProfiles, falli subiti/foulsWon sono calcolati come falli commessi dall'avversario; il valore foulsWonFromPlayerRows conserva la somma player-by-player ESPN quando differisce dal totale squadra."
+    "Nei teamProfiles, falli subiti/foulsWon sono calcolati come falli commessi dall'avversario; il valore foulsWonFromPlayerRows conserva la somma player-by-player ESPN quando differisce dal totale squadra.",
+    "Probabili formazioni aggiornate: Barcola e Saibari non sono titolari probabili; Doue e Rahimi sono titolari probabili nella versione fornita dall'utente."
   ],
   "matchSummaries": [
     {
@@ -1392,7 +1393,7 @@
         {
           "market": "Hakimi falli subiti/cartellino avversario",
           "fit": "medio-alto",
-          "note": "Marocco pu? cercare uscite sulla destra."
+          "note": "Marocco puo cercare uscite sulla destra."
         },
         {
           "market": "Marocco cartellini",
@@ -1423,7 +1424,7 @@
         {
           "market": "Mbappe tiri in porta",
           "fit": "medio-basso",
-          "note": "Blocco basso pu? abbassare qualita conclusioni."
+          "note": "Blocco basso puo abbassare qualita conclusioni."
         },
         {
           "market": "Olise assist/tiri",
@@ -1665,5 +1666,55 @@
         "substitutions": "Possibile maggiore peso delle rotazioni offensive"
       }
     }
+  },
+  "probableLineups": {
+    "source": "Probabili formazioni fornite dall'utente / screenshot Diretta",
+    "formation": "4-2-3-1 vs 4-2-3-1",
+    "France": {
+      "team": "Francia",
+      "module": "4-2-3-1",
+      "starters": [
+        "Mike Maignan",
+        "Jules Kounde",
+        "Dayot Upamecano",
+        "William Saliba",
+        "Lucas Digne",
+        "Manu Kone",
+        "Adrien Rabiot",
+        "Ousmane Dembele",
+        "Michael Olise",
+        "Desire Doue",
+        "Kylian Mbappe"
+      ],
+      "notInProbableXIFromPreviousDraft": [
+        "Bradley Barcola"
+      ]
+    },
+    "Morocco": {
+      "team": "Marocco",
+      "module": "4-2-3-1",
+      "starters": [
+        "Yassine Bounou",
+        "Achraf Hakimi",
+        "Issa Diop",
+        "Chadi Riad",
+        "Noussair Mazraoui",
+        "Bilal El Khannouss",
+        "Neil El Aynaoui",
+        "Brahim Diaz",
+        "Ayyoub Bouaddi",
+        "Azzedine Ounahi",
+        "Soufiane Rahimi"
+      ],
+      "notInProbableXIFromPreviousDraft": [
+        "Ismael Saibari",
+        "Redouane Halhal"
+      ]
+    },
+    "modelImpact": [
+      "Barcola e Saibari non vanno trattati come titolari probabili in questa versione.",
+      "Doue e Rahimi vanno considerati titolari probabili, ma i mercati su Doue restano non usati se la quota/linea non e necessaria alla MyCombo.",
+      "Olise, Dembele e Mbappe restano coerenti con i mercati tiri selezionati."
+    ]
   }
 }

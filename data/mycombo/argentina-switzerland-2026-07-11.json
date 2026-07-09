@@ -155,13 +155,13 @@
     "name": "Aggressive",
     "events": [
       {
-        "id": "event-5210481365",
-        "market": "COMBO: 1X2 + U/O",
-        "info": "1X2 + U/O 2.5",
-        "selection": "1 + O",
-        "odds": 2.9,
-        "selectionId": 5210481365,
-        "marketId": 791890391,
+        "id": "event-5210482552",
+        "market": "PASSAGGIO TURNO",
+        "info": "PASSAGGIO TURNO",
+        "selection": "1",
+        "odds": 1.33,
+        "selectionId": 5210482552,
+        "marketId": 791890635,
         "category": "esito",
         "class": "CORE",
         "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
@@ -176,14 +176,14 @@
         "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
       },
       {
-        "id": "event-5210508622",
-        "market": "MARCATORE SI/NO 1T",
-        "info": "MESSI L. MARCATORE 1T",
-        "selection": "SI",
-        "odds": 3.6,
-        "selectionId": 5210508622,
-        "marketId": 791895824,
-        "category": "gol",
+        "id": "event-5210481353",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 1.5",
+        "selection": "1 + O",
+        "odds": 2.2,
+        "selectionId": 5210481353,
+        "marketId": 791890390,
+        "category": "esito",
         "class": "CORE",
         "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
         "statEvidence": {
@@ -195,6 +195,48 @@
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
         "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+      },
+      {
+        "id": "event-5210481374",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 3.5",
+        "selection": "1 + U",
+        "odds": 2.15,
+        "selectionId": 5210481374,
+        "marketId": 791890392,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "statEvidence": {
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
+          "confidence": "medium",
+          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+      },
+      {
+        "id": "event-5211243321",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "info": "NDOYE D. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "selection": "OVER",
+        "odds": 1.8,
+        "selectionId": 5211243321,
+        "marketId": 792038207,
+        "category": "tiri",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "statEvidence": {
+          "type": "player/team shots model",
+          "source": "analisi calciatori",
+          "confidence": "high",
+          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        },
+        "confidence": "high",
+        "riskWarning": "Sensibile a minutaggio e stato gara.",
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
       },
       {
         "id": "event-5211296947",
@@ -239,69 +281,71 @@
         "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
       }
     ],
-    "finalOdds": 21.53,
+    "finalOdds": 23.35,
     "targetOdds": "18-25",
-    "averageRisk": 68,
-    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico."
+    "averageRisk": 61,
+    "motivation": "Aggressive ricostruita con quote piu piccole: rimosso Messi marcatore primo tempo, sostituito da passaggio turno + scenario gol totali + mercati tiri/falli."
   },
   "quoteErrorAnalysis": {
     "analysis": {
       "totalMarkets": 7588,
-      "publishedEvents": 3
+      "publishedEvents": 3,
+      "minimumOdds": 3,
+      "marketsAboveOddsThreshold": 3
     },
     "events": [
       {
-        "title": "Argentina + Under 3,5",
+        "title": "Argentina + Under 2,5",
         "market": "COMBO: 1X2 + U/O",
-        "info": "1X2 + U/O 3.5",
+        "info": "1X2 + U/O 2.5",
         "selection": "1 + U",
-        "odds": 2.15,
-        "selectionId": 5210481374,
-        "marketId": 791890392,
+        "odds": 3.25,
+        "selectionId": 5210481362,
+        "marketId": 791890391,
         "category": "esito",
-        "badge": "CORE",
-        "reason": "Prezzo coerente con vittoria controllata e Svizzera compatta.",
-        "compatibility": "Safe/Balanced",
+        "badge": "VALUE",
+        "reason": "Quota sopra 3 coerente con vittoria stretta e Svizzera compatta.",
+        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
-          "Player/team stats",
-          "Quote Sisal"
+          "Quote Sisal",
+          "Filtro quota minima 3.00"
         ]
       },
       {
-        "title": "Ndoye almeno un tiro in porta",
-        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-        "info": "NDOYE D. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
-        "selection": "OVER",
-        "odds": 1.8,
-        "selectionId": 5211243321,
-        "marketId": 792038207,
-        "category": "tiri",
+        "title": "Goal + Under 3,5",
+        "market": "COMBO: GOAL/NOGOAL + U/O",
+        "info": "U/O 3.5 + GG/NG",
+        "selection": "GOAL + UNDER",
+        "odds": 3.25,
+        "selectionId": 5210484006,
+        "marketId": 791890970,
+        "category": "esito",
         "badge": "VALUE",
-        "reason": "Profilo svizzero piu diretto quando la squadra trova uscita laterale.",
-        "compatibility": "Balanced/Aggressive",
+        "reason": "Scenario 2-1 possibile senza trasformare la gara in over largo.",
+        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
-          "Player/team stats",
-          "Quote Sisal"
+          "Quote Sisal",
+          "Filtro quota minima 3.00"
         ]
       },
       {
-        "title": "Akanji almeno un fallo commesso",
-        "market": "U/O FALLI COMMESSI GIOCATORE",
-        "info": "AKANJI M. U/O 0.5 FALLI COMMESSI",
-        "selection": "OVER",
-        "odds": 1.25,
-        "selectionId": 5211242337,
-        "marketId": 792037961,
-        "category": "falli",
-        "badge": "VALUE",
-        "reason": "Matchup con Messi/Alvarez e difesa lunga rendono la soglia bassa interessante.",
-        "compatibility": "Balanced/Aggressive",
+        "title": "Svizzera prima a 4 corner",
+        "market": "PRIMA A X CORNER",
+        "info": "PRIMA A 4 CALCI D'ANGOLO",
+        "selection": "TEAM 2",
+        "odds": 3.25,
+        "selectionId": 5211715842,
+        "marketId": 792127544,
+        "category": "corner",
+        "badge": "SPECULATIVE",
+        "reason": "Quota minima 3.25: interessante solo se l Argentina concede pressione laterale iniziale.",
+        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
-          "Player/team stats",
-          "Quote Sisal"
+          "Quote Sisal",
+          "Filtro quota minima 3.00"
         ]
       }
     ],

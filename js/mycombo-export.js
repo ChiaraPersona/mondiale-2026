@@ -56,7 +56,8 @@
     const outcome = fold(result.status);
     const resultLabel = outcome === "won" ? "Vinta" : outcome === "lost" ? "Persa" : "";
     const resultClass = resultLabel ? ` is-${outcome}` : "";
-    const market = readableMarket(firstValue(event, ["market", "mercato"]));
+    const market = readableMarket(firstValue(event, ["info", "event", "title", "market", "mercato"]));
+    const marketType = clean(firstValue(event, ["market", "mercato"]));
     const selection = clean(firstValue(event, ["selection", "selezione"]));
     const odds = firstValue(event, ["odds", "quota"]);
     const reasons = cleanList([
@@ -70,6 +71,7 @@
           <div>
             <span class="mycombo-market-label">Mercato</span>
             <strong>${escapeHtml(market)}</strong>
+            ${marketType && marketType !== market ? `<small>Tipo: ${escapeHtml(marketType)}</small>` : ""}
           </div>
           <div class="mycombo-selection-badges">
             ${event.category ? `<span class="mycombo-category-badge">${escapeHtml(event.category)}</span>` : ""}
@@ -185,9 +187,9 @@
     const level = ["value", "suspicious", "error"].includes(event.level) ? event.level : "value";
     const risk = fold(event.risk);
     const confirmations = cleanList(event.confirmations);
-    const concreteSelection = clean(firstValue(event, ["label", "selectionLabel", "displayName"]))
+    const concreteSelection = clean(firstValue(event, ["title", "label", "selectionLabel", "displayName", "info"]))
       || [clean(event.event), clean(event.selection)].filter(Boolean).join(" · ");
-    const technicalMarket = clean(event.market);
+    const technicalMarket = clean(firstValue(event, ["info", "market"]));
     const anomalyIndex = Number.isFinite(Number(event.anomalyIndex)) ? `${Number(event.anomalyIndex)}/100` : "Non calcolato";
     const compatibility = typeof event.myComboCompatible === "boolean"
       ? (event.myComboCompatible ? "Sì" : "No")
@@ -223,7 +225,8 @@
 
   function quoteErrorSection(analysis) {
     if (!analysis) return "";
-    const events = Array.isArray(analysis.events) ? analysis.events : [];
+    const events = (Array.isArray(analysis.events) ? analysis.events : [])
+      .filter((event) => Number(event.odds) >= 3);
     const stats = analysis.analysis || {};
     return `
       <section class="quote-error-section" aria-labelledby="quote-error-title">

@@ -218,13 +218,55 @@
         "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
       },
       {
-        "id": "event-5209470251",
+        "id": "event-5209474675",
         "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-        "info": "DE BRUYNE K. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+        "info": "DE BRUYNE K. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
         "selection": "OVER",
-        "odds": 3,
-        "selectionId": 5209470251,
-        "marketId": 791697709,
+        "odds": 1.65,
+        "selectionId": 5209474675,
+        "marketId": 791698815,
+        "category": "tiri",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "statEvidence": {
+          "type": "player/team shots model",
+          "source": "analisi calciatori",
+          "confidence": "high",
+          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        },
+        "confidence": "high",
+        "riskWarning": "Sensibile a minutaggio e stato gara.",
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+      },
+      {
+        "id": "event-5209474027",
+        "market": "U/O FALLI SUBITI GIOCATORE",
+        "info": "LAMINE YAMAL U/O 1.5 FALLI SUBITI",
+        "selection": "OVER",
+        "odds": 1.5,
+        "selectionId": 5209474027,
+        "marketId": 791698653,
+        "category": "falli",
+        "class": "VALUE",
+        "reason": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
+        "statEvidence": {
+          "type": "discipline model",
+          "source": "falli/cartellini squadra e ruolo",
+          "confidence": "medium",
+          "reason": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
+        },
+        "confidence": "medium",
+        "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
+        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
+      },
+      {
+        "id": "event-5209475831",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "info": "OYARZABAL M. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "selection": "OVER",
+        "odds": 1.2,
+        "selectionId": 5209475831,
+        "marketId": 791699085,
         "category": "tiri",
         "class": "CORE",
         "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
@@ -239,69 +281,71 @@
         "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
       }
     ],
-    "finalOdds": 18.38,
+    "finalOdds": 18.19,
     "targetOdds": "18-25",
-    "averageRisk": 68,
-    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico."
+    "averageRisk": 62,
+    "motivation": "Aggressive ricostruita con piu quote piccole: eliminato il De Bruyne 2.5+ tiri a quota 3, mantenendo mercati tiri/falli piu frazionati."
   },
   "quoteErrorAnalysis": {
     "analysis": {
       "totalMarkets": 8118,
-      "publishedEvents": 3
+      "publishedEvents": 3,
+      "minimumOdds": 3,
+      "marketsAboveOddsThreshold": 3
     },
     "events": [
       {
-        "title": "Spagna prima a 6 corner",
+        "title": "Spagna + Under 2,5",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 2.5",
+        "selection": "1 + U",
+        "odds": 4,
+        "selectionId": 5208661337,
+        "marketId": 791556578,
+        "category": "esito",
+        "badge": "VALUE",
+        "reason": "Quota minima rispettata: interessante se il quarto resta bloccato ma la Spagna controlla.",
+        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
+        "confirmations": [
+          "Lettura partita",
+          "Quote Sisal",
+          "Filtro quota minima 3.00"
+        ]
+      },
+      {
+        "title": "Goal + Under 3,5",
+        "market": "COMBO: GOAL/NOGOAL + U/O",
+        "info": "U/O 3.5 + GG/NG",
+        "selection": "GOAL + UNDER",
+        "odds": 3.25,
+        "selectionId": 5208683903,
+        "marketId": 791556390,
+        "category": "esito",
+        "badge": "VALUE",
+        "reason": "Compatibile con Belgio vivo e gara comunque non larga.",
+        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
+        "confirmations": [
+          "Lettura partita",
+          "Quote Sisal",
+          "Filtro quota minima 3.00"
+        ]
+      },
+      {
+        "title": "Belgio prima a 3 corner",
         "market": "PRIMA A X CORNER",
-        "info": "PRIMA A 6 CALCI D'ANGOLO",
-        "selection": "TEAM 1",
-        "odds": 2,
-        "selectionId": 5210774160,
-        "marketId": 791948600,
+        "info": "PRIMA A 3 CALCI D'ANGOLO",
+        "selection": "TEAM 2",
+        "odds": 3,
+        "selectionId": 5210774356,
+        "marketId": 791948645,
         "category": "corner",
-        "badge": "CORE",
-        "reason": "La pressione territoriale spagnola rende il prezzo interessante se il Belgio difende basso.",
-        "compatibility": "Safe/Balanced",
+        "badge": "SPECULATIVE",
+        "reason": "Prezzo minimo 3: da valutare solo se il Belgio parte aggressivo o la Spagna concede fascia.",
+        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
-          "Player/team stats",
-          "Quote Sisal"
-        ]
-      },
-      {
-        "title": "De Bruyne over 1.5 tiri",
-        "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-        "info": "DE BRUYNE K. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
-        "selection": "OVER",
-        "odds": 1.65,
-        "selectionId": 5209474675,
-        "marketId": 791698815,
-        "category": "tiri",
-        "badge": "VALUE",
-        "reason": "Se il Belgio deve rincorrere, De Bruyne diventa il primo tiratore da seconda linea.",
-        "compatibility": "Balanced/Aggressive",
-        "confirmations": [
-          "Lettura partita",
-          "Player/team stats",
-          "Quote Sisal"
-        ]
-      },
-      {
-        "title": "Doku over falli subiti",
-        "market": "U/O FALLI SUBITI GIOCATORE",
-        "info": "DOKU J. U/O 2.5 FALLI SUBITI",
-        "selection": "OVER",
-        "odds": 1.75,
-        "selectionId": 5209470507,
-        "marketId": 791697773,
-        "category": "falli",
-        "badge": "VALUE",
-        "reason": "Doku puo attirare contatti se il Belgio trova transizioni contro terzini spagnoli alti.",
-        "compatibility": "Balanced/Aggressive",
-        "confirmations": [
-          "Lettura partita",
-          "Player/team stats",
-          "Quote Sisal"
+          "Quote Sisal",
+          "Filtro quota minima 3.00"
         ]
       }
     ],

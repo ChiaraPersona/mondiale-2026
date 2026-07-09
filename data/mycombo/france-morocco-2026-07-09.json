@@ -176,46 +176,67 @@
     "name": "Aggressive",
     "events": [
       {
-        "id": "event-5206486482",
+        "id": "event-5206486473",
         "market": "COMBO: 1X2 + U/O",
-        "info": "1X2 + U/O 2.5",
-        "selection": "1 + U",
-        "odds": 3.25,
-        "selectionId": 5206486482,
-        "marketId": 791152113,
+        "info": "1X2 + U/O 1.5",
+        "selection": "1 + O",
+        "odds": 1.95,
+        "selectionId": 5206486473,
+        "marketId": 791152112,
         "category": "esito",
-        "class": "SPECULATIVE",
-        "reason": "Mercato reale Sisal scelto per scenario Aggressive: quota alta ma coerente con volume offensivo Francia e player model.",
+        "class": "CORE",
+        "reason": "Quota bassa: Francia vincente con almeno due gol totali, scenario meno secco del marcatore 1T.",
         "statEvidence": {
-          "type": "player/match reading",
-          "source": "analisi calciatori",
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
           "confidence": "medium",
-          "reason": "Usato come evento ad alta varianza, non come base Safe."
+          "reason": "Quota bassa: Francia vincente con almeno due gol totali, scenario meno secco del marcatore 1T."
         },
         "confidence": "medium",
-        "riskWarning": "Aggressive: varianza alta, dipende da primo tempo e precisione offensiva.",
-        "whyIncluded": "Serve a portare quota nel target 18-25 senza inventare mercati."
+        "riskWarning": "Evento da usare solo se coerente con lo scenario principale.",
+        "whyIncluded": "Quota bassa: Francia vincente con almeno due gol totali, scenario meno secco del marcatore 1T."
       },
       {
-        "id": "event-5207841972",
-        "market": "MARCATORE SI/NO 1T",
-        "info": "MBAPPE K. MARCATORE 1T",
-        "selection": "SI",
-        "odds": 3.15,
-        "selectionId": 5207841972,
-        "marketId": 791399720,
-        "category": "gol",
-        "class": "SPECULATIVE",
-        "reason": "Mercato reale Sisal scelto per scenario Aggressive: quota alta ma coerente con volume offensivo Francia e player model.",
+        "id": "event-5206486494",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 3.5",
+        "selection": "1 + U",
+        "odds": 2.1,
+        "selectionId": 5206486494,
+        "marketId": 791152114,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Francia + Under 3,5 resta coerente con vittoria controllata.",
         "statEvidence": {
-          "type": "player/match reading",
-          "source": "analisi calciatori",
+          "type": "match reading",
+          "source": "lettura tecnica e quote Sisal",
           "confidence": "medium",
-          "reason": "Usato come evento ad alta varianza, non come base Safe."
+          "reason": "Francia + Under 3,5 resta coerente con vittoria controllata."
         },
         "confidence": "medium",
-        "riskWarning": "Aggressive: varianza alta, dipende da primo tempo e precisione offensiva.",
-        "whyIncluded": "Serve a portare quota nel target 18-25 senza inventare mercati."
+        "riskWarning": "Evento da usare solo se coerente con lo scenario principale.",
+        "whyIncluded": "Francia + Under 3,5 resta coerente con vittoria controllata."
+      },
+      {
+        "id": "event-5209002837",
+        "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
+        "info": "MBAPPE K. - DEMBELE OUSMANE 1X2 TIRI IN PORTA INC TS",
+        "selection": "1",
+        "odds": 1.4,
+        "selectionId": 5209002837,
+        "marketId": 791621116,
+        "category": "tiri",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "statEvidence": {
+          "type": "player/team shots model",
+          "source": "analisi calciatori",
+          "confidence": "high",
+          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        },
+        "confidence": "high",
+        "riskWarning": "Sensibile a minutaggio e stato gara.",
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
       },
       {
         "id": "event-5209002843",
@@ -226,82 +247,105 @@
         "selectionId": 5209002843,
         "marketId": 791621117,
         "category": "tiri",
-        "class": "SPECULATIVE",
-        "reason": "Mercato reale Sisal scelto per scenario Aggressive: quota alta ma coerente con volume offensivo Francia e player model.",
+        "class": "CORE",
+        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
         "statEvidence": {
-          "type": "player/match reading",
+          "type": "player/team shots model",
           "source": "analisi calciatori",
+          "confidence": "high",
+          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+        },
+        "confidence": "high",
+        "riskWarning": "Sensibile a minutaggio e stato gara.",
+        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+      },
+      {
+        "id": "event-5206488021",
+        "market": "U/O FALLI COMMESSI  INC TS",
+        "info": "U/O 24.5 FALLI COMMESSI INC TS",
+        "selection": "OVER",
+        "odds": 1.85,
+        "selectionId": 5206488021,
+        "marketId": 791152442,
+        "category": "falli",
+        "class": "VALUE",
+        "reason": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
+        "statEvidence": {
+          "type": "discipline model",
+          "source": "falli/cartellini squadra e ruolo",
           "confidence": "medium",
-          "reason": "Usato come evento ad alta varianza, non come base Safe."
+          "reason": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
         },
         "confidence": "medium",
-        "riskWarning": "Aggressive: varianza alta, dipende da primo tempo e precisione offensiva.",
-        "whyIncluded": "Serve a portare quota nel target 18-25 senza inventare mercati."
+        "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
+        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
       }
     ],
-    "finalOdds": 20.47,
+    "finalOdds": 21.21,
     "targetOdds": "18-25",
-    "averageRisk": 68,
-    "motivation": "Aggressive corretta nel target: Francia bassa nel punteggio, Mbappe ad alta varianza e Olise sostenuto dal confronto tiri in porta."
+    "averageRisk": 60,
+    "motivation": "Aggressive ricostruita sommando quote piu piccole: niente marcatore primo tempo, piu mercati di scenario e tiri."
   },
   "quoteErrorAnalysis": {
     "analysis": {
       "totalMarkets": 7320,
-      "publishedEvents": 3
+      "publishedEvents": 3,
+      "minimumOdds": 3,
+      "marketsAboveOddsThreshold": 3
     },
     "events": [
       {
-        "title": "Francia + Under 3,5",
+        "title": "Francia + Under 2,5",
         "market": "COMBO: 1X2 + U/O",
-        "info": "1X2 + U/O 3.5",
+        "info": "1X2 + U/O 2.5",
         "selection": "1 + U",
-        "odds": 2.1,
-        "selectionId": 5206486494,
-        "marketId": 791152114,
+        "odds": 3.25,
+        "selectionId": 5206486482,
+        "marketId": 791152113,
         "category": "esito",
-        "badge": "CORE",
-        "reason": "Il prezzo resta interessante se la partita prende la forma di vittoria controllata, non di gara aperta.",
-        "compatibility": "Safe/Balanced",
+        "badge": "VALUE",
+        "reason": "Quota sopra 3 interessante solo se la lettura resta su vittoria corta e controllo francese.",
+        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
-          "Player/team stats",
-          "Quote Sisal"
+          "Quote Sisal",
+          "Filtro quota minima 3.00"
         ]
       },
       {
-        "title": "Mbappe piu tiri in porta di Dembele",
-        "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-        "info": "MBAPPE K. - DEMBELE OUSMANE 1X2 TIRI IN PORTA INC TS",
-        "selection": "1",
-        "odds": 1.4,
-        "selectionId": 5209002837,
-        "marketId": 791621116,
-        "category": "tiri",
+        "title": "Goal + Under 3,5",
+        "market": "COMBO: GOAL/NOGOAL + U/O",
+        "info": "U/O 3.5 + GG/NG",
+        "selection": "GOAL + UNDER",
+        "odds": 3.4,
+        "selectionId": 5206451622,
+        "marketId": 791137036,
+        "category": "esito",
         "badge": "VALUE",
-        "reason": "Il player model di Mbappe e nettamente superiore per tiri nello specchio e centralita offensiva.",
-        "compatibility": "Balanced/Aggressive",
+        "reason": "Scenario compatibile con 2-1 o gara che si apre senza diventare larga.",
+        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
-          "Player/team stats",
-          "Quote Sisal"
+          "Quote Sisal",
+          "Filtro quota minima 3.00"
         ]
       },
       {
-        "title": "Olise piu tiri in porta di Brahim Diaz",
-        "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-        "info": "OLISE M. - BRAHIM DIAZ 1X2 TIRI IN PORTA INC TS",
-        "selection": "1",
-        "odds": 2,
-        "selectionId": 5209002843,
-        "marketId": 791621117,
-        "category": "tiri",
-        "badge": "VALUE",
-        "reason": "Olise riceve nella zona piu stabile della Francia, Brahim dipende di piu dalle transizioni marocchine.",
-        "compatibility": "Balanced/Aggressive",
+        "title": "Francia avanti e Under 1,5 primo tempo",
+        "market": "COMBO 1T: 1X2 + U/O",
+        "info": "1 TEMPO: 1X2 + U/O 1.5",
+        "selection": "1 + UNDER",
+        "odds": 3.3,
+        "selectionId": 5206486770,
+        "marketId": 791152155,
+        "category": "esito",
+        "badge": "SPECULATIVE",
+        "reason": "Prezzo sopra 3 per un avvio controllato con gol francese senza gara spezzata.",
+        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
-          "Player/team stats",
-          "Quote Sisal"
+          "Quote Sisal",
+          "Filtro quota minima 3.00"
         ]
       }
     ],

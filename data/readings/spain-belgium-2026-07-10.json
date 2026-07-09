@@ -1,5 +1,5 @@
 {
-  "status": "complete",
+  "status": "partial_missing_context",
   "match": "Spagna-Belgio",
   "date": "2026-07-10",
   "summary": "Lettura operativa basata su weighted player model completo: Spain vs Belgium. Priorita a tiri/SOT dei profili con continuita, cartellini/falli su ruoli esposti e contesto stadio/meteo se disponibile.",
@@ -133,43 +133,358 @@
   ],
   "cardScenario": {
     "primary": "team cards/fouls prima dei singoli cartellini",
-    "environment": "Rischio medio-alto se partita intensa"
+    "environment": "Rischio medio-alto se partita intensa",
+    "teamDiscipline": {
+      "Spain": {
+        "disciplineIndex": 67,
+        "weightedFoulsCommitted": 11.17,
+        "weightedYellowCards": 0.6
+      },
+      "Belgium": {
+        "disciplineIndex": 53,
+        "weightedFoulsCommitted": 13.43,
+        "weightedYellowCards": 0.8
+      }
+    }
   },
   "shotsScenario": {
-    "primary": "Ferran Torres tiri/SOT, Lamine Yamal tiri/SOT, Mikel Oyarzabal tiri/SOT"
+    "primary": "Ferran Torres tiri/SOT, Lamine Yamal tiri/SOT, Mikel Oyarzabal tiri/SOT",
+    "teamModel": {
+      "Spain": {
+        "weightedShotsForPerMatch": 17.76,
+        "weightedShotsOnTargetForPerMatch": 6.4
+      },
+      "Belgium": {
+        "weightedShotsForPerMatch": 19.92,
+        "weightedShotsOnTargetForPerMatch": 6.08
+      }
+    }
   },
   "cornersScenario": {
-    "primary": "favorita territoriale se game script resta bloccato"
+    "primary": "favorita territoriale se game script resta bloccato",
+    "dataNote": "Corner non completi nei provider disponibili; usare solo con confidence ridotta o conferma Sisal/live."
   },
   "goalScenario": {
-    "primary": "gol/assist solo se supportato da indici goal/playmaking alti"
+    "primary": "gol/assist solo se supportato da indici goal/playmaking alti",
+    "teamAttackDefense": {
+      "Spain": {
+        "attackIndex": 90,
+        "defenseIndex": 79,
+        "weightedGoalsFor": 1.67,
+        "weightedGoalsAgainst": 0
+      },
+      "Belgium": {
+        "attackIndex": 93,
+        "defenseIndex": 47,
+        "weightedGoalsFor": 2.53,
+        "weightedGoalsAgainst": 1.15
+      }
+    }
   },
   "riskFactors": [
     "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
     "player prop sensibili a titolarita e sostituzioni",
     "cartellini individuali ad alta varianza"
   ],
-  "missingContext": [],
+  "missingContext": [
+    "Spain: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
+    "Belgium: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
+    "weather low confidence/da aggiornare"
+  ],
   "sitePublication": {
     "probableFormations": {
       "Spain": {
         "module": "4-2-3-1",
-        "players": ["Simon", "Porro", "Cubarsi", "Laporte", "Cucurella", "Rodri", "Pedri", "Lamine Yamal", "Olmo", "Baena", "Oyarzabal"]
+        "players": [
+          "Simon",
+          "Porro",
+          "Cubarsi",
+          "Laporte",
+          "Cucurella",
+          "Rodri",
+          "Pedri",
+          "Lamine Yamal",
+          "Olmo",
+          "Baena",
+          "Oyarzabal"
+        ]
       },
       "Belgium": {
         "module": "4-2-3-1",
-        "players": ["Courtois", "De Cuyper", "Mechele", "Ngoy", "Castagne", "Tielemans", "Vanaken", "Trossard", "De Bruyne", "Doku", "De Ketelaere"]
+        "players": [
+          "Courtois",
+          "De Cuyper",
+          "Mechele",
+          "Ngoy",
+          "Castagne",
+          "Tielemans",
+          "Vanaken",
+          "Trossard",
+          "De Bruyne",
+          "Doku",
+          "De Ketelaere"
+        ]
       }
     },
     "quoteErrors": [
-      { "market": "Spagna prima a X corner", "odds": 2, "note": "Coerente con possesso e volume offensivo spagnolo." },
-      { "market": "Spagna 1 + Over", "odds": 1.95, "note": "Buona se la partita resta territoriale e il Belgio concede campo." },
-      { "market": "Spagna over tiri squadra", "odds": 1.6, "note": "Mercato sostenuto dai dati aggregati della Spagna." }
+      {
+        "market": "Spagna prima a X corner",
+        "odds": 2,
+        "note": "Coerente con possesso e volume offensivo spagnolo."
+      },
+      {
+        "market": "Spagna 1 + Over",
+        "odds": 1.95,
+        "note": "Buona se la partita resta territoriale e il Belgio concede campo."
+      },
+      {
+        "market": "Spagna over tiri squadra",
+        "odds": 1.6,
+        "note": "Mercato sostenuto dai dati aggregati della Spagna."
+      }
     ],
     "bookingComboCandidates": [
-      { "player": "Raskin", "team": "Belgio" },
-      { "player": "Cucurella", "team": "Spagna" },
-      { "player": "De Cuyper", "team": "Belgio" }
+      {
+        "player": "Raskin",
+        "team": "Belgio"
+      },
+      {
+        "player": "Cucurella",
+        "team": "Spagna"
+      },
+      {
+        "player": "De Cuyper",
+        "team": "Belgio"
+      }
     ]
-  }
+  },
+  "dataQuality": {
+    "playerStats": "complete",
+    "teamStats": "partial",
+    "context": "partial",
+    "roleSlotModel": "complete"
+  },
+  "teamStatsEvidence": {
+    "Spain": {
+      "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+      "weightedModel": {
+        "matches": 5,
+        "weightedGoalsForPerMatch": 1.67,
+        "weightedGoalsAgainstPerMatch": 0,
+        "weightedShotsForPerMatch": 17.76,
+        "weightedShotsAgainstPerMatch": 6.19,
+        "weightedShotsOnTargetForPerMatch": 6.4,
+        "weightedShotsOnTargetAgainstPerMatch": 1.05,
+        "weightedCornersForPerMatch": null,
+        "weightedCornersAgainstPerMatch": null,
+        "disciplineIndex": 67,
+        "attackIndex": 90,
+        "defenseIndex": 79,
+        "cornerIndex": null,
+        "tempoIndex": 80,
+        "pressureIndex": 78
+      },
+      "trends": {
+        "lastTwoMatches": {
+          "shotsForPerMatch": 19,
+          "shotsOnTargetForPerMatch": 8,
+          "foulsCommittedPerMatch": 10.5,
+          "yellowCardsPerMatch": 0.5
+        },
+        "knockout": {
+          "matches": 2,
+          "shotsForPerMatch": 19,
+          "shotsOnTargetForPerMatch": 8,
+          "foulsCommittedPerMatch": 10.5,
+          "yellowCardsPerMatch": 0.5
+        }
+      },
+      "missingFields": [
+        "cornersFor",
+        "cornersAgainst",
+        "possession",
+        "saves",
+        "firstHalfGoalsFor",
+        "firstHalfGoalsAgainst",
+        "secondHalfGoalsFor",
+        "secondHalfGoalsAgainst"
+      ]
+    },
+    "Belgium": {
+      "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+      "weightedModel": {
+        "matches": 5,
+        "weightedGoalsForPerMatch": 2.53,
+        "weightedGoalsAgainstPerMatch": 1.15,
+        "weightedShotsForPerMatch": 19.92,
+        "weightedShotsAgainstPerMatch": 11.72,
+        "weightedShotsOnTargetForPerMatch": 6.08,
+        "weightedShotsOnTargetAgainstPerMatch": 3.23,
+        "weightedCornersForPerMatch": null,
+        "weightedCornersAgainstPerMatch": null,
+        "disciplineIndex": 53,
+        "attackIndex": 93,
+        "defenseIndex": 47,
+        "cornerIndex": null,
+        "tempoIndex": 100,
+        "pressureIndex": 93
+      },
+      "trends": {
+        "lastTwoMatches": {
+          "shotsForPerMatch": 17,
+          "shotsOnTargetForPerMatch": 6,
+          "foulsCommittedPerMatch": 15.5,
+          "yellowCardsPerMatch": 0.5
+        },
+        "knockout": {
+          "matches": 2,
+          "shotsForPerMatch": 17,
+          "shotsOnTargetForPerMatch": 6,
+          "foulsCommittedPerMatch": 15.5,
+          "yellowCardsPerMatch": 0.5
+        }
+      },
+      "missingFields": [
+        "cornersFor",
+        "cornersAgainst",
+        "possession",
+        "saves",
+        "firstHalfGoalsFor",
+        "firstHalfGoalsAgainst",
+        "secondHalfGoalsFor",
+        "secondHalfGoalsAgainst"
+      ]
+    }
+  },
+  "roleSlotEdges": [
+    {
+      "team": "Spain",
+      "slotId": "spain_rw",
+      "primaryPlayer": "Lamine Yamal",
+      "replacementCandidates": [
+        "Ferran Torres"
+      ],
+      "slotShotsPer90": 4.61,
+      "slotShotsOnTargetPer90": 2.02,
+      "reliability": "high"
+    },
+    {
+      "team": "Spain",
+      "slotId": "spain_st",
+      "primaryPlayer": "Mikel Oyarzabal",
+      "replacementCandidates": [
+        "Ferran Torres"
+      ],
+      "slotShotsPer90": 4.2,
+      "slotShotsOnTargetPer90": 1.84,
+      "reliability": "high"
+    },
+    {
+      "team": "Belgium",
+      "slotId": "belgium_am",
+      "primaryPlayer": "Kevin De Bruyne",
+      "replacementCandidates": [
+        "Leandro Trossard"
+      ],
+      "slotShotsPer90": 5.03,
+      "slotShotsOnTargetPer90": 1.09,
+      "reliability": "high"
+    }
+  ],
+  "matchEnvironmentEvidence": {
+    "sourceFile": "data/match-environment/quarterfinals-2026.json",
+    "stadium": "Los Angeles Stadium / SoFi Stadium",
+    "city": "Inglewood / Los Angeles",
+    "altitudeMeters": 30,
+    "roofType": "fixed canopy / tetto fisso ma lati aperti",
+    "climateControlled": "passive cooling",
+    "referee": {
+      "confidence": "high",
+      "status": "confirmed",
+      "name": "Michael Oliver",
+      "country": "England",
+      "assistantReferees": [
+        "Stuart Burt",
+        "James Mainwaring"
+      ],
+      "fourthOfficial": "Ramon Abatti",
+      "reserveAssistantReferee": "Rafael Alves",
+      "VAR": null,
+      "AVAR": null
+    },
+    "refereeProfile": {
+      "confidence": "medium",
+      "notes": [
+        "Confermato per Spagna-Belgio.",
+        "Ha gia arbitrato Canada-Marocco agli ottavi del Mondiale 2026.",
+        "In Canada-Marocco ha mostrato molti cartellini; fonti riportano 6 gialli nel primo tempo e 8 totali.",
+        "Profilo normalmente esperto e dialogante, ma in gare intense puo arrivare a gestione severa.",
+        "Ha precedenti favorevoli/positivi con la Spagna in gare competitive, ma verificare nel dettaglio prima di usarlo nel modello.",
+        "Ha gia arbitrato il Marocco in questo torneo, non Spagna o Belgio nel 2026 salvo verifica ulteriore."
+      ]
+    },
+    "weather": {
+      "confidence": "low",
+      "temperatureCelsiusApprox": null,
+      "condition": "Da aggiornare con forecast locale; stadio coperto da canopy ma non climatizzato, lati aperti",
+      "impact": [
+        "Meno esposizione diretta al sole rispetto a stadio totalmente aperto",
+        "Non considerarlo come stadio indoor climatizzato",
+        "Possibile temperatura piu gestibile rispetto a Boston/Miami, ma dipende dal meteo esterno"
+      ]
+    },
+    "modelImpact": {
+      "cards": "Rischio medio-alto se partita intensa",
+      "fouls": "Buono per mercati falli/cartellini",
+      "tempo": "Stadio meno penalizzante del caldo estremo, ma non climatizzato",
+      "shots": "Condizioni ambientali meno negative rispetto a stadi open-air molto caldi"
+    }
+  },
+  "shotsOnTargetScenario": {
+    "primary": "Preferire giocatori con minutaggio stabile e slot tiri coperto solo se il mercato include il sostituto."
+  },
+  "cardsScenario": {
+    "primary": "team cards/fouls prima dei singoli cartellini",
+    "environment": "Rischio medio-alto se partita intensa",
+    "teamDiscipline": {
+      "Spain": {
+        "disciplineIndex": 67,
+        "weightedFoulsCommitted": 11.17,
+        "weightedYellowCards": 0.6
+      },
+      "Belgium": {
+        "disciplineIndex": 53,
+        "weightedFoulsCommitted": 13.43,
+        "weightedYellowCards": 0.8
+      }
+    }
+  },
+  "marketSuggestions": [
+    {
+      "marketType": "shots player",
+      "source": "playerModel/roleSlotModel",
+      "note": "Usare solo profili con minutes e volume tiri reali nelle 5 partite."
+    },
+    {
+      "marketType": "shots team",
+      "source": "teamStatsModel",
+      "note": "Preferire squadre con weightedShotsForPerMatch alto e scenario di rincorsa."
+    },
+    {
+      "marketType": "cards/fouls team",
+      "source": "teamStatsModel/refereeEvidence",
+      "note": "Usare disciplina squadra e arbitro se disponibile."
+    }
+  ],
+  "marketsToAvoid": [
+    "Cartellini giocatore senza duello diretto o minutaggio chiaro",
+    "Corner linee alte quando cornersFor/cornersAgainst sono null",
+    "Player prop su non titolari senza copertura roleSlotModel"
+  ],
+  "riskWarnings": [
+    "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
+    "player prop sensibili a titolarita e sostituzioni",
+    "cartellini individuali ad alta varianza",
+    "Campi avanzati non disponibili restano null e non vanno stimati."
+  ]
 }

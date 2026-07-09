@@ -662,5 +662,232 @@
     "missingContext": [
       "referee confirmed"
     ]
-  }
+  },
+  "roleSlotModel": [
+    {
+      "matchId": "norway-england-2026-07-11",
+      "team": "Norway",
+      "slotId": "norway_st",
+      "slotLabel": "Norway centre forward",
+      "primaryPlayer": "Erling Haaland",
+      "expectedPrimaryMinutes": 85,
+      "replacementCandidates": [
+        {
+          "player": "Alexander Sørloth",
+          "replacementProbability": 0.55,
+          "expectedMinutes": 25
+        }
+      ],
+      "slotMetrics": {
+        "slotShotsPer90": 3.63,
+        "slotShotsOnTargetPer90": 2.33,
+        "slotShotThreatIndex": 80,
+        "slotShotOnTargetIndex": 89
+      },
+      "marketApplicability": {
+        "shots": true,
+        "shotsOnTarget": true,
+        "cards": false,
+        "fouls": false,
+        "notes": "Use only if bookmaker market counts replacement player stats."
+      },
+      "evidence": {
+        "primaryRawStats": {
+          "matches": 5,
+          "minutes": 399,
+          "shots": 18,
+          "shotsOnTarget": 12,
+          "goals": 7,
+          "assists": 0,
+          "foulsCommitted": 5,
+          "foulsDrawn": 3,
+          "yellowCards": 0,
+          "shotsPer90": 4.06,
+          "shotsOnTargetPer90": 2.71,
+          "foulsCommittedPer90": 1.13,
+          "foulsDrawnPer90": 0.68
+        },
+        "primaryWeightedStats": {
+          "shotsPer90": 4.06,
+          "shotsOnTargetPer90": 2.71,
+          "foulsCommittedPer90": 1.13,
+          "foulsDrawnPer90": 0.68,
+          "shotThreatIndex": 89,
+          "shotOnTargetIndex": 100,
+          "bettingIndex": 83
+        },
+        "reliability": "high",
+        "note": "Replacement candidate found in existing player model."
+      }
+    },
+    {
+      "matchId": "norway-england-2026-07-11",
+      "team": "Norway",
+      "slotId": "norway_lw",
+      "slotLabel": "Norway left winger",
+      "primaryPlayer": "Antonio Nusa",
+      "expectedPrimaryMinutes": 65,
+      "replacementCandidates": [
+        {
+          "player": "Andreas Schjelderup",
+          "replacementProbability": 0.55,
+          "expectedMinutes": 20
+        }
+      ],
+      "slotMetrics": {
+        "slotShotsPer90": 0.96,
+        "slotShotsOnTargetPer90": 0.34,
+        "slotShotThreatIndex": 21,
+        "slotShotOnTargetIndex": 13
+      },
+      "marketApplicability": {
+        "shots": true,
+        "shotsOnTarget": true,
+        "cards": false,
+        "fouls": false,
+        "notes": "Use only if bookmaker market counts replacement player stats."
+      },
+      "evidence": {
+        "primaryRawStats": {
+          "matches": 5,
+          "minutes": 273,
+          "shots": 3,
+          "shotsOnTarget": 1,
+          "goals": 1,
+          "assists": 0,
+          "foulsCommitted": 1,
+          "foulsDrawn": 4,
+          "yellowCards": 1,
+          "shotsPer90": 0.99,
+          "shotsOnTargetPer90": 0.33,
+          "foulsCommittedPer90": 0.33,
+          "foulsDrawnPer90": 1.32
+        },
+        "primaryWeightedStats": {
+          "shotsPer90": 0.99,
+          "shotsOnTargetPer90": 0.33,
+          "foulsCommittedPer90": 0.33,
+          "foulsDrawnPer90": 1.32,
+          "shotThreatIndex": 22,
+          "shotOnTargetIndex": 13,
+          "bettingIndex": 20
+        },
+        "reliability": "high",
+        "note": "Replacement candidate found in existing player model."
+      }
+    },
+    {
+      "matchId": "norway-england-2026-07-11",
+      "team": "England",
+      "slotId": "england_st",
+      "slotLabel": "England centre forward",
+      "primaryPlayer": "Harry Kane",
+      "expectedPrimaryMinutes": 80,
+      "replacementCandidates": [
+        {
+          "player": "Marcus Rashford",
+          "replacementProbability": 0.55,
+          "expectedMinutes": 18
+        }
+      ],
+      "slotMetrics": {
+        "slotShotsPer90": 3.73,
+        "slotShotsOnTargetPer90": 1.88,
+        "slotShotThreatIndex": 82,
+        "slotShotOnTargetIndex": 71
+      },
+      "marketApplicability": {
+        "shots": true,
+        "shotsOnTarget": true,
+        "cards": false,
+        "fouls": false,
+        "notes": "Use only if bookmaker market counts replacement player stats."
+      },
+      "evidence": {
+        "primaryRawStats": {
+          "matches": 5,
+          "minutes": 465,
+          "shots": 19,
+          "shotsOnTarget": 10,
+          "goals": 6,
+          "assists": 1,
+          "foulsCommitted": 7,
+          "foulsDrawn": 7,
+          "yellowCards": 0,
+          "shotsPer90": 3.68,
+          "shotsOnTargetPer90": 1.94,
+          "foulsCommittedPer90": 1.35,
+          "foulsDrawnPer90": 1.35
+        },
+        "primaryWeightedStats": {
+          "shotsPer90": 3.68,
+          "shotsOnTargetPer90": 1.94,
+          "foulsCommittedPer90": 1.35,
+          "foulsDrawnPer90": 1.35,
+          "shotThreatIndex": 81,
+          "shotOnTargetIndex": 74,
+          "bettingIndex": 71
+        },
+        "reliability": "high",
+        "note": "Replacement candidate found in existing player model."
+      }
+    },
+    {
+      "matchId": "norway-england-2026-07-11",
+      "team": "England",
+      "slotId": "england_rw",
+      "slotLabel": "England right winger",
+      "primaryPlayer": "Bukayo Saka",
+      "expectedPrimaryMinutes": 75,
+      "replacementCandidates": [
+        {
+          "player": "Anthony Gordon",
+          "replacementProbability": 0.55,
+          "expectedMinutes": 25
+        }
+      ],
+      "slotMetrics": {
+        "slotShotsPer90": 2.04,
+        "slotShotsOnTargetPer90": 0.51,
+        "slotShotThreatIndex": 45,
+        "slotShotOnTargetIndex": 19
+      },
+      "marketApplicability": {
+        "shots": true,
+        "shotsOnTarget": true,
+        "cards": false,
+        "fouls": false,
+        "notes": "Use only if bookmaker market counts replacement player stats."
+      },
+      "evidence": {
+        "primaryRawStats": {
+          "matches": 5,
+          "minutes": 213,
+          "shots": 5,
+          "shotsOnTarget": 1,
+          "goals": 0,
+          "assists": 3,
+          "foulsCommitted": 3,
+          "foulsDrawn": 6,
+          "yellowCards": 0,
+          "shotsPer90": 2.11,
+          "shotsOnTargetPer90": 0.42,
+          "foulsCommittedPer90": 1.27,
+          "foulsDrawnPer90": 2.54
+        },
+        "primaryWeightedStats": {
+          "shotsPer90": 2.11,
+          "shotsOnTargetPer90": 0.42,
+          "foulsCommittedPer90": 1.27,
+          "foulsDrawnPer90": 2.54,
+          "shotThreatIndex": 46,
+          "shotOnTargetIndex": 16,
+          "bettingIndex": 32
+        },
+        "reliability": "high",
+        "note": "Replacement candidate found in existing player model."
+      }
+    }
+  ],
+  "sourceRoleSlotModel": "data/player-stats/quarterfinals-role-slot-model.json"
 }

@@ -133,16 +133,53 @@
   ],
   "cardScenario": {
     "primary": "team cards/fouls prima dei singoli cartellini",
-    "environment": null
+    "environment": null,
+    "teamDiscipline": {
+      "Norway": {
+        "disciplineIndex": 74,
+        "weightedFoulsCommitted": 9.13,
+        "weightedYellowCards": 0.42
+      },
+      "England": {
+        "disciplineIndex": 42,
+        "weightedFoulsCommitted": 10.31,
+        "weightedYellowCards": 1.59
+      }
+    }
   },
   "shotsScenario": {
-    "primary": "Erling Haaland tiri/SOT, Harry Kane tiri/SOT, Jude Bellingham tiri/SOT"
+    "primary": "Erling Haaland tiri/SOT, Harry Kane tiri/SOT, Jude Bellingham tiri/SOT",
+    "teamModel": {
+      "Norway": {
+        "weightedShotsForPerMatch": 10.38,
+        "weightedShotsOnTargetForPerMatch": 4.95
+      },
+      "England": {
+        "weightedShotsForPerMatch": 15.23,
+        "weightedShotsOnTargetForPerMatch": 6.44
+      }
+    }
   },
   "cornersScenario": {
-    "primary": "favorita territoriale se game script resta bloccato"
+    "primary": "favorita territoriale se game script resta bloccato",
+    "dataNote": "Corner non completi nei provider disponibili; usare solo con confidence ridotta o conferma Sisal/live."
   },
   "goalScenario": {
-    "primary": "gol/assist solo se supportato da indici goal/playmaking alti"
+    "primary": "gol/assist solo se supportato da indici goal/playmaking alti",
+    "teamAttackDefense": {
+      "Norway": {
+        "attackIndex": 61,
+        "defenseIndex": 27,
+        "weightedGoalsFor": 2.12,
+        "weightedGoalsAgainst": 1.8
+      },
+      "England": {
+        "attackIndex": 84,
+        "defenseIndex": 49,
+        "weightedGoalsFor": 2.31,
+        "weightedGoalsAgainst": 1.16
+      }
+    }
   },
   "riskFactors": [
     "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
@@ -150,28 +187,279 @@
     "cartellini individuali ad alta varianza"
   ],
   "missingContext": [
-    "referee confirmed"
+    "Norway: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
+    "England: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
+    "referee not confirmed",
+    "weather low confidence/da aggiornare"
   ],
   "sitePublication": {
     "probableFormations": {
       "Norway": {
         "module": "4-3-3",
-        "players": ["Nyland", "Ryerson", "Ajer", "Heggem", "Wolfe", "Odegaard", "Berge", "Berg", "Schjelderup", "Haaland", "Nusa"]
+        "players": [
+          "Nyland",
+          "Ryerson",
+          "Ajer",
+          "Heggem",
+          "Wolfe",
+          "Odegaard",
+          "Berge",
+          "Berg",
+          "Schjelderup",
+          "Haaland",
+          "Nusa"
+        ]
       },
       "England": {
         "module": "4-2-3-1",
-        "players": ["Pickford", "O'Reilly", "Guehi", "Stones", "Konsa", "Anderson", "Rice", "Gordon", "Bellingham", "Saka", "Kane"]
+        "players": [
+          "Pickford",
+          "O'Reilly",
+          "Guehi",
+          "Stones",
+          "Konsa",
+          "Anderson",
+          "Rice",
+          "Gordon",
+          "Bellingham",
+          "Saka",
+          "Kane"
+        ]
       }
     },
     "quoteErrors": [
-      { "market": "Inghilterra prima a X corner", "odds": 1.7, "note": "Scenario favorevole se l'Inghilterra tiene campo." },
-      { "market": "Over tiri in porta match", "odds": "1.50 / 1.80", "note": "Haaland e Kane aumentano il volume nello specchio." },
-      { "market": "Inghilterra over tiri squadra", "odds": 1.65, "note": "Buono se la Norvegia abbassa il blocco." }
+      {
+        "market": "Inghilterra prima a X corner",
+        "odds": 1.7,
+        "note": "Scenario favorevole se l'Inghilterra tiene campo."
+      },
+      {
+        "market": "Over tiri in porta match",
+        "odds": "1.50 / 1.80",
+        "note": "Haaland e Kane aumentano il volume nello specchio."
+      },
+      {
+        "market": "Inghilterra over tiri squadra",
+        "odds": 1.65,
+        "note": "Buono se la Norvegia abbassa il blocco."
+      }
     ],
     "bookingComboCandidates": [
-      { "player": "Declan Rice", "team": "Inghilterra" },
-      { "player": "David Moller Wolfe", "team": "Norvegia" },
-      { "player": "Nico O'Reilly", "team": "Inghilterra" }
+      {
+        "player": "Declan Rice",
+        "team": "Inghilterra"
+      },
+      {
+        "player": "David Moller Wolfe",
+        "team": "Norvegia"
+      },
+      {
+        "player": "Nico O'Reilly",
+        "team": "Inghilterra"
+      }
     ]
-  }
+  },
+  "dataQuality": {
+    "playerStats": "complete",
+    "teamStats": "partial",
+    "context": "partial",
+    "roleSlotModel": "complete"
+  },
+  "teamStatsEvidence": {
+    "Norway": {
+      "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+      "weightedModel": {
+        "matches": 5,
+        "weightedGoalsForPerMatch": 2.12,
+        "weightedGoalsAgainstPerMatch": 1.8,
+        "weightedShotsForPerMatch": 10.38,
+        "weightedShotsAgainstPerMatch": 14.51,
+        "weightedShotsOnTargetForPerMatch": 4.95,
+        "weightedShotsOnTargetAgainstPerMatch": 4.81,
+        "weightedCornersForPerMatch": null,
+        "weightedCornersAgainstPerMatch": null,
+        "disciplineIndex": 74,
+        "attackIndex": 61,
+        "defenseIndex": 27,
+        "cornerIndex": null,
+        "tempoIndex": 83,
+        "pressureIndex": 51
+      },
+      "trends": {
+        "lastTwoMatches": {
+          "shotsForPerMatch": 9,
+          "shotsOnTargetForPerMatch": 4.5,
+          "foulsCommittedPerMatch": 6.5,
+          "yellowCardsPerMatch": 0.5
+        },
+        "knockout": {
+          "matches": 2,
+          "shotsForPerMatch": 9,
+          "shotsOnTargetForPerMatch": 4.5,
+          "foulsCommittedPerMatch": 6.5,
+          "yellowCardsPerMatch": 0.5
+        }
+      },
+      "missingFields": [
+        "cornersFor",
+        "cornersAgainst",
+        "possession",
+        "saves",
+        "firstHalfGoalsFor",
+        "firstHalfGoalsAgainst",
+        "secondHalfGoalsFor",
+        "secondHalfGoalsAgainst"
+      ]
+    },
+    "England": {
+      "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+      "weightedModel": {
+        "matches": 5,
+        "weightedGoalsForPerMatch": 2.31,
+        "weightedGoalsAgainstPerMatch": 1.16,
+        "weightedShotsForPerMatch": 15.23,
+        "weightedShotsAgainstPerMatch": 10.91,
+        "weightedShotsOnTargetForPerMatch": 6.44,
+        "weightedShotsOnTargetAgainstPerMatch": 3.21,
+        "weightedCornersForPerMatch": null,
+        "weightedCornersAgainstPerMatch": null,
+        "disciplineIndex": 42,
+        "attackIndex": 84,
+        "defenseIndex": 49,
+        "cornerIndex": null,
+        "tempoIndex": 87,
+        "pressureIndex": 92
+      },
+      "trends": {
+        "lastTwoMatches": {
+          "shotsForPerMatch": 11,
+          "shotsOnTargetForPerMatch": 6,
+          "foulsCommittedPerMatch": 8.5,
+          "yellowCardsPerMatch": 2.5
+        },
+        "knockout": {
+          "matches": 2,
+          "shotsForPerMatch": 11,
+          "shotsOnTargetForPerMatch": 6,
+          "foulsCommittedPerMatch": 8.5,
+          "yellowCardsPerMatch": 2.5
+        }
+      },
+      "missingFields": [
+        "cornersFor",
+        "cornersAgainst",
+        "possession",
+        "saves",
+        "firstHalfGoalsFor",
+        "firstHalfGoalsAgainst",
+        "secondHalfGoalsFor",
+        "secondHalfGoalsAgainst"
+      ]
+    }
+  },
+  "roleSlotEdges": [
+    {
+      "team": "Norway",
+      "slotId": "norway_st",
+      "primaryPlayer": "Erling Haaland",
+      "replacementCandidates": [
+        "Alexander Sørloth"
+      ],
+      "slotShotsPer90": 3.63,
+      "slotShotsOnTargetPer90": 2.33,
+      "reliability": "high"
+    },
+    {
+      "team": "Norway",
+      "slotId": "norway_lw",
+      "primaryPlayer": "Antonio Nusa",
+      "replacementCandidates": [
+        "Andreas Schjelderup"
+      ],
+      "slotShotsPer90": 0.96,
+      "slotShotsOnTargetPer90": 0.34,
+      "reliability": "high"
+    },
+    {
+      "team": "England",
+      "slotId": "england_st",
+      "primaryPlayer": "Harry Kane",
+      "replacementCandidates": [
+        "Marcus Rashford"
+      ],
+      "slotShotsPer90": 3.73,
+      "slotShotsOnTargetPer90": 1.88,
+      "reliability": "high"
+    },
+    {
+      "team": "England",
+      "slotId": "england_rw",
+      "primaryPlayer": "Bukayo Saka",
+      "replacementCandidates": [
+        "Anthony Gordon"
+      ],
+      "slotShotsPer90": 2.04,
+      "slotShotsOnTargetPer90": 0.51,
+      "reliability": "high"
+    }
+  ],
+  "matchEnvironmentEvidence": {
+    "sourceFile": "data/match-environment/quarterfinals-2026.json",
+    "stadium": null,
+    "city": null,
+    "altitudeMeters": null,
+    "roofType": null,
+    "climateControlled": null,
+    "referee": null,
+    "refereeProfile": null,
+    "weather": null,
+    "modelImpact": null
+  },
+  "shotsOnTargetScenario": {
+    "primary": "Preferire giocatori con minutaggio stabile e slot tiri coperto solo se il mercato include il sostituto."
+  },
+  "cardsScenario": {
+    "primary": "team cards/fouls prima dei singoli cartellini",
+    "environment": null,
+    "teamDiscipline": {
+      "Norway": {
+        "disciplineIndex": 74,
+        "weightedFoulsCommitted": 9.13,
+        "weightedYellowCards": 0.42
+      },
+      "England": {
+        "disciplineIndex": 42,
+        "weightedFoulsCommitted": 10.31,
+        "weightedYellowCards": 1.59
+      }
+    }
+  },
+  "marketSuggestions": [
+    {
+      "marketType": "shots player",
+      "source": "playerModel/roleSlotModel",
+      "note": "Usare solo profili con minutes e volume tiri reali nelle 5 partite."
+    },
+    {
+      "marketType": "shots team",
+      "source": "teamStatsModel",
+      "note": "Preferire squadre con weightedShotsForPerMatch alto e scenario di rincorsa."
+    },
+    {
+      "marketType": "cards/fouls team",
+      "source": "teamStatsModel/refereeEvidence",
+      "note": "Usare disciplina squadra e arbitro se disponibile."
+    }
+  ],
+  "marketsToAvoid": [
+    "Cartellini giocatore senza duello diretto o minutaggio chiaro",
+    "Corner linee alte quando cornersFor/cornersAgainst sono null",
+    "Player prop su non titolari senza copertura roleSlotModel"
+  ],
+  "riskWarnings": [
+    "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
+    "player prop sensibili a titolarita e sostituzioni",
+    "cartellini individuali ad alta varianza",
+    "Campi avanzati non disponibili restano null e non vanno stimati."
+  ]
 }

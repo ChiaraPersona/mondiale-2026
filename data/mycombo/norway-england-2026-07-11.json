@@ -19,7 +19,71 @@
         "selectionId": 5209324073,
         "marketId": 791668600,
         "category": "falli",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "referee_team",
+          "team": "England",
+          "market": "falli",
+          "usedModel": "teamStatsModel+refereeEvidence",
+          "teamStatsEvidence": [
+            {
+              "team": "England",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.31,
+                "weightedGoalsAgainstPerMatch": 1.16,
+                "weightedShotsForPerMatch": 15.23,
+                "weightedShotsAgainstPerMatch": 10.91,
+                "weightedShotsOnTargetForPerMatch": 6.44,
+                "weightedShotsOnTargetAgainstPerMatch": 3.21,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 42,
+                "attackIndex": 84,
+                "defenseIndex": 49,
+                "cornerIndex": null,
+                "tempoIndex": 87,
+                "pressureIndex": 92
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "falli"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra England e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-907709",
@@ -30,7 +94,117 @@
         "selectionId": 5207907709,
         "marketId": 791421900,
         "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "Norway / England",
+          "market": "gol",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "Norway",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.12,
+                "weightedGoalsAgainstPerMatch": 1.8,
+                "weightedShotsForPerMatch": 10.38,
+                "weightedShotsAgainstPerMatch": 14.51,
+                "weightedShotsOnTargetForPerMatch": 4.95,
+                "weightedShotsOnTargetAgainstPerMatch": 4.81,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 74,
+                "attackIndex": 61,
+                "defenseIndex": 27,
+                "cornerIndex": null,
+                "tempoIndex": 83,
+                "pressureIndex": 51
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            },
+            {
+              "team": "England",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.31,
+                "weightedGoalsAgainstPerMatch": 1.16,
+                "weightedShotsForPerMatch": 15.23,
+                "weightedShotsAgainstPerMatch": 10.91,
+                "weightedShotsOnTargetForPerMatch": 6.44,
+                "weightedShotsOnTargetAgainstPerMatch": 3.21,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 42,
+                "attackIndex": 84,
+                "defenseIndex": 49,
+                "cornerIndex": null,
+                "tempoIndex": 87,
+                "pressureIndex": 92
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "gol"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra Norway / England e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Mercato situazionale con evidenza statistica indiretta.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-566149",
@@ -41,13 +215,125 @@
         "selectionId": 5207566149,
         "marketId": 791355033,
         "category": "tiri",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "Norway / England",
+          "market": "tiri",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "Norway",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.12,
+                "weightedGoalsAgainstPerMatch": 1.8,
+                "weightedShotsForPerMatch": 10.38,
+                "weightedShotsAgainstPerMatch": 14.51,
+                "weightedShotsOnTargetForPerMatch": 4.95,
+                "weightedShotsOnTargetAgainstPerMatch": 4.81,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 74,
+                "attackIndex": 61,
+                "defenseIndex": 27,
+                "cornerIndex": null,
+                "tempoIndex": 83,
+                "pressureIndex": 51
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            },
+            {
+              "team": "England",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.31,
+                "weightedGoalsAgainstPerMatch": 1.16,
+                "weightedShotsForPerMatch": 15.23,
+                "weightedShotsAgainstPerMatch": 10.91,
+                "weightedShotsOnTargetForPerMatch": 6.44,
+                "weightedShotsOnTargetAgainstPerMatch": 3.21,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 42,
+                "attackIndex": 84,
+                "defenseIndex": 49,
+                "cornerIndex": null,
+                "tempoIndex": 87,
+                "pressureIndex": 92
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "tiri"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra Norway / England e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       }
     ],
     "finalOdds": 5.01,
     "targetOdds": "4-6",
     "averageRisk": 40,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
+    "eventsWithStatEvidence": 3,
+    "lowConfidenceEvents": []
   },
   "balanced": {
     "name": "Balanced",
@@ -61,7 +347,71 @@
         "selectionId": 5210817530,
         "marketId": 791965746,
         "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "Norway",
+          "market": "corner",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "Norway",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.12,
+                "weightedGoalsAgainstPerMatch": 1.8,
+                "weightedShotsForPerMatch": 10.38,
+                "weightedShotsAgainstPerMatch": 14.51,
+                "weightedShotsOnTargetForPerMatch": 4.95,
+                "weightedShotsOnTargetAgainstPerMatch": 4.81,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 74,
+                "attackIndex": 61,
+                "defenseIndex": 27,
+                "cornerIndex": null,
+                "tempoIndex": 83,
+                "pressureIndex": 51
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "corner"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra Norway e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-215673",
@@ -72,7 +422,71 @@
         "selectionId": 5209215673,
         "marketId": 791654143,
         "category": "falli",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "referee_team",
+          "team": "Norway",
+          "market": "falli",
+          "usedModel": "teamStatsModel+refereeEvidence",
+          "teamStatsEvidence": [
+            {
+              "team": "Norway",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.12,
+                "weightedGoalsAgainstPerMatch": 1.8,
+                "weightedShotsForPerMatch": 10.38,
+                "weightedShotsAgainstPerMatch": 14.51,
+                "weightedShotsOnTargetForPerMatch": 4.95,
+                "weightedShotsOnTargetAgainstPerMatch": 4.81,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 74,
+                "attackIndex": 61,
+                "defenseIndex": 27,
+                "cornerIndex": null,
+                "tempoIndex": 83,
+                "pressureIndex": 51
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "falli"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra Norway e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-181601",
@@ -83,7 +497,71 @@
         "selectionId": 5209181601,
         "marketId": 791653836,
         "category": "tiri",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "England",
+          "market": "tiri",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "England",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.31,
+                "weightedGoalsAgainstPerMatch": 1.16,
+                "weightedShotsForPerMatch": 15.23,
+                "weightedShotsAgainstPerMatch": 10.91,
+                "weightedShotsOnTargetForPerMatch": 6.44,
+                "weightedShotsOnTargetAgainstPerMatch": 3.21,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 42,
+                "attackIndex": 84,
+                "defenseIndex": 49,
+                "cornerIndex": null,
+                "tempoIndex": 87,
+                "pressureIndex": 92
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "tiri"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra England e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-817333",
@@ -94,13 +572,79 @@
         "selectionId": 5210817333,
         "marketId": 791965701,
         "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "Norway",
+          "market": "corner",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "Norway",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.12,
+                "weightedGoalsAgainstPerMatch": 1.8,
+                "weightedShotsForPerMatch": 10.38,
+                "weightedShotsAgainstPerMatch": 14.51,
+                "weightedShotsOnTargetForPerMatch": 4.95,
+                "weightedShotsOnTargetAgainstPerMatch": 4.81,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 74,
+                "attackIndex": 61,
+                "defenseIndex": 27,
+                "cornerIndex": null,
+                "tempoIndex": 83,
+                "pressureIndex": 51
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "corner"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra Norway e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       }
     ],
     "finalOdds": 9.94,
     "targetOdds": "8-12",
     "averageRisk": 40,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
+    "eventsWithStatEvidence": 4,
+    "lowConfidenceEvents": []
   },
   "aggressive": {
     "name": "Aggressive",
@@ -114,7 +658,71 @@
         "selectionId": 5210817530,
         "marketId": 791965746,
         "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "Norway",
+          "market": "corner",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "Norway",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.12,
+                "weightedGoalsAgainstPerMatch": 1.8,
+                "weightedShotsForPerMatch": 10.38,
+                "weightedShotsAgainstPerMatch": 14.51,
+                "weightedShotsOnTargetForPerMatch": 4.95,
+                "weightedShotsOnTargetAgainstPerMatch": 4.81,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 74,
+                "attackIndex": 61,
+                "defenseIndex": 27,
+                "cornerIndex": null,
+                "tempoIndex": 83,
+                "pressureIndex": 51
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "corner"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra Norway e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-817233",
@@ -125,7 +733,71 @@
         "selectionId": 5210817233,
         "marketId": 791965677,
         "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "England",
+          "market": "corner",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "England",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.31,
+                "weightedGoalsAgainstPerMatch": 1.16,
+                "weightedShotsForPerMatch": 15.23,
+                "weightedShotsAgainstPerMatch": 10.91,
+                "weightedShotsOnTargetForPerMatch": 6.44,
+                "weightedShotsOnTargetAgainstPerMatch": 3.21,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 42,
+                "attackIndex": 84,
+                "defenseIndex": 49,
+                "cornerIndex": null,
+                "tempoIndex": 87,
+                "pressureIndex": 92
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "corner"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra England e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-566117",
@@ -136,7 +808,117 @@
         "selectionId": 5207566117,
         "marketId": 791355025,
         "category": "tiri",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "Norway / England",
+          "market": "tiri",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "Norway",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.12,
+                "weightedGoalsAgainstPerMatch": 1.8,
+                "weightedShotsForPerMatch": 10.38,
+                "weightedShotsAgainstPerMatch": 14.51,
+                "weightedShotsOnTargetForPerMatch": 4.95,
+                "weightedShotsOnTargetAgainstPerMatch": 4.81,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 74,
+                "attackIndex": 61,
+                "defenseIndex": 27,
+                "cornerIndex": null,
+                "tempoIndex": 83,
+                "pressureIndex": 51
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 9,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 6.5,
+                  "yellowCardsPerMatch": 0.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            },
+            {
+              "team": "England",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.31,
+                "weightedGoalsAgainstPerMatch": 1.16,
+                "weightedShotsForPerMatch": 15.23,
+                "weightedShotsAgainstPerMatch": 10.91,
+                "weightedShotsOnTargetForPerMatch": 6.44,
+                "weightedShotsOnTargetAgainstPerMatch": 3.21,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 42,
+                "attackIndex": 84,
+                "defenseIndex": 49,
+                "cornerIndex": null,
+                "tempoIndex": 87,
+                "pressureIndex": 92
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "tiri"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra Norway / England e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-817303",
@@ -147,7 +929,71 @@
         "selectionId": 5210817303,
         "marketId": 791965694,
         "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "England",
+          "market": "corner",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "England",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.31,
+                "weightedGoalsAgainstPerMatch": 1.16,
+                "weightedShotsForPerMatch": 15.23,
+                "weightedShotsAgainstPerMatch": 10.91,
+                "weightedShotsOnTargetForPerMatch": 6.44,
+                "weightedShotsOnTargetAgainstPerMatch": 3.21,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 42,
+                "attackIndex": 84,
+                "defenseIndex": 49,
+                "cornerIndex": null,
+                "tempoIndex": 87,
+                "pressureIndex": 92
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "corner"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra England e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-817547",
@@ -158,13 +1004,79 @@
         "selectionId": 5210817547,
         "marketId": 791965750,
         "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "England",
+          "market": "corner",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "England",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.31,
+                "weightedGoalsAgainstPerMatch": 1.16,
+                "weightedShotsForPerMatch": 15.23,
+                "weightedShotsAgainstPerMatch": 10.91,
+                "weightedShotsOnTargetForPerMatch": 6.44,
+                "weightedShotsOnTargetAgainstPerMatch": 3.21,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 42,
+                "attackIndex": 84,
+                "defenseIndex": 49,
+                "cornerIndex": null,
+                "tempoIndex": 87,
+                "pressureIndex": 92
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 11,
+                  "shotsOnTargetForPerMatch": 6,
+                  "foulsCommittedPerMatch": 8.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/norway-england-2026-07-11.json",
+            "linkedScenario": "corner"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra England e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       }
     ],
     "finalOdds": 21.59,
     "targetOdds": "18-25",
     "averageRisk": 40,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
+    "eventsWithStatEvidence": 5,
+    "lowConfidenceEvents": []
   },
   "reasoning": {
     "summary": "Combinazioni costruite solo su mercati reali Sisal, weighted player model, team trend e match context.",
@@ -265,5 +1177,7 @@
     "missingContext": [
       "referee confirmed"
     ]
-  }
+  },
+  "sourceTeamStats": "data/team-stats/quarterfinals-team-model.json",
+  "sourceRoleSlotModel": "data/player-stats/quarterfinals-role-slot-model.json"
 }

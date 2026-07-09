@@ -660,5 +660,176 @@
     "completion": 100,
     "advancedStats": "partial_espn_base",
     "missingContext": []
-  }
+  },
+  "roleSlotModel": [
+    {
+      "matchId": "spain-belgium-2026-07-10",
+      "team": "Spain",
+      "slotId": "spain_rw",
+      "slotLabel": "Spain right winger",
+      "primaryPlayer": "Lamine Yamal",
+      "expectedPrimaryMinutes": 70,
+      "replacementCandidates": [
+        {
+          "player": "Ferran Torres",
+          "replacementProbability": 0.55,
+          "expectedMinutes": 18
+        }
+      ],
+      "slotMetrics": {
+        "slotShotsPer90": 4.61,
+        "slotShotsOnTargetPer90": 2.02,
+        "slotShotThreatIndex": 100,
+        "slotShotOnTargetIndex": 77
+      },
+      "marketApplicability": {
+        "shots": true,
+        "shotsOnTarget": true,
+        "cards": false,
+        "fouls": false,
+        "notes": "Use only if bookmaker market counts replacement player stats."
+      },
+      "evidence": {
+        "primaryRawStats": {
+          "matches": 5,
+          "minutes": 330,
+          "shots": 17,
+          "shotsOnTarget": 8,
+          "goals": 1,
+          "assists": 0,
+          "foulsCommitted": 7,
+          "foulsDrawn": 3,
+          "yellowCards": 0,
+          "shotsPer90": 4.64,
+          "shotsOnTargetPer90": 2.18,
+          "foulsCommittedPer90": 1.91,
+          "foulsDrawnPer90": 0.82
+        },
+        "primaryWeightedStats": {
+          "shotsPer90": 4.64,
+          "shotsOnTargetPer90": 2.18,
+          "foulsCommittedPer90": 1.91,
+          "foulsDrawnPer90": 0.82,
+          "shotThreatIndex": 100,
+          "shotOnTargetIndex": 83,
+          "bettingIndex": 81
+        },
+        "reliability": "high",
+        "note": "Replacement candidate found in existing player model."
+      }
+    },
+    {
+      "matchId": "spain-belgium-2026-07-10",
+      "team": "Spain",
+      "slotId": "spain_st",
+      "slotLabel": "Spain centre forward",
+      "primaryPlayer": "Mikel Oyarzabal",
+      "expectedPrimaryMinutes": 70,
+      "replacementCandidates": [
+        {
+          "player": "Ferran Torres",
+          "replacementProbability": 0.55,
+          "expectedMinutes": 18
+        }
+      ],
+      "slotMetrics": {
+        "slotShotsPer90": 4.2,
+        "slotShotsOnTargetPer90": 1.84,
+        "slotShotThreatIndex": 92,
+        "slotShotOnTargetIndex": 70
+      },
+      "marketApplicability": {
+        "shots": true,
+        "shotsOnTarget": true,
+        "cards": false,
+        "fouls": false,
+        "notes": "Use only if bookmaker market counts replacement player stats."
+      },
+      "evidence": {
+        "primaryRawStats": {
+          "matches": 5,
+          "minutes": 410,
+          "shots": 19,
+          "shotsOnTarget": 9,
+          "goals": 4,
+          "assists": 1,
+          "foulsCommitted": 2,
+          "foulsDrawn": 2,
+          "yellowCards": 0,
+          "shotsPer90": 4.17,
+          "shotsOnTargetPer90": 1.98,
+          "foulsCommittedPer90": 0.44,
+          "foulsDrawnPer90": 0.44
+        },
+        "primaryWeightedStats": {
+          "shotsPer90": 4.17,
+          "shotsOnTargetPer90": 1.98,
+          "foulsCommittedPer90": 0.44,
+          "foulsDrawnPer90": 0.44,
+          "shotThreatIndex": 92,
+          "shotOnTargetIndex": 75,
+          "bettingIndex": 74
+        },
+        "reliability": "high",
+        "note": "Replacement candidate found in existing player model."
+      }
+    },
+    {
+      "matchId": "spain-belgium-2026-07-10",
+      "team": "Belgium",
+      "slotId": "belgium_am",
+      "slotLabel": "Belgium attacking midfielder",
+      "primaryPlayer": "Kevin De Bruyne",
+      "expectedPrimaryMinutes": 80,
+      "replacementCandidates": [
+        {
+          "player": "Leandro Trossard",
+          "replacementProbability": 0.55,
+          "expectedMinutes": 30
+        }
+      ],
+      "slotMetrics": {
+        "slotShotsPer90": 5.03,
+        "slotShotsOnTargetPer90": 1.09,
+        "slotShotThreatIndex": 100,
+        "slotShotOnTargetIndex": 41
+      },
+      "marketApplicability": {
+        "shots": true,
+        "shotsOnTarget": true,
+        "cards": false,
+        "fouls": false,
+        "notes": "Use only if bookmaker market counts replacement player stats."
+      },
+      "evidence": {
+        "primaryRawStats": {
+          "matches": 5,
+          "minutes": 301,
+          "shots": 18,
+          "shotsOnTarget": 4,
+          "goals": 1,
+          "assists": 0,
+          "foulsCommitted": 0,
+          "foulsDrawn": 3,
+          "yellowCards": 0,
+          "shotsPer90": 5.38,
+          "shotsOnTargetPer90": 1.2,
+          "foulsCommittedPer90": 0,
+          "foulsDrawnPer90": 0.9
+        },
+        "primaryWeightedStats": {
+          "shotsPer90": 5.38,
+          "shotsOnTargetPer90": 1.2,
+          "foulsCommittedPer90": 0,
+          "foulsDrawnPer90": 0.9,
+          "shotThreatIndex": 100,
+          "shotOnTargetIndex": 46,
+          "bettingIndex": 64
+        },
+        "reliability": "high",
+        "note": "Replacement candidate found in existing player model."
+      }
+    }
+  ],
+  "sourceRoleSlotModel": "data/player-stats/quarterfinals-role-slot-model.json"
 }

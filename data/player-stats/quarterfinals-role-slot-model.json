@@ -1,0 +1,683 @@
+{
+  "generatedAt": "2026-07-09",
+  "policy": {
+    "noRandomReplacements": true,
+    "appliesOnlyToShotsMarkets": true
+  },
+  "matches": {
+    "france-morocco-2026-07-09": [
+      {
+        "matchId": "france-morocco-2026-07-09",
+        "team": "France",
+        "slotId": "france_cf",
+        "slotLabel": "France centre forward",
+        "primaryPlayer": "Kylian Mbappé",
+        "expectedPrimaryMinutes": 80,
+        "replacementCandidates": [
+          {
+            "player": "Marcus Thuram",
+            "replacementProbability": 0.55,
+            "expectedMinutes": 10
+          }
+        ],
+        "slotMetrics": {
+          "slotShotsPer90": 4.72,
+          "slotShotsOnTargetPer90": 3.09,
+          "slotShotThreatIndex": 100,
+          "slotShotOnTargetIndex": 100
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 464,
+            "shots": 26,
+            "shotsOnTarget": 17,
+            "goals": 7,
+            "assists": 2,
+            "foulsCommitted": 5,
+            "foulsDrawn": 5,
+            "yellowCards": 0,
+            "shotsPer90": 5.04,
+            "shotsOnTargetPer90": 3.3,
+            "foulsCommittedPer90": 0.97,
+            "foulsDrawnPer90": 0.97
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 5.04,
+            "shotsOnTargetPer90": 3.3,
+            "foulsCommittedPer90": 0.97,
+            "foulsDrawnPer90": 0.97,
+            "shotThreatIndex": 100,
+            "shotOnTargetIndex": 100,
+            "bettingIndex": 90
+          },
+          "reliability": "high",
+          "note": "Replacement candidate found in existing player model."
+        }
+      },
+      {
+        "matchId": "france-morocco-2026-07-09",
+        "team": "Morocco",
+        "slotId": "morocco_st",
+        "slotLabel": "Morocco centre forward",
+        "primaryPlayer": "Soufiane Rahimi",
+        "expectedPrimaryMinutes": 75,
+        "replacementCandidates": [
+          {
+            "player": "Ayoub El Kaabi",
+            "replacementProbability": 0.55,
+            "expectedMinutes": 10
+          }
+        ],
+        "slotMetrics": {
+          "slotShotsPer90": 3.25,
+          "slotShotsOnTargetPer90": 2.17,
+          "slotShotThreatIndex": 72,
+          "slotShotOnTargetIndex": 82
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 168,
+            "shots": 6,
+            "shotsOnTarget": 4,
+            "goals": 2,
+            "assists": 1,
+            "foulsCommitted": 5,
+            "foulsDrawn": 6,
+            "yellowCards": 0,
+            "shotsPer90": 3.21,
+            "shotsOnTargetPer90": 2.14,
+            "foulsCommittedPer90": 2.68,
+            "foulsDrawnPer90": 3.21
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 3.21,
+            "shotsOnTargetPer90": 2.14,
+            "foulsCommittedPer90": 2.68,
+            "foulsDrawnPer90": 3.21,
+            "shotThreatIndex": 71,
+            "shotOnTargetIndex": 81,
+            "bettingIndex": 70
+          },
+          "reliability": "high",
+          "note": "Replacement candidate found in existing player model."
+        }
+      }
+    ],
+    "spain-belgium-2026-07-10": [
+      {
+        "matchId": "spain-belgium-2026-07-10",
+        "team": "Spain",
+        "slotId": "spain_rw",
+        "slotLabel": "Spain right winger",
+        "primaryPlayer": "Lamine Yamal",
+        "expectedPrimaryMinutes": 70,
+        "replacementCandidates": [
+          {
+            "player": "Ferran Torres",
+            "replacementProbability": 0.55,
+            "expectedMinutes": 18
+          }
+        ],
+        "slotMetrics": {
+          "slotShotsPer90": 4.61,
+          "slotShotsOnTargetPer90": 2.02,
+          "slotShotThreatIndex": 100,
+          "slotShotOnTargetIndex": 77
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 330,
+            "shots": 17,
+            "shotsOnTarget": 8,
+            "goals": 1,
+            "assists": 0,
+            "foulsCommitted": 7,
+            "foulsDrawn": 3,
+            "yellowCards": 0,
+            "shotsPer90": 4.64,
+            "shotsOnTargetPer90": 2.18,
+            "foulsCommittedPer90": 1.91,
+            "foulsDrawnPer90": 0.82
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 4.64,
+            "shotsOnTargetPer90": 2.18,
+            "foulsCommittedPer90": 1.91,
+            "foulsDrawnPer90": 0.82,
+            "shotThreatIndex": 100,
+            "shotOnTargetIndex": 83,
+            "bettingIndex": 81
+          },
+          "reliability": "high",
+          "note": "Replacement candidate found in existing player model."
+        }
+      },
+      {
+        "matchId": "spain-belgium-2026-07-10",
+        "team": "Spain",
+        "slotId": "spain_st",
+        "slotLabel": "Spain centre forward",
+        "primaryPlayer": "Mikel Oyarzabal",
+        "expectedPrimaryMinutes": 70,
+        "replacementCandidates": [
+          {
+            "player": "Ferran Torres",
+            "replacementProbability": 0.55,
+            "expectedMinutes": 18
+          }
+        ],
+        "slotMetrics": {
+          "slotShotsPer90": 4.2,
+          "slotShotsOnTargetPer90": 1.84,
+          "slotShotThreatIndex": 92,
+          "slotShotOnTargetIndex": 70
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 410,
+            "shots": 19,
+            "shotsOnTarget": 9,
+            "goals": 4,
+            "assists": 1,
+            "foulsCommitted": 2,
+            "foulsDrawn": 2,
+            "yellowCards": 0,
+            "shotsPer90": 4.17,
+            "shotsOnTargetPer90": 1.98,
+            "foulsCommittedPer90": 0.44,
+            "foulsDrawnPer90": 0.44
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 4.17,
+            "shotsOnTargetPer90": 1.98,
+            "foulsCommittedPer90": 0.44,
+            "foulsDrawnPer90": 0.44,
+            "shotThreatIndex": 92,
+            "shotOnTargetIndex": 75,
+            "bettingIndex": 74
+          },
+          "reliability": "high",
+          "note": "Replacement candidate found in existing player model."
+        }
+      },
+      {
+        "matchId": "spain-belgium-2026-07-10",
+        "team": "Belgium",
+        "slotId": "belgium_am",
+        "slotLabel": "Belgium attacking midfielder",
+        "primaryPlayer": "Kevin De Bruyne",
+        "expectedPrimaryMinutes": 80,
+        "replacementCandidates": [
+          {
+            "player": "Leandro Trossard",
+            "replacementProbability": 0.55,
+            "expectedMinutes": 30
+          }
+        ],
+        "slotMetrics": {
+          "slotShotsPer90": 5.03,
+          "slotShotsOnTargetPer90": 1.09,
+          "slotShotThreatIndex": 100,
+          "slotShotOnTargetIndex": 41
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 301,
+            "shots": 18,
+            "shotsOnTarget": 4,
+            "goals": 1,
+            "assists": 0,
+            "foulsCommitted": 0,
+            "foulsDrawn": 3,
+            "yellowCards": 0,
+            "shotsPer90": 5.38,
+            "shotsOnTargetPer90": 1.2,
+            "foulsCommittedPer90": 0,
+            "foulsDrawnPer90": 0.9
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 5.38,
+            "shotsOnTargetPer90": 1.2,
+            "foulsCommittedPer90": 0,
+            "foulsDrawnPer90": 0.9,
+            "shotThreatIndex": 100,
+            "shotOnTargetIndex": 46,
+            "bettingIndex": 64
+          },
+          "reliability": "high",
+          "note": "Replacement candidate found in existing player model."
+        }
+      }
+    ],
+    "norway-england-2026-07-11": [
+      {
+        "matchId": "norway-england-2026-07-11",
+        "team": "Norway",
+        "slotId": "norway_st",
+        "slotLabel": "Norway centre forward",
+        "primaryPlayer": "Erling Haaland",
+        "expectedPrimaryMinutes": 85,
+        "replacementCandidates": [
+          {
+            "player": "Alexander Sørloth",
+            "replacementProbability": 0.55,
+            "expectedMinutes": 25
+          }
+        ],
+        "slotMetrics": {
+          "slotShotsPer90": 3.63,
+          "slotShotsOnTargetPer90": 2.33,
+          "slotShotThreatIndex": 80,
+          "slotShotOnTargetIndex": 89
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 399,
+            "shots": 18,
+            "shotsOnTarget": 12,
+            "goals": 7,
+            "assists": 0,
+            "foulsCommitted": 5,
+            "foulsDrawn": 3,
+            "yellowCards": 0,
+            "shotsPer90": 4.06,
+            "shotsOnTargetPer90": 2.71,
+            "foulsCommittedPer90": 1.13,
+            "foulsDrawnPer90": 0.68
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 4.06,
+            "shotsOnTargetPer90": 2.71,
+            "foulsCommittedPer90": 1.13,
+            "foulsDrawnPer90": 0.68,
+            "shotThreatIndex": 89,
+            "shotOnTargetIndex": 100,
+            "bettingIndex": 83
+          },
+          "reliability": "high",
+          "note": "Replacement candidate found in existing player model."
+        }
+      },
+      {
+        "matchId": "norway-england-2026-07-11",
+        "team": "Norway",
+        "slotId": "norway_lw",
+        "slotLabel": "Norway left winger",
+        "primaryPlayer": "Antonio Nusa",
+        "expectedPrimaryMinutes": 65,
+        "replacementCandidates": [
+          {
+            "player": "Andreas Schjelderup",
+            "replacementProbability": 0.55,
+            "expectedMinutes": 20
+          }
+        ],
+        "slotMetrics": {
+          "slotShotsPer90": 0.96,
+          "slotShotsOnTargetPer90": 0.34,
+          "slotShotThreatIndex": 21,
+          "slotShotOnTargetIndex": 13
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 273,
+            "shots": 3,
+            "shotsOnTarget": 1,
+            "goals": 1,
+            "assists": 0,
+            "foulsCommitted": 1,
+            "foulsDrawn": 4,
+            "yellowCards": 1,
+            "shotsPer90": 0.99,
+            "shotsOnTargetPer90": 0.33,
+            "foulsCommittedPer90": 0.33,
+            "foulsDrawnPer90": 1.32
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 0.99,
+            "shotsOnTargetPer90": 0.33,
+            "foulsCommittedPer90": 0.33,
+            "foulsDrawnPer90": 1.32,
+            "shotThreatIndex": 22,
+            "shotOnTargetIndex": 13,
+            "bettingIndex": 20
+          },
+          "reliability": "high",
+          "note": "Replacement candidate found in existing player model."
+        }
+      },
+      {
+        "matchId": "norway-england-2026-07-11",
+        "team": "England",
+        "slotId": "england_st",
+        "slotLabel": "England centre forward",
+        "primaryPlayer": "Harry Kane",
+        "expectedPrimaryMinutes": 80,
+        "replacementCandidates": [
+          {
+            "player": "Marcus Rashford",
+            "replacementProbability": 0.55,
+            "expectedMinutes": 18
+          }
+        ],
+        "slotMetrics": {
+          "slotShotsPer90": 3.73,
+          "slotShotsOnTargetPer90": 1.88,
+          "slotShotThreatIndex": 82,
+          "slotShotOnTargetIndex": 71
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 465,
+            "shots": 19,
+            "shotsOnTarget": 10,
+            "goals": 6,
+            "assists": 1,
+            "foulsCommitted": 7,
+            "foulsDrawn": 7,
+            "yellowCards": 0,
+            "shotsPer90": 3.68,
+            "shotsOnTargetPer90": 1.94,
+            "foulsCommittedPer90": 1.35,
+            "foulsDrawnPer90": 1.35
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 3.68,
+            "shotsOnTargetPer90": 1.94,
+            "foulsCommittedPer90": 1.35,
+            "foulsDrawnPer90": 1.35,
+            "shotThreatIndex": 81,
+            "shotOnTargetIndex": 74,
+            "bettingIndex": 71
+          },
+          "reliability": "high",
+          "note": "Replacement candidate found in existing player model."
+        }
+      },
+      {
+        "matchId": "norway-england-2026-07-11",
+        "team": "England",
+        "slotId": "england_rw",
+        "slotLabel": "England right winger",
+        "primaryPlayer": "Bukayo Saka",
+        "expectedPrimaryMinutes": 75,
+        "replacementCandidates": [
+          {
+            "player": "Anthony Gordon",
+            "replacementProbability": 0.55,
+            "expectedMinutes": 25
+          }
+        ],
+        "slotMetrics": {
+          "slotShotsPer90": 2.04,
+          "slotShotsOnTargetPer90": 0.51,
+          "slotShotThreatIndex": 45,
+          "slotShotOnTargetIndex": 19
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 213,
+            "shots": 5,
+            "shotsOnTarget": 1,
+            "goals": 0,
+            "assists": 3,
+            "foulsCommitted": 3,
+            "foulsDrawn": 6,
+            "yellowCards": 0,
+            "shotsPer90": 2.11,
+            "shotsOnTargetPer90": 0.42,
+            "foulsCommittedPer90": 1.27,
+            "foulsDrawnPer90": 2.54
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 2.11,
+            "shotsOnTargetPer90": 0.42,
+            "foulsCommittedPer90": 1.27,
+            "foulsDrawnPer90": 2.54,
+            "shotThreatIndex": 46,
+            "shotOnTargetIndex": 16,
+            "bettingIndex": 32
+          },
+          "reliability": "high",
+          "note": "Replacement candidate found in existing player model."
+        }
+      }
+    ],
+    "argentina-switzerland-2026-07-11": [
+      {
+        "matchId": "argentina-switzerland-2026-07-11",
+        "team": "Argentina",
+        "slotId": "argentina_rf",
+        "slotLabel": "Argentina right forward",
+        "primaryPlayer": "Lionel Messi",
+        "expectedPrimaryMinutes": 75,
+        "replacementCandidates": [],
+        "slotMetrics": {
+          "slotShotsPer90": 5.93,
+          "slotShotsOnTargetPer90": 3.48,
+          "slotShotThreatIndex": 100,
+          "slotShotOnTargetIndex": 100
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 440,
+            "shots": 29,
+            "shotsOnTarget": 17,
+            "goals": 8,
+            "assists": 1,
+            "foulsCommitted": 2,
+            "foulsDrawn": 13,
+            "yellowCards": 0,
+            "shotsPer90": 5.93,
+            "shotsOnTargetPer90": 3.48,
+            "foulsCommittedPer90": 0.41,
+            "foulsDrawnPer90": 2.66
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 5.93,
+            "shotsOnTargetPer90": 3.48,
+            "foulsCommittedPer90": 0.41,
+            "foulsDrawnPer90": 2.66,
+            "shotThreatIndex": 100,
+            "shotOnTargetIndex": 100,
+            "bettingIndex": 90
+          },
+          "reliability": "medium",
+          "note": "No clear replacement candidate found in existing player model; player model should remain primary."
+        }
+      },
+      {
+        "matchId": "argentina-switzerland-2026-07-11",
+        "team": "Switzerland",
+        "slotId": "switzerland_st",
+        "slotLabel": "Switzerland centre forward",
+        "primaryPlayer": "Breel Embolo",
+        "expectedPrimaryMinutes": 70,
+        "replacementCandidates": [
+          {
+            "player": "Zeki Amdouni",
+            "replacementProbability": 0.55,
+            "expectedMinutes": 10
+          }
+        ],
+        "slotMetrics": {
+          "slotShotsPer90": 1.82,
+          "slotShotsOnTargetPer90": 0.75,
+          "slotShotThreatIndex": 40,
+          "slotShotOnTargetIndex": 29
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 442,
+            "shots": 9,
+            "shotsOnTarget": 4,
+            "goals": 2,
+            "assists": 2,
+            "foulsCommitted": 7,
+            "foulsDrawn": 8,
+            "yellowCards": 0,
+            "shotsPer90": 1.83,
+            "shotsOnTargetPer90": 0.81,
+            "foulsCommittedPer90": 1.43,
+            "foulsDrawnPer90": 1.63
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 1.83,
+            "shotsOnTargetPer90": 0.81,
+            "foulsCommittedPer90": 1.43,
+            "foulsDrawnPer90": 1.63,
+            "shotThreatIndex": 40,
+            "shotOnTargetIndex": 31,
+            "bettingIndex": 36
+          },
+          "reliability": "high",
+          "note": "Replacement candidate found in existing player model."
+        }
+      },
+      {
+        "matchId": "argentina-switzerland-2026-07-11",
+        "team": "Switzerland",
+        "slotId": "switzerland_rw",
+        "slotLabel": "Switzerland right winger",
+        "primaryPlayer": "Dan Ndoye",
+        "expectedPrimaryMinutes": 70,
+        "replacementCandidates": [
+          {
+            "player": "Rubén Vargas",
+            "replacementProbability": 0.55,
+            "expectedMinutes": 26
+          }
+        ],
+        "slotMetrics": {
+          "slotShotsPer90": 3.24,
+          "slotShotsOnTargetPer90": 1.57,
+          "slotShotThreatIndex": 71,
+          "slotShotOnTargetIndex": 60
+        },
+        "marketApplicability": {
+          "shots": true,
+          "shotsOnTarget": true,
+          "cards": false,
+          "fouls": false,
+          "notes": "Use only if bookmaker market counts replacement player stats."
+        },
+        "evidence": {
+          "primaryRawStats": {
+            "matches": 5,
+            "minutes": 332,
+            "shots": 13,
+            "shotsOnTarget": 6,
+            "goals": 1,
+            "assists": 0,
+            "foulsCommitted": 4,
+            "foulsDrawn": 16,
+            "yellowCards": 0,
+            "shotsPer90": 3.52,
+            "shotsOnTargetPer90": 1.63,
+            "foulsCommittedPer90": 1.08,
+            "foulsDrawnPer90": 4.34
+          },
+          "primaryWeightedStats": {
+            "shotsPer90": 3.52,
+            "shotsOnTargetPer90": 1.63,
+            "foulsCommittedPer90": 1.08,
+            "foulsDrawnPer90": 4.34,
+            "shotThreatIndex": 77,
+            "shotOnTargetIndex": 62,
+            "bettingIndex": 63
+          },
+          "reliability": "high",
+          "note": "Replacement candidate found in existing player model."
+        }
+      }
+    ]
+  }
+}

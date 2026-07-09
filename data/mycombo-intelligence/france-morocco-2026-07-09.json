@@ -1727,5 +1727,120 @@
     "completion": 100,
     "advancedStats": "partial_espn_base",
     "missingContext": []
-  }
+  },
+  "roleSlotModel": [
+    {
+      "matchId": "france-morocco-2026-07-09",
+      "team": "France",
+      "slotId": "france_cf",
+      "slotLabel": "France centre forward",
+      "primaryPlayer": "Kylian Mbappé",
+      "expectedPrimaryMinutes": 80,
+      "replacementCandidates": [
+        {
+          "player": "Marcus Thuram",
+          "replacementProbability": 0.55,
+          "expectedMinutes": 10
+        }
+      ],
+      "slotMetrics": {
+        "slotShotsPer90": 4.72,
+        "slotShotsOnTargetPer90": 3.09,
+        "slotShotThreatIndex": 100,
+        "slotShotOnTargetIndex": 100
+      },
+      "marketApplicability": {
+        "shots": true,
+        "shotsOnTarget": true,
+        "cards": false,
+        "fouls": false,
+        "notes": "Use only if bookmaker market counts replacement player stats."
+      },
+      "evidence": {
+        "primaryRawStats": {
+          "matches": 5,
+          "minutes": 464,
+          "shots": 26,
+          "shotsOnTarget": 17,
+          "goals": 7,
+          "assists": 2,
+          "foulsCommitted": 5,
+          "foulsDrawn": 5,
+          "yellowCards": 0,
+          "shotsPer90": 5.04,
+          "shotsOnTargetPer90": 3.3,
+          "foulsCommittedPer90": 0.97,
+          "foulsDrawnPer90": 0.97
+        },
+        "primaryWeightedStats": {
+          "shotsPer90": 5.04,
+          "shotsOnTargetPer90": 3.3,
+          "foulsCommittedPer90": 0.97,
+          "foulsDrawnPer90": 0.97,
+          "shotThreatIndex": 100,
+          "shotOnTargetIndex": 100,
+          "bettingIndex": 90
+        },
+        "reliability": "high",
+        "note": "Replacement candidate found in existing player model."
+      }
+    },
+    {
+      "matchId": "france-morocco-2026-07-09",
+      "team": "Morocco",
+      "slotId": "morocco_st",
+      "slotLabel": "Morocco centre forward",
+      "primaryPlayer": "Soufiane Rahimi",
+      "expectedPrimaryMinutes": 75,
+      "replacementCandidates": [
+        {
+          "player": "Ayoub El Kaabi",
+          "replacementProbability": 0.55,
+          "expectedMinutes": 10
+        }
+      ],
+      "slotMetrics": {
+        "slotShotsPer90": 3.25,
+        "slotShotsOnTargetPer90": 2.17,
+        "slotShotThreatIndex": 72,
+        "slotShotOnTargetIndex": 82
+      },
+      "marketApplicability": {
+        "shots": true,
+        "shotsOnTarget": true,
+        "cards": false,
+        "fouls": false,
+        "notes": "Use only if bookmaker market counts replacement player stats."
+      },
+      "evidence": {
+        "primaryRawStats": {
+          "matches": 5,
+          "minutes": 168,
+          "shots": 6,
+          "shotsOnTarget": 4,
+          "goals": 2,
+          "assists": 1,
+          "foulsCommitted": 5,
+          "foulsDrawn": 6,
+          "yellowCards": 0,
+          "shotsPer90": 3.21,
+          "shotsOnTargetPer90": 2.14,
+          "foulsCommittedPer90": 2.68,
+          "foulsDrawnPer90": 3.21
+        },
+        "primaryWeightedStats": {
+          "shotsPer90": 3.21,
+          "shotsOnTargetPer90": 2.14,
+          "foulsCommittedPer90": 2.68,
+          "foulsDrawnPer90": 3.21,
+          "shotThreatIndex": 71,
+          "shotOnTargetIndex": 81,
+          "bettingIndex": 70
+        },
+        "reliability": "high",
+        "note": "Replacement candidate found in existing player model."
+      }
+    }
+  ],
+  "sourceRoleSlotModel": "data/player-stats/quarterfinals-role-slot-model.json"
 }

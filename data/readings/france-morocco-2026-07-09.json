@@ -1,5 +1,5 @@
 {
-  "status": "complete",
+  "status": "partial_missing_context",
   "match": "Francia-Marocco",
   "date": "2026-07-09",
   "summary": "Lettura operativa basata su weighted player model completo: France vs Morocco. Priorita a tiri/SOT dei profili con continuita, cartellini/falli su ruoli esposti e contesto stadio/meteo se disponibile.",
@@ -139,23 +139,63 @@
   ],
   "cardScenario": {
     "primary": "team cards/fouls prima dei singoli cartellini",
-    "environment": "Aumenta leggermente rischio cartellini"
+    "environment": "Aumenta leggermente rischio cartellini",
+    "teamDiscipline": {
+      "France": {
+        "disciplineIndex": 63,
+        "weightedFoulsCommitted": 9.95,
+        "weightedYellowCards": 0.93
+      },
+      "Morocco": {
+        "disciplineIndex": 51,
+        "weightedFoulsCommitted": 12.82,
+        "weightedYellowCards": 1.28
+      }
+    }
   },
   "shotsScenario": {
-    "primary": "Kylian Mbappé tiri/SOT, Ayoube Amaimouni tiri/SOT, Soufiane Rahimi tiri/SOT"
+    "primary": "Kylian Mbappé tiri/SOT, Ayoube Amaimouni tiri/SOT, Soufiane Rahimi tiri/SOT",
+    "teamModel": {
+      "France": {
+        "weightedShotsForPerMatch": 17.41,
+        "weightedShotsOnTargetForPerMatch": 7.89
+      },
+      "Morocco": {
+        "weightedShotsForPerMatch": 11.91,
+        "weightedShotsOnTargetForPerMatch": 4.51
+      }
+    }
   },
   "cornersScenario": {
-    "primary": "favorita territoriale se game script resta bloccato"
+    "primary": "favorita territoriale se game script resta bloccato",
+    "dataNote": "Corner non completi nei provider disponibili; usare solo con confidence ridotta o conferma Sisal/live."
   },
   "goalScenario": {
-    "primary": "gol/assist solo se supportato da indici goal/playmaking alti"
+    "primary": "gol/assist solo se supportato da indici goal/playmaking alti",
+    "teamAttackDefense": {
+      "France": {
+        "attackIndex": 100,
+        "defenseIndex": 71,
+        "weightedGoalsFor": 2.71,
+        "weightedGoalsAgainst": 0.41
+      },
+      "Morocco": {
+        "attackIndex": 62,
+        "defenseIndex": 60,
+        "weightedGoalsFor": 1.78,
+        "weightedGoalsAgainst": 0.63
+      }
+    }
   },
   "riskFactors": [
     "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
     "player prop sensibili a titolarita e sostituzioni",
     "cartellini individuali ad alta varianza"
   ],
-  "missingContext": [],
+  "missingContext": [
+    "France: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
+    "Morocco: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst"
+  ],
   "sitePublication": {
     "quoteErrors": [
       {
@@ -175,9 +215,239 @@
       }
     ],
     "bookingComboCandidates": [
-      { "player": "Hakimi", "team": "Marocco" },
-      { "player": "El Aynaoui", "team": "Marocco" },
-      { "player": "Tchouameni", "team": "Francia" }
+      {
+        "player": "Hakimi",
+        "team": "Marocco"
+      },
+      {
+        "player": "El Aynaoui",
+        "team": "Marocco"
+      },
+      {
+        "player": "Tchouameni",
+        "team": "Francia"
+      }
     ]
-  }
+  },
+  "dataQuality": {
+    "playerStats": "complete",
+    "teamStats": "partial",
+    "context": "partial",
+    "roleSlotModel": "complete"
+  },
+  "teamStatsEvidence": {
+    "France": {
+      "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+      "weightedModel": {
+        "matches": 5,
+        "weightedGoalsForPerMatch": 2.71,
+        "weightedGoalsAgainstPerMatch": 0.41,
+        "weightedShotsForPerMatch": 17.41,
+        "weightedShotsAgainstPerMatch": 6.69,
+        "weightedShotsOnTargetForPerMatch": 7.89,
+        "weightedShotsOnTargetAgainstPerMatch": 1.84,
+        "weightedCornersForPerMatch": null,
+        "weightedCornersAgainstPerMatch": null,
+        "disciplineIndex": 63,
+        "attackIndex": 100,
+        "defenseIndex": 71,
+        "cornerIndex": null,
+        "tempoIndex": 80,
+        "pressureIndex": 78
+      },
+      "trends": {
+        "lastTwoMatches": {
+          "shotsForPerMatch": 20,
+          "shotsOnTargetForPerMatch": 8.5,
+          "foulsCommittedPerMatch": 12.5,
+          "yellowCardsPerMatch": 1.5
+        },
+        "knockout": {
+          "matches": 2,
+          "shotsForPerMatch": 20,
+          "shotsOnTargetForPerMatch": 8.5,
+          "foulsCommittedPerMatch": 12.5,
+          "yellowCardsPerMatch": 1.5
+        }
+      },
+      "missingFields": [
+        "cornersFor",
+        "cornersAgainst",
+        "possession",
+        "saves",
+        "firstHalfGoalsFor",
+        "firstHalfGoalsAgainst",
+        "secondHalfGoalsFor",
+        "secondHalfGoalsAgainst"
+      ]
+    },
+    "Morocco": {
+      "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+      "weightedModel": {
+        "matches": 5,
+        "weightedGoalsForPerMatch": 1.78,
+        "weightedGoalsAgainstPerMatch": 0.63,
+        "weightedShotsForPerMatch": 11.91,
+        "weightedShotsAgainstPerMatch": 8.69,
+        "weightedShotsOnTargetForPerMatch": 4.51,
+        "weightedShotsOnTargetAgainstPerMatch": 2.63,
+        "weightedCornersForPerMatch": null,
+        "weightedCornersAgainstPerMatch": null,
+        "disciplineIndex": 51,
+        "attackIndex": 62,
+        "defenseIndex": 60,
+        "cornerIndex": null,
+        "tempoIndex": 69,
+        "pressureIndex": 88
+      },
+      "trends": {
+        "lastTwoMatches": {
+          "shotsForPerMatch": 8,
+          "shotsOnTargetForPerMatch": 4.5,
+          "foulsCommittedPerMatch": 14.5,
+          "yellowCardsPerMatch": 2.5
+        },
+        "knockout": {
+          "matches": 2,
+          "shotsForPerMatch": 8,
+          "shotsOnTargetForPerMatch": 4.5,
+          "foulsCommittedPerMatch": 14.5,
+          "yellowCardsPerMatch": 2.5
+        }
+      },
+      "missingFields": [
+        "cornersFor",
+        "cornersAgainst",
+        "possession",
+        "saves",
+        "firstHalfGoalsFor",
+        "firstHalfGoalsAgainst",
+        "secondHalfGoalsFor",
+        "secondHalfGoalsAgainst"
+      ]
+    }
+  },
+  "roleSlotEdges": [
+    {
+      "team": "France",
+      "slotId": "france_cf",
+      "primaryPlayer": "Kylian Mbappé",
+      "replacementCandidates": [
+        "Marcus Thuram"
+      ],
+      "slotShotsPer90": 4.72,
+      "slotShotsOnTargetPer90": 3.09,
+      "reliability": "high"
+    },
+    {
+      "team": "Morocco",
+      "slotId": "morocco_st",
+      "primaryPlayer": "Soufiane Rahimi",
+      "replacementCandidates": [
+        "Ayoub El Kaabi"
+      ],
+      "slotShotsPer90": 3.25,
+      "slotShotsOnTargetPer90": 2.17,
+      "reliability": "high"
+    }
+  ],
+  "matchEnvironmentEvidence": {
+    "sourceFile": "data/match-environment/quarterfinals-2026.json",
+    "stadium": "Boston Stadium / Gillette Stadium",
+    "city": "Foxborough / Boston",
+    "altitudeMeters": 90,
+    "roofType": "open-air / senza tetto",
+    "climateControlled": false,
+    "referee": {
+      "confidence": "high",
+      "status": "confirmed",
+      "name": "Facundo Tello",
+      "shortName": "Tello F.",
+      "country": "Argentina",
+      "assistantReferees": [
+        "Juan Belatti",
+        "Gabriel Chade"
+      ],
+      "fourthOfficial": "Dario Herrera",
+      "reserveAssistantReferee": "Cristian Navarro",
+      "VAR": "Hernan Mastrangelo",
+      "AVAR": "Leodan Gonzalez"
+    },
+    "refereeProfile": {
+      "confidence": "medium",
+      "notes": [
+        "Ha arbitrato 2 partite nel Mondiale 2026 prima del quarto.",
+        "Ha gia arbitrato Canada-Bosnia nella fase a gironi.",
+        "Media generale alta di cartellini: circa 4.6-5.2 gialli a partita secondo database referee.",
+        "Profilo storicamente severo, noto anche per partite con molti rossi.",
+        "Precedente importante con il Marocco: quarto di finale Mondiale 2022 Marocco-Portogallo, con espulsione di Walid Cheddira.",
+        "Attenzione al contesto politico/psicologico: squadra arbitrale tutta argentina e Francia reduce da polemiche arbitrali, ma non trasformare questo in dato predittivo automatico."
+      ]
+    },
+    "weather": {
+      "confidence": "medium",
+      "temperatureCelsiusApprox": 30,
+      "condition": "Caldo, piu sole che nuvole, pioggia non prevista",
+      "realFeel": "Superiore alla temperatura reale",
+      "impact": [
+        "Possibile calo ritmo nella seconda parte",
+        "Possibile aumento importanza dei cambi",
+        "Possibile impatto su pressing continuo",
+        "Cooling break probabile/possibile se condizioni lo richiedono"
+      ]
+    },
+    "modelImpact": {
+      "cards": "Aumenta leggermente rischio cartellini",
+      "fouls": "Aumenta peso mercati falli/cartellini",
+      "tempo": "Caldo puo abbassare intensita e pressing continuo",
+      "shots": "Attenzione agli over tiri troppo alti se il ritmo cala"
+    }
+  },
+  "shotsOnTargetScenario": {
+    "primary": "Preferire giocatori con minutaggio stabile e slot tiri coperto solo se il mercato include il sostituto."
+  },
+  "cardsScenario": {
+    "primary": "team cards/fouls prima dei singoli cartellini",
+    "environment": "Aumenta leggermente rischio cartellini",
+    "teamDiscipline": {
+      "France": {
+        "disciplineIndex": 63,
+        "weightedFoulsCommitted": 9.95,
+        "weightedYellowCards": 0.93
+      },
+      "Morocco": {
+        "disciplineIndex": 51,
+        "weightedFoulsCommitted": 12.82,
+        "weightedYellowCards": 1.28
+      }
+    }
+  },
+  "marketSuggestions": [
+    {
+      "marketType": "shots player",
+      "source": "playerModel/roleSlotModel",
+      "note": "Usare solo profili con minutes e volume tiri reali nelle 5 partite."
+    },
+    {
+      "marketType": "shots team",
+      "source": "teamStatsModel",
+      "note": "Preferire squadre con weightedShotsForPerMatch alto e scenario di rincorsa."
+    },
+    {
+      "marketType": "cards/fouls team",
+      "source": "teamStatsModel/refereeEvidence",
+      "note": "Usare disciplina squadra e arbitro se disponibile."
+    }
+  ],
+  "marketsToAvoid": [
+    "Cartellini giocatore senza duello diretto o minutaggio chiaro",
+    "Corner linee alte quando cornersFor/cornersAgainst sono null",
+    "Player prop su non titolari senza copertura roleSlotModel"
+  ],
+  "riskWarnings": [
+    "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
+    "player prop sensibili a titolarita e sostituzioni",
+    "cartellini individuali ad alta varianza",
+    "Campi avanzati non disponibili restano null e non vanno stimati."
+  ]
 }

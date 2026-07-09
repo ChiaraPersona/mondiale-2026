@@ -19,7 +19,117 @@
         "selectionId": 5209002862,
         "marketId": 791621120,
         "category": "falli",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "referee_team",
+          "team": "France / Morocco",
+          "market": "falli",
+          "usedModel": "teamStatsModel+refereeEvidence",
+          "teamStatsEvidence": [
+            {
+              "team": "France",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.71,
+                "weightedGoalsAgainstPerMatch": 0.41,
+                "weightedShotsForPerMatch": 17.41,
+                "weightedShotsAgainstPerMatch": 6.69,
+                "weightedShotsOnTargetForPerMatch": 7.89,
+                "weightedShotsOnTargetAgainstPerMatch": 1.84,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 63,
+                "attackIndex": 100,
+                "defenseIndex": 71,
+                "cornerIndex": null,
+                "tempoIndex": 80,
+                "pressureIndex": 78
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            },
+            {
+              "team": "Morocco",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 1.78,
+                "weightedGoalsAgainstPerMatch": 0.63,
+                "weightedShotsForPerMatch": 11.91,
+                "weightedShotsAgainstPerMatch": 8.69,
+                "weightedShotsOnTargetForPerMatch": 4.51,
+                "weightedShotsOnTargetAgainstPerMatch": 2.63,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 51,
+                "attackIndex": 62,
+                "defenseIndex": 60,
+                "cornerIndex": null,
+                "tempoIndex": 69,
+                "pressureIndex": 88
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "falli"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra France / Morocco e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-904497",
@@ -30,7 +140,117 @@
         "selectionId": 5207904497,
         "marketId": 791420716,
         "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "France / Morocco",
+          "market": "gol",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "France",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.71,
+                "weightedGoalsAgainstPerMatch": 0.41,
+                "weightedShotsForPerMatch": 17.41,
+                "weightedShotsAgainstPerMatch": 6.69,
+                "weightedShotsOnTargetForPerMatch": 7.89,
+                "weightedShotsOnTargetAgainstPerMatch": 1.84,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 63,
+                "attackIndex": 100,
+                "defenseIndex": 71,
+                "cornerIndex": null,
+                "tempoIndex": 80,
+                "pressureIndex": 78
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            },
+            {
+              "team": "Morocco",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 1.78,
+                "weightedGoalsAgainstPerMatch": 0.63,
+                "weightedShotsForPerMatch": 11.91,
+                "weightedShotsAgainstPerMatch": 8.69,
+                "weightedShotsOnTargetForPerMatch": 4.51,
+                "weightedShotsOnTargetAgainstPerMatch": 2.63,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 51,
+                "attackIndex": 62,
+                "defenseIndex": 60,
+                "cornerIndex": null,
+                "tempoIndex": 69,
+                "pressureIndex": 88
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "gol"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra France / Morocco e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Mercato situazionale con evidenza statistica indiretta.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-171399",
@@ -41,13 +261,79 @@
         "selectionId": 5208171399,
         "marketId": 791464366,
         "category": "falli",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "referee_team",
+          "team": "France",
+          "market": "falli",
+          "usedModel": "teamStatsModel+refereeEvidence",
+          "teamStatsEvidence": [
+            {
+              "team": "France",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.71,
+                "weightedGoalsAgainstPerMatch": 0.41,
+                "weightedShotsForPerMatch": 17.41,
+                "weightedShotsAgainstPerMatch": 6.69,
+                "weightedShotsOnTargetForPerMatch": 7.89,
+                "weightedShotsOnTargetAgainstPerMatch": 1.84,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 63,
+                "attackIndex": 100,
+                "defenseIndex": 71,
+                "cornerIndex": null,
+                "tempoIndex": 80,
+                "pressureIndex": 78
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "falli"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra France e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       }
     ],
     "finalOdds": 5.01,
     "targetOdds": "4-6",
     "averageRisk": 40,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
+    "eventsWithStatEvidence": 3,
+    "lowConfidenceEvents": []
   },
   "balanced": {
     "name": "Balanced",
@@ -61,7 +347,71 @@
         "selectionId": 5206486494,
         "marketId": 791152114,
         "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "France",
+          "market": "gol",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "France",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.71,
+                "weightedGoalsAgainstPerMatch": 0.41,
+                "weightedShotsForPerMatch": 17.41,
+                "weightedShotsAgainstPerMatch": 6.69,
+                "weightedShotsOnTargetForPerMatch": 7.89,
+                "weightedShotsOnTargetAgainstPerMatch": 1.84,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 63,
+                "attackIndex": 100,
+                "defenseIndex": 71,
+                "cornerIndex": null,
+                "tempoIndex": 80,
+                "pressureIndex": 78
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "gol"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra France e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-451406",
@@ -72,7 +422,117 @@
         "selectionId": 5206451406,
         "marketId": 791136999,
         "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "France / Morocco",
+          "market": "gol",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "France",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.71,
+                "weightedGoalsAgainstPerMatch": 0.41,
+                "weightedShotsForPerMatch": 17.41,
+                "weightedShotsAgainstPerMatch": 6.69,
+                "weightedShotsOnTargetForPerMatch": 7.89,
+                "weightedShotsOnTargetAgainstPerMatch": 1.84,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 63,
+                "attackIndex": 100,
+                "defenseIndex": 71,
+                "cornerIndex": null,
+                "tempoIndex": 80,
+                "pressureIndex": 78
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            },
+            {
+              "team": "Morocco",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 1.78,
+                "weightedGoalsAgainstPerMatch": 0.63,
+                "weightedShotsForPerMatch": 11.91,
+                "weightedShotsAgainstPerMatch": 8.69,
+                "weightedShotsOnTargetForPerMatch": 4.51,
+                "weightedShotsOnTargetAgainstPerMatch": 2.63,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 51,
+                "attackIndex": 62,
+                "defenseIndex": 60,
+                "cornerIndex": null,
+                "tempoIndex": 69,
+                "pressureIndex": 88
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "gol"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra France / Morocco e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-487161",
@@ -83,7 +543,117 @@
         "selectionId": 5206487161,
         "marketId": 791152244,
         "category": "tiri",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "France / Morocco",
+          "market": "tiri",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "France",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.71,
+                "weightedGoalsAgainstPerMatch": 0.41,
+                "weightedShotsForPerMatch": 17.41,
+                "weightedShotsAgainstPerMatch": 6.69,
+                "weightedShotsOnTargetForPerMatch": 7.89,
+                "weightedShotsOnTargetAgainstPerMatch": 1.84,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 63,
+                "attackIndex": 100,
+                "defenseIndex": 71,
+                "cornerIndex": null,
+                "tempoIndex": 80,
+                "pressureIndex": 78
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            },
+            {
+              "team": "Morocco",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 1.78,
+                "weightedGoalsAgainstPerMatch": 0.63,
+                "weightedShotsForPerMatch": 11.91,
+                "weightedShotsAgainstPerMatch": 8.69,
+                "weightedShotsOnTargetForPerMatch": 4.51,
+                "weightedShotsOnTargetAgainstPerMatch": 2.63,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 51,
+                "attackIndex": 62,
+                "defenseIndex": 60,
+                "cornerIndex": null,
+                "tempoIndex": 69,
+                "pressureIndex": 88
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "tiri"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra France / Morocco e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-017467",
@@ -94,13 +664,125 @@
         "selectionId": 5207017467,
         "marketId": 791255273,
         "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "France / Morocco",
+          "market": "corner",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "France",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.71,
+                "weightedGoalsAgainstPerMatch": 0.41,
+                "weightedShotsForPerMatch": 17.41,
+                "weightedShotsAgainstPerMatch": 6.69,
+                "weightedShotsOnTargetForPerMatch": 7.89,
+                "weightedShotsOnTargetAgainstPerMatch": 1.84,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 63,
+                "attackIndex": 100,
+                "defenseIndex": 71,
+                "cornerIndex": null,
+                "tempoIndex": 80,
+                "pressureIndex": 78
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            },
+            {
+              "team": "Morocco",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 1.78,
+                "weightedGoalsAgainstPerMatch": 0.63,
+                "weightedShotsForPerMatch": 11.91,
+                "weightedShotsAgainstPerMatch": 8.69,
+                "weightedShotsOnTargetForPerMatch": 4.51,
+                "weightedShotsOnTargetAgainstPerMatch": 2.63,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 51,
+                "attackIndex": 62,
+                "defenseIndex": 60,
+                "cornerIndex": null,
+                "tempoIndex": 69,
+                "pressureIndex": 88
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "corner"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra France / Morocco e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       }
     ],
     "finalOdds": 9.94,
     "targetOdds": "8-12",
     "averageRisk": 40,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
+    "eventsWithStatEvidence": 4,
+    "lowConfidenceEvents": []
   },
   "aggressive": {
     "name": "Aggressive",
@@ -114,7 +796,71 @@
         "selectionId": 5206486494,
         "marketId": 791152114,
         "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "France",
+          "market": "gol",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "France",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.71,
+                "weightedGoalsAgainstPerMatch": 0.41,
+                "weightedShotsForPerMatch": 17.41,
+                "weightedShotsAgainstPerMatch": 6.69,
+                "weightedShotsOnTargetForPerMatch": 7.89,
+                "weightedShotsOnTargetAgainstPerMatch": 1.84,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 63,
+                "attackIndex": 100,
+                "defenseIndex": 71,
+                "cornerIndex": null,
+                "tempoIndex": 80,
+                "pressureIndex": 78
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "gol"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra France e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-174815",
@@ -125,7 +871,71 @@
         "selectionId": 5208174815,
         "marketId": 791465220,
         "category": "tiri",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "Morocco",
+          "market": "tiri",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "Morocco",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 1.78,
+                "weightedGoalsAgainstPerMatch": 0.63,
+                "weightedShotsForPerMatch": 11.91,
+                "weightedShotsAgainstPerMatch": 8.69,
+                "weightedShotsOnTargetForPerMatch": 4.51,
+                "weightedShotsOnTargetAgainstPerMatch": 2.63,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 51,
+                "attackIndex": 62,
+                "defenseIndex": 60,
+                "cornerIndex": null,
+                "tempoIndex": 69,
+                "pressureIndex": 88
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "tiri"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra Morocco e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Rischio coerente con quota e dati disponibili.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-488144",
@@ -136,7 +946,71 @@
         "selectionId": 5206488144,
         "marketId": 791152472,
         "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "France",
+          "market": "gol",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "France",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.71,
+                "weightedGoalsAgainstPerMatch": 0.41,
+                "weightedShotsForPerMatch": 17.41,
+                "weightedShotsAgainstPerMatch": 6.69,
+                "weightedShotsOnTargetForPerMatch": 7.89,
+                "weightedShotsOnTargetAgainstPerMatch": 1.84,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 63,
+                "attackIndex": 100,
+                "defenseIndex": 71,
+                "cornerIndex": null,
+                "tempoIndex": 80,
+                "pressureIndex": 78
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "gol"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra France e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Mercato situazionale con evidenza statistica indiretta.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-488184",
@@ -147,7 +1021,71 @@
         "selectionId": 5206488184,
         "marketId": 791152482,
         "category": "gol",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "Morocco",
+          "market": "gol",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "Morocco",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 1.78,
+                "weightedGoalsAgainstPerMatch": 0.63,
+                "weightedShotsForPerMatch": 11.91,
+                "weightedShotsAgainstPerMatch": 8.69,
+                "weightedShotsOnTargetForPerMatch": 4.51,
+                "weightedShotsOnTargetAgainstPerMatch": 2.63,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 51,
+                "attackIndex": 62,
+                "defenseIndex": 60,
+                "cornerIndex": null,
+                "tempoIndex": 69,
+                "pressureIndex": 88
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 8,
+                  "shotsOnTargetForPerMatch": 4.5,
+                  "foulsCommittedPerMatch": 14.5,
+                  "yellowCardsPerMatch": 2.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "gol"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra Morocco e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Mercato situazionale con evidenza statistica indiretta.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       },
       {
         "id": "event-017317",
@@ -158,13 +1096,79 @@
         "selectionId": 5207017317,
         "marketId": 791255239,
         "category": "corner",
-        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
+        "reason": "Mercato reale Sisal scelto per quota target e coerenza con lettura.",
+        "statEvidence": {
+          "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+          "type": "team",
+          "team": "France",
+          "market": "corner",
+          "usedModel": "teamStatsModel",
+          "teamStatsEvidence": [
+            {
+              "team": "France",
+              "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+              "teamWeightedModel": {
+                "matches": 5,
+                "weightedGoalsForPerMatch": 2.71,
+                "weightedGoalsAgainstPerMatch": 0.41,
+                "weightedShotsForPerMatch": 17.41,
+                "weightedShotsAgainstPerMatch": 6.69,
+                "weightedShotsOnTargetForPerMatch": 7.89,
+                "weightedShotsOnTargetAgainstPerMatch": 1.84,
+                "weightedCornersForPerMatch": null,
+                "weightedCornersAgainstPerMatch": null,
+                "disciplineIndex": 63,
+                "attackIndex": 100,
+                "defenseIndex": 71,
+                "cornerIndex": null,
+                "tempoIndex": 80,
+                "pressureIndex": 78
+              },
+              "trends": {
+                "lastTwoMatches": {
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                },
+                "knockout": {
+                  "matches": 2,
+                  "shotsForPerMatch": 20,
+                  "shotsOnTargetForPerMatch": 8.5,
+                  "foulsCommittedPerMatch": 12.5,
+                  "yellowCardsPerMatch": 1.5
+                }
+              },
+              "missingFields": [
+                "cornersFor",
+                "cornersAgainst",
+                "possession",
+                "saves",
+                "firstHalfGoalsFor",
+                "firstHalfGoalsAgainst",
+                "secondHalfGoalsFor",
+                "secondHalfGoalsAgainst"
+              ]
+            }
+          ],
+          "matchReadingEvidence": {
+            "sourceFile": "data/readings/france-morocco-2026-07-09.json",
+            "linkedScenario": "corner"
+          },
+          "confidence": "medium",
+          "reason": "Evento collegato al modello squadra France e alla lettura partita."
+        },
+        "confidence": "medium",
+        "riskWarning": "Corner incompleti nel team model: confidence ridotta se manca conferma live/provider.",
+        "whyIncluded": "Mercato reale Sisal scelto per quota target e coerenza con lettura."
       }
     ],
     "finalOdds": 21.59,
     "targetOdds": "18-25",
     "averageRisk": 40,
-    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto."
+    "motivation": "Eventi reali Sisal selezionati per rientrare nella fascia quota e restare coerenti con player model e contesto.",
+    "eventsWithStatEvidence": 5,
+    "lowConfidenceEvents": []
   },
   "reasoning": {
     "summary": "Combinazioni costruite solo su mercati reali Sisal, weighted player model, team trend e match context.",
@@ -263,5 +1267,8 @@
     "quoteMarkets": 7320,
     "advancedStats": "partial_espn_base",
     "missingContext": []
-  }
+  },
+  "sourceTeamStats": "data/team-stats/quarterfinals-team-model.json",
+  "sourceRoleSlotModel": "data/player-stats/quarterfinals-role-slot-model.json",
+  "sourceMatchEnvironment": "data/match-environment/quarterfinals-2026.json"
 }

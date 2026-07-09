@@ -133,16 +133,53 @@
   ],
   "cardScenario": {
     "primary": "team cards/fouls prima dei singoli cartellini",
-    "environment": null
+    "environment": null,
+    "teamDiscipline": {
+      "Argentina": {
+        "disciplineIndex": 64,
+        "weightedFoulsCommitted": 12.27,
+        "weightedYellowCards": 0.66
+      },
+      "Switzerland": {
+        "disciplineIndex": 47,
+        "weightedFoulsCommitted": 14.63,
+        "weightedYellowCards": 1.33
+      }
+    }
   },
   "shotsScenario": {
-    "primary": "Lionel Messi tiri/SOT, Dan Ndoye tiri/SOT, Johan Manzambi tiri/SOT"
+    "primary": "Lionel Messi tiri/SOT, Dan Ndoye tiri/SOT, Johan Manzambi tiri/SOT",
+    "teamModel": {
+      "Argentina": {
+        "weightedShotsForPerMatch": 16.18,
+        "weightedShotsOnTargetForPerMatch": 6.94
+      },
+      "Switzerland": {
+        "weightedShotsForPerMatch": 11.54,
+        "weightedShotsOnTargetForPerMatch": 4.63
+      }
+    }
   },
   "cornersScenario": {
-    "primary": "favorita territoriale se game script resta bloccato"
+    "primary": "favorita territoriale se game script resta bloccato",
+    "dataNote": "Corner non completi nei provider disponibili; usare solo con confidence ridotta o conferma Sisal/live."
   },
   "goalScenario": {
-    "primary": "gol/assist solo se supportato da indici goal/playmaking alti"
+    "primary": "gol/assist solo se supportato da indici goal/playmaking alti",
+    "teamAttackDefense": {
+      "Argentina": {
+        "attackIndex": 90,
+        "defenseIndex": 61,
+        "weightedGoalsFor": 2.53,
+        "weightedGoalsAgainst": 1.17
+      },
+      "Switzerland": {
+        "attackIndex": 62,
+        "defenseIndex": 53,
+        "weightedGoalsFor": 1.64,
+        "weightedGoalsAgainst": 0.36
+      }
+    }
   },
   "riskFactors": [
     "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
@@ -150,21 +187,234 @@
     "cartellini individuali ad alta varianza"
   ],
   "missingContext": [
-    "referee confirmed",
-    "probable formations"
+    "Argentina: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
+    "Switzerland: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
+    "referee not confirmed",
+    "weather low confidence/da aggiornare"
   ],
   "sitePublication": {
     "probableFormations": null,
     "probableFormationsNote": "Probabili formazioni Argentina-Svizzera ancora da inserire. Non stimate.",
     "quoteErrors": [
-      { "market": "Argentina over tiri totali", "odds": 2, "note": "Prezzo interessante se l'Argentina tiene campo." },
-      { "market": "Argentina over 5.5 tiri in porta squadra", "odds": 2, "note": "Linea aggressiva ma coerente in scenario dominante." },
-      { "market": "Over 8.5 tiri in porta match", "odds": 1.9, "note": "Buono se la Svizzera non resta solo bassa." }
+      {
+        "market": "Argentina over tiri totali",
+        "odds": 2,
+        "note": "Prezzo interessante se l'Argentina tiene campo."
+      },
+      {
+        "market": "Argentina over 5.5 tiri in porta squadra",
+        "odds": 2,
+        "note": "Linea aggressiva ma coerente in scenario dominante."
+      },
+      {
+        "market": "Over 8.5 tiri in porta match",
+        "odds": 1.9,
+        "note": "Buono se la Svizzera non resta solo bassa."
+      }
     ],
     "bookingComboCandidates": [
-      { "player": "Ricardo Rodriguez", "team": "Svizzera" },
-      { "player": "Cristian Romero", "team": "Argentina" },
-      { "player": "Nico Elvedi", "team": "Svizzera" }
+      {
+        "player": "Ricardo Rodriguez",
+        "team": "Svizzera"
+      },
+      {
+        "player": "Cristian Romero",
+        "team": "Argentina"
+      },
+      {
+        "player": "Nico Elvedi",
+        "team": "Svizzera"
+      }
     ]
-  }
+  },
+  "dataQuality": {
+    "playerStats": "complete",
+    "teamStats": "partial",
+    "context": "partial",
+    "roleSlotModel": "complete"
+  },
+  "teamStatsEvidence": {
+    "Argentina": {
+      "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+      "weightedModel": {
+        "matches": 5,
+        "weightedGoalsForPerMatch": 2.53,
+        "weightedGoalsAgainstPerMatch": 1.17,
+        "weightedShotsForPerMatch": 16.18,
+        "weightedShotsAgainstPerMatch": 8.63,
+        "weightedShotsOnTargetForPerMatch": 6.94,
+        "weightedShotsOnTargetAgainstPerMatch": 2.2,
+        "weightedCornersForPerMatch": null,
+        "weightedCornersAgainstPerMatch": null,
+        "disciplineIndex": 64,
+        "attackIndex": 90,
+        "defenseIndex": 61,
+        "cornerIndex": null,
+        "tempoIndex": 83,
+        "pressureIndex": 81
+      },
+      "trends": {
+        "lastTwoMatches": {
+          "shotsForPerMatch": 20.5,
+          "shotsOnTargetForPerMatch": 8.5,
+          "foulsCommittedPerMatch": 13,
+          "yellowCardsPerMatch": 0.5
+        },
+        "knockout": {
+          "matches": 2,
+          "shotsForPerMatch": 20.5,
+          "shotsOnTargetForPerMatch": 8.5,
+          "foulsCommittedPerMatch": 13,
+          "yellowCardsPerMatch": 0.5
+        }
+      },
+      "missingFields": [
+        "cornersFor",
+        "cornersAgainst",
+        "possession",
+        "saves",
+        "firstHalfGoalsFor",
+        "firstHalfGoalsAgainst",
+        "secondHalfGoalsFor",
+        "secondHalfGoalsAgainst"
+      ]
+    },
+    "Switzerland": {
+      "sourceFile": "data/team-stats/quarterfinals-team-model.json",
+      "weightedModel": {
+        "matches": 5,
+        "weightedGoalsForPerMatch": 1.64,
+        "weightedGoalsAgainstPerMatch": 0.36,
+        "weightedShotsForPerMatch": 11.54,
+        "weightedShotsAgainstPerMatch": 10.05,
+        "weightedShotsOnTargetForPerMatch": 4.63,
+        "weightedShotsOnTargetAgainstPerMatch": 3.54,
+        "weightedCornersForPerMatch": null,
+        "weightedCornersAgainstPerMatch": null,
+        "disciplineIndex": 47,
+        "attackIndex": 62,
+        "defenseIndex": 53,
+        "cornerIndex": null,
+        "tempoIndex": 72,
+        "pressureIndex": 84
+      },
+      "trends": {
+        "lastTwoMatches": {
+          "shotsForPerMatch": 9,
+          "shotsOnTargetForPerMatch": 3.5,
+          "foulsCommittedPerMatch": 16,
+          "yellowCardsPerMatch": 1.5
+        },
+        "knockout": {
+          "matches": 2,
+          "shotsForPerMatch": 9,
+          "shotsOnTargetForPerMatch": 3.5,
+          "foulsCommittedPerMatch": 16,
+          "yellowCardsPerMatch": 1.5
+        }
+      },
+      "missingFields": [
+        "cornersFor",
+        "cornersAgainst",
+        "possession",
+        "saves",
+        "firstHalfGoalsFor",
+        "firstHalfGoalsAgainst",
+        "secondHalfGoalsFor",
+        "secondHalfGoalsAgainst"
+      ]
+    }
+  },
+  "roleSlotEdges": [
+    {
+      "team": "Argentina",
+      "slotId": "argentina_rf",
+      "primaryPlayer": "Lionel Messi",
+      "replacementCandidates": [],
+      "slotShotsPer90": 5.93,
+      "slotShotsOnTargetPer90": 3.48,
+      "reliability": "medium"
+    },
+    {
+      "team": "Switzerland",
+      "slotId": "switzerland_st",
+      "primaryPlayer": "Breel Embolo",
+      "replacementCandidates": [
+        "Zeki Amdouni"
+      ],
+      "slotShotsPer90": 1.82,
+      "slotShotsOnTargetPer90": 0.75,
+      "reliability": "high"
+    },
+    {
+      "team": "Switzerland",
+      "slotId": "switzerland_rw",
+      "primaryPlayer": "Dan Ndoye",
+      "replacementCandidates": [
+        "Rubén Vargas"
+      ],
+      "slotShotsPer90": 3.24,
+      "slotShotsOnTargetPer90": 1.57,
+      "reliability": "high"
+    }
+  ],
+  "matchEnvironmentEvidence": {
+    "sourceFile": "data/match-environment/quarterfinals-2026.json",
+    "stadium": null,
+    "city": null,
+    "altitudeMeters": null,
+    "roofType": null,
+    "climateControlled": null,
+    "referee": null,
+    "refereeProfile": null,
+    "weather": null,
+    "modelImpact": null
+  },
+  "shotsOnTargetScenario": {
+    "primary": "Preferire giocatori con minutaggio stabile e slot tiri coperto solo se il mercato include il sostituto."
+  },
+  "cardsScenario": {
+    "primary": "team cards/fouls prima dei singoli cartellini",
+    "environment": null,
+    "teamDiscipline": {
+      "Argentina": {
+        "disciplineIndex": 64,
+        "weightedFoulsCommitted": 12.27,
+        "weightedYellowCards": 0.66
+      },
+      "Switzerland": {
+        "disciplineIndex": 47,
+        "weightedFoulsCommitted": 14.63,
+        "weightedYellowCards": 1.33
+      }
+    }
+  },
+  "marketSuggestions": [
+    {
+      "marketType": "shots player",
+      "source": "playerModel/roleSlotModel",
+      "note": "Usare solo profili con minutes e volume tiri reali nelle 5 partite."
+    },
+    {
+      "marketType": "shots team",
+      "source": "teamStatsModel",
+      "note": "Preferire squadre con weightedShotsForPerMatch alto e scenario di rincorsa."
+    },
+    {
+      "marketType": "cards/fouls team",
+      "source": "teamStatsModel/refereeEvidence",
+      "note": "Usare disciplina squadra e arbitro se disponibile."
+    }
+  ],
+  "marketsToAvoid": [
+    "Cartellini giocatore senza duello diretto o minutaggio chiaro",
+    "Corner linee alte quando cornersFor/cornersAgainst sono null",
+    "Player prop su non titolari senza copertura roleSlotModel"
+  ],
+  "riskWarnings": [
+    "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
+    "player prop sensibili a titolarita e sostituzioni",
+    "cartellini individuali ad alta varianza",
+    "Campi avanzati non disponibili restano null e non vanno stimati."
+  ]
 }

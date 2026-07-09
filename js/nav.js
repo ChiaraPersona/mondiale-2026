@@ -1,28 +1,6 @@
 const readingPage = document.body.classList.contains("reading-page");
 const storyReadingPage = Boolean(document.querySelector(".reading-story-article"));
 
-document.querySelectorAll(".page-links").forEach((nav) => {
-  if (nav.querySelector('a[href="laboratorio-ai.html"]')) return;
-  const utilityLink = nav.querySelector(".utility-link");
-  const link = document.createElement("a");
-  link.className = "page-link";
-  link.href = "laboratorio-ai.html";
-  link.textContent = "Laboratorio AI";
-  if (document.body.classList.contains("lab-page")) link.classList.add("active");
-  nav.insertBefore(link, utilityLink || null);
-});
-
-document.querySelectorAll(".page-links").forEach((nav) => {
-  if (nav.querySelector('a[href="documentazione-progetto.html"]')) return;
-  const utilityLink = nav.querySelector(".utility-link");
-  const link = document.createElement("a");
-  link.className = "page-link";
-  link.href = "documentazione-progetto.html";
-  link.textContent = "Documentazione";
-  if (document.body.classList.contains("project-doc-page")) link.classList.add("active");
-  nav.insertBefore(link, utilityLink || null);
-});
-
 if (readingPage && !storyReadingPage && !document.querySelector('script[data-mycombo-export]')) {
   const loadMyComboViewer = () => {
     if (document.querySelector('script[data-mycombo-export]')) return;
@@ -46,20 +24,17 @@ if (readingPage && !document.querySelector(".page-links")) {
     header.insertAdjacentHTML("beforeend", `
       <nav class="page-links" aria-label="Sezioni">
         <a class="page-link" href="index.html">Home</a>
-        <a class="page-link" href="player.html">Player</a>
-        <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
-        <a class="page-link" href="arbitri.html">Arbitri</a>
+      <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
+      <a class="page-link" href="arbitri.html">Arbitri</a>
         <div class="nav-dropdown">
           <span class="page-link nav-dropdown-toggle active">Pronostico <span class="nav-caret">&#9662;</span></span>
           <div class="nav-dropdown-menu">
             <a class="page-link" href="pronostico-codex.html">Pronostico Codex</a>
-            <a class="page-link active" href="lettura.html">Lettura</a>
+      <a class="page-link active" href="lettura.html">Lettura</a>
           </div>
         </div>
         <a class="page-link" href="storia.html">Storia</a>
-        <a class="page-link" href="laboratorio-ai.html">Laboratorio AI</a>
-        <a class="page-link" href="documentazione-progetto.html">Documentazione</a>
-        <a class="page-link utility-link" href="metodo-fonti.html">Metodo e fonti</a>
+      <a class="page-link utility-link" href="metodo-fonti.html">Metodo e fonti</a>
       </nav>
     `);
   }

@@ -24,14 +24,13 @@
 
     <nav class="page-links" aria-label="Sezioni">
       <a class="page-link" href="index.html">Home</a>
-      <a class="page-link" href="player.html">Player</a>
       <a class="page-link active" href="statistiche-squadre.html">Statistiche squadre</a>
       <a class="page-link" href="arbitri.html">Arbitri</a>
       <div class="nav-dropdown">
         <span class="page-link nav-dropdown-toggle">Pronostico <span class="nav-caret">&#9662;</span></span>
         <div class="nav-dropdown-menu">
           <a class="page-link" href="pronostico-codex.html">Pronostico Codex</a>
-          <a class="page-link" href="lettura.html">Lettura</a>
+      <a class="page-link" href="lettura.html">Lettura</a>
         </div>
       </div>
       <a class="page-link" href="storia.html">Storia</a>
@@ -42,6 +41,20 @@
   <main>
     <section id="team-stats-content" class="team-stats-grid"></section>
     <div class="empty" id="team-stats-empty">Statistiche squadre svuotate. In attesa dei nuovi dati.</div>
+
+    <section class="codex-section card-risk-section">
+      <div class="prediction-section-head">
+        <span>I CATTIVONI</span>
+        <h2>Giocatori da cartellino</h2>
+      </div>
+      <p class="data-confidence-note">Indice da 0 a 100 basato su dati di club e corretto, quando disponibile, con la frequenza di cartellini nelle presenze recenti in nazionale.</p>
+      <div id="card-risk-top" class="card-risk-top"></div>
+      <details class="codex-betting-all">
+        <summary>Tutti i cattivoni per girone</summary>
+        <div id="card-risk-content" class="card-risk-groups"></div>
+      </details>
+      <small id="card-risk-formula" class="card-risk-formula"></small>
+    </section>
   </main>
 
   <footer>
@@ -49,7 +62,9 @@
   </footer>
 
   <script src="data/active/team-stats-data.js"></script>
+  <script src="data/active/card-risk-data.js"></script>
   <script src="js/team-stats.js"></script>
+  <script src="js/card-risk.js"></script>
   <script src="js/nav.js"></script>
 </body>
 </html>

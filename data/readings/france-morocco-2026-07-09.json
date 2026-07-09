@@ -4,6 +4,12 @@
   "date": "2026-07-09",
   "summary": "Lettura operativa basata su weighted player model completo: France vs Morocco. Priorita a tiri/SOT dei profili con continuita, cartellini/falli su ruoli esposti e contesto stadio/meteo se disponibile.",
   "tempoExpected": "Caldo puo abbassare intensita e pressing continuo",
+  "referee": {
+    "name": "Facundo Tello",
+    "shortName": "Tello F.",
+    "country": "Argentina",
+    "note": "Profilo utile soprattutto per cartellini, falli e gestione emotiva."
+  },
   "gameScript": {
     "firstHalf": "Avvio prudente, priorita a campo e controllo rischi; mercati live su falli/cartellini da confermare nei primi duelli.",
     "secondHalf": "Aumenta peso cambi e stato gara; se favorita non sblocca crescono tiri/corner, se passa avanti crescono falli tattici avversari.",

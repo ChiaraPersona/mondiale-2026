@@ -25,6 +25,20 @@ const normalizedPlayerStatsSources = [
   "data/player-stats/merged/scotland-morocco-2026-06-19.json",
   "data/player-stats/merged/morocco-haiti-2026-06-24.json"
 ];
+const quarterFinalPlayerModelSources = [
+  {
+    source: "data/player-stats/spain-belgium-2026-07-10.json",
+    teams: ["Belgio"]
+  },
+  {
+    source: "data/player-stats/norway-england-2026-07-11.json",
+    teams: ["Norvegia", "Inghilterra"]
+  },
+  {
+    source: "data/player-stats/argentina-switzerland-2026-07-11.json",
+    teams: ["Argentina", "Svizzera"]
+  }
+];
 const matchContextSource = "data/player-stats/match-context.json";
 let resolvedTeamStatsData = null;
 let matchContextData = {};
@@ -97,9 +111,13 @@ function cloneTeamStatsData() {
 function normalizeTeamStatsName(value) {
   const names = {
     Spain: "Spagna",
+    Belgium: "Belgio",
     Portugal: "Portogallo",
     France: "Francia",
     Morocco: "Marocco",
+    Argentina: "Argentina",
+    Switzerland: "Svizzera",
+    England: "Inghilterra",
     Sweden: "Svezia",
     Paraguay: "Paraguay",
     Senegal: "Senegal",
@@ -109,7 +127,25 @@ function normalizeTeamStatsName(value) {
     Canada: "Canada",
     Brazil: "Brasile",
     Scotland: "Scozia",
-    Haiti: "Haiti"
+    Haiti: "Haiti",
+    Egypt: "Egitto",
+    Iran: "Iran",
+    "New Zealand": "Nuova Zelanda",
+    "United States": "Stati Uniti",
+    "Congo DR": "RD Congo",
+    Croatia: "Croazia",
+    Ghana: "Ghana",
+    Panama: "Panama",
+    Mexico: "Messico",
+    "Ivory Coast": "Costa d'Avorio",
+    Algeria: "Algeria",
+    Austria: "Austria",
+    "Cape Verde": "Capo Verde",
+    Jordan: "Giordania",
+    Qatar: "Qatar",
+    Canada: "Canada",
+    Colombia: "Colombia",
+    "Bosnia and Herzegovina": "Bosnia-Erzegovina"
   };
   return names[value] || value;
 }
@@ -146,6 +182,31 @@ function mapNormalizedPlayer(player, match, teamName) {
   };
 }
 
+function mapQuarterFinalPlayer(player, playerMatch, matchName, teamName) {
+  const sourceLabel = playerMatch?.sources?.shots || playerMatch?.sources?.minutes || "ESPN";
+  return withDerivedPlayerMetrics({
+    name: player.player || player.name,
+    role: player.role,
+    roleGroup: roleGroupFromPlayer(player.role, player.player || player.name),
+    match: matchName,
+    team: teamName,
+    minutes: playerMatch.minutes,
+    shots: playerMatch.shots,
+    shotsOnTarget: playerMatch.shotsOnTarget,
+    goals: playerMatch.goals,
+    assists: playerMatch.assists,
+    foulsCommitted: playerMatch.foulsCommitted,
+    foulsWon: playerMatch.foulsDrawn,
+    yellowCards: playerMatch.yellowCards ?? playerMatch.cards,
+    redCards: playerMatch.redCards,
+    keyPasses: playerMatch.keyPasses,
+    dribblesAttempted: playerMatch.dribblesAttempted,
+    successfulDribbles: playerMatch.dribblesCompleted,
+    source: sourceLabel,
+    contextNote: `Fonte: ${sourceLabel}; contesto: ${playerMatch.matchContext?.tipoPartita || "n/d"}`
+  });
+}
+
 function derivedPer90(player, statKey) {
   const minutes = Number(player.minutes);
   const value = Number(player[statKey]);
@@ -176,6 +237,136 @@ function sumNullablePlayerField(rows, field) {
     return sum + value;
   }, 0);
   return hasValue ? total : null;
+}
+
+function sumNumber(rows, field) {
+  return rows.reduce((sum, row) => {
+    const value = Number(row[field]);
+    return Number.isFinite(value) ? sum + value : sum;
+  }, 0);
+}
+
+function averageNumber(values) {
+  const valid = values.filter((value) => Number.isFinite(value));
+  if (!valid.length) return null;
+  return Math.round((valid.reduce((sum, value) => sum + value, 0) / valid.length) * 10) / 10;
+}
+
+function formatAverage(value) {
+  return value === null || value === undefined ? "n/d" : String(value);
+}
+
+function formatRangeFromAverage(value, spread = 2, min = 0) {
+  if (!Number.isFinite(value)) return "n/d";
+  const low = Math.max(min, Math.floor(value - spread));
+  const high = Math.max(low, Math.ceil(value + spread));
+  return `${low}-${high}`;
+}
+
+function readableRound(round) {
+  const rounds = {
+    "Group stage": "Fase a gironi",
+    "Round of 32": "Sedicesimi",
+    "Round of 16": "Ottavi"
+  };
+  return rounds[round] || round || "n/d";
+}
+
+function contextTextFromPlayerMatch(match) {
+  const context = match.matchContext || {};
+  return [
+    readableRound(match.round),
+    context.tipoPartita,
+    context.livelloAvversario ? `avversario ${context.livelloAvversario}` : "",
+    context.statoGara
+  ].filter(Boolean).join(". ");
+}
+
+function buildTeamStatsFromPlayerMatches(team, sourceMatchId) {
+  const playerMatches = flattenPlayerMatchRows(team);
+  const matches = new Map();
+  playerMatches.forEach((row) => {
+    if (!matches.has(row.match)) {
+      matches.set(row.match, {
+        match: row.match,
+        context: row.matchContext || {},
+        rows: []
+      });
+    }
+    matches.get(row.match).rows.push(row);
+  });
+
+  const analyzedMatches = [...matches.values()].map((match) => {
+    const shots = sumNumber(match.rows, "shots");
+    const shotsOnTarget = sumNumber(match.rows, "shotsOnTarget");
+    const foulsCommitted = sumNumber(match.rows, "foulsCommitted");
+    const foulsWon = sumNumber(match.rows, "foulsWon");
+    const yellowCards = sumNumber(match.rows, "yellowCards");
+    const goals = sumNumber(match.rows, "goals");
+
+    return {
+      match: match.match,
+      context: [
+        match.context?.matchType || match.context?.tipoPartita,
+        match.context?.opponentLevel || match.context?.livelloAvversario,
+        match.context?.gameState || match.context?.statoGara
+      ].filter(Boolean).join(". ") || "Contesto n/d",
+      stats: [
+        ["Gol", String(goals)],
+        ["Tiri", String(shots)],
+        ["Tiri in porta", String(shotsOnTarget)],
+        ["Corner", "n/d"],
+        ["Falli commessi", String(foulsCommitted)],
+        ["Falli subiti", String(foulsWon)],
+        ["Cartellini gialli", String(yellowCards)],
+        ["Possesso", "n/d"],
+        ["xG", "n/d"]
+      ]
+    };
+  });
+
+  const statValue = (match, label) => {
+    const row = match.stats.find(([name]) => name === label);
+    const value = Number(row?.[1]);
+    return Number.isFinite(value) ? value : null;
+  };
+  const averages = [
+    ["Tiri totali medi", formatAverage(averageNumber(analyzedMatches.map((match) => statValue(match, "Tiri"))))],
+    ["Tiri in porta medi", formatAverage(averageNumber(analyzedMatches.map((match) => statValue(match, "Tiri in porta"))))],
+    ["Corner medi", "n/d"],
+    ["Falli commessi medi", formatAverage(averageNumber(analyzedMatches.map((match) => statValue(match, "Falli commessi"))))],
+    ["Falli subiti medi", formatAverage(averageNumber(analyzedMatches.map((match) => statValue(match, "Falli subiti"))))],
+    ["Cartellini gialli medi", formatAverage(averageNumber(analyzedMatches.map((match) => statValue(match, "Cartellini gialli"))))],
+    ["Possesso medio", "n/d"],
+    ["xG medio", "n/d"]
+  ];
+
+  const avgShots = averageNumber(analyzedMatches.map((match) => statValue(match, "Tiri")));
+  const avgSot = averageNumber(analyzedMatches.map((match) => statValue(match, "Tiri in porta")));
+  const avgFouls = averageNumber(analyzedMatches.map((match) => statValue(match, "Falli commessi")));
+  const avgFoulsWon = averageNumber(analyzedMatches.map((match) => statValue(match, "Falli subiti")));
+  const avgCards = averageNumber(analyzedMatches.map((match) => statValue(match, "Cartellini gialli")));
+
+  team.analyzedMatches = analyzedMatches;
+  team.averages = averages;
+  team.summary = `${team.team}: dati calciatori e squadra caricati dalle 5 partite Mondiale 2026 disponibili.`;
+  team.modelReading = `${team.team} ha dataset completo su 5 partite. La lettura usa soprattutto minuti, tiri, tiri in porta, falli commessi, falli subiti e cartellini; corner, possesso e xG restano n/d quando non presenti nei provider disponibili.`;
+  team.estimateTitle = `Stima prossimo match - ${team.team}`;
+  team.estimate = [
+    [`Tiri ${team.team}`, formatRangeFromAverage(avgShots, 3)],
+    [`Tiri in porta ${team.team}`, formatRangeFromAverage(avgSot, 1)],
+    [`Corner ${team.team}`, "n/d"],
+    [`Falli commessi ${team.team}`, formatRangeFromAverage(avgFouls, 2)],
+    [`Falli subiti ${team.team}`, formatRangeFromAverage(avgFoulsWon, 3)],
+    [`Cartellini ${team.team}`, formatRangeFromAverage(avgCards, 1)]
+  ];
+  team.playerStatsMeta = {
+    source: "Weighted player model",
+    primarySource: "ESPN",
+    coverage: 100,
+    unavailableAdvancedFields: ["xG", "xA", "tocchi", "passaggi", "duelli", "rating"],
+    sourceMatchId
+  };
 }
 
 function aggregatePlayerRows(rows) {
@@ -292,6 +483,69 @@ function mergeNormalizedPlayerStats(stats, normalized, sourcePath) {
   return stats;
 }
 
+function mergeQuarterFinalPlayerModelStats(stats, model, allowedTeams = []) {
+  if (!Array.isArray(model?.teams)) return stats;
+
+  model.teams.forEach((sourceTeam) => {
+    const teamName = normalizeTeamStatsName(sourceTeam.displayName || sourceTeam.team);
+    if (allowedTeams.length && !allowedTeams.includes(teamName)) return;
+
+    let team = stats.find((item) => item.team === teamName);
+    if (!team) {
+      team = {
+        team: teamName,
+        group: "",
+        summary: "",
+        analyzedMatches: [],
+        averages: [],
+        modelReading: "",
+        estimateTitle: "Stime prossimo match",
+        estimate: [],
+        playerStatsNotes: [],
+        playerMatches: []
+      };
+      stats.push(team);
+    }
+
+    const matches = new Map();
+    (sourceTeam.players || []).forEach((player) => {
+      (player.matches || []).forEach((playerMatch) => {
+        const matchName = playerMatch.match
+          ? playerMatch.match.split(" vs ").map(normalizeTeamStatsName).join(" vs ")
+          : playerMatch.matchId;
+        if (!matches.has(playerMatch.matchId)) {
+          matches.set(playerMatch.matchId, {
+            team: teamName,
+            match: matchName,
+            competition: "Mondiale 2026",
+            round: readableRound(playerMatch.round),
+            date: null,
+            provider: "ESPN",
+            matchId: playerMatch.matchId,
+            context: {
+              matchType: playerMatch.matchContext?.tipoPartita,
+              opponentLevel: playerMatch.matchContext?.livelloAvversario,
+              opponentStyle: playerMatch.matchContext?.statoAvversario,
+              gameState: playerMatch.matchContext?.statoGara,
+              modelWeight: playerMatch.matchContext?.pesoModello
+            },
+            players: []
+          });
+        }
+        matches.get(playerMatch.matchId).players.push(mapQuarterFinalPlayer(player, playerMatch, matchName, teamName));
+      });
+    });
+
+    team.playerMatches = [...matches.values()].sort((a, b) => {
+      const order = { "Fase a gironi": 1, "Sedicesimi": 2, "Ottavi": 3 };
+      return (order[a.round] || 9) - (order[b.round] || 9);
+    });
+    buildTeamStatsFromPlayerMatches(team, model.matchId);
+  });
+
+  return stats;
+}
+
 async function loadNormalizedPlayerStats() {
   const stats = cloneTeamStatsData();
 
@@ -302,6 +556,16 @@ async function loadNormalizedPlayerStats() {
       mergeNormalizedPlayerStats(stats, await response.json(), source);
     } catch (error) {
       console.warn(`Statistiche normalizzate non caricate da ${source}: ${error.message}`);
+    }
+  }
+
+  for (const item of quarterFinalPlayerModelSources) {
+    try {
+      const response = await fetch(item.source, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      mergeQuarterFinalPlayerModelStats(stats, await response.json(), item.teams);
+    } catch (error) {
+      console.warn(`Dataset quarti non caricato da ${item.source}: ${error.message}`);
     }
   }
 

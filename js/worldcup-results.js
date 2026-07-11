@@ -1749,6 +1749,67 @@ const worldCupResults = {
       "Pronostico misto: centrati Under 3,5 e X2 nei tempi di gioco; persi Colombia qualificata, Goal e Over 1,5.",
     ],
   },
+  97: {
+    status: "Finale",
+    home: 2,
+    away: 0,
+    winner: "Francia",
+    source: "https://www.espn.com/soccer/match/_/gameId/760510/morocco-france",
+    sources: [
+      "https://www.espn.com/soccer/match/_/gameId/760510/morocco-france",
+      "https://www.lemonde.fr/en/sports/article/2026/07/10/france-s-powerful-attack-secures-win-against-morocco-and-world-cup-semi-final-spot_6755328_9.html",
+      "https://www.theguardian.com/football/live/2026/jul/09/france-v-morocco-world-cup-2026-quarter-final-live",
+    ],
+    scorers: {
+      Francia: ["Kylian Mbappe", "Ousmane Dembele"],
+      Marocco: [],
+    },
+    cards: {
+      yellow: [{ team: "Marocco", player: "Issa Diop" }],
+    },
+    stats: {
+      Francia: { shots: 22, shotsOnTarget: 8, corners: 5, foulsCommitted: 10, possession: "48%" },
+      Marocco: { shots: 5, shotsOnTarget: 1, corners: 5, foulsCommitted: 13, possession: "52%" },
+    },
+    notes: [
+      "La Francia batte il Marocco 2-0 e si qualifica alla semifinale.",
+      "Mbappe sblocca al 60' dopo il rigore parato da Bounou; Dembele chiude al 66'.",
+      "ESPN registra 22-5 nei tiri e 8-1 nello specchio: dominio francese negli ultimi metri.",
+    ],
+  },
+  98: {
+    status: "Finale",
+    home: 2,
+    away: 1,
+    winner: "Spagna",
+    source: "https://www.espn.com/soccer/match/_/gameId/760511/belgium-spain",
+    sources: [
+      "https://www.espn.com/soccer/match/_/gameId/760511/belgium-spain",
+      "https://apnews.com/article/780243a17571b6b2b26074b66feec90a",
+      "https://www.theguardian.com/football/live/2026/jul/10/spain-v-belgium-world-cup-2026-quarter-final-live",
+    ],
+    scorers: {
+      Spagna: ["Fabian Ruiz", "Mikel Merino"],
+      Belgio: ["Charles De Ketelaere"],
+    },
+    cards: {
+      yellow: [
+        { team: "Spagna", player: "Pau Cubarsi" },
+        { team: "Spagna", player: "Aymeric Laporte" },
+        { team: "Belgio", player: "Kevin De Bruyne" },
+        { team: "Belgio", player: "Axel Witsel" },
+      ],
+    },
+    stats: {
+      Spagna: { shots: 17, shotsOnTarget: 8, corners: 5, foulsCommitted: 13, possession: "67.9%" },
+      Belgio: { shots: 5, shotsOnTarget: 2, corners: 1, foulsCommitted: 18, possession: "32.1%" },
+    },
+    notes: [
+      "La Spagna batte il Belgio 2-1 e raggiunge la Francia in semifinale.",
+      "Fabian Ruiz apre al 30', De Ketelaere pareggia al 41', Merino decide all'88'.",
+      "Il Belgio segna il primo gol subito dalla Spagna nel torneo, ma produce solo 5 tiri e 1 corner.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

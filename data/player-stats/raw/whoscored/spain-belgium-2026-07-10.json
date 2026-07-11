@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "spain-belgium-2026-07-10",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

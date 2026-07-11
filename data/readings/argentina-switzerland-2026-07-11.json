@@ -2,7 +2,7 @@
   "status": "ready",
   "match": "Argentina-Svizzera",
   "date": "2026-07-11",
-  "summary": "Lettura operativa basata su weighted player model completo: Argentina vs Switzerland. Priorita a tiri/SOT dei profili con continuita, cartellini/falli su ruoli esposti e contesto stadio/meteo se disponibile.",
+  "summary": "Lettura ricalcolata con quote Sisal aggiornate: Argentina favorita in gestione, copione centrale 2-0; valore su Under, No Goal, volume tiri Argentina e falli svizzeri con Pinheiro.",
   "tempoExpected": "Ritmo piu regolare rispetto a Miami: Kansas City caldo ma gestibile, 29-31 C, umidita moderata, vento debole e rischio pioggia molto basso. Pinheiro puo aumentare falli fischiati e cartellini.",
   "gameScript": {
     "firstHalf": "Avvio prudente, priorita a campo e controllo rischi; mercati live su falli/cartellini da confermare nei primi duelli.",
@@ -228,33 +228,64 @@
     },
     "quoteErrors": [
       {
-        "market": "Argentina over tiri totali",
-        "odds": 2,
-        "note": "Prezzo interessante se l'Argentina tiene campo."
+        "market": "Argentina vince + Under 2,5",
+        "odds": 3.25,
+        "note": "Quota sopra 3 ma non improponibile: compatibile con 1-0 o 2-0 controllato.",
+        "selectionId": 5210481362
       },
       {
-        "market": "Argentina over 5.5 tiri in porta squadra",
-        "odds": 2,
-        "note": "Linea aggressiva ma coerente in scenario dominante."
+        "market": "Svizzera over 11,5 falli commessi",
+        "odds": 1.75,
+        "note": "Pinheiro piu rigoroso e Argentina piu tecnica alzano il rischio falli svizzeri.",
+        "selectionId": 5213889505
       },
       {
-        "market": "Over 8.5 tiri in porta match",
+        "market": "Freuler piu falli commessi di Paredes",
         "odds": 1.9,
-        "note": "Buono se la Svizzera non resta solo bassa."
+        "note": "Matchup utile: Freuler dovrebbe difendere piu spesso in rincorsa rispetto a Paredes.",
+        "selectionId": 5212668347
       }
     ],
     "bookingComboCandidates": [
       {
-        "player": "Ricardo Rodriguez",
-        "team": "Svizzera"
+        "player": "Xhaka",
+        "team": "Svizzera",
+        "odds": 4,
+        "risk": "Alto",
+        "note": "gestione del ritmo e contrasti centrali contro Messi, De Paul e Mac Allister.",
+        "selectionId": 5212840941
       },
       {
-        "player": "Cristian Romero",
-        "team": "Argentina"
+        "player": "Zakaria",
+        "team": "Svizzera",
+        "odds": 4.5,
+        "risk": "Alto",
+        "note": "lato difensivo molto sollecitato e prezzo piu basso tra i profili esposti.",
+        "selectionId": 5212840877
       },
       {
-        "player": "Nico Elvedi",
-        "team": "Svizzera"
+        "player": "Akanji",
+        "team": "Svizzera",
+        "odds": 5,
+        "risk": "Medio-alto",
+        "note": "duelli centrali con Alvarez e coperture quando Messi riceve tra le linee.",
+        "selectionId": 5212840905
+      },
+      {
+        "player": "Paredes",
+        "team": "Argentina",
+        "odds": 5,
+        "risk": "Medio-alto",
+        "note": "falli tattici e gestione emotiva davanti alla difesa argentina.",
+        "selectionId": 5212841165
+      },
+      {
+        "player": "Romero",
+        "team": "Argentina",
+        "odds": 5,
+        "risk": "Medio",
+        "note": "difensore aggressivo, rischio sui corpo a corpo con Embolo.",
+        "selectionId": 5212841057
       }
     ],
     "referee": {
@@ -506,5 +537,19 @@
       "rainRisk": "molto basso"
     },
     "modelImpact": "Condizioni ambientali buone per una gara abbastanza pulita sul piano fisico; Pinheiro aumenta il peso di falli, cartellini squadra e giocatori esposti nei duelli, senza cambiare il nucleo Argentina + gestione."
+  },
+  "recalculatedPronostic": {
+    "centralScore": "Argentina 2-0 Svizzera",
+    "mainPick": "Argentina qualificata",
+    "secondaryPicks": [
+      "Argentina vince + Under 3,5",
+      "No Goal",
+      "Svizzera over 11,5 falli commessi"
+    ],
+    "mycomboOdds": {
+      "safe": 4.72,
+      "balanced": 11.8,
+      "aggressive": 17.83
+    }
   }
 }

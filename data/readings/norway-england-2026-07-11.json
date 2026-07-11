@@ -2,7 +2,7 @@
   "status": "ready",
   "match": "Norvegia-Inghilterra",
   "date": "2026-07-11",
-  "summary": "Lettura operativa basata su weighted player model completo: Norway vs England. Priorita a tiri/SOT dei profili con continuita, cartellini/falli su ruoli esposti e contesto stadio/meteo se disponibile.",
+  "summary": "Lettura ricalcolata con quote Sisal aggiornate: Inghilterra favorita ma non da dominio totale; copione centrale 1-2, Goal, volume inglese su tiri/corner e falli sopra soglia moderata.",
   "tempoExpected": "Ritmo intermittente: caldo molto alto a Miami, umidita pesante, pause idratazione e rischio interruzione per temporali/fulmini. Meno pressing continuo, piu gestione fisica e cambi pesanti nella ripresa.",
   "gameScript": {
     "firstHalf": "Avvio prudente, priorita a campo e controllo rischi; mercati live su falli/cartellini da confermare nei primi duelli.",
@@ -228,33 +228,64 @@
     },
     "quoteErrors": [
       {
-        "market": "Inghilterra prima a X corner",
-        "odds": 1.7,
-        "note": "Scenario favorevole se l'Inghilterra tiene campo."
+        "market": "Inghilterra over 4,5 corner",
+        "odds": 1.48,
+        "note": "Quota ancora giocabile: linea compatibile con supremazia territoriale inglese e produzione laterale.",
+        "selectionId": 5210817234
       },
       {
-        "market": "Over tiri in porta match",
-        "odds": "1.50 / 1.80",
-        "note": "Haaland e Kane aumentano il volume nello specchio."
+        "market": "Entrambe almeno 3 corner",
+        "odds": 1.38,
+        "note": "Linea bassa per una gara con Haaland/Kane, cross e difese costrette a concedere respinte.",
+        "selectionId": 5210817329
       },
       {
-        "market": "Inghilterra over tiri squadra",
+        "market": "Totale falli over 21,5",
         "odds": 1.65,
-        "note": "Buono se la Norvegia abbassa il blocco."
+        "note": "Turpin lascia giocare, ma caldo, transizioni e posta da quarto rendono il 21,5 una soglia attaccabile.",
+        "selectionId": 5207566981
       }
     ],
     "bookingComboCandidates": [
       {
-        "player": "Declan Rice",
-        "team": "Inghilterra"
+        "player": "Berg",
+        "team": "Norvegia",
+        "odds": 5,
+        "risk": "Alto",
+        "note": "zona Bellingham/Rice, rischio rincorse e falli tattici centrali.",
+        "selectionId": 5212740541
       },
       {
-        "player": "David Moller Wolfe",
-        "team": "Norvegia"
+        "player": "Spence",
+        "team": "Inghilterra",
+        "odds": 4.5,
+        "risk": "Medio-alto",
+        "note": "duelli larghi e gestione di transizioni norvegesi sul suo lato.",
+        "selectionId": 5212740709
       },
       {
-        "player": "Nico O'Reilly",
-        "team": "Inghilterra"
+        "player": "Ryerson",
+        "team": "Norvegia",
+        "odds": 5,
+        "risk": "Medio-alto",
+        "note": "lato esposto contro esterni inglesi, gia utile anche nel mercato falli.",
+        "selectionId": 5212740549
+      },
+      {
+        "player": "Bellingham",
+        "team": "Inghilterra",
+        "odds": 5,
+        "risk": "Medio",
+        "note": "molti duelli, pressione e possibili interventi di recupero dopo perdita palla.",
+        "selectionId": 5212740589
+      },
+      {
+        "player": "O'Reilly",
+        "team": "Inghilterra",
+        "odds": 7.5,
+        "risk": "Medio",
+        "note": "terzino esposto se la Norvegia cerca uscita rapida e cambi campo.",
+        "selectionId": 5212740489
       }
     ],
     "referee": {
@@ -521,5 +552,19 @@
       "hydrationBreaks": true
     },
     "modelImpact": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
+  },
+  "recalculatedPronostic": {
+    "centralScore": "Norvegia 1-2 Inghilterra",
+    "mainPick": "Inghilterra qualificata",
+    "secondaryPicks": [
+      "Goal",
+      "Inghilterra over 13,5 tiri totali",
+      "Inghilterra over 4,5 corner"
+    ],
+    "mycomboOdds": {
+      "safe": 4.71,
+      "balanced": 10.94,
+      "aggressive": 16.81
+    }
   }
 }

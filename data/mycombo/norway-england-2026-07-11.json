@@ -15,125 +15,147 @@
         "market": "PASSAGGIO TURNO",
         "info": "PASSAGGIO TURNO",
         "selection": "2",
-        "odds": 1.45,
+        "odds": 1.5,
         "selectionId": 5207566661,
         "marketId": 791355146,
         "category": "esito",
         "class": "CORE",
-        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "reason": "L Inghilterra resta piu completa nei 120 minuti, ma senza forzare il 2 fisso nei novanta.",
         "statEvidence": {
           "type": "match reading",
-          "source": "lettura tecnica e quote Sisal",
+          "source": "lettura aggiornata + quote Sisal",
           "confidence": "medium",
-          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+          "reason": "L Inghilterra resta piu completa nei 120 minuti, ma senza forzare il 2 fisso nei novanta."
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "whyIncluded": "L Inghilterra resta piu completa nei 120 minuti, ma senza forzare il 2 fisso nei novanta.",
         "displayName": "Inghilterra passa il turno",
         "marketType": "PASSAGGIO TURNO"
       },
       {
-        "id": "event-5207566153",
-        "market": "U/O TIRI IN PORTA",
-        "info": "U/O 10.5 TIRI IN PORTA",
-        "selection": "OVER",
-        "odds": 2.3,
-        "selectionId": 5207566153,
-        "marketId": 791355034,
-        "category": "tiri",
+        "id": "event-5207565432",
+        "market": "GOAL/NOGOAL",
+        "info": "GOAL/NO GOAL",
+        "selection": "GOAL",
+        "odds": 1.57,
+        "selectionId": 5207565432,
+        "marketId": 791354896,
+        "category": "esito",
         "class": "CORE",
-        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "reason": "Haaland impedisce una lettura pulita da dominio difensivo inglese; il 2-1 resta lo score centrale.",
         "statEvidence": {
-          "type": "player/team shots model",
-          "source": "analisi calciatori",
-          "confidence": "high",
-          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+          "type": "match reading",
+          "source": "lettura aggiornata + quote Sisal",
+          "confidence": "medium",
+          "reason": "Haaland impedisce una lettura pulita da dominio difensivo inglese; il 2-1 resta lo score centrale."
         },
-        "confidence": "high",
-        "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
-        "displayName": "Totale tiri in porta Over 10,5",
-        "marketType": "U/O TIRI IN PORTA"
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Haaland impedisce una lettura pulita da dominio difensivo inglese; il 2-1 resta lo score centrale.",
+        "displayName": "Goal",
+        "marketType": "GOAL/NOGOAL"
       },
       {
-        "id": "event-5209324043",
-        "market": "1X2 TIRI TOTALI GIOCATORI INC TS",
-        "info": "ODEGAARD MARTIN - BELLINGHAM JUDE 1X2 TIRI INC TS",
-        "selection": "2",
-        "odds": 1.6,
-        "selectionId": 5209324043,
-        "marketId": 791668595,
+        "id": "event-5209180937",
+        "market": "U/O TIRI TOTALI SQUADRA X",
+        "info": "SQUADRA 2: U/O 13.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 1.45,
+        "selectionId": 5209180937,
+        "marketId": 791653670,
         "category": "tiri",
         "class": "CORE",
-        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "reason": "Volume inglese alto se la Norvegia difende bassa o deve inseguire.",
         "statEvidence": {
           "type": "player/team shots model",
-          "source": "analisi calciatori",
+          "source": "lettura aggiornata + quote Sisal",
           "confidence": "high",
-          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+          "reason": "Volume inglese alto se la Norvegia difende bassa o deve inseguire."
         },
         "confidence": "high",
-        "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
-        "displayName": "Bellingham piu tiri totali di Odegaard",
-        "marketType": "1X2 TIRI TOTALI GIOCATORI INC TS"
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Volume inglese alto se la Norvegia difende bassa o deve inseguire.",
+        "displayName": "Inghilterra over 13,5 tiri totali",
+        "marketType": "U/O TIRI TOTALI SQUADRA X"
+      },
+      {
+        "id": "event-5210817329",
+        "market": "ENTRAMBE ALMENO X CORNER",
+        "info": "ENTRAMBE ALMENO 3 CORNER",
+        "selection": "SI",
+        "odds": 1.38,
+        "selectionId": 5210817329,
+        "marketId": 791965700,
+        "category": "corner",
+        "class": "VALUE",
+        "reason": "Linea bassa rispetto a due squadre con esterni e finalizzatori forti in area.",
+        "statEvidence": {
+          "type": "corner/field tilt model",
+          "source": "lettura aggiornata + quote Sisal",
+          "confidence": "medium",
+          "reason": "Linea bassa rispetto a due squadre con esterni e finalizzatori forti in area."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Linea bassa rispetto a due squadre con esterni e finalizzatori forti in area.",
+        "displayName": "Entrambe almeno 3 corner",
+        "marketType": "ENTRAMBE ALMENO X CORNER"
       }
     ],
-    "finalOdds": 5.34,
+    "finalOdds": 4.71,
     "targetOdds": "4-6",
-    "averageRisk": 38,
-    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico. Contesto aggiornato: Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live.",
-    "contextNote": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
+    "averageRisk": 34,
+    "motivation": "Safe ricostruita sulle quote Sisal nuove: Inghilterra dentro il turno, Goal e due mercati di volume bassi ma coerenti con Haaland/Kane e campo inglese."
   },
   "balanced": {
     "name": "Balanced",
     "events": [
       {
-        "id": "event-5207565475",
+        "id": "event-5207565484",
         "market": "COMBO: 1X2 + U/O",
-        "info": "1X2 + U/O 2.5",
-        "selection": "2 + O",
-        "odds": 2.7,
-        "selectionId": 5207565475,
-        "marketId": 791354902,
+        "info": "1X2 + U/O 3.5",
+        "selection": "2 + U",
+        "odds": 2.8,
+        "selectionId": 5207565484,
+        "marketId": 791354903,
         "category": "esito",
         "class": "CORE",
-        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
+        "reason": "Coerente con 1-2 o 0-2 senza trasformare la partita in goleada.",
         "statEvidence": {
           "type": "match reading",
-          "source": "lettura tecnica e quote Sisal",
+          "source": "lettura aggiornata + quote Sisal",
           "confidence": "medium",
-          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
+          "reason": "Coerente con 1-2 o 0-2 senza trasformare la partita in goleada."
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
-        "displayName": "Inghilterra vince + Over 2,5 gol",
+        "whyIncluded": "Coerente con 1-2 o 0-2 senza trasformare la partita in goleada.",
+        "displayName": "Inghilterra vince + Under 3,5",
         "marketType": "COMBO: 1X2 + U/O"
       },
       {
-        "id": "event-5209324049",
-        "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-        "info": "HAALAND E. - KANE H. 1X2 TIRI IN PORTA INC TS",
-        "selection": "2",
-        "odds": 2.65,
-        "selectionId": 5209324049,
-        "marketId": 791668596,
-        "category": "tiri",
-        "class": "CORE",
-        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "id": "event-5207566981",
+        "market": "U/O FALLI COMMESSI  INC TS",
+        "info": "U/O 21.5 FALLI COMMESSI INC TS",
+        "selection": "OVER",
+        "odds": 1.65,
+        "selectionId": 5207566981,
+        "marketId": 791355224,
+        "category": "falli",
+        "class": "VALUE",
+        "reason": "Quarto fisico, caldo e gestione delle transizioni possono alzare i falli anche con Turpin permissivo.",
         "statEvidence": {
-          "type": "player/team shots model",
-          "source": "analisi calciatori",
-          "confidence": "high",
-          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+          "type": "discipline model",
+          "source": "lettura aggiornata + quote Sisal",
+          "confidence": "medium",
+          "reason": "Quarto fisico, caldo e gestione delle transizioni possono alzare i falli anche con Turpin permissivo."
         },
-        "confidence": "high",
-        "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
-        "displayName": "Kane piu tiri in porta di Haaland",
-        "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS"
+        "confidence": "medium",
+        "riskWarning": "Sensibile ad arbitro, stato gara e minutaggio.",
+        "whyIncluded": "Quarto fisico, caldo e gestione delle transizioni possono alzare i falli anche con Turpin permissivo.",
+        "displayName": "Totale falli commessi over 21,5",
+        "marketType": "U/O FALLI COMMESSI  INC TS"
       },
       {
         "id": "event-5209324043",
@@ -145,25 +167,47 @@
         "marketId": 791668595,
         "category": "tiri",
         "class": "CORE",
-        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "reason": "Bellingham entra piu spesso in area e gode di uno scenario di campo favorevole.",
         "statEvidence": {
           "type": "player/team shots model",
-          "source": "analisi calciatori",
+          "source": "lettura aggiornata + quote Sisal",
           "confidence": "high",
-          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+          "reason": "Bellingham entra piu spesso in area e gode di uno scenario di campo favorevole."
         },
         "confidence": "high",
-        "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Bellingham entra piu spesso in area e gode di uno scenario di campo favorevole.",
         "displayName": "Bellingham piu tiri totali di Odegaard",
         "marketType": "1X2 TIRI TOTALI GIOCATORI INC TS"
+      },
+      {
+        "id": "event-5210817234",
+        "market": "U/O CORNER SQUADRA X",
+        "info": "U/O 4.5 CORNER SQUADRA 2",
+        "selection": "OVER",
+        "odds": 1.48,
+        "selectionId": 5210817234,
+        "marketId": 791965677,
+        "category": "corner",
+        "class": "VALUE",
+        "reason": "Prezzo basso ma interessante se Saka/Gordon/Kane generano cross e respinte.",
+        "statEvidence": {
+          "type": "corner/field tilt model",
+          "source": "lettura aggiornata + quote Sisal",
+          "confidence": "medium",
+          "reason": "Prezzo basso ma interessante se Saka/Gordon/Kane generano cross e respinte."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Prezzo basso ma interessante se Saka/Gordon/Kane generano cross e respinte.",
+        "displayName": "Inghilterra over 4,5 corner",
+        "marketType": "U/O CORNER SQUADRA X"
       }
     ],
-    "finalOdds": 11.45,
-    "targetOdds": "8-12",
-    "averageRisk": 52,
-    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico. Contesto aggiornato: Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live.",
-    "contextNote": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
+    "finalOdds": 10.94,
+    "targetOdds": "9-12",
+    "averageRisk": 49,
+    "motivation": "Balanced piu tecnica: vittoria Inghilterra con Under 3,5, falli totali e due indicatori di pressione inglese."
   },
   "aggressive": {
     "name": "Aggressive",
@@ -173,46 +217,92 @@
         "market": "COMBO: 1X2 + U/O",
         "info": "1X2 + U/O 1.5",
         "selection": "2 + O",
-        "odds": 2.2,
+        "odds": 2.3,
         "selectionId": 5207565463,
         "marketId": 791354901,
         "category": "esito",
         "class": "CORE",
-        "reason": "Inghilterra + Over 1,5: quota piu bassa rispetto al 2 + Over 2,5, scenario meno fragile.",
+        "reason": "Copre lo scenario 1-2 senza salire fino all Over 2,5 obbligatorio.",
         "statEvidence": {
           "type": "match reading",
-          "source": "lettura tecnica e quote Sisal",
+          "source": "lettura aggiornata + quote Sisal",
           "confidence": "medium",
-          "reason": "Inghilterra + Over 1,5: quota piu bassa rispetto al 2 + Over 2,5, scenario meno fragile."
+          "reason": "Copre lo scenario 1-2 senza salire fino all Over 2,5 obbligatorio."
         },
         "confidence": "medium",
-        "riskWarning": "Evento da usare solo se coerente con lo scenario principale.",
-        "whyIncluded": "Inghilterra + Over 1,5: quota piu bassa rispetto al 2 + Over 2,5, scenario meno fragile.",
-        "displayName": "Inghilterra vince + Over 1,5 gol",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Copre lo scenario 1-2 senza salire fino all Over 2,5 obbligatorio.",
+        "displayName": "Inghilterra vince + Over 1,5",
         "marketType": "COMBO: 1X2 + U/O"
       },
       {
-        "id": "event-5207566153",
+        "id": "event-5207566117",
         "market": "U/O TIRI IN PORTA",
-        "info": "U/O 10.5 TIRI IN PORTA",
+        "info": "U/O 9.5 TIRI IN PORTA",
         "selection": "OVER",
-        "odds": 2.3,
-        "selectionId": 5207566153,
-        "marketId": 791355034,
+        "odds": 1.8,
+        "selectionId": 5207566117,
+        "marketId": 791355025,
         "category": "tiri",
         "class": "CORE",
-        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "reason": "Linea piu sostenibile dell Over 10,5 dopo caldo e possibili pause ritmo.",
         "statEvidence": {
           "type": "player/team shots model",
-          "source": "analisi calciatori",
+          "source": "lettura aggiornata + quote Sisal",
+          "confidence": "medium",
+          "reason": "Linea piu sostenibile dell Over 10,5 dopo caldo e possibili pause ritmo."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Linea piu sostenibile dell Over 10,5 dopo caldo e possibili pause ritmo.",
+        "displayName": "Totale tiri in porta over 9,5",
+        "marketType": "U/O TIRI IN PORTA"
+      },
+      {
+        "id": "event-5209181813",
+        "market": "U/O FALLI COMMESSI GIOCATORE",
+        "info": "RYERSON J. U/O 1.5 FALLI COMMESSI",
+        "selection": "OVER",
+        "odds": 1.75,
+        "selectionId": 5209181813,
+        "marketId": 791653889,
+        "category": "falli",
+        "class": "VALUE",
+        "reason": "Lato esposto contro esterni inglesi e possibili rincorse difensive.",
+        "statEvidence": {
+          "type": "discipline model",
+          "source": "lettura aggiornata + quote Sisal",
+          "confidence": "medium",
+          "reason": "Lato esposto contro esterni inglesi e possibili rincorse difensive."
+        },
+        "confidence": "medium",
+        "riskWarning": "Sensibile ad arbitro, stato gara e minutaggio.",
+        "whyIncluded": "Lato esposto contro esterni inglesi e possibili rincorse difensive.",
+        "displayName": "Ryerson over 1,5 falli commessi",
+        "marketType": "U/O FALLI COMMESSI GIOCATORE"
+      },
+      {
+        "id": "event-5209180937",
+        "market": "U/O TIRI TOTALI SQUADRA X",
+        "info": "SQUADRA 2: U/O 13.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 1.45,
+        "selectionId": 5209180937,
+        "marketId": 791653670,
+        "category": "tiri",
+        "class": "CORE",
+        "reason": "Volume inglese alto se la Norvegia difende bassa o deve inseguire.",
+        "statEvidence": {
+          "type": "player/team shots model",
+          "source": "lettura aggiornata + quote Sisal",
           "confidence": "high",
-          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+          "reason": "Volume inglese alto se la Norvegia difende bassa o deve inseguire."
         },
         "confidence": "high",
-        "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
-        "displayName": "Totale tiri in porta Over 10,5",
-        "marketType": "U/O TIRI IN PORTA"
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Volume inglese alto se la Norvegia difende bassa o deve inseguire.",
+        "displayName": "Inghilterra over 13,5 tiri totali",
+        "marketType": "U/O TIRI TOTALI SQUADRA X"
       },
       {
         "id": "event-5209324043",
@@ -224,136 +314,89 @@
         "marketId": 791668595,
         "category": "tiri",
         "class": "CORE",
-        "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "reason": "Bellingham entra piu spesso in area e gode di uno scenario di campo favorevole.",
         "statEvidence": {
           "type": "player/team shots model",
-          "source": "analisi calciatori",
+          "source": "lettura aggiornata + quote Sisal",
           "confidence": "high",
-          "reason": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura."
+          "reason": "Bellingham entra piu spesso in area e gode di uno scenario di campo favorevole."
         },
         "confidence": "high",
-        "riskWarning": "Sensibile a minutaggio e stato gara.",
-        "whyIncluded": "Scelto per coerenza con volume tiri/tiri in porta dei player model e con lo scenario della lettura.",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Bellingham entra piu spesso in area e gode di uno scenario di campo favorevole.",
         "displayName": "Bellingham piu tiri totali di Odegaard",
         "marketType": "1X2 TIRI TOTALI GIOCATORI INC TS"
-      },
-      {
-        "id": "event-5209324090",
-        "market": "1X2  MARCATORI INC TS",
-        "info": "HAALAND E. - KANE H. 1X2 MARCATORI INC TS",
-        "selection": "X",
-        "odds": 2.15,
-        "selectionId": 5209324090,
-        "marketId": 791668603,
-        "category": "esito",
-        "class": "CORE",
-        "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
-        "statEvidence": {
-          "type": "match reading",
-          "source": "lettura tecnica e quote Sisal",
-          "confidence": "medium",
-          "reason": "Scelto per coerenza con scenario tecnico e quota reale Sisal."
-        },
-        "confidence": "medium",
-        "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Scelto per coerenza con scenario tecnico e quota reale Sisal.",
-        "displayName": "Haaland e Kane entrambi non segnano, sostituti inclusi",
-        "marketType": "1X2  MARCATORI INC TS"
-      },
-      {
-        "id": "event-5209178709",
-        "market": "U/O FALLI COMMESSI GIOCATORE",
-        "info": "RICE D. U/O 0.5 FALLI COMMESSI",
-        "selection": "OVER",
-        "odds": 1.33,
-        "selectionId": 5209178709,
-        "marketId": 791653113,
-        "category": "falli",
-        "class": "VALUE",
-        "reason": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
-        "statEvidence": {
-          "type": "discipline model",
-          "source": "falli/cartellini squadra e ruolo",
-          "confidence": "medium",
-          "reason": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre."
-        },
-        "confidence": "medium",
-        "riskWarning": "Mercato volatile, meglio fuori dalla Safe se individuale.",
-        "whyIncluded": "Scelto per ruolo esposto, duelli previsti e disciplina delle squadre.",
-        "displayName": "Rice almeno 1 fallo commesso",
-        "marketType": "U/O FALLI COMMESSI GIOCATORE"
       }
     ],
-    "finalOdds": 23.15,
-    "targetOdds": "18-25",
-    "averageRisk": 62,
-    "motivation": "Aggressive ricostruita con piu quote piccole e senza alzare troppo la soglia risultato dell Inghilterra. Contesto aggiornato: Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live.",
-    "contextNote": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
+    "finalOdds": 16.81,
+    "targetOdds": "15-18",
+    "averageRisk": 61,
+    "motivation": "Aggressive tenuta sotto quota 20: non usa cartellini puri e resta su goal, tiri, falli e volume inglese."
   },
   "quoteErrorAnalysis": {
     "analysis": {
-      "totalMarkets": 7348,
+      "totalMarkets": 7899,
       "publishedEvents": 3,
-      "minimumOdds": 3,
+      "minimumOdds": 1.35,
       "marketsAboveOddsThreshold": 3
     },
     "events": [
       {
-        "title": "Goal + Under 3,5",
-        "market": "COMBO: GOAL/NOGOAL + U/O",
-        "info": "U/O 3.5 + GG/NG",
-        "selection": "GOAL + UNDER",
-        "odds": 3.1,
-        "selectionId": 5207565115,
-        "marketId": 791354552,
-        "category": "esito",
-        "badge": "VALUE",
-        "reason": "Quota 3+ coerente con partita competitiva e due attacchi pericolosi ma non necessariamente larga.",
-        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
-        "confirmations": [
-          "Lettura partita",
-          "Quote Sisal",
-          "Filtro quota minima 3.00"
-        ]
-      },
-      {
-        "title": "X + Under 1,5 primo tempo",
-        "market": "COMBO 1T: 1X2 + U/O",
-        "info": "1 TEMPO: 1X2 + U/O 1.5",
-        "selection": "X + UNDER",
-        "odds": 3.1,
-        "selectionId": 5207565760,
-        "marketId": 791354944,
-        "category": "esito",
-        "badge": "VALUE",
-        "reason": "Interessante se la gara parte tattica e la posta rallenta il ritmo iniziale.",
-        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
-        "confirmations": [
-          "Lettura partita",
-          "Quote Sisal",
-          "Filtro quota minima 3.00"
-        ]
-      },
-      {
-        "title": "Norvegia prima a 5 corner",
-        "market": "PRIMA A X CORNER",
-        "info": "PRIMA A 5 CALCI D'ANGOLO",
-        "selection": "TEAM 1",
-        "odds": 3,
-        "selectionId": 5210817509,
-        "marketId": 791965742,
+        "title": "Inghilterra over 4,5 corner",
+        "market": "U/O CORNER SQUADRA X",
+        "info": "U/O 4.5 CORNER SQUADRA 2",
+        "selection": "OVER",
+        "odds": 1.48,
+        "selectionId": 5210817234,
+        "marketId": 791965677,
         "category": "corner",
-        "badge": "SPECULATIVE",
-        "reason": "Quota minima 3: scenario da pressione norvegese laterale, non da usare come base Safe.",
+        "badge": "VALUE",
+        "reason": "Quota ancora giocabile: linea compatibile con supremazia territoriale inglese e produzione laterale.",
         "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
-          "Quote Sisal",
-          "Filtro quota minima 3.00"
+          "Quote Sisal aggiornate",
+          "Filtro quota non improponibile"
+        ]
+      },
+      {
+        "title": "Entrambe almeno 3 corner",
+        "market": "ENTRAMBE ALMENO X CORNER",
+        "info": "ENTRAMBE ALMENO 3 CORNER",
+        "selection": "SI",
+        "odds": 1.38,
+        "selectionId": 5210817329,
+        "marketId": 791965700,
+        "category": "corner",
+        "badge": "VALUE",
+        "reason": "Linea bassa per una gara con Haaland/Kane, cross e difese costrette a concedere respinte.",
+        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
+        "confirmations": [
+          "Lettura partita",
+          "Quote Sisal aggiornate",
+          "Filtro quota non improponibile"
+        ]
+      },
+      {
+        "title": "Totale falli over 21,5",
+        "market": "U/O FALLI COMMESSI  INC TS",
+        "info": "U/O 21.5 FALLI COMMESSI INC TS",
+        "selection": "OVER",
+        "odds": 1.65,
+        "selectionId": 5207566981,
+        "marketId": 791355224,
+        "category": "falli",
+        "badge": "VALUE",
+        "reason": "Turpin lascia giocare, ma caldo, transizioni e posta da quarto rendono il 21,5 una soglia attaccabile.",
+        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
+        "confirmations": [
+          "Lettura partita",
+          "Quote Sisal aggiornate",
+          "Filtro quota non improponibile"
         ]
       }
     ],
-    "disclaimer": "I possibili errori di quota non sono garanzie di vincita: indicano mercati reali Sisal compatibili con lettura e dati disponibili."
+    "disclaimer": "Errori di quota intesi come prezzi interessanti rispetto alla lettura, non come garanzie."
   },
   "contextUpdate": {
     "updatedAt": "2026-07-11",
@@ -366,6 +409,68 @@
       "stormRisk": "temporali nel pomeriggio, rischio concreto di ritardo se vengono rilevati fulmini",
       "hydrationBreaks": true
     },
-    "modelImpact": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
-  }
+    "modelImpact": "Quote Sisal ricalcolate: meglio abbassare l Over tiri in porta da 10,5 a 9,5 nelle combo piu spinte; cartellini puri solo in gerarchia per via del profilo permissivo di Turpin."
+  },
+  "cardHierarchy": [
+    {
+      "rank": 1,
+      "player": "Berg",
+      "team": "Norvegia",
+      "market": "CARTELLINO SI/NO (DUO) INC TS",
+      "info": "BERG P. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "odds": 5,
+      "selectionId": 5212740541,
+      "risk": "Alto",
+      "reason": "zona Bellingham/Rice, rischio rincorse e falli tattici centrali."
+    },
+    {
+      "rank": 2,
+      "player": "Spence",
+      "team": "Inghilterra",
+      "market": "CARTELLINO SI/NO (DUO) INC TS",
+      "info": "SPENCE D. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "odds": 4.5,
+      "selectionId": 5212740709,
+      "risk": "Medio-alto",
+      "reason": "duelli larghi e gestione di transizioni norvegesi sul suo lato."
+    },
+    {
+      "rank": 3,
+      "player": "Ryerson",
+      "team": "Norvegia",
+      "market": "CARTELLINO SI/NO (DUO) INC TS",
+      "info": "RYERSON J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "odds": 5,
+      "selectionId": 5212740549,
+      "risk": "Medio-alto",
+      "reason": "lato esposto contro esterni inglesi, gia utile anche nel mercato falli."
+    },
+    {
+      "rank": 4,
+      "player": "Bellingham",
+      "team": "Inghilterra",
+      "market": "CARTELLINO SI/NO (DUO) INC TS",
+      "info": "BELLINGHAM JUDE CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "odds": 5,
+      "selectionId": 5212740589,
+      "risk": "Medio",
+      "reason": "molti duelli, pressione e possibili interventi di recupero dopo perdita palla."
+    },
+    {
+      "rank": 5,
+      "player": "O'Reilly",
+      "team": "Inghilterra",
+      "market": "CARTELLINO SI/NO (DUO) INC TS",
+      "info": "O REILLY N. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "odds": 7.5,
+      "selectionId": 5212740489,
+      "risk": "Medio",
+      "reason": "terzino esposto se la Norvegia cerca uscita rapida e cambi campo."
+    }
+  ]
 }

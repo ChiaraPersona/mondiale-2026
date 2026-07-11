@@ -3,7 +3,7 @@
   "match": "Norvegia-Inghilterra",
   "date": "11/07/2026 ore 23.00",
   "completion": 100,
-  "status": "ready",
+  "status": "ready_official_lineups",
   "sourceQuote": "data/quote/norvegia-inghilterra-quote.json",
   "sourceReading": "data/readings/norway-england-2026-07-11.json",
   "sourcePlayerStats": "data/player-stats/norway-england-2026-07-11.json",
@@ -106,7 +106,7 @@
     "finalOdds": 4.71,
     "targetOdds": "4-6",
     "averageRisk": 34,
-    "motivation": "Safe ricostruita sulle quote Sisal nuove: Inghilterra dentro il turno, Goal e due mercati di volume bassi ma coerenti con Haaland/Kane e campo inglese."
+    "motivation": "Safe confermata dopo le ufficiali: Inghilterra dentro il turno, Goal e volumi bassi. Madueke non sposta il segno, ma aumenta duelli e falli subiti sul lato destro."
   },
   "balanced": {
     "name": "Balanced",
@@ -190,16 +190,16 @@
         "marketId": 791965677,
         "category": "corner",
         "class": "VALUE",
-        "reason": "Prezzo basso ma interessante se Saka/Gordon/Kane generano cross e respinte.",
+        "reason": "Prezzo basso ma interessante se Gordon/Madueke/Kane generano cross, respinte e pressione territoriale.",
         "statEvidence": {
           "type": "corner/field tilt model",
           "source": "lettura aggiornata + quote Sisal",
           "confidence": "medium",
-          "reason": "Prezzo basso ma interessante se Saka/Gordon/Kane generano cross e respinte."
+          "reason": "Prezzo basso ma interessante se Gordon/Madueke/Kane generano cross, respinte e pressione territoriale."
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Prezzo basso ma interessante se Saka/Gordon/Kane generano cross e respinte.",
+        "whyIncluded": "Prezzo basso ma interessante se Gordon/Madueke/Kane generano cross, respinte e pressione territoriale.",
         "displayName": "Inghilterra over 4,5 corner",
         "marketType": "U/O CORNER SQUADRA X"
       }
@@ -207,7 +207,7 @@
     "finalOdds": 10.94,
     "targetOdds": "9-12",
     "averageRisk": 49,
-    "motivation": "Balanced piu tecnica: vittoria Inghilterra con Under 3,5, falli totali e due indicatori di pressione inglese."
+    "motivation": "Balanced aggiornata sulle ufficiali: vittoria Inghilterra con Under 3,5, falli totali, Bellingham su Odegaard e corner inglesi spinti da Gordon/Madueke."
   },
   "aggressive": {
     "name": "Aggressive",
@@ -236,27 +236,27 @@
         "marketType": "COMBO: 1X2 + U/O"
       },
       {
-        "id": "event-5207566117",
-        "market": "U/O TIRI IN PORTA",
-        "info": "U/O 9.5 TIRI IN PORTA",
+        "id": "event-5209181833",
+        "market": "U/O FALLI SUBITI GIOCATORE",
+        "info": "MADUEKE N. U/O 1.5 FALLI SUBITI",
         "selection": "OVER",
         "odds": 1.8,
-        "selectionId": 5207566117,
-        "marketId": 791355025,
-        "category": "tiri",
-        "class": "CORE",
-        "reason": "Linea piu sostenibile dell Over 10,5 dopo caldo e possibili pause ritmo.",
+        "selectionId": 5209181833,
+        "marketId": 791653894,
+        "category": "falli",
+        "class": "VALUE",
+        "reason": "Madueke titolare cambia il lato destro inglese: uno contro uno ripetuti contro Ryerson/Wolfe e alta probabilita di contatti.",
         "statEvidence": {
-          "type": "player/team shots model",
-          "source": "lettura aggiornata + quote Sisal",
+          "type": "official lineup + foul model",
+          "source": "formazioni ufficiali + quote Sisal",
           "confidence": "medium",
-          "reason": "Linea piu sostenibile dell Over 10,5 dopo caldo e possibili pause ritmo."
+          "reason": "Madueke titolare cambia il lato destro inglese: uno contro uno ripetuti contro Ryerson/Wolfe e alta probabilita di contatti."
         },
         "confidence": "medium",
-        "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Linea piu sostenibile dell Over 10,5 dopo caldo e possibili pause ritmo.",
-        "displayName": "Totale tiri in porta over 9,5",
-        "marketType": "U/O TIRI IN PORTA"
+        "riskWarning": "Sensibile a minutaggio, stato gara e permissivita di Turpin.",
+        "whyIncluded": "Madueke titolare cambia il lato destro inglese: uno contro uno ripetuti contro Ryerson/Wolfe e alta probabilita di contatti.",
+        "displayName": "Madueke over 1,5 falli subiti",
+        "marketType": "U/O FALLI SUBITI GIOCATORE"
       },
       {
         "id": "event-5209181813",
@@ -331,7 +331,7 @@
     "finalOdds": 16.81,
     "targetOdds": "15-18",
     "averageRisk": 61,
-    "motivation": "Aggressive tenuta sotto quota 20: non usa cartellini puri e resta su goal, tiri, falli e volume inglese."
+    "motivation": "Aggressive resta sotto quota 20 e viene ripulita dalle letture pre-ufficiali: fuori Over tiri in porta puro, dentro Madueke falli subiti per sfruttare il cambio Saka-Madueke."
   },
   "quoteErrorAnalysis": {
     "analysis": {
@@ -399,7 +399,7 @@
     "disclaimer": "I possibili errori di quota rispettano il filtro quota superiore a 3: sono prezzi interessanti rispetto alla lettura, non garanzie."
   },
   "contextUpdate": {
-    "updatedAt": "2026-07-11",
+    "updatedAt": "2026-07-11 official lineups",
     "referee": "Clement Turpin",
     "stadium": "Hard Rock Stadium / Miami Stadium",
     "weather": {
@@ -409,7 +409,35 @@
       "stormRisk": "temporali nel pomeriggio, rischio concreto di ritardo se vengono rilevati fulmini",
       "hydrationBreaks": true
     },
-    "modelImpact": "Quote Sisal ricalcolate: meglio abbassare l Over tiri in porta da 10,5 a 9,5 nelle combo piu spinte; cartellini puri solo in gerarchia per via del profilo permissivo di Turpin."
+    "modelImpact": "Formazioni ufficiali: Saka e Spence non titolari. Inghilterra resta favorita per qualificarsi, ma il focus player passa da Saka tiri a Madueke falli subiti; Stones e Rice entrano nella gerarchia ammoniti.",
+    "officialLineups": {
+      "Norway": [
+        "Nyland",
+        "Ryerson",
+        "Ajer",
+        "Heggem",
+        "Wolfe",
+        "Odegaard",
+        "Berge",
+        "Berg",
+        "Sorloth",
+        "Haaland",
+        "Schjelderup"
+      ],
+      "England": [
+        "Pickford",
+        "O'Reilly",
+        "Guehi",
+        "Stones",
+        "Konsa",
+        "Rice",
+        "Anderson",
+        "Gordon",
+        "Bellingham",
+        "Madueke",
+        "Kane"
+      ]
+    }
   },
   "cardHierarchy": [
     {
@@ -426,18 +454,6 @@
     },
     {
       "rank": 2,
-      "player": "Spence",
-      "team": "Inghilterra",
-      "market": "CARTELLINO SI/NO (DUO) INC TS",
-      "info": "SPENCE D. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
-      "selection": "SI",
-      "odds": 4.5,
-      "selectionId": 5212740709,
-      "risk": "Medio-alto",
-      "reason": "duelli larghi e gestione di transizioni norvegesi sul suo lato."
-    },
-    {
-      "rank": 3,
       "player": "Ryerson",
       "team": "Norvegia",
       "market": "CARTELLINO SI/NO (DUO) INC TS",
@@ -446,19 +462,31 @@
       "odds": 5,
       "selectionId": 5212740549,
       "risk": "Medio-alto",
-      "reason": "lato esposto contro esterni inglesi, gia utile anche nel mercato falli."
+      "reason": "lato di Gordon/O Reilly e possibili uscite aggressive; utile anche nel mercato falli."
+    },
+    {
+      "rank": 3,
+      "player": "Rice",
+      "team": "Inghilterra",
+      "market": "CARTELLINO SI/NO (DUO) INC TS",
+      "info": "RICE D. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "selection": "SI",
+      "odds": 6,
+      "selectionId": 5212740445,
+      "risk": "Medio-alto",
+      "reason": "deve spegnere Odegaard e le prime verticalizzazioni verso Haaland."
     },
     {
       "rank": 4,
-      "player": "Bellingham",
+      "player": "Stones",
       "team": "Inghilterra",
       "market": "CARTELLINO SI/NO (DUO) INC TS",
-      "info": "BELLINGHAM JUDE CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
+      "info": "STONES J. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
       "selection": "SI",
       "odds": 5,
-      "selectionId": 5212740589,
+      "selectionId": 5212740733,
       "risk": "Medio",
-      "reason": "molti duelli, pressione e possibili interventi di recupero dopo perdita palla."
+      "reason": "duelli diretti con Haaland/Sorloth e rischio trattenute su attacchi profondi."
     },
     {
       "rank": 5,

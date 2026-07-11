@@ -1,8 +1,8 @@
 {
-  "status": "ready",
+  "status": "ready_official_lineups",
   "match": "Norvegia-Inghilterra",
   "date": "2026-07-11",
-  "summary": "Lettura ricalcolata con quote Sisal aggiornate: Inghilterra favorita ma non da dominio totale; copione centrale 1-2, Goal, volume inglese su tiri/corner e falli sopra soglia moderata.",
+  "summary": "Lettura ricalcolata con formazioni ufficiali: Inghilterra favorita per qualificarsi ma meno Saka-centrica; Madueke porta strappo, falli subiti e duelli, Stones/Rice entrano nella gerarchia ammoniti.",
   "tempoExpected": "Ritmo intermittente: caldo molto alto a Miami, umidita pesante, pause idratazione e rischio interruzione per temporali/fulmini. Meno pressing continuo, piu gestione fisica e cambi pesanti nella ripresa.",
   "gameScript": {
     "firstHalf": "Avvio prudente, priorita a campo e controllo rischi; mercati live su falli/cartellini da confermare nei primi duelli.",
@@ -148,7 +148,7 @@
     }
   },
   "shotsScenario": {
-    "primary": "Erling Haaland tiri/SOT, Harry Kane tiri/SOT, Jude Bellingham tiri/SOT",
+    "primary": "Erling Haaland tiri/SOT, Harry Kane tiri/SOT, Jude Bellingham tiri, Madueke falli subiti piu che tiri in porta.",
     "teamModel": {
       "Norway": {
         "weightedShotsForPerMatch": 10.38,
@@ -195,6 +195,7 @@
     "probableFormations": {
       "Norway": {
         "module": "4-3-3",
+        "status": "official",
         "players": [
           "Nyland",
           "Ryerson",
@@ -211,17 +212,18 @@
       },
       "England": {
         "module": "4-2-3-1",
+        "status": "official",
         "players": [
           "Pickford",
           "O'Reilly",
-          "Konsa",
           "Guehi",
-          "Spence",
-          "Anderson",
+          "Stones",
+          "Konsa",
           "Rice",
+          "Anderson",
           "Gordon",
           "Bellingham",
-          "Saka",
+          "Madueke",
           "Kane"
         ]
       }
@@ -256,28 +258,28 @@
         "selectionId": 5212740541
       },
       {
-        "player": "Spence",
-        "team": "Inghilterra",
-        "odds": 4.5,
-        "risk": "Medio-alto",
-        "note": "duelli larghi e gestione di transizioni norvegesi sul suo lato.",
-        "selectionId": 5212740709
-      },
-      {
         "player": "Ryerson",
         "team": "Norvegia",
         "odds": 5,
         "risk": "Medio-alto",
-        "note": "lato esposto contro esterni inglesi, gia utile anche nel mercato falli.",
+        "note": "lato di Gordon/O Reilly e possibili uscite aggressive; utile anche nel mercato falli.",
         "selectionId": 5212740549
       },
       {
-        "player": "Bellingham",
+        "player": "Rice",
+        "team": "Inghilterra",
+        "odds": 6,
+        "risk": "Medio-alto",
+        "note": "deve spegnere Odegaard e le prime verticalizzazioni verso Haaland.",
+        "selectionId": 5212740445
+      },
+      {
+        "player": "Stones",
         "team": "Inghilterra",
         "odds": 5,
         "risk": "Medio",
-        "note": "molti duelli, pressione e possibili interventi di recupero dopo perdita palla.",
-        "selectionId": 5212740589
+        "note": "duelli diretti con Haaland/Sorloth e rischio trattenute su attacchi profondi.",
+        "selectionId": 5212740733
       },
       {
         "player": "O'Reilly",
@@ -452,13 +454,15 @@
     {
       "team": "England",
       "slotId": "england_rw",
-      "primaryPlayer": "Bukayo Saka",
+      "primaryPlayer": "Noni Madueke",
       "replacementCandidates": [
-        "Anthony Gordon"
+        "Bukayo Saka",
+        "Marcus Rashford"
       ],
-      "slotShotsPer90": 2.04,
-      "slotShotsOnTargetPer90": 0.51,
-      "reliability": "high"
+      "slotShotsPer90": 1.7,
+      "slotShotsOnTargetPer90": 0.45,
+      "reliability": "medium_official_lineup_adjusted",
+      "note": "Aggiornato sulle ufficiali: Madueke titolare al posto di Saka, profilo piu utile su falli subiti/duelli che su tiro in porta secco."
     }
   ],
   "matchEnvironmentEvidence": {
@@ -551,7 +555,7 @@
       "stormRisk": "temporali nel pomeriggio, rischio concreto di ritardo se vengono rilevati fulmini",
       "hydrationBreaks": true
     },
-    "modelImpact": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
+    "modelImpact": "Formazioni ufficiali: Saka e Spence non titolari. Inghilterra resta favorita per qualificarsi, ma il focus player passa da Saka tiri a Madueke falli subiti; Stones e Rice entrano nella gerarchia ammoniti."
   },
   "recalculatedPronostic": {
     "centralScore": "Norvegia 1-2 Inghilterra",
@@ -559,7 +563,7 @@
     "secondaryPicks": [
       "Goal",
       "Inghilterra over 13,5 tiri totali",
-      "Inghilterra over 4,5 corner"
+      "Madueke over 1,5 falli subiti"
     ],
     "mycomboOdds": {
       "safe": 4.71,

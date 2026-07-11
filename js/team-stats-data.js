@@ -269,11 +269,11 @@
                          ],
                          [
                              "Possesso medio",
-                             "66% circa"
+                             "66.1"
                          ],
                          [
                              "xG medio",
-                             "n/d sull ultima gara ESPN; storico precedente circa 1.75-1.90"
+                             "1.9"
                          ]
                      ],
         "modelReading":  "La Spagna sale a 6 partite analizzate: il 2-1 al Belgio conferma controllo territoriale e qualita nello specchio, con 17 tiri, 8 in porta, 5 corner e 67.9% di possesso. Ha subito il primo gol del torneo, ma resta corta e competitiva nei finali. Per Francia-Spagna pesare Portogallo e Belgio piu delle gare contro blocchi bassi.",
@@ -1035,11 +1035,11 @@
                          ],
                          [
                              "Corner medi",
-                             "1.0 su ultima gara ESPN; storico precedente n/d"
+                             "1"
                          ],
                          [
                              "Falli commessi medi",
-                             "13.0"
+                             "13"
                          ],
                          [
                              "Falli subiti medi",
@@ -1051,7 +1051,7 @@
                          ],
                          [
                              "Possesso medio",
-                             "32.1% su ultima gara ESPN; storico precedente n/d"
+                             "32.1"
                          ],
                          [
                              "xG medio",
@@ -1962,7 +1962,7 @@
                          ],
                          [
                              "Corner medi",
-                             "5.0 su ultima gara ESPN; storico precedente n/d"
+                             "5"
                          ],
                          [
                              "Falli commessi medi",
@@ -1978,7 +1978,7 @@
                          ],
                          [
                              "Possesso medio",
-                             "48% su ultima gara ESPN; storico precedente n/d"
+                             "48"
                          ],
                          [
                              "xG medio",
@@ -2278,7 +2278,7 @@
                          ],
                          [
                              "Corner medi",
-                             "5.0 su ultima gara ESPN; storico precedente n/d"
+                             "5"
                          ],
                          [
                              "Falli commessi medi",
@@ -2294,7 +2294,7 @@
                          ],
                          [
                              "Possesso medio",
-                             "52% su ultima gara ESPN; storico precedente n/d"
+                             "52"
                          ],
                          [
                              "xG medio",

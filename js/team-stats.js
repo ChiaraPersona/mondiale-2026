@@ -7,13 +7,15 @@ let teamStatsPlayerFilters = {
   role: "all",
   metric: "shots"
 };
-const quarterFinalTeams = ["Spagna", "Belgio", "Argentina", "Svizzera", "Francia", "Marocco", "Inghilterra", "Norvegia"];
+const quarterFinalTeams = ["Spagna", "Argentina", "Svizzera", "Francia", "Inghilterra", "Norvegia"];
 const normalizedPlayerStatsSources = [
+  "data/player-stats/merged/spain-belgium-2026-07-10.json",
   "data/player-stats/merged/spain-cape-verde-2026.json",
   "data/player-stats/merged/spain-saudi-arabia-2026.json",
   "data/player-stats/merged/uruguay-spain-2026.json",
   "data/player-stats/merged/portugal-spain-2026-07-06.json",
   "data/player-stats/merged/spain-austria-2026-07-02.json",
+  "data/player-stats/merged/france-morocco-2026-07-09.json",
   "data/player-stats/merged/france-sweden-2026-06-30.json",
   "data/player-stats/merged/paraguay-france-2026-07-04.json",
   "data/player-stats/merged/france-senegal-2026-06-16.json",

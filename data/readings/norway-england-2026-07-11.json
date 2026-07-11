@@ -1,9 +1,9 @@
 {
-  "status": "partial_missing_context",
+  "status": "ready",
   "match": "Norvegia-Inghilterra",
   "date": "2026-07-11",
   "summary": "Lettura operativa basata su weighted player model completo: Norway vs England. Priorita a tiri/SOT dei profili con continuita, cartellini/falli su ruoli esposti e contesto stadio/meteo se disponibile.",
-  "tempoExpected": "ritmo da valutare sul contesto partita",
+  "tempoExpected": "Ritmo intermittente: caldo molto alto a Miami, umidita pesante, pause idratazione e rischio interruzione per temporali/fulmini. Meno pressing continuo, piu gestione fisica e cambi pesanti nella ripresa.",
   "gameScript": {
     "firstHalf": "Avvio prudente, priorita a campo e controllo rischi; mercati live su falli/cartellini da confermare nei primi duelli.",
     "secondHalf": "Aumenta peso cambi e stato gara; se favorita non sblocca crescono tiri/corner, se passa avanti crescono falli tattici avversari.",
@@ -133,7 +133,7 @@
   ],
   "cardScenario": {
     "primary": "team cards/fouls prima dei singoli cartellini",
-    "environment": null,
+    "environment": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live.",
     "teamDiscipline": {
       "Norway": {
         "disciplineIndex": 74,
@@ -184,13 +184,12 @@
   "riskFactors": [
     "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
     "player prop sensibili a titolarita e sostituzioni",
-    "cartellini individuali ad alta varianza"
+    "cartellini individuali ad alta varianza",
+    "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
   ],
   "missingContext": [
     "Norway: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
-    "England: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
-    "referee not confirmed",
-    "weather low confidence/da aggiornare"
+    "England: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst"
   ],
   "sitePublication": {
     "probableFormations": {
@@ -257,12 +256,42 @@
         "player": "Nico O'Reilly",
         "team": "Inghilterra"
       }
-    ]
+    ],
+    "referee": {
+      "name": "Clement Turpin",
+      "country": "Francia",
+      "assistants": [
+        "Nicolas Danos",
+        "Benjamin Pages"
+      ],
+      "fourthOfficial": "Alejandro Hernandez",
+      "var": "squadra FIFA dedicata",
+      "official": true,
+      "previousWithEngland": "8 partite: 5 vittorie, 1 pareggio, 2 sconfitte. Al Mondiale 2026 ha diretto Inghilterra-Croazia 4-2 senza cartellini.",
+      "previousWithNorway": "1 precedente: sconfitta 2-0 contro i Paesi Bassi.",
+      "style": "Dialogante e abbastanza permissivo: tende a lasciar giocare, media cartellini medio-bassa, ma puo salire se la gara diventa molto fisica.",
+      "severityIndex": 58
+    },
+    "stadium": {
+      "name": "Hard Rock Stadium / Miami Stadium",
+      "city": "Miami Gardens, Florida",
+      "capacity": "circa 65.000",
+      "altitude": "2-3 metri s.l.m.",
+      "roof": "all aperto, copertura solo sulle tribune e terreno di gioco esposto",
+      "climateControl": false
+    },
+    "weather": {
+      "temperature": "33-34 C",
+      "feelsLike": "circa 40 C",
+      "humidity": "molto elevata",
+      "stormRisk": "temporali nel pomeriggio, rischio concreto di ritardo se vengono rilevati fulmini",
+      "hydrationBreaks": true
+    }
   },
   "dataQuality": {
     "playerStats": "complete",
     "teamStats": "partial",
-    "context": "partial",
+    "context": "confirmed_referee_weather_stadium",
     "roleSlotModel": "complete"
   },
   "teamStatsEvidence": {
@@ -461,5 +490,38 @@
     "player prop sensibili a titolarita e sostituzioni",
     "cartellini individuali ad alta varianza",
     "Campi avanzati non disponibili restano null e non vanno stimati."
-  ]
+  ],
+  "preMatchContext": {
+    "referee": {
+      "name": "Clement Turpin",
+      "country": "Francia",
+      "assistants": [
+        "Nicolas Danos",
+        "Benjamin Pages"
+      ],
+      "fourthOfficial": "Alejandro Hernandez",
+      "var": "squadra FIFA dedicata",
+      "official": true,
+      "previousWithEngland": "8 partite: 5 vittorie, 1 pareggio, 2 sconfitte. Al Mondiale 2026 ha diretto Inghilterra-Croazia 4-2 senza cartellini.",
+      "previousWithNorway": "1 precedente: sconfitta 2-0 contro i Paesi Bassi.",
+      "style": "Dialogante e abbastanza permissivo: tende a lasciar giocare, media cartellini medio-bassa, ma puo salire se la gara diventa molto fisica.",
+      "severityIndex": 58
+    },
+    "stadium": {
+      "name": "Hard Rock Stadium / Miami Stadium",
+      "city": "Miami Gardens, Florida",
+      "capacity": "circa 65.000",
+      "altitude": "2-3 metri s.l.m.",
+      "roof": "all aperto, copertura solo sulle tribune e terreno di gioco esposto",
+      "climateControl": false
+    },
+    "weather": {
+      "temperature": "33-34 C",
+      "feelsLike": "circa 40 C",
+      "humidity": "molto elevata",
+      "stormRisk": "temporali nel pomeriggio, rischio concreto di ritardo se vengono rilevati fulmini",
+      "hydrationBreaks": true
+    },
+    "modelImpact": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
+  }
 }

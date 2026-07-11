@@ -654,14 +654,15 @@
       "minutesSample": 512
     }
   ],
-  "nextStep": "Applicare Market Evaluator V1 e filtrare solo mercati presenti nelle quote Sisal.",
+  "nextStep": "Contesto ufficiale arbitro/meteo incorporato: usare Market Evaluator solo su quote reali e ridurre mercati incoerenti con ritmo, falli e cartellini.",
   "sourceReading": "data/readings/argentina-switzerland-2026-07-11.json",
   "dataQuality": {
     "completion": 100,
     "advancedStats": "partial_espn_base",
-    "missingContext": [
-      "referee confirmed"
-    ]
+    "missingContext": [],
+    "referee": "official",
+    "weather": "forecast_confirmed",
+    "stadium": "confirmed"
   },
   "roleSlotModel": [
     {
@@ -827,5 +828,37 @@
       }
     }
   ],
-  "sourceRoleSlotModel": "data/player-stats/quarterfinals-role-slot-model.json"
+  "sourceRoleSlotModel": "data/player-stats/quarterfinals-role-slot-model.json",
+  "preMatchContext": {
+    "referee": {
+      "name": "Joao Pinheiro",
+      "country": "Portogallo",
+      "assistants": [
+        "Bruno Jesus",
+        "Luciano Maia"
+      ],
+      "fourthOfficial": "Drew Fischer",
+      "official": true,
+      "previousWithArgentina": "Nessun precedente con la Nazionale maggiore.",
+      "previousWithSwitzerland": "Ha diretto la Svizzera nel 4-1 contro la Bosnia in questo Mondiale.",
+      "style": "Rigoroso nei contatti, lascia correre poco le trattenute, buon utilizzo del VAR e media cartellini medio-alta rispetto alla media UEFA.",
+      "severityIndex": 74
+    },
+    "stadium": {
+      "name": "Kansas City Stadium / GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, Missouri",
+      "capacity": "circa 76.000",
+      "altitude": "circa 270 metri s.l.m.",
+      "roof": "completamente all aperto",
+      "climateControl": false
+    },
+    "weather": {
+      "temperature": "29-31 C al calcio d inizio",
+      "humidity": "moderata",
+      "sky": "poco nuvoloso",
+      "wind": "debole",
+      "rainRisk": "molto basso"
+    },
+    "modelImpact": "Condizioni ambientali buone per una gara abbastanza pulita sul piano fisico; Pinheiro aumenta il peso di falli, cartellini squadra e giocatori esposti nei duelli, senza cambiare il nucleo Argentina + gestione."
+  }
 }

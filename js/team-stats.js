@@ -269,9 +269,52 @@ function readableRound(round) {
   const rounds = {
     "Group stage": "Fase a gironi",
     "Round of 32": "Sedicesimi",
-    "Round of 16": "Ottavi"
+    "Round of 16": "Ottavi",
+    "Quarter-finals": "Quarti di finale",
+    "Quarterfinals": "Quarti di finale"
   };
   return rounds[round] || round || "n/d";
+}
+
+function inferRoundLabel(normalized, context = {}) {
+  const explicitRound = readableRound(normalized?.round);
+  if (explicitRound !== "n/d") return explicitRound;
+
+  const matchId = String(normalized?.matchId || "");
+  const contextText = [
+    context.matchType,
+    context.tipoPartita,
+    context.gameState,
+    context.statoGara
+  ].filter(Boolean).join(" ").toLowerCase();
+
+  if (matchId.includes("spain-belgium") || matchId.includes("france-morocco") || contextText.includes("quarti")) return "Quarti di finale";
+  if (matchId.includes("portugal-spain") || matchId.includes("paraguay-france") || contextText.includes("ottavi")) return "Ottavi di finale";
+  if (matchId.includes("spain-austria") || matchId.includes("france-sweden") || contextText.includes("sedicesimi")) return "Sedicesimi di finale";
+  if (contextText.includes("gironi") || contextText.includes("fase a gironi")) return "Fase a gironi";
+  return "Fase a gironi";
+}
+
+function matchRoundOrder(match) {
+  const roundText = String(match?.round || match?.context?.matchType || "").toLowerCase();
+  if (roundText.includes("quarti")) return 4;
+  if (roundText.includes("ottavi")) return 3;
+  if (roundText.includes("sedicesimi")) return 2;
+  if (roundText.includes("gironi")) return 1;
+  return 0;
+}
+
+function sortPlayerMatches(matches = []) {
+  return [...matches].sort((a, b) => {
+    const roundDelta = matchRoundOrder(b) - matchRoundOrder(a);
+    if (roundDelta) return roundDelta;
+
+    const dateA = Date.parse(a?.date || "");
+    const dateB = Date.parse(b?.date || "");
+    const safeDateA = Number.isFinite(dateA) ? dateA : 0;
+    const safeDateB = Number.isFinite(dateB) ? dateB : 0;
+    return safeDateB - safeDateA || String(a?.match || "").localeCompare(String(b?.match || ""));
+  });
 }
 
 function contextTextFromPlayerMatch(match) {
@@ -430,6 +473,7 @@ function mergeNormalizedPlayerStats(stats, normalized, sourcePath) {
   if (!normalized?.teams) return stats;
 
   const matchName = displayMatchName(normalized);
+  const matchContext = contextForMatch(normalized.matchId);
   Object.entries(normalized.teams).forEach(([sourceTeamName, teamBlock]) => {
     const teamName = normalizeTeamStatsName(sourceTeamName);
     let team = stats.find((item) => item.team === teamName);
@@ -463,15 +507,16 @@ function mergeNormalizedPlayerStats(stats, normalized, sourcePath) {
         team: team.team,
         match: matchName,
         competition: normalized.competition || previousMatch.competition || "World Cup 2026",
-        round: normalized.round || previousMatch.round || "Round of 16",
+        round: inferRoundLabel(normalized, matchContext || previousMatch.context),
         date: normalized.date || previousMatch.date || null,
         provider: normalized.provider || "Merged",
         matchId: normalized.matchId || previousMatch.matchId || null,
         normalizedSource: sourcePath,
-        context: contextForMatch(normalized.matchId, previousMatch.context),
+        context: matchContext || previousMatch.context,
         players
       }
     ];
+    team.playerMatches = sortPlayerMatches(team.playerMatches);
 
     team.playerStatsMeta = {
       source: normalized.provider || "Merged",
@@ -538,10 +583,7 @@ function mergeQuarterFinalPlayerModelStats(stats, model, allowedTeams = []) {
       });
     });
 
-    team.playerMatches = [...matches.values()].sort((a, b) => {
-      const order = { "Fase a gironi": 1, "Sedicesimi": 2, "Ottavi": 3 };
-      return (order[a.round] || 9) - (order[b.round] || 9);
-    });
+    team.playerMatches = sortPlayerMatches([...matches.values()]);
     buildTeamStatsFromPlayerMatches(team, model.matchId);
   });
 

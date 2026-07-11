@@ -83,7 +83,8 @@
     "finalOdds": 5.34,
     "targetOdds": "4-6",
     "averageRisk": 38,
-    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico."
+    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico. Contesto aggiornato: Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live.",
+    "contextNote": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
   },
   "balanced": {
     "name": "Balanced",
@@ -161,7 +162,8 @@
     "finalOdds": 11.45,
     "targetOdds": "8-12",
     "averageRisk": 52,
-    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico."
+    "motivation": "Combinazione generata solo da mercati reali Sisal, usando la lettura partita e i player model come filtro tecnico. Contesto aggiornato: Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live.",
+    "contextNote": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
   },
   "aggressive": {
     "name": "Aggressive",
@@ -285,7 +287,8 @@
     "finalOdds": 23.15,
     "targetOdds": "18-25",
     "averageRisk": 62,
-    "motivation": "Aggressive ricostruita con piu quote piccole e senza alzare troppo la soglia risultato dell Inghilterra."
+    "motivation": "Aggressive ricostruita con piu quote piccole e senza alzare troppo la soglia risultato dell Inghilterra. Contesto aggiornato: Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live.",
+    "contextNote": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
   },
   "quoteErrorAnalysis": {
     "analysis": {
@@ -351,5 +354,18 @@
       }
     ],
     "disclaimer": "I possibili errori di quota non sono garanzie di vincita: indicano mercati reali Sisal compatibili con lettura e dati disponibili."
+  },
+  "contextUpdate": {
+    "updatedAt": "2026-07-11",
+    "referee": "Clement Turpin",
+    "stadium": "Hard Rock Stadium / Miami Stadium",
+    "weather": {
+      "temperature": "33-34 C",
+      "feelsLike": "circa 40 C",
+      "humidity": "molto elevata",
+      "stormRisk": "temporali nel pomeriggio, rischio concreto di ritardo se vengono rilevati fulmini",
+      "hydrationBreaks": true
+    },
+    "modelImpact": "Il caldo riduce la probabilita di ritmo continuo e rende piu fragile l Over alto di tiri in porta; Turpin abbassa il peso dei cartellini individuali rispetto ai falli squadra/live."
   }
 }

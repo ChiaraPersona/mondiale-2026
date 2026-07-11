@@ -1,9 +1,9 @@
 {
-  "status": "partial_missing_context",
+  "status": "ready",
   "match": "Argentina-Svizzera",
   "date": "2026-07-11",
   "summary": "Lettura operativa basata su weighted player model completo: Argentina vs Switzerland. Priorita a tiri/SOT dei profili con continuita, cartellini/falli su ruoli esposti e contesto stadio/meteo se disponibile.",
-  "tempoExpected": "ritmo da valutare sul contesto partita",
+  "tempoExpected": "Ritmo piu regolare rispetto a Miami: Kansas City caldo ma gestibile, 29-31 C, umidita moderata, vento debole e rischio pioggia molto basso. Pinheiro puo aumentare falli fischiati e cartellini.",
   "gameScript": {
     "firstHalf": "Avvio prudente, priorita a campo e controllo rischi; mercati live su falli/cartellini da confermare nei primi duelli.",
     "secondHalf": "Aumenta peso cambi e stato gara; se favorita non sblocca crescono tiri/corner, se passa avanti crescono falli tattici avversari.",
@@ -133,7 +133,7 @@
   ],
   "cardScenario": {
     "primary": "team cards/fouls prima dei singoli cartellini",
-    "environment": null,
+    "environment": "Condizioni ambientali buone per una gara abbastanza pulita sul piano fisico; Pinheiro aumenta il peso di falli, cartellini squadra e giocatori esposti nei duelli, senza cambiare il nucleo Argentina + gestione.",
     "teamDiscipline": {
       "Argentina": {
         "disciplineIndex": 64,
@@ -184,13 +184,12 @@
   "riskFactors": [
     "copertura avanzata limitata ESPN: xG/xA/tocchi/passaggi spesso null",
     "player prop sensibili a titolarita e sostituzioni",
-    "cartellini individuali ad alta varianza"
+    "cartellini individuali ad alta varianza",
+    "Condizioni ambientali buone per una gara abbastanza pulita sul piano fisico; Pinheiro aumenta il peso di falli, cartellini squadra e giocatori esposti nei duelli, senza cambiare il nucleo Argentina + gestione."
   ],
   "missingContext": [
     "Argentina: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
-    "Switzerland: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst",
-    "referee not confirmed",
-    "weather low confidence/da aggiornare"
+    "Switzerland: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst"
   ],
   "sitePublication": {
     "probableFormations": null,
@@ -225,12 +224,41 @@
         "player": "Nico Elvedi",
         "team": "Svizzera"
       }
-    ]
+    ],
+    "referee": {
+      "name": "Joao Pinheiro",
+      "country": "Portogallo",
+      "assistants": [
+        "Bruno Jesus",
+        "Luciano Maia"
+      ],
+      "fourthOfficial": "Drew Fischer",
+      "official": true,
+      "previousWithArgentina": "Nessun precedente con la Nazionale maggiore.",
+      "previousWithSwitzerland": "Ha diretto la Svizzera nel 4-1 contro la Bosnia in questo Mondiale.",
+      "style": "Rigoroso nei contatti, lascia correre poco le trattenute, buon utilizzo del VAR e media cartellini medio-alta rispetto alla media UEFA.",
+      "severityIndex": 74
+    },
+    "stadium": {
+      "name": "Kansas City Stadium / GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, Missouri",
+      "capacity": "circa 76.000",
+      "altitude": "circa 270 metri s.l.m.",
+      "roof": "completamente all aperto",
+      "climateControl": false
+    },
+    "weather": {
+      "temperature": "29-31 C al calcio d inizio",
+      "humidity": "moderata",
+      "sky": "poco nuvoloso",
+      "wind": "debole",
+      "rainRisk": "molto basso"
+    }
   },
   "dataQuality": {
     "playerStats": "complete",
     "teamStats": "partial",
-    "context": "partial",
+    "context": "confirmed_referee_weather_stadium",
     "roleSlotModel": "complete"
   },
   "teamStatsEvidence": {
@@ -416,5 +444,37 @@
     "player prop sensibili a titolarita e sostituzioni",
     "cartellini individuali ad alta varianza",
     "Campi avanzati non disponibili restano null e non vanno stimati."
-  ]
+  ],
+  "preMatchContext": {
+    "referee": {
+      "name": "Joao Pinheiro",
+      "country": "Portogallo",
+      "assistants": [
+        "Bruno Jesus",
+        "Luciano Maia"
+      ],
+      "fourthOfficial": "Drew Fischer",
+      "official": true,
+      "previousWithArgentina": "Nessun precedente con la Nazionale maggiore.",
+      "previousWithSwitzerland": "Ha diretto la Svizzera nel 4-1 contro la Bosnia in questo Mondiale.",
+      "style": "Rigoroso nei contatti, lascia correre poco le trattenute, buon utilizzo del VAR e media cartellini medio-alta rispetto alla media UEFA.",
+      "severityIndex": 74
+    },
+    "stadium": {
+      "name": "Kansas City Stadium / GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, Missouri",
+      "capacity": "circa 76.000",
+      "altitude": "circa 270 metri s.l.m.",
+      "roof": "completamente all aperto",
+      "climateControl": false
+    },
+    "weather": {
+      "temperature": "29-31 C al calcio d inizio",
+      "humidity": "moderata",
+      "sky": "poco nuvoloso",
+      "wind": "debole",
+      "rainRisk": "molto basso"
+    },
+    "modelImpact": "Condizioni ambientali buone per una gara abbastanza pulita sul piano fisico; Pinheiro aumenta il peso di falli, cartellini squadra e giocatori esposti nei duelli, senza cambiare il nucleo Argentina + gestione."
+  }
 }

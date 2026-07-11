@@ -228,22 +228,22 @@
     },
     "quoteErrors": [
       {
-        "market": "Inghilterra over 4,5 corner",
-        "odds": 1.48,
-        "note": "Quota ancora giocabile: linea compatibile con supremazia territoriale inglese e produzione laterale.",
-        "selectionId": 5210817234
+        "market": "Goal + Under 3,5",
+        "odds": 3.1,
+        "note": "Quota sopra 3 coerente con 1-1/1-2: entrambe possono segnare, ma il caldo frena una partita larghissima.",
+        "selectionId": 5207565115
       },
       {
-        "market": "Entrambe almeno 3 corner",
-        "odds": 1.38,
-        "note": "Linea bassa per una gara con Haaland/Kane, cross e difese costrette a concedere respinte.",
-        "selectionId": 5210817329
+        "market": "X + Under 1,5 primo tempo",
+        "odds": 3.2,
+        "note": "Prezzo interessante se Turpin lascia correre e il primo tempo resta tattico, con squadre attente a non scoprirsi.",
+        "selectionId": 5207565760
       },
       {
-        "market": "Totale falli over 21,5",
-        "odds": 1.65,
-        "note": "Turpin lascia giocare, ma caldo, transizioni e posta da quarto rendono il 21,5 una soglia attaccabile.",
-        "selectionId": 5207566981
+        "market": "Inghilterra + Goal + Over 1,5",
+        "odds": 3.5,
+        "note": "La combinazione paga bene lo scenario centrale 1-2 senza chiedere un Over 3,5 o marcatori specifici.",
+        "selectionId": 5207663385
       }
     ],
     "bookingComboCandidates": [
@@ -565,6 +565,11 @@
       "safe": 4.71,
       "balanced": 10.94,
       "aggressive": 16.81
-    }
+    },
+    "quoteErrors": [
+      "Goal + Under 3,5 @ 3.1",
+      "X + Under 1,5 primo tempo @ 3.2",
+      "Inghilterra + Goal + Over 1,5 @ 3.5"
+    ]
   }
 }

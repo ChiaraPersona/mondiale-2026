@@ -234,16 +234,16 @@
         "selectionId": 5210481362
       },
       {
-        "market": "Svizzera over 11,5 falli commessi",
-        "odds": 1.75,
-        "note": "Pinheiro piu rigoroso e Argentina piu tecnica alzano il rischio falli svizzeri.",
-        "selectionId": 5213889505
+        "market": "Argentina + NoGoal + Under 2,5",
+        "odds": 3.3,
+        "note": "Versione piu selettiva del copione 1-0/2-0: rischiosa, ma coerente con dominio argentino controllato.",
+        "selectionId": 5210485501
       },
       {
-        "market": "Freuler piu falli commessi di Paredes",
-        "odds": 1.9,
-        "note": "Matchup utile: Freuler dovrebbe difendere piu spesso in rincorsa rispetto a Paredes.",
-        "selectionId": 5212668347
+        "market": "Svizzera over 4,5 corner",
+        "odds": 3.25,
+        "note": "Quota sopra 3 interessante se la Svizzera deve rincorrere e cerca uscite laterali con Ndoye/Vargas.",
+        "selectionId": 5211715829
       }
     ],
     "bookingComboCandidates": [
@@ -550,6 +550,11 @@
       "safe": 4.72,
       "balanced": 11.8,
       "aggressive": 17.83
-    }
+    },
+    "quoteErrors": [
+      "Argentina vince + Under 2,5 @ 3.25",
+      "Argentina + NoGoal + Under 2,5 @ 3.3",
+      "Svizzera over 4,5 corner @ 3.25"
+    ]
   }
 }

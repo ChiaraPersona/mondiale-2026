@@ -258,6 +258,15 @@ function formatAverage(value) {
   return value === null || value === undefined ? "n/d" : String(value);
 }
 
+function teamStatValue(stats = [], label) {
+  const row = stats.find(([name]) => String(name).toLowerCase() === String(label).toLowerCase());
+  return row?.[1] ?? null;
+}
+
+function fallbackStatsByMatch(matches = []) {
+  return new Map(matches.map((match) => [match.match, match.stats || []]));
+}
+
 function formatRangeFromAverage(value, spread = 2, min = 0) {
   if (!Number.isFinite(value)) return "n/d";
   const low = Math.max(min, Math.floor(value - spread));
@@ -329,6 +338,7 @@ function contextTextFromPlayerMatch(match) {
 
 function buildTeamStatsFromPlayerMatches(team, sourceMatchId) {
   const playerMatches = flattenPlayerMatchRows(team);
+  const fallbackByMatch = fallbackStatsByMatch(team.analyzedMatches || []);
   const matches = new Map();
   playerMatches.forEach((row) => {
     if (!matches.has(row.match)) {
@@ -348,6 +358,10 @@ function buildTeamStatsFromPlayerMatches(team, sourceMatchId) {
     const foulsWon = sumNumber(match.rows, "foulsWon");
     const yellowCards = sumNumber(match.rows, "yellowCards");
     const goals = sumNumber(match.rows, "goals");
+    const fallbackStats = fallbackByMatch.get(match.match) || [];
+    const fallbackCorner = teamStatValue(fallbackStats, "Corner");
+    const fallbackPossession = teamStatValue(fallbackStats, "Possesso");
+    const fallbackXg = teamStatValue(fallbackStats, "xG");
 
     return {
       match: match.match,
@@ -360,12 +374,12 @@ function buildTeamStatsFromPlayerMatches(team, sourceMatchId) {
         ["Gol", String(goals)],
         ["Tiri", String(shots)],
         ["Tiri in porta", String(shotsOnTarget)],
-        ["Corner", "n/d"],
+        ["Corner", fallbackCorner ?? "n/d"],
         ["Falli commessi", String(foulsCommitted)],
         ["Falli subiti", String(foulsWon)],
         ["Cartellini gialli", String(yellowCards)],
-        ["Possesso", "n/d"],
-        ["xG", "n/d"]
+        ["Possesso", fallbackPossession ?? "n/d"],
+        ["xG", fallbackXg ?? "n/d"]
       ]
     };
   });
@@ -378,7 +392,7 @@ function buildTeamStatsFromPlayerMatches(team, sourceMatchId) {
   const averages = [
     ["Tiri totali medi", formatAverage(averageNumber(analyzedMatches.map((match) => statValue(match, "Tiri"))))],
     ["Tiri in porta medi", formatAverage(averageNumber(analyzedMatches.map((match) => statValue(match, "Tiri in porta"))))],
-    ["Corner medi", "n/d"],
+    ["Corner medi", formatAverage(averageNumber(analyzedMatches.map((match) => statValue(match, "Corner"))))],
     ["Falli commessi medi", formatAverage(averageNumber(analyzedMatches.map((match) => statValue(match, "Falli commessi"))))],
     ["Falli subiti medi", formatAverage(averageNumber(analyzedMatches.map((match) => statValue(match, "Falli subiti"))))],
     ["Cartellini gialli medi", formatAverage(averageNumber(analyzedMatches.map((match) => statValue(match, "Cartellini gialli"))))],
@@ -391,16 +405,17 @@ function buildTeamStatsFromPlayerMatches(team, sourceMatchId) {
   const avgFouls = averageNumber(analyzedMatches.map((match) => statValue(match, "Falli commessi")));
   const avgFoulsWon = averageNumber(analyzedMatches.map((match) => statValue(match, "Falli subiti")));
   const avgCards = averageNumber(analyzedMatches.map((match) => statValue(match, "Cartellini gialli")));
+  const avgCorners = averageNumber(analyzedMatches.map((match) => statValue(match, "Corner")));
 
   team.analyzedMatches = analyzedMatches;
   team.averages = averages;
   team.summary = `${team.team}: dati calciatori e squadra caricati dalle 5 partite Mondiale 2026 disponibili.`;
-  team.modelReading = `${team.team} ha dataset completo su 5 partite. La lettura usa soprattutto minuti, tiri, tiri in porta, falli commessi, falli subiti e cartellini; corner, possesso e xG restano n/d quando non presenti nei provider disponibili.`;
+  team.modelReading = `${team.team} ha dataset completo su 5 partite. La lettura usa minuti, tiri, tiri in porta, corner disponibili, falli commessi, falli subiti e cartellini; possesso e xG restano n/d quando non presenti nei provider disponibili.`;
   team.estimateTitle = `Stima prossimo match - ${team.team}`;
   team.estimate = [
     [`Tiri ${team.team}`, formatRangeFromAverage(avgShots, 3)],
     [`Tiri in porta ${team.team}`, formatRangeFromAverage(avgSot, 1)],
-    [`Corner ${team.team}`, "n/d"],
+    [`Corner ${team.team}`, formatRangeFromAverage(avgCorners, 2)],
     [`Falli commessi ${team.team}`, formatRangeFromAverage(avgFouls, 2)],
     [`Falli subiti ${team.team}`, formatRangeFromAverage(avgFoulsWon, 3)],
     [`Cartellini ${team.team}`, formatRangeFromAverage(avgCards, 1)]

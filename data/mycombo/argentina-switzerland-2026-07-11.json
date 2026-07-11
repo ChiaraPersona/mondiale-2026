@@ -314,7 +314,7 @@
     "analysis": {
       "totalMarkets": 8224,
       "publishedEvents": 3,
-      "minimumOdds": 1.7,
+      "minimumOdds": 3.01,
       "marketsAboveOddsThreshold": 3
     },
     "events": [
@@ -329,51 +329,51 @@
         "category": "esito",
         "badge": "VALUE",
         "reason": "Quota sopra 3 ma non improponibile: compatibile con 1-0 o 2-0 controllato.",
-        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
+        "compatibility": "Solo valutazione value: quota superiore a 3, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
           "Quote Sisal aggiornate",
-          "Filtro quota non improponibile"
+          "Filtro quota > 3"
         ]
       },
       {
-        "title": "Svizzera over 11,5 falli commessi",
-        "market": "U/O FALLI COMMESSI SQUADRA INC TS",
-        "info": "SQUADRA 2: U/O 11.5 FALLI COMMESSI INCL. T.S.",
+        "title": "Argentina + NoGoal + Under 2,5",
+        "market": "COMBO: 1X2 + U/O + GG/NG",
+        "info": "1X2 + U/O 2.5 + GG/NG",
+        "selection": "1+NOGOAL+UNDER",
+        "odds": 3.3,
+        "selectionId": 5210485501,
+        "marketId": 791891102,
+        "category": "esito",
+        "badge": "VALUE",
+        "reason": "Versione piu selettiva del copione 1-0/2-0: rischiosa, ma coerente con dominio argentino controllato.",
+        "compatibility": "Solo valutazione value: quota superiore a 3, non obbligatoria in MyCombo",
+        "confirmations": [
+          "Lettura partita",
+          "Quote Sisal aggiornate",
+          "Filtro quota > 3"
+        ]
+      },
+      {
+        "title": "Svizzera over 4,5 corner",
+        "market": "U/O CORNER SQUADRA X",
+        "info": "U/O 4.5 CORNER SQUADRA 2",
         "selection": "OVER",
-        "odds": 1.75,
-        "selectionId": 5213889505,
-        "marketId": 792541345,
-        "category": "falli",
+        "odds": 3.25,
+        "selectionId": 5211715829,
+        "marketId": 792127541,
+        "category": "corner",
         "badge": "VALUE",
-        "reason": "Pinheiro piu rigoroso e Argentina piu tecnica alzano il rischio falli svizzeri.",
-        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
+        "reason": "Quota sopra 3 interessante se la Svizzera deve rincorrere e cerca uscite laterali con Ndoye/Vargas.",
+        "compatibility": "Solo valutazione value: quota superiore a 3, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
           "Quote Sisal aggiornate",
-          "Filtro quota non improponibile"
-        ]
-      },
-      {
-        "title": "Freuler piu falli commessi di Paredes",
-        "market": "1X2 FALLI COMMESSI GIOCATORI INC TS",
-        "info": "PAREDES LEANDRO - FREULER R. 1X2 FALLI COMMESSI INC. TS",
-        "selection": "2",
-        "odds": 1.9,
-        "selectionId": 5212668347,
-        "marketId": 792296141,
-        "category": "falli",
-        "badge": "VALUE",
-        "reason": "Matchup utile: Freuler dovrebbe difendere piu spesso in rincorsa rispetto a Paredes.",
-        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
-        "confirmations": [
-          "Lettura partita",
-          "Quote Sisal aggiornate",
-          "Filtro quota non improponibile"
+          "Filtro quota > 3"
         ]
       }
     ],
-    "disclaimer": "Errori di quota intesi come prezzi interessanti rispetto alla lettura, non come garanzie."
+    "disclaimer": "I possibili errori di quota rispettano il filtro quota superiore a 3: sono prezzi interessanti rispetto alla lettura, non garanzie."
   },
   "contextUpdate": {
     "updatedAt": "2026-07-11",

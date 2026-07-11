@@ -337,66 +337,66 @@
     "analysis": {
       "totalMarkets": 7899,
       "publishedEvents": 3,
-      "minimumOdds": 1.35,
+      "minimumOdds": 3.01,
       "marketsAboveOddsThreshold": 3
     },
     "events": [
       {
-        "title": "Inghilterra over 4,5 corner",
-        "market": "U/O CORNER SQUADRA X",
-        "info": "U/O 4.5 CORNER SQUADRA 2",
-        "selection": "OVER",
-        "odds": 1.48,
-        "selectionId": 5210817234,
-        "marketId": 791965677,
-        "category": "corner",
+        "title": "Goal + Under 3,5",
+        "market": "COMBO: GOAL/NOGOAL + U/O",
+        "info": "U/O 3.5 + GG/NG",
+        "selection": "GOAL + UNDER",
+        "odds": 3.1,
+        "selectionId": 5207565115,
+        "marketId": 791354552,
+        "category": "esito",
         "badge": "VALUE",
-        "reason": "Quota ancora giocabile: linea compatibile con supremazia territoriale inglese e produzione laterale.",
-        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
+        "reason": "Quota sopra 3 coerente con 1-1/1-2: entrambe possono segnare, ma il caldo frena una partita larghissima.",
+        "compatibility": "Solo valutazione value: quota superiore a 3, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
           "Quote Sisal aggiornate",
-          "Filtro quota non improponibile"
+          "Filtro quota > 3"
         ]
       },
       {
-        "title": "Entrambe almeno 3 corner",
-        "market": "ENTRAMBE ALMENO X CORNER",
-        "info": "ENTRAMBE ALMENO 3 CORNER",
-        "selection": "SI",
-        "odds": 1.38,
-        "selectionId": 5210817329,
-        "marketId": 791965700,
-        "category": "corner",
+        "title": "X + Under 1,5 primo tempo",
+        "market": "COMBO 1T: 1X2 + U/O",
+        "info": "1 TEMPO: 1X2 + U/O 1.5",
+        "selection": "X + UNDER",
+        "odds": 3.2,
+        "selectionId": 5207565760,
+        "marketId": 791354944,
+        "category": "esito",
         "badge": "VALUE",
-        "reason": "Linea bassa per una gara con Haaland/Kane, cross e difese costrette a concedere respinte.",
-        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
+        "reason": "Prezzo interessante se Turpin lascia correre e il primo tempo resta tattico, con squadre attente a non scoprirsi.",
+        "compatibility": "Solo valutazione value: quota superiore a 3, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
           "Quote Sisal aggiornate",
-          "Filtro quota non improponibile"
+          "Filtro quota > 3"
         ]
       },
       {
-        "title": "Totale falli over 21,5",
-        "market": "U/O FALLI COMMESSI  INC TS",
-        "info": "U/O 21.5 FALLI COMMESSI INC TS",
-        "selection": "OVER",
-        "odds": 1.65,
-        "selectionId": 5207566981,
-        "marketId": 791355224,
-        "category": "falli",
+        "title": "Inghilterra + Goal + Over 1,5",
+        "market": "COMBO: 1X2 + U/O + GG/NG",
+        "info": "1X2 + U/O 1.5 + GG/NG",
+        "selection": "2+GOAL+OVER",
+        "odds": 3.5,
+        "selectionId": 5207663385,
+        "marketId": 791373774,
+        "category": "esito",
         "badge": "VALUE",
-        "reason": "Turpin lascia giocare, ma caldo, transizioni e posta da quarto rendono il 21,5 una soglia attaccabile.",
-        "compatibility": "Solo valutazione value, non obbligatoria in MyCombo",
+        "reason": "La combinazione paga bene lo scenario centrale 1-2 senza chiedere un Over 3,5 o marcatori specifici.",
+        "compatibility": "Solo valutazione value: quota superiore a 3, non obbligatoria in MyCombo",
         "confirmations": [
           "Lettura partita",
           "Quote Sisal aggiornate",
-          "Filtro quota non improponibile"
+          "Filtro quota > 3"
         ]
       }
     ],
-    "disclaimer": "Errori di quota intesi come prezzi interessanti rispetto alla lettura, non come garanzie."
+    "disclaimer": "I possibili errori di quota rispettano il filtro quota superiore a 3: sono prezzi interessanti rispetto alla lettura, non garanzie."
   },
   "contextUpdate": {
     "updatedAt": "2026-07-11",

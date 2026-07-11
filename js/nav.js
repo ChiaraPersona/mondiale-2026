@@ -26,13 +26,7 @@ if (readingPage && !document.querySelector(".page-links")) {
         <a class="page-link" href="index.html">Home</a>
       <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
       <a class="page-link" href="arbitri.html">Arbitri</a>
-        <div class="nav-dropdown">
-          <span class="page-link nav-dropdown-toggle active">Pronostico <span class="nav-caret">&#9662;</span></span>
-          <div class="nav-dropdown-menu">
-            <a class="page-link" href="pronostico-codex.html">Pronostico Codex</a>
-      <a class="page-link active" href="lettura.html">Lettura</a>
-          </div>
-        </div>
+        <a class="page-link active" href="lettura.html">Lettura</a>
         <a class="page-link" href="storia.html">Storia</a>
       <a class="page-link utility-link" href="metodo-fonti.html">Metodo e fonti</a>
       </nav>

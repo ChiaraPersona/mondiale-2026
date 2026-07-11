@@ -34,6 +34,21 @@
     "gameState": "Partita chiusa/equilibrata, pochi spazi, gol Spagna nel finale",
     "modelWeight": "Molto alto"
   },
+  "spain-belgium-2026-07-10": {
+    "matchType": "Quarti / scontro diretto a eliminazione",
+    "opponentLevel": "Alto (5/5)",
+    "opponentStyle": "Possesso + transizioni veloci",
+    "gameState": "Equilibrata / alta pressione, partita aperta fino al 2-1 finale",
+    "modelWeight": "1.45 - Molto alto",
+    "tipoPartita": "Scontro diretto a eliminazione",
+    "livelloAvversario": "Alto",
+    "livelloAvversarioScore": 5,
+    "stileAvversario": "Possesso + transizioni veloci",
+    "statoGara": "Equilibrata / Alta pressione",
+    "pesoModello": 1.45,
+    "pesoModelloRange": [1.35, 1.5],
+    "note": "Quarto di finale contro una nazionale top: dato da pesare molto nel modello, soprattutto per pressione, falli, tiri e gestione dei momenti decisivi."
+  },
   "france-senegal-2026-06-16": {
     "matchType": "Fase a gironi",
     "opponentLevel": "Medio-alto",

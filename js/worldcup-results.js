@@ -1463,7 +1463,7 @@ const worldCupResults = {
     notes: [
       "Gli Stati Uniti battono la Bosnia-Erzegovina 2-0 e si qualificano agli ottavi contro il Belgio.",
       "Balogun segna al 45' e viene espulso al 64'; Tillman chiude la gara su punizione all'82'.",
-      "Pronostico Codex pienamente centrato: risultato esatto 2-0, USA + Under 4,5 e No Goal.",
+      "Lettura pienamente centrato: risultato esatto 2-0, USA + Under 4,5 e No Goal.",
       "Tiri 8-10, tiri in porta 2-3 e corner 4-3; non entrano Over 2,5 e ammonito Sunjic.",
     ],
   },
@@ -1685,7 +1685,7 @@ const worldCupResults = {
       "La Spagna batte il Portogallo 1-0 e si qualifica ai quarti di finale.",
       "Mikel Merino decide la partita nel recupero su assist di Ferran Torres.",
       "Il Portogallo viene eliminato agli ottavi; Cristiano Ronaldo chiude il torneo a 3 gol.",
-      "Pronostico Codex coerente sul passaggio della Spagna e sull'Under 3,5; persi Goal e Over 1,5.",
+      "Lettura coerente sul passaggio della Spagna e sull'Under 3,5; persi Goal e Over 1,5.",
     ],
   },
   94: {

@@ -1,16 +1,5 @@
-# Aggiornamento statistiche gratis
+# Mondiale 2026
 
-Il sito legge le statistiche da `js/stats.js`, in versione alleggerita: conserva medie, totali e riepiloghi utili, evitando lo storico completo delle singole partite quando non serve alla UI.
+Il sito ora ruota attorno a tre superfici principali: `Lettura`, `Statistiche squadre` e `Arbitri`. Le letture partita usano i JSON in `data/readings/` e `data/mycombo/`; le statistiche squadra usano `data/active/team-stats-data.js` piu i dataset in `data/player-stats/`.
 
-## Flusso consigliato
-
-1. Compila un CSV gratuito con i dati trovati dalle fonti che stai usando per il sito.
-2. Lancia:
-
-```bash
-node scripts/update-stats-from-csv.js data/stats.csv
-```
-
-3. Pubblica di nuovo il sito su GitHub Pages.
-
-Nessuna API a pagamento e nessuna chiave esposta nel sito.
+Le vecchie superfici separate di pronostico automatico, schedina storica, ranking giocatori e rischio cartellini autonomo sono state rimosse dal runtime del sito. Gli archivi quote, risultati e player stats restano disponibili per audit e storico.

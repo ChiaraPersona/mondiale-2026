@@ -1,7 +1,7 @@
 /*
  * Pronostici editoriali pubblicati nelle pagine "Lettura".
  * Quando una Lettura viene aggiornata, aggiornare qui il risultato centrale:
- * Pronostico Codex lo userà al posto della simulazione automatica.
+ * Le pagine Lettura usano questi valori per confrontare pronostico e risultato.
  */
 const readingPredictions = {
   "Sudafrica|Canada": { home: 0, away: 1, source: "letture/lettura-sudafrica-canada.html" },

@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "england-croatia-2026-06-17",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

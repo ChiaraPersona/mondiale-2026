@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Documentazione progetto | Mondiale 2026</title>
+  <link rel="stylesheet" href="css/styles.css?v=20260711-cleanup">
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <img class="site-emblem" src="assets/world-cup-2026-logo.png" alt="FIFA World Cup 2026">
+      <div>
+        <h1>Documentazione progetto</h1>
+        <p class="sub">Mappa essenziale della versione attuale del sito.</p>
+      </div>
+    </div>
+    <nav class="page-links" aria-label="Sezioni">
+      <a class="page-link" href="index.html">Home</a>
+      <a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a>
+      <a class="page-link" href="arbitri.html">Arbitri</a>
+      <a class="page-link" href="lettura.html">Lettura</a>
+      <a class="page-link" href="storia.html">Storia</a>
+      <a class="page-link utility-link" href="metodo-fonti.html">Metodo e fonti</a>
+    </nav>
+  </header>
+
+  <main class="project-doc-main">
+    <section class="project-doc-section">
+      <header><span>1</span><h2>Pagine attive</h2></header>
+      <div class="project-doc-table-wrap">
+        <table>
+          <thead><tr><th>Pagina</th><th>Funzione</th><th>Script principali</th></tr></thead>
+          <tbody>
+            <tr><td><code>index.html</code></td><td>Homepage e snodo verso le sezioni principali.</td><td><code>js/nav.js</code></td></tr>
+            <tr><td><code>lettura.html</code> e <code>letture/*.html</code></td><td>Indice e analisi partita, con MyCombo, errori quota e gerarchie ammoniti.</td><td><code>js/nav.js</code>, <code>js/mycombo-export.js</code></td></tr>
+            <tr><td><code>statistiche-squadre.html</code></td><td>Statistiche squadra, calciatori, contesto partite e stime.</td><td><code>data/active/team-stats-data.js</code>, <code>js/team-stats.js</code></td></tr>
+            <tr><td><code>arbitri.html</code></td><td>Consultazione arbitri e fonti.</td><td><code>js/referees.js</code></td></tr>
+            <tr><td><code>storia.html</code></td><td>Albo d'oro, record e contenuti storici.</td><td><code>js/nav.js</code></td></tr>
+            <tr><td><code>metodo-fonti.html</code></td><td>Metodo, fonti e limiti dei dati.</td><td><code>js/nav.js</code></td></tr>
+            <tr><td><code>laboratorio-ai.html</code></td><td>Area interna per ispezionare quote JSON.</td><td><code>js/laboratorio-ai.js</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="project-doc-section">
+      <header><span>2</span><h2>Dati da mantenere</h2></header>
+      <div class="project-doc-grid">
+        <article><h3>Letture e MyCombo</h3><p><code>data/readings/</code>, <code>data/mycombo/</code> e le pagine in <code>letture/</code> sono la parte principale del sito.</p></article>
+        <article><h3>Statistiche</h3><p><code>data/active/team-stats-data.js</code>, <code>data/team-stats/</code> e <code>data/player-stats/</code> alimentano statistiche squadra e calciatori.</p></article>
+        <article><h3>Quote e risultati</h3><p><code>data/quote/</code>, <code>js/worldcup-results.js</code> e gli archivi restano utili per audit, confronto e partite concluse.</p></article>
+        <article><h3>Rimosso dal runtime</h3><p>Pronostico automatico separato, schedina storica, ranking giocatori autonomo e rischio cartellini separato non fanno piu parte del sito pubblico.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>Documentazione interna aggiornata dopo la pulizia del runtime.</footer>
+  <script src="js/nav.js"></script>
+</body>
+</html>

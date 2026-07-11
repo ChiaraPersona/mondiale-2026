@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "scotland-morocco-2026-06-19",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

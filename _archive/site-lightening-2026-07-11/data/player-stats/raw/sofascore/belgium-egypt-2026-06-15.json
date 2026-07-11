@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "belgium-egypt-2026-06-15",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

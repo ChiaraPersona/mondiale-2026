@@ -1,6 +1,33 @@
 const readingPage = document.body.classList.contains("reading-page");
 const storyReadingPage = Boolean(document.querySelector(".reading-story-article"));
 
+function escapeNavText(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function enhanceReadingArticleLinks() {
+  const articleNav = document.querySelector(".reading-article-nav");
+  if (!articleNav || articleNav.querySelector("[data-reading-crosslink]")) return;
+
+  const teamNames = [...document.querySelectorAll(".reading-match .reading-team strong")]
+    .map((node) => node.textContent.trim())
+    .filter(Boolean)
+    .slice(0, 2);
+
+  if (!teamNames.length) return;
+
+  const links = teamNames.map((teamName) => `
+    <a data-reading-crosslink href="statistiche-squadre.html?team=${encodeURIComponent(teamName)}">Statistiche ${escapeNavText(teamName)}</a>
+  `);
+  links.push('<a data-reading-crosslink href="arbitri.html">Arbitri</a>');
+  articleNav.insertAdjacentHTML("beforeend", links.join(""));
+}
+
 if (readingPage && !storyReadingPage && !document.querySelector('script[data-mycombo-export]')) {
   const loadMyComboViewer = () => {
     if (document.querySelector('script[data-mycombo-export]')) return;
@@ -69,3 +96,7 @@ document.querySelectorAll(".page-links").forEach((nav, index) => {
     if (event.key === "Escape") setOpen(false);
   });
 });
+
+if (readingPage && !storyReadingPage) {
+  enhanceReadingArticleLinks();
+}

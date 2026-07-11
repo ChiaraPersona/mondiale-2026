@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "france-sweden-2026-06-30",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "paraguay-france-2026-07-04",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

@@ -1,0 +1,10 @@
+{
+  "provider": "fotmob",
+  "matchId": "spain-cape-verde-2026",
+  "completion": 0,
+  "errors": [
+    "URL fotmob non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

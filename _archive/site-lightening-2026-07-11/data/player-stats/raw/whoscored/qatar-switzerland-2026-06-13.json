@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "qatar-switzerland-2026-06-13",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

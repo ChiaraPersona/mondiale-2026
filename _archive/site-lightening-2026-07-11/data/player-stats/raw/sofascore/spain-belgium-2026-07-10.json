@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "spain-belgium-2026-07-10",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "norway-france-2026-06-26",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

@@ -8,6 +8,35 @@ let teamStatsPlayerFilters = {
   metric: "shots"
 };
 const quarterFinalTeams = ["Spagna", "Argentina", "Svizzera", "Francia", "Inghilterra", "Norvegia"];
+const teamReadingLinks = {
+  Spagna: [
+    ["Spagna - Belgio", "letture/lettura-spagna-belgio.html"],
+    ["Portogallo - Spagna", "letture/lettura-portogallo-spagna.html"],
+    ["Spagna - Austria", "letture/lettura-spagna-austria.html"]
+  ],
+  Francia: [
+    ["Francia - Marocco", "letture/lettura-francia-marocco.html"],
+    ["Paraguay - Francia", "letture/lettura-paraguay-francia.html"],
+    ["Francia - Svezia", "letture/lettura-francia-svezia.html"]
+  ],
+  Argentina: [
+    ["Argentina - Svizzera", "letture/lettura-argentina-svizzera.html"],
+    ["Argentina - Egitto", "letture/lettura-argentina-egitto.html"]
+  ],
+  Svizzera: [
+    ["Argentina - Svizzera", "letture/lettura-argentina-svizzera.html"],
+    ["Svizzera - Colombia", "letture/lettura-svizzera-colombia.html"]
+  ],
+  Inghilterra: [
+    ["Norvegia - Inghilterra", "letture/lettura-norvegia-inghilterra.html"],
+    ["Messico - Inghilterra", "letture/lettura-messico-inghilterra.html"]
+  ],
+  Norvegia: [
+    ["Norvegia - Inghilterra", "letture/lettura-norvegia-inghilterra.html"],
+    ["Brasile - Norvegia", "letture/lettura-brasile-norvegia.html"],
+    ["Costa d'Avorio - Norvegia", "letture/lettura-costa-avorio-norvegia.html"]
+  ]
+};
 const normalizedPlayerStatsSources = [
   "data/player-stats/merged/spain-belgium-2026-07-10.json",
   "data/player-stats/merged/spain-cape-verde-2026.json",
@@ -639,13 +668,35 @@ function renderTeamSelector(stats = []) {
   if (!teamStatsSelect) return;
 
   const currentValue = teamStatsSelect.value;
+  const requestedTeam = new URLSearchParams(window.location.search).get("team");
   teamStatsSelect.innerHTML = stats.map((team, index) => `
     <option value="${index}">${escapeTeamStats(team.team)}</option>
   `).join("");
 
-  if (stats[currentValue]) {
+  const requestedIndex = stats.findIndex((team) => team.team.toLowerCase() === String(requestedTeam || "").toLowerCase());
+  if (requestedIndex >= 0) {
+    teamStatsSelect.value = String(requestedIndex);
+  } else if (stats[currentValue]) {
     teamStatsSelect.value = currentValue;
   }
+}
+
+function updateTeamStatsUrl(teamName) {
+  if (!window.history?.replaceState || !teamName) return;
+  const url = new URL(window.location.href);
+  url.searchParams.set("team", teamName);
+  window.history.replaceState({}, "", `${url.pathname}?${url.searchParams.toString()}${url.hash}`);
+}
+
+function renderTeamCrosslinks(team) {
+  const readings = teamReadingLinks[team.team] || [];
+  return `
+    <nav class="team-stats-crosslinks" aria-label="Collegamenti ${escapeTeamStats(team.team)}">
+      <a href="lettura.html">Tutte le letture</a>
+      ${readings.map(([label, href]) => `<a href="${escapeTeamStats(href)}">${escapeTeamStats(label)}</a>`).join("")}
+      <a href="arbitri.html">Arbitri</a>
+    </nav>
+  `;
 }
 
 function renderAnalyzedMatches(matches = []) {
@@ -1017,6 +1068,7 @@ function renderTeamCard(team) {
         ${team.group ? `<span>Gruppo <strong>${escapeTeamStats(team.group)}</strong></span>` : ""}
         <span><strong>${escapeTeamStats(team.analyzedMatches?.length || 0)}</strong> partite analizzate</span>
       </div>
+      ${renderTeamCrosslinks(team)}
 
       ${renderTeamStatsTabs()}
       <div class="team-stats-tab-panel">
@@ -1062,6 +1114,8 @@ async function initTeamStatsPage() {
     teamStatsSelect.addEventListener("change", () => {
       activeTeamStatsTab = "team";
       teamStatsPlayerFilters = { match: "all", role: "all", metric: "shots" };
+      const selectedTeam = getTeamStatsData()[Number(teamStatsSelect.value)]?.team;
+      updateTeamStatsUrl(selectedTeam);
       renderTeamStats();
     });
   }

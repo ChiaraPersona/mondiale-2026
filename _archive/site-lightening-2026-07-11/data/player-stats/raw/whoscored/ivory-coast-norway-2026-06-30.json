@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "ivory-coast-norway-2026-06-30",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

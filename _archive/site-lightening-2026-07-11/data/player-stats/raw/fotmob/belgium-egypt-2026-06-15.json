@@ -1,0 +1,10 @@
+{
+  "provider": "fotmob",
+  "matchId": "belgium-egypt-2026-06-15",
+  "completion": 0,
+  "errors": [
+    "URL fotmob non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

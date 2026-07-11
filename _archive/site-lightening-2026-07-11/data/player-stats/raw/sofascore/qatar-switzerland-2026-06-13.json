@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "qatar-switzerland-2026-06-13",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

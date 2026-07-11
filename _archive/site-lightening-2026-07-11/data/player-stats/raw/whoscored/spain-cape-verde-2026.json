@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "spain-cape-verde-2026",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

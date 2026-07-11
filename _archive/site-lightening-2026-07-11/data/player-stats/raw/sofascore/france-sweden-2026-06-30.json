@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "france-sweden-2026-06-30",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

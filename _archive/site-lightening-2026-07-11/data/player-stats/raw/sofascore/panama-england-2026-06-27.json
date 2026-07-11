@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "panama-england-2026-06-27",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

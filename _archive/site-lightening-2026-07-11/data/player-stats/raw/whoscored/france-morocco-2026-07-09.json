@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "france-morocco-2026-07-09",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

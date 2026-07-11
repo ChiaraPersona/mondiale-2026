@@ -1,0 +1,10 @@
+{
+  "provider": "fotmob",
+  "matchId": "france-senegal-2026-06-16",
+  "completion": 0,
+  "errors": [
+    "URL fotmob non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

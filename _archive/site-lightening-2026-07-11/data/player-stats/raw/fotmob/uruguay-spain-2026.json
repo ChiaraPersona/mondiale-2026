@@ -1,0 +1,10 @@
+{
+  "provider": "fotmob",
+  "matchId": "uruguay-spain-2026",
+  "completion": 0,
+  "errors": [
+    "URL fotmob non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

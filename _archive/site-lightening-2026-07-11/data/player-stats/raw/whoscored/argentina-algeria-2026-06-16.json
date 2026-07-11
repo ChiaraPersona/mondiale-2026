@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "argentina-algeria-2026-06-16",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

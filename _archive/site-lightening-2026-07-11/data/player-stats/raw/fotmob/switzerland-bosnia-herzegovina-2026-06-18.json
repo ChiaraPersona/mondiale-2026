@@ -1,0 +1,10 @@
+{
+  "provider": "fotmob",
+  "matchId": "switzerland-bosnia-herzegovina-2026-06-18",
+  "completion": 0,
+  "errors": [
+    "URL fotmob non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

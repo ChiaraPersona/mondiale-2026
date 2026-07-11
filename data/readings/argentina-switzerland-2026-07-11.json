@@ -192,8 +192,40 @@
     "Switzerland: cornersFor, cornersAgainst, possession, saves, firstHalfGoalsFor, firstHalfGoalsAgainst, secondHalfGoalsFor, secondHalfGoalsAgainst"
   ],
   "sitePublication": {
-    "probableFormations": null,
-    "probableFormationsNote": "Probabili formazioni Argentina-Svizzera ancora da inserire. Non stimate.",
+    "probableFormations": {
+      "Argentina": {
+        "module": "4-1-3-2",
+        "players": [
+          "Martinez",
+          "Molina",
+          "Romero",
+          "Lisandro Martinez",
+          "Tagliafico",
+          "Paredes",
+          "De Paul",
+          "Mac Allister",
+          "Enzo Fernandez",
+          "Messi",
+          "Alvarez"
+        ]
+      },
+      "Switzerland": {
+        "module": "4-2-3-1",
+        "players": [
+          "Kobel",
+          "Rodriguez",
+          "Akanji",
+          "Elvedi",
+          "Zakaria",
+          "Xhaka",
+          "Freuler",
+          "Ndoye",
+          "Rieder",
+          "Vargas",
+          "Embolo"
+        ]
+      }
+    },
     "quoteErrors": [
       {
         "market": "Argentina over tiri totali",
@@ -272,14 +304,15 @@
         "weightedShotsAgainstPerMatch": 8.63,
         "weightedShotsOnTargetForPerMatch": 6.94,
         "weightedShotsOnTargetAgainstPerMatch": 2.2,
-        "weightedCornersForPerMatch": null,
-        "weightedCornersAgainstPerMatch": null,
+        "weightedCornersForPerMatch": 4.6,
+        "weightedCornersAgainstPerMatch": 3.2,
         "disciplineIndex": 64,
         "attackIndex": 90,
         "defenseIndex": 61,
-        "cornerIndex": null,
+        "cornerIndex": 46,
         "tempoIndex": 83,
-        "pressureIndex": 81
+        "pressureIndex": 81,
+        "weightedFoulsDrawnPerMatch": 11.4
       },
       "trends": {
         "lastTwoMatches": {
@@ -297,8 +330,6 @@
         }
       },
       "missingFields": [
-        "cornersFor",
-        "cornersAgainst",
         "possession",
         "saves",
         "firstHalfGoalsFor",
@@ -317,14 +348,15 @@
         "weightedShotsAgainstPerMatch": 10.05,
         "weightedShotsOnTargetForPerMatch": 4.63,
         "weightedShotsOnTargetAgainstPerMatch": 3.54,
-        "weightedCornersForPerMatch": null,
-        "weightedCornersAgainstPerMatch": null,
+        "weightedCornersForPerMatch": 5.2,
+        "weightedCornersAgainstPerMatch": 4.4,
         "disciplineIndex": 47,
         "attackIndex": 62,
         "defenseIndex": 53,
-        "cornerIndex": null,
+        "cornerIndex": 52,
         "tempoIndex": 72,
-        "pressureIndex": 84
+        "pressureIndex": 84,
+        "weightedFoulsDrawnPerMatch": 15.2
       },
       "trends": {
         "lastTwoMatches": {
@@ -342,8 +374,6 @@
         }
       },
       "missingFields": [
-        "cornersFor",
-        "cornersAgainst",
         "possession",
         "saves",
         "firstHalfGoalsFor",

@@ -204,9 +204,9 @@
           "Odegaard",
           "Berge",
           "Berg",
-          "Schjelderup",
+          "Sorloth",
           "Haaland",
-          "Nusa"
+          "Schjelderup"
         ]
       },
       "England": {
@@ -214,9 +214,9 @@
         "players": [
           "Pickford",
           "O'Reilly",
-          "Guehi",
-          "Stones",
           "Konsa",
+          "Guehi",
+          "Spence",
           "Anderson",
           "Rice",
           "Gordon",
@@ -305,14 +305,15 @@
         "weightedShotsAgainstPerMatch": 14.51,
         "weightedShotsOnTargetForPerMatch": 4.95,
         "weightedShotsOnTargetAgainstPerMatch": 4.81,
-        "weightedCornersForPerMatch": null,
-        "weightedCornersAgainstPerMatch": null,
+        "weightedCornersForPerMatch": 4.4,
+        "weightedCornersAgainstPerMatch": 6,
         "disciplineIndex": 74,
         "attackIndex": 61,
         "defenseIndex": 27,
-        "cornerIndex": null,
+        "cornerIndex": 44,
         "tempoIndex": 83,
-        "pressureIndex": 51
+        "pressureIndex": 51,
+        "weightedFoulsDrawnPerMatch": 8.2
       },
       "trends": {
         "lastTwoMatches": {
@@ -330,8 +331,6 @@
         }
       },
       "missingFields": [
-        "cornersFor",
-        "cornersAgainst",
         "possession",
         "saves",
         "firstHalfGoalsFor",
@@ -350,14 +349,15 @@
         "weightedShotsAgainstPerMatch": 10.91,
         "weightedShotsOnTargetForPerMatch": 6.44,
         "weightedShotsOnTargetAgainstPerMatch": 3.21,
-        "weightedCornersForPerMatch": null,
-        "weightedCornersAgainstPerMatch": null,
+        "weightedCornersForPerMatch": 6.2,
+        "weightedCornersAgainstPerMatch": 4.4,
         "disciplineIndex": 42,
         "attackIndex": 84,
         "defenseIndex": 49,
-        "cornerIndex": null,
+        "cornerIndex": 62,
         "tempoIndex": 87,
-        "pressureIndex": 92
+        "pressureIndex": 92,
+        "weightedFoulsDrawnPerMatch": 15.6
       },
       "trends": {
         "lastTwoMatches": {
@@ -375,8 +375,6 @@
         }
       },
       "missingFields": [
-        "cornersFor",
-        "cornersAgainst",
         "possession",
         "saves",
         "firstHalfGoalsFor",

@@ -1,6 +1,14 @@
 const readingPage = document.body.classList.contains("reading-page");
 const storyReadingPage = Boolean(document.querySelector(".reading-story-article"));
 
+if (!document.querySelector('link[rel="icon"]')) {
+  const favicon = document.createElement("link");
+  favicon.rel = "icon";
+  favicon.type = "image/png";
+  favicon.href = "assets/favicon.png";
+  document.head.appendChild(favicon);
+}
+
 function escapeNavText(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")

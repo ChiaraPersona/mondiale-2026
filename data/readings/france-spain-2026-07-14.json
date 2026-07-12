@@ -1,0 +1,127 @@
+{
+  "matchId": "france-spain-2026-07-14",
+  "match": "Francia-Spagna",
+  "round": "Semifinale",
+  "date": "14/07/2026 ore 21.00",
+  "status": "ready",
+  "sourceQuote": "data/quote/francia-spagna-quote.json",
+  "prediction": {
+    "centralScore": "1-1, Spagna qualificata",
+    "basePick": "Spagna qualificata",
+    "probabilities": {
+      "home": 34,
+      "draw": 30,
+      "away": 36
+    },
+    "scenario": "La Spagna puo tenere piu palla, ma la Francia ha il giocatore piu determinante se trova campo alle spalle dei terzini."
+  },
+  "environment": {
+    "weather": "Dallas Stadium, denominazione FIFA dell'AT&T Stadium, Arlington. Altitudine circa 184 metri. Tetto retrattile e impianto climatizzato: con tetto chiuso temperatura interna attorno a 21-22 C, terreno stabile e impatto minimo di caldo, umidita, pioggia o vento.",
+    "stadium": "All'esterno sono attesi circa 32 C, umidita medio-alta e possibili temporali nel corso della giornata. La lettura assume condizioni interne controllate: gara tecnica, non condizionata dal meteo."
+  },
+  "formations": {
+    "Francia": "Maignan; Kounde, Upamecano, Saliba, Theo Hernandez; Tchouameni, Rabiot; Dembele, Olise, Doue; Mbappe.",
+    "Spagna": "Simon; Porro, Cubarsi, Laporte, Cucurella; Rodri, Fabian Ruiz, Olmo; Lamine Yamal, Oyarzabal, Nico Williams."
+  },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 4.24,
+      "events": [
+        {
+          "displayName": "Spagna qualificata",
+          "market": "PASSAGGIO TURNO",
+          "info": "PASSAGGIO TURNO",
+          "selection": "2",
+          "odds": 2.2,
+          "selectionId": 5214971585,
+          "marketId": 792745841
+        },
+        {
+          "displayName": "Over 23,5 tiri totali",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 23.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.33,
+          "selectionId": 5214971129,
+          "marketId": 792745742
+        },
+        {
+          "displayName": "Mbappe piu tiri in porta di Lamine Yamal",
+          "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
+          "info": "MBAPPE K. - LAMINE YAMAL 1X2 TIRI IN PORTA INC TS",
+          "selection": "1",
+          "odds": 1.45,
+          "selectionId": 5217098812,
+          "marketId": 793152195
+        }
+      ]
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 10.24,
+      "events": [
+        {
+          "displayName": "Spagna Draw No Bet",
+          "market": "DRAW NO BET",
+          "info": "DRAW NO BET",
+          "selection": "2",
+          "odds": 2.25,
+          "selectionId": 5214987381,
+          "marketId": 792732838
+        },
+        {
+          "displayName": "Goal + Under 3,5",
+          "market": "COMBO: GOAL/NOGOAL + U/O",
+          "info": "U/O 3.5 + GG/NG",
+          "selection": "GOAL + UNDER",
+          "odds": 2.9,
+          "selectionId": 5214987326,
+          "marketId": 792732833
+        },
+        {
+          "displayName": "Over 25,5 tiri totali",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 25.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5214971133,
+          "marketId": 792745743
+        }
+      ]
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 23.4,
+      "events": [
+        {
+          "displayName": "Spagna vince + Under 3,5",
+          "market": "COMBO: 1X2 + U/O",
+          "info": "1X2 + U/O 3.5",
+          "selection": "2 + U",
+          "odds": 4,
+          "selectionId": 5214970408,
+          "marketId": 792745598
+        },
+        {
+          "displayName": "Over 27,5 tiri totali",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 27.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.95,
+          "selectionId": 5214971097,
+          "marketId": 792745734
+        },
+        {
+          "displayName": "Lamine Yamal migliore in campo",
+          "market": "MIGLIOR GIOCATORE IN CAMPO",
+          "info": "LAMINE YAMAL MIGLIORE IN CAMPO",
+          "selection": "SI",
+          "odds": 3,
+          "selectionId": 5214998428,
+          "marketId": 792758089
+        }
+      ]
+    }
+  ]
+}

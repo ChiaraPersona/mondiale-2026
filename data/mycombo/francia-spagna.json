@@ -1,0 +1,701 @@
+{
+  "matchId": "france-spain-2026-07-14",
+  "match": "Francia-Spagna",
+  "date": "14/07/2026 ore 21.00",
+  "completion": 100,
+  "status": "ready",
+  "sourceQuote": "data/quote/francia-spagna-quote.json",
+  "sourceReading": "data/readings/france-spain-2026-07-14.json",
+  "sourcePlayerStats": "data/active/team-stats-data.js",
+  "safe": {
+    "name": "Safe",
+    "events": [
+      {
+        "id": "event-5214971585",
+        "market": "PASSAGGIO TURNO",
+        "info": "PASSAGGIO TURNO",
+        "selection": "2",
+        "odds": 2.2,
+        "selectionId": 5214971585,
+        "marketId": 792745841,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Coerente con lo scenario principale della semifinale.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Coerente con lo scenario principale della semifinale."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+        "displayName": "Spagna qualificata",
+        "marketType": "PASSAGGIO TURNO"
+      },
+      {
+        "id": "event-5214971129",
+        "market": "U/O TIRI TOTALI",
+        "info": "U/O 23.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 1.33,
+        "selectionId": 5214971129,
+        "marketId": 792745742,
+        "category": "volume",
+        "class": "CORE",
+        "reason": "Coerente con lo scenario principale della semifinale.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Coerente con lo scenario principale della semifinale."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+        "displayName": "Over 23,5 tiri totali",
+        "marketType": "U/O TIRI TOTALI"
+      },
+      {
+        "id": "event-5217098812",
+        "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
+        "info": "MBAPPE K. - LAMINE YAMAL 1X2 TIRI IN PORTA INC TS",
+        "selection": "1",
+        "odds": 1.45,
+        "selectionId": 5217098812,
+        "marketId": 793152195,
+        "category": "volume",
+        "class": "CORE",
+        "reason": "Coerente con lo scenario principale della semifinale.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Coerente con lo scenario principale della semifinale."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+        "displayName": "Mbappe piu tiri in porta di Lamine Yamal",
+        "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS"
+      }
+    ],
+    "finalOdds": 4.24,
+    "targetOdds": "3-6",
+    "averageRisk": "medio",
+    "motivation": "Coerente con lo scenario principale della semifinale."
+  },
+  "balanced": {
+    "name": "Balanced",
+    "events": [
+      {
+        "id": "event-5214987381",
+        "market": "DRAW NO BET",
+        "info": "DRAW NO BET",
+        "selection": "2",
+        "odds": 2.25,
+        "selectionId": 5214987381,
+        "marketId": 792732838,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico."
+        },
+        "confidence": "medium",
+        "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+        "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+        "displayName": "Spagna Draw No Bet",
+        "marketType": "DRAW NO BET"
+      },
+      {
+        "id": "event-5214987326",
+        "market": "COMBO: GOAL/NOGOAL + U/O",
+        "info": "U/O 3.5 + GG/NG",
+        "selection": "GOAL + UNDER",
+        "odds": 2.9,
+        "selectionId": 5214987326,
+        "marketId": 792732833,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico."
+        },
+        "confidence": "medium",
+        "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+        "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+        "displayName": "Goal + Under 3,5",
+        "marketType": "COMBO: GOAL/NOGOAL + U/O"
+      },
+      {
+        "id": "event-5214971133",
+        "market": "U/O TIRI TOTALI",
+        "info": "U/O 25.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 1.57,
+        "selectionId": 5214971133,
+        "marketId": 792745743,
+        "category": "volume",
+        "class": "CORE",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico."
+        },
+        "confidence": "medium",
+        "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+        "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+        "displayName": "Over 25,5 tiri totali",
+        "marketType": "U/O TIRI TOTALI"
+      }
+    ],
+    "finalOdds": 10.24,
+    "targetOdds": "7-12",
+    "averageRisk": "medio-alto",
+    "motivation": "Aggiunge volume senza uscire dal copione tecnico."
+  },
+  "aggressive": {
+    "name": "Aggressive",
+    "events": [
+      {
+        "id": "event-5214970408",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 3.5",
+        "selection": "2 + U",
+        "odds": 4,
+        "selectionId": 5214970408,
+        "marketId": 792745598,
+        "category": "esito",
+        "class": "VALUE",
+        "reason": "Cerca prezzo alto su lettura di gara stretta.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Cerca prezzo alto su lettura di gara stretta."
+        },
+        "confidence": "medium",
+        "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+        "displayName": "Spagna vince + Under 3,5",
+        "marketType": "COMBO: 1X2 + U/O"
+      },
+      {
+        "id": "event-5214971097",
+        "market": "U/O TIRI TOTALI",
+        "info": "U/O 27.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 1.95,
+        "selectionId": 5214971097,
+        "marketId": 792745734,
+        "category": "volume",
+        "class": "CORE",
+        "reason": "Cerca prezzo alto su lettura di gara stretta.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Cerca prezzo alto su lettura di gara stretta."
+        },
+        "confidence": "medium",
+        "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+        "displayName": "Over 27,5 tiri totali",
+        "marketType": "U/O TIRI TOTALI"
+      },
+      {
+        "id": "event-5214998428",
+        "market": "MIGLIOR GIOCATORE IN CAMPO",
+        "info": "LAMINE YAMAL MIGLIORE IN CAMPO",
+        "selection": "SI",
+        "odds": 3,
+        "selectionId": 5214998428,
+        "marketId": 792758089,
+        "category": "esito",
+        "class": "VALUE",
+        "reason": "Cerca prezzo alto su lettura di gara stretta.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Cerca prezzo alto su lettura di gara stretta."
+        },
+        "confidence": "medium",
+        "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+        "displayName": "Lamine Yamal migliore in campo",
+        "marketType": "MIGLIOR GIOCATORE IN CAMPO"
+      }
+    ],
+    "finalOdds": 23.4,
+    "targetOdds": "15+",
+    "averageRisk": "alto",
+    "motivation": "Cerca prezzo alto su lettura di gara stretta."
+  },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "events": [
+        {
+          "id": "event-5214971585",
+          "market": "PASSAGGIO TURNO",
+          "info": "PASSAGGIO TURNO",
+          "selection": "2",
+          "odds": 2.2,
+          "selectionId": 5214971585,
+          "marketId": 792745841,
+          "category": "esito",
+          "class": "CORE",
+          "reason": "Coerente con lo scenario principale della semifinale.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Coerente con lo scenario principale della semifinale."
+          },
+          "confidence": "medium",
+          "riskWarning": "Evento correlato allo scenario principale.",
+          "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+          "displayName": "Spagna qualificata",
+          "marketType": "PASSAGGIO TURNO"
+        },
+        {
+          "id": "event-5214971129",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 23.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.33,
+          "selectionId": 5214971129,
+          "marketId": 792745742,
+          "category": "volume",
+          "class": "CORE",
+          "reason": "Coerente con lo scenario principale della semifinale.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Coerente con lo scenario principale della semifinale."
+          },
+          "confidence": "medium",
+          "riskWarning": "Evento correlato allo scenario principale.",
+          "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+          "displayName": "Over 23,5 tiri totali",
+          "marketType": "U/O TIRI TOTALI"
+        },
+        {
+          "id": "event-5217098812",
+          "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
+          "info": "MBAPPE K. - LAMINE YAMAL 1X2 TIRI IN PORTA INC TS",
+          "selection": "1",
+          "odds": 1.45,
+          "selectionId": 5217098812,
+          "marketId": 793152195,
+          "category": "volume",
+          "class": "CORE",
+          "reason": "Coerente con lo scenario principale della semifinale.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Coerente con lo scenario principale della semifinale."
+          },
+          "confidence": "medium",
+          "riskWarning": "Evento correlato allo scenario principale.",
+          "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+          "displayName": "Mbappe piu tiri in porta di Lamine Yamal",
+          "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS"
+        }
+      ],
+      "finalOdds": 4.24,
+      "targetOdds": "3-6",
+      "averageRisk": "medio",
+      "motivation": "Coerente con lo scenario principale della semifinale."
+    },
+    {
+      "name": "Balanced",
+      "events": [
+        {
+          "id": "event-5214987381",
+          "market": "DRAW NO BET",
+          "info": "DRAW NO BET",
+          "selection": "2",
+          "odds": 2.25,
+          "selectionId": 5214987381,
+          "marketId": 792732838,
+          "category": "esito",
+          "class": "CORE",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Aggiunge volume senza uscire dal copione tecnico."
+          },
+          "confidence": "medium",
+          "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+          "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+          "displayName": "Spagna Draw No Bet",
+          "marketType": "DRAW NO BET"
+        },
+        {
+          "id": "event-5214987326",
+          "market": "COMBO: GOAL/NOGOAL + U/O",
+          "info": "U/O 3.5 + GG/NG",
+          "selection": "GOAL + UNDER",
+          "odds": 2.9,
+          "selectionId": 5214987326,
+          "marketId": 792732833,
+          "category": "esito",
+          "class": "CORE",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Aggiunge volume senza uscire dal copione tecnico."
+          },
+          "confidence": "medium",
+          "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+          "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+          "displayName": "Goal + Under 3,5",
+          "marketType": "COMBO: GOAL/NOGOAL + U/O"
+        },
+        {
+          "id": "event-5214971133",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 25.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5214971133,
+          "marketId": 792745743,
+          "category": "volume",
+          "class": "CORE",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Aggiunge volume senza uscire dal copione tecnico."
+          },
+          "confidence": "medium",
+          "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+          "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+          "displayName": "Over 25,5 tiri totali",
+          "marketType": "U/O TIRI TOTALI"
+        }
+      ],
+      "finalOdds": 10.24,
+      "targetOdds": "7-12",
+      "averageRisk": "medio-alto",
+      "motivation": "Aggiunge volume senza uscire dal copione tecnico."
+    },
+    {
+      "name": "Aggressive",
+      "events": [
+        {
+          "id": "event-5214970408",
+          "market": "COMBO: 1X2 + U/O",
+          "info": "1X2 + U/O 3.5",
+          "selection": "2 + U",
+          "odds": 4,
+          "selectionId": 5214970408,
+          "marketId": 792745598,
+          "category": "esito",
+          "class": "VALUE",
+          "reason": "Cerca prezzo alto su lettura di gara stretta.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Cerca prezzo alto su lettura di gara stretta."
+          },
+          "confidence": "medium",
+          "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+          "displayName": "Spagna vince + Under 3,5",
+          "marketType": "COMBO: 1X2 + U/O"
+        },
+        {
+          "id": "event-5214971097",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 27.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.95,
+          "selectionId": 5214971097,
+          "marketId": 792745734,
+          "category": "volume",
+          "class": "CORE",
+          "reason": "Cerca prezzo alto su lettura di gara stretta.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Cerca prezzo alto su lettura di gara stretta."
+          },
+          "confidence": "medium",
+          "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+          "displayName": "Over 27,5 tiri totali",
+          "marketType": "U/O TIRI TOTALI"
+        },
+        {
+          "id": "event-5214998428",
+          "market": "MIGLIOR GIOCATORE IN CAMPO",
+          "info": "LAMINE YAMAL MIGLIORE IN CAMPO",
+          "selection": "SI",
+          "odds": 3,
+          "selectionId": 5214998428,
+          "marketId": 792758089,
+          "category": "esito",
+          "class": "VALUE",
+          "reason": "Cerca prezzo alto su lettura di gara stretta.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Cerca prezzo alto su lettura di gara stretta."
+          },
+          "confidence": "medium",
+          "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+          "displayName": "Lamine Yamal migliore in campo",
+          "marketType": "MIGLIOR GIOCATORE IN CAMPO"
+        }
+      ],
+      "finalOdds": 23.4,
+      "targetOdds": "15+",
+      "averageRisk": "alto",
+      "motivation": "Cerca prezzo alto su lettura di gara stretta."
+    }
+  ],
+  "topEvents": [
+    {
+      "id": "event-5214971585",
+      "market": "PASSAGGIO TURNO",
+      "info": "PASSAGGIO TURNO",
+      "selection": "2",
+      "odds": 2.2,
+      "selectionId": 5214971585,
+      "marketId": 792745841,
+      "category": "esito",
+      "class": "CORE",
+      "reason": "Coerente con lo scenario principale della semifinale.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Coerente con lo scenario principale della semifinale."
+      },
+      "confidence": "medium",
+      "riskWarning": "Evento correlato allo scenario principale.",
+      "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+      "displayName": "Spagna qualificata",
+      "marketType": "PASSAGGIO TURNO"
+    },
+    {
+      "id": "event-5214971129",
+      "market": "U/O TIRI TOTALI",
+      "info": "U/O 23.5 TIRI TOTALI",
+      "selection": "OVER",
+      "odds": 1.33,
+      "selectionId": 5214971129,
+      "marketId": 792745742,
+      "category": "volume",
+      "class": "CORE",
+      "reason": "Coerente con lo scenario principale della semifinale.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Coerente con lo scenario principale della semifinale."
+      },
+      "confidence": "medium",
+      "riskWarning": "Evento correlato allo scenario principale.",
+      "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+      "displayName": "Over 23,5 tiri totali",
+      "marketType": "U/O TIRI TOTALI"
+    },
+    {
+      "id": "event-5217098812",
+      "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
+      "info": "MBAPPE K. - LAMINE YAMAL 1X2 TIRI IN PORTA INC TS",
+      "selection": "1",
+      "odds": 1.45,
+      "selectionId": 5217098812,
+      "marketId": 793152195,
+      "category": "volume",
+      "class": "CORE",
+      "reason": "Coerente con lo scenario principale della semifinale.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Coerente con lo scenario principale della semifinale."
+      },
+      "confidence": "medium",
+      "riskWarning": "Evento correlato allo scenario principale.",
+      "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+      "displayName": "Mbappe piu tiri in porta di Lamine Yamal",
+      "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS"
+    },
+    {
+      "id": "event-5214987381",
+      "market": "DRAW NO BET",
+      "info": "DRAW NO BET",
+      "selection": "2",
+      "odds": 2.25,
+      "selectionId": 5214987381,
+      "marketId": 792732838,
+      "category": "esito",
+      "class": "CORE",
+      "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico."
+      },
+      "confidence": "medium",
+      "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+      "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+      "displayName": "Spagna Draw No Bet",
+      "marketType": "DRAW NO BET"
+    },
+    {
+      "id": "event-5214987326",
+      "market": "COMBO: GOAL/NOGOAL + U/O",
+      "info": "U/O 3.5 + GG/NG",
+      "selection": "GOAL + UNDER",
+      "odds": 2.9,
+      "selectionId": 5214987326,
+      "marketId": 792732833,
+      "category": "esito",
+      "class": "CORE",
+      "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico."
+      },
+      "confidence": "medium",
+      "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+      "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+      "displayName": "Goal + Under 3,5",
+      "marketType": "COMBO: GOAL/NOGOAL + U/O"
+    },
+    {
+      "id": "event-5214971133",
+      "market": "U/O TIRI TOTALI",
+      "info": "U/O 25.5 TIRI TOTALI",
+      "selection": "OVER",
+      "odds": 1.57,
+      "selectionId": 5214971133,
+      "marketId": 792745743,
+      "category": "volume",
+      "class": "CORE",
+      "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico."
+      },
+      "confidence": "medium",
+      "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+      "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+      "displayName": "Over 25,5 tiri totali",
+      "marketType": "U/O TIRI TOTALI"
+    },
+    {
+      "id": "event-5214970408",
+      "market": "COMBO: 1X2 + U/O",
+      "info": "1X2 + U/O 3.5",
+      "selection": "2 + U",
+      "odds": 4,
+      "selectionId": 5214970408,
+      "marketId": 792745598,
+      "category": "esito",
+      "class": "VALUE",
+      "reason": "Cerca prezzo alto su lettura di gara stretta.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Cerca prezzo alto su lettura di gara stretta."
+      },
+      "confidence": "medium",
+      "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+      "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+      "displayName": "Spagna vince + Under 3,5",
+      "marketType": "COMBO: 1X2 + U/O"
+    },
+    {
+      "id": "event-5214971097",
+      "market": "U/O TIRI TOTALI",
+      "info": "U/O 27.5 TIRI TOTALI",
+      "selection": "OVER",
+      "odds": 1.95,
+      "selectionId": 5214971097,
+      "marketId": 792745734,
+      "category": "volume",
+      "class": "CORE",
+      "reason": "Cerca prezzo alto su lettura di gara stretta.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Cerca prezzo alto su lettura di gara stretta."
+      },
+      "confidence": "medium",
+      "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+      "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+      "displayName": "Over 27,5 tiri totali",
+      "marketType": "U/O TIRI TOTALI"
+    }
+  ],
+  "quoteErrorAnalysis": {
+    "generatedAt": "2026-07-12T18:57:58.641Z",
+    "model": "semifinal-reading-v1",
+    "events": [
+      {
+        "id": "francia-spagna-quote-error-1",
+        "displayName": "Spagna qualificata @ 2.20",
+        "market": "PASSAGGIO TURNO - 2",
+        "reason": "Prezzo sopra 2 per una lettura quasi pari ma con piccolo vantaggio di controllo spagnolo.",
+        "minimumOdds": 3,
+        "sourceQuote": "data/quote/francia-spagna-quote.json"
+      },
+      {
+        "id": "francia-spagna-quote-error-2",
+        "displayName": "Goal + Under 3,5 @ 2.90",
+        "market": "U/O 3.5 + GG/NG - GOAL + UNDER",
+        "reason": "Compatibile con 1-1 o 1-2 senza trasformare la semifinale in partita aperta.",
+        "minimumOdds": 3,
+        "sourceQuote": "data/quote/francia-spagna-quote.json"
+      },
+      {
+        "id": "francia-spagna-quote-error-3",
+        "displayName": "Over 27,5 tiri totali @ 1.95",
+        "market": "U/O 27.5 TIRI TOTALI - OVER",
+        "reason": "Due squadre con volume alto ma finale emotivo: prezzo interessante se il ritmo non si congela.",
+        "minimumOdds": 3,
+        "sourceQuote": "data/quote/francia-spagna-quote.json"
+      }
+    ]
+  },
+  "qualityNotes": [
+    "Quote flat rows lette: 8048",
+    "Ambiente stadio incluso nella lettura.",
+    "Formazioni probabili da aggiornare alle ufficiali."
+  ]
+}

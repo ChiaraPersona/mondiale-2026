@@ -1,0 +1,127 @@
+{
+  "matchId": "england-argentina-2026-07-15",
+  "match": "Inghilterra-Argentina",
+  "round": "Semifinale",
+  "date": "15/07/2026 ore 21.00",
+  "status": "ready",
+  "sourceQuote": "data/quote/inghilterra-argentina-quote.json",
+  "prediction": {
+    "centralScore": "2-1 Inghilterra",
+    "basePick": "Inghilterra qualificata",
+    "probabilities": {
+      "home": 38,
+      "draw": 29,
+      "away": 33
+    },
+    "scenario": "L'Inghilterra ha piu struttura sui duelli, l'Argentina ha piu lettura dei momenti. Nei novanta minuti il margine e minimo."
+  },
+  "environment": {
+    "weather": "Mercedes-Benz Stadium, Atlanta. Altitudine circa 320 metri. Tetto retrattile e impianto climatizzato: con tetto chiuso condizioni interne molto stabili, circa 21-22 C, senza impatto rilevante di pioggia, vento o caldo.",
+    "stadium": "All'esterno sono attesi circa 30 C, umidita elevata, cielo variabile o nuvoloso e possibilita di pioggia o temporali. La lettura assume campo e temperatura interna controllati."
+  },
+  "formations": {
+    "Inghilterra": "Pickford; James, Stones, Guehi, Burn; Rice, Mainoo; Saka, Bellingham, Gordon; Kane.",
+    "Argentina": "Martinez; Molina, Romero, Lisandro Martinez, Tagliafico; De Paul, Enzo Fernandez, Mac Allister; Messi, Alvarez, Lautaro Martinez."
+  },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 5.46,
+      "events": [
+        {
+          "displayName": "Inghilterra qualificata",
+          "market": "PASSAGGIO TURNO",
+          "info": "PASSAGGIO TURNO",
+          "selection": "1",
+          "odds": 1.75,
+          "selectionId": 5216337398,
+          "marketId": 793006504
+        },
+        {
+          "displayName": "Goal + Under 4,5",
+          "market": "COMBO: GOAL/NOGOAL + U/O",
+          "info": "U/O 4.5 + GG/NG",
+          "selection": "GOAL + UNDER",
+          "odds": 2.15,
+          "selectionId": 5216315504,
+          "marketId": 793001383
+        },
+        {
+          "displayName": "Inghilterra Over 3,5 corner",
+          "market": "U/O CORNER SQUADRA X",
+          "info": "U/O 3.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 1.45,
+          "selectionId": 5216737713,
+          "marketId": 793079986
+        }
+      ]
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 7.8,
+      "events": [
+        {
+          "displayName": "Inghilterra Draw No Bet",
+          "market": "DRAW NO BET",
+          "info": "DRAW NO BET",
+          "selection": "1",
+          "odds": 1.72,
+          "selectionId": 5216315650,
+          "marketId": 793001401
+        },
+        {
+          "displayName": "Goal + Under 3,5",
+          "market": "COMBO: GOAL/NOGOAL + U/O",
+          "info": "U/O 3.5 + GG/NG",
+          "selection": "GOAL + UNDER",
+          "odds": 2.8,
+          "selectionId": 5216315674,
+          "marketId": 793001404
+        },
+        {
+          "displayName": "Over 22,5 tiri totali",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 22.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.62,
+          "selectionId": 5216336939,
+          "marketId": 793006404
+        }
+      ]
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 26.44,
+      "events": [
+        {
+          "displayName": "Inghilterra vince + Under 3,5",
+          "market": "COMBO: 1X2 + U/O",
+          "info": "1X2 + U/O 3.5",
+          "selection": "1 + U",
+          "odds": 3,
+          "selectionId": 5216336220,
+          "marketId": 792996147
+        },
+        {
+          "displayName": "Over 25,5 tiri totali",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 25.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 2.35,
+          "selectionId": 5216336947,
+          "marketId": 793006406
+        },
+        {
+          "displayName": "Bellingham migliore in campo",
+          "market": "MIGLIOR GIOCATORE IN CAMPO",
+          "info": "BELLINGHAM JUDE MIGLIORE IN CAMPO",
+          "selection": "SI",
+          "odds": 3.75,
+          "selectionId": 5216561995,
+          "marketId": 793055555
+        }
+      ]
+    }
+  ]
+}

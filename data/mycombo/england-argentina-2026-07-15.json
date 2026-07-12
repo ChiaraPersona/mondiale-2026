@@ -1,0 +1,701 @@
+{
+  "matchId": "england-argentina-2026-07-15",
+  "match": "Inghilterra-Argentina",
+  "date": "15/07/2026 ore 21.00",
+  "completion": 100,
+  "status": "ready",
+  "sourceQuote": "data/quote/inghilterra-argentina-quote.json",
+  "sourceReading": "data/readings/england-argentina-2026-07-15.json",
+  "sourcePlayerStats": "data/active/team-stats-data.js",
+  "safe": {
+    "name": "Safe",
+    "events": [
+      {
+        "id": "event-5216337398",
+        "market": "PASSAGGIO TURNO",
+        "info": "PASSAGGIO TURNO",
+        "selection": "1",
+        "odds": 1.75,
+        "selectionId": 5216337398,
+        "marketId": 793006504,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Coerente con lo scenario principale della semifinale.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Coerente con lo scenario principale della semifinale."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+        "displayName": "Inghilterra qualificata",
+        "marketType": "PASSAGGIO TURNO"
+      },
+      {
+        "id": "event-5216315504",
+        "market": "COMBO: GOAL/NOGOAL + U/O",
+        "info": "U/O 4.5 + GG/NG",
+        "selection": "GOAL + UNDER",
+        "odds": 2.15,
+        "selectionId": 5216315504,
+        "marketId": 793001383,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Coerente con lo scenario principale della semifinale.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Coerente con lo scenario principale della semifinale."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+        "displayName": "Goal + Under 4,5",
+        "marketType": "COMBO: GOAL/NOGOAL + U/O"
+      },
+      {
+        "id": "event-5216737713",
+        "market": "U/O CORNER SQUADRA X",
+        "info": "U/O 3.5 CORNER SQUADRA 1",
+        "selection": "OVER",
+        "odds": 1.45,
+        "selectionId": 5216737713,
+        "marketId": 793079986,
+        "category": "volume",
+        "class": "CORE",
+        "reason": "Coerente con lo scenario principale della semifinale.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Coerente con lo scenario principale della semifinale."
+        },
+        "confidence": "medium",
+        "riskWarning": "Evento correlato allo scenario principale.",
+        "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+        "displayName": "Inghilterra Over 3,5 corner",
+        "marketType": "U/O CORNER SQUADRA X"
+      }
+    ],
+    "finalOdds": 5.46,
+    "targetOdds": "3-6",
+    "averageRisk": "medio",
+    "motivation": "Coerente con lo scenario principale della semifinale."
+  },
+  "balanced": {
+    "name": "Balanced",
+    "events": [
+      {
+        "id": "event-5216315650",
+        "market": "DRAW NO BET",
+        "info": "DRAW NO BET",
+        "selection": "1",
+        "odds": 1.72,
+        "selectionId": 5216315650,
+        "marketId": 793001401,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico."
+        },
+        "confidence": "medium",
+        "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+        "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+        "displayName": "Inghilterra Draw No Bet",
+        "marketType": "DRAW NO BET"
+      },
+      {
+        "id": "event-5216315674",
+        "market": "COMBO: GOAL/NOGOAL + U/O",
+        "info": "U/O 3.5 + GG/NG",
+        "selection": "GOAL + UNDER",
+        "odds": 2.8,
+        "selectionId": 5216315674,
+        "marketId": 793001404,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico."
+        },
+        "confidence": "medium",
+        "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+        "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+        "displayName": "Goal + Under 3,5",
+        "marketType": "COMBO: GOAL/NOGOAL + U/O"
+      },
+      {
+        "id": "event-5216336939",
+        "market": "U/O TIRI TOTALI",
+        "info": "U/O 22.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 1.62,
+        "selectionId": 5216336939,
+        "marketId": 793006404,
+        "category": "volume",
+        "class": "CORE",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico."
+        },
+        "confidence": "medium",
+        "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+        "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+        "displayName": "Over 22,5 tiri totali",
+        "marketType": "U/O TIRI TOTALI"
+      }
+    ],
+    "finalOdds": 7.8,
+    "targetOdds": "7-12",
+    "averageRisk": "medio-alto",
+    "motivation": "Aggiunge volume senza uscire dal copione tecnico."
+  },
+  "aggressive": {
+    "name": "Aggressive",
+    "events": [
+      {
+        "id": "event-5216336220",
+        "market": "COMBO: 1X2 + U/O",
+        "info": "1X2 + U/O 3.5",
+        "selection": "1 + U",
+        "odds": 3,
+        "selectionId": 5216336220,
+        "marketId": 792996147,
+        "category": "esito",
+        "class": "VALUE",
+        "reason": "Cerca prezzo alto su lettura di gara stretta.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Cerca prezzo alto su lettura di gara stretta."
+        },
+        "confidence": "medium",
+        "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+        "displayName": "Inghilterra vince + Under 3,5",
+        "marketType": "COMBO: 1X2 + U/O"
+      },
+      {
+        "id": "event-5216336947",
+        "market": "U/O TIRI TOTALI",
+        "info": "U/O 25.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 2.35,
+        "selectionId": 5216336947,
+        "marketId": 793006406,
+        "category": "volume",
+        "class": "CORE",
+        "reason": "Cerca prezzo alto su lettura di gara stretta.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Cerca prezzo alto su lettura di gara stretta."
+        },
+        "confidence": "medium",
+        "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+        "displayName": "Over 25,5 tiri totali",
+        "marketType": "U/O TIRI TOTALI"
+      },
+      {
+        "id": "event-5216561995",
+        "market": "MIGLIOR GIOCATORE IN CAMPO",
+        "info": "BELLINGHAM JUDE MIGLIORE IN CAMPO",
+        "selection": "SI",
+        "odds": 3.75,
+        "selectionId": 5216561995,
+        "marketId": 793055555,
+        "category": "esito",
+        "class": "VALUE",
+        "reason": "Cerca prezzo alto su lettura di gara stretta.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Cerca prezzo alto su lettura di gara stretta."
+        },
+        "confidence": "medium",
+        "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+        "displayName": "Bellingham migliore in campo",
+        "marketType": "MIGLIOR GIOCATORE IN CAMPO"
+      }
+    ],
+    "finalOdds": 26.44,
+    "targetOdds": "15+",
+    "averageRisk": "alto",
+    "motivation": "Cerca prezzo alto su lettura di gara stretta."
+  },
+  "portfolios": [
+    {
+      "name": "Safe",
+      "events": [
+        {
+          "id": "event-5216337398",
+          "market": "PASSAGGIO TURNO",
+          "info": "PASSAGGIO TURNO",
+          "selection": "1",
+          "odds": 1.75,
+          "selectionId": 5216337398,
+          "marketId": 793006504,
+          "category": "esito",
+          "class": "CORE",
+          "reason": "Coerente con lo scenario principale della semifinale.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Coerente con lo scenario principale della semifinale."
+          },
+          "confidence": "medium",
+          "riskWarning": "Evento correlato allo scenario principale.",
+          "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+          "displayName": "Inghilterra qualificata",
+          "marketType": "PASSAGGIO TURNO"
+        },
+        {
+          "id": "event-5216315504",
+          "market": "COMBO: GOAL/NOGOAL + U/O",
+          "info": "U/O 4.5 + GG/NG",
+          "selection": "GOAL + UNDER",
+          "odds": 2.15,
+          "selectionId": 5216315504,
+          "marketId": 793001383,
+          "category": "esito",
+          "class": "CORE",
+          "reason": "Coerente con lo scenario principale della semifinale.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Coerente con lo scenario principale della semifinale."
+          },
+          "confidence": "medium",
+          "riskWarning": "Evento correlato allo scenario principale.",
+          "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+          "displayName": "Goal + Under 4,5",
+          "marketType": "COMBO: GOAL/NOGOAL + U/O"
+        },
+        {
+          "id": "event-5216737713",
+          "market": "U/O CORNER SQUADRA X",
+          "info": "U/O 3.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 1.45,
+          "selectionId": 5216737713,
+          "marketId": 793079986,
+          "category": "volume",
+          "class": "CORE",
+          "reason": "Coerente con lo scenario principale della semifinale.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Coerente con lo scenario principale della semifinale."
+          },
+          "confidence": "medium",
+          "riskWarning": "Evento correlato allo scenario principale.",
+          "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+          "displayName": "Inghilterra Over 3,5 corner",
+          "marketType": "U/O CORNER SQUADRA X"
+        }
+      ],
+      "finalOdds": 5.46,
+      "targetOdds": "3-6",
+      "averageRisk": "medio",
+      "motivation": "Coerente con lo scenario principale della semifinale."
+    },
+    {
+      "name": "Balanced",
+      "events": [
+        {
+          "id": "event-5216315650",
+          "market": "DRAW NO BET",
+          "info": "DRAW NO BET",
+          "selection": "1",
+          "odds": 1.72,
+          "selectionId": 5216315650,
+          "marketId": 793001401,
+          "category": "esito",
+          "class": "CORE",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Aggiunge volume senza uscire dal copione tecnico."
+          },
+          "confidence": "medium",
+          "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+          "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+          "displayName": "Inghilterra Draw No Bet",
+          "marketType": "DRAW NO BET"
+        },
+        {
+          "id": "event-5216315674",
+          "market": "COMBO: GOAL/NOGOAL + U/O",
+          "info": "U/O 3.5 + GG/NG",
+          "selection": "GOAL + UNDER",
+          "odds": 2.8,
+          "selectionId": 5216315674,
+          "marketId": 793001404,
+          "category": "esito",
+          "class": "CORE",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Aggiunge volume senza uscire dal copione tecnico."
+          },
+          "confidence": "medium",
+          "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+          "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+          "displayName": "Goal + Under 3,5",
+          "marketType": "COMBO: GOAL/NOGOAL + U/O"
+        },
+        {
+          "id": "event-5216336939",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 22.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.62,
+          "selectionId": 5216336939,
+          "marketId": 793006404,
+          "category": "volume",
+          "class": "CORE",
+          "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Aggiunge volume senza uscire dal copione tecnico."
+          },
+          "confidence": "medium",
+          "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+          "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+          "displayName": "Over 22,5 tiri totali",
+          "marketType": "U/O TIRI TOTALI"
+        }
+      ],
+      "finalOdds": 7.8,
+      "targetOdds": "7-12",
+      "averageRisk": "medio-alto",
+      "motivation": "Aggiunge volume senza uscire dal copione tecnico."
+    },
+    {
+      "name": "Aggressive",
+      "events": [
+        {
+          "id": "event-5216336220",
+          "market": "COMBO: 1X2 + U/O",
+          "info": "1X2 + U/O 3.5",
+          "selection": "1 + U",
+          "odds": 3,
+          "selectionId": 5216336220,
+          "marketId": 792996147,
+          "category": "esito",
+          "class": "VALUE",
+          "reason": "Cerca prezzo alto su lettura di gara stretta.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Cerca prezzo alto su lettura di gara stretta."
+          },
+          "confidence": "medium",
+          "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+          "displayName": "Inghilterra vince + Under 3,5",
+          "marketType": "COMBO: 1X2 + U/O"
+        },
+        {
+          "id": "event-5216336947",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 25.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 2.35,
+          "selectionId": 5216336947,
+          "marketId": 793006406,
+          "category": "volume",
+          "class": "CORE",
+          "reason": "Cerca prezzo alto su lettura di gara stretta.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Cerca prezzo alto su lettura di gara stretta."
+          },
+          "confidence": "medium",
+          "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+          "displayName": "Over 25,5 tiri totali",
+          "marketType": "U/O TIRI TOTALI"
+        },
+        {
+          "id": "event-5216561995",
+          "market": "MIGLIOR GIOCATORE IN CAMPO",
+          "info": "BELLINGHAM JUDE MIGLIORE IN CAMPO",
+          "selection": "SI",
+          "odds": 3.75,
+          "selectionId": 5216561995,
+          "marketId": 793055555,
+          "category": "esito",
+          "class": "VALUE",
+          "reason": "Cerca prezzo alto su lettura di gara stretta.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Cerca prezzo alto su lettura di gara stretta."
+          },
+          "confidence": "medium",
+          "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+          "displayName": "Bellingham migliore in campo",
+          "marketType": "MIGLIOR GIOCATORE IN CAMPO"
+        }
+      ],
+      "finalOdds": 26.44,
+      "targetOdds": "15+",
+      "averageRisk": "alto",
+      "motivation": "Cerca prezzo alto su lettura di gara stretta."
+    }
+  ],
+  "topEvents": [
+    {
+      "id": "event-5216337398",
+      "market": "PASSAGGIO TURNO",
+      "info": "PASSAGGIO TURNO",
+      "selection": "1",
+      "odds": 1.75,
+      "selectionId": 5216337398,
+      "marketId": 793006504,
+      "category": "esito",
+      "class": "CORE",
+      "reason": "Coerente con lo scenario principale della semifinale.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Coerente con lo scenario principale della semifinale."
+      },
+      "confidence": "medium",
+      "riskWarning": "Evento correlato allo scenario principale.",
+      "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+      "displayName": "Inghilterra qualificata",
+      "marketType": "PASSAGGIO TURNO"
+    },
+    {
+      "id": "event-5216315504",
+      "market": "COMBO: GOAL/NOGOAL + U/O",
+      "info": "U/O 4.5 + GG/NG",
+      "selection": "GOAL + UNDER",
+      "odds": 2.15,
+      "selectionId": 5216315504,
+      "marketId": 793001383,
+      "category": "esito",
+      "class": "CORE",
+      "reason": "Coerente con lo scenario principale della semifinale.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Coerente con lo scenario principale della semifinale."
+      },
+      "confidence": "medium",
+      "riskWarning": "Evento correlato allo scenario principale.",
+      "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+      "displayName": "Goal + Under 4,5",
+      "marketType": "COMBO: GOAL/NOGOAL + U/O"
+    },
+    {
+      "id": "event-5216737713",
+      "market": "U/O CORNER SQUADRA X",
+      "info": "U/O 3.5 CORNER SQUADRA 1",
+      "selection": "OVER",
+      "odds": 1.45,
+      "selectionId": 5216737713,
+      "marketId": 793079986,
+      "category": "volume",
+      "class": "CORE",
+      "reason": "Coerente con lo scenario principale della semifinale.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Coerente con lo scenario principale della semifinale."
+      },
+      "confidence": "medium",
+      "riskWarning": "Evento correlato allo scenario principale.",
+      "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+      "displayName": "Inghilterra Over 3,5 corner",
+      "marketType": "U/O CORNER SQUADRA X"
+    },
+    {
+      "id": "event-5216315650",
+      "market": "DRAW NO BET",
+      "info": "DRAW NO BET",
+      "selection": "1",
+      "odds": 1.72,
+      "selectionId": 5216315650,
+      "marketId": 793001401,
+      "category": "esito",
+      "class": "CORE",
+      "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico."
+      },
+      "confidence": "medium",
+      "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+      "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+      "displayName": "Inghilterra Draw No Bet",
+      "marketType": "DRAW NO BET"
+    },
+    {
+      "id": "event-5216315674",
+      "market": "COMBO: GOAL/NOGOAL + U/O",
+      "info": "U/O 3.5 + GG/NG",
+      "selection": "GOAL + UNDER",
+      "odds": 2.8,
+      "selectionId": 5216315674,
+      "marketId": 793001404,
+      "category": "esito",
+      "class": "CORE",
+      "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico."
+      },
+      "confidence": "medium",
+      "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+      "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+      "displayName": "Goal + Under 3,5",
+      "marketType": "COMBO: GOAL/NOGOAL + U/O"
+    },
+    {
+      "id": "event-5216336939",
+      "market": "U/O TIRI TOTALI",
+      "info": "U/O 22.5 TIRI TOTALI",
+      "selection": "OVER",
+      "odds": 1.62,
+      "selectionId": 5216336939,
+      "marketId": 793006404,
+      "category": "volume",
+      "class": "CORE",
+      "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Aggiunge volume senza uscire dal copione tecnico."
+      },
+      "confidence": "medium",
+      "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
+      "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+      "displayName": "Over 22,5 tiri totali",
+      "marketType": "U/O TIRI TOTALI"
+    },
+    {
+      "id": "event-5216336220",
+      "market": "COMBO: 1X2 + U/O",
+      "info": "1X2 + U/O 3.5",
+      "selection": "1 + U",
+      "odds": 3,
+      "selectionId": 5216336220,
+      "marketId": 792996147,
+      "category": "esito",
+      "class": "VALUE",
+      "reason": "Cerca prezzo alto su lettura di gara stretta.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Cerca prezzo alto su lettura di gara stretta."
+      },
+      "confidence": "medium",
+      "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+      "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+      "displayName": "Inghilterra vince + Under 3,5",
+      "marketType": "COMBO: 1X2 + U/O"
+    },
+    {
+      "id": "event-5216336947",
+      "market": "U/O TIRI TOTALI",
+      "info": "U/O 25.5 TIRI TOTALI",
+      "selection": "OVER",
+      "odds": 2.35,
+      "selectionId": 5216336947,
+      "marketId": 793006406,
+      "category": "volume",
+      "class": "CORE",
+      "reason": "Cerca prezzo alto su lettura di gara stretta.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Cerca prezzo alto su lettura di gara stretta."
+      },
+      "confidence": "medium",
+      "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+      "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+      "displayName": "Over 25,5 tiri totali",
+      "marketType": "U/O TIRI TOTALI"
+    }
+  ],
+  "quoteErrorAnalysis": {
+    "generatedAt": "2026-07-12T18:57:58.667Z",
+    "model": "semifinal-reading-v1",
+    "events": [
+      {
+        "id": "inghilterra-argentina-quote-error-1",
+        "displayName": "Bellingham migliore in campo @ 3.75",
+        "market": "MIGLIOR GIOCATORE IN CAMPO",
+        "reason": "Quota alta per il giocatore che puo decidere sia rifinitura sia inserimento.",
+        "minimumOdds": 3,
+        "sourceQuote": "data/quote/inghilterra-argentina-quote.json"
+      },
+      {
+        "id": "inghilterra-argentina-quote-error-2",
+        "displayName": "Kane marcatore 1T @ 4.40",
+        "market": "KANE H. MARCATORE 1T",
+        "reason": "Prezzo da errore se l'Inghilterra parte forte e attacca l'area su cross e piazzati.",
+        "minimumOdds": 3,
+        "sourceQuote": "data/quote/inghilterra-argentina-quote.json"
+      },
+      {
+        "id": "inghilterra-argentina-quote-error-3",
+        "displayName": "Over 27,5 tiri totali @ 3.25",
+        "market": "U/O 27.5 TIRI TOTALI - OVER",
+        "reason": "Linea alta ma prezzo largo per una gara con due squadre obbligate a produrre.",
+        "minimumOdds": 3,
+        "sourceQuote": "data/quote/inghilterra-argentina-quote.json"
+      }
+    ]
+  },
+  "qualityNotes": [
+    "Quote flat rows lette: 7997",
+    "Ambiente stadio incluso nella lettura.",
+    "Formazioni probabili da aggiornare alle ufficiali."
+  ]
+}

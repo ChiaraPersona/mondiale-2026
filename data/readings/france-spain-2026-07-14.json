@@ -23,6 +23,43 @@
     "Francia": "Maignan; Kounde, Upamecano, Saliba, Theo Hernandez; Tchouameni, Rabiot; Dembele, Olise, Doue; Mbappe.",
     "Spagna": "Simon; Porro, Cubarsi, Laporte, Cucurella; Rodri, Fabian Ruiz, Olmo; Lamine Yamal, Oyarzabal, Nico Williams."
   },
+  "cardHierarchy": [
+    {
+      "rank": 1,
+      "player": "Tchouameni",
+      "risk": "Possibile primo ammonito",
+      "note": "Zona Rodri/Olmo: primo fallo tattico plausibile se la Spagna pulisce la pressione e la Francia deve fermare transizione centrale.",
+      "possibleFirstBooked": true
+    },
+    {
+      "rank": 2,
+      "player": "Cucurella",
+      "risk": "Medio-alto",
+      "note": "Lato esposto agli strappi di Dembele e alle sovrapposizioni francesi.",
+      "possibleFirstBooked": false
+    },
+    {
+      "rank": 3,
+      "player": "Rodri",
+      "risk": "Medio",
+      "note": "Dovra spezzare alcune transizioni francesi se il possesso si apre.",
+      "possibleFirstBooked": false
+    },
+    {
+      "rank": 4,
+      "player": "Theo Hernandez",
+      "risk": "Medio",
+      "note": "Duello con Lamine Yamal: rischio intervento in ritardo se la Spagna isola il lato destro.",
+      "possibleFirstBooked": false
+    },
+    {
+      "rank": 5,
+      "player": "Fabian Ruiz",
+      "risk": "Medio",
+      "note": "Pressione su Olise e seconde palle centrali: cartellino possibile se la gara diventa verticale.",
+      "possibleFirstBooked": false
+    }
+  ],
   "portfolios": [
     {
       "name": "Safe",

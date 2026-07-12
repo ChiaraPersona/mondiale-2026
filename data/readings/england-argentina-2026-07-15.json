@@ -23,6 +23,43 @@
     "Inghilterra": "Pickford; James, Stones, Guehi, Burn; Rice, Mainoo; Saka, Bellingham, Gordon; Kane.",
     "Argentina": "Martinez; Molina, Romero, Lisandro Martinez, Tagliafico; De Paul, Enzo Fernandez, Mac Allister; Messi, Alvarez, Lautaro Martinez."
   },
+  "cardHierarchy": [
+    {
+      "rank": 1,
+      "player": "Romero",
+      "risk": "Possibile primo ammonito",
+      "note": "Duelli diretti con Kane e attacchi inglesi sulle seconde palle: primo intervento forte molto plausibile.",
+      "possibleFirstBooked": true
+    },
+    {
+      "rank": 2,
+      "player": "Rice",
+      "risk": "Medio-alto",
+      "note": "Possibile fallo tattico su Messi o ripartenze centrali.",
+      "possibleFirstBooked": false
+    },
+    {
+      "rank": 3,
+      "player": "De Paul",
+      "risk": "Medio",
+      "note": "Pressione e duelli ripetuti con Bellingham e Gordon.",
+      "possibleFirstBooked": false
+    },
+    {
+      "rank": 4,
+      "player": "Tagliafico",
+      "risk": "Medio",
+      "note": "Lato Saka/James: rischio cartellino se l'Inghilterra carica la corsia.",
+      "possibleFirstBooked": false
+    },
+    {
+      "rank": 5,
+      "player": "Bellingham",
+      "risk": "Medio",
+      "note": "Pressing e proteste in gara emotiva: rischio disciplinare se l'Argentina abbassa il ritmo.",
+      "possibleFirstBooked": false
+    }
+  ],
   "portfolios": [
     {
       "name": "Safe",

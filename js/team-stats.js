@@ -7,7 +7,7 @@ let teamStatsPlayerFilters = {
   role: "all",
   metric: "shots"
 };
-const quarterFinalTeams = ["Spagna", "Argentina", "Svizzera", "Francia", "Inghilterra", "Norvegia"];
+const quarterFinalTeams = ["Spagna", "Argentina", "Francia", "Inghilterra"];
 const teamReadingLinks = {
   Spagna: [
     ["Spagna - Belgio", "letture/lettura-spagna-belgio.html"],

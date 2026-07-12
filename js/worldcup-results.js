@@ -1810,6 +1810,68 @@ const worldCupResults = {
       "Il Belgio segna il primo gol subito dalla Spagna nel torneo, ma produce solo 5 tiri e 1 corner.",
     ],
   },
+  99: {
+    status: "Finale dopo i supplementari",
+    home: 1,
+    away: 2,
+    winner: "Inghilterra",
+    source: "https://www.espn.com/soccer/match/_/gameId/760512/norway-england",
+    sources: [
+      "https://www.espn.com/soccer/match/_/gameId/760512/norway-england",
+      "https://apnews.com/article/f246f138c3a8563cb5a0e3f4037e930a",
+      "https://www.theguardian.com/football/live/2026/jul/11/norway-v-england-world-cup-2026-quarter-final-live",
+    ],
+    scorers: {
+      Norvegia: ["Andreas Schjelderup"],
+      Inghilterra: ["Jude Bellingham", "Jude Bellingham"],
+    },
+    cards: {
+      yellow: [{ team: "Norvegia", player: "Kristoffer Ajer" }],
+    },
+    stats: {
+      Norvegia: { shots: 13, shotsOnTarget: 4, corners: 7, foulsCommitted: 10, possession: "47.6%" },
+      Inghilterra: { shots: 14, shotsOnTarget: 8, corners: 4, foulsCommitted: 8, possession: "52.4%" },
+    },
+    notes: [
+      "L'Inghilterra batte la Norvegia 2-1 dopo i supplementari e va in semifinale.",
+      "Schjelderup apre al 36', Bellingham pareggia al 45+2' e decide al 93'.",
+      "ESPN registra 14-13 nei tiri per l'Inghilterra e 8-4 nello specchio: pronostico centrale 1-2 pienamente centrato.",
+    ],
+  },
+  100: {
+    status: "Finale dopo i supplementari",
+    home: 3,
+    away: 1,
+    winner: "Argentina",
+    source: "https://www.espn.com/soccer/match/_/gameId/760513/argentina-switzerland",
+    sources: [
+      "https://www.espn.com/soccer/match/_/gameId/760513/argentina-switzerland",
+      "https://apnews.com/article/d47ccb4ac5b3af67eca1f82228155174",
+      "https://www.theguardian.com/football/live/2026/jul/11/argentina-v-switzerland-world-cup-2026-quarter-final-live",
+    ],
+    scorers: {
+      Argentina: ["Alexis Mac Allister", "Julian Alvarez", "Lautaro Martinez"],
+      Svizzera: ["Dan Ndoye"],
+    },
+    cards: {
+      yellow: [
+        { team: "Svizzera", player: "Breel Embolo" },
+        { team: "Argentina", player: "Thiago Almada" },
+        { team: "Argentina", player: "Lautaro Martinez" },
+        { team: "Argentina", player: "Jose Manuel Lopez" },
+      ],
+      red: [{ team: "Svizzera", player: "Breel Embolo", note: "secondo giallo" }],
+    },
+    stats: {
+      Argentina: { shots: 22, shotsOnTarget: 7, corners: 8, foulsCommitted: 14, possession: "59%" },
+      Svizzera: { shots: 11, shotsOnTarget: 5, corners: 2, foulsCommitted: 18, possession: "41%" },
+    },
+    notes: [
+      "L'Argentina batte la Svizzera 3-1 dopo i supplementari e raggiunge l'Inghilterra in semifinale.",
+      "Mac Allister apre al 10', Ndoye pareggia al 67'; Alvarez al 112' e Lautaro al 120+1' chiudono la gara.",
+      "La lettura prende Argentina qualificata, Argentina + Over 1,5 e volume tiri; saltano No Goal, Under 3,5 e risultato centrale 2-0.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

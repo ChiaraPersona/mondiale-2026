@@ -98,6 +98,34 @@
     "pesoModello": 1.3,
     "note": "Quarto di finale da dentro o fuori contro un Marocco competitivo e organizzato tatticamente, ma leggermente sotto le big europee."
   },
+  "norway-england-2026-07-11": {
+    "matchType": "Quarti di finale / eliminazione diretta",
+    "opponentLevel": "Elite",
+    "opponentStyle": "Fisica + transizioni dirette, con centravanti dominante e trequarti tecnici",
+    "gameState": "Equilibrata e lunga: Norvegia avanti, Inghilterra in rimonta e gol decisivo al 93'",
+    "modelWeight": "1.40 - Molto alto",
+    "tipoPartita": "Quarti di finale (eliminazione diretta)",
+    "livelloAvversario": "Elite",
+    "livelloAvversarioScore": 5,
+    "stileAvversario": "Fisica + transizioni dirette",
+    "statoGara": "Rimonta dopo supplementari",
+    "pesoModello": 1.4,
+    "note": "Quarto ad alta pressione con 120 minuti, caldo di Miami e punteggio sempre aperto: dato molto pesante per tiri, lucidita sotto pressione, sostituzioni e falli."
+  },
+  "argentina-switzerland-2026-07-11": {
+    "matchType": "Quarti di finale / eliminazione diretta",
+    "opponentLevel": "Alto",
+    "opponentStyle": "Blocco compatto, fisicita centrale e transizioni con Ndoye/Embolo",
+    "gameState": "Argentina in vantaggio, Svizzera rientrata e poi piegata in inferiorita numerica nei supplementari",
+    "modelWeight": "1.40 - Molto alto",
+    "tipoPartita": "Quarti di finale (eliminazione diretta)",
+    "livelloAvversario": "Alto",
+    "livelloAvversarioScore": 4,
+    "stileAvversario": "Compatta + transizioni",
+    "statoGara": "Risolta ai supplementari",
+    "pesoModello": 1.4,
+    "note": "Quarto di finale con 120 minuti, rosso svizzero e forcing argentino prolungato: dato molto utile per tiri, falli, cartellini e produzione sotto pressione."
+  },
   "brazil-morocco-2026-06-13": {
     "matchType": "Fase a gironi",
     "opponentLevel": "Elite",

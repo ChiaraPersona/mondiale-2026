@@ -39,6 +39,8 @@ const teamReadingLinks = {
 };
 const normalizedPlayerStatsSources = [
   "data/player-stats/merged/spain-belgium-2026-07-10.json",
+  "data/player-stats/merged/norway-england-2026-07-11.json",
+  "data/player-stats/merged/argentina-switzerland-2026-07-11.json",
   "data/player-stats/merged/spain-cape-verde-2026.json",
   "data/player-stats/merged/spain-saudi-arabia-2026.json",
   "data/player-stats/merged/uruguay-spain-2026.json",

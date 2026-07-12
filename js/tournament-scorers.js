@@ -37,7 +37,7 @@ const tournamentScorersAll = [
   { player: "Leandro Trossard", team: "Belgio", goals: 2, penalties: 0 },
   { player: "Bradley Barcola", team: "Francia", goals: 2, penalties: 0 },
   { player: "Cristian Romero", team: "Argentina", goals: 2, penalties: 0 },
-  { player: "Jude Bellingham", team: "Inghilterra", goals: 4, penalties: 0 },
+  { player: "Jude Bellingham", team: "Inghilterra", goals: 6, penalties: 0 },
   { player: "Daniel Munoz", team: "Colombia", goals: 2, penalties: 0 },
   { player: "Ramin Rezaeian", team: "Iran", goals: 2, penalties: 0 },
   { player: "Crysencio Summerville", team: "Olanda", goals: 2, penalties: 0 },
@@ -53,8 +53,8 @@ const tournamentScorersAll = [
 const tournamentScorers = tournamentScorersAll;
 
 const tournamentScorersMeta = {
-  updated: "2026-07-08",
-  source: "Diretta.it",
-  url: "https://www.diretta.it/partita/calcio/argentina-f9OppQjp/egitto-bejDn7NN/?mid=bodsDyte",
+  updated: "2026-07-12",
+  source: "ESPN/AP",
+  url: "https://www.espn.com/soccer/match/_/gameId/760512/norway-england",
   scope: "Giocatori con almeno 2 gol",
 };

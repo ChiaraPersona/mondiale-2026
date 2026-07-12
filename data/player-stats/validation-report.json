@@ -1,13 +1,125 @@
 {
-  "generatedAt": "2026-07-09T08:09:02.035Z",
+  "generatedAt": "2026-07-12T18:37:45.066Z",
   "summary": {
-    "filesChecked": 15,
-    "errors": 0,
-    "warnings": 0,
-    "suspiciousPlayers": 0,
-    "fieldsToReview": 0
+    "filesChecked": 43,
+    "errors": 4,
+    "warnings": 1,
+    "suspiciousPlayers": 1,
+    "fieldsToReview": 1
   },
   "files": [
+    {
+      "file": "argentina-algeria-2026-06-16.json",
+      "matchId": "argentina-algeria-2026-06-16",
+      "match": "Argentina 3-0 Algeria",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "argentina-austria-2026-06-22.json",
+      "matchId": "argentina-austria-2026-06-22",
+      "match": "Argentina 2-0 Austria",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "argentina-cape-verde-2026-07-03.json",
+      "matchId": "argentina-cape-verde-2026-07-03",
+      "match": "Argentina 3-2 Cape Verde",
+      "provider": "Merged",
+      "completion": 36.5,
+      "errors": [
+        {
+          "type": "error",
+          "file": "argentina-cape-verde-2026-07-03.json",
+          "matchId": "argentina-cape-verde-2026-07-03",
+          "message": "Somma gol squadra casa non coerente con il risultato.",
+          "team": "Argentina",
+          "expected": 3,
+          "actual": 2,
+          "playerGoals": 2,
+          "ownGoalsFor": 0
+        }
+      ],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "argentina-egypt-2026-07-07.json",
+      "matchId": "argentina-egypt-2026-07-07",
+      "match": "Argentina 3-2 Egypt",
+      "provider": "Merged",
+      "completion": 35.7,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "argentina-switzerland-2026-07-11.json",
+      "matchId": "argentina-switzerland-2026-07-11",
+      "match": "Argentina 3-1 Switzerland",
+      "provider": "Merged",
+      "completion": 36,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "belgium-egypt-2026-06-15.json",
+      "matchId": "belgium-egypt-2026-06-15",
+      "match": "Belgium 1-1 Egypt",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [
+        {
+          "type": "error",
+          "file": "belgium-egypt-2026-06-15.json",
+          "matchId": "belgium-egypt-2026-06-15",
+          "message": "Somma gol squadra casa non coerente con il risultato.",
+          "team": "Belgium",
+          "expected": 1,
+          "actual": 0,
+          "playerGoals": 0,
+          "ownGoalsFor": 0
+        }
+      ],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "belgium-iran-2026-06-21.json",
+      "matchId": "belgium-iran-2026-06-21",
+      "match": "Belgium 0-0 Iran",
+      "provider": "Merged",
+      "completion": 36.6,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "belgium-senegal-2026-07-01.json",
+      "matchId": "belgium-senegal-2026-07-01",
+      "match": "Belgium 3-2 Senegal",
+      "provider": "Merged",
+      "completion": 36.8,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
     {
       "file": "brazil-morocco-2026-06-13.json",
       "matchId": "brazil-morocco-2026-06-13",
@@ -18,6 +130,31 @@
       "warnings": [],
       "suspiciousPlayers": [],
       "fieldsToReview": []
+    },
+    {
+      "file": "brazil-norway-2026-07-05.json",
+      "matchId": "brazil-norway-2026-07-05",
+      "match": "Brazil 1-2 Norway",
+      "provider": "Merged",
+      "completion": 36.5,
+      "errors": [],
+      "warnings": [
+        {
+          "type": "warning",
+          "file": "brazil-norway-2026-07-05.json",
+          "matchId": "brazil-norway-2026-07-05",
+          "message": "Non utilizzato con minuteIn valorizzato.",
+          "player": "Brazil / Ederson",
+          "minutes": 0,
+          "minuteIn": 79
+        }
+      ],
+      "suspiciousPlayers": [
+        "Brazil / Ederson"
+      ],
+      "fieldsToReview": [
+        "minuteIn/minutes"
+      ]
     },
     {
       "file": "canada-morocco-2026-07-04.json",
@@ -31,11 +168,55 @@
       "fieldsToReview": []
     },
     {
+      "file": "england-congo-dr-2026-07-01.json",
+      "matchId": "england-congo-dr-2026-07-01",
+      "match": "England 2-1 Congo DR",
+      "provider": "Merged",
+      "completion": 36.3,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "england-croatia-2026-06-17.json",
+      "matchId": "england-croatia-2026-06-17",
+      "match": "England 4-2 Croatia",
+      "provider": "Merged",
+      "completion": 36.5,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "england-ghana-2026-06-23.json",
+      "matchId": "england-ghana-2026-06-23",
+      "match": "England 0-0 Ghana",
+      "provider": "Merged",
+      "completion": 36.3,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
       "file": "france-iraq-2026-06-22.json",
       "matchId": "france-iraq-2026-06-22",
       "match": "France 3-0 Iraq",
       "provider": "Merged",
       "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "france-morocco-2026-07-09.json",
+      "matchId": "france-morocco-2026-07-09",
+      "match": "France 2-0 Morocco",
+      "provider": "Merged",
+      "completion": 36.3,
       "errors": [],
       "warnings": [],
       "suspiciousPlayers": [],
@@ -64,6 +245,62 @@
       "fieldsToReview": []
     },
     {
+      "file": "iraq-norway-2026-06-16.json",
+      "matchId": "iraq-norway-2026-06-16",
+      "match": "Iraq 1-4 Norway",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [
+        {
+          "type": "error",
+          "file": "iraq-norway-2026-06-16.json",
+          "matchId": "iraq-norway-2026-06-16",
+          "message": "Somma gol squadra trasferta non coerente con il risultato.",
+          "team": "Norway",
+          "expected": 4,
+          "actual": 3,
+          "playerGoals": 3,
+          "ownGoalsFor": 0
+        }
+      ],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "ivory-coast-norway-2026-06-30.json",
+      "matchId": "ivory-coast-norway-2026-06-30",
+      "match": "Ivory Coast 1-2 Norway",
+      "provider": "Merged",
+      "completion": 36.2,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "jordan-argentina-2026-06-27.json",
+      "matchId": "jordan-argentina-2026-06-27",
+      "match": "Jordan 1-3 Argentina",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "mexico-england-2026-07-05.json",
+      "matchId": "mexico-england-2026-07-05",
+      "match": "Mexico 2-3 England",
+      "provider": "Merged",
+      "completion": 36.3,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
       "file": "morocco-haiti-2026-06-24.json",
       "matchId": "morocco-haiti-2026-06-24",
       "match": "Morocco 4-2 Haiti",
@@ -86,11 +323,55 @@
       "fieldsToReview": []
     },
     {
+      "file": "new-zealand-belgium-2026-06-26.json",
+      "matchId": "new-zealand-belgium-2026-06-26",
+      "match": "New Zealand 1-5 Belgium",
+      "provider": "Merged",
+      "completion": 36.6,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "norway-england-2026-07-11.json",
+      "matchId": "norway-england-2026-07-11",
+      "match": "Norway 1-2 England",
+      "provider": "Merged",
+      "completion": 36.7,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
       "file": "norway-france-2026-06-26.json",
       "matchId": "norway-france-2026-06-26",
       "match": "Norway 1-4 France",
       "provider": "Merged",
       "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "norway-senegal-2026-06-22.json",
+      "matchId": "norway-senegal-2026-06-22",
+      "match": "Norway 3-2 Senegal",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "panama-england-2026-06-27.json",
+      "matchId": "panama-england-2026-06-27",
+      "match": "Panama 0-2 England",
+      "provider": "Merged",
+      "completion": 36.5,
       "errors": [],
       "warnings": [],
       "suspiciousPlayers": [],
@@ -119,6 +400,29 @@
       "fieldsToReview": []
     },
     {
+      "file": "qatar-switzerland-2026-06-13.json",
+      "matchId": "qatar-switzerland-2026-06-13",
+      "match": "Qatar 1-1 Switzerland",
+      "provider": "Merged",
+      "completion": 36.4,
+      "errors": [
+        {
+          "type": "error",
+          "file": "qatar-switzerland-2026-06-13.json",
+          "matchId": "qatar-switzerland-2026-06-13",
+          "message": "Somma gol squadra casa non coerente con il risultato.",
+          "team": "Qatar",
+          "expected": 1,
+          "actual": 0,
+          "playerGoals": 0,
+          "ownGoalsFor": 0
+        }
+      ],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
       "file": "scotland-morocco-2026-06-19.json",
       "matchId": "scotland-morocco-2026-06-19",
       "match": "Scotland 0-1 Morocco",
@@ -135,6 +439,17 @@
       "match": "Spain 3-0 Austria",
       "provider": "Merged",
       "completion": 36.4,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "spain-belgium-2026-07-10.json",
+      "matchId": "spain-belgium-2026-07-10",
+      "match": "Spain 2-1 Belgium",
+      "provider": "Merged",
+      "completion": 36.5,
       "errors": [],
       "warnings": [],
       "suspiciousPlayers": [],
@@ -163,6 +478,61 @@
       "fieldsToReview": []
     },
     {
+      "file": "switzerland-algeria-2026-07-02.json",
+      "matchId": "switzerland-algeria-2026-07-02",
+      "match": "Switzerland 2-0 Algeria",
+      "provider": "Merged",
+      "completion": 36.6,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "switzerland-bosnia-herzegovina-2026-06-18.json",
+      "matchId": "switzerland-bosnia-herzegovina-2026-06-18",
+      "match": "Switzerland 4-1 Bosnia-Herzegovina",
+      "provider": "Merged",
+      "completion": 35.8,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "switzerland-canada-2026-06-24.json",
+      "matchId": "switzerland-canada-2026-06-24",
+      "match": "Switzerland 2-1 Canada",
+      "provider": "Merged",
+      "completion": 36.6,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "switzerland-colombia-2026-07-07.json",
+      "matchId": "switzerland-colombia-2026-07-07",
+      "match": "Switzerland 0-0 Colombia",
+      "provider": "Merged",
+      "completion": 36.7,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "united-states-belgium-2026-07-06.json",
+      "matchId": "united-states-belgium-2026-07-06",
+      "match": "United States 1-4 Belgium",
+      "provider": "Merged",
+      "completion": 36.5,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
       "file": "uruguay-spain-2026.json",
       "matchId": "uruguay-spain-2026",
       "match": "Uruguay 0-1 Spain",
@@ -174,8 +544,67 @@
       "fieldsToReview": []
     }
   ],
-  "errors": [],
-  "warnings": [],
-  "suspiciousPlayers": [],
-  "fieldsToReview": []
+  "errors": [
+    {
+      "type": "error",
+      "file": "argentina-cape-verde-2026-07-03.json",
+      "matchId": "argentina-cape-verde-2026-07-03",
+      "message": "Somma gol squadra casa non coerente con il risultato.",
+      "team": "Argentina",
+      "expected": 3,
+      "actual": 2,
+      "playerGoals": 2,
+      "ownGoalsFor": 0
+    },
+    {
+      "type": "error",
+      "file": "belgium-egypt-2026-06-15.json",
+      "matchId": "belgium-egypt-2026-06-15",
+      "message": "Somma gol squadra casa non coerente con il risultato.",
+      "team": "Belgium",
+      "expected": 1,
+      "actual": 0,
+      "playerGoals": 0,
+      "ownGoalsFor": 0
+    },
+    {
+      "type": "error",
+      "file": "iraq-norway-2026-06-16.json",
+      "matchId": "iraq-norway-2026-06-16",
+      "message": "Somma gol squadra trasferta non coerente con il risultato.",
+      "team": "Norway",
+      "expected": 4,
+      "actual": 3,
+      "playerGoals": 3,
+      "ownGoalsFor": 0
+    },
+    {
+      "type": "error",
+      "file": "qatar-switzerland-2026-06-13.json",
+      "matchId": "qatar-switzerland-2026-06-13",
+      "message": "Somma gol squadra casa non coerente con il risultato.",
+      "team": "Qatar",
+      "expected": 1,
+      "actual": 0,
+      "playerGoals": 0,
+      "ownGoalsFor": 0
+    }
+  ],
+  "warnings": [
+    {
+      "type": "warning",
+      "file": "brazil-norway-2026-07-05.json",
+      "matchId": "brazil-norway-2026-07-05",
+      "message": "Non utilizzato con minuteIn valorizzato.",
+      "player": "Brazil / Ederson",
+      "minutes": 0,
+      "minuteIn": 79
+    }
+  ],
+  "suspiciousPlayers": [
+    "Brazil / Ederson"
+  ],
+  "fieldsToReview": [
+    "minuteIn/minutes"
+  ]
 }

@@ -97,10 +97,10 @@ const worldCupFixtures = [
 ["2026-07-07","Round of 16 - Match 96","Match 85 winners vs Match 87 winners","9pm","Vancouver, Canada","knockout"],
 ["2026-07-09","Quarter-final - Match 97","Francia vs Marocco","9pm","Foxborough, USA","knockout"],
 ["2026-07-10","Quarter-final - Match 98","Spagna vs Belgio","8pm","Los Angeles, USA","knockout"],
-["2026-07-11","Quarter-final - Match 99","Match 91 winners vs Match 92 winners","10pm","Miami, USA","knockout"],
-["2026-07-12","Quarter-final - Match 100","Match 95 winners vs Match 96 winners","2am","Kansas City, USA","knockout"],
+["2026-07-11","Quarter-final - Match 99","Norvegia vs Inghilterra","10pm","Miami, USA","knockout"],
+["2026-07-12","Quarter-final - Match 100","Argentina vs Svizzera","2am","Kansas City, USA","knockout"],
 ["2026-07-14","Semi-final - Match 101","Francia vs Spagna","8pm","Arlington, USA","knockout"],
-["2026-07-15","Semi-final - Match 102","Match 99 winners vs Match 100 winners","8pm","Atlanta, USA","knockout"],
+["2026-07-15","Semi-final - Match 102","Inghilterra vs Argentina","8pm","Atlanta, USA","knockout"],
 ["2026-07-18","Third Place Playoff - Match 103","Match 101 losers vs Match 102 losers","10pm","Miami, USA","knockout"],
 ["2026-07-19","Final - Match 104","Match 101 winners vs Match 102 winners","8pm","New Jersey, USA","knockout"],
 ];

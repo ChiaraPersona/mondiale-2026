@@ -84,6 +84,7 @@ const readingPredictions = {
    * ma non esiste un divario coerente con una vittoria larga o un No Goal.
    */
   "Norvegia|Inghilterra": { home: 1, away: 2, stage: "Quarti", basis: "Risultato reale contro il Brasile + forma di Haaland + proiezione Inghilterra" },
+  "Argentina|Svizzera": { home: 2, away: 0, winner: "Argentina", stage: "Quarti", basis: "Lettura ufficiale Argentina-Svizzera + controllo argentino" },
   /*
    * I precedenti recenti sono equilibrati: 1-1 nel 2025 e 2-1 Colombia
    * nel settembre 2024. La controversia arbitrale percepita nella finale
@@ -97,6 +98,8 @@ const readingPredictions = {
    * Margine minimo, nessuno scenario da goleada.
    */
   "Inghilterra|Colombia": { home: 2, away: 1, stage: "Semifinale", basis: "Margine tecnico ridotto + pericolosità offensiva Colombia" },
+
+  "Inghilterra|Argentina": { home: 2, away: 1, stage: "Semifinale", basis: "Qualificate reali dai quarti + margine tecnico ridotto" },
 
   /*
    * Possibile semifinale. La Spagna ha vinto le due sfide ufficiali

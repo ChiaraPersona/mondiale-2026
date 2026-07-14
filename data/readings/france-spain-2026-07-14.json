@@ -120,7 +120,7 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 3.98,
+      "finalOdds": 4.79,
       "events": [
         {
           "displayName": "Spagna qualificata",
@@ -132,13 +132,13 @@
           "marketId": 792745841
         },
         {
-          "displayName": "Over 23,5 tiri totali",
-          "market": "U/O TIRI TOTALI",
-          "info": "U/O 23.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 1.33,
-          "selectionId": 5214971129,
-          "marketId": 792745742
+          "displayName": "Goal",
+          "market": "GOAL/NOGOAL",
+          "info": "GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.6,
+          "selectionId": 5214970356,
+          "marketId": 792745591
         },
         {
           "displayName": "Entrambe almeno 1 punto cartellino",
@@ -186,16 +186,34 @@
     },
     {
       "name": "Aggressive",
-      "finalOdds": 31.5,
+      "finalOdds": 22.05,
       "events": [
         {
-          "displayName": "Spagna vince + Under 3,5",
-          "market": "COMBO: 1X2 + U/O",
-          "info": "1X2 + U/O 3.5",
-          "selection": "2 + U",
-          "odds": 4,
-          "selectionId": 5214970408,
-          "marketId": 792745598
+          "displayName": "Spagna Draw No Bet",
+          "market": "DRAW NO BET",
+          "info": "DRAW NO BET",
+          "selection": "2",
+          "odds": 2.25,
+          "selectionId": 5214987381,
+          "marketId": 792732838
+        },
+        {
+          "displayName": "Goal + Under 4,5",
+          "market": "COMBO: GOAL/NOGOAL + U/O",
+          "info": "U/O 4.5 + GG/NG",
+          "selection": "GOAL + UNDER",
+          "odds": 2.05,
+          "selectionId": 5214987318,
+          "marketId": 792732832
+        },
+        {
+          "displayName": "Over 25,5 tiri totali",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 25.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5214971133,
+          "marketId": 792745743
         },
         {
           "displayName": "Over 3,5 punti cartellini",
@@ -207,13 +225,13 @@
           "marketId": 793089538
         },
         {
-          "displayName": "Tchouameni cartellino",
-          "market": "CARTELLINO SI/NO (DUO) INC TS",
-          "info": "TCHOUAMENI A. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
-          "selection": "SI",
-          "odds": 3.75,
-          "selectionId": 5216809654,
-          "marketId": 793089552
+          "displayName": "Under 10,5 corner",
+          "market": "U/O CORNER",
+          "info": "U/O 10.5 CORNER",
+          "selection": "UNDER",
+          "odds": 1.45,
+          "selectionId": 5215568119,
+          "marketId": 792865338
         }
       ]
     }

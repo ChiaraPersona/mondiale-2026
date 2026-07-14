@@ -85,14 +85,14 @@ const data = [
       ["Fabian Ruiz", "Medio", "Pressione su Olise e seconde palle centrali: cartellino possibile se la gara diventa verticale."]
     ],
     valueErrors: [
-      ["Spagna qualificata @ 2.20", "PASSAGGIO TURNO - 2", "Prezzo sopra 2 per una lettura quasi pari ma con piccolo vantaggio di controllo spagnolo."],
-      ["Goal + Under 3,5 @ 2.90", "U/O 3.5 + GG/NG - GOAL + UNDER", "Compatibile con 1-1 o 1-2 senza trasformare la semifinale in partita aperta."],
-      ["Over 27,5 tiri totali @ 1.95", "U/O 27.5 TIRI TOTALI - OVER", "Due squadre con volume alto ma finale emotivo: prezzo interessante se il ritmo non si congela."]
+      ["Pareggio nei 90 @ 3.20", "1X2 ESITO FINALE - X", "La lettura centrale resta 1-1: quota sopra 3 per lo scenario piu naturale nei tempi regolamentari."],
+      ["Lamine Yamal migliore in campo @ 3.00", "MIGLIOR GIOCATORE IN CAMPO", "Prezzo minimo value per il giocatore che puo decidere ricevendo isolato sul lato forte spagnolo."],
+      ["Over 4,5 punti cartellini @ 3.50", "U/O 4.5 PUNTI CARTELLINI - OVER", "Barton e la semifinale sostengono un finale disciplinare alto, ma resta mercato da sezione value."]
     ],
     quotePicks: {
       safe: [
         ["PASSAGGIO TURNO", "PASSAGGIO TURNO", "2", "Spagna qualificata"],
-        ["U/O TIRI TOTALI", "U/O 23.5 TIRI TOTALI", "OVER", "Over 23,5 tiri totali"],
+        ["GOAL/NOGOAL", "GOAL/NO GOAL", "GOAL", "Goal"],
         ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"]
       ],
       balanced: [
@@ -101,9 +101,11 @@ const data = [
         ["U/O PUNTI CARTELLINI", "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 2,5 punti cartellini"]
       ],
       aggressive: [
-        ["COMBO: 1X2 + U/O", "1X2 + U/O 3.5", "2 + U", "Spagna vince + Under 3,5"],
+        ["DRAW NO BET", "DRAW NO BET", "2", "Spagna Draw No Bet"],
+        ["COMBO: GOAL/NOGOAL + U/O", "U/O 4.5 + GG/NG", "GOAL + UNDER", "Goal + Under 4,5"],
+        ["U/O TIRI TOTALI", "U/O 25.5 TIRI TOTALI", "OVER", "Over 25,5 tiri totali"],
         ["U/O PUNTI CARTELLINI", "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 3,5 punti cartellini"],
-        ["CARTELLINO SI/NO (DUO) INC TS", "TCHOUAMENI A. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI", "SI", "Tchouameni cartellino"]
+        ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"]
       ]
     },
     quoteSummary: [["1", "2.35"], ["X", "3.20"], ["2", "3.10"], ["Passaggio Spagna", "2.20"], ["Goal", "1.60"]]
@@ -197,9 +199,11 @@ const data = [
         ["U/O PUNTI CARTELLINI", "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 3,5 punti cartellini"]
       ],
       aggressive: [
-        ["COMBO: 1X2 + U/O", "1X2 + U/O 3.5", "1 + U", "Inghilterra vince + Under 3,5"],
+        ["DRAW NO BET", "DRAW NO BET", "1", "Inghilterra Draw No Bet"],
+        ["COMBO: GOAL/NOGOAL + U/O", "U/O 4.5 + GG/NG", "GOAL + UNDER", "Goal + Under 4,5"],
+        ["U/O TIRI TOTALI", "U/O 24.5 TIRI TOTALI", "OVER", "Over 24,5 tiri totali"],
         ["U/O PUNTI CARTELLINI", "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 3,5 punti cartellini"],
-        ["CARTELLINO SI/NO (DUO) INC TS", "ROMERO CRISTIAN CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI", "SI", "Romero cartellino"]
+        ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"]
       ]
     },
     quoteSummary: [["1", "2.60"], ["X", "3.00"], ["2", "3.00"], ["Passaggio Inghilterra", "1.75"], ["Goal", "1.90"]]
@@ -273,7 +277,7 @@ function buildPortfolio(name, picks, quote, reason, risk) {
     name,
     events,
     finalOdds,
-    targetOdds: name === "Safe" ? "3-6" : name === "Balanced" ? "7-12" : "15+",
+    targetOdds: name === "Safe" ? "circa 5" : name === "Balanced" ? "circa 10" : "circa 20",
     averageRisk: name === "Safe" ? "medio" : name === "Balanced" ? "medio-alto" : "alto",
     motivation: reason
   };

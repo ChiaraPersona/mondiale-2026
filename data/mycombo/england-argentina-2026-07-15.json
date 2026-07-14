@@ -135,7 +135,7 @@
       }
     ],
     "finalOdds": 5.12,
-    "targetOdds": "3-6",
+    "targetOdds": "circa 5",
     "averageRisk": "medio",
     "motivation": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
   },
@@ -219,7 +219,7 @@
       }
     ],
     "finalOdds": 10.6,
-    "targetOdds": "7-12",
+    "targetOdds": "circa 10",
     "averageRisk": "medio-alto",
     "motivation": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
   },
@@ -227,15 +227,15 @@
     "name": "Aggressive",
     "events": [
       {
-        "id": "event-5216336220",
-        "market": "COMBO: 1X2 + U/O",
-        "info": "1X2 + U/O 3.5",
-        "selection": "1 + U",
-        "odds": 3,
-        "selectionId": 5216336220,
-        "marketId": 792996147,
+        "id": "event-5216315650",
+        "market": "DRAW NO BET",
+        "info": "DRAW NO BET",
+        "selection": "1",
+        "odds": 1.72,
+        "selectionId": 5216315650,
+        "marketId": 793001401,
         "category": "esito",
-        "class": "VALUE",
+        "class": "CORE",
         "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
         "statEvidence": {
           "type": "semifinal reading",
@@ -246,8 +246,54 @@
         "confidence": "medium",
         "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
         "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
-        "displayName": "Inghilterra vince + Under 3,5",
-        "marketType": "COMBO: 1X2 + U/O"
+        "displayName": "Inghilterra Draw No Bet",
+        "marketType": "DRAW NO BET"
+      },
+      {
+        "id": "event-5216315504",
+        "market": "COMBO: GOAL/NOGOAL + U/O",
+        "info": "U/O 4.5 + GG/NG",
+        "selection": "GOAL + UNDER",
+        "odds": 2.15,
+        "selectionId": 5216315504,
+        "marketId": 793001383,
+        "category": "esito",
+        "class": "CORE",
+        "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
+        },
+        "confidence": "medium",
+        "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+        "displayName": "Goal + Under 4,5",
+        "marketType": "COMBO: GOAL/NOGOAL + U/O"
+      },
+      {
+        "id": "event-5216336907",
+        "market": "U/O TIRI TOTALI",
+        "info": "U/O 24.5 TIRI TOTALI",
+        "selection": "OVER",
+        "odds": 2.05,
+        "selectionId": 5216336907,
+        "marketId": 793006396,
+        "category": "volume",
+        "class": "CORE",
+        "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+        "statEvidence": {
+          "type": "semifinal reading",
+          "source": "lettura tecnica, quote Sisal e dati torneo",
+          "confidence": "medium",
+          "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
+        },
+        "confidence": "medium",
+        "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+        "displayName": "Over 24,5 tiri totali",
+        "marketType": "U/O TIRI TOTALI"
       },
       {
         "id": "event-5217007194",
@@ -279,15 +325,15 @@
         }
       },
       {
-        "id": "event-5217007021",
-        "market": "CARTELLINO SI/NO (DUO) INC TS",
-        "info": "ROMERO CRISTIAN CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
-        "selection": "SI",
-        "odds": 3.5,
-        "selectionId": 5217007021,
-        "marketId": 793132454,
-        "category": "cartellini",
-        "class": "VALUE",
+        "id": "event-5216737648",
+        "market": "U/O CORNER",
+        "info": "U/O 10.5 CORNER",
+        "selection": "UNDER",
+        "odds": 1.3,
+        "selectionId": 5216737648,
+        "marketId": 793079971,
+        "category": "volume",
+        "class": "CORE",
         "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
         "statEvidence": {
           "type": "semifinal reading",
@@ -298,18 +344,12 @@
         "confidence": "medium",
         "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
         "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
-        "displayName": "Romero cartellino",
-        "marketType": "CARTELLINO SI/NO (DUO) INC TS",
-        "refereeInfluence": {
-          "layer": "Referee Intelligence",
-          "impact": "limited",
-          "rankingBoost": 6,
-          "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
-        }
+        "displayName": "Under 10,5 corner",
+        "marketType": "U/O CORNER"
       }
     ],
-    "finalOdds": 23.1,
-    "targetOdds": "15+",
+    "finalOdds": 21.68,
+    "targetOdds": "circa 20",
     "averageRisk": "alto",
     "motivation": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
   },
@@ -394,7 +434,7 @@
         }
       ],
       "finalOdds": 5.12,
-      "targetOdds": "3-6",
+      "targetOdds": "circa 5",
       "averageRisk": "medio",
       "motivation": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
     },
@@ -478,7 +518,7 @@
         }
       ],
       "finalOdds": 10.6,
-      "targetOdds": "7-12",
+      "targetOdds": "circa 10",
       "averageRisk": "medio-alto",
       "motivation": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
     },
@@ -486,15 +526,15 @@
       "name": "Aggressive",
       "events": [
         {
-          "id": "event-5216336220",
-          "market": "COMBO: 1X2 + U/O",
-          "info": "1X2 + U/O 3.5",
-          "selection": "1 + U",
-          "odds": 3,
-          "selectionId": 5216336220,
-          "marketId": 792996147,
+          "id": "event-5216315650",
+          "market": "DRAW NO BET",
+          "info": "DRAW NO BET",
+          "selection": "1",
+          "odds": 1.72,
+          "selectionId": 5216315650,
+          "marketId": 793001401,
           "category": "esito",
-          "class": "VALUE",
+          "class": "CORE",
           "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
           "statEvidence": {
             "type": "semifinal reading",
@@ -505,8 +545,54 @@
           "confidence": "medium",
           "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
           "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
-          "displayName": "Inghilterra vince + Under 3,5",
-          "marketType": "COMBO: 1X2 + U/O"
+          "displayName": "Inghilterra Draw No Bet",
+          "marketType": "DRAW NO BET"
+        },
+        {
+          "id": "event-5216315504",
+          "market": "COMBO: GOAL/NOGOAL + U/O",
+          "info": "U/O 4.5 + GG/NG",
+          "selection": "GOAL + UNDER",
+          "odds": 2.15,
+          "selectionId": 5216315504,
+          "marketId": 793001383,
+          "category": "esito",
+          "class": "CORE",
+          "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
+          },
+          "confidence": "medium",
+          "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+          "displayName": "Goal + Under 4,5",
+          "marketType": "COMBO: GOAL/NOGOAL + U/O"
+        },
+        {
+          "id": "event-5216336907",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 24.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 2.05,
+          "selectionId": 5216336907,
+          "marketId": 793006396,
+          "category": "volume",
+          "class": "CORE",
+          "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+          "statEvidence": {
+            "type": "semifinal reading",
+            "source": "lettura tecnica, quote Sisal e dati torneo",
+            "confidence": "medium",
+            "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
+          },
+          "confidence": "medium",
+          "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+          "displayName": "Over 24,5 tiri totali",
+          "marketType": "U/O TIRI TOTALI"
         },
         {
           "id": "event-5217007194",
@@ -538,15 +624,15 @@
           }
         },
         {
-          "id": "event-5217007021",
-          "market": "CARTELLINO SI/NO (DUO) INC TS",
-          "info": "ROMERO CRISTIAN CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
-          "selection": "SI",
-          "odds": 3.5,
-          "selectionId": 5217007021,
-          "marketId": 793132454,
-          "category": "cartellini",
-          "class": "VALUE",
+          "id": "event-5216737648",
+          "market": "U/O CORNER",
+          "info": "U/O 10.5 CORNER",
+          "selection": "UNDER",
+          "odds": 1.3,
+          "selectionId": 5216737648,
+          "marketId": 793079971,
+          "category": "volume",
+          "class": "CORE",
           "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
           "statEvidence": {
             "type": "semifinal reading",
@@ -557,18 +643,12 @@
           "confidence": "medium",
           "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
           "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
-          "displayName": "Romero cartellino",
-          "marketType": "CARTELLINO SI/NO (DUO) INC TS",
-          "refereeInfluence": {
-            "layer": "Referee Intelligence",
-            "impact": "limited",
-            "rankingBoost": 6,
-            "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
-          }
+          "displayName": "Under 10,5 corner",
+          "marketType": "U/O CORNER"
         }
       ],
-      "finalOdds": 23.1,
-      "targetOdds": "15+",
+      "finalOdds": 21.68,
+      "targetOdds": "circa 20",
       "averageRisk": "alto",
       "motivation": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
     }
@@ -725,37 +805,14 @@
       }
     },
     {
-      "id": "event-5216336220",
-      "market": "COMBO: 1X2 + U/O",
-      "info": "1X2 + U/O 3.5",
-      "selection": "1 + U",
-      "odds": 3,
-      "selectionId": 5216336220,
-      "marketId": 792996147,
+      "id": "event-5216315650",
+      "market": "DRAW NO BET",
+      "info": "DRAW NO BET",
+      "selection": "1",
+      "odds": 1.72,
+      "selectionId": 5216315650,
+      "marketId": 793001401,
       "category": "esito",
-      "class": "VALUE",
-      "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
-      "statEvidence": {
-        "type": "semifinal reading",
-        "source": "lettura tecnica, quote Sisal e dati torneo",
-        "confidence": "medium",
-        "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
-      },
-      "confidence": "medium",
-      "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
-      "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
-      "displayName": "Inghilterra vince + Under 3,5",
-      "marketType": "COMBO: 1X2 + U/O"
-    },
-    {
-      "id": "event-5217007194",
-      "market": "U/O PUNTI CARTELLINI",
-      "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
-      "selection": "OVER",
-      "odds": 2.2,
-      "selectionId": 5217007194,
-      "marketId": 793137690,
-      "category": "cartellini",
       "class": "CORE",
       "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
       "statEvidence": {
@@ -767,18 +824,35 @@
       "confidence": "medium",
       "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
       "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
-      "displayName": "Over 3,5 punti cartellini",
-      "marketType": "U/O PUNTI CARTELLINI",
-      "refereeInfluence": {
-        "layer": "Referee Intelligence",
-        "impact": "limited",
-        "rankingBoost": 6,
-        "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
-      }
+      "displayName": "Inghilterra Draw No Bet",
+      "marketType": "DRAW NO BET"
+    },
+    {
+      "id": "event-5216315504",
+      "market": "COMBO: GOAL/NOGOAL + U/O",
+      "info": "U/O 4.5 + GG/NG",
+      "selection": "GOAL + UNDER",
+      "odds": 2.15,
+      "selectionId": 5216315504,
+      "marketId": 793001383,
+      "category": "esito",
+      "class": "CORE",
+      "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+      "statEvidence": {
+        "type": "semifinal reading",
+        "source": "lettura tecnica, quote Sisal e dati torneo",
+        "confidence": "medium",
+        "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
+      },
+      "confidence": "medium",
+      "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
+      "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+      "displayName": "Goal + Under 4,5",
+      "marketType": "COMBO: GOAL/NOGOAL + U/O"
     }
   ],
   "quoteErrorAnalysis": {
-    "generatedAt": "2026-07-14T11:25:28.950Z",
+    "generatedAt": "2026-07-14T11:40:34.624Z",
     "model": "semifinal-reading-v1",
     "events": [
       {

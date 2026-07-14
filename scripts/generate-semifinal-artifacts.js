@@ -32,7 +32,41 @@ const data = [
     motivation: { home: 99, away: 99, risk: "Medio" },
     weather: "Dallas Stadium, denominazione FIFA dell'AT&T Stadium, Arlington. Altitudine circa 184 metri. Tetto retrattile e impianto climatizzato: con tetto chiuso temperatura interna attorno a 21-22 C, terreno stabile e impatto minimo di caldo, umidita, pioggia o vento.",
     stadium: "All'esterno sono attesi circa 32 C, umidita medio-alta e possibili temporali nel corso della giornata. La lettura assume condizioni interne controllate: gara tecnica, non condizionata dal meteo.",
-    referee: "Da confermare",
+    referee: "Ivan Barton (El Salvador)",
+    refereeIntelligence: {
+      name: "Ivan Barton",
+      country: "El Salvador",
+      assistants: ["David Moran", "Antonio Pupiro"],
+      fourthOfficial: "Glenn Nyberg",
+      profile: "Severita medio-alta: applica con decisione il regolamento FIFA, lascia giocare i contatti leggeri e punisce proteste, falli tattici e comportamento antisportivo quando la gara sale di intensita.",
+      strengths: ["Regolamento FIFA applicato con fermezza", "Vantaggio lasciato sui contatti leggeri", "Buona disponibilita al supporto VAR", "Controllo deciso delle proteste"],
+      favoredMarkets: ["Over 3,5 punti cartellini", "Entrambe almeno 1 punto cartellino", "Cartellino nel secondo tempo", "Ammonizione centrocampista", "Ammonizione difensore"],
+      indicators: {
+        refereeSeverity: "medio-alta",
+        refereeDiscipline: "alta",
+        refereeDialogue: "medio",
+        refereeAdvantage: "medio",
+        refereeVarConfidence: "alta",
+        refereePenaltyBias: "media",
+        refereeRedCardBias: "medio-alta"
+      },
+      adjustments: {
+        secondHalfCardsBoost: 0.08,
+        tacticalFoulsBoost: 0.07,
+        dissentCardsBoost: 0.06,
+        transitionCardsBoost: 0.07,
+        rivalryAdjustment: 0.02,
+        knockoutPressureAdjustment: 0.08,
+        penaltyAdjustment: 0.01
+      },
+      forecast: {
+        fouls: "23-28",
+        cards: "4-6",
+        penalty: "medio-bassa",
+        redCard: "possibile ma non probabile"
+      },
+      modelImpact: "Aumenta leggermente cartellini nel secondo tempo, falli tattici, proteste e profili di centrocampo/difesa. Non aumenta artificialmente il rigore: Mbappe, Dembele, Lamine Yamal e Nico Williams restano il fattore primario."
+    },
     lead: "Questa e una semifinale da leggere piu con la posizione che con il puro volume. La Spagna arriva con struttura, lato Yamal e capacita di tenere la palla anche nei momenti sporchi; la Francia arriva con Mbappe, Dembele e Olise, cioe con tre modi diversi di rompere una gara bloccata. Il risultato centrale resta 1-1, con Spagna avanti nella probabilita di qualificazione per continuita e gestione.",
     paragraphs: [
       "La Francia deve accettare fasi lunghe senza palla senza perdere aggressivita quando recupera. Se Mbappe riceve fronte alla porta o puo attaccare Cubarsi/Laporte in campo aperto, ogni transizione diventa una giocata da semifinale. Se invece la Spagna riesce a farla difendere bassa e larga, aumentano falli tattici, corner spagnoli e tiri da seconda linea.",
@@ -59,17 +93,17 @@ const data = [
       safe: [
         ["PASSAGGIO TURNO", "PASSAGGIO TURNO", "2", "Spagna qualificata"],
         ["U/O TIRI TOTALI", "U/O 23.5 TIRI TOTALI", "OVER", "Over 23,5 tiri totali"],
-        ["1X2 TIRI IN PORTA GIOCATORI INC TS", "MBAPPE K. - LAMINE YAMAL 1X2 TIRI IN PORTA INC TS", "1", "Mbappe piu tiri in porta di Lamine Yamal"]
+        ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"]
       ],
       balanced: [
         ["DRAW NO BET", "DRAW NO BET", "2", "Spagna Draw No Bet"],
         ["COMBO: GOAL/NOGOAL + U/O", "U/O 3.5 + GG/NG", "GOAL + UNDER", "Goal + Under 3,5"],
-        ["U/O TIRI TOTALI", "U/O 25.5 TIRI TOTALI", "OVER", "Over 25,5 tiri totali"]
+        ["U/O PUNTI CARTELLINI", "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 2,5 punti cartellini"]
       ],
       aggressive: [
         ["COMBO: 1X2 + U/O", "1X2 + U/O 3.5", "2 + U", "Spagna vince + Under 3,5"],
-        ["U/O TIRI TOTALI", "U/O 27.5 TIRI TOTALI", "OVER", "Over 27,5 tiri totali"],
-        ["MIGLIOR GIOCATORE IN CAMPO", "LAMINE YAMAL MIGLIORE IN CAMPO", "SI", "Lamine Yamal migliore in campo"]
+        ["U/O PUNTI CARTELLINI", "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 3,5 punti cartellini"],
+        ["CARTELLINO SI/NO (DUO) INC TS", "TCHOUAMENI A. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI", "SI", "Tchouameni cartellino"]
       ]
     },
     quoteSummary: [["1", "2.35"], ["X", "3.20"], ["2", "3.10"], ["Passaggio Spagna", "2.20"], ["Goal", "1.60"]]
@@ -94,7 +128,41 @@ const data = [
     motivation: { home: 99, away: 99, risk: "Medio-alto" },
     weather: "Mercedes-Benz Stadium, Atlanta. Altitudine circa 320 metri. Tetto retrattile e impianto climatizzato: con tetto chiuso condizioni interne molto stabili, circa 21-22 C, senza impatto rilevante di pioggia, vento o caldo.",
     stadium: "All'esterno sono attesi circa 30 C, umidita elevata, cielo variabile o nuvoloso e possibilita di pioggia o temporali. La lettura assume campo e temperatura interna controllati.",
-    referee: "Da confermare",
+    referee: "Ismail Elfath (USA)",
+    refereeIntelligence: {
+      name: "Ismail Elfath",
+      country: "USA",
+      assistants: ["Corey Parker", "Kyle Atkins"],
+      fourthOfficial: "Maurizio Mariani",
+      profile: "Severita media con forte capacita di gestione: dialoga molto, concede vantaggio, lascia correre nelle prime fasi e aumenta progressivamente la soglia disciplinare.",
+      strengths: ["Dialogo alto con i giocatori", "Vantaggio concesso con continuita", "Esperienza VAR molto alta", "Decisioni importanti prese senza timore"],
+      favoredMarkets: ["Over 3,5 punti cartellini", "Entrambe almeno 1 punto cartellino", "Piu cartellini dopo il 60'", "Argentina over 1,5 punti cartellini", "Rigore solo ad alta varianza"],
+      indicators: {
+        refereeSeverity: "media",
+        refereeDiscipline: "media",
+        refereeDialogue: "alta",
+        refereeAdvantage: "alto",
+        refereeVarConfidence: "molto alta",
+        refereePenaltyBias: "medio-alta",
+        refereeRedCardBias: "media"
+      },
+      adjustments: {
+        secondHalfCardsBoost: 0.07,
+        tacticalFoulsBoost: 0.06,
+        dissentCardsBoost: 0.06,
+        transitionCardsBoost: 0.05,
+        rivalryAdjustment: 0.02,
+        knockoutPressureAdjustment: 0.1,
+        penaltyAdjustment: 0.04
+      },
+      forecast: {
+        fouls: "22-27",
+        cards: "4-6",
+        penalty: "medio-alta",
+        redCard: "possibile ma non probabile"
+      },
+      modelImpact: "Il contesto semifinale alza il rischio dopo il 60' e nel finale. Il rigore sale solo per profilo offensivo di Messi, Julian Alvarez, Saka, Bellingham, Kane e Palmer; nessun bias favorevole all'Argentina."
+    },
     lead: "La partita ha due anime: Inghilterra piu verticale e fisica, Argentina piu elastica e capace di cambiare ritmo dentro la stessa azione. Il modello tiene l'Inghilterra appena avanti per struttura, palla inattiva e stato dei suoi leader offensivi, ma non cancella il peso argentino nei minuti finali.",
     paragraphs: [
       "Kane e Bellingham sono il centro della lettura inglese. Se l'Inghilterra riesce a portare Saka e Gordon in isolamento, l'Argentina deve scegliere se proteggere l'area o uscire forte sugli esterni. In entrambi i casi aumentano corner, tiri da seconda palla e falli tattici.",
@@ -121,17 +189,17 @@ const data = [
       safe: [
         ["PASSAGGIO TURNO", "PASSAGGIO TURNO", "1", "Inghilterra qualificata"],
         ["COMBO: GOAL/NOGOAL + U/O", "U/O 4.5 + GG/NG", "GOAL + UNDER", "Goal + Under 4,5"],
-        ["U/O CORNER SQUADRA X", "U/O 3.5 CORNER SQUADRA 1", "OVER", "Inghilterra Over 3,5 corner"]
+        ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"]
       ],
       balanced: [
         ["DRAW NO BET", "DRAW NO BET", "1", "Inghilterra Draw No Bet"],
         ["COMBO: GOAL/NOGOAL + U/O", "U/O 3.5 + GG/NG", "GOAL + UNDER", "Goal + Under 3,5"],
-        ["U/O TIRI TOTALI", "U/O 22.5 TIRI TOTALI", "OVER", "Over 22,5 tiri totali"]
+        ["U/O PUNTI CARTELLINI", "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 3,5 punti cartellini"]
       ],
       aggressive: [
         ["COMBO: 1X2 + U/O", "1X2 + U/O 3.5", "1 + U", "Inghilterra vince + Under 3,5"],
-        ["U/O TIRI TOTALI", "U/O 25.5 TIRI TOTALI", "OVER", "Over 25,5 tiri totali"],
-        ["MIGLIOR GIOCATORE IN CAMPO", "BELLINGHAM JUDE MIGLIORE IN CAMPO", "SI", "Bellingham migliore in campo"]
+        ["U/O PUNTI CARTELLINI", "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 3,5 punti cartellini"],
+        ["CARTELLINO SI/NO (DUO) INC TS", "ROMERO CRISTIAN CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI", "SI", "Romero cartellino"]
       ]
     },
     quoteSummary: [["1", "2.60"], ["X", "3.00"], ["2", "3.00"], ["Passaggio Inghilterra", "1.75"], ["Goal", "1.90"]]
@@ -157,8 +225,12 @@ function findEvent(markets, market, info, selection) {
   return hit;
 }
 
+function isRefereeMarket(event) {
+  return /CARTELLINI|CARTELLINO|FALLI|RIGORE|ESPULSIONE/i.test(`${event.market} ${event.info}`);
+}
+
 function eventFromQuote(hit, displayName, reason, risk) {
-  return {
+  const base = {
     id: `event-${hit.selectionId}`,
     market: hit.mercato,
     info: hit.info,
@@ -166,7 +238,7 @@ function eventFromQuote(hit, displayName, reason, risk) {
     odds: Number(hit.quota),
     selectionId: hit.selectionId,
     marketId: hit.marketId,
-    category: /TIRI|CORNER/.test(hit.info) ? "volume" : "esito",
+    category: /CARTELL|FALLI|ESPULS/.test(`${hit.mercato} ${hit.info}`) ? "cartellini" : /TIRI|CORNER/.test(hit.info) ? "volume" : "esito",
     class: Number(hit.quota) >= 3 ? "VALUE" : "CORE",
     reason,
     statEvidence: {
@@ -181,6 +253,15 @@ function eventFromQuote(hit, displayName, reason, risk) {
     displayName,
     marketType: hit.mercato
   };
+  if (isRefereeMarket(base)) {
+    base.refereeInfluence = {
+      layer: "Referee Intelligence",
+      impact: "limited",
+      rankingBoost: 6,
+      reason: "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+    };
+  }
+  return base;
 }
 
 function buildPortfolio(name, picks, quote, reason, risk) {
@@ -203,6 +284,18 @@ function article(config, portfolios) {
   const quoteRows = config.quoteSummary.map(([label, value]) => `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join("");
   const cards = config.cards.map(([name, risk, text]) => `<li><b>${esc(name)}</b><strong>${esc(risk)}</strong><small>${esc(text)}</small></li>`).join("");
   const values = config.valueErrors.map(([name, market, text]) => `<li><b>${esc(name)}</b><span>${esc(market)}</span><small>${esc(text)}</small></li>`).join("");
+  const referee = config.refereeIntelligence;
+  const refereeMarkets = referee.favoredMarkets.map((item) => `<li>${esc(item)}</li>`).join("");
+  const refereeStrengths = referee.strengths.map((item) => `<li>${esc(item)}</li>`).join("");
+  const refereeStats = [
+    ["Severita", referee.indicators.refereeSeverity],
+    ["VAR", referee.indicators.refereeVarConfidence],
+    ["Disciplina", referee.indicators.refereeDiscipline],
+    ["Falli previsti", referee.forecast.fouls],
+    ["Cartellini previsti", referee.forecast.cards],
+    ["Rigore", referee.forecast.penalty],
+    ["Espulsione", referee.forecast.redCard]
+  ].map(([label, value]) => `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join("");
   const formation = (team) => `<article class="match-formation-card"><header><img src="flags/${team.flag}.svg" alt=""><div><strong>${esc(team.name)}</strong><span>Modulo ${esc(team.formation)} &middot; probabile</span></div></header><div class="football-pitch" aria-label="Formazione probabile ${esc(team.name)}">${team.pitch.map((row) => `<div class="pitch-row">${row.map((name) => `<span>${esc(name)}</span>`).join("")}</div>`).join("")}</div><div class="formation-bench"><b>Nota</b><span>Formazione probabile: da aggiornare alle ufficiali.</span></div></article>`;
 
   return `<!doctype html>
@@ -219,8 +312,8 @@ function article(config, portfolios) {
 <main class="reading-main"><nav class="reading-article-nav"><a href="lettura.html">Tutte le letture</a></nav><article class="reading-article" data-mycombo-slug="${esc(config.matchId)}">
 <header class="reading-hero"><div class="reading-kicker">${esc(config.round)} &middot; Scheda prepartita</div><div class="reading-match"><div class="reading-team"><img src="flags/${config.home.flag}.svg" alt=""><strong>${esc(config.home.name)}</strong></div><div class="reading-versus"><b>${esc(config.titleMatch)}</b><small>Mondiale 2026 &middot; ${esc(config.displayDate)}</small></div><div class="reading-team is-away"><img src="flags/${config.away.flag}.svg" alt=""><strong>${esc(config.away.name)}</strong></div></div><h2>${esc(config.headline)}</h2><p class="reading-deck">${esc(config.deck)}</p><div class="reading-meta"><span>Arbitro: ${esc(config.referee)}</span><span>Risultato centrale: ${esc(config.centralScore)}</span><span>MyCombo: pubblicate</span></div></header>
 <section class="reading-summary"><div><span>Risultato centrale</span><strong>${esc(config.centralScore)}</strong><small>Stima indipendente dalle quote</small></div><div><span>Scenario</span><strong>${esc(config.scenario)}</strong><small>La direzione principale della lettura</small></div><div><span>Scelta base</span><strong>${esc(config.basePick)}</strong><small>${esc(config.baseSub)}</small></div></section>
-<div class="round16-info-grid"><section class="round16-info-box round16-formations"><span>1</span><h2>Formazioni probabili</h2><div class="round16-formation"><h3>${esc(config.home.name)} <span>${esc(config.home.formation)}</span></h3><p>${esc(config.home.line)}</p><small>Probabile, da aggiornare alle ufficiali.</small></div><div class="round16-formation"><h3>${esc(config.away.name)} <span>${esc(config.away.formation)}</span></h3><p>${esc(config.away.line)}</p><small>Probabile, da aggiornare alle ufficiali.</small></div></section><section class="round16-info-box"><span>2</span><h2>Meteo</h2><p>${esc(config.weather)}</p></section><section class="round16-info-box"><span>3</span><h2>Stadio</h2><p>${esc(config.stadium)}</p></section><section class="round16-info-box"><span>4</span><h2>Arbitraggio</h2><p><strong>${esc(config.referee)}</strong></p><p>Designazione non ancora fissata nella lettura: mercati falli/cartellini individuali da tenere piu prudenti fino all'arbitro ufficiale.</p></section></div>
-<div class="reading-layout"><div class="reading-copy"><section><p class="reading-lead">${esc(config.lead)}</p>${config.paragraphs.map((p) => `<p>${esc(p)}</p>`).join("")}<p>Le probabilita stimate nei novanta minuti sono ${config.probabilities.home}% ${esc(config.home.name)}, ${config.probabilities.draw}% pareggio e ${config.probabilities.away}% ${esc(config.away.name)}. Le quote vengono confrontate con questa distribuzione soltanto dopo la costruzione dello scenario.</p></section><section><h3>Forma e precedenti pesati</h3><p>${esc(config.form)}</p><p>Non do peso decisivo ai precedenti lontani: rose, cicli tecnici e contesto mondiale rendono piu affidabili forma recente, qualita degli undici, compatibilita tattica e dati delle partite gia giocate.</p></section><section class="match-formations"><h3>Formazioni probabili</h3><div class="match-formation-grid">${formation(config.home)}${formation(config.away)}</div><p class="formation-disclaimer">Le formazioni sono probabili: le MyCombo usano mercati squadra e giocatore con prudenza fino alle ufficiali.</p></section><section><h3>La partita di ${esc(config.home.name)}</h3><p>${esc(config.teamASection)}</p></section><blockquote><strong>La chiave</strong>${esc(config.tacticalKey)}</blockquote><section><h3>La partita di ${esc(config.away.name)}</h3><p>${esc(config.teamBSection)}</p></section><section><h3>Stato motivazionale playoff</h3><p><strong>${esc(config.home.name)} ${config.motivation.home}/100.</strong> Motivazione massima da semifinale mondiale.</p><p><strong>${esc(config.away.name)} ${config.motivation.away}/100.</strong> Pressione competitiva altissima e margine minimo per gli errori.</p><p>Rischio sorpresa: <strong>${esc(config.motivation.risk)}</strong>. La qualita delle due squadre rende il dettaglio piu importante del nome favorito.</p></section><section><h3>Tiri e corner previsti</h3><p>${esc(config.shots)}</p><p>Le analisi dei calciatori servono come filtro per MyCombo: volume tiri, tiri in porta, falli commessi/subiti e probabilita di minutaggio. Non trasformo pero la lettura in una tabella tecnica: il pronostico resta prima di tutto una lettura del copione partita.</p></section><section><h3>Possibili ammoniti</h3><p>La gerarchia contiene cinque calciatori e indica il profilo piu esposto come possibile primo ammonito. L'ordine andra aggiornato alla designazione arbitrale ufficiale.</p><ol class="reading-card-ranking">${cards}</ol></section><blockquote><strong>La scelta</strong>${esc(config.basePick)} &middot; ${esc(config.baseSub)}</blockquote><section><h3>Verdetto preliminare</h3><p>La Safe resta vicina allo scenario principale; la Balanced aggiunge un mercato volume sostenuto dalla lettura; l'Aggressive accetta piu varianza ma rimane dentro mercati realmente presenti nelle quote Sisal. Gli errori di quota sono riportati sotto le MyCombo.</p></section></div><aside class="reading-sidebar"><section class="reading-data-panel"><span>Probabilita nei 90 minuti</span><div class="reading-probability"><div><b>${config.probabilities.home}%</b><small>${esc(config.home.name)}</small></div><div><b>${config.probabilities.draw}%</b><small>Pareggio</small></div><div><b>${config.probabilities.away}%</b><small>${esc(config.away.name)}</small></div></div></section><section class="reading-data-panel"><span>Stato motivazionale</span><dl class="reading-stat-list"><div><dt>${esc(config.home.name)}</dt><dd>${config.motivation.home}/100</dd></div><div><dt>${esc(config.away.name)}</dt><dd>${config.motivation.away}/100</dd></div><div><dt>Rischio sorpresa</dt><dd>${esc(config.motivation.risk)}</dd></div></dl></section><section class="reading-data-panel"><span>Volume previsto</span><dl class="reading-stat-list"><div><dt>${esc(config.home.name)}</dt><dd>12-15 tiri</dd></div><div><dt>${esc(config.away.name)}</dt><dd>11-16 tiri</dd></div><div><dt>Totale</dt><dd>24-30 tiri</dd></div></dl></section><section class="reading-data-panel"><span>Gerarchia ammoniti</span><ol class="reading-card-ranking">${cards}</ol></section><section class="reading-data-panel"><span>Gerarchia giocate</span><ol class="reading-card-ranking"><li><b>1. ${esc(config.basePick)}</b><small>Scelta principale</small></li><li><b>2. ${esc(config.baseSub)}</b><small>Mercati complementari</small></li><li><b>3. Over tiri totali</b><small>Mercato volume</small></li></ol></section><section class="reading-data-panel"><span>Metodo</span><p>Scenario e probabilita nascono da qualita, assetto tattico, forma, ambiente e quote usate solo dopo per valutare il prezzo.</p></section><section class="reading-data-panel"><span>Quote ricevute</span><dl class="reading-stat-list">${quoteRows}</dl></section><section class="reading-data-panel"><span>MyCombo &middot; quote aggiornate</span><div class="reading-mycombo">${comboRows}</div></section><section class="reading-data-panel"><span>3 possibili errori di quota</span><ul class="reading-picks">${values}</ul></section></aside></div><footer class="reading-note"><strong>Nota</strong><p>Le MyCombo sono generate da mercati reali Sisal presenti in data/quote. I dati calciatori servono da filtro tecnico: nessun mercato mancante viene inventato.</p></footer></article></main><script src="js/nav.js?v=20260714-semifinals"></script></body></html>
+<div class="round16-info-grid"><section class="round16-info-box round16-formations"><span>1</span><h2>Formazioni probabili</h2><div class="round16-formation"><h3>${esc(config.home.name)} <span>${esc(config.home.formation)}</span></h3><p>${esc(config.home.line)}</p><small>Probabile, da aggiornare alle ufficiali.</small></div><div class="round16-formation"><h3>${esc(config.away.name)} <span>${esc(config.away.formation)}</span></h3><p>${esc(config.away.line)}</p><small>Probabile, da aggiornare alle ufficiali.</small></div></section><section class="round16-info-box"><span>2</span><h2>Meteo</h2><p>${esc(config.weather)}</p></section><section class="round16-info-box"><span>3</span><h2>Stadio</h2><p>${esc(config.stadium)}</p></section><section class="round16-info-box"><span>4</span><h2>Referee Intelligence</h2><p><strong>${esc(config.referee)}</strong></p><p>${esc(referee.profile)}</p><div class="round16-severity"><span>Severita</span><strong>${esc(referee.indicators.refereeSeverity)}</strong></div></section></div>
+<div class="reading-layout"><div class="reading-copy"><section><p class="reading-lead">${esc(config.lead)}</p>${config.paragraphs.map((p) => `<p>${esc(p)}</p>`).join("")}<p>Le probabilita stimate nei novanta minuti sono ${config.probabilities.home}% ${esc(config.home.name)}, ${config.probabilities.draw}% pareggio e ${config.probabilities.away}% ${esc(config.away.name)}. Le quote vengono confrontate con questa distribuzione soltanto dopo la costruzione dello scenario.</p></section><section><h3>Forma e precedenti pesati</h3><p>${esc(config.form)}</p><p>Non do peso decisivo ai precedenti lontani: rose, cicli tecnici e contesto mondiale rendono piu affidabili forma recente, qualita degli undici, compatibilita tattica e dati delle partite gia giocate.</p></section><section class="match-formations"><h3>Formazioni probabili</h3><div class="match-formation-grid">${formation(config.home)}${formation(config.away)}</div><p class="formation-disclaimer">Le formazioni sono probabili: le MyCombo usano mercati squadra e giocatore con prudenza fino alle ufficiali.</p></section><section><h3>La partita di ${esc(config.home.name)}</h3><p>${esc(config.teamASection)}</p></section><blockquote><strong>La chiave</strong>${esc(config.tacticalKey)}</blockquote><section><h3>La partita di ${esc(config.away.name)}</h3><p>${esc(config.teamBSection)}</p></section><section><h3>Referee Intelligence</h3><p>${esc(referee.modelImpact)}</p><p><strong>Mercati favoriti dall'arbitraggio:</strong> ${esc(referee.favoredMarkets.join(", "))}.</p></section><section><h3>Stato motivazionale playoff</h3><p><strong>${esc(config.home.name)} ${config.motivation.home}/100.</strong> Motivazione massima da semifinale mondiale.</p><p><strong>${esc(config.away.name)} ${config.motivation.away}/100.</strong> Pressione competitiva altissima e margine minimo per gli errori.</p><p>Rischio sorpresa: <strong>${esc(config.motivation.risk)}</strong>. La qualita delle due squadre rende il dettaglio piu importante del nome favorito.</p></section><section><h3>Tiri e corner previsti</h3><p>${esc(config.shots)}</p><p>Le analisi dei calciatori servono come filtro per MyCombo: volume tiri, tiri in porta, falli commessi/subiti e probabilita di minutaggio. Non trasformo pero la lettura in una tabella tecnica: il pronostico resta prima di tutto una lettura del copione partita.</p></section><section><h3>Possibili ammoniti</h3><p>La gerarchia combina ruolo, zona di campo, avversario diretto e profilo arbitrale; i singoli restano piu volatili dei mercati squadra.</p><ol class="reading-card-ranking">${cards}</ol></section><blockquote><strong>La scelta</strong>${esc(config.basePick)} &middot; ${esc(config.baseSub)}</blockquote><section><h3>Verdetto preliminare</h3><p>La Safe resta vicina allo scenario principale; la Balanced aggiunge un mercato disciplinare sostenuto dal nuovo layer arbitrale; l'Aggressive accetta piu varianza ma rimane dentro mercati realmente presenti nelle quote Sisal. Gli errori di quota sono riportati sotto le MyCombo.</p></section></div><aside class="reading-sidebar"><section class="reading-data-panel"><span>Probabilita nei 90 minuti</span><div class="reading-probability"><div><b>${config.probabilities.home}%</b><small>${esc(config.home.name)}</small></div><div><b>${config.probabilities.draw}%</b><small>Pareggio</small></div><div><b>${config.probabilities.away}%</b><small>${esc(config.away.name)}</small></div></div></section><section class="reading-data-panel"><span>Stato motivazionale</span><dl class="reading-stat-list"><div><dt>${esc(config.home.name)}</dt><dd>${config.motivation.home}/100</dd></div><div><dt>${esc(config.away.name)}</dt><dd>${config.motivation.away}/100</dd></div><div><dt>Rischio sorpresa</dt><dd>${esc(config.motivation.risk)}</dd></div></dl></section><section class="reading-data-panel"><span>Arbitro</span><dl class="reading-stat-list">${refereeStats}</dl></section><section class="reading-data-panel"><span>Punti forti arbitraggio</span><ul class="reading-picks">${refereeStrengths}</ul></section><section class="reading-data-panel"><span>Mercati favoriti arbitro</span><ul class="reading-picks">${refereeMarkets}</ul></section><section class="reading-data-panel"><span>Volume previsto</span><dl class="reading-stat-list"><div><dt>${esc(config.home.name)}</dt><dd>12-15 tiri</dd></div><div><dt>${esc(config.away.name)}</dt><dd>11-16 tiri</dd></div><div><dt>Totale</dt><dd>24-30 tiri</dd></div></dl></section><section class="reading-data-panel"><span>Gerarchia ammoniti</span><ol class="reading-card-ranking">${cards}</ol></section><section class="reading-data-panel"><span>Gerarchia giocate</span><ol class="reading-card-ranking"><li><b>1. ${esc(config.basePick)}</b><small>Scelta principale</small></li><li><b>2. ${esc(config.baseSub)}</b><small>Mercati complementari</small></li><li><b>3. Over punti cartellini</b><small>Mercato disciplinare</small></li></ol></section><section class="reading-data-panel"><span>Metodo</span><p>Scenario e probabilita nascono da qualita, assetto tattico, forma, ambiente, referee intelligence e quote usate solo dopo per valutare il prezzo.</p></section><section class="reading-data-panel"><span>Quote ricevute</span><dl class="reading-stat-list">${quoteRows}</dl></section><section class="reading-data-panel"><span>MyCombo &middot; quote aggiornate</span><div class="reading-mycombo">${comboRows}</div></section><section class="reading-data-panel"><span>3 possibili errori di quota</span><ul class="reading-picks">${values}</ul></section></aside></div><footer class="reading-note"><strong>Nota</strong><p>Le MyCombo sono generate da mercati reali Sisal presenti in data/quote. Il layer arbitrale sposta solo leggermente ranking e motivazione dei mercati disciplinari, senza sovrascrivere dati squadra, calciatori e scenario tecnico.</p></footer></article></main><script src="js/nav.js?v=20260714-referee-intel"></script></body></html>
 `;
 }
 
@@ -242,6 +335,13 @@ function readingJson(config, portfolios) {
       weather: config.weather,
       stadium: config.stadium
     },
+    referee: {
+      name: config.refereeIntelligence.name,
+      country: config.refereeIntelligence.country,
+      assistants: config.refereeIntelligence.assistants,
+      fourthOfficial: config.refereeIntelligence.fourthOfficial
+    },
+    refereeIntelligence: config.refereeIntelligence,
     formations: {
       [config.home.name]: config.home.line,
       [config.away.name]: config.away.line
@@ -279,6 +379,7 @@ function myComboJson(config, quote, portfolios) {
     sourceQuote: `data/quote/${config.slug}-quote.json`,
     sourceReading: `data/readings/${config.matchId}.json`,
     sourcePlayerStats: "data/active/team-stats-data.js",
+    refereeIntelligence: config.refereeIntelligence,
     safe: portfolios[0],
     balanced: portfolios[1],
     aggressive: portfolios[2],
@@ -299,6 +400,7 @@ function myComboJson(config, quote, portfolios) {
     qualityNotes: [
       `Quote flat rows lette: ${quote.totalMarkets}`,
       "Ambiente stadio incluso nella lettura.",
+      "Referee Intelligence integrata con peso limitato sui mercati disciplinari.",
       "Formazioni probabili da aggiornare alle ufficiali."
     ]
   };
@@ -308,9 +410,9 @@ function myComboJson(config, quote, portfolios) {
 for (const config of data) {
   const quote = readQuote(config.slug);
   const portfolios = [
-    buildPortfolio("Safe", config.quotePicks.safe, quote, "Coerente con lo scenario principale della semifinale.", "Evento correlato allo scenario principale."),
-    buildPortfolio("Balanced", config.quotePicks.balanced, quote, "Aggiunge volume senza uscire dal copione tecnico.", "Portafoglio con correlazione moderata tra esito e volume."),
-    buildPortfolio("Aggressive", config.quotePicks.aggressive, quote, "Cerca prezzo alto su lettura di gara stretta.", "Alta varianza: usare solo come giocata aggressiva.")
+    buildPortfolio("Safe", config.quotePicks.safe, quote, "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.", "Evento correlato allo scenario principale."),
+    buildPortfolio("Balanced", config.quotePicks.balanced, quote, "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.", "Portafoglio con correlazione moderata tra esito, gol e disciplina."),
+    buildPortfolio("Aggressive", config.quotePicks.aggressive, quote, "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.", "Alta varianza: usare solo come giocata aggressiva.")
   ];
 
   fs.writeFileSync(path.join(root, "data", "mycombo", `${config.matchId}.json`), JSON.stringify(myComboJson(config, quote, portfolios), null, 2) + "\n");

@@ -19,6 +19,63 @@
     "weather": "Mercedes-Benz Stadium, Atlanta. Altitudine circa 320 metri. Tetto retrattile e impianto climatizzato: con tetto chiuso condizioni interne molto stabili, circa 21-22 C, senza impatto rilevante di pioggia, vento o caldo.",
     "stadium": "All'esterno sono attesi circa 30 C, umidita elevata, cielo variabile o nuvoloso e possibilita di pioggia o temporali. La lettura assume campo e temperatura interna controllati."
   },
+  "referee": {
+    "name": "Ismail Elfath",
+    "country": "USA",
+    "assistants": [
+      "Corey Parker",
+      "Kyle Atkins"
+    ],
+    "fourthOfficial": "Maurizio Mariani"
+  },
+  "refereeIntelligence": {
+    "name": "Ismail Elfath",
+    "country": "USA",
+    "assistants": [
+      "Corey Parker",
+      "Kyle Atkins"
+    ],
+    "fourthOfficial": "Maurizio Mariani",
+    "profile": "Severita media con forte capacita di gestione: dialoga molto, concede vantaggio, lascia correre nelle prime fasi e aumenta progressivamente la soglia disciplinare.",
+    "strengths": [
+      "Dialogo alto con i giocatori",
+      "Vantaggio concesso con continuita",
+      "Esperienza VAR molto alta",
+      "Decisioni importanti prese senza timore"
+    ],
+    "favoredMarkets": [
+      "Over 3,5 punti cartellini",
+      "Entrambe almeno 1 punto cartellino",
+      "Piu cartellini dopo il 60'",
+      "Argentina over 1,5 punti cartellini",
+      "Rigore solo ad alta varianza"
+    ],
+    "indicators": {
+      "refereeSeverity": "media",
+      "refereeDiscipline": "media",
+      "refereeDialogue": "alta",
+      "refereeAdvantage": "alto",
+      "refereeVarConfidence": "molto alta",
+      "refereePenaltyBias": "medio-alta",
+      "refereeRedCardBias": "media"
+    },
+    "adjustments": {
+      "secondHalfCardsBoost": 0.07,
+      "tacticalFoulsBoost": 0.06,
+      "dissentCardsBoost": 0.06,
+      "transitionCardsBoost": 0.05,
+      "rivalryAdjustment": 0.02,
+      "knockoutPressureAdjustment": 0.1,
+      "penaltyAdjustment": 0.04
+    },
+    "forecast": {
+      "fouls": "22-27",
+      "cards": "4-6",
+      "penalty": "medio-alta",
+      "redCard": "possibile ma non probabile"
+    },
+    "modelImpact": "Il contesto semifinale alza il rischio dopo il 60' e nel finale. Il rigore sale solo per profilo offensivo di Messi, Julian Alvarez, Saka, Bellingham, Kane e Palmer; nessun bias favorevole all'Argentina."
+  },
   "formations": {
     "Inghilterra": "Pickford; James, Stones, Guehi, Burn; Rice, Mainoo; Saka, Bellingham, Gordon; Kane.",
     "Argentina": "Martinez; Molina, Romero, Lisandro Martinez, Tagliafico; De Paul, Enzo Fernandez, Mac Allister; Messi, Alvarez, Lautaro Martinez."
@@ -63,7 +120,7 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 5.46,
+      "finalOdds": 5.12,
       "events": [
         {
           "displayName": "Inghilterra qualificata",
@@ -84,19 +141,19 @@
           "marketId": 793001383
         },
         {
-          "displayName": "Inghilterra Over 3,5 corner",
-          "market": "U/O CORNER SQUADRA X",
-          "info": "U/O 3.5 CORNER SQUADRA 1",
-          "selection": "OVER",
-          "odds": 1.45,
-          "selectionId": 5216737713,
-          "marketId": 793079986
+          "displayName": "Entrambe almeno 1 punto cartellino",
+          "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+          "info": "ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
+          "selection": "SI",
+          "odds": 1.36,
+          "selectionId": 5217007213,
+          "marketId": 793137695
         }
       ]
     },
     {
       "name": "Balanced",
-      "finalOdds": 7.8,
+      "finalOdds": 10.6,
       "events": [
         {
           "displayName": "Inghilterra Draw No Bet",
@@ -117,19 +174,19 @@
           "marketId": 793001404
         },
         {
-          "displayName": "Over 22,5 tiri totali",
-          "market": "U/O TIRI TOTALI",
-          "info": "U/O 22.5 TIRI TOTALI",
+          "displayName": "Over 3,5 punti cartellini",
+          "market": "U/O PUNTI CARTELLINI",
+          "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
           "selection": "OVER",
-          "odds": 1.62,
-          "selectionId": 5216336939,
-          "marketId": 793006404
+          "odds": 2.2,
+          "selectionId": 5217007194,
+          "marketId": 793137690
         }
       ]
     },
     {
       "name": "Aggressive",
-      "finalOdds": 26.44,
+      "finalOdds": 23.1,
       "events": [
         {
           "displayName": "Inghilterra vince + Under 3,5",
@@ -141,22 +198,22 @@
           "marketId": 792996147
         },
         {
-          "displayName": "Over 25,5 tiri totali",
-          "market": "U/O TIRI TOTALI",
-          "info": "U/O 25.5 TIRI TOTALI",
+          "displayName": "Over 3,5 punti cartellini",
+          "market": "U/O PUNTI CARTELLINI",
+          "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
           "selection": "OVER",
-          "odds": 2.35,
-          "selectionId": 5216336947,
-          "marketId": 793006406
+          "odds": 2.2,
+          "selectionId": 5217007194,
+          "marketId": 793137690
         },
         {
-          "displayName": "Bellingham migliore in campo",
-          "market": "MIGLIOR GIOCATORE IN CAMPO",
-          "info": "BELLINGHAM JUDE MIGLIORE IN CAMPO",
+          "displayName": "Romero cartellino",
+          "market": "CARTELLINO SI/NO (DUO) INC TS",
+          "info": "ROMERO CRISTIAN CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
           "selection": "SI",
-          "odds": 3.75,
-          "selectionId": 5216561995,
-          "marketId": 793055555
+          "odds": 3.5,
+          "selectionId": 5217007021,
+          "marketId": 793132454
         }
       ]
     }

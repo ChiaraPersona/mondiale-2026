@@ -7,6 +7,54 @@
   "sourceQuote": "data/quote/inghilterra-argentina-quote.json",
   "sourceReading": "data/readings/england-argentina-2026-07-15.json",
   "sourcePlayerStats": "data/active/team-stats-data.js",
+  "refereeIntelligence": {
+    "name": "Ismail Elfath",
+    "country": "USA",
+    "assistants": [
+      "Corey Parker",
+      "Kyle Atkins"
+    ],
+    "fourthOfficial": "Maurizio Mariani",
+    "profile": "Severita media con forte capacita di gestione: dialoga molto, concede vantaggio, lascia correre nelle prime fasi e aumenta progressivamente la soglia disciplinare.",
+    "strengths": [
+      "Dialogo alto con i giocatori",
+      "Vantaggio concesso con continuita",
+      "Esperienza VAR molto alta",
+      "Decisioni importanti prese senza timore"
+    ],
+    "favoredMarkets": [
+      "Over 3,5 punti cartellini",
+      "Entrambe almeno 1 punto cartellino",
+      "Piu cartellini dopo il 60'",
+      "Argentina over 1,5 punti cartellini",
+      "Rigore solo ad alta varianza"
+    ],
+    "indicators": {
+      "refereeSeverity": "media",
+      "refereeDiscipline": "media",
+      "refereeDialogue": "alta",
+      "refereeAdvantage": "alto",
+      "refereeVarConfidence": "molto alta",
+      "refereePenaltyBias": "medio-alta",
+      "refereeRedCardBias": "media"
+    },
+    "adjustments": {
+      "secondHalfCardsBoost": 0.07,
+      "tacticalFoulsBoost": 0.06,
+      "dissentCardsBoost": 0.06,
+      "transitionCardsBoost": 0.05,
+      "rivalryAdjustment": 0.02,
+      "knockoutPressureAdjustment": 0.1,
+      "penaltyAdjustment": 0.04
+    },
+    "forecast": {
+      "fouls": "22-27",
+      "cards": "4-6",
+      "penalty": "medio-alta",
+      "redCard": "possibile ma non probabile"
+    },
+    "modelImpact": "Il contesto semifinale alza il rischio dopo il 60' e nel finale. Il rigore sale solo per profilo offensivo di Messi, Julian Alvarez, Saka, Bellingham, Kane e Palmer; nessun bias favorevole all'Argentina."
+  },
   "safe": {
     "name": "Safe",
     "events": [
@@ -20,16 +68,16 @@
         "marketId": 793006504,
         "category": "esito",
         "class": "CORE",
-        "reason": "Coerente con lo scenario principale della semifinale.",
+        "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
         "statEvidence": {
           "type": "semifinal reading",
           "source": "lettura tecnica, quote Sisal e dati torneo",
           "confidence": "medium",
-          "reason": "Coerente con lo scenario principale della semifinale."
+          "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+        "whyIncluded": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
         "displayName": "Inghilterra qualificata",
         "marketType": "PASSAGGIO TURNO"
       },
@@ -43,47 +91,53 @@
         "marketId": 793001383,
         "category": "esito",
         "class": "CORE",
-        "reason": "Coerente con lo scenario principale della semifinale.",
+        "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
         "statEvidence": {
           "type": "semifinal reading",
           "source": "lettura tecnica, quote Sisal e dati torneo",
           "confidence": "medium",
-          "reason": "Coerente con lo scenario principale della semifinale."
+          "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+        "whyIncluded": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
         "displayName": "Goal + Under 4,5",
         "marketType": "COMBO: GOAL/NOGOAL + U/O"
       },
       {
-        "id": "event-5216737713",
-        "market": "U/O CORNER SQUADRA X",
-        "info": "U/O 3.5 CORNER SQUADRA 1",
-        "selection": "OVER",
-        "odds": 1.45,
-        "selectionId": 5216737713,
-        "marketId": 793079986,
-        "category": "volume",
+        "id": "event-5217007213",
+        "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+        "info": "ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
+        "selection": "SI",
+        "odds": 1.36,
+        "selectionId": 5217007213,
+        "marketId": 793137695,
+        "category": "cartellini",
         "class": "CORE",
-        "reason": "Coerente con lo scenario principale della semifinale.",
+        "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
         "statEvidence": {
           "type": "semifinal reading",
           "source": "lettura tecnica, quote Sisal e dati torneo",
           "confidence": "medium",
-          "reason": "Coerente con lo scenario principale della semifinale."
+          "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
         },
         "confidence": "medium",
         "riskWarning": "Evento correlato allo scenario principale.",
-        "whyIncluded": "Coerente con lo scenario principale della semifinale.",
-        "displayName": "Inghilterra Over 3,5 corner",
-        "marketType": "U/O CORNER SQUADRA X"
+        "whyIncluded": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
+        "displayName": "Entrambe almeno 1 punto cartellino",
+        "marketType": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+        "refereeInfluence": {
+          "layer": "Referee Intelligence",
+          "impact": "limited",
+          "rankingBoost": 6,
+          "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+        }
       }
     ],
-    "finalOdds": 5.46,
+    "finalOdds": 5.12,
     "targetOdds": "3-6",
     "averageRisk": "medio",
-    "motivation": "Coerente con lo scenario principale della semifinale."
+    "motivation": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
   },
   "balanced": {
     "name": "Balanced",
@@ -98,16 +152,16 @@
         "marketId": 793001401,
         "category": "esito",
         "class": "CORE",
-        "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+        "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
         "statEvidence": {
           "type": "semifinal reading",
           "source": "lettura tecnica, quote Sisal e dati torneo",
           "confidence": "medium",
-          "reason": "Aggiunge volume senza uscire dal copione tecnico."
+          "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
         },
         "confidence": "medium",
-        "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
-        "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+        "riskWarning": "Portafoglio con correlazione moderata tra esito, gol e disciplina.",
+        "whyIncluded": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
         "displayName": "Inghilterra Draw No Bet",
         "marketType": "DRAW NO BET"
       },
@@ -121,47 +175,53 @@
         "marketId": 793001404,
         "category": "esito",
         "class": "CORE",
-        "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+        "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
         "statEvidence": {
           "type": "semifinal reading",
           "source": "lettura tecnica, quote Sisal e dati torneo",
           "confidence": "medium",
-          "reason": "Aggiunge volume senza uscire dal copione tecnico."
+          "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
         },
         "confidence": "medium",
-        "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
-        "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+        "riskWarning": "Portafoglio con correlazione moderata tra esito, gol e disciplina.",
+        "whyIncluded": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
         "displayName": "Goal + Under 3,5",
         "marketType": "COMBO: GOAL/NOGOAL + U/O"
       },
       {
-        "id": "event-5216336939",
-        "market": "U/O TIRI TOTALI",
-        "info": "U/O 22.5 TIRI TOTALI",
+        "id": "event-5217007194",
+        "market": "U/O PUNTI CARTELLINI",
+        "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
         "selection": "OVER",
-        "odds": 1.62,
-        "selectionId": 5216336939,
-        "marketId": 793006404,
-        "category": "volume",
+        "odds": 2.2,
+        "selectionId": 5217007194,
+        "marketId": 793137690,
+        "category": "cartellini",
         "class": "CORE",
-        "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+        "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
         "statEvidence": {
           "type": "semifinal reading",
           "source": "lettura tecnica, quote Sisal e dati torneo",
           "confidence": "medium",
-          "reason": "Aggiunge volume senza uscire dal copione tecnico."
+          "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
         },
         "confidence": "medium",
-        "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
-        "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
-        "displayName": "Over 22,5 tiri totali",
-        "marketType": "U/O TIRI TOTALI"
+        "riskWarning": "Portafoglio con correlazione moderata tra esito, gol e disciplina.",
+        "whyIncluded": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
+        "displayName": "Over 3,5 punti cartellini",
+        "marketType": "U/O PUNTI CARTELLINI",
+        "refereeInfluence": {
+          "layer": "Referee Intelligence",
+          "impact": "limited",
+          "rankingBoost": 6,
+          "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+        }
       }
     ],
-    "finalOdds": 7.8,
+    "finalOdds": 10.6,
     "targetOdds": "7-12",
     "averageRisk": "medio-alto",
-    "motivation": "Aggiunge volume senza uscire dal copione tecnico."
+    "motivation": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
   },
   "aggressive": {
     "name": "Aggressive",
@@ -176,70 +236,82 @@
         "marketId": 792996147,
         "category": "esito",
         "class": "VALUE",
-        "reason": "Cerca prezzo alto su lettura di gara stretta.",
+        "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
         "statEvidence": {
           "type": "semifinal reading",
           "source": "lettura tecnica, quote Sisal e dati torneo",
           "confidence": "medium",
-          "reason": "Cerca prezzo alto su lettura di gara stretta."
+          "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
         },
         "confidence": "medium",
         "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
-        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
         "displayName": "Inghilterra vince + Under 3,5",
         "marketType": "COMBO: 1X2 + U/O"
       },
       {
-        "id": "event-5216336947",
-        "market": "U/O TIRI TOTALI",
-        "info": "U/O 25.5 TIRI TOTALI",
+        "id": "event-5217007194",
+        "market": "U/O PUNTI CARTELLINI",
+        "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
         "selection": "OVER",
-        "odds": 2.35,
-        "selectionId": 5216336947,
-        "marketId": 793006406,
-        "category": "volume",
+        "odds": 2.2,
+        "selectionId": 5217007194,
+        "marketId": 793137690,
+        "category": "cartellini",
         "class": "CORE",
-        "reason": "Cerca prezzo alto su lettura di gara stretta.",
+        "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
         "statEvidence": {
           "type": "semifinal reading",
           "source": "lettura tecnica, quote Sisal e dati torneo",
           "confidence": "medium",
-          "reason": "Cerca prezzo alto su lettura di gara stretta."
+          "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
         },
         "confidence": "medium",
         "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
-        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
-        "displayName": "Over 25,5 tiri totali",
-        "marketType": "U/O TIRI TOTALI"
+        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+        "displayName": "Over 3,5 punti cartellini",
+        "marketType": "U/O PUNTI CARTELLINI",
+        "refereeInfluence": {
+          "layer": "Referee Intelligence",
+          "impact": "limited",
+          "rankingBoost": 6,
+          "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+        }
       },
       {
-        "id": "event-5216561995",
-        "market": "MIGLIOR GIOCATORE IN CAMPO",
-        "info": "BELLINGHAM JUDE MIGLIORE IN CAMPO",
+        "id": "event-5217007021",
+        "market": "CARTELLINO SI/NO (DUO) INC TS",
+        "info": "ROMERO CRISTIAN CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
         "selection": "SI",
-        "odds": 3.75,
-        "selectionId": 5216561995,
-        "marketId": 793055555,
-        "category": "esito",
+        "odds": 3.5,
+        "selectionId": 5217007021,
+        "marketId": 793132454,
+        "category": "cartellini",
         "class": "VALUE",
-        "reason": "Cerca prezzo alto su lettura di gara stretta.",
+        "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
         "statEvidence": {
           "type": "semifinal reading",
           "source": "lettura tecnica, quote Sisal e dati torneo",
           "confidence": "medium",
-          "reason": "Cerca prezzo alto su lettura di gara stretta."
+          "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
         },
         "confidence": "medium",
         "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
-        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
-        "displayName": "Bellingham migliore in campo",
-        "marketType": "MIGLIOR GIOCATORE IN CAMPO"
+        "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+        "displayName": "Romero cartellino",
+        "marketType": "CARTELLINO SI/NO (DUO) INC TS",
+        "refereeInfluence": {
+          "layer": "Referee Intelligence",
+          "impact": "limited",
+          "rankingBoost": 6,
+          "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+        }
       }
     ],
-    "finalOdds": 26.44,
+    "finalOdds": 23.1,
     "targetOdds": "15+",
     "averageRisk": "alto",
-    "motivation": "Cerca prezzo alto su lettura di gara stretta."
+    "motivation": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
   },
   "portfolios": [
     {
@@ -255,16 +327,16 @@
           "marketId": 793006504,
           "category": "esito",
           "class": "CORE",
-          "reason": "Coerente con lo scenario principale della semifinale.",
+          "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
           "statEvidence": {
             "type": "semifinal reading",
             "source": "lettura tecnica, quote Sisal e dati torneo",
             "confidence": "medium",
-            "reason": "Coerente con lo scenario principale della semifinale."
+            "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
           },
           "confidence": "medium",
           "riskWarning": "Evento correlato allo scenario principale.",
-          "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+          "whyIncluded": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
           "displayName": "Inghilterra qualificata",
           "marketType": "PASSAGGIO TURNO"
         },
@@ -278,47 +350,53 @@
           "marketId": 793001383,
           "category": "esito",
           "class": "CORE",
-          "reason": "Coerente con lo scenario principale della semifinale.",
+          "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
           "statEvidence": {
             "type": "semifinal reading",
             "source": "lettura tecnica, quote Sisal e dati torneo",
             "confidence": "medium",
-            "reason": "Coerente con lo scenario principale della semifinale."
+            "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
           },
           "confidence": "medium",
           "riskWarning": "Evento correlato allo scenario principale.",
-          "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+          "whyIncluded": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
           "displayName": "Goal + Under 4,5",
           "marketType": "COMBO: GOAL/NOGOAL + U/O"
         },
         {
-          "id": "event-5216737713",
-          "market": "U/O CORNER SQUADRA X",
-          "info": "U/O 3.5 CORNER SQUADRA 1",
-          "selection": "OVER",
-          "odds": 1.45,
-          "selectionId": 5216737713,
-          "marketId": 793079986,
-          "category": "volume",
+          "id": "event-5217007213",
+          "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+          "info": "ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
+          "selection": "SI",
+          "odds": 1.36,
+          "selectionId": 5217007213,
+          "marketId": 793137695,
+          "category": "cartellini",
           "class": "CORE",
-          "reason": "Coerente con lo scenario principale della semifinale.",
+          "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
           "statEvidence": {
             "type": "semifinal reading",
             "source": "lettura tecnica, quote Sisal e dati torneo",
             "confidence": "medium",
-            "reason": "Coerente con lo scenario principale della semifinale."
+            "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
           },
           "confidence": "medium",
           "riskWarning": "Evento correlato allo scenario principale.",
-          "whyIncluded": "Coerente con lo scenario principale della semifinale.",
-          "displayName": "Inghilterra Over 3,5 corner",
-          "marketType": "U/O CORNER SQUADRA X"
+          "whyIncluded": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
+          "displayName": "Entrambe almeno 1 punto cartellino",
+          "marketType": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+          "refereeInfluence": {
+            "layer": "Referee Intelligence",
+            "impact": "limited",
+            "rankingBoost": 6,
+            "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+          }
         }
       ],
-      "finalOdds": 5.46,
+      "finalOdds": 5.12,
       "targetOdds": "3-6",
       "averageRisk": "medio",
-      "motivation": "Coerente con lo scenario principale della semifinale."
+      "motivation": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
     },
     {
       "name": "Balanced",
@@ -333,16 +411,16 @@
           "marketId": 793001401,
           "category": "esito",
           "class": "CORE",
-          "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+          "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
           "statEvidence": {
             "type": "semifinal reading",
             "source": "lettura tecnica, quote Sisal e dati torneo",
             "confidence": "medium",
-            "reason": "Aggiunge volume senza uscire dal copione tecnico."
+            "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
           },
           "confidence": "medium",
-          "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
-          "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+          "riskWarning": "Portafoglio con correlazione moderata tra esito, gol e disciplina.",
+          "whyIncluded": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
           "displayName": "Inghilterra Draw No Bet",
           "marketType": "DRAW NO BET"
         },
@@ -356,47 +434,53 @@
           "marketId": 793001404,
           "category": "esito",
           "class": "CORE",
-          "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+          "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
           "statEvidence": {
             "type": "semifinal reading",
             "source": "lettura tecnica, quote Sisal e dati torneo",
             "confidence": "medium",
-            "reason": "Aggiunge volume senza uscire dal copione tecnico."
+            "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
           },
           "confidence": "medium",
-          "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
-          "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+          "riskWarning": "Portafoglio con correlazione moderata tra esito, gol e disciplina.",
+          "whyIncluded": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
           "displayName": "Goal + Under 3,5",
           "marketType": "COMBO: GOAL/NOGOAL + U/O"
         },
         {
-          "id": "event-5216336939",
-          "market": "U/O TIRI TOTALI",
-          "info": "U/O 22.5 TIRI TOTALI",
+          "id": "event-5217007194",
+          "market": "U/O PUNTI CARTELLINI",
+          "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
           "selection": "OVER",
-          "odds": 1.62,
-          "selectionId": 5216336939,
-          "marketId": 793006404,
-          "category": "volume",
+          "odds": 2.2,
+          "selectionId": 5217007194,
+          "marketId": 793137690,
+          "category": "cartellini",
           "class": "CORE",
-          "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+          "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
           "statEvidence": {
             "type": "semifinal reading",
             "source": "lettura tecnica, quote Sisal e dati torneo",
             "confidence": "medium",
-            "reason": "Aggiunge volume senza uscire dal copione tecnico."
+            "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
           },
           "confidence": "medium",
-          "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
-          "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
-          "displayName": "Over 22,5 tiri totali",
-          "marketType": "U/O TIRI TOTALI"
+          "riskWarning": "Portafoglio con correlazione moderata tra esito, gol e disciplina.",
+          "whyIncluded": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
+          "displayName": "Over 3,5 punti cartellini",
+          "marketType": "U/O PUNTI CARTELLINI",
+          "refereeInfluence": {
+            "layer": "Referee Intelligence",
+            "impact": "limited",
+            "rankingBoost": 6,
+            "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+          }
         }
       ],
-      "finalOdds": 7.8,
+      "finalOdds": 10.6,
       "targetOdds": "7-12",
       "averageRisk": "medio-alto",
-      "motivation": "Aggiunge volume senza uscire dal copione tecnico."
+      "motivation": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
     },
     {
       "name": "Aggressive",
@@ -411,70 +495,82 @@
           "marketId": 792996147,
           "category": "esito",
           "class": "VALUE",
-          "reason": "Cerca prezzo alto su lettura di gara stretta.",
+          "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
           "statEvidence": {
             "type": "semifinal reading",
             "source": "lettura tecnica, quote Sisal e dati torneo",
             "confidence": "medium",
-            "reason": "Cerca prezzo alto su lettura di gara stretta."
+            "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
           },
           "confidence": "medium",
           "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
-          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
           "displayName": "Inghilterra vince + Under 3,5",
           "marketType": "COMBO: 1X2 + U/O"
         },
         {
-          "id": "event-5216336947",
-          "market": "U/O TIRI TOTALI",
-          "info": "U/O 25.5 TIRI TOTALI",
+          "id": "event-5217007194",
+          "market": "U/O PUNTI CARTELLINI",
+          "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
           "selection": "OVER",
-          "odds": 2.35,
-          "selectionId": 5216336947,
-          "marketId": 793006406,
-          "category": "volume",
+          "odds": 2.2,
+          "selectionId": 5217007194,
+          "marketId": 793137690,
+          "category": "cartellini",
           "class": "CORE",
-          "reason": "Cerca prezzo alto su lettura di gara stretta.",
+          "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
           "statEvidence": {
             "type": "semifinal reading",
             "source": "lettura tecnica, quote Sisal e dati torneo",
             "confidence": "medium",
-            "reason": "Cerca prezzo alto su lettura di gara stretta."
+            "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
           },
           "confidence": "medium",
           "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
-          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
-          "displayName": "Over 25,5 tiri totali",
-          "marketType": "U/O TIRI TOTALI"
+          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+          "displayName": "Over 3,5 punti cartellini",
+          "marketType": "U/O PUNTI CARTELLINI",
+          "refereeInfluence": {
+            "layer": "Referee Intelligence",
+            "impact": "limited",
+            "rankingBoost": 6,
+            "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+          }
         },
         {
-          "id": "event-5216561995",
-          "market": "MIGLIOR GIOCATORE IN CAMPO",
-          "info": "BELLINGHAM JUDE MIGLIORE IN CAMPO",
+          "id": "event-5217007021",
+          "market": "CARTELLINO SI/NO (DUO) INC TS",
+          "info": "ROMERO CRISTIAN CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
           "selection": "SI",
-          "odds": 3.75,
-          "selectionId": 5216561995,
-          "marketId": 793055555,
-          "category": "esito",
+          "odds": 3.5,
+          "selectionId": 5217007021,
+          "marketId": 793132454,
+          "category": "cartellini",
           "class": "VALUE",
-          "reason": "Cerca prezzo alto su lettura di gara stretta.",
+          "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
           "statEvidence": {
             "type": "semifinal reading",
             "source": "lettura tecnica, quote Sisal e dati torneo",
             "confidence": "medium",
-            "reason": "Cerca prezzo alto su lettura di gara stretta."
+            "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
           },
           "confidence": "medium",
           "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
-          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
-          "displayName": "Bellingham migliore in campo",
-          "marketType": "MIGLIOR GIOCATORE IN CAMPO"
+          "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+          "displayName": "Romero cartellino",
+          "marketType": "CARTELLINO SI/NO (DUO) INC TS",
+          "refereeInfluence": {
+            "layer": "Referee Intelligence",
+            "impact": "limited",
+            "rankingBoost": 6,
+            "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+          }
         }
       ],
-      "finalOdds": 26.44,
+      "finalOdds": 23.1,
       "targetOdds": "15+",
       "averageRisk": "alto",
-      "motivation": "Cerca prezzo alto su lettura di gara stretta."
+      "motivation": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
     }
   ],
   "topEvents": [
@@ -488,16 +584,16 @@
       "marketId": 793006504,
       "category": "esito",
       "class": "CORE",
-      "reason": "Coerente con lo scenario principale della semifinale.",
+      "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
       "statEvidence": {
         "type": "semifinal reading",
         "source": "lettura tecnica, quote Sisal e dati torneo",
         "confidence": "medium",
-        "reason": "Coerente con lo scenario principale della semifinale."
+        "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
       },
       "confidence": "medium",
       "riskWarning": "Evento correlato allo scenario principale.",
-      "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+      "whyIncluded": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
       "displayName": "Inghilterra qualificata",
       "marketType": "PASSAGGIO TURNO"
     },
@@ -511,41 +607,47 @@
       "marketId": 793001383,
       "category": "esito",
       "class": "CORE",
-      "reason": "Coerente con lo scenario principale della semifinale.",
+      "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
       "statEvidence": {
         "type": "semifinal reading",
         "source": "lettura tecnica, quote Sisal e dati torneo",
         "confidence": "medium",
-        "reason": "Coerente con lo scenario principale della semifinale."
+        "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
       },
       "confidence": "medium",
       "riskWarning": "Evento correlato allo scenario principale.",
-      "whyIncluded": "Coerente con lo scenario principale della semifinale.",
+      "whyIncluded": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
       "displayName": "Goal + Under 4,5",
       "marketType": "COMBO: GOAL/NOGOAL + U/O"
     },
     {
-      "id": "event-5216737713",
-      "market": "U/O CORNER SQUADRA X",
-      "info": "U/O 3.5 CORNER SQUADRA 1",
-      "selection": "OVER",
-      "odds": 1.45,
-      "selectionId": 5216737713,
-      "marketId": 793079986,
-      "category": "volume",
+      "id": "event-5217007213",
+      "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+      "info": "ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
+      "selection": "SI",
+      "odds": 1.36,
+      "selectionId": 5217007213,
+      "marketId": 793137695,
+      "category": "cartellini",
       "class": "CORE",
-      "reason": "Coerente con lo scenario principale della semifinale.",
+      "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
       "statEvidence": {
         "type": "semifinal reading",
         "source": "lettura tecnica, quote Sisal e dati torneo",
         "confidence": "medium",
-        "reason": "Coerente con lo scenario principale della semifinale."
+        "reason": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale."
       },
       "confidence": "medium",
       "riskWarning": "Evento correlato allo scenario principale.",
-      "whyIncluded": "Coerente con lo scenario principale della semifinale.",
-      "displayName": "Inghilterra Over 3,5 corner",
-      "marketType": "U/O CORNER SQUADRA X"
+      "whyIncluded": "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.",
+      "displayName": "Entrambe almeno 1 punto cartellino",
+      "marketType": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+      "refereeInfluence": {
+        "layer": "Referee Intelligence",
+        "impact": "limited",
+        "rankingBoost": 6,
+        "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+      }
     },
     {
       "id": "event-5216315650",
@@ -557,16 +659,16 @@
       "marketId": 793001401,
       "category": "esito",
       "class": "CORE",
-      "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+      "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
       "statEvidence": {
         "type": "semifinal reading",
         "source": "lettura tecnica, quote Sisal e dati torneo",
         "confidence": "medium",
-        "reason": "Aggiunge volume senza uscire dal copione tecnico."
+        "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
       },
       "confidence": "medium",
-      "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
-      "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+      "riskWarning": "Portafoglio con correlazione moderata tra esito, gol e disciplina.",
+      "whyIncluded": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
       "displayName": "Inghilterra Draw No Bet",
       "marketType": "DRAW NO BET"
     },
@@ -580,41 +682,47 @@
       "marketId": 793001404,
       "category": "esito",
       "class": "CORE",
-      "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+      "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
       "statEvidence": {
         "type": "semifinal reading",
         "source": "lettura tecnica, quote Sisal e dati torneo",
         "confidence": "medium",
-        "reason": "Aggiunge volume senza uscire dal copione tecnico."
+        "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
       },
       "confidence": "medium",
-      "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
-      "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
+      "riskWarning": "Portafoglio con correlazione moderata tra esito, gol e disciplina.",
+      "whyIncluded": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
       "displayName": "Goal + Under 3,5",
       "marketType": "COMBO: GOAL/NOGOAL + U/O"
     },
     {
-      "id": "event-5216336939",
-      "market": "U/O TIRI TOTALI",
-      "info": "U/O 22.5 TIRI TOTALI",
+      "id": "event-5217007194",
+      "market": "U/O PUNTI CARTELLINI",
+      "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
       "selection": "OVER",
-      "odds": 1.62,
-      "selectionId": 5216336939,
-      "marketId": 793006404,
-      "category": "volume",
+      "odds": 2.2,
+      "selectionId": 5217007194,
+      "marketId": 793137690,
+      "category": "cartellini",
       "class": "CORE",
-      "reason": "Aggiunge volume senza uscire dal copione tecnico.",
+      "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
       "statEvidence": {
         "type": "semifinal reading",
         "source": "lettura tecnica, quote Sisal e dati torneo",
         "confidence": "medium",
-        "reason": "Aggiunge volume senza uscire dal copione tecnico."
+        "reason": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico."
       },
       "confidence": "medium",
-      "riskWarning": "Portafoglio con correlazione moderata tra esito e volume.",
-      "whyIncluded": "Aggiunge volume senza uscire dal copione tecnico.",
-      "displayName": "Over 22,5 tiri totali",
-      "marketType": "U/O TIRI TOTALI"
+      "riskWarning": "Portafoglio con correlazione moderata tra esito, gol e disciplina.",
+      "whyIncluded": "Aggiunge disciplina senza uscire dal copione tecnico: arbitro e pressione semifinale sostengono cartellini, non cambiano il pronostico.",
+      "displayName": "Over 3,5 punti cartellini",
+      "marketType": "U/O PUNTI CARTELLINI",
+      "refereeInfluence": {
+        "layer": "Referee Intelligence",
+        "impact": "limited",
+        "rankingBoost": 6,
+        "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+      }
     },
     {
       "id": "event-5216336220",
@@ -626,45 +734,51 @@
       "marketId": 792996147,
       "category": "esito",
       "class": "VALUE",
-      "reason": "Cerca prezzo alto su lettura di gara stretta.",
+      "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
       "statEvidence": {
         "type": "semifinal reading",
         "source": "lettura tecnica, quote Sisal e dati torneo",
         "confidence": "medium",
-        "reason": "Cerca prezzo alto su lettura di gara stretta."
+        "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
       },
       "confidence": "medium",
       "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
-      "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
+      "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
       "displayName": "Inghilterra vince + Under 3,5",
       "marketType": "COMBO: 1X2 + U/O"
     },
     {
-      "id": "event-5216336947",
-      "market": "U/O TIRI TOTALI",
-      "info": "U/O 25.5 TIRI TOTALI",
+      "id": "event-5217007194",
+      "market": "U/O PUNTI CARTELLINI",
+      "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
       "selection": "OVER",
-      "odds": 2.35,
-      "selectionId": 5216336947,
-      "marketId": 793006406,
-      "category": "volume",
+      "odds": 2.2,
+      "selectionId": 5217007194,
+      "marketId": 793137690,
+      "category": "cartellini",
       "class": "CORE",
-      "reason": "Cerca prezzo alto su lettura di gara stretta.",
+      "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
       "statEvidence": {
         "type": "semifinal reading",
         "source": "lettura tecnica, quote Sisal e dati torneo",
         "confidence": "medium",
-        "reason": "Cerca prezzo alto su lettura di gara stretta."
+        "reason": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro."
       },
       "confidence": "medium",
       "riskWarning": "Alta varianza: usare solo come giocata aggressiva.",
-      "whyIncluded": "Cerca prezzo alto su lettura di gara stretta.",
-      "displayName": "Over 25,5 tiri totali",
-      "marketType": "U/O TIRI TOTALI"
+      "whyIncluded": "Cerca prezzo alto su lettura di gara stretta e su profili ammonizione coerenti con duelli e arbitro.",
+      "displayName": "Over 3,5 punti cartellini",
+      "marketType": "U/O PUNTI CARTELLINI",
+      "refereeInfluence": {
+        "layer": "Referee Intelligence",
+        "impact": "limited",
+        "rankingBoost": 6,
+        "reason": "Aggiunge supporto disciplinare senza sovrascrivere scenario tecnico, quote e dati squadra."
+      }
     }
   ],
   "quoteErrorAnalysis": {
-    "generatedAt": "2026-07-12T22:42:00.371Z",
+    "generatedAt": "2026-07-14T11:25:28.950Z",
     "model": "semifinal-reading-v1",
     "events": [
       {
@@ -696,6 +810,7 @@
   "qualityNotes": [
     "Quote flat rows lette: 7997",
     "Ambiente stadio incluso nella lettura.",
+    "Referee Intelligence integrata con peso limitato sui mercati disciplinari.",
     "Formazioni probabili da aggiornare alle ufficiali."
   ]
 }

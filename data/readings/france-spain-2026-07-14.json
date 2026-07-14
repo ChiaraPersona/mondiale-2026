@@ -19,6 +19,63 @@
     "weather": "Dallas Stadium, denominazione FIFA dell'AT&T Stadium, Arlington. Altitudine circa 184 metri. Tetto retrattile e impianto climatizzato: con tetto chiuso temperatura interna attorno a 21-22 C, terreno stabile e impatto minimo di caldo, umidita, pioggia o vento.",
     "stadium": "All'esterno sono attesi circa 32 C, umidita medio-alta e possibili temporali nel corso della giornata. La lettura assume condizioni interne controllate: gara tecnica, non condizionata dal meteo."
   },
+  "referee": {
+    "name": "Ivan Barton",
+    "country": "El Salvador",
+    "assistants": [
+      "David Moran",
+      "Antonio Pupiro"
+    ],
+    "fourthOfficial": "Glenn Nyberg"
+  },
+  "refereeIntelligence": {
+    "name": "Ivan Barton",
+    "country": "El Salvador",
+    "assistants": [
+      "David Moran",
+      "Antonio Pupiro"
+    ],
+    "fourthOfficial": "Glenn Nyberg",
+    "profile": "Severita medio-alta: applica con decisione il regolamento FIFA, lascia giocare i contatti leggeri e punisce proteste, falli tattici e comportamento antisportivo quando la gara sale di intensita.",
+    "strengths": [
+      "Regolamento FIFA applicato con fermezza",
+      "Vantaggio lasciato sui contatti leggeri",
+      "Buona disponibilita al supporto VAR",
+      "Controllo deciso delle proteste"
+    ],
+    "favoredMarkets": [
+      "Over 3,5 punti cartellini",
+      "Entrambe almeno 1 punto cartellino",
+      "Cartellino nel secondo tempo",
+      "Ammonizione centrocampista",
+      "Ammonizione difensore"
+    ],
+    "indicators": {
+      "refereeSeverity": "medio-alta",
+      "refereeDiscipline": "alta",
+      "refereeDialogue": "medio",
+      "refereeAdvantage": "medio",
+      "refereeVarConfidence": "alta",
+      "refereePenaltyBias": "media",
+      "refereeRedCardBias": "medio-alta"
+    },
+    "adjustments": {
+      "secondHalfCardsBoost": 0.08,
+      "tacticalFoulsBoost": 0.07,
+      "dissentCardsBoost": 0.06,
+      "transitionCardsBoost": 0.07,
+      "rivalryAdjustment": 0.02,
+      "knockoutPressureAdjustment": 0.08,
+      "penaltyAdjustment": 0.01
+    },
+    "forecast": {
+      "fouls": "23-28",
+      "cards": "4-6",
+      "penalty": "medio-bassa",
+      "redCard": "possibile ma non probabile"
+    },
+    "modelImpact": "Aumenta leggermente cartellini nel secondo tempo, falli tattici, proteste e profili di centrocampo/difesa. Non aumenta artificialmente il rigore: Mbappe, Dembele, Lamine Yamal e Nico Williams restano il fattore primario."
+  },
   "formations": {
     "Francia": "Maignan; Kounde, Upamecano, Saliba, Theo Hernandez; Tchouameni, Rabiot; Dembele, Olise, Doue; Mbappe.",
     "Spagna": "Simon; Porro, Cubarsi, Laporte, Cucurella; Rodri, Fabian Ruiz, Olmo; Lamine Yamal, Oyarzabal, Nico Williams."
@@ -63,7 +120,7 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 4.24,
+      "finalOdds": 3.98,
       "events": [
         {
           "displayName": "Spagna qualificata",
@@ -84,19 +141,19 @@
           "marketId": 792745742
         },
         {
-          "displayName": "Mbappe piu tiri in porta di Lamine Yamal",
-          "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-          "info": "MBAPPE K. - LAMINE YAMAL 1X2 TIRI IN PORTA INC TS",
-          "selection": "1",
-          "odds": 1.45,
-          "selectionId": 5217098812,
-          "marketId": 793152195
+          "displayName": "Entrambe almeno 1 punto cartellino",
+          "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+          "info": "ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
+          "selection": "SI",
+          "odds": 1.36,
+          "selectionId": 5216809504,
+          "marketId": 793089515
         }
       ]
     },
     {
       "name": "Balanced",
-      "finalOdds": 10.24,
+      "finalOdds": 9.46,
       "events": [
         {
           "displayName": "Spagna Draw No Bet",
@@ -117,19 +174,19 @@
           "marketId": 792732833
         },
         {
-          "displayName": "Over 25,5 tiri totali",
-          "market": "U/O TIRI TOTALI",
-          "info": "U/O 25.5 TIRI TOTALI",
+          "displayName": "Over 2,5 punti cartellini",
+          "market": "U/O PUNTI CARTELLINI",
+          "info": "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
           "selection": "OVER",
-          "odds": 1.57,
-          "selectionId": 5214971133,
-          "marketId": 792745743
+          "odds": 1.45,
+          "selectionId": 5216809255,
+          "marketId": 793089453
         }
       ]
     },
     {
       "name": "Aggressive",
-      "finalOdds": 23.4,
+      "finalOdds": 31.5,
       "events": [
         {
           "displayName": "Spagna vince + Under 3,5",
@@ -141,22 +198,22 @@
           "marketId": 792745598
         },
         {
-          "displayName": "Over 27,5 tiri totali",
-          "market": "U/O TIRI TOTALI",
-          "info": "U/O 27.5 TIRI TOTALI",
+          "displayName": "Over 3,5 punti cartellini",
+          "market": "U/O PUNTI CARTELLINI",
+          "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
           "selection": "OVER",
-          "odds": 1.95,
-          "selectionId": 5214971097,
-          "marketId": 792745734
+          "odds": 2.1,
+          "selectionId": 5216809599,
+          "marketId": 793089538
         },
         {
-          "displayName": "Lamine Yamal migliore in campo",
-          "market": "MIGLIOR GIOCATORE IN CAMPO",
-          "info": "LAMINE YAMAL MIGLIORE IN CAMPO",
+          "displayName": "Tchouameni cartellino",
+          "market": "CARTELLINO SI/NO (DUO) INC TS",
+          "info": "TCHOUAMENI A. CARTELLINO O SUO SOST. INCL. GIOCAT. PANCHINA DOPO FISCHIO FINALE INCL.TS E RIGORI",
           "selection": "SI",
-          "odds": 3,
-          "selectionId": 5214998428,
-          "marketId": 792758089
+          "odds": 3.75,
+          "selectionId": 5216809654,
+          "marketId": 793089552
         }
       ]
     }

@@ -9,11 +9,11 @@
     "centralScore": "1-1, Spagna qualificata",
     "basePick": "Spagna qualificata",
     "probabilities": {
-      "home": 34,
+      "home": 35,
       "draw": 30,
-      "away": 36
+      "away": 35
     },
-    "scenario": "La Spagna puo tenere piu palla, ma la Francia ha il giocatore piu determinante se trova campo alle spalle dei terzini."
+    "scenario": "La Spagna conserva piu controllo centrale, ma senza Nico perde profondita pura a sinistra; la Francia con Barcola e Dembele puo attaccare meglio entrambi i lati."
   },
   "environment": {
     "weather": "Dallas Stadium, denominazione FIFA dell'AT&T Stadium, Arlington. Altitudine circa 184 metri. Tetto retrattile e impianto climatizzato: con tetto chiuso temperatura interna attorno a 21-22 C, terreno stabile e impatto minimo di caldo, umidita, pioggia o vento.",
@@ -74,11 +74,12 @@
       "penalty": "medio-bassa",
       "redCard": "possibile ma non probabile"
     },
-    "modelImpact": "Aumenta leggermente cartellini nel secondo tempo, falli tattici, proteste e profili di centrocampo/difesa. Non aumenta artificialmente il rigore: Mbappe, Dembele, Lamine Yamal e Nico Williams restano il fattore primario."
+    "modelImpact": "Aumenta leggermente cartellini nel secondo tempo, falli tattici, proteste e profili di centrocampo/difesa. Non aumenta artificialmente il rigore: Mbappe, Dembele, Barcola, Olmo e Lamine Yamal restano il fattore primario."
   },
   "formations": {
-    "Francia": "Maignan; Kounde, Upamecano, Saliba, Theo Hernandez; Tchouameni, Rabiot; Dembele, Olise, Doue; Mbappe.",
-    "Spagna": "Simon; Porro, Cubarsi, Laporte, Cucurella; Rodri, Fabian Ruiz, Olmo; Lamine Yamal, Oyarzabal, Nico Williams."
+    "status": "ufficiali",
+    "Francia": "Maignan; Digne, Saliba, Upamecano, Kounde; Tchouameni, Rabiot; Barcola, Olise, Dembele; Mbappe.",
+    "Spagna": "Simon; Porro, Cubarsi, Laporte, Cucurella; Rodri, Fabian Ruiz; Lamine Yamal, Olmo, Baena; Oyarzabal."
   },
   "cardHierarchy": [
     {
@@ -104,7 +105,7 @@
     },
     {
       "rank": 4,
-      "player": "Theo Hernandez",
+      "player": "Digne",
       "risk": "Medio",
       "note": "Duello con Lamine Yamal: rischio intervento in ritardo se la Spagna isola il lato destro.",
       "possibleFirstBooked": false

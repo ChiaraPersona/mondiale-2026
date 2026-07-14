@@ -53,7 +53,7 @@
       "penalty": "medio-bassa",
       "redCard": "possibile ma non probabile"
     },
-    "modelImpact": "Aumenta leggermente cartellini nel secondo tempo, falli tattici, proteste e profili di centrocampo/difesa. Non aumenta artificialmente il rigore: Mbappe, Dembele, Lamine Yamal e Nico Williams restano il fattore primario."
+    "modelImpact": "Aumenta leggermente cartellini nel secondo tempo, falli tattici, proteste e profili di centrocampo/difesa. Non aumenta artificialmente il rigore: Mbappe, Dembele, Barcola, Olmo e Lamine Yamal restano il fattore primario."
   },
   "safe": {
     "name": "Safe",
@@ -1186,7 +1186,7 @@
     }
   ],
   "quoteErrorAnalysis": {
-    "generatedAt": "2026-07-14T11:57:36.458Z",
+    "generatedAt": "2026-07-14T18:03:29.975Z",
     "model": "semifinal-reading-v1",
     "events": [
       {
@@ -1199,9 +1199,9 @@
       },
       {
         "id": "francia-spagna-quote-error-2",
-        "displayName": "Lamine Yamal migliore in campo @ 3.00",
-        "market": "MIGLIOR GIOCATORE IN CAMPO",
-        "reason": "Prezzo minimo value per il giocatore che puo decidere ricevendo isolato sul lato forte spagnolo.",
+        "displayName": "Pareggio + Over 1,5 @ 3.75",
+        "market": "COMBO: 1X2 + U/O",
+        "reason": "Le ufficiali avvicinano ulteriormente il 90': Francia piu ampia davanti, Spagna piu controllata ma meno profonda a sinistra.",
         "minimumOdds": 3,
         "sourceQuote": "data/quote/francia-spagna-quote.json"
       },
@@ -1219,6 +1219,6 @@
     "Quote flat rows lette: 8048",
     "Ambiente stadio incluso nella lettura.",
     "Referee Intelligence integrata con peso limitato sui mercati disciplinari.",
-    "Formazioni probabili da aggiornare alle ufficiali."
+    "Formazioni ufficiali integrate nel ricalcolo."
   ]
 }

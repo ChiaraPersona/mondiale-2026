@@ -120,25 +120,25 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 5.12,
+      "finalOdds": 5.2,
       "events": [
         {
-          "displayName": "Inghilterra qualificata",
-          "market": "PASSAGGIO TURNO",
-          "info": "PASSAGGIO TURNO",
-          "selection": "1",
-          "odds": 1.75,
-          "selectionId": 5216337398,
-          "marketId": 793006504
+          "displayName": "Over 6,5 tiri in porta",
+          "market": "U/O TIRI IN PORTA",
+          "info": "U/O 6.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.4,
+          "selectionId": 5216336871,
+          "marketId": 793006387
         },
         {
-          "displayName": "Goal + Under 4,5",
-          "market": "COMBO: GOAL/NOGOAL + U/O",
-          "info": "U/O 4.5 + GG/NG",
-          "selection": "GOAL + UNDER",
-          "odds": 2.15,
-          "selectionId": 5216315504,
-          "marketId": 793001383
+          "displayName": "Inghilterra Over 3,5 corner",
+          "market": "U/O CORNER SQUADRA X",
+          "info": "U/O 3.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 1.45,
+          "selectionId": 5216737713,
+          "marketId": 793079986
         },
         {
           "displayName": "Entrambe almeno 1 punto cartellino",
@@ -148,81 +148,15 @@
           "odds": 1.36,
           "selectionId": 5217007213,
           "marketId": 793137695
-        }
-      ]
-    },
-    {
-      "name": "Balanced",
-      "finalOdds": 10.6,
-      "events": [
-        {
-          "displayName": "Inghilterra Draw No Bet",
-          "market": "DRAW NO BET",
-          "info": "DRAW NO BET",
-          "selection": "1",
-          "odds": 1.72,
-          "selectionId": 5216315650,
-          "marketId": 793001401
         },
         {
-          "displayName": "Goal + Under 3,5",
-          "market": "COMBO: GOAL/NOGOAL + U/O",
-          "info": "U/O 3.5 + GG/NG",
-          "selection": "GOAL + UNDER",
-          "odds": 2.8,
-          "selectionId": 5216315674,
-          "marketId": 793001404
-        },
-        {
-          "displayName": "Over 3,5 punti cartellini",
+          "displayName": "Over 2,5 punti cartellini",
           "market": "U/O PUNTI CARTELLINI",
-          "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "info": "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
           "selection": "OVER",
-          "odds": 2.2,
-          "selectionId": 5217007194,
-          "marketId": 793137690
-        }
-      ]
-    },
-    {
-      "name": "Aggressive",
-      "finalOdds": 21.68,
-      "events": [
-        {
-          "displayName": "Inghilterra Draw No Bet",
-          "market": "DRAW NO BET",
-          "info": "DRAW NO BET",
-          "selection": "1",
-          "odds": 1.72,
-          "selectionId": 5216315650,
-          "marketId": 793001401
-        },
-        {
-          "displayName": "Goal + Under 4,5",
-          "market": "COMBO: GOAL/NOGOAL + U/O",
-          "info": "U/O 4.5 + GG/NG",
-          "selection": "GOAL + UNDER",
-          "odds": 2.15,
-          "selectionId": 5216315504,
-          "marketId": 793001383
-        },
-        {
-          "displayName": "Over 24,5 tiri totali",
-          "market": "U/O TIRI TOTALI",
-          "info": "U/O 24.5 TIRI TOTALI",
-          "selection": "OVER",
-          "odds": 2.05,
-          "selectionId": 5216336907,
-          "marketId": 793006396
-        },
-        {
-          "displayName": "Over 3,5 punti cartellini",
-          "market": "U/O PUNTI CARTELLINI",
-          "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
-          "selection": "OVER",
-          "odds": 2.2,
-          "selectionId": 5217007194,
-          "marketId": 793137690
+          "odds": 1.45,
+          "selectionId": 5217007014,
+          "marketId": 793132452
         },
         {
           "displayName": "Under 10,5 corner",
@@ -232,6 +166,162 @@
           "odds": 1.3,
           "selectionId": 5216737648,
           "marketId": 793079971
+        }
+      ]
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 10.82,
+      "events": [
+        {
+          "displayName": "Over 6,5 tiri in porta",
+          "market": "U/O TIRI IN PORTA",
+          "info": "U/O 6.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.4,
+          "selectionId": 5216336871,
+          "marketId": 793006387
+        },
+        {
+          "displayName": "Inghilterra Over 3,5 corner",
+          "market": "U/O CORNER SQUADRA X",
+          "info": "U/O 3.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 1.45,
+          "selectionId": 5216737713,
+          "marketId": 793079986
+        },
+        {
+          "displayName": "Entrambe almeno 1 punto cartellino",
+          "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+          "info": "ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
+          "selection": "SI",
+          "odds": 1.36,
+          "selectionId": 5217007213,
+          "marketId": 793137695
+        },
+        {
+          "displayName": "Over 2,5 punti cartellini",
+          "market": "U/O PUNTI CARTELLINI",
+          "info": "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "selection": "OVER",
+          "odds": 1.45,
+          "selectionId": 5217007014,
+          "marketId": 793132452
+        },
+        {
+          "displayName": "Under 10,5 corner",
+          "market": "U/O CORNER",
+          "info": "U/O 10.5 CORNER",
+          "selection": "UNDER",
+          "odds": 1.3,
+          "selectionId": 5216737648,
+          "marketId": 793079971
+        },
+        {
+          "displayName": "Entrambe almeno 3 tiri in porta",
+          "market": "ENTRAMBE LE SQUADRE ALMENO X TIRI IN PORTA",
+          "info": "ENTRAMBE LE SQUADRE ALMENO 3 TIRI IN PORTA",
+          "selection": "SI",
+          "odds": 1.6,
+          "selectionId": 5216850199,
+          "marketId": 793101949
+        },
+        {
+          "displayName": "Argentina Over 2,5 tiri in porta",
+          "market": "U/O TIRI IN PORTA SQUADRA X",
+          "info": "SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.3,
+          "selectionId": 5216852432,
+          "marketId": 793102507
+        }
+      ]
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 20.39,
+      "events": [
+        {
+          "displayName": "Over 6,5 tiri in porta",
+          "market": "U/O TIRI IN PORTA",
+          "info": "U/O 6.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.4,
+          "selectionId": 5216336871,
+          "marketId": 793006387
+        },
+        {
+          "displayName": "Inghilterra Over 3,5 corner",
+          "market": "U/O CORNER SQUADRA X",
+          "info": "U/O 3.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 1.45,
+          "selectionId": 5216737713,
+          "marketId": 793079986
+        },
+        {
+          "displayName": "Entrambe almeno 1 punto cartellino",
+          "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+          "info": "ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
+          "selection": "SI",
+          "odds": 1.36,
+          "selectionId": 5217007213,
+          "marketId": 793137695
+        },
+        {
+          "displayName": "Over 2,5 punti cartellini",
+          "market": "U/O PUNTI CARTELLINI",
+          "info": "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "selection": "OVER",
+          "odds": 1.45,
+          "selectionId": 5217007014,
+          "marketId": 793132452
+        },
+        {
+          "displayName": "Under 10,5 corner",
+          "market": "U/O CORNER",
+          "info": "U/O 10.5 CORNER",
+          "selection": "UNDER",
+          "odds": 1.3,
+          "selectionId": 5216737648,
+          "marketId": 793079971
+        },
+        {
+          "displayName": "Entrambe almeno 3 tiri in porta",
+          "market": "ENTRAMBE LE SQUADRE ALMENO X TIRI IN PORTA",
+          "info": "ENTRAMBE LE SQUADRE ALMENO 3 TIRI IN PORTA",
+          "selection": "SI",
+          "odds": 1.6,
+          "selectionId": 5216850199,
+          "marketId": 793101949
+        },
+        {
+          "displayName": "Argentina Over 2,5 tiri in porta",
+          "market": "U/O TIRI IN PORTA SQUADRA X",
+          "info": "SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.3,
+          "selectionId": 5216852432,
+          "marketId": 793102507
+        },
+        {
+          "displayName": "Bellingham Over 0,5 tiri in porta",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "BELLINGHAM JUDE U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5216855152,
+          "marketId": 793103187
+        },
+        {
+          "displayName": "Messi Over 0,5 tiri in porta",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "MESSI L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.2,
+          "selectionId": 5216855208,
+          "marketId": 793103201
         }
       ]
     }

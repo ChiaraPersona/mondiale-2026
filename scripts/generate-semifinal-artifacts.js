@@ -91,21 +91,28 @@ const data = [
     ],
     quotePicks: {
       safe: [
-        ["PASSAGGIO TURNO", "PASSAGGIO TURNO", "2", "Spagna qualificata"],
         ["GOAL/NOGOAL", "GOAL/NO GOAL", "GOAL", "Goal"],
-        ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"]
+        ["U/O TIRI TOTALI", "U/O 25.5 TIRI TOTALI", "OVER", "Over 25,5 tiri totali"],
+        ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"],
+        ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"]
       ],
       balanced: [
-        ["DRAW NO BET", "DRAW NO BET", "2", "Spagna Draw No Bet"],
-        ["COMBO: GOAL/NOGOAL + U/O", "U/O 3.5 + GG/NG", "GOAL + UNDER", "Goal + Under 3,5"],
-        ["U/O PUNTI CARTELLINI", "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 2,5 punti cartellini"]
+        ["GOAL/NOGOAL", "GOAL/NO GOAL", "GOAL", "Goal"],
+        ["U/O TIRI TOTALI", "U/O 25.5 TIRI TOTALI", "OVER", "Over 25,5 tiri totali"],
+        ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"],
+        ["U/O PUNTI CARTELLINI", "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 2,5 punti cartellini"],
+        ["1X2 TIRI IN PORTA GIOCATORI INC TS", "MBAPPE K. - LAMINE YAMAL 1X2 TIRI IN PORTA INC TS", "1", "Mbappe piu tiri in porta di Lamine Yamal"],
+        ["U/O TIRI IN PORTA SQUADRA X", "SQUADRA 1: U/O 3.5 TIRI IN PORTA", "OVER", "Francia Over 3,5 tiri in porta"]
       ],
       aggressive: [
-        ["DRAW NO BET", "DRAW NO BET", "2", "Spagna Draw No Bet"],
-        ["COMBO: GOAL/NOGOAL + U/O", "U/O 4.5 + GG/NG", "GOAL + UNDER", "Goal + Under 4,5"],
+        ["GOAL/NOGOAL", "GOAL/NO GOAL", "GOAL", "Goal"],
         ["U/O TIRI TOTALI", "U/O 25.5 TIRI TOTALI", "OVER", "Over 25,5 tiri totali"],
-        ["U/O PUNTI CARTELLINI", "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 3,5 punti cartellini"],
-        ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"]
+        ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"],
+        ["U/O PUNTI CARTELLINI", "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 2,5 punti cartellini"],
+        ["1X2 TIRI IN PORTA GIOCATORI INC TS", "MBAPPE K. - LAMINE YAMAL 1X2 TIRI IN PORTA INC TS", "1", "Mbappe piu tiri in porta di Lamine Yamal"],
+        ["U/O TIRI IN PORTA SQUADRA X", "SQUADRA 1: U/O 3.5 TIRI IN PORTA", "OVER", "Francia Over 3,5 tiri in porta"],
+        ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"],
+        ["U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS", "LAMINE YAMAL U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.", "OVER", "Lamine Yamal Over 0,5 tiri in porta"]
       ]
     },
     quoteSummary: [["1", "2.35"], ["X", "3.20"], ["2", "3.10"], ["Passaggio Spagna", "2.20"], ["Goal", "1.60"]]
@@ -189,21 +196,31 @@ const data = [
     ],
     quotePicks: {
       safe: [
-        ["PASSAGGIO TURNO", "PASSAGGIO TURNO", "1", "Inghilterra qualificata"],
-        ["COMBO: GOAL/NOGOAL + U/O", "U/O 4.5 + GG/NG", "GOAL + UNDER", "Goal + Under 4,5"],
-        ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"]
+        ["U/O TIRI IN PORTA", "U/O 6.5 TIRI IN PORTA", "OVER", "Over 6,5 tiri in porta"],
+        ["U/O CORNER SQUADRA X", "U/O 3.5 CORNER SQUADRA 1", "OVER", "Inghilterra Over 3,5 corner"],
+        ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"],
+        ["U/O PUNTI CARTELLINI", "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 2,5 punti cartellini"],
+        ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"]
       ],
       balanced: [
-        ["DRAW NO BET", "DRAW NO BET", "1", "Inghilterra Draw No Bet"],
-        ["COMBO: GOAL/NOGOAL + U/O", "U/O 3.5 + GG/NG", "GOAL + UNDER", "Goal + Under 3,5"],
-        ["U/O PUNTI CARTELLINI", "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 3,5 punti cartellini"]
+        ["U/O TIRI IN PORTA", "U/O 6.5 TIRI IN PORTA", "OVER", "Over 6,5 tiri in porta"],
+        ["U/O CORNER SQUADRA X", "U/O 3.5 CORNER SQUADRA 1", "OVER", "Inghilterra Over 3,5 corner"],
+        ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"],
+        ["U/O PUNTI CARTELLINI", "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 2,5 punti cartellini"],
+        ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"],
+        ["ENTRAMBE LE SQUADRE ALMENO X TIRI IN PORTA", "ENTRAMBE LE SQUADRE ALMENO 3 TIRI IN PORTA", "SI", "Entrambe almeno 3 tiri in porta"],
+        ["U/O TIRI IN PORTA SQUADRA X", "SQUADRA 2: U/O 2.5 TIRI IN PORTA", "OVER", "Argentina Over 2,5 tiri in porta"]
       ],
       aggressive: [
-        ["DRAW NO BET", "DRAW NO BET", "1", "Inghilterra Draw No Bet"],
-        ["COMBO: GOAL/NOGOAL + U/O", "U/O 4.5 + GG/NG", "GOAL + UNDER", "Goal + Under 4,5"],
-        ["U/O TIRI TOTALI", "U/O 24.5 TIRI TOTALI", "OVER", "Over 24,5 tiri totali"],
-        ["U/O PUNTI CARTELLINI", "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 3,5 punti cartellini"],
-        ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"]
+        ["U/O TIRI IN PORTA", "U/O 6.5 TIRI IN PORTA", "OVER", "Over 6,5 tiri in porta"],
+        ["U/O CORNER SQUADRA X", "U/O 3.5 CORNER SQUADRA 1", "OVER", "Inghilterra Over 3,5 corner"],
+        ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"],
+        ["U/O PUNTI CARTELLINI", "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 2,5 punti cartellini"],
+        ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"],
+        ["ENTRAMBE LE SQUADRE ALMENO X TIRI IN PORTA", "ENTRAMBE LE SQUADRE ALMENO 3 TIRI IN PORTA", "SI", "Entrambe almeno 3 tiri in porta"],
+        ["U/O TIRI IN PORTA SQUADRA X", "SQUADRA 2: U/O 2.5 TIRI IN PORTA", "OVER", "Argentina Over 2,5 tiri in porta"],
+        ["U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS", "BELLINGHAM JUDE U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.", "OVER", "Bellingham Over 0,5 tiri in porta"],
+        ["U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS", "MESSI L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.", "OVER", "Messi Over 0,5 tiri in porta"]
       ]
     },
     quoteSummary: [["1", "2.60"], ["X", "3.00"], ["2", "3.00"], ["Passaggio Inghilterra", "1.75"], ["Goal", "1.90"]]

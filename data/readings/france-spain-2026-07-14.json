@@ -120,17 +120,8 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 4.79,
+      "finalOdds": 4.95,
       "events": [
-        {
-          "displayName": "Spagna qualificata",
-          "market": "PASSAGGIO TURNO",
-          "info": "PASSAGGIO TURNO",
-          "selection": "2",
-          "odds": 2.2,
-          "selectionId": 5214971585,
-          "marketId": 792745841
-        },
         {
           "displayName": "Goal",
           "market": "GOAL/NOGOAL",
@@ -139,72 +130,6 @@
           "odds": 1.6,
           "selectionId": 5214970356,
           "marketId": 792745591
-        },
-        {
-          "displayName": "Entrambe almeno 1 punto cartellino",
-          "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
-          "info": "ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
-          "selection": "SI",
-          "odds": 1.36,
-          "selectionId": 5216809504,
-          "marketId": 793089515
-        }
-      ]
-    },
-    {
-      "name": "Balanced",
-      "finalOdds": 9.46,
-      "events": [
-        {
-          "displayName": "Spagna Draw No Bet",
-          "market": "DRAW NO BET",
-          "info": "DRAW NO BET",
-          "selection": "2",
-          "odds": 2.25,
-          "selectionId": 5214987381,
-          "marketId": 792732838
-        },
-        {
-          "displayName": "Goal + Under 3,5",
-          "market": "COMBO: GOAL/NOGOAL + U/O",
-          "info": "U/O 3.5 + GG/NG",
-          "selection": "GOAL + UNDER",
-          "odds": 2.9,
-          "selectionId": 5214987326,
-          "marketId": 792732833
-        },
-        {
-          "displayName": "Over 2,5 punti cartellini",
-          "market": "U/O PUNTI CARTELLINI",
-          "info": "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
-          "selection": "OVER",
-          "odds": 1.45,
-          "selectionId": 5216809255,
-          "marketId": 793089453
-        }
-      ]
-    },
-    {
-      "name": "Aggressive",
-      "finalOdds": 22.05,
-      "events": [
-        {
-          "displayName": "Spagna Draw No Bet",
-          "market": "DRAW NO BET",
-          "info": "DRAW NO BET",
-          "selection": "2",
-          "odds": 2.25,
-          "selectionId": 5214987381,
-          "marketId": 792732838
-        },
-        {
-          "displayName": "Goal + Under 4,5",
-          "market": "COMBO: GOAL/NOGOAL + U/O",
-          "info": "U/O 4.5 + GG/NG",
-          "selection": "GOAL + UNDER",
-          "odds": 2.05,
-          "selectionId": 5214987318,
-          "marketId": 792732832
         },
         {
           "displayName": "Over 25,5 tiri totali",
@@ -216,13 +141,13 @@
           "marketId": 792745743
         },
         {
-          "displayName": "Over 3,5 punti cartellini",
-          "market": "U/O PUNTI CARTELLINI",
-          "info": "U/O 3.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
-          "selection": "OVER",
-          "odds": 2.1,
-          "selectionId": 5216809599,
-          "marketId": 793089538
+          "displayName": "Entrambe almeno 1 punto cartellino",
+          "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+          "info": "ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
+          "selection": "SI",
+          "odds": 1.36,
+          "selectionId": 5216809504,
+          "marketId": 793089515
         },
         {
           "displayName": "Under 10,5 corner",
@@ -232,6 +157,144 @@
           "odds": 1.45,
           "selectionId": 5215568119,
           "marketId": 792865338
+        }
+      ]
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 10.72,
+      "events": [
+        {
+          "displayName": "Goal",
+          "market": "GOAL/NOGOAL",
+          "info": "GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.6,
+          "selectionId": 5214970356,
+          "marketId": 792745591
+        },
+        {
+          "displayName": "Over 25,5 tiri totali",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 25.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5214971133,
+          "marketId": 792745743
+        },
+        {
+          "displayName": "Under 10,5 corner",
+          "market": "U/O CORNER",
+          "info": "U/O 10.5 CORNER",
+          "selection": "UNDER",
+          "odds": 1.45,
+          "selectionId": 5215568119,
+          "marketId": 792865338
+        },
+        {
+          "displayName": "Over 2,5 punti cartellini",
+          "market": "U/O PUNTI CARTELLINI",
+          "info": "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "selection": "OVER",
+          "odds": 1.45,
+          "selectionId": 5216809255,
+          "marketId": 793089453
+        },
+        {
+          "displayName": "Mbappe piu tiri in porta di Lamine Yamal",
+          "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
+          "info": "MBAPPE K. - LAMINE YAMAL 1X2 TIRI IN PORTA INC TS",
+          "selection": "1",
+          "odds": 1.45,
+          "selectionId": 5217098812,
+          "marketId": 793152195
+        },
+        {
+          "displayName": "Francia Over 3,5 tiri in porta",
+          "market": "U/O TIRI IN PORTA SQUADRA X",
+          "info": "SQUADRA 1: U/O 3.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.4,
+          "selectionId": 5215864003,
+          "marketId": 792916829
+        }
+      ]
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 19.39,
+      "events": [
+        {
+          "displayName": "Goal",
+          "market": "GOAL/NOGOAL",
+          "info": "GOAL/NO GOAL",
+          "selection": "GOAL",
+          "odds": 1.6,
+          "selectionId": 5214970356,
+          "marketId": 792745591
+        },
+        {
+          "displayName": "Over 25,5 tiri totali",
+          "market": "U/O TIRI TOTALI",
+          "info": "U/O 25.5 TIRI TOTALI",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5214971133,
+          "marketId": 792745743
+        },
+        {
+          "displayName": "Under 10,5 corner",
+          "market": "U/O CORNER",
+          "info": "U/O 10.5 CORNER",
+          "selection": "UNDER",
+          "odds": 1.45,
+          "selectionId": 5215568119,
+          "marketId": 792865338
+        },
+        {
+          "displayName": "Over 2,5 punti cartellini",
+          "market": "U/O PUNTI CARTELLINI",
+          "info": "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)",
+          "selection": "OVER",
+          "odds": 1.45,
+          "selectionId": 5216809255,
+          "marketId": 793089453
+        },
+        {
+          "displayName": "Mbappe piu tiri in porta di Lamine Yamal",
+          "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
+          "info": "MBAPPE K. - LAMINE YAMAL 1X2 TIRI IN PORTA INC TS",
+          "selection": "1",
+          "odds": 1.45,
+          "selectionId": 5217098812,
+          "marketId": 793152195
+        },
+        {
+          "displayName": "Francia Over 3,5 tiri in porta",
+          "market": "U/O TIRI IN PORTA SQUADRA X",
+          "info": "SQUADRA 1: U/O 3.5 TIRI IN PORTA",
+          "selection": "OVER",
+          "odds": 1.4,
+          "selectionId": 5215864003,
+          "marketId": 792916829
+        },
+        {
+          "displayName": "Entrambe almeno 1 punto cartellino",
+          "market": "ENTRAMBE ALMENO X PUNTI CARTELLINI",
+          "info": "ENTRAMBE ALMENO 1 PUNTI CARTELLINI",
+          "selection": "SI",
+          "odds": 1.36,
+          "selectionId": 5216809504,
+          "marketId": 793089515
+        },
+        {
+          "displayName": "Lamine Yamal Over 0,5 tiri in porta",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "LAMINE YAMAL U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.33,
+          "selectionId": 5215861411,
+          "marketId": 792916161
         }
       ]
     }

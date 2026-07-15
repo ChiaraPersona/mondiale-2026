@@ -3,8 +3,78 @@
   "match": "Francia-Spagna",
   "round": "Semifinale",
   "date": "14/07/2026 ore 21.00",
-  "status": "ready",
+  "status": "complete",
   "sourceQuote": "data/quote/francia-spagna-quote.json",
+  "sourcePlayerStats": "data/player-stats/merged/france-spain-2026-07-14.json",
+  "result": {
+    "verified": true,
+    "score": "Francia 0-2 Spagna",
+    "winner": "Spagna",
+    "qualified": "Spagna",
+    "scorers": {
+      "Francia": [],
+      "Spagna": [
+        "Mikel Oyarzabal 22' rig.",
+        "Pedro Porro 58'"
+      ]
+    },
+    "assists": {
+      "Spagna": [
+        "Dani Olmo per Pedro Porro"
+      ]
+    },
+    "source": "ESPN event 760514"
+  },
+  "verification": {
+    "summary": "La direzione sul passaggio Spagna entra, ma il copione Goal/1-1 viene smentito dalla porta inviolata spagnola. Buoni i mercati volume e disciplina, persi i player props legati ai tiri in porta francesi.",
+    "centrati": [
+      "Spagna qualificata",
+      "Under 4,5 gol",
+      "Over 25,5 tiri totali",
+      "Entrambe almeno 1 punto cartellino",
+      "Under 10,5 corner",
+      "Over 2,5 punti cartellini"
+    ],
+    "persi": [
+      "Risultato centrale 1-1",
+      "Goal",
+      "Mbappe piu tiri in porta di Lamine Yamal",
+      "Francia Over 3,5 tiri in porta",
+      "Lamine Yamal Over 0,5 tiri in porta"
+    ],
+    "mycombo": {
+      "safe": "Parziale: 3/4, persa dal Goal.",
+      "balanced": "Parziale: 4/6, persi Goal e player/SOT Francia.",
+      "aggressive": "Parziale: 5/8, persi Goal e player/SOT."
+    }
+  },
+  "teamStats": {
+    "source": "ESPN summary event 760514",
+    "Francia": {
+      "goals": 0,
+      "shots": 10,
+      "shotsOnTarget": 3,
+      "corners": 7,
+      "foulsCommitted": 11,
+      "yellowCards": 2,
+      "redCards": 0,
+      "possession": "49.1%",
+      "passes": 472,
+      "accuratePasses": 395
+    },
+    "Spagna": {
+      "goals": 2,
+      "shots": 10,
+      "shotsOnTarget": 2,
+      "corners": 1,
+      "foulsCommitted": 12,
+      "yellowCards": 1,
+      "redCards": 0,
+      "possession": "50.9%",
+      "passes": 502,
+      "accuratePasses": 427
+    }
+  },
   "prediction": {
     "centralScore": "1-1, Spagna qualificata",
     "basePick": "Spagna qualificata",

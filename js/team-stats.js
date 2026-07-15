@@ -10,11 +10,13 @@ let teamStatsPlayerFilters = {
 const quarterFinalTeams = ["Spagna", "Argentina", "Francia", "Inghilterra"];
 const teamReadingLinks = {
   Spagna: [
+    ["Francia - Spagna", "letture/lettura-francia-spagna.html"],
     ["Spagna - Belgio", "letture/lettura-spagna-belgio.html"],
     ["Portogallo - Spagna", "letture/lettura-portogallo-spagna.html"],
     ["Spagna - Austria", "letture/lettura-spagna-austria.html"]
   ],
   Francia: [
+    ["Francia - Spagna", "letture/lettura-francia-spagna.html"],
     ["Francia - Marocco", "letture/lettura-francia-marocco.html"],
     ["Paraguay - Francia", "letture/lettura-paraguay-francia.html"],
     ["Francia - Svezia", "letture/lettura-francia-svezia.html"]
@@ -38,6 +40,7 @@ const teamReadingLinks = {
   ]
 };
 const normalizedPlayerStatsSources = [
+  "data/player-stats/merged/france-spain-2026-07-14.json",
   "data/player-stats/merged/spain-belgium-2026-07-10.json",
   "data/player-stats/merged/norway-england-2026-07-11.json",
   "data/player-stats/merged/argentina-switzerland-2026-07-11.json",
@@ -328,6 +331,7 @@ function inferRoundLabel(normalized, context = {}) {
     context.statoGara
   ].filter(Boolean).join(" ").toLowerCase();
 
+  if (matchId.includes("france-spain") || contextText.includes("semifinale")) return "Semifinale";
   if (matchId.includes("spain-belgium") || matchId.includes("france-morocco") || contextText.includes("quarti")) return "Quarti di finale";
   if (matchId.includes("portugal-spain") || matchId.includes("paraguay-france") || contextText.includes("ottavi")) return "Ottavi di finale";
   if (matchId.includes("spain-austria") || matchId.includes("france-sweden") || contextText.includes("sedicesimi")) return "Sedicesimi di finale";
@@ -337,6 +341,7 @@ function inferRoundLabel(normalized, context = {}) {
 
 function matchRoundOrder(match) {
   const roundText = String(match?.round || match?.context?.matchType || "").toLowerCase();
+  if (roundText.includes("semifinale")) return 5;
   if (roundText.includes("quarti")) return 4;
   if (roundText.includes("ottavi")) return 3;
   if (roundText.includes("sedicesimi")) return 2;

@@ -127,15 +127,15 @@ const data = [
     date: "15/07/2026 ore 21.00",
     displayDate: "15 luglio 2026, ore 21:00",
     round: "Semifinale",
-    home: { name: "Inghilterra", flag: "inghilterra", formation: "4-2-3-1", line: "Pickford; James, Stones, Guehi, Burn; Rice, Mainoo; Saka, Bellingham, Gordon; Kane.", pitch: [["Kane"], ["Gordon", "Bellingham", "Saka"], ["Rice", "Mainoo"], ["Burn", "Guehi", "Stones", "James"], ["Pickford"]] },
-    away: { name: "Argentina", flag: "argentina", formation: "4-3-3", line: "Martinez; Molina, Romero, Lisandro Martinez, Tagliafico; De Paul, Enzo Fernandez, Mac Allister; Messi, Alvarez, Lautaro Martinez.", pitch: [["Alvarez"], ["Lautaro", "Messi"], ["Mac Allister", "Enzo", "De Paul"], ["Tagliafico", "Lisandro", "Romero", "Molina"], ["Martinez"]] },
-    headline: "Inghilterra piu fisica, Argentina piu esperta: semifinale da margini stretti e momenti di campioni.",
-    deck: "Ad Atlanta il Mercedes-Benz Stadium rende l'ambiente stabile se il tetto resta chiuso: umidita e temporali esterni pesano poco. Conta soprattutto la gestione emotiva: Kane e Bellingham contro Messi, Alvarez e Lautaro.",
-    scenario: "L'Inghilterra ha piu struttura sui duelli, l'Argentina ha piu lettura dei momenti. Nei novanta minuti il margine e minimo.",
-    centralScore: "2-1 Inghilterra",
-    basePick: "Inghilterra qualificata",
-    baseSub: "Goal + Under 4,5 - Over tiri totali",
-    probabilities: { home: 38, draw: 29, away: 33 },
+    home: { name: "Inghilterra", flag: "inghilterra", formation: "4-2-3-1", line: "Pickford; James, Stones, Guehi, Spence; Rice, Anderson; Rogers, Bellingham, Gordon; Kane.", pitch: [["Kane"], ["Gordon", "Bellingham", "Rogers"], ["Rice", "Anderson"], ["Spence", "Guehi", "Stones", "James"], ["Pickford"]] },
+    away: { name: "Argentina", flag: "argentina", formation: "4-4-2", line: "Martinez; Molina, Romero, Martinez Quarta, Tagliafico; Simeone, Paredes, Mac Allister, Enzo Fernandez; Messi, Alvarez.", pitch: [["Messi", "Alvarez"], ["Enzo Fernandez", "Mac Allister", "Paredes", "Simeone"], ["Tagliafico", "Martinez Quarta", "Romero", "Molina"], ["Martinez"]] },
+    headline: "Probabili piu prudenti: l'Inghilterra perde Saka dall'inizio, l'Argentina si compatta nel 4-4-2 con Messi-Alvarez.",
+    deck: "Ad Atlanta il Mercedes-Benz Stadium rende l'ambiente stabile se il tetto resta chiuso: umidita e temporali esterni pesano poco. Le probabili spostano la lettura: meno ampiezza pura inglese, piu densita argentina con Paredes, Mac Allister ed Enzo a protezione della coppia Messi-Alvarez.",
+    scenario: "L'Inghilterra resta forte su fisicita e piazzati, ma senza Saka perde isolamento naturale a destra; l'Argentina guadagna controllo e protezione centrale. Nei novanta minuti il pareggio diventa piu vivo.",
+    centralScore: "1-1, Argentina qualificata",
+    basePick: "Argentina qualificata",
+    baseSub: "Goal + Under 4,5 - Over tiri in porta totali",
+    probabilities: { home: 35, draw: 30, away: 35 },
     motivation: { home: 99, away: 99, risk: "Medio-alto" },
     weather: "Mercedes-Benz Stadium, Atlanta. Altitudine circa 320 metri. Tetto retrattile e impianto climatizzato: con tetto chiuso condizioni interne molto stabili, circa 21-22 C, senza impatto rilevante di pioggia, vento o caldo.",
     stadium: "All'esterno sono attesi circa 30 C, umidita elevata, cielo variabile o nuvoloso e possibilita di pioggia o temporali. La lettura assume campo e temperatura interna controllati.",
@@ -172,61 +172,61 @@ const data = [
         penalty: "medio-alta",
         redCard: "possibile ma non probabile"
       },
-      modelImpact: "Il contesto semifinale alza il rischio dopo il 60' e nel finale. Il rigore sale solo per profilo offensivo di Messi, Julian Alvarez, Saka, Bellingham, Kane e Palmer; nessun bias favorevole all'Argentina."
+      modelImpact: "Il contesto semifinale alza il rischio dopo il 60' e nel finale. Il rigore sale per profilo offensivo di Messi, Julian Alvarez, Bellingham, Kane, Gordon e Rogers; nessun bias favorevole all'Argentina."
     },
-    lead: "La partita ha due anime: Inghilterra piu verticale e fisica, Argentina piu elastica e capace di cambiare ritmo dentro la stessa azione. Il modello tiene l'Inghilterra appena avanti per struttura, palla inattiva e stato dei suoi leader offensivi, ma non cancella il peso argentino nei minuti finali.",
+    lead: "La partita ha due anime, ma le probabili la rendono meno sbilanciata verso l'Inghilterra. Rogers al posto di Saka toglie uno contro uno puro, Anderson accanto a Rice aumenta ordine ma abbassa un po' la creativita centrale, mentre l'Argentina passa a un 4-4-2 piu stretto con Paredes e Mac Allister a schermare Messi e Alvarez.",
     paragraphs: [
-      "Kane e Bellingham sono il centro della lettura inglese. Se l'Inghilterra riesce a portare Saka e Gordon in isolamento, l'Argentina deve scegliere se proteggere l'area o uscire forte sugli esterni. In entrambi i casi aumentano corner, tiri da seconda palla e falli tattici.",
-      "L'Argentina ha piu talento nella gestione emotiva della gara: Messi puo abbassarsi, attirare pressione e liberare Alvarez o Lautaro. Il rischio per l'Inghilterra e difendere troppo presto un vantaggio; il rischio per l'Argentina e concedere fisicita e seconde palle a Rice, Bellingham e Kane."
+      "Kane e Bellingham restano il centro della lettura inglese, ma il lato destro cambia natura: Rogers puo venire dentro al campo e combinare, James deve dare ampiezza e Gordon resta il principale strappo esterno. Questo riduce leggermente la spinta corner inglese e sposta la MyCombo sui tiri in porta.",
+      "L'Argentina ha piu talento nella gestione emotiva della gara: Messi puo abbassarsi, attirare pressione e liberare Alvarez. Con Simeone e Molina a destra c'e piu lavoro senza palla, con Enzo sul lato opposto c'e piu uscita pulita. Il rischio inglese e concedere troppi possessi centrali a Paredes e Mac Allister."
     ],
-    form: "Peso alto agli ultimi turni: Inghilterra sopravvissuta alla Norvegia con Bellingham decisivo, Argentina uscita forte dai supplementari contro la Svizzera. Le energie contano, ma in stadio climatizzato il fattore ambientale resta basso.",
-    tacticalKey: "La chiave e chi controlla la zona tra trequarti e area. Se Bellingham riceve fronte alla porta, l'Inghilterra ha superiorita fisica; se Messi riceve tra le linee, l'Argentina puo rallentare e scegliere il colpo.",
-    teamASection: "L'Inghilterra deve usare Kane come raccordo e finalizzatore, senza schiacciarlo solo contro i centrali argentini. Bellingham attacca il mezzo spazio, Rice protegge le transizioni e Saka forza uno contro uno che possono produrre corner e falli.",
-    teamBSection: "L'Argentina deve sporcare il ritmo inglese. De Paul e Mac Allister sono fondamentali per non lasciare Rice libero di guidare il primo passaggio; Messi deve poter ricevere senza dover partire troppo lontano dalla porta. Alvarez e Lautaro danno profondita e presenza in area.",
-    shots: "Inghilterra: 12-15 tiri, 4-6 in porta, 4-6 corner. Argentina: 11-14 tiri, 3-5 in porta, 4-6 corner. Proiezioni individuali: Kane 3-5 tiri, Bellingham 2-4, Messi 3-5, Alvarez/Lautaro 2-4 complessivi.",
-    volumeSummary: { home: "12-15 tiri", away: "11-14 tiri", total: "23-29 tiri" },
+    form: "Peso alto agli ultimi turni: Inghilterra sopravvissuta alla Norvegia con Bellingham decisivo, Argentina uscita forte dai supplementari contro la Svizzera. Le probabili rendono piu importante il controllo centrale che la corsa pura sulle fasce.",
+    tacticalKey: "La chiave e chi controlla la zona tra trequarti e area. Se Bellingham riceve fronte alla porta, l'Inghilterra ha superiorita fisica; se Paredes e Mac Allister trovano Messi tra le linee, l'Argentina puo rallentare e scegliere il colpo.",
+    teamASection: "L'Inghilterra deve usare Kane come raccordo e finalizzatore, senza schiacciarlo solo contro i centrali argentini. Bellingham attacca il mezzo spazio, Rice protegge le transizioni e Rogers deve dare ricezioni interne per non isolare troppo James. Gordon resta la valvola piu verticale.",
+    teamBSection: "L'Argentina deve sporcare il ritmo inglese e non concedere seconde palle facili. Paredes alza la qualita del primo passaggio ma anche il rischio disciplinare, Mac Allister ed Enzo devono schermare le ricezioni di Bellingham, mentre Messi e Alvarez possono muoversi alternando appoggio e profondita.",
+    shots: "Inghilterra: 11-14 tiri, 3-5 in porta, 3-5 corner. Argentina: 11-14 tiri, 3-5 in porta, 4-6 corner. Proiezioni individuali: Kane 3-5 tiri, Bellingham 2-4, Messi 3-5, Alvarez 2-4, Rogers/Gordon 1-3 complessivi.",
+    volumeSummary: { home: "11-14 tiri", away: "11-14 tiri", total: "22-28 tiri" },
     cards: [
       ["Romero", "Possibile primo ammonito", "Duelli diretti con Kane e attacchi inglesi sulle seconde palle: primo intervento forte molto plausibile."],
       ["Rice", "Medio-alto", "Possibile fallo tattico su Messi o ripartenze centrali."],
-      ["De Paul", "Medio", "Pressione e duelli ripetuti con Bellingham e Gordon."],
-      ["Tagliafico", "Medio", "Lato Saka/James: rischio cartellino se l'Inghilterra carica la corsia."],
+      ["Paredes", "Medio-alto", "Schermo davanti alla difesa: rischio fallo tattico se Bellingham o Rogers ricevono tra le linee."],
+      ["Tagliafico", "Medio", "Lato Rogers/James: rischio cartellino se l'Inghilterra carica la corsia."],
       ["Bellingham", "Medio", "Pressing e proteste in gara emotiva: rischio disciplinare se l'Argentina abbassa il ritmo."]
     ],
     valueErrors: [
-      ["Bellingham migliore in campo @ 3.75", "MIGLIOR GIOCATORE IN CAMPO", "Quota alta per il giocatore che puo decidere sia rifinitura sia inserimento."],
-      ["Kane marcatore 1T @ 4.40", "KANE H. MARCATORE 1T", "Prezzo da errore se l'Inghilterra parte forte e attacca l'area su cross e piazzati."],
-      ["Over 27,5 tiri totali @ 3.25", "U/O 27.5 TIRI TOTALI - OVER", "Linea alta ma prezzo largo per una gara con due squadre obbligate a produrre."]
+      ["Pareggio nei 90 @ 3.00", "1X2 ESITO FINALE - X", "Le probabili avvicinano il 90': Inghilterra meno esplosiva a destra, Argentina piu protetta centralmente."],
+      ["Messi marcatore 1T @ 4.40", "MESSI L. MARCATORE 1T", "Con Alvarez accanto puo ricevere piu alto e non sempre spalle alla porta; resta evento volatile ma coerente con il nuovo 4-4-2."],
+      ["Alvarez marcatore 1T @ 6.75", "ALVAREZ JULIAN MARCATORE 1T", "Quota alta per l'attaccante che attacca la profondita mentre Messi viene incontro."]
     ],
     quotePicks: {
       safe: [
         ["U/O TIRI IN PORTA", "U/O 6.5 TIRI IN PORTA", "OVER", "Over 6,5 tiri in porta"],
-        ["U/O CORNER SQUADRA X", "U/O 3.5 CORNER SQUADRA 1", "OVER", "Inghilterra Over 3,5 corner"],
+        ["U/O TIRI IN PORTA SQUADRA X", "SQUADRA 2: U/O 2.5 TIRI IN PORTA", "OVER", "Argentina Over 2,5 tiri in porta"],
         ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"],
         ["U/O PUNTI CARTELLINI", "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 2,5 punti cartellini"],
         ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"]
       ],
       balanced: [
         ["U/O TIRI IN PORTA", "U/O 6.5 TIRI IN PORTA", "OVER", "Over 6,5 tiri in porta"],
-        ["U/O CORNER SQUADRA X", "U/O 3.5 CORNER SQUADRA 1", "OVER", "Inghilterra Over 3,5 corner"],
+        ["U/O TIRI IN PORTA SQUADRA X", "SQUADRA 2: U/O 2.5 TIRI IN PORTA", "OVER", "Argentina Over 2,5 tiri in porta"],
         ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"],
         ["U/O PUNTI CARTELLINI", "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 2,5 punti cartellini"],
         ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"],
         ["ENTRAMBE LE SQUADRE ALMENO X TIRI IN PORTA", "ENTRAMBE LE SQUADRE ALMENO 3 TIRI IN PORTA", "SI", "Entrambe almeno 3 tiri in porta"],
-        ["U/O TIRI IN PORTA SQUADRA X", "SQUADRA 2: U/O 2.5 TIRI IN PORTA", "OVER", "Argentina Over 2,5 tiri in porta"]
+        ["U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS", "KANE H. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.", "OVER", "Kane Over 0,5 tiri in porta"]
       ],
       aggressive: [
         ["U/O TIRI IN PORTA", "U/O 6.5 TIRI IN PORTA", "OVER", "Over 6,5 tiri in porta"],
-        ["U/O CORNER SQUADRA X", "U/O 3.5 CORNER SQUADRA 1", "OVER", "Inghilterra Over 3,5 corner"],
+        ["U/O TIRI IN PORTA SQUADRA X", "SQUADRA 2: U/O 2.5 TIRI IN PORTA", "OVER", "Argentina Over 2,5 tiri in porta"],
         ["ENTRAMBE ALMENO X PUNTI CARTELLINI", "ENTRAMBE ALMENO 1 PUNTI CARTELLINI", "SI", "Entrambe almeno 1 punto cartellino"],
         ["U/O PUNTI CARTELLINI", "U/O 2.5 PUNTI CARTELLINI (MAX 2 PER GIOCATORE)", "OVER", "Over 2,5 punti cartellini"],
         ["U/O CORNER", "U/O 10.5 CORNER", "UNDER", "Under 10,5 corner"],
         ["ENTRAMBE LE SQUADRE ALMENO X TIRI IN PORTA", "ENTRAMBE LE SQUADRE ALMENO 3 TIRI IN PORTA", "SI", "Entrambe almeno 3 tiri in porta"],
-        ["U/O TIRI IN PORTA SQUADRA X", "SQUADRA 2: U/O 2.5 TIRI IN PORTA", "OVER", "Argentina Over 2,5 tiri in porta"],
+        ["U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS", "KANE H. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.", "OVER", "Kane Over 0,5 tiri in porta"],
         ["U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS", "BELLINGHAM JUDE U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.", "OVER", "Bellingham Over 0,5 tiri in porta"],
-        ["U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS", "MESSI L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.", "OVER", "Messi Over 0,5 tiri in porta"]
+        ["U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS", "ALVAREZ JULIAN U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.", "OVER", "Alvarez Over 0,5 tiri in porta"]
       ]
     },
-    quoteSummary: [["1", "2.60"], ["X", "3.00"], ["2", "3.00"], ["Passaggio Inghilterra", "1.75"], ["Goal", "1.90"]]
+    quoteSummary: [["1", "2.60"], ["X", "3.00"], ["2", "3.00"], ["Passaggio Inghilterra", "1.75"], ["Passaggio Argentina", "2.00"], ["Goal", "1.90"]]
   }
 ];
 
@@ -435,7 +435,11 @@ function myComboJson(config, quote, portfolios) {
   return payload;
 }
 
+const matchArgIndex = process.argv.indexOf("--match");
+const onlyMatch = matchArgIndex >= 0 ? process.argv[matchArgIndex + 1] : null;
+
 for (const config of data) {
+  if (onlyMatch && ![config.matchId, config.slug, config.match].includes(onlyMatch)) continue;
   const quote = readQuote(config.slug);
   const portfolios = [
     buildPortfolio("Safe", config.quotePicks.safe, quote, "Coerente con lo scenario principale della semifinale; il mercato disciplinare riceve solo un supporto leggero dal profilo arbitrale.", "Evento correlato allo scenario principale."),

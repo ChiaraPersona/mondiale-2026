@@ -1,10 +1,10 @@
 # Player Stats Validation Report
 
-Generato: 2026-07-12T18:37:45.066Z
+Generato: 2026-07-15T17:44:12.671Z
 
 ## Riepilogo
 
-- File controllati: 43
+- File controllati: 44
 - Errori trovati: 4
 - Warning trovati: 1
 
@@ -27,6 +27,7 @@ Generato: 2026-07-12T18:37:45.066Z
 - france-iraq-2026-06-22.json: France 3-0 Iraq (completion 36.4%)
 - france-morocco-2026-07-09.json: France 2-0 Morocco (completion 36.3%)
 - france-senegal-2026-06-16.json: France 3-1 Senegal (completion 36.1%)
+- france-spain-2026-07-14.json: France 0-2 Spain (completion 36.4%)
 - france-sweden-2026-06-30.json: France 3-0 Sweden (completion 36.5%)
 - iraq-norway-2026-06-16.json: Iraq 1-4 Norway (completion 36.4%)
 - ivory-coast-norway-2026-06-30.json: Ivory Coast 1-2 Norway (completion 36.2%)

@@ -1872,6 +1872,55 @@ const worldCupResults = {
       "La lettura prende Argentina qualificata, Argentina + Over 1,5 e volume tiri; saltano No Goal, Under 3,5 e risultato centrale 2-0.",
     ],
   },
+  101: {
+    status: "Finale",
+    home: 0,
+    away: 2,
+    winner: "Spagna",
+    source: "https://www.espn.com/soccer/match/_/gameId/760514/spain-france",
+    sources: [
+      "https://www.espn.com/soccer/match/_/gameId/760514/spain-france",
+      "https://www.espn.com/soccer/matchstats/_/gameId/760514",
+      "https://apnews.com/article/87fb7740fa552edf4bfd28d0e8727c23",
+      "https://www.theguardian.com/football/live/2026/jul/14/france-v-spain-world-cup-2026-semi-final-live",
+    ],
+    scorers: {
+      Francia: [],
+      Spagna: ["Mikel Oyarzabal", "Pedro Porro"],
+    },
+    cards: {
+      yellow: [
+        { team: "Francia", player: "Adrien Rabiot" },
+        { team: "Spagna", player: "Marc Cucurella" },
+        { team: "Francia", player: "Kylian Mbappe" },
+      ],
+    },
+    stats: {
+      Francia: {
+        shots: 10,
+        shotsOnTarget: 3,
+        corners: 7,
+        foulsCommitted: 11,
+        possession: "49.1%",
+        passes: 472,
+        accuratePasses: 395,
+      },
+      Spagna: {
+        shots: 10,
+        shotsOnTarget: 2,
+        corners: 1,
+        foulsCommitted: 12,
+        possession: "50.9%",
+        passes: 502,
+        accuratePasses: 427,
+      },
+    },
+    notes: [
+      "La Spagna batte la Francia 2-0 e si qualifica alla finale del Mondiale 2026.",
+      "Oyarzabal segna su rigore al 22' dopo il fallo di Digne su Lamine Yamal; Pedro Porro chiude al 58' su assist di Dani Olmo.",
+      "ESPN registra 10-10 nei tiri, 3-2 nello specchio per la Francia, 7-1 corner per la Francia e possesso quasi pari: Spagna piu efficace negli episodi decisivi.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

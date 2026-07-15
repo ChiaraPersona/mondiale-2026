@@ -6,14 +6,14 @@
   "status": "ready",
   "sourceQuote": "data/quote/inghilterra-argentina-quote.json",
   "prediction": {
-    "centralScore": "2-1 Inghilterra",
-    "basePick": "Inghilterra qualificata",
+    "centralScore": "1-1, Argentina qualificata",
+    "basePick": "Argentina qualificata",
     "probabilities": {
-      "home": 38,
-      "draw": 29,
-      "away": 33
+      "home": 35,
+      "draw": 30,
+      "away": 35
     },
-    "scenario": "L'Inghilterra ha piu struttura sui duelli, l'Argentina ha piu lettura dei momenti. Nei novanta minuti il margine e minimo."
+    "scenario": "L'Inghilterra resta forte su fisicita e piazzati, ma senza Saka perde isolamento naturale a destra; l'Argentina guadagna controllo e protezione centrale. Nei novanta minuti il pareggio diventa piu vivo."
   },
   "environment": {
     "weather": "Mercedes-Benz Stadium, Atlanta. Altitudine circa 320 metri. Tetto retrattile e impianto climatizzato: con tetto chiuso condizioni interne molto stabili, circa 21-22 C, senza impatto rilevante di pioggia, vento o caldo.",
@@ -74,12 +74,12 @@
       "penalty": "medio-alta",
       "redCard": "possibile ma non probabile"
     },
-    "modelImpact": "Il contesto semifinale alza il rischio dopo il 60' e nel finale. Il rigore sale solo per profilo offensivo di Messi, Julian Alvarez, Saka, Bellingham, Kane e Palmer; nessun bias favorevole all'Argentina."
+    "modelImpact": "Il contesto semifinale alza il rischio dopo il 60' e nel finale. Il rigore sale per profilo offensivo di Messi, Julian Alvarez, Bellingham, Kane, Gordon e Rogers; nessun bias favorevole all'Argentina."
   },
   "formations": {
     "status": "probabili",
-    "Inghilterra": "Pickford; James, Stones, Guehi, Burn; Rice, Mainoo; Saka, Bellingham, Gordon; Kane.",
-    "Argentina": "Martinez; Molina, Romero, Lisandro Martinez, Tagliafico; De Paul, Enzo Fernandez, Mac Allister; Messi, Alvarez, Lautaro Martinez."
+    "Inghilterra": "Pickford; James, Stones, Guehi, Spence; Rice, Anderson; Rogers, Bellingham, Gordon; Kane.",
+    "Argentina": "Martinez; Molina, Romero, Martinez Quarta, Tagliafico; Simeone, Paredes, Mac Allister, Enzo Fernandez; Messi, Alvarez."
   },
   "cardHierarchy": [
     {
@@ -98,16 +98,16 @@
     },
     {
       "rank": 3,
-      "player": "De Paul",
-      "risk": "Medio",
-      "note": "Pressione e duelli ripetuti con Bellingham e Gordon.",
+      "player": "Paredes",
+      "risk": "Medio-alto",
+      "note": "Schermo davanti alla difesa: rischio fallo tattico se Bellingham o Rogers ricevono tra le linee.",
       "possibleFirstBooked": false
     },
     {
       "rank": 4,
       "player": "Tagliafico",
       "risk": "Medio",
-      "note": "Lato Saka/James: rischio cartellino se l'Inghilterra carica la corsia.",
+      "note": "Lato Rogers/James: rischio cartellino se l'Inghilterra carica la corsia.",
       "possibleFirstBooked": false
     },
     {
@@ -121,7 +121,7 @@
   "portfolios": [
     {
       "name": "Safe",
-      "finalOdds": 5.2,
+      "finalOdds": 4.67,
       "events": [
         {
           "displayName": "Over 6,5 tiri in porta",
@@ -133,13 +133,13 @@
           "marketId": 793006387
         },
         {
-          "displayName": "Inghilterra Over 3,5 corner",
-          "market": "U/O CORNER SQUADRA X",
-          "info": "U/O 3.5 CORNER SQUADRA 1",
+          "displayName": "Argentina Over 2,5 tiri in porta",
+          "market": "U/O TIRI IN PORTA SQUADRA X",
+          "info": "SQUADRA 2: U/O 2.5 TIRI IN PORTA",
           "selection": "OVER",
-          "odds": 1.45,
-          "selectionId": 5216737713,
-          "marketId": 793079986
+          "odds": 1.3,
+          "selectionId": 5216852432,
+          "marketId": 793102507
         },
         {
           "displayName": "Entrambe almeno 1 punto cartellino",
@@ -172,7 +172,7 @@
     },
     {
       "name": "Balanced",
-      "finalOdds": 10.82,
+      "finalOdds": 9.33,
       "events": [
         {
           "displayName": "Over 6,5 tiri in porta",
@@ -184,13 +184,13 @@
           "marketId": 793006387
         },
         {
-          "displayName": "Inghilterra Over 3,5 corner",
-          "market": "U/O CORNER SQUADRA X",
-          "info": "U/O 3.5 CORNER SQUADRA 1",
+          "displayName": "Argentina Over 2,5 tiri in porta",
+          "market": "U/O TIRI IN PORTA SQUADRA X",
+          "info": "SQUADRA 2: U/O 2.5 TIRI IN PORTA",
           "selection": "OVER",
-          "odds": 1.45,
-          "selectionId": 5216737713,
-          "marketId": 793079986
+          "odds": 1.3,
+          "selectionId": 5216852432,
+          "marketId": 793102507
         },
         {
           "displayName": "Entrambe almeno 1 punto cartellino",
@@ -229,19 +229,19 @@
           "marketId": 793101949
         },
         {
-          "displayName": "Argentina Over 2,5 tiri in porta",
-          "market": "U/O TIRI IN PORTA SQUADRA X",
-          "info": "SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "displayName": "Kane Over 0,5 tiri in porta",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "KANE H. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.3,
-          "selectionId": 5216852432,
-          "marketId": 793102507
+          "odds": 1.25,
+          "selectionId": 5216776246,
+          "marketId": 793098960
         }
       ]
     },
     {
       "name": "Aggressive",
-      "finalOdds": 20.39,
+      "finalOdds": 21.98,
       "events": [
         {
           "displayName": "Over 6,5 tiri in porta",
@@ -253,13 +253,13 @@
           "marketId": 793006387
         },
         {
-          "displayName": "Inghilterra Over 3,5 corner",
-          "market": "U/O CORNER SQUADRA X",
-          "info": "U/O 3.5 CORNER SQUADRA 1",
+          "displayName": "Argentina Over 2,5 tiri in porta",
+          "market": "U/O TIRI IN PORTA SQUADRA X",
+          "info": "SQUADRA 2: U/O 2.5 TIRI IN PORTA",
           "selection": "OVER",
-          "odds": 1.45,
-          "selectionId": 5216737713,
-          "marketId": 793079986
+          "odds": 1.3,
+          "selectionId": 5216852432,
+          "marketId": 793102507
         },
         {
           "displayName": "Entrambe almeno 1 punto cartellino",
@@ -298,13 +298,13 @@
           "marketId": 793101949
         },
         {
-          "displayName": "Argentina Over 2,5 tiri in porta",
-          "market": "U/O TIRI IN PORTA SQUADRA X",
-          "info": "SQUADRA 2: U/O 2.5 TIRI IN PORTA",
+          "displayName": "Kane Over 0,5 tiri in porta",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "KANE H. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.3,
-          "selectionId": 5216852432,
-          "marketId": 793102507
+          "odds": 1.25,
+          "selectionId": 5216776246,
+          "marketId": 793098960
         },
         {
           "displayName": "Bellingham Over 0,5 tiri in porta",
@@ -316,13 +316,13 @@
           "marketId": 793103187
         },
         {
-          "displayName": "Messi Over 0,5 tiri in porta",
+          "displayName": "Alvarez Over 0,5 tiri in porta",
           "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "info": "MESSI L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "info": "ALVAREZ JULIAN U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.2,
-          "selectionId": 5216855208,
-          "marketId": 793103201
+          "odds": 1.5,
+          "selectionId": 5216855244,
+          "marketId": 793103210
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-12T18:37:45.066Z",
+  "generatedAt": "2026-07-15T17:44:12.671Z",
   "summary": {
-    "filesChecked": 43,
+    "filesChecked": 44,
     "errors": 4,
     "warnings": 1,
     "suspiciousPlayers": 1,
@@ -228,6 +228,17 @@
       "match": "France 3-1 Senegal",
       "provider": "Merged",
       "completion": 36.1,
+      "errors": [],
+      "warnings": [],
+      "suspiciousPlayers": [],
+      "fieldsToReview": []
+    },
+    {
+      "file": "france-spain-2026-07-14.json",
+      "matchId": "france-spain-2026-07-14",
+      "match": "France 0-2 Spain",
+      "provider": "Merged",
+      "completion": 36.4,
       "errors": [],
       "warnings": [],
       "suspiciousPlayers": [],

@@ -49,6 +49,21 @@
     "pesoModelloRange": [1.35, 1.5],
     "note": "Quarto di finale contro una nazionale top: dato da pesare molto nel modello, soprattutto per pressione, falli, tiri e gestione dei momenti decisivi."
   },
+  "france-spain-2026-07-14": {
+    "matchType": "Semifinale / eliminazione diretta",
+    "opponentLevel": "Elite",
+    "opponentStyle": "Controllo tecnico spagnolo contro transizioni e attacco posizionale francese",
+    "gameState": "Spagna avanti su rigore e poi in controllo; Francia costretta a rincorrere senza trovare gol",
+    "modelWeight": "1.55 - Massimo",
+    "tipoPartita": "Semifinale (eliminazione diretta)",
+    "livelloAvversario": "Elite",
+    "livelloAvversarioScore": 5,
+    "stileAvversario": "Possesso, pressing e gestione vantaggio",
+    "statoGara": "Decisa dagli episodi e dalla maggiore efficacia spagnola",
+    "pesoModello": 1.55,
+    "pesoModelloRange": [1.45, 1.6],
+    "note": "Semifinale mondiale: dato ad altissimo peso per efficacia, disciplina, rendimento sotto pressione, volume tiri e gestione del vantaggio."
+  },
   "france-senegal-2026-06-16": {
     "matchType": "Fase a gironi",
     "opponentLevel": "Medio-alto",

@@ -22,6 +22,8 @@ const teamReadingLinks = {
     ["Francia - Svezia", "letture/lettura-francia-svezia.html"]
   ],
   Argentina: [
+    ["Spagna - Argentina (finale)", "letture/lettura-spagna-argentina.html"],
+    ["Inghilterra - Argentina", "letture/lettura-inghilterra-argentina.html"],
     ["Argentina - Svizzera", "letture/lettura-argentina-svizzera.html"],
     ["Argentina - Egitto", "letture/lettura-argentina-egitto.html"]
   ],
@@ -30,6 +32,7 @@ const teamReadingLinks = {
     ["Svizzera - Colombia", "letture/lettura-svizzera-colombia.html"]
   ],
   Inghilterra: [
+    ["Inghilterra - Argentina", "letture/lettura-inghilterra-argentina.html"],
     ["Norvegia - Inghilterra", "letture/lettura-norvegia-inghilterra.html"],
     ["Messico - Inghilterra", "letture/lettura-messico-inghilterra.html"]
   ],
@@ -40,6 +43,7 @@ const teamReadingLinks = {
   ]
 };
 const normalizedPlayerStatsSources = [
+  "data/player-stats/merged/england-argentina-2026-07-15.json",
   "data/player-stats/merged/france-spain-2026-07-14.json",
   "data/player-stats/merged/spain-belgium-2026-07-10.json",
   "data/player-stats/merged/norway-england-2026-07-11.json",
@@ -445,7 +449,7 @@ function buildTeamStatsFromPlayerMatches(team, sourceMatchId) {
 
   team.analyzedMatches = analyzedMatches;
   team.averages = averages;
-  team.summary = `${team.team}: dati calciatori e squadra caricati dalle 5 partite Mondiale 2026 disponibili.`;
+  team.summary = `${team.team}: dati calciatori e squadra caricati da ${analyzedMatches.length} partite del Mondiale 2026.`;
   team.modelReading = `${team.team} ha dataset completo su 5 partite. La lettura usa minuti, tiri, tiri in porta, corner disponibili, falli commessi, falli subiti e cartellini; possesso e xG restano n/d quando non presenti nei provider disponibili.`;
   team.estimateTitle = `Stima prossimo match - ${team.team}`;
   team.estimate = [

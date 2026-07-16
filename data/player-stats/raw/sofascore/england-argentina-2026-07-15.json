@@ -1,0 +1,10 @@
+{
+  "provider": "sofascore",
+  "matchId": "england-argentina-2026-07-15",
+  "completion": 0,
+  "errors": [
+    "URL sofascore non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

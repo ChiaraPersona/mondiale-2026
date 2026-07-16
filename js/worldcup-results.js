@@ -1921,6 +1921,39 @@ const worldCupResults = {
       "ESPN registra 10-10 nei tiri, 3-2 nello specchio per la Francia, 7-1 corner per la Francia e possesso quasi pari: Spagna piu efficace negli episodi decisivi.",
     ],
   },
+  102: {
+    status: "Finale",
+    home: 1,
+    away: 2,
+    winner: "Argentina",
+    source: "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+    sources: [
+      "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+      "https://www.skysports.com/football/england-vs-argentina/stats/549867",
+      "https://apnews.com/article/2ae6a218ae88248db6565ffd13f60d38",
+    ],
+    scorers: {
+      Inghilterra: ["Anthony Gordon"],
+      Argentina: ["Enzo Fernandez", "Lautaro Martinez"],
+    },
+    cards: {
+      yellow: [
+        { team: "Inghilterra", player: "Elliot Anderson" },
+        { team: "Argentina", player: "Cristian Romero" },
+        { team: "Argentina", player: "Lisandro Martinez" },
+        { team: "Argentina", player: "Rodrigo De Paul" },
+      ],
+    },
+    stats: {
+      Inghilterra: { shots: 5, shotsOnTarget: 2, corners: 1, foulsCommitted: 11, possession: "35.8%", passes: 325, accuratePasses: 273 },
+      Argentina: { shots: 15, shotsOnTarget: 5, corners: 6, foulsCommitted: 15, possession: "64.2%", passes: 588, accuratePasses: 537 },
+    },
+    notes: [
+      "L'Argentina rimonta l'Inghilterra 2-1 e raggiunge la Spagna nella finale del Mondiale 2026.",
+      "Gordon segna al 55'; Enzo Fernandez pareggia all'85' e Lautaro Martinez decide al 90+2', entrambi su assist di Messi.",
+      "Argentina dominante per volume: 64,2% di possesso, 15-5 nei tiri, 5-2 nello specchio e 6-1 nei corner.",
+    ],
+  },
 };
 
 function worldCupResultFor(matchNumber) {

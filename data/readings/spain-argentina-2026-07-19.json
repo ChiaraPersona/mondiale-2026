@@ -1,0 +1,37 @@
+{
+  "matchId": "spain-argentina-2026-07-19",
+  "match": "Spagna-Argentina",
+  "round": "Finale",
+  "date": "19/07/2026 ore 21.00",
+  "status": "preliminary",
+  "lineupsStatus": "ultime formazioni utilizzate, non ufficiali",
+  "prediction": {
+    "centralScore": "1-1 nei 90 minuti",
+    "winner": "Argentina alza la coppa",
+    "probabilities90": { "spain": 37, "draw": 34, "argentina": 29 },
+    "qualification": { "spain": 48, "argentina": 52 },
+    "primaryPick": "Argentina alza la coppa",
+    "secondaryPicks": ["Under 3,5", "Primo tempo Under 1,5", "Spagna piu corner", "Argentina almeno 3 tiri in porta"]
+  },
+  "formations": {
+    "spain": "Unai Simon; Pedro Porro, Cubarsi, Laporte, Cucurella; Rodri, Fabian Ruiz; Lamine Yamal, Dani Olmo, Baena; Oyarzabal.",
+    "argentina": "Emiliano Martinez; Molina, Romero, Lisandro Martinez, Tagliafico; Simeone, Paredes, Mac Allister, Enzo Fernandez; Messi, Julian Alvarez."
+  },
+  "forecast": {
+    "spain": { "shots": "11-15", "shotsOnTarget": "3-5", "corners": "4-7" },
+    "argentina": { "shots": "8-12", "shotsOnTarget": "3-5", "corners": "2-5" },
+    "totalShots": "20-26"
+  },
+  "cardHierarchy": [
+    { "player": "Leandro Paredes", "risk": "Possibile primo ammonito", "possibleFirstBooked": true },
+    { "player": "Nahuel Molina", "risk": "Medio-alto" },
+    { "player": "Marc Cucurella", "risk": "Medio-alto" },
+    { "player": "Cristian Romero", "risk": "Medio" },
+    { "player": "Rodri", "risk": "Medio" }
+  ],
+  "sources": [
+    "data/player-stats/merged/france-spain-2026-07-14.json",
+    "data/player-stats/merged/england-argentina-2026-07-15.json",
+    "js/team-stats-data.js"
+  ]
+}

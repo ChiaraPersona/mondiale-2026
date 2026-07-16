@@ -1,0 +1,10 @@
+{
+  "provider": "whoscored",
+  "matchId": "england-argentina-2026-07-15",
+  "completion": 0,
+  "errors": [
+    "URL whoscored non fornito."
+  ],
+  "log": [],
+  "teams": {}
+}

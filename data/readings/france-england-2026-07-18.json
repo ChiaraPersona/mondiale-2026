@@ -1,0 +1,86 @@
+{
+  "matchId": "france-england-2026-07-18",
+  "match": "Francia-Inghilterra",
+  "round": "Finale 3° posto",
+  "date": "18 luglio 2026 ore 23:00",
+  "status": "probable-lineups",
+  "lineupsStatus": "formazioni probabili fornite il 18/07/2026",
+  "prediction": {
+    "centralScore": "2-1",
+    "winner": "Francia terza classificata",
+    "probabilities90": "Francia 49% · X 27% · Inghilterra 24%"
+  },
+  "formations": {
+    "france": {
+      "shape": "4-2-3-1",
+      "players": "Maignan; Gusto, Konaté, Lucas Hernandez, Theo Hernandez; Manu Koné, Kanté; Akliouche, Cherki, Thuram; Mbappé."
+    },
+    "england": {
+      "shape": "4-2-3-1",
+      "players": "Pickford; Quansah, Konsa, Guéhi, O'Reilly; Mainoo, Eze; Madueke, Bellingham, Rashford; Kane."
+    }
+  },
+  "cardHierarchy": [
+    {
+      "player": "Mainoo",
+      "risk": "Possibile primo ammonito",
+      "possibleFirstBooked": true
+    },
+    {
+      "player": "Manu Koné",
+      "risk": "Medio-alto",
+      "possibleFirstBooked": false
+    },
+    {
+      "player": "Guéhi",
+      "risk": "Medio-alto",
+      "possibleFirstBooked": false
+    },
+    {
+      "player": "Kanté",
+      "risk": "Medio",
+      "possibleFirstBooked": false
+    },
+    {
+      "player": "O'Reilly",
+      "risk": "Medio",
+      "possibleFirstBooked": false
+    }
+  ],
+  "quoteSource": "data/quote/francia-inghilterra-quote.json",
+  "keyPicks": [
+    {
+      "selection": "Francia vincente terzo posto",
+      "odd": 1.5
+    },
+    {
+      "selection": "Over 2,5",
+      "odd": 1.4
+    },
+    {
+      "selection": "Goal",
+      "odd": 1.36
+    },
+    {
+      "selection": "Mbappé Over 1,5 tiri in porta incl. TS",
+      "odd": 1.47
+    }
+  ],
+  "valueErrors": [
+    {
+      "selection": "Pareggio nei 90 minuti",
+      "odd": 4,
+      "reason": "Copre la gara aperta ma equilibrata prima di eventuali supplementari."
+    },
+    {
+      "selection": "Inghilterra nei 90 minuti",
+      "odd": 3.75,
+      "reason": "Quota alta rispetto alla capacità di Kane e Bellingham di punire una Francia sbilanciata."
+    },
+    {
+      "selection": "Francia + No Goal",
+      "odd": 4.25,
+      "reason": "Scenario alternativo se la Francia segna presto e controlla meglio del previsto."
+    }
+  ]
+}

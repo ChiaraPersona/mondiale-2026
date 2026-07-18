@@ -28,7 +28,13 @@ const matches = [
     referee: {
       name: 'Jesús Valenzuela',
       country: 'Venezuela',
-      impact: 'Il profilo arbitrale viene usato come supporto alla gerarchia ammoniti, senza modificare artificialmente il pronostico principale.'
+      impact: 'Arbitro CONMEBOL esperto e storicamente severo sui cartellini. Il campione 2025/26 disponibile è però più contenuto: 146 falli, 21 gialli e 1 rosso in 7 gare, cioè 20,9 falli e 3,0 gialli a partita. La carriera resta vicina a 5 gialli di media: meglio privilegiare falli e duelli prima di alzare automaticamente l’Over cartellini.',
+      indicators: { recentMatches: 7, foulsPerMatch: 20.9, yellowsPerMatch: 3.0, reds: 1, careerYellowsPerMatch: 4.97 },
+      sources: [
+        { label: 'FIFA · designazione ufficiale', url: 'https://ipt.fifa.com/refereeing/news/slavko-vincic-world-cup-2026-final-referee-spain-argentina' },
+        { label: 'KickoffScore · campione 2025/26', url: 'https://kickoffscore.com/es/referees/jesus-valenzuela' },
+        { label: 'PlayerStats · storico per competizione', url: 'https://playerstats.football/referee/726' }
+      ]
     },
     environment: {
       surface: 'Erba naturale FIFA (Bermuda)',
@@ -53,7 +59,11 @@ const matches = [
       "La quota di mercato vede correttamente la Francia avanti. Il profilo da terzo posto, però, riduce il valore dell'Under: entrambe hanno qualità offensiva, cambi profondi e meno incentivo a congelare la gara."
     ],
     key: "Cherki tra le linee contro Mainoo-Eze. Se l'Inghilterra non chiude quella ricezione, Mbappé potrà attaccare una difesa costretta a rompere la propria linea.",
-    volumes: 'Francia 13-18 tiri, 5-8 nello specchio e 5-8 corner. Inghilterra 9-14 tiri, 3-6 nello specchio e 3-6 corner.',
+    volumes: 'Francia 12-17 tiri, 4-7 nello specchio e 5-8 corner. Inghilterra 9-14 tiri, 3-6 nello specchio e 3-6 corner. Falli totali attesi: 21-27.',
+    teamEvidence: [
+      { team: 'Francia', sample: '6 gare pre-semifinale', averages: '18,3 tiri · 7,8 in porta · 6,8 corner · 9,8 falli fatti · 9,7 subiti', latest: 'Semifinale con la Spagna: 10 tiri, 3 in porta, 7 corner, 11 falli fatti e 12 subiti.', reading: 'Il volume offensivo del torneo è alto, ma la semifinale mostra che contro un possesso organizzato la Francia può produrre meno tiri senza perdere la spinta sui corner.' },
+      { team: 'Inghilterra', sample: '5 gare pre-semifinale', averages: '16,0 tiri · 6,4 in porta · 6,2 corner · 10,8 falli fatti · 15,6 subiti', latest: 'Ultime due a eliminazione: 14 tiri e 4 corner con la Norvegia; 5 tiri e 2 corner con l’Argentina. In semifinale 11 falli fatti e 15 subiti.', reading: 'La dispersione è ampia: se subisce il possesso francese può restare sotto 10 tiri, ma Bellingham e Rashford possono far salire falli subiti e transizioni.' }
+    ],
     cards: [
       ['Mainoo', 'Possibile primo ammonito', 'Zona di Cherki e transizioni francesi da interrompere.'],
       ['Manu Koné', 'Medio-alto', 'Pressione aggressiva su Bellingham.'],
@@ -85,7 +95,14 @@ const matches = [
     referee: {
       name: 'Slavko Vinčić',
       country: 'Slovenia',
-      impact: 'Il profilo arbitrale sostiene la lettura disciplinare della finale, ma resta un fattore secondario rispetto a struttura tattica e probabili formazioni.'
+      impact: 'Arbitro internazionale dal 2010, con finali di Europa League 2022 e Champions League 2024. I tracker recenti lo collocano intorno a 19-24 falli e circa 2,3-3,0 gialli a partita nei campioni 2025/26 e Mondiale: profilo da gestione selettiva più che da Over cartellini automatico.',
+      indicators: { internationalSince: 2010, recentFoulsRange: '19-24', recentYellowsRange: '2,3-3,0', worldCupMatchesSample: 3 },
+      sources: [
+        { label: 'FIFA · profilo e designazione finale', url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/vincic-to-take-charge-of-world-cup-final' },
+        { label: 'UEFA · esperienza nelle finali', url: 'https://www.uefa.com/news-media/news/0275-152a0f2b7068-25705fc4aef9-1000--unique-europa-league-hat-trick-for-seville-final-referee-v/' },
+        { label: 'KickoffScore · campione 2025/26', url: 'https://kickoffscore.com/referees/s-vincic' },
+        { label: 'FootyMetrics · campione Mondiale 2026', url: 'https://www.footymetrics.com/referees/681-slavko-vincic' }
+      ]
     },
     environment: {
       surface: 'Erba naturale FIFA',
@@ -110,7 +127,11 @@ const matches = [
       "Il mercato rende la Spagna favorita nei 90 minuti, ma il pareggio a 3,05 è coerente con una finale in cui entrambe vorranno evitare la prima perdita centrale. L'Under 2,5 resta la base più solida delle quote principali."
     ],
     key: "Rodri contro Messi dopo la perdita del pallone. Se la Spagna impedisce la prima ricezione argentina può accumulare territorio; se Messi riceve fronte alla porta, Álvarez attacca immediatamente lo spazio dietro Laporte e Cubarsí.",
-    volumes: 'Spagna 11-15 tiri, 3-6 nello specchio e 4-7 corner. Argentina 8-12 tiri, 3-5 nello specchio e 2-5 corner.',
+    volumes: 'Spagna 11-16 tiri, 4-7 nello specchio e 4-7 corner. Argentina 11-16 tiri, 4-6 nello specchio e 3-6 corner. Falli totali attesi: 23-29.',
+    teamEvidence: [
+      { team: 'Spagna', sample: '6 gare pre-semifinale', averages: '20,3 tiri nelle 5 righe complete · 6,7 in porta · 7,3 corner · 11,3 falli fatti · 9,8 subiti', latest: 'Semifinale con la Francia: 10 tiri, 2 in porta, 1 corner, 12 falli fatti e 11 subiti.', reading: 'Il dato torneo resta dominante, ma l’ultima gara segnala un possibile calo di volume quando la Spagna sceglie controllo e protezione del risultato.' },
+      { team: 'Argentina', sample: '5 gare pre-semifinale', averages: '15,0 tiri · 6,4 in porta · 4,6 corner · 11,8 falli fatti · 11,4 subiti', latest: 'Ultime due disponibili: 22 tiri, 7 in porta e 8 corner con la Svizzera; 15 tiri, 5 in porta e 6 corner con l’Inghilterra. In semifinale 15 falli fatti e 11 subiti.', reading: 'Il 4-1-3-2 non è soltanto difensivo: Messi, Álvarez e gli inserimenti di Enzo/Mac Allister sostengono una previsione più alta di tiri e corner rispetto alla prima bozza.' }
+    ],
     cards: [
       ['Leandro Paredes', 'Possibile primo ammonito', 'Zona di Olmo e copertura delle uscite di Messi.'],
       ['Nahuel Molina', 'Medio-alto', 'Duello continuo con Lamine Yamal.'],
@@ -209,6 +230,8 @@ function render(match, picks, errors, portfolios) {
   const errorItems = errors.map(([label, odd, reason]) => `<li><b>${label} @ ${odd.toFixed(2)}</b><small>${reason}</small></li>`).join('');
   const comboRows = portfolios.map((item) => `<div><b>${item.name} <em>@ ${item.finalOdds.toFixed(2)}</em></b><small>${item.events.map((event) => `${event.displayName} @${event.odds.toFixed(2)}`).join(' · ')}</small></div>`).join('');
   const environmentRows = `<div><dt>Superficie</dt><dd>${match.environment.surface}</dd></div><div><dt>Impianto</dt><dd>${match.environment.structure}</dd></div><div><dt>Temperatura</dt><dd>${match.environment.temperature}</dd></div><div><dt>Umidità</dt><dd>${match.environment.humidity}</dd></div>`;
+  const evidenceBlocks = match.teamEvidence.map((item) => `<section><h3>${item.team}: corner, tiri e falli</h3><p><b>Medie (${item.sample}):</b> ${item.averages}.</p><p><b>Ultimo riferimento:</b> ${item.latest}</p><p>${item.reading}</p></section>`).join('');
+  const refereeSources = match.referee.sources.map((source) => `<li><a href="${source.url}" target="_blank" rel="noopener">${source.label}</a></li>`).join('');
   return `<!doctype html>
 <html lang="it"><head><meta charset="utf-8"><base href="../"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pronostico ${match.match} | Mondiale 2026</title><link rel="stylesheet" href="css/styles.css?v=20260718-finals-1"></head>
 <body class="reading-page"><header><div class="topbar"><img class="site-emblem" src="assets/world-cup-2026-logo.png" alt=""><div><h1>Lettura</h1><p class="sub">Pronostici raccontati come una partita, prima che cominci.</p></div></div><nav class="page-links"><a class="page-link" href="index.html">Home</a><a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a><a class="page-link active" href="lettura.html">Lettura</a><a class="page-link" href="storia.html">Storia</a></nav></header>
@@ -216,8 +239,8 @@ function render(match, picks, errors, portfolios) {
 <header class="reading-hero"><div class="reading-kicker">${match.round} · Formazioni probabili e quote aggiornate</div><div class="reading-match"><div class="reading-team"><img src="${match.home.flag}" alt=""><strong>${match.home.name}</strong></div><div class="reading-versus"><b>${match.home.name} - ${match.away.name}</b><small>${match.date} · ${match.venue} · ore ${match.time}</small></div><div class="reading-team is-away"><img src="${match.away.flag}" alt=""><strong>${match.away.name}</strong></div></div><h2>${match.title}</h2><p class="reading-deck">${match.deck}</p><div class="reading-meta"><span>Arbitro: ${match.referee.name}</span><span>Risultato centrale: ${match.centralScore}</span><span>Scelta: ${match.winner}</span></div></header>
 <section class="reading-summary"><div><span>Probabilità nei 90'</span><strong>${match.probabilities}</strong><small>Stima Codex aggiornata alle probabili</small></div><div><span>Verdetto</span><strong>${match.winner}</strong><small>La gerarchia include eventuali supplementari e rigori</small></div><div><span>Risultato centrale</span><strong>${match.centralScore}</strong><small>Scenario guida della lettura</small></div></section>
 <div class="round16-info-grid"><section class="round16-info-box round16-formations"><span>1</span><h2>Formazioni probabili</h2><div class="round16-formation"><h3>${match.home.name} <span>${match.formationHome.shape}</span></h3><p>${match.formationHome.players}</p></div><div class="round16-formation"><h3>${match.away.name} <span>${match.formationAway.shape}</span></h3><p>${match.formationAway.players}</p></div></section><section class="round16-info-box"><span>2</span><h2>Campo</h2><p><b>${match.venue}.</b> ${match.environment.surface}; ${match.environment.structure.toLowerCase()}.</p></section><section class="round16-info-box"><span>3</span><h2>Meteo</h2><p>${match.environment.temperature}, umidità ${match.environment.humidity.toLowerCase()}. ${match.environment.weather}. ${match.environment.operationalRisk}</p></section><section class="round16-info-box"><span>4</span><h2>Arbitro</h2><p><b>${match.referee.name} (${match.referee.country}).</b> ${match.referee.impact}</p></section></div>
-<div class="reading-layout"><div class="reading-copy"><section><p class="reading-lead">${match.analysis[0]}</p><p>${match.analysis[1]}</p><p>${match.analysis[2]}</p></section><blockquote><strong>La chiave</strong>${match.key}</blockquote><section><h3>Ambiente e impatto sulla partita</h3><p>${match.environment.weather}. ${match.environment.operationalRisk}</p><p>Il campo è in ${match.environment.surface.toLowerCase()} e l’impianto è ${match.environment.structure.toLowerCase()}: il modello mantiene il volume previsto, ma considera possibili variazioni di ritmo legate alle condizioni.</p></section><section><h3>Referee Intelligence</h3><p><b>${match.referee.name} (${match.referee.country}).</b> ${match.referee.impact}</p></section><section><h3>Gerarchia dei possibili ammoniti</h3><ol class="reading-card-ranking">${cardItems}</ol></section><section><h3>Verdetto</h3><p><b>Risultato centrale: ${match.centralScore}.</b> La scelta complessiva resta <b>${match.winner}</b>. Le quote servono a ordinare le giocate, non a forzare una previsione diversa dalla lettura tattica.</p></section></div>
-<aside class="reading-sidebar"><section class="reading-data-panel"><span>Campo e condizioni</span><dl class="reading-stat-list">${environmentRows}</dl><p>${match.environment.weather}. ${match.environment.operationalRisk}</p></section><section class="reading-data-panel"><span>Arbitro</span><p><b>${match.referee.name}</b><br>${match.referee.country}</p></section><section class="reading-data-panel"><span>Quote chiave</span><ol class="reading-card-ranking">${pickItems}</ol></section><section class="reading-data-panel"><span>MyCombo · quote aggiornate</span><div class="reading-mycombo">${comboRows}</div></section><section class="reading-data-panel"><span>3 possibili errori di quota</span><ul class="reading-picks">${errorItems}</ul></section><section class="reading-data-panel"><span>Rischi del pronostico</span><ul class="reading-picks"><li>Le formazioni sono probabili, non ufficiali.</li><li>Un gol precoce può cambiare ritmo e volumi.</li><li>I mercati inclusivi dei supplementari non sono confrontabili con quelli sui 90 minuti.</li></ul></section></aside></div>
+<div class="reading-layout"><div class="reading-copy"><section><p class="reading-lead">${match.analysis[0]}</p><p>${match.analysis[1]}</p><p>${match.analysis[2]}</p></section><blockquote><strong>La chiave</strong>${match.key}</blockquote>${evidenceBlocks}<section><h3>Proiezione combinata</h3><p>${match.volumes}</p><p>Le stime combinano le medie del torneo disponibili nel repository con l’ultima gara a eliminazione diretta. Il campione non è uniforme per tutte le squadre: per questo vengono mostrate come intervalli, non come certezze.</p></section><section><h3>Ambiente e impatto sulla partita</h3><p>${match.environment.weather}. ${match.environment.operationalRisk}</p><p>Il campo è in ${match.environment.surface.toLowerCase()} e l’impianto è ${match.environment.structure.toLowerCase()}: il modello mantiene il volume previsto, ma considera possibili variazioni di ritmo legate alle condizioni.</p></section><section><h3>Referee Intelligence</h3><p><b>${match.referee.name} (${match.referee.country}).</b> ${match.referee.impact}</p><p>I numeri arbitrali sono un filtro secondario: falli fatti/subiti, ruolo e duello diretto restano più importanti per ordinare i possibili ammoniti.</p></section><section><h3>Gerarchia dei possibili ammoniti</h3><ol class="reading-card-ranking">${cardItems}</ol></section><section><h3>Verdetto</h3><p><b>Risultato centrale: ${match.centralScore}.</b> La scelta complessiva resta <b>${match.winner}</b>. Le quote servono a ordinare le giocate, non a forzare una previsione diversa dalla lettura tattica.</p></section></div>
+<aside class="reading-sidebar"><section class="reading-data-panel"><span>Campo e condizioni</span><dl class="reading-stat-list">${environmentRows}</dl><p>${match.environment.weather}. ${match.environment.operationalRisk}</p></section><section class="reading-data-panel"><span>Arbitro</span><p><b>${match.referee.name}</b><br>${match.referee.country}</p><ul class="reading-picks">${refereeSources}</ul></section><section class="reading-data-panel"><span>Volume previsto</span><p>${match.volumes}</p></section><section class="reading-data-panel"><span>Quote chiave</span><ol class="reading-card-ranking">${pickItems}</ol></section><section class="reading-data-panel"><span>MyCombo · quote aggiornate</span><div class="reading-mycombo">${comboRows}</div></section><section class="reading-data-panel"><span>3 possibili errori di quota</span><ul class="reading-picks">${errorItems}</ul></section><section class="reading-data-panel"><span>Rischi del pronostico</span><ul class="reading-picks"><li>Le formazioni sono probabili, non ufficiali.</li><li>I campioni statistici delle squadre non hanno la stessa profondità.</li><li>Un gol precoce può cambiare ritmo, corner e volume falli.</li><li>I mercati inclusivi dei supplementari non sono confrontabili con quelli sui 90 minuti.</li></ul></section></aside></div>
 <footer class="reading-note"><strong>Nota</strong><p>Lettura aggiornata il 18 luglio 2026 con le formazioni probabili fornite e le quote presenti in <code>${match.quoteFile}</code>.</p></footer></article></main><script src="js/nav.js?v=20260718-finals-1"></script></body></html>`;
 }
 
@@ -238,6 +261,8 @@ for (const match of matches) {
     formations: { [match.home.key]: match.formationHome, [match.away.key]: match.formationAway },
     refereeIntelligence: match.referee,
     matchEnvironment: { venue: match.venue, ...match.environment },
+    teamEvidence: match.teamEvidence,
+    volumeForecast: match.volumes,
     cardHierarchy: match.cards.map(([player, risk], index) => ({ player, risk, possibleFirstBooked: index === 0 })),
     quoteSource: match.quoteFile,
     keyPicks: picks.map(([selection, odd]) => ({ selection, odd })),
@@ -254,6 +279,8 @@ for (const match of matches) {
     sourceReading: `data/readings/${match.slug}.json`,
     refereeIntelligence: match.referee,
     matchEnvironment: { venue: match.venue, ...match.environment },
+    teamEvidence: match.teamEvidence,
+    volumeForecast: match.volumes,
     safe: portfolios[0],
     balanced: portfolios[1],
     aggressive: portfolios[2],

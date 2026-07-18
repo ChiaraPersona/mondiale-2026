@@ -9,7 +9,31 @@
   "refereeIntelligence": {
     "name": "Slavko Vinčić",
     "country": "Slovenia",
-    "impact": "Il profilo arbitrale sostiene la lettura disciplinare della finale, ma resta un fattore secondario rispetto a struttura tattica e probabili formazioni."
+    "impact": "Arbitro internazionale dal 2010, con finali di Europa League 2022 e Champions League 2024. I tracker recenti lo collocano intorno a 19-24 falli e circa 2,3-3,0 gialli a partita nei campioni 2025/26 e Mondiale: profilo da gestione selettiva più che da Over cartellini automatico.",
+    "indicators": {
+      "internationalSince": 2010,
+      "recentFoulsRange": "19-24",
+      "recentYellowsRange": "2,3-3,0",
+      "worldCupMatchesSample": 3
+    },
+    "sources": [
+      {
+        "label": "FIFA · profilo e designazione finale",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/vincic-to-take-charge-of-world-cup-final"
+      },
+      {
+        "label": "UEFA · esperienza nelle finali",
+        "url": "https://www.uefa.com/news-media/news/0275-152a0f2b7068-25705fc4aef9-1000--unique-europa-league-hat-trick-for-seville-final-referee-v/"
+      },
+      {
+        "label": "KickoffScore · campione 2025/26",
+        "url": "https://kickoffscore.com/referees/s-vincic"
+      },
+      {
+        "label": "FootyMetrics · campione Mondiale 2026",
+        "url": "https://www.footymetrics.com/referees/681-slavko-vincic"
+      }
+    ]
   },
   "matchEnvironment": {
     "venue": "MetLife Stadium (New York/New Jersey)",
@@ -20,6 +44,23 @@
     "weather": "Possibili rovesci",
     "operationalRisk": "Qualità dell’aria da monitorare per l’eventuale fumo degli incendi canadesi."
   },
+  "teamEvidence": [
+    {
+      "team": "Spagna",
+      "sample": "6 gare pre-semifinale",
+      "averages": "20,3 tiri nelle 5 righe complete · 6,7 in porta · 7,3 corner · 11,3 falli fatti · 9,8 subiti",
+      "latest": "Semifinale con la Francia: 10 tiri, 2 in porta, 1 corner, 12 falli fatti e 11 subiti.",
+      "reading": "Il dato torneo resta dominante, ma l’ultima gara segnala un possibile calo di volume quando la Spagna sceglie controllo e protezione del risultato."
+    },
+    {
+      "team": "Argentina",
+      "sample": "5 gare pre-semifinale",
+      "averages": "15,0 tiri · 6,4 in porta · 4,6 corner · 11,8 falli fatti · 11,4 subiti",
+      "latest": "Ultime due disponibili: 22 tiri, 7 in porta e 8 corner con la Svizzera; 15 tiri, 5 in porta e 6 corner con l’Inghilterra. In semifinale 15 falli fatti e 11 subiti.",
+      "reading": "Il 4-1-3-2 non è soltanto difensivo: Messi, Álvarez e gli inserimenti di Enzo/Mac Allister sostengono una previsione più alta di tiri e corner rispetto alla prima bozza."
+    }
+  ],
+  "volumeForecast": "Spagna 11-16 tiri, 4-7 nello specchio e 4-7 corner. Argentina 11-16 tiri, 4-6 nello specchio e 3-6 corner. Falli totali attesi: 23-29.",
   "safe": {
     "name": "Safe",
     "events": [

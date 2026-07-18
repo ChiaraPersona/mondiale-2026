@@ -23,7 +23,28 @@
   "refereeIntelligence": {
     "name": "Jesús Valenzuela",
     "country": "Venezuela",
-    "impact": "Il profilo arbitrale viene usato come supporto alla gerarchia ammoniti, senza modificare artificialmente il pronostico principale."
+    "impact": "Arbitro CONMEBOL esperto e storicamente severo sui cartellini. Il campione 2025/26 disponibile è però più contenuto: 146 falli, 21 gialli e 1 rosso in 7 gare, cioè 20,9 falli e 3,0 gialli a partita. La carriera resta vicina a 5 gialli di media: meglio privilegiare falli e duelli prima di alzare automaticamente l’Over cartellini.",
+    "indicators": {
+      "recentMatches": 7,
+      "foulsPerMatch": 20.9,
+      "yellowsPerMatch": 3,
+      "reds": 1,
+      "careerYellowsPerMatch": 4.97
+    },
+    "sources": [
+      {
+        "label": "FIFA · designazione ufficiale",
+        "url": "https://ipt.fifa.com/refereeing/news/slavko-vincic-world-cup-2026-final-referee-spain-argentina"
+      },
+      {
+        "label": "KickoffScore · campione 2025/26",
+        "url": "https://kickoffscore.com/es/referees/jesus-valenzuela"
+      },
+      {
+        "label": "PlayerStats · storico per competizione",
+        "url": "https://playerstats.football/referee/726"
+      }
+    ]
   },
   "matchEnvironment": {
     "venue": "Hard Rock Stadium (Miami)",
@@ -34,6 +55,23 @@
     "weather": "Possibili temporali e possibili ritardi per fulmini",
     "operationalRisk": "Caldo intenso: possibile calo del ritmo e gestione più prudente degli sforzi dopo l’ora di gioco."
   },
+  "teamEvidence": [
+    {
+      "team": "Francia",
+      "sample": "6 gare pre-semifinale",
+      "averages": "18,3 tiri · 7,8 in porta · 6,8 corner · 9,8 falli fatti · 9,7 subiti",
+      "latest": "Semifinale con la Spagna: 10 tiri, 3 in porta, 7 corner, 11 falli fatti e 12 subiti.",
+      "reading": "Il volume offensivo del torneo è alto, ma la semifinale mostra che contro un possesso organizzato la Francia può produrre meno tiri senza perdere la spinta sui corner."
+    },
+    {
+      "team": "Inghilterra",
+      "sample": "5 gare pre-semifinale",
+      "averages": "16,0 tiri · 6,4 in porta · 6,2 corner · 10,8 falli fatti · 15,6 subiti",
+      "latest": "Ultime due a eliminazione: 14 tiri e 4 corner con la Norvegia; 5 tiri e 2 corner con l’Argentina. In semifinale 11 falli fatti e 15 subiti.",
+      "reading": "La dispersione è ampia: se subisce il possesso francese può restare sotto 10 tiri, ma Bellingham e Rashford possono far salire falli subiti e transizioni."
+    }
+  ],
+  "volumeForecast": "Francia 12-17 tiri, 4-7 nello specchio e 5-8 corner. Inghilterra 9-14 tiri, 3-6 nello specchio e 3-6 corner. Falli totali attesi: 21-27.",
   "cardHierarchy": [
     {
       "player": "Mainoo",

@@ -24,7 +24,20 @@ const matches = [
     round: 'Finale 3° posto',
     date: '18 luglio 2026',
     time: '23:00',
-    venue: 'Miami Stadium',
+    venue: 'Hard Rock Stadium (Miami)',
+    referee: {
+      name: 'Jesús Valenzuela',
+      country: 'Venezuela',
+      impact: 'Il profilo arbitrale viene usato come supporto alla gerarchia ammoniti, senza modificare artificialmente il pronostico principale.'
+    },
+    environment: {
+      surface: 'Erba naturale FIFA (Bermuda)',
+      structure: 'Campo aperto, senza tetto',
+      temperature: '29-31°C',
+      humidity: '75-85%',
+      weather: 'Possibili temporali e possibili ritardi per fulmini',
+      operationalRisk: 'Caldo intenso: possibile calo del ritmo e gestione più prudente degli sforzi dopo l’ora di gioco.'
+    },
     home: { name: 'Francia', flag: 'flags/francia.svg', key: 'france' },
     away: { name: 'Inghilterra', flag: 'flags/inghilterra.svg', key: 'england' },
     centralScore: '2-1',
@@ -68,7 +81,20 @@ const matches = [
     round: 'Finale',
     date: '19 luglio 2026',
     time: '21:00',
-    venue: 'New York New Jersey Stadium',
+    venue: 'MetLife Stadium (New York/New Jersey)',
+    referee: {
+      name: 'Slavko Vinčić',
+      country: 'Slovenia',
+      impact: 'Il profilo arbitrale sostiene la lettura disciplinare della finale, ma resta un fattore secondario rispetto a struttura tattica e probabili formazioni.'
+    },
+    environment: {
+      surface: 'Erba naturale FIFA',
+      structure: 'Campo aperto, ottime condizioni',
+      temperature: '26-28°C',
+      humidity: 'Medio-alta',
+      weather: 'Possibili rovesci',
+      operationalRisk: 'Qualità dell’aria da monitorare per l’eventuale fumo degli incendi canadesi.'
+    },
     home: { name: 'Spagna', flag: 'flags/spagna.svg', key: 'spain' },
     away: { name: 'Argentina', flag: 'flags/argentina.svg', key: 'argentina' },
     centralScore: '1-1 nei 90 minuti',
@@ -106,19 +132,92 @@ const matches = [
   }
 ];
 
-function render(match, picks, errors) {
+const myComboDefinitions = {
+  'france-england-2026-07-18': {
+    safe: [
+      ['VINCENTE FINALE TER.POSTO', '1', 'Francia vincente terzo posto', 'esito'],
+      ['GOAL/NO GOAL', 'GOAL', 'Goal', 'esito'],
+      ['MBAPPE K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.', 'OVER', 'Mbappé Over 1,5 tiri in porta incl. TS', 'giocatore'],
+      ['MBAPPE K. - KANE H. 1X2 TIRI IN PORTA INC TS', '1', 'Mbappé più tiri in porta di Kane incl. TS', 'giocatore']
+    ],
+    balancedAdd: [
+      ['SQUADRA 1: U/O 4.5 TIRI IN PORTA', 'OVER', 'Francia Over 4,5 tiri in porta', 'volume'],
+      ['BELLINGHAM JUDE U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.', 'OVER', 'Bellingham almeno 1 tiro in porta incl. TS', 'giocatore']
+    ],
+    aggressiveAdd: [
+      ['KANE H. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.', 'OVER', 'Kane Over 2,5 tiri totali incl. TS', 'giocatore'],
+      ['RASHFORD M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.', 'OVER', 'Rashford Over 1,5 tiri totali incl. TS', 'giocatore']
+    ]
+  },
+  'spain-argentina-2026-07-19': {
+    safe: [
+      ['U/O 2.5', 'UNDER', 'Under 2,5', 'esito'],
+      ['1 TEMPO: U/O 1.5', 'UNDER', 'Primo tempo Under 1,5', 'esito'],
+      ['MESSI L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.', 'OVER', 'Messi almeno 1 tiro in porta incl. TS', 'giocatore'],
+      ['YAMAL L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.', 'OVER', 'Lamine Yamal almeno 1 tiro in porta incl. TS', 'giocatore'],
+      ['OYARZABAL M. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.', 'OVER', 'Oyarzabal almeno 1 tiro in porta incl. TS', 'giocatore']
+    ],
+    balancedAdd: [
+      ['U/O 3.5 CORNER SQUADRA 1', 'OVER', 'Spagna Over 3,5 corner', 'volume'],
+      ['U/O 2.5 CORNER SQUADRA 2', 'OVER', 'Argentina Over 2,5 corner', 'volume']
+    ],
+    aggressiveAdd: [
+      ['MESSI L. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.', 'OVER', 'Messi Over 2,5 tiri totali incl. TS', 'giocatore'],
+      ['YAMAL L. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.', 'OVER', 'Lamine Yamal Over 2,5 tiri totali incl. TS', 'giocatore']
+    ]
+  }
+};
+
+function quoteEvent(pool, [info, selection, displayName, category]) {
+  const row = pool.markets.find((market) => market.stato === 1 && market.info === info && market.esito === selection);
+  if (!row) throw new Error(`Evento MyCombo non trovato: ${pool.match} / ${info} / ${selection}`);
+  if (row.quota < 1.2 || row.quota > 1.6) throw new Error(`Quota MyCombo fuori banda: ${displayName} @ ${row.quota}`);
+  return {
+    id: `event-${row.selectionId}`,
+    market: row.mercato,
+    info: row.info,
+    selection: row.esito,
+    odds: row.quota,
+    selectionId: row.selectionId,
+    marketId: row.marketId,
+    category,
+    class: 'CORE',
+    displayName,
+    marketType: row.mercato,
+    reason: 'Evento coerente con formazioni probabili, scenario tecnico e volume previsto.'
+  };
+}
+
+function portfolio(name, definitions, pool, targetOdds, risk) {
+  const events = definitions.map((definition) => quoteEvent(pool, definition));
+  const finalOdds = Number(events.reduce((total, event) => total * event.odds, 1).toFixed(2));
+  return { name, events, finalOdds, targetOdds, averageRisk: risk };
+}
+
+function buildPortfolios(match, pool) {
+  const definition = myComboDefinitions[match.slug];
+  return [
+    portfolio('Safe', definition.safe, pool, 'circa 5', 'medio'),
+    portfolio('Balanced', [...definition.safe, ...definition.balancedAdd], pool, 'circa 10', 'medio-alto'),
+    portfolio('Aggressive', [...definition.safe, ...definition.balancedAdd, ...definition.aggressiveAdd], pool, 'circa 20', 'alto')
+  ];
+}
+
+function render(match, picks, errors, portfolios) {
   const cardItems = match.cards.map(([player, risk, reason], index) => `<li><b>${player}</b><strong>${risk}</strong><small>${reason}</small>${index === 0 ? '' : ''}</li>`).join('');
   const pickItems = picks.map(([label, odd]) => `<li><b>${label}</b><strong>@ ${odd.toFixed(2)}</strong></li>`).join('');
   const errorItems = errors.map(([label, odd, reason]) => `<li><b>${label} @ ${odd.toFixed(2)}</b><small>${reason}</small></li>`).join('');
+  const comboRows = portfolios.map((item) => `<div><b>${item.name} <em>@ ${item.finalOdds.toFixed(2)}</em></b><small>${item.events.map((event) => `${event.displayName} @${event.odds.toFixed(2)}`).join(' · ')}</small></div>`).join('');
+  const environmentRows = `<div><dt>Superficie</dt><dd>${match.environment.surface}</dd></div><div><dt>Impianto</dt><dd>${match.environment.structure}</dd></div><div><dt>Temperatura</dt><dd>${match.environment.temperature}</dd></div><div><dt>Umidità</dt><dd>${match.environment.humidity}</dd></div>`;
   return `<!doctype html>
 <html lang="it"><head><meta charset="utf-8"><base href="../"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pronostico ${match.match} | Mondiale 2026</title><link rel="stylesheet" href="css/styles.css?v=20260718-finals-1"></head>
 <body class="reading-page"><header><div class="topbar"><img class="site-emblem" src="assets/world-cup-2026-logo.png" alt=""><div><h1>Lettura</h1><p class="sub">Pronostici raccontati come una partita, prima che cominci.</p></div></div><nav class="page-links"><a class="page-link" href="index.html">Home</a><a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a><a class="page-link active" href="lettura.html">Lettura</a><a class="page-link" href="storia.html">Storia</a></nav></header>
 <main class="reading-main"><nav class="reading-article-nav"><a href="lettura.html">Tutte le letture</a></nav><article class="reading-article">
-<header class="reading-hero"><div class="reading-kicker">${match.round} · Formazioni probabili e quote aggiornate</div><div class="reading-match"><div class="reading-team"><img src="${match.home.flag}" alt=""><strong>${match.home.name}</strong></div><div class="reading-versus"><b>${match.home.name} - ${match.away.name}</b><small>${match.date} · ${match.venue} · ore ${match.time}</small></div><div class="reading-team is-away"><img src="${match.away.flag}" alt=""><strong>${match.away.name}</strong></div></div><h2>${match.title}</h2><p class="reading-deck">${match.deck}</p><div class="reading-meta"><span>Formazioni probabili del 18 luglio</span><span>Risultato centrale: ${match.centralScore}</span><span>Scelta: ${match.winner}</span></div></header>
+<header class="reading-hero"><div class="reading-kicker">${match.round} · Formazioni probabili e quote aggiornate</div><div class="reading-match"><div class="reading-team"><img src="${match.home.flag}" alt=""><strong>${match.home.name}</strong></div><div class="reading-versus"><b>${match.home.name} - ${match.away.name}</b><small>${match.date} · ${match.venue} · ore ${match.time}</small></div><div class="reading-team is-away"><img src="${match.away.flag}" alt=""><strong>${match.away.name}</strong></div></div><h2>${match.title}</h2><p class="reading-deck">${match.deck}</p><div class="reading-meta"><span>Arbitro: ${match.referee.name}</span><span>Risultato centrale: ${match.centralScore}</span><span>Scelta: ${match.winner}</span></div></header>
 <section class="reading-summary"><div><span>Probabilità nei 90'</span><strong>${match.probabilities}</strong><small>Stima Codex aggiornata alle probabili</small></div><div><span>Verdetto</span><strong>${match.winner}</strong><small>La gerarchia include eventuali supplementari e rigori</small></div><div><span>Risultato centrale</span><strong>${match.centralScore}</strong><small>Scenario guida della lettura</small></div></section>
-<div class="round16-info-grid"><section class="round16-info-box round16-formations"><span>1</span><h2>Formazioni probabili</h2><div class="round16-formation"><h3>${match.home.name} <span>${match.formationHome.shape}</span></h3><p>${match.formationHome.players}</p></div><div class="round16-formation"><h3>${match.away.name} <span>${match.formationAway.shape}</span></h3><p>${match.formationAway.players}</p></div></section><section class="round16-info-box"><span>2</span><h2>Volume previsto</h2><p>${match.volumes}</p></section><section class="round16-info-box"><span>3</span><h2>Quote</h2><p>Quote lette dal file locale fornito il 18 luglio 2026. Mercati con supplementari indicati esplicitamente.</p></section><section class="round16-info-box"><span>4</span><h2>Stato lettura</h2><p>Aggiornata sulle probabili mostrate; gli undici restano da confermare.</p></section></div>
-<div class="reading-layout"><div class="reading-copy"><section><p class="reading-lead">${match.analysis[0]}</p><p>${match.analysis[1]}</p><p>${match.analysis[2]}</p></section><blockquote><strong>La chiave</strong>${match.key}</blockquote><section><h3>Gerarchia dei possibili ammoniti</h3><ol class="reading-card-ranking">${cardItems}</ol></section><section><h3>Verdetto</h3><p><b>Risultato centrale: ${match.centralScore}.</b> La scelta complessiva resta <b>${match.winner}</b>. Le quote servono a ordinare le giocate, non a forzare una previsione diversa dalla lettura tattica.</p></section><section><h3>3 possibili errori di quota</h3><ol class="reading-card-ranking">${errorItems}</ol></section></div>
-<aside class="reading-sidebar"><section class="reading-data-panel"><span>Quote chiave</span><ol class="reading-card-ranking">${pickItems}</ol></section><section class="reading-data-panel"><span>Rischi del pronostico</span><ul class="reading-picks"><li>Le formazioni sono probabili, non ufficiali.</li><li>Un gol precoce può cambiare ritmo e volumi.</li><li>I mercati inclusivi dei supplementari non sono confrontabili con quelli sui 90 minuti.</li></ul></section></aside></div>
+<div class="round16-info-grid"><section class="round16-info-box round16-formations"><span>1</span><h2>Formazioni probabili</h2><div class="round16-formation"><h3>${match.home.name} <span>${match.formationHome.shape}</span></h3><p>${match.formationHome.players}</p></div><div class="round16-formation"><h3>${match.away.name} <span>${match.formationAway.shape}</span></h3><p>${match.formationAway.players}</p></div></section><section class="round16-info-box"><span>2</span><h2>Campo</h2><p><b>${match.venue}.</b> ${match.environment.surface}; ${match.environment.structure.toLowerCase()}.</p></section><section class="round16-info-box"><span>3</span><h2>Meteo</h2><p>${match.environment.temperature}, umidità ${match.environment.humidity.toLowerCase()}. ${match.environment.weather}. ${match.environment.operationalRisk}</p></section><section class="round16-info-box"><span>4</span><h2>Arbitro</h2><p><b>${match.referee.name} (${match.referee.country}).</b> ${match.referee.impact}</p></section></div>
+<div class="reading-layout"><div class="reading-copy"><section><p class="reading-lead">${match.analysis[0]}</p><p>${match.analysis[1]}</p><p>${match.analysis[2]}</p></section><blockquote><strong>La chiave</strong>${match.key}</blockquote><section><h3>Ambiente e impatto sulla partita</h3><p>${match.environment.weather}. ${match.environment.operationalRisk}</p><p>Il campo è in ${match.environment.surface.toLowerCase()} e l’impianto è ${match.environment.structure.toLowerCase()}: il modello mantiene il volume previsto, ma considera possibili variazioni di ritmo legate alle condizioni.</p></section><section><h3>Referee Intelligence</h3><p><b>${match.referee.name} (${match.referee.country}).</b> ${match.referee.impact}</p></section><section><h3>Gerarchia dei possibili ammoniti</h3><ol class="reading-card-ranking">${cardItems}</ol></section><section><h3>Verdetto</h3><p><b>Risultato centrale: ${match.centralScore}.</b> La scelta complessiva resta <b>${match.winner}</b>. Le quote servono a ordinare le giocate, non a forzare una previsione diversa dalla lettura tattica.</p></section></div>
+<aside class="reading-sidebar"><section class="reading-data-panel"><span>Campo e condizioni</span><dl class="reading-stat-list">${environmentRows}</dl><p>${match.environment.weather}. ${match.environment.operationalRisk}</p></section><section class="reading-data-panel"><span>Arbitro</span><p><b>${match.referee.name}</b><br>${match.referee.country}</p></section><section class="reading-data-panel"><span>Quote chiave</span><ol class="reading-card-ranking">${pickItems}</ol></section><section class="reading-data-panel"><span>MyCombo · quote aggiornate</span><div class="reading-mycombo">${comboRows}</div></section><section class="reading-data-panel"><span>3 possibili errori di quota</span><ul class="reading-picks">${errorItems}</ul></section><section class="reading-data-panel"><span>Rischi del pronostico</span><ul class="reading-picks"><li>Le formazioni sono probabili, non ufficiali.</li><li>Un gol precoce può cambiare ritmo e volumi.</li><li>I mercati inclusivi dei supplementari non sono confrontabili con quelli sui 90 minuti.</li></ul></section></aside></div>
 <footer class="reading-note"><strong>Nota</strong><p>Lettura aggiornata il 18 luglio 2026 con le formazioni probabili fornite e le quote presenti in <code>${match.quoteFile}</code>.</p></footer></article></main><script src="js/nav.js?v=20260718-finals-1"></script></body></html>`;
 }
 
@@ -126,6 +225,7 @@ for (const match of matches) {
   const pool = readJson(match.quoteFile);
   const picks = match.picks(pool);
   const valueErrors = match.valueErrors(pool);
+  const portfolios = buildPortfolios(match, pool);
   if (valueErrors.some(([, odd]) => odd < 3)) throw new Error(`${match.match}: errore di quota sotto 3.00`);
   const reading = {
     matchId: match.slug,
@@ -136,13 +236,34 @@ for (const match of matches) {
     lineupsStatus: 'formazioni probabili fornite il 18/07/2026',
     prediction: { centralScore: match.centralScore, winner: match.winner, probabilities90: match.probabilities },
     formations: { [match.home.key]: match.formationHome, [match.away.key]: match.formationAway },
+    refereeIntelligence: match.referee,
+    matchEnvironment: { venue: match.venue, ...match.environment },
     cardHierarchy: match.cards.map(([player, risk], index) => ({ player, risk, possibleFirstBooked: index === 0 })),
     quoteSource: match.quoteFile,
     keyPicks: picks.map(([selection, odd]) => ({ selection, odd })),
-    valueErrors: valueErrors.map(([selection, odd, reason]) => ({ selection, odd, reason }))
+    valueErrors: valueErrors.map(([selection, odd, reason]) => ({ selection, odd, reason })),
+    portfolios: portfolios.map(({ name, finalOdds, targetOdds, events }) => ({ name, finalOdds, targetOdds, events }))
+  };
+  const myCombo = {
+    matchId: match.slug,
+    match: match.match,
+    date: `${match.date} ore ${match.time}`,
+    completion: 100,
+    status: 'ready',
+    sourceQuote: match.quoteFile,
+    sourceReading: `data/readings/${match.slug}.json`,
+    refereeIntelligence: match.referee,
+    matchEnvironment: { venue: match.venue, ...match.environment },
+    safe: portfolios[0],
+    balanced: portfolios[1],
+    aggressive: portfolios[2],
+    portfolios,
+    topEvents: portfolios[2].events
   };
   fs.writeFileSync(path.join(ROOT, `data/readings/${match.slug}.json`), `${JSON.stringify(reading, null, 2)}\n`);
   fs.writeFileSync(path.join(ROOT, `data/readings/${match.italianSlug}.json`), `${JSON.stringify(reading, null, 2)}\n`);
-  fs.writeFileSync(path.join(ROOT, `letture/lettura-${match.italianSlug}.html`), render(match, picks, valueErrors));
-  console.log(`Generata ${match.match}`);
+  fs.writeFileSync(path.join(ROOT, `data/mycombo/${match.slug}.json`), `${JSON.stringify(myCombo, null, 2)}\n`);
+  fs.writeFileSync(path.join(ROOT, `data/mycombo/${match.italianSlug}.json`), `${JSON.stringify(myCombo, null, 2)}\n`);
+  fs.writeFileSync(path.join(ROOT, `letture/lettura-${match.italianSlug}.html`), render(match, picks, valueErrors, portfolios));
+  console.log(`Generata ${match.match}: ${portfolios.map((item) => `${item.name} @${item.finalOdds}`).join(', ')}`);
 }

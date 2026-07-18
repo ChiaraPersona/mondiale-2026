@@ -20,6 +20,20 @@
       "players": "Emiliano Martínez; Molina, Romero, Lisandro Martínez, Tagliafico; Paredes; Enzo Fernández, Mac Allister, De Paul; Messi; Julián Álvarez."
     }
   },
+  "refereeIntelligence": {
+    "name": "Slavko Vinčić",
+    "country": "Slovenia",
+    "impact": "Il profilo arbitrale sostiene la lettura disciplinare della finale, ma resta un fattore secondario rispetto a struttura tattica e probabili formazioni."
+  },
+  "matchEnvironment": {
+    "venue": "MetLife Stadium (New York/New Jersey)",
+    "surface": "Erba naturale FIFA",
+    "structure": "Campo aperto, ottime condizioni",
+    "temperature": "26-28°C",
+    "humidity": "Medio-alta",
+    "weather": "Possibili rovesci",
+    "operationalRisk": "Qualità dell’aria da monitorare per l’eventuale fumo degli incendi canadesi."
+  },
   "cardHierarchy": [
     {
       "player": "Leandro Paredes",
@@ -81,6 +95,323 @@
       "selection": "X + Goal",
       "odd": 4,
       "reason": "Traduce direttamente il risultato centrale 1-1."
+    }
+  ],
+  "portfolios": [
+    {
+      "name": "Safe",
+      "finalOdds": 5.03,
+      "targetOdds": "circa 5",
+      "events": [
+        {
+          "id": "event-5221262879",
+          "market": "UNDER/OVER",
+          "info": "U/O 2.5",
+          "selection": "UNDER",
+          "odds": 1.6,
+          "selectionId": 5221262879,
+          "marketId": 793929310,
+          "category": "esito",
+          "class": "CORE",
+          "displayName": "Under 2,5",
+          "marketType": "UNDER/OVER",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5221268151",
+          "market": "UNDER/OVER TEMPO X",
+          "info": "1 TEMPO: U/O 1.5",
+          "selection": "UNDER",
+          "odds": 1.3,
+          "selectionId": 5221268151,
+          "marketId": 793928351,
+          "category": "esito",
+          "class": "CORE",
+          "displayName": "Primo tempo Under 1,5",
+          "marketType": "UNDER/OVER TEMPO X",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222010074",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "MESSI L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.2,
+          "selectionId": 5222010074,
+          "marketId": 794073241,
+          "category": "giocatore",
+          "class": "CORE",
+          "displayName": "Messi almeno 1 tiro in porta incl. TS",
+          "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222010106",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "YAMAL L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.4,
+          "selectionId": 5222010106,
+          "marketId": 794073249,
+          "category": "giocatore",
+          "class": "CORE",
+          "displayName": "Lamine Yamal almeno 1 tiro in porta incl. TS",
+          "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222019204",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "OYARZABAL M. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.44,
+          "selectionId": 5222019204,
+          "marketId": 794072704,
+          "category": "giocatore",
+          "class": "CORE",
+          "displayName": "Oyarzabal almeno 1 tiro in porta incl. TS",
+          "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        }
+      ]
+    },
+    {
+      "name": "Balanced",
+      "finalOdds": 9.72,
+      "targetOdds": "circa 10",
+      "events": [
+        {
+          "id": "event-5221262879",
+          "market": "UNDER/OVER",
+          "info": "U/O 2.5",
+          "selection": "UNDER",
+          "odds": 1.6,
+          "selectionId": 5221262879,
+          "marketId": 793929310,
+          "category": "esito",
+          "class": "CORE",
+          "displayName": "Under 2,5",
+          "marketType": "UNDER/OVER",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5221268151",
+          "market": "UNDER/OVER TEMPO X",
+          "info": "1 TEMPO: U/O 1.5",
+          "selection": "UNDER",
+          "odds": 1.3,
+          "selectionId": 5221268151,
+          "marketId": 793928351,
+          "category": "esito",
+          "class": "CORE",
+          "displayName": "Primo tempo Under 1,5",
+          "marketType": "UNDER/OVER TEMPO X",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222010074",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "MESSI L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.2,
+          "selectionId": 5222010074,
+          "marketId": 794073241,
+          "category": "giocatore",
+          "class": "CORE",
+          "displayName": "Messi almeno 1 tiro in porta incl. TS",
+          "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222010106",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "YAMAL L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.4,
+          "selectionId": 5222010106,
+          "marketId": 794073249,
+          "category": "giocatore",
+          "class": "CORE",
+          "displayName": "Lamine Yamal almeno 1 tiro in porta incl. TS",
+          "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222019204",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "OYARZABAL M. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.44,
+          "selectionId": 5222019204,
+          "marketId": 794072704,
+          "category": "giocatore",
+          "class": "CORE",
+          "displayName": "Oyarzabal almeno 1 tiro in porta incl. TS",
+          "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222044146",
+          "market": "U/O CORNER SQUADRA X",
+          "info": "U/O 3.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 1.42,
+          "selectionId": 5222044146,
+          "marketId": 794075023,
+          "category": "volume",
+          "class": "CORE",
+          "displayName": "Spagna Over 3,5 corner",
+          "marketType": "U/O CORNER SQUADRA X",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222043862",
+          "market": "U/O CORNER SQUADRA X",
+          "info": "U/O 2.5 CORNER SQUADRA 2",
+          "selection": "OVER",
+          "odds": 1.36,
+          "selectionId": 5222043862,
+          "marketId": 794074958,
+          "category": "volume",
+          "class": "CORE",
+          "displayName": "Argentina Over 2,5 corner",
+          "marketType": "U/O CORNER SQUADRA X",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        }
+      ]
+    },
+    {
+      "name": "Aggressive",
+      "finalOdds": 20.29,
+      "targetOdds": "circa 20",
+      "events": [
+        {
+          "id": "event-5221262879",
+          "market": "UNDER/OVER",
+          "info": "U/O 2.5",
+          "selection": "UNDER",
+          "odds": 1.6,
+          "selectionId": 5221262879,
+          "marketId": 793929310,
+          "category": "esito",
+          "class": "CORE",
+          "displayName": "Under 2,5",
+          "marketType": "UNDER/OVER",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5221268151",
+          "market": "UNDER/OVER TEMPO X",
+          "info": "1 TEMPO: U/O 1.5",
+          "selection": "UNDER",
+          "odds": 1.3,
+          "selectionId": 5221268151,
+          "marketId": 793928351,
+          "category": "esito",
+          "class": "CORE",
+          "displayName": "Primo tempo Under 1,5",
+          "marketType": "UNDER/OVER TEMPO X",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222010074",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "MESSI L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.2,
+          "selectionId": 5222010074,
+          "marketId": 794073241,
+          "category": "giocatore",
+          "class": "CORE",
+          "displayName": "Messi almeno 1 tiro in porta incl. TS",
+          "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222010106",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "YAMAL L. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.4,
+          "selectionId": 5222010106,
+          "marketId": 794073249,
+          "category": "giocatore",
+          "class": "CORE",
+          "displayName": "Lamine Yamal almeno 1 tiro in porta incl. TS",
+          "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222019204",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "OYARZABAL M. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.44,
+          "selectionId": 5222019204,
+          "marketId": 794072704,
+          "category": "giocatore",
+          "class": "CORE",
+          "displayName": "Oyarzabal almeno 1 tiro in porta incl. TS",
+          "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222044146",
+          "market": "U/O CORNER SQUADRA X",
+          "info": "U/O 3.5 CORNER SQUADRA 1",
+          "selection": "OVER",
+          "odds": 1.42,
+          "selectionId": 5222044146,
+          "marketId": 794075023,
+          "category": "volume",
+          "class": "CORE",
+          "displayName": "Spagna Over 3,5 corner",
+          "marketType": "U/O CORNER SQUADRA X",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222043862",
+          "market": "U/O CORNER SQUADRA X",
+          "info": "U/O 2.5 CORNER SQUADRA 2",
+          "selection": "OVER",
+          "odds": 1.36,
+          "selectionId": 5222043862,
+          "marketId": 794074958,
+          "category": "volume",
+          "class": "CORE",
+          "displayName": "Argentina Over 2,5 corner",
+          "marketType": "U/O CORNER SQUADRA X",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222010854",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "info": "MESSI L. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.33,
+          "selectionId": 5222010854,
+          "marketId": 794073436,
+          "category": "giocatore",
+          "class": "CORE",
+          "displayName": "Messi Over 2,5 tiri totali incl. TS",
+          "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        },
+        {
+          "id": "event-5222010858",
+          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "info": "YAMAL L. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "selection": "OVER",
+          "odds": 1.57,
+          "selectionId": 5222010858,
+          "marketId": 794073437,
+          "category": "giocatore",
+          "class": "CORE",
+          "displayName": "Lamine Yamal Over 2,5 tiri totali incl. TS",
+          "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
+          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        }
+      ]
     }
   ]
 }

@@ -21,6 +21,8 @@ const matches = [
     italianSlug: 'francia-inghilterra',
     quoteFile: 'data/quote/francia-inghilterra-quote.json',
     match: 'Francia-Inghilterra',
+    lineupsLabel: 'Formazioni ufficiali',
+    lineupsStatus: 'formazioni ufficiali del 18/07/2026',
     round: 'Finale 3° posto',
     date: '18 luglio 2026',
     time: '23:00',
@@ -48,28 +50,28 @@ const matches = [
     away: { name: 'Inghilterra', flag: 'flags/inghilterra.svg', key: 'england' },
     centralScore: '2-1',
     title: "La Francia ha più qualità nell'ultimo terzo; l'Inghilterra può trasformarla in una partita aperta.",
-    deck: "Le formazioni probabili spingono verso una finale per il terzo posto più verticale delle semifinali: Mbappé guida la Francia, Kane e Bellingham tengono viva l'Inghilterra. Risultato centrale 2-1.",
-    probabilities: 'Francia 49% · X 27% · Inghilterra 24%',
+    deck: "Le formazioni ufficiali aumentano il vantaggio tecnico francese: Mbappé resta il riferimento, con Olise, Cherki e Doué alle sue spalle; l'Inghilterra rinuncia a Kane e Bellingham e affida a Toney il lavoro centrale. Risultato centrale 2-1.",
+    probabilities: 'Francia 56% · X 25% · Inghilterra 19%',
     winner: 'Francia terza classificata',
-    formationHome: { shape: '4-2-3-1', players: 'Maignan; Gusto, Konaté, Lucas Hernandez, Theo Hernandez; Manu Koné, Kanté; Akliouche, Cherki, Thuram; Mbappé.' },
-    formationAway: { shape: '4-2-3-1', players: "Pickford; Quansah, Konsa, Guéhi, O'Reilly; Mainoo, Eze; Madueke, Bellingham, Rashford; Kane." },
+    formationHome: { shape: '4-2-3-1', players: 'Maignan; Gusto, Konaté, Lacroix, Theo Hernandez; Zaïre-Emery, Cherki; Olise, Rabiot, Doué; Mbappé.' },
+    formationAway: { shape: '4-1-4-1', players: 'Henderson; Quansah, Konsa, Guéhi, Spence; Rice; Saka, Eze, Rogers, Rashford; Toney.' },
     analysis: [
-      "La scelta francese di affiancare Koné a Kanté dà corsa e recupero, mentre Cherki può ricevere alle spalle di Mainoo ed Eze. Con Thuram e Akliouche larghi, Mbappé ha più spazio per attaccare il lato debole invece di dover costruire ogni azione.",
-      "L'Inghilterra presenta una linea difensiva giovane e un doppio mediano meno protettivo del solito. Bellingham resta il raccordo decisivo: se riesce a ricevere dietro Kanté, può avvicinare Rashford e Kane e obbligare i centrali francesi a difendere correndo verso la propria porta.",
-      "La quota di mercato vede correttamente la Francia avanti. Il profilo da terzo posto, però, riduce il valore dell'Under: entrambe hanno qualità offensiva, cambi profondi e meno incentivo a congelare la gara."
+      "La Francia concentra quattro creatori attorno a Mbappé. Cherki parte nella coppia bassa ma può alzarsi in possesso, Rabiot dà equilibrio e Doué-Olise possono stringere per liberare le corsie di Gusto e Theo Hernandez.",
+      "L'Inghilterra sceglie Rice come unico mediano davanti a una difesa giovane. Eze e Rogers devono aiutarlo nelle ricezioni interne francesi, mentre Saka e Rashford sono le principali uscite per avvicinare Toney e attaccare alle spalle dei terzini.",
+      "L'assenza dal primo minuto di Kane e Bellingham abbassa la qualità inglese nell'area e tra le linee. La Francia sale nella stima dei 90 minuti; resta però il rischio di una gara aperta se Saka o Rashford superano la prima pressione."
     ],
-    key: "Cherki tra le linee contro Mainoo-Eze. Se l'Inghilterra non chiude quella ricezione, Mbappé potrà attaccare una difesa costretta a rompere la propria linea.",
-    volumes: 'Francia 12-17 tiri, 4-7 nello specchio e 5-8 corner. Inghilterra 9-14 tiri, 3-6 nello specchio e 3-6 corner. Falli totali attesi: 21-27.',
+    key: "Cherki, Rabiot e Doué attorno a Rice. Se l'unico mediano inglese viene attirato fuori posizione, Mbappé e Olise possono ricevere frontalmente contro una linea difensiva costretta ad accorciare.",
+    volumes: 'Francia 14-19 tiri, 5-8 nello specchio e 5-8 corner. Inghilterra 8-13 tiri, 2-5 nello specchio e 3-6 corner. Falli totali attesi: 21-27.',
     teamEvidence: [
       { team: 'Francia', sample: '6 gare pre-semifinale', averages: '18,3 tiri · 7,8 in porta · 6,8 corner · 9,8 falli fatti · 9,7 subiti', latest: 'Semifinale con la Spagna: 10 tiri, 3 in porta, 7 corner, 11 falli fatti e 12 subiti.', reading: 'Il volume offensivo del torneo è alto, ma la semifinale mostra che contro un possesso organizzato la Francia può produrre meno tiri senza perdere la spinta sui corner.' },
-      { team: 'Inghilterra', sample: '5 gare pre-semifinale', averages: '16,0 tiri · 6,4 in porta · 6,2 corner · 10,8 falli fatti · 15,6 subiti', latest: 'Ultime due a eliminazione: 14 tiri e 4 corner con la Norvegia; 5 tiri e 2 corner con l’Argentina. In semifinale 11 falli fatti e 15 subiti.', reading: 'La dispersione è ampia: se subisce il possesso francese può restare sotto 10 tiri, ma Bellingham e Rashford possono far salire falli subiti e transizioni.' }
+      { team: 'Inghilterra', sample: '5 gare pre-semifinale', averages: '16,0 tiri · 6,4 in porta · 6,2 corner · 10,8 falli fatti · 15,6 subiti', latest: 'Ultime due a eliminazione: 14 tiri e 4 corner con la Norvegia; 5 tiri e 2 corner con l’Argentina. In semifinale 11 falli fatti e 15 subiti.', reading: 'La dispersione è ampia: se subisce il possesso francese può restare sotto 10 tiri, ma Saka, Rogers e Rashford possono far salire falli subiti e transizioni.' }
     ],
     cards: [
-      ['Mainoo', 'Possibile primo ammonito', 'Zona di Cherki e transizioni francesi da interrompere.'],
-      ['Manu Koné', 'Medio-alto', 'Pressione aggressiva su Bellingham.'],
-      ['Guéhi', 'Medio-alto', 'Duelli in campo aperto con Mbappé.'],
-      ['Kanté', 'Medio', 'Coperture preventive sulle ricezioni inglesi.'],
-      ["O'Reilly", 'Medio', 'Lato esposto alle combinazioni francesi.']
+      ['Declan Rice', 'Possibile primo ammonito', 'Unico mediano contro Cherki, Rabiot e Doué nelle zone interne.'],
+      ['Jarell Quansah', 'Medio-alto', 'Lato esposto alle accelerazioni di Doué e Mbappé.'],
+      ['Marc Guéhi', 'Medio-alto', 'Duelli in campo aperto con Mbappé.'],
+      ['Malo Gusto', 'Medio', 'Deve contenere Rashford e le transizioni sul lato inglese.'],
+      ['Ibrahima Konaté', 'Medio', 'Contatto fisico continuo con Toney.']
     ],
     picks(pool) { return [
       ['Francia vincente terzo posto', findOdd(pool, 'VINCENTE FINALE TER.POSTO', '1')],
@@ -79,7 +81,7 @@ const matches = [
     ]; },
     valueErrors(pool) { return [
       ['Pareggio nei 90 minuti', findOdd(pool, 'ESITO FINALE 1X2', 'X'), 'Copre la gara aperta ma equilibrata prima di eventuali supplementari.'],
-      ['Inghilterra nei 90 minuti', findOdd(pool, 'ESITO FINALE 1X2', '2'), 'Quota alta rispetto alla capacità di Kane e Bellingham di punire una Francia sbilanciata.'],
+      ['Inghilterra nei 90 minuti', findOdd(pool, 'ESITO FINALE 1X2', '2'), 'Quota alta rispetto alla capacità di Saka e Rashford di punire una Francia sbilanciata.'],
       ['Francia + No Goal', findOdd(pool, 'ESITO FINALE 1X2 + GOAL/NOGOAL', '1 + NOGOAL'), 'Scenario alternativo se la Francia segna presto e controlla meglio del previsto.']
     ]; }
   },
@@ -88,6 +90,8 @@ const matches = [
     italianSlug: 'spagna-argentina',
     quoteFile: 'data/quote/spagna-argentina-quote.json',
     match: 'Spagna-Argentina',
+    lineupsLabel: 'Formazioni probabili',
+    lineupsStatus: 'formazioni probabili fornite il 18/07/2026',
     round: 'Finale',
     date: '19 luglio 2026',
     time: '21:00',
@@ -159,14 +163,14 @@ const myComboDefinitions = {
       ['VINCENTE FINALE TER.POSTO', '1', 'Francia vincente terzo posto', 'esito'],
       ['GOAL/NO GOAL', 'GOAL', 'Goal', 'esito'],
       ['MBAPPE K. U/O 1.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.', 'OVER', 'Mbappé Over 1,5 tiri in porta incl. TS', 'giocatore'],
-      ['MBAPPE K. - KANE H. 1X2 TIRI IN PORTA INC TS', '1', 'Mbappé più tiri in porta di Kane incl. TS', 'giocatore']
+      ['SAKA B. ALMENO 1 TIRI TOT NEL 1 TEMPO', 'SI', 'Saka almeno 1 tiro nel primo tempo', 'giocatore']
     ],
     balancedAdd: [
       ['SQUADRA 1: U/O 4.5 TIRI IN PORTA', 'OVER', 'Francia Over 4,5 tiri in porta', 'volume'],
-      ['BELLINGHAM JUDE U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.', 'OVER', 'Bellingham almeno 1 tiro in porta incl. TS', 'giocatore']
+      ['CHERKI R. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.', 'OVER', 'Cherki almeno 1 tiro in porta incl. TS', 'giocatore']
     ],
     aggressiveAdd: [
-      ['KANE H. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.', 'OVER', 'Kane Over 2,5 tiri totali incl. TS', 'giocatore'],
+      ['TONEY I. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.', 'OVER', 'Toney almeno 1 tiro in porta incl. TS', 'giocatore'],
       ['RASHFORD M. U/O 1.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.', 'OVER', 'Rashford Over 1,5 tiri totali incl. TS', 'giocatore']
     ]
   },
@@ -205,7 +209,7 @@ function quoteEvent(pool, [info, selection, displayName, category]) {
     class: 'CORE',
     displayName,
     marketType: row.mercato,
-    reason: 'Evento coerente con formazioni probabili, scenario tecnico e volume previsto.'
+    reason: 'Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto.'
   };
 }
 
@@ -236,15 +240,21 @@ function render(match, picks, errors, portfolios) {
 <html lang="it"><head><meta charset="utf-8"><base href="../"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pronostico ${match.match} | Mondiale 2026</title><link rel="stylesheet" href="css/styles.css?v=20260718-finals-1"></head>
 <body class="reading-page"><header><div class="topbar"><img class="site-emblem" src="assets/world-cup-2026-logo.png" alt=""><div><h1>Lettura</h1><p class="sub">Pronostici raccontati come una partita, prima che cominci.</p></div></div><nav class="page-links"><a class="page-link" href="index.html">Home</a><a class="page-link" href="statistiche-squadre.html">Statistiche squadre</a><a class="page-link active" href="lettura.html">Lettura</a><a class="page-link" href="storia.html">Storia</a></nav></header>
 <main class="reading-main"><nav class="reading-article-nav"><a href="lettura.html">Tutte le letture</a></nav><article class="reading-article">
-<header class="reading-hero"><div class="reading-kicker">${match.round} · Formazioni probabili e quote aggiornate</div><div class="reading-match"><div class="reading-team"><img src="${match.home.flag}" alt=""><strong>${match.home.name}</strong></div><div class="reading-versus"><b>${match.home.name} - ${match.away.name}</b><small>${match.date} · ${match.venue} · ore ${match.time}</small></div><div class="reading-team is-away"><img src="${match.away.flag}" alt=""><strong>${match.away.name}</strong></div></div><h2>${match.title}</h2><p class="reading-deck">${match.deck}</p><div class="reading-meta"><span>Arbitro: ${match.referee.name}</span><span>Risultato centrale: ${match.centralScore}</span><span>Scelta: ${match.winner}</span></div></header>
-<section class="reading-summary"><div><span>Probabilità nei 90'</span><strong>${match.probabilities}</strong><small>Stima Codex aggiornata alle probabili</small></div><div><span>Verdetto</span><strong>${match.winner}</strong><small>La gerarchia include eventuali supplementari e rigori</small></div><div><span>Risultato centrale</span><strong>${match.centralScore}</strong><small>Scenario guida della lettura</small></div></section>
-<div class="round16-info-grid"><section class="round16-info-box round16-formations"><span>1</span><h2>Formazioni probabili</h2><div class="round16-formation"><h3>${match.home.name} <span>${match.formationHome.shape}</span></h3><p>${match.formationHome.players}</p></div><div class="round16-formation"><h3>${match.away.name} <span>${match.formationAway.shape}</span></h3><p>${match.formationAway.players}</p></div></section><section class="round16-info-box"><span>2</span><h2>Campo</h2><p><b>${match.venue}.</b> ${match.environment.surface}; ${match.environment.structure.toLowerCase()}.</p></section><section class="round16-info-box"><span>3</span><h2>Meteo</h2><p>${match.environment.temperature}, umidità ${match.environment.humidity.toLowerCase()}. ${match.environment.weather}. ${match.environment.operationalRisk}</p></section><section class="round16-info-box"><span>4</span><h2>Arbitro</h2><p><b>${match.referee.name} (${match.referee.country}).</b> ${match.referee.impact}</p></section></div>
+<header class="reading-hero"><div class="reading-kicker">${match.round} · ${match.lineupsLabel} e quote aggiornate</div><div class="reading-match"><div class="reading-team"><img src="${match.home.flag}" alt=""><strong>${match.home.name}</strong></div><div class="reading-versus"><b>${match.home.name} - ${match.away.name}</b><small>${match.date} · ${match.venue} · ore ${match.time}</small></div><div class="reading-team is-away"><img src="${match.away.flag}" alt=""><strong>${match.away.name}</strong></div></div><h2>${match.title}</h2><p class="reading-deck">${match.deck}</p><div class="reading-meta"><span>Arbitro: ${match.referee.name}</span><span>Risultato centrale: ${match.centralScore}</span><span>Scelta: ${match.winner}</span></div></header>
+<section class="reading-summary"><div><span>Probabilità nei 90'</span><strong>${match.probabilities}</strong><small>Stima Codex aggiornata alle ${match.lineupsLabel.toLowerCase()}</small></div><div><span>Verdetto</span><strong>${match.winner}</strong><small>La gerarchia include eventuali supplementari e rigori</small></div><div><span>Risultato centrale</span><strong>${match.centralScore}</strong><small>Scenario guida della lettura</small></div></section>
+<div class="round16-info-grid"><section class="round16-info-box round16-formations"><span>1</span><h2>${match.lineupsLabel}</h2><div class="round16-formation"><h3>${match.home.name} <span>${match.formationHome.shape}</span></h3><p>${match.formationHome.players}</p></div><div class="round16-formation"><h3>${match.away.name} <span>${match.formationAway.shape}</span></h3><p>${match.formationAway.players}</p></div></section><section class="round16-info-box"><span>2</span><h2>Campo</h2><p><b>${match.venue}.</b> ${match.environment.surface}; ${match.environment.structure.toLowerCase()}.</p></section><section class="round16-info-box"><span>3</span><h2>Meteo</h2><p>${match.environment.temperature}, umidità ${match.environment.humidity.toLowerCase()}. ${match.environment.weather}. ${match.environment.operationalRisk}</p></section><section class="round16-info-box"><span>4</span><h2>Arbitro</h2><p><b>${match.referee.name} (${match.referee.country}).</b> ${match.referee.impact}</p></section></div>
 <div class="reading-layout"><div class="reading-copy"><section><p class="reading-lead">${match.analysis[0]}</p><p>${match.analysis[1]}</p><p>${match.analysis[2]}</p></section><blockquote><strong>La chiave</strong>${match.key}</blockquote>${evidenceBlocks}<section><h3>Proiezione combinata</h3><p>${match.volumes}</p><p>Le stime combinano le medie del torneo disponibili nel repository con l’ultima gara a eliminazione diretta. Il campione non è uniforme per tutte le squadre: per questo vengono mostrate come intervalli, non come certezze.</p></section><section><h3>Ambiente e impatto sulla partita</h3><p>${match.environment.weather}. ${match.environment.operationalRisk}</p><p>Il campo è in ${match.environment.surface.toLowerCase()} e l’impianto è ${match.environment.structure.toLowerCase()}: il modello mantiene il volume previsto, ma considera possibili variazioni di ritmo legate alle condizioni.</p></section><section><h3>Referee Intelligence</h3><p><b>${match.referee.name} (${match.referee.country}).</b> ${match.referee.impact}</p><p>I numeri arbitrali sono un filtro secondario: falli fatti/subiti, ruolo e duello diretto restano più importanti per ordinare i possibili ammoniti.</p></section><section><h3>Gerarchia dei possibili ammoniti</h3><ol class="reading-card-ranking">${cardItems}</ol></section><section><h3>Verdetto</h3><p><b>Risultato centrale: ${match.centralScore}.</b> La scelta complessiva resta <b>${match.winner}</b>. Le quote servono a ordinare le giocate, non a forzare una previsione diversa dalla lettura tattica.</p></section></div>
-<aside class="reading-sidebar"><section class="reading-data-panel"><span>Campo e condizioni</span><dl class="reading-stat-list">${environmentRows}</dl><p>${match.environment.weather}. ${match.environment.operationalRisk}</p></section><section class="reading-data-panel"><span>Arbitro</span><p><b>${match.referee.name}</b><br>${match.referee.country}</p><ul class="reading-picks">${refereeSources}</ul></section><section class="reading-data-panel"><span>Volume previsto</span><p>${match.volumes}</p></section><section class="reading-data-panel"><span>Quote chiave</span><ol class="reading-card-ranking">${pickItems}</ol></section><section class="reading-data-panel"><span>MyCombo · quote aggiornate</span><div class="reading-mycombo">${comboRows}</div></section><section class="reading-data-panel"><span>3 possibili errori di quota</span><ul class="reading-picks">${errorItems}</ul></section><section class="reading-data-panel"><span>Rischi del pronostico</span><ul class="reading-picks"><li>Le formazioni sono probabili, non ufficiali.</li><li>I campioni statistici delle squadre non hanno la stessa profondità.</li><li>Un gol precoce può cambiare ritmo, corner e volume falli.</li><li>I mercati inclusivi dei supplementari non sono confrontabili con quelli sui 90 minuti.</li></ul></section></aside></div>
-<footer class="reading-note"><strong>Nota</strong><p>Lettura aggiornata il 18 luglio 2026 con le formazioni probabili fornite e le quote presenti in <code>${match.quoteFile}</code>.</p></footer></article></main><script src="js/nav.js?v=20260718-finals-1"></script></body></html>`;
+<aside class="reading-sidebar"><section class="reading-data-panel"><span>Campo e condizioni</span><dl class="reading-stat-list">${environmentRows}</dl><p>${match.environment.weather}. ${match.environment.operationalRisk}</p></section><section class="reading-data-panel"><span>Arbitro</span><p><b>${match.referee.name}</b><br>${match.referee.country}</p><ul class="reading-picks">${refereeSources}</ul></section><section class="reading-data-panel"><span>Volume previsto</span><p>${match.volumes}</p></section><section class="reading-data-panel"><span>Quote chiave</span><ol class="reading-card-ranking">${pickItems}</ol></section><section class="reading-data-panel"><span>MyCombo · quote aggiornate</span><div class="reading-mycombo">${comboRows}</div></section><section class="reading-data-panel"><span>3 possibili errori di quota</span><ul class="reading-picks">${errorItems}</ul></section><section class="reading-data-panel"><span>Rischi del pronostico</span><ul class="reading-picks"><li>Le scelte iniziali possono modificare gerarchie, ritmo e distribuzione dei tiri.</li><li>I campioni statistici delle squadre non hanno la stessa profondità.</li><li>Un gol precoce può cambiare ritmo, corner e volume falli.</li><li>I mercati inclusivi dei supplementari non sono confrontabili con quelli sui 90 minuti.</li></ul></section></aside></div>
+<footer class="reading-note"><strong>Nota</strong><p>Lettura aggiornata il 18 luglio 2026 con le ${match.lineupsLabel.toLowerCase()} e le quote presenti in <code>${match.quoteFile}</code>.</p></footer></article></main><script src="js/nav.js?v=20260718-finals-1"></script></body></html>`;
 }
 
-for (const match of matches) {
+const matchArgIndex = process.argv.indexOf('--match');
+const requestedMatch = matchArgIndex >= 0 ? process.argv[matchArgIndex + 1] : null;
+if (matchArgIndex >= 0 && !requestedMatch) throw new Error('Specificare uno slug dopo --match');
+const selectedMatches = requestedMatch ? matches.filter((match) => match.slug === requestedMatch) : matches;
+if (requestedMatch && selectedMatches.length === 0) throw new Error(`Partita non trovata: ${requestedMatch}`);
+
+for (const match of selectedMatches) {
   const pool = readJson(match.quoteFile);
   const picks = match.picks(pool);
   const valueErrors = match.valueErrors(pool);
@@ -255,8 +265,8 @@ for (const match of matches) {
     match: match.match,
     round: match.round,
     date: `${match.date} ore ${match.time}`,
-    status: 'probable-lineups',
-    lineupsStatus: 'formazioni probabili fornite il 18/07/2026',
+    status: match.lineupsLabel === 'Formazioni ufficiali' ? 'official-lineups' : 'probable-lineups',
+    lineupsStatus: match.lineupsStatus,
     prediction: { centralScore: match.centralScore, winner: match.winner, probabilities90: match.probabilities },
     formations: { [match.home.key]: match.formationHome, [match.away.key]: match.formationAway },
     refereeIntelligence: match.referee,

@@ -54,10 +54,10 @@
       "sample": "5 gare pre-semifinale",
       "averages": "16,0 tiri · 6,4 in porta · 6,2 corner · 10,8 falli fatti · 15,6 subiti",
       "latest": "Ultime due a eliminazione: 14 tiri e 4 corner con la Norvegia; 5 tiri e 2 corner con l’Argentina. In semifinale 11 falli fatti e 15 subiti.",
-      "reading": "La dispersione è ampia: se subisce il possesso francese può restare sotto 10 tiri, ma Bellingham e Rashford possono far salire falli subiti e transizioni."
+      "reading": "La dispersione è ampia: se subisce il possesso francese può restare sotto 10 tiri, ma Saka, Rogers e Rashford possono far salire falli subiti e transizioni."
     }
   ],
-  "volumeForecast": "Francia 12-17 tiri, 4-7 nello specchio e 5-8 corner. Inghilterra 9-14 tiri, 3-6 nello specchio e 3-6 corner. Falli totali attesi: 21-27.",
+  "volumeForecast": "Francia 14-19 tiri, 5-8 nello specchio e 5-8 corner. Inghilterra 8-13 tiri, 2-5 nello specchio e 3-6 corner. Falli totali attesi: 21-27.",
   "safe": {
     "name": "Safe",
     "events": [
@@ -73,7 +73,7 @@
         "class": "CORE",
         "displayName": "Francia vincente terzo posto",
         "marketType": "VINCENTE FINALE TER.POSTO",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
         "id": "event-5221692099",
@@ -87,7 +87,7 @@
         "class": "CORE",
         "displayName": "Goal",
         "marketType": "GOAL/NOGOAL",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
         "id": "event-5222282470",
@@ -101,24 +101,24 @@
         "class": "CORE",
         "displayName": "Mbappé Over 1,5 tiri in porta incl. TS",
         "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
-        "id": "event-5222505375",
-        "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-        "info": "MBAPPE K. - KANE H. 1X2 TIRI IN PORTA INC TS",
-        "selection": "1",
-        "odds": 1.6,
-        "selectionId": 5222505375,
-        "marketId": 794176770,
+        "id": "event-5222281421",
+        "market": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+        "info": "SAKA B. ALMENO 1 TIRI TOT NEL 1 TEMPO",
+        "selection": "SI",
+        "odds": 1.52,
+        "selectionId": 5222281421,
+        "marketId": 794117705,
         "category": "giocatore",
         "class": "CORE",
-        "displayName": "Mbappé più tiri in porta di Kane incl. TS",
-        "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "displayName": "Saka almeno 1 tiro nel primo tempo",
+        "marketType": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       }
     ],
-    "finalOdds": 4.8,
+    "finalOdds": 4.56,
     "targetOdds": "circa 5",
     "averageRisk": "medio"
   },
@@ -137,7 +137,7 @@
         "class": "CORE",
         "displayName": "Francia vincente terzo posto",
         "marketType": "VINCENTE FINALE TER.POSTO",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
         "id": "event-5221692099",
@@ -151,7 +151,7 @@
         "class": "CORE",
         "displayName": "Goal",
         "marketType": "GOAL/NOGOAL",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
         "id": "event-5222282470",
@@ -165,21 +165,21 @@
         "class": "CORE",
         "displayName": "Mbappé Over 1,5 tiri in porta incl. TS",
         "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
-        "id": "event-5222505375",
-        "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-        "info": "MBAPPE K. - KANE H. 1X2 TIRI IN PORTA INC TS",
-        "selection": "1",
-        "odds": 1.6,
-        "selectionId": 5222505375,
-        "marketId": 794176770,
+        "id": "event-5222281421",
+        "market": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+        "info": "SAKA B. ALMENO 1 TIRI TOT NEL 1 TEMPO",
+        "selection": "SI",
+        "odds": 1.52,
+        "selectionId": 5222281421,
+        "marketId": 794117705,
         "category": "giocatore",
         "class": "CORE",
-        "displayName": "Mbappé più tiri in porta di Kane incl. TS",
-        "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "displayName": "Saka almeno 1 tiro nel primo tempo",
+        "marketType": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
         "id": "event-5222277314",
@@ -193,24 +193,24 @@
         "class": "CORE",
         "displayName": "Francia Over 4,5 tiri in porta",
         "marketType": "U/O TIRI IN PORTA SQUADRA X",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
-        "id": "event-5222283694",
+        "id": "event-5222283594",
         "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-        "info": "BELLINGHAM JUDE U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "info": "CHERKI R. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
         "selection": "OVER",
         "odds": 1.5,
-        "selectionId": 5222283694,
-        "marketId": 794118273,
+        "selectionId": 5222283594,
+        "marketId": 794118248,
         "category": "giocatore",
         "class": "CORE",
-        "displayName": "Bellingham almeno 1 tiro in porta incl. TS",
+        "displayName": "Cherki almeno 1 tiro in porta incl. TS",
         "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       }
     ],
-    "finalOdds": 10.22,
+    "finalOdds": 9.71,
     "targetOdds": "circa 10",
     "averageRisk": "medio-alto"
   },
@@ -229,7 +229,7 @@
         "class": "CORE",
         "displayName": "Francia vincente terzo posto",
         "marketType": "VINCENTE FINALE TER.POSTO",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
         "id": "event-5221692099",
@@ -243,7 +243,7 @@
         "class": "CORE",
         "displayName": "Goal",
         "marketType": "GOAL/NOGOAL",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
         "id": "event-5222282470",
@@ -257,21 +257,21 @@
         "class": "CORE",
         "displayName": "Mbappé Over 1,5 tiri in porta incl. TS",
         "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
-        "id": "event-5222505375",
-        "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-        "info": "MBAPPE K. - KANE H. 1X2 TIRI IN PORTA INC TS",
-        "selection": "1",
-        "odds": 1.6,
-        "selectionId": 5222505375,
-        "marketId": 794176770,
+        "id": "event-5222281421",
+        "market": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+        "info": "SAKA B. ALMENO 1 TIRI TOT NEL 1 TEMPO",
+        "selection": "SI",
+        "odds": 1.52,
+        "selectionId": 5222281421,
+        "marketId": 794117705,
         "category": "giocatore",
         "class": "CORE",
-        "displayName": "Mbappé più tiri in porta di Kane incl. TS",
-        "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "displayName": "Saka almeno 1 tiro nel primo tempo",
+        "marketType": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
         "id": "event-5222277314",
@@ -285,35 +285,35 @@
         "class": "CORE",
         "displayName": "Francia Over 4,5 tiri in porta",
         "marketType": "U/O TIRI IN PORTA SQUADRA X",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
-        "id": "event-5222283694",
+        "id": "event-5222283594",
         "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-        "info": "BELLINGHAM JUDE U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+        "info": "CHERKI R. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
         "selection": "OVER",
         "odds": 1.5,
-        "selectionId": 5222283694,
-        "marketId": 794118273,
+        "selectionId": 5222283594,
+        "marketId": 794118248,
         "category": "giocatore",
         "class": "CORE",
-        "displayName": "Bellingham almeno 1 tiro in porta incl. TS",
+        "displayName": "Cherki almeno 1 tiro in porta incl. TS",
         "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
-        "id": "event-5222281914",
-        "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-        "info": "KANE H. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+        "id": "event-5222296629",
+        "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "info": "TONEY I. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
         "selection": "OVER",
-        "odds": 1.5,
-        "selectionId": 5222281914,
-        "marketId": 794117828,
+        "odds": 1.44,
+        "selectionId": 5222296629,
+        "marketId": 794122421,
         "category": "giocatore",
         "class": "CORE",
-        "displayName": "Kane Over 2,5 tiri totali incl. TS",
-        "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "displayName": "Toney almeno 1 tiro in porta incl. TS",
+        "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       },
       {
         "id": "event-5222284758",
@@ -327,10 +327,10 @@
         "class": "CORE",
         "displayName": "Rashford Over 1,5 tiri totali incl. TS",
         "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-        "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+        "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
       }
     ],
-    "finalOdds": 21.46,
+    "finalOdds": 19.57,
     "targetOdds": "circa 20",
     "averageRisk": "alto"
   },
@@ -350,7 +350,7 @@
           "class": "CORE",
           "displayName": "Francia vincente terzo posto",
           "marketType": "VINCENTE FINALE TER.POSTO",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5221692099",
@@ -364,7 +364,7 @@
           "class": "CORE",
           "displayName": "Goal",
           "marketType": "GOAL/NOGOAL",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222282470",
@@ -378,24 +378,24 @@
           "class": "CORE",
           "displayName": "Mbappé Over 1,5 tiri in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
-          "id": "event-5222505375",
-          "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-          "info": "MBAPPE K. - KANE H. 1X2 TIRI IN PORTA INC TS",
-          "selection": "1",
-          "odds": 1.6,
-          "selectionId": 5222505375,
-          "marketId": 794176770,
+          "id": "event-5222281421",
+          "market": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+          "info": "SAKA B. ALMENO 1 TIRI TOT NEL 1 TEMPO",
+          "selection": "SI",
+          "odds": 1.52,
+          "selectionId": 5222281421,
+          "marketId": 794117705,
           "category": "giocatore",
           "class": "CORE",
-          "displayName": "Mbappé più tiri in porta di Kane incl. TS",
-          "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "displayName": "Saka almeno 1 tiro nel primo tempo",
+          "marketType": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         }
       ],
-      "finalOdds": 4.8,
+      "finalOdds": 4.56,
       "targetOdds": "circa 5",
       "averageRisk": "medio"
     },
@@ -414,7 +414,7 @@
           "class": "CORE",
           "displayName": "Francia vincente terzo posto",
           "marketType": "VINCENTE FINALE TER.POSTO",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5221692099",
@@ -428,7 +428,7 @@
           "class": "CORE",
           "displayName": "Goal",
           "marketType": "GOAL/NOGOAL",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222282470",
@@ -442,21 +442,21 @@
           "class": "CORE",
           "displayName": "Mbappé Over 1,5 tiri in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
-          "id": "event-5222505375",
-          "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-          "info": "MBAPPE K. - KANE H. 1X2 TIRI IN PORTA INC TS",
-          "selection": "1",
-          "odds": 1.6,
-          "selectionId": 5222505375,
-          "marketId": 794176770,
+          "id": "event-5222281421",
+          "market": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+          "info": "SAKA B. ALMENO 1 TIRI TOT NEL 1 TEMPO",
+          "selection": "SI",
+          "odds": 1.52,
+          "selectionId": 5222281421,
+          "marketId": 794117705,
           "category": "giocatore",
           "class": "CORE",
-          "displayName": "Mbappé più tiri in porta di Kane incl. TS",
-          "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "displayName": "Saka almeno 1 tiro nel primo tempo",
+          "marketType": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222277314",
@@ -470,24 +470,24 @@
           "class": "CORE",
           "displayName": "Francia Over 4,5 tiri in porta",
           "marketType": "U/O TIRI IN PORTA SQUADRA X",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
-          "id": "event-5222283694",
+          "id": "event-5222283594",
           "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "info": "BELLINGHAM JUDE U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "info": "CHERKI R. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
           "selection": "OVER",
           "odds": 1.5,
-          "selectionId": 5222283694,
-          "marketId": 794118273,
+          "selectionId": 5222283594,
+          "marketId": 794118248,
           "category": "giocatore",
           "class": "CORE",
-          "displayName": "Bellingham almeno 1 tiro in porta incl. TS",
+          "displayName": "Cherki almeno 1 tiro in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         }
       ],
-      "finalOdds": 10.22,
+      "finalOdds": 9.71,
       "targetOdds": "circa 10",
       "averageRisk": "medio-alto"
     },
@@ -506,7 +506,7 @@
           "class": "CORE",
           "displayName": "Francia vincente terzo posto",
           "marketType": "VINCENTE FINALE TER.POSTO",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5221692099",
@@ -520,7 +520,7 @@
           "class": "CORE",
           "displayName": "Goal",
           "marketType": "GOAL/NOGOAL",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222282470",
@@ -534,21 +534,21 @@
           "class": "CORE",
           "displayName": "Mbappé Over 1,5 tiri in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
-          "id": "event-5222505375",
-          "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-          "info": "MBAPPE K. - KANE H. 1X2 TIRI IN PORTA INC TS",
-          "selection": "1",
-          "odds": 1.6,
-          "selectionId": 5222505375,
-          "marketId": 794176770,
+          "id": "event-5222281421",
+          "market": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+          "info": "SAKA B. ALMENO 1 TIRI TOT NEL 1 TEMPO",
+          "selection": "SI",
+          "odds": 1.52,
+          "selectionId": 5222281421,
+          "marketId": 794117705,
           "category": "giocatore",
           "class": "CORE",
-          "displayName": "Mbappé più tiri in porta di Kane incl. TS",
-          "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "displayName": "Saka almeno 1 tiro nel primo tempo",
+          "marketType": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222277314",
@@ -562,35 +562,35 @@
           "class": "CORE",
           "displayName": "Francia Over 4,5 tiri in porta",
           "marketType": "U/O TIRI IN PORTA SQUADRA X",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
-          "id": "event-5222283694",
+          "id": "event-5222283594",
           "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "info": "BELLINGHAM JUDE U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+          "info": "CHERKI R. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
           "selection": "OVER",
           "odds": 1.5,
-          "selectionId": 5222283694,
-          "marketId": 794118273,
+          "selectionId": 5222283594,
+          "marketId": 794118248,
           "category": "giocatore",
           "class": "CORE",
-          "displayName": "Bellingham almeno 1 tiro in porta incl. TS",
+          "displayName": "Cherki almeno 1 tiro in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
-          "id": "event-5222281914",
-          "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-          "info": "KANE H. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+          "id": "event-5222296629",
+          "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "info": "TONEY I. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
           "selection": "OVER",
-          "odds": 1.5,
-          "selectionId": 5222281914,
-          "marketId": 794117828,
+          "odds": 1.44,
+          "selectionId": 5222296629,
+          "marketId": 794122421,
           "category": "giocatore",
           "class": "CORE",
-          "displayName": "Kane Over 2,5 tiri totali incl. TS",
-          "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "displayName": "Toney almeno 1 tiro in porta incl. TS",
+          "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222284758",
@@ -604,10 +604,10 @@
           "class": "CORE",
           "displayName": "Rashford Over 1,5 tiri totali incl. TS",
           "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         }
       ],
-      "finalOdds": 21.46,
+      "finalOdds": 19.57,
       "targetOdds": "circa 20",
       "averageRisk": "alto"
     }
@@ -625,7 +625,7 @@
       "class": "CORE",
       "displayName": "Francia vincente terzo posto",
       "marketType": "VINCENTE FINALE TER.POSTO",
-      "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+      "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
     },
     {
       "id": "event-5221692099",
@@ -639,7 +639,7 @@
       "class": "CORE",
       "displayName": "Goal",
       "marketType": "GOAL/NOGOAL",
-      "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+      "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
     },
     {
       "id": "event-5222282470",
@@ -653,21 +653,21 @@
       "class": "CORE",
       "displayName": "Mbappé Over 1,5 tiri in porta incl. TS",
       "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-      "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+      "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
     },
     {
-      "id": "event-5222505375",
-      "market": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-      "info": "MBAPPE K. - KANE H. 1X2 TIRI IN PORTA INC TS",
-      "selection": "1",
-      "odds": 1.6,
-      "selectionId": 5222505375,
-      "marketId": 794176770,
+      "id": "event-5222281421",
+      "market": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+      "info": "SAKA B. ALMENO 1 TIRI TOT NEL 1 TEMPO",
+      "selection": "SI",
+      "odds": 1.52,
+      "selectionId": 5222281421,
+      "marketId": 794117705,
       "category": "giocatore",
       "class": "CORE",
-      "displayName": "Mbappé più tiri in porta di Kane incl. TS",
-      "marketType": "1X2 TIRI IN PORTA GIOCATORI INC TS",
-      "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+      "displayName": "Saka almeno 1 tiro nel primo tempo",
+      "marketType": "GIOCATORE ALMENO Y TIRI TOTALI NEL TEMPO Z",
+      "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
     },
     {
       "id": "event-5222277314",
@@ -681,35 +681,35 @@
       "class": "CORE",
       "displayName": "Francia Over 4,5 tiri in porta",
       "marketType": "U/O TIRI IN PORTA SQUADRA X",
-      "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+      "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
     },
     {
-      "id": "event-5222283694",
+      "id": "event-5222283594",
       "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-      "info": "BELLINGHAM JUDE U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
+      "info": "CHERKI R. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
       "selection": "OVER",
       "odds": 1.5,
-      "selectionId": 5222283694,
-      "marketId": 794118273,
+      "selectionId": 5222283594,
+      "marketId": 794118248,
       "category": "giocatore",
       "class": "CORE",
-      "displayName": "Bellingham almeno 1 tiro in porta incl. TS",
+      "displayName": "Cherki almeno 1 tiro in porta incl. TS",
       "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-      "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+      "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
     },
     {
-      "id": "event-5222281914",
-      "market": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-      "info": "KANE H. U/O 2.5 SOMMA TIRI TOTALI E SUO SOST. INCL. T.S.",
+      "id": "event-5222296629",
+      "market": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+      "info": "TONEY I. U/O 0.5 SOMMA TIRI IN PORTA INC PALI E TRAVERSE E SUO SOST. INCL. T.S.",
       "selection": "OVER",
-      "odds": 1.5,
-      "selectionId": 5222281914,
-      "marketId": 794117828,
+      "odds": 1.44,
+      "selectionId": 5222296629,
+      "marketId": 794122421,
       "category": "giocatore",
       "class": "CORE",
-      "displayName": "Kane Over 2,5 tiri totali incl. TS",
-      "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-      "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+      "displayName": "Toney almeno 1 tiro in porta incl. TS",
+      "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
+      "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
     },
     {
       "id": "event-5222284758",
@@ -723,7 +723,7 @@
       "class": "CORE",
       "displayName": "Rashford Over 1,5 tiri totali incl. TS",
       "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-      "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+      "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
     }
   ]
 }

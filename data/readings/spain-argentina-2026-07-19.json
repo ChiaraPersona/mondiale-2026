@@ -3,12 +3,12 @@
   "match": "Spagna-Argentina",
   "round": "Finale",
   "date": "19 luglio 2026 ore 21:00",
-  "status": "probable-lineups",
-  "lineupsStatus": "formazioni probabili fornite il 18/07/2026",
+  "status": "official-lineups",
+  "lineupsStatus": "formazioni ufficiali del 19/07/2026",
   "prediction": {
     "centralScore": "1-1 nei 90 minuti",
     "winner": "Argentina alza la coppa",
-    "probabilities90": "Spagna 39% · X 34% · Argentina 27%"
+    "probabilities90": "Spagna 42% · X 34% · Argentina 24%"
   },
   "formations": {
     "spain": {
@@ -16,8 +16,8 @@
       "players": "Unai Simón; Pedro Porro, Cubarsí, Laporte, Cucurella; Rodri, Fabián Ruiz; Lamine Yamal, Dani Olmo, Baena; Oyarzabal."
     },
     "argentina": {
-      "shape": "4-1-3-2",
-      "players": "Emiliano Martínez; Molina, Romero, Lisandro Martínez, Tagliafico; Paredes; Enzo Fernández, Mac Allister, De Paul; Messi; Julián Álvarez."
+      "shape": "4-4-2",
+      "players": "Emiliano Martínez; Montiel, Romero, Lisandro Martínez, Tagliafico; De Paul, Mac Allister, Enzo Fernández, Nico González; Messi, Julián Álvarez."
     }
   },
   "refereeIntelligence": {
@@ -71,28 +71,28 @@
       "sample": "5 gare pre-semifinale",
       "averages": "15,0 tiri · 6,4 in porta · 4,6 corner · 11,8 falli fatti · 11,4 subiti",
       "latest": "Ultime due disponibili: 22 tiri, 7 in porta e 8 corner con la Svizzera; 15 tiri, 5 in porta e 6 corner con l’Inghilterra. In semifinale 15 falli fatti e 11 subiti.",
-      "reading": "Il 4-1-3-2 non è soltanto difensivo: Messi, Álvarez e gli inserimenti di Enzo/Mac Allister sostengono una previsione più alta di tiri e corner rispetto alla prima bozza."
+      "reading": "Il 4-4-2 ufficiale mantiene Messi e Álvarez vicini e aggiunge corsa laterale con De Paul e Nico González, ma senza un mediano fisso può ridurre il tempo trascorso nella metà campo spagnola."
     }
   ],
-  "volumeForecast": "Spagna 11-16 tiri, 4-7 nello specchio e 4-7 corner. Argentina 11-16 tiri, 4-6 nello specchio e 3-6 corner. Falli totali attesi: 23-29.",
+  "volumeForecast": "Spagna 13-18 tiri, 5-8 nello specchio e 5-8 corner. Argentina 9-14 tiri, 3-6 nello specchio e 3-6 corner. Falli totali attesi: 23-30.",
   "cardHierarchy": [
     {
-      "player": "Leandro Paredes",
+      "player": "Nicolás Tagliafico",
       "risk": "Possibile primo ammonito",
       "possibleFirstBooked": true
     },
     {
-      "player": "Nahuel Molina",
-      "risk": "Medio-alto",
-      "possibleFirstBooked": false
-    },
-    {
-      "player": "Marc Cucurella",
+      "player": "Rodrigo De Paul",
       "risk": "Medio-alto",
       "possibleFirstBooked": false
     },
     {
       "player": "Cristian Romero",
+      "risk": "Medio-alto",
+      "possibleFirstBooked": false
+    },
+    {
+      "player": "Marc Cucurella",
       "risk": "Medio",
       "possibleFirstBooked": false
     },
@@ -156,7 +156,7 @@
           "class": "CORE",
           "displayName": "Under 2,5",
           "marketType": "UNDER/OVER",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5221268151",
@@ -170,7 +170,7 @@
           "class": "CORE",
           "displayName": "Primo tempo Under 1,5",
           "marketType": "UNDER/OVER TEMPO X",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222010074",
@@ -184,7 +184,7 @@
           "class": "CORE",
           "displayName": "Messi almeno 1 tiro in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222010106",
@@ -198,7 +198,7 @@
           "class": "CORE",
           "displayName": "Lamine Yamal almeno 1 tiro in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222019204",
@@ -212,7 +212,7 @@
           "class": "CORE",
           "displayName": "Oyarzabal almeno 1 tiro in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         }
       ]
     },
@@ -233,7 +233,7 @@
           "class": "CORE",
           "displayName": "Under 2,5",
           "marketType": "UNDER/OVER",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5221268151",
@@ -247,7 +247,7 @@
           "class": "CORE",
           "displayName": "Primo tempo Under 1,5",
           "marketType": "UNDER/OVER TEMPO X",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222010074",
@@ -261,7 +261,7 @@
           "class": "CORE",
           "displayName": "Messi almeno 1 tiro in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222010106",
@@ -275,7 +275,7 @@
           "class": "CORE",
           "displayName": "Lamine Yamal almeno 1 tiro in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222019204",
@@ -289,7 +289,7 @@
           "class": "CORE",
           "displayName": "Oyarzabal almeno 1 tiro in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222044146",
@@ -303,7 +303,7 @@
           "class": "CORE",
           "displayName": "Spagna Over 3,5 corner",
           "marketType": "U/O CORNER SQUADRA X",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222043862",
@@ -317,7 +317,7 @@
           "class": "CORE",
           "displayName": "Argentina Over 2,5 corner",
           "marketType": "U/O CORNER SQUADRA X",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         }
       ]
     },
@@ -338,7 +338,7 @@
           "class": "CORE",
           "displayName": "Under 2,5",
           "marketType": "UNDER/OVER",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5221268151",
@@ -352,7 +352,7 @@
           "class": "CORE",
           "displayName": "Primo tempo Under 1,5",
           "marketType": "UNDER/OVER TEMPO X",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222010074",
@@ -366,7 +366,7 @@
           "class": "CORE",
           "displayName": "Messi almeno 1 tiro in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222010106",
@@ -380,7 +380,7 @@
           "class": "CORE",
           "displayName": "Lamine Yamal almeno 1 tiro in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222019204",
@@ -394,7 +394,7 @@
           "class": "CORE",
           "displayName": "Oyarzabal almeno 1 tiro in porta incl. TS",
           "marketType": "U/O  TIRI IN PORTA GIOCATORE (DUO) INC PALI TRAVERSE INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222044146",
@@ -408,7 +408,7 @@
           "class": "CORE",
           "displayName": "Spagna Over 3,5 corner",
           "marketType": "U/O CORNER SQUADRA X",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222043862",
@@ -422,7 +422,7 @@
           "class": "CORE",
           "displayName": "Argentina Over 2,5 corner",
           "marketType": "U/O CORNER SQUADRA X",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222010854",
@@ -436,7 +436,7 @@
           "class": "CORE",
           "displayName": "Messi Over 2,5 tiri totali incl. TS",
           "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         },
         {
           "id": "event-5222010858",
@@ -450,7 +450,7 @@
           "class": "CORE",
           "displayName": "Lamine Yamal Over 2,5 tiri totali incl. TS",
           "marketType": "U/O TIRI TOTALI GIOCATORE (DUO) INC TS",
-          "reason": "Evento coerente con formazioni probabili, scenario tecnico e volume previsto."
+          "reason": "Evento coerente con formazioni ufficiali, scenario tecnico e volume previsto."
         }
       ]
     }

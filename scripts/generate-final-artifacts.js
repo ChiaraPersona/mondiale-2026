@@ -90,8 +90,8 @@ const matches = [
     italianSlug: 'spagna-argentina',
     quoteFile: 'data/quote/spagna-argentina-quote.json',
     match: 'Spagna-Argentina',
-    lineupsLabel: 'Formazioni probabili',
-    lineupsStatus: 'formazioni probabili fornite il 18/07/2026',
+    lineupsLabel: 'Formazioni ufficiali',
+    lineupsStatus: 'formazioni ufficiali del 19/07/2026',
     round: 'Finale',
     date: '19 luglio 2026',
     time: '21:00',
@@ -120,27 +120,27 @@ const matches = [
     away: { name: 'Argentina', flag: 'flags/argentina.svg', key: 'argentina' },
     centralScore: '1-1 nei 90 minuti',
     title: "La Spagna può comandare il campo; l'Argentina può vincere il momento decisivo.",
-    deck: "Le probabili confermano il duello tra controllo spagnolo e resilienza argentina. La Spagna parte leggermente avanti nei 90 minuti, ma Messi e la struttura a cinque centrocampisti rendono l'Argentina più forte se la finale resta in equilibrio.",
-    probabilities: 'Spagna 39% · X 34% · Argentina 27%',
+    deck: "Le formazioni ufficiali confermano il controllo spagnolo e trasformano l'Argentina in un 4-4-2 più largo: Nico González e De Paul sostengono Messi-Álvarez, ma senza un mediano fisso resta meno protezione davanti alla difesa. La Spagna parte avanti nei 90 minuti; l'Argentina conserva valore se la finale resta in equilibrio.",
+    probabilities: 'Spagna 42% · X 34% · Argentina 24%',
     winner: 'Argentina alza la coppa',
     formationHome: { shape: '4-2-3-1', players: 'Unai Simón; Pedro Porro, Cubarsí, Laporte, Cucurella; Rodri, Fabián Ruiz; Lamine Yamal, Dani Olmo, Baena; Oyarzabal.' },
-    formationAway: { shape: '4-1-3-2', players: 'Emiliano Martínez; Molina, Romero, Lisandro Martínez, Tagliafico; Paredes; Enzo Fernández, Mac Allister, De Paul; Messi; Julián Álvarez.' },
+    formationAway: { shape: '4-4-2', players: 'Emiliano Martínez; Montiel, Romero, Lisandro Martínez, Tagliafico; De Paul, Mac Allister, Enzo Fernández, Nico González; Messi, Julián Álvarez.' },
     analysis: [
       "La Spagna conserva la struttura che le permette di occupare stabilmente la metà campo rivale. Rodri e Fabián Ruiz danno il primo controllo, Dani Olmo riceve tra le linee e Lamine Yamal può isolare Tagliafico. Oyarzabal offre più mobilità che peso d'area.",
-      "L'Argentina aggiunge De Paul e protegge Paredes con una linea interna molto stretta. Messi può partire dietro Álvarez senza dover seguire il terzino; Molina ed Enzo devono invece assorbire il lato forte di Yamal e Porro.",
-      "Il mercato rende la Spagna favorita nei 90 minuti, ma il pareggio a 3,05 è coerente con una finale in cui entrambe vorranno evitare la prima perdita centrale. L'Under 2,5 resta la base più solida delle quote principali."
+      "L'Argentina dispone De Paul e Nico González sulle corsie, con Mac Allister ed Enzo Fernández al centro. Messi può muoversi alle spalle di Álvarez, ma Montiel e Tagliafico dovranno scegliere con attenzione quando accompagnare per non lasciare isolati Romero e Lisandro Martínez.",
+      "Il 4-4-2 argentino aumenta le uscite laterali ma concede alla Spagna una superiorità potenziale tra Rodri, Fabián Ruiz e Olmo. Il pareggio resta lo scenario centrale; l'Under 2,5 continua a essere la base più coerente delle quote principali."
     ],
-    key: "Rodri contro Messi dopo la perdita del pallone. Se la Spagna impedisce la prima ricezione argentina può accumulare territorio; se Messi riceve fronte alla porta, Álvarez attacca immediatamente lo spazio dietro Laporte e Cubarsí.",
-    volumes: 'Spagna 11-16 tiri, 4-7 nello specchio e 4-7 corner. Argentina 11-16 tiri, 4-6 nello specchio e 3-6 corner. Falli totali attesi: 23-29.',
+    key: "Olmo tra Mac Allister ed Enzo Fernández. Se la Spagna trova quel corridoio può isolare Yamal contro Tagliafico; se l'Argentina recupera e serve subito Messi, Álvarez e Nico González possono attaccare lo spazio alle spalle dei terzini.",
+    volumes: 'Spagna 13-18 tiri, 5-8 nello specchio e 5-8 corner. Argentina 9-14 tiri, 3-6 nello specchio e 3-6 corner. Falli totali attesi: 23-30.',
     teamEvidence: [
       { team: 'Spagna', sample: '6 gare pre-semifinale', averages: '20,3 tiri nelle 5 righe complete · 6,7 in porta · 7,3 corner · 11,3 falli fatti · 9,8 subiti', latest: 'Semifinale con la Francia: 10 tiri, 2 in porta, 1 corner, 12 falli fatti e 11 subiti.', reading: 'Il dato torneo resta dominante, ma l’ultima gara segnala un possibile calo di volume quando la Spagna sceglie controllo e protezione del risultato.' },
-      { team: 'Argentina', sample: '5 gare pre-semifinale', averages: '15,0 tiri · 6,4 in porta · 4,6 corner · 11,8 falli fatti · 11,4 subiti', latest: 'Ultime due disponibili: 22 tiri, 7 in porta e 8 corner con la Svizzera; 15 tiri, 5 in porta e 6 corner con l’Inghilterra. In semifinale 15 falli fatti e 11 subiti.', reading: 'Il 4-1-3-2 non è soltanto difensivo: Messi, Álvarez e gli inserimenti di Enzo/Mac Allister sostengono una previsione più alta di tiri e corner rispetto alla prima bozza.' }
+      { team: 'Argentina', sample: '5 gare pre-semifinale', averages: '15,0 tiri · 6,4 in porta · 4,6 corner · 11,8 falli fatti · 11,4 subiti', latest: 'Ultime due disponibili: 22 tiri, 7 in porta e 8 corner con la Svizzera; 15 tiri, 5 in porta e 6 corner con l’Inghilterra. In semifinale 15 falli fatti e 11 subiti.', reading: 'Il 4-4-2 ufficiale mantiene Messi e Álvarez vicini e aggiunge corsa laterale con De Paul e Nico González, ma senza un mediano fisso può ridurre il tempo trascorso nella metà campo spagnola.' }
     ],
     cards: [
-      ['Leandro Paredes', 'Possibile primo ammonito', 'Zona di Olmo e copertura delle uscite di Messi.'],
-      ['Nahuel Molina', 'Medio-alto', 'Duello continuo con Lamine Yamal.'],
-      ['Marc Cucurella', 'Medio-alto', 'Interventi preventivi su Messi e Álvarez.'],
-      ['Cristian Romero', 'Medio', 'Aggressività in anticipo su Oyarzabal.'],
+      ['Nicolás Tagliafico', 'Possibile primo ammonito', 'Duello diretto e continuo con Lamine Yamal.'],
+      ['Rodrigo De Paul', 'Medio-alto', 'Deve stringere su Olmo e coprire le avanzate di Montiel.'],
+      ['Cristian Romero', 'Medio-alto', 'Aggressività in anticipo su Oyarzabal.'],
+      ['Marc Cucurella', 'Medio', 'Interventi preventivi su Messi e Álvarez.'],
       ['Rodri', 'Medio', 'Fallo tattico possibile sulle transizioni argentine.']
     ],
     picks(pool) { return [
